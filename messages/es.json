@@ -1,0 +1,149 @@
+{
+    "HomePage": {
+        "title": "El aprendizaje que salta con tus hijos",
+        "description": "Juegos educativos divertidos, seguros y atractivos para niños",
+        "cta": "Empieza Hoy"
+    },
+    "LocaleSwitcher": {
+        "label": "Cambiar idioma",
+        "locale": "{locale, select, en {Inglés} es {Español} fr {Francés} pt {Portugués} it {Italiano} de {Alemán} tr {Turco} ru {Ruso} zh {Chino} other {Desconocido}}"
+    },
+    "Navigation": {
+        "subjects": "Asignaturas",
+        "math": "Matemáticas",
+        "grade4": "4º de Primaria",
+        "language": "Lengua",
+        "science": "Ciencias",
+        "social": "Ciencias Sociales",
+        "selectMath": "Selecciona Matemáticas para ver los niveles",
+        "levels": {
+            "primary": "Primaria",
+            "grade1": "1º de Primaria",
+            "grade2": "2º de Primaria",
+            "grade3": "3º de Primaria",
+            "grade4": "4º de Primaria",
+            "grade5": "5º de Primaria",
+            "grade6": "6º de Primaria"
+        }
+    },
+    "Common": {
+        "getStarted": "Empezar"
+    },
+    "MathGrade4": {
+        "title": "Explora Fichas de Matemáticas de 4º Primaria por Tema",
+        "topics": {
+            "multiplication": "Multiplicación",
+            "multiplicationDesc": "Números de varios dígitos",
+            "division": "División",
+            "divisionDesc": "Problemas verbales",
+            "fractions": "Fracciones",
+            "fractionsDesc": "Matemáticas de la vida real",
+            "decimals": "Decimales",
+            "decimalsDesc": "Aprende conversión",
+            "geometry": "Geometría",
+            "geometryDesc": "Líneas, formas, ángulos",
+            "measurement": "Medición",
+            "measurementDesc": "Unidades y Conversiones"
+        }
+    },
+    "FractionsGrade4": {
+        "title": "Práctica de Fracciones",
+        "description": "Completa los ejercicios a continuación para practicar fracciones.",
+        "checkAnswers": "Corregir",
+        "reset": "Reiniciar",
+        "score": "Tu Puntuación: {score}/{total}",
+        "fillInTheBlank": "1. Escribe la fracción que representa las porciones coloreadas.",
+        "multipleChoice": "2. Elige la opción correcta.",
+        "numerator": "Numerador",
+        "denominator": "Denominador",
+        "matching": "3. Empareja el dibujo con su fracción correcta.",
+        "generateNew": "Generar Nuevos Ejercicios",
+        "feedback": {
+            "perfect": "¡Perfecto! ¡Eres un mago de las matemáticas! 🌟",
+            "great": "¡Genial! ¡Ya casi lo tienes! 🚀",
+            "good": "¡Buen esfuerzo! ¡Sigue practicando! 💪",
+            "tryAgain": "¡No te rindas! ¡Inténtalo de nuevo! 💫"
+        },
+        "textChoice": "4. Observa y elige la opción correcta.",
+        "textMatching": "5. Relaciona cada fracción con su forma de leerla.",
+        "fractionNames": {
+            "1_2": "Un medio",
+            "1_3": "Un tercio",
+            "2_3": "Dos tercios",
+            "1_4": "Un cuarto",
+            "2_4": "Dos cuartos",
+            "3_4": "Tres cuartos",
+            "1_5": "Un quinto",
+            "2_5": "Dos quintos",
+            "3_5": "Tres quintos",
+            "4_5": "Cuatro quintos",
+            "1_6": "Un sexto",
+            "2_6": "Dos sextos",
+            "3_6": "Tres sextos",
+            "4_6": "Cuatro sextos",
+            "5_6": "Cinco sextos",
+            "1_7": "Un séptimo",
+            "2_7": "Dos séptimos",
+            "1_8": "Un octavo",
+            "3_8": "Tres octavos",
+            "5_8": "Cinco octavos",
+            "7_8": "Siete octavos",
+            "1_9": "Un noveno",
+            "4_9": "Cuatro novenos",
+            "7_9": "Siete novenos",
+            "1_10": "Un décimo",
+            "3_10": "Tres décimos",
+            "6_10": "Seis décimos",
+            "9_10": "Nueve décimos"
+        }
+    },
+    "KidsPage": {
+        "title": "Zona de Niños",
+        "description": "¡Juegos divertidos y aventuras de aprendizaje!",
+        "gamesTitle": "Juegos Populares",
+        "math": "Matemáticas",
+        "science": "Ciencias"
+    },
+    "ParentsPage": {
+        "title": "Panel de Padres",
+        "description": "Sigue el progreso de tu hijo y gestiona rutas de aprendizaje.",
+        "features": "Características para Padres"
+    },
+    "TeachersPage": {
+        "title": "Área de Profesores",
+        "description": "Recursos para implementación en el aula y seguimiento de alumnos.",
+        "resources": "Recursos de Aula"
+    },
+    "GamesPage": {
+        "title": "Juegos Educativos",
+        "description": "Aprende jugando con nuestra selección curada de juegos educativos."
+    },
+    "LearningPage": {
+        "title": "Ruta de Aprendizaje",
+        "description": "Elige una asignatura para empezar tu aventura",
+        "subjects": {
+            "math": "Matemáticas",
+            "mathDesc": "Números, geometría y juegos de lógica",
+            "science": "Ciencias",
+            "scienceDesc": "Explora el mundo que te rodea",
+            "language": "Lengua",
+            "languageDesc": "Lectura, escritura e historias",
+            "social": "Ciencias Sociales",
+            "socialDesc": "Historia, geografía y cultura"
+        },
+        "explore": "Explorar"
+    },
+    "MathSelection": {
+        "title": "Grados de Matemáticas",
+        "description": "Selecciona tu curso"
+    },
+    "NotFound": {
+        "title": "¡Ups! ¿A dónde hemos saltado?",
+        "description": "Esta página parece estar escondiéndose de nosotros.",
+        "home": "Saltar al Inicio"
+    },
+    "BlogPage": {
+        "title": "Blog de Eduaroo",
+        "description": "Últimas noticias y consejos educativos."
+    }
+}

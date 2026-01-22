@@ -1,0 +1,51 @@
+{
+    "HomePage": {
+        "title": "Learning that jumps with your kids",
+        "description": "Eduaroo is the best place for kids to learn."
+    },
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, en {English} es {Español} fr {Français} pt {Português} it {Italiano} de {Deutsch} tr {Türkçe} ru {Русский} zh {中文} other {Unknown}}"
+    },
+    "Navigation": {
+        "home": "Home",
+        "kids": "Kids",
+        "parents": "Parents",
+        "teachers": "Teachers",
+        "games": "Games",
+        "learning": "Learning",
+        "blog": "Blog"
+    },
+    "Common": {
+        "getStarted": "Get Started"
+    },
+    "KidsPage": {
+        "title": "Kids Zone",
+        "description": "Fun games and learning adventures!",
+        "gamesTitle": "Popular Games",
+        "math": "Math",
+        "science": "Science"
+    },
+    "ParentsPage": {
+        "title": "Parents Dashboard",
+        "description": "Track your child's progress and manage learning paths.",
+        "features": "Features for Parents"
+    },
+    "TeachersPage": {
+        "title": "Teachers Area",
+        "description": "Resources for classroom implementation and student tracking.",
+        "resources": "Classroom Resources"
+    },
+    "GamesPage": {
+        "title": "Educational Games",
+        "description": "Learn through play with our curated selection of educational games."
+    },
+    "LearningPage": {
+        "title": "Learning Path",
+        "description": "Structured curriculum for every grade level."
+    },
+    "BlogPage": {
+        "title": "Eduaroo Blog",
+        "description": "Latest news and educational tips."
+    }
+}

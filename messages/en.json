@@ -1,0 +1,149 @@
+{
+    "HomePage": {
+        "title": "Learning that jumps with your kids",
+        "description": "Fun, safe and engaging educational games for children",
+        "cta": "Start Learning Today"
+    },
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, en {English} es {Español} fr {Français} pt {Português} it {Italiano} de {Deutsch} tr {Türkçe} ru {Русский} zh {中文} other {Unknown}}"
+    },
+    "Navigation": {
+        "subjects": "Subjects",
+        "math": "Math",
+        "grade4": "4th Grade",
+        "language": "Language",
+        "science": "Science",
+        "social": "Social Studies",
+        "selectMath": "Select Math to see levels",
+        "levels": {
+            "primary": "Primary",
+            "grade1": "1st Grade",
+            "grade2": "2nd Grade",
+            "grade3": "3rd Grade",
+            "grade4": "4th Grade",
+            "grade5": "5th Grade",
+            "grade6": "6th Grade"
+        }
+    },
+    "Common": {
+        "getStarted": "Get Started"
+    },
+    "MathGrade4": {
+        "title": "Explore 4th Grade Math Worksheets by Topic",
+        "topics": {
+            "multiplication": "Multiplication",
+            "multiplicationDesc": "Multi-digit numbers",
+            "division": "Division",
+            "divisionDesc": "Practice word problems",
+            "fractions": "Fractions",
+            "fractionsDesc": "Real-life math",
+            "decimals": "Decimals",
+            "decimalsDesc": "Learn conversion",
+            "geometry": "Geometry",
+            "geometryDesc": "Lines, shapes, angles",
+            "measurement": "Measurement",
+            "measurementDesc": "Units and Conversions"
+        }
+    },
+    "FractionsGrade4": {
+        "title": "Fractions Practice",
+        "description": "Complete the exercises below to practice fractions.",
+        "checkAnswers": "Check Answers",
+        "reset": "Reset",
+        "score": "Your Score: {score}/{total}",
+        "fillInTheBlank": "1. Write the fraction that represents the colored parts.",
+        "multipleChoice": "2. Choose the correct option.",
+        "numerator": "Numerator",
+        "denominator": "Denominator",
+        "matching": "3. Match the picture with the correct fraction.",
+        "generateNew": "Generate New Exercises",
+        "feedback": {
+            "perfect": "Perfect! You're a math wizard! 🌟",
+            "great": "Great job! Almost there! 🚀",
+            "good": "Good effort! Keep practicing! 💪",
+            "tryAgain": "Don't give up! Try again! 💫"
+        },
+        "textChoice": "4. Look and choose the correct option.",
+        "textMatching": "5. Match each fraction with how it's read.",
+        "fractionNames": {
+            "1_2": "One half",
+            "1_3": "One third",
+            "2_3": "Two thirds",
+            "1_4": "One quarter",
+            "2_4": "Two quarters",
+            "3_4": "Three quarters",
+            "1_5": "One fifth",
+            "2_5": "Two fifths",
+            "3_5": "Three fifths",
+            "4_5": "Four fifths",
+            "1_6": "One sixth",
+            "2_6": "Two sixths",
+            "3_6": "Three sixths",
+            "4_6": "Four sixths",
+            "5_6": "Five sixths",
+            "1_7": "One seventh",
+            "2_7": "Two sevenths",
+            "1_8": "One eighth",
+            "3_8": "Three eighths",
+            "5_8": "Five eighths",
+            "7_8": "Seven eighths",
+            "1_9": "One ninth",
+            "4_9": "Four ninths",
+            "7_9": "Seven ninths",
+            "1_10": "One tenth",
+            "3_10": "Three tenths",
+            "6_10": "Six tenths",
+            "9_10": "Nine tenths"
+        }
+    },
+    "KidsPage": {
+        "title": "Kids Zone",
+        "description": "Fun games and learning adventures!",
+        "gamesTitle": "Popular Games",
+        "math": "Math",
+        "science": "Science"
+    },
+    "ParentsPage": {
+        "title": "Parents Dashboard",
+        "description": "Track your child's progress and manage learning paths.",
+        "features": "Features for Parents"
+    },
+    "TeachersPage": {
+        "title": "Teachers Area",
+        "description": "Resources for classroom implementation and student tracking.",
+        "resources": "Classroom Resources"
+    },
+    "GamesPage": {
+        "title": "Educational Games",
+        "description": "Learn through play with our curated selection of educational games."
+    },
+    "LearningPage": {
+        "title": "Learning Path",
+        "description": "Choose a subject to start your adventure",
+        "subjects": {
+            "math": "Mathematics",
+            "mathDesc": "Numbers, geometry, and logic games",
+            "science": "Science",
+            "scienceDesc": "Explore the world around you",
+            "language": "Language",
+            "languageDesc": "Reading, writing, and stories",
+            "social": "Social Studies",
+            "socialDesc": "History, geography, and culture"
+        },
+        "explore": "Explore"
+    },
+    "MathSelection": {
+        "title": "Math Grades",
+        "description": "Select your grade level"
+    },
+    "NotFound": {
+        "title": "Oops! Where did we jump to?",
+        "description": "This page seems to be hiding from us.",
+        "home": "Jump Home"
+    },
+    "BlogPage": {
+        "title": "Eduaroo Blog",
+        "description": "Latest news and educational tips."
+    }
+}
