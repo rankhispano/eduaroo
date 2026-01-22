@@ -1,10 +1,23 @@
-'use client';
-import NotFound from "./[locale]/not-found";
+// Server Component 
+// actually not-found.tsx can be server.
+// Let's try server component.
 
-// Error components must be Client Components
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import NotFoundContent from '@/components/NotFoundContent';
+import './globals.css';
 
-export default function NotFound404() {
+export default async function NotFound() {
+    // Default to English for global 404
+    const messages = await getMessages({ locale: 'en' });
+
     return (
-        <NotFound />
+        <html lang="en">
+            <body className="font-sans antialiased">
+                <NextIntlClientProvider locale="en" messages={messages}>
+                    <NotFoundContent />
+                </NextIntlClientProvider>
+            </body>
+        </html>
     );
 }
