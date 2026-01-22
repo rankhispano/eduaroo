@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
-import { Link } from '@/i18n/routing';
+import { Link } from '@/i18n/navigation';
 import { Calculator, ArrowRight, GraduationCap } from 'lucide-react';
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {

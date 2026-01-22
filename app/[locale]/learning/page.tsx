@@ -40,7 +40,7 @@ export default function LearningPage() {
 
 import { Calculator, BookOpen, FlaskConical, Users, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
-import { Link as I18nLink } from '@/i18n/routing';
+import { Link as I18nLink } from '@/i18n/navigation';
 
 function Card({ subject, t }: { subject: any, t: any }) {
     const icons = {

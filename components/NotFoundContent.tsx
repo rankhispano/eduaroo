@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import { Link } from '@/i18n/routing';
+import { Link } from '@/i18n/navigation';
 import Mascot from '@/components/landing/Mascot';
 import { Home } from 'lucide-react';
 

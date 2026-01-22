@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link } from '@/i18n/routing';
+import { Link } from '@/i18n/navigation';
 import { ChevronDown, ChevronRight, BookOpen, Calculator, Globe, FlaskConical, Users } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 

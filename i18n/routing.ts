@@ -9,5 +9,4 @@ export const routing = defineRouting({
     defaultLocale: 'en'
 });
 
-export const { Link, redirect, usePathname, useRouter, getPathname } =
-    createNavigation(routing);
+// Navigation exports have been moved to i18n/navigation.ts to avoid Edge Runtime issues in Middleware

@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import AnimatedCloud from './AnimatedCloud';
 import SchoolIllustration from './SchoolIllustration';
 import CTAButton from './CTAButton';
-import { Link } from '@/i18n/routing';
+import { Link } from '@/i18n/navigation';
 
 export default function HeroSection() {
     const t = useTranslations('HomePage');
