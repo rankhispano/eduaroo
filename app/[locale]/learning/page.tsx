@@ -13,6 +13,8 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
     };
 }
 
+import SubjectCard from '@/components/SubjectCard';
+
 export default function LearningPage() {
     const t = useTranslations('LearningPage');
     const subjects = [
@@ -30,45 +32,17 @@ export default function LearningPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {subjects.map((subject) => (
-                        <Card key={subject.id} subject={subject} t={t} />
+                        <SubjectCard
+                            key={subject.id}
+                            subject={subject}
+                            title={t(`subjects.${subject.id}`)}
+                            description={t(`subjects.${subject.id}Desc`)}
+                            exploreText={t('explore')}
+                            comingSoonText={t('comingSoon')}
+                        />
                     ))}
                 </div>
             </div>
         </div>
-    );
-}
-
-import { Calculator, BookOpen, FlaskConical, Users, ArrowRight } from 'lucide-react';
-import Link from 'next/link';
-import { Link as I18nLink } from '@/i18n/navigation';
-
-function Card({ subject, t }: { subject: any, t: any }) {
-    const icons = {
-        Calculator,
-        BookOpen,
-        FlaskConical,
-        Users
-    };
-    const Icon = icons[subject.icon as keyof typeof icons];
-
-    return (
-        <I18nLink href={subject.href} className="group bg-white dark:bg-gray-900 rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-800 flex flex-col h-full hover:-translate-y-1">
-            <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-6 ${subject.bg}`}>
-                <Icon className="w-8 h-8" />
-            </div>
-
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-brand-blue transition-colors">
-                {t(`subjects.${subject.id}`)}
-            </h3>
-
-            <p className="text-gray-500 dark:text-gray-400 mb-6 flex-grow">
-                {t(`subjects.${subject.id}Desc`)}
-            </p>
-
-            <div className="flex items-center gap-2 font-bold text-sm text-brand-blue group-hover:translate-x-1 transition-transform">
-                {t('explore')}
-                <ArrowRight className="w-4 h-4" />
-            </div>
-        </I18nLink>
     );
 }

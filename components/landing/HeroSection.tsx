@@ -27,9 +27,27 @@ export default function HeroSection() {
             {/* Hills */}
             <div className="absolute md:bottom-0 bottom-8 left-0 right-0 h-[40%]">
                 {/* Back hill */}
-                <svg className="absolute bottom-0 w-full scale-x-[-1]" viewBox="0 0 1440 400" preserveAspectRatio="none">
+                <svg className="absolute bottom-0 w-full scale-x-[-1] hidden xl:block" viewBox="0 0 1440 500" preserveAspectRatio="none">
                     <path
-                        d="M0,400 L0,200 Q360,50 720,200 Q1080,350 1440,150 L1440,400 Z"
+                        d="M0,500 L0,200 Q360,50 720,200 Q1080,350 1440,150 L1440,500 Z"
+                        fill="#2D8B47"
+                    />
+                </svg>
+                <svg className="absolute bottom-0 w-full scale-x-[-1] hidden lg:block xl:hidden" viewBox="0 0 1440 600" preserveAspectRatio="none">
+                    <path
+                        d="M0,600 L0,200 Q360,50 720,200 Q1080,350 1440,150 L1440,600 Z"
+                        fill="#2D8B47"
+                    />
+                </svg>
+                <svg className="absolute bottom-0 w-full scale-x-[-1] hidden md:block lg:hidden" viewBox="0 0 1440 700" preserveAspectRatio="none">
+                    <path
+                        d="M0,700 L0,200 Q360,50 720,200 Q1080,350 1440,150 L1440,700 Z"
+                        fill="#2D8B47"
+                    />
+                </svg>
+                <svg className="absolute bottom-0 w-full scale-x-[-1] block md:hidden" viewBox="0 0 1440 800" preserveAspectRatio="none">
+                    <path
+                        d="M0,800 L0,200 Q360,50 720,200 Q1080,350 1440,150 L1440,800 Z"
                         fill="#2D8B47"
                     />
                 </svg>

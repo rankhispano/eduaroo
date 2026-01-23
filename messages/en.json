@@ -131,7 +131,8 @@
             "social": "Social Studies",
             "socialDesc": "History, geography, and culture"
         },
-        "explore": "Explore"
+        "explore": "Explore",
+        "comingSoon": "Coming Soon"
     },
     "MathSelection": {
         "title": "Math Grades",
