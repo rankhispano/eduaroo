@@ -25,19 +25,12 @@ export default function HeroSection() {
             <AnimatedCloud size="small" speed={40} delay={-20} top="12%" />
 
             {/* Hills */}
-            <div className="absolute bottom-0 left-0 right-0 h-[40%]">
+            <div className="absolute md:bottom-0 bottom-8 left-0 right-0 h-[40%]">
                 {/* Back hill */}
-                <svg className="absolute bottom-0 w-full" viewBox="0 0 1440 400" preserveAspectRatio="none">
+                <svg className="absolute bottom-0 w-full scale-x-[-1]" viewBox="0 0 1440 400" preserveAspectRatio="none">
                     <path
                         d="M0,400 L0,200 Q360,50 720,200 Q1080,350 1440,150 L1440,400 Z"
                         fill="#2D8B47"
-                    />
-                </svg>
-                {/* Front hill - Sweeping up to the right to hold the school */}
-                <svg className="absolute bottom-0 w-full" viewBox="0 0 1440 300" preserveAspectRatio="none">
-                    <path
-                        d="M0,300 L0,280 Q360,250 720,200 Q1080,150 1440,100 L1440,300 Z"
-                        fill="#22C55E"
                     />
                 </svg>
             </div>
@@ -47,13 +40,13 @@ export default function HeroSection() {
                 <svg viewBox="0 0 1440 120" preserveAspectRatio="none" className="w-full h-24">
                     <path
                         d="M0,120 L0,60 Q180,20 360,60 Q540,100 720,60 Q900,20 1080,60 Q1260,100 1440,60 L1440,120 Z"
-                        fill="white"
+                        fill="#0f5824ff"
                     />
                 </svg>
             </div>
 
             {/* Content */}
-            <div className="relative z-10 container mx-auto px-6 pt-24 pb-32 min-h-screen flex items-center">
+            <div className="relative z-10 container mx-auto px-6 md:pt-24 md:pb-32 min-h-screen flex items-center">
                 <div className="grid lg:grid-cols-2 gap-12 items-center w-full">
                     {/* Left: Text content */}
                     <motion.div
