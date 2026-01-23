@@ -25,7 +25,7 @@ export default function MatchingExercise({ pairs, onUpdate, showResults }: Match
     const [connections, setConnections] = useState<Record<number, number>>({}); // visualId -> fractionId
 
     const containerRef = useRef<HTMLDivElement>(null);
-    const [svgLines, setSvgLines] = useState<{ x1: number, y1: number, x2: number, y2: number, color: string }[]>([]);
+    const [svgLines, setSvgLines] = useState<{ x1: number, y1: number, x2: number, y2: number, color: string, width?: number, dash?: number }[]>([]);
 
     useEffect(() => {
         // Shuffle on mount or when pairs change
@@ -39,36 +39,75 @@ export default function MatchingExercise({ pairs, onUpdate, showResults }: Match
     useEffect(() => {
         if (!containerRef.current) return;
 
-        const newLines = Object.entries(connections).map(([visId, fracId]) => {
+        const newLines: { x1: number, y1: number, x2: number, y2: number, color: string, width: number, dash: number }[] = [];
+
+        // 1. Draw User Connections
+        Object.entries(connections).forEach(([visId, fracId]) => {
             const vEl = document.getElementById(`visual-${visId}`);
             const fEl = document.getElementById(`fraction-${fracId}`);
-
-            if (!vEl || !fEl || !containerRef.current) return null;
+            if (!vEl || !fEl || !containerRef.current) return;
 
             const containerRect = containerRef.current.getBoundingClientRect();
             const vRect = vEl.getBoundingClientRect();
             const fRect = fEl.getBoundingClientRect();
 
-            // Color logic for results
-            let color = "#3b82f6"; // brand-blue default
+            let color = "#3b82f6"; // Default Blue
             if (showResults) {
-                // Check if correct match
-                // Since we use the same pair ID for both, if visId == fracId it's correct (assuming IDs are unique per pair)
-                // Keys are strings in Object.entries, values are numbers.
+                // Correct if IDs match
                 color = parseInt(visId) === fracId ? "#22c55e" : "#ef4444";
             }
 
-            return {
+            newLines.push({
                 x1: vRect.right - containerRect.left,
                 y1: vRect.top + vRect.height / 2 - containerRect.top,
                 x2: fRect.left - containerRect.left,
                 y2: fRect.top + fRect.height / 2 - containerRect.top,
-                color
-            };
-        }).filter(Boolean) as any[];
+                color,
+                width: 3,
+                dash: 0
+            });
+        });
+
+        // 2. Draw Missing Correct Connections (if showing results)
+        if (showResults) {
+            pairs.forEach(pair => {
+                const visId = pair.id;
+                const fracId = pair.id; // Correct matching is same ID
+
+                // If user ALREADY connected this correctly, we technically don't need to draw it again, 
+                // but drawing it again in green is harmless (overlaps).
+                // However, let's prioritize showing the solution lines. 
+                // A common pattern is: User line (Red/Green) + Solution line (Green Dashed or underneath).
+                // Let's draw correct green lines underneath if not already matched correctly.
+
+                // If the user made the correct connection, we already drew a green solid line above.
+                // If the user did NOT make this connection (missed or connected wrong), we should show where it SHOULD go.
+
+                const userConnectedTo = connections[visId];
+                if (userConnectedTo === fracId) return; // Already correctly connected by user
+
+                const vEl = document.getElementById(`visual-${visId}`);
+                const fEl = document.getElementById(`fraction-${fracId}`);
+                if (!vEl || !fEl || !containerRef.current) return;
+
+                const containerRect = containerRef.current.getBoundingClientRect();
+                const vRect = vEl.getBoundingClientRect();
+                const fRect = fEl.getBoundingClientRect();
+
+                newLines.unshift({ // Add to beginning to render BEHIND user lines
+                    x1: vRect.right - containerRect.left,
+                    y1: vRect.top + vRect.height / 2 - containerRect.top,
+                    x2: fRect.left - containerRect.left,
+                    y2: fRect.top + fRect.height / 2 - containerRect.top,
+                    color: "#22c55e", // Green
+                    width: 2,
+                    dash: 5 // Dashed to distinguish "Solution" from "User Answer"
+                });
+            });
+        }
 
         setSvgLines(newLines);
-    }, [connections, visualItems, fractionItems, showResults]);
+    }, [connections, visualItems, fractionItems, showResults, pairs]);
 
     // Also re-calculate lines on window resize
     useEffect(() => {
@@ -111,7 +150,8 @@ export default function MatchingExercise({ pairs, onUpdate, showResults }: Match
                         x1={line.x1} y1={line.y1}
                         x2={line.x2} y2={line.y2}
                         stroke={line.color}
-                        strokeWidth="3"
+                        strokeWidth={line.width || 3}
+                        strokeDasharray={line.dash || 0}
                         strokeLinecap="round"
                     />
                 ))}

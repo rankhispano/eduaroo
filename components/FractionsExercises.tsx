@@ -109,7 +109,7 @@ function TextMatchingExercise({
     const [selectedLeft, setSelectedLeft] = useState<number | null>(null);
     const [connections, setConnections] = useState<Record<number, number>>({});
     const containerRef = useRef<HTMLDivElement>(null);
-    const [svgLines, setSvgLines] = useState<{ x1: number; y1: number; x2: number; y2: number; color: string }[]>([]);
+    const [svgLines, setSvgLines] = useState<{ x1: number; y1: number; x2: number; y2: number; color: string; width?: number; dash?: number }[]>([]);
 
     useEffect(() => {
         setLeftItems([...pairs].sort(() => Math.random() - 0.5));
@@ -120,10 +120,13 @@ function TextMatchingExercise({
 
     useEffect(() => {
         if (!containerRef.current) return;
-        const newLines = Object.entries(connections).map(([leftId, rightId]) => {
+        const newLines: { x1: number, y1: number, x2: number, y2: number, color: string, width: number, dash: number }[] = [];
+
+        // 1. User Connections
+        Object.entries(connections).forEach(([leftId, rightId]) => {
             const lEl = document.getElementById(`text-frac-${leftId}`);
             const rEl = document.getElementById(`text-name-${rightId}`);
-            if (!lEl || !rEl || !containerRef.current) return null;
+            if (!lEl || !rEl || !containerRef.current) return;
             const containerRect = containerRef.current.getBoundingClientRect();
             const lRect = lEl.getBoundingClientRect();
             const rRect = rEl.getBoundingClientRect();
@@ -131,14 +134,46 @@ function TextMatchingExercise({
             if (showResults) {
                 color = parseInt(leftId) === rightId ? "#22c55e" : "#ef4444";
             }
-            return {
+            newLines.push({
                 x1: lRect.right - containerRect.left,
                 y1: lRect.top + lRect.height / 2 - containerRect.top,
                 x2: rRect.left - containerRect.left,
                 y2: rRect.top + rRect.height / 2 - containerRect.top,
-                color
-            };
-        }).filter(Boolean) as any[];
+                color,
+                width: 3,
+                dash: 0
+            });
+        });
+
+        // 2. Correct Solution Connections (if needed)
+        if (showResults) {
+            pairs.forEach(pair => {
+                const leftId = pair.id;
+                const rightId = pair.id;
+
+                const userConnectedTo = connections[leftId];
+                if (userConnectedTo === rightId) return; // Already correct
+
+                const lEl = document.getElementById(`text-frac-${leftId}`);
+                const rEl = document.getElementById(`text-name-${rightId}`);
+                if (!lEl || !rEl || !containerRef.current) return;
+                const containerRect = containerRef.current.getBoundingClientRect();
+                const lRect = lEl.getBoundingClientRect();
+                const rRect = rEl.getBoundingClientRect();
+
+                newLines.unshift({
+                    x1: lRect.right - containerRect.left,
+                    y1: lRect.top + lRect.height / 2 - containerRect.top,
+                    x2: rRect.left - containerRect.left,
+                    y2: rRect.top + rRect.height / 2 - containerRect.top,
+                    color: "#22c55e",
+                    width: 2,
+                    dash: 5
+                });
+            });
+        }
+
+        // Use functional state update to avoid dependency issues if any, though explicit set is fine here
         setSvgLines(newLines);
     }, [connections, leftItems, rightItems, showResults]);
 
@@ -165,7 +200,7 @@ function TextMatchingExercise({
         <div className="relative flex justify-between gap-24 p-4" ref={containerRef}>
             <svg className="absolute inset-0 pointer-events-none w-full h-full" style={{ zIndex: 10 }}>
                 {svgLines.map((line, i) => (
-                    <line key={i} x1={line.x1} y1={line.y1} x2={line.x2} y2={line.y2} stroke={line.color} strokeWidth="3" strokeLinecap="round" />
+                    <line key={i} x1={line.x1} y1={line.y1} x2={line.x2} y2={line.y2} stroke={line.color} strokeWidth={line.width || 3} strokeDasharray={line.dash || 0} strokeLinecap="round" />
                 ))}
             </svg>
 
@@ -420,12 +455,21 @@ export default function FractionsExercises() {
                                     <div className="flex items-center gap-2 text-2xl font-bold text-gray-700 dark:text-gray-300">
                                         <span>=</span>
                                         <div className="flex flex-col items-center gap-2">
-                                            <input type="number" className={`w-14 h-12 text-center border-2 rounded-lg bg-white dark:bg-gray-800 focus:outline-none focus:border-brand-blue transition-colors ${correct ? 'border-green-500 bg-green-50 text-green-700' : ''} ${wrong ? 'border-red-500 bg-red-50 text-red-700' : 'border-gray-200 dark:border-gray-700'}`} value={answers[ex.id]?.num || ''} onChange={(e) => handleInputChange(ex.id, 'num', e.target.value)} aria-label="Numerator" />
+                                            <input type="number" className={`no-spinner w-14 h-12 text-center border-2 rounded-lg bg-white dark:bg-gray-800 focus:outline-none focus:border-brand-blue transition-colors ${correct ? 'border-green-500 bg-green-50 text-green-700' : ''} ${wrong ? 'border-red-500 bg-red-50 text-red-700' : 'border-gray-200 dark:border-gray-700'}`} value={answers[ex.id]?.num || ''} onChange={(e) => handleInputChange(ex.id, 'num', e.target.value)} aria-label="Numerator" />
                                             <div className="w-14 h-0.5 bg-gray-800 dark:bg-gray-200 rounded-full"></div>
-                                            <input type="number" className={`w-14 h-12 text-center border-2 rounded-lg bg-white dark:bg-gray-800 focus:outline-none focus:border-brand-blue transition-colors ${correct ? 'border-green-500 bg-green-50 text-green-700' : ''} ${wrong ? 'border-red-500 bg-red-50 text-red-700' : 'border-gray-200 dark:border-gray-700'}`} value={answers[ex.id]?.den || ''} onChange={(e) => handleInputChange(ex.id, 'den', e.target.value)} aria-label="Denominator" />
+                                            <input type="number" className={`no-spinner w-14 h-12 text-center border-2 rounded-lg bg-white dark:bg-gray-800 focus:outline-none focus:border-brand-blue transition-colors ${correct ? 'border-green-500 bg-green-50 text-green-700' : ''} ${wrong ? 'border-red-500 bg-red-50 text-red-700' : 'border-gray-200 dark:border-gray-700'}`} value={answers[ex.id]?.den || ''} onChange={(e) => handleInputChange(ex.id, 'den', e.target.value)} aria-label="Denominator" />
                                         </div>
                                         {correct && <CheckCircle className="w-6 h-6 text-green-500 ml-2" />}
-                                        {wrong && <XCircle className="w-6 h-6 text-red-500 ml-2" />}
+                                        {wrong && (
+                                            <div className="flex items-center gap-2 ml-2">
+                                                <XCircle className="w-6 h-6 text-red-500" />
+                                                <div className="flex flex-col items-center opacity-70">
+                                                    <span className="text-sm font-bold text-green-600">{fEx.numerator}</span>
+                                                    <div className="w-4 h-0.5 bg-green-600 rounded-full"></div>
+                                                    <span className="text-sm font-bold text-green-600">{fEx.denominator}</span>
+                                                </div>
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                             );
@@ -534,7 +578,7 @@ export default function FractionsExercises() {
                 })}
 
                 {/* Actions */}
-                <div className="sticky bottom-6 bg-white/95 dark:bg-black/95 backdrop-blur-xl p-4 rounded-2xl shadow-[0_0_50px_rgba(0,0,0,0.1)] border border-gray-200/50 dark:border-gray-800/50 flex items-center justify-between z-50">
+                <div className="mt-8 bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 flex items-center justify-between">
                     <div className="text-lg font-bold">
                         {showResults && (
                             <div className="flex flex-col">

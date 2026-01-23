@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import Navbar from '@/components/Navbar';
 import '../globals.css';
+import { ThemeProvider } from '@/components/ThemeProvider';
 
 import { getTranslations } from 'next-intl/server';
 
@@ -57,8 +58,15 @@ export default async function LocaleLayout({
         <html lang={locale}>
             <body className={`${lexend.variable} font-sans text-lg`}>
                 <NextIntlClientProvider messages={messages}>
-                    <Navbar />
-                    {children}
+                    <ThemeProvider
+                        attribute="class"
+                        defaultTheme="system"
+                        enableSystem
+                        disableTransitionOnChange
+                    >
+                        <Navbar />
+                        {children}
+                    </ThemeProvider>
                 </NextIntlClientProvider>
             </body>
         </html>

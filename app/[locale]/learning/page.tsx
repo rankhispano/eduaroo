@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
-
 import { getTranslations } from 'next-intl/server';
+import SubjectCard from '@/components/SubjectCard';
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
     const params = await props.params;
@@ -12,8 +12,6 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
         description: t('description')
     };
 }
-
-import SubjectCard from '@/components/SubjectCard';
 
 export default function LearningPage() {
     const t = useTranslations('LearningPage');

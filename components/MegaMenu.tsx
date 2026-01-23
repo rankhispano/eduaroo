@@ -52,7 +52,7 @@ export default function MegaMenu() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 10 }}
                         transition={{ duration: 0.2 }}
-                        className="absolute top-full left-0 w-[600px] bg-white dark:bg-gray-900 rounded-xl shadow-xl border border-gray-100 dark:border-gray-800 overflow-hidden z-50 flex mt-2"
+                        className="absolute top-full left-0 w-[600px] max-w-[calc(100vw-2rem)] bg-white dark:bg-gray-900 rounded-xl shadow-xl border border-gray-100 dark:border-gray-800 overflow-hidden z-50 flex mt-2"
                     >
                         {/* Left Column: Subjects */}
                         <div className="w-1/3 bg-gray-50 dark:bg-gray-800/50 p-2 border-r border-gray-100 dark:border-gray-800">
@@ -67,9 +67,9 @@ export default function MegaMenu() {
                                             : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'}
                     `}
                                 >
-                                    <div className="flex items-center gap-3">
-                                        <subject.icon className="w-5 h-5" />
-                                        <span className="font-medium text-sm">{subject.label}</span>
+                                    <div className="flex items-center gap-3 overflow-hidden">
+                                        <subject.icon className="w-5 h-5 flex-shrink-0" />
+                                        <span className="font-medium text-sm whitespace-nowrap">{subject.label}</span>
                                     </div>
                                     {activeSubject === subject.id && <ChevronRight className="w-4 h-4" />}
                                 </div>
