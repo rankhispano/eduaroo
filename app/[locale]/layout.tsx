@@ -5,6 +5,9 @@ import { routing } from '../../i18n/routing';
 import Navbar from '@/components/Navbar';
 import '../globals.css';
 import { ThemeProvider } from '@/components/ThemeProvider';
+import AnimatedKangaroo from '@/components/AnimatedKangaroo';
+import Footer from '@/components/Footer';
+import { RolesProvider } from '@/lib/auth/RolesContext';
 
 import { getTranslations } from 'next-intl/server';
 
@@ -55,18 +58,26 @@ export default async function LocaleLayout({
     const messages = await getMessages();
 
     return (
-        <html lang={locale}>
+        <html lang={locale} suppressHydrationWarning>
             <body className={`${lexend.variable} font-sans text-lg`}>
                 <NextIntlClientProvider messages={messages}>
-                    <ThemeProvider
-                        attribute="class"
-                        defaultTheme="system"
-                        enableSystem
-                        disableTransitionOnChange
-                    >
-                        <Navbar />
-                        {children}
-                    </ThemeProvider>
+                    <RolesProvider>
+                        <ThemeProvider
+                            attribute="class"
+                            defaultTheme="system"
+                            enableSystem
+                            disableTransitionOnChange
+                        >
+                            <Navbar />
+                            <main className="min-h-screen">
+                                {children}
+                            </main>
+                            <div className="relative">
+                                <AnimatedKangaroo />
+                                <Footer />
+                            </div>
+                        </ThemeProvider>
+                    </RolesProvider>
                 </NextIntlClientProvider>
             </body>
         </html>

@@ -2,11 +2,22 @@
 
 import { useTranslations } from 'next-intl';
 import { useState, useEffect, useCallback, useRef } from 'react';
-import FractionVisual from '@/components/FractionVisual';
+import FractionVisual from '@/components/math/shared/FractionVisual';
 import MatchingExercise from '@/components/MatchingExercise';
-import { CheckCircle, XCircle, Calculator, RefreshCw } from 'lucide-react';
+import ExerciseFeedback, { XPGainAnimation } from '@/components/ExerciseFeedback';
+import ProgressBar from '@/components/ProgressBar';
+import { playCorrect, playIncorrect, playComplete, playStar, playLevelUp } from '@/lib/audio/soundEffects';
+import { useGamificationStore } from '@/lib/gamification/store';
+import { CheckCircle, XCircle, Calculator, RefreshCw, Volume2, VolumeX } from 'lucide-react';
 
-type ExerciseType = 'fill-blank' | 'multiple-choice' | 'matching' | 'text-choice' | 'text-matching';
+type ExerciseType =
+    | 'fill-blank'
+    | 'multiple-choice'
+    | 'matching'
+    | 'text-choice'
+    | 'text-matching'
+    | 'equivalence'
+    | 'comparison';
 
 interface BaseExercise {
     id: number;
@@ -45,7 +56,28 @@ interface TextMatchingGroup {
     pairs: { id: number; numerator: number; denominator: number; textKey: string }[];
 }
 
-type Exercise = FillBlankExercise | MultipleChoiceExercise | MatchingExerciseGroup | TextChoiceExercise | TextMatchingGroup;
+interface EquivalenceExercise extends BaseExercise {
+    type: 'equivalence';
+    options: { num: number; den: number }[];
+    correctOption: { num: number; den: number };
+}
+
+interface ComparisonExercise {
+    id: number;
+    type: 'comparison';
+    left: { num: number; den: number };
+    right: { num: number; den: number };
+    correctSymbol: '>' | '<' | '=';
+}
+
+type Exercise =
+    | FillBlankExercise
+    | MultipleChoiceExercise
+    | MatchingExerciseGroup
+    | TextChoiceExercise
+    | TextMatchingGroup
+    | EquivalenceExercise
+    | ComparisonExercise;
 
 const randomInt = (min: number, max: number) => Math.floor(Math.random() * (max - min + 1)) + min;
 
@@ -70,6 +102,14 @@ const generateFraction = () => {
     return { num, den };
 };
 
+const areEquivalent = (aNum: number, aDen: number, bNum: number, bDen: number) =>
+    aNum * bDen === bNum * aDen;
+
+const compareFractions = (aNum: number, aDen: number, bNum: number, bDen: number) => {
+    const diff = aNum * bDen - bNum * aDen;
+    return diff === 0 ? 0 : diff > 0 ? 1 : -1;
+};
+
 const generateOptions = (correctNum: number, correctDen: number) => {
     const opts = [{ num: correctNum, den: correctDen }];
     while (opts.length < 3) {
@@ -92,6 +132,49 @@ const generateTextOptions = (correctKey: string): string[] => {
     return options.sort(() => Math.random() - 0.5);
 };
 
+const generateEquivalentOptions = (
+    baseNum: number,
+    baseDen: number,
+    correctOption: { num: number; den: number }
+) => {
+    const opts = [{ ...correctOption }];
+    while (opts.length < 3) {
+        const { num, den } = generateFraction();
+        if (areEquivalent(baseNum, baseDen, num, den)) continue;
+        if (opts.some(o => o.num === num && o.den === den)) continue;
+        opts.push({ num, den });
+    }
+    return opts.sort(() => Math.random() - 0.5);
+};
+
+const generateComparisonExercise = (): ComparisonExercise => {
+    const left = generateFraction();
+    const desiredSymbols: Array<'>' | '<' | '='> = ['>', '<', '='];
+    const desired = desiredSymbols[randomInt(0, desiredSymbols.length - 1)];
+    let right = generateFraction();
+
+    if (desired === '=') {
+        const factor = randomInt(2, 4);
+        right = { num: left.num * factor, den: left.den * factor };
+    } else {
+        let attempts = 0;
+        while (attempts < 60) {
+            right = generateFraction();
+            const cmp = compareFractions(left.num, left.den, right.num, right.den);
+            if ((desired === '>' && cmp > 0) || (desired === '<' && cmp < 0)) break;
+            attempts++;
+        }
+    }
+
+    return {
+        id: 0,
+        type: 'comparison',
+        left,
+        right,
+        correctSymbol: desired
+    };
+};
+
 // Component for Text Matching (fraction numbers to text)
 function TextMatchingExercise({
     pairs,
@@ -106,8 +189,11 @@ function TextMatchingExercise({
 }) {
     const [leftItems, setLeftItems] = useState<typeof pairs>([]);
     const [rightItems, setRightItems] = useState<typeof pairs>([]);
-    const [selectedLeft, setSelectedLeft] = useState<number | null>(null);
+
+    // State for a pending selection from either side
+    const [pendingSelection, setPendingSelection] = useState<{ id: number, side: 'left' | 'right' } | null>(null);
     const [connections, setConnections] = useState<Record<number, number>>({});
+
     const containerRef = useRef<HTMLDivElement>(null);
     const [svgLines, setSvgLines] = useState<{ x1: number; y1: number; x2: number; y2: number; color: string; width?: number; dash?: number }[]>([]);
 
@@ -115,7 +201,7 @@ function TextMatchingExercise({
         setLeftItems([...pairs].sort(() => Math.random() - 0.5));
         setRightItems([...pairs].sort(() => Math.random() - 0.5));
         setConnections({});
-        setSelectedLeft(null);
+        setPendingSelection(null);
     }, [pairs]);
 
     useEffect(() => {
@@ -173,28 +259,72 @@ function TextMatchingExercise({
             });
         }
 
-        // Use functional state update to avoid dependency issues if any, though explicit set is fine here
         setSvgLines(newLines);
-    }, [connections, leftItems, rightItems, showResults]);
+    }, [connections, leftItems, rightItems, showResults, pairs]);
 
-    const handleLeftClick = (id: number) => {
+    const handleItemClick = (id: number, side: 'left' | 'right') => {
         if (showResults) return;
-        setSelectedLeft(id);
-        const next = { ...connections };
-        delete next[id];
-        setConnections(next);
-        onUpdate(next);
-    };
 
-    const handleRightClick = (id: number) => {
-        if (showResults) return;
-        if (selectedLeft !== null) {
-            const next = { ...connections, [selectedLeft]: id };
+        // 1. If we click an item that is already connected, remove its connection
+        if (side === 'left') {
+            if (connections[id] !== undefined) {
+                const next = { ...connections };
+                delete next[id];
+                setConnections(next);
+                onUpdate(next);
+            }
+        } else {
+            // Find left ID that connects to this right ID
+            const leftId = Object.keys(connections).find(key => connections[parseInt(key)] === id);
+            if (leftId) {
+                const next = { ...connections };
+                delete next[parseInt(leftId)];
+                setConnections(next);
+                onUpdate(next);
+            }
+        }
+
+        // 2. Interaction logic
+        if (!pendingSelection) {
+            // Nothing selected yet, set this as pending
+            setPendingSelection({ id, side });
+        } else if (pendingSelection.side === side) {
+            // Clicked same side again, switch selection or toggle
+            if (pendingSelection.id === id) {
+                setPendingSelection(null);
+            } else {
+                setPendingSelection({ id, side });
+            }
+        } else {
+            // Clicked opposite side! Create connection
+            const leftId = side === 'left' ? id : pendingSelection.id;
+            const rightId = side === 'right' ? id : pendingSelection.id;
+
+            // Ensure mutual exclusivity: remove existing connections for these specific IDs
+            const next = { ...connections };
+
+            // Remove any existing connection for this left item
+            delete next[leftId];
+
+            // Remove any existing connection targeting this right item
+            const existingLeftId = Object.keys(next).find(key => next[parseInt(key)] === rightId);
+            if (existingLeftId) {
+                delete next[parseInt(existingLeftId)];
+            }
+
+            // Set new connection
+            next[leftId] = rightId;
             setConnections(next);
             onUpdate(next);
-            setSelectedLeft(null);
+            setPendingSelection(null);
         }
     };
+
+    const handleLeftClick = (id: number) => handleItemClick(id, 'left');
+    const handleRightClick = (id: number) => handleItemClick(id, 'right');
+
+    const isSelected = (id: number, side: 'left' | 'right') =>
+        pendingSelection?.id === id && pendingSelection?.side === side;
 
     return (
         <div className="relative flex justify-between gap-24 p-4" ref={containerRef}>
@@ -207,7 +337,7 @@ function TextMatchingExercise({
             {/* Left: Numeric Fractions */}
             <div className="flex flex-col gap-6 w-2/5">
                 {leftItems.map((item) => {
-                    const isSelected = selectedLeft === item.id;
+                    const active = isSelected(item.id, 'left');
                     const isConnected = connections[item.id] !== undefined;
                     return (
                         <div
@@ -215,8 +345,8 @@ function TextMatchingExercise({
                             id={`text-frac-${item.id}`}
                             onClick={() => handleLeftClick(item.id)}
                             className={`flex items-center justify-center h-20 rounded-xl border-2 bg-white dark:bg-gray-800 cursor-pointer transition-all z-20
-                                ${isSelected ? 'border-brand-blue ring-2 ring-brand-blue/20' : 'border-gray-200 dark:border-gray-700 hover:border-brand-blue/50'}
-                                ${isConnected && !isSelected ? 'border-brand-blue/50' : ''}
+                                ${active ? 'border-brand-blue ring-2 ring-brand-blue/20' : 'border-gray-200 dark:border-gray-700 hover:border-brand-blue/50'}
+                                ${isConnected && !active ? 'border-brand-blue/50' : ''}
                             `}
                         >
                             <div className="flex flex-col items-center text-2xl font-bold font-mono text-gray-800 dark:text-gray-200">
@@ -233,13 +363,14 @@ function TextMatchingExercise({
             <div className="flex flex-col gap-6 w-2/5">
                 {rightItems.map((item) => {
                     const isConnected = Object.values(connections).includes(item.id);
+                    const active = isSelected(item.id, 'right');
                     return (
                         <div
                             key={item.id}
                             id={`text-name-${item.id}`}
                             onClick={() => handleRightClick(item.id)}
                             className={`flex items-center justify-center h-20 rounded-xl border-2 bg-white dark:bg-gray-800 cursor-pointer transition-all z-20
-                                ${isConnected ? 'border-brand-blue/50' : 'border-gray-200 dark:border-gray-700 hover:border-brand-blue/50'}
+                                ${active ? 'border-brand-blue ring-2 ring-brand-blue/20' : isConnected ? 'border-brand-blue/50' : 'border-gray-200 dark:border-gray-700 hover:border-brand-blue/50'}
                             `}
                         >
                             <span className="text-base font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wide">
@@ -262,13 +393,33 @@ export default function FractionsExercises() {
     const [matchingAnswers, setMatchingAnswers] = useState<Record<number, Record<number, number>>>({});
     const [textMatchingAnswers, setTextMatchingAnswers] = useState<Record<number, Record<number, number>>>({});
 
+    // New gamification states
+    const [showFeedback, setShowFeedback] = useState(false);
+    const [feedbackCorrect, setFeedbackCorrect] = useState<boolean | null>(null);
+    const [showXPGain, setShowXPGain] = useState(false);
+    const [xpGained, setXpGained] = useState(0);
+    const [soundEnabled, setSoundEnabled] = useState(true);
+    const [completedCount, setCompletedCount] = useState(0);
+
     const generateExercises = useCallback(() => {
         const newExercises: Exercise[] = [];
         let idCounter = 1;
 
-        // 1. Fill in blank (4 exercises)
+        // Global set to track all used fractions across exercise types
+        const usedFractions = new Set<string>();
+
+        // 1. Fill in blank (4 exercises) - UNIQUE fractions
         for (let i = 0; i < 4; i++) {
-            const { num, den } = generateFraction();
+            let { num, den } = generateFraction();
+            let fractionKey = `${num}_${den}`;
+            // Ensure unique fractions
+            while (usedFractions.has(fractionKey)) {
+                const frac = generateFraction();
+                num = frac.num;
+                den = frac.den;
+                fractionKey = `${num}_${den}`;
+            }
+            usedFractions.add(fractionKey);
             newExercises.push({
                 id: idCounter++,
                 type: 'fill-blank',
@@ -278,9 +429,18 @@ export default function FractionsExercises() {
             });
         }
 
-        // 2. Multiple Choice with numbers (3 exercises)
+        // 2. Multiple Choice with numbers (3 exercises) - UNIQUE fractions
         for (let i = 0; i < 3; i++) {
-            const { num, den } = generateFraction();
+            let { num, den } = generateFraction();
+            let fractionKey = `${num}_${den}`;
+            // Ensure unique fractions
+            while (usedFractions.has(fractionKey)) {
+                const frac = generateFraction();
+                num = frac.num;
+                den = frac.den;
+                fractionKey = `${num}_${den}`;
+            }
+            usedFractions.add(fractionKey);
             newExercises.push({
                 id: idCounter++,
                 type: 'multiple-choice',
@@ -291,11 +451,21 @@ export default function FractionsExercises() {
             });
         }
 
-        // 3. Matching visual to number (1 group with 4 pairs)
+        // 3. Matching visual to number (1 group with 4 pairs) - UNIQUE fractions
         const matchingPairs = [];
         const baseMatchingId = 100;
+        const usedMatchingFractions = new Set<string>();
         for (let i = 0; i < 4; i++) {
-            const { num, den } = generateFraction();
+            let { num, den } = generateFraction();
+            let fractionKey = `${num}_${den}`;
+            // Ensure unique fractions
+            while (usedMatchingFractions.has(fractionKey)) {
+                const frac = generateFraction();
+                num = frac.num;
+                den = frac.den;
+                fractionKey = `${num}_${den}`;
+            }
+            usedMatchingFractions.add(fractionKey);
             matchingPairs.push({ id: baseMatchingId + i, numerator: num, denominator: den });
         }
         newExercises.push({
@@ -343,6 +513,38 @@ export default function FractionsExercises() {
             pairs: textMatchPairs
         });
 
+        // 6. Equivalent fractions (3 exercises)
+        for (let i = 0; i < 3; i++) {
+            let { num, den } = generateFraction();
+            let fractionKey = `${num}_${den}`;
+            while (usedFractions.has(fractionKey)) {
+                const frac = generateFraction();
+                num = frac.num;
+                den = frac.den;
+                fractionKey = `${num}_${den}`;
+            }
+            usedFractions.add(fractionKey);
+            const factor = randomInt(2, 4);
+            const correctOption = { num: num * factor, den: den * factor };
+            newExercises.push({
+                id: idCounter++,
+                type: 'equivalence',
+                numerator: num,
+                denominator: den,
+                correctOption,
+                options: generateEquivalentOptions(num, den, correctOption)
+            });
+        }
+
+        // 7. Compare fractions (3 exercises)
+        for (let i = 0; i < 3; i++) {
+            const comparison = generateComparisonExercise();
+            newExercises.push({
+                ...comparison,
+                id: idCounter++
+            });
+        }
+
         setExercises(newExercises);
         setAnswers({});
         setMatchingAnswers({});
@@ -374,7 +576,102 @@ export default function FractionsExercises() {
         setShowResults(false);
     };
 
-    const checkAnswers = () => setShowResults(true);
+    const checkAnswers = () => {
+        setShowResults(true);
+
+        // Calculate score for feedback
+        const { score, total, answered } = getScoreInternal();
+        const isPerfect = score === total;
+        const isGood = score >= total * 0.7;
+
+        // Minimum requirements for rewards:
+        // 1. Must have answered at least 80% of questions
+        // 2. Must have scored at least 20% (2/10)
+        const minAnsweredRatio = 0.8;
+        const minScoreRatio = 0.2;
+        const hasAnsweredEnough = answered >= total * minAnsweredRatio;
+        const hasMinScore = score >= total * minScoreRatio;
+        const earnedRewards = hasAnsweredEnough && hasMinScore;
+
+        // Play appropriate sound
+        if (soundEnabled) {
+            if (isPerfect) {
+                playComplete();
+            } else if (isGood) {
+                playCorrect();
+            } else {
+                playIncorrect();
+            }
+        }
+
+        // Show feedback animation
+        setFeedbackCorrect(isGood);
+        setShowFeedback(true);
+
+        // Only persist rewards if minimum requirements met
+        if (earnedRewards) {
+            const completeExercise = useGamificationStore.getState().completeExercise;
+            const result = completeExercise('math', score, total, isPerfect);
+
+            // Use XP from store calculation
+            setXpGained(result.xpGained);
+
+            // Level up celebration
+            if (result.levelUp && soundEnabled) {
+                setTimeout(() => playLevelUp(), 500);
+            }
+
+            // Show XP animation slightly delayed
+            setTimeout(() => {
+                setShowXPGain(true);
+                if (soundEnabled) playStar();
+                setTimeout(() => setShowXPGain(false), 2000);
+            }, 800);
+        } else {
+            // No rewards - set XP to 0
+            setXpGained(0);
+        }
+
+        // Update completed count for progress tracking
+        setCompletedCount(score);
+    };
+
+    // Internal score calculation (for use in checkAnswers)
+    const getScoreInternal = () => {
+        let score = 0;
+        let total = 0;
+        let answered = 0;
+        exercises.forEach(ex => {
+            if (ex.type === 'matching') {
+                const pairs = (ex as MatchingExerciseGroup).pairs;
+                total += pairs.length;
+                const conn = matchingAnswers[ex.id] || {};
+                const connCount = Object.keys(conn).length;
+                answered += connCount;
+                pairs.forEach(p => { if (conn[p.id] === p.id) score++; });
+            } else if (ex.type === 'text-matching') {
+                const pairs = (ex as TextMatchingGroup).pairs;
+                total += pairs.length;
+                const conn = textMatchingAnswers[ex.id] || {};
+                const connCount = Object.keys(conn).length;
+                answered += connCount;
+                pairs.forEach(p => { if (conn[p.id] === p.id) score++; });
+            } else {
+                total++;
+                const answer = answers[ex.id];
+                // Check if this question has been answered
+                if (ex.type === 'fill-blank') {
+                    const hasNum = answer?.num !== undefined && answer?.num !== '';
+                    const hasDen = answer?.den !== undefined && answer?.den !== '';
+                    if (hasNum || hasDen) answered++;
+                } else if (answer !== undefined && answer !== '') {
+                    answered++;
+                }
+                if (isCorrect(ex)) score++;
+            }
+        });
+        return { score, total, answered };
+    };
 
     const isCorrect = (ex: Exercise) => {
         if (ex.type === 'matching') {
@@ -386,6 +683,19 @@ export default function FractionsExercises() {
             const conn = textMatchingAnswers[ex.id] || {};
             if (Object.keys(conn).length !== ex.pairs.length) return false;
             return Object.entries(conn).every(([leftId, rightId]) => parseInt(leftId) === rightId);
+        }
+        if (ex.type === 'equivalence') {
+            const ans = answers[ex.id];
+            if (!ans) return false;
+            const selected = JSON.parse(ans);
+            return (
+                selected.num === ex.correctOption.num && selected.den === ex.correctOption.den
+            );
+        }
+        if (ex.type === 'comparison') {
+            const ans = answers[ex.id];
+            if (!ans) return false;
+            return ans === ex.correctSymbol;
         }
         const ans = answers[ex.id];
         if (!ans) return false;
@@ -435,10 +745,29 @@ export default function FractionsExercises() {
                             <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 mt-1">{t('description')}</p>
                         </div>
                     </div>
-                    <button onClick={generateExercises} className="w-full md:w-auto flex items-center justify-center gap-2 px-4 py-3 bg-brand-blue text-white rounded-lg hover:bg-blue-600 transition-colors shadow-md font-bold">
-                        <RefreshCw className="w-4 h-4" />
-                        {t('generateNew')}
-                    </button>
+                    <div className="flex items-center gap-3">
+                        <button
+                            onClick={() => setSoundEnabled(!soundEnabled)}
+                            className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                            title={soundEnabled ? 'Silenciar' : 'Activar sonido'}
+                        >
+                            {soundEnabled ? <Volume2 className="w-5 h-5 text-gray-600 dark:text-gray-400" /> : <VolumeX className="w-5 h-5 text-gray-400" />}
+                        </button>
+                        <button onClick={generateExercises} className="flex items-center justify-center gap-2 px-4 py-3 bg-brand-blue text-white rounded-lg hover:bg-blue-600 transition-colors shadow-md font-bold">
+                            <RefreshCw className="w-4 h-4" />
+                            {t('generateNew')}
+                        </button>
+                    </div>
+                </div>
+
+                {/* Progress Bar */}
+                <div className="mb-8">
+                    <ProgressBar
+                        current={completedCount}
+                        total={total}
+                        showStars={true}
+                        label={showResults ? t('score', { score, total }) : 'Progreso'}
+                    />
                 </div>
 
                 {/* Section 1: Fill in blank */}
@@ -577,6 +906,103 @@ export default function FractionsExercises() {
                     );
                 })}
 
+                {/* Section 6: Equivalent Fractions */}
+                <section className="bg-white dark:bg-gray-900 rounded-2xl shadow-sm p-8 mb-8 border border-gray-100 dark:border-gray-800">
+                    <h2 className="text-xl font-bold text-indigo-600 mb-6 border-b pb-2 border-indigo-600/10">{t('equivalence')}</h2>
+                    <div className="space-y-8">
+                        {exercises.filter(e => e.type === 'equivalence').map((ex) => {
+                            const correct = showResults && isCorrect(ex);
+                            const wrong = showResults && !isCorrect(ex);
+                            const eEx = ex as EquivalenceExercise;
+                            return (
+                                <div key={ex.id} className="flex flex-col md:flex-row items-center gap-8 border-b border-dashed border-gray-200 dark:border-gray-700 pb-8 last:border-0 last:pb-0">
+                                    <div className="flex-shrink-0"><FractionVisual numerator={eEx.numerator} denominator={eEx.denominator} type="bar" size={180} color="#6366f1" /></div>
+                                    <div className="flex gap-4">
+                                        {eEx.options.map((opt, idx) => {
+                                            const isSelected = answers[ex.id] === JSON.stringify(opt);
+                                            const isOptionCorrect =
+                                                opt.num === eEx.correctOption.num && opt.den === eEx.correctOption.den;
+                                            let btnClass = "border-2 border-gray-200 dark:border-gray-700 hover:border-indigo-500 hover:bg-indigo-50";
+                                            if (showResults) {
+                                                if (isOptionCorrect) btnClass = "bg-green-100 border-green-500 text-green-800 shadow-[0_0_10px_rgba(34,197,94,0.3)]";
+                                                else if (isSelected) btnClass = "bg-red-100 border-red-500 text-red-800 opacity-50";
+                                                else btnClass = "opacity-40 border-gray-200";
+                                            } else if (isSelected) btnClass = "border-indigo-500 bg-indigo-50 text-indigo-700 font-bold ring-2 ring-indigo-200";
+                                            return (
+                                                <button key={idx} onClick={() => handleOptionSelect(ex.id, opt)} disabled={showResults} className={`flex flex-col items-center justify-center w-20 h-24 rounded-xl transition-all duration-200 ${btnClass}`}>
+                                                    <span className="text-xl">{opt.num}</span>
+                                                    <span className="w-10 h-0.5 bg-current my-1 rounded-full"></span>
+                                                    <span className="text-xl">{opt.den}</span>
+                                                </button>
+                                            );
+                                        })}
+                                    </div>
+                                    <div className="ml-auto">
+                                        {correct && <CheckCircle className="w-8 h-8 text-green-500" />}
+                                        {wrong && <XCircle className="w-8 h-8 text-red-500" />}
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </section>
+
+                {/* Section 7: Compare Fractions */}
+                <section className="bg-white dark:bg-gray-900 rounded-2xl shadow-sm p-8 mb-8 border border-gray-100 dark:border-gray-800">
+                    <h2 className="text-xl font-bold text-sky-600 mb-6 border-b pb-2 border-sky-600/10">{t('comparison')}</h2>
+                    <div className="space-y-8">
+                        {exercises.filter(e => e.type === 'comparison').map((ex) => {
+                            const correct = showResults && isCorrect(ex);
+                            const wrong = showResults && !isCorrect(ex);
+                            const cEx = ex as ComparisonExercise;
+                            const symbols: Array<'>' | '<' | '='> = ['>', '<', '='];
+                            return (
+                                <div key={ex.id} className="flex flex-col md:flex-row items-center gap-8 border-b border-dashed border-gray-200 dark:border-gray-700 pb-8 last:border-0 last:pb-0">
+                                    <div className="flex-shrink-0">
+                                        <div className="w-24 h-24 rounded-2xl bg-white dark:bg-gray-800 border-2 border-sky-200 dark:border-sky-500/30 flex items-center justify-center">
+                                            <div className="flex flex-col items-center text-2xl font-bold font-mono text-sky-600 dark:text-sky-300">
+                                                <span>{cEx.left.num}</span>
+                                                <span className="w-10 h-0.5 bg-current my-1"></span>
+                                                <span>{cEx.left.den}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex gap-3">
+                                        {symbols.map((sym) => {
+                                            const isSelected = answers[ex.id] === sym;
+                                            const isOptionCorrect = sym === cEx.correctSymbol;
+                                            let btnClass = "border-2 border-gray-200 dark:border-gray-700 hover:border-sky-500 hover:bg-sky-50";
+                                            if (showResults) {
+                                                if (isOptionCorrect) btnClass = "bg-green-100 border-green-500 text-green-800";
+                                                else if (isSelected) btnClass = "bg-red-100 border-red-500 text-red-800 opacity-50";
+                                                else btnClass = "opacity-40 border-gray-200";
+                                            } else if (isSelected) btnClass = "border-sky-500 bg-sky-50 text-sky-700 font-bold ring-2 ring-sky-200";
+                                            return (
+                                                <button key={sym} onClick={() => handleOptionSelect(ex.id, sym)} disabled={showResults} className={`w-14 h-14 rounded-xl text-2xl font-bold transition-all duration-200 ${btnClass}`}>
+                                                    {sym}
+                                                </button>
+                                            );
+                                        })}
+                                    </div>
+                                    <div className="flex-shrink-0">
+                                        <div className="w-24 h-24 rounded-2xl bg-white dark:bg-gray-800 border-2 border-sky-200 dark:border-sky-500/30 flex items-center justify-center">
+                                            <div className="flex flex-col items-center text-2xl font-bold font-mono text-sky-600 dark:text-sky-300">
+                                                <span>{cEx.right.num}</span>
+                                                <span className="w-10 h-0.5 bg-current my-1"></span>
+                                                <span>{cEx.right.den}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="ml-auto">
+                                        {correct && <CheckCircle className="w-8 h-8 text-green-500" />}
+                                        {wrong && <XCircle className="w-8 h-8 text-red-500" />}
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </section>
+
                 {/* Actions */}
                 <div className="mt-8 bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 flex items-center justify-between">
                     <div className="text-lg font-bold">
@@ -595,6 +1021,14 @@ export default function FractionsExercises() {
                     <button onClick={checkAnswers} className="px-8 py-3 rounded-xl font-bold bg-brand-green text-white shadow-lg shadow-brand-green/30 hover:bg-green-600 hover:scale-105 transition-all">{t('checkAnswers')}</button>
                 </div>
             </div>
+
+            {/* Feedback Overlays */}
+            <ExerciseFeedback
+                isCorrect={feedbackCorrect}
+                show={showFeedback}
+                onComplete={() => setShowFeedback(false)}
+            />
+            <XPGainAnimation amount={xpGained} show={showXPGain} />
         </div>
     );
 }

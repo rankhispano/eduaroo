@@ -8,6 +8,7 @@ import { Menu } from 'lucide-react';
 import { useState } from 'react';
 import { ThemeToggle } from './ThemeToggle';
 
+
 export default function Navbar() {
     const t = useTranslations('Navigation');
     const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ export default function Navbar() {
                         </Link>
                     </div>
 
-                    <div className="hidden md:flex space-x-8 items-center">
+                    <div className="hidden md:flex items-center">
                         <MegaMenu />
 
                         {/* Other links hidden for now as per request "el navbar quiero que salga solo un elemento que sea Asignaturas" */}
@@ -31,13 +32,15 @@ export default function Navbar() {
                         <Link href="/parents" className="text-gray-700 hover:text-brand-blue transition-colors">{t('parents')}</Link> 
                         */}
 
-                        <div className="flex items-center gap-4 ml-4 border-l pl-4 border-gray-200 dark:border-gray-700">
+                        <div className="flex items-center gap-4 ml-6 border-l pl-6 border-gray-200 dark:border-gray-700">
+
                             <ThemeToggle />
                             <LanguageSelector />
                         </div>
                     </div>
 
                     <div className="md:hidden flex items-center gap-3">
+
                         <ThemeToggle />
                         <LanguageSelector />
                         <button

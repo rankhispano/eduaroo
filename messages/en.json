@@ -16,6 +16,9 @@
         "science": "Science",
         "social": "Social Studies",
         "selectMath": "Select Math to see levels",
+        "featured": "Featured",
+        "startLearning": "Start learning",
+        "startLearningDesc": "Explore our interactive courses",
         "levels": {
             "primary": "Primary",
             "grade1": "1st Grade",
@@ -27,10 +30,189 @@
         }
     },
     "Common": {
-        "getStarted": "Get Started"
+        "getStarted": "Get Started",
+        "correct_answer_is": "The correct answer is",
+        "units": {
+            "m2": "m²",
+            "m3": "m³",
+            "h": "h",
+            "min": "min",
+            "euro": "€"
+        }
+    },
+    "MathGrade1": {
+        "title": "1st Grade Math",
+        "subtitle": "Start your math adventure!",
+        "checkAnswers": "Check Answers",
+        "score": "Score: {score}/{total}",
+        "generateNew": "Generate New Exercises",
+        "progressLabel": "Progress",
+        "numeration_title": "Numeration 0-99",
+        "numeration_count": "How many apples are there?",
+        "numeration_order": "Order from lowest to highest",
+        "numeration_series": "What number comes next?",
+        "numeration_verify": "Check",
+        "numeration_next": "Next",
+        "operations_title": "Addition & Subtraction",
+        "geometry_title": "Basic Geometry",
+        "geometry_shape_q": "Which is the {shape}?",
+        "geometry_open_closed_q": "Touch the {type} line",
+        "geometry_shapes": {
+            "circle": "Circle",
+            "square": "Square",
+            "triangle": "Triangle",
+            "rectangle": "Rectangle",
+            "open": "OPEN",
+            "closed": "CLOSED",
+            "open_label": "Open",
+            "closed_label": "Closed"
+        },
+        "measurement_title": "Measurement",
+        "measurement_money_q": "How much money is there?",
+        "measurement_time_q": "What time is it?",
+        "cents": "cents"
+    },
+    "MathGrade2": {
+        "title": "2nd Grade Math",
+        "subtitle": "Keep learning and having fun!",
+        "numeration_title": "Numbers up to 999",
+        "numeration_q": "What number do these blocks represent?",
+        "hundreds": "Hundreds",
+        "tens": "Tens",
+        "ones": "Ones",
+        "tens_short": "T",
+        "ones_short": "O",
+        "operations_title": "2nd Grade Operations",
+        "operations_sum_carry": "Addition with carrying",
+        "operations_mult_intro": "How many in total?",
+        "times": "times",
+        "geometry_title": "Geometry & Symmetry",
+        "geometry_3d_q": "Which of these is a {shape}?",
+        "geometry_symmetry_q": "Which figure has SYMMETRY?",
+        "geometry_shapes": {
+            "cube": "Cube",
+            "sphere": "Sphere",
+            "cylinder": "Cylinder",
+            "cone": "Cone"
+        },
+        "measurement_title": "Measurement & Time",
+        "measurement_length_q": "How long is the pencil?",
+        "measurement_capacity_q": "How many liters in total?",
+        "measurement_calendar_q": "What day comes after {day}?",
+        "fractions_title": "Basic Fractions",
+        "fractions_match_inst": "Match each drawing with its fraction",
+        "group_label": "Group",
+        "liters_label": "liters",
+        "today_label": "TODAY",
+        "days": {
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday",
+            "sunday": "Sunday"
+        }
+    },
+    "MathGrade3": {
+        "title": "3rd Grade Math",
+        "subtitle": "Bigger challenges await you!",
+        "numeration_title": "Large Numbers (3rd)",
+        "numeration_read_q": "Select the correct number:",
+        "numeration_max_q": "Find the LARGEST number",
+        "numeration_sort_q": "Find the LARGEST number",
+        "operations_title": "Multiplication & Division",
+        "operations_mult_q": "How many squares are there?",
+        "operations_div_q": "Share {dividend} candies among {divisor} children. How many for each?",
+        "geometry_title": "Advanced Geometry",
+        "geometry_poly_q": "How many sides does this figure have?",
+        "geometry_polygon_q": "How many sides does this figure have?",
+        "geometry_circle_q": "What does the RED line or dot represent?",
+        "geometry_polygons": {
+            "triangle": "Triangle",
+            "square": "Square",
+            "pentagon": "Pentagon",
+            "hexagon": "Hexagon"
+        },
+        "geometry_parts": {
+            "center": "Center",
+            "radius": "Radius",
+            "diameter": "Diameter",
+            "circumference": "Circumference"
+        },
+        "measurement_title": "Data and Money",
+        "measurement_bar_q_max": "Which color has MORE votes?",
+        "measurement_bar_q_count": "How many votes does color {color} have?",
+        "measurement_money_q": "You have {wallet}€. If you buy {item} for {cost}€, how much is left?",
+        "colors": {
+            "red": "Red",
+            "blue": "Blue",
+            "green": "Green",
+            "yellow": "Yellow"
+        },
+        "fractions_title": "Equivalent Fractions",
+        "fractions_match_inst": "Match the fraction (left) with its equivalent (right)",
+        "rows": "rows",
+        "cols": "cols",
+        "child": "Child",
+        "items": {
+            "ball": "a ball",
+            "book": "a book",
+            "icecream": "an ice cream",
+            "toy": "a toy"
+        }
+    },
+    "MathGrade5": {
+        "title": "5th Grade Math",
+        "subtitle": "Mastering advanced mathematics!",
+        "arithmetic_title": "Advanced Arithmetic",
+        "sexagesimal_title": "Sexagesimal System",
+        "geometry_title": "Areas & Polyhedra",
+        "arithmetic_prime_q": "Is the number {num} PRIME or COMPOSITE?",
+        "arithmetic_div_q": "Which number is divisible by {divisor}?",
+        "arithmetic_calc_q": "Calculate: {a} x {b}",
+        "prime": "Prime",
+        "composite": "Composite",
+        "sexagesimal_q": "Add these times:\n{t1}  +  {t2}",
+        "sexagesimal_hint": "Hint: If minutes go over 59, they become 1 hour!",
+        "geometry_area_rect_q": "Calculate the AREA of the rectangle",
+        "geometry_area_tri_q": "Calculate the AREA of the triangle",
+        "geometry_base": "Base",
+        "geometry_height": "Height",
+        "geometry_rect_formula": "Formula: base x height",
+        "geometry_tri_formula": "Formula: (base x height) / 2",
+        "arithmetic_prime_yes": "{num} is only divisible by 1 and itself.",
+        "arithmetic_prime_no": "{num} has more divisors (e.g. {div}).",
+        "arithmetic_div_expl": "To be divisible by {divisor}, the division must be exact (remainder 0).",
+        "sexagesimal_sol": "Remember: 60 minutes = 1 hour.\n{answer}"
+    },
+    "MathGrade6": {
+        "title": "6th Grade Math",
+        "subtitle": "Getting ready for high school!",
+        "proportionality_title": "Proportionality",
+        "integers_title": "Integers & Powers",
+        "stats_title": "Statistics",
+        "volume_title": "Volume & 3D",
+        "integers_elevator_q": "You are on floor {start}. You go down {down} floors. Which floor are you on?",
+        "integers_power_q": "Calculate: {base} to the power of {exp} ({base}{sup})",
+        "prop_rule_three_q": "If {q1} cakes cost {cost1}€, how much do {q2} cakes cost?",
+        "prop_pct_q": "Calculate {pct}% of {total}",
+        "stats_q": "Calculate the {stat} of:",
+        "stats_labels": {
+            "mean": "MEAN (average)",
+            "median": "MEDIAN (middle value)",
+            "mode": "MODE (most repeated)",
+            "range": "RANGE (highest - lowest)"
+        },
+        "volume_cube_q": "Calculate the VOLUME of a cube with side {side}m",
+        "volume_box_q": "Volume of a box: {w}m x {h}m x {d}m",
+        "prop_sol_rule_three": "1 cake costs {unit}€. So {q2} cost {total}€.",
+        "prop_sol_pct": "Multiply {total} x {factor} = {answer}",
+        "stats_sol_sorted": " (Sorted: {data})"
     },
     "MathGrade4": {
         "title": "Explore 4th Grade Math Worksheets by Topic",
+        "subtitle": "Follow the path to become an expert!",
         "topics": {
             "multiplication": "Multiplication",
             "multiplicationDesc": "Multi-digit numbers",
@@ -66,6 +248,8 @@
         },
         "textChoice": "4. Look and choose the correct option.",
         "textMatching": "5. Match each fraction with how it's read.",
+        "equivalence": "6. Choose the equivalent fraction.",
+        "comparison": "7. Compare the fractions (>, <, =).",
         "fractionNames": {
             "1_2": "One half",
             "1_3": "One third",
@@ -97,6 +281,101 @@
             "9_10": "Nine tenths"
         }
     },
+    "MultiplicationGrade4": {
+        "title": "Multiplication Practice",
+        "description": "Master multiplication with multi-digit numbers.",
+        "checkAnswers": "Check Answers",
+        "score": "Your Score: {score}/{total}",
+        "fillInTheBlank": "1. Solve the multiplications.",
+        "multipleChoice": "2. Choose the correct result.",
+        "generateNew": "Generate New Exercises"
+    },
+    "DivisionGrade4": {
+        "title": "Division Practice",
+        "description": "Learn to divide with and without remainders.",
+        "checkAnswers": "Check Answers",
+        "score": "Your Score: {score}/{total}",
+        "fillInTheBlank": "1. Solve the divisions (Quotient and Remainder).",
+        "quotient": "Quotient",
+        "remainder": "Remainder",
+        "generateNew": "Generate New Exercises"
+    },
+    "DecimalsGrade4": {
+        "title": "Decimals Practice",
+        "description": "Explore decimal numbers and their relation to fractions.",
+        "checkAnswers": "Check Answers",
+        "score": "Your Score: {score}/{total}",
+        "comparison": "1. Compare the decimal numbers (>, <, =).",
+        "conversion": "2. Convert fraction to decimal.",
+        "generateNew": "Generate New Exercises"
+    },
+    "GeometryGrade4": {
+        "title": "Geometry Practice",
+        "description": "Identify shapes, lines, and angles.",
+        "checkAnswers": "Check Answers",
+        "score": "Your Score: {score}/{total}",
+        "identifyShape": "1. What shape is this?",
+        "identifyAngle": "2. What type of angle is this?",
+        "shapes": {
+            "triangle": "Triangle",
+            "square": "Square",
+            "rectangle": "Rectangle",
+            "pentagon": "Pentagon",
+            "hexagon": "Hexagon",
+            "circle": "Circle"
+        },
+        "angles": {
+            "acute": "Acute (< 90°)",
+            "right": "Right (90°)",
+            "obtuse": "Obtuse (> 90°)"
+        },
+        "generateNew": "Generate New Exercises"
+    },
+    "MeasurementGrade4": {
+        "title": "Measurement Practice",
+        "description": "Learn to convert units of measurement.",
+        "checkAnswers": "Check Answers",
+        "score": "Your Score: {score}/{total}",
+        "conversion": "1. Convert the units.",
+        "units": {
+            "m_cm": "meters to centimeters",
+            "km_m": "kilometers to meters",
+            "kg_g": "kilograms to grams",
+            "l_ml": "liters to milliliters"
+        },
+        "generateNew": "Generate New Exercises",
+        "units_labels": {
+            "m": "m",
+            "cm": "cm",
+            "km": "km",
+            "kg": "kg",
+            "g": "g",
+            "l": "l",
+            "ml": "ml"
+        },
+        "matching": {
+            "m_cm": {
+                "left": "1 m",
+                "right": "100 cm"
+            },
+            "km_m": {
+                "left": "1 km",
+                "right": "1000 m"
+            },
+            "kg_g": {
+                "left": "1 kg",
+                "right": "1000 g"
+            },
+            "l_ml": {
+                "left": "1 l",
+                "right": "1000 ml"
+            },
+            "cm_m": {
+                "left": "50 cm",
+                "right": "0.5 m"
+            }
+        }
+    },
     "KidsPage": {
         "title": "Kids Zone",
         "description": "Fun games and learning adventures!",
@@ -116,7 +395,15 @@
     },
     "GamesPage": {
         "title": "Educational Games",
-        "description": "Learn through play with our curated selection of educational games."
+        "description": "Learn through play with our curated selection of educational games.",
+        "galaxyMathFuelTitle": "Galaxy Math Fuel",
+        "galaxyMathFuelTag": "Multiplication Tables",
+        "galaxyMathFuelDesc": "Pilot your rocket, catch the correct fuel, and master multiplication tables with speed and accuracy.",
+        "playNow": "Play now"
+    },
+    "GalaxyMathFuelPage": {
+        "title": "Galaxy Math Fuel",
+        "description": "Practice multiplication tables in a fast-paced space game."
     },
     "LearningPage": {
         "title": "Learning Path",
@@ -146,5 +433,137 @@
     "BlogPage": {
         "title": "Eduaroo Blog",
         "description": "Latest news and educational tips."
+    },
+    "Dashboard": {
+        "title": "My Progress",
+        "greeting": "Hello, Explorer!",
+        "question": "What are we learning today?",
+        "subjects": "Your Subjects",
+        "continue": "Continue",
+        "comingSoon": "Coming Soon",
+        "exercises": "exercises",
+        "level": "Lv."
+    },
+    "Store": {
+        "title": "Customize Your Avatar",
+        "subtitle": "Use your stars to unlock items",
+        "categories": {
+            "head": "Head",
+            "face": "Face",
+            "body": "Outfit",
+            "accessory": "Accessories",
+            "background": "Background"
+        },
+        "avatarMessage": "Your avatar will appear on your profile",
+        "unlocked": "Unlocked!"
+    },
+    "Footer": {
+        "tagline": "Fun learning for kids",
+        "contact": "Contact",
+        "location": "Murcia, Spain",
+        "legal": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "rights": "All rights reserved"
+    },
+    "Privacy": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last updated",
+        "intro": "At Eduaroo, we take the privacy of our users very seriously, especially when it comes to children.",
+        "sections": {
+            "responsible": "Data Controller",
+            "dataCollected": "Data We Collect",
+            "purpose": "Purpose of Processing",
+            "rights": "User Rights",
+            "security": "Security",
+            "cookies": "Cookies",
+            "children": "Children's Protection",
+            "changes": "Policy Changes",
+            "contact": "Contact"
+        }
+    },
+    "Terms": {
+        "title": "Terms of Service",
+        "lastUpdated": "Last updated",
+        "intro": "Welcome to Eduaroo. By using our services, you accept the following terms and conditions.",
+        "sections": {
+            "identification": "Owner Identification",
+            "acceptance": "Acceptance of Terms",
+            "service": "Service Description",
+            "accounts": "User Accounts",
+            "content": "Content and Intellectual Property",
+            "conduct": "User Conduct",
+            "liability": "Limitation of Liability",
+            "termination": "Termination",
+            "law": "Applicable Law",
+            "contact": "Contact"
+        }
+    },
+    "Roles": {
+        "student": "Student",
+        "parent": "Family",
+        "teacher": "Teacher",
+        "switch": "Switch Role"
+    },
+    "ParentDashboard": {
+        "greeting": "Hello, Family 👋",
+        "intro": "Here is the progress summary for <bold>{name}</bold>",
+        "timeThisWeek": "Time this week",
+        "exercisesCompleted": "Exercises completed",
+        "currentStreak": "Current streak",
+        "weeklyActivity": "Weekly Activity",
+        "recentAchievements": "Recent Achievements",
+        "areasForImprovement": "Areas for Improvement",
+        "thisWeek": "This week",
+        "lastWeek": "Last week",
+        "days": "days"
+    },
+    "TeacherDashboard": {
+        "title": "Math Class 4B",
+        "studentsCount": "{count} Students",
+        "year": "Year 2025-2026",
+        "exportCSV": "Export CSV",
+        "createTask": "Create Task",
+        "classAverage": "Class Average",
+        "needsHelp": "Needs Help",
+        "completedTasks": "Completed Tasks",
+        "totalTime": "Total Time/Week",
+        "students": "Students",
+        "search": "Search student...",
+        "table": {
+            "name": "Name",
+            "level": "Level",
+            "progress": "Unit Progress",
+            "status": "Status",
+            "lastActive": "Last Active",
+            "actions": "Actions"
+        },
+        "status": {
+            "ontrack": "On Track",
+            "needs_help": "Needs Help",
+            "falling_behind": "Falling Behind",
+            "exceling": "Exceling"
+        },
+        "placeholders": {
+            "showing": "Showing {current} of {total} students"
+        }
+    },
+    "DailyReview": {
+        "widgetTitle": "Quick Review",
+        "subtitle": "{count} concepts to refresh your memory",
+        "start": "Start (+50 XP)",
+        "modalTitle": "Daily Review",
+        "completedTitle": "Review Completed!",
+        "completedDesc": "You strengthened your memory and earned rewards.",
+        "awesome": "Awesome",
+        "questionProgress": "Question {current} of {total}",
+        "streak": "Streak: {streak} 🔥",
+        "correct": "Correct!",
+        "incorrect": "Oops! Next time better."
+    },
+    "ExplorerPass": {
+        "title": "Explorer Pass",
+        "viewMissions": "View Missions",
+        "level": "Level {level}"
     }
 }

@@ -16,6 +16,9 @@
         "science": "Ciencias",
         "social": "Ciencias Sociales",
         "selectMath": "Selecciona Matemáticas para ver los niveles",
+        "featured": "Destacado",
+        "startLearning": "Empieza a aprender",
+        "startLearningDesc": "Explora nuestros cursos interactivos",
         "levels": {
             "primary": "Primaria",
             "grade1": "1º de Primaria",
@@ -27,10 +30,190 @@
         }
     },
     "Common": {
-        "getStarted": "Empezar"
+        "getStarted": "Empezar",
+        "correct_answer_is": "La respuesta correcta es",
+        "units": {
+            "m2": "m²",
+            "m3": "m³",
+            "h": "h",
+            "min": "min",
+            "euro": "€"
+        }
+    },
+    "MathGrade1": {
+        "title": "Matemáticas 1º Primaria",
+        "subtitle": "¡Empieza tu aventura matemática!",
+        "checkAnswers": "Corregir",
+        "score": "Puntuación: {score}/{total}",
+        "generateNew": "Generar Nuevos Ejercicios",
+        "progressLabel": "Progreso",
+        "numeration_title": "Numeración 0-99",
+        "numeration_count": "¿Cuántas manzanas hay?",
+        "numeration_order": "Ordena de menor a mayor",
+        "numeration_series": "¿Qué número sigue?",
+        "numeration_verify": "Comprobar",
+        "numeration_next": "Siguiente",
+        "operations_title": "Sumas y Restas",
+        "operations_section": "1. Resuelve las sumas y restas.",
+        "geometry_title": "Geometría Básica",
+        "geometry_shape_q": "¿Cuál es el {shape}?",
+        "geometry_open_closed_q": "Toca la línea {type}",
+        "geometry_shapes": {
+            "circle": "Círculo",
+            "square": "Cuadrado",
+            "triangle": "Triángulo",
+            "rectangle": "Rectángulo",
+            "open": "ABIERTA",
+            "closed": "CERRADA",
+            "open_label": "Abierta",
+            "closed_label": "Cerrada"
+        },
+        "measurement_title": "Medición",
+        "measurement_money_q": "¿Cuánto dinero hay?",
+        "measurement_time_q": "¿Qué hora marca el reloj?",
+        "cents": "céntimos"
+    },
+    "MathGrade2": {
+        "title": "Matemáticas 2º Primaria",
+        "subtitle": "¡Sigue aprendiendo y divirtiéndote!",
+        "numeration_title": "Números hasta 999",
+        "numeration_q": "¿Qué número representan estos bloques?",
+        "hundreds": "Centenas",
+        "tens": "Decenas",
+        "ones": "Unidades",
+        "tens_short": "D",
+        "ones_short": "U",
+        "operations_title": "Operaciones 2º",
+        "operations_sum_carry": "Suma con llevadas",
+        "operations_mult_intro": "¿Cuántos hay en total?",
+        "times": "veces",
+        "geometry_title": "Geometría y Simetría",
+        "geometry_3d_q": "¿Cuál de estos es un {shape}?",
+        "geometry_symmetry_q": "¿Qué figura tiene SIMETRÍA?",
+        "geometry_shapes": {
+            "cube": "Cubo",
+            "sphere": "Esfera",
+            "cylinder": "Cilindro",
+            "cone": "Cono"
+        },
+        "measurement_title": "Medidas y Tiempo",
+        "measurement_length_q": "¿Cuánto mide el lápiz?",
+        "measurement_capacity_q": "¿Cuántos litros hay en total?",
+        "measurement_calendar_q": "¿Qué día va después del {day}?",
+        "fractions_title": "Fracciones Básicas",
+        "fractions_match_inst": "Une cada dibujo con su fracción",
+        "group_label": "Grupo",
+        "liters_label": "litros",
+        "today_label": "HOY",
+        "days": {
+            "monday": "Lunes",
+            "tuesday": "Martes",
+            "wednesday": "Miércoles",
+            "thursday": "Jueves",
+            "friday": "Viernes",
+            "saturday": "Sábado",
+            "sunday": "Domingo"
+        }
+    },
+    "MathGrade3": {
+        "title": "Matemáticas 3º Primaria",
+        "subtitle": "¡Retos más grandes te esperan!",
+        "numeration_title": "Números Grandes (3º)",
+        "numeration_read_q": "Selecciona el número correcto:",
+        "numeration_max_q": "Encuentra el número MAYOR",
+        "numeration_sort_q": "Encuentra el número MAYOR",
+        "operations_title": "Multiplicación y División",
+        "operations_mult_q": "¿Cuántos cuadros hay?",
+        "operations_div_q": "Reparte {dividend} caramelos entre {divisor} niños. ¿Cuántos para cada uno?",
+        "geometry_title": "Geometría Avanzada",
+        "geometry_poly_q": "¿Cuántos lados tiene esta figura?",
+        "geometry_polygon_q": "¿Cuántos lados tiene esta figura?",
+        "geometry_circle_q": "¿Qué representa la línea o punto ROJO?",
+        "geometry_polygons": {
+            "triangle": "Triángulo",
+            "square": "Cuadrado",
+            "pentagon": "Pentágono",
+            "hexagon": "Hexágono"
+        },
+        "geometry_parts": {
+            "center": "Centro",
+            "radius": "Radio",
+            "diameter": "Diámetro",
+            "circumference": "Circunferencia"
+        },
+        "measurement_title": "Datos y Dinero",
+        "measurement_bar_q_max": "¿Qué color tiene MÁS votos?",
+        "measurement_bar_q_count": "¿Cuántos votos tiene el color {color}?",
+        "measurement_money_q": "Tienes {wallet}€. Si compras {item} por {cost}€, ¿cuánto te sobra?",
+        "colors": {
+            "red": "Rojo",
+            "blue": "Azul",
+            "green": "Verde",
+            "yellow": "Amarillo"
+        },
+        "fractions_title": "Fracciones Equivalentes",
+        "fractions_inst": "Une la fracción (izquierda) con su equivalente (derecha)",
+        "rows": "filas",
+        "cols": "col.",
+        "child": "Niño",
+        "items": {
+            "ball": "una pelota",
+            "book": "un libro",
+            "icecream": "un helado",
+            "toy": "un juguete"
+        }
+    },
+    "MathGrade5": {
+        "title": "Matemáticas 5º Primaria",
+        "subtitle": "¡Dominando las matemáticas avanzadas!",
+        "arithmetic_title": "Aritmética Avanzada",
+        "sexagesimal_title": "Sistema Sexagesimal",
+        "geometry_title": "Áreas y Poliedros",
+        "arithmetic_prime_q": "¿El número {num} es PRIMO o COMPUESTO?",
+        "arithmetic_div_q": "¿Qué número es divisible por {divisor}?",
+        "arithmetic_calc_q": "Calcula: {a} x {b}",
+        "prime": "Primo",
+        "composite": "Compuesto",
+        "sexagesimal_q": "Suma estos tiempos:\n{t1}  +  {t2}",
+        "sexagesimal_hint": "Pista: Si los minutos pasan de 59, ¡se convierten en 1 hora!",
+        "geometry_area_rect_q": "Calcula el ÁREA del rectángulo",
+        "geometry_area_tri_q": "Calcula el ÁREA del triángulo",
+        "geometry_base": "Base",
+        "geometry_height": "Altura",
+        "geometry_rect_formula": "Fórmula: base x altura",
+        "geometry_tri_formula": "Fórmula: (base x altura) / 2",
+        "arithmetic_prime_yes": "{num} solo es divisible por 1 y por sí mismo.",
+        "arithmetic_prime_no": "{num} tiene más divisores (ej. {div}).",
+        "arithmetic_div_expl": "Para ser divisible por {divisor}, la división debe ser exacta (resto 0).",
+        "sexagesimal_sol": "Recuerda: 60 minutos = 1 hora.\n{answer}"
+    },
+    "MathGrade6": {
+        "title": "Matemáticas 6º Primaria",
+        "subtitle": "¡Preparándonos para la secundaria!",
+        "proportionality_title": "Proporcionalidad",
+        "integers_title": "Enteros y Potencias",
+        "stats_title": "Estadística",
+        "volume_title": "Volumen y 3D",
+        "integers_elevator_q": "Estás en la planta {start}. Bajas {down} plantas. ¿En qué planta estás?",
+        "integers_power_q": "Calcula: {base} elevado a {exp} ({base}{sup})",
+        "prop_rule_three_q": "Si {q1} pasteles cuestan {cost1}€, ¿cuánto cuestan {q2} pasteles?",
+        "prop_pct_q": "Calcula el {pct}% de {total}",
+        "stats_q": "Calcula la {stat} de:",
+        "stats_labels": {
+            "mean": "MEDIA (promedio)",
+            "median": "MEDIANA (valor central)",
+            "mode": "MODA (el más repetido)",
+            "range": "RANGO (mayor - menor)"
+        },
+        "volume_cube_q": "Calcula el VOLUMEN de un cubo de lado {side}m",
+        "volume_box_q": "Volumen de una caja: {w}m x {h}m x {d}m",
+        "prop_sol_rule_three": "1 pastel cuesta {unit}€. Entonces {q2} cuestan {total}€.",
+        "prop_sol_pct": "Multiplica {total} x {factor} = {answer}",
+        "stats_sol_sorted": " (Ordenados: {data})"
     },
     "MathGrade4": {
         "title": "Explora Fichas de Matemáticas de 4º Primaria por Tema",
+        "subtitle": "¡Sigue el camino para convertirte en un experto!",
         "topics": {
             "multiplication": "Multiplicación",
             "multiplicationDesc": "Números de varios dígitos",
@@ -66,6 +249,8 @@
         },
         "textChoice": "4. Observa y elige la opción correcta.",
         "textMatching": "5. Relaciona cada fracción con su forma de leerla.",
+        "equivalence": "6. Elige la fracción equivalente.",
+        "comparison": "7. Compara las fracciones (>, <, =).",
         "fractionNames": {
             "1_2": "Un medio",
             "1_3": "Un tercio",
@@ -97,6 +282,101 @@
             "9_10": "Nueve décimos"
         }
     },
+    "MultiplicationGrade4": {
+        "title": "Práctica de Multiplicación",
+        "description": "Domina la multiplicación con números de varias cifras.",
+        "checkAnswers": "Corregir",
+        "score": "Tu Puntuación: {score}/{total}",
+        "fillInTheBlank": "1. Resuelve las multiplicaciones.",
+        "multipleChoice": "2. Elige el resultado correcto.",
+        "generateNew": "Generar Nuevos Ejercicios"
+    },
+    "DivisionGrade4": {
+        "title": "Práctica de División",
+        "description": "Aprende a dividir con y sin resto.",
+        "checkAnswers": "Corregir",
+        "score": "Tu Puntuación: {score}/{total}",
+        "fillInTheBlank": "1. Resuelve las divisiones (Cociente y Resto).",
+        "quotient": "Cociente",
+        "remainder": "Resto",
+        "generateNew": "Generar Nuevos Ejercicios"
+    },
+    "DecimalsGrade4": {
+        "title": "Práctica de Decimales",
+        "description": "Explora los números decimales y su relación con fracciones.",
+        "checkAnswers": "Corregir",
+        "score": "Tu Puntuación: {score}/{total}",
+        "comparison": "1. Compara los números decimales (>, <, =).",
+        "conversion": "2. Convierte la fracción a decimal.",
+        "generateNew": "Generar Nuevos Ejercicios"
+    },
+    "GeometryGrade4": {
+        "title": "Práctica de Geometría",
+        "description": "Identifica formas, líneas y ángulos.",
+        "checkAnswers": "Corregir",
+        "score": "Tu Puntuación: {score}/{total}",
+        "identifyShape": "1. ¿Qué forma es esta?",
+        "identifyAngle": "2. ¿Qué tipo de ángulo es este?",
+        "shapes": {
+            "triangle": "Triángulo",
+            "square": "Cuadrado",
+            "rectangle": "Rectángulo",
+            "pentagon": "Pentágono",
+            "hexagon": "Hexágono",
+            "circle": "Círculo"
+        },
+        "angles": {
+            "acute": "Agudo (< 90°)",
+            "right": "Recto (90°)",
+            "obtuse": "Obtuso (> 90°)"
+        },
+        "generateNew": "Generar Nuevos Ejercicios"
+    },
+    "MeasurementGrade4": {
+        "title": "Práctica de Medición",
+        "description": "Aprende a convertir unidades de medida.",
+        "checkAnswers": "Corregir",
+        "score": "Tu Puntuación: {score}/{total}",
+        "conversion": "1. Convierte las unidades.",
+        "units": {
+            "m_cm": "metros a centímetros",
+            "km_m": "kilómetros a metros",
+            "kg_g": "kilogramos a gramos",
+            "l_ml": "litros a mililitros"
+        },
+        "generateNew": "Generar Nuevos Ejercicios",
+        "units_labels": {
+            "m": "m",
+            "cm": "cm",
+            "km": "km",
+            "kg": "kg",
+            "g": "g",
+            "l": "l",
+            "ml": "ml"
+        },
+        "matching": {
+            "m_cm": {
+                "left": "1 m",
+                "right": "100 cm"
+            },
+            "km_m": {
+                "left": "1 km",
+                "right": "1000 m"
+            },
+            "kg_g": {
+                "left": "1 kg",
+                "right": "1000 g"
+            },
+            "l_ml": {
+                "left": "1 l",
+                "right": "1000 ml"
+            },
+            "cm_m": {
+                "left": "50 cm",
+                "right": "0.5 m"
+            }
+        }
+    },
     "KidsPage": {
         "title": "Zona de Niños",
         "description": "¡Juegos divertidos y aventuras de aprendizaje!",
@@ -116,7 +396,15 @@
     },
     "GamesPage": {
         "title": "Juegos Educativos",
-        "description": "Aprende jugando con nuestra selección curada de juegos educativos."
+        "description": "Aprende jugando con nuestra selección curada de juegos educativos.",
+        "galaxyMathFuelTitle": "Galaxy Math Fuel",
+        "galaxyMathFuelTag": "Tablas de multiplicar",
+        "galaxyMathFuelDesc": "Pilota tu cohete, atrapa el combustible correcto y domina las tablas de multiplicar con velocidad y precisión.",
+        "playNow": "Jugar ahora"
+    },
+    "GalaxyMathFuelPage": {
+        "title": "Galaxy Math Fuel",
+        "description": "Practica las tablas de multiplicar en un juego espacial de ritmo rápido."
     },
     "LearningPage": {
         "title": "Ruta de Aprendizaje",
@@ -146,5 +434,137 @@
     "BlogPage": {
         "title": "Blog de Eduaroo",
         "description": "Últimas noticias y consejos educativos."
+    },
+    "Dashboard": {
+        "title": "Mi Progreso",
+        "greeting": "¡Hola, Explorador!",
+        "question": "¿Qué vamos a aprender hoy?",
+        "subjects": "Tus Asignaturas",
+        "continue": "Continuar",
+        "comingSoon": "Pronto",
+        "exercises": "ejercicios",
+        "level": "Nv."
+    },
+    "Store": {
+        "title": "Personaliza tu Avatar",
+        "subtitle": "Usa tus estrellas para desbloquear items",
+        "categories": {
+            "head": "Cabeza",
+            "face": "Cara",
+            "body": "Ropa",
+            "accessory": "Accesorios",
+            "background": "Fondo"
+        },
+        "avatarMessage": "Tu avatar aparecerá en tu perfil",
+        "unlocked": "¡Desbloqueado!"
+    },
+    "Footer": {
+        "tagline": "Aprendizaje divertido para niños",
+        "contact": "Contacto",
+        "location": "Murcia, España",
+        "legal": "Legal",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio",
+        "rights": "Todos los derechos reservados"
+    },
+    "Privacy": {
+        "title": "Política de Privacidad",
+        "lastUpdated": "Última actualización",
+        "intro": "En Eduaroo nos tomamos muy en serio la privacidad de nuestros usuarios, especialmente cuando se trata de niños.",
+        "sections": {
+            "responsible": "Responsable del Tratamiento",
+            "dataCollected": "Datos que Recopilamos",
+            "purpose": "Finalidad del Tratamiento",
+            "rights": "Derechos del Usuario",
+            "security": "Seguridad",
+            "cookies": "Cookies",
+            "children": "Protección de Menores",
+            "changes": "Cambios en la Política",
+            "contact": "Contacto"
+        }
+    },
+    "Terms": {
+        "title": "Términos de Servicio",
+        "lastUpdated": "Última actualización",
+        "intro": "Bienvenido a Eduaroo. Al utilizar nuestros servicios, aceptas los siguientes términos y condiciones.",
+        "sections": {
+            "identification": "Identificación del Titular",
+            "acceptance": "Aceptación de los Términos",
+            "service": "Descripción del Servicio",
+            "accounts": "Cuentas de Usuario",
+            "content": "Contenido y Propiedad Intelectual",
+            "conduct": "Conducta del Usuario",
+            "liability": "Limitación de Responsabilidad",
+            "termination": "Terminación",
+            "law": "Ley Aplicable",
+            "contact": "Contacto"
+        }
+    },
+    "Roles": {
+        "student": "Estudiante",
+        "parent": "Familia",
+        "teacher": "Docente",
+        "switch": "Cambiar Rol"
+    },
+    "ParentDashboard": {
+        "greeting": "Hola, Familia 👋",
+        "intro": "Aquí tienes el resumen del progreso de <bold>{name}</bold>",
+        "timeThisWeek": "Tiempo esta semana",
+        "exercisesCompleted": "Ejercicios completados",
+        "currentStreak": "Racha actual",
+        "weeklyActivity": "Actividad Semanal",
+        "recentAchievements": "Logros Recientes",
+        "areasForImprovement": "Áreas de Mejora",
+        "thisWeek": "Esta semana",
+        "lastWeek": "Semana pasada",
+        "days": "días"
+    },
+    "TeacherDashboard": {
+        "title": "Clase de Matemáticas 4ºB",
+        "studentsCount": "{count} Estudiantes",
+        "year": "Curso 2025-2026",
+        "exportCSV": "Exportar CSV",
+        "createTask": "Crear Tarea",
+        "classAverage": "Promedio Clase",
+        "needsHelp": "Necesitan Ayuda",
+        "completedTasks": "Tareas Completadas",
+        "totalTime": "Tiempo Total/Semana",
+        "students": "Estudiantes",
+        "search": "Buscar estudiante...",
+        "table": {
+            "name": "Nombre",
+            "level": "Nivel",
+            "progress": "Progreso Unidad",
+            "status": "Estado",
+            "lastActive": "Última Actividad",
+            "actions": "Acciones"
+        },
+        "status": {
+            "ontrack": "Al día",
+            "needs_help": "Necesita Ayuda",
+            "falling_behind": "Atrasado",
+            "exceling": "Destacado"
+        },
+        "placeholders": {
+            "showing": "Mostrando {current} de {total} estudiantes"
+        }
+    },
+    "DailyReview": {
+        "widgetTitle": "Repaso Rápido",
+        "subtitle": "{count} conceptos para refrescar tu memoria",
+        "start": "Empezar (+50 XP)",
+        "modalTitle": "Repaso Diario",
+        "completedTitle": "¡Repaso Completado!",
+        "completedDesc": "Has fortalecido tu memoria y ganado recompensas.",
+        "awesome": "Genial",
+        "questionProgress": "Pregunta {current} de {total}",
+        "streak": "Racha: {streak} 🔥",
+        "correct": "¡Correcto!",
+        "incorrect": "¡Ups! La próxima saldrá mejor."
+    },
+    "ExplorerPass": {
+        "title": "Pase de Explorador",
+        "viewMissions": "Ver Misiones",
+        "level": "Nivel {level}"
     }
 }

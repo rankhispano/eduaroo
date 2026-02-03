@@ -1,5 +1,5 @@
+import FractionsExercises from '@/components/math/g4/FractionsExercises';
 import { getTranslations } from 'next-intl/server';
-import FractionsExercises from '@/components/FractionsExercises';
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
     const params = await props.params;
