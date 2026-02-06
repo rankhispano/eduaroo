@@ -453,6 +453,23 @@ export const MATH_GRADE_4_UNITS: LearningUnit[] = [
         slug: 'geometry',
         path: '/learning/math/grade5/geometry'
     },
+    {
+        id: 'math_g5_fractions',
+        subjectId: 'math',
+        gradeLevel: 5,
+        order: 4,
+        titleEs: 'Fracciones',
+        titleEn: 'Fractions',
+        descriptionEs: 'Equivalencias y comparaciones',
+        descriptionEn: 'Equivalence and comparisons',
+        iconEmoji: '🍕',
+        lessons: createDefaultUnitStructure('math_g5_fractions', 'math', 'Fracciones', 'Fractions'),
+        prerequisites: ['math_g5_arithmetic'],
+        status: 'available',
+        progress: 0,
+        slug: 'fractions',
+        path: '/learning/math/grade5/fractions'
+    },
     // --- GRADE 6 ---
     {
         id: 'math_g6_proportionality',

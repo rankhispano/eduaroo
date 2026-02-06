@@ -185,7 +185,27 @@
         "arithmetic_prime_yes": "{num} solo es divisible por 1 y por sí mismo.",
         "arithmetic_prime_no": "{num} tiene más divisores (ej. {div}).",
         "arithmetic_div_expl": "Para ser divisible por {divisor}, la división debe ser exacta (resto 0).",
-        "sexagesimal_sol": "Recuerda: 60 minutos = 1 hora.\n{answer}"
+        "sexagesimal_sol": "Recuerda: 60 minutos = 1 hora.\n{answer}",
+        "fractions_title": "Fracciones",
+        "topics": {
+            "fractions": "Fracciones",
+            "fractionsDesc": "Equivalencias y comparaciones"
+        }
+    },
+    "FractionsGrade5": {
+        "title": "Práctica de Fracciones - 5º Primaria",
+        "description": "Trabaja con fracciones equivalentes y compara fracciones.",
+        "checkAnswers": "Corregir",
+        "score": "Tu Puntuación: {score}/{total}",
+        "equivalence": "1. Elige la fracción equivalente.",
+        "comparison": "2. Compara las fracciones (>, <, =).",
+        "generateNew": "Generar Nuevos Ejercicios",
+        "feedback": {
+            "perfect": "¡Perfecto! ¡Eres un mago de las matemáticas! 🌟",
+            "great": "¡Genial! ¡Ya casi lo tienes! 🚀",
+            "good": "¡Buen esfuerzo! ¡Sigue practicando! 💪",
+            "tryAgain": "¡No te rindas! ¡Inténtalo de nuevo! 💫"
+        }
     },
     "MathGrade6": {
         "title": "Matemáticas 6º Primaria",
@@ -249,8 +269,8 @@
         },
         "textChoice": "4. Observa y elige la opción correcta.",
         "textMatching": "5. Relaciona cada fracción con su forma de leerla.",
-        "equivalence": "6. Elige la fracción equivalente.",
-        "comparison": "7. Compara las fracciones (>, <, =).",
+        "addition": "6. Suma de fracciones (mismo denominador).",
+        "subtraction": "7. Resta de fracciones (mismo denominador).",
         "fractionNames": {
             "1_2": "Un medio",
             "1_3": "Un tercio",

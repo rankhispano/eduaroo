@@ -16,8 +16,8 @@ type ExerciseType =
     | 'matching'
     | 'text-choice'
     | 'text-matching'
-    | 'equivalence'
-    | 'comparison';
+    | 'addition'
+    | 'subtraction';
 
 interface BaseExercise {
     id: number;
@@ -56,18 +56,22 @@ interface TextMatchingGroup {
     pairs: { id: number; numerator: number; denominator: number; textKey: string }[];
 }
 
-interface EquivalenceExercise extends BaseExercise {
-    type: 'equivalence';
-    options: { num: number; den: number }[];
-    correctOption: { num: number; den: number };
+interface AdditionExercise {
+    id: number;
+    type: 'addition';
+    a: number;
+    b: number;
+    denominator: number;
+    correctNumerator: number;
 }
 
-interface ComparisonExercise {
+interface SubtractionExercise {
     id: number;
-    type: 'comparison';
-    left: { num: number; den: number };
-    right: { num: number; den: number };
-    correctSymbol: '>' | '<' | '=';
+    type: 'subtraction';
+    a: number;
+    b: number;
+    denominator: number;
+    correctNumerator: number;
 }
 
 type Exercise =
@@ -76,8 +80,8 @@ type Exercise =
     | MatchingExerciseGroup
     | TextChoiceExercise
     | TextMatchingGroup
-    | EquivalenceExercise
-    | ComparisonExercise;
+    | AdditionExercise
+    | SubtractionExercise;
 
 const randomInt = (min: number, max: number) => Math.floor(Math.random() * (max - min + 1)) + min;
 
@@ -102,14 +106,6 @@ const generateFraction = () => {
     return { num, den };
 };
 
-const areEquivalent = (aNum: number, aDen: number, bNum: number, bDen: number) =>
-    aNum * bDen === bNum * aDen;
-
-const compareFractions = (aNum: number, aDen: number, bNum: number, bDen: number) => {
-    const diff = aNum * bDen - bNum * aDen;
-    return diff === 0 ? 0 : diff > 0 ? 1 : -1;
-};
-
 const generateOptions = (correctNum: number, correctDen: number) => {
     const opts = [{ num: correctNum, den: correctDen }];
     while (opts.length < 3) {
@@ -132,47 +128,22 @@ const generateTextOptions = (correctKey: string): string[] => {
     return options.sort(() => Math.random() - 0.5);
 };
 
-const generateEquivalentOptions = (
-    baseNum: number,
-    baseDen: number,
-    correctOption: { num: number; den: number }
-) => {
-    const opts = [{ ...correctOption }];
-    while (opts.length < 3) {
-        const { num, den } = generateFraction();
-        if (areEquivalent(baseNum, baseDen, num, den)) continue;
-        if (opts.some(o => o.num === num && o.den === den)) continue;
-        opts.push({ num, den });
-    }
-    return opts.sort(() => Math.random() - 0.5);
+const generateAdditionExercise = (id: number): AdditionExercise => {
+    const den = randomInt(2, 10);
+    const a = randomInt(1, den - 1);
+    // b must keep result <= den (proper fraction) and b >= 1
+    const maxB = den - a;
+    const b = randomInt(1, Math.max(1, maxB));
+    return { id, type: 'addition', a, b, denominator: den, correctNumerator: a + b };
 };
 
-const generateComparisonExercise = (): ComparisonExercise => {
-    const left = generateFraction();
-    const desiredSymbols: Array<'>' | '<' | '='> = ['>', '<', '='];
-    const desired = desiredSymbols[randomInt(0, desiredSymbols.length - 1)];
-    let right = generateFraction();
-
-    if (desired === '=') {
-        const factor = randomInt(2, 4);
-        right = { num: left.num * factor, den: left.den * factor };
-    } else {
-        let attempts = 0;
-        while (attempts < 60) {
-            right = generateFraction();
-            const cmp = compareFractions(left.num, left.den, right.num, right.den);
-            if ((desired === '>' && cmp > 0) || (desired === '<' && cmp < 0)) break;
-            attempts++;
-        }
-    }
-
-    return {
-        id: 0,
-        type: 'comparison',
-        left,
-        right,
-        correctSymbol: desired
-    };
+const generateSubtractionExercise = (id: number): SubtractionExercise => {
+    const den = randomInt(2, 10);
+    // a must be at least 2 so we can subtract and stay positive
+    const a = randomInt(2, den);
+    // b < a to guarantee positive result
+    const b = randomInt(1, a - 1);
+    return { id, type: 'subtraction', a, b, denominator: den, correctNumerator: a - b };
 };
 
 // Component for Text Matching (fraction numbers to text)
@@ -513,36 +484,14 @@ export default function FractionsExercises() {
             pairs: textMatchPairs
         });
 
-        // 6. Equivalent fractions (3 exercises)
-        for (let i = 0; i < 3; i++) {
-            let { num, den } = generateFraction();
-            let fractionKey = `${num}_${den}`;
-            while (usedFractions.has(fractionKey)) {
-                const frac = generateFraction();
-                num = frac.num;
-                den = frac.den;
-                fractionKey = `${num}_${den}`;
-            }
-            usedFractions.add(fractionKey);
-            const factor = randomInt(2, 4);
-            const correctOption = { num: num * factor, den: den * factor };
-            newExercises.push({
-                id: idCounter++,
-                type: 'equivalence',
-                numerator: num,
-                denominator: den,
-                correctOption,
-                options: generateEquivalentOptions(num, den, correctOption)
-            });
+        // 6. Addition of fractions with same denominator (4 exercises)
+        for (let i = 0; i < 4; i++) {
+            newExercises.push(generateAdditionExercise(idCounter++));
         }
 
-        // 7. Compare fractions (3 exercises)
-        for (let i = 0; i < 3; i++) {
-            const comparison = generateComparisonExercise();
-            newExercises.push({
-                ...comparison,
-                id: idCounter++
-            });
+        // 7. Subtraction of fractions with same denominator (4 exercises, always positive)
+        for (let i = 0; i < 4; i++) {
+            newExercises.push(generateSubtractionExercise(idCounter++));
         }
 
         setExercises(newExercises);
@@ -660,7 +609,7 @@ export default function FractionsExercises() {
                 total++;
                 const answer = answers[ex.id];
                 // Check if this question has been answered
-                if (ex.type === 'fill-blank') {
+                if (ex.type === 'fill-blank' || ex.type === 'addition' || ex.type === 'subtraction') {
                     const hasNum = answer?.num !== undefined && answer?.num !== '';
                     const hasDen = answer?.den !== undefined && answer?.den !== '';
                     if (hasNum || hasDen) answered++;
@@ -684,18 +633,10 @@ export default function FractionsExercises() {
             if (Object.keys(conn).length !== ex.pairs.length) return false;
             return Object.entries(conn).every(([leftId, rightId]) => parseInt(leftId) === rightId);
         }
-        if (ex.type === 'equivalence') {
+        if (ex.type === 'addition' || ex.type === 'subtraction') {
             const ans = answers[ex.id];
             if (!ans) return false;
-            const selected = JSON.parse(ans);
-            return (
-                selected.num === ex.correctOption.num && selected.den === ex.correctOption.den
-            );
-        }
-        if (ex.type === 'comparison') {
-            const ans = answers[ex.id];
-            if (!ans) return false;
-            return ans === ex.correctSymbol;
+            return parseInt(ans.num) === ex.correctNumerator && parseInt(ans.den) === ex.denominator;
         }
         const ans = answers[ex.id];
         if (!ans) return false;
@@ -906,97 +847,94 @@ export default function FractionsExercises() {
                     );
                 })}
 
-                {/* Section 6: Equivalent Fractions */}
+                {/* Section 6: Addition of fractions (same denominator) */}
                 <section className="bg-white dark:bg-gray-900 rounded-2xl shadow-sm p-8 mb-8 border border-gray-100 dark:border-gray-800">
-                    <h2 className="text-xl font-bold text-indigo-600 mb-6 border-b pb-2 border-indigo-600/10">{t('equivalence')}</h2>
-                    <div className="space-y-8">
-                        {exercises.filter(e => e.type === 'equivalence').map((ex) => {
+                    <h2 className="text-xl font-bold text-indigo-600 mb-6 border-b pb-2 border-indigo-600/10">{t('addition')}</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-12">
+                        {exercises.filter(e => e.type === 'addition').map((ex) => {
                             const correct = showResults && isCorrect(ex);
                             const wrong = showResults && !isCorrect(ex);
-                            const eEx = ex as EquivalenceExercise;
+                            const aEx = ex as AdditionExercise;
                             return (
-                                <div key={ex.id} className="flex flex-col md:flex-row items-center gap-8 border-b border-dashed border-gray-200 dark:border-gray-700 pb-8 last:border-0 last:pb-0">
-                                    <div className="flex-shrink-0"><FractionVisual numerator={eEx.numerator} denominator={eEx.denominator} type="bar" size={180} color="#6366f1" /></div>
-                                    <div className="flex gap-4">
-                                        {eEx.options.map((opt, idx) => {
-                                            const isSelected = answers[ex.id] === JSON.stringify(opt);
-                                            const isOptionCorrect =
-                                                opt.num === eEx.correctOption.num && opt.den === eEx.correctOption.den;
-                                            let btnClass = "border-2 border-gray-200 dark:border-gray-700 hover:border-indigo-500 hover:bg-indigo-50";
-                                            if (showResults) {
-                                                if (isOptionCorrect) btnClass = "bg-green-100 border-green-500 text-green-800 shadow-[0_0_10px_rgba(34,197,94,0.3)]";
-                                                else if (isSelected) btnClass = "bg-red-100 border-red-500 text-red-800 opacity-50";
-                                                else btnClass = "opacity-40 border-gray-200";
-                                            } else if (isSelected) btnClass = "border-indigo-500 bg-indigo-50 text-indigo-700 font-bold ring-2 ring-indigo-200";
-                                            return (
-                                                <button key={idx} onClick={() => handleOptionSelect(ex.id, opt)} disabled={showResults} className={`flex flex-col items-center justify-center w-20 h-24 rounded-xl transition-all duration-200 ${btnClass}`}>
-                                                    <span className="text-xl">{opt.num}</span>
-                                                    <span className="w-10 h-0.5 bg-current my-1 rounded-full"></span>
-                                                    <span className="text-xl">{opt.den}</span>
-                                                </button>
-                                            );
-                                        })}
+                                <div key={ex.id} className="flex items-center gap-4 justify-center p-4 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+                                    {/* First fraction */}
+                                    <div className="flex flex-col items-center text-2xl font-bold text-indigo-600">
+                                        <span>{aEx.a}</span>
+                                        <span className="w-8 h-0.5 bg-current my-1"></span>
+                                        <span>{aEx.denominator}</span>
                                     </div>
-                                    <div className="ml-auto">
-                                        {correct && <CheckCircle className="w-8 h-8 text-green-500" />}
-                                        {wrong && <XCircle className="w-8 h-8 text-red-500" />}
+                                    <span className="text-2xl font-bold text-gray-700 dark:text-gray-300">+</span>
+                                    {/* Second fraction */}
+                                    <div className="flex flex-col items-center text-2xl font-bold text-indigo-600">
+                                        <span>{aEx.b}</span>
+                                        <span className="w-8 h-0.5 bg-current my-1"></span>
+                                        <span>{aEx.denominator}</span>
                                     </div>
+                                    <span className="text-2xl font-bold text-gray-700 dark:text-gray-300">=</span>
+                                    {/* Answer inputs */}
+                                    <div className="flex flex-col items-center gap-2">
+                                        <input type="number" className={`no-spinner w-14 h-12 text-center border-2 rounded-lg bg-white dark:bg-gray-800 focus:outline-none focus:border-brand-blue transition-colors ${correct ? 'border-green-500 bg-green-50 text-green-700' : ''} ${wrong ? 'border-red-500 bg-red-50 text-red-700' : 'border-gray-200 dark:border-gray-700'}`} value={answers[ex.id]?.num || ''} onChange={(e) => handleInputChange(ex.id, 'num', e.target.value)} aria-label="Numerator" />
+                                        <div className="w-14 h-0.5 bg-gray-800 dark:bg-gray-200 rounded-full"></div>
+                                        <input type="number" className={`no-spinner w-14 h-12 text-center border-2 rounded-lg bg-white dark:bg-gray-800 focus:outline-none focus:border-brand-blue transition-colors ${correct ? 'border-green-500 bg-green-50 text-green-700' : ''} ${wrong ? 'border-red-500 bg-red-50 text-red-700' : 'border-gray-200 dark:border-gray-700'}`} value={answers[ex.id]?.den || ''} onChange={(e) => handleInputChange(ex.id, 'den', e.target.value)} aria-label="Denominator" />
+                                    </div>
+                                    {correct && <CheckCircle className="w-6 h-6 text-green-500 ml-2" />}
+                                    {wrong && (
+                                        <div className="flex items-center gap-2 ml-2">
+                                            <XCircle className="w-6 h-6 text-red-500" />
+                                            <div className="flex flex-col items-center opacity-70">
+                                                <span className="text-sm font-bold text-green-600">{aEx.correctNumerator}</span>
+                                                <div className="w-4 h-0.5 bg-green-600 rounded-full"></div>
+                                                <span className="text-sm font-bold text-green-600">{aEx.denominator}</span>
+                                            </div>
+                                        </div>
+                                    )}
                                 </div>
                             );
                         })}
                     </div>
                 </section>
 
-                {/* Section 7: Compare Fractions */}
+                {/* Section 7: Subtraction of fractions (same denominator) */}
                 <section className="bg-white dark:bg-gray-900 rounded-2xl shadow-sm p-8 mb-8 border border-gray-100 dark:border-gray-800">
-                    <h2 className="text-xl font-bold text-sky-600 mb-6 border-b pb-2 border-sky-600/10">{t('comparison')}</h2>
-                    <div className="space-y-8">
-                        {exercises.filter(e => e.type === 'comparison').map((ex) => {
+                    <h2 className="text-xl font-bold text-sky-600 mb-6 border-b pb-2 border-sky-600/10">{t('subtraction')}</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-12">
+                        {exercises.filter(e => e.type === 'subtraction').map((ex) => {
                             const correct = showResults && isCorrect(ex);
                             const wrong = showResults && !isCorrect(ex);
-                            const cEx = ex as ComparisonExercise;
-                            const symbols: Array<'>' | '<' | '='> = ['>', '<', '='];
+                            const sEx = ex as SubtractionExercise;
                             return (
-                                <div key={ex.id} className="flex flex-col md:flex-row items-center gap-8 border-b border-dashed border-gray-200 dark:border-gray-700 pb-8 last:border-0 last:pb-0">
-                                    <div className="flex-shrink-0">
-                                        <div className="w-24 h-24 rounded-2xl bg-white dark:bg-gray-800 border-2 border-sky-200 dark:border-sky-500/30 flex items-center justify-center">
-                                            <div className="flex flex-col items-center text-2xl font-bold font-mono text-sky-600 dark:text-sky-300">
-                                                <span>{cEx.left.num}</span>
-                                                <span className="w-10 h-0.5 bg-current my-1"></span>
-                                                <span>{cEx.left.den}</span>
+                                <div key={ex.id} className="flex items-center gap-4 justify-center p-4 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+                                    {/* First fraction */}
+                                    <div className="flex flex-col items-center text-2xl font-bold text-sky-600">
+                                        <span>{sEx.a}</span>
+                                        <span className="w-8 h-0.5 bg-current my-1"></span>
+                                        <span>{sEx.denominator}</span>
+                                    </div>
+                                    <span className="text-2xl font-bold text-gray-700 dark:text-gray-300">−</span>
+                                    {/* Second fraction */}
+                                    <div className="flex flex-col items-center text-2xl font-bold text-sky-600">
+                                        <span>{sEx.b}</span>
+                                        <span className="w-8 h-0.5 bg-current my-1"></span>
+                                        <span>{sEx.denominator}</span>
+                                    </div>
+                                    <span className="text-2xl font-bold text-gray-700 dark:text-gray-300">=</span>
+                                    {/* Answer inputs */}
+                                    <div className="flex flex-col items-center gap-2">
+                                        <input type="number" className={`no-spinner w-14 h-12 text-center border-2 rounded-lg bg-white dark:bg-gray-800 focus:outline-none focus:border-brand-blue transition-colors ${correct ? 'border-green-500 bg-green-50 text-green-700' : ''} ${wrong ? 'border-red-500 bg-red-50 text-red-700' : 'border-gray-200 dark:border-gray-700'}`} value={answers[ex.id]?.num || ''} onChange={(e) => handleInputChange(ex.id, 'num', e.target.value)} aria-label="Numerator" />
+                                        <div className="w-14 h-0.5 bg-gray-800 dark:bg-gray-200 rounded-full"></div>
+                                        <input type="number" className={`no-spinner w-14 h-12 text-center border-2 rounded-lg bg-white dark:bg-gray-800 focus:outline-none focus:border-brand-blue transition-colors ${correct ? 'border-green-500 bg-green-50 text-green-700' : ''} ${wrong ? 'border-red-500 bg-red-50 text-red-700' : 'border-gray-200 dark:border-gray-700'}`} value={answers[ex.id]?.den || ''} onChange={(e) => handleInputChange(ex.id, 'den', e.target.value)} aria-label="Denominator" />
+                                    </div>
+                                    {correct && <CheckCircle className="w-6 h-6 text-green-500 ml-2" />}
+                                    {wrong && (
+                                        <div className="flex items-center gap-2 ml-2">
+                                            <XCircle className="w-6 h-6 text-red-500" />
+                                            <div className="flex flex-col items-center opacity-70">
+                                                <span className="text-sm font-bold text-green-600">{sEx.correctNumerator}</span>
+                                                <div className="w-4 h-0.5 bg-green-600 rounded-full"></div>
+                                                <span className="text-sm font-bold text-green-600">{sEx.denominator}</span>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="flex gap-3">
-                                        {symbols.map((sym) => {
-                                            const isSelected = answers[ex.id] === sym;
-                                            const isOptionCorrect = sym === cEx.correctSymbol;
-                                            let btnClass = "border-2 border-gray-200 dark:border-gray-700 hover:border-sky-500 hover:bg-sky-50";
-                                            if (showResults) {
-                                                if (isOptionCorrect) btnClass = "bg-green-100 border-green-500 text-green-800";
-                                                else if (isSelected) btnClass = "bg-red-100 border-red-500 text-red-800 opacity-50";
-                                                else btnClass = "opacity-40 border-gray-200";
-                                            } else if (isSelected) btnClass = "border-sky-500 bg-sky-50 text-sky-700 font-bold ring-2 ring-sky-200";
-                                            return (
-                                                <button key={sym} onClick={() => handleOptionSelect(ex.id, sym)} disabled={showResults} className={`w-14 h-14 rounded-xl text-2xl font-bold transition-all duration-200 ${btnClass}`}>
-                                                    {sym}
-                                                </button>
-                                            );
-                                        })}
-                                    </div>
-                                    <div className="flex-shrink-0">
-                                        <div className="w-24 h-24 rounded-2xl bg-white dark:bg-gray-800 border-2 border-sky-200 dark:border-sky-500/30 flex items-center justify-center">
-                                            <div className="flex flex-col items-center text-2xl font-bold font-mono text-sky-600 dark:text-sky-300">
-                                                <span>{cEx.right.num}</span>
-                                                <span className="w-10 h-0.5 bg-current my-1"></span>
-                                                <span>{cEx.right.den}</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="ml-auto">
-                                        {correct && <CheckCircle className="w-8 h-8 text-green-500" />}
-                                        {wrong && <XCircle className="w-8 h-8 text-red-500" />}
-                                    </div>
+                                    )}
                                 </div>
                             );
                         })}

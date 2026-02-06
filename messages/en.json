@@ -184,7 +184,27 @@
         "arithmetic_prime_yes": "{num} is only divisible by 1 and itself.",
         "arithmetic_prime_no": "{num} has more divisors (e.g. {div}).",
         "arithmetic_div_expl": "To be divisible by {divisor}, the division must be exact (remainder 0).",
-        "sexagesimal_sol": "Remember: 60 minutes = 1 hour.\n{answer}"
+        "sexagesimal_sol": "Remember: 60 minutes = 1 hour.\n{answer}",
+        "fractions_title": "Fractions",
+        "topics": {
+            "fractions": "Fractions",
+            "fractionsDesc": "Equivalence and comparisons"
+        }
+    },
+    "FractionsGrade5": {
+        "title": "Fractions Practice - 5th Grade",
+        "description": "Work with equivalent fractions and compare fractions.",
+        "checkAnswers": "Check Answers",
+        "score": "Your Score: {score}/{total}",
+        "equivalence": "1. Choose the equivalent fraction.",
+        "comparison": "2. Compare the fractions (>, <, =).",
+        "generateNew": "Generate New Exercises",
+        "feedback": {
+            "perfect": "Perfect! You're a math wizard! 🌟",
+            "great": "Great job! Almost there! 🚀",
+            "good": "Good effort! Keep practicing! 💪",
+            "tryAgain": "Don't give up! Try again! 💫"
+        }
     },
     "MathGrade6": {
         "title": "6th Grade Math",
@@ -248,8 +268,8 @@
         },
         "textChoice": "4. Look and choose the correct option.",
         "textMatching": "5. Match each fraction with how it's read.",
-        "equivalence": "6. Choose the equivalent fraction.",
-        "comparison": "7. Compare the fractions (>, <, =).",
+        "addition": "6. Add fractions (same denominator).",
+        "subtraction": "7. Subtract fractions (same denominator).",
         "fractionNames": {
             "1_2": "One half",
             "1_3": "One third",
