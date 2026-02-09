@@ -589,6 +589,7 @@
     },
     "FractionsWordProblems": {
         "title": "Resolución de Problemas",
+        "back": "Volver",
         "new_problem": "Nuevo Problema",
         "data_label": "Datos",
         "data_placeholder": "Escribe aquí los datos importantes...\nEj:\nRuta ayer: 2/6\nRuta hoy: 1/6",

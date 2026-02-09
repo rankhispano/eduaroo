@@ -588,6 +588,7 @@
     },
     "FractionsWordProblems": {
         "title": "Word Problems",
+        "back": "Back",
         "new_problem": "New Problem",
         "data_label": "Data",
         "data_placeholder": "Write important data here...\nEx:\nRoute yesterday: 2/6\nRoute today: 1/6",
