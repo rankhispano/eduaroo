@@ -3,6 +3,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import Navbar from '@/components/Navbar';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import '../globals.css';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import AnimatedKangaroo from '@/components/AnimatedKangaroo';
@@ -69,6 +70,7 @@ export default async function LocaleLayout({
                             disableTransitionOnChange
                         >
                             <Navbar />
+                            <Breadcrumbs />
                             <main className="min-h-screen">
                                 {children}
                             </main>

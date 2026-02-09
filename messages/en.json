@@ -9,6 +9,10 @@
         "locale": "{locale, select, en {English} es {Español} fr {Français} pt {Português} it {Italiano} de {Deutsch} tr {Türkçe} ru {Русский} zh {中文} other {Unknown}}"
     },
     "Navigation": {
+        "home": "Home",
+        "learning": "Classroom",
+        "fractions": "Fractions",
+        "problems": "Problems",
         "subjects": "Subjects",
         "math": "Math",
         "grade4": "4th Grade",
@@ -617,6 +621,18 @@
         "typeD": {
             "statement": "I have {qty} packets of <unit>v</unit> {name}. How many {totalName} do I have in total?",
             "hint": "Sum the fractions: {sumString}"
+        },
+        "typeE": {
+            "statement": "Jorge has {total} blue and red marbles. Of them, <val1>v</val1> are blue. How many red marbles does he have?",
+            "hint": "First calculate the blue ones ({total} x {num} / {den}) and subtract from total, or find the fraction of red ones."
+        },
+        "typeF": {
+            "statement": "Maria lost a balloon. It ascended {ascend} m, but then descended <val1>v</val1> of the height reached. At how many meters is the balloon now?",
+            "hint": "Calculate how much it descended ({ascend} / {den}) and subtract it from the initial height."
+        },
+        "typeG": {
+            "statement": "After extracting <val1>v</val1> of the sand from a sack, {remainder} kg remain inside. How many kilograms of sand were in the sack initially?",
+            "hint": "If you take out {num}/{den}, {diffNum}/{den} remain. Those {diffNum} parts are {remainder} kg."
         },
         "units": {
             "pages": "pages",

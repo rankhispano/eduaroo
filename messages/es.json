@@ -9,6 +9,10 @@
         "locale": "{locale, select, en {Inglés} es {Español} fr {Francés} pt {Portugués} it {Italiano} de {Alemán} tr {Turco} ru {Ruso} zh {Chino} other {Desconocido}}"
     },
     "Navigation": {
+        "home": "Inicio",
+        "learning": "Aula",
+        "fractions": "Fracciones",
+        "problems": "Problemas",
         "subjects": "Asignaturas",
         "math": "Matemáticas",
         "grade4": "4º de Primaria",
@@ -618,6 +622,18 @@
         "typeD": {
             "statement": "Tengo {qty} paquetes de <unit>v</unit> de {name}. ¿Cuántos {totalName} tengo en total?",
             "hint": "Suma las fracciones: {sumString}"
+        },
+        "typeE": {
+            "statement": "Jorge tiene {total} canicas azules y rojas. De ellas, <val1>v</val1> son azules. ¿Cuántas canicas rojas tiene?",
+            "hint": "Primero calcula las azules ({total} x {num} / {den}) y réstalo al total, o halla la fracción de rojas."
+        },
+        "typeF": {
+            "statement": "A María se le ha escapado un globo. Ha ascendido {ascend} m, pero después ha descendido la <val1>v</val1> parte de la altura alcanzada. ¿A cuántos metros se encuentra el globo ahora?",
+            "hint": "Calcula cuánto ha descendido ({ascend} / {den}) y réstalo a la altura inicial."
+        },
+        "typeG": {
+            "statement": "Después de extraer las <val1>v</val1> partes de arena que contiene un saco, quedan en su interior {remainder} kg. ¿Cuántos kilogramos de arena había en el saco inicialmente?",
+            "hint": "Si sacas {num}/{den}, quedan {diffNum}/{den}. Esos {diffNum} partes son {remainder} kg."
         },
         "units": {
             "pages": "páginas",

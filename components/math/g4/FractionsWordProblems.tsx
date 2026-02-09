@@ -6,7 +6,7 @@ import { RefreshCw, CheckCircle, AlertCircle, HelpCircle, Edit3 } from 'lucide-r
 import { useTranslations } from 'next-intl';
 
 // Tipos de problemas
-type ProblemType = 'A' | 'B' | 'C' | 'D';
+type ProblemType = 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G';
 
 interface Problem {
   type: ProblemType;
@@ -20,8 +20,8 @@ interface Problem {
 
 const InlineFraction = ({ num, den }: { num: React.ReactNode, den: React.ReactNode }) => (
     <span className="inline-flex flex-col items-center mx-1 align-middle" style={{ verticalAlign: 'middle', fontSize: '1.2em' }}>
-        <span className="border-b-2 border-slate-700 px-1 leading-none pb-0.5 mb-0.5 font-bold text-slate-800">{num}</span>
-        <span className="leading-none px-1 pt-0.5 font-bold text-slate-800">{den}</span>
+        <span className="border-b-2 border-slate-700 dark:border-slate-300 px-1 leading-none pb-0.5 mb-0.5 font-bold text-slate-800 dark:text-slate-100">{num}</span>
+        <span className="leading-none px-1 pt-0.5 font-bold text-slate-800 dark:text-slate-100">{den}</span>
     </span>
 );
 
@@ -47,7 +47,7 @@ export default function FractionsWordProblems() {
     setFeedback('idle');
     setMessage('');
 
-    const types: ProblemType[] = ['A', 'B', 'C', 'D'];
+    const types: ProblemType[] = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
     const selectedType = types[Math.floor(Math.random() * types.length)];
     // const selectedType = 'D'; // Testing specific type
 
@@ -157,6 +157,77 @@ export default function FractionsWordProblems() {
         }
         break;
 
+      case 'E': // Canicas / Subtraction from fraction of total
+        {
+          const denE = [2, 3, 4, 5, 6, 8][Math.floor(Math.random() * 6)];
+          const numE = randomInt(1, denE - 1);
+          const multiplierE = randomInt(3, 15);
+          const totalE = denE * multiplierE; // Divisible exactamente
+          const blueCount = (totalE / denE) * numE;
+          const redCount = totalE - blueCount;
+
+          newProblem = {
+            type: 'E',
+            statement: t.rich('typeE.statement', {
+              total: totalE,
+              val1: () => <InlineFraction num={numE} den={denE} />,
+            }),
+            correctAnswer: redCount,
+            acceptableFormats: [`${redCount}`],
+            expectedInputType: 'text',
+            hint: t('typeE.hint', { total: totalE, num: numE, den: denE })
+          };
+        }
+        break;
+
+      case 'F': // Globo / Ascend then descend a fraction
+        {
+          const denF = [2, 3, 4, 5, 6][Math.floor(Math.random() * 5)];
+          const multiplierF = randomInt(3, 12);
+          const ascendF = denF * multiplierF; // Divisible
+          const descendF = ascendF / denF;
+          const resultF = ascendF - descendF;
+
+          newProblem = {
+            type: 'F',
+            statement: t.rich('typeF.statement', {
+              ascend: ascendF,
+              val1: () => <InlineFraction num={1} den={denF} />,
+            }),
+            correctAnswer: resultF,
+            acceptableFormats: [`${resultF}`],
+            expectedInputType: 'text',
+            units: 'm',
+            hint: t('typeF.hint', { ascend: ascendF, den: denF })
+          };
+        }
+        break;
+
+      case 'G': // Saco de arena / Reverse from remainder
+        {
+          const denG = [2, 3, 4, 5, 6, 8][Math.floor(Math.random() * 6)];
+          const numG = randomInt(1, denG - 1);
+          const diffNumG = denG - numG; // Parts remaining
+          // remainder must be divisible by diffNumG for a whole answer
+          const multiplierG = randomInt(2, 15);
+          const remainderG = diffNumG * multiplierG;
+          const totalG = denG * multiplierG; // Original total
+
+          newProblem = {
+            type: 'G',
+            statement: t.rich('typeG.statement', {
+              val1: () => <InlineFraction num={numG} den={denG} />,
+              remainder: remainderG,
+            }),
+            correctAnswer: totalG,
+            acceptableFormats: [`${totalG}`],
+            expectedInputType: 'text',
+            units: 'kg',
+            hint: t('typeG.hint', { num: numG, den: denG, diffNum: diffNumG, remainder: remainderG })
+          };
+        }
+        break;
+
       default:
         // Fallback
         newProblem = {
@@ -241,9 +312,9 @@ export default function FractionsWordProblems() {
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-6 bg-white rounded-xl shadow-lg border-2 border-slate-100">
-      <div className="flex justify-between items-center mb-6 border-b pb-4">
-        <h2 className="text-2xl font-bold text-indigo-700 flex items-center gap-2">
+    <div className="w-full max-w-4xl mx-auto p-6 bg-white dark:bg-slate-900 rounded-xl shadow-lg border-2 border-slate-100 dark:border-slate-700">
+      <div className="flex justify-between items-center mb-6 border-b dark:border-slate-700 pb-4">
+        <h2 className="text-2xl font-bold text-indigo-700 dark:text-indigo-400 flex items-center gap-2">
             <Edit3 className="w-6 h-6" />
             {t('title')}
         </h2>
@@ -256,8 +327,8 @@ export default function FractionsWordProblems() {
       {problem && (
         <div className="space-y-8">
             {/* ENUNCIADO */}
-            <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
-                <p className="text-xl text-slate-800 font-medium leading-relaxed">
+            <div className="bg-blue-50 dark:bg-blue-950/40 p-6 rounded-lg border border-blue-100 dark:border-blue-900">
+                <p className="text-xl text-slate-800 dark:text-slate-100 font-medium leading-relaxed">
                     {problem.statement}
                 </p>
             </div>
@@ -267,12 +338,12 @@ export default function FractionsWordProblems() {
                 
                 {/* COLUMNA 1: DATOS */}
                 <div className="flex flex-col gap-2">
-                    <label className="text-sm font-bold text-slate-500 uppercase tracking-wide flex items-center gap-2">
-                        <span className="w-6 h-6 rounded-full bg-slate-200 text-slate-600 flex items-center justify-center text-xs">1</span>
+                    <label className="text-sm font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wide flex items-center gap-2">
+                        <span className="w-6 h-6 rounded-full bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300 flex items-center justify-center text-xs">1</span>
                         {t('data_label')}
                     </label>
                     <textarea 
-                        className="flex-1 min-h-[200px] p-4 rounded-lg border-2 border-slate-200 focus:border-indigo-400 focus:ring-0 resize-none bg-slate-50 text-lg"
+                        className="flex-1 min-h-[200px] p-4 rounded-lg border-2 border-slate-200 dark:border-slate-600 focus:border-indigo-400 focus:ring-0 resize-none bg-slate-50 dark:bg-slate-800 dark:text-slate-100 text-lg"
                         placeholder={t('data_placeholder')}
                         value={dataInput}
                         onChange={(e) => setDataInput(e.target.value)}
@@ -281,12 +352,12 @@ export default function FractionsWordProblems() {
 
                 {/* COLUMNA 2: OPERACION */}
                 <div className="flex flex-col gap-2">
-                    <label className="text-sm font-bold text-slate-500 uppercase tracking-wide flex items-center gap-2">
-                        <span className="w-6 h-6 rounded-full bg-slate-200 text-slate-600 flex items-center justify-center text-xs">2</span>
+                    <label className="text-sm font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wide flex items-center gap-2">
+                        <span className="w-6 h-6 rounded-full bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300 flex items-center justify-center text-xs">2</span>
                         {t('operation_label')}
                     </label>
                     <textarea 
-                        className="flex-1 min-h-[200px] p-4 rounded-lg border-2 border-slate-200 focus:border-indigo-400 focus:ring-0 resize-none bg-white font-mono text-lg"
+                        className="flex-1 min-h-[200px] p-4 rounded-lg border-2 border-slate-200 dark:border-slate-600 focus:border-indigo-400 focus:ring-0 resize-none bg-white dark:bg-slate-800 dark:text-slate-100 font-mono text-lg"
                         placeholder={t('operation_placeholder')}
                         value={operationInput}
                         onChange={(e) => setOperationInput(e.target.value)}
@@ -295,20 +366,20 @@ export default function FractionsWordProblems() {
 
                 {/* COLUMNA 3: SOLUCION (Validada) */}
                 <div className="flex flex-col gap-2 relative">
-                    <label className="text-sm font-bold text-slate-500 uppercase tracking-wide flex items-center gap-2">
-                        <span className="w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center text-xs">3</span>
+                    <label className="text-sm font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wide flex items-center gap-2">
+                        <span className="w-6 h-6 rounded-full bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300 flex items-center justify-center text-xs">3</span>
                         {t('solution_label')}
                     </label>
-                    <div className={`p-4 rounded-lg border-2 border-emerald-100 bg-emerald-50/30 flex flex-col justify-between h-[200px] ${feedback === 'correct' ? 'ring-2 ring-emerald-500' : ''}`}>
+                    <div className={`p-4 rounded-lg border-2 border-emerald-100 dark:border-emerald-800 bg-emerald-50/30 dark:bg-emerald-950/30 flex flex-col justify-between h-[200px] ${feedback === 'correct' ? 'ring-2 ring-emerald-500' : ''}`}>
                         <div>
-                            <p className="text-xs text-slate-500 mb-2 italic">
+                            <p className="text-xs text-slate-500 dark:text-slate-400 mb-2 italic">
                                 {t('solution_help')}
                             </p>
                             
                             {inputMode === 'text' ? (
                                 <input 
                                     type="text"
-                                    className="w-full text-center text-2xl font-bold py-3 px-2 rounded border border-emerald-200 focus:border-emerald-500 focus:outline-none bg-white placeholder:text-slate-300"
+                                    className="w-full text-center text-2xl font-bold py-3 px-2 rounded border border-emerald-200 dark:border-emerald-700 focus:border-emerald-500 focus:outline-none bg-white dark:bg-slate-800 dark:text-slate-100 placeholder:text-slate-300 dark:placeholder:text-slate-600"
                                     placeholder="?"
                                     value={solutionInput}
                                     onChange={(e) => {
@@ -318,10 +389,10 @@ export default function FractionsWordProblems() {
                                     onKeyDown={(e) => e.key === 'Enter' && checkAnswer()}
                                 />
                             ) : (
-                                <div className="flex flex-col items-center justify-center gap-1 w-full p-2 bg-white rounded border border-emerald-200">
+                                <div className="flex flex-col items-center justify-center gap-1 w-full p-2 bg-white dark:bg-slate-800 rounded border border-emerald-200 dark:border-emerald-700">
                                     <input
                                         type="number"
-                                        className="w-16 h-10 text-center text-xl font-bold border-b-2 border-slate-300 focus:border-emerald-500 focus:outline-none no-spinner bg-transparent"
+                                        className="w-16 h-10 text-center text-xl font-bold border-b-2 border-slate-300 dark:border-slate-500 focus:border-emerald-500 focus:outline-none no-spinner bg-transparent dark:text-slate-100"
                                         placeholder="Num"
                                         value={fractionInput.num}
                                         onChange={(e) => {
@@ -333,7 +404,7 @@ export default function FractionsWordProblems() {
                                     {/* Using border-b-2 on upper input instead for tighter integration or stick with explicit div */}
                                     <input
                                         type="number"
-                                        className="w-16 h-10 text-center text-xl font-bold focus:border-emerald-500 focus:outline-none no-spinner bg-transparent"
+                                        className="w-16 h-10 text-center text-xl font-bold focus:border-emerald-500 focus:outline-none no-spinner bg-transparent dark:text-slate-100"
                                         placeholder="Den"
                                         value={fractionInput.den}
                                         onChange={(e) => {
@@ -363,7 +434,7 @@ export default function FractionsWordProblems() {
             </div>
 
             {/* ALERTA / AYUDA */}
-            <div className="flex items-start gap-3 p-4 bg-amber-50 rounded-lg text-amber-800 text-sm border border-amber-100">
+            <div className="flex items-start gap-3 p-4 bg-amber-50 dark:bg-amber-950/40 rounded-lg text-amber-800 dark:text-amber-300 text-sm border border-amber-100 dark:border-amber-900">
                 <AlertCircle className="w-5 h-5 shrink-0" />
                 <p 
                     dangerouslySetInnerHTML={{ __html: t.raw('warning_body') }}
@@ -373,7 +444,7 @@ export default function FractionsWordProblems() {
             {/* FIELD DE MENSAJES */}
             {message && (
                 <div className={`p-4 rounded-lg text-center font-bold text-lg animate-in fade-in slide-in-from-bottom-2 ${
-                    feedback === 'correct' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+                    feedback === 'correct' ? 'bg-green-100 dark:bg-green-900/40 text-green-800 dark:text-green-300' : 'bg-red-100 dark:bg-red-900/40 text-red-800 dark:text-red-300'
                 }`}>
                     {message}
                 </div>
