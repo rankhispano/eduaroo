@@ -586,5 +586,44 @@
         "title": "Pase de Explorador",
         "viewMissions": "Ver Misiones",
         "level": "Nivel {level}"
+    },
+    "FractionsWordProblems": {
+        "title": "Resolución de Problemas",
+        "new_problem": "Nuevo Problema",
+        "data_label": "Datos",
+        "data_placeholder": "Escribe aquí los datos importantes...\nEj:\nRuta ayer: 2/6\nRuta hoy: 1/6",
+        "operation_label": "Operación",
+        "operation_placeholder": "Plantea tu operación...\n2/6 + 1/6 = ...",
+        "solution_label": "Solución Final",
+        "solution_help": "Escribe aquí el resultado final para corregir.",
+        "check": "Corregir",
+        "correct": "¡Correcto!",
+        "warning_title": "¡Atención!",
+        "warning_body": "El sistema solo corregirá automáticamente lo que escribas en la columna <strong class=\"font-bold\">SOLUCIÓN</strong>. Usa las columnas Datos y Operación como borrador para tu trabajo.",
+        "feedback_correct": "¡Muy bien! Respuesta correcta. 🎉",
+        "feedback_incorrect": "Respuesta incorrecta. Revisa tus cálculos o el formato.",
+        "typeA": {
+            "statement": "Ayer recorrí <val1>v</val1> de la ruta de senderismo y hoy he recorrido <val2>v</val2>. ¿Qué fracción de la ruta he recorrido en total?",
+            "hint": "Recuerda: si el denominador es igual, solo sumamos los numeradores."
+        },
+        "typeB": {
+            "statement": "Un depósito de agua está al <val1>v</val1> de su capacidad. Durante la mañana se consume <val2>v</val2>. ¿Qué fracción de agua queda en el depósito?",
+            "hint": "Es una resta. Mantén el denominador y resta los numeradores."
+        },
+        "typeC": {
+            "statement": "He leído <val1>v</val1> de un libro que tiene {total} páginas. ¿Cuántas páginas he leído en total?",
+            "hint": "Divide {total} entre {den} y luego multiplica por {num}."
+        },
+        "typeD": {
+            "statement": "Tengo {qty} paquetes de <unit>v</unit> de {name}. ¿Cuántos {totalName} tengo en total?",
+            "hint": "Suma las fracciones: {sumString}"
+        },
+        "units": {
+            "pages": "páginas",
+            "kilo": "kilo",
+            "kilos": "kilos",
+            "litro": "litro",
+            "litros": "litros"
+        }
     }
 }

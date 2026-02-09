@@ -585,5 +585,44 @@
         "title": "Explorer Pass",
         "viewMissions": "View Missions",
         "level": "Level {level}"
+    },
+    "FractionsWordProblems": {
+        "title": "Word Problems",
+        "new_problem": "New Problem",
+        "data_label": "Data",
+        "data_placeholder": "Write important data here...\nEx:\nRoute yesterday: 2/6\nRoute today: 1/6",
+        "operation_label": "Operation",
+        "operation_placeholder": "Set up your operation...\n2/6 + 1/6 = ...",
+        "solution_label": "Final Solution",
+        "solution_help": "Write the final result here to check.",
+        "check": "Check Check",
+        "correct": "Correct!",
+        "warning_title": "Attention!",
+        "warning_body": "The system will only automatically check what you write in the <strong class=\"font-bold\">SOLUTION</strong> column. Use the Data and Operation columns as scratchpads for your work.",
+        "feedback_correct": "Great job! Correct answer. 🎉",
+        "feedback_incorrect": "Incorrect answer. Check your calculations or format.",
+        "typeA": {
+            "statement": "Yesterday I hiked <val1>v</val1> of the trail and today I hiked <val2>v</val2>. What fraction of the trail have I hiked in total?",
+            "hint": "Remember: if the denominator is the same, just add the numerators."
+        },
+        "typeB": {
+            "statement": "A water tank is at <val1>v</val1> capacity. During the morning <val2>v</val2> is consumed. What fraction of water remains in the tank?",
+            "hint": "It's a subtraction. Keep the denominator and subtract the numerators."
+        },
+        "typeC": {
+            "statement": "I have read <val1>v</val1> of a book that has {total} pages. How many pages have I read in total?",
+            "hint": "Divide {total} by {den} and then multiply by {num}."
+        },
+        "typeD": {
+            "statement": "I have {qty} packets of <unit>v</unit> {name}. How many {totalName} do I have in total?",
+            "hint": "Sum the fractions: {sumString}"
+        },
+        "units": {
+            "pages": "pages",
+            "kilo": "kilo",
+            "kilos": "kilos",
+            "litro": "liter",
+            "litros": "liters"
+        }
     }
 }

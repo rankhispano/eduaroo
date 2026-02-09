@@ -246,6 +246,17 @@ export default function UnitPathMap({ units, basePath }: UnitPathMapProps) {
                                         </div>
                                     </Link>
 
+                                    {/* Special Link for Word Problems in Fractions (Grade 4) */}
+                                    {unit.id === 'math_g4_fractions' && !isLocked && (
+                                        <Link
+                                            href={`${basePath}/fractions/problems`}
+                                            className="absolute -top-4 -right-4 pointer-events-auto z-30 w-12 h-12 rounded-full bg-indigo-600 border-4 border-white dark:border-gray-900 shadow-xl flex items-center justify-center hover:scale-110 transition-transform hover:bg-indigo-700"
+                                            title={locale === 'es' ? "Problemas de Matemáticas" : "Math Word Problems"}
+                                        >
+                                            <span className="text-xl">🤔</span>
+                                        </Link>
+                                    )}
+
                                     {/* Title Label (Average visual centering relative to path) */}
                                     <div className={`
                                         mt-4 px-3 py-1.5 rounded-xl font-bold text-sm text-center shadow-md border z-0 pointer-events-auto
