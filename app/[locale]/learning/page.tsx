@@ -10,10 +10,6 @@ import { Sparkles, ChevronRight, Lock } from 'lucide-react';
 const REGIONS = [
     {
         id: 'math',
-        mascot: 'Roo el Calculador',
-        mascotEn: 'Roo the Calculator',
-        region: 'Montañas de Números',
-        regionEn: 'Number Mountains',
         image: '/mascots/roo.png',
         gradient: 'from-blue-500 to-purple-600',
         bgLight: 'bg-blue-50',
@@ -22,22 +18,22 @@ const REGIONS = [
     },
     {
         id: 'language',
-        mascot: 'Loro Literato',
-        mascotEn: 'Loro the Literate',
-        region: 'Bosque de las Palabras',
-        regionEn: 'Forest of Words',
         image: '/mascots/loro.png',
         gradient: 'from-green-500 to-emerald-600',
         bgLight: 'bg-green-50',
         href: '/learning/language',
-        available: false,
+        available: true,
     },
+    /*{
+        id: 'programming',
+        image: '/mascots/byte.png',
+        gradient: 'from-violet-500 to-fuchsia-600',
+        bgLight: 'bg-violet-50',
+        href: '/learning/programming',
+        available: true,
+    },*/
     {
         id: 'science',
-        mascot: 'Otto el Científico',
-        mascotEn: 'Otto the Scientist',
-        region: 'Laboratorio Submarino',
-        regionEn: 'Underwater Laboratory',
         image: '/mascots/otto.png',
         gradient: 'from-teal-500 to-cyan-600',
         bgLight: 'bg-teal-50',
@@ -46,10 +42,6 @@ const REGIONS = [
     },
     {
         id: 'english',
-        mascot: 'Polly Políglota',
-        mascotEn: 'Polly the Polyglot',
-        region: 'Isla de los Idiomas',
-        regionEn: 'Island of Languages',
         image: '/mascots/polly.png',
         gradient: 'from-yellow-500 to-orange-500',
         bgLight: 'bg-yellow-50',
@@ -58,10 +50,6 @@ const REGIONS = [
     },
     {
         id: 'social',
-        mascot: 'Hugo el Historiador',
-        mascotEn: 'Hugo the Historian',
-        region: 'Ciudad del Tiempo',
-        regionEn: 'City of Time',
         image: '/mascots/hugo.png',
         gradient: 'from-amber-600 to-yellow-700',
         bgLight: 'bg-amber-50',
@@ -129,7 +117,7 @@ export default function LearningPage() {
                                         <div className="relative w-full aspect-square mb-4">
                                             <Image
                                                 src={region.image}
-                                                alt={region.mascot}
+                                                alt={t(`regions.${region.id}.mascot`)}
                                                 fill
                                                 className="object-contain drop-shadow-lg group-hover:scale-105 transition-transform"
                                             />
@@ -137,12 +125,12 @@ export default function LearningPage() {
 
                                         {/* Region Name */}
                                         <div className={`inline-block px-3 py-1 rounded-full bg-gradient-to-r ${region.gradient} text-white text-xs font-bold mb-2`}>
-                                            {region.region}
+                                            {t(`regions.${region.id}.region`)}
                                         </div>
 
                                         {/* Mascot Name */}
                                         <h3 className="font-bold text-gray-900 dark:text-white text-lg mb-1">
-                                            {region.mascot}
+                                            {t(`regions.${region.id}.mascot`)}
                                         </h3>
 
                                         {/* CTA */}
@@ -163,7 +151,7 @@ export default function LearningPage() {
                                     <div className="relative w-full aspect-square mb-4 grayscale">
                                         <Image
                                             src={region.image}
-                                            alt={region.mascot}
+                                            alt={t(`regions.${region.id}.mascot`)}
                                             fill
                                             className="object-contain opacity-70"
                                         />
@@ -171,12 +159,12 @@ export default function LearningPage() {
 
                                     {/* Region Name */}
                                     <div className="inline-block px-3 py-1 rounded-full bg-gray-400 text-white text-xs font-bold mb-2">
-                                        {region.region}
+                                        {t(`regions.${region.id}.region`)}
                                     </div>
 
                                     {/* Mascot Name */}
                                     <h3 className="font-bold text-gray-500 dark:text-gray-400 text-lg mb-1">
-                                        {region.mascot}
+                                        {t(`regions.${region.id}.mascot`)}
                                     </h3>
 
                                     {/* Coming Soon */}

@@ -1,6 +1,6 @@
 'use client';
 
-import { Link } from '@/i18n/navigation';
+import { Link, usePathname } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import LanguageSelector from './LanguageSelector';
 import MegaMenu from './MegaMenu';
@@ -12,9 +12,11 @@ import { ThemeToggle } from './ThemeToggle';
 export default function Navbar() {
     const t = useTranslations('Navigation');
     const [isOpen, setIsOpen] = useState(false);
+    const pathname = usePathname();
+    const isGamesPage = pathname?.startsWith('/games');
 
     return (
-        <nav className="bg-white/80 dark:bg-black/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100 dark:border-gray-800">
+        <nav className={`bg-white/80 dark:bg-black/80 backdrop-blur-md z-50 border-b border-gray-100 dark:border-gray-800 ${isGamesPage ? '' : 'sticky top-0'}`}>
             <div className="container mx-auto px-4 sm:px-6 lg:pr-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="flex-shrink-0 flex items-center">
@@ -23,7 +25,7 @@ export default function Navbar() {
                         </Link>
                     </div>
 
-                    <div className="hidden md:flex items-center">
+                    <div className="hidden md:flex items-center z-50">
                         <MegaMenu />
 
                         {/* Other links hidden for now as per request "el navbar quiero que salga solo un elemento que sea Asignaturas" */}
@@ -31,6 +33,10 @@ export default function Navbar() {
                         <Link href="/kids" className="text-gray-700 hover:text-brand-blue transition-colors">{t('kids')}</Link>
                         <Link href="/parents" className="text-gray-700 hover:text-brand-blue transition-colors">{t('parents')}</Link> 
                         */}
+
+                        <Link href="/games" className="text-gray-700 dark:text-gray-300 hover:text-brand-blue px-3 py-2 rounded-md transition-colors">
+                            {t('games')}
+                        </Link>
 
                         <div className="flex items-center gap-4 ml-6 border-l pl-6 border-gray-200 dark:border-gray-700">
 
@@ -57,6 +63,14 @@ export default function Navbar() {
             {isOpen && (
                 <div className="md:hidden px-4 pt-2 pb-4 space-y-1 bg-white dark:bg-black shadow-lg border-t border-gray-100 dark:border-gray-800">
                     <div className="px-3 py-2">
+                        <Link
+                            href="/games"
+                            onClick={() => setIsOpen(false)}
+                            className="block px-3 py-2 rounded-md font-bold text-gray-700 dark:text-gray-200 hover:text-brand-blue hover:bg-gray-50 dark:hover:bg-gray-800"
+                        >
+                            {t('games')}
+                        </Link>
+                        <div className="h-px bg-gray-100 dark:bg-gray-800 my-2"></div>
                         <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">{t('subjects')}</h3>
                         <div className="pl-4 border-l-2 border-gray-100 dark:border-gray-800 space-y-3">
                             <div>

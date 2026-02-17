@@ -5,7 +5,7 @@ import { Lock, Star, Play } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { LearningUnit } from '@/lib/learning/microLessonSystem';
 import { useEffect, useRef, useState, useMemo } from 'react';
-import { useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 interface UnitPathMapProps {
     units: LearningUnit[];
@@ -22,7 +22,7 @@ const CONFIG = {
 };
 
 export default function UnitPathMap({ units, basePath }: UnitPathMapProps) {
-    const locale = useLocale();
+    const t = useTranslations();
     const totalHeight = CONFIG.START_Y + (units.length - 1) * CONFIG.ROW_HEIGHT + 200; // Extra padding at bottom
     const centerX = CONFIG.CANVAS_WIDTH / 2;
 
@@ -220,7 +220,7 @@ export default function UnitPathMap({ units, basePath }: UnitPathMapProps) {
                                 <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center w-40 pointer-events-none">
                                     {/* Pointer events none on wrapper to avoid blocking clicks, allow on children */}
                                     <Link
-                                        href={!isLocked ? `${basePath}/${unit.id.split('_').pop()}` : '#'}
+                                        href={!isLocked ? (unit.path || `${basePath}/${unit.id.split('_').pop()}`) : '#'}
                                         className={`
                                             pointer-events-auto
                                             relative flex items-center justify-center w-24 h-24 rounded-full border-8 shadow-lg z-10
@@ -251,7 +251,7 @@ export default function UnitPathMap({ units, basePath }: UnitPathMapProps) {
                                         <Link
                                             href={`${basePath}/fractions/problems`}
                                             className="absolute -top-4 right-2 pointer-events-auto z-30 w-12 h-12 rounded-full bg-blue-200 border-4 border-white dark:border-gray-900 shadow-xl flex items-center justify-center hover:scale-110 transition-transform hover:bg-blue-400"
-                                            title={locale === 'es' ? "Problemas de Matemáticas" : "Math Word Problems"}
+                                            title={t('MathProblems.title')}
                                         >
                                             <span className="text-xl">🧮</span>
                                         </Link>
@@ -265,7 +265,7 @@ export default function UnitPathMap({ units, basePath }: UnitPathMapProps) {
                                             : 'bg-white text-gray-800 border-gray-100 dark:bg-gray-700 dark:text-white dark:border-gray-600'
                                         }
                                     `}>
-                                        {locale === 'en' ? unit.titleEn : unit.titleEs}
+                                        {t(unit.titleKey)}
                                     </div>
                                 </div>
                             </motion.div>

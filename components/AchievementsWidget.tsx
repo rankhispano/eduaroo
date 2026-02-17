@@ -3,8 +3,10 @@
 import { motion } from 'framer-motion';
 import { Trophy, Lock, CheckCircle } from 'lucide-react';
 import { useGamificationStore } from '@/lib/gamification/store';
+import { useTranslations } from 'next-intl';
 
 export default function AchievementsWidget() {
+    const t = useTranslations();
     const achievements = useGamificationStore((s) => s.achievements);
 
     const unlocked = achievements.filter(a => a.unlockedAt !== null);
@@ -23,9 +25,9 @@ export default function AchievementsWidget() {
                         <Trophy className="w-6 h-6 text-amber-600 dark:text-amber-400" />
                     </div>
                     <div>
-                        <h3 className="text-lg font-bold text-gray-900 dark:text-white">Logros</h3>
+                        <h3 className="text-lg font-bold text-gray-900 dark:text-white">{t('Achievements.title')}</h3>
                         <p className="text-sm text-gray-500 dark:text-gray-400">
-                            {unlocked.length}/{achievements.length} desbloqueados
+                            {unlocked.length}/{achievements.length} {t('Achievements.unlocked') || 'unlocked'}
                         </p>
                     </div>
                 </div>
@@ -52,8 +54,8 @@ export default function AchievementsWidget() {
                         {/* Tooltip */}
                         <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
                             <div className="bg-gray-900 text-white text-xs rounded-lg px-3 py-2 whitespace-nowrap shadow-lg">
-                                <p className="font-bold">{achievement.nameEs}</p>
-                                <p className="opacity-70">{achievement.descriptionEs}</p>
+                                <p className="font-bold">{t(achievement.nameKey)}</p>
+                                <p className="opacity-70">{t(achievement.descriptionKey)}</p>
                             </div>
                         </div>
                     </motion.div>
@@ -73,7 +75,7 @@ export default function AchievementsWidget() {
                         <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
                             <div className="bg-gray-900 text-white text-xs rounded-lg px-3 py-2 whitespace-nowrap shadow-lg">
                                 <p className="font-bold">???</p>
-                                <p className="opacity-70">{achievement.descriptionEs}</p>
+                                <p className="opacity-70">{t(achievement.descriptionKey)}</p>
                             </div>
                         </div>
                     </div>

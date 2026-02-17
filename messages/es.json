@@ -1,4 +1,97 @@
 {
+    "MathSelection": {
+        "title": "Matemáticas",
+        "description": "Selecciona un nivel para comenzar a practicar"
+    },
+    "FractionsGrade4": {
+        "title": "Fracciones: Conceptos Básicos",
+        "description": "Aprende qué son las fracciones, cómo se escriben y qué representan.",
+        "generateNew": "Generar Nuevos Ejercicios",
+        "fillInTheBlank": "Rellena los huecos",
+        "multipleChoice": "Selección Múltiple",
+        "matching": "Emparejar",
+        "textChoice": "Lectura de Fracciones",
+        "textMatching": "Emparejar Texto",
+        "addition": "Suma de Fracciones",
+        "subtraction": "Resta de Fracciones",
+        "checkAnswers": "Corregir",
+        "fractionNames": {
+            "1_2": "Un medio",
+            "1_3": "Un tercio",
+            "2_3": "Dos tercios",
+            "1_4": "Un cuarto",
+            "2_4": "Dos cuartos",
+            "3_4": "Tres cuartos",
+            "1_5": "Un quinto",
+            "2_5": "Dos quintos",
+            "3_5": "Tres quintos",
+            "4_5": "Cuatro quintos",
+            "1_6": "Un sexto",
+            "2_6": "Dos sextos",
+            "3_6": "Tres sextos",
+            "4_6": "Cuatro sextos",
+            "5_6": "Cinco sextos",
+            "1_8": "Un octavo",
+            "3_8": "Tres octavos",
+            "5_8": "Cinco octavos",
+            "7_8": "Siete octavos",
+            "1_9": "Un noveno",
+            "4_9": "Cuatro novenos",
+            "7_9": "Siete novenos",
+            "1_10": "Un décimo",
+            "3_10": "Tres décimos",
+            "6_10": "Seis décimos",
+            "9_10": "Nueve décimos"
+        }
+    },
+    "GalaxyMathFuelPage": {
+        "title": "Combustible Galáctico",
+        "description": "¡Resuelve operaciones matemáticas para llenar el combustible de tu cohete!",
+        "instructionsTitle": "Instrucciones",
+        "rules": [
+            "Resuelve las operaciones antes de que se agote el tiempo.",
+            "Cada respuesta correcta añade combustible.",
+            "¡Intenta llegar lo más lejos posible!"
+        ],
+        "startGame": "Iniciar Misión",
+        "gameOver": "Misión Fallida",
+        "score": "Puntuación",
+        "bestScore": "Mejor Puntuación",
+        "playAgain": "Jugar de Nuevo",
+        "back": "Volver"
+    },
+    "GamesPage": {
+        "title": "Juegos Educativos",
+        "description": "Diversión y aprendizaje combinados en misiones galácticas.",
+        "seoTitle": "Juegos Educativos Gratis de Primaria",
+        "seoDesc": "Disfruta de nuestra colección de juegos educativos gratuitos para niños de primaria. ¡Matemáticas, Lógica, Lengua y mucho más!",
+        "categories": {
+            "all": "Todos",
+            "math": "Matemáticas",
+            "logic": "Lógica y Puzzles",
+            "language": "Lengua",
+            "arcade": "Arcade"
+        },
+        "galaxyMathFuelTitle": "Combustible Galáctico",
+        "galaxyMathFuelTag": "Matemáticas • Cálculo Mental",
+        "galaxyMathFuelDesc": "¡Ayuda a la nave a conseguir combustible resolviendo operaciones matemáticas antes de que se agote el tiempo!",
+        "cyberSegmentsTitle": "Cyber Segmentos",
+        "cyberSegmentsTag": "Lógica • Binario",
+        "cyberSegmentsDesc": "Descifra el patrón de los 7 segmentos. Activa los interruptores correctos para formar el número objetivo.",
+        "bitBloxTitle": "BitBlox",
+        "bitBloxTag": "Pixel Art • Binario",
+        "bitBloxDesc": "Colorea mosaicos de Pixel Art usando código binario. ¡Descubre los dibujos ocultos!",
+        "calculateTargetTitle": "Calcula el Objetivo",
+        "calculateTargetTag": "Matemáticas • Estrategia",
+        "calculateTargetDesc": "Combina los números y operadores para alcanzar la cifra exacta con el menor número de movimientos.",
+        "syllableQuestTitle": "Aventura de Sílabas",
+        "syllableQuestTag": "Lengua • Sílabas",
+        "syllableQuestDesc": "¡Conviértete en un maestro de la palabra! Usa tu habilidad para cortar las palabras justo por donde se separan las sílabas.",
+        "astroTypeTitle": "AstroType: Odisea Galáctica",
+        "astroTypeTag": "Mecanografía • Arcade",
+        "astroTypeDesc": "Mejora tu velocidad de escritura defendiendo la galaxia de meteoritos y palabras invasoras.",
+        "playNow": "Jugar ahora"
+    },
     "HomePage": {
         "title": "Da un salto en el aprendizaje",
         "description": "Juegos educativos divertidos, seguros y atractivos para niños",
@@ -19,6 +112,9 @@
         "language": "Lengua",
         "science": "Ciencias",
         "social": "Ciencias Sociales",
+        "programming": "Programación",
+        "games": "Juegos Educativos",
+        "play": "Jugar",
         "selectMath": "Selecciona Matemáticas para ver los niveles",
         "featured": "Destacado",
         "startLearning": "Empieza a aprender",
@@ -31,10 +127,67 @@
             "grade4": "4º de Primaria",
             "grade5": "5º de Primaria",
             "grade6": "6º de Primaria"
+        },
+        "ProgrammingNavigation": {
+            "prog_s1_phase1": "Primeros Pasos",
+            "prog_s1_phase1_desc": "La rejilla y el movimiento básico",
+            "prog_s1_phase2": "El Artista",
+            "prog_s1_phase2_desc": "La pluma y los colores",
+            "prog_s1_phase3": "Giros y Grados",
+            "prog_s1_phase3_desc": "Girar y dibujar formas",
+            "prog_s1_phase4": "Disfraces",
+            "prog_s1_phase4_desc": "Apariencia y efectos",
+            "prog_s1_phase5": "Sonidos",
+            "prog_s1_phase5_desc": "Música y ritmos",
+            "prog_s1_phase6": "Proyecto Final",
+            "prog_s1_phase6_desc": "Tarjeta animada",
+            "prog_s2_phase1": "Repetir X veces",
+            "prog_s2_phase1_desc": "Bucles con contador",
+            "prog_s2_phase2": "Por Siempre",
+            "prog_s2_phase2_desc": "Bucles infinitos",
+            "prog_s2_phase3": "Eventos",
+            "prog_s2_phase3_desc": "Teclado y ratón",
+            "prog_s2_phase4": "Mensajes",
+            "prog_s2_phase4_desc": "Comunicación entre objetos",
+            "prog_s2_phase5": "Proyecto Final",
+            "prog_s2_phase5_desc": "Atrapa al ratón",
+            "prog_s3_phase1": "Sensores",
+            "prog_s3_phase1_desc": "Detectar colores y bordes",
+            "prog_s3_phase2": "Si... entonces",
+            "prog_s3_phase2_desc": "Condicional simple",
+            "prog_s3_phase3": "Si... sino",
+            "prog_s3_phase3_desc": "Doble opción",
+            "prog_s3_phase4": "Operadores",
+            "prog_s3_phase4_desc": "Matemáticas y lógica",
+            "prog_s3_phase5": "Proyecto Final",
+            "prog_s3_phase5_desc": "Laberinto inteligente",
+            "prog_s4_phase1": "Variables",
+            "prog_s4_phase1_desc": "La caja de datos",
+            "prog_s4_phase2": "Clones",
+            "prog_s4_phase2_desc": "Copias de objetos",
+            "prog_s4_phase3": "Mis Bloques",
+            "prog_s4_phase3_desc": "Funciones propias",
+            "prog_s4_phase4": "Física",
+            "prog_s4_phase4_desc": "Gravedad y saltos",
+            "prog_s4_phase5": "Proyecto Final",
+            "prog_s4_phase5_desc": "Super Platformer",
+            "section1": "El Explorador",
+            "section1_subtitle": "Secuenciación y Movimiento Básico",
+            "section1_desc": "Aprende a dar instrucciones paso a paso a tu robot Rover",
+            "section2": "El Mago del Tiempo",
+            "section2_subtitle": "Bucles y Eventos",
+            "section2_desc": "Automatiza tus programas y hazlos interactivos",
+            "section3": "El Detective Lógico",
+            "section3_subtitle": "Condicionales y Sensores",
+            "section3_desc": "Enseña al ordenador a tomar decisiones",
+            "section4": "El Arquitecto",
+            "section4_subtitle": "Variables, Clones y Funciones",
+            "section4_desc": "Crea juegos completos con puntuación y enemigos"
         }
     },
     "Common": {
         "getStarted": "Empezar",
+        "checkAnswers": "Corregir",
         "correct_answer_is": "La respuesta correcta es",
         "units": {
             "m2": "m²",
@@ -42,7 +195,16 @@
             "h": "h",
             "min": "min",
             "euro": "€"
-        }
+        },
+        "status": {
+            "locked": "Bloqueado",
+            "available": "Disponible",
+            "in_progress": "En curso",
+            "completed": "Completado",
+            "mastered": "Dominado"
+        },
+        "exercises": "ejercicios",
+        "lessons_completed": "{completed}/{total} completadas"
     },
     "MathGrade1": {
         "title": "Matemáticas 1º Primaria",
@@ -73,9 +235,13 @@
             "closed_label": "Cerrada"
         },
         "measurement_title": "Medición",
+        "measurement_description": "El reloj y las monedas",
         "measurement_money_q": "¿Cuánto dinero hay?",
         "measurement_time_q": "¿Qué hora marca el reloj?",
-        "cents": "céntimos"
+        "cents": "céntimos",
+        "numeration_description": "Contar, ordenar y valor posicional",
+        "operations_description": "Operaciones básicas sin llevar",
+        "geometry_description": "Círculos, cuadrados y triángulos"
     },
     "MathGrade2": {
         "title": "Matemáticas 2º Primaria",
@@ -101,10 +267,13 @@
             "cone": "Cono"
         },
         "measurement_title": "Medidas y Tiempo",
+        "measurement_description": "Longitud, capacidad y calendario",
         "measurement_length_q": "¿Cuánto mide el lápiz?",
         "measurement_capacity_q": "¿Cuántos litros hay en total?",
         "measurement_calendar_q": "¿Qué día va después del {day}?",
-        "fractions_title": "Fracciones Básicas",
+        "numeration_description": "Centenas, decenas y unidades",
+        "operations_description": "Sumas con llevadas y multiplicaciones",
+        "geometry_description": "Formas tridimensionales y simetría",
         "fractions_match_inst": "Une cada dibujo con su fracción",
         "group_label": "Grupo",
         "liters_label": "litros",
@@ -123,21 +292,24 @@
         "title": "Matemáticas 3º Primaria",
         "subtitle": "¡Retos más grandes te esperan!",
         "numeration_title": "Números Grandes (3º)",
+        "numeration_description": "Hasta 5 cifras",
         "numeration_read_q": "Selecciona el número correcto:",
         "numeration_max_q": "Encuentra el número MAYOR",
         "numeration_sort_q": "Encuentra el número MAYOR",
         "operations_title": "Multiplicación y División",
+        "operations_description": "Algoritmos de multiplicar y dividir",
         "operations_mult_q": "¿Cuántos cuadros hay?",
         "operations_div_q": "Reparte {dividend} caramelos entre {divisor} niños. ¿Cuántos para cada uno?",
         "geometry_title": "Geometría Avanzada",
+        "geometry_description": "Triángulos, círculos y polígonos",
         "geometry_poly_q": "¿Cuántos lados tiene esta figura?",
         "geometry_polygon_q": "¿Cuántos lados tiene esta figura?",
         "geometry_circle_q": "¿Qué representa la línea o punto ROJO?",
         "geometry_polygons": {
             "triangle": "Triángulo",
             "square": "Cuadrado",
-            "pentagon": "Pentágono",
-            "hexagon": "Hexágono"
+            "pentágono": "Pentágono",
+            "hexágono": "Hexágono"
         },
         "geometry_parts": {
             "center": "Centro",
@@ -145,7 +317,8 @@
             "diameter": "Diámetro",
             "circumference": "Circunferencia"
         },
-        "measurement_title": "Datos y Dinero",
+        "measurement_title": "Problemas Reales",
+        "measurement_description": "Dinero y tiempo en contexto",
         "measurement_bar_q_max": "¿Qué color tiene MÁS votos?",
         "measurement_bar_q_count": "¿Cuántos votos tiene el color {color}?",
         "measurement_money_q": "Tienes {wallet}€. Si compras {item} por {cost}€, ¿cuánto te sobra?",
@@ -155,7 +328,8 @@
             "green": "Verde",
             "yellow": "Amarillo"
         },
-        "fractions_title": "Fracciones Equivalentes",
+        "fractions_title": "Fracciones y Decimales",
+        "fractions_description": "Introducción a partes de la unidad",
         "fractions_inst": "Une la fracción (izquierda) con su equivalente (derecha)",
         "rows": "filas",
         "cols": "col.",
@@ -167,12 +341,47 @@
             "toy": "un juguete"
         }
     },
+    "MathGrade4": {
+        "title": "Matemáticas 4º Primaria",
+        "subtitle": "Matemáticas para cuarto de primaria",
+        "multiplication_title": "Multiplicación",
+        "multiplication_description": "Multiplica números de varios dígitos",
+        "division_title": "División",
+        "division_description": "Divide con y sin resto",
+        "fractions_title": "Fracciones",
+        "fractions_description": "Aprende a entender y usar fracciones",
+        "decimals_title": "Decimales",
+        "decimals_description": "Números con punto decimal",
+        "geometry_title": "Geometría",
+        "geometry_description": "Líneas, ángulos y figuras",
+        "measurement_title": "Medición",
+        "measurement_description": "Unidades y conversiones",
+        "topics": {
+            "multiplication": "Multiplicación",
+            "multiplicationDesc": "Números de varios dígitos",
+            "division": "División",
+            "divisionDesc": "Práctica de divisiones",
+            "fractions": "Fracciones",
+            "fractionsDesc": "Matemáticas de la vida real",
+            "decimals": "Decimales",
+            "decimalsDesc": "Aprende conversión",
+            "geometry": "Geometría",
+            "geometryDesc": "Líneas, formas, ángulos",
+            "measurement": "Medición",
+            "measurementDesc": "Unidades y Conversiones"
+        }
+    },
     "MathGrade5": {
         "title": "Matemáticas 5º Primaria",
         "subtitle": "¡Dominando las matemáticas avanzadas!",
-        "arithmetic_title": "Aritmética Avanzada",
+        "arithmetic_title": "Operaciones Avanzadas",
+        "arithmetic_description": "Primos, divisibilidad y decimales",
         "sexagesimal_title": "Sistema Sexagesimal",
+        "sexagesimal_description": "Tiempo y ángulos",
         "geometry_title": "Áreas y Poliedros",
+        "geometry_description": "Cálculo de superficies",
+        "fractions_title": "Fracciones",
+        "fractions_description": "Equivalencias y comparaciones",
         "arithmetic_prime_q": "¿El número {num} es PRIMO o COMPUESTO?",
         "arithmetic_div_q": "¿Qué número es divisible por {divisor}?",
         "arithmetic_calc_q": "Calcula: {a} x {b}",
@@ -190,34 +399,22 @@
         "arithmetic_prime_no": "{num} tiene más divisores (ej. {div}).",
         "arithmetic_div_expl": "Para ser divisible por {divisor}, la división debe ser exacta (resto 0).",
         "sexagesimal_sol": "Recuerda: 60 minutos = 1 hora.\n{answer}",
-        "fractions_title": "Fracciones",
         "topics": {
             "fractions": "Fracciones",
             "fractionsDesc": "Equivalencias y comparaciones"
         }
     },
-    "FractionsGrade5": {
-        "title": "Práctica de Fracciones - 5º Primaria",
-        "description": "Trabaja con fracciones equivalentes y compara fracciones.",
-        "checkAnswers": "Corregir",
-        "score": "Tu Puntuación: {score}/{total}",
-        "equivalence": "1. Elige la fracción equivalente.",
-        "comparison": "2. Compara las fracciones (>, <, =).",
-        "generateNew": "Generar Nuevos Ejercicios",
-        "feedback": {
-            "perfect": "¡Perfecto! ¡Eres un mago de las matemáticas! 🌟",
-            "great": "¡Genial! ¡Ya casi lo tienes! 🚀",
-            "good": "¡Buen esfuerzo! ¡Sigue practicando! 💪",
-            "tryAgain": "¡No te rindas! ¡Inténtalo de nuevo! 💫"
-        }
-    },
     "MathGrade6": {
         "title": "Matemáticas 6º Primaria",
         "subtitle": "¡Preparándonos para la secundaria!",
-        "proportionality_title": "Proporcionalidad",
-        "integers_title": "Enteros y Potencias",
+        "proportionality_title": "Proportionalidad",
+        "proportionality_description": "Regla de tres y porcentajes",
+        "integers_title": "Números Enteros",
+        "integers_description": "Negativos y potencias",
         "stats_title": "Estadística",
+        "stats_description": "Media, mediana y moda",
         "volume_title": "Volumen y 3D",
+        "volume_description": "Cálculo de volumen",
         "integers_elevator_q": "Estás en la planta {start}. Bajas {down} plantas. ¿En qué planta estás?",
         "integers_power_q": "Calcula: {base} elevado a {exp} ({base}{sup})",
         "prop_rule_three_q": "Si {q1} pasteles cuestan {cost1}€, ¿cuánto cuestan {q2} pasteles?",
@@ -235,412 +432,1910 @@
         "prop_sol_pct": "Multiplica {total} x {factor} = {answer}",
         "stats_sol_sorted": " (Ordenados: {data})"
     },
-    "MathGrade4": {
-        "title": "Explora Fichas de Matemáticas de 4º Primaria por Tema",
-        "subtitle": "¡Sigue el camino para convertirte en un experto!",
-        "topics": {
-            "multiplication": "Multiplicación",
-            "multiplicationDesc": "Números de varios dígitos",
-            "division": "División",
-            "divisionDesc": "Práctica de divisiones",
-            "fractions": "Fracciones",
-            "fractionsDesc": "Matemáticas de la vida real",
-            "decimals": "Decimales",
-            "decimalsDesc": "Aprende conversión",
-            "geometry": "Geometría",
-            "geometryDesc": "Líneas, formas, ángulos",
-            "measurement": "Medición",
-            "measurementDesc": "Unidades y Conversiones"
-        }
-    },
-    "FractionsGrade4": {
-        "title": "Práctica de Fracciones",
-        "description": "Completa los ejercicios a continuación para practicar fracciones.",
-        "checkAnswers": "Corregir",
-        "reset": "Reiniciar",
-        "score": "Tu Puntuación: {score}/{total}",
-        "fillInTheBlank": "1. Escribe la fracción que representa las porciones coloreadas.",
-        "multipleChoice": "2. Elige la opción correcta.",
-        "numerator": "Numerador",
-        "denominator": "Denominador",
-        "matching": "3. Empareja el dibujo con su fracción correcta.",
-        "generateNew": "Generar Nuevos Ejercicios",
-        "feedback": {
-            "perfect": "¡Perfecto! ¡Eres un mago de las matemáticas! 🌟",
-            "great": "¡Genial! ¡Ya casi lo tienes! 🚀",
-            "good": "¡Buen esfuerzo! ¡Sigue practicando! 💪",
-            "tryAgain": "¡No te rindas! ¡Inténtalo de nuevo! 💫"
-        },
-        "textChoice": "4. Observa y elige la opción correcta.",
-        "textMatching": "5. Relaciona cada fracción con su forma de leerla.",
-        "addition": "6. Suma de fracciones (mismo denominador).",
-        "subtraction": "7. Resta de fracciones (mismo denominador).",
-        "fractionNames": {
-            "1_2": "Un medio",
-            "1_3": "Un tercio",
-            "2_3": "Dos tercios",
-            "1_4": "Un cuarto",
-            "2_4": "Dos cuartos",
-            "3_4": "Tres cuartos",
-            "1_5": "Un quinto",
-            "2_5": "Dos quintos",
-            "3_5": "Tres quintos",
-            "4_5": "Cuatro quintos",
-            "1_6": "Un sexto",
-            "2_6": "Dos sextos",
-            "3_6": "Tres sextos",
-            "4_6": "Cuatro sextos",
-            "5_6": "Cinco sextos",
-            "1_7": "Un séptimo",
-            "2_7": "Dos séptimos",
-            "1_8": "Un octavo",
-            "3_8": "Tres octavos",
-            "5_8": "Cinco octavos",
-            "7_8": "Siete octavos",
-            "1_9": "Un noveno",
-            "4_9": "Cuatro novenos",
-            "7_9": "Siete novenos",
-            "1_10": "Un décimo",
-            "3_10": "Tres décimos",
-            "6_10": "Seis décimos",
-            "9_10": "Nueve décimos"
-        }
-    },
-    "MultiplicationGrade4": {
-        "title": "Práctica de Multiplicación",
-        "description": "Domina la multiplicación con números de varias cifras.",
-        "checkAnswers": "Corregir",
-        "score": "Tu Puntuación: {score}/{total}",
-        "fillInTheBlank": "1. Resuelve las multiplicaciones.",
-        "multipleChoice": "2. Elige el resultado correcto.",
-        "generateNew": "Generar Nuevos Ejercicios"
-    },
-    "DivisionGrade4": {
-        "title": "Práctica de División",
-        "description": "Aprende a dividir con y sin resto.",
-        "checkAnswers": "Corregir",
-        "score": "Tu Puntuación: {score}/{total}",
-        "fillInTheBlank": "1. Resuelve las divisiones (Cociente y Resto).",
-        "quotient": "Cociente",
-        "remainder": "Resto",
-        "generateNew": "Generar Nuevos Ejercicios"
-    },
-    "DecimalsGrade4": {
-        "title": "Práctica de Decimales",
-        "description": "Explora los números decimales y su relación con fracciones.",
-        "checkAnswers": "Corregir",
-        "score": "Tu Puntuación: {score}/{total}",
-        "comparison": "1. Compara los números decimales (>, <, =).",
-        "conversion": "2. Convierte la fracción a decimal.",
-        "generateNew": "Generar Nuevos Ejercicios"
-    },
-    "GeometryGrade4": {
-        "title": "Práctica de Geometría",
-        "description": "Identifica formas, líneas y ángulos.",
-        "checkAnswers": "Corregir",
-        "score": "Tu Puntuación: {score}/{total}",
-        "identifyShape": "1. ¿Qué forma es esta?",
-        "identifyAngle": "2. ¿Qué tipo de ángulo es este?",
-        "shapes": {
-            "triangle": "Triángulo",
-            "square": "Cuadrado",
-            "rectangle": "Rectángulo",
-            "pentagon": "Pentágono",
-            "hexagon": "Hexágono",
-            "circle": "Círculo"
-        },
-        "angles": {
-            "acute": "Agudo (< 90°)",
-            "right": "Recto (90°)",
-            "obtuse": "Obtuso (> 90°)"
-        },
-        "generateNew": "Generar Nuevos Ejercicios"
-    },
-    "MeasurementGrade4": {
-        "title": "Práctica de Medición",
-        "description": "Aprende a convertir unidades de medida.",
-        "checkAnswers": "Corregir",
-        "score": "Tu Puntuación: {score}/{total}",
-        "conversion": "1. Convierte las unidades.",
-        "units": {
-            "m_cm": "metros a centímetros",
-            "km_m": "kilómetros a metros",
-            "kg_g": "kilogramos a gramos",
-            "l_ml": "litros a mililitros"
-        },
-        "generateNew": "Generar Nuevos Ejercicios",
-        "units_labels": {
-            "m": "m",
-            "cm": "cm",
-            "km": "km",
-            "kg": "kg",
-            "g": "g",
-            "l": "l",
-            "ml": "ml"
-        },
-        "matching": {
-            "m_cm": {
-                "left": "1 m",
-                "right": "100 cm"
+    "Lessons": {
+        "programming": {
+            "s1": {
+                "l1": {
+                    "title": "Mover a la derecha",
+                    "description": "Tu primera instrucción",
+                    "challenge": "Mueve a Rover hacia la derecha",
+                    "hint": "Arrastra el bloque 'Mover Derecha' al espacio de trabajo"
+                },
+                "l2": {
+                    "title": "Mover a la izquierda",
+                    "description": "Retrocediendo",
+                    "challenge": "Mueve a Rover hacia la izquierda",
+                    "hint": "Usa el bloque 'Mover Izquierda'"
+                },
+                "l3": {
+                    "title": "Hacia arriba",
+                    "description": "Escalando la rejilla",
+                    "challenge": "Mueve a Rover hacia arriba",
+                    "hint": "Usa el bloque 'Mover Arriba'"
+                },
+                "l4": {
+                    "title": "Hacia abajo",
+                    "description": "Bajando por la rejilla",
+                    "challenge": "Mueve a Rover hacia abajo",
+                    "hint": "Usa el bloque 'Mover Abajo'"
+                },
+                "l5": {
+                    "title": "Tu primera secuencia",
+                    "description": "Dos pasos a la vez",
+                    "challenge": "Mueve a Rover arriba y luego a la derecha",
+                    "hint": "Une dos bloques: uno de Arriba y otro de Derecha"
+                },
+                "l6": {
+                    "title": "El camino largo",
+                    "description": "Combinando instrucciones",
+                    "challenge": "Llega a la meta moviéndote 3 veces",
+                    "hint": "Puedes usar cualquier combinación de movimientos"
+                },
+                "l7": {
+                    "title": "En diagonal",
+                    "description": "Escalera de bloques",
+                    "challenge": "Sube un escalón: derecha, arriba",
+                    "hint": "Alterna movimientos horizontales and verticales"
+                },
+                "l8": {
+                    "title": "Ida y vuelta",
+                    "description": "Regresando al inicio",
+                    "challenge": "Derecha, derecha and luego izquierda, izquierda",
+                    "hint": "Para volver al mismo sitio necesitas las instrucciones opuestas"
+                },
+                "l9": {
+                    "title": "El cuadrado invisible",
+                    "description": "Recorrido cerrado",
+                    "challenge": "Dibuja un cuadrado con tus pasos",
+                    "hint": "Derecha, Arriba, Izquierda, Abajo"
+                },
+                "l10": {
+                    "title": "Evitando obstáculos",
+                    "description": "Navegación básica",
+                    "challenge": "Llega a la meta sin tocar los cuadros rojos",
+                    "hint": "Rodea el obstáculo usando movimientos laterales"
+                },
+                "l11": {
+                    "title": "Bajar el lápiz",
+                    "description": "Empezando a pintar",
+                    "challenge": "Prepara a Rover para dibujar",
+                    "hint": "Usa el bloque 'Bajar Lápiz' antes de moverte"
+                },
+                "l12": {
+                    "title": "Subir el lápiz",
+                    "description": "Mueve a Rover sin pintar",
+                    "challenge": "Muévete sin dejar rastro usando 'Subir Lápiz'",
+                    "hint": "Usa 'Subir Lápiz' antes de moverte"
+                },
+                "l13": {
+                    "title": "Línea discontinua",
+                    "description": "Pinta, mueve sin pintar, pinta",
+                    "challenge": "Dibuja una línea con huecos: baja lápiz, mueve, sube lápiz, mueve, baja lápiz",
+                    "hint": "Alterna entre Bajar y Subir lápiz entre movimientos"
+                },
+                "l14": {
+                    "title": "Cambio de color",
+                    "description": "Usa el bloque para cambiar el color",
+                    "challenge": "Dibuja una línea roja",
+                    "hint": "Usa 'Color Rojo' antes de Bajar Lápiz"
+                },
+                "l15": {
+                    "title": "Línea gorda",
+                    "description": "Cambia el grosor del trazo",
+                    "challenge": "Dibuja una línea más gruesa",
+                    "hint": "Usa el bloque 'Grosor' con un número grande"
+                },
+                "l16": {
+                    "title": "Arcoíris horizontal",
+                    "description": "Dibuja líneas de diferentes colores",
+                    "challenge": "Dibuja 3 líneas seguidas: roja, verde y azul",
+                    "hint": "Cambia de color entre cada línea usando los bloques de color"
+                },
+                "l17": {
+                    "title": "Cuadrado pintado",
+                    "description": "Dibuja un cuadrado con el lápiz bajado",
+                    "challenge": "Dibuja un cuadrado completo de color azul",
+                    "hint": "Baja lápiz, y haz los 4 lados del cuadrado"
+                },
+                "l18": {
+                    "title": "La letra L",
+                    "description": "Dibuja la letra L en la rejilla",
+                    "challenge": "Pinta una L: baja 3, derecha 2",
+                    "hint": "Primero muévete hacia abajo, luego a la derecha, con el lápiz bajado"
+                },
+                "l19": {
+                    "title": "Pixel art: Corazón",
+                    "description": "Rellena celdas para crear un corazón",
+                    "challenge": "Pinta las celdas indicadas para formar un corazón pixelado",
+                    "hint": "Sigue el patrón: primero la fila de arriba, luego baja"
+                },
+                "l20": {
+                    "title": "Pixel art: Carita feliz",
+                    "description": "Crea un emoji de carita feliz",
+                    "challenge": "Pinta un emoji usando varios colores and movimientos",
+                    "hint": "Planifica primero qué celdas pintar antes de empezar"
+                },
+                "l21": {
+                    "title": "Giro de 90° derecha",
+                    "description": "Gira a Rover 90 grados a la derecha",
+                    "challenge": "Gira a la derecha y avanza",
+                    "hint": "El bloque 'Girar 90° Derecha' cambia la dirección de Rover"
+                },
+                "l22": {
+                    "title": "Giro de 90° izquierda",
+                    "description": "Gira a Rover 90 grados a la izquierda",
+                    "challenge": "Gira a la izquierda y avanza",
+                    "hint": "Es lo mismo que girar a la derecha, pero al otro lado"
+                },
+                "l23": {
+                    "title": "Dibujando una T",
+                    "description": "Combina líneas y giros para dibujar T",
+                    "challenge": "Dibuja la letra T usando giros de 90°",
+                    "hint": "Primero la línea horizontal, gira y baja"
+                },
+                "l24": {
+                    "title": "Dibujando una H",
+                    "description": "Dibuja la letra H con giros",
+                    "challenge": "Dibuja una H: dos líneas verticales unidas por una horizontal",
+                    "hint": "Necesitarás subir lápiz para saltar entre las partes"
+                },
+                "l25": {
+                    "title": "Giro de 45°",
+                    "description": "Gira a Rover 45 grados (medio giro)",
+                    "challenge": "Prueba el giro de 45 grados y observa la diagonal",
+                    "hint": "Con 45° Rover se mueve en diagonal"
+                },
+                "l26": {
+                    "title": "Dibujando un triángulo",
+                    "description": "Dibuja un triángulo con giros",
+                    "challenge": "Dibuja un triángulo: avanza, gira 120°, avanza, gira 120°, avanza",
+                    "hint": "Un triángulo tiene 3 lados y giras 120° entre cada uno"
+                },
+                "l27": {
+                    "title": "Dibujando una casa",
+                    "description": "Dibuja una casa simple con techo",
+                    "challenge": "Dibuja un cuadrado (base) y un triángulo encima (techo)",
+                    "hint": "Primero el cuadrado, luego sin levantar lápiz, el triángulo"
+                },
+                "l28": {
+                    "title": "Laberinto simple 1",
+                    "description": "Resuelve tu primer laberinto",
+                    "challenge": "Guía a Rover por el laberinto hasta la salida",
+                    "hint": "Sigue el camino libre, no intentes atravesar paredes"
+                },
+                "l29": {
+                    "title": "Laberinto simple 2",
+                    "description": "Un laberinto más largo con más giros",
+                    "challenge": "Llega a la meta del laberinto en menos de 12 bloques",
+                    "hint": "Busca el camino más corto"
+                },
+                "l30": {
+                    "title": "El laberinto del tesoro",
+                    "description": "Laberinto difícil con tesoro al final",
+                    "challenge": "Encuentra el camino al cofre del tesoro",
+                    "hint": "Hay un solo camino correcto, prueba diferentes rutas"
+                },
+                "l31": {
+                    "title": "¡Di Hola!",
+                    "description": "Haz que Rover diga algo con un bocadillo",
+                    "challenge": "Usa el bloque 'Decir' para que Rover salude",
+                    "hint": "Arrastra el bloque 'Decir' y escribe un mensaje"
+                },
+                "l32": {
+                    "title": "Pensar...",
+                    "description": "Muestra una burbuja de pensamiento",
+                    "challenge": "Haz que Rover piense '¿Qué hago?'",
+                    "hint": "El bloque 'Pensar' muestra una nube en vez de un bocadillo"
+                },
+                "l33": {
+                    "title": "Cambio de disfraz",
+                    "description": "Cambia la apariencia de Rover",
+                    "challenge": "Cambia a Rover de 'parado' a 'corriendo'",
+                    "hint": "Usa el bloque 'Cambiar Disfraz'"
+                },
+                "l34": {
+                    "title": "Cambiar el fondo",
+                    "description": "Cambia el escenario de fondo",
+                    "challenge": "Pon un fondo de playa para Rover",
+                    "hint": "Usa 'Cambiar Fondo' y elige una imagen"
+                },
+                "l35": {
+                    "title": "Efecto fantasma",
+                    "description": "Haz que Rover sea semitransparente",
+                    "challenge": "Aplica el efecto fantasma al 50%",
+                    "hint": "El efecto fantasma hace que Rover se vea transparente"
+                },
+                "l36": {
+                    "title": "Hacerse gigante",
+                    "description": "Cambia el tamaño de Rover a grande",
+                    "challenge": "Haz que Rover sea el doble de grande",
+                    "hint": "Usa 'Cambiar Tamaño' con 200%"
+                },
+                "l37": {
+                    "title": "Hacerse diminuto",
+                    "description": "Cambia el tamaño de Rover a pequeño",
+                    "challenge": "Haz que Rover sea la mitad de pequeño",
+                    "hint": "Usa 'Cambiar Tamaño' con 50%"
+                },
+                "l38": {
+                    "title": "Rover camaleón",
+                    "description": "Cambia disfraz, tamaño y efecto",
+                    "challenge": "Transforma a Rover: nuevo disfraz, más grande y fantasma",
+                    "hint": "Combina 3 bloques de apariencia seguidos"
+                },
+                "l39": {
+                    "title": "La obra de teatro",
+                    "description": "Rover habla, cambia de disfraz y se mueve",
+                    "challenge": "Haz que Rover diga '¡Voy!', cambie a disfraz corriendo y se mueva",
+                    "hint": "Pon los bloques en orden: Decir, Cambiar Disfraz, Mover"
+                },
+                "l40": {
+                    "title": "Escena completa",
+                    "description": "Crea una escena con fondo, personaje y texto",
+                    "challenge": "Monta una escena: fondo de bosque, Rover dice '¡Qué bonito!' y se hace grande",
+                    "hint": "Usa cambiar fondo, decir y cambiar tamaño"
+                },
+                "l41": {
+                    "title": "El sonido del éxito",
+                    "description": "Haz que Rover reproduzca un sonido",
+                    "challenge": "Usa el bloque 'Tocar Sonido' para que Rover celebre",
+                    "hint": "Arrastra el bloque 'Tocar Sonido' al espacio de trabajo"
+                },
+                "l42": {
+                    "title": "La orquesta de Rover",
+                    "description": "Toca una nota musical",
+                    "challenge": "Haz sonar la nota DO (60)",
+                    "hint": "Usa el bloque 'Tocar Nota' y selecciona el número 60"
+                },
+                "l43": {
+                    "title": "Melodía simple",
+                    "description": "Dos notas juntas",
+                    "challenge": "Toca dos notas con un silencio entre ellas",
+                    "hint": "Usa Tocar Nota, Esperar y luego otra vez Tocar Nota"
+                },
+                "l44": {
+                    "title": "Ritmo básico",
+                    "description": "Pum, pum, pum",
+                    "challenge": "Toca la misma nota 3 veces seguidas",
+                    "hint": "Repite el bloque de nota y añade esperas de 0.5 segundos"
+                },
+                "l45": {
+                    "title": "Movimiento sonoro",
+                    "description": "Pasos musicales",
+                    "challenge": "Toca una nota cada vez que Rover se mueva",
+                    "hint": "Pon un bloque de nota después de cada bloque de movimiento"
+                },
+                "l46": {
+                    "title": "Concierto espacial",
+                    "description": "Ambiente espacial",
+                    "challenge": "Reproduce el sonido 'Espacio' y espera 2 segundos",
+                    "hint": "Asegúrate de poner la espera después del sonido"
+                },
+                "l47": {
+                    "title": "Escala musical",
+                    "description": "Hacia arriba",
+                    "challenge": "Toca 3 notas cada vez más agudas",
+                    "hint": "Cambia el número de la nota para que cada vez sea más alto"
+                },
+                "l48": {
+                    "title": "Rover cantante",
+                    "description": "Hola con música",
+                    "challenge": "Haz que Rover diga '¡Qué canción!' y luego toque una melodía",
+                    "hint": "Usa el bloque Decir y después los bloques de sonido"
+                },
+                "l49": {
+                    "title": "Baile rítmico",
+                    "description": "Moverse al ritmo",
+                    "challenge": "Rover se mueve, cambia de disfraz y toca música",
+                    "hint": "Combina bloques de movimiento, apariencia y sonido en orden"
+                },
+                "l50": {
+                    "title": "Gran final sonoro",
+                    "description": "La gran actuación",
+                    "challenge": "Crea una secuencia larga con todos los sonidos que conoces",
+                    "hint": "Sé creativo y combina al menos 5 bloques diferentes"
+                },
+                "l51": {
+                    "title": "Preparando el escenario",
+                    "description": "El fondo perfecto",
+                    "challenge": "Prepara tu proyecto con un fondo y un personaje",
+                    "hint": "Usa 'Cambiar Fondo' y 'Cambiar Disfraz' al principio"
+                },
+                "l52": {
+                    "title": "Los diálogos",
+                    "description": "Rover cuenta una historia",
+                    "challenge": "Usa varios bloques de decir para contar algo corto",
+                    "hint": "Recuerda usar el bloque 'Esperar' entre cada mensaje"
+                },
+                "l53": {
+                    "title": "La coreografía",
+                    "description": "Pasos de baile",
+                    "challenge": "Haz que Rover se mueva y gire rítmicamente",
+                    "hint": "Usa Mover y Girar para crear un patrón de baile"
+                },
+                "l54": {
+                    "title": "Efectos especiales",
+                    "description": "Magia visual",
+                    "challenge": "Usa efectos de color y fantasma en tu personaje",
+                    "hint": "Prueba diferentes valores en los bloques de efecto"
+                },
+                "l55": {
+                    "title": "La banda sonora",
+                    "description": "Música de fondo",
+                    "challenge": "Añade notas musicales a tu animación",
+                    "hint": "Toca una melodía mientras ocurren otras acciones"
+                },
+                "l56": {
+                    "title": "El rastro del artista",
+                    "description": "Dibujo rítmico",
+                    "challenge": "Dibuja mientras Rover se mueve y suena la música",
+                    "hint": "No olvides usar 'Bajar Lápiz' antes de moverte"
+                },
+                "l57": {
+                    "title": "Nuevos amigos",
+                    "description": "Disfrazándonos",
+                    "challenge": "Haz aparecer a otro amigo cambiando el disfraz de Rover",
+                    "hint": "Usa 'Cambiar Disfraz' para ver a otros robots"
+                },
+                "l58": {
+                    "title": "El crescendo",
+                    "description": "Haciéndose notar",
+                    "challenge": "Cambia el tamaño de Rover mientras dice algo importante",
+                    "hint": "Usa 'Cambiar Tamaño' junto con los bloques de texto"
+                },
+                "l59": {
+                    "title": "El ensayo general",
+                    "description": "Todo junto",
+                    "challenge": "Combina fondo, movimiento, voz y sonido en una sola escena",
+                    "hint": "Repasa que todos los bloques estén en el orden correcto"
+                },
+                "l60": {
+                    "title": "El Estreno",
+                    "description": "¡Luces, Cámara, Acción!",
+                    "challenge": "Crea tu primera obra maestra usando todo lo aprendido",
+                    "hint": "¡Felicidades! Usa al menos 10 bloques diferentes para tu gran final"
+                }
             },
-            "km_m": {
-                "left": "1 km",
-                "right": "1000 m"
+            "s2": {
+                "l1": {
+                    "title": "El cansancio",
+                    "description": "Mover 10 veces de forma manual",
+                    "challenge": "Pon 10 bloques 'Mover Derecha' para llegar a la meta",
+                    "hint": "Es mucho trabajo repetir... ¡pronto aprenderás un truco!"
+                },
+                "l2": {
+                    "title": "¡La Magia!",
+                    "description": "Usa el bloque 'Repetir' por primera vez",
+                    "challenge": "Haz lo mismo que antes pero con un solo bloque 'Repetir 10'",
+                    "hint": "Mete 'Mover Derecha' dentro de 'Repetir 10'"
+                },
+                "l3": {
+                    "title": "Cuadrado rápido",
+                    "description": "Dibuja un cuadrado con Repetir 4",
+                    "challenge": "Repite 4 veces: Mover + Girar 90°",
+                    "hint": "El cuadrado tiene 4 lados iguales"
+                },
+                "l4": {
+                    "title": "Escalera automática",
+                    "description": "Crea una escalera con un bucle",
+                    "challenge": "Repite [Arriba, Derecha] 5 veces",
+                    "hint": "Pon los 2 bloques dentro de Repetir"
+                },
+                "l5": {
+                    "title": "Triángulo mágico",
+                    "description": "Dibuja un triángulo con un bucle",
+                    "challenge": "Repite 3 veces: Mover + Girar 120°",
+                    "hint": "Un triángulo necesita giros de 120°"
+                },
+                "l6": {
+                    "title": "Hexágono perfecto",
+                    "description": "Dibuja un hexágono con Repetir 6",
+                    "challenge": "Repite 6 veces: Mover + Girar 60°",
+                    "hint": "Un hexágono tiene 6 lados, gira 60° cada vez"
+                },
+                "l7": {
+                    "title": "Círculos",
+                    "description": "Dibuja un círculo con muchos pasos pequeños",
+                    "challenge": "Repite 36 veces: Mover 1 + Girar 10°",
+                    "hint": "Un círculo es un polígono con muchos lados pequeños"
+                },
+                "l8": {
+                    "title": "Bucle dentro de bucle",
+                    "description": "Concepto de bucles anidados",
+                    "challenge": "Repite 4 veces un cuadrado, girando 90° entre cada uno",
+                    "hint": "Un Repetir dentro de otro Repetir"
+                },
+                "l9": {
+                    "title": "Mandala simple",
+                    "description": "Crea un patrón simétrico con bucles",
+                    "challenge": "Haz un mandala: repite un triángulo 6 veces girando",
+                    "hint": "Bucle exterior gira 60°, interior dibuja triángulo"
+                },
+                "l10": {
+                    "title": "Espiral cuadrada",
+                    "description": "Dibuja una espiral hecha de cuadrados",
+                    "challenge": "Cada cuadrado es un poco más grande que el anterior",
+                    "hint": "Incrementa el tamaño del movimiento en cada repetición"
+                },
+                "l11": {
+                    "title": "Estrella de 5 puntas",
+                    "description": "Dibuja una estrella perfecta",
+                    "challenge": "Repite 5 veces: Mover + Girar 144°",
+                    "hint": "El ángulo para una estrella de 5 puntas es 144°"
+                },
+                "l12": {
+                    "title": "Flor geométrica",
+                    "description": "Crea una flor con pétalos de bucles",
+                    "challenge": "Dibuja 8 círculos girando 45° entre cada uno",
+                    "hint": "Cada pétalo es un círculo pequeño"
+                },
+                "l13": {
+                    "title": "Patrón de cuadrícula",
+                    "description": "Rellena la pantalla con un patrón",
+                    "challenge": "Usa bucles anidados para dibujar filas y columnas",
+                    "hint": "Un bucle para filas, otro para columnas"
+                },
+                "l14": {
+                    "title": "Baile repetido",
+                    "description": "Haz que Rover baile con un bucle",
+                    "challenge": "Repite 4 veces: Cambiar Disfraz + Mover + Sonido",
+                    "hint": "Mete los 3 bloques dentro del Repetir"
+                },
+                "l15": {
+                    "title": "Mandala arcoíris",
+                    "description": "Crea un mandala multicolor complejo",
+                    "challenge": "Haz un mandala con 12 pétalos, cada uno de un color diferente",
+                    "hint": "Cambia de color en cada iteración del bucle exterior"
+                },
+                "l16": {
+                    "title": "Por siempre",
+                    "description": "El bloque que nunca para",
+                    "challenge": "Haz que Rover se mueva a la derecha por siempre",
+                    "hint": "El bloque 'Por Siempre' no tiene número, repite infinitamente"
+                },
+                "l17": {
+                    "title": "Helicóptero",
+                    "description": "Haz que algo gire sin parar",
+                    "challenge": "Pon Girar 15° dentro de Por Siempre",
+                    "hint": "El objeto girará sin parar como un helicóptero"
+                },
+                "l18": {
+                    "title": "Animación de caminar",
+                    "description": "Cambia de disfraz por siempre para animar",
+                    "challenge": "Repite: Cambiar Disfraz + Esperar 0.2 seg",
+                    "hint": "La espera controla la velocidad de la animación"
+                },
+                "l19": {
+                    "title": "Disco de colores",
+                    "description": "Cambia efectos de color por siempre",
+                    "challenge": "Haz que Rover cambie de color sin parar",
+                    "hint": "Usa 'Cambiar Efecto Color' dentro de Por Siempre"
+                },
+                "l20": {
+                    "title": "Latido",
+                    "description": "Crece y encoge por siempre",
+                    "challenge": "Haz que Rover crezca y se encoja rítmicamente como un corazón",
+                    "hint": "Alterna Cambiar Tamaño + y - dentro de Por Siempre"
+                },
+                "l21": {
+                    "title": "Nubes que pasan",
+                    "description": "Anima nubes moviéndose por el cielo",
+                    "challenge": "Haz que una nube se mueva de derecha a izquierda por siempre",
+                    "hint": "Mueve a la izquierda por siempre y reinicia posición"
+                },
+                "l22": {
+                    "title": "Sol giratorio",
+                    "description": "Gira el sol continuamente",
+                    "challenge": "Haz que un sol gire lentamente mientras cambia de tamaño",
+                    "hint": "Combina girar y cambiar tamaño en Por Siempre"
+                },
+                "l23": {
+                    "title": "Parpadeo de estrellas",
+                    "description": "Haz que las estrellas parpadeen",
+                    "challenge": "Cambia la transparencia de las estrellas rítmicamente",
+                    "hint": "Usa efecto fantasma dentro de Por Siempre"
+                },
+                "l24": {
+                    "title": "Escena nocturna",
+                    "description": "Crea una escena animada de noche",
+                    "challenge": "Combina sol giratorio, nubes y estrellas parpadeantes",
+                    "hint": "Cada objeto tiene su propio bloque 'Por Siempre'"
+                },
+                "l25": {
+                    "title": "Acuario animado",
+                    "description": "Crea un acuario con peces nadando",
+                    "challenge": "Varios peces se mueven por siempre en diferentes direcciones",
+                    "hint": "Cada pez necesita su propio bucle Por Siempre"
+                },
+                "l26": {
+                    "title": "Bandera verde",
+                    "description": "El inicio oficial del programa",
+                    "challenge": "Haz que Rover diga '¡Hola!' al presionar la bandera verde",
+                    "hint": "Todo empieza con 'Al presionar bandera verde'"
+                },
+                "l27": {
+                    "title": "Tecla Espacio",
+                    "description": "Reacciona al pulsar espacio",
+                    "challenge": "Al presionar espacio, Rover salta",
+                    "hint": "Usa 'Al presionar tecla Espacio'"
+                },
+                "l28": {
+                    "title": "Flechas Arriba/Abajo",
+                    "description": "Controla a Rover con flechas verticales",
+                    "challenge": "Usa flecha arriba para subir y flecha abajo para bajar",
+                    "hint": "Necesitas 2 bloques 'Al presionar tecla'"
+                },
+                "l29": {
+                    "title": "Control total",
+                    "description": "Mueve a Rover con las 4 flechas",
+                    "challenge": "Configura las 4 teclas de flecha para mover a Rover",
+                    "hint": "Cada flecha necesita su propio bloque de evento"
+                },
+                "l30": {
+                    "title": "Seguir al ratón",
+                    "description": "Haz que Rover siga el puntero",
+                    "challenge": "Rover se mueve hacia donde está el ratón por siempre",
+                    "hint": "Usa 'Apuntar hacia puntero' dentro de Por Siempre"
+                },
+                "l31": {
+                    "title": "Click en objeto",
+                    "description": "Haz que Rover reaccione al hacer click",
+                    "challenge": "Al hacer click en Rover, dice '¡Me tocaste!'",
+                    "hint": "Usa 'Al hacer click en este objeto'"
+                },
+                "l32": {
+                    "title": "Desaparecer al click",
+                    "description": "Un objeto desaparece al tocarlo",
+                    "challenge": "Haz que una estrella desaparezca al hacer click",
+                    "hint": "Usa 'Esconder' después de 'Al hacer click'"
+                },
+                "l33": {
+                    "title": "Sonido al click",
+                    "description": "Reproduce sonido al tocar un objeto",
+                    "challenge": "Toca un sonido diferente al hacer click en cada objeto",
+                    "hint": "Cada objeto tiene su 'Al hacer click' con un sonido"
+                },
+                "l34": {
+                    "title": "Piano visual",
+                    "description": "Crea teclas de piano que suenan al click",
+                    "challenge": "Cada tecla es un objeto que toca una nota diferente al pulsarla",
+                    "hint": "7 objetos, 7 notas: Do Re Mi Fa Sol La Si"
+                },
+                "l35": {
+                    "title": "Mando de juego simple",
+                    "description": "Crea botones en pantalla para controlar",
+                    "challenge": "Haz 4 botones en pantalla que muevan a Rover al pulsarlos",
+                    "hint": "Cada botón es un objeto con 'Al hacer click'"
+                },
+                "l36": {
+                    "title": "Rover explorador",
+                    "description": "Control completo con teclado y animación",
+                    "challenge": "Mueve a Rover con flechas y que cambie de disfraz al moverse",
+                    "hint": "Combina eventos de teclado con cambio de disfraz"
+                },
+                "l37": {
+                    "title": "Perseguir al ratón",
+                    "description": "Rover persigue al puntero del ratón",
+                    "challenge": "Rover se mueve hacia el ratón y lo sigue por siempre",
+                    "hint": "Apuntar hacia ratón + Mover en Por Siempre"
+                },
+                "l38": {
+                    "title": "Comida para Rover",
+                    "description": "Rover va hacia objetos de comida",
+                    "challenge": "Al hacer click en una manzana, Rover se acerca y la come",
+                    "hint": "Usa 'Ir a' para mover a Rover a la posición del click"
+                },
+                "l39": {
+                    "title": "Juego de esquivar",
+                    "description": "Esquiva objetos con las flechas",
+                    "challenge": "Mueve a Rover arriba y abajo para esquivar objetos que se mueven",
+                    "hint": "Los objetos se mueven con Por Siempre, Rover con teclas"
+                },
+                "l40": {
+                    "title": "Controlador completo",
+                    "description": "Crea un mando completo para mover y accionar",
+                    "challenge": "Control con 4 flechas + Espacio para saltar + Click para interactuar",
+                    "hint": "Combina todos los eventos aprendidos en un programa"
+                },
+                "l41": {
+                    "title": "Enviar mensaje",
+                    "description": "Aprende a enviar un mensaje invisible",
+                    "challenge": "Haz que al pulsar espacio se envíe el mensaje 'Empezar'",
+                    "hint": "El bloque 'Enviar Mensaje' manda una señal a todos los objetos"
+                },
+                "l42": {
+                    "title": "Recibir mensaje",
+                    "description": "Otro objeto reacciona al mensaje",
+                    "challenge": "Al recibir 'Empezar', un segundo personaje se mueve",
+                    "hint": "Usa 'Al recibir Mensaje' en el otro objeto"
+                },
+                "l43": {
+                    "title": "Conversación",
+                    "description": "Dos personajes hablan con mensajes",
+                    "challenge": "Objeto A dice algo + envía mensaje, Objeto B recibe y responde",
+                    "hint": "Los mensajes sincronizan el diálogo"
+                },
+                "l44": {
+                    "title": "Cadena de reacciones",
+                    "description": "Un mensaje activa otro mensaje",
+                    "challenge": "Objeto A envía a B, B envía a C, C envía a D",
+                    "hint": "Cada objeto recibe un mensaje y envía otro"
+                },
+                "l45": {
+                    "title": "Cambio de escena",
+                    "description": "Cambia el fondo al recibir un mensaje",
+                    "challenge": "Al recibir 'Siguiente', el fondo cambia a otra escena",
+                    "hint": "El fondo puede responder a mensajes igual que los objetos"
+                },
+                "l46": {
+                    "title": "Director de orquesta",
+                    "description": "Dirige instrumentos con mensajes",
+                    "challenge": "Al hacer click en el director, 3 músicos empiezan a tocar",
+                    "hint": "El director envía 'Tocar' y los músicos lo reciben"
+                },
+                "l47": {
+                    "title": "Semáforo",
+                    "description": "Crea un semáforo con mensajes",
+                    "challenge": "Rojo → envía 'Verde' → cambia a verde → envía 'Rojo'",
+                    "hint": "Usa mensajes para alternar entre colores"
+                },
+                "l48": {
+                    "title": "Historia interactiva",
+                    "description": "Crea una historia con varias escenas",
+                    "challenge": "Al pulsar espacio, avanza a la siguiente escena de la historia",
+                    "hint": "Cada escena usa un mensaje diferente para activarse"
+                },
+                "l49": {
+                    "title": "Sonido al tocar",
+                    "description": "Un objeto suena al tocarlo con otro",
+                    "challenge": "Cuando Rover toca una campana, suena",
+                    "hint": "Usa '¿Tocando objeto?' para detectar la colisión"
+                },
+                "l50": {
+                    "title": "Show de luces y sonido",
+                    "description": "Coordina objetos con mensajes",
+                    "challenge": "Al pulsar bandera verde, 4 objetos se animan en secuencia",
+                    "hint": "Usa mensajes encadenados para sincronizar la actuación"
+                },
+                "l51": {
+                    "title": "Diseñar el juego",
+                    "description": "Planifica 'Atrapa al ratón'",
+                    "challenge": "Dibuja el diseño: un ratón que se mueve y un click para atraparlo",
+                    "hint": "Piensa en qué objetos necesitas y qué hacen"
+                },
+                "l52": {
+                    "title": "El escenario del juego",
+                    "description": "Prepara el fondo del juego",
+                    "challenge": "Elige un fondo de campo y posiciona al ratón",
+                    "hint": "Configura dónde empieza el ratón"
+                },
+                "l53": {
+                    "title": "El ratón se mueve",
+                    "description": "Programa el movimiento aleatorio del ratón",
+                    "challenge": "El ratón se mueve a una posición aleatoria cada 2 segundos",
+                    "hint": "Usa 'Por Siempre' + 'Ir a posición aleatoria' + 'Esperar'"
+                },
+                "l54": {
+                    "title": "Atrapar al click",
+                    "description": "Detecta el click sobre el ratón",
+                    "challenge": "Al hacer click en el ratón, dice '¡Me atrapaste!'",
+                    "hint": "Usa 'Al hacer click en este objeto'"
+                },
+                "l55": {
+                    "title": "Velocidad progresiva",
+                    "description": "El ratón se mueve cada vez más rápido",
+                    "challenge": "Reduce el tiempo de espera en cada captura",
+                    "hint": "Empieza con Esperar 2 y ve bajando"
+                },
+                "l56": {
+                    "title": "Sonido de victoria",
+                    "description": "Añade efectos de sonido al atrapar",
+                    "challenge": "Sonido 'Ding' al atrapar al ratón y 'Pop' al fallar",
+                    "hint": "Cada evento tiene su sonido propio"
+                },
+                "l57": {
+                    "title": "Animación de captura",
+                    "description": "Anima al ratón al ser atrapado",
+                    "challenge": "El ratón gira y se encoge al ser atrapado",
+                    "hint": "Repite 10: Girar + Cambiar Tamaño después del click"
+                },
+                "l58": {
+                    "title": "Mensaje de fin",
+                    "description": "Añade una pantalla de fin de juego",
+                    "challenge": "Al atrapar 5 ratones, envía mensaje 'Fin' y cambia el fondo",
+                    "hint": "Usa un contador mental y envío de mensaje"
+                },
+                "l59": {
+                    "title": "Pulir el juego",
+                    "description": "Mejora detalles visuales y sonoros",
+                    "challenge": "Añade efectos al inicio: '3, 2, 1... ¡Ya!' con sonidos",
+                    "hint": "Usa Decir + Esperar + Sonido antes del Por Siempre"
+                },
+                "l60": {
+                    "title": "🎉 BOSS: Atrapa al Ratón",
+                    "description": "El juego completo de Atrapa al Ratón",
+                    "challenge": "Juego final: ratón aleatorio, click para atrapar, sonido, animación y fin de juego",
+                    "hint": "Combina todo lo del Mundo 2: bucles, eventos y mensajes"
+                }
             },
-            "kg_g": {
-                "left": "1 kg",
-                "right": "1000 g"
+            "s3": {
+                "l1": {
+                    "title": "¿Toco el borde?",
+                    "description": "Detecta si Rover toca el borde",
+                    "challenge": "Mueve a Rover hasta el borde y observa qué pasa",
+                    "hint": "El sensor '¿Tocando borde?' se activa en los límites"
+                },
+                "l2": {
+                    "title": "¿Toco el ratón?",
+                    "description": "Detecta si Rover toca el puntero",
+                    "challenge": "Mueve el ratón hacia Rover y mira el sensor activarse",
+                    "hint": "El sensor '¿Tocando puntero?' detecta el ratón"
+                },
+                "l3": {
+                    "title": "¿Toco el color rojo?",
+                    "description": "Detecta si Rover pisa un color",
+                    "challenge": "Mueve a Rover sobre la zona roja (¡es lava!)",
+                    "hint": "El sensor '¿Tocando color?' detecta colores del fondo"
+                },
+                "l4": {
+                    "title": "¿Toco el color verde?",
+                    "description": "Detecta la meta verde",
+                    "challenge": "Lleva a Rover al área verde para llegar a la meta",
+                    "hint": "'¿Tocando color verde?' puede significar victoria"
+                },
+                "l5": {
+                    "title": "¿Qué tan lejos estoy?",
+                    "description": "Mide la distancia al ratón",
+                    "challenge": "Rover dice su distancia al puntero del ratón",
+                    "hint": "Usa el bloque 'Distancia a puntero' y 'Decir'"
+                },
+                "l6": {
+                    "title": "Detector de colores",
+                    "description": "Rover dice qué color está tocando",
+                    "challenge": "Mueve a Rover y que diga 'Rojo', 'Azul' o 'Verde' según el piso",
+                    "hint": "Comprueba cada color con un sensor diferente"
+                },
+                "l7": {
+                    "title": "Radar de proximidad",
+                    "description": "Cambia de color según la distancia",
+                    "challenge": "Rover se pone rojo si estás cerca y azul si estás lejos",
+                    "hint": "Usa 'Distancia a' y cambia disfraz según el valor"
+                },
+                "l8": {
+                    "title": "Mapa sensorial",
+                    "description": "Explora un mapa diciendo qué tocas",
+                    "challenge": "Rover viaja por el mapa y anuncia cada zona",
+                    "hint": "Cada color del mapa tiene un nombre diferente"
+                },
+                "l9": {
+                    "title": "Alarma de borde",
+                    "description": "Suena alarma al acercarse al borde",
+                    "challenge": "Si Rover toca el borde, suena una alarma",
+                    "hint": "Comprueba '¿Tocando borde?' dentro de Por Siempre"
+                },
+                "l10": {
+                    "title": "Explorador sensorial",
+                    "description": "Combina sensores en una exploración",
+                    "challenge": "Rover explora un mapa usando todos los sensores aprendidos",
+                    "hint": "Combina sensores de color, borde y distancia"
+                },
+                "l11": {
+                    "title": "Si toco borde → Rebotar",
+                    "description": "Tu primer condicional: rebotar",
+                    "challenge": "Si Rover toca el borde, que rebote al otro lado",
+                    "hint": "Pon 'Si tocando borde → Rebotar' dentro de Por Siempre"
+                },
+                "l12": {
+                    "title": "Si toco rojo → Inicio",
+                    "description": "Vuelve al inicio al tocar lava",
+                    "challenge": "Si Rover pisa rojo (lava), vuelve a la posición inicial",
+                    "hint": "Usa 'Si ¿tocando color rojo? → Ir a x:0 y:0'"
+                },
+                "l13": {
+                    "title": "Si toco moneda → Ding",
+                    "description": "Sonido de premio al tocar moneda",
+                    "challenge": "Si Rover toca la moneda amarilla, suena 'Ding'",
+                    "hint": "Comprueba el color amarillo y toca un sonido"
+                },
+                "l14": {
+                    "title": "Si toco ratón → Esconder",
+                    "description": "El fantasma desaparece al tocarlo",
+                    "challenge": "Si la distancia al puntero es < 30, se esconde",
+                    "hint": "'Si distancia < 30 → Esconder'"
+                },
+                "l15": {
+                    "title": "Si tecla P → Pausa",
+                    "description": "Pausa el juego con una tecla",
+                    "challenge": "Si se presiona P, detener todo",
+                    "hint": "Usa 'Si tecla P presionada → Detener Todo'"
+                },
+                "l16": {
+                    "title": "Pelota rebotante",
+                    "description": "Pelota que rebota en los bordes",
+                    "challenge": "La pelota se mueve por siempre y rebota en bordes",
+                    "hint": "Por Siempre: Mover + Si Borde → Rebotar"
+                },
+                "l17": {
+                    "title": "Laberinto eléctrico 1",
+                    "description": "No toques las paredes azules",
+                    "challenge": "Si Rover toca azul, vuelve al inicio",
+                    "hint": "Si ¿tocando azul? → Ir a inicio"
+                },
+                "l18": {
+                    "title": "Laberinto eléctrico 2",
+                    "description": "Laberinto más complejo",
+                    "challenge": "Navega el laberinto sin tocar paredes ni lava",
+                    "hint": "Avanza con cuidado usando las flechas"
+                },
+                "l19": {
+                    "title": "Laberinto eléctrico 3",
+                    "description": "Laberinto difícil y estrecho",
+                    "challenge": "Llega al verde sin tocar las paredes azules",
+                    "hint": "Ve despacio, los pasillos son estrechos"
+                },
+                "l20": {
+                    "title": "Recolector de estrellas",
+                    "description": "Recoge estrellas por el mapa",
+                    "challenge": "Si Rover toca una estrella, desaparece y suena",
+                    "hint": "Cada estrella comprueba '¿Tocando Rover?'"
+                },
+                "l21": {
+                    "title": "Zona segura",
+                    "description": "Solo zonas verdes son seguras",
+                    "challenge": "Si NO estás en verde, pierdes vida",
+                    "hint": "Comprueba continuamente si tocas verde"
+                },
+                "l22": {
+                    "title": "El imán",
+                    "description": "Objeto persigue a Rover si está cerca",
+                    "challenge": "Si la distancia es < 100, el enemigo te persigue",
+                    "hint": "El enemigo usa 'Si distancia < 100 → Apuntar a Rover'"
+                },
+                "l23": {
+                    "title": "Trampolín",
+                    "description": "Salta al pisar zona especial",
+                    "challenge": "Si Rover toca amarillo, salta muy alto",
+                    "hint": "Si ¿tocando amarillo? → Mover Arriba x5"
+                },
+                "l24": {
+                    "title": "Puerta automática",
+                    "description": "La puerta se abre al acercarse",
+                    "challenge": "Si Rover se acerca a < 50 px, la puerta se abre",
+                    "hint": "La puerta cambia disfraz cuando 'distancia < 50'"
+                },
+                "l25": {
+                    "title": "Carrera de obstáculos",
+                    "description": "Combina todos los 'Si'",
+                    "challenge": "Completa un circuito con lava, paredes y premios",
+                    "hint": "Usa sensores y condicionales para todo"
+                },
+                "l26": {
+                    "title": "Día o Noche",
+                    "description": "Cambio de ropa según el tiempo",
+                    "challenge": "Si fondo = 'día' → sol, Si no → luna",
+                    "hint": "Usa Si/Sino para cambiar disfraz según fondo"
+                },
+                "l27": {
+                    "title": "Examen rápido",
+                    "description": "Respuesta correcta o incorrecta",
+                    "challenge": "Pregunta ¿2+2? Si 4 → '¡Bien!', si no → 'Mal'",
+                    "hint": "Usa 'Si respuesta = 4 → ... Sino → ...'"
+                },
+                "l28": {
+                    "title": "Puerta mágica",
+                    "description": "Abre si tienes la llave",
+                    "challenge": "Si Rover tocó la llave, abre; si no → 'Cerrado'",
+                    "hint": "Necesitas recordar si ya tocó la llave"
+                },
+                "l29": {
+                    "title": "Semáforo inteligente",
+                    "description": "Rojo parar, Verde pasar",
+                    "challenge": "Si rojo → parar, Sino → avanzar",
+                    "hint": "Si disfraz = rojo → esperar, Sino → mover"
+                },
+                "l30": {
+                    "title": "Rover hambriento",
+                    "description": "Come fruta o encoge",
+                    "challenge": "Si toca fruta crece; si no come en 5s, encoge",
+                    "hint": "Controla el tamaño con Si/Sino"
+                },
+                "l31": {
+                    "title": "Chatbot: ¿Cómo te llamas?",
+                    "description": "Un bot que responde preguntas",
+                    "challenge": "Si el usuario dice 'Hola', responder. Si dice otra cosa, 'No entiendo'",
+                    "hint": "Usa Preguntar y Si respuesta = 'Hola' → ..."
+                },
+                "l32": {
+                    "title": "Chatbot: Calculadora",
+                    "description": "Pregunta si quieres sumar o restar",
+                    "challenge": "Si dice 'sumar', pregunta 2 números y los suma. Si dice 'restar', los resta",
+                    "hint": "Encadena preguntas con Si/Sino"
+                },
+                "l33": {
+                    "title": "Chatbot: Adivinanza",
+                    "description": "Haz preguntas de cultura general",
+                    "challenge": "Pregunta '¿Cuál es el planeta más grande?' Si acierta → ¡Correcto! Si no → Júpiter",
+                    "hint": "Cada pregunta usa Si/Sino separado"
+                },
+                "l34": {
+                    "title": "Chatbot avanzado",
+                    "description": "Bot con 3 preguntas encadenadas",
+                    "challenge": "Haz un chatbot que pregunte nombre, edad y color favorito",
+                    "hint": "Cada pregunta tiene su Si/Sino independiente"
+                },
+                "l35": {
+                    "title": "Quiz show",
+                    "description": "Concurso de preguntas completo",
+                    "challenge": "Crea un concurso de 5 preguntas con puntuación",
+                    "hint": "Cuenta aciertos con un mensaje mental y Si/Sino por pregunta"
+                },
+                "l36": {
+                    "title": "Sumar posiciones",
+                    "description": "Usa el operador + para mover",
+                    "challenge": "Mueve a Rover a posición X + 50",
+                    "hint": "El bloque '+' suma dos números"
+                },
+                "l37": {
+                    "title": "Restar posiciones",
+                    "description": "Usa el operador - para retroceder",
+                    "challenge": "Mueve a Rover a posición X - 30",
+                    "hint": "El bloque '-' resta números"
+                },
+                "l38": {
+                    "title": "¿Mayor que?",
+                    "description": "Compara dos números con >",
+                    "challenge": "¿Son los puntos mayores que 10? Si sí, di '¡Bien hecho!'",
+                    "hint": "El operador > devuelve verdadero o falso"
+                },
+                "l39": {
+                    "title": "¿Menor que?",
+                    "description": "Compara dos números con <",
+                    "challenge": "¿Es el tiempo menor que 5 segundos?",
+                    "hint": "El operador < también es verdadero o falso"
+                },
+                "l40": {
+                    "title": "¿Igual a?",
+                    "description": "Comprueba si dos valores son iguales",
+                    "challenge": "¿Es la contraseña igual a 'Hola'?",
+                    "hint": "El operador = compara textos y números"
+                },
+                "l41": {
+                    "title": "Número aleatorio",
+                    "description": "Genera un número al azar",
+                    "challenge": "Rover dice un número aleatorio entre 1 y 100",
+                    "hint": "El bloque 'Aleatorio entre 1 y 100' da un número distinto"
+                },
+                "l42": {
+                    "title": "Calculadora visual",
+                    "description": "Haz una calculadora de sumas",
+                    "challenge": "Pregunta 2 números y muestra el resultado de sumarlos",
+                    "hint": "Usa Preguntar dos veces y luego el operador +"
+                },
+                "l43": {
+                    "title": "Termómetro",
+                    "description": "Muestra calor o frío según un valor",
+                    "challenge": "Si temp > 30 → '¡Calor!', Si temp < 10 → '¡Frío!'",
+                    "hint": "Combina operadores > y < con Si/Sino"
+                },
+                "l44": {
+                    "title": "Operador Y (AND)",
+                    "description": "Dos condiciones verdaderas",
+                    "challenge": "Si toco rojo Y presiono espacio → saltar alto",
+                    "hint": "El bloque 'Y' combina dos sensores"
+                },
+                "l45": {
+                    "title": "Operador O (OR)",
+                    "description": "Al menos una condición verdadera",
+                    "challenge": "Si presiono A O presiono D → mover",
+                    "hint": "El bloque 'O' se activa si cualquiera es verdadero"
+                },
+                "l46": {
+                    "title": "Acceso restringido",
+                    "description": "Necesitas contraseña Y edad > 12",
+                    "challenge": "Solo entra si la contraseña es correcta Y la edad > 12",
+                    "hint": "Combina operador = (contraseña) Y operador > (edad)"
+                },
+                "l47": {
+                    "title": "Dado virtual",
+                    "description": "Lanza un dado y compara",
+                    "challenge": "Si el dado es > 3, ganas. Si no, pierdes",
+                    "hint": "Usa número aleatorio 1-6 y operador >"
+                },
+                "l48": {
+                    "title": "Piedra papel tijera",
+                    "description": "Juega contra el ordenador",
+                    "challenge": "Elige tu opción y el ordenador elige otra al azar",
+                    "hint": "Compara opciones con múltiples Si/Sino"
+                },
+                "l49": {
+                    "title": "Caja fuerte",
+                    "description": "Abre la caja con combinación",
+                    "challenge": "Introduce 3 números correctos para abrir la caja fuerte",
+                    "hint": "Cada número se comprueba con operador = encadenado"
+                },
+                "l50": {
+                    "title": "Lógica combinada",
+                    "description": "Usa Y, O, >, < todo junto",
+                    "challenge": "Si (toco rojo O toco azul) Y (puntos > 5), di 'Nivel completado'",
+                    "hint": "Anida operadores dentro de otros operadores"
+                },
+                "l51": {
+                    "title": "Diseñar el laberinto",
+                    "description": "Planifica tu laberinto inteligente",
+                    "challenge": "Dibuja el diseño del laberinto con llaves, puertas y enemigos",
+                    "hint": "Un buen diseño necesita: entrada, obstáculos y meta"
+                },
+                "l52": {
+                    "title": "Dibujar las paredes",
+                    "description": "Crea el fondo del laberinto",
+                    "challenge": "Diseña el fondo con paredes azules y caminos blancos",
+                    "hint": "Usa colores sólidos: azul para paredes, blanco para camino"
+                },
+                "l53": {
+                    "title": "Rover se mueve",
+                    "description": "Control de Rover con flechas",
+                    "challenge": "Controla a Rover con las 4 flechas del teclado",
+                    "hint": "Cada flecha mueve pocos pixels para precisión"
+                },
+                "l54": {
+                    "title": "Detección de paredes",
+                    "description": "Si toco pared → volver atrás",
+                    "challenge": "Si Rover toca azul (pared), vuelve al inicio",
+                    "hint": "Si ¿tocando azul? → Ir a posición inicio"
+                },
+                "l55": {
+                    "title": "La llave dorada",
+                    "description": "Recoge la llave para abrir la puerta",
+                    "challenge": "Si Rover toca la llave, esta desaparece",
+                    "hint": "La llave comprueba '¿Tocando Rover?'"
+                },
+                "l56": {
+                    "title": "La puerta con llave",
+                    "description": "Ábrela solo si tienes la llave",
+                    "challenge": "Si tienes llave Y tocas puerta → se abre. Si no → 'Cerrado'",
+                    "hint": "La puerta usa el mensaje de la llave para saber si la tienes"
+                },
+                "l57": {
+                    "title": "El enemigo patrulla",
+                    "description": "Enemigo que se mueve entre dos puntos",
+                    "challenge": "El fantasma patrulla de izquierda a derecha por siempre",
+                    "hint": "Usa Por Siempre + rebote en bordes del área"
+                },
+                "l58": {
+                    "title": "Enemigo peligroso",
+                    "description": "Si el enemigo te toca → inicio",
+                    "challenge": "Si el fantasma toca a Rover, vuelves al inicio",
+                    "hint": "El enemigo comprueba '¿Tocando Rover?' en su Por Siempre"
+                },
+                "l59": {
+                    "title": "Meta y victoria",
+                    "description": "Detecta la meta verde y gana",
+                    "challenge": "Si Rover toca verde → envía mensaje 'Ganar' y suena música",
+                    "hint": "Si ¿tocando verde? → Enviar 'Ganar' + Sonido"
+                },
+                "l60": {
+                    "title": "🎉 BOSS: Laberinto Inteligente",
+                    "description": "El laberinto completo",
+                    "challenge": "Crea el laberinto final: paredes, llave, puerta, enemigo y meta",
+                    "hint": "Combina todo: sensores, condicionales y operadores"
+                }
             },
-            "l_ml": {
-                "left": "1 l",
-                "right": "1000 ml"
+            "s4": {
+                "l1": {
+                    "title": "La Caja",
+                    "description": "The Box",
+                    "challenge": "Crea tu primera variable 'Puntos'",
+                    "hint": "Las variables son como cajas donde guardas números"
+                },
+                "l2": {
+                    "title": "Sumar puntos",
+                    "description": "Add Points",
+                    "challenge": "Cambia puntos +1 al tocar moneda",
+                    "hint": "Usa 'Cambiar Puntos por 1' dentro de un Si"
+                },
+                "l3": {
+                    "title": "Restar puntos",
+                    "description": "Subtract Points",
+                    "challenge": "Cambia puntos -1 al tocar pincho",
+                    "hint": "'Cambiar Puntos por -1' resta en vez de sumar"
+                },
+                "l4": {
+                    "title": "Reiniciar puntos",
+                    "description": "Reset Score",
+                    "challenge": "Fija puntos a 0 al inicio",
+                    "hint": "Usa 'Fijar Puntos a 0' al inicio del programa"
+                },
+                "l5": {
+                    "title": "Mostrar y esconder",
+                    "description": "Show and Hide",
+                    "challenge": "Controla si se ve el marcador",
+                    "hint": "'Mostrar Variable' y 'Esconder Variable' controlan la visibilidad"
+                },
+                "l6": {
+                    "title": "Variable Vidas",
+                    "description": "Lives Variable",
+                    "challenge": "Crea la variable 'Vidas'",
+                    "hint": "Fija Vidas a 3 al inicio, Cambia por -1 al tocar enemigo"
+                },
+                "l7": {
+                    "title": "Game Over con vidas",
+                    "description": "Game Over with Lives",
+                    "challenge": "Si Vidas = 0 → Fin del juego",
+                    "hint": "Comprueba 'Si Vidas = 0' dentro de Por Siempre"
+                },
+                "l8": {
+                    "title": "Variable Tiempo",
+                    "description": "Time Variable",
+                    "challenge": "Cuenta el tiempo transcurrido",
+                    "hint": "Fija Tiempo a 0 y Cambia por 1 cada segundo dentro de Por Siempre"
+                },
+                "l9": {
+                    "title": "Cuenta atrás",
+                    "description": "Countdown",
+                    "challenge": "Cuenta atrás de 10 a 0",
+                    "hint": "Empieza en 10 y baja 1 cada segundo. Al llegar a 0, ¡Boom!"
+                },
+                "l10": {
+                    "title": "Velocidad variable",
+                    "description": "Variable Speed",
+                    "challenge": "Usa una variable para controlar la velocidad",
+                    "hint": "Rover se mueve según el valor de la variable 'Velocidad'"
+                },
+                "l11": {
+                    "title": "Tienda de mejoras",
+                    "description": "Upgrade Shop",
+                    "challenge": "Gasta puntos para mejorar",
+                    "hint": "Si Puntos > 10, puedes comprar velocidad extra"
+                },
+                "l12": {
+                    "title": "Clicker simple",
+                    "description": "Simple Clicker",
+                    "challenge": "Click = +1 punto",
+                    "hint": "Al hacer click en el botón, sube los puntos en 1"
+                },
+                "l13": {
+                    "title": "Clicker con mejoras",
+                    "description": "Clicker with Upgrades",
+                    "challenge": "Compra +2 por click",
+                    "hint": "Usa una variable 'Poder' que empieza en 1 y puede subir"
+                },
+                "l14": {
+                    "title": "Clicker automático",
+                    "description": "Auto Clicker",
+                    "challenge": "Gana puntos automáticamente cada segundo",
+                    "hint": "Añade +1 por segundo automáticamente con un bucle"
+                },
+                "l15": {
+                    "title": "Clicker Game completo",
+                    "description": "Complete Clicker Game",
+                    "challenge": "Juego clicker con puntos, mejoras y auto-click",
+                    "hint": "Crea un clicker con: click manual, mejoras comprables y ganancia automática"
+                },
+                "l16": {
+                    "title": "Mi primer clon",
+                    "description": "My First Clone",
+                    "challenge": "Crea una copia de un objeto",
+                    "hint": "Haz que al pulsar espacio se cree un clon de la estrella"
+                },
+                "l17": {
+                    "title": "Vida del clon",
+                    "description": "Clone Life",
+                    "challenge": "Programa qué hace el clon al nacer",
+                    "hint": "Al comenzar como clon → moverse a la derecha"
+                },
+                "l18": {
+                    "title": "Lluvia de estrellas",
+                    "description": "Star Rain",
+                    "challenge": "Crea clones que caen del cielo",
+                    "hint": "Por Siempre: crear clon. Cada clon cae hacia abajo"
+                },
+                "l19": {
+                    "title": "Disparo",
+                    "description": "Shoot",
+                    "challenge": "El clon es una bala que se mueve",
+                    "hint": "Al presionar espacio, crea un clon que se mueve hacia arriba"
+                },
+                "l20": {
+                    "title": "Eliminar clon",
+                    "description": "Delete Clone",
+                    "challenge": "Borra el clon cuando no lo necesitas",
+                    "hint": "Si el clon toca el borde, elimínalo"
+                },
+                "l21": {
+                    "title": "Lluvia con limpieza",
+                    "description": "Rain with Cleanup",
+                    "challenge": "Clones que caen y se eliminan al llegar abajo",
+                    "hint": "Los clones caen y desaparecen al tocar el suelo"
+                },
+                "l22": {
+                    "title": "Posición aleatoria del clon",
+                    "description": "Random Clone Position",
+                    "challenge": "Cada clon aparece en un lugar diferente",
+                    "hint": "Los clones empiezan en una posición X aleatoria arriba"
+                },
+                "l23": {
+                    "title": "Monedas cayendo",
+                    "description": "Falling Coins",
+                    "challenge": "Monedas que caen y suman puntos",
+                    "hint": "Si Rover toca un clon de moneda, suma 1 punto y elimina el clon"
+                },
+                "l24": {
+                    "title": "Piedras peligrosas",
+                    "description": "Dangerous Rocks",
+                    "challenge": "Clones de piedras que restan vidas",
+                    "hint": "Si una piedra toca a Rover, resta 1 vida"
+                },
+                "l25": {
+                    "title": "Mezcla de objetos",
+                    "description": "Object Mix",
+                    "challenge": "Monedas Y piedras cayendo juntas",
+                    "hint": "Aleatoriamente caen monedas (buenas) o piedras (malas)"
+                },
+                "l26": {
+                    "title": "Velocidad Variable de clones",
+                    "description": "Variable Clone Speed",
+                    "challenge": "Cada clon cae a velocidad diferente",
+                    "hint": "La velocidad de caída aumenta con el tiempo de juego"
+                },
+                "l27": {
+                    "title": "Disparar a enemigos",
+                    "description": "Shoot Enemies",
+                    "challenge": "Balas que eliminan clones enemigos",
+                    "hint": "La bala (clon) elimina al enemigo (clon) si se tocan"
+                },
+                "l28": {
+                    "title": "Oleadas de enemigos",
+                    "description": "Enemy Waves",
+                    "challenge": "Genera grupos de enemigos por oleadas",
+                    "hint": "Cada 5 segundos aparece una nueva oleada de 5 enemigos"
+                },
+                "l29": {
+                    "title": "Mini shooter",
+                    "description": "Mini Shooter",
+                    "challenge": "Disparar hacia arriba y destruir enemigos",
+                    "hint": "Rover dispara con espacio, las balas suben y destruyen enemigos"
+                },
+                "l30": {
+                    "title": "Juego de lluvia completo",
+                    "description": "Complete Rain Game",
+                    "challenge": "Recoger monedas y esquivar piedras con vidas",
+                    "hint": "Juego completo: monedas (+1), piedras (-1 vida), dificultad progresiva"
+                },
+                "l31": {
+                    "title": "Crear un bloque",
+                    "description": "Create a Block",
+                    "challenge": "Define tu primer bloque personalizado 'Saltar'",
+                    "hint": "'Definir Saltar' agrupa varios bloques en uno solo"
+                },
+                "l32": {
+                    "title": "Reutilizar el bloque",
+                    "description": "Reuse the Block",
+                    "challenge": "Usa tu bloque 'Saltar' en varios sitios",
+                    "hint": "Solo escribe 'Saltar' donde lo necesites"
+                },
+                "l33": {
+                    "title": "Bloque con parámetro",
+                    "description": "Block with Parameter",
+                    "challenge": "Crea un bloque 'Mover(pasos)' personalizado",
+                    "hint": "Los parámetros son cajas vacías que rellenas al usar el bloque"
+                },
+                "l34": {
+                    "title": "Bloque 'Dibujar Cuadrado'",
+                    "description": "Block 'Draw Square'",
+                    "challenge": "Crea un bloque que dibuja un cuadrado",
+                    "hint": "Usa Repetir 4 dentro de la definición, con el parámetro como distancia"
+                },
+                "l35": {
+                    "title": "Bloque 'Dibujar Casa'",
+                    "description": "Block 'Draw House'",
+                    "challenge": "Combina bloques para dibujar una casa",
+                    "hint": "Define primero los bloques simples y luego combínalos"
+                },
+                "l36": {
+                    "title": "Bloque 'Inicializar'",
+                    "description": "Block 'Initialize'",
+                    "challenge": "Crea un bloque que prepara todo al inicio",
+                    "hint": "Un solo bloque con toda la configuración inicial: puntos, vidas, posición"
+                },
+                "l37": {
+                    "title": "Bloque 'Perder Vida'",
+                    "description": "Block 'Lose Life'",
+                    "challenge": "Reutiliza la lógica de perder vida",
+                    "hint": "Agrupa todo lo que pasa al perder una vida: sonido, restar, comprobar"
+                },
+                "l38": {
+                    "title": "Reescribir código viejo",
+                    "description": "Rewrite Old Code",
+                    "challenge": "Optimiza un programa usando funciones",
+                    "hint": "Busca código que se repita más de 2 veces y conviértelo en bloque"
+                },
+                "l39": {
+                    "title": "Bloque 'Animar'",
+                    "description": "Block 'Animate'",
+                    "challenge": "Crea un bloque de animación reutilizable",
+                    "hint": "El parámetro frames controla cuántas veces cambia de disfraz"
+                },
+                "l40": {
+                    "title": "Biblioteca de bloques",
+                    "description": "Block Library",
+                    "challenge": "Crea una colección completa de bloques",
+                    "hint": "Piensa en acciones repetidas: saltar, disparar, rebotar, animar"
+                },
+                "l41": {
+                    "title": "Gravedad",
+                    "description": "Gravity",
+                    "challenge": "Crea la variable 'Velocidad Y'",
+                    "hint": "Cada frame: VelocidadY = VelocidadY - 1, Y = Y + VelocidadY"
+                },
+                "l42": {
+                    "title": "La caída",
+                    "description": "The Fall",
+                    "challenge": "Un objeto cae con aceleración",
+                    "hint": "La velocidad Y se hace más negativa cada frame"
+                },
+                "l43": {
+                    "title": "El suelo",
+                    "description": "The Ground",
+                    "challenge": "Detente al tocar el suelo",
+                    "hint": "Si ¿tocando color marrón? → Fijar VelocidadY a 0"
+                },
+                "l44": {
+                    "title": "Salto realista",
+                    "description": "Realistic Jump",
+                    "challenge": "Salta con impulso en Y",
+                    "hint": "El salto es un cambio brusco de VelocidadY a positivo"
+                },
+                "l45": {
+                    "title": "Salto solo desde el suelo",
+                    "description": "Jump Only from Ground",
+                    "challenge": "No puedes saltar en el aire",
+                    "hint": "Solo permite saltar si Rover está tocando el suelo"
+                },
+                "l46": {
+                    "title": "Movimiento horizontal",
+                    "description": "Horizontal Movement",
+                    "challenge": "Combina movimiento lateral con gravedad",
+                    "hint": "El movimiento horizontal es independiente de la gravedad"
+                },
+                "l47": {
+                    "title": "Plataformas flotantes",
+                    "description": "Floating Platforms",
+                    "challenge": "Aterriza sobre plataformas elevadas",
+                    "hint": "Las plataformas son objetos de color. Si aterrizas encima, paras"
+                },
+                "l48": {
+                    "title": "Plataformas móviles",
+                    "description": "Moving Platforms",
+                    "challenge": "Plataformas que se mueven lateralmente",
+                    "hint": "Las plataformas se mueven y Rover debe saltar entre ellas"
+                },
+                "l49": {
+                    "title": "Doble salto",
+                    "description": "Double Jump",
+                    "challenge": "Salta una segunda vez en el aire",
+                    "hint": "Usa una variable 'SaltosRestantes' que empieza en 2"
+                },
+                "l50": {
+                    "title": "Plataformas completo",
+                    "description": "Complete Platforming",
+                    "challenge": "Sistema de plataformas con gravedad y doble salto",
+                    "hint": "Combina toda la física: gravedad, suelo, salto y plataformas"
+                },
+                "l51": {
+                    "title": "Diseñar Super Platformer",
+                    "description": "Design Super Platformer",
+                    "challenge": "Planifica el juego final del curso",
+                    "hint": "Un juego necesita: jugador, objetivo, obstáculos y puntuación"
+                },
+                "l52": {
+                    "title": "Pantalla de título",
+                    "description": "Title Screen",
+                    "challenge": "Crea la portada del juego",
+                    "hint": "Al presionar espacio → enviar mensaje 'Nivel1'"
+                },
+                "l53": {
+                    "title": "Nivel 1: Tutorial",
+                    "description": "Level 1: Tutorial",
+                    "challenge": "Primer nivel fácil con pocas plataformas",
+                    "hint": "Al recibir 'Nivel1' → cambiar fondo nivel 1"
+                },
+                "l54": {
+                    "title": "Jugador con física",
+                    "description": "Player with Physics",
+                    "challenge": "Implementa el jugador con gravedad y salto",
+                    "hint": "Reutiliza todo lo aprendido de física"
+                },
+                "l55": {
+                    "title": "Monedas coleccionables",
+                    "description": "Collectible Coins",
+                    "challenge": "Monedas clon que suman puntos",
+                    "hint": "Las monedas son clones con 'Si tocando Jugador → +10 + eliminar'"
+                },
+                "l56": {
+                    "title": "Enemigos clonados",
+                    "description": "Cloned Enemies",
+                    "challenge": "Enemigos que patrullan las plataformas",
+                    "hint": "Clones de enemigo con patrulla + detección de colisión"
+                },
+                "l57": {
+                    "title": "Sistema de niveles",
+                    "description": "Level System",
+                    "challenge": "Cambia de nivel al llegar a la meta",
+                    "hint": "Cada nivel es un fondo diferente activado por un mensaje"
+                },
+                "l58": {
+                    "title": "Pantalla Game Over",
+                    "description": "Game Over Screen",
+                    "challenge": "Muestra final cuando pierdes todas las vidas",
+                    "hint": "Si Vidas = 0, enviar mensaje 'GameOver' + mostrar puntos"
+                },
+                "l59": {
+                    "title": "Pulir y testear",
+                    "description": "Polish and Test",
+                    "challenge": "Prueba el juego completo y arregla bugs",
+                    "hint": "¿Las vidas funcionan? ¿Los puntos se suman? ¿Los niveles cambian?"
+                },
+                "l60": {
+                    "title": "🏆 BOSS FINAL: Super Platformer",
+                    "description": "Super Platformer BOSS",
+                    "challenge": "Tu juego de plataformas completo",
+                    "hint": "Combina ABSOLUTAMENTE TODO lo aprendido en los 4 mundos"
+                }
+            }
+        },
+        "default": {
+            "diagnostic": {
+                "title": "Diagnóstico Inicial",
+                "description": "Veamos qué sabes ya"
             },
-            "cm_m": {
-                "left": "50 cm",
-                "right": "0.5 m"
+            "lesson": {
+                "title": "Nuevo Concepto",
+                "description": "Aprende paso a paso"
+            },
+            "practice": {
+                "title": "Práctica Guiada",
+                "description": "Practiquemos lo aprendido"
+            },
+            "challenge": {
+                "title": "Reto Final",
+                "description": "Demuestra tu maestría"
             }
         }
     },
-    "KidsPage": {
-        "title": "Zona de Niños",
-        "description": "¡Juegos divertidos y aventuras de aprendizaje!",
-        "gamesTitle": "Juegos Populares",
-        "math": "Matemáticas",
-        "science": "Ciencias"
-    },
-    "ParentsPage": {
-        "title": "Panel de Padres",
-        "description": "Sigue el progreso de tu hijo y gestiona rutas de aprendizaje.",
-        "features": "Características para Padres"
-    },
-    "TeachersPage": {
-        "title": "Área de Profesores",
-        "description": "Recursos para implementación en el aula y seguimiento de alumnos.",
-        "resources": "Recursos de Aula"
-    },
-    "GamesPage": {
-        "title": "Juegos Educativos",
-        "description": "Aprende jugando con nuestra selección curada de juegos educativos.",
-        "galaxyMathFuelTitle": "Galaxy Math Fuel",
-        "galaxyMathFuelTag": "Tablas de multiplicar",
-        "galaxyMathFuelDesc": "Pilota tu cohete, atrapa el combustible correcto y domina las tablas de multiplicar con velocidad y precisión.",
-        "playNow": "Jugar ahora"
-    },
-    "GalaxyMathFuelPage": {
-        "title": "Galaxy Math Fuel",
-        "description": "Practica las tablas de multiplicar en un juego espacial de ritmo rápido."
-    },
-    "LearningPage": {
-        "title": "Ruta de Aprendizaje",
-        "description": "Elige una asignatura para empezar tu aventura",
-        "subjects": {
-            "math": "Matemáticas",
-            "mathDesc": "Números, geometría y juegos de lógica",
-            "science": "Ciencias",
-            "scienceDesc": "Explora el mundo que te rodea",
-            "language": "Lengua",
-            "languageDesc": "Lectura, escritura e historias",
-            "social": "Ciencias Sociales",
-            "socialDesc": "Historia, geografía y cultura"
-        },
-        "explore": "Explorar",
+    "ProgrammingSelection": {
+        "title": "Programación",
+        "description": "Aprende a programar paso a paso con bloques",
+        "world": "Mundo {num}",
+        "lessons": "lecciones",
+        "start": "Empezar",
         "comingSoon": "Próximamente"
     },
-    "MathSelection": {
-        "title": "Grados de Matemáticas",
-        "description": "Selecciona tu curso"
+    "ProgrammingSection1": {
+        "title": "El Explorador",
+        "subtitle": "Secuenciación y Movimiento Básico"
     },
-    "NotFound": {
-        "title": "¡Ups! ¿A dónde hemos saltado?",
-        "description": "Esta página parece estar escondiéndose de nosotros.",
-        "home": "Saltar al Inicio"
+    "ProgrammingSection2": {
+        "title": "El Mago del Tiempo",
+        "subtitle": "Bucles y Eventos"
     },
-    "BlogPage": {
-        "title": "Blog de Eduaroo",
-        "description": "Últimas noticias y consejos educativos."
+    "ProgrammingSection3": {
+        "title": "El Detective Lógico",
+        "subtitle": "Condicionales y Sensores"
+    },
+    "ProgrammingSection4": {
+        "title": "El Arquitecto",
+        "subtitle": "Variables, Clones y Funciones"
+    },
+    "ParentDashboard": {
+        "greeting": "¡Hola!",
+        "intro": "Aquí tienes el progreso de <bold>{name}</bold> esta semana.",
+        "timeThisWeek": "Tiempo de aprendizaje esta semana",
+        "exercisesCompleted": "Ejercicios completados",
+        "currentStreak": "Racha actual",
+        "days": "días",
+        "weeklyActivity": "Actividad Semanal",
+        "thisWeek": "Esta semana",
+        "lastWeek": "La semana pasada",
+        "recentAchievements": "Logros Recientes",
+        "areasForImprovement": "Áreas de Mejora"
+    },
+    "TeacherDashboard": {
+        "title": "Resumen de la Clase",
+        "studentsCount": "{count} Estudiantes",
+        "year": "Curso Académico 2025/2026",
+        "exportCSV": "Exportar CSV",
+        "createTask": "Crear Tarea",
+        "classAverage": "Media de la Clase",
+        "needsHelp": "Necesitan Ayuda",
+        "completedTasks": "Tareas Completadas",
+        "totalTime": "Tiempo Total de Aprendizaje",
+        "students": "Estudiantes",
+        "search": "Buscar estudiantes...",
+        "table": {
+            "name": "Nombre",
+            "level": "Nivel",
+            "progress": "Progreso",
+            "status": "Estado",
+            "lastActive": "Última Actividad",
+            "actions": "Acciones"
+        },
+        "placeholders": {
+            "showing": "Mostrando {current} de {total} estudiantes"
+        },
+        "status": {
+            "ontrack": "En Marcha",
+            "needs_help": "Necesita Ayuda",
+            "falling_behind": "Rezago",
+            "exceling": "Sobresaliente"
+        }
     },
     "Dashboard": {
-        "title": "Mi Progreso",
         "greeting": "¡Hola, Explorador!",
-        "question": "¿Qué vamos a aprender hoy?",
-        "subjects": "Tus Asignaturas",
-        "continue": "Continuar",
-        "comingSoon": "Pronto",
+        "question": "¿Qué aventura empezamos hoy?",
+        "subjects": "Mis Asignaturas",
+        "level": "Nivel",
         "exercises": "ejercicios",
-        "level": "Nv."
+        "continue": "Continuar",
+        "comingSoon": "Próximamente"
+    },
+    "Levels": {
+        "1": "Novato",
+        "2": "Explorador",
+        "3": "Aventurero",
+        "4": "Estudioso",
+        "5": "Experto",
+        "6": "Maestro",
+        "7": "Campeón",
+        "8": "Leyenda",
+        "9": "Héroe",
+        "10": "Maestro del Saber"
     },
     "Store": {
-        "title": "Personaliza tu Avatar",
-        "subtitle": "Usa tus estrellas para desbloquear items",
+        "title": "Tienda de Avatares",
+        "subtitle": "Personaliza tu personaje",
+        "avatarMessage": "¡Qué bien te ves!",
         "categories": {
             "head": "Cabeza",
             "face": "Cara",
-            "body": "Ropa",
-            "accessory": "Accesorios",
+            "body": "Cuerpo",
+            "accessory": "Accesorio",
             "background": "Fondo"
         },
-        "avatarMessage": "Tu avatar aparecerá en tu perfil",
+        "items": {
+            "head_default": "Cabeza Normal",
+            "head_cool": "Gafas de Sol",
+            "head_nerd": "Gafas Nerd",
+            "head_party": "Gorro Fiesta",
+            "head_crown": "Corona",
+            "head_wizard": "Mago",
+            "head_astronaut": "Astronauta",
+            "face_happy": "Feliz",
+            "face_star": "Ojos Estrella",
+            "face_cool": "Guay",
+            "face_thinking": "Pensando",
+            "face_robot": "Robot",
+            "body_casual": "Casual",
+            "body_superhero": "Superhéroe",
+            "body_scientist": "Científico",
+            "body_athlete": "Atleta",
+            "body_pirate": "Pirata",
+            "acc_none": "Ninguno",
+            "acc_pet_dog": "Perrito",
+            "acc_pet_cat": "Gatito",
+            "acc_trophy": "Trofeo",
+            "acc_rocket": "Cohete",
+            "acc_book": "Libro Mágico",
+            "bg_default": "Azul",
+            "bg_sunset": "Atardecer",
+            "bg_space": "Espacio",
+            "bg_forest": "Bosque",
+            "bg_ocean": "Océano",
+            "bg_rainbow": "Arcoíris"
+        },
         "unlocked": "¡Desbloqueado!"
     },
-    "Footer": {
-        "tagline": "Aprendizaje divertido para niños",
-        "contact": "Contacto",
-        "location": "Murcia, España",
-        "legal": "Legal",
-        "privacy": "Política de Privacidad",
-        "terms": "Términos de Servicio",
-        "rights": "Todos los derechos reservados"
+    "Achievements": {
+        "title": "Logros",
+        "first_exercise": {
+            "name": "Primer Paso",
+            "desc": "Completa tu primer ejercicio"
+        },
+        "perfect_score": {
+            "name": "Perfección",
+            "desc": "Obtén puntuación perfecta"
+        },
+        "streak_7": {
+            "name": "Semana de Fuego",
+            "desc": "Mantén una racha de 7 días"
+        },
+        "streak_30": {
+            "name": "Mes Imparable",
+            "desc": "Mantén una racha de 30 días"
+        },
+        "level_5": {
+            "name": "Experto Emergente",
+            "desc": "Alcanza el nivel 5"
+        },
+        "level_10": {
+            "name": "Maestro del Saber",
+            "desc": "Alcanza el nivel 10"
+        },
+        "math_master": {
+            "name": "Matemático",
+            "desc": "Completa 50 ejercicios de matemáticas"
+        },
+        "daily_goal_10": {
+            "name": "Constante",
+            "desc": "Completa la meta diaria 10 veces"
+        }
+    },
+    "ExplorerPass": {
+        "title": "Pase de Explorador",
+        "level": "Nivel {level}",
+        "viewMissions": "Ver Misiones"
+    },
+    "DailyReview": {
+        "widgetTitle": "Repaso Diario",
+        "subtitle": "{count} retos listos para ti",
+        "start": "Empezar Repaso",
+        "modalTitle": "Entrenamiento Mental Diario",
+        "completedTitle": "¡Buen Trabajo!",
+        "completedDesc": "¡Has completado el repaso de hoy!",
+        "awesome": "¡Genial!",
+        "questionProgress": "Pregunta {current} de {total}",
+        "streak": "Racha: {streak}",
+        "correct": "¡Correcto!",
+        "incorrect": "¡Casi!",
+        "fractions_q1": "¿Qué fracción representa 1 parte de 2?",
+        "fractions_q2": "¿Qué fracción representa 2 partes de 4?",
+        "fractions_q3": "¿Qué fracción representa 3 partes de 8?",
+        "fractions_q4": "¿1/2 es igual a qué otra fracción?",
+        "fractions_q5": "¿Cuál es mayor: 1/2 o 1/4?",
+        "fractions_q6": "¿Cuántos cuartos hay en un entero?",
+        "fractions_q7": "¿Qué fracción representa la mitad?",
+        "fractions_q8": "Si divides una pizza en 8 partes y comes 3, ¿qué fracción comiste?"
+    },
+    "XPWidget": {
+        "experience": "Experiencia",
+        "completed": "% completado",
+        "xp_to_next": "{xp} XP para nivel {next}",
+        "max_level": "¡Nivel máximo!",
+        "daily_goal": "Meta diaria",
+        "exercises": "ejercicios"
     },
     "Privacy": {
         "title": "Política de Privacidad",
-        "lastUpdated": "Última actualización",
-        "intro": "En Eduaroo nos tomamos muy en serio la privacidad de nuestros usuarios, especialmente cuando se trata de niños.",
+        "lastUpdated": "Última Actualización",
+        "intro": "Tu privacidad es importante para nosotros.",
         "sections": {
             "responsible": "Responsable del Tratamiento",
             "dataCollected": "Datos que Recopilamos",
-            "purpose": "Finalidad del Tratamiento",
-            "rights": "Derechos del Usuario",
-            "security": "Seguridad",
-            "cookies": "Cookies",
+            "purpose": "Finalidad",
+            "rights": "Derechos",
             "children": "Protección de Menores",
-            "changes": "Cambios en la Política",
+            "cookies": "Cookies",
             "contact": "Contacto"
         }
     },
     "Terms": {
         "title": "Términos de Servicio",
-        "lastUpdated": "Última actualización",
-        "intro": "Bienvenido a Eduaroo. Al utilizar nuestros servicios, aceptas los siguientes términos y condiciones.",
+        "lastUpdated": "Última Actualización",
+        "intro": "Por favor, lee estos términos detenidamente.",
         "sections": {
             "identification": "Identificación del Titular",
-            "acceptance": "Aceptación de los Términos",
+            "acceptance": "Aceptación de Términos",
             "service": "Descripción del Servicio",
             "accounts": "Cuentas de Usuario",
-            "content": "Contenido y Propiedad Intelectual",
+            "content": "Propiedad Intelectual",
             "conduct": "Conducta del Usuario",
             "liability": "Limitación de Responsabilidad",
-            "termination": "Terminación",
             "law": "Ley Aplicable",
             "contact": "Contacto"
         }
     },
     "Roles": {
+        "title": "Cambiar Rol",
         "student": "Estudiante",
-        "parent": "Familia",
-        "teacher": "Docente",
-        "switch": "Cambiar Rol"
+        "parent": "Padre/Madre",
+        "teacher": "Profesor/a"
     },
-    "ParentDashboard": {
-        "greeting": "Hola, Familia 👋",
-        "intro": "Aquí tienes el resumen del progreso de <bold>{name}</bold>",
-        "timeThisWeek": "Tiempo esta semana",
-        "exercisesCompleted": "Ejercicios completados",
-        "currentStreak": "Racha actual",
-        "weeklyActivity": "Actividad Semanal",
-        "recentAchievements": "Logros Recientes",
-        "areasForImprovement": "Áreas de Mejora",
-        "thisWeek": "Esta semana",
-        "lastWeek": "Semana pasada",
-        "days": "días"
+    "NotFound": {
+        "title": "¡Ups! Perdido en el espacio",
+        "description": "No hemos podido encontrar la página que buscas.",
+        "button": "Ir al Inicio"
     },
-    "TeacherDashboard": {
-        "title": "Clase de Matemáticas 4ºB",
-        "studentsCount": "{count} Estudiantes",
-        "year": "Curso 2025-2026",
-        "exportCSV": "Exportar CSV",
-        "createTask": "Crear Tarea",
-        "classAverage": "Promedio Clase",
-        "needsHelp": "Necesitan Ayuda",
-        "completedTasks": "Tareas Completadas",
-        "totalTime": "Tiempo Total/Semana",
-        "students": "Estudiantes",
-        "search": "Buscar estudiante...",
-        "table": {
-            "name": "Nombre",
-            "level": "Nivel",
-            "progress": "Progreso Unidad",
-            "status": "Estado",
-            "lastActive": "Última Actividad",
-            "actions": "Acciones"
+    "ProgrammingWorkspace": {
+        "run": "Ejecutar",
+        "hint": "Pista",
+        "tryAgain": "Intenta de Nuevo",
+        "dragBlocks": "Arrastra bloques aquí",
+        "tapToAdd": "Toca para añadir bloques aquí",
+        "successTitle": "🎉 ¡Muy Bien!",
+        "successDesc": "¡Has completado la lección!",
+        "continue": "Continuar →",
+        "failTitle": "Intenta de Nuevo",
+        "failDesc": "Asegúrate de que Rover llegue a la meta ({goal})",
+        "restart": "← Intentar de Nuevo",
+        "blocks": {
+            "mover_derecha": "Mover Derecha ➡️",
+            "mover_izquierda": "Mover Izquierda ⬅️",
+            "mover_arriba": "Mover Arriba ⬆️",
+            "mover_abajo": "Mover Abajo ⬇️",
+            "girar_derecha_90": "Girar 90° ↻",
+            "girar_izquierda_90": "Girar 90° ↺",
+            "ir_a": "Ir a Inicio 🏠",
+            "ir_a_aleatorio": "Ir a Aleatorio 🎲",
+            "rebotar": "Rebotar si Toca Borde ↩️",
+            "apuntar_hacia": "Apuntar hacia Ratón 🖱️",
+            "borrar_todo": "Borrar Todo 🧹",
+            "bajar_lapiz": "Bajar Lápiz ✏️",
+            "subir_lapiz": "Subir Lápiz 🚫",
+            "color_rojo": "Color Rojo 🔴",
+            "color_azul": "Color Azul 🔵",
+            "color_verde": "Color Green 🟢",
+            "decir": "Decir 'Hola' 💬",
+            "cambiar_disfraz": "Cambiar Disfraz 🎭",
+            "cambiar_fondo": "Cambiar Fondo 🖼️",
+            "esconder": "Esconder 👻",
+            "mostrar": "Mostrar 👀",
+            "cambiar_tamaño": "Cambiar Tamaño 📏",
+            "efecto_fantasma": "Efecto Fantasma 👻",
+            "repetir": "Repetir 4 🔁",
+            "por_siempre": "Por Siempre 🔄",
+            "si": "Si... ❓",
+            "si_sino": "Si... Sino... ⚖️",
+            "esperar": "Esperar 1 seg ⏳",
+            "detener_todo": "Detener Todo 🛑",
+            "crear_clon": "Crear Clon 👯",
+            "eliminar_clon": "Eliminar Clon ❌",
+            "bandera_verde": "Al empezar 🚩",
+            "al_presionar_tecla": "Al presionar tecla ⌨️",
+            "al_hacer_click": "Al hacer click en objeto 🖱️",
+            "al_recibir_mensaje": "Al recibir mensaje 📩",
+            "enviar_mensaje": "Enviar mensaje 📤",
+            "al_comenzar_como_clon": "Al comenzar como clon 👯",
+            "tocar_nota": "Tocar Nota 🎵",
+            "tocar_sonido": "Tocar Sonido 🔊",
+            "tocando_borde": "¿Tocando borde? 🧱",
+            "tocando_puntero": "¿Tocando puntero? 👆",
+            "tocando_color": "¿Tocando color? 🎨",
+            "tocando_objeto": "¿Tocando objeto? 🤖",
+            "distancia_a": "Distancia a... 📏",
+            "preguntar": "Preguntar 🗣️",
+            "tecla_presionada": "¿Tecla presionada? ⌨️",
+            "operador_suma": "Suma (+)",
+            "operador_resta": "Resta (-)",
+            "operador_mayor": "Mayor que (>)",
+            "operador_menor": "Menor que (<)",
+            "operador_igual": "Igual (=)",
+            "operador_y": "Y (AND)",
+            "operador_o": "O (OR)",
+            "aleatorio": "Aleatorio 1-10 🎲",
+            "crear_variable": "Crear Variable 📦",
+            "fijar_variable": "Fijar Variable a 0",
+            "cambiar_variable": "Cambiar Variable por 1",
+            "mostrar_variable": "Mostrar Variable",
+            "esconder_variable": "Esconder Variable",
+            "definir_bloque": "Definir Bloque",
+            "usar_bloque": "Usar Bloque",
+            "parametro": "Parámetro"
         },
-        "status": {
-            "ontrack": "Al día",
-            "needs_help": "Necesita Ayuda",
-            "falling_behind": "Atrasado",
-            "exceling": "Destacado"
-        },
-        "placeholders": {
-            "showing": "Mostrando {current} de {total} estudiantes"
+        "goals": {
+            "reach_coords": "llegar a x:{x}, y:{y}",
+            "zigzag": "completar el zigzag",
+            "start_pos": "volver a la posición inicial",
+            "clear_code": "limpiar el código",
+            "dodge_rock": "esquivar la piedra y llegar a la meta",
+            "complete_challenge": "completar el desafío"
         }
     },
-    "DailyReview": {
-        "widgetTitle": "Repaso Rápido",
-        "subtitle": "{count} conceptos para refrescar tu memoria",
-        "start": "Empezar (+50 XP)",
-        "modalTitle": "Repaso Diario",
-        "completedTitle": "¡Repaso Completado!",
-        "completedDesc": "Has fortalecido tu memoria y ganado recompensas.",
-        "awesome": "Genial",
-        "questionProgress": "Pregunta {current} de {total}",
-        "streak": "Racha: {streak} 🔥",
-        "correct": "¡Correcto!",
-        "incorrect": "¡Ups! La próxima saldrá mejor."
+    "Footer": {
+        "tagline": "Aprendizaje divertido y seguro para niños.",
+        "contact": "Contacto",
+        "location": "Murcia, España",
+        "rights": "Todos los derechos reservados.",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio"
     },
-    "ExplorerPass": {
-        "title": "Pase de Explorador",
-        "viewMissions": "Ver Misiones",
-        "level": "Nivel {level}"
+    "LearningPage": {
+        "title": "Exploradores del Conocimiento",
+        "description": "Regiones de aprendizaje interactivo para la curiosidad de cada niño.",
+        "explore": "Explorar",
+        "comingSoon": "Próximamente",
+        "regions": {
+            "math": {
+                "mascot": "Roo el Calculador",
+                "region": "Montañas de Números"
+            },
+            "programming": {
+                "mascot": "Byte el Robot",
+                "region": "Taller de Código"
+            },
+            "language": {
+                "mascot": "Loro Literato",
+                "region": "Bosque de las Palabras"
+            },
+            "science": {
+                "mascot": "Otto el Científico",
+                "region": "Laboratorio Submarino"
+            },
+            "english": {
+                "mascot": "Polly Políglota",
+                "region": "Isla de los Idiomas"
+            },
+            "social": {
+                "mascot": "Hugo el Historiador",
+                "region": "Ciudad del Tiempo"
+            }
+        }
     },
-    "FractionsWordProblems": {
-        "title": "Resolución de Problemas",
-        "back": "Volver",
-        "new_problem": "Nuevo Problema",
-        "data_label": "Datos",
-        "data_placeholder": "Escribe aquí los datos importantes...\nEj:\nRuta ayer: 2/6\nRuta hoy: 1/6",
-        "operation_label": "Operación",
-        "operation_placeholder": "Plantea tu operación...\n2/6 + 1/6 = ...",
-        "solution_label": "Solución Final",
-        "solution_help": "Escribe aquí el resultado final para corregir.",
-        "check": "Corregir",
-        "correct": "¡Correcto!",
-        "warning_title": "¡Atención!",
-        "warning_body": "El sistema solo corregirá automáticamente lo que escribas en la columna <strong class=\"font-bold\">SOLUCIÓN</strong>. Usa las columnas Datos y Operación como borrador para tu trabajo.",
-        "feedback_correct": "¡Muy bien! Respuesta correcta. 🎉",
-        "feedback_incorrect": "Respuesta incorrecta. Revisa tus cálculos o el formato.",
-        "typeA": {
-            "statement": "Ayer recorrí <val1>v</val1> de la ruta de senderismo y hoy he recorrido <val2>v</val2>. ¿Qué fracción de la ruta he recorrido en total?",
-            "hint": "Recuerda: si el denominador es igual, solo sumamos los numeradores."
-        },
-        "typeB": {
-            "statement": "Un depósito de agua está al <val1>v</val1> de su capacidad. Durante la mañana se consume <val2>v</val2>. ¿Qué fracción de agua queda en el depósito?",
-            "hint": "Es una resta. Mantén el denominador y resta los numeradores."
-        },
-        "typeC": {
-            "statement": "He leído <val1>v</val1> de un libro que tiene {total} páginas. ¿Cuántas páginas he leído en total?",
-            "hint": "Divide {total} entre {den} y luego multiplica por {num}."
-        },
-        "typeD": {
-            "statement": "Tengo {qty} paquetes de <unit>v</unit> de {name}. ¿Cuántos {totalName} tengo en total?",
-            "hint": "Suma las fracciones: {sumString}"
-        },
-        "typeE": {
-            "statement": "Jorge tiene {total} canicas azules y rojas. De ellas, <val1>v</val1> son azules. ¿Cuántas canicas rojas tiene?",
-            "hint": "Primero calcula las azules ({total} x {num} / {den}) y réstalo al total, o halla la fracción de rojas."
-        },
-        "typeF": {
-            "statement": "A María se le ha escapado un globo. Ha ascendido {ascend} m, pero después ha descendido la <val1>v</val1> parte de la altura alcanzada. ¿A cuántos metros se encuentra el globo ahora?",
-            "hint": "Calcula cuánto ha descendido ({ascend} / {den}) y réstalo a la altura inicial."
-        },
-        "typeG": {
-            "statement": "Después de extraer las <val1>v</val1> partes de arena que contiene un saco, quedan en su interior {remainder} kg. ¿Cuántos kilogramos de arena había en el saco inicialmente?",
-            "hint": "Si sacas {num}/{den}, quedan {diffNum}/{den}. Esos {diffNum} partes son {remainder} kg."
-        },
-        "units": {
-            "pages": "páginas",
-            "kilo": "kilo",
-            "kilos": "kilos",
-            "litro": "litro",
-            "litros": "litros"
+    "LanguageSelection": {
+        "title": "Lengua y Literatura",
+        "description": "Mejora tu lectura, escritura y gramática."
+    },
+    "LanguageGrade4": {
+        "title": "4º de Primaria",
+        "subtitle": "Lengua Castellana para cuarto de primaria",
+        "texts_words_title": "Comunicación y Gramática",
+        "texts_words_description": "Tipos de texto, prefijos, sufijos y gramática.",
+        "texts_words": {
+            "title": "Repaso de Lengua",
+            "subtitle": "Unidad 4: Textos y Palabras",
+            "reset": "Reiniciar",
+            "your_progress": "Tu Progreso",
+            "ex1_title": "¿Diario o Carta? Lee y clasifica.",
+            "ex1_q1": "\"Querida abuela: Te escribo para contarte que he aprobado el examen...\"",
+            "ex1_q2": "\"20 de octubre. Hoy me he sentido un poco triste porque mi mejor amigo no vino.\"",
+            "ex1_q3": "\"Señor Director: Le solicito permiso para utilizar el gimnasio el sábado.\"",
+            "ex1_q4": "\"¡Qué día tan genial! He marcado tres goles en el recreo.\"",
+            "letter": "Carta",
+            "diary": "Diario",
+            "ex2_title": "Completa con el prefijo o sufijo correcto.",
+            "ex3_title": "Une el prefijo con su palabra base.",
+            "prefixes": "Prefijos",
+            "words": "Palabras",
+            "ex4_title": "Gramática: Demostrativos",
+            "ex4_question": "Completa la frase indicando \"lejanía\":",
+            "ex4_sentence": "\"Mira _____ pájaros que vuelan sobre la montaña.\"",
+            "ex4_opt_a": "estos (cerca)",
+            "ex4_opt_b": "aquellos (lejos)",
+            "ex4_opt_c": "esos (distancia media)",
+            "ex5_title": "Máquina de Pronombres",
+            "analyze_pronoun": "Analiza el pronombre",
+            "analyzing": "Analizando...",
+            "complete": "¡COMPLETADO!",
+            "person": "Persona",
+            "number": "Número",
+            "person_1": "1ª Persona",
+            "person_2": "2ª Persona",
+            "person_3": "3ª Persona",
+            "singular": "Singular",
+            "plural": "Plural",
+            "verify_analysis": "Verificar Análisis",
+            "try_again": "¡Inténtalo de nuevo!",
+            "ex6_title": "Estructura del Texto",
+            "greeting": "Saludo",
+            "body": "Cuerpo",
+            "farewell": "Despedida",
+            "date": "Fecha",
+            "experience": "Experiencia",
+            "ex7_title": "Práctica de Demostrativos",
+            "ex7_q1_q": "Cerca (Aquí)",
+            "ex7_q1_s": "Este lápiz es mío.",
+            "this_one": "Este",
+            "that_one": "Ese",
+            "that_far_one": "Aquel",
+            "ex7_q2_q": "Lejos (Allí)",
+            "ex7_q2_s": "Aquellos árboles son altos.",
+            "these": "Estos",
+            "those": "Esos",
+            "those_far": "Aquellos",
+            "ex7_q3_q": "Distancia Media (Ahí)",
+            "ex7_q3_s": "Esa mochila es tuya.",
+            "this_f": "Esta",
+            "that_f": "Esa",
+            "that_far_f": "Aquella",
+            "footer_note": "Ficha de repaso generada para 4º de Primaria"
         }
     }
 }

@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Lock, Play, Check, Star, Clock, ChevronRight } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import {
     MicroLesson,
     LessonStatus,
@@ -20,13 +21,12 @@ interface MicroLessonCardProps {
 export default function MicroLessonCard({
     lesson,
     index,
-    locale = 'es',
     onStart,
 }: MicroLessonCardProps) {
+    const t = useTranslations();
     const config = LESSON_TYPE_CONFIG[lesson.type];
-    const isSpanish = locale === 'es';
-    const title = isSpanish ? lesson.titleEs : lesson.titleEn;
-    const description = isSpanish ? lesson.descriptionEs : lesson.descriptionEn;
+    const title = t(lesson.titleKey);
+    const description = t(lesson.descriptionKey);
     const canStart = canStartLesson(lesson);
 
     // Status-specific styling
@@ -67,7 +67,7 @@ export default function MicroLessonCard({
             case 'in_progress':
                 return (
                     <div className="bg-yellow-500 text-white px-2 py-1 rounded-full text-xs font-bold">
-                        En curso
+                        {t('Common.status.in_progress')}
                     </div>
                 );
             case 'completed':
@@ -133,7 +133,7 @@ export default function MicroLessonCard({
                         <Clock className="w-3 h-3" />
                         {formatDuration(lesson.durationMinutes)}
                     </span>
-                    <span>{lesson.exerciseCount} ejercicios</span>
+                    <span>{lesson.exerciseCount} {t('Common.exercises')}</span>
                     <span className="flex items-center gap-1">
                         +{lesson.xpReward} XP
                     </span>
@@ -186,6 +186,7 @@ export function UnitProgressHeader({
     lessonsCompleted: number;
     totalLessons: number;
 }) {
+    const t = useTranslations();
     return (
         <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-2xl p-6 mb-6">
             <h2 className="text-2xl font-bold mb-2">{title}</h2>
@@ -201,7 +202,7 @@ export function UnitProgressHeader({
                     </div>
                 </div>
                 <div className="text-white/80 text-sm font-medium whitespace-nowrap">
-                    {lessonsCompleted}/{totalLessons} completadas
+                    {t('Common.lessons_completed', { completed: lessonsCompleted, total: totalLessons })}
                 </div>
             </div>
         </div>

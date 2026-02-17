@@ -13,6 +13,7 @@ export interface ReviewItem {
     streak: number; // Consecutive correct answers
     totalAttempts: number;
     correctAttempts: number;
+    questionKey?: string;
 }
 
 // Intervals in days for each Leitner box (adapted for kids - shorter intervals)
@@ -95,7 +96,8 @@ export function createReviewItem(
     topic: string,
     subjectId: string,
     question: string,
-    correctAnswer: string
+    correctAnswer: string,
+    questionKey?: string
 ): ReviewItem {
     const today = new Date().toISOString().split('T')[0];
     return {
@@ -103,6 +105,7 @@ export function createReviewItem(
         topic,
         subjectId,
         question,
+        questionKey,
         correctAnswer,
         lastReviewed: today,
         nextReview: calculateNextReview(1), // Start in box 1
@@ -115,14 +118,14 @@ export function createReviewItem(
 
 // Sample fraction questions for review
 export const FRACTION_REVIEW_QUESTIONS: Omit<ReviewItem, 'id' | 'lastReviewed' | 'nextReview' | 'box' | 'streak' | 'totalAttempts' | 'correctAttempts'>[] = [
-    { topic: 'fractions', subjectId: 'math', question: '¿Qué fracción representa 1 parte de 2?', correctAnswer: '1/2' },
-    { topic: 'fractions', subjectId: 'math', question: '¿Qué fracción representa 2 partes de 4?', correctAnswer: '2/4' },
-    { topic: 'fractions', subjectId: 'math', question: '¿Qué fracción representa 3 partes de 8?', correctAnswer: '3/8' },
-    { topic: 'fractions', subjectId: 'math', question: '¿1/2 es igual a qué otra fracción?', correctAnswer: '2/4' },
-    { topic: 'fractions', subjectId: 'math', question: '¿Cuál es mayor: 1/2 o 1/4?', correctAnswer: '1/2' },
-    { topic: 'fractions', subjectId: 'math', question: '¿Cuántos cuartos hay en un entero?', correctAnswer: '4' },
-    { topic: 'fractions', subjectId: 'math', question: '¿Qué fracción representa la mitad?', correctAnswer: '1/2' },
-    { topic: 'fractions', subjectId: 'math', question: 'Si divides una pizza en 8 partes y comes 3, ¿qué fracción comiste?', correctAnswer: '3/8' },
+    { topic: 'fractions', subjectId: 'math', question: '¿Qué fracción representa 1 parte de 2?', questionKey: 'DailyReview.fractions_q1', correctAnswer: '1/2' },
+    { topic: 'fractions', subjectId: 'math', question: '¿Qué fracción representa 2 partes de 4?', questionKey: 'DailyReview.fractions_q2', correctAnswer: '2/4' },
+    { topic: 'fractions', subjectId: 'math', question: '¿Qué fracción representa 3 partes de 8?', questionKey: 'DailyReview.fractions_q3', correctAnswer: '3/8' },
+    { topic: 'fractions', subjectId: 'math', question: '¿1/2 es igual a qué otra fracción?', questionKey: 'DailyReview.fractions_q4', correctAnswer: '2/4' },
+    { topic: 'fractions', subjectId: 'math', question: '¿Cuál es mayor: 1/2 o 1/4?', questionKey: 'DailyReview.fractions_q5', correctAnswer: '1/2' },
+    { topic: 'fractions', subjectId: 'math', question: '¿Cuántos cuartos hay en un entero?', questionKey: 'DailyReview.fractions_q6', correctAnswer: '4' },
+    { topic: 'fractions', subjectId: 'math', question: '¿Qué fracción representa la mitad?', questionKey: 'DailyReview.fractions_q7', correctAnswer: '1/2' },
+    { topic: 'fractions', subjectId: 'math', question: 'Si divides una pizza en 8 partes y comes 3, ¿qué fracción comiste?', questionKey: 'DailyReview.fractions_q8', correctAnswer: '3/8' },
 ];
 
 // Initialize review items from sample questions

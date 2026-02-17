@@ -15,6 +15,7 @@ import {
 
 export default function AvatarBuilder() {
     const t = useTranslations('Store');
+    const tGlobal = useTranslations();
     const stars = useGamificationStore((s) => s.stars);
     const [avatarParts, setAvatarParts] = useState<AvatarPart[]>(DEFAULT_AVATAR_PARTS);
     const [activeCategory, setActiveCategory] = useState<AvatarCategory>('head');
@@ -119,8 +120,8 @@ export default function AvatarBuilder() {
                                 key={cat}
                                 onClick={() => setActiveCategory(cat)}
                                 className={`flex items-center gap-2 px-4 py-2 rounded-full whitespace-nowrap transition-all ${activeCategory === cat
-                                        ? 'bg-purple-500 text-white'
-                                        : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                                    ? 'bg-purple-500 text-white'
+                                    : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
                                     }`}
                             >
                                 <span>{t(`categories.${cat}`)}</span>
@@ -142,17 +143,17 @@ export default function AvatarBuilder() {
                                     onClick={() => isUnlocked ? handleEquip(item) : handlePurchase(item)}
                                     disabled={!isUnlocked && !affordable}
                                     className={`relative aspect-square rounded-xl flex flex-col items-center justify-center p-2 transition-all ${isEquipped
-                                            ? 'bg-purple-100 dark:bg-purple-900/40 ring-2 ring-purple-500'
-                                            : isUnlocked
-                                                ? 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700'
-                                                : affordable
-                                                    ? 'bg-yellow-50 dark:bg-yellow-900/20 hover:bg-yellow-100 dark:hover:bg-yellow-900/40'
-                                                    : 'bg-gray-100 dark:bg-gray-800 opacity-50 cursor-not-allowed'
+                                        ? 'bg-purple-100 dark:bg-purple-900/40 ring-2 ring-purple-500'
+                                        : isUnlocked
+                                            ? 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700'
+                                            : affordable
+                                                ? 'bg-yellow-50 dark:bg-yellow-900/20 hover:bg-yellow-100 dark:hover:bg-yellow-900/40'
+                                                : 'bg-gray-100 dark:bg-gray-800 opacity-50 cursor-not-allowed'
                                         }`}
                                 >
                                     <span className="text-3xl mb-1">{item.emoji}</span>
                                     <span className="text-xs text-gray-600 dark:text-gray-400 text-center line-clamp-1">
-                                        {item.nameEs}
+                                        {tGlobal(item.nameKey)}
                                     </span>
 
                                     {isEquipped && (
@@ -199,7 +200,7 @@ export default function AvatarBuilder() {
                                 {t('unlocked')}
                             </h3>
                             <p className="text-gray-600 dark:text-gray-400">
-                                {purchasedItem.nameEs}
+                                {tGlobal(purchasedItem.nameKey)}
                             </p>
                             <Sparkles className="w-6 h-6 text-yellow-500 mx-auto mt-4 animate-bounce" />
                         </motion.div>

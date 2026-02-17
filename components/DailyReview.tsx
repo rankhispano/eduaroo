@@ -15,6 +15,7 @@ import { useTranslations } from 'next-intl';
 
 export default function DailyReview() {
     const t = useTranslations('DailyReview');
+    const tGlobal = useTranslations();
     const [reviewItems, setReviewItems] = useState<ReviewItem[]>([]);
     const [dailySession, setDailySession] = useState<ReviewItem[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -187,7 +188,9 @@ export default function DailyReview() {
 
                             {/* Question */}
                             <h3 className="text-xl font-bold text-gray-900 dark:text-white text-center mb-8">
-                                {dailySession[currentIndex].question}
+                                {dailySession[currentIndex].questionKey
+                                    ? tGlobal(dailySession[currentIndex].questionKey)
+                                    : dailySession[currentIndex].question}
                             </h3>
 
                             {/* Options */}

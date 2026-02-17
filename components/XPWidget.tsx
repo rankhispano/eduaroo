@@ -5,8 +5,11 @@ import { Star, Sparkles, TrendingUp, Zap } from 'lucide-react';
 import { useXP, useStars, useLevel, useDailyGoal } from '@/lib/gamification/store';
 import { getLevelProgress, getXPToNextLevel } from '@/lib/gamification/xpSystem';
 import { CircularProgress } from '@/components/ProgressBar';
+import { useTranslations } from 'next-intl';
 
 export default function XPWidget() {
+    const t = useTranslations('XPWidget');
+    const tGlobal = useTranslations();
     const totalXP = useXP();
     const stars = useStars();
     const level = useLevel();
@@ -35,8 +38,8 @@ export default function XPWidget() {
                             {level.badge}
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold">Nivel {level.level}</h3>
-                            <p className="text-sm opacity-80">{level.nameEs}</p>
+                            <h3 className="text-lg font-bold">{tGlobal('Dashboard.level')} {level.level}</h3>
+                            <p className="text-sm opacity-80">{tGlobal(level.nameKey)}</p>
                         </div>
                     </div>
 
@@ -59,7 +62,7 @@ export default function XPWidget() {
                     <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center gap-2">
                             <Zap className="w-5 h-5 text-yellow-300" />
-                            <span className="font-medium">Experiencia</span>
+                            <span className="font-medium">{t('experience')}</span>
                         </div>
                         <motion.span
                             key={totalXP}
@@ -82,8 +85,8 @@ export default function XPWidget() {
                             />
                         </div>
                         <div className="flex justify-between text-xs opacity-70">
-                            <span>{Math.round(levelProgress)}% completado</span>
-                            <span>{xpToNext > 0 ? `${xpToNext} XP para nivel ${level.level + 1}` : '¡Nivel máximo!'}</span>
+                            <span>{Math.round(levelProgress)}{t('completed')}</span>
+                            <span>{xpToNext > 0 ? t('xp_to_next', { xp: xpToNext, next: level.level + 1 }) : t('max_level')}</span>
                         </div>
                     </div>
                 </div>
@@ -93,10 +96,10 @@ export default function XPWidget() {
                     <div>
                         <div className="flex items-center gap-2 mb-1">
                             <TrendingUp className="w-4 h-4" />
-                            <span className="font-medium">Meta diaria</span>
+                            <span className="font-medium">{t('daily_goal')}</span>
                         </div>
                         <p className="text-sm opacity-80">
-                            {progress}/{goal} ejercicios
+                            {progress}/{goal} {t('exercises')}
                             {dailyComplete && <span className="ml-2">✅</span>}
                         </p>
                     </div>

@@ -22,8 +22,8 @@ export type SubjectId = 'math' | 'language' | 'science' | 'social' | 'english';
 // Achievement definition
 export interface Achievement {
     id: string;
-    nameEs: string;
-    descriptionEs: string;
+    nameKey: string;
+    descriptionKey: string;
     icon: string;
     unlockedAt: string | null;
 }
@@ -98,14 +98,14 @@ export interface GamificationActions {
 
 // Default achievements
 const DEFAULT_ACHIEVEMENTS: Achievement[] = [
-    { id: 'first_exercise', nameEs: 'Primer Paso', descriptionEs: 'Completa tu primer ejercicio', icon: '🎯', unlockedAt: null },
-    { id: 'perfect_score', nameEs: 'Perfección', descriptionEs: 'Obtén puntuación perfecta', icon: '⭐', unlockedAt: null },
-    { id: 'streak_7', nameEs: 'Semana de Fuego', descriptionEs: 'Mantén una racha de 7 días', icon: '🔥', unlockedAt: null },
-    { id: 'streak_30', nameEs: 'Mes Imparable', descriptionEs: 'Mantén una racha de 30 días', icon: '👑', unlockedAt: null },
-    { id: 'level_5', nameEs: 'Experto Emergente', descriptionEs: 'Alcanza el nivel 5', icon: '🎯', unlockedAt: null },
-    { id: 'level_10', nameEs: 'Maestro del Saber', descriptionEs: 'Alcanza el nivel 10', icon: '🌟', unlockedAt: null },
-    { id: 'math_master', nameEs: 'Matemático', descriptionEs: 'Completa 50 ejercicios de matemáticas', icon: '🧮', unlockedAt: null },
-    { id: 'daily_goal_10', nameEs: 'Constante', descriptionEs: 'Completa la meta diaria 10 veces', icon: '✅', unlockedAt: null },
+    { id: 'first_exercise', nameKey: 'Achievements.first_exercise.name', descriptionKey: 'Achievements.first_exercise.desc', icon: '🎯', unlockedAt: null },
+    { id: 'perfect_score', nameKey: 'Achievements.perfect_score.name', descriptionKey: 'Achievements.perfect_score.desc', icon: '⭐', unlockedAt: null },
+    { id: 'streak_7', nameKey: 'Achievements.streak_7.name', descriptionKey: 'Achievements.streak_7.desc', icon: '🔥', unlockedAt: null },
+    { id: 'streak_30', nameKey: 'Achievements.streak_30.name', descriptionKey: 'Achievements.streak_30.desc', icon: '👑', unlockedAt: null },
+    { id: 'level_5', nameKey: 'Achievements.level_5.name', descriptionKey: 'Achievements.level_5.desc', icon: '🎯', unlockedAt: null },
+    { id: 'level_10', nameKey: 'Achievements.level_10.name', descriptionKey: 'Achievements.level_10.desc', icon: '🌟', unlockedAt: null },
+    { id: 'math_master', nameKey: 'Achievements.math_master.name', descriptionKey: 'Achievements.math_master.desc', icon: '🧮', unlockedAt: null },
+    { id: 'daily_goal_10', nameKey: 'Achievements.daily_goal_10.name', descriptionKey: 'Achievements.daily_goal_10.desc', icon: '✅', unlockedAt: null },
 ];
 
 // Default subject progress

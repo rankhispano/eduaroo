@@ -3,8 +3,7 @@
 
 export interface Level {
     level: number;
-    name: string;
-    nameEs: string;
+    nameKey: string;
     minXP: number;
     maxXP: number;
     badge: string;
@@ -12,16 +11,16 @@ export interface Level {
 
 // Level progression curve
 export const LEVELS: Level[] = [
-    { level: 1, name: 'Novice', nameEs: 'Novato', minXP: 0, maxXP: 100, badge: '🌱' },
-    { level: 2, name: 'Explorer', nameEs: 'Explorador', minXP: 100, maxXP: 250, badge: '🧭' },
-    { level: 3, name: 'Adventurer', nameEs: 'Aventurero', minXP: 250, maxXP: 500, badge: '⚔️' },
-    { level: 4, name: 'Scholar', nameEs: 'Estudioso', minXP: 500, maxXP: 850, badge: '📚' },
-    { level: 5, name: 'Expert', nameEs: 'Experto', minXP: 850, maxXP: 1300, badge: '🎯' },
-    { level: 6, name: 'Master', nameEs: 'Maestro', minXP: 1300, maxXP: 1900, badge: '🏆' },
-    { level: 7, name: 'Champion', nameEs: 'Campeón', minXP: 1900, maxXP: 2700, badge: '👑' },
-    { level: 8, name: 'Legend', nameEs: 'Leyenda', minXP: 2700, maxXP: 3800, badge: '⭐' },
-    { level: 9, name: 'Hero', nameEs: 'Héroe', minXP: 3800, maxXP: 5200, badge: '🦸' },
-    { level: 10, name: 'Master of Knowledge', nameEs: 'Maestro del Saber', minXP: 5200, maxXP: Infinity, badge: '🌟' },
+    { level: 1, nameKey: 'Levels.1', minXP: 0, maxXP: 100, badge: '🌱' },
+    { level: 2, nameKey: 'Levels.2', minXP: 100, maxXP: 250, badge: '🧭' },
+    { level: 3, nameKey: 'Levels.3', minXP: 250, maxXP: 500, badge: '⚔️' },
+    { level: 4, nameKey: 'Levels.4', minXP: 500, maxXP: 850, badge: '📚' },
+    { level: 5, nameKey: 'Levels.5', minXP: 850, maxXP: 1300, badge: '🎯' },
+    { level: 6, nameKey: 'Levels.6', minXP: 1300, maxXP: 1900, badge: '🏆' },
+    { level: 7, nameKey: 'Levels.7', minXP: 1900, maxXP: 2700, badge: '👑' },
+    { level: 8, nameKey: 'Levels.8', minXP: 2700, maxXP: 3800, badge: '⭐' },
+    { level: 9, nameKey: 'Levels.9', minXP: 3800, maxXP: 5200, badge: '🦸' },
+    { level: 10, nameKey: 'Levels.10', minXP: 5200, maxXP: Infinity, badge: '🌟' },
 ];
 
 // XP rewards configuration

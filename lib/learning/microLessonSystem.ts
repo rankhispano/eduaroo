@@ -9,10 +9,8 @@ export interface MicroLesson {
     unitId: string;
     order: number;
     type: LessonType;
-    titleEs: string;
-    titleEn: string;
-    descriptionEs: string;
-    descriptionEn: string;
+    titleKey: string;
+    descriptionKey: string;
     durationMinutes: number; // 5-8 min
     exerciseCount: number;
     xpReward: number;
@@ -21,6 +19,10 @@ export interface MicroLesson {
     completedAt?: string;
     score?: number; // 0-100
     timeSpentSeconds?: number;
+    // Programming-specific fields (optional)
+    challengeKey?: string;
+    hintKey?: string;
+    requiredBlocks?: string[];
 }
 
 export interface LearningUnit {
@@ -28,10 +30,8 @@ export interface LearningUnit {
     subjectId: string;
     gradeLevel: number; // 1-6
     order: number;
-    titleEs: string;
-    titleEn: string;
-    descriptionEs: string;
-    descriptionEn: string;
+    titleKey: string;
+    descriptionKey: string;
     iconEmoji: string;
     lessons: MicroLesson[];
     prerequisites: string[]; // Unit IDs
@@ -84,8 +84,7 @@ export const LESSON_TYPE_CONFIG: Record<LessonType, {
 export function createDefaultUnitStructure(
     unitId: string,
     subjectId: string,
-    titleEs: string,
-    titleEn: string
+    titleKey: string
 ): MicroLesson[] {
     const baseId = `${unitId}_lesson`;
 
@@ -95,10 +94,8 @@ export function createDefaultUnitStructure(
             unitId,
             order: 0,
             type: 'diagnostic',
-            titleEs: 'Diagnóstico Inicial',
-            titleEn: 'Initial Diagnostic',
-            descriptionEs: 'Veamos qué sabes',
-            descriptionEn: 'Let\'s see what you know',
+            titleKey: 'Lessons.default.diagnostic.title',
+            descriptionKey: 'Lessons.default.diagnostic.description',
             durationMinutes: 2,
             exerciseCount: 5,
             xpReward: 10,
@@ -110,10 +107,8 @@ export function createDefaultUnitStructure(
             unitId,
             order: 1,
             type: 'lesson',
-            titleEs: 'Introducción',
-            titleEn: 'Introduction',
-            descriptionEs: 'Conceptos básicos',
-            descriptionEn: 'Basic concepts',
+            titleKey: 'Lessons.default.intro.title',
+            descriptionKey: 'Lessons.default.intro.description',
             durationMinutes: 5,
             exerciseCount: 8,
             xpReward: 20,
@@ -125,10 +120,8 @@ export function createDefaultUnitStructure(
             unitId,
             order: 2,
             type: 'practice',
-            titleEs: 'Práctica Guiada',
-            titleEn: 'Guided Practice',
-            descriptionEs: 'Ejercicios con ayuda',
-            descriptionEn: 'Exercises with help',
+            titleKey: 'Lessons.default.guided_practice.title',
+            descriptionKey: 'Lessons.default.guided_practice.description',
             durationMinutes: 6,
             exerciseCount: 10,
             xpReward: 25,
@@ -140,10 +133,8 @@ export function createDefaultUnitStructure(
             unitId,
             order: 3,
             type: 'lesson',
-            titleEs: 'Profundización',
-            titleEn: 'Deep Dive',
-            descriptionEs: 'Más detalles',
-            descriptionEn: 'More details',
+            titleKey: 'Lessons.default.deep_dive.title',
+            descriptionKey: 'Lessons.default.deep_dive.description',
             durationMinutes: 5,
             exerciseCount: 8,
             xpReward: 20,
@@ -155,10 +146,8 @@ export function createDefaultUnitStructure(
             unitId,
             order: 4,
             type: 'practice',
-            titleEs: 'Práctica Independiente',
-            titleEn: 'Independent Practice',
-            descriptionEs: 'Ejercicios sin ayuda',
-            descriptionEn: 'Exercises without help',
+            titleKey: 'Lessons.default.independent_practice.title',
+            descriptionKey: 'Lessons.default.independent_practice.description',
             durationMinutes: 7,
             exerciseCount: 12,
             xpReward: 30,
@@ -170,10 +159,8 @@ export function createDefaultUnitStructure(
             unitId,
             order: 5,
             type: 'challenge',
-            titleEs: 'Reto de Dominio',
-            titleEn: 'Mastery Challenge',
-            descriptionEs: '¡Demuestra lo aprendido!',
-            descriptionEn: 'Show what you learned!',
+            titleKey: 'Lessons.default.mastery_challenge.title',
+            descriptionKey: 'Lessons.default.mastery_challenge.description',
             durationMinutes: 8,
             exerciseCount: 15,
             xpReward: 50,
@@ -236,13 +223,13 @@ export function formatDuration(minutes: number): string {
 }
 
 // Get status badge info
-export function getStatusBadge(status: LessonStatus): { text: string; emoji: string; colorClass: string } {
-    const badges: Record<LessonStatus, { text: string; emoji: string; colorClass: string }> = {
-        locked: { text: 'Bloqueado', emoji: '🔒', colorClass: 'bg-gray-400' },
-        available: { text: 'Disponible', emoji: '▶️', colorClass: 'bg-green-500' },
-        in_progress: { text: 'En progreso', emoji: '⏳', colorClass: 'bg-yellow-500' },
-        completed: { text: 'Completado', emoji: '✅', colorClass: 'bg-blue-500' },
-        mastered: { text: 'Dominado', emoji: '⭐', colorClass: 'bg-purple-500' },
+export function getStatusBadge(status: LessonStatus): { textKey: string; emoji: string; colorClass: string } {
+    const badges: Record<LessonStatus, { textKey: string; emoji: string; colorClass: string }> = {
+        locked: { textKey: 'Common.status.locked', emoji: '🔒', colorClass: 'bg-gray-400' },
+        available: { textKey: 'Common.status.available', emoji: '▶️', colorClass: 'bg-green-500' },
+        in_progress: { textKey: 'Common.status.in_progress', emoji: '⏳', colorClass: 'bg-yellow-500' },
+        completed: { textKey: 'Common.status.completed', emoji: '✅', colorClass: 'bg-blue-500' },
+        mastered: { textKey: 'Common.status.mastered', emoji: '⭐', colorClass: 'bg-purple-500' },
     };
     return badges[status];
 }

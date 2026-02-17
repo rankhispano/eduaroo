@@ -74,7 +74,7 @@ export default function MegaMenu() {
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.15 }}
-                            className="fixed inset-0 top-16 bg-black/20 dark:bg-black/40 z-40"
+                            className="fixed inset-0 top-16 bg-black/20 dark:bg-black/40 z-50"
                             onClick={() => setIsOpen(false)}
                         />
 
