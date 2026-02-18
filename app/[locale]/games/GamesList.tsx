@@ -73,7 +73,7 @@ export default function GamesList() {
             gradient: 'from-orange-500/40'
         },
         {
-            id: 'geoMinds',
+            id: 'geominds',
             category: 'logic',
             icon: <div>🧩</div>,
             titleKey: 'geoMindsTitle',
@@ -141,7 +141,7 @@ export default function GamesList() {
                 {filteredGames.map((game) => (
                     <Link
                         key={game.id}
-                        href={game.id === 'geoMinds' ? '/games/geominds' : `/games/${game.id}`}
+                        href={game.id === 'geominds' ? '/games/geominds' : `/games/${game.id}`}
                         className="group relative flex flex-col overflow-hidden rounded-3xl bg-white dark:bg-slate-900 shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-brand-blue/10 border border-gray-100 dark:border-slate-800"
                     >
                         {/* Image Header */}
