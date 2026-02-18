@@ -11,7 +11,7 @@ interface CategoryConfig {
     id: string;
     color: string;
     highlight: string;
-    icon: JSX.Element;
+    icon: React.ReactElement<any>;
 }
 
 const CATEGORY_CONFIG: Record<string, CategoryConfig> = {
