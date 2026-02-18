@@ -2,8 +2,10 @@
 
 import React, { useState, useEffect } from 'react';
 import { Send, RefreshCw, Trophy, Info, Lightbulb } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 export default function CyberSegmentsPage() {
+    const t = useTranslations('GamesPage.cyberSegmentsMessages');
     const [targetNumber, setTargetNumber] = useState(0);
     const [segments, setSegments] = useState<Record<string, boolean>>({
         a: false, b: false, c: false, d: false, e: false, f: false, g: false
@@ -84,11 +86,11 @@ export default function CyberSegmentsPage() {
         if (isCorrect) {
             setScore(prev => prev + 10);
             setGameState('success');
-            setMessage('¡Correcto! ¡Muy bien!');
+            setMessage(t('correct'));
             setTimeout(generateNewChallenge, 2000);
         } else {
             setGameState('error');
-            setMessage('Ups, no coincide. ¡Revisa el patrón!');
+            setMessage(t('incorrect'));
         }
     };
 
@@ -165,7 +167,7 @@ export default function CyberSegmentsPage() {
                         onClick={() => setShowLabels(!showLabels)}
                         className="mt-4 flex items-center gap-2 text-slate-400 text-xs hover:text-white transition-colors"
                     >
-                        <Info size={14} /> {showLabels ? "Ocultar Etiquetas" : "Mostrar Etiquetas"}
+                        <Info size={14} /> {showLabels ? t('hideLabels') : t('showLabels')}
                     </button>
                 </div>
 
@@ -190,7 +192,7 @@ export default function CyberSegmentsPage() {
                     {/* OBJETIVO - Ahora estilo LED 7 segmentos */}
                     <div className="flex flex-col items-center mb-8 bg-slate-100 p-6 rounded-2xl border border-slate-200 shadow-sm">
                         <p className="text-slate-500 font-bold text-sm mb-4 text-center uppercase tracking-wide">
-                            Objetivo: Formar el número
+                            {t('target')}
                         </p>
                         {/* Display Objetivo Miniatura */}
                         <div className="bg-slate-200/50 p-3 rounded-lg">
@@ -207,7 +209,7 @@ export default function CyberSegmentsPage() {
                     {/* Panel de Interruptores (Inputs) - SIN PUNTOS DE COLORES NI CABLES */}
                     <div className="bg-slate-800 rounded-xl p-4 md:p-6 shadow-xl mb-6 relative border-t-4 border-slate-600">
                         {/* Etiqueta estilo Breadboard */}
-                        <div className="absolute top-2 left-3 text-[10px] text-slate-400 font-mono tracking-widest">DIGITAL INPUTS</div>
+                        <div className="absolute top-2 left-3 text-[10px] text-slate-400 font-mono tracking-widest">{t('digitalInputs')}</div>
 
                         <div className="grid grid-cols-7 gap-2 mt-4">
                             {['a', 'b', 'c', 'd', 'e', 'f', 'g'].map((key) => {
@@ -250,9 +252,9 @@ export default function CyberSegmentsPage() {
               `}
                         >
                             {gameState === 'success' ? (
-                                <>¡SISTEMA ACTIVADO! <Lightbulb size={20} /></>
+                                <>{t('systemActivated')} <Lightbulb size={20} /></>
                             ) : (
-                                <>VERIFICAR CÓDIGO <Send size={20} /></>
+                                <>{t('verifyCode')} <Send size={20} /></>
                             )}
                         </button>
 

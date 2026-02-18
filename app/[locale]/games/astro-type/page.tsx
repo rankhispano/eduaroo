@@ -1,16 +1,17 @@
 'use client';
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { Rocket, Star, Trophy, RotateCcw, Play, Heart, Zap, ShieldAlert, Skull, Flame } from 'lucide-react';
+import { ArrowLeft, Play, Trophy, RotateCcw, ShieldAlert, Zap, Star, LayoutGrid, Gamepad2, Heart, Flame, Rocket, Skull } from 'lucide-react';
+import { Tooltip } from '@/components/ui/tooltip';
 import { Link } from '@/i18n/navigation';
 import NextImage from 'next/image';
+import { useTranslations } from 'next-intl';
 
 /**
  * --- CONFIGURACIÓN Y DATOS ---
  */
 
 const APP_TITLE = "ASTROTYPE";
-const APP_SUBTITLE = "ODISEA GALÁCTICA";
 
 // Piscinas de palabras ampliadas para mayor variedad
 const WORD_POOLS = {
@@ -41,14 +42,14 @@ const WORD_POOLS = {
 };
 
 const CURRICULUM = [
-    { id: 1, title: 'Misión Índices', desc: 'Fuego y Júpiter (F, J)', pool: 1, minWpm: 5 },
-    { id: 2, title: 'Expansión Lateral', desc: 'Dedos medios (D, K)', pool: 2, minWpm: 7 },
-    { id: 3, title: 'Anillos de Saturno', desc: 'Anulares (S, L)', pool: 3, minWpm: 9 },
-    { id: 4, title: 'Bordes Galácticos', desc: 'Meñiques (A, Ñ)', pool: 4, minWpm: 11 },
-    { id: 5, title: 'Salto al Hiperespacio', desc: 'Fila Superior', pool: 5, minWpm: 13 },
-    { id: 6, title: 'Aterrizaje Lunar', desc: 'Fila Inferior', pool: 6, minWpm: 15 },
-    { id: 7, title: 'Capitán de Flota', desc: 'Mayúsculas', pool: 7, minWpm: 18 },
-    { id: 8, title: 'Código Alienígena', desc: 'Números y Símbolos', pool: 8, minWpm: 20 },
+    { id: 1, pool: 1, minWpm: 5 },
+    { id: 2, pool: 2, minWpm: 7 },
+    { id: 3, pool: 3, minWpm: 9 },
+    { id: 4, pool: 4, minWpm: 11 },
+    { id: 5, pool: 5, minWpm: 13 },
+    { id: 6, pool: 6, minWpm: 15 },
+    { id: 7, pool: 7, minWpm: 18 },
+    { id: 8, pool: 8, minWpm: 20 },
 ];
 
 // Función para generar lección aleatoria MEJORADA
@@ -99,7 +100,7 @@ const Letter = React.memo(({ char, status, isActive }: { char: string, status: s
 });
 Letter.displayName = 'Letter';
 
-const VirtualKeyboard = ({ activeKey }: { activeKey: string }) => {
+const VirtualKeyboard = ({ activeKey, t }: { activeKey: string, t: any }) => {
     const rows = [
         ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'],
         ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'],
@@ -120,7 +121,7 @@ const VirtualKeyboard = ({ activeKey }: { activeKey: string }) => {
                         })}
                     </div>
                 ))}
-                <div className={`mt-2 w-48 md:w-64 h-10 md:h-12 rounded-xl flex items-center justify-center transition-all ${activeKey === ' ' ? 'bg-purple-500 text-white' : 'bg-slate-700 border-b-4 border-slate-900 text-slate-500'}`}>ESPACIO</div>
+                <div className={`mt-2 w-48 md:w-64 h-10 md:h-12 rounded-xl flex items-center justify-center transition-all ${activeKey === ' ' ? 'bg-purple-500 text-white' : 'bg-slate-700 border-b-4 border-slate-900 text-slate-500'}`}>{t('space')}</div>
             </div>
         </div>
     );
@@ -130,6 +131,7 @@ const VirtualKeyboard = ({ activeKey }: { activeKey: string }) => {
  * --- APP PRINCIPAL ---
  */
 export default function AstroTypePage() {
+    const t = useTranslations('GamesPage.astroTypeMessages');
     // Navigation State
     const [view, setView] = useState<'menu' | 'lesson' | 'arcade-select' | 'arcade-game' | 'results'>('menu');
 
@@ -201,7 +203,9 @@ export default function AstroTypePage() {
 
         const expectedChar = lessonText[input.length];
 
-        if (e.key === expectedChar) {
+        if (e.key.toLowerCase() === expectedChar.toLowerCase()) {
+            // Keep the original casing in input history? Or use expectedChar?
+            // Using e.key keeps what the user actually typed.
             const newInput = input + e.key;
             setInput(newInput);
 
@@ -345,12 +349,12 @@ export default function AstroTypePage() {
     const handleArcadeKey = useCallback((e: KeyboardEvent) => {
         if (view !== 'arcade-game') return;
 
-        const char = e.key;
-        if (['Shift', 'Control', 'Alt'].includes(char)) return;
+        const char = e.key.toLowerCase();
+        if (['Shift', 'Control', 'Alt', 'Meta', 'CapsLock'].includes(e.key)) return;
 
         if (arcadeMode === 'letters') {
             // Buscar coincidencia en itemsRef (estado actual real)
-            const matchIndex = itemsRef.current.findIndex(item => item.text === char);
+            const matchIndex = itemsRef.current.findIndex(item => item.text.toLowerCase() === char);
 
             if (matchIndex !== -1) {
                 // Hit!
@@ -370,7 +374,7 @@ export default function AstroTypePage() {
                     const nextInput = prev + char;
 
                     // Buscar coincidencia completa
-                    const matchIndex = itemsRef.current.findIndex(item => item.text === nextInput);
+                    const matchIndex = itemsRef.current.findIndex(item => item.text.toLowerCase() === nextInput);
                     if (matchIndex !== -1) {
                         // Palabra completa!
                         itemsRef.current.splice(matchIndex, 1);
@@ -418,14 +422,14 @@ export default function AstroTypePage() {
                 <h1 className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 tracking-tighter filter drop-shadow-lg" style={{ fontFamily: 'Lexend, sans-serif' }}>
                     {APP_TITLE}
                 </h1>
-                <h2 className="text-2xl font-bold text-slate-400 tracking-widest uppercase">{APP_SUBTITLE}</h2>
+                <h2 className="text-2xl font-bold text-slate-400 tracking-widest uppercase">{t('subtitle')}</h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
                 {/* Panel Misiones */}
                 <div className="bg-slate-800/80 backdrop-blur p-6 rounded-3xl border-2 border-slate-700 hover:border-cyan-500 transition-all hover:shadow-[0_0_30px_rgba(34,211,238,0.2)]">
                     <h2 className="text-2xl font-bold text-cyan-400 mb-4 flex items-center gap-2">
-                        <Rocket className="animate-pulse" /> Misiones de Academia
+                        <Rocket className="animate-pulse" /> {t('academyMissions')}
                     </h2>
                     <div className="grid grid-cols-4 gap-2">
                         {CURRICULUM.map((l, idx) => (
@@ -433,36 +437,37 @@ export default function AstroTypePage() {
                                 key={l.id}
                                 onClick={() => startLesson(idx)}
                                 className="aspect-square rounded-xl flex items-center justify-center font-bold text-lg transition-all relative overflow-hidden group bg-cyan-600 text-white hover:bg-cyan-500 hover:scale-105 shadow-lg"
+                                title={`${t(`missions.${l.id}.title`)} - ${t(`missions.${l.id}.desc`)}`}
                             >
                                 {l.id}
                             </button>
                         ))}
                     </div>
-                    <p className="text-slate-400 mt-4 text-sm">¡Acceso total concedido! Todas las misiones desbloqueadas.</p>
+                    <p className="text-slate-400 mt-4 text-sm">{t('accessGranted')}</p>
                 </div>
 
                 {/* Panel Arcade */}
                 <div className="bg-slate-800/80 backdrop-blur p-6 rounded-3xl border-2 border-slate-700 hover:border-pink-500 transition-all hover:shadow-[0_0_30px_rgba(236,72,153,0.2)]">
                     <h2 className="text-2xl font-bold text-pink-400 mb-4 flex items-center gap-2">
-                        <Zap className="animate-bounce" /> Zona Arcade
+                        <Zap className="animate-bounce" /> {t('arcadeZone')}
                     </h2>
                     <div className="flex flex-col gap-4">
                         <button onClick={() => startArcade('letters')} className="bg-slate-700 hover:bg-gradient-to-r hover:from-pink-600 hover:to-purple-600 hover:text-white p-4 rounded-xl flex items-center justify-between group transition-all transform hover:-translate-y-1">
                             <div className="flex items-center gap-3">
                                 <Flame size={20} className="text-pink-400 group-hover:text-white" />
-                                <span className="font-bold">Lluvia de Meteoritos</span>
+                                <span className="font-bold">{t('meteorShower')}</span>
                             </div>
-                            <span className="text-xs bg-slate-900 px-2 py-1 rounded text-slate-400 group-hover:text-white border border-slate-600">Letras</span>
+                            <span className="text-xs bg-slate-900 px-2 py-1 rounded text-slate-400 group-hover:text-white border border-slate-600">{t('letters')}</span>
                         </button>
                         <button onClick={() => startArcade('words')} className="bg-slate-700 hover:bg-gradient-to-r hover:from-purple-600 hover:to-indigo-600 hover:text-white p-4 rounded-xl flex items-center justify-between group transition-all transform hover:-translate-y-1">
                             <div className="flex items-center gap-3">
                                 <ShieldAlert size={20} className="text-purple-400 group-hover:text-white" />
-                                <span className="font-bold">Defensa Planetaria</span>
+                                <span className="font-bold">{t('planetaryDefense')}</span>
                             </div>
-                            <span className="text-xs bg-slate-900 px-2 py-1 rounded text-slate-400 group-hover:text-white border border-slate-600">Palabras</span>
+                            <span className="text-xs bg-slate-900 px-2 py-1 rounded text-slate-400 group-hover:text-white border border-slate-600">{t('words')}</span>
                         </button>
                     </div>
-                    <p className="text-slate-400 mt-4 text-sm">Modo supervivencia infinito. ¡Acelera tus dedos!</p>
+                    <p className="text-slate-400 mt-4 text-sm">{t('survivalMode')}</p>
                 </div>
             </div>
 
@@ -470,18 +475,21 @@ export default function AstroTypePage() {
             <div className="mt-8 bg-slate-800/60 backdrop-blur p-6 rounded-3xl border-2 border-slate-700/50 flex flex-col items-center max-w-2xl w-full">
                 <h3 className="text-xl font-bold text-yellow-400 mb-4 flex items-center gap-2">
                     <Star className="w-5 h-5" fill="currentColor" />
-                    ¡Recomendación para ganar agilidad!
+                    {t('agilityRecommendation')}
                 </h3>
                 <div className="relative w-full aspect-[2/1] max-h-48 rounded-xl overflow-hidden border-2 border-slate-600">
                     <NextImage
                         src="/keyboard_hands.png"
-                        alt="Posición correcta de las manos"
+                        alt={t('handsPositionAlt')}
                         fill
                         className="object-cover"
                     />
                 </div>
                 <p className="text-slate-400 text-sm mt-3 text-center">
-                    Coloca tus dedos índices en las teclas <span className="text-yellow-400 font-bold">F</span> y <span className="text-yellow-400 font-bold">J</span> (busca las muescas) para alcanzar todas las teclas más rápido.
+                    {t.rich('fingerPlacement', {
+                        k1: (chunks: React.ReactNode) => <span className="text-yellow-400 font-bold">{chunks}</span>,
+                        k2: (chunks: React.ReactNode) => <span className="text-yellow-400 font-bold">{chunks}</span>
+                    })}
                 </p>
             </div>
         </div>
@@ -500,18 +508,22 @@ export default function AstroTypePage() {
             <div className="w-full max-w-5xl mx-auto flex flex-col items-center animate-fade-in">
                 {/* HUD */}
                 <div className="flex w-full justify-between items-end mb-6 px-4">
-                    <button onClick={() => setView('menu')} className="text-slate-500 hover:text-white flex items-center gap-2 transition-colors"><RotateCcw size={16} /> ABORTAR MISIÓN</button>
+                    <button onClick={() => setView('menu')} className="text-slate-500 hover:text-white flex items-center gap-2 transition-colors"><RotateCcw size={16} /> {t('abortMission')}</button>
                     <div className="text-center">
-                        <h2 className="text-xl text-cyan-400 font-bold">{currentLevel.title}</h2>
-                        <p className="text-slate-500 text-sm">{currentLevel.desc}</p>
+                        <h2 className="text-xl text-cyan-400 font-bold">{t(`missions.${currentLevel.id}.title`)}</h2>
+                        <p className="text-slate-500 text-sm">{t(`missions.${currentLevel.id}.desc`)}</p>
                     </div>
                     <div className="flex gap-4">
                         <div className="bg-slate-800 px-4 py-1 rounded-lg border border-slate-700">
-                            <span className="text-slate-400 text-xs block">VELOCIDAD</span>
-                            <span className="text-xl font-bold text-white">{currentWpm} <span className="text-xs text-slate-500">WPM</span></span>
+                            <Tooltip content={t('wpmTooltip')}>
+                                <div className="cursor-help">
+                                    <span className="text-slate-400 text-xs block border-b border-dotted border-slate-500 w-fit">{t('speed')}</span>
+                                    <span className="text-xl font-bold text-white">{currentWpm} <span className="text-xs text-slate-500">WPM</span></span>
+                                </div>
+                            </Tooltip>
                         </div>
                         <div className="bg-slate-800 px-4 py-1 rounded-lg border border-slate-700">
-                            <span className="text-slate-400 text-xs block">PRECISIÓN</span>
+                            <span className="text-slate-400 text-xs block">{t('accuracy')}</span>
                             <span className="text-xl font-bold text-white">{currentAcc}%</span>
                         </div>
                     </div>
@@ -521,13 +533,13 @@ export default function AstroTypePage() {
                 <div className="relative bg-slate-900 p-8 rounded-3xl border-4 border-slate-700 shadow-2xl w-full text-center min-h-[200px] flex items-center justify-center flex-wrap gap-y-4">
                     {lessonText.split('').map((char, i) => {
                         let status = 'pending';
-                        if (i < input.length) status = input[i] === char ? 'correct' : 'incorrect';
+                        if (i < input.length) status = input[i].toLowerCase() === char.toLowerCase() ? 'correct' : 'incorrect';
                         // Mostrar cursor en el siguiente
                         return <Letter key={i} char={char} status={status} isActive={i === input.length} />;
                     })}
                 </div>
 
-                <VirtualKeyboard activeKey={currentChar} />
+                <VirtualKeyboard activeKey={currentChar} t={t} />
             </div>
         );
     };
@@ -559,8 +571,8 @@ export default function AstroTypePage() {
                     style={{
                         left: `${item.x}%`,
                         top: `${item.y}%`,
-                        borderColor: arcadeMode === 'words' && arcadeInput && item.text.startsWith(arcadeInput) ? '#fbbf24' : undefined,
-                        boxShadow: arcadeMode === 'words' && arcadeInput && item.text.startsWith(arcadeInput) ? '0 0 15px rgba(251, 191, 36, 0.4)' : undefined
+                        borderColor: arcadeMode === 'words' && arcadeInput && item.text.toLowerCase().startsWith(arcadeInput.toLowerCase()) ? '#fbbf24' : undefined,
+                        boxShadow: arcadeMode === 'words' && arcadeInput && item.text.toLowerCase().startsWith(arcadeInput.toLowerCase()) ? '0 0 15px rgba(251, 191, 36, 0.4)' : undefined
                     }}
                 >
                     {item.text}
@@ -592,8 +604,8 @@ export default function AstroTypePage() {
                         <ShieldAlert size={100} className="text-red-500 mb-6 drop-shadow-[0_0_15px_rgba(239,68,68,0.5)]" />
                         <Flame size={40} className="text-yellow-500 absolute -bottom-2 -right-2 animate-bounce" />
                     </div>
-                    <h2 className="text-5xl font-black text-white mb-2 tracking-tight">¡NAVE DESTRUIDA!</h2>
-                    <p className="text-slate-400 text-xl mb-8">Puntuación Final: <span className="text-yellow-400 font-bold text-3xl ml-2">{score}</span></p>
+                    <h2 className="text-5xl font-black text-white mb-2 tracking-tight">{t('shipDestroyed')}</h2>
+                    <p className="text-slate-400 text-xl mb-8">{t('finalScore')} <span className="text-yellow-400 font-bold text-3xl ml-2">{score}</span></p>
                 </>
             ) : (
                 // Lesson Result
@@ -608,28 +620,28 @@ export default function AstroTypePage() {
                     }
 
                     <h2 className="text-5xl font-black text-white mb-2 tracking-tight">
-                        {lessonResult === 'won' ? '¡MISIÓN CUMPLIDA!' : 'MISIÓN FALLIDA'}
+                        {lessonResult === 'won' ? t('missionAccomplished') : t('missionFailed')}
                     </h2>
 
                     <div className="grid grid-cols-2 gap-4 mt-6 mb-4 w-full max-w-sm">
                         <div className="bg-slate-800 p-4 rounded-2xl border border-slate-700">
-                            <div className="text-slate-500 text-xs font-bold uppercase mb-1">Velocidad</div>
+                            <div className="text-slate-500 text-xs font-bold uppercase mb-1">{t('speed')}</div>
                             <div className="text-3xl font-bold text-white">{wpm} <span className="text-sm text-slate-400">WPM</span></div>
-                            <div className="text-xs text-yellow-500 mt-1 font-mono">Media: {careerStats.avgWpm}</div>
+                            <div className="text-xs text-yellow-500 mt-1 font-mono">{t('avg')} {careerStats.avgWpm}</div>
                         </div>
                         <div className="bg-slate-800 p-4 rounded-2xl border border-slate-700">
-                            <div className="text-slate-500 text-xs font-bold uppercase mb-1">Precisión</div>
+                            <div className="text-slate-500 text-xs font-bold uppercase mb-1">{t('accuracy')}</div>
                             <div className="text-3xl font-bold text-white">{accuracy}%</div>
-                            <div className="text-xs text-yellow-500 mt-1 font-mono">Media: {careerStats.avgAcc}%</div>
+                            <div className="text-xs text-yellow-500 mt-1 font-mono">{t('avg')} {careerStats.avgAcc}%</div>
                         </div>
                     </div>
 
                     <div className="text-slate-500 text-sm mb-8">
-                        Partidas Totales: <span className="text-slate-300 font-bold">{careerStats.gamesPlayed}</span>
+                        {t('totalGames')} <span className="text-slate-300 font-bold">{careerStats.gamesPlayed}</span>
                     </div>
 
                     <div className="bg-slate-800 p-4 rounded-2xl border border-slate-700 mb-8 w-full max-w-sm">
-                        <div className="text-slate-500 text-xs font-bold uppercase mb-1">XP Ganada</div>
+                        <div className="text-slate-500 text-xs font-bold uppercase mb-1">{t('xpEarned')}</div>
                         <div className="text-3xl font-bold text-yellow-400">+{lessonResult === 'won' ? 50 : 0}</div>
                     </div>
                 </>
@@ -639,7 +651,7 @@ export default function AstroTypePage() {
                 onClick={() => { setScore(0); setView('menu'); }}
                 className="bg-cyan-600 hover:bg-cyan-500 text-white py-4 px-10 rounded-2xl font-bold transition-all shadow-lg hover:shadow-cyan-500/25 hover:-translate-y-1 active:scale-95 flex items-center gap-2"
             >
-                <RotateCcw size={20} /> Volver a la Base
+                <RotateCcw size={20} /> {t('backToBase')}
             </button>
         </div>
     );
@@ -661,7 +673,7 @@ export default function AstroTypePage() {
                             <div className="p-2 rounded-lg bg-slate-800 text-slate-400 group-hover:bg-slate-700 transition-colors">
                                 <RotateCcw size={20} className="transform rotate-180" />
                             </div>
-                            <span className="font-bold text-slate-400 group-hover:text-white transition-colors hidden md:block">Volver</span>
+                            <span className="font-bold text-slate-400 group-hover:text-white transition-colors hidden md:block">{t('back')}</span>
                         </div>
                     </Link>
                     <div className="flex items-center gap-2">
@@ -671,7 +683,7 @@ export default function AstroTypePage() {
                         <span className="font-bold text-white tracking-wider hidden md:block">{APP_TITLE}</span>
                     </div>
                     <div className="flex items-center gap-4 bg-slate-800/80 rounded-full px-5 py-2 border border-slate-700">
-                        <span className="text-xs text-slate-400 uppercase mr-2 font-bold tracking-widest hidden sm:inline">Piloto</span>
+                        <span className="text-xs text-slate-400 uppercase mr-2 font-bold tracking-widest hidden sm:inline">{t('pilot')}</span>
                         <span className="text-yellow-400 font-bold flex items-center gap-2 text-lg filter drop-shadow-sm"><Star size={16} fill="currentColor" /> {xp}</span>
                     </div>
                 </nav>

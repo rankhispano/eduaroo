@@ -45,6 +45,8 @@
         }
     },
     "GalaxyMathFuelPage": {
+        "meta_title": "Galaxy Math Fuel - Eduaroo",
+        "meta_description": "Entrena tus habilidades de matemáticas y cálculo mental en el espacio.",
         "title": "Combustible Galáctico",
         "description": "¡Resuelve operaciones matemáticas para llenar el combustible de tu cohete!",
         "instructionsTitle": "Instrucciones",
@@ -59,6 +61,43 @@
         "bestScore": "Mejor Puntuación",
         "playAgain": "Jugar de Nuevo",
         "back": "Volver"
+    },
+    "GalaxyMathFuel": {
+        "title": "GALAXY MATH",
+        "subtitle": "Entrena tu cálculo espacial",
+        "currentMission": "Misión Actual",
+        "mixedMode": "Mezcla (Tablas 1-10)",
+        "tableMode": "Tabla del {n}",
+        "record": "Récord",
+        "bestScore": "Mejor Puntuación",
+        "launch": "DESPEGAR",
+        "difficulties": {
+            "EASY": {
+                "label": "Cadete",
+                "desc": "Velocidad baja + Ayudas"
+            },
+            "MEDIUM": {
+                "label": "Piloto",
+                "desc": "Velocidad media"
+            },
+            "HARD": {
+                "label": "Comandante",
+                "desc": "Velocidad alta"
+            }
+        },
+        "feedback": {
+            "fuelEscaped": "¡Se escapó el combustible!",
+            "good": "¡Bien!",
+            "careful": "¡Cuidado! Te quedan {lives} vidas"
+        },
+        "gameOver": {
+            "title": "Misión Terminada",
+            "desc": "¡Te quedaste sin combustible!",
+            "finalScore": "Puntaje Final",
+            "retry": "Reintentar",
+            "menu": "Volver al Menú"
+        },
+        "points": "Puntos"
     },
     "GamesPage": {
         "title": "Juegos Educativos",
@@ -87,10 +126,286 @@
         "syllableQuestTitle": "Aventura de Sílabas",
         "syllableQuestTag": "Lengua • Sílabas",
         "syllableQuestDesc": "¡Conviértete en un maestro de la palabra! Usa tu habilidad para cortar las palabras justo por donde se separan las sílabas.",
+        "geoMindsTitle": "GeoMinds",
+        "geoMindsTag": "Lógica • Tangram",
+        "geoMindsDesc": "Resuelve rompecabezas geométricos y entrena tu mente espacial con el Tangram clásico.",
+        "tictacTitle": "TicTac Maestro",
+        "tictacTag": "Matemáticas • Hora",
+        "tictacDesc": "¡Conviértete en un maestro del tiempo! Mueve las agujas del reloj y aprende a leer la hora.",
+        "wordSearchTitle": "Super Sopa de Letras",
+        "wordSearchTag": "Lengua • Vocabulario",
+        "wordSearchDesc": "¡Elige un tema y encuentra las palabras ocultas!",
         "astroTypeTitle": "AstroType: Odisea Galáctica",
         "astroTypeTag": "Mecanografía • Arcade",
         "astroTypeDesc": "Mejora tu velocidad de escritura defendiendo la galaxia de meteoritos y palabras invasoras.",
-        "playNow": "Jugar ahora"
+        "playNow": "Jugar ahora",
+        "syllableQuestMessages": {
+            "meta_title": "Syllable Quest - Aprende a Leer",
+            "meta_description": "¡Únete a la búsqueda! Separa palabras en sílabas y derrota monstruos en este juego de lectoescritura.",
+            "check": "COMPROBAR",
+            "correct": "¡Correcto!",
+            "incorrect": "¡Ups!",
+            "subtitle": "La Aventura de las Sílabas",
+            "gameOver": "¡Juego Terminado!",
+            "finalScore": "Puntuación Final",
+            "playAgain": "Jugar Otra Vez",
+            "exit": "Salir",
+            "startGame": "JUGAR"
+        },
+        "geoMindsMessages": {
+            "meta_title": "GeoMinds - Puzzle de Formas Geométricas",
+            "meta_description": "¡Encaja las formas geométricas en el área objetivo! Un divertido juego de razonamiento espacial.",
+            "levelNames": {
+                "boat": "Barco",
+                "sail": "Vela",
+                "rocket": "Cohete",
+                "chest": "Cofre",
+                "chair": "Silla",
+                "house": "Casa",
+                "pyramid": "Pirámide",
+                "apple": "Manzana",
+                "duck": "Pato",
+                "triangle": "Triángulo",
+                "tv": "TV"
+            },
+            "level": "Nivel",
+            "reset": "Reiniciar",
+            "nextLevel": "Siguiente Nivel",
+            "congrats": "¡Felicidades!",
+            "completed": "¡Has completado el tangram!",
+            "gameCompleted": "¡Juego Completado!",
+            "allLevels": "¡Has completado todos los niveles!",
+            "backToMenu": "Volver al Menú",
+            "hideHints": "Ocultar Ayuda",
+            "showHints": "Ver Pistas",
+            "levelCompleted": "¡Nivel Completado!"
+        },
+        "wordSearchMessages": {
+            "title": "SÚPER SOPA DE LETRAS",
+            "meta_title": "Supa de Letras - Juego de Vocabulario",
+            "meta_description": "Encuentra las palabras ocultas en esta divertida sopa de letras educativa. ¡Temas de Animales, Comida, Escuela y más!",
+            "subtitle": "¡Elige un tema y busca las palabras ocultas!",
+            "back": "Volver",
+            "score": "PUNTOS",
+            "progress": "PROGRESO",
+            "wordsToFind": "Palabras a encontrar",
+            "levelExplorer": "Nivel: Explorador",
+            "fantastic": "¡FANTÁSTICO!",
+            "categoryCompleted": "Has completado la categoría",
+            "scoreLabel": "Puntuación",
+            "time": "Tiempo",
+            "genial": "Genial",
+            "playAgainContext": "Jugar otra vez este tema",
+            "backToMenu": "Volver al Menú Principal",
+            "categories": {
+                "animals": "Animales",
+                "food": "Comida",
+                "school": "Escuela",
+                "tech": "Tecnología",
+                "colors": "Colores",
+                "sports": "Deportes"
+            }
+        },
+        "tictacMaestroMessages": {
+            "title": "TicTac Maestro",
+            "meta_title": "TicTac Maestro - Aprende la Hora",
+            "meta_description": "¡Domina el reloj! Practica poniendo la hora en un reloj analógico basándote en la hora digital. Divertido para todas las edades.",
+            "instructionsTitle": "Instrucciones",
+            "instructions": "¡Conviértete en un maestro del tiempo!<br/><br/>Haz clic y arrastra las manecillas del reloj para poner la misma hora que ves en la pantalla digital.",
+            "start": "COMIENZO",
+            "question": "Pregunta",
+            "setHandsTo": "Mueve las manecillas a:",
+            "scoreLabel": "Puntuación:",
+            "check": "COMPROBAR",
+            "excellent": "¡INCREÍBLE! ¡Eres un Maestro del Tiempo!",
+            "good": "¡Muy bien! Casi perfecto.",
+            "fair": "Buen intento. Fíjate bien en la aguja pequeña.",
+            "needsPractice": "¡Sigue practicando! Observa los números.",
+            "pointsEarned": "¡Has ganado +{points} puntos!",
+            "nextLevel": "SIGUIENTE NIVEL",
+            "congrats": "¡Felicidades!",
+            "completed": "Completaste el entrenamiento.",
+            "playAgain": "Volver a Jugar"
+        },
+        "calculateTargetMessages": {
+            "title": "Calculate Target",
+            "meta_title": "Calcula el Objetivo - Puzzle Matemático",
+            "meta_description": "¡Desafía tus habilidades matemáticas! Combina números para alcanzar el valor objetivo.",
+            "level": "Nivel",
+            "target": "Objetivo",
+            "great": "¡Genial!",
+            "levelCompleted": "¡Nivel completado!",
+            "next": "Siguiente",
+            "restart": "Reiniciar juego"
+        },
+        "cyberSegmentsMessages": {
+            "title": "Cyber Segments",
+            "meta_title": "Cyber Segments - Reconocimiento de Patrones",
+            "meta_description": "¡Descifra el código digital! Reconoce y forma números de 7 segmentos.",
+            "correct": "¡Correcto! ¡Muy bien!",
+            "incorrect": "Ups, no coincide. ¡Revisa el patrón!",
+            "hideLabels": "Ocultar Etiquetas",
+            "showLabels": "Mostrar Etiquetas",
+            "target": "Objetivo: Formar el número",
+            "digitalInputs": "ENTRADAS DIGITALES",
+            "systemActivated": "¡SISTEMA ACTIVADO!",
+            "verifyCode": "VERIFICAR CÓDIGO"
+        },
+        "bitBloxMessages": {
+            "title": "BitBlox",
+            "meta_title": "BitBlox - Arte Binario",
+            "meta_description": "¡Pinta con binario! Convierte 0s y 1s en hermosos dibujos de pixel art.",
+            "level": "Nivel",
+            "binaryCode": "Código Binario",
+            "restart": "Reiniciar",
+            "great": "¡Genial!",
+            "drawingCompleted": "¡Has completado el dibujo!",
+            "nextLevel": "Siguiente Nivel",
+            "gameCompleted": "¡Juego Completado! 🎉",
+            "viewDrawing": "Ver dibujo",
+            "levelsTitle": "Niveles",
+            "levelNames": {
+                "l1": "Corazón",
+                "l2": "Fantasmita",
+                "l3": "Espada",
+                "l4": "Carita Feliz",
+                "l5": "Taza de Café",
+                "l6": "Creeper",
+                "l7": "Barquito",
+                "l8": "Árbol",
+                "l9": "Pato",
+                "l10": "Casita",
+                "l11": "Nota Musical",
+                "l12": "Alien",
+                "l13": "Gafas de Sol",
+                "l14": "Llave",
+                "l15": "Diamante",
+                "l16": "Flecha",
+                "l17": "Paraguas",
+                "l18": "Regalo",
+                "l19": "Corona",
+                "l20": "Robot",
+                "l21": "Flor"
+            }
+        },
+        "astroTypeMessages": {
+            "title": "Astro Type",
+            "meta_title": "Astro Type - Aventura Galáctica de Mecanografía",
+            "meta_description": "¡Destruye asteroides con tu teclado! Aprende mecanografía en una divertida aventura espacial.",
+            "subtitle": "ODISEA GALÁCTICA",
+            "space": "ESPACIO",
+            "academyMissions": "Misiones de Academia",
+            "accessGranted": "¡Acceso total concedido! Todas las misiones desbloqueadas.",
+            "arcadeZone": "Zona Arcade",
+            "meteorShower": "Lluvia de Meteoritos",
+            "letters": "Letras",
+            "words": "Palabras",
+            "planetaryDefense": "Defensa Planetaria",
+            "survivalMode": "Modo supervivencia infinito. ¡Acelera tus dedos!",
+            "agilityRecommendation": "¡Recomendación para ganar agilidad!",
+            "handsPositionAlt": "Posición correcta de las manos",
+            "fingerPlacement": "Coloca tus dedos índices en las teclas <k1>F</k1> y <k2>J</k2> (siente los relieves) para alcanzar todas las teclas más rápido.",
+            "abortMission": "ABORTAR MISIÓN",
+            "speed": "VELOCIDAD",
+            "accuracy": "PRECISIÓN",
+            "wpmTooltip": "WPM (Palabras Por Minuto) en mecanografía mide la velocidad de escritura, calculando cuántas palabras promedio (5 caracteres) se escriben por minuto sin errores.",
+            "shipDestroyed": "¡NAVE DESTRUIDA!",
+            "finalScore": "Puntuación Final:",
+            "missionAccomplished": "¡MISIÓN CUMPLIDA!",
+            "missionFailed": "MISIÓN FALLIDA",
+            "avg": "Media:",
+            "totalGames": "Partidas Totales:",
+            "xpEarned": "XP Ganada",
+            "backToBase": "Volver a la Base",
+            "back": "Volver",
+            "pilot": "Piloto",
+            "missions": {
+                "1": {
+                    "title": "Misión Índices",
+                    "desc": "Fuego y Júpiter (F, J)"
+                },
+                "2": {
+                    "title": "Expansión Lateral",
+                    "desc": "Dedos medios (D, K)"
+                },
+                "3": {
+                    "title": "Anillos de Saturno",
+                    "desc": "Anulares (S, L)"
+                },
+                "4": {
+                    "title": "Bordes Galácticos",
+                    "desc": "Meñiques (A, Ñ)"
+                },
+                "5": {
+                    "title": "Salto al Hiperespacio",
+                    "desc": "Fila Superior"
+                },
+                "6": {
+                    "title": "Aterrizaje Lunar",
+                    "desc": "Fila Inferior"
+                },
+                "7": {
+                    "title": "Capitán de Flota",
+                    "desc": "Mayúsculas"
+                },
+                "8": {
+                    "title": "Código Alienígena",
+                    "desc": "Números y Símbolos"
+                }
+            }
+        }
+    },
+    "FractionsWordProblems": {
+        "meta_title": "Problemas de Fracciones - Matemáticas 4º Grado",
+        "meta_description": "Practica la resolución de problemas con fracciones. Escenarios del mundo real para cuarto grado.",
+        "back": "Volver a Fracciones",
+        "title": "Problemas de Fracciones",
+        "new_problem": "Nuevo Problema",
+        "typeA": {
+            "statement": "Hay algunos elementos. <val1></val1> son de un tipo y <val2></val2> son de otro. ¿Cuántos hay en total?",
+            "hint": "Suma las dos fracciones."
+        },
+        "typeB": {
+            "statement": "ienes <val1></val1> de un grupo. Quitas <val2></val2>. ¿Cuánto queda?",
+            "hint": "Resta la segunda fracción a la primera."
+        },
+        "typeC": {
+            "statement": "Se han leído <val1></val1> de un libro de {total} páginas. ¿Cuántas páginas son?",
+            "hint": "Divide {total} entre {den} y multiplica por {num}."
+        },
+        "typeD": {
+            "statement": "Tengo {qty} paquetes de <unit></unit> de {name}. ¿Cuántos {totalName} tengo?",
+            "hint": "Calcula: {sumString}"
+        },
+        "typeE": {
+            "statement": "Un grupo tiene {total} canicas. <val1></val1> son azules. ¿Cuántas NO son azules?",
+            "hint": "Calcula las canicas azules y réstalas del {total}."
+        },
+        "typeF": {
+            "statement": "Un globo sube {ascend} m. Luego baja <val1></val1> de la altura. ¿A qué altura está?",
+            "hint": "Calcula <val1></val1> de {ascend} y réstalo."
+        },
+        "typeG": {
+            "statement": "Después de gastar <val1></val1> de mi dinero, me quedan {remainder}. ¿Cuánto tenía?",
+            "hint": "{remainder} es la parte restante. Divide {remainder} entre {diffNum} y multiplica por {den}."
+        },
+        "data_label": "DATOS",
+        "data_placeholder": "Total: ...\nFracción: ...",
+        "operation_label": "OPERACIÓN",
+        "operation_placeholder": "Total / Denom = Parte\nParte * Num = Resultado",
+        "solution_label": "SOLUCIÓN",
+        "solution_help": "Introduce el resultado.",
+        "units": {
+            "pages": "páginas",
+            "kilo": "kilo",
+            "kilos": "kilos",
+            "litro": "litro",
+            "litros": "litros"
+        },
+        "check": "Comprobar",
+        "warning_body": "Completa todos los campos antes de comprobar.",
+        "feedback_correct": "¡Correcto!",
+        "feedback_incorrect": "Inténtalo de nuevo."
     },
     "HomePage": {
         "title": "Da un salto en el aprendizaje",
@@ -2274,13 +2589,13 @@
         "description": "Mejora tu lectura, escritura y gramática."
     },
     "LanguageGrade4": {
-        "title": "4º de Primaria",
-        "subtitle": "Lengua Castellana para cuarto de primaria",
-        "texts_words_title": "Comunicación y Gramática",
-        "texts_words_description": "Tipos de texto, prefijos, sufijos y gramática.",
-        "texts_words": {
-            "title": "Repaso de Lengua",
-            "subtitle": "Unidad 4: Textos y Palabras",
+        "title": "Lengua 4º primaria",
+        "subtitle": "Ejercicios y lecciones para cuarto grado",
+        "communication_grammar_title": "Comunicación y Gramática",
+        "communication_grammar_description": "La comunicación, el lenguaje y las clases de palabras.",
+        "communication_grammar": {
+            "title": "Comunicación y Gramática",
+            "subtitle": "Unidad 4: Comunicación y Gramática",
             "reset": "Reiniciar",
             "your_progress": "Tu Progreso",
             "ex1_title": "¿Diario o Carta? Lee y clasifica.",
@@ -2335,6 +2650,15 @@
             "this_f": "Esta",
             "that_f": "Esa",
             "that_far_f": "Aquella",
+            "gender": "Género",
+            "masculine": "Masculino",
+            "feminine": "Femenino",
+            "neutral": "Neutro",
+            "distance": "Distancia",
+            "near": "Cerca",
+            "middle": "Media",
+            "far": "Lejos",
+            "analyze_demonstrative": "Analiza el demostrativo",
             "footer_note": "Ficha de repaso generada para 4º de Primaria"
         }
     }

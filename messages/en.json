@@ -45,6 +45,8 @@
         }
     },
     "GalaxyMathFuelPage": {
+        "meta_title": "Galaxy Math Fuel - Quick Math Game",
+        "meta_description": "Fuel your rocket with math! Solve problems quickly to keep flying.",
         "title": "Galaxy Math Fuel",
         "description": "Solve math problems to fuel your rocket!",
         "instructionsTitle": "Instructions",
@@ -59,6 +61,43 @@
         "bestScore": "Best Score",
         "playAgain": "Play Again",
         "back": "Back"
+    },
+    "GalaxyMathFuel": {
+        "title": "GALAXY MATH",
+        "subtitle": "Train your space calculation",
+        "currentMission": "Current Mission",
+        "mixedMode": "Mixed (Tables 1-10)",
+        "tableMode": "Table of {n}",
+        "record": "Record",
+        "bestScore": "Best Score",
+        "launch": "LAUNCH",
+        "difficulties": {
+            "EASY": {
+                "label": "Cadet",
+                "desc": "Low speed + Hints"
+            },
+            "MEDIUM": {
+                "label": "Pilot",
+                "desc": "Medium speed"
+            },
+            "HARD": {
+                "label": "Commander",
+                "desc": "High speed"
+            }
+        },
+        "feedback": {
+            "fuelEscaped": "Fuel escaped!",
+            "good": "Good!",
+            "careful": "Careful! {lives} lives left"
+        },
+        "gameOver": {
+            "title": "Mission Over",
+            "desc": "Out of fuel!",
+            "finalScore": "Final Score",
+            "retry": "Retry",
+            "menu": "Back to Menu"
+        },
+        "points": "Points"
     },
     "GamesPage": {
         "title": "Educational Games",
@@ -86,11 +125,288 @@
         "calculateTargetDesc": "Combine numbers and operators to reach the exact target with the fewest moves.",
         "syllableQuestTitle": "Syllable Quest",
         "syllableQuestTag": "Language • Syllables",
-        "syllableQuestDesc": "Learn to separate syllables in 5 different languages!",
+        "syllableQuestDesc": "Combine syllables, form words, and defeat monsters in this epic adventure.",
+        "geoMindsTitle": "GeoMinds",
+        "geoMindsTag": "Logic • Tangram",
+        "geoMindsDesc": "Solve geometric puzzles and train your spatial mind with the classic Tangram.",
+        "tictacTitle": "TicTac Maestro",
+        "tictacTag": "Math • Time",
+        "tictacDesc": "Become a master of time! Move the clock hands and learn to read the time.",
+        "wordSearchTitle": "Super Word Search",
+        "wordSearchTag": "Language • Vocabulary",
+        "wordSearchDesc": "Choose a topic and find the hidden words!",
         "astroTypeTitle": "AstroType: Galactic Odyssey",
         "astroTypeTag": "Typing • Arcade",
         "astroTypeDesc": "Improve your typing speed by defending the galaxy from meteorites and invading words.",
-        "playNow": "Play Now"
+        "playNow": "Play Now",
+        "syllableQuestMessages": {
+            "meta_title": "Syllable Quest - Learn to Read",
+            "meta_description": "Join the quest! Split words into syllables and defeat monsters in this literacy game.",
+            "check": "CHECK",
+            "correct": "Great!",
+            "incorrect": "Oops!",
+            "subtitle": "The Syllable Adventure",
+            "gameOver": "Game Over!",
+            "finalScore": "Final Score",
+            "playAgain": "Play Again",
+            "exit": "Exit",
+            "startGame": "PLAY"
+        },
+        "geoMindsMessages": {
+            "meta_title": "GeoMinds - Geometric Shapes Puzzle",
+            "meta_description": "Fit the geometric shapes into the target area! A fun spatial reasoning game.",
+            "levelNames": {
+                "boat": "Boat",
+                "sail": "Sail",
+                "rocket": "Rocket",
+                "chest": "Chest",
+                "chair": "Chair",
+                "house": "House",
+                "pyramid": "Pyramid",
+                "apple": "Apple",
+                "duck": "Duck",
+                "triangle": "Triangle",
+                "tv": "TV"
+            },
+            "level": "Level",
+            "reset": "Reset",
+            "nextLevel": "Next Level",
+            "congrats": "Congratulations!",
+            "completed": "Tangram completed!",
+            "gameCompleted": "Game Completed!",
+            "allLevels": "You have completed all levels!",
+            "backToMenu": "Back to Menu",
+            "hideHints": "Hide Hints",
+            "showHints": "Show Hints",
+            "levelCompleted": "Level Completed!"
+        },
+        "wordSearchMessages": {
+            "title": "SUPER WORD SEARCH",
+            "meta_title": "Super Word Search Game - Learn Vocabulary",
+            "meta_description": "Find hidden words in this fun educational word search game. Topics include Animals, Food, School, and more!",
+            "subtitle": "Choose a topic and find the hidden words!",
+            "back": "Back",
+            "score": "SCORE",
+            "progress": "PROGRESS",
+            "wordsToFind": "Words to find",
+            "levelExplorer": "Level: Explorer",
+            "fantastic": "FANTASTIC!",
+            "categoryCompleted": "You completed the category",
+            "scoreLabel": "Score",
+            "time": "Time",
+            "genial": "Great",
+            "playAgainContext": "Play this topic again",
+            "backToMenu": "Back to Main Menu",
+            "categories": {
+                "animals": "Animals",
+                "food": "Food",
+                "school": "School",
+                "tech": "Technology",
+                "colors": "Colors",
+                "sports": "Sports"
+            }
+        },
+        "tictacMaestroMessages": {
+            "title": "TicTac Maestro",
+            "meta_title": "TicTac Maestro - Learn to Tell Time",
+            "meta_description": "Master the clock! Practice setting time on an analog clock based on digital time. Fun for all ages.",
+            "instructionsTitle": "Instructions",
+            "subtitle": "Master the Time!",
+            "instructions": "Become a master of time!<br/><br/>Click and drag the clock hands to set the same time you see on the digital display.",
+            "start": "START",
+            "question": "Question",
+            "setHandsTo": "Set hands to:",
+            "scoreLabel": "Score:",
+            "check": "CHECK",
+            "excellent": "INCREDIBLE! You are a Time Master!",
+            "good": "Very good! Almost perfect.",
+            "fair": "Good try. Watch the small hand closely.",
+            "needsPractice": "Keep practicing! Watch the numbers.",
+            "pointsEarned": "You earned +{points} points!",
+            "nextLevel": "NEXT LEVEL",
+            "congrats": "Congratulations!",
+            "completed": "Training completed.",
+            "playAgain": "Play Again"
+        },
+        "calculateTargetMessages": {
+            "title": "Calculate Target",
+            "meta_title": "Calculate Target - Math Puzzle Game",
+            "meta_description": "Challenge your math skills! Combine numbers to reach the target value.",
+            "level": "Level",
+            "target": "Target",
+            "great": "Great!",
+            "levelCompleted": "Level completed!",
+            "next": "Next",
+            "restart": "Restart game"
+        },
+        "cyberSegmentsMessages": {
+            "title": "Cyber Segments",
+            "meta_title": "Cyber Segments - Digital Pattern Recognition",
+            "meta_description": "Crack the digital code! Recognize and form 7-segment display numbers.",
+            "correct": "Correct! Well done!",
+            "incorrect": "Oops, incorrect. Check the pattern!",
+            "hideLabels": "Hide Labels",
+            "showLabels": "Show Labels",
+            "target": "Target: Form number",
+            "digitalInputs": "DIGITAL INPUTS",
+            "systemActivated": "SYSTEM ACTIVATED!",
+            "verifyCode": "VERIFY CODE"
+        },
+        "bitBloxMessages": {
+            "title": "BitBlox",
+            "meta_title": "BitBlox - Binary Pixel Art Game",
+            "meta_description": "Paint with binary! Convert 0s and 1s into beautiful pixel art images.",
+            "level": "Level",
+            "binaryCode": "Binary Code",
+            "restart": "Restart",
+            "great": "Great!",
+            "drawingCompleted": "You completed the drawing!",
+            "nextLevel": "Next Level",
+            "gameCompleted": "Game Completed! 🎉",
+            "viewDrawing": "View drawing",
+            "levelsTitle": "Levels",
+            "levelNames": {
+                "l1": "Heart",
+                "l2": "Ghost",
+                "l3": "Sword",
+                "l4": "Smiley Face",
+                "l5": "Coffee Cup",
+                "l6": "Creeper",
+                "l7": "Boat",
+                "l8": "Tree",
+                "l9": "Duck",
+                "l10": "House",
+                "l11": "Music Note",
+                "l12": "Alien",
+                "l13": "Sunglasses",
+                "l14": "Key",
+                "l15": "Diamond",
+                "l16": "Arrow",
+                "l17": "Umbrella",
+                "l18": "Gift",
+                "l19": "Crown",
+                "l20": "Robot",
+                "l21": "Flower"
+            }
+        },
+        "astroTypeMessages": {
+            "title": "Astro Type",
+            "meta_title": "Astro Type - Galactic Typing Adventure",
+            "meta_description": "Blast asteroids with your keyboard! Learn touch typing in a fun space adventure.",
+            "subtitle": "GALACTIC ODYSSEY",
+            "space": "SPACE",
+            "academyMissions": "Academy Missions",
+            "accessGranted": "Full access granted! All missions unlocked.",
+            "arcadeZone": "Arcade Zone",
+            "meteorShower": "Meteor Shower",
+            "letters": "Letters",
+            "words": "Words",
+            "planetaryDefense": "Planetary Defense",
+            "survivalMode": "Infinite survival mode. Speed up your fingers!",
+            "agilityRecommendation": "Agility Recommendation!",
+            "handsPositionAlt": "Correct hand placement",
+            "fingerPlacement": "Place your index fingers on keys <k1>F</k1> and <k2>J</k2> (feel the bumps) to reach all keys faster.",
+            "abortMission": "ABORT MISSION",
+            "speed": "SPEED",
+            "accuracy": "ACCURACY",
+            "wpmTooltip": "WPM (Words Per Minute) in typing measures typing speed by calculating how many average words (5 characters) are typed per minute without errors.",
+            "shipDestroyed": "SHIP DESTROYED!",
+            "finalScore": "Final Score:",
+            "missionAccomplished": "MISSION ACCOMPLISHED!",
+            "missionFailed": "MISSION FAILED",
+            "avg": "Avg:",
+            "totalGames": "Total Games:",
+            "xpEarned": "XP Earned",
+            "backToBase": "Back to Base",
+            "back": "Back",
+            "pilot": "Pilot",
+            "missions": {
+                "1": {
+                    "title": "Index Mission",
+                    "desc": "Fire and Jupiter (F, J)"
+                },
+                "2": {
+                    "title": "Lateral Expansion",
+                    "desc": "Middle fingers (D, K)"
+                },
+                "3": {
+                    "title": "Saturn Rings",
+                    "desc": "Ring fingers (S, L)"
+                },
+                "4": {
+                    "title": "Galactic Edges",
+                    "desc": "Pinky fingers (A, Ñ)"
+                },
+                "5": {
+                    "title": "Hyperspace Jump",
+                    "desc": "Top Row"
+                },
+                "6": {
+                    "title": "Lunar Landing",
+                    "desc": "Bottom Row"
+                },
+                "7": {
+                    "title": "Fleet Captain",
+                    "desc": "Capital Letters"
+                },
+                "8": {
+                    "title": "Alien Code",
+                    "desc": "Numbers and Symbols"
+                }
+            }
+        }
+    },
+    "FractionsWordProblems": {
+        "meta_title": "Fraction Word Problems - Grade 4 Math",
+        "meta_description": "Practice solving word problems with fractions. Real-world scenarios for 4th graders.",
+        "back": "Back to Fractions",
+        "title": "Fraction Word Problems",
+        "new_problem": "New Problem",
+        "typeA": {
+            "statement": "There are some items. <val1></val1> are one type and <val2></val2> are another. How many are there in total?",
+            "hint": "Add the two fractions."
+        },
+        "typeB": {
+            "statement": "You have <val1></val1> of a group. You remove <val2></val2>. How much is left?",
+            "hint": "Subtract the second fraction from the first."
+        },
+        "typeC": {
+            "statement": "<val1></val1> of a book with {total} pages are read. How many pages is that?",
+            "hint": "Divide {total} by {den} and multiply by {num}."
+        },
+        "typeD": {
+            "statement": "I have {qty} packs of <unit></unit> {name}. How many {totalName} do I have?",
+            "hint": "Calculate: {sumString}"
+        },
+        "typeE": {
+            "statement": "A group has {total} marbles. <val1></val1> are blue. How many are WRONG COLOR?",
+            "hint": "Find the number of blue marbles and subtract from {total}."
+        },
+        "typeF": {
+            "statement": "A balloon rises {ascend} m. Then descends <val1></val1> of the height. How high is it?",
+            "hint": "Calculate <val1></val1> of {ascend} and subtract it."
+        },
+        "typeG": {
+            "statement": "After spending <val1></val1> of my money, I have {remainder} left. How much did I have?",
+            "hint": "{remainder} is the remaining part. Divide {remainder} by {diffNum} and multiply by {den}."
+        },
+        "data_label": "DATA",
+        "data_placeholder": "Total: ...\nFraction: ...",
+        "operation_label": "OPERATION",
+        "operation_placeholder": "Total / Denom = Part\nPart * Num = Result",
+        "solution_label": "SOLUTION",
+        "solution_help": "Enter the result.",
+        "units": {
+            "pages": "pages",
+            "kilo": "kilo",
+            "kilos": "kilos",
+            "litro": "liter",
+            "litros": "liters"
+        },
+        "check": "Check",
+        "warning_body": "Complete all fields before checking.",
+        "feedback_correct": "Correct!",
+        "feedback_incorrect": "Try again."
     },
     "HomePage": {
         "title": "Learning that jumps with your kids",
@@ -2299,13 +2615,13 @@
         "description": "Improve your reading, writing and grammar."
     },
     "LanguageGrade4": {
-        "title": "4th Grade",
-        "subtitle": "Language Arts for fourth grade",
-        "texts_words_title": "Communication and Grammar",
-        "texts_words_description": "Text types, prefixes, suffixes and grammar.",
-        "texts_words": {
-            "title": "Language Review",
-            "subtitle": "Unit 4: Texts and Words",
+        "title": "Language 4th Grade",
+        "subtitle": "Exercises and lessons for fourth grade",
+        "communication_grammar_title": "Communication and Grammar",
+        "communication_grammar_description": "Communication, language and word classes.",
+        "communication_grammar": {
+            "title": "Communication and Grammar",
+            "subtitle": "Unit 4: Communication and Grammar",
             "reset": "Reset",
             "your_progress": "Your Progress",
             "ex1_title": "Diary or Letter? Read and classify.",
@@ -2360,6 +2676,15 @@
             "this_f": "This",
             "that_f": "That",
             "that_far_f": "That (far)",
+            "gender": "Gender",
+            "masculine": "Masculine",
+            "feminine": "Feminine",
+            "neutral": "Neutral",
+            "distance": "Distance",
+            "near": "Near",
+            "middle": "Middle",
+            "far": "Far",
+            "analyze_demonstrative": "Analyze the demonstrative",
             "footer_note": "Review sheet generated for 4th Grade"
         }
     }

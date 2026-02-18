@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import {
     Fuel,
@@ -58,6 +59,8 @@ export default function GalaxyMathFuel() {
     const [score, setScore] = useState(0);
     const [lives, setLives] = useState(3);
     const [highScores, setHighScores] = useState<Record<string, number>>({});
+
+    const t = useTranslations('GalaxyMathFuel');
 
     const [shipLane, setShipLane] = useState<0 | 1 | 2>(1);
     const [feedbackMessage, setFeedbackMessage] = useState<{
@@ -173,7 +176,7 @@ export default function GalaxyMathFuel() {
                 const msgText =
                     reason === 'wrong'
                         ? `${currentProblem.numA} x ${currentProblem.numB} = ${currentProblem.result}`
-                        : '¡Se escapó el combustible!';
+                        : t('feedback.fuelEscaped');
 
                 setFeedbackMessage({ text: msgText, type: reason === 'wrong' ? 'error' : 'missed' });
 
@@ -196,7 +199,7 @@ export default function GalaxyMathFuel() {
             if (obj.isCorrect) {
                 // ACIERTO
                 setScore(s => s + 10);
-                setFeedbackMessage({ text: '¡Bien!', type: 'success' });
+                setFeedbackMessage({ text: t('feedback.good'), type: 'success' });
                 speedMultiplierRef.current += 0.01;
 
                 setFallingObjects([]);
@@ -321,7 +324,7 @@ export default function GalaxyMathFuel() {
                     <button
                         onClick={returnToMenu}
                         className="absolute top-4 left-4 p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors z-50 pointer-events-auto"
-                        aria-label="Volver al menú"
+                        aria-label={t('gameOver.menu')}
                     >
                         <ChevronLeft size={24} />
                     </button>
@@ -350,7 +353,7 @@ export default function GalaxyMathFuel() {
 
                         <div>
                             <span className="text-[10px] text-slate-400 uppercase font-bold block text-right">
-                                Puntos
+                                {t('points')}
                             </span>
                             <span className="text-3xl font-mono font-bold text-green-400">{score}</span>
                         </div>
@@ -375,9 +378,8 @@ export default function GalaxyMathFuel() {
                     {feedbackMessage && (
                         <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-md animate-in fade-in duration-200">
                             <div
-                                className={`text-center px-4 transform scale-110 ${
-                                    feedbackMessage.type === 'success' ? 'text-green-400' : 'text-red-500'
-                                }`}
+                                className={`text-center px-4 transform scale-110 ${feedbackMessage.type === 'success' ? 'text-green-400' : 'text-red-500'
+                                    }`}
                             >
                                 {feedbackMessage.type !== 'success' && (
                                     <div className="text-6xl mb-4">💥</div>
@@ -387,7 +389,7 @@ export default function GalaxyMathFuel() {
                                 </h2>
                                 {feedbackMessage.type !== 'success' && lives > 0 && (
                                     <div className="text-white text-xl animate-pulse mt-4">
-                                        ¡Cuidado! Te quedan {lives} vidas
+                                        {t('feedback.careful', { lives })}
                                     </div>
                                 )}
                             </div>
@@ -402,11 +404,10 @@ export default function GalaxyMathFuel() {
                             style={{ left: `${LANES[obj.lane]}%`, top: `${obj.y}%` }}
                         >
                             <div
-                                className={`relative w-full h-full flex flex-col items-center justify-center ${
-                                    difficulty === 'EASY' && obj.isCorrect
-                                        ? 'drop-shadow-[0_0_20px_rgba(250,204,21,0.6)]'
-                                        : ''
-                                }`}
+                                className={`relative w-full h-full flex flex-col items-center justify-center ${difficulty === 'EASY' && obj.isCorrect
+                                    ? 'drop-shadow-[0_0_20px_rgba(250,204,21,0.6)]'
+                                    : ''
+                                    }`}
                             >
                                 {/* NÚMERO (Más grande) */}
                                 <div className="absolute z-20 top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-slate-900 rounded-full flex items-center justify-center border-2 border-white/20 shadow-xl">
@@ -447,14 +448,20 @@ export default function GalaxyMathFuel() {
 
                     {/* Controles Táctiles */}
                     <div className="absolute inset-0 flex z-40">
-                        <div
-                            className="w-1/2 h-full active:bg-blue-500/5 transition-colors"
-                            onPointerDown={moveLeft}
-                        ></div>
-                        <div
-                            className="w-1/2 h-full active:bg-blue-500/5 transition-colors"
-                            onPointerDown={moveRight}
-                        ></div>
+                        <div className="absolute inset-0 grid grid-cols-3 z-40">
+                            <div
+                                className="h-full active:bg-blue-500/5 transition-colors cursor-pointer"
+                                onPointerDown={() => setShipLane(0)}
+                            ></div>
+                            <div
+                                className="h-full active:bg-blue-500/5 transition-colors cursor-pointer"
+                                onPointerDown={() => setShipLane(1)}
+                            ></div>
+                            <div
+                                className="h-full active:bg-blue-500/5 transition-colors cursor-pointer"
+                                onPointerDown={() => setShipLane(2)}
+                            ></div>
+                        </div>
                     </div>
                 </div>
             )}
@@ -464,9 +471,9 @@ export default function GalaxyMathFuel() {
                 <div className="absolute inset-0 z-50 flex flex-col bg-slate-900/95 backdrop-blur-xl overflow-y-auto">
                     <div className="p-6 pb-2 text-center animate-in zoom-in duration-500 max-w-2xl mx-auto w-full">
                         <h1 className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 mb-2">
-                            GALAXY MATH
+                            {t('title')}
                         </h1>
-                        <p className="text-slate-400">Entrena tu cálculo espacial</p>
+                        <p className="text-slate-400">{t('subtitle')}</p>
                     </div>
 
                     <div className="flex-1 w-full max-w-xl mx-auto p-6 pt-2 flex flex-col gap-6">
@@ -483,12 +490,12 @@ export default function GalaxyMathFuel() {
                                     </div>
                                     <div>
                                         <div className="text-sm text-slate-400 font-bold uppercase tracking-wider">
-                                            Misión Actual
+                                            {t('currentMission')}
                                         </div>
                                         <div className="text-white font-bold text-lg">
                                             {selectedTable === 'MIXED'
-                                                ? 'Mezcla (Tablas 1-10)'
-                                                : `Tabla del ${selectedTable}`}
+                                                ? t('mixedMode')
+                                                : t('tableMode', { n: selectedTable })}
                                         </div>
                                     </div>
                                 </div>
@@ -505,15 +512,14 @@ export default function GalaxyMathFuel() {
                                     {/* Botón Mezcla */}
                                     <button
                                         onClick={() => setSelectedTable('MIXED')}
-                                        className={`w-full p-3 mb-4 rounded-xl font-bold text-lg transition-all flex items-center justify-between ${
-                                            selectedTable === 'MIXED'
-                                                ? 'bg-indigo-500 text-white shadow-lg shadow-indigo-500/30 ring-2 ring-indigo-400'
-                                                : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
-                                        }`}
+                                        className={`w-full p-3 mb-4 rounded-xl font-bold text-lg transition-all flex items-center justify-between ${selectedTable === 'MIXED'
+                                            ? 'bg-indigo-500 text-white shadow-lg shadow-indigo-500/30 ring-2 ring-indigo-400'
+                                            : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
+                                            }`}
                                     >
-                                        <span>Mezcla (1-10)</span>
+                                        <span>{t('mixedMode')}</span>
                                         <div className="text-xs bg-white/20 px-2 py-1 rounded">
-                                            Récord: {highScores['MIXED'] || 0}
+                                            {t('record')}: {highScores['MIXED'] || 0}
                                         </div>
                                     </button>
 
@@ -523,11 +529,10 @@ export default function GalaxyMathFuel() {
                                             <button
                                                 key={num}
                                                 onClick={() => setSelectedTable(num)}
-                                                className={`aspect-square rounded-lg font-bold text-lg flex flex-col items-center justify-center transition-all relative ${
-                                                    selectedTable === num
-                                                        ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/30 scale-110 z-10'
-                                                        : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
-                                                }`}
+                                                className={`aspect-square rounded-lg font-bold text-lg flex flex-col items-center justify-center transition-all relative ${selectedTable === num
+                                                    ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/30 scale-110 z-10'
+                                                    : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
+                                                    }`}
                                             >
                                                 {num}
                                                 {highScores[`T-${num}`] > 0 && (
@@ -538,7 +543,7 @@ export default function GalaxyMathFuel() {
                                     </div>
                                     {typeof selectedTable === 'number' && (
                                         <div className="mt-2 text-right text-xs text-yellow-400 font-mono">
-                                            Mejor Puntuación: {highScores[`T-${selectedTable}`] || 0}
+                                            {t('bestScore')}: {highScores[`T-${selectedTable}`] || 0}
                                         </div>
                                     )}
                                 </div>
@@ -548,24 +553,20 @@ export default function GalaxyMathFuel() {
                         {/* SECCIÓN 2: ELEGIR DIFICULTAD Y JUGAR */}
                         <div className="grid gap-3">
                             <div className="text-slate-300 font-bold uppercase text-sm tracking-wider mb-1 px-1">
-                                Despegar
+                                {t('launch')}
                             </div>
                             {(Object.keys(DIFFICULTY_CONFIG) as Difficulty[]).map(level => (
                                 <button
                                     key={level}
                                     onClick={() => startGame(level)}
-                                    className={`group relative p-4 rounded-xl border border-white/5 bg-slate-800 transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center gap-4 ${
-                                        level === 'EASY' ? 'hover:border-green-500/50' : ''
-                                    } ${level === 'MEDIUM' ? 'hover:border-yellow-500/50' : ''} ${
-                                        level === 'HARD' ? 'hover:border-red-500/50' : ''
-                                    }`}
+                                    className={`group relative p-4 rounded-xl border border-white/5 bg-slate-800 transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center gap-4 ${level === 'EASY' ? 'hover:border-green-500/50' : ''
+                                        } ${level === 'MEDIUM' ? 'hover:border-yellow-500/50' : ''} ${level === 'HARD' ? 'hover:border-red-500/50' : ''
+                                        }`}
                                 >
                                     <div
-                                        className={`p-3 rounded-full ${
-                                            level === 'EASY' ? 'bg-green-500/10 text-green-400' : ''
-                                        } ${level === 'MEDIUM' ? 'bg-yellow-500/10 text-yellow-400' : ''} ${
-                                            level === 'HARD' ? 'bg-red-500/10 text-red-400' : ''
-                                        }`}
+                                        className={`p-3 rounded-full ${level === 'EASY' ? 'bg-green-500/10 text-green-400' : ''
+                                            } ${level === 'MEDIUM' ? 'bg-yellow-500/10 text-yellow-400' : ''} ${level === 'HARD' ? 'bg-red-500/10 text-red-400' : ''
+                                            }`}
                                     >
                                         {level === 'EASY' ? (
                                             <Zap size={24} />
@@ -578,12 +579,10 @@ export default function GalaxyMathFuel() {
 
                                     <div className="text-left flex-1">
                                         <div className="text-lg font-bold text-white">
-                                            {DIFFICULTY_CONFIG[level].label}
+                                            {t(`difficulties.${level}.label`)}
                                         </div>
                                         <div className="text-xs text-slate-400">
-                                            {level === 'EASY' && 'Velocidad baja + Ayudas'}
-                                            {level === 'MEDIUM' && 'Velocidad media'}
-                                            {level === 'HARD' && 'Velocidad alta'}
+                                            {t(`difficulties.${level}.desc`)}
                                         </div>
                                     </div>
 
@@ -599,20 +598,20 @@ export default function GalaxyMathFuel() {
             {gameState === 'GAME_OVER' && (
                 <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-black/95 p-6 text-center animate-in fade-in">
                     <Trophy size={80} className="text-yellow-400 mb-6 animate-bounce" />
-                    <h2 className="text-4xl font-black text-white mb-2 uppercase">Misión Terminada</h2>
-                    <p className="text-slate-400 mb-6">¡Te quedaste sin combustible!</p>
+                    <h2 className="text-4xl font-black text-white mb-2 uppercase">{t('gameOver.title')}</h2>
+                    <p className="text-slate-400 mb-6">{t('gameOver.desc')}</p>
 
                     <div className="bg-slate-800 p-8 rounded-3xl border border-slate-700 my-4 w-full max-w-sm relative overflow-hidden">
                         <div className="absolute top-0 left-0 w-full bg-slate-700 py-1 text-xs font-bold text-slate-300 uppercase tracking-widest">
-                            {selectedTable === 'MIXED' ? 'Modo Mezcla' : `Tabla del ${selectedTable}`}
+                            {selectedTable === 'MIXED' ? t('mixedMode') : t('tableMode', { n: selectedTable })}
                         </div>
 
-                        <div className="text-slate-400 text-sm uppercase mb-1 mt-4">Puntaje Final</div>
+                        <div className="text-slate-400 text-sm uppercase mb-1 mt-4">{t('gameOver.finalScore')}</div>
                         <div className="text-6xl font-bold text-white mb-6">{score}</div>
 
                         <div className="flex items-center justify-center gap-2 text-slate-500 text-sm uppercase">
                             <Trophy size={14} className="text-yellow-500" />
-                            Récord:{' '}
+                            {t('record')}:{' '}
                             <span className="text-yellow-500 font-bold">{getCurrentHighScore()}</span>
                         </div>
                     </div>
@@ -622,13 +621,13 @@ export default function GalaxyMathFuel() {
                             onClick={() => startGame(difficulty)}
                             className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-full font-bold text-xl transition-all w-full shadow-lg shadow-blue-900/50"
                         >
-                            Reintentar
+                            {t('gameOver.retry')}
                         </button>
                         <button
                             onClick={returnToMenu}
                             className="text-slate-400 hover:text-white py-3 transition-colors text-sm uppercase font-bold tracking-widest"
                         >
-                            Volver al Menú
+                            {t('gameOver.menu')}
                         </button>
                     </div>
                 </div>

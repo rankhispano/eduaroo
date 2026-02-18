@@ -15,7 +15,7 @@ export default function GamesList() {
         {
             id: 'galaxy-math-fuel',
             category: 'math',
-            icon: <Rocket className="w-6 h-6" />,
+            icon: <Rocket className="w-20 h-20" />,
             titleKey: 'galaxyMathFuelTitle',
             tagKey: 'galaxyMathFuelTag',
             descKey: 'galaxyMathFuelDesc',
@@ -25,7 +25,7 @@ export default function GamesList() {
         {
             id: 'calculate-target',
             category: 'math',
-            icon: <div className="text-2xl font-mono leading-none">123</div>,
+            icon: <div>123</div>,
             titleKey: 'calculateTargetTitle',
             tagKey: 'calculateTargetTag',
             descKey: 'calculateTargetDesc',
@@ -35,7 +35,7 @@ export default function GamesList() {
         {
             id: 'cyber-segments',
             category: 'logic',
-            icon: <div className="text-2xl font-mono leading-none">8.</div>,
+            icon: <div>8.</div>,
             titleKey: 'cyberSegmentsTitle',
             tagKey: 'cyberSegmentsTag',
             descKey: 'cyberSegmentsDesc',
@@ -45,7 +45,7 @@ export default function GamesList() {
         {
             id: 'bitblox',
             category: 'logic',
-            icon: <div className="text-2xl font-mono leading-none">10</div>,
+            icon: <div>10</div>,
             titleKey: 'bitBloxTitle',
             tagKey: 'bitBloxTag',
             descKey: 'bitBloxDesc',
@@ -55,7 +55,7 @@ export default function GamesList() {
         {
             id: 'astro-type',
             category: 'language',
-            icon: <div className="text-2xl font-mono leading-none">🚀</div>,
+            icon: <div>🚀</div>,
             titleKey: 'astroTypeTitle',
             tagKey: 'astroTypeTag',
             descKey: 'astroTypeDesc',
@@ -65,13 +65,43 @@ export default function GamesList() {
         {
             id: 'syllable-quest',
             category: 'language',
-            icon: <div className="text-2xl font-mono leading-none">Abc</div>,
+            icon: <div>Abc</div>,
             titleKey: 'syllableQuestTitle',
             tagKey: 'syllableQuestTag',
             descKey: 'syllableQuestDesc',
             color: 'orange',
             gradient: 'from-orange-500/40'
-        }
+        },
+        {
+            id: 'geoMinds',
+            category: 'logic',
+            icon: <div>🧩</div>,
+            titleKey: 'geoMindsTitle',
+            tagKey: 'geoMindsTag',
+            descKey: 'geoMindsDesc',
+            color: 'teal',
+            gradient: 'from-teal-500/40'
+        },
+        {
+            id: 'tictac',
+            category: 'math',
+            icon: <div>⏰</div>,
+            titleKey: 'tictacTitle',
+            tagKey: 'tictacTag',
+            descKey: 'tictacDesc',
+            color: 'blue',
+            gradient: 'from-blue-500/40'
+        },
+        {
+            id: 'wordsearch',
+            category: 'language',
+            icon: <div>🔎</div>,
+            titleKey: 'wordSearchTitle',
+            tagKey: 'wordSearchTag',
+            descKey: 'wordSearchDesc',
+            color: 'indigo',
+            gradient: 'from-indigo-500/40'
+        },
     ];
 
     const filteredGames = selectedCategory === 'all'
@@ -111,7 +141,7 @@ export default function GamesList() {
                 {filteredGames.map((game) => (
                     <Link
                         key={game.id}
-                        href={`/games/${game.id}`}
+                        href={game.id === 'geoMinds' ? '/games/geominds' : `/games/${game.id}`}
                         className="group relative flex flex-col overflow-hidden rounded-3xl bg-white dark:bg-slate-900 shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-brand-blue/10 border border-gray-100 dark:border-slate-800"
                     >
                         {/* Image Header */}
@@ -144,7 +174,7 @@ export default function GamesList() {
 
                             <div className="mt-auto pt-4 flex items-center justify-between border-t border-gray-100 dark:border-slate-800">
                                 <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">Jugar ahora</span>
-                                <div className={`w-10 h-10 rounded-full bg-${game.color}-100 dark:bg-${game.color}-900/30 flex items-center justify-center text-${game.color}-600 dark:text-${game.color}-400 group-hover:bg-${game.color}-600 group-hover:text-white transition-all duration-300`}>
+                                <div className={`w-10 h-10 rounded-full bg-${game.color}-100 dark:bg-${game.color}-900/30 flex items-center justify-center text-${game.color}-600 dark:text-${game.color}-400 group-hover:bg-${game.color}-600 group-hover:text-black transition-all duration-300`}>
                                     <Gamepad2 size={20} />
                                 </div>
                             </div>

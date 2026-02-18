@@ -2,13 +2,13 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { Play, RotateCcw, ChevronRight, ChevronLeft, Check, Trophy, Volume2, VolumeX, Menu, X, Star } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 // --- DATA & CONFIGURATION ---
 
 const LEVELS = [
     {
         id: 1,
-        name: "Corazón",
         color: "bg-red-500",
         target: [
             "00000000",
@@ -23,7 +23,6 @@ const LEVELS = [
     },
     {
         id: 2,
-        name: "Fantasmita",
         color: "bg-purple-500",
         target: [
             "00111100",
@@ -38,7 +37,6 @@ const LEVELS = [
     },
     {
         id: 3,
-        name: "Espada",
         color: "bg-blue-500",
         target: [
             "00000001",
@@ -53,7 +51,6 @@ const LEVELS = [
     },
     {
         id: 4,
-        name: "Carita Feliz",
         color: "bg-yellow-400",
         target: [
             "00111100",
@@ -68,7 +65,6 @@ const LEVELS = [
     },
     {
         id: 5,
-        name: "Taza de Café",
         color: "bg-orange-500",
         target: [
             "00000000",
@@ -83,7 +79,6 @@ const LEVELS = [
     },
     {
         id: 6,
-        name: "Creeper",
         color: "bg-green-600",
         target: [
             "00000000",
@@ -98,7 +93,6 @@ const LEVELS = [
     },
     {
         id: 7,
-        name: "Barquito",
         color: "bg-sky-500",
         target: [
             "00000000",
@@ -113,7 +107,6 @@ const LEVELS = [
     },
     {
         id: 8,
-        name: "Árbol",
         color: "bg-emerald-600",
         target: [
             "00001000",
@@ -128,7 +121,6 @@ const LEVELS = [
     },
     {
         id: 9,
-        name: "Pato",
         color: "bg-yellow-500",
         target: [
             "00000000",
@@ -143,7 +135,6 @@ const LEVELS = [
     },
     {
         id: 10,
-        name: "Casita",
         color: "bg-indigo-500",
         target: [
             "00001000",
@@ -158,7 +149,6 @@ const LEVELS = [
     },
     {
         id: 11,
-        name: "Nota Musical",
         color: "bg-pink-500",
         target: [
             "00000100",
@@ -173,7 +163,6 @@ const LEVELS = [
     },
     {
         id: 12,
-        name: "Alien",
         color: "bg-lime-500",
         target: [
             "00111100",
@@ -188,7 +177,6 @@ const LEVELS = [
     },
     {
         id: 13,
-        name: "Gafas de Sol",
         color: "bg-teal-500",
         target: [
             "00000000",
@@ -203,7 +191,6 @@ const LEVELS = [
     },
     {
         id: 14,
-        name: "Llave",
         color: "bg-amber-500",
         target: [
             "00011000",
@@ -218,7 +205,6 @@ const LEVELS = [
     },
     {
         id: 15,
-        name: "Diamante",
         color: "bg-cyan-400",
         target: [
             "00001000",
@@ -233,7 +219,6 @@ const LEVELS = [
     },
     {
         id: 16,
-        name: "Flecha",
         color: "bg-red-600",
         target: [
             "00001000",
@@ -248,7 +233,6 @@ const LEVELS = [
     },
     {
         id: 17,
-        name: "Paraguas",
         color: "bg-violet-500",
         target: [
             "00000000",
@@ -263,7 +247,6 @@ const LEVELS = [
     },
     {
         id: 18,
-        name: "Regalo",
         color: "bg-fuchsia-500",
         target: [
             "00001000",
@@ -278,7 +261,6 @@ const LEVELS = [
     },
     {
         id: 19,
-        name: "Corona",
         color: "bg-yellow-400",
         target: [
             "00000000",
@@ -293,7 +275,6 @@ const LEVELS = [
     },
     {
         id: 20,
-        name: "Robot",
         color: "bg-slate-400",
         target: [
             "00111100",
@@ -308,7 +289,6 @@ const LEVELS = [
     },
     {
         id: 21,
-        name: "Flor",
         color: "bg-pink-400",
         target: [
             "00000000",
@@ -326,6 +306,7 @@ const LEVELS = [
 // --- COMPONENTS ---
 
 export default function BitBloxPage() {
+    const t = useTranslations('GamesPage.bitBloxMessages');
     const [currentLevelIndex, setCurrentLevelIndex] = useState(0);
     const [grid, setGrid] = useState<number[][]>(Array(8).fill(Array(8).fill(0)));
     const [isWon, setIsWon] = useState(false);
@@ -393,6 +374,11 @@ export default function BitBloxPage() {
         return rowString === currentLevel.target[rowIndex];
     };
 
+    // Helper to get localized level name
+    const getLevelName = (id: number) => {
+        return t(`levelNames.l${id}`);
+    };
+
     return (
         <div className="min-h-screen bg-slate-900 text-white font-sans selection:bg-purple-500 selection:text-white flex flex-col items-center justify-center p-4 relative overflow-hidden">
 
@@ -419,7 +405,7 @@ export default function BitBloxPage() {
                 </div>
 
                 <div className="text-right">
-                    <div className="text-xs text-slate-400 uppercase font-bold">Nivel</div>
+                    <div className="text-xs text-slate-400 uppercase font-bold">{t('level')}</div>
                     <div className="text-2xl font-bold text-yellow-400">{currentLevelIndex + 1} / {LEVELS.length}</div>
                 </div>
             </nav>
@@ -439,7 +425,7 @@ export default function BitBloxPage() {
                     <div className="text-[8rem] font-black text-slate-700 leading-none select-none drop-shadow-2xl font-mono opacity-50">
                         {currentLevel.id}
                     </div>
-                    <div className="text-slate-500 font-bold text-center w-28 leading-tight">{currentLevel.name}</div>
+                    <div className="text-slate-500 font-bold text-center w-28 leading-tight">{getLevelName(currentLevel.id)}</div>
                 </div>
 
                 {/* The Grid */}
@@ -478,7 +464,7 @@ export default function BitBloxPage() {
 
                 {/* Binary Codes (The "Instructions") */}
                 <div className="flex flex-col gap-1 md:gap-2 font-mono text-lg md:text-xl font-bold tracking-widest bg-slate-800/50 p-6 rounded-2xl border border-slate-700 backdrop-blur-sm">
-                    <div className="text-center text-xs text-slate-400 mb-2 uppercase tracking-normal font-sans">Código Binario</div>
+                    <div className="text-center text-xs text-slate-400 mb-2 uppercase tracking-normal font-sans">{t('binaryCode')}</div>
                     {currentLevel.target.map((code, index) => {
                         const isDone = isRowCorrect(index);
                         return (
@@ -500,7 +486,7 @@ export default function BitBloxPage() {
                 {/* Mobile Nav Controls (Visible only on small screens) */}
                 <div className="flex md:hidden justify-between w-full max-w-xs mt-4">
                     <button onClick={prevLevel} disabled={currentLevelIndex === 0} className="p-3 bg-slate-700 rounded-lg disabled:opacity-50"><ChevronLeft /></button>
-                    <span className="font-bold text-xl self-center">{currentLevel.name}</span>
+                    <span className="font-bold text-xl self-center">{getLevelName(currentLevel.id)}</span>
                     <button onClick={nextLevel} disabled={currentLevelIndex === LEVELS.length - 1} className="p-3 bg-slate-700 rounded-lg disabled:opacity-50"><ChevronRight /></button>
                 </div>
 
@@ -513,7 +499,7 @@ export default function BitBloxPage() {
                     className="flex items-center gap-2 px-6 py-3 bg-red-500 hover:bg-red-400 rounded-xl font-bold shadow-[0_4px_0_rgb(185,28,28)] active:shadow-none active:translate-y-1 transition-all text-white"
                 >
                     <RotateCcw className="w-5 h-5" />
-                    Reiniciar
+                    {t('restart')}
                 </button>
             </div>
 
@@ -524,8 +510,8 @@ export default function BitBloxPage() {
                         <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-4 text-slate-900 shadow-lg">
                             <Trophy size={40} strokeWidth={3} />
                         </div>
-                        <h2 className="text-3xl font-black text-white mb-2">¡Genial!</h2>
-                        <p className="text-slate-300 mb-6">¡Has completado el dibujo!</p>
+                        <h2 className="text-3xl font-black text-white mb-2">{t('great')}</h2>
+                        <p className="text-slate-300 mb-6">{t('drawingCompleted')}</p>
 
                         <div className="flex flex-col gap-3">
                             {currentLevelIndex < LEVELS.length - 1 ? (
@@ -536,11 +522,11 @@ export default function BitBloxPage() {
                                     }}
                                     className="w-full py-4 bg-green-500 hover:bg-green-400 text-white rounded-xl font-bold text-lg shadow-[0_4px_0_rgb(21,128,61)] active:shadow-none active:translate-y-1 transition-all flex items-center justify-center gap-2"
                                 >
-                                    Siguiente Nivel <ChevronRight size={24} strokeWidth={3} />
+                                    {t('nextLevel')} <ChevronRight size={24} strokeWidth={3} />
                                 </button>
                             ) : (
                                 <div className="p-4 bg-slate-700 rounded-xl text-yellow-300 font-bold">
-                                    ¡Juego Completado! 🎉
+                                    {t('gameCompleted')}
                                 </div>
                             )}
 
@@ -548,7 +534,7 @@ export default function BitBloxPage() {
                                 onClick={() => setIsWon(false)}
                                 className="text-slate-400 hover:text-white font-semibold py-2"
                             >
-                                Ver dibujo
+                                {t('viewDrawing')}
                             </button>
                         </div>
                     </div>
@@ -559,7 +545,7 @@ export default function BitBloxPage() {
             {showMenu && (
                 <div className="absolute inset-0 z-50 bg-slate-900/95 flex flex-col p-8 overflow-y-auto">
                     <div className="flex justify-between items-center mb-8">
-                        <h2 className="text-3xl font-bold text-green-400">Niveles</h2>
+                        <h2 className="text-3xl font-bold text-green-400">{t('levelsTitle')}</h2>
                         <button onClick={() => setShowMenu(false)} className="p-2 bg-slate-800 rounded-full"><X /></button>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto w-full">
@@ -578,7 +564,7 @@ export default function BitBloxPage() {
                                     {level.id}
                                 </div>
                                 <div className="text-left flex-1">
-                                    <div className="font-bold text-sm text-white">{level.name}</div>
+                                    <div className="font-bold text-sm text-white">{getLevelName(level.id)}</div>
                                 </div>
                                 {idx < currentLevelIndex && <Check className="text-green-500 w-5 h-5" />}
                             </button>

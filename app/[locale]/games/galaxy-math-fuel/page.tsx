@@ -7,8 +7,8 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
     const t = await getTranslations({ locale, namespace: 'GalaxyMathFuelPage' });
 
     return {
-        title: t('title'),
-        description: t('description')
+        title: t('meta_title'),
+        description: t('meta_description')
     };
 }
 

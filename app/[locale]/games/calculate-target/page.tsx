@@ -5,8 +5,8 @@ import { motion, AnimatePresence, PanInfo } from 'framer-motion';
 import { RefreshCcw, ArrowRight, Trophy, Home } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { Link } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 
-// --- CONFIGURACIÓN DE NIVELES ---
 // --- CONFIGURACIÓN DE NIVELES ---
 type Operator = "+" | "-" | "×" | "÷";
 
@@ -74,9 +74,8 @@ type GameState = {
     history: number[];
 };
 
-
-
 const CalculateTargetPage = () => {
+    const t = useTranslations('GamesPage.calculateTargetMessages');
     const [currentLevelIdx, setCurrentLevelIdx] = useState(0);
     const [gameState, setGameState] = useState<GameState>({
         currentValue: 0,
@@ -200,7 +199,7 @@ const CalculateTargetPage = () => {
                     </div>
                 </Link>
                 <div className="bg-white px-6 py-2 rounded-full shadow-sm border-b-4 border-slate-100 font-black text-slate-400 uppercase text-sm tracking-widest">
-                    Nivel {currentLevelIdx + 1}
+                    {t('level')} {currentLevelIdx + 1}
                 </div>
                 <div onClick={resetLevel} className="p-3 bg-white rounded-2xl shadow-sm border-b-4 border-slate-100 cursor-pointer group">
                     <RefreshCcw className="w-6 h-6 text-slate-400 group-hover:rotate-180 transition-transform duration-500" />
@@ -213,7 +212,7 @@ const CalculateTargetPage = () => {
                 animate={{ y: 0, opacity: 1 }}
                 className="bg-white px-10 py-6 rounded-[32px] shadow-sm border-b-8 border-orange-100 mb-12 flex flex-col items-center min-w-[200px]"
             >
-                <span className="text-xs font-black text-orange-400 uppercase tracking-widest mb-1">Objetivo</span>
+                <span className="text-xs font-black text-orange-400 uppercase tracking-widest mb-1">{t('target')}</span>
                 <div className="text-6xl font-black text-slate-700">{levelData.target}</div>
             </motion.div>
 
@@ -298,8 +297,8 @@ const CalculateTargetPage = () => {
                             <div className="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mb-4">
                                 <Trophy className="w-10 h-10 text-emerald-500" />
                             </div>
-                            <h2 className="text-3xl font-black text-slate-800 mb-2">¡Genial!</h2>
-                            <p className="text-slate-500 mb-8 font-medium">¡Nivel completado!</p>
+                            <h2 className="text-3xl font-black text-slate-800 mb-2">{t('great')}</h2>
+                            <p className="text-slate-500 mb-8 font-medium">{t('levelCompleted')}</p>
 
                             <button
                                 onClick={() => {
@@ -308,7 +307,7 @@ const CalculateTargetPage = () => {
                                 }}
                                 className="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-black py-4 px-8 rounded-2xl flex items-center justify-center gap-3 shadow-lg active:scale-95 transition-all text-lg"
                             >
-                                {currentLevelIdx < 19 ? "Siguiente" : "Reiniciar juego"}
+                                {currentLevelIdx < 19 ? t('next') : t('restart')}
                                 <ArrowRight className="w-6 h-6" />
                             </button>
                         </motion.div>
