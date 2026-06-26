@@ -143,8 +143,8 @@ export default async function PrivacyPage(props: { params: Promise<{ locale: str
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300">
                             {isSpanish
-                                ? 'Utilizamos cookies técnicas necesarias para el funcionamiento del sitio y cookies analíticas para mejorar la experiencia. Puedes configurar tu navegador para rechazar cookies, aunque esto puede afectar la funcionalidad del servicio.'
-                                : 'We use necessary technical cookies for site operation and analytical cookies to improve the experience. You can configure your browser to reject cookies, although this may affect service functionality.'}
+                                ? 'Eduaroo no utiliza cookies, tecnologías de seguimiento ni herramientas o SDKs analíticos de ningún tipo, ni en nuestro sitio web ni en la aplicación móvil.'
+                                : 'Eduaroo does not use cookies, tracking technologies, or analytical tools or SDKs of any kind, either on our website or in the mobile app.'}
                         </p>
                     </section>
 
