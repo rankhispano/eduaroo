@@ -138,7 +138,7 @@ interface Props {
 
 export default function ProgrammingWorkspace({ lesson, lang }: Props) {
     const router = useRouter();
-    const t = useTranslations('ProgrammingWorkspace');
+    const t = useTranslations();
 
     // Calculate return URL
     const returnUrl = getPhaseUrlForLesson(lesson.id);
@@ -446,7 +446,7 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
                         </div>
                         <h1 className="font-bold text-lg text-gray-900 dark:text-white flex items-center gap-2">
                             <Code className="w-5 h-5 text-violet-500" />
-                            {lang === 'en' ? lesson.titleEn : lesson.titleEs}
+                            {t(lesson.titleKey)}
                         </h1>
                     </div>
                 </div>
@@ -468,7 +468,7 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
                         initial={{ height: 0 }} animate={{ height: 'auto' }} exit={{ height: 0 }}
                         className="bg-yellow-50 dark:bg-yellow-900/20 p-4 text-center border-b border-yellow-100 text-yellow-800 dark:text-yellow-200 text-sm overflow-hidden"
                     >
-                        {lesson.hint}
+                        {lesson.hintKey ? t(lesson.hintKey) : null}
                     </motion.div>
                 )}
             </AnimatePresence>
