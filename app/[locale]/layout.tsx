@@ -4,7 +4,6 @@ import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import Navbar from '@/components/Navbar';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import '../globals.css';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import AnimatedKangaroo from '@/components/AnimatedKangaroo';
 import Footer from '@/components/Footer';
@@ -32,14 +31,6 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
     };
 }
 
-import { Lexend } from 'next/font/google';
-
-const lexend = Lexend({
-    subsets: ['latin'],
-    variable: '--font-lexend',
-    display: 'swap',
-});
-
 export default async function LocaleLayout({
     children,
     params
@@ -59,29 +50,25 @@ export default async function LocaleLayout({
     const messages = await getMessages();
 
     return (
-        <html lang={locale} suppressHydrationWarning>
-            <body className={`${lexend.variable} font-sans text-lg`}>
-                <NextIntlClientProvider messages={messages}>
-                    <RolesProvider>
-                        <ThemeProvider
-                            attribute="class"
-                            defaultTheme="system"
-                            enableSystem
-                            disableTransitionOnChange
-                        >
-                            <Navbar />
-                            <Breadcrumbs />
-                            <main className="min-h-screen">
-                                {children}
-                            </main>
-                            <div className="relative">
-                                <AnimatedKangaroo />
-                                <Footer />
-                            </div>
-                        </ThemeProvider>
-                    </RolesProvider>
-                </NextIntlClientProvider>
-            </body>
-        </html>
+        <NextIntlClientProvider messages={messages}>
+            <RolesProvider>
+                <ThemeProvider
+                    attribute="class"
+                    defaultTheme="system"
+                    enableSystem
+                    disableTransitionOnChange
+                >
+                    <Navbar />
+                    <Breadcrumbs />
+                    <main className="min-h-screen">
+                        {children}
+                    </main>
+                    <div className="relative">
+                        <AnimatedKangaroo />
+                        <Footer />
+                    </div>
+                </ThemeProvider>
+            </RolesProvider>
+        </NextIntlClientProvider>
     );
 }

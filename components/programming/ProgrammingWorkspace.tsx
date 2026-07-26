@@ -17,91 +17,92 @@ type BlockType = 'motion' | 'event' | 'control' | 'looks' | 'sound' | 'sensing' 
 interface BlockDef {
     id: string;
     type: BlockType;
-    labelKey: string;
+    labelEs: string;
+    labelEn: string;
     isContainer?: boolean;
     defaultParams?: Record<string, any>;
 }
 
 const BLOCKS: Record<string, BlockDef> = {
     // --- MOTION (S1) ---
-    'mover_derecha': { id: 'mover_derecha', type: 'motion', labelKey: 'blocks.mover_derecha' },
-    'mover_izquierda': { id: 'mover_izquierda', type: 'motion', labelKey: 'blocks.mover_izquierda' },
-    'mover_arriba': { id: 'mover_arriba', type: 'motion', labelKey: 'blocks.mover_arriba' },
-    'mover_abajo': { id: 'mover_abajo', type: 'motion', labelKey: 'blocks.mover_abajo' },
-    'girar_derecha_90': { id: 'girar_derecha_90', type: 'motion', labelKey: 'blocks.girar_derecha_90' },
-    'girar_izquierda_90': { id: 'girar_izquierda_90', type: 'motion', labelKey: 'blocks.girar_izquierda_90' },
-    'ir_a': { id: 'ir_a', type: 'motion', labelKey: 'blocks.ir_a' },
-    'ir_a_aleatorio': { id: 'ir_a_aleatorio', type: 'motion', labelKey: 'blocks.ir_a_aleatorio' },
-    'rebotar': { id: 'rebotar', type: 'motion', labelKey: 'blocks.rebotar' },
-    'apuntar_hacia': { id: 'apuntar_hacia', type: 'motion', labelKey: 'blocks.apuntar_hacia' },
+    'mover_derecha': { id: 'mover_derecha', type: 'motion', labelEs: 'Mover Derecha ➡️', labelEn: 'Move Right ➡️' },
+    'mover_izquierda': { id: 'mover_izquierda', type: 'motion', labelEs: 'Mover Izquierda ⬅️', labelEn: 'Move Left ⬅️' },
+    'mover_arriba': { id: 'mover_arriba', type: 'motion', labelEs: 'Mover Arriba ⬆️', labelEn: 'Move Up ⬆️' },
+    'mover_abajo': { id: 'mover_abajo', type: 'motion', labelEs: 'Mover Abajo ⬇️', labelEn: 'Move Down ⬇️' },
+    'girar_derecha_90': { id: 'girar_derecha_90', type: 'motion', labelEs: 'Girar 90° ↻', labelEn: 'Turn 90° ↻' },
+    'girar_izquierda_90': { id: 'girar_izquierda_90', type: 'motion', labelEs: 'Girar 90° ↺', labelEn: 'Turn 90° ↺' },
+    'ir_a': { id: 'ir_a', type: 'motion', labelEs: 'Ir a Inicio 🏠', labelEn: 'Go to Start 🏠' },
+    'ir_a_aleatorio': { id: 'ir_a_aleatorio', type: 'motion', labelEs: 'Ir a Aleatorio 🎲', labelEn: 'Go Random 🎲' },
+    'rebotar': { id: 'rebotar', type: 'motion', labelEs: 'Rebotar si Toca Borde ↩️', labelEn: 'Bounce if on Edge ↩️' },
+    'apuntar_hacia': { id: 'apuntar_hacia', type: 'motion', labelEs: 'Apuntar hacia Ratón 🖱️', labelEn: 'Point to Mouse 🖱️' },
 
     // --- LOOKS (S1, S2) ---
-    'borrar_todo': { id: 'borrar_todo', type: 'looks', labelKey: 'blocks.borrar_todo' },
-    'bajar_lapiz': { id: 'bajar_lapiz', type: 'looks', labelKey: 'blocks.bajar_lapiz' },
-    'subir_lapiz': { id: 'subir_lapiz', type: 'looks', labelKey: 'blocks.subir_lapiz' },
-    'color_rojo': { id: 'color_rojo', type: 'looks', labelKey: 'blocks.color_rojo' },
-    'color_azul': { id: 'color_azul', type: 'looks', labelKey: 'blocks.color_azul' },
-    'color_verde': { id: 'color_verde', type: 'looks', labelKey: 'blocks.color_verde' },
-    'decir': { id: 'decir', type: 'looks', labelKey: 'blocks.decir', defaultParams: { text: "¡Hola!" } },
-    'cambiar_disfraz': { id: 'cambiar_disfraz', type: 'looks', labelKey: 'blocks.cambiar_disfraz' },
-    'cambiar_fondo': { id: 'cambiar_fondo', type: 'looks', labelKey: 'blocks.cambiar_fondo' },
-    'esconder': { id: 'esconder', type: 'looks', labelKey: 'blocks.esconder' },
-    'mostrar': { id: 'mostrar', type: 'looks', labelKey: 'blocks.mostrar' },
-    'cambiar_tamaño': { id: 'cambiar_tamaño', type: 'looks', labelKey: 'blocks.cambiar_tamaño' },
-    'efecto_fantasma': { id: 'efecto_fantasma', type: 'looks', labelKey: 'blocks.efecto_fantasma' },
+    'borrar_todo': { id: 'borrar_todo', type: 'looks', labelEs: 'Borrar Todo 🧹', labelEn: 'Clear All 🧹' },
+    'bajar_lapiz': { id: 'bajar_lapiz', type: 'looks', labelEs: 'Bajar Lápiz ✏️', labelEn: 'Pen Down ✏️' },
+    'subir_lapiz': { id: 'subir_lapiz', type: 'looks', labelEs: 'Subir Lápiz 🚫', labelEn: 'Pen Up 🚫' },
+    'color_rojo': { id: 'color_rojo', type: 'looks', labelEs: 'Color Rojo 🔴', labelEn: 'Color Red 🔴' },
+    'color_azul': { id: 'color_azul', type: 'looks', labelEs: 'Color Azul 🔵', labelEn: 'Color Blue 🔵' },
+    'color_verde': { id: 'color_verde', type: 'looks', labelEs: 'Color Verde 🟢', labelEn: 'Color Green 🟢' },
+    'decir': { id: 'decir', type: 'looks', labelEs: 'Decir "Hola" 💬', labelEn: 'Say "Hello" 💬', defaultParams: { text: "Hola!" } },
+    'cambiar_disfraz': { id: 'cambiar_disfraz', type: 'looks', labelEs: 'Cambiar Disfraz 🎭', labelEn: 'Next Costume 🎭' },
+    'cambiar_fondo': { id: 'cambiar_fondo', type: 'looks', labelEs: 'Cambiar Fondo 🖼️', labelEn: 'Next Background 🖼️' },
+    'esconder': { id: 'esconder', type: 'looks', labelEs: 'Esconder 👻', labelEn: 'Hide 👻' },
+    'mostrar': { id: 'mostrar', type: 'looks', labelEs: 'Mostrar 👀', labelEn: 'Show 👀' },
+    'cambiar_tamaño': { id: 'cambiar_tamaño', type: 'looks', labelEs: 'Cambiar Tamaño 📏', labelEn: 'Change Size 📏' },
+    'efecto_fantasma': { id: 'efecto_fantasma', type: 'looks', labelEs: 'Efecto Fantasma 👻', labelEn: 'Ghost Effect 👻' },
 
     // --- CONTROL (S2, S3) ---
-    'repetir': { id: 'repetir', type: 'control', labelKey: 'blocks.repetir', isContainer: true, defaultParams: { count: 4 } },
-    'por_siempre': { id: 'por_siempre', type: 'control', labelKey: 'blocks.por_siempre', isContainer: true },
-    'si': { id: 'si', type: 'control', labelKey: 'blocks.si', isContainer: true },
-    'si_sino': { id: 'si_sino', type: 'control', labelKey: 'blocks.si_sino', isContainer: true },
-    'esperar': { id: 'esperar', type: 'control', labelKey: 'blocks.esperar', defaultParams: { seconds: 1 } },
-    'detener_todo': { id: 'detener_todo', type: 'control', labelKey: 'blocks.detener_todo' },
-    'crear_clon': { id: 'crear_clon', type: 'control', labelKey: 'blocks.crear_clon' },
-    'eliminar_clon': { id: 'eliminar_clon', type: 'control', labelKey: 'blocks.eliminar_clon' },
+    'repetir': { id: 'repetir', type: 'control', labelEs: 'Repetir 4 🔁', labelEn: 'Repeat 4 🔁', isContainer: true, defaultParams: { count: 4 } },
+    'por_siempre': { id: 'por_siempre', type: 'control', labelEs: 'Por Siempre 🔄', labelEn: 'Forever 🔄', isContainer: true },
+    'si': { id: 'si', type: 'control', labelEs: 'Si... ❓', labelEn: 'If... ❓', isContainer: true },
+    'si_sino': { id: 'si_sino', type: 'control', labelEs: 'Si... Sino... ⚖️', labelEn: 'If... Else... ⚖️', isContainer: true },
+    'esperar': { id: 'esperar', type: 'control', labelEs: 'Esperar 1 seg ⏳', labelEn: 'Wait 1 sec ⏳', defaultParams: { seconds: 1 } },
+    'detener_todo': { id: 'detener_todo', type: 'control', labelEs: 'Detener Todo 🛑', labelEn: 'Stop All 🛑' },
+    'crear_clon': { id: 'crear_clon', type: 'control', labelEs: 'Crear Clon 👯', labelEn: 'Create Clone 👯' },
+    'eliminar_clon': { id: 'eliminar_clon', type: 'control', labelEs: 'Eliminar Clon ❌', labelEn: 'Delete Clone ❌' },
 
     // --- EVENTS (S2) ---
-    'bandera_verde': { id: 'bandera_verde', type: 'event', labelKey: 'blocks.bandera_verde' },
-    'al_presionar_tecla': { id: 'al_presionar_tecla', type: 'event', labelKey: 'blocks.al_presionar_tecla' },
-    'al_hacer_click': { id: 'al_hacer_click', type: 'event', labelKey: 'blocks.al_hacer_click' },
-    'al_recibir_mensaje': { id: 'al_recibir_mensaje', type: 'event', labelKey: 'blocks.al_recibir_mensaje' },
-    'enviar_mensaje': { id: 'enviar_mensaje', type: 'event', labelKey: 'blocks.enviar_mensaje' },
-    'al_comenzar_como_clon': { id: 'al_comenzar_como_clon', type: 'event', labelKey: 'blocks.al_comenzar_como_clon' },
+    'bandera_verde': { id: 'bandera_verde', type: 'event', labelEs: 'Al empezar 🚩', labelEn: 'When Flag Clicked 🚩' },
+    'al_presionar_tecla': { id: 'al_presionar_tecla', type: 'event', labelEs: 'Al presionar tecla ⌨️', labelEn: 'When Key Pressed ⌨️' },
+    'al_hacer_click': { id: 'al_hacer_click', type: 'event', labelEs: 'Al hacer click en objeto 🖱️', labelEn: 'When Sprite Clicked 🖱️' },
+    'al_recibir_mensaje': { id: 'al_recibir_mensaje', type: 'event', labelEs: 'Al recibir mensaje 📩', labelEn: 'When I Receive 📩' },
+    'enviar_mensaje': { id: 'enviar_mensaje', type: 'event', labelEs: 'Enviar mensaje 📤', labelEn: 'Broadcast Message 📤' },
+    'al_comenzar_como_clon': { id: 'al_comenzar_como_clon', type: 'event', labelEs: 'Al comenzar como clon 👯', labelEn: 'When I Start as Clone 👯' },
 
     // --- SOUND (S2 placeholder) ---
-    'tocar_nota': { id: 'tocar_nota', type: 'sound', labelKey: 'blocks.tocar_nota' },
-    'tocar_sonido': { id: 'tocar_sonido', type: 'sound', labelKey: 'blocks.tocar_sonido' },
+    'tocar_nota': { id: 'tocar_nota', type: 'sound', labelEs: 'Tocar Nota 🎵', labelEn: 'Play Note 🎵' },
+    'tocar_sonido': { id: 'tocar_sonido', type: 'sound', labelEs: 'Tocar Sonido 🔊', labelEn: 'Play Sound 🔊' },
 
     // --- SENSING (S3) ---
-    'tocando_borde': { id: 'tocando_borde', type: 'sensing', labelKey: 'blocks.tocando_borde' },
-    'tocando_puntero': { id: 'tocando_puntero', type: 'sensing', labelKey: 'blocks.tocando_puntero' },
-    'tocando_color': { id: 'tocando_color', type: 'sensing', labelKey: 'blocks.tocando_color' },
-    'tocando_objeto': { id: 'tocando_objeto', type: 'sensing', labelKey: 'blocks.tocando_objeto' },
-    'distancia_a': { id: 'distancia_a', type: 'sensing', labelKey: 'blocks.distancia_a' },
-    'preguntar': { id: 'preguntar', type: 'sensing', labelKey: 'blocks.preguntar' },
-    'tecla_presionada': { id: 'tecla_presionada', type: 'sensing', labelKey: 'blocks.tecla_presionada' },
+    'tocando_borde': { id: 'tocando_borde', type: 'sensing', labelEs: '¿Tocando borde? 🧱', labelEn: 'Touching edge? 🧱' },
+    'tocando_puntero': { id: 'tocando_puntero', type: 'sensing', labelEs: '¿Tocando puntero? 👆', labelEn: 'Touching pointer? 👆' },
+    'tocando_color': { id: 'tocando_color', type: 'sensing', labelEs: '¿Tocando color? 🎨', labelEn: 'Touching color? 🎨' },
+    'tocando_objeto': { id: 'tocando_objeto', type: 'sensing', labelEs: '¿Tocando objeto? 🤖', labelEn: 'Touching object? 🤖' },
+    'distancia_a': { id: 'distancia_a', type: 'sensing', labelEs: 'Distancia a... 📏', labelEn: 'Distance to... 📏' },
+    'preguntar': { id: 'preguntar', type: 'sensing', labelEs: 'Preguntar 🗣️', labelEn: 'Ask 🗣️' },
+    'tecla_presionada': { id: 'tecla_presionada', type: 'sensing', labelEs: '¿Tecla presionada? ⌨️', labelEn: 'Key pressed? ⌨️' },
 
     // --- OPERATORS (S3) ---
-    'operador_suma': { id: 'operador_suma', type: 'operator', labelKey: 'blocks.operador_suma' },
-    'operador_resta': { id: 'operador_resta', type: 'operator', labelKey: 'blocks.operador_resta' },
-    'operador_mayor': { id: 'operador_mayor', type: 'operator', labelKey: 'blocks.operador_mayor' },
-    'operador_menor': { id: 'operador_menor', type: 'operator', labelKey: 'blocks.operador_menor' },
-    'operador_igual': { id: 'operador_igual', type: 'operator', labelKey: 'blocks.operador_igual' },
-    'operador_y': { id: 'operador_y', type: 'operator', labelKey: 'blocks.operador_y' },
-    'operador_o': { id: 'operador_o', type: 'operator', labelKey: 'blocks.operador_o' },
-    'aleatorio': { id: 'aleatorio', type: 'operator', labelKey: 'blocks.aleatorio' },
+    'operador_suma': { id: 'operador_suma', type: 'operator', labelEs: 'Suma (+)', labelEn: 'Add (+)' },
+    'operador_resta': { id: 'operador_resta', type: 'operator', labelEs: 'Resta (-)', labelEn: 'Subtract (-)' },
+    'operador_mayor': { id: 'operador_mayor', type: 'operator', labelEs: 'Mayor que (>)', labelEn: 'Greater than (>)' },
+    'operador_menor': { id: 'operador_menor', type: 'operator', labelEs: 'Menor que (<)', labelEn: 'Less than (<)' },
+    'operador_igual': { id: 'operador_igual', type: 'operator', labelEs: 'Igual (=)', labelEn: 'Equal (=)' },
+    'operador_y': { id: 'operador_y', type: 'operator', labelEs: 'Y (AND)', labelEn: 'AND' },
+    'operador_o': { id: 'operador_o', type: 'operator', labelEs: 'O (OR)', labelEn: 'OR' },
+    'aleatorio': { id: 'aleatorio', type: 'operator', labelEs: 'Aleatorio 1-10 🎲', labelEn: 'Random 1-10 🎲' },
 
     // --- VARIABLES (S4) ---
-    'crear_variable': { id: 'crear_variable', type: 'variable', labelKey: 'blocks.crear_variable' },
-    'fijar_variable': { id: 'fijar_variable', type: 'variable', labelKey: 'blocks.fijar_variable' },
-    'cambiar_variable': { id: 'cambiar_variable', type: 'variable', labelKey: 'blocks.cambiar_variable' },
-    'mostrar_variable': { id: 'mostrar_variable', type: 'variable', labelKey: 'blocks.mostrar_variable' },
-    'esconder_variable': { id: 'esconder_variable', type: 'variable', labelKey: 'blocks.esconder_variable' },
+    'crear_variable': { id: 'crear_variable', type: 'variable', labelEs: 'Crear Variable 📦', labelEn: 'Create Variable 📦' },
+    'fijar_variable': { id: 'fijar_variable', type: 'variable', labelEs: 'Fijar Variable a 0', labelEn: 'Set Variable to 0' },
+    'cambiar_variable': { id: 'cambiar_variable', type: 'variable', labelEs: 'Cambiar Variable por 1', labelEn: 'Change Variable by 1' },
+    'mostrar_variable': { id: 'mostrar_variable', type: 'variable', labelEs: 'Mostrar Variable', labelEn: 'Show Variable' },
+    'esconder_variable': { id: 'esconder_variable', type: 'variable', labelEs: 'Esconder Variable', labelEn: 'Hide Variable' },
 
     // --- FUNCTIONS (S4) ---
-    'definir_bloque': { id: 'definir_bloque', type: 'control', labelKey: 'blocks.definir_bloque', isContainer: true },
-    'usar_bloque': { id: 'usar_bloque', type: 'control', labelKey: 'blocks.usar_bloque' },
-    'parametro': { id: 'parametro', type: 'variable', labelKey: 'blocks.parametro' },
+    'definir_bloque': { id: 'definir_bloque', type: 'control', labelEs: 'Definir Bloque', labelEn: 'Define Block', isContainer: true },
+    'usar_bloque': { id: 'usar_bloque', type: 'control', labelEs: 'Usar Bloque', labelEn: 'Call Block' },
+    'parametro': { id: 'parametro', type: 'variable', labelEs: 'Parámetro', labelEn: 'Parameter' },
 };
 
 const BLOCK_COLORS: Record<BlockType, string> = {
@@ -138,7 +139,6 @@ interface Props {
 export default function ProgrammingWorkspace({ lesson, lang }: Props) {
     const router = useRouter();
     const t = useTranslations('ProgrammingWorkspace');
-    const tl = useTranslations();
 
     // Calculate return URL
     const returnUrl = getPhaseUrlForLesson(lesson.id);
@@ -160,18 +160,18 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
     const getLessonGoal = (lessonId: string): { goalX: number, goalY: number, goalAngle?: number, description: string } => {
         // Mapping of lesson IDs to their objectives
         const goals: Record<string, { goalX: number, goalY: number, goalAngle?: number, description: string }> = {
-            'prog_s1_l1': { goalX: 3, goalY: 2, description: t('goals.reach_coords', { x: 3, y: 2 }) },
-            'prog_s1_l2': { goalX: 1, goalY: 2, description: t('goals.reach_coords', { x: 1, y: 2 }) },
-            'prog_s1_l3': { goalX: 4, goalY: 2, description: t('goals.reach_coords', { x: 4, y: 2 }) },
-            'prog_s1_l4': { goalX: 2, goalY: 1, description: t('goals.reach_coords', { x: 2, y: 1 }) },
-            'prog_s1_l5': { goalX: 2, goalY: 3, description: t('goals.reach_coords', { x: 2, y: 3 }) },
-            'prog_s1_l6': { goalX: 4, goalY: 0, description: t('goals.reach_coords', { x: 4, y: 0 }) },
-            'prog_s1_l7': { goalX: 4, goalY: 2, description: t('goals.zigzag') },
-            'prog_s1_l8': { goalX: 2, goalY: 2, description: t('goals.start_pos') },
-            'prog_s1_l9': { goalX: 2, goalY: 2, description: t('goals.clear_code') },
-            'prog_s1_l10': { goalX: 4, goalY: 1, description: t('goals.dodge_rock') },
+            'prog_s1_l1': { goalX: 3, goalY: 2, description: 'llegar a x:3, y:2' },
+            'prog_s1_l2': { goalX: 1, goalY: 2, description: 'llegar a x:1, y:2' },
+            'prog_s1_l3': { goalX: 4, goalY: 2, description: 'llegar a x:4, y:2' },
+            'prog_s1_l4': { goalX: 2, goalY: 1, description: 'llegar a x:2, y:1' },
+            'prog_s1_l5': { goalX: 2, goalY: 3, description: 'llegar a x:2, y:3' },
+            'prog_s1_l6': { goalX: 4, goalY: 0, description: 'llegar a x:4, y:0' },
+            'prog_s1_l7': { goalX: 4, goalY: 2, description: 'completar el zigzag' },
+            'prog_s1_l8': { goalX: 2, goalY: 2, description: 'volver a la posición inicial' },
+            'prog_s1_l9': { goalX: 2, goalY: 2, description: 'limpiar el código' },
+            'prog_s1_l10': { goalX: 4, goalY: 1, description: 'esquivar la piedra y llegar a la meta' },
         };
-        return goals[lessonId] || { goalX: 3, goalY: 2, description: t('goals.complete_challenge') };
+        return goals[lessonId] || { goalX: 3, goalY: 2, description: 'completar el desafío' };
     };
 
     // Initial State Reset
@@ -255,7 +255,7 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
             else if (blockId === 'color_verde') context.color = 'green';
             else if (blockId === 'borrar_todo') { context.trail = []; setTrail([]); }
             else if (blockId === 'decir') {
-                setSpeechBubble(t('blocks.decir').split("'")[1] || "Hola!");
+                setSpeechBubble("¡Hola!");
                 await new Promise(r => setTimeout(r, 1000));
                 setSpeechBubble(null);
             }
@@ -302,7 +302,7 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
     const checkWinCondition = (finalPos: typeof roverPos, executedScript: ScriptItem[]) => {
         // Get lesson goal
         const goal = getLessonGoal(lesson.id);
-
+        
         // Validation: must have code AND must reach the goal position
         if (executedScript.length > 0 && finalPos.x === goal.goalX && finalPos.y === goal.goalY) {
             setFeedback('success');
@@ -365,7 +365,7 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
             <AnimatePresence>
                 {items.map((item, idx) => {
                     const block = BLOCKS[item.blockId];
-                    const label = block ? tl(`ProgrammingWorkspace.${block.labelKey}`) : item.blockId;
+                    const label = lang === 'en' ? block?.labelEn : block?.labelEs;
                     const isActiveContainer = activeContainerId === item.instanceId;
 
                     return (
@@ -420,7 +420,7 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
                                                 setActiveContainerId(item.instanceId);
                                             }}
                                         >
-                                            {t('tapToAdd')}
+                                            {lang === 'en' ? 'Tap to add blocks here' : 'Toca para añadir bloques aquí'}
                                         </div>
                                     )}
                                 </div>
@@ -442,11 +442,11 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
                     </button>
                     <div>
                         <div className="text-xs text-gray-400 font-medium mb-0.5 uppercase tracking-wider hidden sm:block">
-                            {tl('Navigation.programming')} • {tl(`Navigation.ProgrammingNavigation.section${lesson.unitId.split('_')[1].replace('s', '')}`)}
+                            {lang === 'en' ? 'Programming' : 'Programación'} • {lesson.id.includes('_s1_') ? (lang === 'en' ? 'The Explorer' : 'El Explorador') : (lang === 'en' ? 'Section ' + lesson.unitId.split('_')[1].replace('s', '') : 'Sección ' + lesson.unitId.split('_')[1].replace('s', ''))}
                         </div>
                         <h1 className="font-bold text-lg text-gray-900 dark:text-white flex items-center gap-2">
                             <Code className="w-5 h-5 text-violet-500" />
-                            {tl(lesson.titleKey)}
+                            {lang === 'en' ? lesson.titleEn : lesson.titleEs}
                         </h1>
                     </div>
                 </div>
@@ -456,7 +456,7 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
                         className="bg-yellow-100 text-yellow-700 px-3 py-1.5 rounded-full font-medium text-xs flex items-center gap-1 hover:bg-yellow-200"
                     >
                         <HelpCircle className="w-3 h-3" />
-                        {t('hint')}
+                        {lang === 'en' ? 'Hint' : 'Pista'}
                     </button>
                 </div>
             </div>
@@ -468,7 +468,7 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
                         initial={{ height: 0 }} animate={{ height: 'auto' }} exit={{ height: 0 }}
                         className="bg-yellow-50 dark:bg-yellow-900/20 p-4 text-center border-b border-yellow-100 text-yellow-800 dark:text-yellow-200 text-sm overflow-hidden"
                     >
-                        {lesson.hintKey && tl(lesson.hintKey)}
+                        {lesson.hint}
                     </motion.div>
                 )}
             </AnimatePresence>
@@ -479,7 +479,7 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
                 <div className="w-full md:w-64 bg-gray-100 dark:bg-gray-900 border-r border-gray-200 dark:border-gray-800 flex flex-row md:flex-col overflow-x-auto md:overflow-y-auto p-4 gap-3 shrink-0 order-3 md:order-1 h-24 md:h-auto items-center md:items-stretch no-scrollbar">
                     {lesson.requiredBlocks?.map(bId => {
                         const block = BLOCKS[bId];
-                        const label = block ? tl(`ProgrammingWorkspace.${block.labelKey}`) : bId;
+                        const label = lang === 'en' ? block?.labelEn : block?.labelEs;
                         if (!block) return null;
                         return (
                             <motion.button
@@ -502,9 +502,8 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
                         style={{ borderColor: activeContainerId ? '#fbbf24' : '' }}
                     >
                         {script.length === 0 && (
-                            <div className="flex-1 flex flex-col items-center justify-center text-gray-400 text-center p-8 border-2 border-dashed border-gray-100 dark:border-gray-700/50 rounded-xl">
-                                <Code className="w-12 h-12 mb-3 opacity-20" />
-                                <p className="font-medium mb-1">{t('dragBlocks')}</p>
+                            <div className="absolute inset-0 flex items-center justify-center text-gray-300 dark:text-gray-600 border-2 border-dashed border-gray-200 dark:border-gray-700 rounded-xl m-4 pointer-events-none">
+                                <span className="text-center">{lang === 'en' ? 'Drag blocks here' : 'Arrastra bloques aquí'}</span>
                             </div>
                         )}
                         <BlockList items={script} />
@@ -563,8 +562,7 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
                             disabled={isPlaying || script.length === 0}
                             className={`flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-white shadow-lg transform transition-all active:scale-95 ${isPlaying ? 'bg-gray-400 cursor-not-allowed' : 'bg-green-500 hover:bg-green-600 hover:shadow-green-500/30'}`}
                         >
-                            {isPlaying ? <div className="animate-spin rounded-full h-4 w-4 border-2 border-white/30 border-t-white" /> : <Play className="w-4 h-4" />}
-                            {t('run')}
+                            <Play className="w-5 h-5" /> {lang === 'en' ? 'Run' : 'Ejecutar'}
                         </button>
                         <button
                             onClick={resetStage}
@@ -600,16 +598,16 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
                                                 <Check className="w-10 h-10" />
                                             </motion.div>
                                             <h3 className="text-3xl font-black text-gray-800 dark:text-white mb-2">
-                                                {t('successTitle')}
+                                                {lang === 'en' ? '🎉 Great Job!' : '🎉 ¡Muy Bien!'}
                                             </h3>
                                             <p className="text-gray-600 dark:text-gray-300 mb-6 text-sm">
-                                                {t('successDesc')}
+                                                {lang === 'en' ? 'You completed the lesson!' : '¡Has completado la lección!'}
                                             </p>
-                                            <button
-                                                onClick={() => router.push(returnUrl)}
+                                            <button 
+                                                onClick={() => router.push(returnUrl)} 
                                                 className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all active:scale-95"
                                             >
-                                                {t('continue')}
+                                                {lang === 'en' ? 'Continue →' : 'Continuar →'}
                                             </button>
                                         </>
                                     ) : (
@@ -622,18 +620,17 @@ export default function ProgrammingWorkspace({ lesson, lang }: Props) {
                                             >
                                                 <span className="text-3xl">🤔</span>
                                             </motion.div>
-                                            <h2 className="text-2xl font-black text-rose-600 mb-2">
-                                                {t('failTitle')}
-                                            </h2>
-                                            <p className="text-gray-600 dark:text-gray-300 mb-6 font-medium">
-                                                {t('failDesc', { goal: getLessonGoal(lesson.id).description })}
+                                            <h3 className="text-2xl font-black text-gray-800 dark:text-white mb-2">
+                                                {lang === 'en' ? 'Try Again' : 'Intenta de Nuevo'}
+                                            </h3>
+                                            <p className="text-gray-600 dark:text-gray-300 mb-6 text-sm">
+                                                {lang === 'en' ? `Make sure Rover reaches the goal position (${getLessonGoal(lesson.id).description})` : `Asegúrate de que Rover llegue a: ${getLessonGoal(lesson.id).description}`}
                                             </p>
-                                            <button
-                                                onClick={() => { setFeedback('none'); resetStage(); }}
-                                                className="w-full bg-rose-500 hover:bg-rose-600 text-white font-black py-4 rounded-2xl shadow-lg border-b-4 border-rose-700 active:border-b-0 active:translate-y-1 transition-all flex items-center justify-center gap-2"
+                                            <button 
+                                                onClick={() => setFeedback('none')} 
+                                                className="w-full bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white px-6 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all active:scale-95"
                                             >
-                                                <RotateCcw className="w-5 h-5" />
-                                                {t('restart')}
+                                                {lang === 'en' ? '← Try Again' : '← Intentar de Nuevo'}
                                             </button>
                                         </>
                                     )}

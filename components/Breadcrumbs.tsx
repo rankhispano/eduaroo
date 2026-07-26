@@ -26,8 +26,16 @@ export default function Breadcrumbs() {
     // Helper to get readable name
     const getSegmentName = (segment: string, index: number) => {
         // Try direct keys first
-        if (['learning', 'math', 'fractions', 'problems', 'language', 'games'].includes(segment)) {
+        if (['learning', 'math', 'fractions', 'problems', 'language', 'games', 'mates', 'naturales', 'sociales', 'ingles'].includes(segment)) {
             return t(segment);
+        }
+
+        if (/^[1-6]$/.test(segment)) {
+            try {
+                return t(`levels.grade${segment}`);
+            } catch {
+                return `${segment}º Primaria`;
+            }
         }
 
         // Programming specific logic
@@ -37,7 +45,7 @@ export default function Breadcrumbs() {
         if (segment.startsWith('section') && pathSegments[index - 1] === 'programming') {
             try {
                 return t(`ProgrammingNavigation.${segment}`);
-            } catch (e) { return segment; }
+            } catch { return segment; }
         }
 
         // Handle Programming Phases (phase1 -> "Primeros Pasos")
@@ -48,7 +56,7 @@ export default function Breadcrumbs() {
                 const phaseNum = segment.replace('phase', '');
                 const key = `prog_s${secNum}_phase${phaseNum}`;
                 return t(`ProgrammingNavigation.${key}`);
-            } catch (e) { return segment; }
+            } catch { return segment; }
         }
 
         // Try grade keys
@@ -56,7 +64,7 @@ export default function Breadcrumbs() {
             // "grade4" -> t('levels.grade4')
             try {
                 return t(`levels.${segment}`);
-            } catch (e) {
+            } catch {
                 return segment;
             }
         }

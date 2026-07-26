@@ -3,34 +3,18 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from '@/i18n/navigation';
-import { ChevronDown, ChevronRight, BookOpen, Calculator, FlaskConical, Users } from 'lucide-react';
+import { ChevronDown, ChevronRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { curriculum } from '@/src/data/curriculum';
+import { asignaturaIcons } from '@/src/components/icons';
 
 export default function MegaMenu() {
     const t = useTranslations('Navigation');
     const [isOpen, setIsOpen] = useState(false);
-    const [activeSubject, setActiveSubject] = useState<string | null>('math');
+    const [activeCursoId, setActiveCursoId] = useState<string>(curriculum[0]?.id ?? '1');
     const triggerRef = useRef<HTMLButtonElement>(null);
     const menuRef = useRef<HTMLDivElement>(null);
-
-    // Hardcoded structure for now, matching the request
-    const subjects = [
-        { id: 'language', icon: BookOpen, label: t('language'), active: false },
-        { id: 'math', icon: Calculator, label: t('math'), active: true, href: '/learning/math' },
-        { id: 'science', icon: FlaskConical, label: t('science'), active: false },
-        { id: 'social', icon: Users, label: t('social'), active: false },
-    ];
-
-    const levels = {
-        math: [
-            { id: 'grade1', label: t('levels.grade1'), href: '/learning/math/grade1', active: true },
-            { id: 'grade2', label: t('levels.grade2'), href: '/learning/math/grade2', active: true },
-            { id: 'grade3', label: t('levels.grade3'), href: '/learning/math/grade3', active: true },
-            { id: 'grade4', label: t('levels.grade4'), href: '/learning/math/grade4', active: true },
-            { id: 'grade5', label: t('levels.grade5'), href: '/learning/math/grade5', active: true },
-            { id: 'grade6', label: t('levels.grade6'), href: '/learning/math/grade6', active: true },
-        ]
-    };
+    const activeCurso = curriculum.find((curso) => curso.id === activeCursoId) ?? curriculum[0];
 
     // Handle click outside to close menu
     useEffect(() => {
@@ -61,7 +45,7 @@ export default function MegaMenu() {
                 onClick={() => setIsOpen(!isOpen)}
                 className={`flex items-center gap-1.5 px-4 py-2 rounded-lg text-gray-700 dark:text-gray-200 hover:text-brand-blue dark:hover:text-brand-blue font-medium transition-all duration-200 ${isOpen ? 'text-brand-blue bg-brand-blue/10' : 'hover:bg-gray-100 dark:hover:bg-gray-800'}`}
             >
-                {t('subjects')}
+                {t('courses')}
                 <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />
             </button>
 
@@ -90,70 +74,66 @@ export default function MegaMenu() {
                         >
                             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                                 <div className="flex py-6 gap-6">
-                                    {/* Left Column: Subjects */}
+                                    {/* Left Column: Courses */}
                                     <div className="w-52 shrink-0 border-r border-gray-100 dark:border-gray-800 pr-4">
                                         <div className="space-y-1">
-                                            {subjects.map((subject) => (
-                                                <Link
-                                                    key={subject.id}
-                                                    href={subject.href || '#'}
-                                                    onMouseEnter={() => setActiveSubject(subject.id)}
-                                                    onClick={() => setIsOpen(false)}
+                                            {curriculum.map((curso) => (
+                                                <button
+                                                    key={curso.id}
+                                                    type="button"
+                                                    onMouseEnter={() => setActiveCursoId(curso.id)}
+                                                    onClick={() => setActiveCursoId(curso.id)}
                                                     className={
-                                                        `flex items-center justify-between px-3 py-2.5 rounded-lg cursor-pointer transition-all duration-200 ` +
-                                                        `${activeSubject === subject.id
+                                                        `flex w-full items-center justify-between px-3 py-2.5 rounded-lg cursor-pointer transition-all duration-200 ` +
+                                                        `${activeCursoId === curso.id
                                                             ? 'bg-brand-blue/10 text-brand-blue'
                                                             : 'text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50'}`
                                                     }
                                                 >
                                                     <div className="flex items-center gap-2.5">
-                                                        <div className={`p-1.5 rounded-md ${activeSubject === subject.id ? 'bg-brand-blue/20' : 'bg-gray-100 dark:bg-gray-800'}`}>
-                                                            <subject.icon className="w-4 h-4" />
+                                                        <div className={`flex h-7 w-7 items-center justify-center rounded-md text-xs font-black ${activeCursoId === curso.id ? 'bg-brand-blue/20' : 'bg-gray-100 dark:bg-gray-800'}`}>
+                                                            {curso.id}
                                                         </div>
-                                                        <span className="font-medium text-sm">{subject.label}</span>
+                                                        <span className="font-medium text-sm">{curso.nombre}</span>
                                                     </div>
-                                                    <ChevronRight className={`w-4 h-4 transition-opacity ${activeSubject === subject.id ? 'opacity-100' : 'opacity-0'}`} />
-                                                </Link>
+                                                    <ChevronRight className={`w-4 h-4 transition-opacity ${activeCursoId === curso.id ? 'opacity-100' : 'opacity-0'}`} />
+                                                </button>
                                             ))}
                                         </div>
                                     </div>
 
-                                    {/* Right Column: Levels Content */}
+                                    {/* Right Column: Subjects Content */}
                                     <div className="flex-1 pl-2">
                                         <h3 className="text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-widest mb-4 flex items-center gap-2">
                                             <span className="w-6 h-px bg-gray-200 dark:bg-gray-700"></span>
-                                            {t('levels.primary')}
+                                            {t('subjectsOf', { course: activeCurso?.nombre })}
                                         </h3>
 
-                                        {activeSubject === 'math' ? (
-                                            <div className="flex flex-wrap gap-3">
-                                                {levels.math.map((level) => (
+                                        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                                            {activeCurso?.asignaturas.map((asignatura) => {
+                                                const Icon = asignaturaIcons[asignatura.icono as keyof typeof asignaturaIcons];
+
+                                                return (
                                                     <Link
-                                                        key={level.id}
-                                                        href={level.href}
+                                                        key={asignatura.id}
+                                                        href={`/learning/${activeCurso.id}/${asignatura.id}`}
                                                         onClick={() => setIsOpen(false)}
-                                                        className={`
-                                                            group flex items-center gap-2.5 px-4 py-2.5 rounded-lg transition-all duration-200
-                                                            ${level.active
-                                                                ? 'bg-brand-blue/10 text-brand-blue hover:bg-brand-blue/15 border border-brand-blue/20'
-                                                                : 'bg-gray-50 dark:bg-gray-800/50 text-gray-400 cursor-not-allowed'}
-                                                        `}
+                                                        className="group flex items-center justify-between gap-3 rounded-lg border border-gray-100 bg-gray-50 px-4 py-3 text-gray-700 transition-all duration-200 hover:border-brand-blue/20 hover:bg-brand-blue/10 hover:text-brand-blue dark:border-gray-800 dark:bg-gray-800/50 dark:text-gray-300 dark:hover:border-brand-blue/30 dark:hover:bg-brand-blue/10"
                                                     >
-                                                        <span className={`w-1.5 h-1.5 rounded-full ${level.active ? 'bg-brand-blue' : 'bg-gray-300 dark:bg-gray-600'}`}></span>
-                                                        <span className="font-medium text-sm">{level.label}</span>
-                                                        {level.active && (
-                                                            <ChevronRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                                                        )}
+                                                        <div className="flex min-w-0 items-center gap-3">
+                                                            <span
+                                                                className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-white shadow-sm dark:bg-gray-900"
+                                                                style={{ color: asignatura.color }}
+                                                            >
+                                                                <Icon className="h-5 w-5" />
+                                                            </span>
+                                                            <span className="truncate text-sm font-semibold">{asignatura.nombre}</span>
+                                                        </div>
+                                                        <ChevronRight className="h-4 w-4 shrink-0 opacity-0 transition group-hover:translate-x-1 group-hover:opacity-100" />
                                                     </Link>
-                                                ))}
-                                            </div>
-                                        ) : (
-                                            <div className="inline-flex items-center py-3 px-4 rounded-lg bg-gray-50 dark:bg-gray-800/30 border border-dashed border-gray-200 dark:border-gray-700">
-                                                <p className="text-gray-400 dark:text-gray-500 text-sm">
-                                                    {t('selectMath')}
-                                                </p>
-                                            </div>
-                                        )}
+                                                );
+                                            })}
+                                        </div>
                                     </div>
                                 </div>
                             </div>

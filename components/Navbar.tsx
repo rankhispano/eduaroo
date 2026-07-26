@@ -28,7 +28,7 @@ export default function Navbar() {
                     <div className="hidden md:flex items-center z-50">
                         <MegaMenu />
 
-                        {/* Other links hidden for now as per request "el navbar quiero que salga solo un elemento que sea Asignaturas" */}
+                        {/* Other links hidden for now as per request "el navbar quiero que salga solo un elemento que sea Cursos" */}
                         {/* 
                         <Link href="/kids" className="text-gray-700 hover:text-brand-blue transition-colors">{t('kids')}</Link>
                         <Link href="/parents" className="text-gray-700 hover:text-brand-blue transition-colors">{t('parents')}</Link> 
@@ -71,37 +71,13 @@ export default function Navbar() {
                             {t('games')}
                         </Link>
                         <div className="h-px bg-gray-100 dark:bg-gray-800 my-2"></div>
-                        <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">{t('subjects')}</h3>
-                        <div className="pl-4 border-l-2 border-gray-100 dark:border-gray-800 space-y-3">
-                            <div>
-                                <h4 className="flex items-center gap-2 text-brand-blue font-medium text-sm mb-1">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-brand-blue"></span>
-                                    {t('math')}
-                                </h4>
-                                <div className="pl-4 mt-1">
-                                    <Link
-                                        href="/learning/math/grade4"
-                                        onClick={() => setIsOpen(false)}
-                                        className="block py-1 text-sm text-gray-600 dark:text-gray-300 hover:text-brand-blue font-medium"
-                                    >
-                                        {t('grade4')}
-                                    </Link>
-                                </div>
-                            </div>
-                            {/* Other subjects disabled for now */}
-                            <div className="opacity-50">
-                                <h4 className="flex items-center gap-2 text-gray-500 font-medium text-sm">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
-                                    {t('language')}
-                                </h4>
-                            </div>
-                            <div className="opacity-50">
-                                <h4 className="flex items-center gap-2 text-gray-500 font-medium text-sm">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
-                                    {t('science')}
-                                </h4>
-                            </div>
-                        </div>
+                        <Link
+                            href="/learning"
+                            onClick={() => setIsOpen(false)}
+                            className="block px-3 py-2 rounded-md font-bold text-gray-700 dark:text-gray-200 hover:text-brand-blue hover:bg-gray-50 dark:hover:bg-gray-800"
+                        >
+                            {t('startLearning')}
+                        </Link>
                     </div>
                 </div>
             )}
