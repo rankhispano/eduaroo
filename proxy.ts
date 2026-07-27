@@ -8,7 +8,12 @@ const intlMiddleware = createMiddleware(routing);
 export default function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
 
-    if (pathname === '/' || /^\/repaso(\/|$)/.test(pathname)) {
+    if (
+        pathname === '/' ||
+        pathname === '/politica-de-privacidad' ||
+        pathname === '/privacy-policy' ||
+        /^\/repaso(\/|$)/.test(pathname)
+    ) {
         return NextResponse.next();
     }
 
