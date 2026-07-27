@@ -145,15 +145,18 @@ export default async function TermsPage(props: { params: Promise<{ locale: strin
                         </p>
                     </section>
 
-                    {/* Contacto */}
+                    {/* Contacto y Privacidad */}
                     <section className="mb-8">
                         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                             {t('sections.contact')}
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300">
                             {isSpanish
-                                ? 'Para cualquier consulta sobre estos términos, contacta con nosotros:'
-                                : 'For any inquiries about these terms, contact us:'}
+                                ? 'Para cualquier consulta sobre estos términos o el tratamiento de datos de la aplicación, puedes consultar nuestra '
+                                : 'For any questions regarding these terms or app data handling, please read our '}
+                            <a href="/politica-de-privacidad" className="text-emerald-600 hover:underline font-semibold">
+                                {isSpanish ? 'Política de Privacidad' : 'Privacy Policy'}
+                            </a>.
                         </p>
                         <p className="text-gray-700 dark:text-gray-300 mt-2">
                             <strong>Email:</strong> <a href="mailto:nicolas@archivados.com" className="text-emerald-600 hover:text-emerald-500">nicolas@archivados.com</a>

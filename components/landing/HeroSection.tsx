@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import AnimatedCloud from './AnimatedCloud';
 import SchoolIllustration from './SchoolIllustration';
 import CTAButton from './CTAButton';
@@ -9,6 +9,8 @@ import { Link } from '@/i18n/navigation';
 
 export default function HeroSection() {
     const t = useTranslations('HomePage');
+    const locale = useLocale();
+    const isSpanish = locale === 'es';
 
     return (
         <section className="relative min-h-screen overflow-hidden">
@@ -91,11 +93,39 @@ export default function HeroSection() {
                             {t('description')}
                         </motion.p>
 
-                        <Link href="/learning">
-                            <CTAButton>
-                                {t('cta')}
-                            </CTAButton>
-                        </Link>
+                        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                            <Link href="/learning">
+                                <CTAButton>
+                                    {t('cta')}
+                                </CTAButton>
+                            </Link>
+                        </div>
+
+                        {/* Bloque de Resumen de Privacidad Visible (Requisito 10) */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.3 }}
+                            className="mt-8 p-4 sm:p-5 rounded-2xl bg-white/85 dark:bg-slate-900/85 backdrop-blur-md border border-white/60 dark:border-slate-700/60 shadow-md max-w-lg"
+                        >
+                            <div className="flex items-center gap-2 mb-2">
+                                <span className="text-base">🛡️</span>
+                                <h3 className="text-sm font-bold text-slate-800 dark:text-slate-100">
+                                    {isSpanish ? 'Resumen de Privacidad' : 'Privacy Summary'}
+                                </h3>
+                            </div>
+                            <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-3">
+                                {isSpanish
+                                    ? 'Eduaroo utiliza anuncios contextuales y no personalizados en su versión gratuita. Los anuncios se configuran para tratamiento infantil y contenido de clasificación G. El progreso educativo se guarda localmente en el dispositivo y no se envía a servidores propios. La versión Premium no muestra anuncios.'
+                                    : 'Eduaroo uses non-personalized contextual ads in its free version. Ads are configured for child-directed treatment and G-rated content. Educational progress is saved locally on the device and is not sent to developer servers. The Premium version displays no ads.'}
+                            </p>
+                            <Link
+                                href="/privacy"
+                                className="inline-flex items-center gap-1 text-xs font-semibold text-emerald-700 dark:text-emerald-400 hover:text-emerald-800 dark:hover:text-emerald-300 transition-colors"
+                            >
+                                {isSpanish ? 'Ver Política de Privacidad Completa' : 'Read Full Privacy Policy'} →
+                            </Link>
+                        </motion.div>
                     </motion.div>
 
                     {/* Right: School illustration */}
