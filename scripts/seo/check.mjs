@@ -5,7 +5,6 @@ import { execFileSync } from 'node:child_process';
 import { mkdtempSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import * as cheerio from 'cheerio';
 import { extractJsonLd, validateNodes } from './validate-jsonld.mjs';
 
 const base = (process.argv[process.argv.indexOf('--base') + 1] ?? 'http://localhost:3000').replace(/\/$/, '');
