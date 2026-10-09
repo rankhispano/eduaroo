@@ -109,7 +109,7 @@ export default async function CursoPage({ params }: { params: Params }) {
                                             <li key={tema.id}>
                                                 <Link
                                                     href={paths.tema(cursoId, a.asignatura.id, tema.id)}
-                                                    className="text-lg font-semibold text-slate-800 underline decoration-slate-300 underline-offset-4 hover:text-indigo-700 hover:decoration-indigo-400 dark:text-slate-100"
+                                                    className="plausible-event-name=Resource+click text-lg font-semibold text-slate-800 underline decoration-slate-300 underline-offset-4 hover:text-indigo-700 hover:decoration-indigo-400 dark:text-slate-100"
                                                 >
                                                     {tema.nombre}
                                                 </Link>

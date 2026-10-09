@@ -5,6 +5,7 @@ import { defaultDescription, defaultTitle } from '@/lib/seo/metadata';
 import { ogLocales, siteName, siteUrl } from '@/lib/seo/site';
 import { templates } from '@/lib/seo/templates';
 import { notFound } from 'next/navigation';
+import Analytics from '@/components/Analytics';
 import { routing } from '../../i18n/routing';
 import Navbar from '@/components/Navbar';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -40,6 +41,11 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
         description: es ? defaultDescription : templates.en.home().description,
         openGraph: { siteName, locale: ogLocales[es ? 'es' : 'en'], type: 'website' },
         formatDetection: { telephone: false, email: false, address: false },
+        // Verificación de Search Console y Bing Webmaster: valores en variables de entorno (ver SEO_REPORT.md)
+        verification: {
+            ...(process.env.GOOGLE_SITE_VERIFICATION ? { google: process.env.GOOGLE_SITE_VERIFICATION } : {}),
+            ...(process.env.BING_SITE_VERIFICATION ? { other: { 'msvalidate.01': process.env.BING_SITE_VERIFICATION } } : {}),
+        },
     };
 }
 
@@ -84,6 +90,7 @@ export default async function LocaleLayout({
                     </div>
                     <KidsTabBar />
                     <PracticeStoreHydrator />
+                    <Analytics />
                 </ThemeProvider>
             </RolesProvider>
         </NextIntlClientProvider>

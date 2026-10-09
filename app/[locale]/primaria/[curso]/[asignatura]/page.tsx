@@ -135,7 +135,7 @@ export default async function AsignaturaPage({ params }: { params: Params }) {
                             <li key={tema.id} className="rounded-2xl bg-white p-4 shadow-sm dark:bg-slate-900">
                                 {set ? (
                                     <>
-                                        <Link href={paths.tema(cursoId, asignaturaId, tema.id)} className="text-xl font-extrabold text-indigo-800 hover:underline dark:text-indigo-300">
+                                        <Link href={paths.tema(cursoId, asignaturaId, tema.id)} className="plausible-event-name=Resource+click text-xl font-extrabold text-indigo-800 hover:underline dark:text-indigo-300">
                                             {tema.nombre}
                                         </Link>
                                         <p className="mt-1 text-base text-slate-700 dark:text-slate-200">{set.summary}</p>
