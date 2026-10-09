@@ -45,8 +45,9 @@ async function sitemapRoutes() {
     const xml = await res.text();
     const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
     const urls = [];
+    const isIndex = xml.includes('<sitemapindex');
     for (const loc of locs) {
-        if (/sitemap[^/]*\.xml$/.test(loc) && loc !== `${BASE}/sitemap.xml` && !loc.includes('eduaroo.com/es')) {
+        if (isIndex) {
             const sub = await (await fetch(loc.replace(/^https?:\/\/[^/]+/, BASE))).text();
             urls.push(...[...sub.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]));
         } else urls.push(loc);

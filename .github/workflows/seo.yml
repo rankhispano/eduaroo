@@ -1,0 +1,35 @@
+name: SEO
+# Build de producción + pruebas + comprobaciones SEO sobre el HTML servido + Lighthouse CI (móvil).
+# Falla ante cualquier P0 (title/description duplicados o fuera de rango, h1, canonical, JSON-LD,
+# enlaces rotos, redirects, 404 reales...) o si Lighthouse baja de SEO 95, accesibilidad 90 o rendimiento 85.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+        continue-on-error: true # el repositorio arrastra avisos antiguos; los checks SEO son los que bloquean
+      - run: pnpm exec tsc --noEmit
+      - run: pnpm test
+      - run: pnpm build
+      - name: Arrancar el servidor
+        run: |
+          pnpm start -p 3111 &
+          npx --yes wait-on http://localhost:3111/robots.txt
+      - run: pnpm seo:check
+      - run: npx --yes @lhci/cli@0.14 autorun
+        env:
+          LHCI_BUILD_CONTEXT__CURRENT_HASH: ${{ github.sha }}
