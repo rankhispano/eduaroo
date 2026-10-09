@@ -37,7 +37,6 @@ export default function CursoCard({
         rememberCurso(curso.id);
       }}
       className={`group flex min-h-44 flex-col justify-between rounded-2xl border-2 p-6 shadow-sm transition duration-200 hover:scale-[1.03] hover:shadow-xl ${cursoStyles[curso.id]}`}
-      aria-label={`${levelLabel} ${curso.id}º: ${curso.asignaturas.length} ${subjectsLabel}`}
     >
       <div className="flex items-start justify-between gap-4">
         <span className="text-7xl font-black leading-none">{curso.id}º</span>

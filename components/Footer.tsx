@@ -65,7 +65,7 @@ export default function Footer() {
             {/* Bottom bar */}
             <div className="border-t border-slate-800">
                 <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-slate-500 text-sm flex items-center gap-2">
+                    <p className="text-slate-400 text-sm flex items-center gap-2">
                         © {currentYear} Archivados Network S.L. {t('rights')}
                         <span className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center text-xs">
                             🌍
