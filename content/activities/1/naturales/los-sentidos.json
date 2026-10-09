@@ -7,8 +7,8 @@
   "title": "Exploramos con los cinco sentidos",
   "summary": "Repasa los cinco sentidos, sus órganos y cómo nos ayudan a conocer el mundo.",
   "keyIdeas": [
-    "Tenemos cinco sentidos: vista, oído, olfato, gusto y tacto.",
-    "Cada sentido tiene un órgano: ojos, orejas, nariz, lengua y piel.",
+    "Estudiamos cinco sentidos: vista, oído, olfato, gusto y tacto.",
+    "Los ojos, los oídos, la nariz, la lengua y la piel ayudan a captar información.",
     "El sentido del tacto está repartido por toda nuestra piel."
   ],
   "lomloe": {
@@ -47,7 +47,7 @@
       "id": "g1-naturales-los-sentidos-01",
       "type": "match",
       "prompt": "Une cada sentido con su órgano del cuerpo.",
-      "explanation": "Cada sentido usa un órgano para recibir información de todo lo que nos rodea.",
+      "explanation": "Los ojos, los oídos, la nariz, la lengua y la piel captan distintos tipos de información.",
       "lang": "es",
       "pairs": [
         {
@@ -56,7 +56,7 @@
         },
         {
           "left": "Oído",
-          "right": "Orejas"
+          "right": "Oídos"
         },
         {
           "left": "Olfato",

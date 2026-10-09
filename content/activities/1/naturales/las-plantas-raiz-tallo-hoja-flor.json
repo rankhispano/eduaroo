@@ -87,7 +87,7 @@
       "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-04",
       "type": "classify",
       "prompt": "Separa las partes de la planta de sus necesidades.",
-      "explanation": "La raíz, el tallo y la flor forman la planta. El agua y el sol son lo que necesita para crecer.",
+      "explanation": "Raíz, tallo y flor son partes de la planta. La planta necesita agua, luz y aire.",
       "lang": "es",
       "categories": [
         "Partes de la planta",
@@ -115,7 +115,7 @@
           "category": 1
         },
         {
-          "text": "Tierra",
+          "text": "Aire",
           "category": 1
         }
       ]
@@ -151,14 +151,14 @@
     {
       "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-07",
       "type": "order",
-      "prompt": "Ordena cómo crece una planta desde el principio.",
-      "explanation": "Primero germina la semilla, luego sale la raíz, sube el tallo y finalmente nacen las hojas y las flores.",
+      "prompt": "Ordena cómo crece una planta de judías.",
+      "explanation": "La semilla germina: primero sale la raíz, después el tallo y las hojas. Las flores aparecen más adelante.",
       "lang": "es",
       "items": [
-        "Plantamos una semilla en la tierra.",
-        "Crece una pequeña raíz hacia abajo.",
-        "El tallo verde asoma hacia arriba.",
-        "Aparecen las hojas y la flor."
+        "Plantamos una semilla de judía.",
+        "Crece una pequeña raíz.",
+        "El tallo asoma hacia arriba.",
+        "Aparecen las primeras hojas."
       ]
     },
     {
@@ -190,7 +190,7 @@
       "explanation": "El tallo transporta el agua y las sustancias nutritivas hasta las partes altas de la planta.",
       "lang": "es",
       "title": "El experimento del clavel",
-      "text": "Mateo pone un clavel blanco en agua con pintura roja. Al día siguiente, los pétalos blancos tienen manchas rojas. El agua ha subido por el tallo hasta la flor.",
+      "text": "Mateo pone un clavel blanco en agua con colorante alimentario rojo, con ayuda de una persona adulta. Al día siguiente, los pétalos blancos tienen manchas rojas. El agua ha subido por el tallo hasta la flor.",
       "questions": [
         {
           "prompt": "¿Por qué parte de la planta subió el agua coloreada?",

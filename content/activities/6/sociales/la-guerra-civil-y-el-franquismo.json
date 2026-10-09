@@ -5,11 +5,13 @@
   "temaId": "la-guerra-civil-y-el-franquismo",
   "temaNombre": "La Guerra Civil y el franquismo",
   "title": "La Guerra Civil y el franquismo",
-  "summary": "Repasa las causas, etapas y consecuencias de la Guerra Civil española y la dictadura franquista.",
+  "summary": "Comprende qué ocurrió entre 1936 y 1975, cómo afectó a las personas y por qué son importantes la paz y los derechos.",
   "keyIdeas": [
-    "La Guerra Civil española comenzó en 1936 tras un golpe de Estado contra la Segunda República y terminó en 1939.",
-    "La dictadura de Francisco Franco duró hasta 1975 y se caracterizó por la falta de libertades y la represión.",
-    "Durante la posguerra hubo escasez económica y las mujeres perdieron muchos de los derechos conseguidos previamente."
+    "La Guerra Civil española comenzó en julio de 1936 tras un golpe de Estado contra la Segunda República. Terminó el 1 de abril de 1939.",
+    "La guerra causó muertes, destrucción y separaciones familiares. Muchas personas tuvieron que marcharse al exilio para ponerse a salvo.",
+    "Tras la victoria de los sublevados, la dictadura de Franco se extendió por toda España. No había elecciones libres y se perseguía a quienes se oponían al régimen.",
+    "En los primeros años de la posguerra faltaban alimentos. También se restringieron derechos de las mujeres, especialmente de las casadas.",
+    "Franco murió en 1975. Después, durante la Transición, se recuperaron libertades y se celebraron elecciones democráticas en 1977."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -44,111 +46,112 @@
     {
       "id": "g6-sociales-la-guerra-civil-y-el-franquismo-01",
       "type": "choice",
-      "prompt": "En clase de Ciencias Sociales, Hugo y Lucía investigan cómo empezó el conflicto bélico en España en el siglo XX. ¿Qué hecho desencadenó el inicio de la Guerra Civil en julio de 1936?",
-      "explanation": "La Guerra Civil comenzó en julio de 1936 tras la sublevación militar liderada por un sector del ejército contra la legalidad de la Segunda República.",
-      "hint": "Piensa en un levantamiento militar contra las instituciones legales del país.",
+      "prompt": "¿Qué hecho dio inicio a la Guerra Civil española en julio de 1936?",
+      "explanation": "Un sector del ejército dio un golpe de Estado contra la Segunda República. Al no imponerse en todo el país, el golpe dio paso a una guerra.",
+      "hint": "Recuerda qué significa intentar tomar el poder por la fuerza.",
       "lang": "es",
       "options": [
-        "Un golpe de Estado militar contra el gobierno democrático de la Segunda República.",
-        "La invasión militar de tropas extranjeras que querían conquistar la península.",
-        "La aprobación de una nueva Constitución democrática en el Parlamento.",
-        "Una declaración de guerra oficial entre España y Francia."
+        "Un golpe de Estado contra el gobierno de la Segunda República.",
+        "La proclamación de la Segunda República.",
+        "La muerte de Francisco Franco.",
+        "Las primeras elecciones de la Transición."
       ],
       "answer": 0
     },
     {
       "id": "g6-sociales-la-guerra-civil-y-el-franquismo-02",
       "type": "true-false",
-      "prompt": "La Guerra Civil española tuvo una duración de casi tres años, desarrollándose entre julio de 1936 y abril de 1939.",
-      "explanation": "El conflicto bélico se inició el 17-18 de julio de 1936 y concluyó oficialmente el 1 de abril de 1939 con la victoria del bando sublevado.",
+      "prompt": "La Guerra Civil española duró casi tres años: desde julio de 1936 hasta abril de 1939.",
+      "explanation": "Es verdadero. Comenzó en julio de 1936 y terminó el 1 de abril de 1939 con la victoria de los sublevados, el grupo que había dado el golpe de Estado.",
       "lang": "es",
       "answer": true
     },
     {
       "id": "g6-sociales-la-guerra-civil-y-el-franquismo-03",
       "type": "fill-blank",
-      "prompt": "Completa la frase sobre la difícil situación económica de los primeros años de la posguerra.",
-      "explanation": "Las cartillas de racionamiento se emplearon desde 1939 hasta 1952 para asignar a cada familia una cantidad limitada de alimentos básicos de primera necesidad.",
+      "prompt": "Completa la frase sobre el reparto de alimentos en la posguerra.",
+      "explanation": "Las cartillas de racionamiento indicaban la cantidad de alimentos que cada persona podía recibir. Se utilizaron en España entre 1939 y 1952, en una época de escasez.",
       "lang": "es",
-      "sentence": "Para controlar el reparto de alimentos básicos durante la escasez de la posguerra, el régimen utilizó las ___ de racionamiento.",
+      "sentence": "Durante la escasez de alimentos, se usaban las ___ de racionamiento para organizar su reparto.",
       "options": [
         "cartillas",
-        "monedas",
-        "tarjetas"
+        "papeletas electorales",
+        "licencias de trabajo"
       ],
       "answer": 0
     },
     {
       "id": "g6-sociales-la-guerra-civil-y-el-franquismo-04",
       "type": "order",
-      "prompt": "Ordena cronológicamente estos importantes acontecimientos históricos de la España del siglo XX:",
-      "explanation": "La Segunda República comenzó en 1931, la guerra se extendió de 1936 a 1939, y la dictadura militar perduró hasta la muerte de Franco en 1975.",
+      "prompt": "Ordena estos acontecimientos del más antiguo al más reciente.",
+      "explanation": "La República se proclamó en 1931. La guerra comenzó en 1936 y terminó en 1939; la República continuó durante la guerra en parte del territorio. Franco murió en 1975 y las elecciones democráticas llegaron en 1977.",
       "lang": "es",
       "items": [
-        "Proclamación de la Segunda República (1931)",
-        "Golpe de Estado e inicio de la Guerra Civil (1936)",
-        "Fin de la Guerra Civil e inicio de la dictadura (1939)",
-        "Fallecimiento de Francisco Franco y fin del régimen (1975)"
+        "Proclamación de la Segunda República",
+        "Golpe de Estado e inicio de la Guerra Civil",
+        "Fin de la guerra y extensión de la dictadura de Franco a toda España",
+        "Muerte de Franco e inicio de la Transición",
+        "Primeras elecciones democráticas de la Transición"
       ]
     },
     {
       "id": "g6-sociales-la-guerra-civil-y-el-franquismo-05",
       "type": "match",
-      "prompt": "Relaciona cada concepto histórico de esta época con su definición correcta:",
-      "explanation": "Estos términos explican las duras condiciones políticas, sociales y económicas impuestas durante la etapa franquista.",
+      "prompt": "Relaciona cada palabra con su significado en este tema.",
+      "explanation": "Estas palabras ayudan a entender cómo la guerra y la dictadura afectaron a la vida cotidiana y a las libertades.",
       "lang": "es",
       "pairs": [
         {
           "left": "Exilio",
-          "right": "Salida obligada del país de miles de personas por persecución ideológica."
+          "right": "Marcharse a otro país para ponerse a salvo de la persecución."
         },
         {
           "left": "Censura",
-          "right": "Control oficial y prohibición de libros, periódicos, películas u opiniones."
+          "right": "Controlar o prohibir noticias, libros y opiniones."
         },
         {
-          "left": "Autarquía",
-          "right": "Política económica que busca el autoabastecimiento sin comerciar con el exterior."
+          "left": "Racionamiento",
+          "right": "Limitar la cantidad de productos que recibe cada persona cuando escasean."
         },
         {
           "left": "Dictadura",
-          "right": "Sistema de gobierno donde una persona o grupo concentra todo el poder sin elecciones libres."
+          "right": "Gobierno que concentra el poder y no permite elecciones libres."
         }
       ]
     },
     {
       "id": "g6-sociales-la-guerra-civil-y-el-franquismo-06",
       "type": "classify",
-      "prompt": "Clasifica los siguientes rasgos según correspondan a la dictadura franquista o a un sistema democrático:",
-      "explanation": "Una democracia garantiza libertades públicas, elecciones libres y división de poderes, mientras que la dictadura concentraba el poder y prohibía la oposición política.",
+      "prompt": "Clasifica estos rasgos de la dictadura franquista y de una democracia.",
+      "explanation": "En el franquismo se concentraba el poder y se limitaban las libertades. En una democracia, la ciudadanía puede elegir a sus representantes y expresar sus opiniones respetando los derechos de los demás.",
       "lang": "es",
       "categories": [
         "Dictadura franquista",
-        "Sistema democrático"
+        "Democracia"
       ],
       "items": [
         {
-          "text": "Existencia de un único partido oficial permitido",
+          "text": "Prohibir los partidos de oposición.",
           "category": 0
         },
         {
-          "text": "Elecciones libres con sufragio universal y variedad de partidos",
+          "text": "Elegir a los representantes en elecciones libres.",
           "category": 1
         },
         {
-          "text": "Prohibición del derecho de huelga y de manifestación",
+          "text": "Censurar las noticias que critican al gobierno.",
           "category": 0
         },
         {
-          "text": "Reconocimiento y protección de los derechos humanos y libertades individuales",
+          "text": "Permitir la crítica pacífica al gobierno.",
           "category": 1
         },
         {
-          "text": "Concentración de todos los poderes del Estado en una sola persona",
+          "text": "Concentrar el poder en Franco.",
           "category": 0
         },
         {
-          "text": "Separación de poderes (legislativo, ejecutivo y judicial)",
+          "text": "Separar las funciones de hacer leyes, gobernar y juzgar.",
           "category": 1
         }
       ]
@@ -156,77 +159,86 @@
     {
       "id": "g6-sociales-la-guerra-civil-y-el-franquismo-07",
       "type": "choice",
-      "prompt": "Al estudiar la sociedad de la época con perspectiva de género, Martina observa que la situación legal de las mujeres cambió drásticamente tras la Guerra Civil. ¿Qué ocurrió con los derechos de las mujeres durante el franquismo?",
-      "explanation": "El franquismo derogó las leyes de igualdad republicanas. Las mujeres pasaron a depender legalmente de sus padres o maridos para firmar contratos, trabajar o viajar.",
-      "hint": "Fíjate en si la dictadura amplió las libertades o recuperó roles tradicionales muy restrictivos.",
+      "prompt": "Martina estudia cómo vivían las mujeres durante el franquismo. ¿Qué afirmación es correcta?",
+      "explanation": "El franquismo suprimió el divorcio y restringió la autonomía de las mujeres. Durante gran parte de la dictadura, muchas mujeres casadas necesitaban el permiso del marido para trabajar o firmar contratos; ese permiso se eliminó en mayo de 1975.",
+      "hint": "Piensa en si todas las personas podían tomar las mismas decisiones por sí mismas.",
       "lang": "es",
       "options": [
-        "Ocuparon por primera vez la mitad de los ministerios y los altos cargos del gobierno de España.",
-        "Mantuvieron todos los derechos laborales y de voto exactamente igual que durante la Segunda República.",
-        "Se aprobó de inmediato la igualdad salarial obligatoria entre hombres y mujeres en todas las fábricas.",
-        "Perdieron derechos civiles fundamentales adquiridos en la República, como el divorcio o la necesidad del permiso del marido para trabajar."
+        "Todas las mujeres conservaron la misma autonomía legal que los hombres.",
+        "Las restricciones afectaban solo a la participación en elecciones.",
+        "Todas las restricciones desaparecieron al terminar la guerra en 1939.",
+        "Se limitaron sus derechos; muchas mujeres casadas necesitaban autorización del marido para trabajar o firmar contratos."
       ],
       "answer": 3
     },
     {
       "id": "g6-sociales-la-guerra-civil-y-el-franquismo-08",
       "type": "reading",
-      "prompt": "Lee el texto atentamente y responde a las preguntas planteadas.",
-      "explanation": "El exilio republicano supuso una gran pérdida humana, científica y cultural para España, obligando a miles de ciudadanos a vivir lejos de su hogar.",
+      "prompt": "Lee este relato inventado, basado en situaciones del exilio de 1939, y responde.",
+      "explanation": "El relato es ficticio. El exilio de muchas personas a Francia y México sí es un hecho histórico. Para estudiar casos reales, hay que consultar documentos y testimonios.",
       "lang": "es",
-      "title": "La maleta del abuelo Manuel",
-      "text": "Aisha y su abuelo Manuel ordenaban el trastero cuando encontraron una maleta de cuero desgastada. Dentro guardaba recortes de prensa amarillentos, un carné republicano y varias cartas escritas con letra apretada desde Francia. Manuel le explicó a Aisha que aquellas cartas pertenecieron a su tío abuelo Ramón, un maestro de escuela que tuvo que cruzar los Pirineos a pie en el invierno de 1939 tras finalizar la Guerra Civil. Ramón pasó varios años en campos de personas refugiadas antes de poder rehacer su vida en México, sin poder regresar jamás a su pueblo natal debido a sus ideas políticas. Aisha comprendió entonces que la guerra no solo destruyó edificios e infraestructuras, sino que fracturó miles de familias que sufrieron el dolor del desarraigo y el silencio durante décadas.",
+      "title": "Las cartas de Ramón",
+      "text": "Aisha y su abuelo Manuel encontraron unas cartas antiguas en una maleta. Manuel le explicó que las había escrito Ramón, un familiar que era maestro. En febrero de 1939, cuando la Guerra Civil todavía no había terminado, Ramón cruzó la frontera hacia Francia. Temía ser perseguido por sus ideas políticas.\n\nEn Francia pasó un tiempo en un campo de personas refugiadas. Más adelante viajó a México, donde pudo trabajar de nuevo como maestro. En sus cartas contaba que echaba de menos su pueblo y a su familia.\n\nAisha comprendió que una guerra afecta también a quienes no combaten: muchas personas pierden su hogar o deben vivir lejos de sus seres queridos. Su abuelo le explicó que conservar cartas y escuchar testimonios ayuda a conocer el pasado. También es importante comparar esas fuentes con otros documentos para entender mejor lo ocurrido.",
       "questions": [
         {
-          "prompt": "¿Por qué tuvo Ramón que abandonar España y cruzar la frontera en 1939 según el texto?",
-          "explanation": "Ramón formaba parte de los miles de exiliados que tuvieron que huir al concluir la guerra para evitar represalias por su compromiso con la República.",
+          "prompt": "Según el relato, ¿por qué se marchó Ramón a Francia?",
+          "explanation": "El texto dice que temía ser perseguido por sus ideas políticas. Salió en febrero de 1939, antes del final de la guerra en abril.",
           "options": [
-            "Porque recibió una oferta de trabajo como profesor universitario en Francia.",
-            "Porque huía de las consecuencias del fin de la guerra debido a sus ideas políticas.",
-            "Porque quería viajar de turismo y conocer otros países europeos."
+            "Para visitar a unos familiares durante las vacaciones.",
+            "Para ponerse a salvo de una posible persecución.",
+            "Porque había encontrado un trabajo antes de salir."
           ],
           "answer": 1
         },
         {
-          "prompt": "¿Qué reflexión podemos extraer del testimonio de Manuel sobre el valor de la memoria histórica?",
-          "explanation": "La memoria histórica rescata vivencias reales que nos permiten comprender el sufrimiento causado por las guerras y defender la convivencia pacífica actual.",
+          "prompt": "¿Qué muestran las cartas sobre las consecuencias de la guerra?",
+          "explanation": "Ramón pudo rehacer su vida, pero echaba de menos a su familia y su pueblo. La guerra también tuvo consecuencias duraderas para la población civil.",
           "options": [
-            "Guardar cartas antiguas en maletas solo sirve para acumular polvo sin aportar valor al presente.",
-            "Los conflictos del pasado no tienen ninguna relación con la sociedad en la que vivimos hoy.",
-            "Conocer las historias familiares y los testimonios del pasado nos ayuda a empatizar con las víctimas y valorar la paz."
+            "Solo afectó a los edificios destruidos.",
+            "Quienes salieron del país dejaron de recordar su hogar.",
+            "Separó a familias y obligó a muchas personas a vivir lejos de casa."
           ],
           "answer": 2
+        },
+        {
+          "prompt": "Para investigar un caso real de exilio, ¿qué sería lo más útil?",
+          "explanation": "Las cartas y los testimonios aportan experiencias personales. Compararlos con documentos de la época permite comprobar datos y comprender el contexto.",
+          "options": [
+            "Comparar cartas y testimonios reales con otros documentos de la época.",
+            "Usar este relato inventado como prueba de la vida de una persona real.",
+            "Sacar conclusiones sobre todas las familias a partir de una sola carta."
+          ],
+          "answer": 0
         }
       ]
     },
     {
       "id": "g6-sociales-la-guerra-civil-y-el-franquismo-09",
       "type": "choice",
-      "prompt": "En una asamblea escolar, Omar y sus compañeros debaten sobre cómo se deben gestionar los desacuerdos entre ciudadanos. Teniendo en cuenta lo aprendido sobre las consecuencias devastadoras de la Guerra Civil, ¿cuál es la mejor manera de resolver un conflicto en una sociedad?",
-      "explanation": "La cultura de paz promueve la resolución dialogada de los conflictos, respetando la pluralidad de opiniones y los derechos humanos para evitar cualquier violencia.",
-      "hint": "Recuerda los valores democráticos fundamentales de la convivencia pacífica.",
+      "prompt": "En una asamblea escolar hay opiniones distintas. ¿Qué forma de resolver el desacuerdo respeta la convivencia democrática?",
+      "explanation": "Escuchar, dialogar y buscar acuerdos permite resolver conflictos de forma pacífica. Aunque se vote, deben respetarse los derechos de todas las personas.",
+      "hint": "Una decisión compartida debe tener en cuenta también a quienes piensan de otra manera.",
       "lang": "es",
       "options": [
-        "Evitando hablar de los problemas y dejando que cada uno haga lo que quiera sin leyes.",
-        "Silenciando a quienes piensen de manera diferente mediante la censura y el castigo.",
-        "Imponiendo por la fuerza la opinión del grupo que tenga más apoyos o armas.",
-        "A través del diálogo constructivo, el respeto a las normas democráticas y la no violencia."
+        "Votar y permitir que la mayoría quite derechos al resto.",
+        "Dejar que decida siempre una sola persona.",
+        "Evitar que hablen quienes tienen una opinión diferente.",
+        "Escuchar las opiniones y buscar un acuerdo que respete los derechos de todos."
       ],
       "answer": 3
     },
     {
       "id": "g6-sociales-la-guerra-civil-y-el-franquismo-10",
-      "type": "order",
-      "prompt": "Ordena de más antiguo a más reciente estos periodos de la historia contemporánea de España para ver la evolución política completa del siglo XX:",
-      "explanation": "Tras la Segunda República (1931-1936) y la Guerra Civil (1936-1939), la dictadura pasó por una dura posguerra y un posterior crecimiento en los sesenta, antes de dar paso a la Transición democrática en 1975.",
+      "type": "choice",
+      "prompt": "Una noticia de 1965 cuenta que se abrieron nuevas fábricas en España. ¿Demuestra eso que el país ya era una democracia?",
+      "explanation": "El crecimiento económico de los años sesenta no acabó con la dictadura. Para reconocer una democracia hay que fijarse también en las elecciones libres, los derechos y las libertades.",
       "lang": "es",
-      "items": [
-        "Segunda República española",
-        "Guerra Civil española",
-        "Primeros años del franquismo (posguerra y autarquía)",
-        "Desarrollo económico de los años sesenta (aperturismo)",
-        "Transición hacia la democracia"
-      ]
+      "options": [
+        "Sí: abrir fábricas significa que hay elecciones libres.",
+        "No: puede crecer la economía y seguir habiendo una dictadura.",
+        "Sí: todos los cambios económicos eliminan la censura."
+      ],
+      "answer": 1
     }
   ],
   "meta": {

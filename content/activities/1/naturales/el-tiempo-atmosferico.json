@@ -46,7 +46,7 @@
     {
       "id": "g1-naturales-el-tiempo-atmosferico-01",
       "type": "choice",
-      "prompt": "Hoy el cielo está azul y no hay nubes. ¿Qué tiempo hace?",
+      "prompt": "Hoy brilla el sol y no hay nubes. ¿Qué tiempo hace?",
       "explanation": "Si vemos el sol y el cielo está despejado, el día es soleado.",
       "hint": "Mira si brilla el sol en el cielo.",
       "lang": "es",
@@ -146,14 +146,14 @@
     {
       "id": "g1-naturales-el-tiempo-atmosferico-07",
       "type": "choice",
-      "prompt": "Encuentra el error: Lucas dice algo falso sobre la nieve.",
+      "prompt": "¿Qué frase sobre la nieve tiene un error?",
       "explanation": "La nieve es agua helada en forma de copos, no contiene fuego.",
       "hint": "Piensa si la nieve está caliente o fría.",
       "lang": "es",
       "options": [
         "La nieve se derrite si sube la temperatura",
         "La nieve cae cuando hace mucho frío",
-        "La nieve está hecha de fuego y quema"
+        "La nieve es agua caliente que cae de las nubes."
       ],
       "answer": 2
     },
@@ -190,7 +190,7 @@
       "explanation": "Observar el tiempo cada día nos ayuda a saber qué ropa ponernos.",
       "lang": "es",
       "title": "El diario de Hugo",
-      "text": "Hugo anota el tiempo del cole. El lunes brilló el sol y no llevó chaqueta. El martes el viento movió las hojas con fuerza. El miércoles llovió mucho y abrió su paraguas rojo.",
+      "text": "Hugo anota el tiempo del cole. El lunes hizo calor y brilló el sol y no llevó chaqueta. El martes el viento movió las hojas con fuerza. El miércoles llovió mucho y abrió su paraguas rojo.",
       "questions": [
         {
           "prompt": "¿Qué día usó Hugo el paraguas rojo?",

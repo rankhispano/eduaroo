@@ -83,7 +83,7 @@
       "id": "g1-naturales-los-animales-02",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre cómo nacen algunos animales.",
-      "explanation": "Los animales ovíparos, como las aves o los peces, nacen de huevos.",
+      "explanation": "Los animales ovíparos nacen de huevos, como las gallinas y muchos peces.",
       "lang": "es",
       "sentence": "Los animales ovíparos nacen de un ___.",
       "options": [
@@ -127,7 +127,7 @@
       "lang": "es",
       "options": [
         "Carnívoro",
-        "Pez",
+        "Omnívoro",
         "Herbívoro"
       ],
       "answer": 2
@@ -207,7 +207,7 @@
       "id": "g1-naturales-los-animales-09",
       "type": "choice",
       "prompt": "Aisha encuentra bellotas y piñas mordisqueadas en el bosque. ¿Qué come ese animal misterioso?",
-      "explanation": "Las piñas y las bellotas son frutos de los árboles. El animal se alimenta de vegetales.",
+      "explanation": "Las bellotas son frutos y las piñas contienen semillas. Las marcas muestran que el animal ha comido partes de plantas.",
       "hint": "Las bellotas y las piñas vienen de los árboles.",
       "lang": "es",
       "options": [

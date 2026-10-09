@@ -2280,7 +2280,7 @@ export const ACTIVITY_SETS: ActivitySetSummary[] = [
         "asignaturaId": "naturales",
         "temaId": "la-reproduccion-humana-y-la-pubertad",
         "title": "La reproducción humana y la pubertad",
-        "summary": "Repasa los cambios de la pubertad, el funcionamiento de los aparatos reproductores y las etapas del desarrollo humano.",
+        "summary": "Aprende cómo cambia el cuerpo en la pubertad, las bases de la reproducción y cómo cuidarte respetando la intimidad de cada persona.",
         "activityCount": 10,
         "estimatedMinutes": 9
     },
@@ -2350,7 +2350,7 @@ export const ACTIVITY_SETS: ActivitySetSummary[] = [
         "asignaturaId": "sociales",
         "temaId": "la-guerra-civil-y-el-franquismo",
         "title": "La Guerra Civil y el franquismo",
-        "summary": "Repasa las causas, etapas y consecuencias de la Guerra Civil española y la dictadura franquista.",
+        "summary": "Comprende qué ocurrió entre 1936 y 1975, cómo afectó a las personas y por qué son importantes la paz y los derechos.",
         "activityCount": 10,
         "estimatedMinutes": 9
     },

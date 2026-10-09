@@ -7,7 +7,7 @@
   "title": "Comemos sano cada día",
   "summary": "Aprende a elegir alimentos saludables para crecer con fuerza y energía.",
   "keyIdeas": [
-    "Comer fruta y verdura a diario nos da vitaminas para no enfermar.",
+    "Comer fruta y verdura a diario aporta vitaminas, minerales y fibra.",
     "El agua es la mejor bebida para tener el cuerpo bien hidratado.",
     "Los dulces y la bollería solo se deben comer en ocasiones especiales."
   ],
@@ -59,8 +59,8 @@
     {
       "id": "g1-naturales-alimentacion-saludable-02",
       "type": "true-false",
-      "prompt": "Las frutas y las verduras nos ayudan a no enfermar.",
-      "explanation": "Tienen muchas vitaminas y minerales que protegen nuestra salud.",
+      "prompt": "La fruta y la verdura ayudan a cuidar nuestra salud.",
+      "explanation": "Aportan vitaminas, minerales y fibra. Comer de forma variada ayuda a cuidarnos.",
       "lang": "es",
       "answer": true
     },
@@ -110,21 +110,21 @@
     {
       "id": "g1-naturales-alimentacion-saludable-05",
       "type": "match",
-      "prompt": "Une cada alimento con el momento más adecuado para tomarlo:",
-      "explanation": "La fruta se come a diario y los pasteles solo de vez en cuando en fiestas.",
+      "prompt": "Une cada alimento con su grupo.",
+      "explanation": "La manzana es una fruta, las lentejas son legumbres y el queso es un lácteo.",
       "lang": "es",
       "pairs": [
         {
-          "left": "Manzana crujiente",
-          "right": "Todos los días en el recreo"
+          "left": "Manzana",
+          "right": "Frutas"
         },
         {
-          "left": "Lentejas con verduras",
-          "right": "Comida del mediodía"
+          "left": "Lentejas",
+          "right": "Legumbres"
         },
         {
-          "left": "Tarta de cumpleaños",
-          "right": "En fiestas y días especiales"
+          "left": "Queso",
+          "right": "Lácteos"
         }
       ]
     },
@@ -145,9 +145,9 @@
     {
       "id": "g1-naturales-alimentacion-saludable-07",
       "type": "choice",
-      "prompt": "Encuentra el error. ¿Qué frase sobre la comida NO es correcta?",
-      "explanation": "La fruta entera es mejor que los zumos envasados porque conserva su fibra sana y no añade azúcares.",
-      "hint": "Piensa en qué tiene más azúcares añadidos.",
+      "prompt": "¿Qué frase sobre la comida tiene un error?",
+      "explanation": "La fruta entera conserva más fibra que el zumo. Incluso un zumo sin azúcar añadido contiene los azúcares de la fruta.",
+      "hint": "Piensa en la fibra de la fruta entera.",
       "lang": "es",
       "options": [
         "El zumo envasado sustituye a comer fruta entera",
@@ -159,9 +159,9 @@
     {
       "id": "g1-naturales-alimentacion-saludable-08",
       "type": "choice",
-      "prompt": "Omar compara dos manzanas. Una viene de un árbol del pueblo y otra en una caja de plástico desde muy lejos. ¿Cuál cuida mejor el planeta?",
-      "explanation": "Comer alimentos cercanos reduce el humo de los camiones y evita gastar plásticos innecesarios.",
-      "hint": "Cuanto menos viaje la comida, mejor.",
+      "prompt": "Dos manzanas se cultivan igual. Una viaja menos y lleva menos plástico. ¿Cuál ahorra transporte y envases?",
+      "explanation": "En este caso, elegir la manzana cercana ahorra transporte y envases. El impacto de un alimento también depende de cómo se cultiva.",
+      "hint": "Compara el viaje y el envase de las manzanas.",
       "lang": "es",
       "options": [
         "La manzana que viajó lejos en caja de plástico",
@@ -191,11 +191,11 @@
         },
         {
           "prompt": "¿Por qué es saludable la comida que preparan?",
-          "explanation": "Los alimentos frescos del huerto son naturales, sanos y muy buenos para crecer.",
+          "explanation": "La verdura aporta nutrientes y fibra. Es parte de una alimentación variada.",
           "options": [
             "Porque tiene mucho azúcar y chocolate",
             "Porque viene en bolsas de plástico",
-            "Porque son verduras frescas y naturales"
+            "Porque la verdura aporta vitaminas, minerales y fibra."
           ],
           "answer": 2
         }

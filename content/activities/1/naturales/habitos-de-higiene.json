@@ -7,7 +7,7 @@
   "title": "Hábitos geniales para estar limpios",
   "summary": "Practica cómo cuidar la higiene del cuerpo y ahorrar agua cada día.",
   "keyIdeas": [
-    "Lavarse las manos con agua y jabón elimina los microbios y la suciedad.",
+    "Lavarse las manos con agua y jabón ayuda a retirar suciedad y microbios.",
     "Cepillarse los dientes después de comer previene las caries y cuida la boca.",
     "Cerrar el grifo mientras nos lavamos ayuda a proteger el agua del planeta."
   ],
@@ -44,7 +44,7 @@
       "id": "g1-naturales-habitos-de-higiene-01",
       "type": "choice",
       "prompt": "Aisha vuelve del patio y va a merendar. ¿Qué debe hacer antes de tocar la comida?",
-      "explanation": "Lavarse con agua y jabón elimina los microbios que recogemos al jugar. Así comemos de forma segura.",
+      "explanation": "Lavarse con agua y jabón ayuda a retirar suciedad y microbios antes de comer.",
       "hint": "Necesitas agua y jabón.",
       "lang": "es",
       "options": [
@@ -104,7 +104,7 @@
       "id": "g1-naturales-habitos-de-higiene-05",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre el cuidado de la boca.",
-      "explanation": "El cepillado elimina los restos de comida y evita que salgan caries en los dientes.",
+      "explanation": "Cepillarse los dientes con pasta dental ayuda a prevenir las caries.",
       "lang": "es",
       "sentence": "Hugo se cepilla los dientes para evitar las ___.",
       "options": [
@@ -154,14 +154,14 @@
     {
       "id": "g1-naturales-habitos-de-higiene-07",
       "type": "choice",
-      "prompt": "Omar pone purpurina en sus manos para imitar a los microbios. Con solo agua, no se va. ¿Qué pasará si usa agua y jabón?",
-      "explanation": "El jabón se une a la suciedad y ayuda a que el agua se la lleve al aclarar.",
-      "hint": "El jabón sirve para despegar la suciedad.",
+      "prompt": "Omar se lava las manos con agua y jabón. ¿Por qué usa jabón?",
+      "explanation": "El jabón ayuda a retirar la suciedad de las manos al aclararlas.",
+      "hint": "Piensa en qué queda en las manos después de jugar.",
       "lang": "es",
       "options": [
-        "Se pegará más purpurina a la piel",
-        "La purpurina cambiará de color",
-        "La purpurina se irá con la espuma"
+        "Para mojar las manos más rápido.",
+        "Para no tener que aclararlas.",
+        "Para ayudar a retirar la suciedad."
       ],
       "answer": 2
     },
