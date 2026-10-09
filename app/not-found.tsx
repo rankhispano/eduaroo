@@ -1,23 +1,13 @@
-// Server Component 
-// actually not-found.tsx can be server.
-// Let's try server component.
-
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
 import NotFoundContent from '@/components/NotFoundContent';
-import './globals.css';
+import messages from '@/messages/es.json';
 
-export default async function NotFound() {
-    // Default to English for global 404
-    const messages = await getMessages({ locale: 'en' });
-
+// 404 para rutas fuera de /[locale]; se sirve en español, el idioma por defecto del sitio.
+// Props del provider explícitas: si no, lee cabeceras y vuelve dinámicas todas las páginas.
+export default function NotFound() {
     return (
-        <html lang="en">
-            <body className="font-sans antialiased">
-                <NextIntlClientProvider locale="en" messages={messages}>
-                    <NotFoundContent />
-                </NextIntlClientProvider>
-            </body>
-        </html>
+        <NextIntlClientProvider locale="es" messages={messages} formats={{}} timeZone="Europe/Madrid" now={new Date(0)}>
+            <NotFoundContent />
+        </NextIntlClientProvider>
     );
 }

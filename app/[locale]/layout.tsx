@@ -1,5 +1,5 @@
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { NextIntlClientProvider, hasLocale } from 'next-intl';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import Navbar from '@/components/Navbar';
@@ -12,6 +12,15 @@ import PracticeStoreHydrator from '@/components/PracticeStoreHydrator';
 import { RolesProvider } from '@/lib/auth/RolesContext';
 
 import { getTranslations } from 'next-intl/server';
+
+// El sitio no usa formato de fechas relativas (useNow): valor fijo para no depender de la petición
+const BUILD_NOW = new Date(0);
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+    return routing.locales.map((locale) => ({ locale }));
+}
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
     const params = await props.params;
@@ -43,16 +52,19 @@ export default async function LocaleLayout({
     const { locale } = await params;
 
     // Ensure that the incoming `locale` is valid
-    if (!routing.locales.includes(locale as any)) {
+    if (!hasLocale(routing.locales, locale)) {
         notFound();
     }
 
+    setRequestLocale(locale);
+
     // Providing all messages to the client
     // side is the easiest way to get started
-    const messages = await getMessages();
+    const messages = await getMessages({ locale });
 
+    // Todas las props del provider son explícitas: así no lee cabeceras y las páginas se generan estáticas
     return (
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages} formats={{}} timeZone="Europe/Madrid" now={BUILD_NOW}>
             <RolesProvider>
                 <ThemeProvider
                     attribute="class"

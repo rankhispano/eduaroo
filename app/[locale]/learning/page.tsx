@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import CursoCard from '@/src/components/CursoCard';
 import { curriculum } from '@/src/data/curriculum';
@@ -15,6 +15,7 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
 
 export default async function LearningPage(props: { params: Promise<{ locale: string }> }) {
     const { locale } = await props.params;
+    setRequestLocale(locale);
     const t = await getTranslations({ locale, namespace: 'LearningPage' });
     const basePath = `/${locale}/learning`;
 

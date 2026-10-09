@@ -1,10 +1,14 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import TemaPath from '@/components/map/TemaPath';
+import { asignaturaParams } from '@/lib/seo/params';
 import { getAsignatura, getCurso } from '@/src/data/curriculum';
 import { getPracticeSet, withGeneratedActivities } from '@/src/data/activityResources';
 import { REGIONS } from '@/src/data/regions';
+
+export const dynamicParams = false;
+export const generateStaticParams = asignaturaParams;
 
 export async function generateMetadata({
     params,
@@ -34,6 +38,7 @@ export default async function Page({
     params: Promise<{ locale: string; curso: string; asignatura: string }>;
 }) {
     const { locale, curso, asignatura } = await params;
+    setRequestLocale(locale);
     const cursoData = getCurso(curso);
     const asignaturaData = getAsignatura(curso, asignatura);
 

@@ -1,7 +1,11 @@
 import type { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import CursoAsignaturasPage from '@/app/(repasa)/_views/CursoAsignaturasPage';
+import { cursoParams } from '@/lib/seo/params';
 import { getCurso } from '@/src/data/curriculum';
+
+export const dynamicParams = false;
+export const generateStaticParams = cursoParams;
 
 export async function generateMetadata({
     params,
@@ -24,6 +28,7 @@ export default async function Page({
     params: Promise<{ locale: string; curso: string }>;
 }) {
     const { locale, curso } = await params;
+    setRequestLocale(locale);
     const t = await getTranslations({ locale, namespace: 'LearningPage' });
 
     return (

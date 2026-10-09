@@ -1,11 +1,16 @@
+import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import ActivityPlayer from '@/components/activities/ActivityPlayer';
 import { ACTIVITY_LOADERS, ACTIVITY_SETS } from '@/content/activities/registry';
 import { getCriterion } from '@/lib/curriculum/lomloe';
+import { temaParams } from '@/lib/seo/params';
 import { getAsignatura, getCurso } from '@/src/data/curriculum';
 
 type Params = Promise<{ locale: string; curso: string; asignatura: string; tema: string }>;
+
+export const dynamicParams = false;
+export const generateStaticParams = temaParams;
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
     const { curso, asignatura, tema } = await params;
@@ -21,7 +26,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 }
 
 export default async function Page({ params }: { params: Params }) {
-    const { curso, asignatura, tema } = await params;
+    const { locale, curso, asignatura, tema } = await params;
+    setRequestLocale(locale);
     const loader = ACTIVITY_LOADERS[`${curso}/${asignatura}/${tema}`];
     const cursoData = getCurso(curso);
     const asignaturaData = getAsignatura(curso, asignatura);
