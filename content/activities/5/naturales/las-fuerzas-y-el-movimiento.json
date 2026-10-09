@@ -1,0 +1,253 @@
+{
+  "id": "g5-naturales-las-fuerzas-y-el-movimiento",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "las-fuerzas-y-el-movimiento",
+  "temaNombre": "Las fuerzas y el movimiento",
+  "title": "Las fuerzas y el movimiento",
+  "summary": "Repasa cómo actúan las fuerzas, los tipos de movimiento, el rozamiento y la gravedad con experimentos cotidianos.",
+  "keyIdeas": [
+    "Una fuerza es cualquier interacción capaz de cambiar el movimiento o la forma de un cuerpo.",
+    "Las fuerzas pueden actuar por contacto (rozamiento, empuje) o a distancia (gravedad, magnetismo).",
+    "La fuerza de rozamiento se opone siempre al movimiento de los objetos en contacto con una superficie."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-01",
+      "type": "classify",
+      "prompt": "Clasifica cada una de estas acciones según actúen mediante fuerzas de contacto o fuerzas a distancia:",
+      "explanation": "Las fuerzas de contacto necesitan que los cuerpos se toquen físicamente, mientras que las fuerzas a distancia (como la gravedad o el magnetismo) actúan sin necesidad de contacto directo.",
+      "lang": "es",
+      "categories": [
+        "Fuerzas de contacto",
+        "Fuerzas a distancia"
+      ],
+      "items": [
+        {
+          "text": "Empujar un carrito de la compra con las manos",
+          "category": 0
+        },
+        {
+          "text": "La atracción de un imán sobre un clip metálico",
+          "category": 1
+        },
+        {
+          "text": "La caída de una manzana madura desde un árbol",
+          "category": 1
+        },
+        {
+          "text": "Frenar la bicicleta con las zapatas de goma",
+          "category": 0
+        },
+        {
+          "text": "Un globo que atrae trocitos de papel tras frotarlo con lana",
+          "category": 1
+        },
+        {
+          "text": "Chutar un balón de fútbol en el patio",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre los efectos de las fuerzas sobre la materia.",
+      "explanation": "Las fuerzas no solo mueven o frenan objetos; también pueden deformarlos de manera elástica (vuelven a su forma) o plástica/permanente (no la recuperan, como la plastilina).",
+      "hint": "Piensa en el cambio de forma que sufre el material.",
+      "lang": "es",
+      "sentence": "Cuando aplastamos una bola de plastilina y su forma cambia sin volver a su estado original, decimos que se ha producido una ___ permanente.",
+      "options": [
+        "deformación",
+        "atracción",
+        "velocidad"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-03",
+      "type": "true-false",
+      "prompt": "La fuerza de rozamiento siempre actúa en el mismo sentido hacia el que se desplaza un objeto.",
+      "explanation": "La fuerza de rozamiento siempre se opone al movimiento, por lo que actúa exactamente en el sentido contrario a la dirección en la que avanza el objeto.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-04",
+      "type": "match",
+      "prompt": "Relaciona cada acción cotidiana con el efecto principal que produce la fuerza ejercida:",
+      "explanation": "Las fuerzas pueden modificar el estado de movimiento (parar, acelerar, desviar) o alterar la forma de los objetos (deformación temporal o permanente).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Apretar el freno de un patinete",
+          "right": "Disminuir la velocidad del cuerpo"
+        },
+        {
+          "left": "Estirar una goma elástica de papelería",
+          "right": "Deformación reversible o temporal"
+        },
+        {
+          "left": "Desviar con la raqueta una pelota de tenis",
+          "right": "Cambiar la dirección del movimiento"
+        },
+        {
+          "left": "Pisar con fuerza una lata vacía de refresco",
+          "right": "Deformación permanente o plástica"
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-05",
+      "type": "choice",
+      "prompt": "En clase, cuatro compañeros debaten sobre la masa y el peso de una persona si viajara a la Luna. ¿Quién tiene la idea científica CORRECTA?",
+      "explanation": "La masa es la cantidad de materia que tenemos y nunca cambia según el lugar. El peso es la fuerza con la que la gravedad nos atrae hacia el suelo, y como la Luna tiene menos masa que la Tierra, su atracción es menor.",
+      "hint": "Recuerda cuál de las dos medidas mide la cantidad de materia de nuestro cuerpo.",
+      "lang": "es",
+      "options": [
+        "Lucía: «Nuestra masa seguirá siendo idéntica; lo que cambia es nuestro peso, porque la Luna nos atrae con menor fuerza».",
+        "Hugo: «Nuestra masa se reducirá a la sexta parte porque en la Luna flotamos».",
+        "Aisha: «El peso y la masa son lo mismo, por eso en la Luna ambos valores disminuyen a cero».",
+        "Adrián: «La masa aumenta para compensar que la gravedad lunar es mucho más débil»."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-06",
+      "type": "choice",
+      "prompt": "Nerea suelta un mismo cochecito de juguete desde lo alto de una rampa inclinada sobre tres superficies distintas: hielo liso, una toalla de felpa y madera pulida. ¿Sobre qué superficie recorrerá MENOS distancia y por qué?",
+      "explanation": "Cuanto más rugosa es una superficie, mayor es la fuerza de rozamiento entre ella y las ruedas, lo que provoca que la energía del movimiento se disipe antes en forma de calor y el objeto se detenga.",
+      "hint": "Piensa en qué suelo ofrece más resistencia al deslizamiento.",
+      "lang": "es",
+      "options": [
+        "Sobre la toalla de felpa, porque su superficie rugosa genera mayor rozamiento y frena el coche.",
+        "Recorrerá exactamente la misma distancia en las tres, porque la altura de la rampa es idéntica.",
+        "Sobre el hielo liso, porque al resbalar pierde la inercia del movimiento rápidamente.",
+        "Sobre la madera pulida, porque absorbe el peso del cochecito e impide su avance."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-07",
+      "type": "order",
+      "prompt": "Omar quiere investigar científicamente cómo influye el peso de una caja en la fuerza necesaria para arrastrarla. Ordena los pasos del método científico que debe seguir:",
+      "explanation": "El método científico comienza observando y haciendo hipótesis, continúa con el diseño y la recogida rigurosa de datos, y finaliza analizando los resultados para comunicar conclusiones.",
+      "lang": "es",
+      "items": [
+        "Plantearse una pregunta y predecir qué pasará al añadir más peso",
+        "Diseñar el experimento utilizando un dinamómetro y cajas con diferentes cargas",
+        "Medir la fuerza necesaria para mover cada caja y registrar los datos",
+        "Analizar los resultados obtenidos y compararlos con su predicción",
+        "Elaborar una conclusión final y comunicarla a sus compañeros"
+      ]
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-08",
+      "type": "choice",
+      "prompt": "En una carrera de orientación del colegio, Martina recorre 200 metros en 40 segundos, mientras que Mateo recorre 300 metros en 50 segundos. ¿Quién se ha desplazado con mayor velocidad media?",
+      "explanation": "La velocidad media se calcula dividiendo la distancia entre el tiempo empleado. Martina fue a 200 / 40 = 5 m/s, mientras que Mateo se desplazó a 300 / 50 = 6 m/s.",
+      "hint": "Divide la distancia recorrida entre los segundos empleados por cada uno.",
+      "lang": "es",
+      "options": [
+        "Mateo, porque su velocidad media es de 6 m/s frente a los 5 m/s de Martina.",
+        "Martina, porque tardó menos segundos en llegar al final de su tramo.",
+        "Ambos tuvieron la misma velocidad media porque la proporción es equivalente.",
+        "Martina, porque recorrió 5 metros cada segundo y Mateo solo 4 metros cada segundo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-09",
+      "type": "reading",
+      "prompt": "Lee atentamente el siguiente texto sobre el rozamiento y la seguridad vial, y responde a las preguntas:",
+      "explanation": "El rozamiento es una fuerza indispensable para el transporte terrestre; sin él, los vehículos no podrían arrancar, girar ni frenar.",
+      "lang": "es",
+      "title": "El agarre invisible de los neumáticos",
+      "text": "Cuando montamos en bicicleta o viajamos en autobús, la fuerza de rozamiento entre los neumáticos y el suelo es fundamental para nuestra seguridad. Esta fricción permite que las ruedas agarren el asfalto al girar y que los frenos detengan el vehículo a tiempo.\n\nSin embargo, cuando llueve, el agua se acumula sobre la calzada formando una fina película líquida. Si los neumáticos están desgastados y no tienen un dibujo con surcos profundos que canalicen el agua hacia los lados, las ruedas dejan de tocar el asfalto y comienzan a flotar sobre el agua. Este peligroso fenómeno se conoce como aquaplaning.\n\nAl desaparecer el rozamiento directo con el suelo duro, el conductor pierde por completo el control de la dirección y del frenado. Por esta razón, la ciencia y la tecnología dedican grandes esfuerzos al diseño de neumáticos con materiales innovadores y al mantenimiento regular de los vehículos.",
+      "questions": [
+        {
+          "prompt": "¿Qué función principal cumplen los surcos del dibujo de los neumáticos según el texto?",
+          "explanation": "El texto explica que los surcos profundos canalizan el agua hacia los lados para evitar que la rueda flote sobre la película líquida.",
+          "options": [
+            "Enfriar los frenos del autobús para que no desprendan calor.",
+            "Aumentar el peso del vehículo para que no se mueva con el viento.",
+            "Evacuar y canalizar el agua acumulada para mantener el contacto con el asfalto."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "A partir del texto, ¿por qué en un día lluvioso la distancia para frenar por completo un coche suele ser mayor que en un día seco?",
+          "explanation": "Al haber agua en la calzada, la fricción disminuye, por lo que las ruedas resbalan con mayor facilidad y el vehículo necesita más metros para detenerse.",
+          "options": [
+            "Porque el agua reduce la fuerza de rozamiento entre el neumático y la carretera.",
+            "Porque la gravedad terrestre disminuye cuando hay nubes y lluvia en la atmósfera.",
+            "Porque los frenos mecánicos se vuelven más pesados al mojarse con el agua."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué sucedería en las ciudades si lográsemos eliminar totalmente la fuerza de rozamiento en todas las carreteras?",
+          "explanation": "El rozamiento es imprescindible no solo para frenar, sino también para que las ruedas transmitan fuerza al suelo para arrancar y tomar curvas con seguridad.",
+          "options": [
+            "Sería un desastre vial, porque los vehículos no podrían frenar ni cambiar de dirección de forma controlada.",
+            "Sería un avance ideal, porque los vehículos viajarían a velocidad infinita sin gastar energía.",
+            "No cambiaría nada, ya que la gravedad sustituye completamente al rozamiento en el frenado."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-10",
+      "type": "choice",
+      "prompt": "En el recreo, dos grupos juegan al juego de la soga. El equipo azul tira hacia la izquierda con una fuerza de 150 newtons (N) y el equipo rojo tira hacia la derecha con una fuerza de 150 newtons (N). ¿Qué le ocurrirá al pañuelo situado en el centro de la cuerda?",
+      "explanation": "Cuando dos fuerzas de la misma magnitud actúan sobre un mismo cuerpo en la misma dirección pero en sentidos contrarios, su resultado total es cero (fuerzas equilibradas) y el cuerpo no varía su estado de reposo.",
+      "hint": "Compara la intensidad y el sentido de las dos fuerzas aplicadas.",
+      "lang": "es",
+      "options": [
+        "Oscilará de lado a lado sin parar porque las dos fuerzas se duplican.",
+        "Se moverá lentamente hacia la derecha, porque siempre predomina el movimiento hacia delante.",
+        "Caerá al suelo de golpe porque dos fuerzas iguales anulan la fuerza de la gravedad.",
+        "Permanecerá quieto en la misma posición, porque las dos fuerzas tienen igual intensidad pero sentidos opuestos, equilibrándose."
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:12:27.134Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "id": "g1-lengua-escritura-de-palabras",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "escritura-de-palabras",
+  "temaNombre": "Escritura de palabras",
+  "title": "¡Aprendo a escribir palabras!",
+  "summary": "Practica cómo juntar letras y sílabas para escribir palabras geniales.",
+  "keyIdeas": [
+    "Cada letra tiene su sonido y juntas forman palabras.",
+    "Escribimos las palabras separadas por un espacio.",
+    "Revisar lo que escribimos nos ayuda a mejorar."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE8",
+      "CE9"
+    ],
+    "criteria": [
+      "8.2",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL4",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-escritura-de-palabras-01",
+      "type": "true-false",
+      "prompt": "En la frase «El perro corre», las palabras están bien separadas.",
+      "explanation": "Muy bien. Siempre dejamos un espacio entre cada palabra al escribir.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-02",
+      "type": "match",
+      "prompt": "Une las sílabas para formar tres palabras:",
+      "explanation": "Al unir ca con sa sale casa, pe con lo forma pelo y lu con na forma luna.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "ca",
+          "right": "sa"
+        },
+        {
+          "left": "pe",
+          "right": "lo"
+        },
+        {
+          "left": "lu",
+          "right": "na"
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-03",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra bien escrita para completar la frase:",
+      "explanation": "La palabra correcta es lápiz, con l al principio y z al final.",
+      "hint": "Sirve para pintar y escribir.",
+      "lang": "es",
+      "sentence": "Hugo dibuja en su cuaderno con un ___.",
+      "options": [
+        "lápiz",
+        "lapi",
+        "llápiz"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-04",
+      "type": "order",
+      "prompt": "Ordena estas letras para escribir el nombre de un animal:",
+      "explanation": "Las letras G-A-T-O forman la palabra gato.",
+      "lang": "es",
+      "items": [
+        "G",
+        "A",
+        "T",
+        "O"
+      ]
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-05",
+      "type": "choice",
+      "prompt": "¿Cuál de estas tres palabras está bien escrita?",
+      "explanation": "Barco se escribe con b y lleva una r en medio.",
+      "hint": "Flota en el mar.",
+      "lang": "es",
+      "options": [
+        "baco",
+        "varco",
+        "barco"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-06",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según sus sílabas:",
+      "explanation": "Pan y sol tienen un solo golpe de voz. Me-sa y mo-no tienen dos golpes de voz.",
+      "lang": "es",
+      "categories": [
+        "Una sílaba",
+        "Dos sílabas"
+      ],
+      "items": [
+        {
+          "text": "pan",
+          "category": 0
+        },
+        {
+          "text": "sol",
+          "category": 0
+        },
+        {
+          "text": "mesa",
+          "category": 1
+        },
+        {
+          "text": "mono",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-07",
+      "type": "choice",
+      "prompt": "Aisha revisa su libreta. ¿Qué palabra tiene una falta?",
+      "explanation": "La palabra kasa está mal escrita; en español se escribe casa con c.",
+      "hint": "Es el lugar donde vivimos.",
+      "lang": "es",
+      "options": [
+        "pelota",
+        "kasa",
+        "camisón"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-08",
+      "type": "reading",
+      "prompt": "Lee con atención y responde a las preguntas:",
+      "explanation": "Martina usó palabras cortas y claras para enviarle un mensaje a su abuelo.",
+      "lang": "es",
+      "title": "La nota de Martina",
+      "text": "Martina escribe una nota para su abuelo. En el papel pone: «Hola, te quiero mucho. Hoy comí sopa de fideos». Martina firma su nota con una carita feliz.",
+      "questions": [
+        {
+          "prompt": "¿Para quién escribe Martina la nota?",
+          "explanation": "El texto dice claramente que Martina escribe una nota para su abuelo.",
+          "options": [
+            "Para su abuelo",
+            "Para su maestro",
+            "Para su amiga"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué palabra del texto nombra una comida?",
+          "explanation": "La sopa es una comida rica y calentita.",
+          "options": [
+            "sopa",
+            "carita",
+            "papel"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-09",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar una frase que tenga sentido:",
+      "explanation": "Primero decimos de quién hablamos (El león) y luego qué hace (come carne).",
+      "lang": "es",
+      "items": [
+        "El",
+        "león",
+        "come",
+        "carne."
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:30:31.834Z",
+    "reviewed": false
+  }
+}

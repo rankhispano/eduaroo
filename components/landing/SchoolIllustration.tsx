@@ -1,6 +1,6 @@
 'use client';
 
-import Mascot from './Mascot';
+import RooMascot from '@/components/mascot/RooMascot';
 
 export default function SchoolIllustration() {
     return (
@@ -54,12 +54,12 @@ export default function SchoolIllustration() {
 
                 {/* School sign */}
                 <rect x="155" y="140" width="90" height="30" rx="4" fill="#22c55e" stroke="#16a34a" strokeWidth="2" />
-                <text x="200" y="162" textAnchor="middle" fill="white" fontSize="16" fontWeight="bold" fontFamily="sans-serif">SCHOOL</text>
+                <text x="200" y="162" textAnchor="middle" fill="white" fontSize="16" fontWeight="bold" fontFamily="sans-serif">COLE</text>
             </svg>
 
-            {/* Mascot on the ground - Jumping next to door */}
-            <div className="absolute bottom-6 left-[25%] scale-110 z-10">
-                <Mascot />
+            {/* Roo saluda junto a la puerta */}
+            <div className="absolute -bottom-2 left-[14%] z-10 w-[34%]">
+                <RooMascot pose="wave" size={170} className="h-auto w-full" />
             </div>
         </div>
     );

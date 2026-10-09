@@ -1,0 +1,227 @@
+{
+  "id": "g4-sociales-demografia-espanola",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "demografia-espanola",
+  "temaNombre": "Demografía española",
+  "title": "Descubrimos la población de España",
+  "summary": "Practica cómo cambia la población, las migraciones y cómo se distribuyen los habitantes en nuestro país.",
+  "keyIdeas": [
+    "La natalidad son los nacimientos y la mortalidad son los fallecimientos en un lugar durante un tiempo.",
+    "Las personas que llegan a vivir a un lugar son inmigrantes y las que se van son emigrantes.",
+    "La población española se concentra sobre todo en la costa y en grandes ciudades como Madrid."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE8"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "CP3",
+      "CPSAA3",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-demografia-espanola-01",
+      "type": "true-false",
+      "prompt": "El padrón municipal es el registro oficial donde se apuntan los vecinos que viven en un municipio.",
+      "explanation": "El padrón municipal sirve para saber cuántas personas viven en cada pueblo o ciudad.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-02",
+      "type": "choice",
+      "prompt": "¿Cómo se llama el número de bebés que nacen en un lugar durante un año?",
+      "explanation": "La natalidad indica la cantidad de personas que nacen en un territorio a lo largo de un año.",
+      "hint": "Fíjate en la palabra: empieza por 'nat-', como nacer.",
+      "lang": "es",
+      "options": [
+        "Natalidad",
+        "Mortalidad",
+        "Inmigración"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta.",
+      "explanation": "Quien sale de su lugar de origen es un emigrante, mientras que al llegar a su destino se llama inmigrante.",
+      "lang": "es",
+      "sentence": "Una persona que se marcha de su país para vivir en otro es un ___.",
+      "options": [
+        "turista",
+        "inmigrante",
+        "emigrante"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-04",
+      "type": "match",
+      "prompt": "Une cada concepto demográfico con su significado correcto:",
+      "explanation": "Estos cuatro términos son fundamentales para entender los cambios en la población de cualquier territorio.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Natalidad",
+          "right": "Número de bebés que nacen"
+        },
+        {
+          "left": "Mortalidad",
+          "right": "Número de personas que fallecen"
+        },
+        {
+          "left": "Inmigrante",
+          "right": "Persona que llega a un lugar nuevo"
+        },
+        {
+          "left": "Emigrante",
+          "right": "Persona que sale de su lugar de origen"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-05",
+      "type": "classify",
+      "prompt": "Clasifica según aumente o disminuya la población de una localidad:",
+      "explanation": "Los nacimientos y las llegadas suman habitantes, mientras que los fallecimientos y las salidas restan habitantes.",
+      "lang": "es",
+      "categories": [
+        "Aumenta la población",
+        "Disminuye la población"
+      ],
+      "items": [
+        {
+          "text": "Nacimiento de bebés",
+          "category": 0
+        },
+        {
+          "text": "Llegada de familias inmigrantes",
+          "category": 0
+        },
+        {
+          "text": "Fallecimiento de ancianos",
+          "category": 1
+        },
+        {
+          "text": "Vecinos jóvenes que emigran a la ciudad",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-06",
+      "type": "choice",
+      "prompt": "En el pueblo de Omar nacieron 15 bebés y fallecieron 8 personas. ¿Qué ha ocurrido con el crecimiento natural?",
+      "explanation": "Al restar las muertes a los nacimientos (15 - 8 = 7), el resultado es positivo: el pueblo creció en 7 habitantes.",
+      "hint": "Compara el número de nacimientos con el de fallecimientos.",
+      "lang": "es",
+      "options": [
+        "Ha sido positivo, porque nacieron más de los que murieron.",
+        "Ha sido negativo, porque murieron menos personas.",
+        "No ha cambiado, porque la población se queda igual."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-07",
+      "type": "choice",
+      "prompt": "¿Dónde vive la mayor parte de la población en España?",
+      "explanation": "La costa española y las grandes ciudades concentran la mayoría de los habitantes por su economía y servicios.",
+      "lang": "es",
+      "options": [
+        "Repartida de forma idéntica por todas las provincias.",
+        "En las costas y en las grandes ciudades como Madrid.",
+        "En los pueblos pequeños de la montaña interior."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-08",
+      "type": "order",
+      "prompt": "Ordena los pasos para calcular si un municipio gana o pierde población en un año:",
+      "explanation": "Primero hallamos el crecimiento natural, luego el saldo migratorio y finalmente sumamos ambos resultados.",
+      "lang": "es",
+      "items": [
+        "Contar los nacimientos y restar las defunciones",
+        "Calcular la diferencia entre inmigrantes y emigrantes",
+        "Sumar el crecimiento natural y el saldo migratorio"
+      ]
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-09",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas:",
+      "explanation": "La llegada de nuevas familias a zonas rurales ayuda a frenar la despoblación y mantiene servicios clave.",
+      "lang": "es",
+      "title": "La vida en Aldeavieja",
+      "text": "Aldeavieja es un pequeño pueblo de montaña. Hace cincuenta años vivían aquí quinientas personas, pero muchos jóvenes marcharon a la ciudad para estudiar y trabajar. En la actualidad solo quedan sesenta habitantes, la mayoría personas mayores. Sin embargo, el año pasado llegaron Lucía y David con sus dos hijas para montar una quesería artesanal y teletrabajar con internet. Gracias a su llegada, la escuela del pueblo ha podido seguir abierta con cuatro alumnos más. Los vecinos están muy ilusionados con el futuro de su comunidad.",
+      "questions": [
+        {
+          "prompt": "¿Por qué motivo marcharon muchos jóvenes de Aldeavieja a la gran ciudad?",
+          "explanation": "El texto explica que los jóvenes se fueron a la ciudad para estudiar y encontrar trabajo.",
+          "options": [
+            "Porque hacía demasiado calor en el pueblo.",
+            "Para buscar empleo y opciones de estudio.",
+            "Para fundar una fábrica de coches nuevos."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué consecuencia positiva trajo la llegada de la nueva familia?",
+          "explanation": "Al llegar con sus hijas en edad escolar, la escuela rural reunió suficientes alumnos para continuar abierta.",
+          "options": [
+            "Pudieron mantener abierta la escuela local.",
+            "Construyeron una autopista hacia la playa.",
+            "Se cerraron las tiendas de la comarca."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-10",
+      "type": "choice",
+      "prompt": "En la comarca de Aisha viven 4.000 personas en 100 kilómetros cuadrados. ¿Cuál es su densidad de población?",
+      "explanation": "La densidad de población se calcula dividiendo los habitantes entre la superficie: 4.000 ÷ 100 = 40 hab/km².",
+      "hint": "Divide el número de habitantes entre los kilómetros cuadrados.",
+      "lang": "es",
+      "options": [
+        "400 habitantes por kilómetro cuadrado",
+        "40 habitantes por kilómetro cuadrado",
+        "4 habitantes por kilómetro cuadrado"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:07:10.460Z",
+    "reviewed": false
+  }
+}

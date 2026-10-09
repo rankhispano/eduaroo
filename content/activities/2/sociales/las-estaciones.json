@@ -1,0 +1,237 @@
+{
+  "id": "g2-sociales-las-estaciones",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "las-estaciones",
+  "temaNombre": "Las estaciones",
+  "title": "El viaje de las cuatro estaciones",
+  "summary": "Practica los cambios que ocurren en la naturaleza y en nuestras vidas durante las estaciones del año.",
+  "keyIdeas": [
+    "El año tiene cuatro estaciones: primavera, verano, otoño e invierno.",
+    "El tiempo atmosférico cambia en cada estación.",
+    "Las personas y los animales adaptamos nuestras costumbres a cada época."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE7"
+    ],
+    "criteria": [
+      "5.2",
+      "7.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL3",
+      "CD1",
+      "CE1",
+      "CE2",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Sociedades en el tiempo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-las-estaciones-01",
+      "type": "choice",
+      "prompt": "Aisha mira el calendario de clase. ¿Cuántas estaciones tiene un año entero? 📅",
+      "explanation": "El año tiene cuatro estaciones: primavera, verano, otoño e invierno.",
+      "hint": "Son las mismas épocas que se repiten cada año.",
+      "lang": "es",
+      "options": [
+        "12 estaciones",
+        "2 estaciones",
+        "4 estaciones"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-las-estaciones-02",
+      "type": "true-false",
+      "prompt": "En verano suele hacer mucho calor y los días son más largos. ☀️",
+      "explanation": "El verano es la estación más calurosa del año y hay muchas horas de sol.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-las-estaciones-03",
+      "type": "order",
+      "prompt": "Ordena las estaciones del año empezando por la primavera: 🌱",
+      "explanation": "La primavera da paso al verano, luego llega el otoño y después el invierno.",
+      "lang": "es",
+      "items": [
+        "Primavera",
+        "Verano",
+        "Otoño",
+        "Invierno"
+      ]
+    },
+    {
+      "id": "g2-sociales-las-estaciones-04",
+      "type": "fill-blank",
+      "prompt": "Elige la estación correcta para completar la frase.",
+      "explanation": "El invierno es la estación más fría del año y necesitamos ropa de abrigo.",
+      "lang": "es",
+      "sentence": "En ___ nos ponemos abrigo, bufanda y guantes para no tener frío.",
+      "options": [
+        "verano",
+        "invierno",
+        "primavera"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-sociales-las-estaciones-05",
+      "type": "match",
+      "prompt": "Une cada estación con lo que ocurre en la naturaleza: 🍂",
+      "explanation": "Cada estación trae cambios importantes en las plantas y en los paisajes.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Primavera",
+          "right": "Nacen muchas flores"
+        },
+        {
+          "left": "Verano",
+          "right": "Maduran muchos frutos"
+        },
+        {
+          "left": "Otoño",
+          "right": "Caen las hojas secas"
+        },
+        {
+          "left": "Invierno",
+          "right": "Cae nieve en las montañas"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-las-estaciones-06",
+      "type": "classify",
+      "prompt": "Clasifica estas prendas y objetos según la estación en la que se usan: 🧦",
+      "explanation": "Usamos ropa fresca y ligera en verano y prendas gruesas en invierno.",
+      "lang": "es",
+      "categories": [
+        "Verano",
+        "Invierno"
+      ],
+      "items": [
+        {
+          "text": "Bañador para la piscina",
+          "category": 0
+        },
+        {
+          "text": "Gorro de lana caliente",
+          "category": 1
+        },
+        {
+          "text": "Chanclas frescas",
+          "category": 0
+        },
+        {
+          "text": "Guantes gordos para la nieve",
+          "category": 1
+        },
+        {
+          "text": "Gafas de sol",
+          "category": 0
+        },
+        {
+          "text": "Bufanda de abrigo",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-las-estaciones-07",
+      "type": "choice",
+      "prompt": "En otoño bajan las temperaturas. ¿Qué hacen algunas aves para protegerse del frío? 🐦",
+      "explanation": "Muchas aves migran hacia zonas más cálidas cuando empieza el frío del otoño.",
+      "hint": "Hacen un viaje largo volando en bandadas.",
+      "lang": "es",
+      "options": [
+        "Viajan hacia lugares más cálidos",
+        "Pierden todas sus plumas",
+        "Viven bajo el agua del río"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-las-estaciones-08",
+      "type": "choice",
+      "prompt": "Es invierno y hace frío en casa de Lucía. ¿Qué acción ahorra energía? 🧣",
+      "explanation": "Abrigar el cuerpo con un jersey permite usar menos calefacción y cuidar el planeta.",
+      "hint": "Piensa en cómo calentarte tú sin gastar tanta electricidad o gas.",
+      "lang": "es",
+      "options": [
+        "Dejar las ventanas abiertas todo el día",
+        "Subir al máximo la calefacción con camiseta corta",
+        "Ponerse un jersey cómodo en casa"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-las-estaciones-09",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas.",
+      "explanation": "En otoño los árboles de hoja caduca cambian de color y las temperaturas bajan.",
+      "lang": "es",
+      "title": "La tarde de Martina",
+      "text": "Llega el otoño al parque de Martina. El viento sopla suave y las hojas de los castaños se vuelven amarillas y caen. Martina recoge castañas con su abuelo Omar. Ya no llevan ropa de verano porque empieza a refrescar.",
+      "questions": [
+        {
+          "prompt": "¿De qué color se ponen las hojas de los árboles?",
+          "explanation": "El texto explica que las hojas de los castaños se vuelven amarillas.",
+          "options": [
+            "Amarillas",
+            "Azules",
+            "Verdes oscuras"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué Martina y su abuelo no llevan ropa de verano?",
+          "explanation": "En otoño bajan las temperaturas y empieza a refrescar, por eso nos abrigamos más.",
+          "options": [
+            "Porque está nevando en el parque",
+            "Porque hace un calor muy fuerte",
+            "Porque empieza a refrescar"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-las-estaciones-10",
+      "type": "choice",
+      "prompt": "Terminan las vacaciones y vuelves al colegio en septiembre. ¿Qué cambio de estación ocurre? 🎒",
+      "explanation": "En septiembre nos despedimos del verano y damos la bienvenida al otoño.",
+      "hint": "El verano acaba en septiembre y los días empiezan a ser más frescos.",
+      "lang": "es",
+      "options": [
+        "Termina el invierno y empieza la primavera",
+        "Termina el verano y empieza el otoño",
+        "Termina la primavera y empieza el verano"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:28:21.897Z",
+    "reviewed": false
+  }
+}

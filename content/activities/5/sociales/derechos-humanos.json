@@ -1,0 +1,246 @@
+{
+  "id": "g5-sociales-derechos-humanos",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "derechos-humanos",
+  "temaNombre": "Derechos humanos",
+  "title": "Descubrimos los derechos humanos",
+  "summary": "Practica los principios, la historia y la importancia de los derechos humanos en nuestra vida diaria.",
+  "keyIdeas": [
+    "Los derechos humanos son universales e inalienables: pertenecen a todas las personas desde su nacimiento sin distinción alguna.",
+    "La Declaración Universal de 1948 sentó las bases mundiales para garantizar la dignidad, la libertad y la paz.",
+    "Cada derecho conlleva la responsabilidad y el deber cívico de respetar a los demás en la convivencia diaria."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE8",
+      "CE9"
+    ],
+    "criteria": [
+      "8.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL5",
+      "CP3",
+      "CPSAA1",
+      "CPSAA3"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica",
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-derechos-humanos-01",
+      "type": "choice",
+      "prompt": "Hugo y Aisha leen en clase el primer artículo de la Declaración Universal de los Derechos Humanos. ¿Qué significa que estos derechos sean «universales»? 🌍",
+      "explanation": "La universalidad implica que todas las personas nacen libres e iguales en dignidad y derechos en cualquier rincón del planeta.",
+      "hint": "Fíjate en la palabra «universo»: abarca a la totalidad sin excepciones.",
+      "lang": "es",
+      "options": [
+        "Que cada gobierno decide libremente a qué ciudadanos se los concede y a quiénes no.",
+        "Que solo se aplican a las personas mayores de edad que tienen un empleo remunerado.",
+        "Que pertenecen a todas las personas del mundo por el mero hecho de nacer, sin importar su origen o condición.",
+        "Que únicamente existen en los países que pertenecen formalmente a la Unión Europea."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-02",
+      "type": "true-false",
+      "prompt": "Los derechos humanos son inalienables, lo que significa que ninguna persona ni gobierno te los puede arrebatar jamás.",
+      "explanation": "Son inalienables porque forman parte intrínseca de la dignidad humana: no se pueden vender, quitar ni renunciar a ellos.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-03",
+      "type": "fill-blank",
+      "prompt": "Completa el dato histórico sobre la proclamación de los derechos humanos:",
+      "explanation": "La Organización de las Naciones Unidas (ONU) proclamó este histórico documento el 10 de diciembre de 1948 en París.",
+      "lang": "es",
+      "sentence": "La Declaración Universal de los Derechos Humanos fue proclamada en 1948 por la Organización de las ___ para proteger la paz y la dignidad en el mundo.",
+      "options": [
+        "Naciones Unidas",
+        "Fuerzas Aliadas",
+        "Ciudades Solidarias"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-04",
+      "type": "classify",
+      "prompt": "En el aula de 5.º debaten sobre la convivencia democrática. Clasifica cada situación según corresponda:",
+      "explanation": "Los derechos nos garantizan condiciones dignas de vida, mientras que los deberes aseguran que respetemos los derechos de los demás.",
+      "lang": "es",
+      "categories": [
+        "Es un derecho",
+        "Es un deber o responsabilidad"
+      ],
+      "items": [
+        {
+          "text": "Recibir atención médica adecuada cuando estás enfermo o sufres un accidente",
+          "category": 0
+        },
+        {
+          "text": "Respetar las opiniones pacíficas y la libertad de expresión de tus compañeros",
+          "category": 1
+        },
+        {
+          "text": "Acceder a una educación gratuita y de calidad",
+          "category": 0
+        },
+        {
+          "text": "Cuidar las instalaciones del colegio y el mobiliario público del barrio",
+          "category": 1
+        },
+        {
+          "text": "Poder expresar tus ideas libremente sin sufrir censura ni castigo",
+          "category": 0
+        },
+        {
+          "text": "Cumplir las normas de convivencia pactadas para proteger a la comunidad",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-05",
+      "type": "match",
+      "prompt": "Relaciona cada derecho fundamental con la situación cotidiana que lo ejemplifica:",
+      "explanation": "Los derechos humanos se reflejan en situaciones tan cotidianas como ir a la escuela, acudir al médico o tener un documento de identidad.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Derecho a la educación",
+          "right": "Aisha asiste diariamente a clase en su colegio público"
+        },
+        {
+          "left": "Derecho a la salud",
+          "right": "Mateo acude al centro de salud para recibir una vacuna preventiva"
+        },
+        {
+          "left": "Derecho a la identidad",
+          "right": "Nerea cuenta con un nombre, apellidos y nacionalidad reconocidos"
+        },
+        {
+          "left": "Derecho a la no discriminación",
+          "right": "Todo el grupo juega junto en el patio sin importar su procedencia cultural"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-06",
+      "type": "choice",
+      "prompt": "En un proyecto solidario, el alumnado de 5.º investiga sobre el trabajo infantil en el mundo. ¿Qué tratado internacional protege de forma específica a la infancia y defiende su derecho a jugar y formarse?",
+      "explanation": "La Convención sobre los Derechos del Niño (1989) es el tratado específico de la ONU que garantiza la protección, la educación y el bienestar de los menores.",
+      "hint": "Busca el tratado dedicado exclusivamente a los niños y niñas.",
+      "lang": "es",
+      "options": [
+        "La Carta Magna Medieval de las Ciudades.",
+        "El Reglamento General de Tráfico Internacional.",
+        "El Tratado Comercial del Atlántico Norte.",
+        "La Convención sobre los Derechos del Niño de 1989."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-07",
+      "type": "choice",
+      "prompt": "¿Cuál fue la causa histórica determinante que motivó a los países a redactar y aprobar la Declaración Universal de los Derechos Humanos en 1948?",
+      "explanation": "Tras los horrores y millones de víctimas de la Segunda Guerra Mundial, la comunidad internacional se unió para que tales tragedias jamás se repitieran.",
+      "hint": "Piensa en el gran conflicto bélico mundial que finalizó en 1945.",
+      "lang": "es",
+      "options": [
+        "El impacto y la destrucción provocados por la Segunda Guerra Mundial, que demostraron la urgencia de evitar nuevas atrocidades.",
+        "La aparición de los primeros ordenadores y sistemas de telecomunicación digital.",
+        "El descubrimiento de nuevas rutas de navegación marítima a través del océano Pacífico.",
+        "La necesidad de fijar un precio único e internacional para los productos agrícolas."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-08",
+      "type": "order",
+      "prompt": "Ordena cronológicamente estos hitos históricos vinculados a los derechos humanos, del más antiguo al más reciente:",
+      "explanation": "La conquista de los derechos ha sido un proceso histórico gradual: 1789 (Francia), 1948 (ONU), 1978 (Constitución española) y 1989 (Derechos del Niño).",
+      "lang": "es",
+      "items": [
+        "Declaración de los Derechos del Hombre y del Ciudadano en la Revolución Francesa (1789)",
+        "Proclamación de la Declaración Universal de los Derechos Humanos por la ONU (1948)",
+        "Aprobación de la Constitución española actual, que consagra los derechos fundamentales (1978)",
+        "Aprobación de la Convención sobre los Derechos del Niño (1989)"
+      ]
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-09",
+      "type": "reading",
+      "prompt": "Lee el texto con atención y contesta a las preguntas:",
+      "explanation": "La lectura muestra el esfuerzo colectivo que supuso crear la Declaración y cómo su valor reside en su aplicación diaria.",
+      "lang": "es",
+      "title": "Eleanor Roosevelt y el gran acuerdo por la paz",
+      "text": "Tras el final de la Segunda Guerra Mundial en 1945, el mundo afrontaba una dura reconstrucción marcada por el dolor y las pérdidas humanas. En ese escenario desolador, representantes de más de cincuenta naciones comprendieron que una paz verdadera requería proteger la dignidad inalienable de todas las personas.\n\nLa activista y diplomática Eleanor Roosevelt fue elegida para presidir la comisión encargada de redactar un texto común. No resultó un trabajo sencillo: los miembros del equipo procedían de culturas, religiones y sistemas de gobierno muy diferentes. A pesar de sus discrepancias, hallaron principios comunes innegociables: justicia, igualdad y libertad.\n\nEl 10 de diciembre de 1948, en París, la Asamblea General de la ONU aprobó la Declaración Universal de los Derechos Humanos. Años más tarde, Eleanor explicó que estos derechos no solo habitan en solemnes documentos diplomáticos, sino en los «lugares pequeños, próximos al hogar»: en el aula escolar, en el barrio y en el trato cotidiano que brindamos a quienes conviven con nosotros.",
+      "questions": [
+        {
+          "prompt": "¿Quién presidió la comisión encargada de elaborar la Declaración Universal de los Derechos Humanos?",
+          "explanation": "El texto señala claramente que Eleanor Roosevelt fue elegida para presidir dicha comisión redactora internacional.",
+          "options": [
+            "Eleanor Roosevelt.",
+            "Clara Campoamor.",
+            "Marie Curie."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué constituyó un gran desafío consensuar un texto común para todos los delegados?",
+          "explanation": "El texto explica que el reto residía en conciliar las distintas visiones políticas, culturales y religiosas de los más de cincuenta países.",
+          "options": [
+            "Porque no contaban con instalaciones adecuadas para reunirse en París.",
+            "Porque no tenían traductores para comprender los idiomas de los demás participantes.",
+            "Porque pertenecían a culturas, creencias religiosas y modelos políticos muy diversos."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "A partir de la reflexión final sobre los «lugares pequeños, próximos al hogar», ¿dónde empieza verdaderamente la defensa de los derechos?",
+          "explanation": "Eleanor Roosevelt defendía que los derechos cobran vida real cuando los practicamos en el colegio, en casa y con los vecinos.",
+          "options": [
+            "Exclusivamente durante los discursos televisados de los jefes de Estado.",
+            "Únicamente en los tribunales internacionales de justicia cuando intervienen los jueces.",
+            "En nuestras acciones cotidianas, tratando con respeto, justicia y empatía a quienes nos rodean."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-10",
+      "type": "choice",
+      "prompt": "En el recreo, dos alumnos impiden que Lucas participe en el partido de baloncesto alegando que «lleva poco tiempo viviendo en el barrio y no habla bien la lengua». Desde los principios de los derechos humanos y la cultura de paz, ¿cómo se debe resolver esta situación? 🤝",
+      "explanation": "Los derechos humanos se defienden mediante el diálogo respetuoso, la no discriminación y la inclusión activa de cualquier persona.",
+      "hint": "Busca la opción que resuelva el problema con diálogo, respeto e inclusión sin recurrir a la violencia ni al aislamiento.",
+      "lang": "es",
+      "options": [
+        "Dialogar pacíficamente con el grupo, recordar que todas las personas tienen derecho a participar sin discriminación e invitar a Lucas a jugar.",
+        "Crear un equipo exclusivo para personas recién llegadas para no mezclar a los jugadores.",
+        "Ignorar la situación para evitar discusiones y aconsejar a Lucas que espere unos meses hasta perfeccionar el idioma.",
+        "Quitarles el balón bruscamente a los otros compañeros para darles un escarmiento y expulsarlos del patio."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:39:42.015Z",
+    "reviewed": false
+  }
+}

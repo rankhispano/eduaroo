@@ -1,0 +1,219 @@
+{
+  "id": "g2-naturales-los-materiales",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "los-materiales",
+  "temaNombre": "Los materiales",
+  "title": "Exploramos los materiales y sus propiedades",
+  "summary": "Aprende el origen y las propiedades de los materiales cotidianos.",
+  "keyIdeas": [
+    "Los materiales pueden ser naturales, como la lana, o artificiales, como el plástico.",
+    "Cada material tiene propiedades distintas: transparente, impermeable, flexible, duro o frágil.",
+    "Reciclar materiales como el plástico y el papel cuida nuestro planeta."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-los-materiales-01",
+      "type": "choice",
+      "prompt": "Aisha lleva una bufanda de lana suave. ¿De dónde procede este material?",
+      "explanation": "La lana es un material natural de origen animal. Se obtiene del pelo de las ovejas.",
+      "hint": "Piensa en un animal del campo que da lana.",
+      "lang": "es",
+      "options": [
+        "De los árboles",
+        "De las ovejas",
+        "De las rocas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-los-materiales-02",
+      "type": "true-false",
+      "prompt": "El cristal es transparente porque deja pasar la luz a través de él.",
+      "explanation": "Los materiales transparentes como el cristal permiten ver claramente a través de ellos.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-los-materiales-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el paraguas de Lucía.",
+      "explanation": "Un material impermeable frena los líquidos y no deja que pase el agua.",
+      "lang": "es",
+      "sentence": "El paraguas no deja pasar el agua porque es ___.",
+      "options": [
+        "blando",
+        "transparente",
+        "impermeable"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-los-materiales-04",
+      "type": "match",
+      "prompt": "Une cada objeto con la propiedad más importante de su material:",
+      "explanation": "Cada objeto se fabrica con un material que tiene la propiedad necesaria para su función.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Bota de agua",
+          "right": "Impermeable"
+        },
+        {
+          "left": "Goma elástica",
+          "right": "Flexible"
+        },
+        {
+          "left": "Ventana de cristal",
+          "right": "Transparente"
+        },
+        {
+          "left": "Mesa de madera",
+          "right": "Rígida"
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-los-materiales-05",
+      "type": "classify",
+      "prompt": "Clasifica estos materiales según su origen:",
+      "explanation": "Los materiales naturales se obtienen de la naturaleza. Los artificiales los fabrican las personas.",
+      "lang": "es",
+      "categories": [
+        "Material natural",
+        "Material artificial"
+      ],
+      "items": [
+        {
+          "text": "Madera de pino",
+          "category": 0
+        },
+        {
+          "text": "Botella de plástico",
+          "category": 1
+        },
+        {
+          "text": "Algodón de una planta",
+          "category": 0
+        },
+        {
+          "text": "Hoja de papel",
+          "category": 1
+        },
+        {
+          "text": "Piedra de río",
+          "category": 0
+        },
+        {
+          "text": "Bolsa de plástico",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-los-materiales-06",
+      "type": "choice",
+      "prompt": "Omar mete tres objetos en agua. ¿Cuál de ellos flotará en la superficie?",
+      "explanation": "El corcho es ligero y contiene aire, por eso flota. El metal y el cristal se hunden.",
+      "hint": "Es un material vegetal muy ligero.",
+      "lang": "es",
+      "options": [
+        "Un tapón de corcho",
+        "Una moneda metálica",
+        "Una canica de cristal"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-los-materiales-07",
+      "type": "choice",
+      "prompt": "¿Qué frase contiene un error sobre los materiales?",
+      "explanation": "El plástico no sale de las plantas: es un material artificial creado por las personas.",
+      "hint": "Fíjate en cómo se obtiene el plástico.",
+      "lang": "es",
+      "options": [
+        "El plástico sale directamente de las plantas del bosque.",
+        "El metal es duro y resistente a los golpes.",
+        "La plastilina es blanda y cambia de forma con las manos."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-los-materiales-08",
+      "type": "order",
+      "prompt": "Ordena los pasos para reciclar una botella de plástico:",
+      "explanation": "Primero consumimos el producto, después lo separamos correctamente y la fábrica lo transforma en otro útil.",
+      "lang": "es",
+      "items": [
+        "Terminar de beber el agua de la botella.",
+        "Tirar la botella vacía al contenedor amarillo.",
+        "Llevar el plástico a la fábrica de reciclaje.",
+        "Fabricar un objeto nuevo con ese plástico reciclado."
+      ]
+    },
+    {
+      "id": "g2-naturales-los-materiales-09",
+      "type": "choice",
+      "prompt": "Mateo construye el tejado de su caseta. ¿Qué material evitará que pase la lluvia?",
+      "explanation": "El plástico impermeable no absorbe el agua y mantiene seco el interior de la caseta.",
+      "hint": "Busca un material que no deje pasar el agua.",
+      "lang": "es",
+      "options": [
+        "Plástico impermeable",
+        "Papel de periódico",
+        "Tela de camiseta"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-los-materiales-10",
+      "type": "choice",
+      "prompt": "Aisha quiere ver sus lápices sin abrir el estuche. ¿De qué material debe ser?",
+      "explanation": "El plástico transparente deja pasar la luz, por lo que permite ver lo que hay dentro.",
+      "hint": "Necesitas ver a través de las paredes del estuche.",
+      "lang": "es",
+      "options": [
+        "Madera opaca",
+        "Plástico transparente",
+        "Metal oscuro"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:40:20.679Z",
+    "reviewed": false
+  }
+}

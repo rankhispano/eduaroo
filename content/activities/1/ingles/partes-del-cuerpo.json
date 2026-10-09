@@ -1,0 +1,230 @@
+{
+  "id": "g1-ingles-partes-del-cuerpo",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "partes-del-cuerpo",
+  "temaNombre": "Partes del cuerpo",
+  "title": "My Body: Repasamos en inglés",
+  "summary": "Practica los nombres de las partes del cuerpo y la cara en inglés de forma divertida.",
+  "keyIdeas": [
+    "Usamos palabras como head, arms o legs para nombrar nuestro cuerpo.",
+    "En la cara tenemos eyes, ears, nose y mouth.",
+    "Para decir dos partes añadimos una -s al final, como two hands."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-partes-del-cuerpo-01",
+      "type": "choice",
+      "prompt": "What do you use to see? 👀",
+      "explanation": "Usamos los ojos (eyes) para ver.",
+      "hint": "Son dos y están en tu cara.",
+      "lang": "en",
+      "options": [
+        "Nose",
+        "Eyes",
+        "Ears"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-02",
+      "type": "choice",
+      "prompt": "Touch your head! 🙆‍♂️ ¿Qué parte del cuerpo es?",
+      "explanation": "Head significa cabeza en inglés.",
+      "hint": "Está en la parte de arriba de tu cuerpo.",
+      "lang": "en",
+      "options": [
+        "Brazo",
+        "Cabeza",
+        "Pie"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-03",
+      "type": "true-false",
+      "prompt": "A person has got two mouths. 👄",
+      "explanation": "Tenemos una sola boca (one mouth), no dos.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-04",
+      "type": "match",
+      "prompt": "Une cada parte del cuerpo en inglés con su traducción:",
+      "explanation": "Nose es nariz, Hand es mano, Foot es pie y Ear es oreja.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Nose",
+          "right": "Nariz"
+        },
+        {
+          "left": "Hand",
+          "right": "Mano"
+        },
+        {
+          "left": "Foot",
+          "right": "Pie"
+        },
+        {
+          "left": "Ear",
+          "right": "Oreja"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase para aplaudir:",
+      "explanation": "Aplaadimos con las manos: Clap your hands!",
+      "hint": "Tienen cinco dedos en cada una.",
+      "lang": "en",
+      "sentence": "Clap your ___! 👏",
+      "options": [
+        "eyes",
+        "hands",
+        "legs"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-06",
+      "type": "classify",
+      "prompt": "Clasifica estas partes según estén en la cara (Face) o en el resto del cuerpo (Body):",
+      "explanation": "Mouth y Nose están en la cara. Leg y Arm forman parte del cuerpo.",
+      "lang": "en",
+      "categories": [
+        "Face",
+        "Body"
+      ],
+      "items": [
+        {
+          "text": "Mouth",
+          "category": 0
+        },
+        {
+          "text": "Leg",
+          "category": 1
+        },
+        {
+          "text": "Nose",
+          "category": 0
+        },
+        {
+          "text": "Arm",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-07",
+      "type": "order",
+      "prompt": "Ordena estas partes del cuerpo de arriba hacia abajo (de la cabeza a los pies):",
+      "explanation": "Como en la canción: Head (cabeza), Shoulders (hombros), Knees (rodillas) y Toes (dedos de los pies).",
+      "lang": "en",
+      "items": [
+        "Head",
+        "Shoulders",
+        "Knees",
+        "Toes"
+      ]
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-08",
+      "type": "choice",
+      "prompt": "Hugo kicks the ball with his... ⚽",
+      "explanation": "Para chutar un balón de fútbol usamos el pie (foot).",
+      "hint": "Está al final de la pierna.",
+      "lang": "en",
+      "options": [
+        "nose",
+        "foot",
+        "ear"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-09",
+      "type": "fill-blank",
+      "prompt": "Aisha escucha música con los auriculares:",
+      "explanation": "Escuchamos los sonidos con las orejas o oídos (ears).",
+      "hint": "Sirven para oír.",
+      "lang": "en",
+      "sentence": "She listens with her ___.",
+      "options": [
+        "ears",
+        "toes",
+        "fingers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-10",
+      "type": "reading",
+      "prompt": "Read about Toby the friendly monster and answer the questions:",
+      "explanation": "Toby es un monstruo que tiene un solo ojo verde y cuatro brazos azules.",
+      "lang": "en",
+      "title": "Toby the Monster",
+      "text": "Hello! I am Toby. I am a monster. I have got one big green eye. I have got two big ears. I have got four blue arms! Can you clap with me?",
+      "questions": [
+        {
+          "prompt": "How many eyes has Toby got?",
+          "explanation": "El texto dice: I have got one big green eye (un solo ojo).",
+          "options": [
+            "Four eyes",
+            "Two eyes",
+            "One eye"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What color are Toby's arms?",
+          "explanation": "El texto dice: I have got four blue arms (cuatro brazos azules).",
+          "options": [
+            "Blue",
+            "Red",
+            "Green"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:56:22.180Z",
+    "reviewed": false
+  }
+}

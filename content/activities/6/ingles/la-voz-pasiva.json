@@ -1,0 +1,258 @@
+{
+  "id": "g6-ingles-la-voz-pasiva",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "la-voz-pasiva",
+  "temaNombre": "La voz pasiva",
+  "title": "Mastering the Passive Voice",
+  "summary": "Practica cómo reconocer y usar la voz pasiva en presente y pasado en inglés a través de situaciones cotidianas y proyectos del cole.",
+  "keyIdeas": [
+    "La voz pasiva se forma con el verbo 'to be' (am, is, are, was, were) y el participio pasado del verbo principal.",
+    "Usamos la preposición 'by' cuando queremos mencionar quién realiza la acción (por ejemplo: 'painted by Lucía').",
+    "Se utiliza la voz pasiva para destacar la acción o el objeto que la recibe, en lugar de la persona que la hace."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-la-voz-pasiva-01",
+      "type": "choice",
+      "prompt": "Choose the correct verb form to complete the sentence: In our school, plastic bottles ___ in yellow containers.",
+      "explanation": "Como el sujeto 'plastic bottles' está en plural y hablamos de una rutina en presente, usamos 'are' seguido del participio 'recycled'.",
+      "hint": "Fíjate si el sujeto es singular o plural.",
+      "lang": "en",
+      "options": [
+        "recycles",
+        "are recycled",
+        "is recycled",
+        "are recycling"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-02",
+      "type": "true-false",
+      "prompt": "Read the sentence: 'The museum was opened in 1995.' This sentence is written in the passive voice.",
+      "explanation": "Es verdadero porque combina el pasado del verbo to be ('was') con el participio ('opened'), poniendo el foco en el museo y no en quién lo abrió.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-03",
+      "type": "fill-blank",
+      "prompt": "Complete with the correct auxiliary verb in the past passive:",
+      "explanation": "Usamos 'was' porque el sujeto 'This science project' es singular de tercera persona (it) y la palabra 'yesterday' indica pasado.",
+      "hint": "'Project' es singular y ocurrió en el pasado.",
+      "lang": "en",
+      "sentence": "This science project ___ finished yesterday by Aisha and Wei.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-04",
+      "type": "match",
+      "prompt": "Match each base verb with its past participle form used in passive voice:",
+      "explanation": "Para formar la voz pasiva necesitamos el participio: 'written', 'built' y 'made' son irregulares, mientras que 'painted' es regular.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "write",
+          "right": "written"
+        },
+        {
+          "left": "build",
+          "right": "built"
+        },
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "paint",
+          "right": "painted"
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-05",
+      "type": "classify",
+      "prompt": "Classify these sentences into Active Voice or Passive Voice:",
+      "explanation": "En la voz activa el sujeto realiza la acción directamente, mientras que en la pasiva el sujeto recibe la acción a través del verbo 'to be' y un participio.",
+      "lang": "en",
+      "categories": [
+        "Active Voice",
+        "Passive Voice"
+      ],
+      "items": [
+        {
+          "text": "Martina paints a colorful mural.",
+          "category": 0
+        },
+        {
+          "text": "The mural is painted by Martina.",
+          "category": 1
+        },
+        {
+          "text": "Omar repaired the broken bicycle.",
+          "category": 0
+        },
+        {
+          "text": "The bicycle was repaired by Omar.",
+          "category": 1
+        },
+        {
+          "text": "The students collected the rubbish.",
+          "category": 0
+        },
+        {
+          "text": "The rubbish was collected by the students.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-06",
+      "type": "choice",
+      "prompt": "Which preposition introduces the agent (the person who did the action)? 'Harry Potter was written ___ J.K. Rowling.'",
+      "explanation": "En inglés, el agente que realiza la acción en la voz pasiva se introduce siempre con la preposición 'by'.",
+      "hint": "En español equivale a 'por'.",
+      "lang": "en",
+      "options": [
+        "from",
+        "with",
+        "for",
+        "by"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-07",
+      "type": "order",
+      "prompt": "Put the words in order to form a correct sentence in the past passive voice:",
+      "explanation": "El orden en pasiva es: Sujeto ('The new computers') + verbo to be en pasado ('were') + participio ('installed') + complemento ('today.').",
+      "lang": "en",
+      "items": [
+        "The",
+        "new",
+        "computers",
+        "were",
+        "installed",
+        "today."
+      ]
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-08",
+      "type": "fill-blank",
+      "prompt": "Choose the correct past passive form for this environmental action:",
+      "explanation": "Como 'Hundreds of young trees' es plural y ocurrió en el pasado ('last spring'), debemos utilizar 'were'.",
+      "hint": "'Trees' es plural.",
+      "lang": "en",
+      "sentence": "Hundreds of young trees ___ planted in the municipal park last spring.",
+      "options": [
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions:",
+      "explanation": "El texto muestra varios ejemplos reales de cómo usar la voz pasiva para describir proyectos y procesos de cooperación.",
+      "lang": "en",
+      "title": "The Eco-Garden Project",
+      "text": "Last term, an exciting project was started at Greenfield Primary School. A new community garden was designed by students and teachers in an empty area behind the school gym. First, the old rubbish was cleaned up by family volunteers on a sunny Saturday. Then, wooden plant beds were built by the 6th-grade pupils using recycled wood from old desks. Organic seeds of tomatoes, carrots, and strawberries were planted carefully in the rich soil. Every morning, the young plants are watered by the eco-team monitors before classes begin. Last week, small solar lights were also installed to keep the garden bright at night. Now, fresh vegetables and fruits are harvested every Friday, and they are prepared in delicious salads for the school canteen. The headteacher explained that when nature is protected, our whole community becomes happier and healthier.",
+      "questions": [
+        {
+          "prompt": "Who built the wooden plant beds for the garden?",
+          "explanation": "El texto menciona explícitamente: 'wooden plant beds were built by the 6th-grade pupils'.",
+          "options": [
+            "The 6th-grade pupils.",
+            "The family volunteers.",
+            "The canteen cooks."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why did the students use recycled wood from old desks to build the plant beds?",
+          "explanation": "Se infiere que al ser un proyecto ecológico, reutilizar materiales antiguos reduce los residuos y cuida el planeta.",
+          "options": [
+            "To help the environment by giving old furniture a new life.",
+            "Because the school gym was completely destroyed.",
+            "Because new wood is illegal in primary schools."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which sentence from the text is an example of the PASSIVE voice?",
+          "explanation": "'Are harvested' utiliza el verbo 'to be' más el participio pasado, describiendo lo que le ocurre a las verduras y frutas.",
+          "options": [
+            "Fresh vegetables and fruits are harvested every Friday.",
+            "Family volunteers arrived on a sunny Saturday.",
+            "Classes begin early in the morning."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-10",
+      "type": "choice",
+      "prompt": "Transform this active sentence into passive: 'Adrián cleans the classroom whiteboard every afternoon.'",
+      "explanation": "La frase original está en presente simple ('cleans') y el objeto 'the classroom whiteboard' es singular, por lo que usamos 'is cleaned'.",
+      "hint": "Comprueba el tiempo verbal de la frase original (presente) y el número del sujeto.",
+      "lang": "en",
+      "options": [
+        "The classroom whiteboard was cleaned by Adrián every afternoon.",
+        "The classroom whiteboard are cleaned by Adrián every afternoon.",
+        "The classroom whiteboard cleans by Adrián every afternoon.",
+        "The classroom whiteboard is cleaned by Adrián every afternoon."
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:20:36.953Z",
+    "reviewed": false
+  }
+}

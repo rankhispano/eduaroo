@@ -1,0 +1,213 @@
+{
+  "id": "g1-mates-suma-sin-llevadas",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "suma-sin-llevadas",
+  "temaNombre": "Suma sin llevadas",
+  "title": "¡Sumamos sin llevadas en acción!",
+  "summary": "Practica sumas sencillas sin llevadas con retos cotidianos y trucos de cálculo.",
+  "keyIdeas": [
+    "Sumar es juntar, añadir o reunir dos o más cantidades.",
+    "Al sumar números de dos cifras, sumamos unidades con unidades y decenas con decenas.",
+    "El orden de los números no cambia el resultado final de la suma."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "6.2"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-suma-sin-llevadas-01",
+      "type": "choice",
+      "prompt": "Lucía tiene 4 manzanas 🍎 y Omar le regala 3 🍎. ¿Cuántas tiene ahora?",
+      "explanation": "4 + 3 = 7. Lucía junta sus 4 manzanas con las 3 de Omar.",
+      "hint": "Cuenta a partir del 4: cinco, seis y...",
+      "lang": "es",
+      "options": [
+        "6 manzanas",
+        "7 manzanas",
+        "8 manzanas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-suma-sin-llevadas-02",
+      "type": "true-false",
+      "prompt": "Para calcular 12 + 5, sumamos primero las unidades: 2 + 5.",
+      "explanation": "Es correcto: sumamos las unidades 2 + 5 = 7. El resultado es 17.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-mates-suma-sin-llevadas-03",
+      "type": "match",
+      "prompt": "Une cada suma con su resultado correcto:",
+      "explanation": "Al sumar decenas enteras y unidades, formamos directamente el número.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "10 + 4",
+          "right": "14"
+        },
+        {
+          "left": "20 + 5",
+          "right": "25"
+        },
+        {
+          "left": "30 + 2",
+          "right": "32"
+        },
+        {
+          "left": "40 + 7",
+          "right": "47"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-suma-sin-llevadas-04",
+      "type": "fill-blank",
+      "prompt": "Completa con el resultado de la suma:",
+      "explanation": "11 + 6 = 17 pegatinas. Sumamos 1 unidad más 6 unidades = 7 unidades.",
+      "lang": "es",
+      "sentence": "Aisha tiene 11 pegatinas y consigue 6 más. Ahora tiene ___ pegatinas.",
+      "options": [
+        "18",
+        "17",
+        "16"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-suma-sin-llevadas-05",
+      "type": "classify",
+      "prompt": "Clasifica las sumas según su resultado:",
+      "explanation": "12 + 3 = 15 y 14 + 4 = 18 son menores de 20. 21 + 4 = 25 y 23 + 5 = 28 son mayores de 20.",
+      "lang": "es",
+      "categories": [
+        "Menos de 20",
+        "Más de 20"
+      ],
+      "items": [
+        {
+          "text": "12 + 3",
+          "category": 0
+        },
+        {
+          "text": "14 + 4",
+          "category": 0
+        },
+        {
+          "text": "21 + 4",
+          "category": 1
+        },
+        {
+          "text": "23 + 5",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-suma-sin-llevadas-06",
+      "type": "choice",
+      "prompt": "En la papelería, Adrián compra una goma de 10 céntimos y un lápiz de 8 céntimos. ¿Cuánto paga?",
+      "explanation": "10 + 8 = 18 céntimos en total.",
+      "hint": "Una decena y 8 unidades forman el 18.",
+      "lang": "es",
+      "options": [
+        "19 céntimos",
+        "18 céntimos",
+        "17 céntimos"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-suma-sin-llevadas-07",
+      "type": "order",
+      "prompt": "Ordena los pasos para resolver en papel la suma 23 + 14:",
+      "explanation": "Siempre ordenamos los números y sumamos primero las unidades y luego las decenas.",
+      "lang": "es",
+      "items": [
+        "Colocar las unidades con unidades y decenas con decenas.",
+        "Sumar primero las unidades: 3 + 4 = 7.",
+        "Sumar después las decenas: 2 + 1 = 3.",
+        "Escribir el resultado completo: 37."
+      ]
+    },
+    {
+      "id": "g1-mates-suma-sin-llevadas-08",
+      "type": "choice",
+      "prompt": "Hugo resolvió esta suma así: 31 + 4 = 71. ¿Qué error cometió?",
+      "explanation": "Hugo sumó 3 + 4 = 7 en las decenas. Lo correcto es 1 + 4 = 5 unidades: 35.",
+      "hint": "Fíjate si el 4 son unidades o decenas.",
+      "lang": "es",
+      "options": [
+        "Se olvidó de escribir las decenas.",
+        "Restó en lugar de sumar.",
+        "Sumó el 4 a las decenas en vez de a las unidades."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-suma-sin-llevadas-09",
+      "type": "choice",
+      "prompt": "¿Cómo calculamos mentalmente y de forma rápida 24 + 13?",
+      "explanation": "Descomponemos en decenas y unidades: 20 + 10 = 30, y 4 + 3 = 7. Luego juntamos: 30 + 7 = 37.",
+      "lang": "es",
+      "options": [
+        "Sumamos 20 + 10 = 30 y 4 + 3 = 7. El total es 37.",
+        "Sumamos 2 + 1 = 3 y restamos 4 - 3 = 1.",
+        "Sumamos solo las unidades y dejamos un cero al final."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-suma-sin-llevadas-10",
+      "type": "choice",
+      "prompt": "En el autobús van 15 personas. En la parada suben 12 personas. ¿Cuántas van ahora?",
+      "explanation": "15 + 12 = 27. Sumamos unidades (5 + 2 = 7) y decenas (1 + 1 = 2).",
+      "hint": "Suma primero 5 + 2 y luego 1 + 1.",
+      "lang": "es",
+      "options": [
+        "25 personas",
+        "27 personas",
+        "37 personas"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:54:51.682Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": "g2-ingles-dias-y-meses",
+  "cursoId": "2",
+  "asignaturaId": "ingles",
+  "temaId": "dias-y-meses",
+  "temaNombre": "Días y meses",
+  "title": "Days and Months Adventure",
+  "summary": "Practica los días de la semana y los meses del año en inglés de forma divertida.",
+  "keyIdeas": [
+    "Los días de la semana y los meses siempre empiezan con mayúscula en inglés.",
+    "La semana tiene 7 días y el año tiene 12 meses.",
+    "Usamos 'on' para los días (on Monday) e 'in' para los meses (in May)."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-ingles-dias-y-meses-01",
+      "type": "match",
+      "prompt": "Match each English day with its Spanish meaning:",
+      "explanation": "Monday significa lunes, Friday es viernes y Sunday es domingo.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Monday",
+          "right": "Lunes"
+        },
+        {
+          "left": "Friday",
+          "right": "Viernes"
+        },
+        {
+          "left": "Sunday",
+          "right": "Domingo"
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-dias-y-meses-02",
+      "type": "choice",
+      "prompt": "What day comes after Monday?",
+      "explanation": "Después de Monday (lunes) viene Tuesday (martes). Thursday es jueves.",
+      "hint": "Empieza por la letra T y suena parecido a 'tiusdei'.",
+      "lang": "en",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Sunday"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-dias-y-meses-03",
+      "type": "true-false",
+      "prompt": "There are 7 days in a week.",
+      "explanation": "Una semana tiene exactamente 7 días: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday y Sunday.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-ingles-dias-y-meses-04",
+      "type": "fill-blank",
+      "prompt": "Completa con el día correcto:",
+      "explanation": "Si hoy es viernes (Friday), mañana (tomorrow) es sábado (Saturday).",
+      "hint": "Es el primer día del fin de semana.",
+      "lang": "en",
+      "sentence": "Today is Friday. Tomorrow is ___.",
+      "options": [
+        "Thursday",
+        "Saturday",
+        "Monday"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-ingles-dias-y-meses-05",
+      "type": "classify",
+      "prompt": "Classify the words into Days or Months:",
+      "explanation": "Monday, Friday y Sunday son días de la semana. July, October y March son meses del año.",
+      "lang": "en",
+      "categories": [
+        "Days of the week",
+        "Months of the year"
+      ],
+      "items": [
+        {
+          "text": "Monday",
+          "category": 0
+        },
+        {
+          "text": "July",
+          "category": 1
+        },
+        {
+          "text": "Friday",
+          "category": 0
+        },
+        {
+          "text": "October",
+          "category": 1
+        },
+        {
+          "text": "Sunday",
+          "category": 0
+        },
+        {
+          "text": "March",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-dias-y-meses-06",
+      "type": "order",
+      "prompt": "Put these days of the week in the correct order:",
+      "explanation": "El orden correcto de los días es: Tuesday (martes), Wednesday (miércoles), Thursday (jueves) y Friday (viernes).",
+      "lang": "en",
+      "items": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "id": "g2-ingles-dias-y-meses-07",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el mes correcto:",
+      "explanation": "La Navidad se celebra en diciembre (December), el último mes del año.",
+      "hint": "Es el último mes del año y hace frío.",
+      "lang": "en",
+      "sentence": "Christmas Day is in ___.",
+      "options": [
+        "April",
+        "August",
+        "December"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-dias-y-meses-08",
+      "type": "choice",
+      "prompt": "Omar has swimming class on the first day of the school week. What day is it?",
+      "explanation": "La semana de colegio empieza el lunes (Monday). Saturday y Sunday forman el fin de semana.",
+      "hint": "Es el día que volvemos al cole tras el fin de semana.",
+      "lang": "en",
+      "options": [
+        "Saturday",
+        "Monday",
+        "Sunday"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-ingles-dias-y-meses-09",
+      "type": "order",
+      "prompt": "Put the first four months of the year in order:",
+      "explanation": "Los primeros cuatro meses del año son January (enero), February (febrero), March (marzo) y April (abril).",
+      "lang": "en",
+      "items": [
+        "January",
+        "February",
+        "March",
+        "April"
+      ]
+    },
+    {
+      "id": "g2-ingles-dias-y-meses-10",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions:",
+      "explanation": "¡Genial! Has encontrado en el texto el día de la semana y el mes del cumpleaños de Aisha.",
+      "lang": "en",
+      "title": "Aisha's Special Week",
+      "text": "Hello! My name is Aisha. Today is Wednesday. My birthday is in September. I have a party on Saturday with my friends.",
+      "questions": [
+        {
+          "prompt": "What day is today in the story?",
+          "explanation": "En el texto, Aisha dice: 'Today is Wednesday' (Hoy es miércoles).",
+          "options": [
+            "Monday",
+            "Saturday",
+            "Wednesday"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "In which month is Aisha's birthday?",
+          "explanation": "Aisha cuenta: 'My birthday is in September' (Mi cumpleaños es en septiembre).",
+          "options": [
+            "December",
+            "August",
+            "September"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:08:00.081Z",
+    "reviewed": false
+  }
+}

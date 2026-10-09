@@ -1,0 +1,243 @@
+{
+  "id": "g1-sociales-medios-de-transporte",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "medios-de-transporte",
+  "temaNombre": "Medios de transporte",
+  "title": "¡Nos movemos por la ciudad!",
+  "summary": "Aprenderás a clasificar los transportes y a moverte de forma segura.",
+  "keyIdeas": [
+    "Los medios de transporte viajan por tierra, mar o aire.",
+    "El transporte colectivo y la bicicleta cuidan el aire de la ciudad.",
+    "El cinturón de seguridad y el casco nos protegen siempre."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "6.1",
+      "9.3"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Alfabetización cívica",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-medios-de-transporte-01",
+      "type": "classify",
+      "prompt": "Clasifica estos medios de transporte según por dónde viajan.",
+      "explanation": "El autobús y la bicicleta van por el suelo. El avión y el helicóptero van por el cielo.",
+      "lang": "es",
+      "categories": [
+        "Por tierra",
+        "Por aire"
+      ],
+      "items": [
+        {
+          "text": "Autobús",
+          "category": 0
+        },
+        {
+          "text": "Avión",
+          "category": 1
+        },
+        {
+          "text": "Bicicleta",
+          "category": 0
+        },
+        {
+          "text": "Helicóptero",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-02",
+      "type": "true-false",
+      "prompt": "El barco es un medio de transporte que viaja por el agua.",
+      "explanation": "Los barcos navegan sobre el agua de mares, ríos y lagos.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-03",
+      "type": "match",
+      "prompt": "Une cada vehículo con el lugar por donde circula.",
+      "explanation": "Cada medio de transporte necesita un camino diferente para poder circular.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Tren",
+          "right": "Vías de hierro"
+        },
+        {
+          "left": "Coche",
+          "right": "Carretera"
+        },
+        {
+          "left": "Barco",
+          "right": "Mar"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-04",
+      "type": "choice",
+      "prompt": "Omar viaja con muchas personas que no conoce en el mismo vehículo. ¿Qué transporte usa?",
+      "explanation": "El autobús es un transporte colectivo. En él viajan muchas personas juntas.",
+      "hint": "Es un vehículo grande donde viajan muchos vecinos.",
+      "lang": "es",
+      "options": [
+        "El autobús urbano",
+        "Su patinete",
+        "Su bicicleta"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre seguridad vial.",
+      "explanation": "El cinturón de seguridad nos protege y nos sujeta bien en el coche.",
+      "lang": "es",
+      "sentence": "Al subir al coche, siempre nos abrochamos el ___ de seguridad.",
+      "options": [
+        "cinturón",
+        "sombrero",
+        "zapato"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-06",
+      "type": "choice",
+      "prompt": "Lucía vive muy cerca de su colegio. ¿Cuál es la forma más sana y limpia de ir?",
+      "explanation": "Caminar es un ejercicio genial que no echa humos al aire de la ciudad.",
+      "hint": "Mover las piernas es muy bueno para la salud.",
+      "lang": "es",
+      "options": [
+        "Caminando con su papá",
+        "En un coche de gasolina",
+        "En una moto ruidosa"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-07",
+      "type": "classify",
+      "prompt": "Clasifica según sea transporte colectivo o individual.",
+      "explanation": "El metro y el autobús llevan a muchos viajeros. La bici y el patinete son para una persona.",
+      "lang": "es",
+      "categories": [
+        "Transporte colectivo",
+        "Transporte individual"
+      ],
+      "items": [
+        {
+          "text": "Metro",
+          "category": 0
+        },
+        {
+          "text": "Bicicleta propia",
+          "category": 1
+        },
+        {
+          "text": "Autobús escolar",
+          "category": 0
+        },
+        {
+          "text": "Patinete",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-08",
+      "type": "order",
+      "prompt": "Ordena los pasos de Adrián para montar en bici de forma segura.",
+      "explanation": "Primero nos ponemos el casco para protegernos. Luego miramos bien y pedaleamos con cuidado.",
+      "lang": "es",
+      "items": [
+        "Ponerse el casco en la cabeza",
+        "Mirar que no vengan coches",
+        "Pedalear por el carril bici"
+      ]
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-09",
+      "type": "choice",
+      "prompt": "Muchas personas deciden usar el autobús en vez del coche. ¿Qué ocurre en la ciudad?",
+      "explanation": "Al compartir el autobús usamos menos coches. Así cuidamos el aire de nuestro barrio.",
+      "hint": "Menos coches en la calle hacen menos ruido y menos humo.",
+      "lang": "es",
+      "options": [
+        "El aire se llena de humo sucio",
+        "Hay menos humo y menos atascos",
+        "Hay más atascos en las calles"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-10",
+      "type": "reading",
+      "prompt": "Lee la historia y responde a las preguntas.",
+      "explanation": "El tren es un transporte terrestre colectivo que circula sobre vías.",
+      "lang": "es",
+      "title": "Un viaje en tren",
+      "text": "Hugo y su abuela van a la sierra. Compran los billetes en la estación. Suben al tren junto a la ventana. El tren avanza rápido por las vías. Hugo mira los árboles muy contento.",
+      "questions": [
+        {
+          "prompt": "¿En qué medio de transporte viajan Hugo y su abuela?",
+          "explanation": "El texto explica que suben al tren para ir a la sierra.",
+          "options": [
+            "En un barco",
+            "En un tren",
+            "En un helicóptero"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por dónde se desplaza este vehículo?",
+          "explanation": "Los trenes son transportes terrestres que circulan siempre sobre vías.",
+          "options": [
+            "Por el cielo azul",
+            "Por vías de hierro",
+            "Por el agua del mar"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:24:00.270Z",
+    "reviewed": false
+  }
+}

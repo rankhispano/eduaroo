@@ -1,0 +1,224 @@
+{
+  "id": "g3-lengua-adjetivo-comparativo-y-superlativo",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "adjetivo-comparativo-y-superlativo",
+  "temaNombre": "Adjetivo: comparativo y superlativo",
+  "title": "Exploramos los grados del adjetivo",
+  "summary": "Practica cómo comparar cualidades y expresar adjetivos en su grado máximo.",
+  "keyIdeas": [
+    "El comparativo compara dos elementos usando: más... que (superioridad), tan... como (igualdad) o menos... que (inferioridad).",
+    "El superlativo expresa una cualidad en su grado máximo usando 'muy' o la terminación '-ísimo' / '-ísima'.",
+    "Nunca se dice 'más mejor' ni 'más peor'; se dice simplemente 'mejor' o 'peor'."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-01",
+      "type": "true-false",
+      "prompt": "En la oración 'El guepardo es más rápido que la tortuga', el adjetivo está en grado comparativo.",
+      "explanation": "Es verdadero porque compara la rapidez de dos animales usando la estructura 'más... que'.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-02",
+      "type": "choice",
+      "prompt": "¿Qué palabra expresa que la tarta de Aisha tiene una cualidad en grado superlativo?",
+      "explanation": "El adjetivo 'riquísima' termina en '-ísima' y expresa el grado superlativo, es decir, el nivel máximo de rica.",
+      "hint": "Fíjate en la terminación que indica el grado más alto.",
+      "lang": "es",
+      "options": [
+        "Tan rica como",
+        "Más rica que",
+        "Riquísima"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-03",
+      "type": "fill-blank",
+      "prompt": "Completa la oración para formar un comparativo de igualdad.",
+      "explanation": "El comparativo de igualdad se construye con la estructura 'tan... como'. Por eso decimos 'tan ligera como'.",
+      "lang": "es",
+      "sentence": "Mi mochila nueva es tan ligera ___ la tuya.",
+      "options": [
+        "que",
+        "como",
+        "de"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-04",
+      "type": "classify",
+      "prompt": "Clasifica estas expresiones según su grado.",
+      "explanation": "Los comparativos usan fórmulas de comparación (más... que, menos... que, tan... como). Los superlativos usan 'muy' o el sufijo '-ísimo'.",
+      "lang": "es",
+      "categories": [
+        "Grado comparativo",
+        "Grado superlativo"
+      ],
+      "items": [
+        {
+          "text": "menos ruidoso que",
+          "category": 0
+        },
+        {
+          "text": "altísimo",
+          "category": 1
+        },
+        {
+          "text": "más dulce que",
+          "category": 0
+        },
+        {
+          "text": "muy limpio",
+          "category": 1
+        },
+        {
+          "text": "tan veloz como",
+          "category": 0
+        },
+        {
+          "text": "rapidísima",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-05",
+      "type": "match",
+      "prompt": "Relaciona cada ejemplo con la clase de comparativo que le corresponde.",
+      "explanation": "'Más... que' indica superioridad, 'tan... como' indica igualdad y 'menos... que' indica inferioridad.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "más fuerte que",
+          "right": "Comparativo de superioridad"
+        },
+        {
+          "left": "tan alegre como",
+          "right": "Comparativo de igualdad"
+        },
+        {
+          "left": "menos pesado que",
+          "right": "Comparativo de inferioridad"
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-06",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto sobre el huerto y contesta las preguntas.",
+      "explanation": "El texto utiliza distintos adjetivos comparativos y superlativos para describir las verduras del huerto.",
+      "lang": "es",
+      "title": "Cosecha en el colegio",
+      "text": "Hoy en el huerto escolar, Lucía y Leo comparan sus verduras favoritas. La calabaza de Lucía es grande y tiene un color naranja brillantísimo. Leo dice sonriendo: 'Tu calabaza es más redonda que la mía, pero mi calabacín es larguísimo'. La maestra Aisha se acerca con una balanza para comprobar el peso de los dos vegetales. Al medirlos con cuidado, descubren que el calabacín es menos pesado que la calabaza. Al final de la tarde, todos los niños y niñas del grupo están contentísimos con la rica cosecha de este trimestre.",
+      "questions": [
+        {
+          "prompt": "Según el texto, ¿qué verdura es menos pesada que la otra?",
+          "explanation": "El texto indica claramente que 'el calabacín es menos pesado que la calabaza'.",
+          "options": [
+            "Las dos pesan lo mismo.",
+            "La calabaza de Lucía.",
+            "El calabacín de Leo."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué adjetivo en grado superlativo describe el color de la calabaza?",
+          "explanation": "'Brillantísimo' es un adjetivo superlativo porque añade la terminación '-ísimo' para indicar el grado máximo.",
+          "options": [
+            "Grande",
+            "Más redonda",
+            "Brillantísimo"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-07",
+      "type": "choice",
+      "prompt": "Omar ha escrito esta frase para el mural de clase: 'Mi perro Tobi es más mejor que los otros'. ¿Cuál es el error?",
+      "explanation": "La palabra 'mejor' ya significa 'más bueno', por lo que añadir 'más' es incorrecto. Se dice 'es mejor que'.",
+      "hint": "Recuerda que 'mejor' ya incluye la comparación en sí misma.",
+      "lang": "es",
+      "options": [
+        "Debe escribir 'el más mejor de'.",
+        "Falta la palabra 'tan' delante de mejor.",
+        "Ha puesto 'más mejor'; debe escribir solo 'mejor'."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-08",
+      "type": "order",
+      "prompt": "Ordena estas oraciones de menor a mayor intensidad de la cualidad 'limpio'.",
+      "explanation": "El orden de menor a mayor intensidad es: inferioridad (menos... que), igualdad (tan... como), superioridad (más... que) y superlativo (-ísimo).",
+      "lang": "es",
+      "items": [
+        "El patio está menos limpio que ayer.",
+        "El patio está tan limpio como ayer.",
+        "El patio está más limpio que ayer.",
+        "El patio está limpísimo."
+      ]
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-09",
+      "type": "fill-blank",
+      "prompt": "Completa la oración con el superlativo adecuado.",
+      "explanation": "Para expresar la cualidad en su grado máximo usamos el superlativo 'simpatiquísimo'. Las otras opciones son comparativos.",
+      "lang": "es",
+      "sentence": "Hugo ayudó a ordenar la biblioteca porque es un compañero ___.",
+      "options": [
+        "simpatiquísimo",
+        "tan simpático",
+        "más simpático"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-10",
+      "type": "choice",
+      "prompt": "Martina y Wei quieren expresar que sus dos edificios tienen exactamente la misma altura. ¿Qué oración deben usar?",
+      "explanation": "Para indicar que dos elementos comparten una cualidad en igual medida, se utiliza el comparativo de igualdad: 'tan... como'.",
+      "hint": "Busca la estructura que sirve para indicar igualdad.",
+      "lang": "es",
+      "options": [
+        "Mi edificio es altísimo que el tuyo.",
+        "Mi edificio es más alto que el tuyo.",
+        "Mi edificio es tan alto como el tuyo."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:25:51.232Z",
+    "reviewed": false
+  }
+}

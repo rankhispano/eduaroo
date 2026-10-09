@@ -1,0 +1,244 @@
+{
+  "id": "g3-sociales-la-poblacion",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "la-poblacion",
+  "temaNombre": "La población",
+  "title": "Descubrimos los secretos de la población",
+  "summary": "Aprenderás cómo cambia la población de un lugar y cómo se organiza en pueblos y ciudades.",
+  "keyIdeas": [
+    "La población es el conjunto de personas que viven en una localidad o territorio.",
+    "La población cambia con la natalidad, la mortalidad, la emigración y la inmigración.",
+    "Las personas pueden formar parte de la población activa o de la no activa según su situación laboral."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE8"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "CP3",
+      "CPSAA3",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-la-poblacion-01",
+      "type": "true-false",
+      "prompt": "La población absoluta es el número total de habitantes que viven en un lugar.",
+      "explanation": "La población absoluta cuenta a todas las personas empadronadas en una localidad, región o país.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-sociales-la-poblacion-02",
+      "type": "choice",
+      "prompt": "¿Cómo se llama el documento del ayuntamiento donde se registran todos los vecinos de un municipio?",
+      "explanation": "El padrón municipal es el registro oficial donde se inscriben las personas que viven en un municipio.",
+      "hint": "Es un documento oficial del ayuntamiento.",
+      "lang": "es",
+      "options": [
+        "El plano del barrio",
+        "El carné de biblioteca",
+        "El padrón municipal"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-la-poblacion-03",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra adecuada para completar la frase.",
+      "explanation": "Emigrante es la persona que sale de su lugar de origen para vivir en otro lugar.",
+      "lang": "es",
+      "sentence": "Cuando una persona se va de su pueblo para vivir en otro país, decimos que es una persona ___.",
+      "options": [
+        "inmigrante",
+        "turista",
+        "emigrante"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-la-poblacion-04",
+      "type": "match",
+      "prompt": "Une cada concepto demográfico con su significado correcto:",
+      "explanation": "La natalidad y la inmigración aumentan la población. La mortalidad y la emigración la reducen.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Natalidad",
+          "right": "Número de bebés que nacen en un año."
+        },
+        {
+          "left": "Mortalidad",
+          "right": "Número de personas que fallecen en un año."
+        },
+        {
+          "left": "Inmigración",
+          "right": "Llegada de personas para vivir en un lugar."
+        },
+        {
+          "left": "Emigración",
+          "right": "Salida de personas para residir en otro lugar."
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-la-poblacion-05",
+      "type": "classify",
+      "prompt": "Clasifica a estas personas según su situación laboral:",
+      "explanation": "La población activa trabaja o busca trabajo. Los niños, estudiantes y jubilados son población no activa.",
+      "lang": "es",
+      "categories": [
+        "Población activa",
+        "Población no activa"
+      ],
+      "items": [
+        {
+          "text": "Lucía, que trabaja como bombera en el parque municipal",
+          "category": 0
+        },
+        {
+          "text": "Hugo, que tiene 8 años y va a la escuela primaria",
+          "category": 1
+        },
+        {
+          "text": "Aisha, que busca empleo de médica en los hospitales",
+          "category": 0
+        },
+        {
+          "text": "El abuelo de Omar, que ya está jubilado de su trabajo",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-la-poblacion-06",
+      "type": "choice",
+      "prompt": "En el pueblo de Nerea nacieron 15 bebés este año y fallecieron 9 personas. ¿Cómo ha sido el crecimiento natural?",
+      "explanation": "Restamos las muertes a los nacimientos: 15 menos 9 son 6. Por tanto, la población ha crecido.",
+      "hint": "Resta los nacimientos menos las defunciones.",
+      "lang": "es",
+      "options": [
+        "Se ha quedado exactamente igual.",
+        "Ha disminuido en 6 personas.",
+        "Ha aumentado en 6 personas."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-la-poblacion-07",
+      "type": "classify",
+      "prompt": "Clasifica estas características según correspondan a una población rural o a una población urbana:",
+      "explanation": "La población rural vive en pueblos vinculados al campo. La urbana vive en ciudades con servicios e industrias.",
+      "lang": "es",
+      "categories": [
+        "Población rural",
+        "Población urbana"
+      ],
+      "items": [
+        {
+          "text": "Habitantes que viven en pueblos pequeños y tranquilos",
+          "category": 0
+        },
+        {
+          "text": "Viviendas altas y avenidas con mucho tráfico de vehículos",
+          "category": 1
+        },
+        {
+          "text": "Muchos habitantes que trabajan en fábricas y oficinas",
+          "category": 1
+        },
+        {
+          "text": "Vecinos que trabajan principalmente en la agricultura o ganadería",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-la-poblacion-08",
+      "type": "order",
+      "prompt": "Ordena el proceso de cambio de población en una pequeña aldea:",
+      "explanation": "Primero ocurre la emigración hacia las ciudades y luego la llegada de nuevos habitantes revitaliza el pueblo.",
+      "lang": "es",
+      "items": [
+        "Muchas familias jóvenes se marchan a la ciudad buscando empleo.",
+        "En la aldea quedan sobre todo personas mayores jubiladas.",
+        "Llegan nuevas familias con niños para trabajar a distancia.",
+        "Abre de nuevo la escuela local con nuevos alumnos."
+      ]
+    },
+    {
+      "id": "g3-sociales-la-poblacion-09",
+      "type": "reading",
+      "prompt": "Lee atentamente la historia del pueblo de Valle Verde y responde:",
+      "explanation": "La inmigración aporta diversidad cultural y ayuda a que los pueblos pequeños no queden abandonados.",
+      "lang": "es",
+      "title": "La llegada de nuevos vecinos a Valle Verde",
+      "text": "Valle Verde era un pueblo pequeño con 120 habitantes. Durante muchos años apenas nacían bebés y los jóvenes se marchaban a estudiar a la gran ciudad. La escuela del pueblo estaba a punto de cerrar por falta de escolares. Sin embargo, el año pasado llegaron tres familias nuevas desde otros países para trabajar en la cooperativa agrícola. Trajeron consigo a seis niños muy alegres. Los vecinos organizaron una fiesta en la plaza para darles la bienvenida. Gracias a su llegada, la escuela municipal sigue abierta y las calles vuelven a llenarse de juegos infantiles.",
+      "questions": [
+        {
+          "prompt": "¿Por qué motivo estuvo a punto de cerrar la escuela de Valle Verde?",
+          "explanation": "El texto explica que la escuela iba a cerrar porque casi no nacían niños y los jóvenes se marchaban.",
+          "options": [
+            "Porque el maestro se marchó de vacaciones.",
+            "Porque faltaban niños en edad escolar.",
+            "Porque el edificio era muy antiguo y peligroso."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "La llegada de estas familias con sus hijos es un ejemplo de:",
+          "explanation": "Es inmigración porque vienen de otros lugares a vivir y trabajar en Valle Verde de forma estable.",
+          "options": [
+            "Turismo de fin de semana en la montaña.",
+            "Emigración que reduce la población local.",
+            "Inmigración que ayuda a revitalizar el pueblo."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-la-poblacion-10",
+      "type": "choice",
+      "prompt": "Un municipio tenía 500 vecinos en enero. Durante el año nacieron 10 bebés, murieron 4 personas, llegaron 20 inmigrantes y emigraron 6 personas. ¿Cuántos habitantes hay al final del año?",
+      "explanation": "Calculamos: 500 + 10 (nacidos) - 4 (fallecidos) + 20 (llegados) - 6 (marchados) = 520 habitantes.",
+      "hint": "Suma nacimientos e inmigrantes, y resta fallecimientos y emigrantes.",
+      "lang": "es",
+      "options": [
+        "530 habitantes",
+        "520 habitantes",
+        "510 habitantes"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:44:41.672Z",
+    "reviewed": false
+  }
+}

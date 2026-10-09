@@ -1,0 +1,212 @@
+{
+  "id": "g3-naturales-sistema-circulatorio",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "sistema-circulatorio",
+  "temaNombre": "Sistema circulatorio",
+  "title": "El viaje de la sangre",
+  "summary": "Repasa cómo funciona el corazón, los vasos sanguíneos y la sangre.",
+  "keyIdeas": [
+    "El corazón es un músculo que bombea sangre a todo el cuerpo sin parar.",
+    "La sangre viaja por vasos sanguíneos: arterias, venas y capilares muy finos.",
+    "La sangre transporta oxígeno y nutrientes a todas las células de nuestro cuerpo."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-sistema-circulatorio-01",
+      "type": "choice",
+      "prompt": "¿Qué órgano funciona como una bomba para impulsar la sangre?",
+      "explanation": "El corazón es un órgano muscular hueco. Su función principal es bombear la sangre por todo el cuerpo.",
+      "hint": "Late dentro de tu pecho.",
+      "lang": "es",
+      "options": [
+        "El corazón",
+        "El estómago",
+        "Los pulmones"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-02",
+      "type": "match",
+      "prompt": "Une cada vaso sanguíneo con su función principal:",
+      "explanation": "Las arterias salen del corazón, las venas entran en él y los capilares comunican ambos con los tejidos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Arterias",
+          "right": "Llevan la sangre desde el corazón al resto del cuerpo"
+        },
+        {
+          "left": "Venas",
+          "right": "Devuelven la sangre desde los órganos hacia el corazón"
+        },
+        {
+          "left": "Capilares",
+          "right": "Vasos diminutos que conectan con cada célula"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre los componentes de la sangre:",
+      "explanation": "Las plaquetas son fragmentos celulares que taponan los vasos rotos para frenar la salida de sangre.",
+      "hint": "Hacen una barrera cuando te haces un raspón.",
+      "lang": "es",
+      "sentence": "Las ___ ayudan a cerrar las heridas formando una costra para evitar hemorragias.",
+      "options": [
+        "grasas",
+        "plaquetas",
+        "neuronas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-04",
+      "type": "classify",
+      "prompt": "Clasifica cada célula de la sangre según su función:",
+      "explanation": "Los glóbulos rojos llevan oxígeno por todo el cuerpo. Los glóbulos blancos defienden nuestro cuerpo de las infecciones.",
+      "lang": "es",
+      "categories": [
+        "Transportar oxígeno",
+        "Defender de microbios"
+      ],
+      "items": [
+        {
+          "text": "Glóbulos rojos",
+          "category": 0
+        },
+        {
+          "text": "Glóbulos blancos",
+          "category": 1
+        },
+        {
+          "text": "Hemoglobina en hematíes",
+          "category": 0
+        },
+        {
+          "text": "Leucocitos protectores",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-05",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas:",
+      "explanation": "El corazón adapta su velocidad según la actividad que realiza el cuerpo.",
+      "lang": "es",
+      "title": "Las pulsaciones de Aisha",
+      "text": "En clase de Educación Física, Aisha y Hugo investigan sobre el ritmo del corazón. Primero, se sientan en silencio durante dos minutos. Aisha coloca dos dedos en su muñeca y cuenta 75 latidos en un minuto. Después, corre cinco minutos alrededor de la pista del colegio. Al terminar, vuelve a contar sus pulsaciones: ¡ahora su corazón late a 130 pulsaciones por minuto! Hugo anota los datos en una libreta para compararlos.",
+      "questions": [
+        {
+          "prompt": "¿Cuántas pulsaciones por minuto tenía Aisha en reposo?",
+          "explanation": "El texto indica claramente que en reposo Aisha contó 75 latidos en un minuto.",
+          "options": [
+            "5 pulsaciones",
+            "75 pulsaciones",
+            "130 pulsaciones"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por qué el corazón de Aisha late más rápido después de correr?",
+          "explanation": "Al hacer ejercicio, los músculos trabajan más y necesitan recibir oxígeno velozmente a través de la sangre.",
+          "options": [
+            "Porque los músculos necesitan más oxígeno y nutrientes rápidamente",
+            "Porque la sangre se detiene en las piernas",
+            "Porque el aire entra directamente en el corazón"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-06",
+      "type": "order",
+      "prompt": "Ordena el camino que sigue la sangre oxigenada desde que sale del corazón:",
+      "explanation": "La sangre sale del corazón por grandes arterias, se reparte por capilares y regresa por las venas.",
+      "lang": "es",
+      "items": [
+        "Sale del corazón por las arterias principales",
+        "Llega a las arterias más pequeñas del cuerpo",
+        "Pasa por los capilares y entrega el oxígeno a los músculos",
+        "Vuelve al corazón por las venas"
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-07",
+      "type": "choice",
+      "prompt": "Omar mide sus latidos: 70 en reposo y 115 tras subir escaleras. ¿Qué predicción científica es correcta?",
+      "explanation": "Cuando el cuerpo vuelve al reposo, los músculos necesitan menos energía y el ritmo cardíaco desciende progresivamente.",
+      "hint": "Piensa en qué ocurre cuando descansas tras jugar.",
+      "lang": "es",
+      "options": [
+        "El corazón dejará de latir por completo al sentarse",
+        "Sus pulsaciones seguirán subiendo sin parar aunque se siente en el sofá",
+        "Tras descansar diez minutos, sus pulsaciones bajarán de nuevo cerca de 70"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-08",
+      "type": "true-false",
+      "prompt": "Hacer ejercicio habitualmente y comer frutas y verduras ayuda a mantener sano nuestro corazón.",
+      "explanation": "El deporte fortalece el músculo del corazón y una dieta sana mantiene limpias las arterias.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-09",
+      "type": "choice",
+      "prompt": "Lucía se hace un pequeño corte en el dedo. ¿Por qué sangra si no se ha cortado una arteria principal?",
+      "explanation": "Los capilares sanguíneos llegan a casi cualquier rincón de nuestra piel, por eso sale una pequeña gota de sangre.",
+      "hint": "Hay vasos muy finos por todo el cuerpo.",
+      "lang": "es",
+      "options": [
+        "Porque en la piel hay una red enorme de capilares microscópicos",
+        "Porque el corazón envía toda la sangre del cuerpo al dedo cortado",
+        "Porque las venas de los dedos están completamente abiertas al aire"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:46:50.709Z",
+    "reviewed": false
+  }
+}

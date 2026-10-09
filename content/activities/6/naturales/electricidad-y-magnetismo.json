@@ -1,0 +1,250 @@
+{
+  "id": "g6-naturales-electricidad-y-magnetismo",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "electricidad-y-magnetismo",
+  "temaNombre": "Electricidad y magnetismo",
+  "title": "Misterios de la electricidad y magnetismo",
+  "summary": "Repasa las cargas eléctricas, los circuitos, los imanes y su relación con el electromagnetismo.",
+  "keyIdeas": [
+    "Las cargas eléctricas del mismo signo se repelen y las de distinto signo se atraen.",
+    "Un circuito eléctrico necesita un generador, conductores y receptores en un camino cerrado para que fluya la corriente.",
+    "La electricidad y el magnetismo están estrechamente unidos: la corriente eléctrica genera campos magnéticos y viceversa."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.3",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-01",
+      "type": "classify",
+      "prompt": "Clasifica estos materiales según permitan o impidan el paso de la corriente eléctrica:",
+      "explanation": "Los metales como el cobre, el hierro y el aluminio permiten el flujo de electrones (conductores), mientras que el plástico, la goma y la madera no lo permiten (aislantes).",
+      "lang": "es",
+      "categories": [
+        "Conductores",
+        "Aislantes"
+      ],
+      "items": [
+        {
+          "text": "Cable de cobre",
+          "category": 0
+        },
+        {
+          "text": "Clip metálico de hierro",
+          "category": 0
+        },
+        {
+          "text": "Tira de plástico",
+          "category": 1
+        },
+        {
+          "text": "Goma de borrar",
+          "category": 1
+        },
+        {
+          "text": "Moneda de aluminio",
+          "category": 0
+        },
+        {
+          "text": "Madera seca de lápiz",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-02",
+      "type": "true-false",
+      "prompt": "Si frotas un globo de látex contra un jersey de lana, ambos objetos quedan neutros porque las cargas se destruyen.",
+      "explanation": "Las cargas eléctricas no se destruyen: los electrones pasan de un material a otro mediante fricción, haciendo que un objeto quede cargado negativamente y el otro positivamente.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-03",
+      "type": "match",
+      "prompt": "Une cada componente de un circuito eléctrico escolar con la función que realiza:",
+      "explanation": "Cada elemento cumple un papel indispensable: el generador aporta la energía, los cables la transportan, el receptor la aprovecha y el interruptor controla el paso.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Pila de petaca",
+          "right": "Suministra la energía eléctrica para que se muevan las cargas."
+        },
+        {
+          "left": "Interruptor",
+          "right": "Abre o cierra el paso de la corriente eléctrica."
+        },
+        {
+          "left": "Bombilla pequeña",
+          "right": "Transforma la energía eléctrica en luz y calor."
+        },
+        {
+          "left": "Hilos de cobre",
+          "right": "Transportan los electrones de un punto a otro del circuito."
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre las fuerzas magnéticas entre imanes:",
+      "explanation": "Los polos magnéticos del mismo tipo (norte con norte o sur con sur) se repelen, mientras que los polos opuestos se atraen.",
+      "hint": "Recuerda la regla de los polos magnéticos iguales.",
+      "lang": "es",
+      "sentence": "Cuando acercamos los polos norte de dos imanes distintos, comprobamos que se ___ con fuerza.",
+      "options": [
+        "repelen",
+        "atraen",
+        "apagan"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-05",
+      "type": "order",
+      "prompt": "Hugo y Aisha quieren construir un electroimán en el taller de ciencias. Ordena los pasos lógicos que deben seguir:",
+      "explanation": "Primero se reúnen los materiales, se prepara la bobina enrollando el cable, se asegura el contacto eléctrico retirando el aislante de las puntas y, finalmente, se conecta a la pila para probar la atracción magnética.",
+      "lang": "es",
+      "items": [
+        "Conseguir un clavo largo de hierro, hilo de cobre esmaltado y una pila.",
+        "Enrollar el hilo de cobre de forma apretada alrededor del clavo de hierro.",
+        "Pelar los extremos del hilo de cobre para retirar el esmalte aislante.",
+        "Conectar cada extremo pelado a un polo de la pila para que circule corriente.",
+        "Acercar el clavo a varios clips pequeños para comprobar que se comporta como un imán."
+      ]
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-06",
+      "type": "choice",
+      "prompt": "Razonamiento científico 🔬: En clase de ciencias, Nerea monta un circuito cerrado con una pila y dos bombillas colocadas una a continuación de otra (en serie). Ambas lucen. De repente, desenrosca una de ellas. ¿Qué predicción es correcta y por qué?",
+      "explanation": "En un circuito en serie solo existe un único camino para la corriente. Al desenroscar una bombilla, el circuito se abre y la electricidad no puede continuar circulando.",
+      "hint": "Fíjate en cuántos caminos tiene la corriente en una conexión en serie.",
+      "lang": "es",
+      "options": [
+        "La otra bombilla lucirá con el doble de brillo porque ahora recibe toda la energía de la pila.",
+        "La otra bombilla se apagará de inmediato porque el circuito ha quedado abierto e interrumpe el paso de corriente.",
+        "La otra bombilla seguirá luciendo exactamente igual porque la pila sigue conectada."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-07",
+      "type": "choice",
+      "prompt": "Encuentra el error 🔎: Cuatro estudiantes afirman conocer cómo funciona la brújula y el magnetismo terrestre. ¿Quién comete un error científico?",
+      "explanation": "La afirmación de Omar es un mito histórico falso: el magnetismo terrestre no se debe a una montaña en la superficie, sino a los movimientos de hierro y níquel fundidos en el interior del núcleo de la Tierra.",
+      "hint": "Busca la afirmación que confunde una leyenda antigua con el origen real del campo magnético.",
+      "lang": "es",
+      "options": [
+        "Omar: «El polo norte magnético terrestre atrae a la brújula porque en el Polo Norte geográfico hay una enorme montaña de hierro que atrae todo tipo de metales».",
+        "Lucía: «El extremo norte de la aguja de la brújula apunta hacia el norte magnético terrestre porque es atraído por un polo de signo opuesto».",
+        "Martina: «La aguja imantada de la brújula se orienta siguiendo las líneas del campo magnético de nuestro planeta».",
+        "Adrián: «La Tierra se comporta como un gigantesco imán gracias a los movimientos de metales en su núcleo»."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-08",
+      "type": "reading",
+      "prompt": "Lee atentamente el siguiente texto sobre el hallazgo del electromagnetismo y responde a las preguntas:",
+      "explanation": "El descubrimiento de Oersted en 1820 demostró la relación inseparable entre electricidad y magnetismo (electromagnetismo).",
+      "lang": "es",
+      "title": "La chispa de Oersted",
+      "text": "En la primavera de 1820, el físico danés Hans Christian Oersted preparaba una clase en la Universidad de Copenhague. Sobre su mesa de trabajo descansaba una brújula cerca de los cables con los que demostraba la corriente eléctrica. Al cerrar el circuito conectando la batería, observó asombrado que la aguja magnética se desviaba bruscamente, colocándose perpendicular al cable.\n\nHasta ese instante, la comunidad científica creía que la electricidad y el magnetismo eran fuerzas completamente independientes que no guardaban relación entre sí. Intrigado por lo sucedido, Oersted repitió la prueba invirtiendo el sentido de la corriente: la aguja giró entonces en dirección contraria.\n\nAquel suceso casual demostró que las cargas eléctricas en movimiento generan su propio campo magnético a su alrededor. Este hito histórico abrió la puerta al desarrollo de los motores eléctricos, los generadores y las telecomunicaciones modernas, transformando por completo la vida cotidiana.",
+      "questions": [
+        {
+          "prompt": "¿Qué observó exactamente Oersted cuando circuló corriente eléctrica por el cable?",
+          "explanation": "El texto explica que al cerrar el circuito, la aguja magnética se desvió de forma brusca colocándose perpendicular al cable.",
+          "options": [
+            "Que la aguja de la brújula se movió hasta colocarse perpendicular al cable.",
+            "Que la pila se calentó tanto que apagó la brújula.",
+            "Que el cable de cobre atrajo pequeños trozos de papel como un globo frotado."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "A partir de la lectura, ¿qué conclusión científica fundamental se puede deducir del experimento?",
+          "explanation": "El experimento demostró por primera vez que la corriente eléctrica crea un campo magnético, uniendo dos áreas que antes se creían desconectadas.",
+          "options": [
+            "Que las brújulas solo funcionan si están conectadas directamente a una batería eléctrica.",
+            "Que la electricidad y el magnetismo son fenómenos interconectados y no independientes.",
+            "Que los imanes naturales pierden su fuerza cuando se acercan a metales como el cobre."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por qué el descubrimiento de Oersted supuso un impacto crítico para la sociedad humana posterior?",
+          "explanation": "Comprender la relación entre corriente y magnetismo permitió crear motores eléctricos, dinamos y las tecnologías que hacen posible nuestra red eléctrica actual.",
+          "options": [
+            "Porque sirvió de base científica para diseñar motores eléctricos y generadores de energía.",
+            "Porque demostró que era peligroso usar cables de metal en las universidades.",
+            "Porque permitió inventar brújulas de madera para la navegación fluvial."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-09",
+      "type": "choice",
+      "prompt": "Situación práctica 💡: Wei está diseñando una maqueta de un faro para el proyecto escolar. Quiere que la linterna del faro funcione con una pila de 4,5 V y que incluya un interruptor casero. Si monta el circuito y la bombilla no enciende, ¿cuál de las siguientes comprobaciones debe hacer primero para localizar el fallo?",
+      "explanation": "Para que un receptor funcione, el circuito debe estar completamente cerrado y con buenos contactos metálicos. Una mala conexión o un cable suelto impiden el flujo de electrones.",
+      "hint": "Recuerda cuál es el requisito indispensable para que fluya la corriente en un circuito.",
+      "lang": "es",
+      "options": [
+        "Pintar los cables de plástico con témpera para aumentar el paso de la corriente eléctrica.",
+        "Comprobar si el circuito tiene alguna parte abierta o si los extremos del cable no hacen buen contacto con la pila.",
+        "Cambiar la bombilla por una vela porque las pilas no sirven para maquetas de faros."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-10",
+      "type": "choice",
+      "prompt": "Reto experimental ⚡: Imagina que frotas con fuerza una regla de plástico con un paño de lana y la acercas a un chorro muy fino de agua del grifo sin llegar a tocarlo. ¿Qué predicción razonada explica lo que ocurrirá?",
+      "explanation": "La regla cargada electrostáticamente atrae a las moléculas de agua (que tienen una parte positiva y otra negativa), haciendo que el fino hilo de agua se curve claramente hacia la regla sin necesidad de contacto directo.",
+      "hint": "Piensa en el efecto de la atracción entre cargas eléctricas a corta distancia.",
+      "lang": "es",
+      "options": [
+        "El chorro de agua se congelará al instante debido al enfriamiento que provocan las cargas electrostáticas.",
+        "El chorro de agua no cambiará en absoluto porque el agua corriente es impermeable a cualquier fuerza.",
+        "El chorro de agua se desviará curvándose hacia la regla, porque las cargas de la regla atraen a las moléculas polares del agua."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:27:01.790Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "id": "g1-naturales-el-tiempo-atmosferico",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "el-tiempo-atmosferico",
+  "temaNombre": "El tiempo atmosférico",
+  "title": "Observamos el tiempo atmosférico",
+  "summary": "Aprende a reconocer el tiempo que hace y cómo cambia cada día.",
+  "keyIdeas": [
+    "El tiempo atmosférico nos dice cómo está el aire y el cielo.",
+    "El sol, la lluvia, el viento y la nieve cambian el tiempo.",
+    "Observamos el cielo para elegir la ropa adecuada cada día."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › Materia, fuerzas y energía"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-01",
+      "type": "choice",
+      "prompt": "Hoy el cielo está azul y no hay nubes. ¿Qué tiempo hace?",
+      "explanation": "Si vemos el sol y el cielo está despejado, el día es soleado.",
+      "hint": "Mira si brilla el sol en el cielo.",
+      "lang": "es",
+      "options": [
+        "Hace un día soleado",
+        "Está nevando",
+        "Está lloviendo mucho"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-02",
+      "type": "true-false",
+      "prompt": "El viento es el aire cuando se mueve.",
+      "explanation": "El aire no se ve, pero sentimos el viento cuando se mueve.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-03",
+      "type": "fill-blank",
+      "prompt": "Completa con la palabra adecuada.",
+      "explanation": "La lluvia son gotas de agua que caen desde las nubes.",
+      "lang": "es",
+      "sentence": "Cuando caen gotas de agua de las nubes decimos que ___.",
+      "options": [
+        "hay niebla",
+        "llueve",
+        "hace sol"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-04",
+      "type": "match",
+      "prompt": "Une cada fenómeno del tiempo con su pista.",
+      "explanation": "Cada fenómeno tiene señales claras que podemos observar con nuestros sentidos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Lluvia",
+          "right": "Gotas de agua que caen"
+        },
+        {
+          "left": "Viento",
+          "right": "Las ramas de los árboles se mueven"
+        },
+        {
+          "left": "Nieve",
+          "right": "Copos blancos y muy fríos"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-05",
+      "type": "classify",
+      "prompt": "Clasifica la ropa según el tiempo que hace fuera.",
+      "explanation": "Nos abrigamos con bufanda cuando hace frío y vestimos ropa ligera con calor.",
+      "lang": "es",
+      "categories": [
+        "Día de mucho frío",
+        "Día de mucho calor"
+      ],
+      "items": [
+        {
+          "text": "Gorro de lana",
+          "category": 0
+        },
+        {
+          "text": "Camiseta de manga corta",
+          "category": 1
+        },
+        {
+          "text": "Bufanda gruesa",
+          "category": 0
+        },
+        {
+          "text": "Bañador",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-06",
+      "type": "choice",
+      "prompt": "¿Qué instrumento usamos para medir la temperatura y saber si hace frío?",
+      "explanation": "El termómetro sirve para medir cuántos grados marca la temperatura del aire.",
+      "hint": "Mide el calor y el frío.",
+      "lang": "es",
+      "options": [
+        "Una regla",
+        "Un termómetro",
+        "Un reloj"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-07",
+      "type": "choice",
+      "prompt": "Encuentra el error: Lucas dice algo falso sobre la nieve.",
+      "explanation": "La nieve es agua helada en forma de copos, no contiene fuego.",
+      "hint": "Piensa si la nieve está caliente o fría.",
+      "lang": "es",
+      "options": [
+        "La nieve se derrite si sube la temperatura",
+        "La nieve cae cuando hace mucho frío",
+        "La nieve está hecha de fuego y quema"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-08",
+      "type": "choice",
+      "prompt": "Aisha mira por la ventana: el cielo está negro y caen gotas. ¿Qué pasará?",
+      "explanation": "Al caer la lluvia de las nubes, el suelo del patio se moja.",
+      "hint": "Piensa qué hace el agua de la lluvia al caer al suelo.",
+      "lang": "es",
+      "options": [
+        "El patio se quedará seco por completo",
+        "Saldrá la nieve en la playa enseguida",
+        "El suelo se mojará con la lluvia"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-09",
+      "type": "order",
+      "prompt": "Ordena los pasos para medir la lluvia con un bote en el patio.",
+      "explanation": "Primero ponemos el bote vacío, dejamos que llueva y luego comprobamos el agua.",
+      "lang": "es",
+      "items": [
+        "Colocamos un bote vacío en el patio",
+        "Esperamos mientras cae la lluvia",
+        "Miramos cuánta agua se ha recogido"
+      ]
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-10",
+      "type": "reading",
+      "prompt": "Lee con atención y responde a las preguntas.",
+      "explanation": "Observar el tiempo cada día nos ayuda a saber qué ropa ponernos.",
+      "lang": "es",
+      "title": "El diario de Hugo",
+      "text": "Hugo anota el tiempo del cole. El lunes brilló el sol y no llevó chaqueta. El martes el viento movió las hojas con fuerza. El miércoles llovió mucho y abrió su paraguas rojo.",
+      "questions": [
+        {
+          "prompt": "¿Qué día usó Hugo el paraguas rojo?",
+          "explanation": "El texto dice que el miércoles llovió mucho y Hugo abrió su paraguas.",
+          "options": [
+            "El miércoles",
+            "El martes",
+            "El lunes"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué Hugo no llevó chaqueta el lunes?",
+          "explanation": "El lunes brilló el sol y el ambiente era cálido, por eso no necesitó chaqueta.",
+          "options": [
+            "Porque nevaba mucho",
+            "Porque hacía sol y calor",
+            "Porque hacía frío"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:32:27.427Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "id": "g5-mates-aproximacion-redondeo-y-estimacion",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "aproximacion-redondeo-y-estimacion",
+  "temaNombre": "Aproximación, redondeo y estimación",
+  "title": "Aproximación, redondeo y estimación cotidiana",
+  "summary": "Aprenderás a redondear números naturales y decimales y a estimar resultados en situaciones reales.",
+  "keyIdeas": [
+    "Para redondear a una posición, mira la cifra de la derecha: si es 5 o mayor, suma 1; si es menor que 5, déjala igual.",
+    "Al aproximar números decimales a las décimas o centésimas, aplicamos la misma regla de la cifra siguiente.",
+    "Estimar consiste en redondear las cantidades antes de operar para calcular mentalmente un resultado aproximado y rápido."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.1",
+      "2.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-01",
+      "type": "choice",
+      "prompt": "En la biblioteca del colegio hay 3.482 libros registrados. ¿Cuál es el redondeo de esta cantidad a la centena más cercana?",
+      "explanation": "Para redondear a la centena nos fijamos en la decena (8). Como 8 es mayor o igual que 5, aumentamos una centena: 3.482 pasa a ser 3.500.",
+      "hint": "Fíjate en la cifra de las decenas para ver si sumas uno a las centenas.",
+      "lang": "es",
+      "options": [
+        "3.400",
+        "3.480",
+        "3.500",
+        "3.000"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-02",
+      "type": "true-false",
+      "prompt": "Al redondear el número 6,73 a las décimas obtenemos 6,7.",
+      "explanation": "La cifra de las centésimas es 3, que es menor que 5, por lo que la cifra de las décimas se queda igual en 7: 6,7.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-03",
+      "type": "fill-blank",
+      "prompt": "Completa el espacio para aproximar a los millares.",
+      "explanation": "La cifra de las centenas es 6, que es mayor o igual que 5. Por tanto, sumamos 1 a los millares: 8 + 1 = 9, obteniendo 9.000.",
+      "lang": "es",
+      "sentence": "El número 8.614 aproximado a los millares o unidades de millar es ___.",
+      "options": [
+        "8.600",
+        "9.000",
+        "8.000"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-04",
+      "type": "classify",
+      "prompt": "Clasifica cada número según a qué centena redondea.",
+      "explanation": "Si la decena es menor que 5 (como en 438, 419 o 392 con respecto a 400), se aproxima a 400. Si es 5 o mayor (como en 450, 481 y 467), se aproxima a 500.",
+      "lang": "es",
+      "categories": [
+        "Redondea a 400",
+        "Redondea a 500"
+      ],
+      "items": [
+        {
+          "text": "438",
+          "category": 0
+        },
+        {
+          "text": "481",
+          "category": 1
+        },
+        {
+          "text": "450",
+          "category": 1
+        },
+        {
+          "text": "419",
+          "category": 0
+        },
+        {
+          "text": "467",
+          "category": 1
+        },
+        {
+          "text": "392",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-05",
+      "type": "match",
+      "prompt": "Relaciona cada número decimal con su aproximación a las décimas:",
+      "explanation": "Miramos la cifra de las centésimas: en 4,28 (8 ≥ 5) sube a 4,3; en 4,23 (3 < 5) se queda en 4,2; en 4,96 (6 ≥ 5) sube a 5,0; y en 4,05 (5 ≥ 5) sube a 4,1.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "4,28",
+          "right": "4,3"
+        },
+        {
+          "left": "4,23",
+          "right": "4,2"
+        },
+        {
+          "left": "4,96",
+          "right": "5,0"
+        },
+        {
+          "left": "4,05",
+          "right": "4,1"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-06",
+      "type": "choice",
+      "prompt": "🧠 Cálculo mental rápido: Aisha quiere estimar mentalmente la suma de 495 € y 312 € redondeando ambos precios a la centena. ¿Qué estimación obtendrá?",
+      "explanation": "Redondeamos 495 € a la centena más cercana (500 €) y 312 € a la centena más cercana (300 €). Sumamos mentalmente: 500 + 300 = 800 €.",
+      "hint": "Aproxima primero cada número a la centena más próxima y luego suma.",
+      "lang": "es",
+      "options": [
+        "810 €",
+        "800 €",
+        "900 €",
+        "700 €"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-07",
+      "type": "order",
+      "prompt": "Ordena los pasos lógicos para estimar el coste total de 6 camisetas a 19,80 € cada una:",
+      "explanation": "Primero identificamos el dato real, lo redondeamos para facilitar el cálculo, operamos con la cantidad redondeada y comunicamos la estimación.",
+      "lang": "es",
+      "items": [
+        "Identificar el precio unitario exacto: 19,80 €",
+        "Redondear el precio a la unidad o decena más cercana: 20 €",
+        "Multiplicar la cantidad redondeada por las 6 camisetas: 20 × 6",
+        "Obtener la estimación final aproximada: 120 €"
+      ]
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-08",
+      "type": "choice",
+      "prompt": "🕵️ ¡Encuentra el error! Hugo tenía que redondear el número 14.529 a las decenas de millar. Escribió en su cuaderno: 14.529 ≈ 20.000. ¿Cuál ha sido su fallo?",
+      "explanation": "Para redondear a las decenas de millar nos fijamos en la unidad de millar, que es 4. Como 4 < 5, la decena de millar se mantiene en 1. El resultado correcto es 10.000, no 20.000.",
+      "hint": "Observa la cifra que va justo detrás del 1 de las decenas de millar.",
+      "lang": "es",
+      "options": [
+        "Miró la centena en lugar de la unidad de millar.",
+        "Olvidó cambiar las últimas cifras por ceros.",
+        "Sumó uno a las decenas de millar a pesar de que la unidad de millar es 4 (menor que 5).",
+        "Se equivocó porque 14.529 redondeado a las decenas de millar es 15.000."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-09",
+      "type": "choice",
+      "prompt": "En una carrera solidaria del colegio, Omar recorre 2.870 metros y Martina 3.140 metros. Si redondeamos ambas distancias a los millares para estimar la diferencia, ¿cuántos metros de diferencia estimada hay?",
+      "explanation": "Redondeamos a los millares: 2.870 m se aproxima a 3.000 m y 3.140 m se aproxima a 3.000 m. La diferencia estimada es 3.000 - 3.000 = 0 m.",
+      "hint": "Redondea primero cada distancia a la unidad de millar.",
+      "lang": "es",
+      "options": [
+        "1.000 m",
+        "0 m",
+        "200 m",
+        "500 m"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-10",
+      "type": "fill-blank",
+      "prompt": "Completa con la opción correcta según el contexto de compra.",
+      "explanation": "Al redondear al alza (13 € + 7 € = 20 €), se asegura de no quedarse corto de dinero en la caja al pagar.",
+      "lang": "es",
+      "sentence": "Adrián lleva un billete de 20 € y compra un libro de 12,95 € y un estuche de 6,80 €. Para saber si le alcanza el dinero con seguridad antes de pagar, le conviene redondear los precios ___.",
+      "options": [
+        "a cero",
+        "al alza (hacia arriba)",
+        "a la baja (hacia abajo)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-11",
+      "type": "match",
+      "prompt": "Empareja cada número con su redondeo a las centésimas:",
+      "explanation": "Nos fijamos en la cifra de las milésimas: si es 5 o mayor sumamos 1 a las centésimas (7,346 pasa a 7,35; 7,398 pasa a 7,40; 7,305 pasa a 7,31); si es menor que 5 se queda igual (7,342 pasa a 7,34).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "7,346",
+          "right": "7,35"
+        },
+        {
+          "left": "7,342",
+          "right": "7,34"
+        },
+        {
+          "left": "7,398",
+          "right": "7,40"
+        },
+        {
+          "left": "7,305",
+          "right": "7,31"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-12",
+      "type": "choice",
+      "prompt": "🎯 Reto final: Un autobús tiene capacidad para 55 pasajeros. Para una excursión de 5.º de Primaria se han apuntado 234 alumnos y profesores. ¿Cuántos autobuses completos o casi completos se deben contratar?",
+      "explanation": "Dividimos 234 entre 55: 55 × 4 = 220 pasajeros. Como quedan 14 personas sin plaza (234 - 220 = 14), se necesita redondear al alza y contratar 5 autobuses para que nadie se quede en tierra.",
+      "hint": "Calcula cuántas personas caben en 4 autobuses y piensa qué pasa con los que sobran.",
+      "lang": "es",
+      "options": [
+        "6 autobuses",
+        "5 autobuses",
+        "4 autobuses",
+        "3 autobuses"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:31:42.128Z",
+    "reviewed": false
+  }
+}

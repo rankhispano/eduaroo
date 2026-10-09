@@ -1,0 +1,254 @@
+{
+  "id": "g4-sociales-rios-de-espana-y-europa",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "rios-de-espana-y-europa",
+  "temaNombre": "Ríos de España y Europa",
+  "title": "Exploradores de ríos: España y Europa",
+  "summary": "Practica las características de los ríos, sus vertientes en España y los grandes ríos de Europa.",
+  "keyIdeas": [
+    "Un río nace en la montaña, recibe afluentes y desemboca en el mar o en otro río.",
+    "Los ríos de España se reparten en tres vertientes: cantábrica, atlántica y mediterránea.",
+    "El Tajo es el río peninsular más largo y el Volga es el más largo de Europa."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-01",
+      "type": "choice",
+      "prompt": "El lugar donde un río vierte sus aguas al mar o a un lago se llama: 🌊",
+      "explanation": "La desembocadura es el final del río. El nacimiento es el punto donde empieza a brotar el agua.",
+      "hint": "Es el tramo final del río.",
+      "lang": "es",
+      "options": [
+        "Desembocadura",
+        "Nacimiento",
+        "Afluente",
+        "Meandro"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-02",
+      "type": "true-false",
+      "prompt": "El río Tajo es el río más largo de toda la península ibérica.",
+      "explanation": "¡Correcto! El río Tajo mide más de mil kilómetros y desemboca en el océano Atlántico por Lisboa.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra adecuada:",
+      "explanation": "Un afluente aporta su agua a un río mayor. Por ejemplo, el río Jarama es afluente del Tajo.",
+      "lang": "es",
+      "sentence": "Un río secundario que vierte sus aguas en otro río principal se llama ___.",
+      "options": [
+        "meandro",
+        "afluente",
+        "delta"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-04",
+      "type": "order",
+      "prompt": "Ordena el camino que sigue el agua de un río desde su origen hasta el final: 🏔️",
+      "explanation": "El río nace en zonas altas, recorre sus cursos alto, medio y bajo, y finalmente desemboca.",
+      "lang": "es",
+      "items": [
+        "Nacimiento en la montaña",
+        "Curso alto con pendiente y aguas rápidas",
+        "Curso medio con aguas más lentas",
+        "Curso bajo cerca de la costa",
+        "Desembocadura en el mar"
+      ]
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-05",
+      "type": "classify",
+      "prompt": "Clasifica cada río de la península ibérica según la vertiente a la que pertenece:",
+      "explanation": "Los ríos cantábricos vierten al mar Cantábrico, los atlánticos al océano Atlántico y los mediterráneos al mar Mediterráneo.",
+      "lang": "es",
+      "categories": [
+        "Vertiente Cantábrica",
+        "Vertiente Atlántica",
+        "Vertiente Mediterránea"
+      ],
+      "items": [
+        {
+          "text": "Nalón",
+          "category": 0
+        },
+        {
+          "text": "Duero",
+          "category": 1
+        },
+        {
+          "text": "Ebro",
+          "category": 2
+        },
+        {
+          "text": "Guadalquivir",
+          "category": 1
+        },
+        {
+          "text": "Segura",
+          "category": 2
+        },
+        {
+          "text": "Navia",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-06",
+      "type": "match",
+      "prompt": "Relaciona cada vertiente española con los rasgos de sus ríos:",
+      "explanation": "El relieve y el clima determinan la longitud y el caudal de los ríos en cada vertiente.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Vertiente Cantábrica",
+          "right": "Ríos cortos y caudalosos por lluvias continuas"
+        },
+        {
+          "left": "Vertiente Atlántica",
+          "right": "Ríos largos que recorren grandes llanuras"
+        },
+        {
+          "left": "Vertiente Mediterránea",
+          "right": "Ríos de caudal escaso que sufren estiaje en verano"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-07",
+      "type": "reading",
+      "prompt": "Lee atentamente la información sobre un gran río europeo y contesta las preguntas:",
+      "explanation": "El Danubio es un río internacional clave para Europa que conecta muchos países y capitales.",
+      "lang": "es",
+      "title": "El viaje del río Danubio",
+      "text": "En clase de Ciencias, Hugo y Martina investigan sobre los ríos de Europa. Han descubierto que el río Danubio es el segundo más largo del continente. Nace en la Selva Negra, en Alemania, y recorre más de dos mil ochocientos kilómetros hacia el este. A lo largo de su viaje, pasa por diez países diferentes y baña cuatro capitales: Viena, Bratislava, Budapest y Belgrado. Finalmente, este gran río desemboca en el mar Negro formando un enorme delta protegido por su gran riqueza de aves y peces.",
+      "questions": [
+        {
+          "prompt": "¿En qué lugar nace el río Danubio?",
+          "explanation": "El texto explica claramente que el Danubio nace en la Selva Negra, en Alemania.",
+          "options": [
+            "En las montañas del mar Negro",
+            "En las costas de Budapest",
+            "En la Selva Negra de Alemania"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿En qué mar desemboca finalmente el río Danubio?",
+          "explanation": "El Danubio desemboca en el mar Negro creando un delta de gran valor ecológico.",
+          "options": [
+            "En el mar Negro",
+            "En el océano Atlántico",
+            "En el mar Mediterráneo"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-08",
+      "type": "choice",
+      "prompt": "Aisha busca en su mapa de Europa el río más largo de todo el continente. ¿Cuál es? 🗺️",
+      "explanation": "El Volga mide más de 3.500 kilómetros y desemboca en el mar Caspio. Es el más largo de Europa.",
+      "hint": "Desemboca en el mar Caspio.",
+      "lang": "es",
+      "options": [
+        "El río Sena",
+        "El río Rin",
+        "El río Danubio",
+        "El río Volga"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-09",
+      "type": "classify",
+      "prompt": "Clasifica estos ríos europeos según la vertiente o mar donde vierten sus aguas:",
+      "explanation": "El Sena, Támesis y Loira van al Atlántico. El Ródano, el Tíber y el Ebro llegan al Mediterráneo.",
+      "lang": "es",
+      "categories": [
+        "Vertiente Atlántica",
+        "Vertiente Mediterránea"
+      ],
+      "items": [
+        {
+          "text": "Sena",
+          "category": 0
+        },
+        {
+          "text": "Ródano",
+          "category": 1
+        },
+        {
+          "text": "Támesis",
+          "category": 0
+        },
+        {
+          "text": "Tíber",
+          "category": 1
+        },
+        {
+          "text": "Loira",
+          "category": 0
+        },
+        {
+          "text": "Ebro",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-10",
+      "type": "choice",
+      "prompt": "Nerea visita un río mediterráneo en agosto y ve que lleva poquísima agua. ¿Cómo se llama este fenómeno? ☀️",
+      "explanation": "El estiaje es la bajada del caudal de los ríos durante los meses calurosos y secos del verano.",
+      "hint": "Ocurre cuando llueve muy poco en verano.",
+      "lang": "es",
+      "options": [
+        "Desbordamiento",
+        "Inundación",
+        "Estiaje",
+        "Crecida"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:02:38.655Z",
+    "reviewed": false
+  }
+}

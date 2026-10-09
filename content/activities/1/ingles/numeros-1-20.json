@@ -1,0 +1,242 @@
+{
+  "id": "g1-ingles-numeros-1-20",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "numeros-1-20",
+  "temaNombre": "Números 1-20",
+  "title": "¡Los números del 1 al 20!",
+  "summary": "Repasa cómo contar y escribir los números en inglés del 1 al 20 de forma divertida.",
+  "keyIdeas": [
+    "Los números del 1 al 10 son la base: one, two, three, four, five, six, seven, eight, nine, ten.",
+    "Muchos números del 13 al 19 terminan en -teen, como fourteen o sixteen.",
+    "El número 20 en inglés se escribe twenty."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-numeros-1-20-01",
+      "type": "match",
+      "prompt": "Match each number with its word:",
+      "explanation": "Muy bien. Cada número tiene su palabra: 1 es one, 2 es two, 3 es three, 4 es four y 5 es five.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "1",
+          "right": "one"
+        },
+        {
+          "left": "2",
+          "right": "two"
+        },
+        {
+          "left": "3",
+          "right": "three"
+        },
+        {
+          "left": "4",
+          "right": "four"
+        },
+        {
+          "left": "5",
+          "right": "five"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-02",
+      "type": "choice",
+      "prompt": "Hugo has 7 pencils. How do you write 7?",
+      "explanation": "El número 7 en inglés se escribe seven. Six es 6 y eight es 8.",
+      "hint": "Viene justo después de six.",
+      "lang": "en",
+      "options": [
+        "seven",
+        "six",
+        "eight"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-03",
+      "type": "true-false",
+      "prompt": "The number after nine is ten.",
+      "explanation": "¡Correcto! Al contar en inglés decimos: eight, nine, ten. Después de nine va ten.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-04",
+      "type": "order",
+      "prompt": "Put these numbers in order (from smallest to biggest):",
+      "explanation": "¡Gran trabajo! El orden correcto del 6 al 10 es: six (6), seven (7), eight (8), nine (9) y ten (10).",
+      "lang": "en",
+      "items": [
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten"
+      ]
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-05",
+      "type": "fill-blank",
+      "prompt": "Choose the correct number to finish the sequence:",
+      "explanation": "Después de twelve (12) va thirteen (13). Cuidado: three es 3 y thirty es 30.",
+      "hint": "Termina en -teen y significa trece.",
+      "lang": "en",
+      "sentence": "Ten, eleven, twelve, ___.",
+      "options": [
+        "thirteen",
+        "three",
+        "thirty"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-06",
+      "type": "classify",
+      "prompt": "Classify these number words into the correct group:",
+      "explanation": "Two (2), four (4) y eight (8) están entre el 1 y el 10. Fifteen (15), sixteen (16) y twenty (20) están entre el 11 y el 20.",
+      "lang": "en",
+      "categories": [
+        "From 1 to 10",
+        "From 11 to 20"
+      ],
+      "items": [
+        {
+          "text": "two",
+          "category": 0
+        },
+        {
+          "text": "eight",
+          "category": 0
+        },
+        {
+          "text": "fifteen",
+          "category": 1
+        },
+        {
+          "text": "sixteen",
+          "category": 1
+        },
+        {
+          "text": "twenty",
+          "category": 1
+        },
+        {
+          "text": "four",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-07",
+      "type": "choice",
+      "prompt": "Aisha has eight blue stickers and two red stickers. How many stickers?",
+      "explanation": "Eight (8) más two (2) son ten (10). Aisha tiene diez pegatinas en total.",
+      "hint": "Suma: 8 + 2.",
+      "lang": "en",
+      "options": [
+        "ten",
+        "twelve",
+        "nine"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-08",
+      "type": "fill-blank",
+      "prompt": "Choose the correct word for the number 14:",
+      "explanation": "El número 14 se escribe fourteen. Four es 4 y forty es 40.",
+      "hint": "Empieza por four- y termina en -teen.",
+      "lang": "en",
+      "sentence": "Omar is 14 today. He has ___ candles.",
+      "options": [
+        "forty",
+        "fourteen",
+        "four"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-09",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions:",
+      "explanation": "¡Excelente lectura! Has encontrado las cantidades exactas de canicas fijándote en los números en inglés.",
+      "lang": "en",
+      "title": "Marbles at Recess",
+      "text": "Leo and Mia play a game. Leo has eleven green marbles. Mia has fifteen yellow marbles. Together, they count to twenty!",
+      "questions": [
+        {
+          "prompt": "How many green marbles does Leo have?",
+          "explanation": "El texto dice: 'Leo has eleven green marbles'. Eleven significa 11.",
+          "options": [
+            "eleven",
+            "twenty",
+            "fifteen"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How many yellow marbles does Mia have?",
+          "explanation": "El texto dice: 'Mia has fifteen yellow marbles'. Fifteen significa 15.",
+          "options": [
+            "fifteen",
+            "twelve",
+            "eleven"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-10",
+      "type": "order",
+      "prompt": "Order the numbers from 16 to 20:",
+      "explanation": "¡Reto superado! La serie final es: sixteen (16), seventeen (17), eighteen (18), nineteen (19) y twenty (20).",
+      "lang": "en",
+      "items": [
+        "sixteen",
+        "seventeen",
+        "eighteen",
+        "nineteen",
+        "twenty"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:53:59.759Z",
+    "reviewed": false
+  }
+}

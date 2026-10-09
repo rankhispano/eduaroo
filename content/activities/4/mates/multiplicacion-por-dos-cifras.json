@@ -1,0 +1,220 @@
+{
+  "id": "g4-mates-multiplicacion-por-dos-cifras",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "multiplicacion-por-dos-cifras",
+  "temaNombre": "Multiplicación por dos cifras",
+  "title": "Maestros de la multiplicación",
+  "summary": "Practica la multiplicación por dos cifras con estrategias, estimación y resolución de problemas cotidianos.",
+  "keyIdeas": [
+    "Al multiplicar por la cifra de las decenas, dejamos un hueco o ponemos un cero a la derecha.",
+    "Podemos descomponer números para calcular mentalmente: multiplicar por 20 es el doble y añadir un cero.",
+    "Estimar redondeando a las decenas ayuda a comprobar si un resultado tiene sentido."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-01",
+      "type": "choice",
+      "prompt": "Wei prepara 20 paquetes con 34 pegatinas cada uno. ¿Cuántas pegatinas tiene en total?",
+      "explanation": "Multiplicamos 34 × 2 = 68 y añadimos el cero de la decena: 34 × 20 = 680.",
+      "hint": "Calcula primero 34 × 2 y añade un cero al final.",
+      "lang": "es",
+      "options": [
+        "680 pegatinas",
+        "68 pegatinas",
+        "640 pegatinas"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-02",
+      "type": "order",
+      "prompt": "Ordena los pasos para resolver una multiplicación por dos cifras en vertical:",
+      "explanation": "Primero multiplicamos las unidades, luego dejamos el hueco de las decenas, calculamos el segundo producto y sumamos ambos.",
+      "lang": "es",
+      "items": [
+        "Multiplicar el número de arriba por las unidades del número de abajo.",
+        "Dejar un hueco o colocar un cero en la columna de las unidades.",
+        "Multiplicar el número de arriba por las decenas del número de abajo.",
+        "Sumar los dos resultados obtenidos para hallar el producto final."
+      ]
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-03",
+      "type": "choice",
+      "prompt": "Aisha quiere estimar el precio de 29 libros que cuestan 18 € cada uno. ¿Qué estimación es la más acertada?",
+      "explanation": "Redondeamos 29 a 30 y 18 a 20. El cálculo estimado es 30 × 20 = 600 €.",
+      "hint": "Redondea los dos números a la decena más cercana antes de multiplicar.",
+      "lang": "es",
+      "options": [
+        "30 × 10 = 300 €",
+        "20 × 10 = 200 €",
+        "30 × 20 = 600 €"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-04",
+      "type": "true-false",
+      "prompt": "Al calcular 46 × 23, la segunda fila del cálculo representa el resultado de multiplicar 46 × 20.",
+      "explanation": "El 2 ocupa el lugar de las decenas, por lo que multiplicamos por 2 decenas (20).",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-05",
+      "type": "match",
+      "prompt": "Une cada multiplicación con su producto correcto:",
+      "explanation": "Multiplicamos las cifras distintas de cero y agregamos el cero final: 25 × 2 = 50 con un cero son 500.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "25 × 20",
+          "right": "500"
+        },
+        {
+          "left": "15 × 30",
+          "right": "450"
+        },
+        {
+          "left": "12 × 30",
+          "right": "360"
+        },
+        {
+          "left": "40 × 15",
+          "right": "600"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-06",
+      "type": "choice",
+      "prompt": "Hugo calculó 132 × 24. Multiplicó 132 × 4 = 528. Debajo escribió 264 y sumó, obteniendo 792. ¿Qué error cometió?",
+      "explanation": "El 2 representa 20 unidades. Debió escribir 2.640 o dejar un hueco, dando un total de 3.168.",
+      "hint": "Fíjate en la posición de la segunda fila del algoritmo.",
+      "lang": "es",
+      "options": [
+        "Sumó mal las dos cantidades finales.",
+        "No desplazó un lugar a la izquierda el resultado de 132 × 2.",
+        "Calculó mal la multiplicación de 132 × 4."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-07",
+      "type": "choice",
+      "prompt": "En el colegio de Lucía hay 24 aulas. Cada aula tiene 25 pupitres. ¿Cuántos pupitres hay en total?",
+      "explanation": "Calculamos 24 × 25: 24 × 20 = 480 y 24 × 5 = 120. Sumamos 480 + 120 = 600 pupitres.",
+      "hint": "Multiplica 24 por 25 paso a paso.",
+      "lang": "es",
+      "options": [
+        "600 pupitres",
+        "500 pupitres",
+        "625 pupitres"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-08",
+      "type": "classify",
+      "prompt": "Clasifica cada operación según su resultado sea menor o mayor que 1.000:",
+      "explanation": "32 × 21 = 672, 45 × 12 = 540 y 24 × 30 = 720 son menores que 1.000. 52 × 25 = 1.300, 61 × 32 = 1.952 y 40 × 35 = 1.400 son mayores.",
+      "lang": "es",
+      "categories": [
+        "Menor que 1.000",
+        "Mayor que 1.000"
+      ],
+      "items": [
+        {
+          "text": "32 × 21",
+          "category": 0
+        },
+        {
+          "text": "52 × 25",
+          "category": 1
+        },
+        {
+          "text": "45 × 12",
+          "category": 0
+        },
+        {
+          "text": "61 × 32",
+          "category": 1
+        },
+        {
+          "text": "24 × 30",
+          "category": 0
+        },
+        {
+          "text": "40 × 35",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-09",
+      "type": "fill-blank",
+      "prompt": "Completa el espacio para resolver el problema de la excursión escolar.",
+      "explanation": "Calculamos 35 × 12: 35 × 10 = 350 y 35 × 2 = 70. Sumamos 350 + 70 = 420 €.",
+      "hint": "Descompón el 12 en 10 + 2 para ayudarte.",
+      "lang": "es",
+      "sentence": "Un grupo de 35 estudiantes paga 12 € por entrada al museo. El coste total asciende a ___ €.",
+      "options": [
+        "420",
+        "410",
+        "350"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-10",
+      "type": "choice",
+      "prompt": "Una frutería recibe 45 cajas con 18 kg de naranjas cada una. Si ya ha vendido 300 kg, ¿cuántos kilos le quedan?",
+      "explanation": "Primero multiplicamos 45 × 18 = 810 kg totales. Después restamos lo vendido: 810 - 300 = 510 kg.",
+      "hint": "Resuelve en dos pasos: primero halla el total de kilos y luego resta los vendidos.",
+      "lang": "es",
+      "options": [
+        "500 kg",
+        "410 kg",
+        "810 kg",
+        "510 kg"
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:12:47.257Z",
+    "reviewed": false
+  }
+}

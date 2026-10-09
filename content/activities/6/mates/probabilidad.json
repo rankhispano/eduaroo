@@ -1,0 +1,238 @@
+{
+  "id": "g6-mates-probabilidad",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "probabilidad",
+  "temaNombre": "Probabilidad",
+  "title": "¡Calcula y gana con la probabilidad!",
+  "summary": "Practica la regla de Laplace, deduce probabilidades en situaciones reales y analiza errores comunes al azar.",
+  "keyIdeas": [
+    "La regla de Laplace calcula la probabilidad como casos favorables divididos entre casos posibles.",
+    "Un suceso puede ser imposible (probabilidad 0), posible (entre 0 y 1) o seguro (probabilidad 1).",
+    "Para comparar probabilidades, debemos tener en cuenta la cantidad total de opciones y no solo las favorables."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "E. Sentido estocástico › Incertidumbre",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-probabilidad-01",
+      "type": "classify",
+      "prompt": "Clasifica cada suceso según su grado de probabilidad al lanzar un dado común de 6 caras (numeradas del 1 al 6).",
+      "explanation": "Los sucesos que ocurren siempre son seguros (probabilidad 1), los que no pueden ocurrir son imposibles (probabilidad 0) y el resto son posibles.",
+      "lang": "es",
+      "categories": [
+        "Imposible",
+        "Posible",
+        "Seguro"
+      ],
+      "items": [
+        {
+          "text": "Sacar un número menor que 7",
+          "category": 2
+        },
+        {
+          "text": "Sacar un número mayor que 6",
+          "category": 0
+        },
+        {
+          "text": "Sacar un número par (2, 4 o 6)",
+          "category": 1
+        },
+        {
+          "text": "Sacar un número impar (1, 3 o 5)",
+          "category": 1
+        },
+        {
+          "text": "Sacar el número 0",
+          "category": 0
+        },
+        {
+          "text": "Sacar un número entre el 1 y el 6",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-probabilidad-02",
+      "type": "choice",
+      "prompt": "Nerea tiene una bolsa opaca con 4 canicas rojas, 3 azules y 3 verdes. ¿Cuál es la probabilidad de sacar una canica azul sin mirar?",
+      "explanation": "Sumamos todas las canicas para hallar los casos posibles: 4 + 3 + 3 = 10. Como hay 3 canicas azules (casos favorables), la probabilidad es 3/10.",
+      "hint": "Recuerda sumar todas las canicas para conocer el total de casos posibles.",
+      "lang": "es",
+      "options": [
+        "7/10",
+        "3/7",
+        "3/10",
+        "4/10"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-probabilidad-03",
+      "type": "match",
+      "prompt": "Une cada suceso (al extraer una bola numerada del 1 al 10 de una bolsa) con su probabilidad expresada en fracción.",
+      "explanation": "Contamos cuántos números cumplen la condición (casos favorables) y dividimos entre el total de bolas (10 casos posibles).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Sacar un número impar",
+          "right": "5/10"
+        },
+        {
+          "left": "Sacar un número mayor que 8 (9 o 10)",
+          "right": "2/10"
+        },
+        {
+          "left": "Sacar exactamente el número 5",
+          "right": "1/10"
+        },
+        {
+          "left": "Sacar un número menor que 11",
+          "right": "10/10"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-probabilidad-04",
+      "type": "fill-blank",
+      "prompt": "Calcula la probabilidad de la siguiente situación.",
+      "explanation": "Las ceras no rojas son las 4 azules más las 2 amarillas (4 + 2 = 6 casos favorables). El total es 12, por lo que la probabilidad es 6/12.",
+      "lang": "es",
+      "sentence": "Aisha tiene un estuche con 12 ceras: 6 rojas, 4 azules y 2 amarillas. La probabilidad de extraer sin mirar una cera que NO sea roja es de ___ .",
+      "options": [
+        "4/12",
+        "2/12",
+        "6/12",
+        "8/12"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-probabilidad-05",
+      "type": "choice",
+      "prompt": "Hugo lanza una moneda al aire 100 veces y afirma: «Me van a salir EXACTAMENTE 50 caras y 50 cruces porque la probabilidad es del 50 %». ¿Es correcto el razonamiento de Hugo?",
+      "explanation": "La probabilidad indica la tendencia a largo plazo. En la práctica, al lanzar 100 veces pueden salir 48 caras y 52 cruces sin que eso incumpla la regla de Laplace.",
+      "hint": "Piensa si el azar siempre da cifras exactas o si se producen pequeñas fluctuaciones.",
+      "lang": "es",
+      "options": [
+        "Sí, porque la regla de Laplace garantiza que en 100 lanzamientos sale justo la mitad de cada una.",
+        "No, porque la probabilidad da una estimación teórica, pero el azar hace que el resultado real pueda variar.",
+        "No, porque la probabilidad de sacar cara es siempre mayor que la de sacar cruz."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-probabilidad-06",
+      "type": "order",
+      "prompt": "Ordena estos sucesos de menor a mayor probabilidad al lanzar un dado común de 6 caras.",
+      "explanation": "Ordenamos según el número de casos favorables: 1/6 (menor) < 3/6 < 5/6 < 6/6 (mayor).",
+      "lang": "es",
+      "items": [
+        "Sacar un 6",
+        "Sacar un número par",
+        "Sacar un número mayor que 1",
+        "Sacar un número menor que 7"
+      ]
+    },
+    {
+      "id": "g6-mates-probabilidad-07",
+      "type": "choice",
+      "prompt": "En la feria del colegio hay dos ruletas con sectores de igual tamaño. La ruleta A tiene 2 sectores rojos de 4. La ruleta B tiene 3 sectores rojos de 8. ¿En cuál ruleta hay más probabilidad de obtener rojo?",
+      "explanation": "Comparamos las fracciones: 2/4 equivale a 0,50 (50 %), mientras que 3/8 equivale a 0,375 (37,5 %). Por tanto, la ruleta A tiene mayor probabilidad.",
+      "hint": "No te fíes solo del número de sectores; calcula la fracción respecto al total de cada ruleta.",
+      "lang": "es",
+      "options": [
+        "En la ruleta A, porque 2/4 (50 %) es mayor que 3/8 (37,5 %).",
+        "En la ruleta B, porque 3 sectores rojos son más que 2 sectores rojos.",
+        "En ambas ruletas la probabilidad de ganar es la misma."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-probabilidad-08",
+      "type": "true-false",
+      "prompt": "Si lanzamos un dado común de 6 caras, la probabilidad de obtener un número primo (2, 3 o 5) es de 0,5 (o lo que es lo mismo, un 50 %).",
+      "explanation": "Los números primos en un dado son 2, 3 y 5, lo que hace 3 casos favorables de 6 posibles. La fracción 3/6 equivale a 0,5 o 50 %.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-mates-probabilidad-09",
+      "type": "choice",
+      "prompt": "Omar y Lucía preparan papeletas para la rifa del viaje de fin de curso. Omar vende 20 papeletas y 5 tienen premio. Lucía vende 50 papeletas y 10 tienen premio. ¿En qué puesto tienes mayor probabilidad de conseguir premio?",
+      "explanation": "En el puesto de Omar la probabilidad es 5/20 = 1/4 = 25 %. En el de Lucía es 10/50 = 1/5 = 20 %. Comprar a Omar da 5 puntos porcentuales más de probabilidad.",
+      "hint": "Calcula el porcentaje de premios en relación con el total de papeletas de cada puesto.",
+      "lang": "es",
+      "options": [
+        "En el puesto de Omar, porque 5/20 es un 25 %, mientras que en el de Lucía es 10/50 (20 %).",
+        "En el puesto de Lucía, porque al haber 10 premios hay el doble de oportunidades.",
+        "En ambos puestos existe exactamente la misma probabilidad."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-probabilidad-10",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto sobre un juego de azar en el colegio y responde a las preguntas.",
+      "explanation": "Para evaluar probabilidades reales debemos comparar los casos favorables respecto al total de casos posibles en cada situación.",
+      "lang": "es",
+      "title": "El stand de las urnas en la fiesta del colegio",
+      "text": "En la fiesta de fin de curso del colegio San Gabriel, el grupo de 6º de Primaria ha organizado un stand de juegos de azar para recaudar fondos para su viaje de estudios. El juego consiste en sacar una bola de una urna opaca sin mirar. Hay tres urnas distintas disponibles: la urna A contiene 10 bolas rojas y 10 azules; la urna B contiene 4 bolas rojas y 12 azules; y la urna C contiene 6 bolas rojas y 2 azules. Ganarás un peluche si logras extraer una bola roja. Wei propone jugar siempre en la urna C, mientras que Martina cree que en la urna A hay más bolas rojas en total, así que debería ser mejor. Sin embargo, el maestro les pide que calculen la probabilidad matemática de cada urna usando la regla de Laplace para tomar la mejor decisión de juego de forma razonada.",
+      "questions": [
+        {
+          "prompt": "¿En cuál de las tres urnas es más probable extraer una bola roja?",
+          "explanation": "En la urna C hay 6 bolas rojas de un total de 8 (6/8 = 3/4 = 75 %). Es la probabilidad más alta de las tres.",
+          "options": [
+            "En la urna B, con un 25 % de probabilidad (4 de 16 bolas).",
+            "En la urna A, con un 50 % de probabilidad (10 de 20 bolas).",
+            "En la urna C, con un 75 % de probabilidad (6 de 8 bolas)."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Cuál fue el fallo en el razonamiento inicial de Martina sobre la urna A?",
+          "explanation": "Martina cometió el error común de mirar solo los casos favorables (10 bolas rojas) sin compararlos con la suma total de casos posibles (20 bolas en total).",
+          "options": [
+            "Se fijó únicamente en el número absoluto de bolas rojas sin considerar el total de bolas de la urna.",
+            "Confundió la cantidad de bolas rojas de la urna A con las de la urna B.",
+            "Pensó que las bolas azules no influían en el juego."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.6-flash",
+    "generatedAt": "2026-10-08T11:35:50.745Z",
+    "reviewed": false
+  }
+}

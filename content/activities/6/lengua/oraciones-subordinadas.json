@@ -1,0 +1,264 @@
+{
+  "id": "g6-lengua-oraciones-subordinadas",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "oraciones-subordinadas",
+  "temaNombre": "Oraciones subordinadas",
+  "title": "Descubre las oraciones subordinadas",
+  "summary": "Aprende a reconocer, analizar y utilizar las oraciones subordinadas para mejorar tus textos.",
+  "keyIdeas": [
+    "Una oración subordinada depende de una oración principal y no tiene sentido completo por sí sola.",
+    "Las oraciones subordinadas se unen a la principal mediante nexos como que, porque, cuando, donde o para que.",
+    "Según su significado, pueden indicar causa, tiempo, lugar, finalidad o complementar a un sustantivo o verbo."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-oraciones-subordinadas-01",
+      "type": "true-false",
+      "prompt": "¿Es verdadera o falsa esta afirmación sobre la lengua? 📝\n\n«Una oración subordinada depende de una oración principal y realiza una función dentro de ella».",
+      "explanation": "Las oraciones subordinadas dependen sintácticamente de una oración principal y aportan información adicional (de tiempo, causa, lugar, etc.) o funcionan como complemento.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-02",
+      "type": "classify",
+      "prompt": "Clasifica cada enunciado según sea una oración simple (un solo verbo) o una oración compuesta con subordinada (más de un verbo relacionado).",
+      "explanation": "Las oraciones simples tienen un único verbo conjugado, mientras que las compuestas tienen dos o más verbos unidos mediante nexos subordinantes.",
+      "lang": "es",
+      "categories": [
+        "Oración simple",
+        "Oración compuesta con subordinada"
+      ],
+      "items": [
+        {
+          "text": "Lucía compró fruta fresca en el mercado del barrio.",
+          "category": 0
+        },
+        {
+          "text": "Omar espera que su equipo gane el partido del sábado.",
+          "category": 1
+        },
+        {
+          "text": "Los alumnos prepararon un mural precioso para la entrada.",
+          "category": 0
+        },
+        {
+          "text": "Iremos al parque cuando termine de llover.",
+          "category": 1
+        },
+        {
+          "text": "El tren de cercanías llegó puntual a la estación.",
+          "category": 0
+        },
+        {
+          "text": "Nerea busca la mochila que le regaló su abuela.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-03",
+      "type": "fill-blank",
+      "prompt": "Elige el nexo subordinante causal adecuado para completar la justificación de Adrián.",
+      "explanation": "Se escribe «porque» junto y sin tilde cuando funciona como conjunción causal que introduce la causa o motivo de la acción principal.",
+      "hint": "Expresa la causa y se escribe en una sola palabra.",
+      "lang": "es",
+      "sentence": "Adrián no pudo ir al entrenamiento de baloncesto ___ tenía una cita con el dentista.",
+      "options": [
+        "porque",
+        "por qué",
+        "aunque",
+        "pero"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-04",
+      "type": "match",
+      "prompt": "Une cada oración principal con la proposición subordinada que completa su sentido de forma lógica.",
+      "explanation": "Cada nexo introduce un tipo de circunstancia: 'para que' indica finalidad, 'donde' lugar, 'cuando' tiempo y 'que' especifica a la persona.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "El maestro explicó la actividad",
+          "right": "para que todos supiéramos qué hacer."
+        },
+        {
+          "left": "Aisha guardó las témperas",
+          "right": "donde le indicó la conserje."
+        },
+        {
+          "left": "Martina avisó a sus compañeros",
+          "right": "cuando sonó la sirena del recreo."
+        },
+        {
+          "left": "Todos aplaudieron al actor",
+          "right": "que interpretó al dragón en la obra."
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-05",
+      "type": "choice",
+      "prompt": "Lee la siguiente oración que dijo Hugo en clase:\n\n«Hugo nos confirmó que vendría a la fiesta de fin de curso».\n\n¿Cuál es la proposición subordinada?",
+      "explanation": "La proposición subordinada comienza con el nexo 'que' e incluye su propio verbo 'vendría': «que vendría a la fiesta de fin de curso». Funciona como complemento directo de 'confirmó'.",
+      "hint": "Fíjate a partir de qué palabra comienza el nexo subordinante.",
+      "lang": "es",
+      "options": [
+        "Hugo nos confirmó",
+        "que vendría a la fiesta de fin de curso",
+        "a la fiesta de fin de curso"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-06",
+      "type": "choice",
+      "prompt": "🔍 ¡Encuentra el error! Una de estas oraciones contiene un fallo de concordancia temporal en la proposición subordinada. ¿Cuál es?",
+      "explanation": "Como la acción principal ocurrió en el pasado ('Ayer fuimos'), la subordinada de finalidad debe concordar en pasado: 'para que estudiáramos' (o 'para estudiar').",
+      "hint": "Comprueba que los tiempos verbales del pasado concuerden entre sí.",
+      "lang": "es",
+      "options": [
+        "Iremos a merendar cuando termines tus tareas escolares.",
+        "Ayer llamé a Martina porque necesitaba los apuntes de Ciencias.",
+        "Ayer fuimos a la biblioteca para que estudiemos en silencio."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-07",
+      "type": "classify",
+      "prompt": "Clasifica estas oraciones subordinadas adverbiales según la circunstancia que expresan (tiempo, causa o lugar).",
+      "explanation": "Los nexos 'cuando' y 'mientras' indican tiempo, 'porque' introduce la causa o razón, y 'donde' señala el lugar.",
+      "lang": "es",
+      "categories": [
+        "Subordinada de tiempo",
+        "Subordinada de causa",
+        "Subordinada de lugar"
+      ],
+      "items": [
+        {
+          "text": "Saldremos al patio cuando el árbitro pite el inicio.",
+          "category": 0
+        },
+        {
+          "text": "No fuimos a la piscina porque el agua estaba helada.",
+          "category": 1
+        },
+        {
+          "text": "Guardaremos las bicicletas donde nadie las estropee.",
+          "category": 2
+        },
+        {
+          "text": "Llegamos a la sala de cine mientras ponían los anuncios.",
+          "category": 0
+        },
+        {
+          "text": "Wei apagó la lámpara porque quería dormir.",
+          "category": 1
+        },
+        {
+          "text": "Merendamos justo donde nos sentamos la semana pasada.",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-08",
+      "type": "order",
+      "prompt": "Ordena los fragmentos para formar una oración compuesta bien cohesionada.",
+      "explanation": "La estructura natural sitúa primero el sujeto y verbo principal ('Nerea prometió a sus padres'), seguido de la subordinada sustantiva ('que recogería su habitación') y sus complementos temporales.",
+      "lang": "es",
+      "items": [
+        "Nerea prometió a sus padres",
+        "que recogería su habitación",
+        "antes de salir al parque",
+        "con sus amigos del colegio."
+      ]
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-09",
+      "type": "reading",
+      "prompt": "Lee con atención el siguiente texto sobre un proyecto escolar y responde a las preguntas.",
+      "explanation": "El texto utiliza diversas oraciones subordinadas (de relativo, de finalidad, de causa y de tiempo) para dar cohesión a una narración sobre la vida escolar.",
+      "lang": "es",
+      "title": "El huerto ecológico de sexto",
+      "text": "El pasado martes, los alumnos de sexto curso inauguramos con gran entusiasmo el nuevo huerto ecológico escolar que construimos en el patio trasero. Aunque el terreno estaba lleno de piedras y malas hierbas al principio, trabajamos en equipo durante varias semanas para que la tierra quedara completamente lista y fértil. Nuestro tutor, que sabe mucho sobre agricultura y botánica, nos enseñó a plantar tomates, zanahorias y lechugas frescas. Decidimos instalar un sistema automático de riego por goteo porque queríamos ahorrar agua y proteger el medioambiente de forma responsable. Ahora, los alumnos nos turnamos cada día durante el recreo cuando suena el timbre del mediodía para revisar la humedad de los bancales. Aisha y Hugo anotan el crecimiento de las plantas en un cuaderno especial. Estamos muy orgullosos de este proyecto cooperativo y esperamos que la primera cosecha sea muy abundante.",
+      "questions": [
+        {
+          "prompt": "¿Por qué decidieron instalar un sistema de riego por goteo?",
+          "explanation": "El texto indica explícitamente mediante una subordinada causal que lo hicieron «porque querían ahorrar agua y proteger el medioambiente».",
+          "options": [
+            "Porque querían ahorrar agua y proteger el medioambiente de forma responsable.",
+            "Porque no tenían tiempo libre para regar a mano durante las clases.",
+            "Porque el tutor les obligó a comprar ese sistema específico."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "En la frase «Nos turnamos cada día durante el recreo cuando suena el timbre del mediodía», ¿qué tipo de información aporta la parte que empieza por «cuando»?",
+          "explanation": "El nexo 'cuando' introduce una subordinada adverbial de tiempo que señala el instante preciso en el que van a revisar el huerto.",
+          "options": [
+            "Muestra el lugar físico donde se encuentran los bancales (lugar).",
+            "Explica la razón por la que cuidan el huerto (causa).",
+            "Indica el momento exacto en el que realizan la acción (tiempo)."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué valor ciudadano y social se destaca principalmente en la actitud del alumnado?",
+          "explanation": "El texto resalta el trabajo en equipo, los turnos responsables y el compromiso ecológico como valores clave del proyecto escolar.",
+          "options": [
+            "El trabajo cooperativo, la responsabilidad compartida y el cuidado medioambiental.",
+            "El deseo de conseguir mejores notas individuales que las otras clases.",
+            "La intención de vender verduras para obtener beneficios económicos propios."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-10",
+      "type": "choice",
+      "prompt": "🎯 Reto de redacción: El equipo del periódico escolar quiere unir estas dos frases simples en una sola oración compuesta subordinada de finalidad:\n\n1. «Lucía y Omar diseñaron unos carteles llamativos».\n2. «Querían concienciar sobre el reciclaje en el colegio».\n\n¿Cuál es la opción redactada de forma correcta y precisa?",
+      "explanation": "El nexo 'para que' introduce de forma exacta la finalidad o propósito con el que diseñaron los carteles, manteniendo la coherencia y el sentido original.",
+      "hint": "Busca el nexo que expresa el objetivo o meta de la acción.",
+      "lang": "es",
+      "options": [
+        "Lucía y Omar diseñaron unos carteles llamativos para que todos se concienciaran sobre el reciclaje en el colegio.",
+        "Lucía y Omar diseñaron unos carteles llamativos porque nadie reciclaba nunca en el colegio.",
+        "Lucía y Omar diseñaron unos carteles llamativos cuando sonó la sirena del recreo en el colegio."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:19:26.969Z",
+    "reviewed": false
+  }
+}

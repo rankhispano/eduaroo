@@ -1,0 +1,237 @@
+{
+  "id": "g3-ingles-adverbios-de-frecuencia",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "adverbios-de-frecuencia",
+  "temaNombre": "Adverbios de frecuencia",
+  "title": "Descubre los adverbios de frecuencia",
+  "summary": "Practica cómo usar always, usually, sometimes y never para describir tus rutinas diarias.",
+  "keyIdeas": [
+    "Usamos los adverbios de frecuencia para indicar cuántas veces hacemos una acción o rutina.",
+    "Always significa siempre (100%), sometimes a veces (50%) y never nunca (0%).",
+    "El adverbio de frecuencia se coloca normalmente delante del verbo de acción: I always walk."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-01",
+      "type": "match",
+      "prompt": "Match each frequency adverb with its meaning:",
+      "explanation": "Always indica que algo ocurre siempre, sometimes significa a veces, y never indica que no ocurre nunca.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Always",
+          "right": "100% of the time (Todos los días)"
+        },
+        {
+          "left": "Sometimes",
+          "right": "50% of the time (Algunos días)"
+        },
+        {
+          "left": "Never",
+          "right": "0% of the time (Ningún día)"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-02",
+      "type": "true-false",
+      "prompt": "'Never' means that you do an activity every day.",
+      "explanation": "Never significa nunca (cero veces). Para decir que haces algo todos los días usamos always.",
+      "hint": "Recuerda que never significa 0%.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-03",
+      "type": "fill-blank",
+      "prompt": "Aisha drinks water every single day. Choose the correct word:",
+      "explanation": "Como bebe agua todos los días sin falta, la acción ocurre al 100%: Aisha always drinks water.",
+      "hint": "Ocurre todos los días.",
+      "lang": "en",
+      "sentence": "Aisha ___ drinks water.",
+      "options": [
+        "always",
+        "never",
+        "rarely"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-04",
+      "type": "choice",
+      "prompt": "Hugo hates broccoli. He eats zero broccoli. Which sentence is correct?",
+      "explanation": "Si come cero brócoli, la frecuencia es del 0%, por lo que usamos never.",
+      "hint": "Cero veces equivale a never.",
+      "lang": "en",
+      "options": [
+        "Hugo usually eats broccoli.",
+        "Hugo always eats broccoli.",
+        "Hugo never eats broccoli."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-05",
+      "type": "order",
+      "prompt": "Order the frequency adverbs from most frequent (100%) to least frequent (0%):",
+      "explanation": "El orden de mayor a menor frecuencia es: Always (100%), Usually (casi siempre, 80%), Sometimes (a veces, 50%) y Never (nunca, 0%).",
+      "lang": "en",
+      "items": [
+        "Always",
+        "Usually",
+        "Sometimes",
+        "Never"
+      ]
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-06",
+      "type": "classify",
+      "prompt": "Classify the sentences according to their frequency:",
+      "explanation": "Always (100%) y never (0%) indican frecuencias totales y absolutas, mientras que sometimes y usually expresan frecuencias intermedias.",
+      "lang": "en",
+      "categories": [
+        "Total frequency (100% or 0%)",
+        "Partial frequency"
+      ],
+      "items": [
+        {
+          "text": "I always do my homework.",
+          "category": 0
+        },
+        {
+          "text": "I never drink coffee.",
+          "category": 0
+        },
+        {
+          "text": "Lucas sometimes rides his bike.",
+          "category": 1
+        },
+        {
+          "text": "We usually walk to school.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-07",
+      "type": "choice",
+      "prompt": "Where do we place the adverb? Choose the sentence with the correct order:",
+      "explanation": "En inglés colocamos el adverbio de frecuencia justo delante del verbo principal: Lucía always listens.",
+      "hint": "El adverbio va entre el sujeto y la acción.",
+      "lang": "en",
+      "options": [
+        "Lucía always listens to music.",
+        "Always Lucía listens to music.",
+        "Lucía listens always to music."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-08",
+      "type": "fill-blank",
+      "prompt": "Omar plays basketball on Tuesdays and Thursdays only. Complete the sentence:",
+      "explanation": "Omar solo juega dos días por semana, así que lo hace a veces (sometimes), no siempre ni nunca.",
+      "hint": "Solo lo hace algunos días de la semana.",
+      "lang": "en",
+      "sentence": "Omar ___ plays basketball after school.",
+      "options": [
+        "sometimes",
+        "always",
+        "never"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-09",
+      "type": "choice",
+      "prompt": "Look at Wei's week: He brushes his teeth on Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday. What can we say?",
+      "explanation": "Wei se cepilla los dientes los siete días de la semana, por lo que la acción es 100% constante: always.",
+      "hint": "Cuenta cuántos días realiza la acción.",
+      "lang": "en",
+      "options": [
+        "Wei sometimes brushes his teeth.",
+        "Wei always brushes his teeth.",
+        "Wei never brushes his teeth."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-10",
+      "type": "reading",
+      "prompt": "Read the text about Mateo's routine and answer the questions:",
+      "explanation": "Mateo usa adverbios de frecuencia para describir qué hace todos los días (always), qué hace a veces (sometimes) y qué no hace nunca (never).",
+      "lang": "en",
+      "title": "Mateo's Busy Week",
+      "text": "Mateo is eight years old. Every morning, he wakes up early. He always eats toast and fruit for breakfast. He walks to school from Monday to Friday, so he always walks to school on weekdays. In the afternoon, Mateo loves sports. He sometimes plays football with his friends in the park, usually on Wednesdays. He never watches TV before finishing his homework because his mother checks his notebook. At night, Mateo is tired. He always reads a story in bed before sleeping.",
+      "questions": [
+        {
+          "prompt": "How often does Mateo eat toast and fruit for breakfast?",
+          "explanation": "El texto dice explícitamente: 'He always eats toast and fruit for breakfast'.",
+          "options": [
+            "He never eats toast and fruit.",
+            "He sometimes eats toast and fruit.",
+            "He always eats toast and fruit."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Does Mateo watch TV before his homework?",
+          "explanation": "El texto afirma claramente: 'He never watches TV before finishing his homework'.",
+          "options": [
+            "No, he never watches TV before his homework.",
+            "Yes, he always watches TV before his homework.",
+            "Yes, he usually watches TV before his homework."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "When does Mateo play football?",
+          "explanation": "El texto dice: 'He sometimes plays football with his friends in the park, usually on Wednesdays'.",
+          "options": [
+            "He sometimes plays football, usually on Wednesdays.",
+            "He always plays football every day.",
+            "He never plays football with friends."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:58:49.361Z",
+    "reviewed": false
+  }
+}

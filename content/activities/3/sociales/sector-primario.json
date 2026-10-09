@@ -1,0 +1,239 @@
+{
+  "id": "g3-sociales-sector-primario",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "sector-primario",
+  "temaNombre": "Sector primario",
+  "title": "Descubrimos el sector primario",
+  "summary": "Repasa las actividades del sector primario que obtienen recursos de la naturaleza.",
+  "keyIdeas": [
+    "El sector primario agrupa los trabajos que obtienen materias primas de la naturaleza.",
+    "Incluye agricultura, ganadería, pesca, silvicultura o explotación forestal y minería.",
+    "Cuidar el suelo, el agua y los animales es fundamental para un planeta sostenible."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-sector-primario-01",
+      "type": "true-false",
+      "prompt": "El sector primario incluye trabajos que obtienen recursos directamente de la naturaleza.",
+      "explanation": "El sector primario aprovecha los recursos naturales para obtener alimentos y materias primas.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-sociales-sector-primario-02",
+      "type": "choice",
+      "prompt": "¿Cuál de estas profesiones pertenece al sector primario?",
+      "explanation": "La agricultura cultiva la tierra y forma parte directa del sector primario.",
+      "hint": "Piensa en quién obtiene productos directamente de la tierra.",
+      "lang": "es",
+      "options": [
+        "Profesora de colegio",
+        "Mecánico de coches",
+        "Agricultora"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-sector-primario-03",
+      "type": "match",
+      "prompt": "Une cada trabajo del sector primario con lo que obtiene.",
+      "explanation": "Cada rama del sector primario obtiene diferentes productos de la naturaleza.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Ganadería",
+          "right": "Leche y lana"
+        },
+        {
+          "left": "Pesca",
+          "right": "Sardinas y pulpo"
+        },
+        {
+          "left": "Agricultura",
+          "right": "Trigo y manzanas"
+        },
+        {
+          "left": "Silvicultura",
+          "right": "Madera de los bosques"
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-sector-primario-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre los tipos de cultivo.",
+      "explanation": "Los cultivos de secano, como el olivo o el trigo, no necesitan riego artificial.",
+      "lang": "es",
+      "sentence": "Los cultivos de ___ solo reciben el agua de la lluvia.",
+      "options": [
+        "regadío",
+        "invernadero",
+        "secano"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-sector-primario-05",
+      "type": "classify",
+      "prompt": "Clasifica estos animales según el tipo de ganado al que pertenecen.",
+      "explanation": "El ganado ovino son ovejas, el porcino son cerdos y el vacuno son vacas y toros.",
+      "lang": "es",
+      "categories": [
+        "Ganado ovino",
+        "Ganado porcino",
+        "Ganado vacuno"
+      ],
+      "items": [
+        {
+          "text": "Oveja",
+          "category": 0
+        },
+        {
+          "text": "Cerdo",
+          "category": 1
+        },
+        {
+          "text": "Vaca",
+          "category": 2
+        },
+        {
+          "text": "Cordero",
+          "category": 0
+        },
+        {
+          "text": "Toro",
+          "category": 2
+        },
+        {
+          "text": "Lechón",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-sector-primario-06",
+      "type": "choice",
+      "prompt": "En la lonja del puerto, Hugo ve barcos pequeños que faenan cerca de la costa. ¿Qué tipo de pesca es?",
+      "explanation": "La pesca de bajura se realiza cerca de la costa con barcos pequeños o medianos.",
+      "hint": "Se realiza cerca de la costa durante el mismo día.",
+      "lang": "es",
+      "options": [
+        "Pesca de altura",
+        "Pesca submarina",
+        "Pesca de bajura"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-sector-primario-07",
+      "type": "order",
+      "prompt": "Ordena los pasos desde que se planta una lechuga hasta que llega a tu mesa.",
+      "explanation": "Primero se cultiva y se cuida la planta, luego se recolecta, se transporta y finalmente se consume.",
+      "lang": "es",
+      "items": [
+        "El agricultor siembra la semilla en el campo.",
+        "La planta crece gracias al agua y los nutrientes del suelo.",
+        "Se recolectan las lechugas maduras.",
+        "Un camión transporta las lechugas a la frutería.",
+        "Tu familia compra la lechuga para la ensalada."
+      ]
+    },
+    {
+      "id": "g3-sociales-sector-primario-08",
+      "type": "choice",
+      "prompt": "Lucía visita una granja donde las gallinas caminan al aire libre comiendo hierba. ¿Qué tipo de ganadería es?",
+      "explanation": "La ganadería extensiva cría a los animales en espacios abiertos y aprovecha pastos naturales.",
+      "hint": "Los animales disponen de grandes terrenos al aire libre.",
+      "lang": "es",
+      "options": [
+        "Ganadería extensiva",
+        "Ganadería intensiva",
+        "Ganadería industrial"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-sociales-sector-primario-09",
+      "type": "reading",
+      "prompt": "Lee el texto sobre la huerta escolar de Omar y responde a las preguntas.",
+      "explanation": "La agricultura ecológica cuida el medio ambiente usando abonos naturales y evitando sustancias químicas dañinas.",
+      "lang": "es",
+      "title": "La huerta ecológica del colegio",
+      "text": "Omar y su clase cuidan una huerta ecológica en el patio escolar. Este año han plantado tomates, zanahorias y habas. Para regar, recogen el agua de lluvia en dos grandes bidones. Además, usan compost fabricado con los restos de fruta del recreo como abono natural. No usan productos químicos porque quieren proteger las lombrices y abejas. Gracias a su trabajo, recogen verduras frescas y aprenden a respetar el suelo.",
+      "questions": [
+        {
+          "prompt": "¿De dónde consiguen Omar y su clase el abono para la tierra?",
+          "explanation": "El texto explica que fabrican compost con los restos de fruta del recreo.",
+          "options": [
+            "De las hojas secas de un parque cercano.",
+            "De una tienda de abonos químicos del barrio.",
+            "De los restos de fruta del recreo convertidos en compost."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué deciden no usar productos químicos en la huerta?",
+          "explanation": "Evitan los químicos para cuidar los animales beneficiosos como lombrices y abejas.",
+          "options": [
+            "Para proteger a las abejas y las lombrices del suelo.",
+            "Porque el agua de lluvia no se puede mezclar con ellos.",
+            "Porque las habas crecen más despacio con abono."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-sector-primario-10",
+      "type": "choice",
+      "prompt": "Una cooperativa agrícola gasta menos agua usando riego por goteo en lugar de inundar los campos. ¿Por qué es positivo?",
+      "explanation": "El riego por goteo aplica el agua necesaria en la raíz y evita el desperdicio del agua.",
+      "hint": "Piensa en el cuidado del agua como recurso valioso.",
+      "lang": "es",
+      "options": [
+        "Consigue que las plantas crezcan sin luz solar.",
+        "Permite inundar las carreteras cercanas.",
+        "Ahorra agua y protege este recurso natural escaso."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:55:32.464Z",
+    "reviewed": false
+  }
+}

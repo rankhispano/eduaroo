@@ -1,0 +1,245 @@
+{
+  "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "determinantes-posesivos-demostrativos-numerales",
+  "temaNombre": "Determinantes: posesivos, demostrativos, numerales",
+  "title": "Aventuras con los determinantes",
+  "summary": "Repasa y domina los determinantes posesivos, demostrativos y numerales en situaciones reales.",
+  "keyIdeas": [
+    "Los demostrativos indican cercanía (este), distancia media (ese) o lejanía (aquel).",
+    "Los posesivos indican posesión o pertenencia de uno o varios poseedores (mi, nuestro...).",
+    "Los numerales expresan cantidad exacta (cardinales: dos, cien) u orden (ordinales: segundo, quinto)."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-01",
+      "type": "choice",
+      "prompt": "Aisha dice en clase: «He dejado mi estuche sobre esa mesa». ¿Qué palabra es un determinante demostrativo que expresa distancia media?",
+      "explanation": "«Esa» es un determinante demostrativo que indica distancia media respecto a la persona que habla. «Mi» es un posesivo y «mesa» es un sustantivo.",
+      "hint": "Busca la palabra que acompaña al sustantivo y sitúa el objeto en el espacio.",
+      "lang": "es",
+      "options": [
+        "mesa",
+        "esa",
+        "mi"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-02",
+      "type": "true-false",
+      "prompt": "En la frase «Omar quedó en quinta posición en la carrera deportiva», la palabra «quinta» es un determinante numeral ordinal porque indica orden.",
+      "explanation": "Los determinantes numerales ordinales indican orden o sucesión (primero, segundo, quinto...), a diferencia de los cardinales que indican cantidad.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-03",
+      "type": "classify",
+      "prompt": "Clasifica estos determinantes demostrativos según la distancia que expresan respecto a quien habla:",
+      "explanation": "Los demostrativos expresan tres grados de distancia: cercanía (este, esta, estos, estas), distancia media (ese, esa, esos, esas) y lejanía (aquel, aquella, aquellos, aquellas).",
+      "lang": "es",
+      "categories": [
+        "Cercanía",
+        "Distancia media",
+        "Lejanía"
+      ],
+      "items": [
+        {
+          "text": "este lápiz",
+          "category": 0
+        },
+        {
+          "text": "aquella colina",
+          "category": 2
+        },
+        {
+          "text": "ese cuaderno",
+          "category": 1
+        },
+        {
+          "text": "estas zapatillas",
+          "category": 0
+        },
+        {
+          "text": "aquel parque",
+          "category": 2
+        },
+        {
+          "text": "esos balones",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-04",
+      "type": "match",
+      "prompt": "Relaciona cada tipo de determinante con su ejemplo correspondiente:",
+      "explanation": "Los posesivos señalan de quién es el objeto (un poseedor o varios), mientras que los cardinales indican una cantidad exacta y los ordinales señalan una posición.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Posesivo de un solo poseedor",
+          "right": "mi mochila"
+        },
+        {
+          "left": "Posesivo de varios poseedores",
+          "right": "nuestro colegio"
+        },
+        {
+          "left": "Numeral cardinal",
+          "right": "ocho lápices"
+        },
+        {
+          "left": "Numeral ordinal",
+          "right": "tercer piso"
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-05",
+      "type": "fill-blank",
+      "prompt": "Elige el determinante demostrativo adecuado para señalar un objeto situado muy lejos de ti:",
+      "explanation": "Al encontrarse el barco en el horizonte, está en un punto lejano respecto a quien habla y quien escucha, por lo que corresponde usar «aquel».",
+      "lang": "es",
+      "sentence": "Mira hacia el horizonte: ¿ves ___ barco navegando cerca del faro?",
+      "options": [
+        "ese",
+        "este",
+        "aquel"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-06",
+      "type": "choice",
+      "prompt": "Hugo ha escrito una nota para el tablón de anuncios del colegio, pero ha cometido un error de concordancia. ¿Cuál de estas oraciones contiene el error?",
+      "explanation": "El sustantivo «gomas» es femenino plural, por lo que el determinante debe concordar en género y número: lo correcto es «estas gomas».",
+      "hint": "Fíjate bien en el género y número del sustantivo y de su determinante.",
+      "lang": "es",
+      "options": [
+        "Perdí mi chaqueta verde en el patio durante el recreo.",
+        "Devolveremos estos libros a la biblioteca esta tarde.",
+        "Encontré estos gomas de borrar debajo del banco de madera."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-07",
+      "type": "order",
+      "prompt": "Ordena los siguientes determinantes numerales ordinales de menor a mayor posición:",
+      "explanation": "Los ordinales siguen una serie ordenada: primero (1.º), segundo (2.º), cuarto (4.º), séptimo (7.º) y décimo (10.º).",
+      "lang": "es",
+      "items": [
+        "primer lugar",
+        "segundo lugar",
+        "cuarto lugar",
+        "séptimo lugar",
+        "décimo lugar"
+      ]
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-08",
+      "type": "choice",
+      "prompt": "Lucía y Mateo preparan la merienda comunitaria. Lucía avisa a sus compañeros: «Traed vuestros bocadillos y cuatro manzanas lavadas». ¿Qué clases de determinantes ha utilizado en esa frase?",
+      "explanation": "«Vuestros» indica posesión de varias personas (vosotros) y «cuatro» expresa una cantidad exacta, por lo que es un numeral cardinal.",
+      "lang": "es",
+      "options": [
+        "Un posesivo de un solo poseedor («vuestros») y un numeral ordinal («cuatro»).",
+        "Un posesivo de varios poseedores («vuestros») y un numeral cardinal («cuatro»).",
+        "Un demostrativo de distancia media («vuestros») y un numeral cardinal («cuatro»)."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-09",
+      "type": "fill-blank",
+      "prompt": "Completa con el determinante posesivo correcto para indicar que la mascota pertenece a Martina y a su hermano (varios poseedores):",
+      "explanation": "El sustantivo «perro» está en singular y pertenece a ellos (tercera persona de varios poseedores), de modo que la forma adecuada es «su».",
+      "lang": "es",
+      "sentence": "Martina y su hermano pasean siempre a ___ perro por el parque del barrio.",
+      "options": [
+        "su",
+        "sus",
+        "nuestro"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-10",
+      "type": "reading",
+      "prompt": "Lee atentamente la noticia sobre el huerto escolar y responde a las preguntas:",
+      "explanation": "El texto combina la comprensión lectora con el reconocimiento de determinantes posesivos, demostrativos y numerales en un contexto escolar real.",
+      "lang": "es",
+      "title": "Un huerto vivo en la escuela",
+      "text": "Esta mañana, nuestro grupo de quinto ha inaugurado el nuevo huerto escolar tras semanas de preparación. El profesor Adrián nos repartió las tareas con precisión: Aisha y Marco prepararon los tres bancales principales, mientras que Lucía y yo plantamos aquellas pequeñas semillas de tomate que guardábamos desde la primavera pasada.\n\nA mitad de la jornada, Mateo celebró con alegría nuestro primer brote verde: una diminuta hoja asomaba tímida entre la tierra húmeda. Para que el proyecto funcione de forma sostenible, hemos acordado dos reglas básicas de convivencia: cuidar las herramientas compartidas y regar solo al atardecer para evitar que el agua se evapore con el calor.\n\nAl contemplar ese rincón tan verde y lleno de vida al fondo del patio, comprendimos que el esfuerzo en equipo transforma cualquier espacio. Ya soñamos con probar nuestra primera cosecha de hortalizas antes de que termine el curso escolar.",
+      "questions": [
+        {
+          "prompt": "¿Por qué los estudiantes han decidido regar el huerto únicamente al atardecer?",
+          "explanation": "El texto explica que riegan al atardecer para evitar la evaporación del agua por el calor, favoreciendo la sostenibilidad.",
+          "options": [
+            "Porque las semillas de tomate crecen únicamente en la oscuridad.",
+            "Porque el profesor solo reparte las herramientas al final del día.",
+            "Para evitar la rápida evaporación del agua por el calor del sol."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "En la frase «plantamos aquellas pequeñas semillas de tomate», ¿qué información aporta la palabra «aquellas»?",
+          "explanation": "«Aquellas» es un determinante demostrativo de lejanía; sitúa las semillas en un plano temporal distante («desde la primavera pasada»).",
+          "options": [
+            "Indica que las semillas pertenecen en exclusiva al narrador del texto.",
+            "Sitúa a las semillas en un momento o recuerdo lejano respecto al presente.",
+            "Señala la cantidad exacta de semillas que plantaron en el bancal."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "En la expresión «nuestro primer brote verde», ¿cómo se clasifican respectivamente «nuestro» y «primer»?",
+          "explanation": "«Nuestro» indica posesión compartida por varios poseedores (nosotros) y «primer» expresa posición u orden (numeral ordinal).",
+          "options": [
+            "«Nuestro» es posesivo de un solo poseedor y «primer» es numeral cardinal.",
+            "«Nuestro» es demostrativo de cercanía y «primer» es numeral cardinal.",
+            "«Nuestro» es posesivo de varios poseedores y «primer» es numeral ordinal."
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:49:55.685Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "id": "g5-mates-operaciones-con-parentesis",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "operaciones-con-parentesis",
+  "temaNombre": "Operaciones con paréntesis",
+  "title": "El poder de los paréntesis",
+  "summary": "Descubre cómo los paréntesis cambian el orden de las operaciones en situaciones cotidianas y retos matemáticos.",
+  "keyIdeas": [
+    "Los paréntesis tienen prioridad absoluta: siempre resolvemos primero las operaciones que encierran.",
+    "Si no hay paréntesis, las multiplicaciones y divisiones se calculan antes que las sumas y restas.",
+    "Colocar o quitar paréntesis puede transformar por completo el resultado de una expresión matemática."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "D. Sentido algebraico › Modelo matemático"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-operaciones-con-parentesis-01",
+      "type": "order",
+      "prompt": "Ordena los pasos que debemos seguir siempre para resolver una operación combinada según la jerarquía matemática:",
+      "explanation": "La jerarquía matemática establece que primero se resuelven los paréntesis, después las multiplicaciones y divisiones, y por último las sumas y restas.",
+      "hint": "¿Qué tiene siempre máxima prioridad?",
+      "lang": "es",
+      "items": [
+        "Calcular las operaciones que están dentro de los paréntesis.",
+        "Resolver las multiplicaciones y divisiones de izquierda a derecha.",
+        "Resolver las sumas y restas de izquierda a derecha."
+      ]
+    },
+    {
+      "id": "g5-mates-operaciones-con-parentesis-02",
+      "type": "true-false",
+      "prompt": "¿La expresión (4 + 6) × 3 da el mismo resultado que 4 + (6 × 3)?",
+      "explanation": "(4 + 6) × 3 = 10 × 3 = 30, mientras que 4 + (6 × 3) = 4 + 18 = 22. Los paréntesis agrupan números distintos y cambian el resultado final.",
+      "hint": "Calcula mentalmente cada lado por separado respetando los paréntesis.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-mates-operaciones-con-parentesis-03",
+      "type": "match",
+      "prompt": "Une cada operación combinada con su resultado correcto:",
+      "explanation": "(15 - 5) × 2 = 10 × 2 = 20; 15 - (5 × 2) = 15 - 10 = 5; (20 + 10) ÷ 5 = 30 ÷ 5 = 6; 20 + (10 ÷ 5) = 20 + 2 = 22.",
+      "hint": "Resuelve primero lo que hay dentro del paréntesis en cada caso.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "(15 - 5) × 2",
+          "right": "20"
+        },
+        {
+          "left": "15 - (5 × 2)",
+          "right": "5"
+        },
+        {
+          "left": "(20 + 10) ÷ 5",
+          "right": "6"
+        },
+        {
+          "left": "20 + (10 ÷ 5)",
+          "right": "22"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-operaciones-con-parentesis-04",
+      "type": "choice",
+      "prompt": "Omar compra 3 estuches para el colegio. Cada estuche cuesta 8 €, pero tienen una rebaja de 2 € cada uno. ¿Qué expresión matemática representa el dinero total que paga Omar?",
+      "explanation": "Cada estuche rebajado cuesta (8 - 2) = 6 €. Como compra 3 estuches, multiplicamos: 3 × (8 - 2) = 3 × 6 = 18 €.",
+      "hint": "Primero descuenta la rebaja a un estuche y luego multiplica por 3.",
+      "lang": "es",
+      "options": [
+        "3 × (8 - 2)",
+        "3 × 8 - 2",
+        "(3 + 8) - 2",
+        "(8 ÷ 2) × 3"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-operaciones-con-parentesis-05",
+      "type": "choice",
+      "prompt": "Lucía intentó resolver en su cuaderno la operación: 20 - (4 + 2) × 2. Observa sus pasos:\n1) 20 - 6 × 2\n2) 14 × 2\n3) Resultado: 28.\n\n¿Qué error cometió Lucía?",
+      "explanation": "En la expresión 20 - 6 × 2, la multiplicación tiene prioridad frente a la resta. Lucía debió calcular primero 6 × 2 = 12 y luego 20 - 12 = 8.",
+      "hint": "Fíjate en qué operación tiene preferencia cuando ya no quedan paréntesis.",
+      "lang": "es",
+      "options": [
+        "No cometió ningún error, el resultado final 28 es correcto.",
+        "Multiplicó de forma incorrecta 14 × 2 en el paso 3.",
+        "Sumó mal los números de dentro del paréntesis en el paso 1.",
+        "En el paso 2 restó 20 - 6 antes de hacer la multiplicación 6 × 2."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-operaciones-con-parentesis-06",
+      "type": "classify",
+      "prompt": "Clasifica estas operaciones combinadas según su resultado final:",
+      "explanation": "(10 + 2) × 2 = 12 × 2 = 24; 4 × (3 + 3) = 4 × 6 = 24; 30 - (2 × 3) = 30 - 6 = 24. Las demás dan 84, 14 y 15 respectivamente.",
+      "hint": "Calcula primero el paréntesis de cada tarjeta antes de clasificarla.",
+      "lang": "es",
+      "categories": [
+        "Resultado igual a 24",
+        "Resultado distinto de 24"
+      ],
+      "items": [
+        {
+          "text": "(10 + 2) × 2",
+          "category": 0
+        },
+        {
+          "text": "4 × (3 + 3)",
+          "category": 0
+        },
+        {
+          "text": "30 - (2 × 3)",
+          "category": 0
+        },
+        {
+          "text": "(30 - 2) × 3",
+          "category": 1
+        },
+        {
+          "text": "10 + (2 × 2)",
+          "category": 1
+        },
+        {
+          "text": "4 × 3 + 3",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-operaciones-con-parentesis-07",
+      "type": "fill-blank",
+      "prompt": "Calcula mentalmente el número que falta para que la igualdad sea verdadera: 5 × (___ - 4) = 30.",
+      "explanation": "Para que 5 × (...) sea igual a 30, el paréntesis debe valer 6 (ya que 30 ÷ 5 = 6). Para que ___ - 4 = 6, el número que falta debe ser 10.",
+      "hint": "¿Qué número multiplicado por 5 da 30? Haz que el paréntesis dé ese valor.",
+      "lang": "es",
+      "sentence": "El número desconocido dentro del paréntesis es ___.",
+      "options": [
+        "2",
+        "8",
+        "6",
+        "10"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-operaciones-con-parentesis-08",
+      "type": "choice",
+      "prompt": "En 5.º de Primaria van de excursión en autobús. En 5.º A hay 22 alumnos y en 5.º B hay 23 alumnos. Al subir todos, quedan 5 asientos libres. ¿Qué operación indica el total de asientos del autobús?",
+      "explanation": "Sumamos primero todos los alumnos agrupándolos entre paréntesis: (22 + 23) = 45 alumnos. Luego sumamos los 5 asientos libres: 45 + 5 = 50 asientos.",
+      "hint": "El total de plazas son todos los alumnos juntos más los asientos que sobraron.",
+      "lang": "es",
+      "options": [
+        "(22 + 23) + 5 = 50 asientos",
+        "22 + (23 - 5) = 40 asientos",
+        "(22 + 23) - 5 = 40 asientos",
+        "(22 + 23) × 5 = 225 asientos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-operaciones-con-parentesis-09",
+      "type": "choice",
+      "prompt": "Aisha quiere que la expresión 18 - 6 ÷ 3 dé como resultado exactamente 4. ¿Dónde debe colocar los paréntesis?",
+      "explanation": "Al poner los paréntesis en (18 - 6) ÷ 3, obligamos a restar primero: 18 - 6 = 12, y después 12 ÷ 3 = 4. Sin paréntesis daría 18 - 2 = 16.",
+      "hint": "Prueba a forzar que la resta se haga antes de la división.",
+      "lang": "es",
+      "options": [
+        "(18 - 6) ÷ 3",
+        "18 - 6 ÷ (3)",
+        "18 - (6 ÷ 3)",
+        "No hacen falta paréntesis porque ya da 4"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-operaciones-con-parentesis-10",
+      "type": "choice",
+      "prompt": "Hugo programa un robot en el suelo del aula. El robot parte de la baldosa 8 y sigue esta instrucción: 'Suma 4 a tu posición inicial y luego multiplica ese valor por la diferencia entre 10 y 7'. ¿En qué baldosa acaba?",
+      "explanation": "La suma inicial es (8 + 4) = 12 y la diferencia es (10 - 7) = 3. Multiplicamos ambos bloques: (8 + 4) × (10 - 7) = 12 × 3 = 36.",
+      "hint": "Escribe entre paréntesis cada una de las dos partes antes de multiplicarlas.",
+      "lang": "es",
+      "options": [
+        "En la 20, calculando 8 + 4 × (10 - 7)",
+        "En la 15, calculando (8 + 4) + (10 - 7)",
+        "En la 113, calculando (8 + 4) × 10 - 7",
+        "En la 36, calculando (8 + 4) × (10 - 7)"
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:18:50.545Z",
+    "reviewed": false
+  }
+}

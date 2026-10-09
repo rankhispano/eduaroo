@@ -1,0 +1,245 @@
+{
+  "id": "g6-sociales-revolucion-francesa-e-industrial",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "revolucion-francesa-e-industrial",
+  "temaNombre": "Revolución Francesa e Industrial",
+  "title": "Dos revoluciones que cambiaron el mundo",
+  "summary": "Repasa las causas y consecuencias de la Revolución Francesa y la Revolución Industrial en la sociedad moderna.",
+  "keyIdeas": [
+    "La Revolución Francesa (1789) transformó los súbditos en ciudadanos con derechos e impulsó el fin del absolutismo.",
+    "La Revolución Industrial introdujo la máquina de vapor y el carbón, transformando la economía agraria en fabril y urbana.",
+    "Surgieron nuevas clases sociales (burguesía y proletariado) y comenzaron las luchas por los derechos laborales y de las mujeres."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE7",
+      "CE8"
+    ],
+    "criteria": [
+      "7.1",
+      "7.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CE2",
+      "CP3",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-01",
+      "type": "choice",
+      "prompt": "¿Qué acontecimiento histórico marca en 1789 el final de la Edad Moderna y el comienzo de la Edad Contemporánea?",
+      "explanation": "La Revolución Francesa de 1789 se considera el punto de inicio de la Edad Contemporánea porque derribó el Antiguo Régimen y difundió ideas de libertad e igualdad.",
+      "hint": "Ocurrió en París cuando el pueblo tomó la prisión de la Bastilla.",
+      "lang": "es",
+      "options": [
+        "La invención de la imprenta moderna",
+        "El estallido de la Revolución Francesa",
+        "El inicio de la Primera Guerra Mundial",
+        "La llegada de Colón a América"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-02",
+      "type": "match",
+      "prompt": "Relaciona cada elemento clave de la Revolución Industrial con su papel o aplicación:",
+      "explanation": "La máquina de vapor y el carbón hicieron posible mecanizar talleres textiles y crear medios de transporte más veloces como el ferrocarril.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Máquina de vapor",
+          "right": "Motor perfeccionado por James Watt que impulsó fábricas y transportes"
+        },
+        {
+          "left": "Carbón mineral",
+          "right": "Combustible fósil básico para calentar las calderas de vapor"
+        },
+        {
+          "left": "Ferrocarril",
+          "right": "Medio de transporte que facilitó el comercio rápido de mercancías"
+        },
+        {
+          "left": "Telar mecánico",
+          "right": "Máquina que revolucionó la producción en la industria textil"
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-03",
+      "type": "true-false",
+      "prompt": "Con la industrialización, la sociedad estamental por nacimiento dio paso a una sociedad de clases basada en la riqueza y la propiedad.",
+      "explanation": "Es verdadero. En la nueva sociedad industrial se distinguía principalmente entre la burguesía (dueña de las fábricas y el capital) y el proletariado (la clase trabajadora asalariada).",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-04",
+      "type": "classify",
+      "prompt": "Clasifica cada concepto según corresponda a la Revolución Francesa o a la Revolución Industrial:",
+      "explanation": "La Revolución Francesa transformó la política y los derechos de la ciudadanía, mientras que la Revolución Industrial transformó la economía y el mundo del trabajo.",
+      "lang": "es",
+      "categories": [
+        "Revolución Francesa",
+        "Revolución Industrial"
+      ],
+      "items": [
+        {
+          "text": "Toma de la Bastilla",
+          "category": 0
+        },
+        {
+          "text": "Éxodo rural hacia las ciudades",
+          "category": 1
+        },
+        {
+          "text": "Fin de la monarquía absoluta de Luis XVI",
+          "category": 0
+        },
+        {
+          "text": "Aparición de fábricas con máquinas de vapor",
+          "category": 1
+        },
+        {
+          "text": "Declaración de los Derechos del Hombre y del Ciudadano",
+          "category": 0
+        },
+        {
+          "text": "Surgimiento del movimiento obrero",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre una figura clave en la lucha por la igualdad:",
+      "explanation": "Olympe de Gouges denunció que la Revolución Francesa había excluido a las mujeres de los derechos políticos y redactó un texto pionero para exigir su igualdad.",
+      "lang": "es",
+      "sentence": "En 1791, la escritora francesa ___ redactó la Declaración de los Derechos de la Mujer y de la Ciudadana para reclamar los mismos derechos que los hombres.",
+      "options": [
+        "Clara Campoamor",
+        "Olympe de Gouges",
+        "Marie Curie"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-06",
+      "type": "order",
+      "prompt": "Ordena estos hechos históricos en orden cronológico, del más antiguo al más reciente:",
+      "explanation": "La máquina de vapor abrió el camino industrial en 1769; la Revolución Francesa estalló en 1789, continuó con debates sobre igualdad femenina en 1791 y el ferrocarril consolidó el transporte a vapor en 1825.",
+      "lang": "es",
+      "items": [
+        "James Watt patenta y perfecciona la máquina de vapor moderna (1769)",
+        "El pueblo de París asalta la fortaleza de la Bastilla (1789)",
+        "Olympe de Gouges publica los derechos de la mujer y la ciudadana (1791)",
+        "Se inaugura la primera línea comercial de ferrocarril con locomotora de vapor (1825)"
+      ]
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-07",
+      "type": "choice",
+      "prompt": "Durante la Revolución Industrial, millones de personas campesinas abandonaron el campo para irse a vivir a las ciudades. ¿A qué se debió principalmente este fenómeno conocido como «éxodo rural»?",
+      "explanation": "La mecanización del campo dejó a muchas personas sin trabajo agrícola, mientras que las fábricas urbanas demandaban miles de trabajadores y trabajadoras.",
+      "hint": "Piensa en cómo afectaron las máquinas tanto a las tareas del campo como a las fábricas.",
+      "lang": "es",
+      "options": [
+        "A que los monarcas absolutistas obligaron por ley a toda la población a vivir en barrios obreros.",
+        "A que las máquinas agrícolas redujeron el trabajo en el campo y las nuevas fábricas de las ciudades necesitaban mano de obra.",
+        "A que el transporte en tren era gratis y las personas viajaban solo para conocer otras ciudades."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-08",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto sobre la vida en las ciudades fabriles del siglo XIX y responde a las preguntas:",
+      "explanation": "La lectura muestra las duras condiciones de la clase obrera y cómo surgió la necesidad de luchar por los derechos laborales y de la infancia.",
+      "lang": "es",
+      "title": "Vidas entre humo y telares",
+      "text": "A principios del siglo XIX, la ciudad de Mánchester se transformó por completo. El cielo azul se cubrió de un humo denso y constante que salía de las chimeneas de carbón. Familias enteras llegadas del campo se hacinaban en barrios obreros con calles estrechas, sin alcantarillado ni agua corriente, lo que facilitaba la propagación de enfermedades como el cólera.\n\nEn las fábricas de algodón trabajaban hombres, pero también muchas mujeres y niños desde los siete años de edad. Las jornadas duraban catorce o dieciséis horas diarias, seis días a la semana, en naves con poca luz, calor asfixiante y un ruido ensordecedor. Los salarios de las mujeres y la infancia eran mucho menores que los de los hombres por hacer tareas semejantes. Con el paso de los años, estas duras condiciones llevaron a los trabajadores a unirse en sindicatos para exigir límites a la jornada laboral, mejoras salariales y la escolarización obligatoria de los niños.",
+      "questions": [
+        {
+          "prompt": "¿Por qué las familias obreras sufrían enfermedades con frecuencia en los nuevos barrios?",
+          "explanation": "El texto explica que el hacinamiento y la ausencia de alcantarillado y agua corriente facilitaban la transmisión de epidemias como el cólera.",
+          "options": [
+            "Porque los médicos de la época les prohibían salir de sus casas.",
+            "Por la falta de higiene, alcantarillado y agua corriente en sus viviendas hacinadas.",
+            "Porque comían únicamente productos importados en barco desde otros continentes."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué se puede deducir sobre la situación de las mujeres en el trabajo fabril del siglo XIX?",
+          "explanation": "El texto señala que las mujeres realizaban jornadas extenuantes pero percibían una remuneración inferior a la de los hombres, reflejando desigualdad salarial.",
+          "options": [
+            "Tenían prohibido trabajar en fábricas porque la ley las obligaba a estudiar.",
+            "Ocupaban los puestos de mayor responsabilidad y dirigían las empresas textiles.",
+            "Existía una clara discriminación salarial, ya que cobraban menos que los hombres por trabajos similares."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Desde una perspectiva actual sobre los derechos humanos y de la infancia, ¿qué valoración crítica merece el trabajo infantil descrito?",
+          "explanation": "Hoy reconocemos que la infancia debe estar protegida, con derecho a la educación, al juego y a una vida segura, lejos de la explotación laboral.",
+          "options": [
+            "Era una vulneración grave de sus derechos, pues les privaba de salud, educación y desarrollo personal.",
+            "Era una medida positiva porque permitía a los menores aprender un oficio en lugar de perder tiempo jugando.",
+            "Era una situación adecuada porque las fábricas necesitaban personas con manos pequeñas para desatascar telares."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-09",
+      "type": "choice",
+      "prompt": "En clase de Ciencias Sociales, Hugo y Nerea analizan cómo cambió el transporte. Antes de 1789, un viaje de 300 kilómetros en diligencia de caballos tardaba varios días. En 1850, ese mismo trayecto en ferrocarril se hacía en pocas horas. ¿Qué impacto tuvo este cambio en la sociedad?",
+      "explanation": "La velocidad y capacidad de carga del tren abarató los productos, evitó hambrunas locales y conectó mercados nacionales e internacionales.",
+      "hint": "Piensa en qué ventajas tiene llevar muchas toneladas de comida o materias primas rápidamente.",
+      "lang": "es",
+      "options": [
+        "Hizo que los países cerraran sus fronteras para evitar que la gente viajara tan deprisa.",
+        "Provocó que las ciudades quedaran desiertas porque todo el mundo se mudó al bosque.",
+        "Permitió el transporte masivo de alimentos perecederos y facilitó el comercio entre regiones distantes."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-10",
+      "type": "choice",
+      "prompt": "El uso masivo del carbón durante la Revolución Industrial impulsó la economía, pero también inició un problema ambiental que afrontamos hoy en día. ¿Cuál es?",
+      "explanation": "La quema de carbón y otros combustibles fósiles desde el siglo XVIII disparó las emisiones de dióxido de carbono (CO2), origen principal del actual calentamiento global.",
+      "hint": "Relaciona los humos de las calderas de vapor con los problemas climáticos actuales.",
+      "lang": "es",
+      "options": [
+        "La disminución total del agua de los océanos debido al vapor de las máquinas.",
+        "El aumento continuado de gases de efecto invernadero en la atmósfera que provocan el cambio climático.",
+        "La desaparición del viento en las zonas de montaña por el humo de las chimeneas."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:42:00.423Z",
+    "reviewed": false
+  }
+}

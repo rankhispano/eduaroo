@@ -1,0 +1,239 @@
+{
+  "id": "g6-sociales-ciudadania-digital",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "ciudadania-digital",
+  "temaNombre": "Ciudadanía digital",
+  "title": "Ciudadanía digital activa y segura",
+  "summary": "Aprende a navegar con seguridad, respetar a los demás en la red y proteger tu huella digital.",
+  "keyIdeas": [
+    "La huella digital es el rastro permanente que dejamos al usar internet y debemos gestionarla con cuidado.",
+    "La netiqueta nos enseña a comunicarnos con empatía, cortesía y respeto en cualquier entorno digital.",
+    "Antes de compartir noticias o datos personales, es imprescindible contrastar las fuentes y proteger nuestra privacidad."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD4",
+      "CD5",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-ciudadania-digital-01",
+      "type": "true-false",
+      "prompt": "La huella digital está formada únicamente por las fotografías que nosotros mismos subimos a internet de forma voluntaria.",
+      "explanation": "La huella digital incluye también los comentarios que escribimos, las búsquedas que hacemos y la información que otras personas publican sobre nosotros.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-02",
+      "type": "choice",
+      "prompt": "Lucía necesita crear una contraseña para su espacio virtual escolar. ¿Cuál de las siguientes opciones sigue las mejores recomendaciones de seguridad?",
+      "explanation": "Una contraseña robusta debe combinar letras mayúsculas, minúsculas, números y símbolos, evitando datos personales fáciles de averiguar.",
+      "hint": "Evita poner datos obvios sobre ti.",
+      "lang": "es",
+      "options": [
+        "12345678, porque tiene ocho números seguidos fáciles de recordar.",
+        "MiPerro#Come8Galletas, porque combina mayúsculas, minúsculas, números y símbolos.",
+        "Lucia2012, porque incluye su nombre y el año en que nació."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-03",
+      "type": "match",
+      "prompt": "Relaciona cada término sobre convivencia y seguridad digital con su definición.",
+      "explanation": "Comprender estos conceptos nos ayuda a ser ciudadanos digitales informados, responsables y respetuosos con toda la comunidad.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Netiqueta",
+          "right": "Normas de cortesía y respeto para comunicarse en la red."
+        },
+        {
+          "left": "Huella digital",
+          "right": "Rastro de información que dejamos al usar servicios en internet."
+        },
+        {
+          "left": "Ciberacoso",
+          "right": "Uso reiterado de medios digitales para intimidar o molestar."
+        },
+        {
+          "left": "Desinformación",
+          "right": "Difusión de noticias falsas o datos no contrastados."
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la verificación de información en la red.",
+      "explanation": "Contrastar significa comparar los datos con fuentes fiables y autorizadas para comprobar si la noticia es real antes de difundirla.",
+      "lang": "es",
+      "sentence": "Cuando encontramos un titular llamativo en una red social, debemos ___ la información en fuentes oficiales antes de compartirla.",
+      "options": [
+        "ignorar",
+        "contrastar",
+        "reenviar"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-05",
+      "type": "classify",
+      "prompt": "Clasifica cada información según si es un dato privado que debes proteger o un contenido seguro para compartir públicamente.",
+      "explanation": "Nunca debemos publicar datos privados que revelen nuestra ubicación, identidad o claves de acceso para mantener siempre nuestra seguridad.",
+      "lang": "es",
+      "categories": [
+        "Dato privado que proteger",
+        "Contenido seguro para compartir"
+      ],
+      "items": [
+        {
+          "text": "Tu dirección postal y el teléfono de tu familia",
+          "category": 0
+        },
+        {
+          "text": "La reseña de tu libro preferido de la biblioteca",
+          "category": 1
+        },
+        {
+          "text": "La contraseña de tu correo electrónico",
+          "category": 0
+        },
+        {
+          "text": "Una redacción sobre la flora de tu comunidad autónoma",
+          "category": 1
+        },
+        {
+          "text": "El lugar exacto y horario donde entrenas a solas cada tarde",
+          "category": 0
+        },
+        {
+          "text": "Un dibujo realizado por ti para la semana cultural del colegio",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-06",
+      "type": "order",
+      "prompt": "Ordena los pasos que debe seguir Omar para comprobar si una noticia sospechosa en internet es un bulo.",
+      "explanation": "El proceso de pensamiento crítico requiere leer todo el contenido, analizar la autoría y la fecha, contrastar con otras fuentes y actuar con cautela.",
+      "lang": "es",
+      "items": [
+        "Leer la noticia completa con atención y no quedarse solo con el titular impactante.",
+        "Revisar quién es el autor, el medio que lo publica y la fecha del artículo.",
+        "Buscar el mismo suceso en otros medios de comunicación fiables y consolidados.",
+        "Decidir de forma razonada si la noticia es verídica antes de reenviarla."
+      ]
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-07",
+      "type": "choice",
+      "prompt": "En el chat de la clase, alguien comparte una foto de Hugo en una situación vergonzosa para burlarse de él. ¿Cuál es la respuesta correcta como ciudadana digital?",
+      "explanation": "Frenar la cadena de burlas, defender el respeto mutuo y acudir a un adulto responsable detiene las situaciones de ciberacoso de raíz.",
+      "hint": "Piensa en cómo apoyar a la persona afectada.",
+      "lang": "es",
+      "options": [
+        "Reenviar la foto a otros amigos para ver qué opinan ellos.",
+        "Guardar silencio para no tener problemas con el resto de compañeros.",
+        "No difundir la imagen, pedir respeto en el grupo y comunicarlo a una persona adulta."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-08",
+      "type": "true-false",
+      "prompt": "Cualquier imagen o texto disponible en internet se puede copiar y presentar como propio en un trabajo escolar sin citar su origen.",
+      "explanation": "Los contenidos digitales tienen autoría y propiedad intelectual; siempre debemos citar la procedencia o utilizar obras con licencias de uso libre.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-09",
+      "type": "choice",
+      "prompt": "Aisha recibe un mensaje privado en un videojuego en línea en el que un desconocido le ofrece monedas virtuales gratis si le envía una foto de su carné escolar. ¿Por qué es una situación de riesgo?",
+      "explanation": "Ofrecer regalos a cambio de datos personales o fotos de documentos es una técnica habitual de engaño; nunca debemos facilitar información personal a desconocidos.",
+      "hint": "Fíjate en el peligro de dar datos que te identifican.",
+      "lang": "es",
+      "options": [
+        "Porque las monedas virtuales que le ofrecen perderán valor al día siguiente.",
+        "Porque el carné contiene datos personales sensibles que permiten identificarla y localizarla fuera del juego.",
+        "Porque en los juegos virtuales no se puede hablar con personas de otras ciudades."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-10",
+      "type": "reading",
+      "prompt": "Lee atentamente el siguiente texto sobre convivencia y huella digital. Después, responde a las preguntas.",
+      "explanation": "Ser un buen ciudadano digital implica entender que nuestras acciones presentes en la red tienen consecuencias duraderas tanto para nosotros como para los demás.",
+      "lang": "es",
+      "title": "Nuestra segunda vida en la red",
+      "text": "Hoy en día pasamos mucho tiempo conectados a dispositivos digitales para aprender, jugar y comunicarnos. Esta presencia virtual nos convierte en ciudadanos digitales, con derechos que nos protegen y deberes que debemos cumplir con responsabilidad. Al igual que cuidamos la convivencia en el patio del colegio, en internet debemos practicar la empatía y la cortesía, lo que conocemos como netiqueta.\n\nAdemás, cada búsqueda que realizamos, cada vídeo que vemos y cada foto que publicamos deja un rastro imborrable llamado huella digital. Este rastro permanece con el paso del tiempo y transmite una imagen sobre nosotros a futuras amistades, profesores o compañeros de trabajo. Por eso, antes de pulsar el botón de publicar, conviene plantearse tres preguntas sencillas: ¿es verdad?, ¿es respetuoso? y ¿es realmente necesario? Cuidar nuestro comportamiento digital no solo nos protege a título individual, sino que ayuda a construir una red más segura, pacífica y enriquecedora para todas las personas.",
+      "questions": [
+        {
+          "prompt": "¿Qué tres preguntas recomienda hacerse el texto antes de publicar un contenido en internet?",
+          "explanation": "El texto propone de manera explícita reflexionar sobre si lo que compartimos es verdad, respetuoso y necesario.",
+          "options": [
+            "¿Es gratis?, ¿es moderno? y ¿lo han visto mis amigos?",
+            "¿Es verdad?, ¿es respetuoso? y ¿es realmente necesario?",
+            "¿Es divertido?, ¿es largo? y ¿conseguirá muchos me gusta?"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por qué el texto compara la convivencia en internet con la del patio del colegio?",
+          "explanation": "Aunque exista una pantalla de por medio, las personas al otro lado tienen los mismos derechos y merecen el mismo respeto que en persona.",
+          "options": [
+            "Porque en internet solamente interactuamos durante el horario lectivo.",
+            "Porque en ambos espacios convivimos con personas reales cuyos sentimientos y derechos debemos respetar.",
+            "Porque las normas de internet las deciden los maestros del colegio."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué consecuencia a largo plazo puede tener desatender nuestra huella digital?",
+          "explanation": "La huella digital permanece a lo largo del tiempo, por lo que publicaciones irresponsables pueden perjudicar nuestra imagen en el futuro personal o laboral.",
+          "options": [
+            "Que los dispositivos electrónicos se estropeen por acumular demasiados mensajes.",
+            "Que la información imprudente que dejamos accesible dañe nuestra reputación o relaciones futuras.",
+            "Que tengamos la obligación legal de borrar nuestro perfil cada año."
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:49:49.979Z",
+    "reviewed": false
+  }
+}

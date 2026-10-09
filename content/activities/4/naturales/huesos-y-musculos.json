@@ -1,0 +1,223 @@
+{
+  "id": "g4-naturales-huesos-y-musculos",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "huesos-y-musculos",
+  "temaNombre": "Huesos y músculos",
+  "title": "El gran equipo: huesos y músculos",
+  "summary": "Repasa cómo colaboran los huesos, las articulaciones y los músculos para mover y proteger nuestro cuerpo.",
+  "keyIdeas": [
+    "Los huesos forman el esqueleto, dan soporte al cuerpo y protegen órganos delicados como el cerebro o el corazón.",
+    "Los músculos se unen a los huesos mediante tendones y producen movimiento al contraerse y relajarse.",
+    "Una alimentación rica en calcio, el ejercicio físico y una postura correcta mantienen sano nuestro aparato locomotor."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-huesos-y-musculos-01",
+      "type": "true-false",
+      "prompt": "Los huesos son órganos rígidos que sostienen el cuerpo y protegen órganos delicados como el cerebro.",
+      "explanation": "Los huesos forman el esqueleto. Sostienen nuestro cuerpo y actúan como un escudo protector para órganos vitales.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre cómo se unen los músculos a los huesos.",
+      "explanation": "Los tendones son cordones elásticos y resistentes. Transmiten la fuerza del músculo al hueso para permitir el movimiento.",
+      "lang": "es",
+      "sentence": "Los músculos se unen firmemente a los huesos mediante unas fibras resistentes llamadas ___.",
+      "options": [
+        "tendones",
+        "articulaciones",
+        "nervios"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-03",
+      "type": "match",
+      "prompt": "Une cada parte del esqueleto con el órgano vital que protege:",
+      "explanation": "Los huesos protegen partes vitales de nuestro cuerpo. El cráneo protege el encéfalo y las costillas cuidan el tórax.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Cráneo",
+          "right": "Cerebro"
+        },
+        {
+          "left": "Caja torácica",
+          "right": "Corazón y pulmones"
+        },
+        {
+          "left": "Columna vertebral",
+          "right": "Médula espinal"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-04",
+      "type": "classify",
+      "prompt": "Clasifica estos músculos según realices su movimiento de forma voluntaria o involuntaria:",
+      "explanation": "Los músculos voluntarios los movemos de forma consciente. Los involuntarios funcionan de forma automática sin que tengamos que pensarlo.",
+      "lang": "es",
+      "categories": [
+        "Músculos voluntarios",
+        "Músculos involuntarios"
+      ],
+      "items": [
+        {
+          "text": "Bíceps al levantar la mochila",
+          "category": 0
+        },
+        {
+          "text": "Corazón al latir de forma continua",
+          "category": 1
+        },
+        {
+          "text": "Gemelos al correr por el patio",
+          "category": 0
+        },
+        {
+          "text": "Músculos del estómago durante la digestión",
+          "category": 1
+        },
+        {
+          "text": "Cuádriceps al chutar un balón",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-05",
+      "type": "choice",
+      "prompt": "Hugo prepara su mochila para ir a clase. ¿Qué hábito protegerá mejor su columna vertebral?",
+      "explanation": "Usar los dos tirantes reparte el peso de manera equilibrada. Así evitamos desviar la columna vertebral y prevenir dolores de espalda.",
+      "hint": "Piensa en cómo equilibrar el peso sobre tu cuerpo.",
+      "lang": "es",
+      "options": [
+        "Llevarla colgada de los dos tirantes bien ajustados a la espalda.",
+        "Llevarla colgada de un solo hombro para caminar más rápido.",
+        "Cargar todos los libros del curso aunque no toquen ese día."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-06",
+      "type": "choice",
+      "prompt": "En clase debaten sobre el esqueleto humano. ¿Quién comete un error en su afirmación?",
+      "explanation": "Aisha se equivoca porque los huesos son órganos vivos. Tienen vasos sanguíneos, crecen y pueden repararse tras una fractura.",
+      "hint": "Recuerda qué le pasa a un hueso roto cuando se cura.",
+      "lang": "es",
+      "options": [
+        "Aisha: «Los huesos son estructuras secas y sin vida, parecidas a piedras».",
+        "Nerea: «En el interior de los huesos se fabrican células sanguíneas».",
+        "Lucas: «Los huesos son órganos vivos que crecen y se pueden regenerar»."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-07",
+      "type": "order",
+      "prompt": "Ordena los pasos que ocurren en el cuerpo desde que decides doblar el brazo hasta que se mueve:",
+      "explanation": "El sistema nervioso y el locomotor actúan coordinados. El cerebro genera la señal, el músculo se contrae y desplaza al hueso.",
+      "lang": "es",
+      "items": [
+        "El cerebro envía una orden nerviosa.",
+        "El impulso llega al músculo bíceps.",
+        "El bíceps se contrae y tira del tendón.",
+        "El hueso del antebrazo sube flexionando el codo."
+      ]
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-08",
+      "type": "choice",
+      "prompt": "Martina flexiona el brazo para tocar su hombro. ¿Qué ocurre con los músculos antagonistas de su brazo?",
+      "explanation": "El bíceps y el tríceps trabajan en pareja antagonista. Al flexionar el brazo, el bíceps se contrae mientras el tríceps se relaja.",
+      "hint": "Tócate el brazo al doblarlo: ¿cuál se pone duro?",
+      "lang": "es",
+      "options": [
+        "El tríceps se contrae y el bíceps se alarga.",
+        "El bíceps y el tríceps se contraen a la vez con fuerza.",
+        "El bíceps se contrae y el tríceps se relaja."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-09",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto sobre un experimento escolar y responde a las preguntas:",
+      "explanation": "El experimento demuestra que el calcio es fundamental para la firmeza de los huesos. Sin este mineral, pierden su resistencia.",
+      "lang": "es",
+      "title": "El enigma del hueso flexible",
+      "text": "En clase de Ciencias, Adrián y Lucía hicieron un experimento. Colocaron un hueso de pollo limpio en un tarro con vinagre durante una semana. El vinagre es un líquido ácido que disuelve lentamente el calcio. El calcio es el mineral que aporta dureza y resistencia a los huesos.\n\nA los siete días, sacaron el hueso del tarro y lo lavaron. Al tocarlo, descubrieron con asombro que el hueso se doblaba con facilidad, como si fuera de goma. No se rompió, pero perdió su rigidez porque el ácido eliminó todo el calcio.",
+      "questions": [
+        {
+          "prompt": "¿Qué mineral disolvió el vinagre durante la semana del experimento?",
+          "explanation": "El vinagre disuelve el calcio, que es el elemento que proporciona dureza al esqueleto.",
+          "options": [
+            "El sodio.",
+            "El hierro.",
+            "El calcio."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "A partir de este resultado, ¿qué deducimos sobre la importancia del calcio en nuestra dieta?",
+          "explanation": "Sin calcio, los huesos pierden rigidez y se doblan. Una dieta con calcio permite mantener huesos firmes y sanos.",
+          "options": [
+            "El calcio hace que los huesos se vuelvan blandos como la goma.",
+            "Tomar calcio ayuda a que los huesos crezcan duros y no se deformen.",
+            "El calcio solo sirve para hacer más largos los músculos."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-10",
+      "type": "choice",
+      "prompt": "Leo salta a por un rebote y se tuerce el tobillo. Sus huesos están sanos, pero los ligamentos se estiraron en exceso. ¿Qué lesión sufre y qué función tienen los ligamentos?",
+      "explanation": "Un esguince es una lesión de los ligamentos articulares. Los ligamentos unen los huesos entre sí en las articulaciones para darles estabilidad.",
+      "hint": "No hay ningún hueso roto, solo tejidos articulares estirados.",
+      "lang": "es",
+      "options": [
+        "Sufre un esguince; los ligamentos unen hueso con hueso en las articulaciones.",
+        "Sufre una fractura; los ligamentos contraen voluntariamente los pies.",
+        "Sufre una rotura ósea; los ligamentos transportan sangre por la pierna."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:57:09.743Z",
+    "reviewed": false
+  }
+}

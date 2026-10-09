@@ -1,0 +1,219 @@
+{
+  "id": "g1-sociales-el-barrio-y-municipio",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "el-barrio-y-municipio",
+  "temaNombre": "El barrio y municipio",
+  "title": "Descubrimos nuestro barrio y municipio",
+  "summary": "Aprende cómo son los barrios, los pueblos y las ciudades, y cómo cuidarlos.",
+  "keyIdeas": [
+    "Un municipio puede ser un pueblo pequeño o una gran ciudad.",
+    "En el ayuntamiento trabaja el alcalde o la alcaldesa con su equipo.",
+    "Todos cuidamos los parques, las calles y los servicios del barrio."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.2",
+      "9.3"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-01",
+      "type": "choice",
+      "prompt": "¿Qué lugar tiene edificios muy altos y avenidas con mucho tráfico? 🏙️",
+      "explanation": "Las ciudades tienen muchos habitantes, avenidas grandes y edificios de muchos pisos.",
+      "hint": "Hay muchos coches y bloques con ascensor.",
+      "lang": "es",
+      "options": [
+        "Un pueblo pequeño",
+        "Una gran ciudad",
+        "Una granja solitaria"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-02",
+      "type": "true-false",
+      "prompt": "El ayuntamiento es el edificio donde trabaja el alcalde o la alcaldesa.",
+      "explanation": "En el ayuntamiento se gobierna el municipio y se organizan los servicios locales.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-03",
+      "type": "match",
+      "prompt": "Une cada necesidad del barrio con su lugar adecuado:",
+      "explanation": "Cada servicio municipal ayuda a los vecinos en una tarea importante del día a día.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Pedir prestado un libro",
+          "right": "La biblioteca municipal"
+        },
+        {
+          "left": "Curar a una persona enferma",
+          "right": "El centro de salud"
+        },
+        {
+          "left": "Jugar al aire libre",
+          "right": "El parque público"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-04",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra que completa la norma vial.",
+      "explanation": "Los peatones cruzan por las rayas blancas pintadas en el suelo de la calzada.",
+      "lang": "es",
+      "sentence": "Para cruzar la calle seguros, usamos el paso de ___.",
+      "options": [
+        "farolas",
+        "árboles",
+        "peatones"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-05",
+      "type": "classify",
+      "prompt": "Clasifica estos elementos según el lugar donde son más habituales:",
+      "explanation": "Los pueblos suelen tener casas bajas y calma, mientras las ciudades tienen transportes grandes y torres altas.",
+      "lang": "es",
+      "categories": [
+        "Pueblo pequeño",
+        "Gran ciudad"
+      ],
+      "items": [
+        {
+          "text": "Casas bajas y calles muy tranquilas",
+          "category": 0
+        },
+        {
+          "text": "Estación de metro subterráneo",
+          "category": 1
+        },
+        {
+          "text": "Pocos habitantes que se conocen todos",
+          "category": 0
+        },
+        {
+          "text": "Rascacielos con muchas oficinas",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-06",
+      "type": "choice",
+      "prompt": "Aisha pasea con su perro por el parque del barrio. El perro hace caca en la hierba. ¿Qué debe hacer Aisha? 🐕",
+      "explanation": "Para mantener limpio el barrio, los dueños deben recoger siempre los excrementos de sus mascotas.",
+      "hint": "Piensa en los niños que juegan en el parque.",
+      "lang": "es",
+      "options": [
+        "Dejar la caca en el suelo porque es abono",
+        "Tapar la caca con hojas y marcharse corriendo",
+        "Recoger la caca con una bolsa y tirarla a la papelera"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-07",
+      "type": "true-false",
+      "prompt": "Cuidar los bancos y las farolas de la calle es responsabilidad de todos los vecinos.",
+      "explanation": "El mobiliario urbano es de toda la comunidad y debemos tratarlo con respeto y cuidado.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-08",
+      "type": "order",
+      "prompt": "Ordena los pasos que sigue Lucas para cruzar la calle de forma segura:",
+      "explanation": "Primero nos detenemos, luego comprobamos que no hay peligro y por último cruzamos con calma.",
+      "lang": "es",
+      "items": [
+        "Parar en el bordillo de la acera",
+        "Mirar bien a la izquierda y a la derecha",
+        "Cruzar caminando sin correr cuando no vengan coches"
+      ]
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-09",
+      "type": "reading",
+      "prompt": "Lee esta noticia del barrio y responde a las preguntas:",
+      "explanation": "Colaborar en el barrio hace que los espacios públicos sean más agradables y seguros.",
+      "lang": "es",
+      "title": "Fiesta verde en la plaza",
+      "text": "En el barrio de Hugo cuidan la plaza mayor. La alcaldesa y los vecinos plantan flores el sábado. Hugo riega las macetas con su abuela. Ahora la plaza luce limpia y alegre para todo el vecindario.",
+      "questions": [
+        {
+          "prompt": "¿Quién ayuda a Hugo a regar las macetas?",
+          "explanation": "El texto dice que Hugo riega las macetas junto con su abuela.",
+          "options": [
+            "El cartero",
+            "Su maestra",
+            "Su abuela"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué se reúnen los vecinos para plantar flores?",
+          "explanation": "Los vecinos colaboran para que su barrio esté más bonito y cuidado para todos.",
+          "options": [
+            "Para cuidar y mejorar su espacio común",
+            "Para vender las macetas y ganar dinero",
+            "Porque está prohibido pasear por la plaza"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-10",
+      "type": "choice",
+      "prompt": "En el barrio de Martina hay mucho humo de coches. ¿Qué acción ayuda a tener un aire más limpio? 🚲",
+      "explanation": "Caminar o montar en bicicleta no produce humos contaminantes y cuida el aire del municipio.",
+      "hint": "Piensa en cómo moverte sin usar gasolina.",
+      "lang": "es",
+      "options": [
+        "Tocar el claxon para avisar a los demás coches",
+        "Ir al colegio a pie o en bicicleta",
+        "Usar el coche para ir a lugares muy cercanos"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:22:32.669Z",
+    "reviewed": false
+  }
+}

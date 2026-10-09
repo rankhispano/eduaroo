@@ -1,0 +1,258 @@
+{
+  "id": "g1-naturales-los-animales",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "los-animales",
+  "temaNombre": "Los animales",
+  "title": "El fascinante mundo animal",
+  "summary": "Practica cómo nacen, qué comen y cómo viven los animales.",
+  "keyIdeas": [
+    "Los animales pueden nacer de huevos o de la tripa de su madre.",
+    "Según lo que comen, son carnívoros, herbívoros u omnívoros.",
+    "Debemos cuidar y respetar a todos los animales del planeta."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-los-animales-01",
+      "type": "classify",
+      "prompt": "Separa estos animales según tengan pelo o plumas.",
+      "explanation": "Los mamíferos tienen pelo en su cuerpo. Las aves tienen el cuerpo cubierto de plumas.",
+      "lang": "es",
+      "categories": [
+        "Tienen pelo",
+        "Tienen plumas"
+      ],
+      "items": [
+        {
+          "text": "Perro",
+          "category": 0
+        },
+        {
+          "text": "Canario",
+          "category": 1
+        },
+        {
+          "text": "Gato",
+          "category": 0
+        },
+        {
+          "text": "Loro",
+          "category": 1
+        },
+        {
+          "text": "Conejo",
+          "category": 0
+        },
+        {
+          "text": "Águila",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-los-animales-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre cómo nacen algunos animales.",
+      "explanation": "Los animales ovíparos, como las aves o los peces, nacen de huevos.",
+      "lang": "es",
+      "sentence": "Los animales ovíparos nacen de un ___.",
+      "options": [
+        "árbol",
+        "huevo",
+        "río"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-los-animales-03",
+      "type": "match",
+      "prompt": "Une cada animal con la forma en que se desplaza.",
+      "explanation": "Cada animal tiene su cuerpo adaptado para nadar, volar, andar o reptar.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Delfín",
+          "right": "Nada en el agua"
+        },
+        {
+          "left": "Golondrina",
+          "right": "Vuela por el aire"
+        },
+        {
+          "left": "Caballo",
+          "right": "Camina por la tierra"
+        },
+        {
+          "left": "Serpiente",
+          "right": "Repta por el suelo"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-los-animales-04",
+      "type": "choice",
+      "prompt": "Omar observa a su conejo. Come hojas de lechuga y zanahoria. ¿Qué tipo de animal es por su comida?",
+      "explanation": "Los conejos solo comen plantas y vegetales. Por eso son animales herbívoros.",
+      "hint": "Fíjate en si come plantas o come carne.",
+      "lang": "es",
+      "options": [
+        "Carnívoro",
+        "Pez",
+        "Herbívoro"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-los-animales-05",
+      "type": "true-false",
+      "prompt": "Todos los animales que viven en el agua son peces.",
+      "explanation": "Hay animales marinos que son mamíferos, como los delfines y las ballenas. Respiran aire con pulmones.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-naturales-los-animales-06",
+      "type": "classify",
+      "prompt": "Clasifica estos animales en domésticos o salvajes.",
+      "explanation": "Los domésticos viven con las personas y los cuidamos. Los salvajes viven libres en la naturaleza.",
+      "lang": "es",
+      "categories": [
+        "Animales domésticos",
+        "Animales salvajes"
+      ],
+      "items": [
+        {
+          "text": "Vaca",
+          "category": 0
+        },
+        {
+          "text": "Lobo",
+          "category": 1
+        },
+        {
+          "text": "Oveja",
+          "category": 0
+        },
+        {
+          "text": "León",
+          "category": 1
+        },
+        {
+          "text": "Gato",
+          "category": 0
+        },
+        {
+          "text": "Jabalí",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-los-animales-07",
+      "type": "order",
+      "prompt": "Ordena las etapas de la vida de una gallina.",
+      "explanation": "Primero la gallina pone el huevo. Después nace el pollito y crece hasta ser adulto.",
+      "lang": "es",
+      "items": [
+        "Huevo en el nido",
+        "Nace el pollito",
+        "Crece y se hace gallina adulta"
+      ]
+    },
+    {
+      "id": "g1-naturales-los-animales-08",
+      "type": "choice",
+      "prompt": "Lucía cuida a su perro Toby. ¿Qué necesita Toby cada día para estar sano y feliz?",
+      "explanation": "Las mascotas necesitan paseos diarios, comida adecuada, agua limpia y mucho cariño.",
+      "hint": "Piensa en las necesidades básicas de un perro.",
+      "lang": "es",
+      "options": [
+        "Comer dulces y caramelos de fresa",
+        "Pasear y tener agua fresca limpia",
+        "Quedarse solo en casa muchas horas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-los-animales-09",
+      "type": "choice",
+      "prompt": "Aisha encuentra bellotas y piñas mordisqueadas en el bosque. ¿Qué come ese animal misterioso?",
+      "explanation": "Las piñas y las bellotas son frutos de los árboles. El animal se alimenta de vegetales.",
+      "hint": "Las bellotas y las piñas vienen de los árboles.",
+      "lang": "es",
+      "options": [
+        "Solo come carne fresca",
+        "Come frutos y semillas de plantas",
+        "Solo bebe agua de mar"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-los-animales-10",
+      "type": "reading",
+      "prompt": "Lee la historia sobre este pequeño animal y responde a las preguntas.",
+      "explanation": "Los erizos son animales salvajes y comen pequeños bichos del suelo.",
+      "lang": "es",
+      "title": "Un erizo en el jardín",
+      "text": "Martín vio anoche un erizo en su jardín. El erizo tiene el cuerpo cubierto de púas. Come pequeños insectos, lombrices y caracoles del suelo. De día duerme escondido bajo hojas secas. Martín no lo tocó para no asustarlo.",
+      "questions": [
+        {
+          "prompt": "¿De qué tiene cubierto el cuerpo el erizo?",
+          "explanation": "El texto explica que el erizo tiene púas en el cuerpo para defenderse.",
+          "options": [
+            "De escamas brillantes",
+            "De púas afiladas",
+            "De plumas suaves"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué hizo Martín para cuidar y respetar al erizo?",
+          "explanation": "A los animales salvajes hay que observarlos sin tocarlos para no molestarlos ni asustarlos.",
+          "options": [
+            "Bañarlo con jabón en la bañera",
+            "No tocarlo para no asustarlo",
+            "Llevarlo dentro de su cama"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:30:29.727Z",
+    "reviewed": false
+  }
+}

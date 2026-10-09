@@ -1,0 +1,247 @@
+{
+  "id": "g5-lengua-recursos-literarios-basicos",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "recursos-literarios-basicos",
+  "temaNombre": "Recursos literarios básicos",
+  "title": "La magia de los recursos literarios",
+  "summary": "Practica la identificación y el uso de la personificación, la comparación, la metáfora y la hipérbole en diversos textos.",
+  "keyIdeas": [
+    "La personificación atribuye acciones o cualidades humanas a objetos, animales o elementos de la naturaleza.",
+    "La comparación relaciona dos realidades mediante nexos como «como» o «parece», mientras que la metáfora las identifica directamente.",
+    "La hipérbole es una exageración intencionada para dar mayor expresividad a lo que decimos."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "4.1",
+      "8.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "C. Educación literaria",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-01",
+      "type": "choice",
+      "prompt": "Hugo pasea por el bosque de su pueblo y anota en su libreta: «El viento susurraba secretos entre las ramas». ¿Qué recurso literario ha empleado?",
+      "explanation": "Es una personificación porque atribuye al viento una cualidad humana: la capacidad de susurrar secretos.",
+      "hint": "Fíjate en la acción que realiza el viento. ¿Pueden hablar los elementos del clima?",
+      "lang": "es",
+      "options": [
+        "Hipérbole",
+        "Comparación",
+        "Personificación"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-02",
+      "type": "true-false",
+      "prompt": "En la frase «El río corre veloz como una gacela», encontramos una comparación porque relaciona dos elementos usando el nexo «como».",
+      "explanation": "Es verdadero. La comparación o símil relaciona dos términos semejantes mediante nexos como «como», «parece» o «igual que».",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-03",
+      "type": "match",
+      "prompt": "Relaciona cada recurso literario con su ejemplo correspondiente:",
+      "explanation": "La personificación humaniza a la cafetera, la comparación usa el nexo «como», la hipérbole exagera la cantidad de llamadas y la metáfora llama «perlas» a los dientes.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Personificación",
+          "right": "La vieja cafetera tosía con rabia cada mañana."
+        },
+        {
+          "left": "Comparación",
+          "right": "Sus manos estaban tan frías como un témpano."
+        },
+        {
+          "left": "Hipérbole",
+          "right": "Te he llamado un millón de veces por teléfono."
+        },
+        {
+          "left": "Metáfora",
+          "right": "Las perlas de su boca brillaban al reír."
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-04",
+      "type": "fill-blank",
+      "prompt": "Completa la explicación sobre la diferencia entre comparación y metáfora.",
+      "explanation": "Al añadir el nexo comparativo «como» («Tus cabellos son como hilos de oro»), la identificación directa de la metáfora pasa a ser una comparación.",
+      "lang": "es",
+      "sentence": "La frase «Tus cabellos son hilos de oro» es una metáfora, pero si añadimos la palabra «___» entre medias se transformará en una comparación.",
+      "options": [
+        "muy",
+        "como",
+        "también"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-05",
+      "type": "classify",
+      "prompt": "Clasifica cada una de estas oraciones según el recurso literario que predomine:",
+      "explanation": "Las personificaciones dan vida y acciones humanas al sol, las farolas y la puerta; las hipérboles exageran de forma fantástica el tiempo, el hambre y el llanto.",
+      "lang": "es",
+      "categories": [
+        "Personificación",
+        "Hipérbole"
+      ],
+      "items": [
+        {
+          "text": "El sol nos saludaba alegremente desde la colina.",
+          "category": 0
+        },
+        {
+          "text": "Tardaste mil años en llegar a la parada del autobús.",
+          "category": 1
+        },
+        {
+          "text": "Las farolas del barrio vigilaban la calle silenciosa.",
+          "category": 0
+        },
+        {
+          "text": "Tengo tanta hambre que me comería una montaña entera.",
+          "category": 1
+        },
+        {
+          "text": "La puerta chirrió quejándose al abrirse despacio.",
+          "category": 0
+        },
+        {
+          "text": "Lloró ríos de lágrimas al terminar aquella película.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-06",
+      "type": "choice",
+      "prompt": "En clase de Lengua, tres estudiantes analizan los recursos literarios de la frase: «El cielo llora lágrimas de cristal». ¿Quién ha cometido un error?",
+      "explanation": "Lucas se equivoca: no es una comparación porque no utiliza ningún nexo comparativo (como «como» o «parece»).",
+      "hint": "Recuerda qué palabra imprescindible debe aparecer para que exista una comparación explícita.",
+      "lang": "es",
+      "options": [
+        "Martina, que explica que «lágrimas de cristal» funciona como una metáfora de las gotas de lluvia.",
+        "Aisha, que dice que contiene una personificación porque se le atribuye al cielo la acción de llorar.",
+        "Lucas, que afirma que es una comparación porque compara la lluvia con lágrimas usando la palabra «cristal»."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-07",
+      "type": "reading",
+      "prompt": "Lee atentamente este texto literario sobre el otoño en el barrio y responde a las preguntas:",
+      "explanation": "El texto combina metáforas, comparaciones, personificaciones e hipérboles para ambientar una tarde otoñal.",
+      "lang": "es",
+      "title": "Una tarde en el parque viejo",
+      "text": "Al llegar noviembre, el parque del barrio parecía haberse transformado en un lienzo dorado. Los viejos robles se desnudaban despacio, dejando caer sus hojas secas como confeti de fiesta. Omar y Aisha caminaban sobre una alfombra crujiente que protestaba a cada paso con murmullos apagados.\n\nDe repente, el viento del norte despertó con furia. Sopló con tanta fuerza que casi arrancó las farolas del suelo. Era un gigante invisible que rugía y despeinaba a los transeúntes distraídos.\n\n—¡Mira las nubes, Omar! —exclamó Aisha señalando al cielo plomizo—. Son enormes ovejas negras tapando el sol.\n\nLos dos amigos se abrocharon los abrigos y corrieron hacia casa riendo, esquivando los charcos que brillaban como pequeños espejos en la acera mojada.",
+      "questions": [
+        {
+          "prompt": "¿Qué elemento del parque se describe mediante una personificación diciendo que «protestaba a cada paso»?",
+          "explanation": "El texto personifica la alfombra de hojas caídas diciendo que «protestaba a cada paso con murmullos apagados».",
+          "options": [
+            "Las farolas de la acera",
+            "Los viejos robles desnudos",
+            "La alfombra crujiente de hojas secas"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Cuando el narrador afirma que el viento «casi arrancó las farolas del suelo», ¿qué recurso utiliza para transmitir la intensidad del temporal?",
+          "explanation": "Es una hipérbole, ya que exagera desmesuradamente la fuerza del viento para remarcar lo fuerte que soplaba.",
+          "options": [
+            "Hipérbole",
+            "Comparación",
+            "Aliteración"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "En la expresión «Son enormes ovejas negras tapando el sol», ¿a qué realidad se refiere la metáfora que usa Aisha?",
+          "explanation": "Aisha identifica metafóricamente las nubes oscuras de lluvia con ovejas negras que cubren el cielo.",
+          "options": [
+            "A los densos nubarrones oscuros de tormenta",
+            "A las sombras proyectadas por los edificios altos",
+            "A las copas oscuras de los árboles del parque"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-08",
+      "type": "choice",
+      "prompt": "Wei y Nerea están diseñando un cartel para cuidar los jardines del colegio. Quieren usar una personificación que despierte empatía. ¿Cuál de estas opciones deben elegir?",
+      "explanation": "La segunda opción es una personificación, pues atribuye a las plantas sentimientos y la acción de sonreír. La primera es una comparación y la tercera es una hipérbole.",
+      "hint": "Busca la frase que dé cualidades y emociones humanas a los vegetales.",
+      "lang": "es",
+      "options": [
+        "«Los árboles limpian el aire como esponjas gigantescas».",
+        "«Cuida las plantas del patio: ellas sienten tu cariño y te sonríen».",
+        "«Tenemos un millón de flores esperando tu ayuda en el huerto»."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-09",
+      "type": "order",
+      "prompt": "Ordena los versos de este poema de Lucía para que mantengan la anáfora (repetición al inicio) y sigan un orden desde lo más lejano hasta lo más cercano:",
+      "explanation": "El poema repite «Mira...» al comienzo de cada verso (anáfora) y organiza la mirada en progresión espacial: desde el horizonte lejano, pasando por el sendero, hasta el suelo a nuestros pies.",
+      "lang": "es",
+      "items": [
+        "Mira las altas cumbres en el horizonte lejano,",
+        "Mira los viejos robles que bordean el sendero,",
+        "Mira las diminutas hormigas trabajando a tus pies."
+      ]
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-10",
+      "type": "choice",
+      "prompt": "Analiza esta frase poética: «La luna es una moneda de plata olvidada en el estanque». ¿Por qué podemos afirmar con seguridad que contiene una metáfora y no una comparación?",
+      "explanation": "Es una metáfora pura: establece una relación de identidad directa entre dos realidades («la luna es una moneda») sin partículas comparativas.",
+      "hint": "Observa si existe alguna palabra que enlace los dos términos comparándolos expresamente.",
+      "lang": "es",
+      "options": [
+        "Porque describe una acción que solo pueden realizar los seres humanos en un estanque.",
+        "Porque exagera el brillo del agua haciéndolo parecer plata real.",
+        "Porque identifica directamente la luna con una moneda de plata sin utilizar nexos como «como» o «parece»."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:44:33.364Z",
+    "reviewed": false
+  }
+}

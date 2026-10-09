@@ -1,0 +1,245 @@
+{
+  "id": "g3-ingles-presente-simple",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "presente-simple",
+  "temaNombre": "Presente simple",
+  "title": "Daily Routines: Present Simple Fun",
+  "summary": "Practica cómo usar el presente simple para hablar de rutinas y acciones cotidianas en inglés.",
+  "keyIdeas": [
+    "Con I, you, we y they usamos el verbo tal cual: 'I eat', 'they play'.",
+    "Con he, she e it añadimos una -s o -es al final del verbo: 'she eats', 'he watches'.",
+    "Para negar o preguntar solemos usar 'do / don't' o 'does / doesn't'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-presente-simple-01",
+      "type": "choice",
+      "prompt": "Choose the correct verb for this routine: 'I ___ football in the park every Saturday.'",
+      "explanation": "Con el pronombre 'I' usamos la forma base del verbo sin añadir 's': 'I play'.",
+      "hint": "Recuerda que la -s final solo se añade con he, she o it.",
+      "lang": "en",
+      "options": [
+        "plays",
+        "play",
+        "playing"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-presente-simple-02",
+      "type": "fill-blank",
+      "prompt": "Completa con la forma correcta del verbo:",
+      "explanation": "Lucía equivale a 'she' (ella), por lo que debemos añadir una -s al verbo: 'walks'.",
+      "hint": "Lucía es una sola persona (ella).",
+      "lang": "en",
+      "sentence": "Lucía ___ to school every morning at eight o'clock.",
+      "options": [
+        "walking",
+        "walk",
+        "walks"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-presente-simple-03",
+      "type": "true-false",
+      "prompt": "In this sentence, the verb is correct: 'Omar eat apples for breakfast.'",
+      "explanation": "Omar es tercera persona singular ('he'), así que el verbo correcto necesita una -s: 'Omar eats apples'.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-ingles-presente-simple-04",
+      "type": "match",
+      "prompt": "Match each subject with the correct routine action:",
+      "explanation": "Con 'he' y 'she' añadimos -s al verbo (drinks, reads), mientras que con 'we' y 'they' el verbo no cambia (drink, read).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "She",
+          "right": "drinks milk"
+        },
+        {
+          "left": "We",
+          "right": "drink water"
+        },
+        {
+          "left": "He",
+          "right": "reads stories"
+        },
+        {
+          "left": "They",
+          "right": "read comics"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-presente-simple-05",
+      "type": "classify",
+      "prompt": "Classify these verbs depending on the subject pronoun:",
+      "explanation": "Los verbos que terminan en -s o -es se usan exclusivamente con la tercera persona del singular: he, she, it.",
+      "lang": "en",
+      "categories": [
+        "Use with 'I / You / We / They'",
+        "Use with 'He / She / It'"
+      ],
+      "items": [
+        {
+          "text": "like",
+          "category": 0
+        },
+        {
+          "text": "likes",
+          "category": 1
+        },
+        {
+          "text": "watch",
+          "category": 0
+        },
+        {
+          "text": "watches",
+          "category": 1
+        },
+        {
+          "text": "run",
+          "category": 0
+        },
+        {
+          "text": "runs",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-presente-simple-06",
+      "type": "choice",
+      "prompt": "Aisha talks about her brother. Help her choose the correct negative form: 'My brother ___ like cheese.'",
+      "explanation": "Para hacer frases negativas en presente simple con 'he' (mi hermano), usamos 'doesn't' seguido del verbo.",
+      "hint": "Para he/she/it usamos doesn't; para I/you/we/they usamos don't.",
+      "lang": "en",
+      "options": [
+        "doesn't",
+        "isn't",
+        "don't"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-presente-simple-07",
+      "type": "order",
+      "prompt": "Put the words in order to make a daily routine sentence:",
+      "explanation": "En inglés, el orden habitual es sujeto (We) + verbo (have) + complemento (lunch) + lugar (at school) + modo (together).",
+      "lang": "en",
+      "items": [
+        "We",
+        "have",
+        "lunch",
+        "at",
+        "school",
+        "together."
+      ]
+    },
+    {
+      "id": "g3-ingles-presente-simple-08",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra adecuada para empezar la pregunta:",
+      "explanation": "Para preguntar en presente con el pronombre 'you', utilizamos el auxiliar 'Do'.",
+      "hint": "Recuerda: Do you...? pero Does he...?",
+      "lang": "en",
+      "sentence": "___ you live in a green house?",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-presente-simple-09",
+      "type": "reading",
+      "prompt": "Read the text about Martin's day and answer the questions:",
+      "explanation": "Al leer con atención detalles específicos, localizamos rápidamente las acciones de cada personaje en presente simple.",
+      "lang": "en",
+      "title": "Martin's Busy Day",
+      "text": "Martin wakes up at seven o'clock every weekday. He washes his face, brushes his teeth, and eats delicious cereal with warm milk. At eight o'clock, Martin walks to school with his best friend Hugo. They arrive at school early and talk in the playground. In the afternoon, Martin does his English homework and plays the guitar in his room. His sister Aisha plays tennis in the garden. At night, Martin reads an adventure book with his dad. Finally, he goes to bed at nine o'clock feeling happy.",
+      "questions": [
+        {
+          "prompt": "Who walks to school with Martin?",
+          "explanation": "El texto dice claramente: 'Martin walks to school with his best friend Hugo'.",
+          "options": [
+            "Aisha",
+            "Hugo",
+            "His dad"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What does Martin do in the afternoon?",
+          "explanation": "El texto cuenta que Martin toca la guitarra en su habitación, mientras que su hermana Aisha juega al tenis.",
+          "options": [
+            "He plays tennis in the garden.",
+            "He washes his face.",
+            "He plays the guitar."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-presente-simple-10",
+      "type": "choice",
+      "prompt": "Which sentence is 100% grammatically correct?",
+      "explanation": "'My friends' equivale a 'they' (ellos, plural), por lo que el verbo no lleva -s final: 'play'.",
+      "hint": "¡Cuidado con el sujeto! 'Friends' es plural (ellos).",
+      "lang": "en",
+      "options": [
+        "My friends playing basketball on Fridays.",
+        "My friends plays basketball on Fridays.",
+        "My friends play basketball on Fridays."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:58:18.081Z",
+    "reviewed": false
+  }
+}

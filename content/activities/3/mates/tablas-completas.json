@@ -1,0 +1,222 @@
+{
+  "id": "g3-mates-tablas-completas",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "tablas-completas",
+  "temaNombre": "Tablas completas",
+  "title": "Misión: Maestros de las Tablas",
+  "summary": "Practica las tablas de multiplicar resolviendo retos, descubriendo patrones y aplicando trucos en situaciones reales.",
+  "keyIdeas": [
+    "Multiplicar es sumar varias veces el mismo número de forma rápida.",
+    "El orden de los factores no cambia el producto: 6 × 7 es igual que 7 × 6.",
+    "Buscar patrones te ayuda a recordar multiplicaciones difíciles usando las que ya sabes."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE3",
+      "CE5"
+    ],
+    "criteria": [
+      "2.2",
+      "3.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "D. Sentido algebraico › Patrones",
+      "D. Sentido algebraico › Relaciones y funciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-tablas-completas-01",
+      "type": "choice",
+      "prompt": "Aisha tiene 4 estuches para el cole. Cada estuche contiene 6 rotuladores. ¿Cuántos rotuladores tiene en total?",
+      "explanation": "Calculamos 4 veces 6: 4 × 6 = 24 rotuladores en total. Si sumaras 4 + 6 obtendrías 10, pero aquí sumamos 6 cuatro veces.",
+      "hint": "Piensa en 4 grupos de 6 rotuladores.",
+      "lang": "es",
+      "options": [
+        "10 rotuladores",
+        "24 rotuladores",
+        "20 rotuladores",
+        "28 rotuladores"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-tablas-completas-02",
+      "type": "true-false",
+      "prompt": "Multiplicar 7 × 8 da exactamente el mismo resultado que multiplicar 8 × 7.",
+      "explanation": "Es verdadero gracias a la propiedad conmutativa. Cambiar el orden de los factores no modifica el producto: 7 × 8 = 56 y 8 × 7 = 56.",
+      "hint": "¿Importa el orden al multiplicar?",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-tablas-completas-03",
+      "type": "match",
+      "prompt": "Une cada multiplicación con su producto correcto:",
+      "explanation": "Comprobamos cada una: 6 × 7 = 42, 8 × 8 = 64, 9 × 4 = 36 y 7 × 5 = 35.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "6 × 7",
+          "right": "42"
+        },
+        {
+          "left": "8 × 8",
+          "right": "64"
+        },
+        {
+          "left": "9 × 4",
+          "right": "36"
+        },
+        {
+          "left": "7 × 5",
+          "right": "35"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-tablas-completas-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el número que falta:",
+      "explanation": "Usar la tabla del 10 es una gran estrategia: 10 × 6 = 60. Si restamos un 6, tenemos 60 - 6 = 54.",
+      "hint": "Resta 6 a 60.",
+      "lang": "es",
+      "sentence": "Para calcular 9 × 6, recuerdo que 10 × 6 es 60 y resto 6, obteniendo ___.",
+      "options": [
+        "54",
+        "48",
+        "56"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-tablas-completas-05",
+      "type": "classify",
+      "prompt": "Clasifica cada multiplicación según si su resultado es un número par o impar:",
+      "explanation": "Un número multiplicado por un número par siempre da par: 4 × 7 = 28, 6 × 6 = 36 y 8 × 5 = 40. Dos impares multiplicados dan impar: 3 × 5 = 15, 7 × 7 = 49 y 9 × 3 = 27.",
+      "lang": "es",
+      "categories": [
+        "Resultado par",
+        "Resultado impar"
+      ],
+      "items": [
+        {
+          "text": "3 × 5",
+          "category": 1
+        },
+        {
+          "text": "4 × 7",
+          "category": 0
+        },
+        {
+          "text": "7 × 7",
+          "category": 1
+        },
+        {
+          "text": "6 × 6",
+          "category": 0
+        },
+        {
+          "text": "9 × 3",
+          "category": 1
+        },
+        {
+          "text": "8 × 5",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-tablas-completas-06",
+      "type": "choice",
+      "prompt": "Hugo dice que 7 × 8 es igual a 54. ¿En qué se ha equivocado Hugo?",
+      "explanation": "Hugo ha fallado en el cálculo mental. 7 × 8 = 56, por lo que 54 es dos unidades menor que el resultado correcto.",
+      "hint": "Repasa la tabla del 7: 7 × 7 = 49. ¿Cuánto da 49 + 7?",
+      "lang": "es",
+      "options": [
+        "Se ha quedado corto por 2 unidades, porque 7 × 8 = 56.",
+        "Se ha pasado por 2 unidades, porque 7 × 8 = 52.",
+        "Ha multiplicado por 6 en lugar de por 8."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-tablas-completas-07",
+      "type": "order",
+      "prompt": "En el huerto hay 5 filas con 8 lechugas cada una. Se recogen 12 lechugas. Ordena los pasos para saber cuántas quedan:",
+      "explanation": "Primero calculamos el total multiplicando filas por lechugas: 5 × 8 = 40. Después restamos las recolectadas: 40 - 12 = 28.",
+      "lang": "es",
+      "items": [
+        "Identificar que hay 5 filas con 8 lechugas en cada una.",
+        "Multiplicar 5 × 8 para saber el total de lechugas plantadas (40).",
+        "Restar las 12 lechugas recogidas al total (40 - 12).",
+        "Obtener la solución final: quedan 28 lechugas en el huerto."
+      ]
+    },
+    {
+      "id": "g3-mates-tablas-completas-08",
+      "type": "choice",
+      "prompt": "Omar compra 3 sobres con 6 cromos cada uno. Luego, su abuela le regala 5 cromos más. ¿Cuántos cromos tiene en total?",
+      "explanation": "Primero multiplicamos los cromos de los sobres: 3 × 6 = 18 cromos. Después sumamos los que le regalaron: 18 + 5 = 23 cromos.",
+      "hint": "Hazlo en dos pasos: primero multiplica y luego suma.",
+      "lang": "es",
+      "options": [
+        "28 cromos",
+        "23 cromos",
+        "14 cromos",
+        "18 cromos"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-tablas-completas-09",
+      "type": "true-false",
+      "prompt": "Todos los resultados de la tabla del 6 terminan obligatoriamente en una cifra par (0, 2, 4, 6 u 8).",
+      "explanation": "Es verdadero. Al multiplicar cualquier número por un número par (como el 6), el resultado siempre es par: 6, 12, 18, 24, 30, 36, 42, 48, 54, 60.",
+      "hint": "Comprueba las terminaciones: 6 × 1 = 6, 6 × 2 = 12, 6 × 3 = 18...",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-tablas-completas-10",
+      "type": "choice",
+      "prompt": "Martina busca un número secreto que está en la tabla del 3 y en la del 4, y es menor que 20. ¿Qué número es?",
+      "explanation": "El 12 aparece en ambas tablas: 3 × 4 = 12 y 4 × 3 = 12. El 15 y el 18 no están en la del 4, y el 16 no está en la del 3.",
+      "hint": "Busca un número que puedas obtener multiplicando por 3 y también por 4.",
+      "lang": "es",
+      "options": [
+        "15",
+        "12",
+        "16",
+        "18"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:08:22.136Z",
+    "reviewed": false
+  }
+}

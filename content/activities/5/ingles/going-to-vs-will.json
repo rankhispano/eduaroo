@@ -1,0 +1,252 @@
+{
+  "id": "g5-ingles-going-to-vs-will",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "going-to-vs-will",
+  "temaNombre": "Going to vs will",
+  "title": "Future: Going to vs Will",
+  "summary": "Practica cuándo usar 'going to' para planes y 'will' para decisiones rápidas o predicciones.",
+  "keyIdeas": [
+    "Usamos 'be going to' para planes decididos antes de hablar y predicciones con pruebas visibles.",
+    "Usamos 'will' para decisiones espontáneas en el momento, promesas y predicciones basadas en lo que creemos."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-going-to-vs-will-01",
+      "type": "true-false",
+      "prompt": "In English, we use 'be going to' when we already planned an action before speaking.",
+      "explanation": "Es verdadero. Usamos 'be going to' para planes e intenciones que ya habíamos pensado con anterioridad.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-ingles-going-to-vs-will-02",
+      "type": "choice",
+      "prompt": "Omar: 'I am very thirsty!' Aisha: 'Wait, I ___ get you a glass of water.'",
+      "explanation": "Aisha decide ayudar a Omar en ese mismo instante, por lo que se utiliza 'will' para decisiones espontáneas.",
+      "hint": "Aisha toma la decisión justo en este momento, no lo tenía planeado.",
+      "lang": "en",
+      "options": [
+        "will",
+        "am going to",
+        "am to"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-going-to-vs-will-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase observando la evidencia del tiempo:",
+      "explanation": "Usamos 'is going to' porque hay una prueba clara en el presente (las nubes oscuras) de lo que va a ocurrir.",
+      "hint": "Vemos una señal clara en el cielo ahora mismo.",
+      "lang": "en",
+      "sentence": "Look at those dark clouds in the sky! It ___ rain.",
+      "options": [
+        "will",
+        "are going to",
+        "is going to"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-going-to-vs-will-04",
+      "type": "match",
+      "prompt": "Match each sentence with its correct communicative use:",
+      "explanation": "Diferenciamos entre planes previos o evidencias con 'going to', y decisiones del momento o promesas con 'will'.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "I bought tickets. I am going to see a film.",
+          "right": "A plan decided before"
+        },
+        {
+          "left": "The phone is ringing. I will answer it!",
+          "right": "A quick spontaneous decision"
+        },
+        {
+          "left": "I promise I will tidy my bedroom.",
+          "right": "A promise"
+        },
+        {
+          "left": "He is running very fast! He is going to win.",
+          "right": "A prediction based on evidence"
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-going-to-vs-will-05",
+      "type": "fill-blank",
+      "prompt": "Completa con la forma correcta para un plan preparado:",
+      "explanation": "Lucía y Wei son dos personas (they), por lo que necesitamos 'are going to' para expresar su plan de fin de semana.",
+      "hint": "El sujeto es plural: Lucía y Wei.",
+      "lang": "en",
+      "sentence": "Next Saturday, Lucía and Wei ___ visit their grandparents in the village.",
+      "options": [
+        "are going to",
+        "will to",
+        "is going to"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-going-to-vs-will-06",
+      "type": "classify",
+      "prompt": "Classify these sentences into 'Be going to' or 'Will':",
+      "explanation": "Recuerda que 'going to' se asocia a planes y evidencias visibles, mientras que 'will' se usa para ofrecimientos inmediatos, promesas y opiniones.",
+      "lang": "en",
+      "categories": [
+        "Plans or Evidence (Going to)",
+        "Spontaneous decisions or Promises (Will)"
+      ],
+      "items": [
+        {
+          "text": "We are going to camp in the mountains this summer.",
+          "category": 0
+        },
+        {
+          "text": "Watch out! That glass is going to fall!",
+          "category": 0
+        },
+        {
+          "text": "Don't worry, I will carry your bag.",
+          "category": 1
+        },
+        {
+          "text": "I think our team will win the match.",
+          "category": 1
+        },
+        {
+          "text": "She is going to study French next year.",
+          "category": 0
+        },
+        {
+          "text": "I will call you when I arrive home, I promise.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-going-to-vs-will-07",
+      "type": "order",
+      "prompt": "Order the words to make a correct sentence about an organized plan:",
+      "explanation": "La estructura correcta es: Sujeto (Adrián) + verbo to be (is) + going to + verbo principal (play) + complementos.",
+      "lang": "en",
+      "items": [
+        "Adrián",
+        "is going to",
+        "play basketball",
+        "after school."
+      ]
+    },
+    {
+      "id": "g5-ingles-going-to-vs-will-08",
+      "type": "choice",
+      "prompt": "Hugo: 'Why are you holding that paintbrush?' Martina: 'Because I ___ paint my bicycle red.'",
+      "explanation": "Martina ya tiene la brocha en la mano porque había decidido pintar su bici antes de que Hugo le preguntara; es un plan previo.",
+      "hint": "Martina ya tenía la pintura preparada antes de hablar.",
+      "lang": "en",
+      "options": [
+        "going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-going-to-vs-will-09",
+      "type": "reading",
+      "prompt": "Read the text about the school festival and answer the questions:",
+      "explanation": "El texto contrasta planes organizados con antelación ('going to') frente a reacciones inmediatas ante imprevistos ('will').",
+      "lang": "en",
+      "title": "The School Spring Festival",
+      "text": "Tomorrow is the School Spring Festival, and Class 5B has a busy day ahead. For two weeks, the students have prepared different stalls. Aisha and Omar are going to sell homemade lemonade and fruit skewers. They already bought the lemons and strawberries yesterday! Martina and Hugo are going to organize the traditional sack race in the schoolyard. Everything was ready until a sudden gust of wind blew away the welcome posters at the front entrance. 'Oh no!' shouted Aisha. 'Don't panic,' said Omar. 'I will pick up the posters and fix them with strong tape.' Then, the teacher looked at the clear blue sky and smiled: 'I think tomorrow will be a sunny and warm day for everyone.' The children feel excited because all the money from the festival is going to help the local animal shelter.",
+      "questions": [
+        {
+          "prompt": "Why does the text use 'are going to' to describe Aisha and Omar's stall?",
+          "explanation": "Se usa 'are going to' porque es un plan preparado con anterioridad, como demuestra que compraron los limones el día anterior.",
+          "options": [
+            "Because it is an offer to help the teacher.",
+            "Because they just decided it right now when the wind blew.",
+            "Because they planned it weeks ago and already bought the ingredients."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why does Omar say 'I will pick up the posters'?",
+          "explanation": "El viento acaba de tirar los carteles, así que Omar toma la decisión de recogerlos en ese instante exacto.",
+          "options": [
+            "Because it is a spontaneous reaction to an unexpected problem.",
+            "Because he had that plan in his calendar for two weeks.",
+            "Because the teacher ordered him to do it yesterday."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What does the teacher express with 'I think tomorrow will be a sunny and warm day'?",
+          "explanation": "Cuando usamos 'I think' acompañado de 'will', expresamos una predicción u opinión sobre el futuro basada en lo que pensamos.",
+          "options": [
+            "A personal belief or prediction about the future without 100% certainty.",
+            "A fixed schedule that cannot change.",
+            "A decision made two weeks ago."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-going-to-vs-will-10",
+      "type": "choice",
+      "prompt": "Nerea planned to bake a cake and bought flour. But opening the fridge, she sees there is no milk! She says: 'Oh! There is no milk! I ___ go to the shop right now.'",
+      "explanation": "Aunque hornear el pastel era su plan previo, darse cuenta de que no hay leche es una sorpresa y decide ir a la tienda justo en ese segundo.",
+      "hint": "Fíjate en cuándo surge la necesidad: es una reacción inmediata ante la nevera vacía.",
+      "lang": "en",
+      "options": [
+        "am going to",
+        "am to",
+        "will"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:11:20.031Z",
+    "reviewed": false
+  }
+}

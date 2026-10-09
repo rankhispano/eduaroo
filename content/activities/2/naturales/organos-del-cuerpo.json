@@ -1,0 +1,228 @@
+{
+  "id": "g2-naturales-organos-del-cuerpo",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "organos-del-cuerpo",
+  "temaNombre": "Órganos del cuerpo",
+  "title": "Los fantásticos órganos del cuerpo",
+  "summary": "Repasa cómo funcionan los órganos principales de tu cuerpo y cómo cuidarlos.",
+  "keyIdeas": [
+    "El cerebro, el corazón, los pulmones y el estómago son órganos vitales.",
+    "Cada órgano tiene una función especial para mantenernos vivos y sanos.",
+    "Hacer ejercicio y comer bien ayuda a cuidar nuestros órganos."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-organos-del-cuerpo-01",
+      "type": "choice",
+      "prompt": "Omar pone su mano en el pecho. Siente latidos rápidos. ¿Qué órgano bombea la sangre?",
+      "explanation": "El corazón es el músculo que bombea la sangre a todo el cuerpo.",
+      "hint": "Hace pom-pom dentro de tu pecho.",
+      "lang": "es",
+      "options": [
+        "El estómago",
+        "El corazón",
+        "El cerebro"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-02",
+      "type": "true-false",
+      "prompt": "El cerebro es el órgano que dirige todo lo que pensamos y sentimos.",
+      "explanation": "El cerebro controla nuestros pensamientos, recuerdos, emociones y los movimientos de nuestro cuerpo.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-03",
+      "type": "match",
+      "prompt": "Une cada órgano con la tarea principal que realiza:",
+      "explanation": "Cada órgano tiene una función única y muy importante para nuestro cuerpo.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Pulmones",
+          "right": "Reciben el aire que respiramos"
+        },
+        {
+          "left": "Estómago",
+          "right": "Deshace los alimentos que comemos"
+        },
+        {
+          "left": "Corazón",
+          "right": "Envía sangre a todo el cuerpo"
+        },
+        {
+          "left": "Cerebro",
+          "right": "Controla los movimientos y pensamientos"
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la respiración:",
+      "explanation": "Los pulmones se inflan de aire cuando respiramos y toman el oxígeno que necesitamos.",
+      "lang": "es",
+      "sentence": "Al tomar aire por la nariz, los ___ se llenan de oxígeno.",
+      "options": [
+        "estómagos",
+        "pulmones",
+        "huesos"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-05",
+      "type": "classify",
+      "prompt": "Clasifica estos órganos según su posición en el cuerpo humano:",
+      "explanation": "El cerebro está protegido en la cabeza. El corazón, los pulmones y el estómago están en el tronco.",
+      "lang": "es",
+      "categories": [
+        "En la cabeza",
+        "En el tronco"
+      ],
+      "items": [
+        {
+          "text": "Cerebro",
+          "category": 0
+        },
+        {
+          "text": "Corazón",
+          "category": 1
+        },
+        {
+          "text": "Pulmones",
+          "category": 1
+        },
+        {
+          "text": "Estómago",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-06",
+      "type": "choice",
+      "prompt": "Aisha salta a la comba en el recreo. Su corazón late más deprisa. ¿Por qué ocurre esto?",
+      "explanation": "Al hacer ejercicio, los músculos trabajan más y necesitan que el corazón bombee sangre más rápido.",
+      "hint": "Piensa en qué necesitan tus piernas cuando corres.",
+      "lang": "es",
+      "options": [
+        "El corazón está cansado y quiere detenerse.",
+        "Los músculos necesitan más sangre y oxígeno por el esfuerzo.",
+        "Los pulmones han dejado de funcionar durante el salto."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-07",
+      "type": "choice",
+      "prompt": "Encuentra la frase con un ERROR sobre los órganos:",
+      "explanation": "El corazón nunca se detiene. Incluso mientras dormimos, sigue latiendo sin parar.",
+      "hint": "Uno de estos órganos trabaja día y noche sin descanso.",
+      "lang": "es",
+      "options": [
+        "El corazón se detiene cuando dormimos por la noche.",
+        "El estómago ayuda a digerir la comida.",
+        "Los pulmones expulsan el aire que ya no sirve."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-08",
+      "type": "order",
+      "prompt": "Ordena el camino que sigue una fresa al comerla:",
+      "explanation": "La digestión empieza en la boca, pasa por el esófago, sigue en el estómago y termina en los intestinos.",
+      "lang": "es",
+      "items": [
+        "Entra en la boca y la masticamos con los dientes.",
+        "Baja por el esófago hacia el interior del cuerpo.",
+        "Llega al estómago para mezclarse y digerirse.",
+        "Pasa a los intestinos para absorber los nutrientes."
+      ]
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-09",
+      "type": "choice",
+      "prompt": "Martina monta en bicicleta por el parque. ¿Qué elemento protege su cerebro ante un golpe?",
+      "explanation": "El cráneo protege el cerebro por dentro y el casco lo protege por fuera si nos caemos.",
+      "lang": "es",
+      "options": [
+        "El casco bien abrochado",
+        "Las rodilleras de plástico",
+        "El timbre de la bicicleta"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-10",
+      "type": "reading",
+      "prompt": "Lee atentamente la historia y responde a las preguntas:",
+      "explanation": "El corazón y los pulmones colaboran para llevar aire y sangre por todo el cuerpo.",
+      "lang": "es",
+      "title": "La visita médica de Hugo",
+      "text": "Hugo visita a la médica Laura en el centro de salud. Laura usa un aparato para escuchar el pecho de Hugo. Su corazón late con fuerza y ritmo. Después, le pide respirar hondo. Laura escucha cómo el aire entra y sale de sus pulmones. ¡Los órganos de Hugo trabajan en equipo!",
+      "questions": [
+        {
+          "prompt": "¿Qué órgano escucha la médica cuando Hugo respira hondo?",
+          "explanation": "Al respirar hondo, el aire llena los pulmones y la médica puede oírlos.",
+          "options": [
+            "El estómago",
+            "El cerebro",
+            "Los pulmones"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué es importante que los órganos trabajen en equipo?",
+          "explanation": "Todos los órganos se ayudan entre sí para que nuestro cuerpo funcione bien.",
+          "options": [
+            "Para poder dormir durante todo el día",
+            "Para no tener que comer nunca más",
+            "Para mantener nuestro cuerpo con vida y sano"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:35:40.975Z",
+    "reviewed": false
+  }
+}

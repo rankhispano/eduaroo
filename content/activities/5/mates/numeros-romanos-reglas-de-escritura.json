@@ -1,0 +1,259 @@
+{
+  "id": "g5-mates-numeros-romanos-reglas-de-escritura",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "numeros-romanos-reglas-de-escritura",
+  "temaNombre": "Números romanos: reglas de escritura",
+  "title": "Descifra los números romanos",
+  "summary": "Aprenderás a leer y escribir números romanos aplicando correctamente sus cuatro reglas fundamentales.",
+  "keyIdeas": [
+    "Las letras I, X, C y M pueden repetirse un máximo de tres veces seguidas; V, L y D nunca se repiten.",
+    "Una letra a la derecha de otra de igual o mayor valor suma (XV = 15); una letra a la izquierda de otra de mayor valor resta (IX = 9).",
+    "Solo restan I (a V y X), X (a L y C) y C (a D y M). Una raya superior multiplica el valor por mil."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-01",
+      "type": "match",
+      "prompt": "Relaciona cada símbolo romano fundamental con su valor en nuestro sistema decimal:",
+      "explanation": "Los valores base son: I = 1, V = 5, X = 10, L = 50, C = 100, D = 500 y M = 1.000.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "V",
+          "right": "5"
+        },
+        {
+          "left": "L",
+          "right": "50"
+        },
+        {
+          "left": "D",
+          "right": "500"
+        },
+        {
+          "left": "M",
+          "right": "1.000"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-02",
+      "type": "true-false",
+      "prompt": "En la numeración romana, las letras V, L y D se pueden escribir dos veces seguidas para duplicar su valor (por ejemplo, VV equivale a 10).",
+      "explanation": "Es falso. Las letras V, L y D nunca se duplican ni se repiten. Para escribir 10 usamos la letra X, no VV.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-03",
+      "type": "choice",
+      "prompt": "En la fachada del ayuntamiento del pueblo de Aisha se lee el año de su construcción: MDCCXXIV. ¿De qué año se trata?",
+      "explanation": "Descomponemos el número: M (1.000) + DCC (500 + 200 = 700) + XX (20) + IV (4) = 1.724.",
+      "hint": "Descompón letra a letra o en bloques: M, DCC, XX y IV.",
+      "lang": "es",
+      "options": [
+        "1.724",
+        "1.524",
+        "1.719",
+        "1.824"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-04",
+      "type": "classify",
+      "prompt": "Clasifica estas letras romanas según si pueden o no restar colocándose a la izquierda de un número mayor:",
+      "explanation": "Solo las letras I, X y C pueden restar a la izquierda de sus números superiores inmediatos. Las letras V, L y D solo suman.",
+      "lang": "es",
+      "categories": [
+        "Letras que pueden restar",
+        "Letras que nunca restan"
+      ],
+      "items": [
+        {
+          "text": "I",
+          "category": 0
+        },
+        {
+          "text": "X",
+          "category": 0
+        },
+        {
+          "text": "C",
+          "category": 0
+        },
+        {
+          "text": "V",
+          "category": 1
+        },
+        {
+          "text": "L",
+          "category": 1
+        },
+        {
+          "text": "D",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la forma correcta de escribir el número 49 en numeración romana:",
+      "explanation": "Se escribe XLIX porque 40 es XL (50 - 10) y 9 es IX (10 - 1). La regla no permite restar I directamente a L.",
+      "lang": "es",
+      "sentence": "Para escribir 49 debemos descomponer 40 + 9, por lo que se escribe ___.",
+      "options": [
+        "XXXXIX",
+        "XLIX",
+        "IL"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-06",
+      "type": "choice",
+      "prompt": "¡Encuentra el error! 🔍 Mateo ha intentado escribir el número 95 en números romanos en la pizarra y ha puesto VC. ¿Cuál es el error de Mateo?",
+      "explanation": "La letra V nunca se resta. Para formar 95 descomponemos en 90 + 5: 90 se escribe XC (100 - 10) y 5 es V, formando XCV.",
+      "hint": "Recuerda qué letras están autorizadas a restar.",
+      "lang": "es",
+      "options": [
+        "Debería haber repetido la V; se escribe VVC",
+        "V no puede colocarse a la izquierda para restar; 95 se escribe XCV",
+        "No hay ningún error, 100 menos 5 es exactamente VC",
+        "Le ha faltado añadir una I al final; se escribe VCI"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-07",
+      "type": "order",
+      "prompt": "Ordena estos números romanos de menor a mayor valor:",
+      "explanation": "Sus valores son: XVIII (18), XLIV (44), LXVI (66), XCII (92) y CXV (115).",
+      "lang": "es",
+      "items": [
+        "XVIII",
+        "XLIV",
+        "LXVI",
+        "XCII",
+        "CXV"
+      ]
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-08",
+      "type": "choice",
+      "prompt": "Cálculo mental rápido ⚡: Lucía está leyendo un libro histórico ambientado en el siglo XIV y Omar lee uno sobre el siglo XIX. ¿Cuántos siglos de diferencia hay entre los dos relatos?",
+      "explanation": "El siglo XIV es el siglo 14 y el siglo XIX es el siglo 19. Calculamos la diferencia mentalmente: 19 - 14 = 5 siglos.",
+      "hint": "Pasa ambos siglos al sistema decimal y resta.",
+      "lang": "es",
+      "options": [
+        "4 siglos",
+        "6 siglos",
+        "5 siglos",
+        "3 siglos"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-09",
+      "type": "true-false",
+      "prompt": "Una raya horizontal colocada sobre una letra o grupo de letras romanas multiplica su valor por diez.",
+      "explanation": "Es falso. Una raya horizontal encima multiplica el valor de las letras por 1.000, no por 10.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-10",
+      "type": "choice",
+      "prompt": "En el museo de arqueología, Nerea observa una lápida romana con la fecha de inauguración de un acueducto: año CCLXXXIX. ¿A qué número corresponde?",
+      "explanation": "CC son 200, LXXX son 80 (50 + 30) e IX son 9 (10 - 1). Sumamos: 200 + 80 + 9 = 289.",
+      "hint": "Descompón en centenas (CC), decenas (LXXX) y unidades (IX).",
+      "lang": "es",
+      "options": [
+        "289",
+        "339",
+        "279",
+        "299"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-11",
+      "type": "match",
+      "prompt": "Une cada número arábigo con su escritura correcta en números romanos:",
+      "explanation": "444 = CD (400) + XL (40) + IV (4). 690 = DC (600) + XC (90). 949 = CM (900) + XL (40) + IX (9). 1.492 = M (1.000) + CD (400) + XC (90) + II (2).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "444",
+          "right": "CDXLIV"
+        },
+        {
+          "left": "690",
+          "right": "DCXC"
+        },
+        {
+          "left": "949",
+          "right": "CMXLIX"
+        },
+        {
+          "left": "1.492",
+          "right": "MCDXCII"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-12",
+      "type": "choice",
+      "prompt": "Reto final 🏆: El colegio de Adrián celebra su aniversario. En la placa conmemorativa han escrito el año de fundación como MCMXCVIII. ¿Cuántos años cumple el colegio si estamos en el año 2024?",
+      "explanation": "MCMXCVIII corresponde a 1.000 + 900 (CM) + 90 (XC) + 8 (VIII) = 1.998. Para saber los años transcurridos restamos: 2.024 - 1.998 = 26 años.",
+      "hint": "Primero traduce el año romano al sistema decimal y luego calcula la diferencia con 2024.",
+      "lang": "es",
+      "options": [
+        "16 años",
+        "36 años",
+        "24 años",
+        "26 años"
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:31:04.388Z",
+    "reviewed": false
+  }
+}

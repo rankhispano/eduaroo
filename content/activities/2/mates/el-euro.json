@@ -1,0 +1,224 @@
+{
+  "id": "g2-mates-el-euro",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "el-euro",
+  "temaNombre": "El euro",
+  "title": "Aprendemos a usar el euro",
+  "summary": "Practica el valor de las monedas y billetes de euro en situaciones cotidianas.",
+  "keyIdeas": [
+    "Un euro vale 100 céntimos y usamos monedas de 1 € y 2 €.",
+    "Los billetes más comunes son de 5 €, 10 €, 20 € y 50 €.",
+    "Podemos formar una misma cantidad combinando monedas y billetes diferentes."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Educación financiera",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-el-euro-01",
+      "type": "classify",
+      "prompt": "Clasifica este dinero en monedas o billetes.",
+      "explanation": "El dinero de metal son monedas (1 €, 2 €, céntimos) y el de papel son billetes (5 €, 10 €, 20 €).",
+      "lang": "es",
+      "categories": [
+        "Monedas",
+        "Billetes"
+      ],
+      "items": [
+        {
+          "text": "1 euro",
+          "category": 0
+        },
+        {
+          "text": "5 euros",
+          "category": 1
+        },
+        {
+          "text": "2 euros",
+          "category": 0
+        },
+        {
+          "text": "10 euros",
+          "category": 1
+        },
+        {
+          "text": "20 euros",
+          "category": 1
+        },
+        {
+          "text": "50 céntimos",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-el-euro-02",
+      "type": "match",
+      "prompt": "Une cada precio con el dinero exacto para pagar.",
+      "explanation": "Sumamos los valores: 2 + 2 = 4 €. Cada objeto se une con su valor exacto.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Libreta de 4 €",
+          "right": "Dos monedas de 2 €"
+        },
+        {
+          "left": "Caja de ceras de 5 €",
+          "right": "Un billete de 5 €"
+        },
+        {
+          "left": "Goma de 1 €",
+          "right": "Una moneda de 1 €"
+        },
+        {
+          "left": "Estuche de 10 €",
+          "right": "Un billete de 10 €"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-el-euro-03",
+      "type": "order",
+      "prompt": "Ordena este dinero de menor a mayor valor.",
+      "explanation": "El orden correcto según su valor numérico es 1 €, 2 €, 5 €, 10 € y 20 €.",
+      "lang": "es",
+      "items": [
+        "Moneda de 1 €",
+        "Moneda de 2 €",
+        "Billete de 5 €",
+        "Billete de 10 €",
+        "Billete de 20 €"
+      ]
+    },
+    {
+      "id": "g2-mates-el-euro-04",
+      "type": "choice",
+      "prompt": "¿Cuántas monedas de 1 € necesitas para tener 5 €?",
+      "explanation": "Cada moneda vale 1 €. Si sumamos 1 + 1 + 1 + 1 + 1 tenemos 5 €, por lo que necesitamos 5 monedas.",
+      "hint": "Cuenta de uno en uno hasta llegar a cinco.",
+      "lang": "es",
+      "options": [
+        "5 monedas",
+        "2 monedas",
+        "10 monedas"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-el-euro-05",
+      "type": "true-false",
+      "prompt": "Dos monedas de 2 € valen lo mismo que un billete de 5 €.",
+      "explanation": "Dos monedas de 2 € suman 4 € (2 + 2 = 4). Cuatro euros es menos que cinco euros.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g2-mates-el-euro-06",
+      "type": "fill-blank",
+      "prompt": "Completa con la cantidad que falta para pagar.",
+      "explanation": "Restamos el precio menos lo que tengo: 10 - 7 = 3 €. Faltan 3 €.",
+      "lang": "es",
+      "sentence": "Tengo 7 € y el libro cuesta 10 €. Me faltan ___ para comprarlo.",
+      "options": [
+        "3 €",
+        "2 €",
+        "4 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-el-euro-07",
+      "type": "choice",
+      "prompt": "Aisha compra una manzana por 2 € y paga con un billete de 5 €. ¿Cuánto le devuelven?",
+      "explanation": "Calculamos la diferencia entre lo entregado y el precio: 5 - 2 = 3 € de cambio.",
+      "hint": "Resta el precio de la manzana al billete de cinco.",
+      "lang": "es",
+      "options": [
+        "3 €",
+        "4 €",
+        "2 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-el-euro-08",
+      "type": "choice",
+      "prompt": "Detecta el error: Hugo dice que con tres monedas de 2 € tiene 5 €. ¿Por qué se equivoca?",
+      "explanation": "Al contar de dos en dos tres veces: 2, 4, 6. Hugo tiene 6 € y no 5 €.",
+      "hint": "Suma el dos tres veces.",
+      "lang": "es",
+      "options": [
+        "Porque 2 + 2 + 2 = 6 €, tiene 6 €.",
+        "Porque las monedas no se pueden sumar.",
+        "Porque tres monedas de 2 € valen 3 €."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-el-euro-09",
+      "type": "choice",
+      "prompt": "Cálculo mental: Omar tiene un billete de 10 € y dos monedas de 2 €. ¿Cuánto dinero tiene en total?",
+      "explanation": "Las dos monedas de 2 € son 4 € (2 + 2 = 4). Sumamos el billete: 10 + 4 = 14 €.",
+      "hint": "Suma primero las dos monedas y luego añade diez.",
+      "lang": "es",
+      "options": [
+        "14 €",
+        "12 €",
+        "16 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-el-euro-10",
+      "type": "choice",
+      "prompt": "Lucía quiere comprar un juego de 18 €. Lleva un billete de 10 € y un billete de 5 €. ¿Puede comprarlo?",
+      "explanation": "Lucía tiene 10 + 5 = 15 €. Como 15 es menor que 18, no le alcanza: le faltan 18 - 15 = 3 €.",
+      "hint": "Suma los dos billetes de Lucía y compáralos con 18.",
+      "lang": "es",
+      "options": [
+        "Sí, porque tiene justo 18 €.",
+        "No, porque 10 + 5 = 15 € y le faltan 3 €.",
+        "Sí, y además le sobra 1 €."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:03:36.589Z",
+    "reviewed": false
+  }
+}

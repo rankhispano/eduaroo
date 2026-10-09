@@ -1,0 +1,235 @@
+{
+  "id": "g3-naturales-rocas-y-minerales",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "rocas-y-minerales",
+  "temaNombre": "Rocas y minerales",
+  "title": "Mundo de rocas y minerales",
+  "summary": "Practica la diferencia entre rocas y minerales, sus propiedades y sus usos cotidianos.",
+  "keyIdeas": [
+    "Las rocas están formadas por la unión de uno o varios minerales.",
+    "Los minerales son sustancias naturales inertes con propiedades como el brillo, el color o la dureza.",
+    "Usamos rocas y minerales en la construcción, herramientas, joyas y objetos de la vida diaria."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-rocas-y-minerales-01",
+      "type": "choice",
+      "prompt": "Lucía examina una piedra en el parque con una lupa. ¿De qué están compuestas todas las rocas?",
+      "explanation": "Las rocas son mezclas naturales formadas por uno o varios minerales unidos.",
+      "hint": "Piensa en el cuarzo o la mica que forman el granito.",
+      "lang": "es",
+      "options": [
+        "De huesos triturados de animales",
+        "De uno o varios minerales",
+        "De hojas secas compactadas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-02",
+      "type": "true-false",
+      "prompt": "Las rocas y los minerales son seres vivos porque se forman dentro de la Tierra.",
+      "explanation": "Las rocas y los minerales son materia inerte o no viva. No nacen, no se alimentan ni se reproducen.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la propiedad que Hugo investiga al raspar dos minerales.",
+      "explanation": "La dureza indica si un mineral se raya con facilidad o si es muy resistente a los arañazos.",
+      "lang": "es",
+      "sentence": "La resistencia que opone un mineral a ser rayado se llama ___.",
+      "options": [
+        "dureza",
+        "color",
+        "brillo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-04",
+      "type": "match",
+      "prompt": "Une cada material natural con la utilidad que tiene en nuestra vida diaria.",
+      "explanation": "Aprovechamos las distintas propiedades de cada roca y mineral para construir edificios o crear objetos útiles.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Grafito",
+          "right": "Mina de los lápices para escribir"
+        },
+        {
+          "left": "Pizarra",
+          "right": "Tejados impermeables de casas"
+        },
+        {
+          "left": "Oro",
+          "right": "Fabricación de joyas valiosas"
+        },
+        {
+          "left": "Arcilla",
+          "right": "Ladrillos y tejas de construcción"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-05",
+      "type": "classify",
+      "prompt": "Clasifica estos elementos geológicos según sean rocas o minerales.",
+      "explanation": "El granito, el basalto y la arcilla son rocas. El cuarzo, el diamante y la pirita son minerales puros.",
+      "lang": "es",
+      "categories": [
+        "Rocas",
+        "Minerales"
+      ],
+      "items": [
+        {
+          "text": "Granito",
+          "category": 0
+        },
+        {
+          "text": "Cuarzo",
+          "category": 1
+        },
+        {
+          "text": "Diamante",
+          "category": 1
+        },
+        {
+          "text": "Basalto",
+          "category": 0
+        },
+        {
+          "text": "Pirita",
+          "category": 1
+        },
+        {
+          "text": "Arcilla",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-06",
+      "type": "order",
+      "prompt": "Aisha prueba la dureza de tres muestras. Ordénalas desde la más blanda hasta la más dura.",
+      "explanation": "Un mineral que se raya con la uña es muy blando, mientras que el que raya el cristal es muy duro.",
+      "lang": "es",
+      "items": [
+        "Mineral rayado fácilmente con la uña",
+        "Mineral rayado solo con una moneda de metal",
+        "Mineral capaz de rayar el cristal"
+      ]
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-07",
+      "type": "choice",
+      "prompt": "Omar echa unas gotas de vinagre sobre una roca y salen burbujas. ¿Qué conclusión puede sacar?",
+      "explanation": "El vinagre es un ácido suave que reacciona con el mineral calcita produciendo burbujas de gas.",
+      "hint": "Recuerda qué mineral reacciona con los ácidos suaves.",
+      "lang": "es",
+      "options": [
+        "La roca contiene calcita, que reacciona desprendiendo gas.",
+        "La roca está viva y respira dentro del líquido.",
+        "El vinagre ha derretido la roca por completo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-08",
+      "type": "choice",
+      "prompt": "Tres amigos hablan sobre el granito. ¿Quién dice una afirmación incorrecta?",
+      "explanation": "Adrián se equivoca porque el granito no es un mineral puro, sino una roca compuesta por varios minerales.",
+      "hint": "Fíjate en quién confunde una roca con un mineral.",
+      "lang": "es",
+      "options": [
+        "Martina: El granito es una roca formada por varios minerales.",
+        "Adrián: El granito es un mineral puro de una sola sustancia.",
+        "Nerea: En el granito podemos distinguir cuarzo, feldespato y mica."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-09",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas.",
+      "explanation": "El texto nos ayuda a entender que las rocas están formadas por la combinación de minerales.",
+      "lang": "es",
+      "title": "El secreto del granito",
+      "text": "En una excursión a la sierra, Mateo y su abuela encontraron una gran roca gris. Su abuela le explicó que era granito, una roca muy común en su comarca. —Mira de cerca con esta lupa —le propuso ella con una sonrisa. El granito no es un mineral, sino una roca con tres minerales distintos. Mateo observó con atención a través del cristal de la lupa. Vio partes blanquecinas de cuarzo, zonas claras de feldespato y pequeñas escamas brillantes de mica. Mateo comprendió que las rocas son como pasteles hechos con varios ingredientes. Los minerales, en cambio, son como cada ingrediente por separado.",
+      "questions": [
+        {
+          "prompt": "¿Qué instrumento usó Mateo para observar bien los minerales del granito?",
+          "explanation": "El texto menciona que su abuela le propuso mirar de cerca con una lupa.",
+          "options": [
+            "Una lupa de mano",
+            "Un telescopio astronómico",
+            "Un microscopio electrónico"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Según la comparación que imagina Mateo, ¿a qué equivale un mineral?",
+          "explanation": "Mateo compara la roca con el pastel entero y los minerales con cada ingrediente individual.",
+          "options": [
+            "Al plato donde se sirve la comida",
+            "A un ingrediente suelto del pastel",
+            "Al pastel completo ya horneado"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-10",
+      "type": "choice",
+      "prompt": "Wei visita una cueva con formaciones minerales muy frágiles. ¿Qué acción demuestra respeto y cuidado por el entorno?",
+      "explanation": "Para proteger el patrimonio natural subterráneo, debemos no tocar las rocas ni salirnos del camino autorizado.",
+      "hint": "Piensa en cómo conservar la cueva intacta para otras personas.",
+      "lang": "es",
+      "options": [
+        "Grabar su nombre con una piedra en las paredes de la cueva.",
+        "Llevarse un trozo roto como recuerdo para enseñarlo en clase.",
+        "Caminar por el sendero marcado sin tocar las formaciones de la cueva."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T19:32:34.731Z",
+    "reviewed": false
+  }
+}

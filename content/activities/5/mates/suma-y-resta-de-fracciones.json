@@ -1,0 +1,225 @@
+{
+  "id": "g5-mates-suma-y-resta-de-fracciones",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "suma-y-resta-de-fracciones",
+  "temaNombre": "Suma y resta de fracciones",
+  "title": "Sumamos y restamos fracciones cotidianas",
+  "summary": "Practica la suma y resta de fracciones con igual y distinto denominador a través de retos y situaciones del día a día.",
+  "keyIdeas": [
+    "Con igual denominador, suma o resta solo los numeradores y mantén el denominador intacto.",
+    "Con distinto denominador, busca primero un denominador común calculando fracciones equivalentes.",
+    "El número 1 representa la unidad completa (por ejemplo, 4/4 o 8/8)."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.3",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-suma-y-resta-de-fracciones-01",
+      "type": "true-false",
+      "prompt": "Para sumar 2/7 y 3/7, sumamos los numeradores (2 + 3 = 5) y dejamos el mismo denominador (7).",
+      "explanation": "Es correcto: cuando las fracciones tienen el mismo denominador, solo se suman los numeradores y el denominador se mantiene igual (2/7 + 3/7 = 5/7).",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-mates-suma-y-resta-de-fracciones-02",
+      "type": "choice",
+      "prompt": "Hugo y Lucía comparten una pizza cortada en 8 porciones iguales 🍕. Hugo come 3/8 y Lucía 2/8. ¿Qué fracción de pizza queda en la bandeja?",
+      "explanation": "Entre los dos han comido 3/8 + 2/8 = 5/8 de la pizza. Como la pizza entera es 8/8, restamos: 8/8 - 5/8 = 3/8.",
+      "hint": "Calcula primero cuánto han comido entre los dos y réstaselo a la pizza entera (8/8).",
+      "lang": "es",
+      "options": [
+        "5/16",
+        "5/8",
+        "3/8",
+        "1/8"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-suma-y-resta-de-fracciones-03",
+      "type": "order",
+      "prompt": "Ordena los pasos necesarios para sumar dos fracciones con distinto denominador (por ejemplo, 1/2 + 1/3):",
+      "explanation": "Primero comprobamos los denominadores, luego hallamos el común denominador, transformamos a fracciones equivalentes, sumamos numeradores y finalmente simplificamos si procede.",
+      "lang": "es",
+      "items": [
+        "Comprobar si los denominadores son iguales o distintos.",
+        "Buscar un denominador común encontrando el mínimo común múltiplo.",
+        "Calcular las fracciones equivalentes con ese nuevo denominador.",
+        "Sumar los nuevos numeradores manteniendo el denominador común.",
+        "Comprobar si el resultado se puede simplificar."
+      ]
+    },
+    {
+      "id": "g5-mates-suma-y-resta-de-fracciones-04",
+      "type": "choice",
+      "prompt": "🔍 Encuentra el error: Aisha ha hecho esta operación en su cuaderno: 1/4 + 2/4 = 3/8. ¿En qué ha fallado?",
+      "explanation": "El denominador indica el tamaño de las partes, no una cantidad que se sume. Lo correcto es 1/4 + 2/4 = 3/4, manteniendo el 4.",
+      "hint": "Fíjate bien en el denominador del resultado que ha escrito Aisha.",
+      "lang": "es",
+      "options": [
+        "Debería haber multiplicado en cruz.",
+        "Ha restado en vez de sumar.",
+        "Ha sumado mal los numeradores.",
+        "Ha sumado los denominadores cuando debía mantener el denominador común."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-suma-y-resta-de-fracciones-05",
+      "type": "choice",
+      "prompt": "Cálculo mental y estimación: Mateo mezcla 1/2 litro de agua con 3/4 de litro de zumo en una jarra. ¿La mezcla final supera 1 litro?",
+      "explanation": "Convertimos 1/2 a cuartos: 1/2 = 2/4. Al sumar 2/4 + 3/4 obtenemos 5/4 de litro, que equivale a 1 litro y 1/4 más.",
+      "hint": "Pasa medio litro a cuartos de litro antes de sumar.",
+      "lang": "es",
+      "options": [
+        "Sí, porque 1/2 equivale a 2/4, y 2/4 + 3/4 = 5/4 (que es más de 4/4 o 1 litro).",
+        "No, porque las dos cantidades son fracciones más pequeñas que una unidad.",
+        "Sí, porque al sumar denominadores obtenemos 4/6 de litro.",
+        "No, la suma da exactamente 1 litro (4/4)."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-suma-y-resta-de-fracciones-06",
+      "type": "classify",
+      "prompt": "Clasifica mentalmente cada operación según si su resultado es menor que 1 o bien mayor o igual que 1:",
+      "explanation": "1/5 + 2/5 = 3/5 (< 1); 7/8 - 2/8 = 5/8 (< 1); 9/10 - 4/10 = 5/10 (< 1). Por otro lado, 3/4 + 2/4 = 5/4 (> 1); 2/3 + 2/3 = 4/3 (> 1); y 5/6 + 1/6 = 6/6 (= 1).",
+      "lang": "es",
+      "categories": [
+        "Resultado menor que 1",
+        "Resultado mayor o igual que 1"
+      ],
+      "items": [
+        {
+          "text": "1/5 + 2/5",
+          "category": 0
+        },
+        {
+          "text": "3/4 + 1/2",
+          "category": 1
+        },
+        {
+          "text": "7/8 - 2/8",
+          "category": 0
+        },
+        {
+          "text": "2/3 + 2/3",
+          "category": 1
+        },
+        {
+          "text": "5/6 + 1/6",
+          "category": 1
+        },
+        {
+          "text": "9/10 - 4/10",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-suma-y-resta-de-fracciones-07",
+      "type": "fill-blank",
+      "prompt": "Completa el espacio con la opción correcta:",
+      "explanation": "Buscamos denominador común: 1/3 = 2/6. Ahora sumamos: 2/6 + 1/6 = 3/6. Al simplificar entre 3, 3/6 equivale a 1/2.",
+      "hint": "Convierte 1/3 en una fracción equivalente con denominador 6.",
+      "lang": "es",
+      "sentence": "En el huerto escolar, 1/3 del terreno tiene tomates y 1/6 tiene lechugas. Entre tomates y lechugas ocupan ___ del terreno.",
+      "options": [
+        "2/9",
+        "3/6 (que equivale a 1/2)",
+        "2/6"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-suma-y-resta-de-fracciones-08",
+      "type": "match",
+      "prompt": "Une cada situación cotidiana con la fracción que representa la solución:",
+      "explanation": "4/4 - 1/4 = 3/4; 2/4 + 1/4 = 3/4 kg; 5/6 - 2/6 = 3/6; 1/5 + 2/5 = 3/5 de ruta.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "De una tarta entera (4/4), me como 1/4",
+          "right": "Quedan 3/4"
+        },
+        {
+          "left": "Junto 1/2 kg de harina con 1/4 kg de azúcar",
+          "right": "Tengo 3/4 kg"
+        },
+        {
+          "left": "De un depósito con 5/6 de agua, gasto 2/6",
+          "right": "Quedan 3/6"
+        },
+        {
+          "left": "Camino 1/5 de ruta por la mañana y 2/5 por la tarde",
+          "right": "Recorro 3/5"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-suma-y-resta-de-fracciones-09",
+      "type": "choice",
+      "prompt": "En la biblioteca de aula, 2/5 de las estanterías tienen libros de aventuras y 3/10 tienen cómics. El resto contiene libros de poesía. ¿Qué fracción representan los libros de poesía?",
+      "explanation": "Pasamos 2/5 a décimos: 2/5 = 4/10. Sumamos aventuras y cómics: 4/10 + 3/10 = 7/10. El total de la biblioteca es 10/10, por lo que poesía es 10/10 - 7/10 = 3/10.",
+      "hint": "Convierte 2/5 a décimos, suma ambas secciones y réstalas del total (10/10).",
+      "lang": "es",
+      "options": [
+        "7/10",
+        "5/15",
+        "1/10",
+        "3/10"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-suma-y-resta-de-fracciones-10",
+      "type": "choice",
+      "prompt": "¡Reto final! Nerea y Leo preparan refresco casero 🍋. Nerea pone 3/5 de litro de agua y Leo añade 1/2 litro de zumo de limón. Al mezclar, derraman por accidente 1/10 de litro. ¿Cuánto líquido tienen exactamente ahora?",
+      "explanation": "Buscamos denominador común (10): 3/5 = 6/10 y 1/2 = 5/10. Sumamos los líquidos: 6/10 + 5/10 = 11/10. Restamos lo derramado: 11/10 - 1/10 = 10/10, que es exactamente 1 litro.",
+      "hint": "Convierte todas las fracciones a denominador 10 antes de operar.",
+      "lang": "es",
+      "options": [
+        "1 litro justo (10/10)",
+        "9/10 de litro",
+        "4/7 de litro",
+        "1 litro y 1/10"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:19:42.715Z",
+    "reviewed": false
+  }
+}

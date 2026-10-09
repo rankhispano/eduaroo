@@ -1,0 +1,220 @@
+{
+  "id": "g4-mates-numeros-hasta-999-999",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "numeros-hasta-999-999",
+  "temaNombre": "Números hasta 999.999",
+  "title": "Aventuras con números hasta 999.999",
+  "summary": "Practica la lectura, descomposición, comparación y aproximación de números de hasta seis cifras.",
+  "keyIdeas": [
+    "Un número de seis cifras llega hasta las centenas de millar (CM).",
+    "El valor de cada cifra depende del lugar que ocupa en el número.",
+    "Para comparar números, revisa primero la cifra con mayor valor posicional."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-numeros-hasta-999-999-01",
+      "type": "match",
+      "prompt": "Une cada número con el valor que representa su cifra 7.",
+      "explanation": "El valor de la cifra 7 depende de su posición: centenas de millar (700.000), decenas de millar (70.000), unidades de millar (7.000) o centenas (700).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "742.105",
+          "right": "700.000 unidades"
+        },
+        {
+          "left": "173.420",
+          "right": "70.000 unidades"
+        },
+        {
+          "left": "527.310",
+          "right": "7.000 unidades"
+        },
+        {
+          "left": "304.750",
+          "right": "700 unidades"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-02",
+      "type": "choice",
+      "prompt": "¿Cómo se escribe con cifras el número «cuatrocientos cinco mil treinta y dos»?",
+      "explanation": "Tiene 4 centenas de millar, 0 decenas de millar, 5 unidades de millar, 0 centenas, 3 decenas y 2 unidades: 405.032.",
+      "hint": "Cuidado con los ceros en las decenas de millar y en las centenas.",
+      "lang": "es",
+      "options": [
+        "45.032",
+        "450.032",
+        "405.032",
+        "405.320"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-03",
+      "type": "true-false",
+      "prompt": "El número 89.999 es mayor que el número 102.300 porque empieza por una cifra más grande (8).",
+      "explanation": "89.999 tiene solo 5 cifras (decenas de millar), mientras que 102.300 tiene 6 cifras (centenas de millar). Por tanto, 102.300 es mayor.",
+      "hint": "Cuenta primero cuántas cifras tiene cada número.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-04",
+      "type": "fill-blank",
+      "prompt": "Completa el hueco para que la descomposición sea correcta.",
+      "explanation": "La cifra 3 ocupa las decenas de millar, por lo que vale 3 × 10.000 = 30.000 unidades.",
+      "hint": "La cifra 3 está en el lugar de las decenas de millar.",
+      "lang": "es",
+      "sentence": "538.204 = 500.000 + ___ + 8.000 + 200 + 4",
+      "options": [
+        "30.000",
+        "300.000",
+        "3.000"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-05",
+      "type": "classify",
+      "prompt": "Clasifica estos números según cuál sea su millar más cercano.",
+      "explanation": "Si la cifra de las centenas es menor que 5, aproximamos a 125.000. Si es 5 o mayor, aproximamos a 126.000.",
+      "lang": "es",
+      "categories": [
+        "Se redondea a 125.000",
+        "Se redondea a 126.000"
+      ],
+      "items": [
+        {
+          "text": "125.210",
+          "category": 0
+        },
+        {
+          "text": "125.499",
+          "category": 0
+        },
+        {
+          "text": "125.620",
+          "category": 1
+        },
+        {
+          "text": "125.805",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-06",
+      "type": "choice",
+      "prompt": "Lucas ha descompuesto el número 604.050 así: «6 CM + 4 UM + 5 U». ¿Qué error ha cometido?",
+      "explanation": "El 5 está en la posición de las decenas (5 D = 50 unidades), no en las unidades simples, donde hay un 0.",
+      "hint": "Mira la posición del número 5 en 604.050.",
+      "lang": "es",
+      "options": [
+        "Ha confundido las 5 decenas con 5 unidades.",
+        "Ha olvidado escribir las centenas de millar.",
+        "El número tiene 4 centenas en vez de 4 unidades de millar."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-07",
+      "type": "order",
+      "prompt": "Ordena de menor a mayor el número de visitantes de estos parques naturales.",
+      "explanation": "Primero van los de 5 cifras: 89.450 < 98.100. Después los de 6 cifras: 104.200 < 140.050.",
+      "lang": "es",
+      "items": [
+        "89.450 visitantes",
+        "98.100 visitantes",
+        "104.200 visitantes",
+        "140.050 visitantes"
+      ]
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-08",
+      "type": "choice",
+      "prompt": "La biblioteca central tiene 124.500 libros infantiles y 310.200 libros juveniles. ¿Cuántos libros hay en total entre ambas secciones?",
+      "explanation": "Sumamos 124.500 + 310.200 = 434.700 libros en total.",
+      "hint": "Suma término a término empezando por las unidades.",
+      "lang": "es",
+      "options": [
+        "334.700 libros",
+        "430.700 libros",
+        "434.500 libros",
+        "434.700 libros"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-09",
+      "type": "choice",
+      "prompt": "Aisha quiere estimar rápidamente la suma de 218.400 y 379.100 redondeando a la centena de millar más cercana. ¿Qué estimación obtendrá?",
+      "explanation": "218.400 se aproxima a 200.000 y 379.100 se aproxima a 400.000. Sumamos mentalmente: 200.000 + 400.000 = 600.000.",
+      "hint": "Redondea 218.400 y 379.100 a la centena de millar antes de sumar.",
+      "lang": "es",
+      "options": [
+        "590.000",
+        "700.000",
+        "500.000",
+        "600.000"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-10",
+      "type": "choice",
+      "prompt": "Tengo 6 cifras. Mi cifra de las CM es 7, la de las D es 8 y todas las demás son 0. ¿Qué número soy?",
+      "explanation": "Colocamos: 7 en CM, 0 en DM, 0 en UM, 0 en C, 8 en D y 0 en U, formando el número 700.080.",
+      "hint": "Coloca cada cifra en su casilla: CM, DM, UM, C, D, U.",
+      "lang": "es",
+      "options": [
+        "700.080",
+        "700.800",
+        "70.080",
+        "708.000"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:11:51.138Z",
+    "reviewed": false
+  }
+}

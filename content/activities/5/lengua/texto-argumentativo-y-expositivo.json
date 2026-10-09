@@ -1,0 +1,244 @@
+{
+  "id": "g5-lengua-texto-argumentativo-y-expositivo",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "texto-argumentativo-y-expositivo",
+  "temaNombre": "Texto argumentativo y expositivo",
+  "title": "Textos para informar y opinar",
+  "summary": "Practica cómo distinguir y estructurar textos expositivos y argumentativos con claridad.",
+  "keyIdeas": [
+    "El texto expositivo transmite información objetiva y ordenada sobre un tema, sin incluir opiniones personales.",
+    "El texto argumentativo defiende una postura (tesis) aportando razones convincentes (argumentos) para persuadir a quien lo lee.",
+    "Identificar si un texto busca informar u opinar nos ayuda a comprender mejor lo que leemos y a pensar de forma crítica."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE5"
+    ],
+    "criteria": [
+      "4.1",
+      "4.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC2",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-01",
+      "type": "true-false",
+      "prompt": "¿Un texto expositivo tiene como objetivo principal expresar los sentimientos y opiniones del autor sobre un tema?",
+      "explanation": "El texto expositivo busca explicar e informar sobre un tema de manera objetiva y clara, no dar opiniones ni expresar emociones.",
+      "hint": "Piensa si una enciclopedia te da datos o te cuenta lo que siente el autor.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-02",
+      "type": "choice",
+      "prompt": "¿Cuál es la finalidad principal de un texto argumentativo? 🗣️",
+      "explanation": "El texto argumentativo defiende una postura o tesis mediante argumentos para convencer al receptor de una idea.",
+      "hint": "Fíjate en la palabra «argumentar»: dar razones para defender una idea.",
+      "lang": "es",
+      "options": [
+        "Convencer o persuadir a la otra persona demostrando una opinión con razones.",
+        "Explicar paso a paso cómo funciona un aparato electrónico sin valoraciones.",
+        "Contar una historia de aventuras protagonizada por personajes de ficción."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-03",
+      "type": "classify",
+      "prompt": "Clasifica estos textos según sean expositivos o argumentativos:",
+      "explanation": "Los textos expositivos ofrecen datos y explicaciones objetivas, mientras que los argumentativos defienden una opinión o propuesta con razones.",
+      "lang": "es",
+      "categories": [
+        "Texto expositivo",
+        "Texto argumentativo"
+      ],
+      "items": [
+        {
+          "text": "Un artículo de enciclopedia sobre el ciclo del agua.",
+          "category": 0
+        },
+        {
+          "text": "Una carta al director del periódico pidiendo más zonas peatonales.",
+          "category": 1
+        },
+        {
+          "text": "El folleto del museo que explica las partes de un castillo medieval.",
+          "category": 0
+        },
+        {
+          "text": "Un discurso escolar para explicar por qué debemos reciclar en el patio.",
+          "category": 1
+        },
+        {
+          "text": "La entrada de un diccionario definiendo qué es un ecosistema.",
+          "category": 0
+        },
+        {
+          "text": "Una reseña en la que una alumna explica por qué recomienda un libro.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-04",
+      "type": "match",
+      "prompt": "Une cada parte de la estructura de un texto argumentativo con su función:",
+      "explanation": "Un texto argumentativo parte de una tesis, la respalda con varios argumentos y finaliza con una conclusión que resume lo expuesto.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Tesis",
+          "right": "Idea u opinión principal que se defiende."
+        },
+        {
+          "left": "Argumentos",
+          "right": "Razones, pruebas o datos que apoyan la postura."
+        },
+        {
+          "left": "Conclusión",
+          "right": "Resumen final que refuerza la idea defendida."
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-05",
+      "type": "fill-blank",
+      "prompt": "Elige el conector causal más adecuado para justificar este argumento:",
+      "explanation": "«Porque» introduce la causa o razón (el argumento) que justifica la necesidad de reducir los plásticos.",
+      "hint": "Busca la palabra que signifique «ya que» o «dado que».",
+      "lang": "es",
+      "sentence": "Es necesario reducir el uso de plásticos de un solo uso ___ contaminan nuestros mares y dañan a los animales marinos.",
+      "options": [
+        "mientras",
+        "aunque",
+        "porque"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-06",
+      "type": "order",
+      "prompt": "Ordena las partes habituales de un texto expositivo desde el inicio hasta el final:",
+      "explanation": "La estructura básica de la exposición comienza presentando el tema, continúa desarrollando la información y concluye con una síntesis.",
+      "lang": "es",
+      "items": [
+        "Introducción: presentación clara del tema que se va a explicar.",
+        "Desarrollo: explicación ordenada de la información, conceptos y datos.",
+        "Conclusión: síntesis final de las ideas principales expuestas."
+      ]
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-07",
+      "type": "choice",
+      "prompt": "Omar y Aisha quieren escribir una carta al ayuntamiento para pedir que arreglen el parque del barrio. ¿Cuál de estas oraciones es un argumento sólido?",
+      "explanation": "Explicar que reparar los columpios evita accidentes es una razón objetiva de peso (argumento), mientras que las otras frases son simples quejas personales.",
+      "hint": "Elige la opción que aporte una razón útil y que beneficie a la comunidad.",
+      "lang": "es",
+      "options": [
+        "A mí me parece que los parques de otras ciudades son mucho más bonitos que este.",
+        "Los columpios están rotos y repararlos evitará accidentes infantiles en el barrio.",
+        "El parque no nos gusta nada porque es aburrido y preferimos quedarnos en casa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-08",
+      "type": "choice",
+      "prompt": "¡Encuentra el error! 🔍 En este texto expositivo escolar sobre los linces ibéricos, se ha colado una frase que no es objetiva. ¿Cuál es?",
+      "explanation": "Decir que es «el más simpático» y que «debería acariciarse» es una opinión personal y subjetiva, impropia de un texto expositivo divulgativo.",
+      "hint": "Busca la frase que contiene una valoración personal o un gusto subjetivo.",
+      "lang": "es",
+      "options": [
+        "Su pelaje presenta manchas oscuras que le permiten camuflarse en el matorral.",
+        "El lince ibérico es un felino carnívoro endémico de la península ibérica.",
+        "Es el animal más simpático del bosque y todo el mundo debería acariciar uno."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-09",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto y responde a las preguntas:",
+      "explanation": "El texto combina datos explicativos con argumentos para defender y convencer sobre la importancia de los huertos escolares.",
+      "lang": "es",
+      "title": "Los huertos escolares: naturaleza en el colegio",
+      "text": "En los últimos años, muchos colegios han creado huertos escolares en sus patios. Estos espacios son pequeñas zonas de cultivo donde el alumnado siembra hortalizas, cuida las plantas y aprende el ciclo vital de los vegetales. En ellos se cultivan habitualmente tomates, lechugas y plantas aromáticas como el romero.\n\nSin embargo, los huertos no son solo lugares para aprender Ciencias Naturales de manera práctica. También son una herramienta fundamental para fomentar el trabajo en equipo, la paciencia y el respeto hacia el medioambiente. Cuando los estudiantes observan el esfuerzo necesario para obtener una simple zanahoria, comprenden mejor el valor de la comida y reducen el desperdicio en el comedor escolar. Por todo ello, consideramos indispensable que cada escuela reserve un rincón para cultivar su propio huerto, pues transforma positivamente la convivencia y los hábitos de toda la comunidad educativa.",
+      "questions": [
+        {
+          "prompt": "¿Qué hortalizas y plantas se mencionan en el texto como cultivos habituales?",
+          "explanation": "El texto indica expresamente que se cultivan tomates, lechugas y aromáticas como el romero.",
+          "options": [
+            "Tomates, lechugas y plantas aromáticas como el romero.",
+            "Fresas, calabacines y árboles frutales.",
+            "Patatas, trigo y legumbres variadas."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Según el texto, ¿por qué el huerto ayuda a reducir el desperdicio de comida en el comedor?",
+          "explanation": "Al comprobar el tiempo y trabajo que requiere cultivar un vegetal, los estudiantes comprenden el valor de la comida y evitan tirarla.",
+          "options": [
+            "Porque toda la comida que no se consume en el comedor se utiliza como abono en el huerto.",
+            "Porque el alumnado valora más los alimentos al ver el esfuerzo que cuesta cultivarlos.",
+            "Porque el huerto produce tanta comida que ya no hace falta comprar en el supermercado."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Teniendo en cuenta la estructura y la intención del autor al final, ¿qué tipo de texto es?",
+          "explanation": "Aunque incluye partes expositivas, el autor defiende una tesis clara al final («consideramos indispensable...») apoyada en razones.",
+          "options": [
+            "Un texto argumentativo, porque comienza exponiendo datos pero su fin principal es defender la necesidad de tener huertos escolares.",
+            "Un texto estrictamente expositivo, ya que solo ofrece datos científicos sin ninguna propuesta ni opinión.",
+            "Un texto narrativo, porque cuenta la historia de un grupo de estudiantes durante una jornada de siembra."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-10",
+      "type": "choice",
+      "prompt": "Para redactar un texto expositivo sobre los volcanes, ¿cuál de estos enunciados es adecuado incluir por ser un hecho objetivo?",
+      "explanation": "La primera opción es una definición científica y comprobable (un hecho), mientras que las otras dos son opiniones o emociones personales.",
+      "hint": "Un hecho se puede comprobar científicamente; una opinión depende del gusto o temor de cada persona.",
+      "lang": "es",
+      "options": [
+        "Las erupciones volcánicas son los espectáculos más bonitos que existen en la Tierra.",
+        "Un volcán es una abertura en la corteza terrestre por la que emerge magma y gases.",
+        "Los volcanes dan muchísimo miedo y nadie debería visitarlos jamás."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T14:47:23.916Z",
+    "reviewed": false
+  }
+}

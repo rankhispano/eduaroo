@@ -1,0 +1,220 @@
+{
+  "id": "g4-sociales-instituciones-del-estado",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "instituciones-del-estado",
+  "temaNombre": "Instituciones del Estado",
+  "title": "Descubrimos las instituciones del Estado",
+  "summary": "Aprenderás cómo se organiza España, qué funciones tienen sus instituciones y cómo se elaboran las leyes democráticas.",
+  "keyIdeas": [
+    "La Constitución de 1978 es la ley más importante de España y garantiza nuestros derechos.",
+    "Las Cortes Generales elaboran las leyes, el Gobierno las aplica y los Tribunales de Justicia hacen que se cumplan.",
+    "El Rey es el jefe del Estado y representa a España en el mundo."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-instituciones-del-estado-01",
+      "type": "choice",
+      "prompt": "Lucía y Hugo leen un libro sobre España. ¿Cuál es la ley más importante de nuestro país? 📖",
+      "explanation": "La Constitución española de 1978 es la norma fundamental del Estado. Todas las demás leyes deben respetarla.",
+      "hint": "Se aprobó en 1978 y recoge todos nuestros derechos fundamentales.",
+      "lang": "es",
+      "options": [
+        "El código de circulación",
+        "El periódico del barrio",
+        "La Constitución española",
+        "El reglamento del colegio"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-02",
+      "type": "true-false",
+      "prompt": "El Rey de España es el jefe del Estado y representa al país, pero no elabora las leyes.",
+      "explanation": "España es una monarquía parlamentaria. El Rey representa al Estado, mientras que las Cortes Generales aprueban las leyes.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre las instituciones democráticas.",
+      "explanation": "Las Cortes Generales tienen dos cámaras: el Congreso de los Diputados y el Senado.",
+      "hint": "Es la cámara de representación territorial.",
+      "lang": "es",
+      "sentence": "Las Cortes Generales están formadas por el Congreso de los Diputados y el ___.",
+      "options": [
+        "Ayuntamiento",
+        "Senado",
+        "Tribunal Supremo"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-04",
+      "type": "match",
+      "prompt": "Relaciona cada poder del Estado con su función principal:",
+      "explanation": "En una democracia los tres poderes están separados para garantizar la justicia y el equilibrio.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Poder legislativo (Cortes)",
+          "right": "Elabora y aprueba las leyes"
+        },
+        {
+          "left": "Poder ejecutivo (Gobierno)",
+          "right": "Aplica las leyes y dirige el país"
+        },
+        {
+          "left": "Poder judicial (Tribunales)",
+          "right": "Juzga a quien no cumple las leyes"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-05",
+      "type": "classify",
+      "prompt": "Clasifica a qué institución pertenece cada una de estas funciones:",
+      "explanation": "Las Cortes Generales crean las leyes y aprueban presupuestos, mientras que el Gobierno gestiona los servicios públicos y la política del país.",
+      "lang": "es",
+      "categories": [
+        "Cortes Generales",
+        "Gobierno de España"
+      ],
+      "items": [
+        {
+          "text": "Debatir y votar una nueva ley educativa",
+          "category": 0
+        },
+        {
+          "text": "Dirigir la política exterior y la defensa",
+          "category": 1
+        },
+        {
+          "text": "Aprobar los Presupuestos Generales del Estado",
+          "category": 0
+        },
+        {
+          "text": "Administrar los servicios públicos del país",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-06",
+      "type": "order",
+      "prompt": "Ordena los pasos que sigue una ley desde que se propone hasta que se cumple:",
+      "explanation": "Primero se presenta la propuesta, las Cortes la debaten y votan, el Rey la sanciona y finalmente se publica para que sea obligatoria.",
+      "lang": "es",
+      "items": [
+        "El Gobierno o un grupo propone una idea de ley",
+        "El Congreso y el Senado debaten y votan la propuesta",
+        "El Rey firma la ley aprobada",
+        "La ley se publica y entra en vigor para toda la ciudadanía"
+      ]
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-07",
+      "type": "reading",
+      "prompt": "Lee atentamente la noticia escolar y responde a las preguntas:",
+      "explanation": "Esta lectura muestra cómo participan los ciudadanos en la democracia y cómo se organizan las instituciones públicas.",
+      "lang": "es",
+      "title": "La clase de 4º visita el Congreso",
+      "text": "El grupo de 4º de Primaria visitó ayer el Congreso de los Diputados en Madrid. Aisha y Omar se sentaron en los escaños donde trabajan los diputados elegidos por la ciudadanía. La guía les explicó que en democracia todas las personas mayores de 18 años pueden votar cada cuatro años para elegir a sus representantes. También aprendieron que los jueces y juezas trabajan de forma independiente en los juzgados para resolver los conflictos entre ciudadanos.",
+      "questions": [
+        {
+          "prompt": "¿A partir de qué edad pueden votar los ciudadanos en España?",
+          "explanation": "En España, el derecho al voto se alcanza con la mayoría de edad a los 18 años.",
+          "options": [
+            "A los 16 años",
+            "A los 18 años",
+            "A los 21 años"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Según el texto, ¿quiénes se encargan de resolver los conflictos de forma independiente?",
+          "explanation": "Los jueces y juezas forman el poder judicial y resuelven los conflictos aplicando la ley de manera independiente.",
+          "options": [
+            "Los diputados y senadores",
+            "Los jueces y juezas",
+            "La policía escolar"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-08",
+      "type": "choice",
+      "prompt": "En el barrio de Nerea quieren construir un parque infantil con columpios. ¿A qué institución deben acudir los vecinos? 🛝",
+      "explanation": "El Ayuntamiento es la institución local más cercana a los vecinos y se encarga de los parques, el alumbrado y la limpieza.",
+      "hint": "Es la institución que dirige el alcalde o alcaldesa de tu pueblo o ciudad.",
+      "lang": "es",
+      "options": [
+        "Al Ayuntamiento del municipio",
+        "Al Tribunal Supremo de Justicia",
+        "Al Congreso de los Diputados"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-09",
+      "type": "true-false",
+      "prompt": "El Presidente del Gobierno puede cambiar las leyes él solo sin consultar a las Cortes Generales.",
+      "explanation": "En un sistema democrático, las leyes deben ser debatidas y votadas por los representantes de los ciudadanos en las Cortes Generales.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-10",
+      "type": "choice",
+      "prompt": "Dos empresas discuten sobre un contrato y no llegan a un acuerdo. ¿Qué institución debe solucionar el conflicto con la ley en la mano? ⚖️",
+      "explanation": "Los Tribunales de Justicia y sus jueces tienen la misión de juzgar y hacer cumplir lo juzgado de forma imparcial.",
+      "hint": "Pertenecen al poder judicial.",
+      "lang": "es",
+      "options": [
+        "El Gobierno de España",
+        "Los Tribunales de Justicia",
+        "El Senado"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:08:13.655Z",
+    "reviewed": false
+  }
+}

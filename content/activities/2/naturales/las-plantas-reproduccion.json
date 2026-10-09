@@ -1,0 +1,225 @@
+{
+  "id": "g2-naturales-las-plantas-reproduccion",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "las-plantas-reproduccion",
+  "temaNombre": "Las plantas: reproducción",
+  "title": "¿Cómo nacen las nuevas plantas?",
+  "summary": "Practica cómo se reproducen las plantas mediante flores, frutos y semillas.",
+  "keyIdeas": [
+    "Las flores producen frutos que guardan semillas dentro.",
+    "Las semillas necesitan agua y calor para germinar.",
+    "Los insectos y el viento ayudan a transportar el polen."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-01",
+      "type": "choice",
+      "prompt": "¿En qué parte de la planta se forman las semillas?",
+      "explanation": "Las flores son el órgano donde nacen los frutos y las semillas.",
+      "hint": "Tienen pétalos de colores muy bonitos.",
+      "lang": "es",
+      "options": [
+        "En las flores",
+        "En las raíces",
+        "En el tallo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-02",
+      "type": "true-false",
+      "prompt": "El fruto protege a las semillas que hay en su interior.",
+      "explanation": "El fruto cuida las semillas hasta que están listas para salir.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-03",
+      "type": "match",
+      "prompt": "Une cada parte con su función en la reproducción:",
+      "explanation": "Cada parte cumple una misión para que nazcan nuevas plantas.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Flor",
+          "right": "Produce semillas"
+        },
+        {
+          "left": "Fruto",
+          "right": "Protege las semillas"
+        },
+        {
+          "left": "Semilla",
+          "right": "Origina una planta"
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-04",
+      "type": "order",
+      "prompt": "Ordena el ciclo de vida de una planta de tomate:",
+      "explanation": "Primero germina la semilla, luego la planta florece y da fruto.",
+      "lang": "es",
+      "items": [
+        "Una semilla cae en la tierra húmeda.",
+        "La semilla germina y sale un tallo.",
+        "La planta crece y tiene flores amarillas.",
+        "Las flores se convierten en tomates con semillas."
+      ]
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-05",
+      "type": "choice",
+      "prompt": "Lucía pone una semilla sobre algodón húmedo y templado. ¿Qué pasará?",
+      "explanation": "Con humedad y calor adecuado, la semilla despierta y empieza a germinar.",
+      "hint": "El agua ayuda a que la semilla despierte.",
+      "lang": "es",
+      "options": [
+        "La semilla se volverá una piedra",
+        "La semilla no cambiará nunca",
+        "La semilla germinará y saldrá una raíz"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-06",
+      "type": "classify",
+      "prompt": "Clasifica cómo viajan estas semillas para nacer lejos:",
+      "explanation": "El viento y los animales ayudan a repartir semillas por la naturaleza.",
+      "lang": "es",
+      "categories": [
+        "Viajan con el viento",
+        "Viajan con animales"
+      ],
+      "items": [
+        {
+          "text": "Semilla con pelitos de diente de león",
+          "category": 0
+        },
+        {
+          "text": "Bellota que esconde una ardilla",
+          "category": 1
+        },
+        {
+          "text": "Semilla ligera con forma de ala",
+          "category": 0
+        },
+        {
+          "text": "Fruto dulce que come un pájaro",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-07",
+      "type": "choice",
+      "prompt": "Hugo cree que las flores solo sirven para adornar. ¿Por qué se equivoca?",
+      "explanation": "Las flores son muy útiles porque producen el fruto y las semillas.",
+      "hint": "Sin flores, no habría nuevas plantas con flor.",
+      "lang": "es",
+      "options": [
+        "Porque sujetan la planta al suelo",
+        "Porque beben el agua de la tierra",
+        "Porque permiten a la planta reproducirse"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-08",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la polinización:",
+      "explanation": "El polen viaja en el cuerpo de los insectos hasta otra flor.",
+      "lang": "es",
+      "sentence": "Las abejas transportan el ___ de una flor a otra.",
+      "options": [
+        "barro",
+        "agua",
+        "polen"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-09",
+      "type": "choice",
+      "prompt": "Omar riega su semilla, pero Aisha olvida regar la suya. ¿Qué pasará?",
+      "explanation": "El agua es imprescindible para que las semillas puedan germinar.",
+      "hint": "Recuerda qué necesita una semilla para brotar.",
+      "lang": "es",
+      "options": [
+        "Las dos semillas crecerán igual",
+        "Solo la semilla de Omar germinará",
+        "Solo la semilla de Aisha crecerá"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-10",
+      "type": "reading",
+      "prompt": "Lee la historia y responde a las preguntas:",
+      "explanation": "Los frutos protegen las semillas de las que brotarán nuevos árboles.",
+      "lang": "es",
+      "title": "El secreto de la manzana",
+      "text": "Aisha pasea por el huerto escolar. En el suelo encuentra una rica manzana roja. Su maestro le enseña las pepitas que tiene dentro. Son semillas que esperan caer en la tierra. Con lluvia y sol, nacerá un nuevo manzano.",
+      "questions": [
+        {
+          "prompt": "¿Qué encontró Aisha dentro de la manzana?",
+          "explanation": "Dentro de la manzana están las pepitas, que son sus semillas.",
+          "options": [
+            "Semillas o pepitas",
+            "Piedras pequeñas",
+            "Hojas verdes"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué nacerá de esas semillas con agua y sol?",
+          "explanation": "Cada semilla da origen a una planta de su misma especie.",
+          "options": [
+            "Una flor de rosal",
+            "Una planta de trigo",
+            "Un nuevo manzano"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:38:30.875Z",
+    "reviewed": false
+  }
+}

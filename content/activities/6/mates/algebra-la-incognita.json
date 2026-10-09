@@ -1,0 +1,233 @@
+{
+  "id": "g6-mates-algebra-la-incognita",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "algebra-la-incognita",
+  "temaNombre": "Álgebra: la incógnita",
+  "title": "Misterio resuelto: la incógnita matemática",
+  "summary": "Descubre el valor de datos ocultos y traduce situaciones reales al lenguaje algebraico.",
+  "keyIdeas": [
+    "Una incógnita es un valor desconocido que solemos representar con una letra, como la x.",
+    "Para resolver una ecuación, aplicamos la operación inversa en ambos lados de la igualdad.",
+    "Comprueba siempre tu solución sustituyendo la incógnita en la expresión inicial."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.2",
+      "2.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "D. Sentido algebraico › Relaciones y funciones",
+      "D. Sentido algebraico › Modelo matemático"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-algebra-la-incognita-01",
+      "type": "true-false",
+      "prompt": "En matemáticas, una incógnita es un número desconocido que podemos representar mediante una letra o un símbolo.",
+      "explanation": "Es verdadero. Usamos letras como la x, la y o símbolos para representar cantidades que no conocemos y queremos averiguar.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-02",
+      "type": "match",
+      "prompt": "Une cada frase en lenguaje cotidiano con su expresión algebraica correspondiente (siendo x el número pensado):",
+      "explanation": "El doble implica multiplicar por 2 (2 × x), aumentar significa sumar (+ 7), la mitad es dividir entre 2 (x ÷ 2) y disminuir es restar (- 5).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "El doble de un número",
+          "right": "2 × x"
+        },
+        {
+          "left": "Un número aumentado en 7 unidades",
+          "right": "x + 7"
+        },
+        {
+          "left": "La mitad de un número",
+          "right": "x ÷ 2"
+        },
+        {
+          "left": "Un número disminuido en 5 unidades",
+          "right": "x - 5"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-03",
+      "type": "choice",
+      "prompt": "Cálculo mental rápido: en la ecuación x + 16 = 40, ¿cuánto vale la incógnita x?",
+      "explanation": "Para despejar la x restamos 16 a 40: 40 - 16 = 24. Comprobamos: 24 + 16 = 40.",
+      "hint": "Piensa qué número sumado a 16 da 40.",
+      "lang": "es",
+      "options": [
+        "24",
+        "26",
+        "56"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-04",
+      "type": "fill-blank",
+      "prompt": "Completa el valor de la incógnita en este problema:",
+      "explanation": "Planteamos la ecuación x + 15 = 42. Para calcular x, restamos: 42 - 15 = 27 cromos.",
+      "lang": "es",
+      "sentence": "Aisha tenía varios cromos guardados (x). Su abuela le regaló 15 cromos más y ahora tiene 42 en total. El número inicial de cromos que tenía Aisha era x = ___ cromos.",
+      "options": [
+        "37",
+        "57",
+        "27"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-05",
+      "type": "classify",
+      "prompt": "Clasifica cada ecuación según el valor que debe tener la incógnita x para que se cumpla la igualdad:",
+      "explanation": "Comprobamos cada una: 3 × 6 = 18, 9 - 4 = 5, 6 + 12 = 18, 2 × 9 = 18, 24 ÷ 6 = 4 y 45 ÷ 9 = 5.",
+      "lang": "es",
+      "categories": [
+        "El valor de x es 6",
+        "El valor de x es 9"
+      ],
+      "items": [
+        {
+          "text": "3 × x = 18",
+          "category": 0
+        },
+        {
+          "text": "x - 4 = 5",
+          "category": 1
+        },
+        {
+          "text": "x + 12 = 18",
+          "category": 0
+        },
+        {
+          "text": "2 × x = 18",
+          "category": 1
+        },
+        {
+          "text": "24 ÷ x = 4",
+          "category": 0
+        },
+        {
+          "text": "45 ÷ x = 5",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-06",
+      "type": "choice",
+      "prompt": "¡Encuentra el error! Hugo intentó resolver la ecuación 4 × x = 28 y escribió en su libreta: «x = 28 - 4, por lo tanto x = 24». ¿Qué error cometió?",
+      "explanation": "El 4 está multiplicando a la x, por lo que la operación inversa es dividir: x = 28 ÷ 4 = 7. Hugo aplicó una resta por error.",
+      "hint": "Fíjate en qué operación une al 4 con la x.",
+      "lang": "es",
+      "options": [
+        "El resultado es correcto, 24 es la solución.",
+        "Sumó 4 en lugar de multiplicar por 4.",
+        "Restó 4 en vez de dividir 28 entre 4."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-07",
+      "type": "match",
+      "prompt": "Relaciona cada situación con la ecuación que permite resolverla:",
+      "explanation": "Multiplicamos para el precio conjunto (3 × x = 12), restamos para un gasto (x - 3 = 12), dividimos para un reparto (x ÷ 3 = 12) y sumamos al añadir personas (x + 3 = 12).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Adrián compra 3 libretas iguales por 12 € en total.",
+          "right": "3 × x = 12"
+        },
+        {
+          "left": "Lucía tiene x euros y al gastar 3 € le quedan 12 €.",
+          "right": "x - 3 = 12"
+        },
+        {
+          "left": "Repartimos x caramelos entre 3 amigos y tocan a 12 cada uno.",
+          "right": "x ÷ 3 = 12"
+        },
+        {
+          "left": "Un grupo de x personas recibe a 3 más y ahora son 12.",
+          "right": "x + 3 = 12"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-08",
+      "type": "order",
+      "prompt": "Ordena de forma lógica los pasos para resolver la ecuación 2 × x + 5 = 17 y comprobar su resultado:",
+      "explanation": "Primero eliminamos el término que suma restando en el otro miembro, obtenemos 12, luego dividimos entre 2 y por último comprobamos que 6 cumple la igualdad.",
+      "lang": "es",
+      "items": [
+        "Identificar que 5 está sumando y restarlo a ambos lados: 2 × x = 17 - 5",
+        "Calcular el resultado de la resta: 2 × x = 12",
+        "Dividir entre 2 para despejar la incógnita: x = 12 ÷ 2 = 6",
+        "Comprobar sustituyendo x por 6: 2 × 6 + 5 = 12 + 5 = 17"
+      ]
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-09",
+      "type": "choice",
+      "prompt": "En el mercadillo solidario del colegio, Wei compró 4 marcapáginas iguales y un libro de lectura por 6 €. En total pagó 14 €. Si representamos el precio de cada marcapáginas con la letra m, ¿cuánto cuesta cada uno?",
+      "explanation": "La ecuación es 4 × m + 6 = 14. Restamos el precio del libro: 14 - 6 = 8 €. Dividimos entre los 4 marcapáginas: 8 ÷ 4 = 2 € cada uno.",
+      "hint": "Resta primero el coste del libro al total gastado.",
+      "lang": "es",
+      "options": [
+        "2 €",
+        "3 €",
+        "4 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-10",
+      "type": "choice",
+      "prompt": "Reto final: En una balanza en perfecto equilibrio, en el plato izquierdo hay 3 cajas misteriosas iguales (x) y una pesa de 4 kg. En el plato derecho hay una pesa de 19 kg. ¿Cuánto pesa cada caja?",
+      "explanation": "Planteamos la igualdad: 3 × x + 4 = 19. Si quitamos los 4 kg de ambos lados, 3 cajas pesan 15 kg (19 - 4 = 15). Dividimos entre 3: 15 ÷ 3 = 5 kg cada caja.",
+      "hint": "Quita la pesa de 4 kg de ambos lados de la balanza mentalmente.",
+      "lang": "es",
+      "options": [
+        "15 kg",
+        "7 kg",
+        "5 kg"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:28:49.427Z",
+    "reviewed": false
+  }
+}

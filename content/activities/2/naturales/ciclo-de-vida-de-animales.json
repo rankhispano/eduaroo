@@ -1,0 +1,235 @@
+{
+  "id": "g2-naturales-ciclo-de-vida-de-animales",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "ciclo-de-vida-de-animales",
+  "temaNombre": "Ciclo de vida de animales",
+  "title": "El ciclo de la vida animal",
+  "summary": "Practica cómo nacen y crecen los animales.",
+  "keyIdeas": [
+    "Todos los animales nacen, crecen, pueden reproducirse y mueren.",
+    "Algunos animales nacen de huevos y otros del vientre materno.",
+    "Animales como ranas y mariposas sufren grandes cambios al crecer."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-01",
+      "type": "true-false",
+      "prompt": "Los animales nacen, crecen, se reproducen y mueren.",
+      "explanation": "Este es el ciclo de vida de los seres vivos.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-02",
+      "type": "choice",
+      "prompt": "Lucía ve un nido. ¿De dónde nacen los gorriones?",
+      "explanation": "Los gorriones son aves. Nacen de huevos que ponen sus madres.",
+      "hint": "Piensa en cómo nacen las aves.",
+      "lang": "es",
+      "options": [
+        "De un huevo",
+        "Del vientre de su madre",
+        "De una semilla"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-03",
+      "type": "order",
+      "prompt": "Ordena el ciclo de vida de la rana.",
+      "explanation": "La rana nace del huevo. Luego es renacuajo y después rana.",
+      "lang": "es",
+      "items": [
+        "Huevo",
+        "Renacuajo",
+        "Rana con patas",
+        "Rana adulta"
+      ]
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-04",
+      "type": "match",
+      "prompt": "Une cada animal con su cría.",
+      "explanation": "Algunas crías reciben nombres especiales según la especie animal.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Perro",
+          "right": "Cachorro"
+        },
+        {
+          "left": "Rana",
+          "right": "Renacuajo"
+        },
+        {
+          "left": "Mariposa",
+          "right": "Oruga"
+        },
+        {
+          "left": "Gallina",
+          "right": "Pollito"
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-05",
+      "type": "classify",
+      "prompt": "Clasifica según cómo nacen estos animales.",
+      "explanation": "Los ovíparos nacen de huevo. Los vivíparos nacen del vientre.",
+      "lang": "es",
+      "categories": [
+        "Nacen de huevos",
+        "Nacen del vientre materno"
+      ],
+      "items": [
+        {
+          "text": "Pato",
+          "category": 0
+        },
+        {
+          "text": "Vaca",
+          "category": 1
+        },
+        {
+          "text": "Tortuga",
+          "category": 0
+        },
+        {
+          "text": "Conejo",
+          "category": 1
+        },
+        {
+          "text": "Pez",
+          "category": 0
+        },
+        {
+          "text": "Oveja",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-06",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la oruga.",
+      "explanation": "La oruga cambia por completo. Se transforma en una linda mariposa.",
+      "lang": "es",
+      "sentence": "Al crecer, la oruga se convierte en una ___ con alas.",
+      "options": [
+        "mariposa",
+        "araña",
+        "rana"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-07",
+      "type": "choice",
+      "prompt": "Hugo cuida un renacuajo en clase. ¿Qué cambio observará primero?",
+      "explanation": "Al renacuajo le crecen patitas. Luego perderá la cola.",
+      "hint": "Fíjate en cómo nada y salta una rana.",
+      "lang": "es",
+      "options": [
+        "Le crecen patitas",
+        "Le salen alas",
+        "Le crece pelo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-08",
+      "type": "choice",
+      "prompt": "¿Cuál de estas frases sobre los animales es INCORRECTA?",
+      "explanation": "No todas son idénticas. El renacuajo es diferente a la rana.",
+      "hint": "Recuerda cómo cambian las ranas o las orugas.",
+      "lang": "es",
+      "options": [
+        "Los terneros toman leche de su madre.",
+        "Los patitos nacen de huevos.",
+        "Todas las crías son idénticas a sus padres al nacer."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-09",
+      "type": "reading",
+      "prompt": "Lee el texto y responde a las preguntas.",
+      "explanation": "La oruga cambia mucho para convertirse en mariposa.",
+      "lang": "es",
+      "title": "La oruga de Aisha",
+      "text": "Aisha cuida una oruga verde en un frasco con agujeros. Le pone hojas frescas cada día. Pronto, la oruga forma un capullo duro llamado crisálida. Días después, sale una mariposa brillante y vuela.",
+      "questions": [
+        {
+          "prompt": "¿Qué come la oruga de Aisha?",
+          "explanation": "El texto dice que Aisha le pone hojas frescas.",
+          "options": [
+            "Hojas frescas",
+            "Frutas secas",
+            "Semillas duras"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿En qué se transforma la oruga al final?",
+          "explanation": "De la crisálida sale una mariposa brillante.",
+          "options": [
+            "En una abeja",
+            "En una mariposa",
+            "En un saltamontes"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-10",
+      "type": "order",
+      "prompt": "Ordena las fases del ciclo de la mariposa.",
+      "explanation": "Primero está el huevo. Luego oruga, crisálida y mariposa adulta.",
+      "lang": "es",
+      "items": [
+        "Huevo",
+        "Oruga",
+        "Crisálida",
+        "Mariposa adulta"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:36:58.597Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "id": "g6-ingles-debate-y-expresion-de-opinion",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "debate-y-expresion-de-opinion",
+  "temaNombre": "Debate y expresión de opinión",
+  "title": "Debate and Express Your Opinion",
+  "summary": "Practica cómo expresar tus opiniones, debatir con respeto y argumentar tus ideas en inglés.",
+  "keyIdeas": [
+    "Usa frases como 'In my opinion' o 'I believe' para presentar tu punto de vista de forma clara.",
+    "Para mostrar desacuerdo con educación, di 'I see your point, but...' en vez de atacar al compañero.",
+    "Escuchar activamente y respetar los turnos de palabra es la clave de un debate constructivo."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "3.1"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-01",
+      "type": "match",
+      "prompt": "Relaciona cada expresión en inglés con su función comunicativa en un debate:",
+      "explanation": "Estas frases clave te permiten intervenir con cortesía: dar tu opinión, coincidir, discrepar o invitar a otros a participar.",
+      "hint": "Fíjate en las palabras 'agree' (acuerdo) y 'opinion' (opinión).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "In my opinion...",
+          "right": "Dar tu punto de vista personal"
+        },
+        {
+          "left": "I completely agree.",
+          "right": "Mostrar total acuerdo con una idea"
+        },
+        {
+          "left": "I see your point, but...",
+          "right": "Mostrar desacuerdo de forma educada"
+        },
+        {
+          "left": "What do you think?",
+          "right": "Pedir la opinión a otra persona"
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-02",
+      "type": "fill-blank",
+      "prompt": "Elige la expresión adecuada para comenzar a dar tu opinión sobre el deporte:",
+      "explanation": "'In my opinion' sirve para introducir lo que tú piensas sobre un tema de debate.",
+      "hint": "Buscamos una fórmula para expresar un punto de vista.",
+      "lang": "en",
+      "sentence": "___, doing sport every day is great for our health and mood.",
+      "options": [
+        "Yesterday afternoon",
+        "Good morning",
+        "In my opinion"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-03",
+      "type": "true-false",
+      "prompt": "In a friendly debate, shouting louder than your classmates is the best way to convince them.",
+      "explanation": "En un debate nunca debemos gritar. Lo importante es dar buenos argumentos, escuchar con respeto y esperar el turno de palabra.",
+      "hint": "Piensa en las normas de convivencia y respeto en clase.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-04",
+      "type": "classify",
+      "prompt": "Clasifica estas frases según sirvan para mostrar acuerdo (Agreeing) o desacuerdo (Disagreeing):",
+      "explanation": "Expresiones como 'totally right' indican acuerdo, mientras que 'I disagree' o 'different opinion' expresan posturas contrarias.",
+      "hint": "Busca palabras como 'same' o 'right' para acuerdo, y 'different' o 'disagree' para desacuerdo.",
+      "lang": "en",
+      "categories": [
+        "Agreeing",
+        "Disagreeing"
+      ],
+      "items": [
+        {
+          "text": "I think exactly the same as you.",
+          "category": 0
+        },
+        {
+          "text": "I'm afraid I have a different opinion.",
+          "category": 1
+        },
+        {
+          "text": "You are totally right.",
+          "category": 0
+        },
+        {
+          "text": "I don't see it that way.",
+          "category": 1
+        },
+        {
+          "text": "That's a very good point.",
+          "category": 0
+        },
+        {
+          "text": "I disagree with that statement.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-05",
+      "type": "choice",
+      "prompt": "Hugo says: 'Cats make better pets than dogs because they are quiet.' Aisha loves dogs and wants to disagree politely. What should Aisha say?",
+      "explanation": "La respuesta cortés reconoce la idea de Hugo ('I see your point') y después expone su propio argumento sin ofender.",
+      "hint": "Elige la opción que muestre respeto y aporte una razón.",
+      "lang": "en",
+      "options": [
+        "Cats are bad and nobody should adopt them.",
+        "Your idea is terrible and you know nothing about pets!",
+        "I see your point, but dogs are very loyal and friendly."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-06",
+      "type": "order",
+      "prompt": "Ordena los pasos lógicos para construir una intervención sólida en un debate:",
+      "explanation": "Primero planteas tu postura, luego explicas el porqué, ilustras con un ejemplo y finalmente abres el diálogo al grupo.",
+      "hint": "Comienza por la idea principal y termina invitando a los demás a hablar.",
+      "lang": "en",
+      "items": [
+        "State your opinion clearly (e.g., 'In my opinion...')",
+        "Give a reason or evidence (e.g., 'Because...')",
+        "Provide a real-life example (e.g., 'For example...')",
+        "Ask for your classmate's opinion (e.g., 'What do you think?')"
+      ]
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-07",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra adecuada para contrastar dos ideas opuestas en una sola frase:",
+      "explanation": "Usamos 'but' (pero) para unir dos ideas contrastadas: un beneficio y un posible inconveniente.",
+      "hint": "Necesitas una conjunción que exprese contraste.",
+      "lang": "en",
+      "sentence": "Video games can help us solve problems, ___ playing too many hours is not good for our eyes.",
+      "options": [
+        "so",
+        "because",
+        "but"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-08",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto sobre un debate escolar y contesta a las preguntas:",
+      "explanation": "Un buen debate no busca que un bando destruya al otro, sino contrastar ideas con respeto para llegar a acuerdos.",
+      "lang": "en",
+      "title": "The Friday Class Debate",
+      "text": "Yesterday, Class 6B organized a debate about weekend homework. Their teacher, Mr Davis, wrote the question on the board: 'Should primary students have homework at weekends?' Lucas spoke first for the 'No Homework' team. 'In my opinion,' he argued, 'weekends are for resting, doing sports, and spending quality time with our families. If we work hard all week at school, our brains need a real break.' Many pupils nodded in agreement. Next, Martina presented the opposite view. 'I understand Lucas's point, but short tasks help us remember what we studied. For instance, reading ten pages of a book does not take much time, and it improves our vocabulary.' Finally, the class voted. Most pupils agreed that huge projects are stressful, but reading for pleasure is a great habit. Mr Davis smiled and proposed a compromise: optional weekend reading quests instead of long worksheets.",
+      "questions": [
+        {
+          "prompt": "What is Lucas's main argument against weekend homework?",
+          "explanation": "Lucas explica que el fin de semana sirve para descansar, hacer deporte y estar con la familia tras trabajar duro toda la semana.",
+          "options": [
+            "Teachers do not want to correct homework on Mondays.",
+            "Pupils never study during the regular school week.",
+            "Students need to rest, do sports, and spend time with family."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why did Mr Davis suggest 'optional reading quests' at the end of the lesson?",
+          "explanation": "El profesor buscó un punto intermedio (compromise) que permite disfrutar del descanso sin dejar de practicar la lectura.",
+          "options": [
+            "To punish the students who voted against homework.",
+            "To reach a fair balance between relaxation and learning.",
+            "Because nobody wanted to participate in the class debate."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What made Martina's intervention respectful and persuasive?",
+          "explanation": "Martina demostró cortesía al decir 'I understand Lucas's point, but...' antes de presentar su propio argumento y ejemplo.",
+          "options": [
+            "She claimed that Lucas's team had no good points at all.",
+            "She interrupted Lucas while he was giving his reasons.",
+            "She acknowledged Lucas's opinion before offering a counter-example."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-09",
+      "type": "choice",
+      "prompt": "Omar says: 'Public transport should be free for all children.' Which response is a constructive counter-argument?",
+      "explanation": "Un contraargumento constructivo respeta la idea inicial pero aporta un reto real: el coste de mantenimiento del transporte público.",
+      "hint": "Busca la opción que razone sobre el tema sin insultar ni desviarse de la conversación.",
+      "lang": "en",
+      "options": [
+        "I agree that it helps families, but cities need money to repair buses and trains.",
+        "That is a silly opinion and I will not listen to you.",
+        "Buses are big and yellow in some foreign countries."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-10",
+      "type": "match",
+      "prompt": "Relaciona cada conector en inglés con la función que cumple al defender tus ideas:",
+      "explanation": "Estos conectores avanzados ordenan el discurso: 'However' contrasta, 'Furthermore' añade, 'For instance' ejemplifica y 'Therefore' concluye.",
+      "hint": "'For instance' es similar a 'for example', y 'however' equivale a 'sin embargo'.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "However,",
+          "right": "Introducir una idea que contrasta con la anterior"
+        },
+        {
+          "left": "Furthermore,",
+          "right": "Añadir otro argumento de apoyo a tu favor"
+        },
+        {
+          "left": "For instance,",
+          "right": "Dar un ejemplo concreto de la vida real"
+        },
+        {
+          "left": "Therefore,",
+          "right": "Explicar una conclusión o resultado lógico"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T19:36:36.415Z",
+    "reviewed": false
+  }
+}

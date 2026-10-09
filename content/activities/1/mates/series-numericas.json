@@ -1,0 +1,207 @@
+{
+  "id": "g1-mates-series-numericas",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "series-numericas",
+  "temaNombre": "Series numéricas",
+  "title": "¡Jugamos con las series numéricas!",
+  "summary": "Practica cómo descubrir y continuar series de números sumando y restando.",
+  "keyIdeas": [
+    "Una serie sigue una regla fija.",
+    "Para avanzar, sumamos la misma cantidad cada vez.",
+    "Para retroceder, restamos la misma cantidad cada vez."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "3.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Sentido algebraico › Patrones",
+      "A. Sentido numérico › Conteo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-series-numericas-01",
+      "type": "fill-blank",
+      "prompt": "Completa los pasos de Lucía en el patio.",
+      "explanation": "Sumamos 1 en cada paso. Después del 7 va el 8.",
+      "hint": "Cuenta de uno en uno hacia adelante.",
+      "lang": "es",
+      "sentence": "Lucía cuenta sus pasos: 5, 6, 7, ___, 9.",
+      "options": [
+        "10",
+        "8",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-series-numericas-02",
+      "type": "choice",
+      "prompt": "Hugo salta baldosas de dos en dos: 2, 4, 6... ¿Qué número sigue?",
+      "explanation": "La serie suma 2 en cada salto. 6 + 2 = 8.",
+      "hint": "Añade dos al número 6.",
+      "lang": "es",
+      "options": [
+        "9",
+        "8",
+        "7"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-series-numericas-03",
+      "type": "order",
+      "prompt": "Ordena los números de diez en diez.",
+      "explanation": "Contamos de diez en diez: 10, 20, 30, 40 y 50.",
+      "lang": "es",
+      "items": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "50"
+      ]
+    },
+    {
+      "id": "g1-mates-series-numericas-04",
+      "type": "true-false",
+      "prompt": "En la serie 8, 7, 6, 5... el número siguiente es el 4.",
+      "explanation": "Es una serie que va hacia atrás. Restamos 1 cada vez: 5 - 1 = 4.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-mates-series-numericas-05",
+      "type": "choice",
+      "prompt": "Leo escribe esta serie de dos en dos: 2, 4, 5, 8. ¿Qué número está mal?",
+      "explanation": "La serie suma 2 cada vez. Debería estar el 6, no el 5.",
+      "hint": "Comprueba cuál no suma 2.",
+      "lang": "es",
+      "options": [
+        "El 8",
+        "El 5",
+        "El 4"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-series-numericas-06",
+      "type": "classify",
+      "prompt": "Clasifica cada serie según su regla.",
+      "explanation": "Unas series aumentan sumando 2. Las otras aumentan sumando 10.",
+      "lang": "es",
+      "categories": [
+        "Van de 2 en 2",
+        "Van de 10 en 10"
+      ],
+      "items": [
+        {
+          "text": "2, 4, 6, 8",
+          "category": 0
+        },
+        {
+          "text": "10, 20, 30, 40",
+          "category": 1
+        },
+        {
+          "text": "12, 14, 16, 18",
+          "category": 0
+        },
+        {
+          "text": "50, 60, 70, 80",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-series-numericas-07",
+      "type": "fill-blank",
+      "prompt": "Aisha cuenta cromos de cinco en cinco.",
+      "explanation": "Sumamos 5 en cada paso. 15 + 5 = 20.",
+      "hint": "Suma 5 al número 15.",
+      "lang": "es",
+      "sentence": "Aisha cuenta: 5, 10, 15, ___, 25.",
+      "options": [
+        "30",
+        "20",
+        "16"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-series-numericas-08",
+      "type": "match",
+      "prompt": "Une cada serie con su regla matemática.",
+      "explanation": "Cada serie cambia siguiendo una regla diferente de suma o resta.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "3, 4, 5, 6",
+          "right": "Suma 1"
+        },
+        {
+          "left": "10, 8, 6, 4",
+          "right": "Resta 2"
+        },
+        {
+          "left": "5, 10, 15, 20",
+          "right": "Suma 5"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-series-numericas-09",
+      "type": "choice",
+      "prompt": "Omar ahorra 2 euros al día: 2 €, 4 €, 6 €... ¿Cuánto tendrá el cuarto día?",
+      "explanation": "Sumamos 2 euros cada día: 6 + 2 = 8 euros.",
+      "hint": "Suma 2 euros más.",
+      "lang": "es",
+      "options": [
+        "9 euros",
+        "8 euros",
+        "7 euros"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-series-numericas-10",
+      "type": "order",
+      "prompt": "Ordena esta serie hacia atrás de dos en dos.",
+      "explanation": "Restamos 2 cada vez para bajar: 10, 8, 6, 4 y 2.",
+      "lang": "es",
+      "items": [
+        "10",
+        "8",
+        "6",
+        "4",
+        "2"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:52:01.644Z",
+    "reviewed": false
+  }
+}

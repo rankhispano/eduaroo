@@ -1,0 +1,216 @@
+{
+  "id": "g2-mates-figuras-lados-y-vertices",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "figuras-lados-y-vertices",
+  "temaNombre": "Figuras: lados y vértices",
+  "title": "Aventuras con lados y vértices",
+  "summary": "Practica cómo reconocer los lados y los vértices de las figuras planas.",
+  "keyIdeas": [
+    "Los lados son las líneas rectas que forman una figura plana.",
+    "Los vértices son las esquinitas donde se juntan dos lados rectos.",
+    "El círculo no tiene lados rectos ni vértices porque es redondo."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sentido espacial › Figuras geométricas de dos y tres dimensiones",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-01",
+      "type": "choice",
+      "prompt": "Lucía cuenta las esquinas de su cuaderno cuadrado. ¿Cómo se llaman esas esquinitas?",
+      "explanation": "Las esquinas donde se unen dos lados rectos se llaman vértices. Un cuadrado tiene 4 vértices.",
+      "hint": "Piensa en el nombre matemático de las esquinas.",
+      "lang": "es",
+      "options": [
+        "Círculos",
+        "Lados",
+        "Vértices"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-02",
+      "type": "true-false",
+      "prompt": "Una moneda redonda tiene tres vértices.",
+      "explanation": "El círculo es una línea curva cerrada. No tiene lados rectos ni esquinas, así que tiene 0 vértices.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-03",
+      "type": "match",
+      "prompt": "Une cada figura con su número de lados rectos:",
+      "explanation": "El triángulo tiene 3 lados, el rectángulo 4, el pentágono 5 y el círculo no tiene lados rectos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Triángulo",
+          "right": "3 lados"
+        },
+        {
+          "left": "Rectángulo",
+          "right": "4 lados"
+        },
+        {
+          "left": "Pentágono",
+          "right": "5 lados"
+        },
+        {
+          "left": "Círculo",
+          "right": "0 lados"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-04",
+      "type": "fill-blank",
+      "prompt": "Completa con la palabra adecuada:",
+      "explanation": "En las figuras planas con lados rectos hay tantos vértices como lados: 3 lados y 3 vértices.",
+      "lang": "es",
+      "sentence": "Un triángulo siempre tiene 3 lados y 3 ___.",
+      "options": [
+        "redondas",
+        "curvas",
+        "vértices"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-05",
+      "type": "classify",
+      "prompt": "Clasifica estos objetos según el número de lados rectos que tiene su forma plana:",
+      "explanation": "Las señales triangulares y la pizza tienen 3 lados. Las puertas, ventanas y sobres rectangulares tienen 4 lados.",
+      "lang": "es",
+      "categories": [
+        "3 lados",
+        "4 lados"
+      ],
+      "items": [
+        {
+          "text": "Señal de tráfico de peligro ⚠️",
+          "category": 0
+        },
+        {
+          "text": "Trozo de pizza triangular 🍕",
+          "category": 0
+        },
+        {
+          "text": "Puerta de la clase 🚪",
+          "category": 1
+        },
+        {
+          "text": "Ventana cuadrada 🪟",
+          "category": 1
+        },
+        {
+          "text": "Sobre de una carta ✉️",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-06",
+      "type": "choice",
+      "prompt": "Hugo construye una figura usando 4 pajitas iguales y 4 bolitas de plastilina en las esquinas. ¿Qué figura ha formado?",
+      "explanation": "Las 4 pajitas son los 4 lados iguales y las 4 bolitas son los 4 vértices del cuadrado.",
+      "hint": "Tiene 4 lados iguales.",
+      "lang": "es",
+      "options": [
+        "Un triángulo",
+        "Un cuadrado",
+        "Un círculo"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-07",
+      "type": "choice",
+      "prompt": "¿Encuentra el error! Omar dice: «Esta señal de STOP tiene 8 lados y 4 vértices». ¿Qué parte está mal?",
+      "explanation": "En un polígono siempre hay el mismo número de lados que de vértices. Si tiene 8 lados, tiene 8 vértices.",
+      "hint": "Recuerda que cada par de lados se junta en un vértice.",
+      "lang": "es",
+      "options": [
+        "El número de vértices: si tiene 8 lados, debe tener 8 vértices.",
+        "Todo está bien, las figuras tienen la mitad de esquinas.",
+        "El número de lados: todas las señales tienen solo 3 lados."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-08",
+      "type": "order",
+      "prompt": "Ordena estas figuras de MENOS a MÁS número de lados rectos:",
+      "explanation": "El orden de menor a mayor número de lados es: círculo (0), triángulo (3), rectángulo (4) y pentágono (5).",
+      "lang": "es",
+      "items": [
+        "Círculo",
+        "Triángulo",
+        "Rectángulo",
+        "Pentágono"
+      ]
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-09",
+      "type": "choice",
+      "prompt": "Aisha tiene 2 triángulos de cartulina. Cuenta todos los lados de los 2 triángulos juntos. ¿Cuántos lados cuenta mentalmente?",
+      "explanation": "Cada triángulo tiene 3 lados: 3 + 3 = 6 lados en total.",
+      "hint": "Suma los lados de un triángulo y otro.",
+      "lang": "es",
+      "options": [
+        "6 lados",
+        "5 lados",
+        "4 lados"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-10",
+      "type": "choice",
+      "prompt": "Martina dibuja una figura misteriosa. Tiene más lados que un triángulo, pero menos que un pentágono. ¿Cuántos vértices tiene su figura?",
+      "explanation": "Más de 3 lados y menos de 5 lados son 4 lados (un cuadrilátero). Por tanto, tiene exactamente 4 vértices.",
+      "hint": "¿Qué número está entre el 3 y el 5?",
+      "lang": "es",
+      "options": [
+        "3 vértices",
+        "5 vértices",
+        "4 vértices"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:04:02.250Z",
+    "reviewed": false
+  }
+}

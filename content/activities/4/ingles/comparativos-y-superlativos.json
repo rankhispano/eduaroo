@@ -1,0 +1,244 @@
+{
+  "id": "g4-ingles-comparativos-y-superlativos",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "comparativos-y-superlativos",
+  "temaNombre": "Comparativos y superlativos",
+  "title": "Comparatives and Superlatives Fun",
+  "summary": "Practica cómo comparar personas, animales y cosas en inglés usando comparativos (-er) y superlativos (-est).",
+  "keyIdeas": [
+    "Añadimos -er al adjetivo corto para comparar dos cosas, seguido de 'than' (taller than).",
+    "Usamos 'the' y añadimos -est al adjetivo para decir que algo es el número uno de un grupo (the tallest).",
+    "El adjetivo 'good' es especial e irregular: cambia a 'better' (comparativo) y 'the best' (superlativo)."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-01",
+      "type": "fill-blank",
+      "prompt": "Choose the correct comparative form:",
+      "explanation": "Comparamos a dos personas (Aisha y Hugo), así que añadimos -er al adjetivo corto: 'taller than'.",
+      "hint": "Para comparar dos elementos con un adjetivo corto, añadimos la terminación -er.",
+      "lang": "en",
+      "sentence": "Aisha is 140 cm and Hugo is 135 cm. Aisha is ___ than Hugo.",
+      "options": [
+        "taller",
+        "tallest",
+        "tall"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-02",
+      "type": "match",
+      "prompt": "Match each adjective with its comparative form:",
+      "explanation": "En inglés, los adjetivos cortos forman el comparativo sumando la terminación -er.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "fast",
+          "right": "faster"
+        },
+        {
+          "left": "small",
+          "right": "smaller"
+        },
+        {
+          "left": "cold",
+          "right": "colder"
+        },
+        {
+          "left": "clean",
+          "right": "cleaner"
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-03",
+      "type": "true-false",
+      "prompt": "In English, we say: 'An elephant is bigger than a dog.'",
+      "explanation": "Es correcto. Para comparar usamos la palabra 'than' después del adjetivo comparativo ('bigger than').",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-04",
+      "type": "fill-blank",
+      "prompt": "Complete the superlative sentence:",
+      "explanation": "Usamos el superlativo (-est) precedido de 'the' porque comparamos a la ballena azul con todos los animales del mundo.",
+      "hint": "Fíjate en la palabra 'the' delante del hueco.",
+      "lang": "en",
+      "sentence": "The blue whale is the ___ animal in the world.",
+      "options": [
+        "biggest",
+        "big",
+        "bigger"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-05",
+      "type": "classify",
+      "prompt": "Classify the words into comparatives or superlatives:",
+      "explanation": "Los comparativos terminan en -er para comparar dos cosas, mientras que los superlativos llevan 'the' y terminan en -est.",
+      "lang": "en",
+      "categories": [
+        "Comparatives (-er)",
+        "Superlatives (-est)"
+      ],
+      "items": [
+        {
+          "text": "slower",
+          "category": 0
+        },
+        {
+          "text": "the oldest",
+          "category": 1
+        },
+        {
+          "text": "stronger",
+          "category": 0
+        },
+        {
+          "text": "the highest",
+          "category": 1
+        },
+        {
+          "text": "shorter",
+          "category": 0
+        },
+        {
+          "text": "the smallest",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-06",
+      "type": "choice",
+      "prompt": "Omar's school bag is 5 kg. Martina's school bag is 3 kg. What can we say?",
+      "explanation": "La mochila de Omar pesa más (5 kg) que la de Martina (3 kg), por lo que es más pesada ('heavier than').",
+      "hint": "Comprueba cuál de las dos mochilas tiene más peso en kilogramos.",
+      "lang": "en",
+      "options": [
+        "Omar's bag is the lightest bag.",
+        "Martina's bag is heavier than Omar's bag.",
+        "Omar's bag is heavier than Martina's bag."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-07",
+      "type": "order",
+      "prompt": "Order the animals from slowest to fastest based on these clues: A rabbit is faster than a turtle. A cheetah is the fastest of all.",
+      "explanation": "La tortuga es la más lenta, el conejo es más rápido que la tortuga y el guepardo es el más rápido de todos.",
+      "lang": "en",
+      "items": [
+        "turtle",
+        "rabbit",
+        "cheetah"
+      ]
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-08",
+      "type": "fill-blank",
+      "prompt": "Choose the irregular comparative form for 'good':",
+      "explanation": "El adjetivo 'good' es irregular. No decimos 'gooder', sino 'better than'.",
+      "hint": "'Good' cambia de forma por completo al comparar dos cosas.",
+      "lang": "en",
+      "sentence": "My bike is good, but your bike is ___ than mine.",
+      "options": [
+        "gooder",
+        "better",
+        "the best"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-09",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions:",
+      "explanation": "Al leer con atención las medidas y descripciones podemos identificar quién supera a quién en cada prueba.",
+      "lang": "en",
+      "title": "Sports Day at School",
+      "text": "Today is Sports Day at school. Lucía, Adrián, and Wei are running a race. Adrián is very fast, but Wei is faster than Adrián. Lucía is the fastest runner in the class! She wins the gold medal. Next, they do the high jump. Adrián jumps 1 metre. Lucía jumps 1 metre and 10 centimetres. Wei jumps 1 metre and 20 centimetres. Wei is the highest jumper today. All the children are very happy. It is the best day of the week!",
+      "questions": [
+        {
+          "prompt": "Who is the fastest runner in the race?",
+          "explanation": "El texto dice explícitamente: 'Lucía is the fastest runner in the class!'.",
+          "options": [
+            "Wei",
+            "Adrián",
+            "Lucía"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Who jumps higher, Wei or Adrián?",
+          "explanation": "Wei salta 1 m 20 cm y Adrián salta 1 m, por lo que Wei salta más alto ('Wei is the highest jumper').",
+          "options": [
+            "They jump the same height.",
+            "Adrián jumps higher than Wei.",
+            "Wei jumps higher than Adrián."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-10",
+      "type": "choice",
+      "prompt": "Mount Everest is 8,849 metres high. No mountain on Earth is taller. Mount Everest is the ___ mountain in the world.",
+      "explanation": "Como es el número uno de todas las montañas del mundo, usamos el superlativo: 'the highest'.",
+      "hint": "Buscamos la forma superlativa para la montaña número uno del planeta.",
+      "lang": "en",
+      "options": [
+        "highest",
+        "higher",
+        "high",
+        "more high"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:12:47.419Z",
+    "reviewed": false
+  }
+}

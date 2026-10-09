@@ -1,0 +1,254 @@
+{
+  "id": "g5-naturales-la-tierra-movimientos",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "la-tierra-movimientos",
+  "temaNombre": "La Tierra: movimientos",
+  "title": "La Tierra en constante movimiento",
+  "summary": "Repasa los movimientos de rotación y traslación de la Tierra y sus efectos en nuestro planeta.",
+  "keyIdeas": [
+    "La rotación es el giro de la Tierra sobre su propio eje inclinado y dura 24 horas, originando el día y la noche.",
+    "La traslación es el recorrido alrededor del Sol durante 365 días y 6 horas, que junto a la inclinación del eje causa las estaciones.",
+    "Las estaciones no se deben a la distancia al Sol, sino a la inclinación del eje terrestre respecto a los rayos solares."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-la-tierra-movimientos-01",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el giro de nuestro planeta sobre sí mismo.",
+      "explanation": "La rotación es el movimiento de giro sobre su propio eje imaginario. Tarda unas 24 horas y da lugar al día y a la noche.",
+      "hint": "Piensa en el movimiento como una peonza que da vueltas sobre sí misma.",
+      "lang": "es",
+      "sentence": "El movimiento de ___ hace que la Tierra gire sobre su propio eje y provoca la sucesión de los días y las noches.",
+      "options": [
+        "traslación",
+        "rotación",
+        "órbita"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-02",
+      "type": "true-false",
+      "prompt": "La Tierra tarda exactamente 365 días en dar una vuelta completa alrededor del Sol.",
+      "explanation": "La Tierra tarda 365 días y casi 6 horas en completar su órbita. Por eso, cada cuatro años sumamos un día en febrero (año bisiesto).",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-03",
+      "type": "match",
+      "prompt": "Relaciona cada movimiento terrestre con su consecuencia o característica principal.",
+      "explanation": "La rotación produce los días y las noches, la traslación dura un año y, combinada con la inclinación del eje, produce las cuatro estaciones.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Rotación",
+          "right": "Sucesión del día y la noche en 24 horas"
+        },
+        {
+          "left": "Traslación",
+          "right": "Recorrido de la órbita durante un año"
+        },
+        {
+          "left": "Eje inclinado",
+          "right": "Llegada desigual de los rayos solares y estaciones"
+        },
+        {
+          "left": "Año bisiesto",
+          "right": "Ajuste de las 6 horas sobrantes cada cuatro años"
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-04",
+      "type": "classify",
+      "prompt": "Clasifica estos fenómenos según deriven directamente de la rotación o de la traslación combinada con el eje inclinado.",
+      "explanation": "La rotación explica los ritmos diarios y horarios, mientras que la traslación con la inclinación del eje explica los cambios a lo largo del año.",
+      "lang": "es",
+      "categories": [
+        "Consecuencia de la rotación",
+        "Consecuencia de la traslación"
+      ],
+      "items": [
+        {
+          "text": "Amaneceres y atardeceres diarios",
+          "category": 0
+        },
+        {
+          "text": "Las cuatro estaciones del año",
+          "category": 1
+        },
+        {
+          "text": "Variación de la duración del día y la noche según la época",
+          "category": 1
+        },
+        {
+          "text": "El movimiento aparente del Sol de este a oeste",
+          "category": 0
+        },
+        {
+          "text": "Los cambios en la vegetación a lo largo de los meses",
+          "category": 1
+        },
+        {
+          "text": "La diferencia horaria entre países lejanos",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-05",
+      "type": "choice",
+      "prompt": "Encuentra el error científico en la siguiente explicación de Martín: «En España hace más calor en julio porque la Tierra está mucho más cerca del Sol que en enero». ¿Por qué es una idea equivocada? ☀️",
+      "explanation": "La órbita es casi circular y en julio el hemisferio norte está inclinado hacia el Sol, recibiendo los rayos más perpendiculares, aunque la Tierra esté ligeramente más alejada.",
+      "hint": "Recuerda que cuando en España es verano, en Argentina es invierno.",
+      "lang": "es",
+      "options": [
+        "Porque la Tierra no se mueve alrededor del Sol, sino que el Sol gira alrededor de la Tierra.",
+        "Porque la distancia al Sol cambia tanto cada mes que en invierno nos congelaríamos por completo.",
+        "Porque el Sol apaga parte de su calor en invierno y en verano brilla con mayor potencia lumínica.",
+        "Porque en julio la Tierra está en realidad algo más lejos del Sol; el calor depende de la inclinación con que inciden los rayos solares."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-06",
+      "type": "order",
+      "prompt": "Ordena cronológicamente las estaciones en el hemisferio norte empezando por el comienzo del año civil.",
+      "explanation": "El año civil comienza en enero durante el invierno (en el hemisferio norte), seguido por la primavera en marzo, el verano en junio y el otoño en septiembre.",
+      "lang": "es",
+      "items": [
+        "Invierno",
+        "Primavera",
+        "Verano",
+        "Otoño"
+      ]
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-07",
+      "type": "choice",
+      "prompt": "Aisha vive en Madrid y llama por videollamada a su prima que vive en Sídney (Australia) el 24 de diciembre. Mientras Aisha lleva jersey de lana y mira llover, su prima está en la playa con bañador. ¿Cómo se explica científicamente esta diferencia? 🏖️",
+      "explanation": "Los hemisferios norte y sur tienen estaciones opuestas porque cuando un polo se inclina hacia el Sol, el otro queda inclinado en sentido contrario.",
+      "hint": "Fíjate en qué hemisferio está cada país y cómo inciden los rayos del Sol.",
+      "lang": "es",
+      "options": [
+        "En Australia el Sol sale por el oeste, lo que calienta mucho más rápido los océanos durante el mes de diciembre.",
+        "Debido a la inclinación del eje terrestre, el hemisferio sur está inclinado hacia el Sol en diciembre, recibiendo más radiación solar.",
+        "La Luna refleja el calor solar directamente sobre Australia durante los últimos meses del año.",
+        "El movimiento de rotación va más rápido en el hemisferio sur, generando fricción y más calor ambiental."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-08",
+      "type": "choice",
+      "prompt": "Razonamiento científico: Hugo clava un lápiz vertical en el suelo del patio a las 9:00, a las 12:00 y a las 15:00 en un día soleado de otoño. ¿Qué observación registrará en su cuaderno sobre la sombra proyectada? ✏️",
+      "explanation": "A mediodía el Sol alcanza su posición más alta en el cielo, por lo que la sombra proyectada es más corta. Al estar más bajo por la mañana y la tarde, las sombras son más alargadas.",
+      "hint": "Imagina cómo varía la altura del Sol a lo largo del día por la rotación.",
+      "lang": "es",
+      "options": [
+        "La sombra cambia de longitud y dirección: es más larga por la mañana y por la tarde, y más corta a mediodía.",
+        "La sombra permanece exactamente del mismo tamaño y apuntando siempre hacia el sur durante todo el día.",
+        "La sombra desaparece por completo a las 12:00 y vuelve a crecer con el mismo tamaño a las 15:00.",
+        "La sombra aumenta de longitud continuamente desde que amanece hasta que se hace de noche sin encogerse nunca."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-09",
+      "type": "reading",
+      "prompt": "Lee atentamente la entrada del diario científico de Lucía y responde a las preguntas.",
+      "explanation": "El experimento demuestra cómo la inclinación fija del eje durante la traslación es la causa fundamental de las estaciones y de las noches polares.",
+      "lang": "es",
+      "title": "Un experimento con linterna y naranja",
+      "text": "Hoy en clase de Ciencias investigamos por qué los polos pasan meses en penumbra. Nuestra maestra Nerea nos repartió una naranja atravesada con un palillo de brocheta ligeramente inclinado y una linterna fija. La linterna simulaba el Sol y la naranja representaba la Tierra con su eje.\n\nAl hacer girar la naranja sobre el palillo sin variar su inclinación, observamos que la mitad iluminada cambiaba continuamente, demostrando el día y la noche. Pero lo más sorprendente ocurrió al trasladar la naranja en círculo manteniendo el palillo apuntando siempre hacia la misma pared del aula.\n\nDurante una parte del recorrido, el extremo superior del palillo (el polo norte) quedaba permanentemente iluminado al rotar: era el solsticio de verano boreal. En cambio, el polo sur permanecía a oscuras durante giros enteros. Comprendí que no necesitamos que la Tierra se acerque o se aleje del Sol para que cambie la temperatura; basta con que los rayos caigan más inclinados para que calienten menos superficie.",
+      "questions": [
+        {
+          "prompt": "¿Qué objeto del experimento representaba el eje terrestre de rotación?",
+          "explanation": "El texto explica claramente que la naranja estaba atravesada por un palillo que simulaba el eje de rotación de la Tierra.",
+          "options": [
+            "El palillo de brocheta inclinado",
+            "La pared del aula",
+            "La bombilla de la linterna",
+            "La cáscara de la naranja"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué se puede deducir sobre lo que ocurriría en los polos si el eje de la Tierra no estuviese inclinado?",
+          "explanation": "Sin inclinación axial, los rayos solares incidirían siempre con el mismo ángulo durante todo el año, haciendo que el día y la noche durasen lo mismo en cualquier latitud y desapareciendo las estaciones.",
+          "options": [
+            "Todos los días del año tendrían exactamente 12 horas de luz y 12 horas de oscuridad en todo el planeta.",
+            "Los polos se congelarían por completo y la Tierra dejaría de girar en su órbita.",
+            "El polo norte estaría siempre iluminado y el polo sur siempre a oscuras durante todo el año.",
+            "El Sol brillaría con el doble de intensidad en todas las regiones del planeta al mismo tiempo."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué es importante mantener el eje apuntando siempre en la misma dirección durante el experimento de traslación?",
+          "explanation": "El eje de la Tierra mantiene una inclinación casi fija en el espacio (apuntando hacia la Estrella Polar), lo que produce la alternancia regular de las estaciones al orbitar el Sol.",
+          "options": [
+            "Para evitar que la naranja se caiga de la mesa durante la demostración en el aula.",
+            "Porque la gravedad de la Luna obliga a la Tierra a cambiar de eje cuatro veces al año.",
+            "Porque si se cambia de dirección, la linterna se sobrecalienta y pierde intensidad de luz.",
+            "Porque en el espacio real el eje terrestre mantiene su orientación constante respecto a las estrellas lejanas."
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-10",
+      "type": "choice",
+      "prompt": "Imagina que un equipo de astrónomos descubre un exoplaneta idéntico a la Tierra, pero su eje no tiene ninguna inclinación (es totalmente perpendicular a su órbita). ¿Qué afirmación científica describe con rigor la vida en ese planeta? 🪐",
+      "explanation": "Al no existir inclinación del eje, el ángulo con el que inciden los rayos solares en cada latitud sería constante a lo largo de todo el año, eliminando las estaciones térmicas.",
+      "hint": "Recuerda cuál es el factor determinante para que existan primavera, verano, otoño e invierno.",
+      "lang": "es",
+      "options": [
+        "Una mitad del planeta se quemaría con fuego eterno y la otra mitad quedaría congelada sin luz solar jamás.",
+        "El planeta tendría seis estaciones al año porque giraría mucho más deprisa sobre sí mismo.",
+        "No existirían estaciones del año; cada zona del planeta tendría el mismo clima y la misma duración de luz día tras día.",
+        "El año duraría el doble de días porque la traslación se volvería dos veces más lenta sin inclinación."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:08:07.932Z",
+    "reviewed": false
+  }
+}

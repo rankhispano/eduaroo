@@ -1,0 +1,236 @@
+{
+  "id": "g4-lengua-sinonimos-y-antonimos",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "sinonimos-y-antonimos",
+  "temaNombre": "Sinónimos y antónimos",
+  "title": "El poder de las palabras",
+  "summary": "Practica el uso de sinónimos y antónimos para enriquecer tus textos y comprender mejor lo que lees.",
+  "keyIdeas": [
+    "Los sinónimos son palabras que tienen un significado igual o muy parecido.",
+    "Los antónimos son palabras que expresan significados contrarios u opuestos.",
+    "Usar sinónimos ayuda a no repetir palabras y a mejorar nuestras redacciones."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-01",
+      "type": "true-false",
+      "prompt": "Dos palabras son sinónimas si tienen significados contrarios u opuestos.",
+      "explanation": "Las palabras con significado contrario son antónimas. Las palabras sinónimas comparten un significado igual o muy parecido.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-02",
+      "type": "match",
+      "prompt": "Une cada palabra con su sinónimo correspondiente:",
+      "explanation": "Estas parejas expresan la misma idea con distintas palabras: veloz es rápido, comenzar es empezar, alegre es contento y conversar es hablar.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "veloz",
+          "right": "rápido"
+        },
+        {
+          "left": "comenzar",
+          "right": "empezar"
+        },
+        {
+          "left": "alegre",
+          "right": "contento"
+        },
+        {
+          "left": "conversar",
+          "right": "hablar"
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-03",
+      "type": "choice",
+      "prompt": "En el comedor del colegio, Hugo dice que la sopa está muy caliente. ¿Qué palabra expresa lo contrario?",
+      "explanation": "El antónimo de caliente es fría, ya que expresa la temperatura totalmente opuesta.",
+      "hint": "Busca la palabra que signifique lo opuesto de caliente.",
+      "lang": "es",
+      "options": [
+        "Fría",
+        "Sabrosa",
+        "Humeante"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-04",
+      "type": "classify",
+      "prompt": "Clasifica estas parejas de palabras según la relación que tienen entre sí:",
+      "explanation": "Las parejas con significados semejantes son sinónimos, mientras que las parejas con significados opuestos son antónimos.",
+      "lang": "es",
+      "categories": [
+        "Sinónimos",
+        "Antónimos"
+      ],
+      "items": [
+        {
+          "text": "enorme / gigante",
+          "category": 0
+        },
+        {
+          "text": "subir / bajar",
+          "category": 1
+        },
+        {
+          "text": "limpio / sucio",
+          "category": 1
+        },
+        {
+          "text": "inteligente / listo",
+          "category": 0
+        },
+        {
+          "text": "abrir / cerrar",
+          "category": 1
+        },
+        {
+          "text": "bonito / hermoso",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-05",
+      "type": "reading",
+      "prompt": "Lee atentamente la historia del parque y contesta a las preguntas:",
+      "explanation": "Identificar sinónimos y antónimos en una lectura ayuda a comprender los sentimientos de los personajes y sus acciones.",
+      "lang": "es",
+      "title": "El rescate del gatito",
+      "text": "Ayer por la tarde, Lucía y Martín paseaban por el parque municipal. De pronto, escucharon un maullido débil entre las ramas de un árbol frondoso. Un pequeño gato negro parecía asustado y no se atrevía a descender. Lucía buscó ayuda rápidamente y avisó a la jardinera del parque. Con una escalera alta y mucha paciencia, la mujer logró alcanzarlo. El felino, que antes temblaba de miedo, se mostró aliviado y comenzó a ronronear con calma. Los dos amigos regresaron a su casa muy contentos por haber ayudado al animal.",
+      "questions": [
+        {
+          "prompt": "¿Qué palabra del texto significa lo mismo que 'bajar'?",
+          "explanation": "Descender y bajar son palabras sinónimas porque ambas indican ir de un lugar alto a otro más bajo.",
+          "options": [
+            "Descender",
+            "Alcanzar",
+            "Pasear"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Cuál es el antónimo de 'aliviado' según el estado de ánimo del gato al principio?",
+          "explanation": "Al principio el gato estaba asustado, que es lo contrario de sentirse tranquilo o aliviado al final.",
+          "options": [
+            "Asustado",
+            "Tranquilo",
+            "Frondoso"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-06",
+      "type": "fill-blank",
+      "prompt": "Elige el sinónimo adecuado para evitar repetir la misma palabra en la frase:",
+      "explanation": "Fascinante es sinónimo de emocionante. Usarlo evita la repetición y mantiene el significado positivo del texto.",
+      "lang": "es",
+      "sentence": "Aisha leyó un cuento emocionante y después escribió un relato igual de ___.",
+      "options": [
+        "corto",
+        "aburrido",
+        "fascinante"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-07",
+      "type": "choice",
+      "prompt": "Nerea ha escrito parejas de antónimos en su libreta, pero ha cometido un error. ¿Qué pareja NO son antónimos?",
+      "explanation": "Antiguo y viejo significan lo mismo, por lo que son sinónimos y no antónimos.",
+      "hint": "Busca la pareja que tenga el mismo significado en vez de signficados contrarios.",
+      "lang": "es",
+      "options": [
+        "Fácil / difícil",
+        "Silencioso / ruidoso",
+        "Ancho / estrecho",
+        "Antiguo / viejo"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-08",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el antónimo adecuado formado con prefijo:",
+      "explanation": "Injusto es el antónimo de justo y se forma añadiendo el prefijo in-.",
+      "lang": "es",
+      "sentence": "La maestra explicó que romper las normas del recreo es un acto ___.",
+      "options": [
+        "correcto",
+        "descalzo",
+        "injusto"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-09",
+      "type": "choice",
+      "prompt": "Omar escribe: 'El examen de música fue muy duro'. ¿Qué sinónimo encaja mejor con 'duro' en este contexto?",
+      "explanation": "En el contexto de una prueba escolar, duro significa difícil o complejo, no que sea un objeto sólido.",
+      "hint": "Piensa qué significa la palabra aplicada a una prueba del colegio.",
+      "lang": "es",
+      "options": [
+        "Rígido",
+        "Sólido",
+        "Difícil"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-10",
+      "type": "order",
+      "prompt": "Ordena estos adjetivos de MENOR a MAYOR tamaño según su significado:",
+      "explanation": "La escala de tamaño va desde lo más reducido hasta lo más grande: diminuto, pequeño, grande y gigante.",
+      "lang": "es",
+      "items": [
+        "diminuto",
+        "pequeño",
+        "grande",
+        "gigante"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:45:19.763Z",
+    "reviewed": false
+  }
+}

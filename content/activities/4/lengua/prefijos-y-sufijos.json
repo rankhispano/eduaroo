@@ -1,0 +1,229 @@
+{
+  "id": "g4-lengua-prefijos-y-sufijos",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "prefijos-y-sufijos",
+  "temaNombre": "Prefijos y sufijos",
+  "title": "Mundo de prefijos y sufijos",
+  "summary": "Descubre cómo cambian las palabras al añadir prefijos al principio o sufijos al final.",
+  "keyIdeas": [
+    "Los prefijos se añaden al principio de una palabra para formar otra nueva con distinto significado.",
+    "Los sufijos se colocan al final de la palabra y pueden crear profesiones, lugares o cualidades.",
+    "Reconocer la raíz o palabra primitiva te ayuda a entender palabras que no conoces."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-01",
+      "type": "true-false",
+      "prompt": "En la palabra «submarino», la partícula «sub-» es un prefijo porque va colocada delante de la palabra base.",
+      "explanation": "Los prefijos se colocan antes de la palabra base o raíz para modificar su significado. Aquí «sub-» significa debajo de.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-02",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según lleven un prefijo o un sufijo:",
+      "explanation": "Deshacer, imposible y recolocar llevan partículas al inicio. Panadería, campanario y violinista tienen terminaciones añadidas al final.",
+      "lang": "es",
+      "categories": [
+        "Lleva prefijo",
+        "Lleva sufijo"
+      ],
+      "items": [
+        {
+          "text": "deshacer",
+          "category": 0
+        },
+        {
+          "text": "panadería",
+          "category": 1
+        },
+        {
+          "text": "imposible",
+          "category": 0
+        },
+        {
+          "text": "campanario",
+          "category": 1
+        },
+        {
+          "text": "recolocar",
+          "category": 0
+        },
+        {
+          "text": "violinista",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-03",
+      "type": "match",
+      "prompt": "Une cada prefijo con el significado que aporta a la palabra:",
+      "explanation": "Cada prefijo cambia el sentido: des- indica lo contrario, re- repetir, pre- anterioridad y sub- debajo.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "des- (despeinar)",
+          "right": "Acción contraria"
+        },
+        {
+          "left": "re- (releer)",
+          "right": "Repetición"
+        },
+        {
+          "left": "pre- (prehistoria)",
+          "right": "Antes de"
+        },
+        {
+          "left": "sub- (subsuelo)",
+          "right": "Por debajo de"
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra adecuada para indicar profesión:",
+      "explanation": "El sufijo «-ero» se usa para formar nombres de oficios y profesiones a partir de una raíz.",
+      "hint": "Fíjate en qué palabra nombra a una persona.",
+      "lang": "es",
+      "sentence": "La persona que diseña y construye jardines con plantas preciosas es un gran ___.",
+      "options": [
+        "jardincito",
+        "jardinero",
+        "jardinería"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-05",
+      "type": "choice",
+      "prompt": "Aisha dice que la palabra «pescado» lleva el prefijo «pes-». ¿Tiene razón?",
+      "explanation": "No todas las letras iniciales son prefijos. «Pescado» procede del verbo «pescar» y no tiene ningún prefijo.",
+      "hint": "Piensa si «cado» existe por sí sola como palabra base.",
+      "lang": "es",
+      "options": [
+        "Sí, porque todos los animales acuáticos llevan prefijo.",
+        "No, porque «pescado» viene de pescar y no lleva prefijo.",
+        "Sí, porque «pes-» va al principio de la palabra."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-06",
+      "type": "reading",
+      "prompt": "Lee el texto sobre el taller del colegio y responde:",
+      "explanation": "El texto muestra palabras derivadas: ultrarrápido tiene prefijo y científica lleva sufijo.",
+      "lang": "es",
+      "title": "El invento de Mateo",
+      "text": "En el taller de ciencias, Mateo presentó su invento: un monopatín ultrarrápido con ruedas recargables. Su amiga Martina, que sueña con ser científica, lo examinó con curiosidad. Mateo explicó que el motor era completamente silencioso para no molestar a los vecinos. Toda la clase aplaudió entusiasmada al ver que el vehículo se movía con suavidad por el patio.",
+      "questions": [
+        {
+          "prompt": "¿Qué palabra del texto contiene un prefijo que significa «muy» o «en grado extremo»?",
+          "explanation": "El prefijo «ultra-» significa muy o en grado superior al normal.",
+          "options": [
+            "silencioso",
+            "recargables",
+            "ultrarrápido"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "En la palabra «científica», ¿qué función cumple el sufijo «-ífica»?",
+          "explanation": "El sufijo «-ífica» o «-ico» sirve para designar a la persona especialista en esa disciplina.",
+          "options": [
+            "Indica lo contrario de tener ciencia.",
+            "Indica la persona que se dedica a esa profesión.",
+            "Indica el lugar donde se trabaja."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-07",
+      "type": "choice",
+      "prompt": "Encuentra el error. ¿En qué frase se ha usado mal la palabra con prefijo?",
+      "explanation": "Para que una mesa quede limpia se debe «ordenar», no «desordenar». El prefijo «des-» indica lo contrario.",
+      "hint": "Busca la acción que no encaja con el resultado deseado.",
+      "lang": "es",
+      "options": [
+        "Martina intentó desordenar su mesa para que quedase limpia y recogida.",
+        "Hugo metió la tarta en el horno para descongelarla antes de comer.",
+        "El árbitro consideró que la jugada era legal y continuó el partido."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-08",
+      "type": "order",
+      "prompt": "Ordena los pasos lógicos para formar una nueva palabra a partir del verbo «marcar»:",
+      "explanation": "Primero reconocemos la palabra base, luego elegimos el afijo según el significado y al final componemos la nueva palabra.",
+      "lang": "es",
+      "items": [
+        "Identificar la palabra base: «marcar».",
+        "Elegir el prefijo «re-» para indicar repetición.",
+        "Unir ambas partes para obtener la palabra «remarcar»."
+      ]
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-09",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra que completa la oración según la norma ortográfica de los prefijos:",
+      "explanation": "Se escribe «in-» delante de consonantes que no sean b ni p. Delante de c usamos «in-», por eso es «increíble».",
+      "hint": "Recuerda que solo se escribe «m» delante de «p» y «b».",
+      "lang": "es",
+      "sentence": "La noticia era tan extraña que a todos les pareció algo completamente ___.",
+      "options": [
+        "descreíble",
+        "imcreíble",
+        "increíble"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-10",
+      "type": "choice",
+      "prompt": "Omar quiere inventar el nombre de un lugar donde solo venden libretas y cuadernos. ¿Qué sufijo de lugar debe usar?",
+      "explanation": "El sufijo «-ería» indica tienda o establecimiento donde se vende algo, como pastelería o frutería.",
+      "hint": "Piensa en palabras como zapatería, panadería o pescadería.",
+      "lang": "es",
+      "options": [
+        "El sufijo «-ero», para formar «libretero».",
+        "El sufijo «-oso», para formar «libretoso».",
+        "El sufijo «-ería», para formar «libretería»."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:40:22.220Z",
+    "reviewed": false
+  }
+}

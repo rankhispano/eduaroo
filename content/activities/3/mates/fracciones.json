@@ -1,0 +1,230 @@
+{
+  "id": "g3-mates-fracciones",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "fracciones",
+  "temaNombre": "Fracciones",
+  "title": "Aventuras con las fracciones cotidianas",
+  "summary": "Practicarás el significado de las fracciones, sus términos y cómo usarlas para resolver problemas cotidianos.",
+  "keyIdeas": [
+    "El denominador indica las partes iguales en que dividimos la unidad.",
+    "El numerador indica cuántas de esas partes seleccionamos o tomamos.",
+    "Si dividimos algo en más trozos iguales, cada trozo se hace más pequeño."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-fracciones-01",
+      "type": "match",
+      "prompt": "Une cada fracción con la forma correcta de leerla:",
+      "explanation": "El número de arriba se lee como cardinal (un, dos, tres) y el de abajo nombra el tamaño de las partes (medios, tercios, cuartos).",
+      "hint": "Recuerda que el 2 abajo representa medios y el 4 representa cuartos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "1/2",
+          "right": "Un medio"
+        },
+        {
+          "left": "1/4",
+          "right": "Un cuarto"
+        },
+        {
+          "left": "3/4",
+          "right": "Tres cuartos"
+        },
+        {
+          "left": "2/3",
+          "right": "Dos tercios"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-fracciones-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el término correcto:",
+      "explanation": "El denominador indica el total de partes iguales en que se parte la unidad. El numerador indica cuántas tomamos.",
+      "hint": "Piensa en el número que 'denomina' o da nombre al tipo de partes.",
+      "lang": "es",
+      "sentence": "En una fracción, el número de abajo se llama ___ e indica las partes iguales en que se divide la unidad.",
+      "options": [
+        "numerador",
+        "denominador",
+        "resultado"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-fracciones-03",
+      "type": "true-false",
+      "prompt": "Para poder representar una fracción, todas las partes en las que se divide el objeto deben ser de igual tamaño.",
+      "explanation": "Una fracción solo existe cuando la unidad se reparte en partes exactamente iguales.",
+      "hint": "Fíjate si puedes repartir una tarta en trozos desiguales y llamarlos cuartos.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-fracciones-04",
+      "type": "choice",
+      "prompt": "Martina divide una empanada en 8 porciones iguales. En la cena se comen 5 porciones. ¿Qué fracción de la empanada queda?",
+      "explanation": "La empanada completa tiene 8/8. Si se comen 5/8, restamos 8 - 5 = 3 porciones. Quedan 3/8 de empanada.",
+      "hint": "Calcula cuántas porciones sobran del total de 8.",
+      "lang": "es",
+      "options": [
+        "3/5",
+        "5/8",
+        "3/8"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-fracciones-05",
+      "type": "classify",
+      "prompt": "Clasifica estas fracciones según su relación con la unidad completa:",
+      "explanation": "Si el numerador es igual al denominador, la fracción representa la unidad entera. Si el numerador es menor, representa menos de la unidad.",
+      "hint": "Compara el número de arriba con el de abajo.",
+      "lang": "es",
+      "categories": [
+        "Menor que la unidad",
+        "Igual a la unidad"
+      ],
+      "items": [
+        {
+          "text": "3/5",
+          "category": 0
+        },
+        {
+          "text": "4/4",
+          "category": 1
+        },
+        {
+          "text": "1/6",
+          "category": 0
+        },
+        {
+          "text": "8/8",
+          "category": 1
+        },
+        {
+          "text": "5/7",
+          "category": 0
+        },
+        {
+          "text": "2/2",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-fracciones-06",
+      "type": "choice",
+      "prompt": "¡Encuentra el error! Omar dice: «1/6 de tarta es más grande que 1/2 de tarta porque 6 es mayor que 2». ¿Qué error comete Omar?",
+      "explanation": "Al dividir la tarta en 6 partes, cada trozo es mucho más pequeño que si solo la dividimos en 2 partes.",
+      "hint": "Piensa si prefieres media tarta o un sexto de tarta.",
+      "lang": "es",
+      "options": [
+        "Debió sumar 6 + 2 para saber qué trozo es mayor.",
+        "No comete ningún error, 1/6 siempre es mayor que 1/2.",
+        "Olvida que, cuantos más trozos hacemos, más pequeño es cada trozo."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-fracciones-07",
+      "type": "choice",
+      "prompt": "Aisha tiene un estuche con 12 rotuladores. Un cuarto (1/4) de los rotuladores son de color verde. ¿Cuántos rotuladores verdes tiene?",
+      "explanation": "Para calcular 1/4 de 12, dividimos la cantidad total entre 4: 12 ÷ 4 = 3 rotuladores.",
+      "hint": "Reparte 12 rotuladores en 4 grupos iguales.",
+      "lang": "es",
+      "options": [
+        "3 rotuladores",
+        "4 rotuladores",
+        "6 rotuladores"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-fracciones-08",
+      "type": "order",
+      "prompt": "Ordena estas fracciones de menor a mayor cantidad:",
+      "explanation": "Cuando las fracciones tienen el mismo denominador, es menor la que tiene el numerador más pequeño.",
+      "hint": "Todas las partes son octavos; mira solo cuántas partes se toman.",
+      "lang": "es",
+      "items": [
+        "1/8",
+        "3/8",
+        "5/8",
+        "7/8"
+      ]
+    },
+    {
+      "id": "g3-mates-fracciones-09",
+      "type": "choice",
+      "prompt": "Lucas y Nerea abren una tableta de 10 onzas iguales. Lucas come 3/10 y Nerea come 4/10. ¿Qué fracción de la tableta sobra?",
+      "explanation": "Juntos comen 3/10 + 4/10 = 7/10. La tableta entera son 10/10, por lo que sobran 10/10 - 7/10 = 3/10.",
+      "hint": "Suma primero lo que comen entre los dos.",
+      "lang": "es",
+      "options": [
+        "1/10",
+        "7/10",
+        "3/10"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-fracciones-10",
+      "type": "choice",
+      "prompt": "Adrián necesita 2/4 de litro de leche para un bizcocho. En la nevera encuentra un recipiente con 1/2 litro. ¿Tiene suficiente leche?",
+      "explanation": "Dos cuartos (2/4) equivalen exactamente a medio litro (1/2), ya que 2 de 4 partes forman la mitad exacta.",
+      "hint": "Dibuja un círculo partido en 4 partes y pinta 2.",
+      "lang": "es",
+      "options": [
+        "No, porque 1/2 es mucho menos que 2/4.",
+        "No, porque le faltan 2 cuartos más.",
+        "Sí, porque 2/4 y 1/2 representan la misma cantidad."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:09:04.239Z",
+    "reviewed": false
+  }
+}

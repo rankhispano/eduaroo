@@ -1,0 +1,250 @@
+{
+  "id": "g5-ingles-medios-de-comunicacion-y-tecnologia",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "medios-de-comunicacion-y-tecnologia",
+  "temaNombre": "Medios de comunicación y tecnología",
+  "title": "Media and Technology in Action",
+  "summary": "Practica vocabulario sobre medios de comunicación, dispositivos digitales y uso responsable de la tecnología en inglés.",
+  "keyIdeas": [
+    "Usamos verbos específicos con la tecnología: download (descargar), upload (subir), turn on/off (encender/apagar).",
+    "Los medios pueden ser impresos (print media: books, newspapers) o digitales (digital media: podcasts, websites).",
+    "La etiqueta digital y la seguridad en internet (netiquette) nos ayudan a comunicarnos de forma respetuosa y segura."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "3.1"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-01",
+      "type": "match",
+      "prompt": "Match each device or media item with its correct function:",
+      "explanation": "Headphones sirven para escuchar sonido, keyboard para escribir, webcam para transmitir vídeo y screen es la pantalla donde vemos imágenes y textos.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Headphones",
+          "right": "Listen to audio privately"
+        },
+        {
+          "left": "Keyboard",
+          "right": "Type letters and numbers"
+        },
+        {
+          "left": "Webcam",
+          "right": "Record video or make video calls"
+        },
+        {
+          "left": "Screen",
+          "right": "Display text and images"
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-02",
+      "type": "choice",
+      "prompt": "Omar wants to save a picture from the school website to his computer. What action does he do?",
+      "explanation": "Descargar un archivo de internet para guardarlo en tu ordenador se dice 'download'. 'Delete' significa borrar y 'turn off', apagar.",
+      "hint": "Piensa en el verbo que usamos para traer archivos desde internet a nuestro dispositivo.",
+      "lang": "en",
+      "options": [
+        "Download",
+        "Delete",
+        "Turn off"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-03",
+      "type": "true-false",
+      "prompt": "It is safe and responsible to share your private passwords with strangers on the internet.",
+      "explanation": "Las contraseñas son privadas y secretas. Nunca debemos compartirlas con desconocidos en internet para proteger nuestra seguridad.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el verbo más adecuado sobre medios digitales:",
+      "explanation": "Con los vídeos usamos el verbo 'watch' (ver o mirar). 'Listen' se usa con audios o podcasts (listen to) y 'print' para imprimir en papel.",
+      "hint": "Los vídeos combinan imagen en movimiento y sonido.",
+      "lang": "en",
+      "sentence": "Aisha likes to ___ educational videos about science on her tablet.",
+      "options": [
+        "watch",
+        "listen",
+        "print"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-05",
+      "type": "classify",
+      "prompt": "Classify these items into Digital Media or Print Media:",
+      "explanation": "Los medios digitales (Digital Media) funcionan a través de dispositivos electrónicos e internet, mientras que los medios impresos (Print Media) están en soporte de papel.",
+      "lang": "en",
+      "categories": [
+        "Digital Media",
+        "Print Media"
+      ],
+      "items": [
+        {
+          "text": "Podcast episode",
+          "category": 0
+        },
+        {
+          "text": "Paper newspaper",
+          "category": 1
+        },
+        {
+          "text": "Online blog",
+          "category": 0
+        },
+        {
+          "text": "Printed magazine",
+          "category": 1
+        },
+        {
+          "text": "Video streaming site",
+          "category": 0
+        },
+        {
+          "text": "Paper comic book",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-06",
+      "type": "choice",
+      "prompt": "Lucía and Wei are preparing a class presentation. They want to listen to an audio program where scientists discuss space. What media format are they looking for?",
+      "explanation": "Un podcast es un programa de audio digital que puedes escuchar por internet sobre infinidad de temas interesantes.",
+      "hint": "Es un formato puramente de audio disponible en plataformas digitales.",
+      "lang": "en",
+      "options": [
+        "A text message",
+        "A printed poster",
+        "A podcast"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-07",
+      "type": "order",
+      "prompt": "Put the steps of sending an email in the correct chronological order:",
+      "explanation": "Primero indicamos la dirección del destinatario, luego el asunto (subject), después redactamos el mensaje educado y por último pulsamos enviar (send).",
+      "lang": "en",
+      "items": [
+        "Write the recipient's email address.",
+        "Type a clear subject line for your email.",
+        "Write a polite greeting and your message.",
+        "Click the send button."
+      ]
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-08",
+      "type": "fill-blank",
+      "prompt": "Completa el consejo para tener unos hábitos saludables con la tecnología:",
+      "explanation": "'Turn off' significa apagar. Apagar las pantallas antes de dormir ayuda a que nuestro cerebro descanse mejor.",
+      "hint": "Lo contrario de encender (turn on).",
+      "lang": "en",
+      "sentence": "Before going to sleep, it is a healthy habit to ___ your mobile phone so you can rest well.",
+      "options": [
+        "upload",
+        "search",
+        "turn off"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-09",
+      "type": "reading",
+      "prompt": "Read the school news article and answer the questions below:",
+      "explanation": "Leer artículos informativos nos ayuda a extraer información concreta, deducir intenciones y reflexionar sobre nuestros propios hábitos tecnológicos.",
+      "lang": "en",
+      "title": "The Tech Gazette: Finding Balance",
+      "text": "At Oak Tree Primary School, students run an online newspaper called 'The Tech Gazette'. Every month, young reporters write articles about technology and everyday life. Adrián, a fifth-grader, writes the technology column. Recently, he investigated screen time among his classmates.\n\nHe found that many students spent more than three hours each afternoon playing video games and watching videos on their tablets. Adrián interviewed the school nurse, who explained that excessive screen time causes tired eyes, headaches, and trouble sleeping. In response, Adrián started the 'Digital Balance Challenge'. He proposed turning off all electronic devices one hour before bed and reading a book instead.\n\nThe challenge was a huge success. After two weeks, teachers reported that students were more focused in class, and many children said they felt rested and energetic. Adrián showed that technology is fantastic, but our brains also need regular digital breaks.",
+      "questions": [
+        {
+          "prompt": "Who writes the technology column in 'The Tech Gazette'?",
+          "explanation": "El texto indica expresamente: 'Adrián, a fifth-grader, writes the technology column'.",
+          "options": [
+            "Adrián",
+            "The school nurse",
+            "The headteacher"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why did Adrián propose turning off screens one hour before bedtime?",
+          "explanation": "La enfermera explicó que el exceso de pantalla dificulta el sueño, por lo que Adrián propuso desconectar para descansar adecuadamente.",
+          "options": [
+            "To help students avoid sleep problems and rest better",
+            "Because tablets do not work at night time",
+            "To save electricity for the school"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What is the main message of Adrián's 'Digital Balance Challenge'?",
+          "explanation": "El artículo concluye que la tecnología es genial ('fantastic'), pero nuestro cerebro necesita descansos digitales regulares para mantener el bienestar.",
+          "options": [
+            "Technology is helpful, but we need breaks for our well-being",
+            "Children should never use tablets or computers again",
+            "Playing online video games is the only way to learn"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-10",
+      "type": "choice",
+      "prompt": "Martina sees an online message claiming that classes tomorrow are cancelled due to heavy snow, but the weather outside is warm and sunny. What should Martina do first?",
+      "explanation": "Ante noticias dudosas o posibles noticias falsas (fake news), la mejor decisión es contrastar la información con fuentes oficiales o consultar con un adulto de confianza.",
+      "hint": "Siempre debemos verificar las fuentes antes de creer o compartir una información en internet.",
+      "lang": "en",
+      "options": [
+        "Check the official school website or ask an adult at home",
+        "Immediately share the message with all her classmates",
+        "Turn off the computer and decide not to go to school"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:09:36.541Z",
+    "reviewed": false
+  }
+}

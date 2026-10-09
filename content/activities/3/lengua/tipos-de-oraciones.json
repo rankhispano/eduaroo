@@ -1,0 +1,224 @@
+{
+  "id": "g3-lengua-tipos-de-oraciones",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "tipos-de-oraciones",
+  "temaNombre": "Tipos de oraciones",
+  "title": "Descubre los tipos de oraciones",
+  "summary": "Reconoce y utiliza oraciones enunciativas, interrogativas, exclamativas e imperativas en distintas situaciones cotidianas.",
+  "keyIdeas": [
+    "Las oraciones enunciativas afirman o niegan un hecho y terminan en punto.",
+    "Las oraciones interrogativas preguntan (¿?) y las exclamativas expresan emociones o sorpresa (¡!).",
+    "Las oraciones imperativas o exhortativas sirven para dar órdenes, pedir favores o dar instrucciones."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-tipos-de-oraciones-01",
+      "type": "choice",
+      "prompt": "Hugo dice en clase: «Hoy tenemos Educación Física en el patio». ¿Qué tipo de oración ha dicho?",
+      "explanation": "Hugo está informando de un hecho real que sucede hoy. Por eso es una oración enunciativa afirmativa.",
+      "hint": "Fíjate en si está contando una información o haciendo una pregunta.",
+      "lang": "es",
+      "options": [
+        "Enunciativa afirmativa",
+        "Interrogativa",
+        "Imperativa"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-02",
+      "type": "true-false",
+      "prompt": "En español, las oraciones interrogativas se escriben siempre con dos signos de interrogación: uno al principio (¿) y otro al final (?).",
+      "explanation": "En nuestra lengua es obligatorio escribir el signo de apertura (¿) y el de cierre (?).",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-03",
+      "type": "match",
+      "prompt": "Une cada oración con la intención que transmite Aisha:",
+      "explanation": "Los signos de exclamación expresan emociones, los de interrogación formulan preguntas y las oraciones imperativas piden o mandan algo.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "¡Qué golazo acabas de marcar!",
+          "right": "Expresar emoción o alegría"
+        },
+        {
+          "left": "¿A qué hora empieza el partido?",
+          "right": "Hacer una pregunta"
+        },
+        {
+          "left": "Pásame el balón, por favor.",
+          "right": "Pedir algo o dar una orden"
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-04",
+      "type": "classify",
+      "prompt": "Clasifica estas oraciones según sean afirmativas o negativas:",
+      "explanation": "Las oraciones afirmativas aseguran que algo ocurre, mientras que las negativas usan palabras como 'no' o 'nunca' para negarlo.",
+      "lang": "es",
+      "categories": [
+        "Enunciativas afirmativas",
+        "Enunciativas negativas"
+      ],
+      "items": [
+        {
+          "text": "El autobús escolar ya ha llegado.",
+          "category": 0
+        },
+        {
+          "text": "Lucía no encuentra su estuche.",
+          "category": 1
+        },
+        {
+          "text": "Mañana visitaremos el museo de ciencias.",
+          "category": 0
+        },
+        {
+          "text": "Nunca dejamos la mochila abierta.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-05",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra adecuada para transformar esta oración afirmativa en negativa.",
+      "explanation": "La palabra 'no' niega la acción del verbo y convierte la oración en enunciativa negativa.",
+      "lang": "es",
+      "sentence": "Mateo ___ quiere llegar tarde al entrenamiento de baloncesto.",
+      "options": [
+        "sí",
+        "no",
+        "siempre"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-06",
+      "type": "choice",
+      "prompt": "Encuentra la oración que tiene un ERROR en el uso de los signos de puntuación:",
+      "explanation": "Falta el signo de apertura interrogativo al comienzo: debe escribirse '¿Cuándo termina la película de animación?'.",
+      "hint": "Recuerda que en español las preguntas necesitan dos signos.",
+      "lang": "es",
+      "options": [
+        "¿Quieres venir a merendar a mi casa?",
+        "¡Menuda sorpresa nos ha dado el abuelo!",
+        "Cuándo termina la película de animación?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-07",
+      "type": "reading",
+      "prompt": "Lee con atención la conversación entre Leo y Martina en la biblioteca:",
+      "explanation": "Identificar el propósito de cada personaje nos ayuda a descubrir el tipo de oración que emplea.",
+      "lang": "es",
+      "title": "Tarde en la biblioteca",
+      "text": "Leo y Martina entraron en la biblioteca del barrio después de merendar. La sala estaba muy tranquila. Martina vio un libro sobre dinosaurios en una estantería alta. Con voz suave le preguntó a su amigo: «¿Me ayudas a alcanzar ese libro verde?». Leo sonrió, se estiró y lo cogió con cuidado. Al abrirlo, Martina exclamó entusiasmada: «¡Tiene unas ilustraciones increíbles!». El bibliotecario se acercó despacio y les susurró amablemente: «Por favor, guardad silencio para no molestar a los demás lectores». Los dos asintieron y se sentaron juntos a leer.",
+      "questions": [
+        {
+          "prompt": "¿Qué intención tiene Martina cuando dice: «¿Me ayudas a alcanzar ese libro verde?»?",
+          "explanation": "Es una oración interrogativa que Martina utiliza para consultar a su amigo si puede ayudarla.",
+          "options": [
+            "Avisar de que el libro está roto.",
+            "Dar una orden enfadada al bibliotecario.",
+            "Hacer una pregunta a Leo para pedir su ayuda."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué tipo de oración utiliza el bibliotecario al decir: «Por favor, guardad silencio»?",
+          "explanation": "El bibliotecario formula una petición o ruego de manera educada, por lo que se trata de una oración imperativa o exhortativa.",
+          "options": [
+            "Enunciativa negativa",
+            "Interrogativa",
+            "Imperativa o exhortativa"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-08",
+      "type": "choice",
+      "prompt": "La maestra entra en clase y necesita empezar la explicación. ¿Qué oración imperativa es la más adecuada y respetuosa?",
+      "explanation": "Da una indicación clara a los alumnos usando una forma cortés ('por favor'), propia de una oración imperativa.",
+      "hint": "Busca la frase que exprese una instrucción o petición para la clase.",
+      "lang": "es",
+      "options": [
+        "Abrid el cuaderno por la página diez, por favor.",
+        "¿Quién ha abierto el cuaderno por la página diez?",
+        "¡Qué bonito es este cuaderno de rayas!"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-09",
+      "type": "order",
+      "prompt": "Ordena estas palabras para formar una oración interrogativa correcta:",
+      "explanation": "La oración interrogativa empieza con el signo '¿' y la primera palabra con mayúscula, y cierra con '?' al final: '¿Has visto a mi perro Tobi?'.",
+      "lang": "es",
+      "items": [
+        "¿Has",
+        "visto",
+        "a mi",
+        "perro",
+        "Tobi?"
+      ]
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-10",
+      "type": "choice",
+      "prompt": "Adrián observa llover con fuerza tras la ventana y siente mucho asombro. ¿Cómo transformaría la idea en una oración exclamativa?",
+      "explanation": "La oración '¡Cómo llueve esta tarde!' lleva signos de exclamación y expresa con intensidad la emoción y sorpresa de Adrián.",
+      "hint": "Busca la opción que transmita emoción y use signos de exclamación.",
+      "lang": "es",
+      "options": [
+        "Esta tarde apenas caen cuatro gotas.",
+        "¿Está lloviendo esta tarde?",
+        "¡Cómo llueve esta tarde!"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:27:31.244Z",
+    "reviewed": false
+  }
+}

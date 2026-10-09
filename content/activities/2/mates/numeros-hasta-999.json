@@ -1,0 +1,224 @@
+{
+  "id": "g2-mates-numeros-hasta-999",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "numeros-hasta-999",
+  "temaNombre": "Números hasta 999",
+  "title": "Misión: Números hasta 999",
+  "summary": "Practica la lectura, el orden y el valor de los números hasta el 999 con retos divertidos.",
+  "keyIdeas": [
+    "Un número de 3 cifras tiene centenas, decenas y unidades.",
+    "1 centena equivale a 10 decenas o a 100 unidades.",
+    "Para comparar números de 3 cifras, mira primero las centenas."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "3.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-numeros-hasta-999-01",
+      "type": "choice",
+      "prompt": "Hugo tiene 3 sobres de 100 cromos y 4 cromos sueltos. ¿Cuántos tiene en total?",
+      "explanation": "3 centenas son 300 y 4 unidades son 4. En total tiene 304 cromos.",
+      "hint": "No hay ningún paquete de 10 cromos.",
+      "lang": "es",
+      "options": [
+        "304 cromos",
+        "340 cromos",
+        "34 cromos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-02",
+      "type": "classify",
+      "prompt": "Clasifica estos números según sean mayores o menores que 500.",
+      "explanation": "Comparamos la cifra de las centenas con el 5 para saber si es mayor o menor.",
+      "lang": "es",
+      "categories": [
+        "Menor que 500",
+        "Mayor que 500"
+      ],
+      "items": [
+        {
+          "text": "489",
+          "category": 0
+        },
+        {
+          "text": "512",
+          "category": 1
+        },
+        {
+          "text": "399",
+          "category": 0
+        },
+        {
+          "text": "701",
+          "category": 1
+        },
+        {
+          "text": "250",
+          "category": 0
+        },
+        {
+          "text": "630",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-03",
+      "type": "match",
+      "prompt": "Une cada número con su descomposición en sumas.",
+      "explanation": "Cada número se forma sumando el valor de sus centenas, decenas y unidades.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "624",
+          "right": "600 + 20 + 4"
+        },
+        {
+          "left": "805",
+          "right": "800 + 5"
+        },
+        {
+          "left": "470",
+          "right": "400 + 70"
+        },
+        {
+          "left": "159",
+          "right": "100 + 50 + 9"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-04",
+      "type": "order",
+      "prompt": "Ordena estos dorsales de carrera de menor a mayor.",
+      "explanation": "Comparamos primero las centenas: 100 < 200 < 400 < 600 < 800.",
+      "lang": "es",
+      "items": [
+        "198",
+        "205",
+        "410",
+        "632",
+        "890"
+      ]
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-05",
+      "type": "fill-blank",
+      "prompt": "Averigua el número de página que sigue.",
+      "explanation": "El número posterior a 699 es 700: sumamos una unidad y cambiamos de centena.",
+      "hint": "Suma 1 a 699.",
+      "lang": "es",
+      "sentence": "Aisha termina la página 699 de su cuento. La siguiente es la página ___.",
+      "options": [
+        "690",
+        "700",
+        "800"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-06",
+      "type": "choice",
+      "prompt": "Omar quería escribir el número «quinientos ocho». Escribió 580. ¿Cuál fue su fallo?",
+      "explanation": "Quinientos ocho tiene 5 centenas, 0 decenas y 8 unidades (508). Omar escribió 8 decenas.",
+      "hint": "Fíjate en el lugar donde puso el 8.",
+      "lang": "es",
+      "options": [
+        "Puso 8 centenas en vez de 5.",
+        "Puso 8 decenas en vez de 8 unidades.",
+        "Olvidó poner el número 5 delante."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-07",
+      "type": "true-false",
+      "prompt": "En el número 742, la cifra 4 vale 40 unidades.",
+      "explanation": "Es verdadero. El 4 ocupa el lugar de las decenas, por eso vale 40.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-08",
+      "type": "choice",
+      "prompt": "En un juego sumas 10 puntos en cada salto: 320, 330, 340... ¿Cuál es el siguiente?",
+      "explanation": "La serie aumenta de 10 en 10. Si sumamos 10 a 340, obtenemos 350.",
+      "hint": "Suma una decena a 340.",
+      "lang": "es",
+      "options": [
+        "350",
+        "440",
+        "341"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-09",
+      "type": "choice",
+      "prompt": "En el teatro hay 489 personas sentadas. ¿A qué centena completa está más cerca?",
+      "explanation": "489 está muy cerca de 500: solo le faltan 11 para llegar.",
+      "hint": "Piensa si 89 decenas y unidades están más cerca de 100 o de 0.",
+      "lang": "es",
+      "options": [
+        "A 500 personas",
+        "A 400 personas",
+        "A 600 personas"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-10",
+      "type": "choice",
+      "prompt": "Martina busca su taquilla. Tiene más de 6 centenas y termina en 5. ¿Cuál es?",
+      "explanation": "725 tiene 7 centenas (más de 6) y termina en 5 unidades. Cumple las dos pistas.",
+      "hint": "Mira la primera cifra y la última.",
+      "lang": "es",
+      "options": [
+        "Taquilla 725",
+        "Taquilla 565",
+        "Taquilla 602"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:59:31.812Z",
+    "reviewed": false
+  }
+}

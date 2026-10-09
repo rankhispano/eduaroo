@@ -1,0 +1,254 @@
+{
+  "id": "g5-ingles-conectores-discursivos",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "conectores-discursivos",
+  "temaNombre": "Conectores discursivos",
+  "title": "Mastering English Connectors and Linkers",
+  "summary": "Practica los conectores en inglés para unir ideas y contar historias fantásticas.",
+  "keyIdeas": [
+    "Usamos 'and' para sumar ideas y 'but' para contrastar dos cosas diferentes.",
+    "Usamos 'because' para explicar la razón y 'so' para mostrar la consecuencia o resultado.",
+    "Para narrar historias o pasos, ordenamos el tiempo con 'first', 'then', 'after that' y 'finally'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-conectores-discursivos-01",
+      "type": "fill-blank",
+      "prompt": "Elige el conector adecuado para unir estas dos aficiones:",
+      "explanation": "Usamos 'and' para añadir información similar (le gusta el baloncesto y también la natación).",
+      "hint": "Estamos sumando dos cosas que le gustan a Lucía.",
+      "lang": "en",
+      "sentence": "Lucía likes playing basketball ___ she also loves swimming.",
+      "options": [
+        "and",
+        "but",
+        "because"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase expresando un contraste:",
+      "explanation": "Utilizamos 'but' (pero) para conectar dos ideas opuestas o que expresan un contraste.",
+      "hint": "Quería salir, pero la lluvia se lo impidió.",
+      "lang": "en",
+      "sentence": "Hugo wanted to ride his bicycle, ___ it was raining heavily.",
+      "options": [
+        "and",
+        "but",
+        "so"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-03",
+      "type": "choice",
+      "prompt": "Aisha is explaining why she is happy today. Which word fits best?\n'I am very happy today ___ I got a good mark in Science.'",
+      "explanation": "'Because' (porque) se utiliza para explicar la causa o el motivo de algo.",
+      "hint": "Indica la razón por la que Aisha está contenta.",
+      "lang": "en",
+      "options": [
+        "because",
+        "so",
+        "but"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-04",
+      "type": "match",
+      "prompt": "Match each connector with its correct meaning in Spanish:",
+      "explanation": "Relacionar los conectores con su traducción en español nos ayuda a comprender mejor su función en la frase.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "because",
+          "right": "porque"
+        },
+        {
+          "left": "so",
+          "right": "así que / por lo tanto"
+        },
+        {
+          "left": "however",
+          "right": "sin embargo"
+        },
+        {
+          "left": "finally",
+          "right": "finalmente"
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-05",
+      "type": "true-false",
+      "prompt": "In the sentence 'Omar missed the school bus, because he walked to school', the connector 'because' is used correctly.",
+      "explanation": "Es falso. Caminar a la escuela fue la consecuencia de perder el autobús, por lo que deberíamos usar 'so' (Omar missed the school bus, so he walked to school).",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-06",
+      "type": "order",
+      "prompt": "Put the steps of Adrián's morning routine in the correct chronological order:",
+      "explanation": "Para narrar una secuencia temporal, usamos: First (primero), Then (luego), After that (después de eso) y Finally (finalmente).",
+      "lang": "en",
+      "items": [
+        "First, I wake up at seven o'clock and wash my face.",
+        "Then, I eat cereal and fruit for breakfast.",
+        "After that, I brush my teeth and pack my school bag.",
+        "Finally, I leave home and walk to school with my friends."
+      ]
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-07",
+      "type": "classify",
+      "prompt": "Classify these English connectors into their functional categories:",
+      "explanation": "'And', 'but' y 'however' sirven para sumar o contrastar ideas, mientras que 'because', 'so' y 'as a result' expresan motivos o consecuencias.",
+      "lang": "en",
+      "categories": [
+        "Contrast & Addition",
+        "Cause & Result"
+      ],
+      "items": [
+        {
+          "text": "but",
+          "category": 0
+        },
+        {
+          "text": "because",
+          "category": 1
+        },
+        {
+          "text": "and",
+          "category": 0
+        },
+        {
+          "text": "so",
+          "category": 1
+        },
+        {
+          "text": "however",
+          "category": 0
+        },
+        {
+          "text": "as a result",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-08",
+      "type": "choice",
+      "prompt": "Nerea is writing a school project: 'The museum was closed, ___ we decided to visit the local library instead.' What is the right connector?",
+      "explanation": "'So' expresa el resultado o la consecuencia de que el museo estuviese cerrado.",
+      "hint": "Como consecuencia del cierre, fueron a la biblioteca.",
+      "lang": "en",
+      "options": [
+        "so",
+        "although",
+        "because"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-09",
+      "type": "fill-blank",
+      "prompt": "Complete with the connector that shows contrast at the beginning of a sentence:",
+      "explanation": "'However' (sin embargo) se usa a menudo al inicio de una oración seguido de coma para contrastar con la idea anterior.",
+      "hint": "Busca el conector de contraste que va seguido de coma.",
+      "lang": "en",
+      "sentence": "Wei trained very hard for the race. ___, he didn't win a medal.",
+      "options": [
+        "However",
+        "Because",
+        "First"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-10",
+      "type": "reading",
+      "prompt": "Read the school blog post and answer the questions below:",
+      "explanation": "Los conectores 'first', 'then', 'but', 'because', 'so', 'finally' y 'however' estructuran todo el texto para darle sentido y fluidez.",
+      "lang": "en",
+      "title": "A Day in the Green Forest",
+      "text": "Last Saturday, Martina and her class went on an excursion to the Green Forest Nature Park. First, the guide showed them an ancient oak tree and explained why forests are important for our planet. Then, the students explored the riverbank to identify animal footprints. They wanted to see the famous river otters, but the animals were hiding because it was a warm and noisy afternoon. After that, the class stopped for a picnic lunch under the trees. Martina dropped some apple skin on the grass, so her classmate Omar reminded her to keep nature clean. Martina immediately picked it up and put it in her compost bag. Finally, the group returned to the bus before five o'clock. It was an exhausting trip; however, everyone agreed that they learned a lot about protecting wildlife.",
+      "questions": [
+        {
+          "prompt": "Why did the students NOT see the river otters?",
+          "explanation": "El texto explica claramente: '...but the animals were hiding because it was a warm and noisy afternoon'.",
+          "options": [
+            "Because the guide told them to stay away from the water.",
+            "Because the river was completely dry.",
+            "Because the afternoon was warm and noisy, so they were hiding."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What happened as a result of Martina dropping apple skin on the grass?",
+          "explanation": "El conector 'so' nos indica el resultado: como se le cayó la piel, Omar le recordó cuidar el entorno y ella la recogió.",
+          "options": [
+            "The guide punished the whole class immediately.",
+            "A river otter came out to eat the fruit.",
+            "Omar reminded her to keep nature clean, so she picked it up."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does the sentence 'It was an exhausting trip; however, everyone agreed that they learned a lot' suggest?",
+          "explanation": "'However' contrasta el cansancio físico con lo positivo de haber aprendido mucho sobre la naturaleza.",
+          "options": [
+            "Despite being tired, the students found the excursion valuable and worthwhile.",
+            "The students did not like the trip because they were too tired.",
+            "The teacher was upset because nobody learned anything."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:13:05.503Z",
+    "reviewed": false
+  }
+}

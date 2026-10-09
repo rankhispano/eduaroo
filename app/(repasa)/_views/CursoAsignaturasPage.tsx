@@ -9,9 +9,9 @@ export default function CursoAsignaturasPage({
   homeHref = '/es',
   sectionLabel = 'Repaso',
   showLocalBreadcrumb = true,
-  selectedLabel = 'Curso seleccionado',
-  chooseSubjectLabel = 'Elige una asignatura',
-  description = 'Cada asignatura reúne los temas principales de repaso organizados para este curso.',
+  selectedLabel = 'Tu curso',
+  chooseSubjectLabel = '¿Qué quieres practicar?',
+  description = 'Elige una asignatura y después el tema que estás dando en clase.',
 }: {
   cursoId: string;
   basePath?: string;
@@ -42,10 +42,10 @@ export default function CursoAsignaturasPage({
         ) : null}
 
         <header className="mb-10">
-          <p className="mb-2 text-lg font-extrabold text-blue-600">{selectedLabel}</p>
-          <h1 className="text-4xl font-black tracking-normal sm:text-5xl">
-            {curso.nombre} — {chooseSubjectLabel}
-          </h1>
+          <p className="mb-2 text-lg font-extrabold text-blue-600">
+            {selectedLabel}: {curso.nombre}
+          </p>
+          <h1 className="text-4xl font-black tracking-normal sm:text-5xl">{chooseSubjectLabel}</h1>
           <p className="mt-4 max-w-2xl text-lg font-semibold text-slate-600">
             {description}
           </p>

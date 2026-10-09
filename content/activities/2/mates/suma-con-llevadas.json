@@ -1,0 +1,207 @@
+{
+  "id": "g2-mates-suma-con-llevadas",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "suma-con-llevadas",
+  "temaNombre": "Suma con llevadas",
+  "title": "¡Sumamos con llevadas!",
+  "summary": "Practica la suma con llevadas mediante retos divertidos y problemas cotidianos.",
+  "keyIdeas": [
+    "10 unidades forman 1 decena.",
+    "Si las unidades suman 10 o más, te llevas una decena.",
+    "No olvides sumar la decena que te llevas."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.1",
+      "2.2",
+      "6.2"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-suma-con-llevadas-01",
+      "type": "choice",
+      "prompt": "Si al sumar las unidades obtienes 14, ¿qué debes hacer?",
+      "explanation": "El número 14 tiene 4 unidades y 1 decena. Por eso dejamos el 4 y nos llevamos el 1.",
+      "hint": "Piensa cuál de las dos cifras son las unidades.",
+      "lang": "es",
+      "options": [
+        "Escribes el 4 y te llevas 1 a las decenas.",
+        "Escribes el 14 entero debajo de las unidades.",
+        "Escribes el 1 y te llevas el 4."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-02",
+      "type": "order",
+      "prompt": "Ordena los pasos para hacer una suma con llevada:",
+      "explanation": "Primero sumamos las unidades. Si pasan de 9, pasamos la decena a su columna y sumamos todas las decenas.",
+      "lang": "es",
+      "items": [
+        "Sumar las unidades.",
+        "Pasar la decena que te llevas a su columna.",
+        "Sumar todas las decenas."
+      ]
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-03",
+      "type": "true-false",
+      "prompt": "En la suma 48 + 25, ¿nos llevamos una decena al sumar las unidades?",
+      "explanation": "Es verdadero: 8 + 5 = 13. Como 13 es mayor que 9, nos llevamos 1 decena.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-04",
+      "type": "match",
+      "prompt": "Une cada suma con el resultado de sus unidades:",
+      "explanation": "Al sumar las unidades descubrimos qué número dejamos abajo y cuánto nos llevamos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "27 + 15",
+          "right": "7 + 5 = 12 (dejo 2 y me llevo 1)"
+        },
+        {
+          "left": "38 + 26",
+          "right": "8 + 6 = 14 (dejo 4 y me llevo 1)"
+        },
+        {
+          "left": "49 + 14",
+          "right": "9 + 4 = 13 (dejo 3 y me llevo 1)"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la cifra correcta.",
+      "explanation": "8 + 5 = 13. Escribimos el 3 en las unidades y nos llevamos el 1 a las decenas.",
+      "hint": "¿Cuántas decenas tiene el número 13?",
+      "lang": "es",
+      "sentence": "Al sumar 38 + 15, dejamos el 3 y nos llevamos el ___ a las decenas.",
+      "options": [
+        "1",
+        "2",
+        "5"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-06",
+      "type": "choice",
+      "prompt": "Mateo sumó 36 + 27 y escribió 53. ¿Qué error cometió?",
+      "explanation": "6 + 7 = 13 (nos llevamos 1). Luego 3 + 2 + 1 = 6. El resultado correcto es 63, no 53.",
+      "hint": "Comprueba si Mateo sumó la llevada a las decenas.",
+      "lang": "es",
+      "options": [
+        "Olvidó sumar la decena que se llevaba.",
+        "Sumó mal las unidades.",
+        "Restó en lugar de sumar."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-07",
+      "type": "choice",
+      "prompt": "Aisha tiene 28 pegatinas y Omar le regala 17. ¿Cuántas tiene ahora?",
+      "explanation": "28 + 17 = 45: sumamos 8 + 7 = 15, dejamos el 5 y sumamos 1 + 2 + 1 = 4.",
+      "hint": "Suma primero 8 + 7 y acuérdate de la que te llevas.",
+      "lang": "es",
+      "options": [
+        "41 pegatinas",
+        "35 pegatinas",
+        "45 pegatinas"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-08",
+      "type": "classify",
+      "prompt": "Clasifica estas sumas según tengan llevada o no:",
+      "explanation": "Si la suma de las unidades es 10 o más, tiene llevada. Si es menor que 10, no tiene.",
+      "lang": "es",
+      "categories": [
+        "Tiene llevada",
+        "No tiene llevada"
+      ],
+      "items": [
+        {
+          "text": "37 + 25",
+          "category": 0
+        },
+        {
+          "text": "41 + 23",
+          "category": 1
+        },
+        {
+          "text": "56 + 18",
+          "category": 0
+        },
+        {
+          "text": "62 + 15",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-09",
+      "type": "choice",
+      "prompt": "Martina calcula mentalmente 39 + 22. ¿A qué número se acerca más?",
+      "explanation": "39 está muy cerca de 40 y 22 está cerca de 20. 40 + 20 = 60. El resultado exacto es 61.",
+      "hint": "Redondea 39 a 40 y 22 a 20.",
+      "lang": "es",
+      "options": [
+        "A 50",
+        "A 60",
+        "A 40"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-10",
+      "type": "choice",
+      "prompt": "En el huerto hay 46 lechugas y plantan 28 más. ¿Cuántas hay en total?",
+      "explanation": "46 + 28 = 74: 6 + 8 = 14 (nos llevamos 1). Luego 1 + 4 + 2 = 7 decenas.",
+      "hint": "Suma las unidades: 6 + 8 son 14.",
+      "lang": "es",
+      "options": [
+        "72 lechugas",
+        "64 lechugas",
+        "74 lechugas"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:00:22.720Z",
+    "reviewed": false
+  }
+}

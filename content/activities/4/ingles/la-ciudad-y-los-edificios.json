@@ -1,0 +1,240 @@
+{
+  "id": "g4-ingles-la-ciudad-y-los-edificios",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "la-ciudad-y-los-edificios",
+  "temaNombre": "La ciudad y los edificios",
+  "title": "Exploring Our Town and Buildings",
+  "summary": "Practica el vocabulario de los edificios de la ciudad y cómo describirlos en inglés.",
+  "keyIdeas": [
+    "Usamos 'there is' para un solo lugar y 'there are' para varios lugares.",
+    "Cada edificio tiene una función: en la 'library' leemos libros y en la 'bakery' compramos pan.",
+    "Preposiciones como 'next to' (al lado de), 'opposite' (enfrente de) y 'between' (entre) sitúan los edificios."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-01",
+      "type": "match",
+      "prompt": "Match each building with what you can do there:",
+      "explanation": "En la biblioteca (library) leemos libros, en el cine (cinema) vemos películas, en el hospital vemos al médico y en la panadería (bakery) compramos pan.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Library",
+          "right": "Read and borrow books"
+        },
+        {
+          "left": "Cinema",
+          "right": "Watch new films"
+        },
+        {
+          "left": "Hospital",
+          "right": "See a doctor"
+        },
+        {
+          "left": "Bakery",
+          "right": "Buy fresh bread"
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-02",
+      "type": "choice",
+      "prompt": "Aisha needs to buy apples, milk, and rice for dinner. Where does she go? 🍎",
+      "explanation": "El supermercado (supermarket) es el lugar donde compramos comida y productos para casa.",
+      "hint": "Es una tienda grande donde compramos comida.",
+      "lang": "en",
+      "options": [
+        "To the supermarket",
+        "To the cinema",
+        "To the police station"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-03",
+      "type": "true-false",
+      "prompt": "You can borrow storybooks and study quietly at the fire station.",
+      "explanation": "Es falso. El lugar donde puedes pedir libros prestados y estudiar en silencio es la biblioteca (library), no la estación de bomberos (fire station).",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-04",
+      "type": "fill-blank",
+      "prompt": "Elige la opción correcta para completar la frase:",
+      "explanation": "Usamos 'There is' cuando nos referimos a una sola cosa en singular ('a big park'). Si fueran varios parques, usaríamos 'There are'.",
+      "hint": "Hablamos de un solo parque ('a big park').",
+      "lang": "en",
+      "sentence": "There ___ a big park with swings near my school.",
+      "options": [
+        "is",
+        "are",
+        "have"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-05",
+      "type": "classify",
+      "prompt": "Classify these town places into two groups:",
+      "explanation": "El cine, el parque y el museo son lugares de ocio y diversión, mientras que el supermercado, la panadería y la librería son tiendas para comprar.",
+      "lang": "en",
+      "categories": [
+        "Places to have fun",
+        "Places to buy things"
+      ],
+      "items": [
+        {
+          "text": "Cinema",
+          "category": 0
+        },
+        {
+          "text": "Supermarket",
+          "category": 1
+        },
+        {
+          "text": "Park",
+          "category": 0
+        },
+        {
+          "text": "Bakery",
+          "category": 1
+        },
+        {
+          "text": "Museum",
+          "category": 0
+        },
+        {
+          "text": "Bookshop",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-06",
+      "type": "choice",
+      "prompt": "Omar sees smoke coming from a window in his street. Which building should he call immediately? 🚒",
+      "explanation": "Ante una emergencia con fuego o humo debemos avisar a la estación de bomberos (fire station).",
+      "hint": "En este lugar trabajan los bomberos.",
+      "lang": "en",
+      "options": [
+        "The library",
+        "The fire station",
+        "The museum"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-07",
+      "type": "fill-blank",
+      "prompt": "Completa con la preposición correcta:",
+      "explanation": "Usamos 'between' cuando algo se encuentra en medio de dos lugares o cosas (entre el colegio y la biblioteca).",
+      "hint": "Fíjate en que hay dos edificios a los lados.",
+      "lang": "en",
+      "sentence": "The bakery is ___ the school and the library.",
+      "options": [
+        "behind",
+        "between",
+        "under"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-08",
+      "type": "order",
+      "prompt": "Put the words in order to make a correct sentence:",
+      "explanation": "En inglés empezamos con 'There are' para el plural, seguido de la cantidad, el adjetivo, el edificio y el lugar: 'There are two modern museums here.'",
+      "lang": "en",
+      "items": [
+        "There",
+        "are",
+        "two",
+        "modern",
+        "museums",
+        "here."
+      ]
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-09",
+      "type": "reading",
+      "prompt": "Read the text about Lucía's town and answer the questions:",
+      "explanation": "¡Buen trabajo leyendo el texto! Has identificado los edificios y las actividades que realiza Lucía en su pueblo.",
+      "lang": "en",
+      "title": "My Town: Greenhill",
+      "text": "Hello! My name is Lucía and I live in Greenhill. Greenhill is a small and quiet town. In my town, there is a big school with a colourful playground. Next to the school, there is a bakery. The baker makes delicious cakes and warm bread every morning. Opposite the bakery, you can find a quiet library. I often go there on Fridays to read adventure books. We also have a lovely park with green trees and flowers. In the centre, there is a hospital and a police station. I love my town because everything is close and people are friendly.",
+      "questions": [
+        {
+          "prompt": "What building is directly opposite the bakery?",
+          "explanation": "El texto indica claramente: 'Opposite the bakery, you can find a quiet library'.",
+          "options": [
+            "The hospital",
+            "The police station",
+            "The quiet library"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why does Lucía visit the library on Fridays?",
+          "explanation": "Lucía cuenta que va a la biblioteca los viernes para leer libros de aventuras ('to read adventure books').",
+          "options": [
+            "To read adventure books",
+            "To buy warm bread",
+            "To play with friends"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-10",
+      "type": "choice",
+      "prompt": "Hugo leaves the cinema. He walks past the park and stops to take a train to visit his cousins. Where is he? 🚆",
+      "explanation": "Para viajar en tren hacia otra localidad nos dirigimos a la estación de tren (train station).",
+      "hint": "Es el lugar de donde salen los trenes.",
+      "lang": "en",
+      "options": [
+        "At the museum",
+        "At the swimming pool",
+        "At the train station"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:10:44.467Z",
+    "reviewed": false
+  }
+}

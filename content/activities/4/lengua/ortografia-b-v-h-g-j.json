@@ -1,0 +1,229 @@
+{
+  "id": "g4-lengua-ortografia-b-v-h-g-j",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "ortografia-b-v-h-g-j",
+  "temaNombre": "Ortografía: b/v, h, g/j",
+  "title": "Misión detectives de la ortografía",
+  "summary": "Practica las reglas de las letras b, v, h, g y j a través de retos y textos cotidianos.",
+  "keyIdeas": [
+    "Se escriben con b los verbos en -aba y las palabras con bl o br.",
+    "Se escriben con h las palabras que empiezan por hie- y hue-.",
+    "Los verbos en -ger y -gir llevan g, excepto tejer y crujir."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-01",
+      "type": "true-false",
+      "prompt": "Delante de otra consonante, como en 'blanco' o 'brazo', siempre se escribe la letra 'b'.",
+      "explanation": "Siempre escribimos 'b' antes de otra consonante, formando grupos como bl o br.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-02",
+      "type": "fill-blank",
+      "prompt": "Elige la forma verbal correcta para completar la oración.",
+      "explanation": "Las formas del pasado que terminan en -aba se escriben siempre con 'b'.",
+      "lang": "es",
+      "sentence": "En la clase de música, Adrián ___ una canción tradicional con su guitarra.",
+      "options": [
+        "cantaha",
+        "cantaba",
+        "cantava"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-03",
+      "type": "choice",
+      "prompt": "Aisha revisa la lista de la compra. ¿Qué palabra está bien escrita?",
+      "explanation": "Las palabras que empiezan por el diptongo 'hue-' siempre se escriben con 'h' inicial.",
+      "hint": "Recuerda la regla de las palabras que empiezan por hue- o hie-.",
+      "lang": "es",
+      "options": [
+        "Uevo",
+        "Huevo",
+        "Guevo"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-04",
+      "type": "match",
+      "prompt": "Une cada grupo de palabras con su regla ortográfica.",
+      "explanation": "Cada grupo de letras sigue una norma fija que te ayuda a no dudar al escribir.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Palabras que empiezan por hie- o hue-",
+          "right": "Se escriben con h"
+        },
+        {
+          "left": "Verbos terminados en -ger o -gir",
+          "right": "Se escriben con g"
+        },
+        {
+          "left": "Palabras terminadas en -aje o -eje",
+          "right": "Se escriben con j"
+        },
+        {
+          "left": "Terminaciones del pasado en -aba",
+          "right": "Se escriben con b"
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-05",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según se escriban con 'g' o con 'j'.",
+      "explanation": "Proteger, gigante y recoger van con 'g'. Equipaje, rodaje y crujir (excepción de -gir) van con 'j'.",
+      "lang": "es",
+      "categories": [
+        "Se escriben con G",
+        "Se escriben con J"
+      ],
+      "items": [
+        {
+          "text": "proteger",
+          "category": 0
+        },
+        {
+          "text": "equipaje",
+          "category": 1
+        },
+        {
+          "text": "gigante",
+          "category": 0
+        },
+        {
+          "text": "crujir",
+          "category": 1
+        },
+        {
+          "text": "recoger",
+          "category": 0
+        },
+        {
+          "text": "rodaje",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-06",
+      "type": "choice",
+      "prompt": "Lucía lee este cartel del colegio: 'Aviso: Está proivido correr por el pasillo'. ¿Qué palabra tiene una falta?",
+      "explanation": "La palabra correcta es 'prohibido', con 'h' intercalada y con 'b'.",
+      "hint": "Fíjate en la palabra que tiene una hache ausente.",
+      "lang": "es",
+      "options": [
+        "proivido",
+        "correr",
+        "pasillo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-07",
+      "type": "order",
+      "prompt": "Ordena los pasos que sigue Nerea para revisar la ortografía de su redacción.",
+      "explanation": "Primero leemos con atención, pensamos en las reglas, consultamos dudas y finalmente corregimos.",
+      "lang": "es",
+      "items": [
+        "Leer el texto con calma para localizar palabras dudosas.",
+        "Recordar las reglas ortográficas aprendidas en clase.",
+        "Consultar el diccionario escolar para comprobar dudas.",
+        "Corregir las palabras antes de entregar el trabajo."
+      ]
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-08",
+      "type": "fill-blank",
+      "prompt": "Completa la frase recordando las excepciones de los verbos en -bir.",
+      "explanation": "Los verbos terminados en -bir van con 'b', pero servir, hervir y vivir son excepciones con 'v'.",
+      "lang": "es",
+      "sentence": "En el comedor escolar, a Omar le gusta ___ la sopa bien caliente a sus compañeros.",
+      "options": [
+        "servir",
+        "serbir",
+        "cerbir"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-09",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto sobre el colegio y responde a las preguntas.",
+      "explanation": "Leer con atención nos ayuda a comprender los hechos y a fijarnos en la ortografía de cada palabra.",
+      "lang": "es",
+      "title": "El huerto escolar de Hugo",
+      "text": "Hugo y Martina cuidan el huerto del colegio cada jueves. Hoy han recogido tomates rojos y hierbabuena fresca. De repente, escucharon un suave crujido entre las hojas de un rosal. Era una pequeña oruga tejiendo un capullo brillante bajo una rama. Martina protegió al animal con unas ramitas para no molestarlo. Hugo anotó el hallazgo en su libreta de campo con un dibujo muy bonito. Los dos amigos sonreían felices por haber descubierto este pequeño secreto de la naturaleza antes de volver a clase.",
+      "questions": [
+        {
+          "prompt": "¿Qué animal encontraron Hugo y Martina entre las hojas del rosal?",
+          "explanation": "El texto explica claramente que era una pequeña oruga que tejía un capullo brillante.",
+          "options": [
+            "Un saltamontes comiendo hojas.",
+            "Un caracol subiendo por el tallo.",
+            "Una oruga tejiendo un capullo."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Las palabras 'huerto', 'hierbabuena' y 'hallazgo' del texto comparten una norma. ¿Cuál es?",
+          "explanation": "Las tres palabras comienzan por la letra 'h', como ocurre con las palabras que empiezan por hue- o hie-.",
+          "options": [
+            "Terminan con la letra b.",
+            "Empiezan con la letra h.",
+            "Llevan una j antes de vocal."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-10",
+      "type": "choice",
+      "prompt": "En el periódico del colegio quieren publicar una noticia. ¿Cuál de las tres oraciones está bien escrita?",
+      "explanation": "Cogió se escribe con 'g' (del verbo coger), viajó se escribe con 'v' y 'j', y autobús y abuelos llevan 'b'.",
+      "hint": "Recuerda que el verbo coger se escribe con g y el verbo viajar con v y j.",
+      "lang": "es",
+      "options": [
+        "Ayer Hugo cogió su abrigo y biajó en autobús con sus abuelos.",
+        "Ayer Hugo cogió su abrigo y viajó en autobús con sus abuelos.",
+        "Ayer Hugo cojió su abrigo y viajó en autobús con sus abuelos."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:48:56.552Z",
+    "reviewed": false
+  }
+}

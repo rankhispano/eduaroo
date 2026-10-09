@@ -1,0 +1,198 @@
+{
+  "id": "g1-mates-medidas-grande-pequeno",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "medidas-grande-pequeno",
+  "temaNombre": "Medidas: grande/pequeño",
+  "title": "¡Comparamos tamaños: grande y pequeño!",
+  "summary": "Aprende a comparar y ordenar objetos según su tamaño.",
+  "keyIdeas": [
+    "Compara dos cosas juntas para saber cuál es más grande.",
+    "Un objeto puede ser grande frente a uno y pequeño frente a otro.",
+    "Podemos ordenar objetos del más pequeño al más grande."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "B. Sentido de la medida › Estimación y relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-medidas-grande-pequeno-01",
+      "type": "choice",
+      "prompt": "¿Qué animal es más grande que un gato? 🐱",
+      "explanation": "El elefante tiene un tamaño mucho mayor que un gato. La hormiga y la mariquita son más pequeñas.",
+      "hint": "Piensa en un animal muy pesado y alto.",
+      "lang": "es",
+      "options": [
+        "Una hormiga 🐜",
+        "Un elefante 🐘",
+        "Una mariquita 🐞"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-02",
+      "type": "true-false",
+      "prompt": "Una goma de borrar es más grande que una mochila de clase.",
+      "explanation": "La goma cabe dentro del estuche y de la mochila. Por eso, la goma es más pequeña.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-03",
+      "type": "classify",
+      "prompt": "Clasifica estos objetos del colegio según su tamaño habitual.",
+      "explanation": "La pizarra, el armario y la mesa ocupan mucho espacio. El sacapuntas, el clip y el botón son pequeños.",
+      "lang": "es",
+      "categories": [
+        "Objetos grandes",
+        "Objetos pequeños"
+      ],
+      "items": [
+        {
+          "text": "La pizarra de la clase",
+          "category": 0
+        },
+        {
+          "text": "Un sacapuntas",
+          "category": 1
+        },
+        {
+          "text": "El armario de libros",
+          "category": 0
+        },
+        {
+          "text": "Un clip de papel",
+          "category": 1
+        },
+        {
+          "text": "La mesa de la maestra",
+          "category": 0
+        },
+        {
+          "text": "Un botón de la bata",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la opción correcta.",
+      "explanation": "El autobús escolar transporta a muchos niños. Por eso es más grande que una bicicleta.",
+      "lang": "es",
+      "sentence": "Un autobús escolar es ___ que una bicicleta.",
+      "options": [
+        "igual de rápido",
+        "más pequeño",
+        "más grande"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-05",
+      "type": "order",
+      "prompt": "Ordena las pelotas desde la más pequeña hasta la más grande.",
+      "explanation": "La pelota de tenis de mesa es la menor. Le sigue la de tenis y el balón de baloncesto es el mayor.",
+      "lang": "es",
+      "items": [
+        "Pelota de tenis de mesa 🏓",
+        "Pelota de tenis 🎾",
+        "Balón de baloncesto 🏀"
+      ]
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-06",
+      "type": "choice",
+      "prompt": "Adrián busca un objeto para su caja de zapatos. ¿Cuál cabe dentro?",
+      "explanation": "El lápiz es más pequeño que la caja de zapatos. La bicicleta y la cama son demasiado grandes.",
+      "hint": "Elige el objeto de menor tamaño que la caja.",
+      "lang": "es",
+      "options": [
+        "Un lápiz ✏️",
+        "Una bicicleta 🚲",
+        "Una cama 🛏️"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-07",
+      "type": "choice",
+      "prompt": "Mateo dice: «El ratón es más grande que el perro». ¿Qué error comete?",
+      "explanation": "Mateo ha confundido los tamaños. Un perro siempre es más grande que un ratón.",
+      "hint": "Piensa en el tamaño real de cada animal.",
+      "lang": "es",
+      "options": [
+        "No comete ningún error",
+        "El ratón y el perro son iguales",
+        "El perro es más grande que el ratón"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-08",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra adecuada para comparar las cajas.",
+      "explanation": "El tamaño mediano está entre el grande y el pequeño. Por tanto, supera en tamaño a la caja pequeña.",
+      "lang": "es",
+      "sentence": "La caja mediana es ___ que la caja pequeña.",
+      "options": [
+        "igual de ligera",
+        "más pequeña",
+        "más grande"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-09",
+      "type": "order",
+      "prompt": "Ordena los animales desde el más grande hasta el más pequeño.",
+      "explanation": "La vaca es la más grande de todos. Después va la oveja, luego el conejo y el pollito es el menor.",
+      "lang": "es",
+      "items": [
+        "Vaca 🐄",
+        "Oveja 🐑",
+        "Conejo 🐇",
+        "Pollito 🐥"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:57:25.653Z",
+    "reviewed": false
+  }
+}

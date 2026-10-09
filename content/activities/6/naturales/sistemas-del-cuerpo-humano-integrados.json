@@ -1,0 +1,251 @@
+{
+  "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "sistemas-del-cuerpo-humano-integrados",
+  "temaNombre": "Sistemas del cuerpo humano integrados",
+  "title": "El cuerpo humano en equipo",
+  "summary": "Practica cómo se coordinan tus órganos y sistemas para realizar la función de nutrición y mantenerte con vida.",
+  "keyIdeas": [
+    "La nutrición requiere la acción coordinada de cuatro sistemas: digestivo, respiratorio, circulatorio y excretor.",
+    "La sangre funciona como red de transporte: reparte nutrientes y oxígeno, y recoge los desechos celulares.",
+    "Al hacer ejercicio físico, la respiración y el pulso se aceleran coordinadamente para abastecer a las células musculares."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE5"
+    ],
+    "criteria": [
+      "4.2",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "CPSAA2",
+      "CPSAA3",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-01",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la función de nutrición:",
+      "explanation": "El sistema circulatorio conecta todos los sistemas llevando la sangre cargada de oxígeno y nutrientes a cada rincón del organismo.",
+      "hint": "Piensa en el sistema formado por el corazón, los vasos sanguíneos y la sangre.",
+      "lang": "es",
+      "sentence": "El sistema ___ es el encargado de transportar los nutrientes del aparato digestivo y el oxígeno del aparato respiratorio a todas las células del cuerpo.",
+      "options": [
+        "circulatorio",
+        "nervioso",
+        "locomotor"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-02",
+      "type": "match",
+      "prompt": "Relaciona cada sistema con su papel fundamental en la nutrición:",
+      "explanation": "Cada sistema tiene una tarea especializada que encaja con las demás para que el cuerpo obtenga energía y se mantenga limpio de toxinas.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Aparato digestivo",
+          "right": "Transforma los alimentos en nutrientes aprovechables y expulsa las heces."
+        },
+        {
+          "left": "Aparato respiratorio",
+          "right": "Capta el oxígeno del aire y elimina el dióxido de carbono producido por las células."
+        },
+        {
+          "left": "Aparato circulatorio",
+          "right": "Distribuye nutrientes y oxígeno y recoge las sustancias de desecho."
+        },
+        {
+          "left": "Aparato excretor",
+          "right": "Filtra la sangre para eliminar los desechos celulares a través de la orina."
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-03",
+      "type": "true-false",
+      "prompt": "El aparato digestivo es el único sistema que interviene para que nuestras células obtengan energía a partir de los alimentos.",
+      "explanation": "¡Idea equivocada! El aparato digestivo extrae los nutrientes, pero las células necesitan además el oxígeno del aparato respiratorio para liberar su energía, y el circulatorio para transportarlo todo.",
+      "hint": "Recuerda qué gas imprescindible necesitan las células además de la comida.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-04",
+      "type": "choice",
+      "prompt": "Durante la clase de Educación Física, Hugo hace una carrera de velocidad. Al terminar, nota que su corazón late muy deprisa y su respiración se acelera. ¿Por qué ocurre esta respuesta coordinada? 🏃‍♂️",
+      "explanation": "Al aumentar el esfuerzo muscular, las células demandan más combustible (oxígeno y glucosa). Por eso, el corazón y los pulmones aceleran su ritmo a la vez.",
+      "hint": "Piensa en qué necesitan los músculos cuando trabajan intensamente.",
+      "lang": "es",
+      "options": [
+        "Porque los pulmones necesitan enfriar el cuerpo expulsando la sangre hacia el exterior de la piel.",
+        "Porque los músculos necesitan más oxígeno y nutrientes para producir energía, y la sangre debe transportarlos con mayor rapidez.",
+        "Porque el aparato digestivo necesita vaciar rápidamente la comida hacia las piernas mientras corre."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-05",
+      "type": "classify",
+      "prompt": "Clasifica cada uno de estos órganos en el aparato al que pertenece:",
+      "explanation": "El intestino y el hígado participan en la digestión; la tráquea y los alvéolos en la respiración; y los riñones y la vejiga en la excreción urinaria.",
+      "lang": "es",
+      "categories": [
+        "Aparato digestivo",
+        "Aparato respiratorio",
+        "Aparato excretor"
+      ],
+      "items": [
+        {
+          "text": "Intestino delgado",
+          "category": 0
+        },
+        {
+          "text": "Alvéolos pulmonares",
+          "category": 1
+        },
+        {
+          "text": "Riñones",
+          "category": 2
+        },
+        {
+          "text": "Tráquea",
+          "category": 1
+        },
+        {
+          "text": "Vejiga urinaria",
+          "category": 2
+        },
+        {
+          "text": "Hígado",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-06",
+      "type": "order",
+      "prompt": "Ordena el camino que sigue una molécula de oxígeno desde que entra en el cuerpo de Nerea hasta que llega a una célula de su pierna:",
+      "explanation": "El oxígeno viaja desde el exterior por las vías respiratorias, cruza a la sangre en los alvéolos, pasa por el corazón y viaja por el sistema circulatorio hasta la célula diana.",
+      "hint": "El punto de partida es la inspiración y el final es la célula que usará el oxígeno.",
+      "lang": "es",
+      "items": [
+        "Entra por la nariz y desciende por la tráquea y los bronquios",
+        "Pasa a la sangre a través de los alvéolos pulmonares",
+        "Llega al corazón a través de las venas pulmonares",
+        "Es impulsada por el corazón hacia las arterias del cuerpo",
+        "Llega a las células musculares de la pierna a través de los capilares"
+      ]
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-07",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto sobre cómo cooperan nuestros órganos y responde a las preguntas:",
+      "explanation": "La lectura demuestra que todos los sistemas de la nutrición dependen unos de otros para que el cuerpo funcione correctamente.",
+      "lang": "es",
+      "title": "Un trabajo en equipo invisible",
+      "text": "Imagina que acabas de merendar una manzana y sales al parque a jugar al baloncesto. Mientras masticas, tu aparato digestivo empieza a descomponer la fruta en glucosa y otros nutrientes. Estos nutrientes atraviesan la pared del intestino delgado y pasan a los capilares sanguíneos. Casi al mismo tiempo, al correr tras el balón, tus pulmones inspiran con más intensidad. En los alvéolos, el oxígeno del aire pasa también a la sangre. El corazón bombea con fuerza para repartir la glucosa y el oxígeno a las células de tus músculos. En el interior de las células, ambos elementos se combinan para liberar la energía que te permite saltar y encestar. Como resultado de esta actividad, se producen desechos como dióxido de carbono y urea. La sangre recoge estos residuos y los lleva a los pulmones y a los riñones para expulsarlos. ¡Tu cuerpo funciona como una orquesta perfectamente afinada!",
+      "questions": [
+        {
+          "prompt": "¿A través de qué estructura pasan los nutrientes de la manzana a la sangre?",
+          "explanation": "En el intestino delgado se produce la absorción intestinal: los nutrientes atraviesan sus paredes y penetran en los capilares sanguíneos.",
+          "options": [
+            "A través de los alvéolos pulmonares hacia el corazón.",
+            "A través de la pared del intestino delgado hacia los capilares sanguíneos.",
+            "A través de los riñones directamente a los músculos."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué consecuencia inmediata tendría para los músculos que el corazón dejara de bombear con la fuerza adecuada durante el partido?",
+          "explanation": "Sin un bombeo sanguíneo eficaz, las células musculares se quedan sin el suministro continuo de oxígeno y nutrientes que necesitan para rendir.",
+          "options": [
+            "El aparato digestivo absorbería la comida el doble de rápido para compensar.",
+            "Los músculos fabricarían su propio oxígeno usando las reservas de la piel.",
+            "Los músculos recibirían menos oxígeno y glucosa, por lo que perderían energía y se fatigarían rápidamente."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "A partir de lo leído, ¿por qué es científicamente incorrecto decir que la nutrición consiste únicamente en comer?",
+          "explanation": "Alimentarse es solo el primer paso; nutrirse abarca la digestión, la respiración, la circulación y la excreción a nivel celular.",
+          "options": [
+            "Porque en la nutrición únicamente intervienen los riñones y los pulmones, sin relación con los alimentos.",
+            "Porque la nutrición es un proceso global que incluye digerir, respirar oxígeno, transportar sustancias y expulsar residuos.",
+            "Porque comer solo sirve para quitar la sensación de hambre, pero no influye en los músculos."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-08",
+      "type": "choice",
+      "prompt": "En el cole, Omar registra su pulso en reposo (72 pulsaciones por minuto). Después de saltar a la comba durante 2 minutos, su pulso sube a 130. Si midiese también su frecuencia respiratoria antes y después del ejercicio, ¿qué predicción científica es la correcta?",
+      "explanation": "El corazón y los pulmones se coordinan ante el esfuerzo: si el corazón late más deprisa para repartir oxígeno, los pulmones deben ventilar más veces por minuto para captarlo.",
+      "hint": "Recuerda cómo cambia tu propia respiración cuando haces ejercicio intenso.",
+      "lang": "es",
+      "options": [
+        "Su frecuencia respiratoria también aumentará, porque el organismo necesita captar más oxígeno para satisfacer la demanda de las células.",
+        "Su frecuencia respiratoria disminuirá, porque el corazón hace todo el esfuerzo y los pulmones pueden descansar.",
+        "Su frecuencia respiratoria se mantendrá igual, ya que el ritmo del corazón y la respiración son totalmente independientes."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-09",
+      "type": "choice",
+      "prompt": "Las células generan sustancias tóxicas como la urea al realizar sus funciones. ¿Cómo colaboran el aparato circulatorio y el aparato excretor para proteger el cuerpo?",
+      "explanation": "La sangre recoge las sustancias de desecho de todo el cuerpo y las conduce a los riñones; allí la sangre se filtra continuamente y los desechos se eliminan con la orina.",
+      "hint": "Piensa en la sangre como un camión de limpieza y en los riñones como la planta de reciclaje y filtrado.",
+      "lang": "es",
+      "options": [
+        "La sangre transporta los desechos desde las células hasta los riñones, que la filtran y producen la orina para expulsarlos.",
+        "Los riñones se desplazan por los vasos sanguíneos para atrapar los residuos directamente en los órganos.",
+        "El aparato circulatorio expulsa los desechos por la piel en forma de aire y los riñones solo almacenan agua limpia."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-10",
+      "type": "choice",
+      "prompt": "Aisha y Mateo debaten sobre cómo consiguen energía las células humanas para que podamos pensar, correr y crecer. ¿Cuál de las siguientes explicaciones resume con rigor científico esta integración?",
+      "explanation": "Este proceso se llama respiración celular: ocurre en el interior de cada célula cuando los nutrientes y el oxígeno se combinan para liberar energía, agua y dióxido de carbono.",
+      "hint": "Identifica la opción que integra el papel del alimento, del aire y del transporte sanguíneo.",
+      "lang": "es",
+      "options": [
+        "La energía se genera exclusivamente en el estómago al deshacer los alimentos y los nervios la envían a todo el cuerpo.",
+        "Los pulmones absorben energía solar y aire directamente, mientras que los alimentos solo aportan agua para hidratar las articulaciones.",
+        "La energía se obtiene en las células combinando los nutrientes (del aparato digestivo) con el oxígeno (del aparato respiratorio), gracias al transporte de la sangre."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:17:55.246Z",
+    "reviewed": false
+  }
+}

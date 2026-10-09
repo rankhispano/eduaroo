@@ -482,6 +482,8 @@ export const curriculum: Curso[] = [
         'Las clases de palabras',
       ]),
       asignatura('mates', [
+        'Números romanos: reglas de escritura',
+        'Aproximación, redondeo y estimación',
         'Números enteros negativos',
         'Operaciones con paréntesis',
         'Suma y resta de fracciones',

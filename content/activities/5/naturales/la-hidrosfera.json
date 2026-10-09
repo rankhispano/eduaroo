@@ -1,0 +1,254 @@
+{
+  "id": "g5-naturales-la-hidrosfera",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "la-hidrosfera",
+  "temaNombre": "La hidrosfera",
+  "title": "Exploramos los secretos de la hidrosfera",
+  "summary": "Repasa la distribución del agua en la Tierra, el ciclo hidrológico y la importancia de proteger este recurso vital.",
+  "keyIdeas": [
+    "La hidrosfera es el conjunto de toda el agua del planeta, en estado sólido, líquido o gaseoso.",
+    "El 97 % del agua de la Tierra es salada y solo el 3 % es dulce, encontrándose la mayor parte congelada en glaciares.",
+    "El ciclo del agua es continuo y mueve el agua entre la superficie terrestre y la atmósfera gracias a la energía solar."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1",
+      "5.3"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-la-hidrosfera-01",
+      "type": "true-false",
+      "prompt": "La hidrosfera está formada únicamente por el agua en estado líquido que vemos en ríos, mares y océanos.",
+      "explanation": "La hidrosfera incluye toda el agua del planeta en sus tres estados: líquido (mares, ríos), sólido (glaciares, nieve) y gaseoso (vapor de agua en la atmósfera).",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la distribución del agua en nuestro planeta.",
+      "explanation": "Alrededor del 69 % del agua dulce del planeta está congelada en los glaciares y en los casquetes polares de la Antártida y Groenlandia.",
+      "lang": "es",
+      "sentence": "La mayor parte del agua dulce de la Tierra se encuentra en forma de hielo en los ___ y casquetes polares.",
+      "options": [
+        "pantanos",
+        "acuíferos",
+        "ríos",
+        "glaciares"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-03",
+      "type": "classify",
+      "prompt": "Clasifica estas masas de agua según sean aguas superficiales o aguas subterráneas:",
+      "explanation": "Las aguas superficiales fluyen o reposan sobre la corteza terrestre, mientras que las subterráneas se infiltran y almacenan bajo el suelo en acuíferos.",
+      "lang": "es",
+      "categories": [
+        "Aguas superficiales",
+        "Aguas subterráneas"
+      ],
+      "items": [
+        {
+          "text": "Río Ebro",
+          "category": 0
+        },
+        {
+          "text": "Acuífero bajo el desierto",
+          "category": 1
+        },
+        {
+          "text": "Lago de Sanabria",
+          "category": 0
+        },
+        {
+          "text": "Pozo de agua dulce",
+          "category": 1
+        },
+        {
+          "text": "Laguna de Ruidera",
+          "category": 0
+        },
+        {
+          "text": "Torrente de montaña",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-04",
+      "type": "match",
+      "prompt": "Une cada fase del ciclo del agua con el proceso físico que la describe:",
+      "explanation": "Cada etapa del ciclo del agua implica un cambio de estado o un movimiento físico del agua impulsado por la energía solar y la gravedad.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Evaporación",
+          "right": "El agua líquida pasa a vapor por el calor del Sol."
+        },
+        {
+          "left": "Condensación",
+          "right": "El vapor de agua se enfría y forma las nubes."
+        },
+        {
+          "left": "Precipitación",
+          "right": "El agua cae en forma de lluvia, nieve o granizo."
+        },
+        {
+          "left": "Infiltración",
+          "right": "El agua del suelo penetra hacia las capas subterráneas."
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-05",
+      "type": "order",
+      "prompt": "Hugo sigue el recorrido de una gota de agua en la naturaleza. Ordena las fases de su viaje empezando por el calentamiento del mar:",
+      "explanation": "El ciclo hidrológico es continuo: evaporación, condensación, precipitación y retorno por escorrentía hacia el mar.",
+      "lang": "es",
+      "items": [
+        "El agua del mar se calienta y asciende como vapor invisible.",
+        "El vapor se enfría en las alturas y forma gotas en una nube.",
+        "Las gotas se agrupan, pesan más y caen como lluvia sobre la montaña.",
+        "El agua se desliza por un arroyo hasta desembocar de nuevo en el mar."
+      ]
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-06",
+      "type": "choice",
+      "prompt": "Lucía y Mateo preparan un modelo casero del ciclo del agua con un recipiente tapado con film transparente al sol. Ven pequeñas gotas colgando del plástico. ¿Qué cambio de estado representa ese fenómeno?",
+      "explanation": "El vapor de agua sube y, al contactar con la superficie más fría del plástico, se condensa formando gotitas líquidas, igual que ocurre al formarse las nubes.",
+      "hint": "Piensa en el paso de gas a líquido cuando baja la temperatura.",
+      "lang": "es",
+      "options": [
+        "Filtración, porque el plástico absorbe la humedad del fondo.",
+        "Fusión, porque el hielo se convierte en agua líquida dentro del recipiente.",
+        "Condensación, porque el vapor caliente choca con el plástico frío y se vuelve líquido.",
+        "Solidificación, porque el agua líquida se convierte en hielo en el film."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-07",
+      "type": "choice",
+      "prompt": "En clase debaten sobre afirmaciones científicas del agua. Solo una persona ha detectado una idea FALSA muy común. ¿Cuál de estas afirmaciones contiene un error?",
+      "explanation": "¡Ese es el error! La Tierra contiene prácticamente la misma cantidad de agua desde hace millones de años. El agua no se crea continuamente de la nada, sino que se recicla sin cesar a través del ciclo hidrológico.",
+      "lang": "es",
+      "options": [
+        "«El agua que bebemos hoy es completamente nueva y acaba de ser creada en la atmósfera.»",
+        "«El vapor de agua es un gas transparente e invisible presente en el aire que respiramos.»",
+        "«Los icebergs flotan en el mar porque el hielo es menos denso que el agua líquida.»",
+        "«Casi tres cuartas partes de la superficie del planeta están cubiertas por agua.»"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-08",
+      "type": "reading",
+      "prompt": "Lee este texto sobre el desafío del agua y responde a las preguntas:",
+      "explanation": "Comprender la escasez de agua dulce accesible nos ayuda a tomar decisiones de consumo responsable.",
+      "lang": "es",
+      "title": "La huella invisible del agua",
+      "text": "Cuando abrimos el grifo para beber un vaso de agua fresca, rara vez pensamos en el asombroso viaje que ha realizado. Aunque nuestro planeta parece azul desde el espacio, el 97 % del agua es salada y no es apta para el consumo humano ni para regar los cultivos agrícolas. Del 3 % restante, casi toda se halla atrapada en los hielos polares o en acuíferos muy profundos, dejando menos del 1 % disponible fácilmente en ríos y lagos.\n\nAdemás del agua que bebemos o usamos para ducharnos, existe la llamada «agua virtual»: la cantidad de agua necesaria para fabricar una camiseta de algodón, producir un kilogramo de carne o elaborar un cuaderno escolar. Una sola camiseta puede requerir más de 2.000 litros durante el cultivo y procesado de su fibra.\n\nPor este motivo, ahorrar agua no consiste únicamente en cerrar el grifo mientras nos lavamos los dientes. También implica cuidar el consumo de bienes materiales, evitar el desperdicio de comida y exigir que las industrias no contaminen los ríos y acuíferos.",
+      "questions": [
+        {
+          "prompt": "¿Qué porcentaje aproximado del agua del planeta es dulce?",
+          "explanation": "El texto indica que el 97 % es salada, por lo que solo el 3 % restante corresponde al agua dulce.",
+          "options": [
+            "Cerca del 50 %",
+            "Menos del 0,1 %",
+            "Alrededor del 3 %",
+            "Aproximadamente el 97 %"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "A partir del texto, ¿qué significa el concepto de «agua virtual»?",
+          "explanation": "El agua virtual es el volumen total de agua dulce utilizado de forma directa e indirecta para producir un bien o alimento.",
+          "options": [
+            "El vapor de agua invisible que flota libremente en las capas altas de la atmósfera.",
+            "El agua imaginaria que aparece en los videojuegos y simuladores por ordenador.",
+            "El agua subterránea que nunca llega a extraerse a la superficie terrestre.",
+            "El agua consumida y contaminada durante todo el proceso de fabricación de un producto."
+          ],
+          "answer": 3
+        },
+        {
+          "prompt": "¿Por qué el autor sostiene que cerrar el grifo al lavarnos los dientes no es suficiente para proteger la hidrosfera?",
+          "explanation": "El texto invita a una reflexión crítica: nuestro consumo diario de ropa, comida y objetos tiene una gran huella hídrica invisible que también impacta en el planeta.",
+          "options": [
+            "Porque solo las grandes tormentas influyen en la cantidad de agua del planeta.",
+            "Porque los acuíferos subterráneos tienen reservas infinitas que nunca pueden agotarse.",
+            "Porque el agua de uso doméstico se evapora inmediatamente sin contaminar el entorno.",
+            "Porque la fabricación de productos y alimentos consume enormes volúmenes invisibles de agua que también debemos reducir."
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-09",
+      "type": "choice",
+      "prompt": "Aisha observa que el río que pasa cerca de su pueblo lleva mucho menos caudal en verano y que el pozo de su abuelo ha bajado de nivel. ¿Cuál es la explicación científica más coherente para este descenso?",
+      "explanation": "En verano, el aumento térmico acelera la evaporación y la transpiración vegetal, mientras que la falta de precipitaciones impide recargar tanto el cauce como el nivel freático del acuífero.",
+      "hint": "Relaciona la temperatura con la evaporación y la falta de precipitaciones.",
+      "lang": "es",
+      "options": [
+        "El ciclo del agua se detiene por completo durante los meses más calurosos del año.",
+        "El agua del río se vuelve salada en verano y por eso se filtra más rápido hacia el núcleo de la Tierra.",
+        "Las altas temperaturas aumentan la evaporación y la escasez de lluvias impide la recarga de las aguas subterráneas.",
+        "Las plantas dejan de absorber agua durante el calor y el suelo se seca por completo."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-10",
+      "type": "choice",
+      "prompt": "El ayuntamiento del pueblo de Omar quiere evitar que los nitratos de los abonos agrícolas contaminen el agua del pueblo. ¿Por qué es especialmente peligroso que los contaminantes alcancen un acuífero subterráneo?",
+      "explanation": "Los acuíferos tienen una tasa de renovación lenta y el agua filtrada no recibe luz solar directa ni corrientes rápidas, por lo que descontaminar un acuífero subterráneo requiere décadas y un coste enorme.",
+      "hint": "Piensa en lo difícil que es acceder a capas de roca bajo tierra.",
+      "lang": "es",
+      "options": [
+        "Porque el agua subterránea se renueva muy lentamente y su limpieza o depuración bajo tierra es sumamente difícil.",
+        "Porque el agua subterránea hierve al contacto con los abonos y destruye el subsuelo.",
+        "Porque los acuíferos solo desembocan en volcanes activos y provocarían erupciones ácidas.",
+        "Porque los productos químicos se transforman al instante en vapor tóxico que destruye la atmósfera."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:10:25.369Z",
+    "reviewed": false
+  }
+}

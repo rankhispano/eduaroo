@@ -1,0 +1,240 @@
+{
+  "id": "g5-sociales-paisajes-de-espana-y-europa",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "paisajes-de-espana-y-europa",
+  "temaNombre": "Paisajes de España y Europa",
+  "title": "Viaje por los paisajes de España y Europa",
+  "summary": "Repasa las características del relieve, el clima, la vegetación y los ríos de los grandes paisajes de España y Europa.",
+  "keyIdeas": [
+    "España cuenta con una gran diversidad paisajística: oceánico, mediterráneo, de montaña y subtropical canario.",
+    "El relieve europeo combina grandes llanuras en el centro con altas cordilleras jóvenes en el sur y macizos antiguos.",
+    "El clima y el relieve determinan los ríos y la vegetación de cada paisaje, modelados también por la actividad humana."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-01",
+      "type": "true-false",
+      "prompt": "En el paisaje mediterráneo típico de España, los veranos suelen ser calurosos y secos, mientras que las lluvias son más abundantes en primavera y otoño.",
+      "explanation": "El clima mediterráneo se caracteriza por la sequía estival y temperaturas cálidas en verano, concentrándose las precipitaciones en otoño y primavera.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-02",
+      "type": "choice",
+      "prompt": "¿En qué archipiélago y paisaje se encuentra el pico más alto de España, el Teide (3.715 metros)?",
+      "explanation": "El Teide está en la isla de Tenerife (Islas Canarias) y forma parte del singular paisaje volcánico y subtropical canario.",
+      "hint": "Se trata de un volcán situado en una isla atlántica frente a las costas africanas.",
+      "lang": "es",
+      "options": [
+        "En las Islas Canarias, dentro del paisaje subtropical.",
+        "En los Pirineos, dentro del paisaje de alta montaña.",
+        "En las Islas Baleares, dentro del paisaje mediterráneo.",
+        "En la cordillera Cantábrica, dentro del paisaje oceánico."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el relieve europeo.",
+      "explanation": "La Gran Llanura Europea domina el centro y este de Europa, facilitando la agricultura y las comunicaciones terrestres.",
+      "lang": "es",
+      "sentence": "La Gran Llanura ___ se extiende desde los Pirineos hasta los montes Urales, ocupando una inmensa franja llana y fértil del continente.",
+      "options": [
+        "Europea",
+        "Ibérica",
+        "Alpina"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-04",
+      "type": "match",
+      "prompt": "Relaciona cada vertiente hidrográfica española con el río que desemboca en ella:",
+      "explanation": "El Nalón es corto y caudaloso hacia el mar Cantábrico; el Tajo es largo y desemboca en Lisboa (océano Atlántico); y el Ebro es el más caudaloso del Mediterráneo español.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Vertiente cantábrica",
+          "right": "Río Nalón"
+        },
+        {
+          "left": "Vertiente atlántica",
+          "right": "Río Tajo"
+        },
+        {
+          "left": "Vertiente mediterránea",
+          "right": "Río Ebro"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-05",
+      "type": "classify",
+      "prompt": "Clasifica estas unidades de relieve según se ubiquen en el interior de la península ibérica o en el resto del continente europeo:",
+      "explanation": "Los Montes de Toledo, el Sistema Central y Sierra Morena forman parte del relieve peninsular español, mientras que los Alpes, Urales y Cárpatos son grandes cordilleras del resto de Europa.",
+      "lang": "es",
+      "categories": [
+        "Península ibérica",
+        "Resto de Europa"
+      ],
+      "items": [
+        {
+          "text": "Montes de Toledo",
+          "category": 0
+        },
+        {
+          "text": "Alpes",
+          "category": 1
+        },
+        {
+          "text": "Sistema Central",
+          "category": 0
+        },
+        {
+          "text": "Montes Urales",
+          "category": 1
+        },
+        {
+          "text": "Sierra Morena",
+          "category": 0
+        },
+        {
+          "text": "Cárpatos",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-06",
+      "type": "choice",
+      "prompt": "Lucía y Aisha visitan a sus abuelos en una aldea costera de Galicia. Observan prados muy verdes, bosques de robles y castaños, y nubes frecuentes con llovizna suave. ¿A qué paisaje corresponde este entorno? 🌧️",
+      "explanation": "El norte y noroeste peninsular presentan paisaje oceánico, caracterizado por temperaturas suaves todo el año, humedad constante y bosques caducifolios.",
+      "hint": "Piensa en el clima del norte de España, donde llueve con regularidad.",
+      "lang": "es",
+      "options": [
+        "Paisaje desértico, por la erosión producida por las olas del mar.",
+        "Paisaje subtropical, debido a la influencia marina y la escasez de lluvias.",
+        "Paisaje oceánico o atlántico, con lluvias abundantes y vegetación caducifolia.",
+        "Paisaje mediterráneo continentalizado, por sus temperaturas extremas."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-07",
+      "type": "order",
+      "prompt": "Ordena los pisos de vegetación de una montaña europea desde la base (menor altitud) hasta la cumbre (mayor altitud):",
+      "explanation": "A medida que se sube en altitud bajan las temperaturas: primero crecen árboles de hoja caduca, luego coníferas adaptadas al frío, más arriba pastos y en la cumbre apenas hay roca y hielo.",
+      "lang": "es",
+      "items": [
+        "Bosque de robles o hayas (hoja caduca)",
+        "Bosque de coníferas (pinos y abetos)",
+        "Prados alpinos y matorral bajo",
+        "Roca desnuda, nieve perpetua y líquenes"
+      ]
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-08",
+      "type": "choice",
+      "prompt": "Muchos ríos de la vertiente mediterránea peninsular (como el Turia o el Júcar) tienen caudales irregulares con fuertes estiajes en verano. ¿Cuál es la causa principal de este fenómeno? ☀️",
+      "explanation": "El estiaje es la bajada de caudal provocada por la falta de lluvias y las altas temperaturas veraniegas propias del clima mediterráneo.",
+      "hint": "Fíjate en qué ocurre con las precipitaciones y el calor durante el verano en la cuenca mediterránea.",
+      "lang": "es",
+      "options": [
+        "La altitud constante de las montañas donde nacen, que impide que llueva en invierno.",
+        "El deshielo temprano de los glaciares durante los meses invernales.",
+        "La presencia de presas que desvían todo el caudal hacia el océano Atlántico.",
+        "La evaporación en verano combinada con la acusada sequía de los meses cálidos del clima mediterráneo."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-09",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto sobre los paisajes europeos y responde a las preguntas:",
+      "explanation": "La lectura muestra los contrastes bioclimáticos de Europa y la huella de la acción humana en su conservación.",
+      "lang": "es",
+      "title": "El mosaico natural del continente europeo",
+      "text": "Europa es un continente con una variedad asombrosa de paisajes en un territorio relativamente pequeño. Al norte, en la península escandinava, predominan los paisajes de taiga (densos bosques de abetos y pinos) y tundra, donde el frío extremo del invierno marca la vida silvestre. Hacia el centro del continente, el paisaje oceánico y continental da paso a extensas llanuras regadas por ríos caudalosos como el Rin y el Danubio, convertidos en ejes comerciales e industriales desde hace siglos. Más al sur, el paisaje mediterráneo destaca por sus veranos secos y bosques de encinas y alcornoques. Sin embargo, la intensa actividad humana (ciudades, autopistas y agricultura de regadío) ha transformado radicalmente muchos de estos entornos naturales. Proteger espacios singulares mediante parques nacionales y reservas de la biosfera es hoy imprescindible para conservar la biodiversidad y garantizar que las futuras generaciones disfruten de este rico patrimonio natural.",
+      "questions": [
+        {
+          "prompt": "¿Qué dos ríos se mencionan como importantes ejes comerciales de las llanuras centrales?",
+          "explanation": "El texto cita expresamente el Rin y el Danubio como ejemplos de ríos caudalosos de las llanuras centrales.",
+          "options": [
+            "El Volga y el Sena",
+            "El Rin y el Danubio",
+            "El Tajo y el Ebro"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "A partir del texto, ¿por qué los bosques del extremo norte europeo están formados principalmente por coníferas (pinos y abetos)?",
+          "explanation": "Las coníferas tienen hojas aciculares y formas cónicas que les permiten resistir las heladas y el peso de la nieve invernal de la taiga.",
+          "options": [
+            "Porque la agricultura intensiva eliminó el resto de especies vegetales.",
+            "Porque en el norte de Europa nunca nieva y el clima es templado todo el año.",
+            "Porque estas especies están adaptadas para soportar el frío extremo y la nieve del invierno."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué reflexión crítica plantea el texto sobre la relación entre el ser humano y los paisajes europeos?",
+          "explanation": "El texto advierte de cómo la industria, la agricultura y las ciudades transforman el medio y destaca la urgencia de proteger la biodiversidad mediante reservas y parques.",
+          "options": [
+            "Que la actividad económica humana ha modificado el paisaje y exige medidas urgentes de protección ambiental.",
+            "Que la naturaleza europea no ha sufrido ningún cambio porque las ciudades son muy pequeñas.",
+            "Que los ríos navegables ya no son útiles debido al cambio climático global."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-10",
+      "type": "choice",
+      "prompt": "El Parque Nacional de Doñana (Andalucía) acoge marismas únicas donde descansan aves migratorias entre Europa y África. En los últimos años, la extracción excesiva de agua subterránea para regadíos agrícolas y urbanizaciones cercanas amenaza con secar sus lagunas. ¿Qué propuesta equilibra mejor la protección ecológica y el bienestar de la población local? 🌿",
+      "explanation": "La sostenibilidad consiste en compatibilizar la protección de los ecosistemas con la economía local mediante el uso eficiente del agua y el control legal de los recursos hídricos.",
+      "hint": "Busca una solución que combine la conservación del humedal con alternativas responsables para las personas.",
+      "lang": "es",
+      "options": [
+        "Trasladar las aves migratorias en aviones hacia otros humedales del norte de Europa cada primavera.",
+        "Modernizar el riego con tecnologías de ahorro de agua, clausurar pozos ilegales y fomentar cultivos sostenibles.",
+        "Desecar por completo las marismas para construir más campos de cultivo y generar empleo temporal inmediato.",
+        "Prohibir toda actividad humana en toda la comunidad autónoma sin ofrecer alternativas a los agricultores."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:32:09.817Z",
+    "reviewed": false
+  }
+}

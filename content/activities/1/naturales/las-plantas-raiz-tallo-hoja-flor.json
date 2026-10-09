@@ -1,0 +1,224 @@
+{
+  "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "las-plantas-raiz-tallo-hoja-flor",
+  "temaNombre": "Las plantas (raíz, tallo, hoja, flor)",
+  "title": "Descubrimos las partes de las plantas",
+  "summary": "Aprende a reconocer la raíz, el tallo, las hojas y las flores.",
+  "keyIdeas": [
+    "La raíz sujeta la planta al suelo y toma agua.",
+    "El tallo sostiene la planta y reparte el agua.",
+    "Las hojas fabrican su alimento con la luz del sol."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-01",
+      "type": "choice",
+      "prompt": "¿Qué parte de la planta suele crecer escondida bajo tierra?",
+      "explanation": "La raíz crece bajo tierra y sujeta la planta al suelo.",
+      "hint": "Crece hacia abajo para buscar agua.",
+      "lang": "es",
+      "options": [
+        "La raíz",
+        "La flor",
+        "La hoja"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-02",
+      "type": "match",
+      "prompt": "Une cada parte de la planta con su trabajo principal.",
+      "explanation": "Cada parte de la planta cumple una función para mantenerla viva.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Raíz",
+          "right": "Toma agua de la tierra"
+        },
+        {
+          "left": "Tallo",
+          "right": "Sostiene las hojas"
+        },
+        {
+          "left": "Hoja",
+          "right": "Capta la luz del sol"
+        },
+        {
+          "left": "Flor",
+          "right": "Produce las semillas"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-03",
+      "type": "true-false",
+      "prompt": "El tallo lleva el agua desde la raíz hasta las hojas.",
+      "explanation": "El tallo funciona como una pajita que reparte el agua por toda la planta.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-04",
+      "type": "classify",
+      "prompt": "Separa las partes de la planta de sus necesidades.",
+      "explanation": "La raíz, el tallo y la flor forman la planta. El agua y el sol son lo que necesita para crecer.",
+      "lang": "es",
+      "categories": [
+        "Partes de la planta",
+        "Necesidades para vivir"
+      ],
+      "items": [
+        {
+          "text": "Raíz",
+          "category": 0
+        },
+        {
+          "text": "Tallo",
+          "category": 0
+        },
+        {
+          "text": "Flor",
+          "category": 0
+        },
+        {
+          "text": "Agua",
+          "category": 1
+        },
+        {
+          "text": "Luz del sol",
+          "category": 1
+        },
+        {
+          "text": "Tierra",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la parte correcta.",
+      "explanation": "La raíz se encarga de absorber el agua del suelo.",
+      "lang": "es",
+      "sentence": "La ___ absorbe el agua que hay en la tierra.",
+      "options": [
+        "raíz",
+        "flor",
+        "hoja"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-06",
+      "type": "choice",
+      "prompt": "Aisha guarda una planta en un armario sin luz. ¿Qué pasará?",
+      "explanation": "Las plantas necesitan la luz del sol para crecer sanas y verdes.",
+      "hint": "Las hojas necesitan sol para fabricar alimento.",
+      "lang": "es",
+      "options": [
+        "Crecerá más verde y fuerte.",
+        "Dará flores de muchos colores.",
+        "Se pondrá amarilla y débil."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-07",
+      "type": "order",
+      "prompt": "Ordena cómo crece una planta desde el principio.",
+      "explanation": "Primero germina la semilla, luego sale la raíz, sube el tallo y finalmente nacen las hojas y las flores.",
+      "lang": "es",
+      "items": [
+        "Plantamos una semilla en la tierra.",
+        "Crece una pequeña raíz hacia abajo.",
+        "El tallo verde asoma hacia arriba.",
+        "Aparecen las hojas y la flor."
+      ]
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-08",
+      "type": "choice",
+      "prompt": "Omar dice: «Las plantas beben agua con sus flores». ¿Por qué se equivoca?",
+      "explanation": "Las plantas toman el agua del suelo a través de las raíces, no con las flores.",
+      "hint": "Piensa por dónde se riega una maceta.",
+      "lang": "es",
+      "options": [
+        "Porque toman el agua del suelo con la raíz.",
+        "Porque toman el agua del aire con las ramas.",
+        "Porque las plantas nunca necesitan beber agua."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-09",
+      "type": "true-false",
+      "prompt": "Todas las hojas de las plantas tienen la misma forma.",
+      "explanation": "Hay hojas muy variadas: alargadas, redondas o en forma de aguja como los pinos.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-10",
+      "type": "reading",
+      "prompt": "Lee atentamente la experiencia de Mateo y contesta.",
+      "explanation": "El tallo transporta el agua y las sustancias nutritivas hasta las partes altas de la planta.",
+      "lang": "es",
+      "title": "El experimento del clavel",
+      "text": "Mateo pone un clavel blanco en agua con pintura roja. Al día siguiente, los pétalos blancos tienen manchas rojas. El agua ha subido por el tallo hasta la flor.",
+      "questions": [
+        {
+          "prompt": "¿Por qué parte de la planta subió el agua coloreada?",
+          "explanation": "El tallo conduce el agua desde el vaso hasta los pétalos.",
+          "options": [
+            "Por el tallo",
+            "Por la raíz",
+            "Por la semilla"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué parte del clavel tenía manchas de color rojo?",
+          "explanation": "El agua teñida llegó a la flor y tiñó sus pétalos.",
+          "options": [
+            "Los pétalos de la flor",
+            "La raíz de la planta",
+            "La tierra del tiesto"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:31:56.361Z",
+    "reviewed": false
+  }
+}

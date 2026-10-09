@@ -1,0 +1,245 @@
+{
+  "id": "g6-naturales-reacciones-quimicas",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "reacciones-quimicas",
+  "temaNombre": "Reacciones químicas",
+  "title": "El misterio de las reacciones químicas",
+  "summary": "Practica cómo se transforma la materia, identifica reactivos y productos, y descubre las pistas de las reacciones químicas.",
+  "keyIdeas": [
+    "En un cambio químico se forman sustancias nuevas diferentes a las iniciales; en un cambio físico, la sustancia sigue siendo la misma.",
+    "Las sustancias que reaccionan se llaman reactivos y las que se obtienen son los productos.",
+    "En una reacción química la materia no desaparece: la masa total se conserva siempre."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2"
+    ],
+    "criteria": [
+      "2.1",
+      "2.3",
+      "2.4"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-reacciones-quimicas-01",
+      "type": "true-false",
+      "prompt": "Cuando el agua líquida hierve y se transforma en vapor de agua, se produce una reacción química porque cambia su aspecto por completo.",
+      "explanation": "Es un cambio físico y no químico. El agua cambia de estado líquido a gaseoso, pero sigue estando formada por las mismas moléculas de agua.",
+      "hint": "Piensa si al enfriarse el vapor vuelve a ser agua líquida sin haber creado ninguna sustancia nueva.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-02",
+      "type": "classify",
+      "prompt": "Clasifica estas transformaciones cotidianas según representen un cambio físico o una reacción química:",
+      "explanation": "En los cambios físicos la sustancia sigue siendo la misma aunque cambie de forma o estado. En las reacciones químicas nacen sustancias totalmente nuevas.",
+      "lang": "es",
+      "categories": [
+        "Cambio físico",
+        "Reacción química"
+      ],
+      "items": [
+        {
+          "text": "Fundir un cubito de hielo al sol",
+          "category": 0
+        },
+        {
+          "text": "La oxidación de un clavo de hierro",
+          "category": 1
+        },
+        {
+          "text": "Arrugar una hoja de papel de libreta",
+          "category": 0
+        },
+        {
+          "text": "Hornear una masa de galletas",
+          "category": 1
+        },
+        {
+          "text": "Disolver una cucharadita de sal en agua",
+          "category": 0
+        },
+        {
+          "text": "Prender una cerilla de madera",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el término científico adecuado sobre los componentes de una reacción:",
+      "explanation": "Los reactivos son las sustancias iniciales que interactúan y se transforman para originar los productos finales.",
+      "hint": "Su propio nombre indica que son los elementos que van a reaccionar.",
+      "lang": "es",
+      "sentence": "En toda reacción química, las sustancias que tenemos al principio y que reaccionan entre sí se denominan ___.",
+      "options": [
+        "reactivos",
+        "disolventes",
+        "productos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-04",
+      "type": "match",
+      "prompt": "Une cada suceso cotidiano con la evidencia visible de que está ocurriendo una reacción química:",
+      "explanation": "El desprendimiento de gases, los cambios de color, la emisión de calor o la formación de sólidos son pistas clave de una transformación química.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Mezclar bicarbonato con vinagre",
+          "right": "Desprendimiento de gas"
+        },
+        {
+          "left": "Dejar un trozo de manzana al aire",
+          "right": "Cambio de color"
+        },
+        {
+          "left": "La llama de una hoguera en el campo",
+          "right": "Emisión de luz y calor"
+        },
+        {
+          "left": "Añadir limón a la leche tibia",
+          "right": "Aparición de un precipitado sólido"
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-05",
+      "type": "choice",
+      "prompt": "Lucía coloca una botella con vinagre y encaja en su boca un globo con bicarbonato. La báscula marca 185 g. Luego levanta el globo, el bicarbonato cae, burbujea intensamente y el globo se hincha. Como no ha escapado nada de gas, ¿cuánto marcará la báscula al terminar?",
+      "explanation": "Al ser un sistema cerrado del que no escapa nada, la masa de los reactivos es exactamente igual a la de los productos. Los gases también tienen masa.",
+      "hint": "Recuerda la ley de conservación de la masa en recipientes cerrados.",
+      "lang": "es",
+      "options": [
+        "Exactamente 185 g, porque la materia no se destruye, solo se transforma.",
+        "Menos de 185 g, porque el gas que llena el globo no tiene peso.",
+        "Más de 185 g, porque el globo inflado ocupa mucho más volumen."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-06",
+      "type": "order",
+      "prompt": "Hugo quiere comprobar experimentalmente si el frío retrasa la oxidación de una manzana. Ordena los pasos del método científico que debe seguir:",
+      "explanation": "La investigación científica comienza con la observación, continúa con la hipótesis y la experimentación controlada, y finaliza con el análisis y las conclusiones.",
+      "lang": "es",
+      "items": [
+        "Observar que los gajos de manzana expuestos al aire se ponen marrones con el tiempo.",
+        "Plantear la hipótesis de que las bajas temperaturas de la nevera ralentizan la oxidación.",
+        "Colocar un gajo en la nevera y otro gajo idéntico a temperatura ambiente durante tres horas.",
+        "Anotar los cambios de color observados en cada gajo y registrar los datos obtenidos.",
+        "Llegar a una conclusión y comunicar a la clase si se confirmó la hipótesis de partida."
+      ]
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-07",
+      "type": "choice",
+      "prompt": "Omar afirma: «Al quemar un tronco de 3 kg en la chimenea, casi toda la materia desaparece para siempre porque las cenizas que quedan en el fondo solo pesan 150 gramos». ¿Cuál es el error científico de Omar?",
+      "explanation": "Durante la combustión, gran parte del carbono y otros elementos de la madera se combinan con el oxígeno y pasan a la atmósfera como gases invisibles. Nada desaparece.",
+      "hint": "Fíjate en qué sale por el tiro de la chimenea hacia el exterior.",
+      "lang": "es",
+      "options": [
+        "La materia no desaparece: la masa restante se ha liberado al aire en forma de humo y gases invisibles como vapor de agua y dióxido de carbono.",
+        "Omar se equivoca de cálculo, porque las cenizas siempre pesan el doble que la madera quemada.",
+        "En realidad el fuego no transforma la materia, solo la encoge hasta que casi no se ve."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-08",
+      "type": "choice",
+      "prompt": "Tanto al encender una vela como al dejar una reja de hierro a la intemperie ocurren reacciones químicas (combustión y oxidación lenta). ¿Qué gas presente en el aire es imprescindible para que sucedan ambas?",
+      "explanation": "El oxígeno actúa como comburente en la combustión y reacciona con los metales en la oxidación. Sin él, ninguna de estas reacciones puede producirse.",
+      "hint": "Es el mismo gas esencial que tomamos del aire al respirar.",
+      "lang": "es",
+      "options": [
+        "Oxígeno",
+        "Nitrógeno",
+        "Dióxido de carbono"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-09",
+      "type": "reading",
+      "prompt": "Lee atentamente el siguiente texto sobre un hito de la ciencia y responde a las preguntas:",
+      "explanation": "El trabajo en equipo de los Lavoisier sentó las bases de la química moderna al demostrar la ley de conservación de la materia con mediciones exactas.",
+      "lang": "es",
+      "title": "La balanza de los Lavoisier",
+      "text": "En el siglo XVIII, Marie-Anne Paulze y su esposo Antoine Lavoisier transformaron el estudio de la materia en su laboratorio de París. Hasta entonces, muchas personas creían que durante una combustión la materia se destruía misteriosamente.\n\nLos Lavoisier decidieron someter esta idea a rigurosas pruebas. Diseñaron recipientes de vidrio herméticamente sellados para impedir que cualquier sustancia saliera o entrara. Dentro colocaban metales o carbón, los calentaban hasta provocar la reacción química y medían la masa antes y después con balanzas de máxima precisión. Descubrieron que la masa total no variaba ni un miligramo: la masa de los reactivos era idéntica a la de los productos.\n\nMarie-Anne dominaba varios idiomas, tradujo tratados científicos extranjeros y dibujó con minuciosidad todos los instrumentos del laboratorio para que otros investigadores pudieran repetir sus experimentos. Gracias a este trabajo riguroso y compartido, demostraron al mundo que en la naturaleza nada se destruye, solo se transforma.",
+      "questions": [
+        {
+          "prompt": "¿Qué instrumento fue determinante para que los Lavoisier comprobasen que la masa no variaba?",
+          "explanation": "El texto señala que emplearon balanzas de máxima precisión para pesar el recipiente antes y después de la reacción.",
+          "options": [
+            "Termómetros de mercurio",
+            "Balanzas de altísima precisión",
+            "Microscopios de gran aumento"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por qué era imprescindible sellar herméticamente los recipientes de vidrio durante los experimentos?",
+          "explanation": "Si los gases salían del frasco, no se habrían podido pesar y parecería erróneamente que la masa había disminuido.",
+          "options": [
+            "Para evitar que escapasen los gases producidos, lo que habría falseado la masa final.",
+            "Para que los reactivos no desprendieran olores desagradables en el laboratorio.",
+            "Para impedir que entrase la luz solar y enfriase los materiales."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "A partir de lo leído, ¿por qué fue fundamental la labor de Marie-Anne Paulze para el avance científico?",
+          "explanation": "La ciencia avanza mediante el registro riguroso, la comunicación clara y el trabajo en equipo, tareas esenciales que lideró Marie-Anne.",
+          "options": [
+            "Porque inventó en solitario las balanzas electrónicas más rápidas de la época.",
+            "Porque documentó, ilustró y tradujo las investigaciones, facilitando la colaboración y la verificación en la comunidad científica.",
+            "Porque demostró que no hacía falta repetir los experimentos para llegar a conclusiones válidas."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-10",
+      "type": "choice",
+      "prompt": "Aisha y Adrián investigan qué hace que una pastilla efervescente reaccione más rápido con agua. En el Vaso A ponen agua fría con una pastilla entera. En el Vaso B ponen agua muy caliente con una pastilla triturada en polvo. El Vaso B reacciona de inmediato, pero su maestro les dice que el experimento no es científicamente válido. ¿Por qué?",
+      "explanation": "Para que un experimento demuestre una causa, solo se debe cambiar una variable cada vez (por ejemplo, solo la temperatura o solo el estado de la pastilla), manteniendo todo lo demás igual.",
+      "hint": "En un experimento riguroso, solo se modifica un factor a la vez para comparar con justicia.",
+      "lang": "es",
+      "options": [
+        "Cambiaron dos variables a la vez (temperatura y trituración), por lo que no pueden saber cuál de las dos causó el aumento de velocidad.",
+        "Triturar una pastilla altera su composición química y anula la reacción.",
+        "El agua caliente nunca debe utilizarse en experimentos de ciencias porque destruye las burbujas."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:16:00.750Z",
+    "reviewed": false
+  }
+}

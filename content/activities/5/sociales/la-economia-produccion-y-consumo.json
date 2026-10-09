@@ -1,0 +1,250 @@
+{
+  "id": "g5-sociales-la-economia-produccion-y-consumo",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "la-economia-produccion-y-consumo",
+  "temaNombre": "La economía: producción y consumo",
+  "title": "La economía: producción y consumo responsable",
+  "summary": "Aprende cómo funciona el circuito económico, desde la obtención de materias primas hasta el consumo consciente y el ahorro.",
+  "keyIdeas": [
+    "La actividad económica incluye tres fases fundamentales: la producción de bienes o servicios, su distribución y el consumo final.",
+    "Debemos diferenciar entre necesidades básicas para vivir y deseos secundarios influidos por la publicidad.",
+    "El consumo responsable cuida el medioambiente mediante el ahorro, la reutilización y la elección de productos sostenibles."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-01",
+      "type": "true-false",
+      "prompt": "Una necesidad básica es algo imprescindible para sobrevivir, como el alimento o la vivienda, mientras que un deseo es algo prescindible que nos gustaría tener.",
+      "explanation": "Las necesidades primarias o básicas garantizan nuestra supervivencia y salud, mientras que los deseos mejoran la comodidad pero no son vitales.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre las fases de la economía.",
+      "explanation": "La distribución comprende todas las actividades de transporte, almacenaje y comercialización que llevan el producto desde el fabricante hasta la tienda.",
+      "hint": "Piensa en cómo viaja el producto desde donde se hace hasta donde se compra.",
+      "lang": "es",
+      "sentence": "El transporte y la venta de yogures desde la fábrica hasta el supermercado del barrio forman parte de la ___.",
+      "options": [
+        "producción",
+        "distribución",
+        "extracción"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-03",
+      "type": "classify",
+      "prompt": "Clasifica estos gastos familiares según sean necesidades primarias o deseos.",
+      "explanation": "El agua, la comida básica y la vivienda son indispensables para la vida y la salud, mientras que los videojuegos o los artículos de lujo son deseos.",
+      "lang": "es",
+      "categories": [
+        "Necesidad básica",
+        "Deseo o gasto secundario"
+      ],
+      "items": [
+        {
+          "text": "Pagar la factura del agua potable",
+          "category": 0
+        },
+        {
+          "text": "Comprar el último modelo de consola de videojuegos",
+          "category": 1
+        },
+        {
+          "text": "Comprar verduras y legumbres para la semana",
+          "category": 0
+        },
+        {
+          "text": "Unas zapatillas caras de una marca de moda teniendo calzado en buen estado",
+          "category": 1
+        },
+        {
+          "text": "Pagar el alquiler o la hipoteca de la vivienda",
+          "category": 0
+        },
+        {
+          "text": "Comer en un restaurante de lujo por capricho",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-04",
+      "type": "order",
+      "prompt": "Ordena cronológicamente los pasos que sigue el pan desde el campo hasta la mesa de Hugo.",
+      "explanation": "El proceso económico comienza con la obtención de la materia prima, sigue con la transformación industrial, la distribución y termina con el consumo.",
+      "lang": "es",
+      "items": [
+        "El agricultor cultiva y cosecha el trigo en el campo.",
+        "El molino transforma los granos de trigo en harina.",
+        "La panadera amasa la harina, elabora el pan y lo hornea.",
+        "Una furgoneta reparte las barras a la tienda del barrio.",
+        "Hugo compra una barra de pan para merendar."
+      ]
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-05",
+      "type": "match",
+      "prompt": "Relaciona cada elemento del proceso productivo con su definición correspondiente.",
+      "explanation": "Las materias primas se transforman en productos elaborados que adquiere el consumidor, a menudo motivado por la publicidad.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Materia prima",
+          "right": "Recurso natural sin transformar, como la madera o el algodón."
+        },
+        {
+          "left": "Producto elaborado",
+          "right": "Bien fabricado listo para usar, como una mesa o una camiseta."
+        },
+        {
+          "left": "Consumidor",
+          "right": "Persona que compra y utiliza bienes para satisfacer necesidades."
+        },
+        {
+          "left": "Publicidad",
+          "right": "Estrategia para dar a conocer un producto e incentivar su compra."
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-06",
+      "type": "choice",
+      "prompt": "Lucía y su familia elaboran un presupuesto mensual. Ingresan 2.100 € en total. Sus gastos fijos obligatorios (casa, comida, suministros) suman 1.600 € y destinan 200 € al ocio. ¿Qué cantidad pueden destinar al ahorro este mes?",
+      "explanation": "Los gastos totales son 1.600 € + 200 € = 1.800 €. Al restar los gastos a los ingresos (2.100 € - 1.800 €), quedan 300 € disponibles para el ahorro.",
+      "hint": "Suma primero todos los gastos y réstaselos a los ingresos familiares.",
+      "lang": "es",
+      "options": [
+        "500 €",
+        "100 €",
+        "200 €",
+        "300 €"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-07",
+      "type": "choice",
+      "prompt": "¿Cuál de las siguientes acciones representa una actitud crítica ante la publicidad comercial?",
+      "explanation": "Ser un consumidor crítico implica contrastar información, verificar la calidad y el precio, y no dejarse llevar únicamente por promesas emocionales de los anuncios.",
+      "hint": "Busca la opción que implique pensar y analizar antes de gastar.",
+      "lang": "es",
+      "options": [
+        "Comprar un juguete inmediatamente porque en el anuncio dicen que te hará muy popular.",
+        "Comparar las características y el precio real de dos artículos antes de decidir si comprarlos.",
+        "Elegir siempre la marca más cara pensando que el precio alto garantiza que no contamina.",
+        "Adquirir un producto únicamente porque lo anuncia un deportista famoso al que admiras."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-08",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto sobre el ciclo de vida de los productos y responde a las preguntas.",
+      "explanation": "La lectura analiza cómo pasar de un modelo lineal de 'usar y tirar' a una economía circular respetuosa con los límites del planeta.",
+      "lang": "es",
+      "title": "De la cuna a la tumba: repensar cómo fabricamos",
+      "text": "Durante décadas, el modelo económico tradicional ha sido lineal: extraer materias primas de la naturaleza, fabricar productos, usarlos y tirarlos a la basura cuando se estropean. Este sistema genera un agotamiento acelerado de los recursos naturales y montañas de residuos difíciles de degradar, como los plásticos o los componentes electrónicos.\n\nFrente a este problema, surge el modelo de economía circular. Su objetivo principal es imitar a la naturaleza, donde nada se desperdicia. En la economía circular, los productos se diseñan desde el principio para durar más tiempo, ser fáciles de reparar y poder desmontarse para que sus materiales se reciclen una y otra vez. De este modo, un teléfono móvil estropeado no acaba en un vertedero contaminando el suelo, sino que sus metales se recuperan para fabricar nuevos aparatos.\n\nSin embargo, este cambio no depende solo de las fábricas. La ciudadanía tiene un papel decisivo al practicar las 4R: reducir el consumo innecesario, reutilizar los objetos, repararlos antes de tirarlos y reciclar correctamente cada residuo.",
+      "questions": [
+        {
+          "prompt": "¿En qué se diferencia principalmente la economía circular del modelo lineal tradicional?",
+          "explanation": "El texto explica que el modelo lineal consiste en 'usar y tirar', mientras que la economía circular busca aprovechar y reutilizar los materiales continuamente.",
+          "options": [
+            "La economía circular busca que los materiales se reparen, reutilicen y reciclen en lugar de tirarse a la basura tras su uso.",
+            "La economía tradicional consigue que los productos duren para siempre sin generar ningún residuo.",
+            "La economía circular utiliza únicamente materias primas extraídas por primera vez de la naturaleza."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "A partir del texto, ¿qué consecuencia negativa tiene el consumo lineal sobre el medioambiente?",
+          "explanation": "El texto menciona expresamente que el modelo lineal provoca el agotamiento de recursos y acumula residuos que dañan el entorno.",
+          "options": [
+            "Acelera el agotamiento de recursos naturales y genera gran cantidad de residuos contaminantes.",
+            "Obliga a que todos los aparatos electrónicos se fabriquen exclusivamente de madera.",
+            "Reduce el precio de todos los productos en el mercado local."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Desde el punto de vista de la responsabilidad ciudadana, ¿cuál de estas decisiones personales apoya mejor la economía circular?",
+          "explanation": "Reparar la cremallera aplica la 'R' de reparar y alarga la vida útil del producto, evitando extraer nuevos recursos innecesariamente.",
+          "options": [
+            "Cambiar de tableta digital cada año aunque la actual funcione a la perfección.",
+            "Tirar la ropa a la basura común en cuanto pase de moda.",
+            "Llevar a arreglar la cremallera de una mochila escolar en vez de comprar una nueva."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-09",
+      "type": "choice",
+      "prompt": "En el mercado del barrio, Omar observa dos tipos de manzanas: unas producidas a 30 km en su propia provincia y otras transportadas en avión desde otro continente a miles de kilómetros. Aunque ambas cuestan casi lo mismo, ¿por qué comprar las locales es más sostenible?",
+      "explanation": "El consumo de proximidad o 'kilómetro cero' reduce la huella de carbono asociada al transporte internacional y dinamiza la economía del entorno cercano.",
+      "hint": "Piensa en el combustible que necesita un avión comparado con una furgoneta local.",
+      "lang": "es",
+      "options": [
+        "Porque las leyes de España prohíben por completo comprar alimentos procedentes del extranjero.",
+        "Porque los alimentos que viajan en avión pierden automáticamente todas sus vitaminas.",
+        "Porque el transporte de cercanía emite menos gases contaminantes y apoya el empleo local."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-10",
+      "type": "fill-blank",
+      "prompt": "Completa la afirmación sobre el papel social de los impuestos en la economía.",
+      "explanation": "Los impuestos son contribuciones económicas obligatorias que permiten mantener hospitales, colegios, carreteras y parques para el bienestar de toda la sociedad.",
+      "hint": "Se trata de un servicio público indispensable para cuidar la salud de todas las personas.",
+      "lang": "es",
+      "sentence": "Las familias y las empresas pagan impuestos al Estado para financiar servicios públicos esenciales como la ___ y la educación.",
+      "options": [
+        "sanidad",
+        "publicidad",
+        "exportación"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:32:55.674Z",
+    "reviewed": false
+  }
+}

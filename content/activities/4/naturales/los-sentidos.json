@@ -1,0 +1,214 @@
+{
+  "id": "g4-naturales-los-sentidos",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "los-sentidos",
+  "temaNombre": "Los sentidos",
+  "title": "Exploramos el mundo con los sentidos",
+  "summary": "Repasa cómo funcionan los órganos de los sentidos y cómo nos relacionan con nuestro entorno.",
+  "keyIdeas": [
+    "Los órganos de los sentidos captan estímulos del exterior a través de células receptoras.",
+    "Toda la superficie de la lengua con papilas gustativas percibe los sabores básicos.",
+    "Los receptores sensoriales envían información al cerebro mediante los nervios para interpretarla."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-los-sentidos-01",
+      "type": "match",
+      "prompt": "Une cada órgano de los sentidos con el estímulo principal que recoge del entorno:",
+      "explanation": "Cada órgano tiene receptores específicos adaptados para captar un tipo de estímulo diferente.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Ojo",
+          "right": "Luz y colores"
+        },
+        {
+          "left": "Oído",
+          "right": "Vibraciones sonoras"
+        },
+        {
+          "left": "Piel",
+          "right": "Presión y temperatura"
+        },
+        {
+          "left": "Pituitaria de la nariz",
+          "right": "Sustancias químicas del aire"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-los-sentidos-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la estructura del ojo:",
+      "explanation": "La retina contiene células sensibles a la luz que transforman las imágenes en señales nerviosas.",
+      "lang": "es",
+      "sentence": "La luz entra en el ojo y forma la imagen en la capa interna llamada ___.",
+      "options": [
+        "córnea",
+        "iris",
+        "retina"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-los-sentidos-03",
+      "type": "classify",
+      "prompt": "Clasifica cada parte del cuerpo en el órgano del sentido al que pertenece:",
+      "explanation": "El cristalino y la pupila forman parte del ojo. El tímpano y el caracol forman parte del oído.",
+      "lang": "es",
+      "categories": [
+        "Órgano de la vista",
+        "Órgano del oído"
+      ],
+      "items": [
+        {
+          "text": "Cristalino",
+          "category": 0
+        },
+        {
+          "text": "Tímpano",
+          "category": 1
+        },
+        {
+          "text": "Caracol",
+          "category": 1
+        },
+        {
+          "text": "Pupila",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-los-sentidos-04",
+      "type": "order",
+      "prompt": "Ordena el camino que sigue el sonido desde que se produce hasta que lo comprendemos:",
+      "explanation": "El sonido entra por el conducto auditivo, hace vibrar el tímpano y viaja por el nervio hasta el cerebro.",
+      "lang": "es",
+      "items": [
+        "La vibración llega a la oreja",
+        "El tímpano vibra y mueve los huesecillos",
+        "El caracol transforma el sonido en impulsos",
+        "El nervio auditivo lleva la señal al cerebro"
+      ]
+    },
+    {
+      "id": "g4-naturales-los-sentidos-05",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto del experimento y responde a las preguntas:",
+      "explanation": "El gusto y el olfato trabajan juntos para reconocer los sabores completos de la comida.",
+      "lang": "es",
+      "title": "El misterio de la merienda a ciegas",
+      "text": "En clase de Ciencias, Aisha y Adrián realizan una prueba sensorial muy curiosa. Aisha tiene los ojos tapados con un antifaz y la nariz tapada con una pinza de plástico suave. Adrián le ofrece un trozo pequeño de manzana y, después, un trozo de patata cruda con la misma textura.\n\nAisha mastica despacio cada trozo. Aunque siente que ambos son crujientes y frescos, le cuesta mucho diferenciarlos sin olerlos. Cuando se quita la pinza de la nariz y vuelve a probar, distingue la manzana de inmediato.",
+      "questions": [
+        {
+          "prompt": "¿Por qué Aisha no pudo diferenciar bien la manzana de la patata al principio?",
+          "explanation": "El aroma de los alimentos llega por vía retronasal y complementa la información del gusto.",
+          "options": [
+            "Porque la piel de las manos no estaba tocando la fruta.",
+            "Porque los ojos son indispensables para que las papilas gustativas funcionen.",
+            "Porque el sentido del olfato colabora intensamente con el gusto para percibir los sabores."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué sentido le permitió a Aisha notar que los alimentos eran crujientes?",
+          "explanation": "El tacto dentro de la cavidad bucal permite percibir la textura, la dureza y la temperatura.",
+          "options": [
+            "El tacto, a través de los receptores de la boca.",
+            "El olfato, gracias a la pituitaria amarilla.",
+            "La vista, porque recordaba cómo eran antes."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-los-sentidos-06",
+      "type": "choice",
+      "prompt": "Lucía sale al patio soleado del colegio y nota que la parte oscura central de sus ojos se hace diminuta. ¿Por qué ocurre esto?",
+      "explanation": "La pupila se contrae con mucha luz para proteger el interior del ojo y se dilata en la oscuridad.",
+      "hint": "Piensa en el mecanismo que regula cuánta luz dejamos pasar al interior.",
+      "lang": "es",
+      "options": [
+        "La retina se cierra para descansar durante las horas del día.",
+        "El iris cambia de color permanentemente debido al calor del sol.",
+        "La pupila se contrae para controlar y reducir la cantidad de luz que entra."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-los-sentidos-07",
+      "type": "true-false",
+      "prompt": "La piel humana tiene la misma cantidad de receptores táctiles en la espalda que en la yema de los dedos.",
+      "explanation": "En las yemas de los dedos hay muchísimos más receptores táctiles juntos que en la espalda.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-naturales-los-sentidos-08",
+      "type": "choice",
+      "prompt": "Hugo apoya la mano sobre la mesa y nota una superficie lisa y fría. ¿Qué camino sigue esa información?",
+      "explanation": "Los receptores de la piel captan el estímulo y los nervios transmiten la señal hasta el cerebro.",
+      "hint": "Recuerda quién capta el estímulo primero y quién lo interpreta al final.",
+      "lang": "es",
+      "options": [
+        "Músculos del brazo › cerebro › receptores de la piel.",
+        "Receptores de la piel › nervios sensitivos › cerebro.",
+        "Receptores de la piel › tendones › médula sin llegar al cerebro."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-los-sentidos-09",
+      "type": "choice",
+      "prompt": "Wei y Omar investigan sobre la salud auditiva. Escuchar música con auriculares a volumen muy alto durante horas puede dañar:",
+      "explanation": "Los sonidos muy intensos pueden destruir de forma irreversible las células ciliadas del caracol.",
+      "hint": "El daño principal ocurre en las células receptoras del oído interno.",
+      "lang": "es",
+      "options": [
+        "El conducto que une la nariz con la boca directamente.",
+        "El hueso de la mandíbula que sostiene la oreja exterior.",
+        "Las diminutas células receptoras situadas en el caracol del oído interno."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:58:13.060Z",
+    "reviewed": false
+  }
+}

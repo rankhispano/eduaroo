@@ -1,0 +1,239 @@
+{
+  "id": "g4-lengua-la-obra-de-teatro",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "la-obra-de-teatro",
+  "temaNombre": "La obra de teatro",
+  "title": "¡Arriba el telón del teatro!",
+  "summary": "Practica los elementos del texto teatral, los diálogos y las acotaciones.",
+  "keyIdeas": [
+    "En el teatro los personajes se comunican mediante diálogos directos.",
+    "Las acotaciones van entre paréntesis y guían los gestos o movimientos.",
+    "Las obras teatrales se dividen en actos y escenas."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "4.1",
+      "4.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "C. Educación literaria"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-la-obra-de-teatro-01",
+      "type": "choice",
+      "prompt": "¿Para qué sirven las acotaciones que aparecen entre paréntesis en un guion teatral?",
+      "explanation": "Las acotaciones son indicaciones del autor para que los actores sepan cómo moverse o expresarse en escena.",
+      "hint": "Fíjate en las notas que van entre paréntesis en el guion.",
+      "lang": "es",
+      "options": [
+        "Indican los gestos, movimientos o tonos de los actores.",
+        "Son frases que los actores deben gritar muy fuerte.",
+        "Contienen los nombres de los espectadores de la sala."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-02",
+      "type": "true-false",
+      "prompt": "En una obra de teatro, un narrador cuenta siempre todo lo que hacen los personajes.",
+      "explanation": "En el teatro la historia se muestra mediante los diálogos y las acciones de los propios personajes.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la estructura del teatro.",
+      "explanation": "Las escenas marcan las entradas y salidas de personajes dentro de un mismo acto.",
+      "lang": "es",
+      "sentence": "Cada vez que un personaje entra o sale del escenario, cambia la ___ de la obra.",
+      "options": [
+        "canción",
+        "escena",
+        "butaca"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-04",
+      "type": "match",
+      "prompt": "Une cada elemento del teatro con su función principal.",
+      "explanation": "Cada profesional y recurso cumple una función clave para preparar la representación teatral.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Dramaturgo",
+          "right": "Escribe el texto de la obra teatral."
+        },
+        {
+          "left": "Director",
+          "right": "Coordina a los actores y organiza el montaje."
+        },
+        {
+          "left": "Escenografía",
+          "right": "Decora y ambienta el espacio del escenario."
+        },
+        {
+          "left": "Diálogo",
+          "right": "Conversación entre dos o más personajes."
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-05",
+      "type": "classify",
+      "prompt": "Clasifica cada fragmento según sea un diálogo o una acotación teatral.",
+      "explanation": "Los diálogos son las palabras que dicen los actores, mientras que las acotaciones indican acciones entre paréntesis.",
+      "lang": "es",
+      "categories": [
+        "Diálogo",
+        "Acotación"
+      ],
+      "items": [
+        {
+          "text": "¡Rápido, esconde la llave en el cofre!",
+          "category": 0
+        },
+        {
+          "text": "(Señala hacia la ventana con ojos asustados)",
+          "category": 1
+        },
+        {
+          "text": "¿Quién ha encendido la luz del pasillo?",
+          "category": 0
+        },
+        {
+          "text": "(Sale de puntillas por la puerta izquierda)",
+          "category": 1
+        },
+        {
+          "text": "Buenos días a todos los viajeros.",
+          "category": 0
+        },
+        {
+          "text": "(Baja la voz y mira fijamente el reloj)",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-06",
+      "type": "reading",
+      "prompt": "Lee este fragmento de una obra escolar y responde a las preguntas.",
+      "explanation": "Las obras de teatro transmiten información tanto por las palabras habladas como por las acotaciones.",
+      "lang": "es",
+      "title": "El mapa del desván",
+      "text": "(Entran Lucía y Omar al desván a oscuras. Omar lleva una linterna parpadeante).\nLUCÍA: (Temblando) Hace mucho frío aquí arriba, Omar. ¿Seguro que el abuelo guardó el mapa en este baúl?\nOMAR: (Abriendo la tapa con esfuerzo) ¡Completamente seguro! Mira, entre estos periódicos viejos... ¡aquí está!\nLUCÍA: (Da un salto de alegría) ¡Lo encontramos! Pero espera... ¿qué significa esa cruz roja junto al molino?\nOMAR: (Mira el dibujo muy pensativo) Es el escondite secreto. ¡Rápido, vamos al jardín antes de que anochezca!\n(Los dos niños salen corriendo mientras baja lentamente el telón).",
+      "questions": [
+        {
+          "prompt": "¿Qué objeto lleva Omar para iluminar el desván?",
+          "explanation": "El texto indica en la primera acotación que Omar lleva una linterna parpadeante.",
+          "options": [
+            "Una linterna parpadeante.",
+            "Una vela perfumada.",
+            "Una lámpara de aceite."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Cómo sabemos que Lucía siente frío al empezar la escena?",
+          "explanation": "La acotación (Temblando) aporta esa información sobre el estado físico del personaje.",
+          "options": [
+            "Porque Omar le ofrece una manta gruesa.",
+            "Porque lo dice un narrador con un micrófono.",
+            "Por la acotación que indica que está temblando."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-07",
+      "type": "order",
+      "prompt": "Ordena los pasos que sigue la clase para preparar su obra de teatro.",
+      "explanation": "Primero se reparte el texto, luego se ensaya, después se prepara la sala y por último se actúa.",
+      "lang": "es",
+      "items": [
+        "Repartir los personajes del guion teatral.",
+        "Ensayar los diálogos y los movimientos del escenario.",
+        "Colocar el decorado y vestir los disfraces.",
+        "Representar la obra delante del público."
+      ]
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-08",
+      "type": "choice",
+      "prompt": "Durante el ensayo, Wei leyó así el guion: 'Abriendo los brazos, ¡qué alegría verte!'. ¿Cuál fue su error?",
+      "explanation": "Las acotaciones indican acciones corporales. No se leen en voz alta durante la actuación.",
+      "hint": "Piensa qué partes del guion no se dicen al público.",
+      "lang": "es",
+      "options": [
+        "Habló demasiado rápido durante la escena.",
+        "Olvidó decir el diálogo de su personaje.",
+        "Leyó en voz alta la acotación que debía actuar con su cuerpo."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-09",
+      "type": "choice",
+      "prompt": "En mitad de la función, cae el telón y cambian los decorados del bosque al palacio real. ¿Qué parte ha terminado?",
+      "explanation": "Los actos son las partes principales de una obra teatral y suelen separarse con la caída del telón.",
+      "hint": "Es la división principal más amplia de una obra de teatro.",
+      "lang": "es",
+      "options": [
+        "Un acto.",
+        "Una rima.",
+        "Una estrofa."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-10",
+      "type": "fill-blank",
+      "prompt": "Elige la acotación más adecuada para la escena de misterio que escribe Nerea.",
+      "explanation": "Un detective que busca pistas sin llamar la atención habla en voz baja y vigila su entorno.",
+      "lang": "es",
+      "sentence": "DETECTIVE: ___ ¡He encontrado la huella misteriosa detrás del cuadro!",
+      "options": [
+        "(Bailando una jota muy alegre)",
+        "(Susurrando y mirando a los lados)",
+        "(Gritando a pleno pulmón)"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:47:56.869Z",
+    "reviewed": false
+  }
+}

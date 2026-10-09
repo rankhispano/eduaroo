@@ -1,0 +1,239 @@
+{
+  "id": "g4-sociales-sector-secundario",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "sector-secundario",
+  "temaNombre": "Sector secundario",
+  "title": "Descubre el sector secundario",
+  "summary": "Aprende cómo las materias primas se transforman en productos elaborados en fábricas y talleres.",
+  "keyIdeas": [
+    "El sector secundario transforma materias primas de la naturaleza en productos elaborados.",
+    "Incluye la industria, la artesanía, la construcción y la obtención de energía.",
+    "La industria moderna busca fabricar de manera limpia y sostenible para cuidar el planeta."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-sector-secundario-01",
+      "type": "choice",
+      "prompt": "¿Cuál es la función principal de los trabajos del sector secundario?",
+      "explanation": "El sector secundario transforma los recursos naturales o materias primas en objetos y bienes que usamos a diario.",
+      "hint": "Piensa en lo que hace una fábrica con la madera o la leche.",
+      "lang": "es",
+      "options": [
+        "Prestar servicios a las personas, como el transporte.",
+        "Transformar materias primas en productos elaborados.",
+        "Obtener alimentos directamente de la naturaleza."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-sector-secundario-02",
+      "type": "true-false",
+      "prompt": "La albañilería y la construcción de edificios forman parte del sector secundario.",
+      "explanation": "La construcción pertenece al sector secundario porque utiliza materias primas como ladrillos o cemento para crear estructuras.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-sector-secundario-03",
+      "type": "classify",
+      "prompt": "Clasifica cada elemento según sea una materia prima o un producto elaborado:",
+      "explanation": "Las materias primas se extraen directamente de la naturaleza y los productos elaborados se obtienen tras transformarlas.",
+      "lang": "es",
+      "categories": [
+        "Materia prima",
+        "Producto elaborado"
+      ],
+      "items": [
+        {
+          "text": "Lana de oveja",
+          "category": 0
+        },
+        {
+          "text": "Jersey de punto",
+          "category": 1
+        },
+        {
+          "text": "Trigo del campo",
+          "category": 0
+        },
+        {
+          "text": "Barra de pan",
+          "category": 1
+        },
+        {
+          "text": "Madera de pino",
+          "category": 0
+        },
+        {
+          "text": "Mesa de comedor",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-sector-secundario-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre los talleres artesanales:",
+      "explanation": "El trabajo artesanal se realiza de forma manual y personalizada, a diferencia de las grandes fábricas industriales.",
+      "hint": "Es la parte de nuestro cuerpo que guía las herramientas tradicionales.",
+      "lang": "es",
+      "sentence": "En la artesanía se elaboran pocos objetos utilizando herramientas sencillas y las propias ___.",
+      "options": [
+        "manos",
+        "máquinas gigantes",
+        "computadoras"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-sector-secundario-05",
+      "type": "match",
+      "prompt": "Une cada materia prima con su producto elaborado correspondiente:",
+      "explanation": "La industria y los talleres transforman recursos agrícolas, ganaderos y minerales en objetos útiles.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Tomates frescos",
+          "right": "Bote de salsa de tomate"
+        },
+        {
+          "left": "Arcilla húmeda",
+          "right": "Jarrón de cerámica"
+        },
+        {
+          "left": "Petróleo crudo",
+          "right": "Envase de plástico"
+        },
+        {
+          "left": "Cuero de vaca",
+          "right": "Zapatos de vestir"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-sector-secundario-06",
+      "type": "choice",
+      "prompt": "Aisha compara una fábrica textil con el taller de alfarería de su abuelo. ¿Qué diferencia a la industria de la artesanía?",
+      "explanation": "La industria produce en serie grandes cantidades con máquinas, mientras que la artesanía elabora pocas piezas únicas a mano.",
+      "hint": "Fíjate en la cantidad de productos y en la maquinaria que se emplea.",
+      "lang": "es",
+      "options": [
+        "La industria hace cada objeto a mano y totalmente único.",
+        "La artesanía usa cadenas de montaje para producir miles de piezas por hora.",
+        "La industria fabrica muchos productos iguales con máquinas complejas."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-sociales-sector-secundario-07",
+      "type": "order",
+      "prompt": "Ordena los pasos que sigue el cacao desde el campo hasta convertirse en tableta de chocolate:",
+      "explanation": "El proceso productivo va desde la obtención de la materia prima hasta la venta final, pasando por la transformación industrial.",
+      "lang": "es",
+      "items": [
+        "Se recolectan los frutos del cacao en el árbol.",
+        "Las semillas se transportan en barco a la fábrica de chocolate.",
+        "Las máquinas de la fábrica tuestan y muelen las semillas.",
+        "Se añade azúcar, se moldea la tableta y se empaqueta.",
+        "La tableta de chocolate llega a la tienda del barrio."
+      ]
+    },
+    {
+      "id": "g4-sociales-sector-secundario-08",
+      "type": "reading",
+      "prompt": "Lee atentamente la visita escolar de Omar y responde a las preguntas:",
+      "explanation": "La lectura muestra cómo funciona una industria conservera y cómo puede aplicar medidas de cuidado ambiental.",
+      "lang": "es",
+      "title": "Visita a la fábrica de conservas",
+      "text": "Hoy la clase de Omar ha visitado una fábrica conservera de pescado cerca del puerto. En la nave principal, varias máquinas limpian, cocinan y envasan el atún en latas de metal. La guía, Nerea, les explicó que la fábrica usa paneles solares en el tejado para generar su propia electricidad limpia. Además, todos los restos de pescado que no se envasan se aprovechan para elaborar pienso para animales. Omar aprendió que las fábricas modernas intentan no malgastar recursos y reducir los residuos para no dañar el medioambiente marino.",
+      "questions": [
+        {
+          "prompt": "¿Qué materia prima principal entra en la fábrica para ser transformada?",
+          "explanation": "El atún es la materia prima que llega del mar para ser cocinado y enlatado en la fábrica.",
+          "options": [
+            "Latas de metal vacías.",
+            "Atún fresco del mar.",
+            "Pienso para mascotas."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué medida de ahorro y sostenibilidad utiliza esta fábrica?",
+          "explanation": "El texto explica que usan placas solares en el tejado para generar energía limpia y no contaminar.",
+          "options": [
+            "Usar paneles solares para obtener electricidad.",
+            "Tirar los restos de pescado al mar cercano.",
+            "Apagar todas las máquinas y trabajar solo a mano."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-sector-secundario-09",
+      "type": "choice",
+      "prompt": "Una fábrica de zumos produce 400 litros por la mañana y 350 litros por la tarde. Si envasa todo en botellas de 1 litro y hoy ha vendido 500 botellas, ¿cuántas botellas le quedan en el almacén?",
+      "explanation": "Primero sumamos la producción del día: 400 + 350 = 750 botellas. Después restamos las vendidas: 750 - 500 = 250 botellas en el almacén.",
+      "hint": "Suma primero toda la producción y luego resta las que salieron a la venta.",
+      "lang": "es",
+      "options": [
+        "150 botellas",
+        "750 botellas",
+        "250 botellas"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-sociales-sector-secundario-10",
+      "type": "choice",
+      "prompt": "El ayuntamiento quiere que el polígono industrial sea más sostenible y contamine menos. ¿Qué propuesta es la más adecuada?",
+      "explanation": "Depurar las aguas y filtrar el humo permite que las industrias fabriquen sin dañar el aire ni los ríos del entorno.",
+      "hint": "Busca una acción que limpie las emisiones y proteja la naturaleza.",
+      "lang": "es",
+      "options": [
+        "Instalar filtros en las chimeneas y depurar el agua antes de verterla.",
+        "Tirar los residuos industriales al río durante la noche.",
+        "Fabricar el doble de productos gastando más carbón y petróleo."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:07:50.307Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "id": "g4-naturales-el-reciclaje",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "el-reciclaje",
+  "temaNombre": "El reciclaje",
+  "title": "Misión Planeta: El Reciclaje",
+  "summary": "Aprende a separar residuos y a cuidar el planeta con la regla de las tres erres.",
+  "keyIdeas": [
+    "La regla de las tres erres consiste en reducir nuestro consumo, reutilizar objetos y reciclar los materiales usados.",
+    "Cada tipo de residuo va a un contenedor específico: azul para papel, amarillo para envases y verde para vidrio.",
+    "El cristal no es lo mismo que el vidrio; los vasos rotos deben ir al contenedor de restos."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-el-reciclaje-01",
+      "type": "true-false",
+      "prompt": "Las cajas de cartón limpias y las hojas de libreta usadas se deben depositar en el contenedor azul.",
+      "explanation": "El contenedor azul es exclusivo para envases de cartón limpios y papel.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-02",
+      "type": "match",
+      "prompt": "Une cada tipo de residuo con el contenedor donde debemos tirarlo.",
+      "explanation": "Los briks van al amarillo, los tarros de vidrio al verde, la materia orgánica al marrón y el cartón al azul.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Brik de leche vacío",
+          "right": "Contenedor amarillo"
+        },
+        {
+          "left": "Frasco de mermelada sin tapa",
+          "right": "Contenedor verde"
+        },
+        {
+          "left": "Piel de plátano y restos de manzana",
+          "right": "Contenedor marrón"
+        },
+        {
+          "left": "Caja doblada de zapatos",
+          "right": "Contenedor azul"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta de la regla de las tres erres.",
+      "explanation": "Reutilizar significa volver a usar un objeto para darle una segunda vida sin transformarlo industrialmente.",
+      "hint": "Significa usar algo otra vez.",
+      "lang": "es",
+      "sentence": "Cuando usamos una botella de agua muchas veces en lugar de tirarla, estamos practicando la acción de ___.",
+      "options": [
+        "reparar",
+        "reciclar",
+        "reutilizar"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-04",
+      "type": "classify",
+      "prompt": "Clasifica estos objetos según si van al contenedor amarillo o al punto limpio.",
+      "explanation": "El contenedor amarillo es solo para envases. Los juguetes, sartenes y pilas deben llevarse a puntos específicos.",
+      "lang": "es",
+      "categories": [
+        "Contenedor amarillo",
+        "Punto limpio"
+      ],
+      "items": [
+        {
+          "text": "Lata de refresco",
+          "category": 0
+        },
+        {
+          "text": "Bolsa de plástico",
+          "category": 0
+        },
+        {
+          "text": "Juguete de plástico roto",
+          "category": 1
+        },
+        {
+          "text": "Sartén metálica vieja",
+          "category": 1
+        },
+        {
+          "text": "Bote de yogur de plástico",
+          "category": 0
+        },
+        {
+          "text": "Pilas gastadas",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-05",
+      "type": "choice",
+      "prompt": "Martina acaba de merendar en el recreo. ¿Dónde debe tirar la servilleta de papel muy manchada de aceite?",
+      "explanation": "El papel sucio de grasa o comida no se puede reciclar en el azul. Debe ir al marrón o a restos.",
+      "hint": "El papel sucio de grasa estropea el reciclaje del papel limpio.",
+      "lang": "es",
+      "options": [
+        "Al contenedor azul, porque es de papel.",
+        "Al contenedor marrón, porque tiene restos orgánicos y grasa.",
+        "Al contenedor amarillo, porque la grasa es un envase."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-06",
+      "type": "reading",
+      "prompt": "Lee este informe de ciencias y responde a las preguntas.",
+      "explanation": "Los residuos orgánicos se descomponen rápidamente, mientras que los plásticos tardan cientos de años en degradarse.",
+      "lang": "es",
+      "title": "El experimento de descomposición de 4º de Primaria",
+      "text": "En la clase de Ciencias, Hugo y Nerea enterraron dos objetos en una maceta grande con tierra húmeda. El primer objeto fue una cáscara de naranja. El segundo objeto fue una bolsa de plástico pequeña.\n\nDurante cuatro semanas mantuvieron la maceta con luz y humedad adecuadas. Pasado un mes, cavaron con cuidado para observar el resultado.\n\nLa cáscara de naranja había desaparecido casi por completo, convertida en nutrientes para el suelo. En cambio, la bolsa de plástico seguía intacta, sin ningún cambio aparente en su forma ni en su color.",
+      "questions": [
+        {
+          "prompt": "¿Qué residuo desapareció casi por completo durante el experimento?",
+          "explanation": "La cáscara de naranja es un residuo orgánico y los microorganismos la descomponen rápidamente.",
+          "options": [
+            "La bolsa de plástico.",
+            "La cáscara de naranja.",
+            "Ambos residuos desaparecieron."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué conclusión científica se puede extraer sobre el plástico?",
+          "explanation": "El plástico no es biodegradable a corto plazo y permanece en el medio ambiente durante siglos.",
+          "options": [
+            "El plástico tarda muchos años en descomponerse en la naturaleza.",
+            "El plástico desaparece más rápido con agua y luz.",
+            "El plástico se convierte rápidamente en abono para las plantas."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-07",
+      "type": "choice",
+      "prompt": "En clase pesaron los residuos del cubo de basura general durante dos semanas. En la primera semana pesó 12 kg. En la segunda semana instalaron papeleras de reciclaje y el cubo general pesó 4 kg. ¿Qué explica esta diferencia?",
+      "explanation": "Al separar el papel y los envases, reducimos la cantidad de basura que va al vertedero común.",
+      "hint": "Resta los kilos de la segunda semana a los de la primera.",
+      "lang": "es",
+      "options": [
+        "El alumnado generó mucha más basura durante la segunda semana.",
+        "Se separaron 8 kg de materiales que ahora irán a reciclarse.",
+        "La basura perdió peso de forma natural por el calor de la clase."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-08",
+      "type": "choice",
+      "prompt": "Encuentra la afirmación INCORRECTA sobre la separación de residuos en casa:",
+      "explanation": "¡Cuidado! El cristal de los vasos lleva componentes diferentes al vidrio y no debe tirarse al contenedor verde.",
+      "hint": "Recuerda que vidrio y cristal son materiales distintos.",
+      "lang": "es",
+      "options": [
+        "Un vaso de cristal roto debe tirarse al contenedor verde con las botellas.",
+        "Las cajas de cartón deben plegarse antes de meterlas al contenedor azul.",
+        "Las latas de atún limpias deben depositarse en el contenedor amarillo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-09",
+      "type": "order",
+      "prompt": "Ordena los pasos del ciclo de reciclaje de una lata de refresco de aluminio:",
+      "explanation": "Primero consumimos y separamos, luego se transporta, se funde el material y finalmente se crean productos nuevos.",
+      "lang": "es",
+      "items": [
+        "Bebemos el refresco y tiramos la lata vacía al contenedor amarillo.",
+        "El camión de recogida transporta los envases a la planta de clasificación.",
+        "Las latas se limpian y se funden a altas temperaturas.",
+        "Se fabrican nuevas latas o piezas usando el metal fundido."
+      ]
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-10",
+      "type": "choice",
+      "prompt": "Aisha quiere celebrar su cumpleaños de forma sostenible. Aplicando la jerarquía de las 3R, ¿cuál es la mejor opción?",
+      "explanation": "Reducir es siempre la primera opción de las 3R. Es mejor no generar basura que tener que reciclarla.",
+      "hint": "La primera R es Reducir: el residuo más ecológico es el que no se produce.",
+      "lang": "es",
+      "options": [
+        "Usar platos de papel desechable y luego tirarlos al contenedor azul.",
+        "Usar platos de plástico de un solo uso y tirarlos al amarillo.",
+        "Usar platos y vasos lavables de casa para no generar residuos."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:04:10.903Z",
+    "reviewed": false
+  }
+}

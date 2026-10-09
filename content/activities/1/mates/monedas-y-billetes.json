@@ -1,0 +1,222 @@
+{
+  "id": "g1-mates-monedas-y-billetes",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "monedas-y-billetes",
+  "temaNombre": "Monedas y billetes",
+  "title": "Jugamos con monedas y billetes",
+  "summary": "Practica el valor de las monedas y billetes de euro y cómo utilizarlos en situaciones del día a día.",
+  "keyIdeas": [
+    "Las monedas de euro más comunes son las de 1 € y 2 €.",
+    "Los billetes de menor valor son los de 5 €, 10 € y 20 €.",
+    "Podemos juntar varias monedas pequeñas para formar una cantidad mayor."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Educación financiera",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-monedas-y-billetes-01",
+      "type": "classify",
+      "prompt": "Clasifica según sea una moneda o un billete de euro:",
+      "explanation": "El 1 € y el 2 € son monedas de metal. Los de 5 €, 10 € y 20 € son billetes de papel.",
+      "lang": "es",
+      "categories": [
+        "Monedas",
+        "Billetes"
+      ],
+      "items": [
+        {
+          "text": "1 €",
+          "category": 0
+        },
+        {
+          "text": "2 €",
+          "category": 0
+        },
+        {
+          "text": "5 €",
+          "category": 1
+        },
+        {
+          "text": "10 €",
+          "category": 1
+        },
+        {
+          "text": "20 €",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-02",
+      "type": "match",
+      "prompt": "Une cada grupo de dinero con su valor total:",
+      "explanation": "Sumamos los valores: 1 + 1 = 2 €, 1 + 2 = 3 €, cinco monedas de 1 € dan 5 € y 5 + 5 = 10 €.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Dos monedas de 1 €",
+          "right": "Suman 2 €"
+        },
+        {
+          "left": "Una moneda de 1 € y una de 2 €",
+          "right": "Suman 3 €"
+        },
+        {
+          "left": "Cinco monedas de 1 €",
+          "right": "Suman 5 €"
+        },
+        {
+          "left": "Dos billetes de 5 €",
+          "right": "Suman 10 €"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-03",
+      "type": "true-false",
+      "prompt": "Una moneda de 2 € vale más que un billete de 5 €.",
+      "explanation": "Es falso. El billete de 5 € vale más porque 5 es mayor que 2.",
+      "hint": "Compara los números 2 y 5.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-04",
+      "type": "choice",
+      "prompt": "Omar compra una libreta que cuesta 3 €. Paga con un billete de 5 €. ¿Cuánto le devuelven?",
+      "explanation": "Calculamos la resta: 5 - 3 = 2 €. Le devuelven 2 €.",
+      "hint": "Resta el precio de la libreta al dinero que entrega Omar.",
+      "lang": "es",
+      "options": [
+        "3 €",
+        "1 €",
+        "2 €"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la moneda correcta:",
+      "explanation": "Dos monedas de 2 € suman 4 € porque 2 + 2 = 4.",
+      "hint": "Busca el número que sumado consigo mismo dé 4.",
+      "lang": "es",
+      "sentence": "Para pagar justo 4 €, necesitamos dos monedas de ___.",
+      "options": [
+        "2 €",
+        "5 €",
+        "1 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-06",
+      "type": "order",
+      "prompt": "Ordena estos dineros de menor a mayor valor:",
+      "explanation": "El orden de menor a mayor es: 1 €, 2 €, 5 €, 10 € y 20 €.",
+      "lang": "es",
+      "items": [
+        "1 €",
+        "2 €",
+        "5 €",
+        "10 €",
+        "20 €"
+      ]
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-07",
+      "type": "choice",
+      "prompt": "Lucía tiene dos monedas de 2 €. Dice que tiene 3 € en total. ¿Qué error ha cometido?",
+      "explanation": "El error es de suma: 2 + 2 = 4 €, no 3 €. Lucía tiene 4 €.",
+      "hint": "Suma dos veces el valor de la moneda de 2 €.",
+      "lang": "es",
+      "options": [
+        "Ha contado billetes en vez de monedas.",
+        "Ha sumado mal: dos monedas de 2 € son 4 €.",
+        "Tenía que restar las monedas en vez de sumarlas."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-08",
+      "type": "choice",
+      "prompt": "Aisha tiene 8 € en su monedero. Quiere comprar un cuento de 10 €. ¿Tiene suficiente dinero?",
+      "explanation": "Como 8 es menor que 10, no le llega. Restamos: 10 - 8 = 2 €. Le faltan 2 €.",
+      "hint": "Compara 8 € con 10 €.",
+      "lang": "es",
+      "options": [
+        "No, le faltan 2 €.",
+        "Sí, y le sobra 1 €.",
+        "Sí, tiene el dinero justo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-09",
+      "type": "choice",
+      "prompt": "Hugo lleva un billete de 5 € y una moneda de 2 €. ¿Cuánto dinero tiene en total?",
+      "explanation": "Sumamos el billete y la moneda: 5 + 2 = 7 €.",
+      "hint": "Haz una suma rápida: 5 más 2.",
+      "lang": "es",
+      "options": [
+        "6 €",
+        "7 €",
+        "8 €"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-10",
+      "type": "choice",
+      "prompt": "Nerea quiere comprar un juego de mesa de 10 €. Tiene una moneda de 2 € y un billete de 5 €. ¿Cuánto dinero le falta?",
+      "explanation": "Primero sumamos lo que tiene: 5 + 2 = 7 €. Después restamos del precio: 10 - 7 = 3 €. Le faltan 3 €.",
+      "hint": "Averigua primero cuánto dinero tiene Nerea en total.",
+      "lang": "es",
+      "options": [
+        "1 €",
+        "2 €",
+        "3 €"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:58:48.869Z",
+    "reviewed": false
+  }
+}

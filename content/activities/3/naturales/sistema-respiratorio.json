@@ -1,0 +1,226 @@
+{
+  "id": "g3-naturales-sistema-respiratorio",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "sistema-respiratorio",
+  "temaNombre": "Sistema respiratorio",
+  "title": "El viaje del aire en nuestro cuerpo",
+  "summary": "Repasa cómo respiramos, los órganos del sistema respiratorio y los hábitos para cuidarlo.",
+  "keyIdeas": [
+    "Al respirar tomamos oxígeno del aire y expulsamos dióxido de carbono.",
+    "El aire entra por la nariz, pasa por la tráquea y llega a los pulmones.",
+    "Hacer ejercicio y ventilar los espacios nos ayuda a tener pulmones sanos."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-sistema-respiratorio-01",
+      "type": "choice",
+      "prompt": "¿Qué gas del aire necesita nuestro cuerpo para vivir cuando respiramos?",
+      "explanation": "El cuerpo necesita el oxígeno del aire para conseguir energía. El dióxido de carbono es un gas de desecho.",
+      "hint": "Es el gas limpio que pasa a la sangre en los pulmones.",
+      "lang": "es",
+      "options": [
+        "Oxígeno",
+        "Dióxido de carbono",
+        "Humo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-02",
+      "type": "match",
+      "prompt": "Une cada parte del sistema respiratorio con su función principal:",
+      "explanation": "Cada órgano tiene una tarea importante. La nariz prepara el aire, la tráquea lo transporta y los pulmones recogen el oxígeno.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Fosas nasales",
+          "right": "Limpian y calientan el aire al entrar"
+        },
+        {
+          "left": "Tráquea",
+          "right": "Tubo que conduce el aire hacia los bronquios"
+        },
+        {
+          "left": "Pulmones",
+          "right": "Órganos esponjosos donde pasa el oxígeno a la sangre"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-03",
+      "type": "order",
+      "prompt": "Ordena el camino que sigue el aire cuando entra en el cuerpo al inspirar:",
+      "explanation": "El aire entra primero por la nariz, baja por el tubo de la tráquea, se divide en los bronquios y llega a los pulmones.",
+      "lang": "es",
+      "items": [
+        "Fosas nasales",
+        "Tráquea",
+        "Bronquios",
+        "Pulmones"
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-04",
+      "type": "true-false",
+      "prompt": "Al expulsar el aire durante la espiración, la caja torácica se relaja y se hace más pequeña.",
+      "explanation": "Es verdadero. Durante la espiración los pulmones se vacían y el pecho desciende y reduce su tamaño.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-05",
+      "type": "classify",
+      "prompt": "Clasifica lo que ocurre en cada movimiento de la respiración:",
+      "explanation": "Al inspirar tomamos aire y el pecho se ensancha. Al espirar expulsamos el aire y el pecho disminuye su tamaño.",
+      "lang": "es",
+      "categories": [
+        "Inspiración",
+        "Espiración"
+      ],
+      "items": [
+        {
+          "text": "El aire entra en los pulmones",
+          "category": 0
+        },
+        {
+          "text": "El tórax se hincha y aumenta de tamaño",
+          "category": 0
+        },
+        {
+          "text": "El aire sale al exterior",
+          "category": 1
+        },
+        {
+          "text": "El tórax se deshincha y se reduce",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-06",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta sobre el intercambio de gases:",
+      "explanation": "Los alvéolos están rodeados de vasos sanguíneos muy finos. Allí el oxígeno pasa directamente a la sangre.",
+      "hint": "Es el líquido rojo que viaja por todo nuestro cuerpo.",
+      "lang": "es",
+      "sentence": "En los alvéolos pulmonares, el oxígeno pasa a la ___ y se recoge el dióxido de carbono.",
+      "options": [
+        "piel",
+        "saliva",
+        "sangre"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-07",
+      "type": "choice",
+      "prompt": "En clase debaten sobre la respiración. ¿Qué afirmación contiene un ERROR?",
+      "explanation": "La idea de Omar es incorrecta. El aire que expulsamos contiene más dióxido de carbono que al entrar, pero todavía conserva una parte de oxígeno.",
+      "hint": "Piensa en el boca a boca: si no quedara oxígeno en el aire que sale, no serviría para reanimar.",
+      "lang": "es",
+      "options": [
+        "Martina dice que el aire expulsado contiene dióxido de carbono.",
+        "Omar dice que al respirar solo expulsamos dióxido de carbono puro y nada de oxígeno.",
+        "Aisha dice que al respirar por la nariz filtramos el polvo del aire."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-08",
+      "type": "choice",
+      "prompt": "Hugo cuenta sus respiraciones durante un minuto. En reposo cuenta 18. Luego corre en el patio y vuelve a contar. ¿Qué resultado es el más probable?",
+      "explanation": "Al hacer ejercicio los músculos trabajan más y necesitan oxígeno extra. Por eso el ritmo respiratorio se acelera.",
+      "hint": "Piensa en cómo respiras justo después de hacer una carrera.",
+      "lang": "es",
+      "options": [
+        "Cuenta 8 respiraciones, porque al cansarse los pulmones descansan.",
+        "Cuenta 32 respiraciones, porque sus músculos necesitan más oxígeno.",
+        "Cuenta 18 respiraciones exactamente, porque el ritmo nunca cambia."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-09",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas:",
+      "explanation": "Respirar aire limpio y ventilar nuestras casas protege las vías respiratorias y nos mantiene sanos.",
+      "lang": "es",
+      "title": "Un paseo saludable por el pinar",
+      "text": "Hoy la clase de 3º ha salido de excursión al pinar del pueblo. La maestra Laura ha pedido a todos que respiren hondo por la nariz. En la naturaleza, el aire suele estar más limpio que en las calles con mucho tráfico. Los árboles absorben dióxido de carbono y liberan oxígeno durante el día. Lucía ha notado que el aire fresco le despeja la cabeza. Laura les explica que ventilar la habitación cada mañana y evitar el humo son dos hábitos estupendos para cuidar los pulmones.",
+      "questions": [
+        {
+          "prompt": "¿Por qué es mejor respirar por la nariz en vez de por la boca según aprendieron?",
+          "explanation": "La nariz tiene pelillos y mucosidad que retienen impurezas y calientan el aire para proteger los pulmones.",
+          "options": [
+            "Porque por la nariz no entra nada de dióxido de carbono.",
+            "Porque la nariz calienta y limpia el aire antes de que llegue a los pulmones.",
+            "Porque por la boca el aire se congela al instante."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué hábito del texto ayuda a mantener nuestros pulmones sanos en casa?",
+          "explanation": "Abrir las ventanas renueva el aire interior y reduce la acumulación de polvo y sustancias irritantes.",
+          "options": [
+            "Encender estufas de leña dentro del dormitorio.",
+            "Dejar las ventanas cerradas todo el día.",
+            "Ventilar la habitación cada mañana."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-10",
+      "type": "choice",
+      "prompt": "Nerea y Adrián preparan un cartel escolar con consejos para cuidar el sistema respiratorio. ¿Cuál de estas tres propuestas es la más adecuada para su cartel?",
+      "explanation": "El ejercicio físico fortalece los pulmones y evitar humos perjudiciales mantiene limpias las vías respiratorias.",
+      "hint": "Busca la acción que ayude a respirar aire puro y mantenga activos los pulmones.",
+      "lang": "es",
+      "options": [
+        "Hacer deporte al aire libre y alejarse del humo de los coches y del tabaco.",
+        "Permanecer siempre en habitaciones cerradas sin abrir nunca las ventanas.",
+        "Respirar siempre por la boca cuando hace mucho frío en la calle."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:46:02.603Z",
+    "reviewed": false
+  }
+}

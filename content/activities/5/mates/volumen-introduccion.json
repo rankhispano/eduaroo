@@ -1,0 +1,225 @@
+{
+  "id": "g5-mates-volumen-introduccion",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "volumen-introduccion",
+  "temaNombre": "Volumen (introducción)",
+  "title": "Exploradores del volumen y los cubos",
+  "summary": "Aprende a medir el espacio que ocupan los cuerpos contando cubos unidad y calculando volúmenes sencillos.",
+  "keyIdeas": [
+    "El volumen es la cantidad de espacio que ocupa un cuerpo tridimensional.",
+    "Podemos medir el volumen usando cubos unidad como el centímetro cúbico (cm³).",
+    "En un prisma rectangular (ortoedro), el volumen se obtiene multiplicando largo × ancho × alto."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.2",
+      "2.1",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "C. Sentido espacial › Figuras geométricas de dos y tres dimensiones",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-volumen-introduccion-01",
+      "type": "choice",
+      "prompt": "¿Qué magnitud estamos midiendo cuando queremos saber el espacio que ocupa una caja de zapatos en un armario?",
+      "explanation": "El volumen mide la cantidad de espacio tridimensional que ocupa un cuerpo. La longitud mide una sola dimensión y el área mide una superficie plana.",
+      "hint": "Recuerda que la caja tiene tres dimensiones: largo, ancho y alto.",
+      "lang": "es",
+      "options": [
+        "El volumen",
+        "El perímetro",
+        "La longitud",
+        "El área de la base"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-02",
+      "type": "true-false",
+      "prompt": "Un cubo que mide 1 cm de largo, 1 cm de ancho y 1 cm de alto tiene un volumen de 1 cm³ (un centímetro cúbico).",
+      "explanation": "Es verdadero. El centímetro cúbico (cm³) es la unidad de volumen correspondiente a un cubo de 1 cm de arista (1 cm × 1 cm × 1 cm = 1 cm³).",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-03",
+      "type": "match",
+      "prompt": "Une cada magnitud con la unidad que le corresponde usar en clase:",
+      "explanation": "La longitud tiene una dimensión (cm), la superficie o área tiene dos dimensiones (cm²) y el volumen tiene tres dimensiones (cm³).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Longitud de un lápiz",
+          "right": "Centímetros (cm)"
+        },
+        {
+          "left": "Área de una cartulina",
+          "right": "Centímetros cuadrados (cm²)"
+        },
+        {
+          "left": "Volumen de un dado",
+          "right": "Centímetros cúbicos (cm³)"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la estructura de este prisma con policubos.",
+      "explanation": "Para calcular el total multiplicamos los cubos de una capa por el número de capas: 6 cubos × 3 capas = 18 cubos unidad.",
+      "lang": "es",
+      "sentence": "Si una torre de bloques tiene una base de 6 cubos y levantamos 3 capas iguales, su volumen total será de ___ cubos unidad.",
+      "options": [
+        "18",
+        "9",
+        "15",
+        "12"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-05",
+      "type": "choice",
+      "prompt": "¡Cálculo mental! 🧠 Lucía construye una figura rectangular con cubitos: mide 4 cubos de largo, 2 de ancho y 3 de alto. ¿Cuál es su volumen?",
+      "explanation": "Multiplicamos las tres dimensiones: 4 × 2 × 3. Primero 4 × 2 = 8, y luego 8 × 3 = 24 cubitos unidad.",
+      "hint": "Multiplica largo por ancho y el resultado por el alto.",
+      "lang": "es",
+      "options": [
+        "18 cubitos",
+        "9 cubitos",
+        "20 cubitos",
+        "24 cubitos"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-06",
+      "type": "classify",
+      "prompt": "Clasifica cada figura según su volumen total en cubos unidad de 1 cm³:",
+      "explanation": "Calculamos el producto de las tres medidas: 3 × 2 × 2 = 12 cm³, 4 × 3 × 1 = 12 cm³ y 6 × 2 × 1 = 12 cm³. Por otro lado: 4 × 4 × 1 = 16 cm³, 2 × 2 × 4 = 16 cm³ y 8 × 2 × 1 = 16 cm³.",
+      "lang": "es",
+      "categories": [
+        "Volumen de 12 cm³",
+        "Volumen de 16 cm³"
+      ],
+      "items": [
+        {
+          "text": "Caja de 3 cm × 2 cm × 2 cm",
+          "category": 0
+        },
+        {
+          "text": "Caja de 4 cm × 4 cm × 1 cm",
+          "category": 1
+        },
+        {
+          "text": "Caja de 4 cm × 3 cm × 1 cm",
+          "category": 0
+        },
+        {
+          "text": "Caja de 2 cm × 2 cm × 4 cm",
+          "category": 1
+        },
+        {
+          "text": "Caja de 6 cm × 2 cm × 1 cm",
+          "category": 0
+        },
+        {
+          "text": "Caja de 8 cm × 2 cm × 1 cm",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-07",
+      "type": "choice",
+      "prompt": "🔎 ¡Encuentra el error! Adrián quiere calcular el volumen de un ortoedro de 5 cm de largo, 3 cm de ancho y 2 cm de alto. Dice: «Como tiene tres medidas, las sumo: 5 + 3 + 2 = 10 cm³». ¿Cuál es su error?",
+      "explanation": "El volumen no se obtiene sumando las longitudes, sino multiplicándolas porque cada capa multiplica el número de cubos: 5 × 3 = 15 cubos por capa, y 15 × 2 capas = 30 cm³.",
+      "hint": "Piensa en cómo se distribuyen los cubitos en capas.",
+      "lang": "es",
+      "options": [
+        "Ha sumado bien, pero la unidad correcta debería ser centímetros cuadrados (10 cm²).",
+        "Debería haber multiplicado solo el largo y el ancho: 5 × 3 = 15 cm³.",
+        "Ha sumado las dimensiones en lugar de multiplicarlas: el volumen correcto es 5 × 3 × 2 = 30 cm³.",
+        "El cálculo es correcto, sumar las dimensiones siempre da el volumen."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-08",
+      "type": "order",
+      "prompt": "Ordena los pasos necesarios para calcular el volumen de una caja de zapatos contando cubitos de 1 cm³:",
+      "explanation": "Primero determinamos las dimensiones de la base (largo y ancho), hallamos el total de cubos de esa primera capa multiplicándolos, y finalmente multiplicamos por la altura (el número de capas).",
+      "lang": "es",
+      "items": [
+        "Contar cuántos cubitos caben a lo largo de la base",
+        "Contar cuántos cubitos caben a lo ancho para saber los cubos de una capa",
+        "Multiplicar el largo por el ancho para saber el total de cubos de la base",
+        "Multiplicar los cubos de la base por la altura de la caja"
+      ]
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-09",
+      "type": "choice",
+      "prompt": "📦 Situación cotidiana: Aisha quiere guardar dados de madera de 1 cm³ en un estuche. El estuche mide por dentro 6 cm de largo, 4 cm de ancho y 2 cm de alto. ¿Cuántos dados caben exactamente si lo llena por completo?",
+      "explanation": "El volumen del estuche es 6 × 4 × 2 = 48 cm³. Como cada dado ocupa 1 cm³, caben exactamente 48 dados.",
+      "hint": "Calcula el volumen interior del estuche multiplicando sus tres medidas.",
+      "lang": "es",
+      "options": [
+        "48 dados",
+        "24 dados",
+        "12 dados",
+        "50 dados"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-10",
+      "type": "choice",
+      "prompt": "🧩 Reto final: Omar y Martina están construyendo cubos grandes con cubitos de 1 cm³. Quieren formar un cubo que mida 3 cm de arista (3 cm de largo, 3 cm de ancho y 3 cm de alto). Si ya han colocado 17 cubitos, ¿cuántos les faltan para terminarlo?",
+      "explanation": "El cubo completo necesita 3 × 3 × 3 = 27 cubitos. Si ya han colocado 17, les faltan 27 - 17 = 10 cubitos.",
+      "hint": "Calcula primero el volumen total del cubo de 3 × 3 × 3 y luego resta los que ya tienen.",
+      "lang": "es",
+      "options": [
+        "27 cubitos",
+        "9 cubitos",
+        "8 cubitos",
+        "10 cubitos"
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:23:33.820Z",
+    "reviewed": false
+  }
+}

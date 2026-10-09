@@ -1,0 +1,209 @@
+{
+  "id": "g2-sociales-derechos-de-los-ninos",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "derechos-de-los-ninos",
+  "temaNombre": "Derechos de los niños",
+  "title": "Conocemos los derechos de la infancia",
+  "summary": "Repasa los derechos y responsabilidades que protegen a todos los niños.",
+  "keyIdeas": [
+    "Todos los niños del mundo tienen los mismos derechos sin distinción.",
+    "Tenemos derecho a la salud, la educación, el juego y la familia.",
+    "Junto a los derechos, tenemos la responsabilidad de respetar a los demás."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL5",
+      "CPSAA1"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-01",
+      "type": "true-false",
+      "prompt": "Todos los niños y niñas tienen derecho a ir a la escuela.",
+      "explanation": "La educación es un derecho fundamental de todos los niños para aprender y crecer felices.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-02",
+      "type": "choice",
+      "prompt": "Omar tiene fiebre alta en casa. ¿Qué derecho le protege para curarse?",
+      "explanation": "El derecho a la salud garantiza que los médicos cuiden de Omar cuando está enfermo.",
+      "hint": "Piensa en el hospital o centro de salud.",
+      "lang": "es",
+      "options": [
+        "Derecho a la salud",
+        "Derecho a viajar en avión",
+        "Derecho a comprar juguetes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la identidad infantil.",
+      "explanation": "Tener un nombre propio nos identifica y es parte de nuestro derecho a la identidad.",
+      "lang": "es",
+      "sentence": "Al nacer, todos los niños tienen derecho a tener un ___ y una nacionalidad.",
+      "options": [
+        "nombre",
+        "móvil",
+        "coche"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-04",
+      "type": "match",
+      "prompt": "Une cada derecho con su ejemplo en la vida diaria.",
+      "explanation": "Cada derecho se refleja en las actividades que haces cada día para crecer sano.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Derecho al juego",
+          "right": "Divertirse en el parque"
+        },
+        {
+          "left": "Derecho a la educación",
+          "right": "Aprender a leer en clase"
+        },
+        {
+          "left": "Derecho a la salud",
+          "right": "Recibir las vacunas"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-05",
+      "type": "true-false",
+      "prompt": "Los niños solo tienen derechos cuando sacan muy buenas notas.",
+      "explanation": "Los derechos son para todos los niños y niñas del mundo, siempre y sin condiciones.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-06",
+      "type": "classify",
+      "prompt": "Clasifica según sea un derecho o una responsabilidad.",
+      "explanation": "Los derechos nos protegen y las responsabilidades nos ayudan a convivir en armonía.",
+      "lang": "es",
+      "categories": [
+        "Es un derecho",
+        "Es una responsabilidad"
+      ],
+      "items": [
+        {
+          "text": "Tener una familia que nos cuide",
+          "category": 0
+        },
+        {
+          "text": "Recoger los juguetes después de jugar",
+          "category": 1
+        },
+        {
+          "text": "Ir al colegio a aprender",
+          "category": 0
+        },
+        {
+          "text": "Tratar con respeto a los compañeros",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-07",
+      "type": "choice",
+      "prompt": "Aisha quiere dar su opinión para organizar el festival del colegio. Ella tiene derecho a:",
+      "explanation": "Todos los niños tienen derecho a expresar su opinión libremente y a ser escuchados.",
+      "hint": "Recuerda que escuchar a todos es de buenos compañeros.",
+      "lang": "es",
+      "options": [
+        "Mandar sobre los demás niños",
+        "Ser escuchada y respetada",
+        "Hacer siempre su propia voluntad"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-08",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la protección familiar.",
+      "explanation": "La familia ofrece el cariño, la seguridad y el cuidado que todo niño necesita.",
+      "lang": "es",
+      "sentence": "Todos los niños tienen derecho a crecer con protección y recibir ___ en su hogar.",
+      "options": [
+        "cariño",
+        "premios caros",
+        "castigos duros"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-09",
+      "type": "classify",
+      "prompt": "Clasifica cada servicio público con el derecho que protege.",
+      "explanation": "Los hospitales cuidan nuestra salud y los colegios garantizan nuestra educación.",
+      "lang": "es",
+      "categories": [
+        "Derecho a la salud",
+        "Derecho a la educación"
+      ],
+      "items": [
+        {
+          "text": "La consulta de pediatría",
+          "category": 0
+        },
+        {
+          "text": "La biblioteca del colegio",
+          "category": 1
+        },
+        {
+          "text": "El aula de informática escolar",
+          "category": 1
+        },
+        {
+          "text": "Las urgencias del hospital",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-10",
+      "type": "choice",
+      "prompt": "En algunos lugares del mundo hay niños que trabajan. ¿Por qué es injusto?",
+      "explanation": "El trabajo infantil está prohibido porque impide a los niños estudiar, jugar y desarrollarse.",
+      "hint": "Piensa en qué necesitan los niños para tener un buen futuro.",
+      "lang": "es",
+      "options": [
+        "Porque tienen derecho a educarse y no deben trabajar",
+        "Porque los niños hacen peor las tareas que los adultos",
+        "Porque los niños solo deben trabajar los fines de semana"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:31:14.491Z",
+    "reviewed": false
+  }
+}

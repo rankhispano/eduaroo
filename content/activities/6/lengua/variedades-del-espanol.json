@@ -1,0 +1,250 @@
+{
+  "id": "g6-lengua-variedades-del-espanol",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "variedades-del-espanol",
+  "temaNombre": "Variedades del español",
+  "title": "La gran riqueza del español",
+  "summary": "Explora las diferentes variedades, dialectos y palabras del español en el mundo y aprende a valorar su diversidad.",
+  "keyIdeas": [
+    "El español es una lengua diversa con distintas variedades geográficas en España y en América, todas igual de válidas y correctas.",
+    "Los dialectos presentan variaciones en la pronunciación (como el seseo), en la gramática (como el voseo) y en el vocabulario.",
+    "Respetar las distintas formas de hablar enriquece nuestra cultura y evita los prejuicios lingüísticos."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE4"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "4.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CCEC1",
+      "CCEC3",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CP3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Las lenguas y sus hablantes",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-variedades-del-espanol-01",
+      "type": "true-false",
+      "prompt": "El español que se habla en el centro de España es el único modelo correcto, y las demás formas de hablar son incorrectas.",
+      "explanation": "Ninguna variedad del español es superior ni más correcta que otra. Todas las formas de hablar el español forman parte de su gran riqueza cultural.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-02",
+      "type": "match",
+      "prompt": "Relaciona cada palabra común en España con el término equivalente utilizado habitualmente en varios países de América o en Canarias:",
+      "explanation": "El vocabulario varía de una región a otra sin que cambie el objeto al que nos referimos; estas diferencias léxicas enriquecen el idioma.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Autobús",
+          "right": "Guagua"
+        },
+        {
+          "left": "Teléfono móvil",
+          "right": "Celular"
+        },
+        {
+          "left": "Cometa",
+          "right": "Papalote"
+        },
+        {
+          "left": "Zapatillas de deporte",
+          "right": "Tenis"
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-03",
+      "type": "choice",
+      "prompt": "¿Cómo se llama el fenómeno lingüístico habitual en Canarias, Andalucía y toda Hispanoamérica por el que las letras 'c' (ante 'e', 'i') y 'z' se pronuncian con el sonido de la 's' (como decir 'sersiador' por cercador o 'sapato' por zapato)?",
+      "explanation": "El seseo consiste en pronunciar el sonido 's' en lugar de la distinción entre 's' y 'z/c'. Es un rasgo completamente natural y correcto de millones de hispanohablantes.",
+      "hint": "Fíjate en la letra con la que empieza el sonido que se utiliza al hablar.",
+      "lang": "es",
+      "options": [
+        "Yeísmo",
+        "Voseo",
+        "Ceceo",
+        "Seseo"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el pronombre característico del español rioplatense (Argentina y Uruguay):",
+      "explanation": "El voseo es el uso del pronombre 'vos' en lugar de 'tú' para el tratamiento informal, propio de países como Argentina, Uruguay o zonas de Centroamérica.",
+      "lang": "es",
+      "sentence": "En Argentina es muy habitual decir: '¿___ querés venir a merendar a mi casa?'.",
+      "options": [
+        "vos",
+        "ustedes",
+        "tú"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-05",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según se utilicen habitualmente en el español peninsular (España) o en distintas variedades de Hispanoamérica:",
+      "explanation": "Tanto 'ordenador' como 'computadora', 'aparcar' como 'estacionar', o 'zumo' como 'jugo' son términos plenamente reconocidos y válidos en sus respectivas áreas geográficas.",
+      "lang": "es",
+      "categories": [
+        "Uso habitual en España",
+        "Uso habitual en Hispanoamérica"
+      ],
+      "items": [
+        {
+          "text": "Ordenador",
+          "category": 0
+        },
+        {
+          "text": "Computadora",
+          "category": 1
+        },
+        {
+          "text": "Aparcar",
+          "category": 0
+        },
+        {
+          "text": "Estacionar",
+          "category": 1
+        },
+        {
+          "text": "Zumo",
+          "category": 0
+        },
+        {
+          "text": "Jugo",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-06",
+      "type": "choice",
+      "prompt": "En clase de Lengua, cuatro estudiantes opinan sobre la forma de hablar de un compañero recién llegado de Colombia. ¿Quién demuestra un prejuicio lingüístico que debemos evitar?",
+      "explanation": "Calificar de 'raro' o 'malo' el dialecto de otra persona es un prejuicio lingüístico. Todas las variedades del español tienen sus propias normas y son igualmente correctas.",
+      "hint": "Busca la afirmación que juzga negativamente la variedad lingüística de otra persona.",
+      "lang": "es",
+      "options": [
+        "Adrián: 'Habla muy raro y mal porque usa palabras que aquí no usamos'.",
+        "Lucía: 'Usa palabras distintas como alberca para decir piscina, ¡qué interesante!'",
+        "Mateo: 'Me gusta su acento melódico y cómo pronuncia algunas palabras'."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-07",
+      "type": "order",
+      "prompt": "Ordena los pasos que debemos seguir al escuchar una palabra de otra variedad del español que no conocemos:",
+      "explanation": "Esta actitud de escucha activa y respeto permite aprender vocabulario nuevo y convivir de forma empática con personas de diferentes orígenes.",
+      "lang": "es",
+      "items": [
+        "Escuchar con atención la palabra dentro de la conversación",
+        "Preguntar a la persona con amabilidad y curiosidad qué significa",
+        "Relacionar el término nuevo con la palabra que usamos nosotros",
+        "Agradecer la explicación y valorar la diversidad de nuestra lengua"
+      ]
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-08",
+      "type": "fill-blank",
+      "prompt": "En una videollamada con un colegio de México, Sofía escucha decir: '¡Ese jersey te queda muy padre!'. ¿Qué significa en este contexto?",
+      "explanation": "En México, la palabra 'padre' se utiliza coloquialmente como adjetivo para expresar que algo es excelente, genial o muy bonito.",
+      "lang": "es",
+      "sentence": "En la variedad mexicana, la expresión 'estar muy padre' equivale a decir que algo es muy ___.",
+      "options": [
+        "antiguo o pasado de moda",
+        "grande y holgado",
+        "bonito o genial"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-09",
+      "type": "reading",
+      "prompt": "Lee atentamente el siguiente texto sobre el taller de cocina escolar y responde a las preguntas:",
+      "explanation": "La lectura muestra cómo conviven de manera natural y respetuosa distintas variedades dialectales y léxicas del español.",
+      "lang": "es",
+      "title": "Un taller con mucho sabor",
+      "text": "En el colegio Las Palmeras, el alumnado de sexto organizó un taller de cocina internacional. Nerea, que nació en Tenerife, trajo papas arrugadas con mojo picón. Al ver las papas, Carlos, que es de Madrid, exclamó: '¡Qué ricas estas patatas!'. Nerea sonrió y le explicó que en Canarias siempre se utiliza la palabra 'papa', igual que en toda Hispanoamérica, una herencia del quechua que llegó a las islas hace siglos.\n\nMás tarde, Valeria, procedente de Colombia, preparó un postre con plátano maduro al que ella llamaba 'plátano' y en otras regiones de su país conocen como 'maduro' o 'guineo'. Todo el grupo coincidió en que probar platos de distintos lugares y aprender cómo se nombran los ingredientes en cada país hace que las clases sean mucho más divertidas y enriquecedoras. Al terminar, elaboraron un recetario conjunto con las distintas formas de nombrar cada alimento.",
+      "questions": [
+        {
+          "prompt": "¿De qué lengua indígena procede originalmente la palabra 'papa' según el texto?",
+          "explanation": "El texto indica expresamente que la palabra 'papa' es una herencia del quechua que llegó a Canarias y a otras zonas hispanohablantes.",
+          "options": [
+            "Del guaraní",
+            "Del náhuatl",
+            "Del quechua"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué Nerea y Carlos usan palabras distintas para referirse al mismo alimento?",
+          "explanation": "Se trata de una diferencia de vocabulario geográfico: en el español peninsular se suele decir 'patata' y en Canarias y América se dice 'papa'.",
+          "options": [
+            "Porque cada uno utiliza la variedad léxica propia de su región geográfica.",
+            "Porque las patatas y las papas son alimentos completamente diferentes.",
+            "Porque Carlos cometió un error y Nerea le tuvo que corregir."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Cuál es la conclusión principal sobre la diversidad lingüística que se extrae de la experiencia del grupo?",
+          "explanation": "El texto resalta que compartir y aprender las distintas variedades y nombres hace que la experiencia sea enriquecedora y divertida para todos.",
+          "options": [
+            "Que conocer y compartir distintas formas de hablar enriquece la convivencia y el aprendizaje.",
+            "Que en el colegio solo se debería utilizar una única palabra oficial para cada comida.",
+            "Que las recetas internacionales solo salen bien si se usan nombres en español peninsular."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-10",
+      "type": "choice",
+      "prompt": "En muchas zonas del sur de España (como Andalucía y Murcia) y en el Caribe es muy común no pronunciar la 's' final de las palabras o pronunciarla como un suave suspiro o aspiración (por ejemplo, pronunciar 'loh niñoh' en lugar de 'los niños'). ¿Qué afirmación lingüística es correcta sobre este fenómeno?",
+      "explanation": "La aspiración de la 's' final es un rasgo fonético característico de las variedades meridionales del español (como el andaluz o el canario) y de amplias zonas de América, con un gran valor cultural e histórico.",
+      "hint": "Recuerda que los rasgos de pronunciación de cada región forman parte de su dialecto natural.",
+      "lang": "es",
+      "options": [
+        "Es una costumbre incorrecta que debería desaparecer por completo del idioma.",
+        "Es una falta de ortografía que solo cometen las personas que no han ido a la escuela.",
+        "Es un rasgo fonético dialectal propio de las variedades meridionales y atlánticas del español."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:25:50.971Z",
+    "reviewed": false
+  }
+}

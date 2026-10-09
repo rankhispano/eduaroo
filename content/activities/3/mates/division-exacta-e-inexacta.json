@@ -1,0 +1,230 @@
+{
+  "id": "g3-mates-division-exacta-e-inexacta",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "division-exacta-e-inexacta",
+  "temaNombre": "División exacta e inexacta",
+  "title": "¿Exacta o inexacta? ¡A repartir!",
+  "summary": "Practica cómo repartir en partes iguales descubriendo si las divisiones son exactas o tienen resto.",
+  "keyIdeas": [
+    "En una división exacta no sobra nada: el resto es 0.",
+    "En una división inexacta o entera siempre sobra algo: el resto es mayor que 0.",
+    "El resto siempre tiene que ser menor que el divisor."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-01",
+      "type": "true-false",
+      "prompt": "En una división exacta, el resto siempre es igual a 0.",
+      "explanation": "Una división es exacta cuando el reparto es perfecto y no sobra nada, por lo que el resto es 0.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-02",
+      "type": "match",
+      "prompt": "Une cada término de la división con su significado:",
+      "explanation": "El dividendo se reparte entre el divisor. El cociente es el resultado y el resto es lo que sobra.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Dividendo",
+          "right": "Cantidad total que se reparte"
+        },
+        {
+          "left": "Divisor",
+          "right": "Partes iguales en las que se reparte"
+        },
+        {
+          "left": "Cociente",
+          "right": "Cantidad que toca a cada parte"
+        },
+        {
+          "left": "Resto",
+          "right": "Cantidad que sobra al final"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-03",
+      "type": "classify",
+      "prompt": "Clasifica estas divisiones según sean exactas o inexactas:",
+      "explanation": "24 ÷ 6 = 4, 35 ÷ 5 = 7 y 18 ÷ 3 = 6 no tienen resto. En las demás sobra alguna cantidad.",
+      "lang": "es",
+      "categories": [
+        "División exacta",
+        "División inexacta"
+      ],
+      "items": [
+        {
+          "text": "24 ÷ 6",
+          "category": 0
+        },
+        {
+          "text": "15 ÷ 2",
+          "category": 1
+        },
+        {
+          "text": "35 ÷ 5",
+          "category": 0
+        },
+        {
+          "text": "22 ÷ 4",
+          "category": 1
+        },
+        {
+          "text": "18 ÷ 3",
+          "category": 0
+        },
+        {
+          "text": "31 ÷ 5",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-04",
+      "type": "choice",
+      "prompt": "Aisha reparte 27 rotuladores a partes iguales en 4 botes. ¿Cuántos rotuladores pone en cada bote?",
+      "explanation": "Calculamos 27 ÷ 4. Como 4 × 6 = 24, pone 6 en cada bote y sobran 3 rotuladores (27 - 24 = 3).",
+      "hint": "Busca en la tabla del 4 el número que más se acerque a 27 sin pasarte.",
+      "lang": "es",
+      "options": [
+        "5 rotuladores y le sobran 7",
+        "6 rotuladores y no le sobra ninguno",
+        "7 rotuladores y le sobra 1",
+        "6 rotuladores y le sobran 3"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-05",
+      "type": "fill-blank",
+      "prompt": "Completa la regla de oro de la división:",
+      "explanation": "El resto siempre debe ser menor que el divisor. Si fuera igual o mayor, podríamos seguir repartiendo.",
+      "lang": "es",
+      "sentence": "En cualquier división bien hecha, el resto siempre debe ser ___ que el divisor.",
+      "options": [
+        "menor",
+        "mayor",
+        "igual"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-06",
+      "type": "choice",
+      "prompt": "Hugo resuelve 29 ÷ 5 y dice: «Toca a 4 y sobran 9». ¿Qué error ha cometido?",
+      "explanation": "El resto no puede ser mayor que el divisor. Hugo debió probar con 5: 5 × 5 = 25 y sobran 4.",
+      "hint": "Fíjate en el tamaño del resto comparado con el divisor.",
+      "lang": "es",
+      "options": [
+        "El resto es 9 y es mayor que 5: podía repartir más.",
+        "La división no tiene ningún error, es correcta.",
+        "Ha multiplicado mal: 5 × 4 no es 20."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-07",
+      "type": "order",
+      "prompt": "Ordena los pasos para hacer la prueba de una división inexacta:",
+      "explanation": "La prueba de la división es: Dividendo = (divisor × cociente) + resto.",
+      "lang": "es",
+      "items": [
+        "Multiplicar el divisor por el cociente.",
+        "Sumar el resto a ese resultado.",
+        "Comprobar que el resultado final es igual al dividendo."
+      ]
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-08",
+      "type": "choice",
+      "prompt": "Omar tiene 33 cromos y sobres donde caben 5 cromos. ¿Cuántos cromos le faltan para completar otro sobre?",
+      "explanation": "33 ÷ 5 = 6 y sobran 3 cromos. Como para llenar un sobre necesita 5 cromos, le faltan 2 (5 - 3 = 2).",
+      "hint": "Piensa en cuántos cromos sobran y cuántos necesita un sobre entero.",
+      "lang": "es",
+      "options": [
+        "5 cromos",
+        "3 cromos",
+        "2 cromos"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-09",
+      "type": "choice",
+      "prompt": "En una excursión van 38 alumnos en furgonetas de 8 plazas. ¿Cuántas furgonetas completas o parciales se necesitan?",
+      "explanation": "38 ÷ 8 da 4 furgonetas llenas (32 plazas) y sobran 6 alumnos. Hace falta 1 furgoneta más para ellos: 4 + 1 = 5.",
+      "hint": "Cuidado con los 6 alumnos que sobran: ¡no pueden quedarse en el colegio!",
+      "lang": "es",
+      "options": [
+        "6 furgonetas, porque sobran 6 plazas",
+        "4 furgonetas, porque 38 ÷ 8 da 4",
+        "5 furgonetas, para que nadie se quede sin plaza"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-10",
+      "type": "match",
+      "prompt": "Calcula mentalmente y une cada división con el resto que se obtiene:",
+      "explanation": "4 × 6 = 24 (sobra 1); 5 × 7 = 35 (sobran 3); 6 × 7 = 42 (sobra 0); 7 × 3 = 21 (sobran 2).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "25 ÷ 4",
+          "right": "Resto 1"
+        },
+        {
+          "left": "38 ÷ 5",
+          "right": "Resto 3"
+        },
+        {
+          "left": "42 ÷ 6",
+          "right": "Resto 0"
+        },
+        {
+          "left": "23 ÷ 7",
+          "right": "Resto 2"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:07:35.925Z",
+    "reviewed": false
+  }
+}

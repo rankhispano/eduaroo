@@ -1,0 +1,234 @@
+{
+  "id": "g3-naturales-el-ciclo-del-agua",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "el-ciclo-del-agua",
+  "temaNombre": "El ciclo del agua",
+  "title": "El increíble viaje del agua",
+  "summary": "Practica cómo se mueve y cambia el agua en nuestro planeta a través de divertidos retos.",
+  "keyIdeas": [
+    "El ciclo del agua es el viaje continuo del agua por la Tierra.",
+    "El calor del Sol produce la evaporación del agua líquida en vapor.",
+    "Al enfriarse en las alturas, el vapor se condensa formando nubes que luego precipitan."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › Materia, fuerzas y energía"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-01",
+      "type": "true-false",
+      "prompt": "El agua de nuestro planeta siempre es la misma y se mueve en un ciclo continuo sin fin.",
+      "explanation": "El agua nunca se destruye. Cambia continuamente de estado y de lugar viajando por todo el planeta.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta.",
+      "explanation": "La evaporación es el cambio de agua líquida a vapor de agua invisible debido al calor.",
+      "hint": "Piensa en el paso de líquido a gas.",
+      "lang": "es",
+      "sentence": "Cuando el calor del Sol calienta el agua líquida del mar, esta sube al aire mediante la ___.",
+      "options": [
+        "filtración",
+        "precipitación",
+        "evaporación"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-03",
+      "type": "match",
+      "prompt": "Une cada fase del ciclo del agua con lo que ocurre en ella.",
+      "explanation": "Cada fase describe un cambio del agua en su viaje entre la superficie terrestre y la atmósfera.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Evaporación",
+          "right": "El agua líquida se calienta y sube como vapor invisible."
+        },
+        {
+          "left": "Condensación",
+          "right": "El vapor de agua se enfría y forma gotas en las nubes."
+        },
+        {
+          "left": "Precipitación",
+          "right": "El agua cae a la tierra en forma de lluvia o nieve."
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-04",
+      "type": "choice",
+      "prompt": "En clase, Hugo dice una frase sobre las nubes que contiene un error científico. ¿Cuál es?",
+      "explanation": "El vapor de agua es invisible. Las nubes son visibles porque están formadas por gotitas diminutas de agua líquida o cristalitos de hielo.",
+      "hint": "Recuerda que el vapor no se puede ver a simple vista.",
+      "lang": "es",
+      "options": [
+        "«Las nubes están hechas de vapor de agua en estado gaseoso invisible».",
+        "«Las nubes se forman cuando el aire húmedo se enfría al subir».",
+        "«Las gotas diminutas de las nubes pueden unirse y caer como lluvia»."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-05",
+      "type": "order",
+      "prompt": "Ordena el viaje de una gota de agua desde el mar hasta su regreso.",
+      "explanation": "El ciclo comienza con la evaporación, continúa con la condensación y la precipitación, y termina volviendo al mar.",
+      "lang": "es",
+      "items": [
+        "El Sol calienta el mar y el agua líquida se evapora.",
+        "El vapor asciende, se enfría y forma una nube.",
+        "El agua cae en forma de lluvia sobre una montaña.",
+        "El agua baja por un río y regresa al mar."
+      ]
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-06",
+      "type": "classify",
+      "prompt": "Clasifica estos elementos del ciclo del agua según su estado.",
+      "explanation": "El agua se manifiesta en estado líquido como lluvia o ríos, y en estado sólido como hielo o nieve.",
+      "lang": "es",
+      "categories": [
+        "Agua líquida",
+        "Agua sólida"
+      ],
+      "items": [
+        {
+          "text": "Lluvia de primavera",
+          "category": 0
+        },
+        {
+          "text": "Copo de nieve",
+          "category": 1
+        },
+        {
+          "text": "Rocío matinal",
+          "category": 0
+        },
+        {
+          "text": "Granizo en una tormenta",
+          "category": 1
+        },
+        {
+          "text": "Agua de un arroyo",
+          "category": 0
+        },
+        {
+          "text": "Hielo en la alta montaña",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-07",
+      "type": "choice",
+      "prompt": "Aisha y Omar ponen agua templada en un tarro de cristal tapado. Colocan hielo sobre la tapa. ¿Qué ocurrirá dentro?",
+      "explanation": "El vapor de agua sube y, al chocar con la tapa fría por el hielo, se condensa en pequeñas gotas.",
+      "hint": "Piensa en lo que pasa cuando el vapor caliente toca una superficie fría.",
+      "lang": "es",
+      "options": [
+        "Aparecerán gotas en la cara interior de la tapa por condensación del vapor.",
+        "El agua del tarro desaparecerá por completo a través del cristal.",
+        "El hielo atravesará la tapa sólida y caerá dentro del tarro."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-08",
+      "type": "choice",
+      "prompt": "Wei quiere regar el huerto del cole a mediodía, pero Martina aconseja regar al atardecer. ¿Por qué tiene razón Martina?",
+      "explanation": "Regar cuando no hace tanto calor evita que el agua se evapore rápidamente, ahorrando agua y ayudando a las plantas.",
+      "hint": "El calor del mediodía hace que el agua pase a vapor muy rápido.",
+      "lang": "es",
+      "options": [
+        "A mediodía las plantas no necesitan agua porque están descansando del sol.",
+        "Al atardecer el agua se convierte en nieve y protege las hojas.",
+        "Al atardecer hace menos calor y el agua se evapora menos antes de llegar a las raíces."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-09",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas.",
+      "explanation": "El agua subterránea es una parte esencial del ciclo del agua y debemos protegerla de la contaminación.",
+      "lang": "es",
+      "title": "El viaje bajo tierra",
+      "text": "Adrián y Nerea visitaron una cueva durante una excursión con el colegio. El guía les explicó que el agua de lluvia no solo viaja por ríos y lagos. Una gran parte de la lluvia se cuela lentamente a través de la tierra y las rocas. Este proceso se llama filtración. Bajo nuestros pies, el agua subterránea viaja despacio y llena depósitos naturales llamados acuíferos. Muchas personas de pueblos y campos obtienen agua potable limpia de estos pozos subterráneos. Con el tiempo, gran parte de esta agua vuelve a brotar en manantiales o llega al mar, continuando su viaje sin descanso.",
+      "questions": [
+        {
+          "prompt": "¿Cómo se llama el proceso por el que el agua de lluvia penetra en la tierra?",
+          "explanation": "El texto explica claramente que cuando el agua se cuela entre la tierra y las rocas ocurre la filtración.",
+          "options": [
+            "Ebullición",
+            "Filtración",
+            "Evaporación"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por qué es importante evitar contaminar el suelo de nuestros campos?",
+          "explanation": "El agua se filtra hasta los acuíferos subterráneos. Si el suelo está contaminado, esa agua potable también se ensuciará.",
+          "options": [
+            "Porque las sustancias contaminantes pueden filtrarse y ensuciar el agua de los acuíferos.",
+            "Porque la lluvia dejaría de caer para siempre sobre la tierra.",
+            "Porque las rocas subterráneas necesitan aire limpio para fabricar más agua."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-10",
+      "type": "choice",
+      "prompt": "Lucía observa un charco en el recreo de las nueve. A las dos de la tarde el charco se ha secado. ¿Qué le ha ocurrido al agua?",
+      "explanation": "El calor del ambiente hace que el agua líquida pase a vapor de agua invisible, continuando su ciclo en el aire.",
+      "hint": "El agua nunca desaparece, solo cambia de estado o lugar.",
+      "lang": "es",
+      "options": [
+        "Se ha evaporado por el calor y ahora flota en el aire en forma de vapor.",
+        "Ha desaparecido del planeta para siempre porque el calor la ha destruido.",
+        "Se ha congelado y el viento se ha llevado los trozos de hielo."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T19:33:55.409Z",
+    "reviewed": false
+  }
+}

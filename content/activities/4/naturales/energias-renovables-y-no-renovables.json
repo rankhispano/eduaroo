@@ -1,0 +1,231 @@
+{
+  "id": "g4-naturales-energias-renovables-y-no-renovables",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "energias-renovables-y-no-renovables",
+  "temaNombre": "Energías renovables y no renovables",
+  "title": "Descubrimos la energía de nuestro planeta",
+  "summary": "Repasa las energías renovables y no renovables y cómo utilizarlas de forma responsable.",
+  "keyIdeas": [
+    "Las energías renovables proceden de fuentes naturales inagotables como el sol o el viento.",
+    "Las energías no renovables se agotan con el uso y tardan millones de años en formarse.",
+    "Ahorrar energía y usar fuentes limpias ayuda a proteger el medio ambiente."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-01",
+      "type": "classify",
+      "prompt": "Clasifica estas fuentes de energía según su disponibilidad en la naturaleza:",
+      "explanation": "El sol, el viento y el agua no se agotan. En cambio, los combustibles fósiles existen en cantidades limitadas.",
+      "lang": "es",
+      "categories": [
+        "Energías renovables",
+        "Energías no renovables"
+      ],
+      "items": [
+        {
+          "text": "Luz y calor del Sol",
+          "category": 0
+        },
+        {
+          "text": "Petróleo",
+          "category": 1
+        },
+        {
+          "text": "Fuerza del viento",
+          "category": 0
+        },
+        {
+          "text": "Carbón mineral",
+          "category": 1
+        },
+        {
+          "text": "Corrientes de agua",
+          "category": 0
+        },
+        {
+          "text": "Gas natural",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-02",
+      "type": "true-false",
+      "prompt": "El Sol es una fuente de energía inagotable que podemos aprovechar mediante paneles solares.",
+      "explanation": "La radiación solar llega constantemente a la Tierra y no se acaba al usarla.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-03",
+      "type": "match",
+      "prompt": "Une cada tipo de energía renovable con el recurso natural del que procede:",
+      "explanation": "Cada energía renovable aprovecha la fuerza o el calor de un elemento natural diferente.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Energía eólica",
+          "right": "Viento"
+        },
+        {
+          "left": "Energía solar",
+          "right": "Sol"
+        },
+        {
+          "left": "Energía hidráulica",
+          "right": "Agua en movimiento"
+        },
+        {
+          "left": "Biomasa",
+          "right": "Restos de materia orgánica"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta:",
+      "explanation": "Se llaman combustibles fósiles porque se formaron durante millones de años a partir de restos orgánicos enterrados.",
+      "lang": "es",
+      "sentence": "El carbón, el petróleo y el gas natural son combustibles ___ porque proceden de restos antiguos.",
+      "options": [
+        "fósiles",
+        "renovables",
+        "infinitos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-05",
+      "type": "choice",
+      "prompt": "Lucía y Hugo prueban dos coches de juguete: uno con una pequeña placa solar y otro con una pila gastada. ¿Qué pasará si colocan ambos bajo el sol de mediodía? ☀️",
+      "explanation": "La placa solar convierte la luz del sol en electricidad para mover el motor. La pila gastada no recibe carga del sol.",
+      "hint": "Piensa cuál de los dos juguetes puede transformar la luz en movimiento.",
+      "lang": "es",
+      "options": [
+        "Los dos coches se moverán a la misma velocidad por el calor del suelo.",
+        "El coche solar empezará a moverse, pero el de la pila gastada no funcionará.",
+        "Ninguno de los dos coches funcionará porque el Sol no da electricidad directa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-06",
+      "type": "order",
+      "prompt": "Ordena el proceso para transformar la fuerza del agua de un río en electricidad útil:",
+      "explanation": "En una central hidroeléctrica, el agua acumulada cae, hace girar una turbina y genera electricidad limpia.",
+      "lang": "es",
+      "items": [
+        "El agua del río se acumula en un embalse.",
+        "El agua cae con fuerza por unas compuertas.",
+        "La corriente mueve las aspas de una turbina.",
+        "Un generador transforma el giro de la turbina en electricidad."
+      ]
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-07",
+      "type": "choice",
+      "prompt": "En clase debaten sobre la energía. Encuentra la afirmación que contiene un ERROR científico:",
+      "explanation": "Las fuentes no renovables tardan millones de años en formarse. Por eso se agotan mucho más rápido de lo que se reponen.",
+      "hint": "Fíjate en el tiempo que necesita la naturaleza para crear combustibles fósiles.",
+      "lang": "es",
+      "options": [
+        "La quema de carbón y petróleo expulsa gases que contaminan el aire del planeta.",
+        "Las fuentes de energía no renovables se reponen deprisa y nunca llegan a terminarse.",
+        "Los aerogeneradores transforman el movimiento del viento en corriente eléctrica."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-08",
+      "type": "reading",
+      "prompt": "Lee atentamente la noticia sobre el pueblo de Aldeasol y responde a las preguntas:",
+      "explanation": "Sustituir los combustibles fósiles por energías limpias reduce la contaminación del aire y cuida los ecosistemas.",
+      "lang": "es",
+      "title": "Un pueblo lleno de luz y aire limpio",
+      "text": "El pueblo de Aldeasol ha tomado una gran decisión. Antes, casi todas las casas usaban calderas de gasoil para calentarse en invierno. Además, el ayuntamiento pagaba mucho dinero por la electricidad del alumbrado público. El año pasado instalaron paneles solares sobre el polideportivo y un molino eólico en una colina cercana. Gracias al viento y a los días soleados, ahora producen el sesenta por ciento de la luz que consumen. Los vecinos están felices porque el aire del valle está mucho más limpio y la factura comunitaria ha bajado.",
+      "questions": [
+        {
+          "prompt": "¿Qué dos energías renovables empezó a aprovechar el pueblo de Aldeasol?",
+          "explanation": "El texto indica que instalaron paneles solares y un molino eólico en la colina.",
+          "options": [
+            "Solar y eólica",
+            "Hidráulica y biomasa",
+            "Gasoil y carbón"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué beneficio ambiental directo han notado los vecinos tras este cambio?",
+          "explanation": "Al usar el sol y el viento en lugar de calderas de combustible, emiten menos humos y el aire mejora.",
+          "options": [
+            "En el valle hace más calor durante las noches de invierno.",
+            "El aire del valle está más limpio al quemar menos gasoil.",
+            "Ahora llueve mucho más en la colina del pueblo."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-09",
+      "type": "choice",
+      "prompt": "El colegio de Martina quiere calentar el agua de los vestuarios de forma sostenible. ¿Qué opción es más respetuosa con el medio ambiente? 🏫",
+      "explanation": "Los paneles térmicos aprovechan el calor del sol sin expulsar humos nocivos ni gastar recursos no renovables.",
+      "hint": "Busca la opción que utiliza una fuente de energía inagotable y no contaminante.",
+      "lang": "es",
+      "options": [
+        "Instalar una caldera potente que queme carbón mineral a diario.",
+        "Comprar un depósito grande de gasoil para alimentar una estufa antigua.",
+        "Colocar paneles solares térmicos en el tejado para calentar el agua."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-10",
+      "type": "true-false",
+      "prompt": "Las energías renovables dependen a veces de las condiciones del tiempo atmosférico para producir electricidad.",
+      "explanation": "Si no hay viento los molinos no giran, y durante la noche las placas solares no reciben luz solar.",
+      "lang": "es",
+      "answer": true
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:02:32.240Z",
+    "reviewed": false
+  }
+}

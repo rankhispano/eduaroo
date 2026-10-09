@@ -1,0 +1,209 @@
+{
+  "id": "g1-sociales-normas-de-convivencia",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "normas-de-convivencia",
+  "temaNombre": "Normas de convivencia",
+  "title": "Convivimos y nos cuidamos",
+  "summary": "Practica normas sencillas para convivir en paz con los demás.",
+  "keyIdeas": [
+    "Las normas nos ayudan a respetarnos y vivir en armonía.",
+    "Escuchar y dialogar sirve para resolver problemas sin pelear.",
+    "Compartir y cuidar los espacios hace felices a todos."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.3"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL5",
+      "CPSAA1"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-normas-de-convivencia-01",
+      "type": "true-false",
+      "prompt": "Levantamos la mano en clase para pedir el turno de palabra.",
+      "explanation": "Levantar la mano ayuda a mantener el orden y escuchar a todos.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-02",
+      "type": "choice",
+      "prompt": "¿Qué palabra mágica usamos al pedir ayuda a un compañero?",
+      "explanation": "Decir por favor demuestra educación, respeto y buen trato a los demás.",
+      "hint": "Es una palabra amable que usamos para pedir cosas.",
+      "lang": "es",
+      "options": [
+        "Dámelo",
+        "Rápido",
+        "Por favor"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-03",
+      "type": "match",
+      "prompt": "Une cada acción con su lugar adecuado:",
+      "explanation": "Cada espacio tiene normas pensadas para la seguridad y el respeto.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Hablar en voz baja",
+          "right": "La biblioteca"
+        },
+        {
+          "left": "Correr y jugar al pilla-pilla",
+          "right": "El patio del recreo"
+        },
+        {
+          "left": "Cruzar por el paso de peatones",
+          "right": "La calle"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta:",
+      "explanation": "Caminar tranquilos por los pasillos evita choques y caídas.",
+      "lang": "es",
+      "sentence": "Para evitar accidentes, en los pasillos debemos caminar sin ___.",
+      "options": [
+        "mirar",
+        "pensar",
+        "correr"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-05",
+      "type": "classify",
+      "prompt": "Clasifica estas acciones según ayuden o dañen la convivencia:",
+      "explanation": "Las palabras amables unen; los empujones y las burlas molestan a otros.",
+      "lang": "es",
+      "categories": [
+        "Ayuda a convivir",
+        "Daña la convivencia"
+      ],
+      "items": [
+        {
+          "text": "Compartir las pinturas",
+          "category": 0
+        },
+        {
+          "text": "Empujar en la fila",
+          "category": 1
+        },
+        {
+          "text": "Decir gracias",
+          "category": 0
+        },
+        {
+          "text": "Burlarse de un amigo",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-06",
+      "type": "choice",
+      "prompt": "Hugo y Aisha quieren el mismo columpio. ¿Qué deben hacer?",
+      "explanation": "Hacer turnos permite que los dos disfruten del juego con justicia.",
+      "hint": "Piensa en una solución justa para ambos.",
+      "lang": "es",
+      "options": [
+        "Esperar y jugar por turnos",
+        "Gritar para conseguirlo antes",
+        "Enfadarse y no hablarse más"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-07",
+      "type": "order",
+      "prompt": "Ordena los pasos para resolver un problema hablando:",
+      "explanation": "Primero nos calmamos, luego dialogamos y al final acordamos una solución.",
+      "lang": "es",
+      "items": [
+        "Parar y respirar con calma",
+        "Explicar lo que sentimos",
+        "Llegar a un acuerdo juntos"
+      ]
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-08",
+      "type": "true-false",
+      "prompt": "Si tiramos los papeles al suelo, el parque se mantiene limpio.",
+      "explanation": "Tirar la basura al suelo ensucia los lugares que todos usamos.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-09",
+      "type": "choice",
+      "prompt": "Un compañero nuevo llega a clase y está solo. ¿Qué haces?",
+      "explanation": "Acoger a los nuevos compañeros les ayuda a sentirse felices y seguros.",
+      "hint": "Piensa en cómo te gustaría que te trataran a ti.",
+      "lang": "es",
+      "options": [
+        "Decirle que juegue en otro lado",
+        "Mirarle sin decir nada",
+        "Invitarle a jugar en el recreo"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-10",
+      "type": "reading",
+      "prompt": "Lee esta historia corta y responde a las preguntas:",
+      "explanation": "Reconocer las equivocaciones y colaborar ayuda a convivir con alegría.",
+      "lang": "es",
+      "title": "El balón de Mateo",
+      "text": "Mateo y Lucas juegan al fútbol. Mateo chuta y tira la torre de cubos de Irene. Irene se pone triste. Mateo se acerca, le pide perdón y le ayuda a reconstruir la torre. Lucas también colabora. Ahora los tres juegan muy contentos.",
+      "questions": [
+        {
+          "prompt": "¿Qué hizo Mateo al tirar la torre sin querer?",
+          "explanation": "Pedir perdón y reparar el error arregla los problemas con respeto.",
+          "options": [
+            "Pidió perdón y ayudó a Irene",
+            "Salió corriendo muy rápido",
+            "Se rio de los cubos caídos"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué terminaron los tres amigos contentos?",
+          "explanation": "Cooperar y arreglar las cosas juntos hace que todos se sientan bien.",
+          "options": [
+            "Porque jugaron cada uno en una esquina",
+            "Porque resolvieron el problema ayudándose",
+            "Porque la profesora les dio un premio"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:23:11.198Z",
+    "reviewed": false
+  }
+}

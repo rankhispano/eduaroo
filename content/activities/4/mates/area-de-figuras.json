@@ -1,0 +1,224 @@
+{
+  "id": "g4-mates-area-de-figuras",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "area-de-figuras",
+  "temaNombre": "Área de figuras",
+  "title": "Exploradores del área y la superficie",
+  "summary": "Aprende a medir y calcular el área de figuras planas con cuadrículas y situaciones cotidianas.",
+  "keyIdeas": [
+    "El área mide la superficie que ocupa una figura, usando unidades cuadradas como el centímetro cuadrado (cm²).",
+    "El área de un rectángulo se calcula multiplicando el largo por el ancho (base × altura).",
+    "No confundas el perímetro (la suma de los lados) con el área (la superficie interior)."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "B. Sentido de la medida › Medición",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-area-de-figuras-01",
+      "type": "true-false",
+      "prompt": "El área de una figura es la medida de la longitud de todo su contorno.",
+      "explanation": "El contorno es el perímetro. El área mide la superficie del interior de la figura.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-mates-area-de-figuras-02",
+      "type": "choice",
+      "prompt": "Lucía dibuja un rectángulo en una cuadrícula. Tiene 4 filas y 5 cuadrados en cada fila. ¿Cuál es su área en cuadritos?",
+      "explanation": "Multiplicamos las filas por las columnas: 4 × 5 = 20 cuadritos de superficie.",
+      "hint": "Multiplica el número de filas por el de cuadritos por fila.",
+      "lang": "es",
+      "options": [
+        "9 cuadritos",
+        "20 cuadritos",
+        "18 cuadritos"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-area-de-figuras-03",
+      "type": "match",
+      "prompt": "Une cada rectángulo con su área correspondiente:",
+      "explanation": "El área del rectángulo o cuadrado se obtiene multiplicando base × altura: 6 × 3 = 18, 8 × 2 = 16, 5 × 5 = 25 y 7 × 4 = 28.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Base 6 cm y altura 3 cm",
+          "right": "18 cm²"
+        },
+        {
+          "left": "Base 8 cm y altura 2 cm",
+          "right": "16 cm²"
+        },
+        {
+          "left": "Base 5 cm y altura 5 cm",
+          "right": "25 cm²"
+        },
+        {
+          "left": "Base 7 cm y altura 4 cm",
+          "right": "28 cm²"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-area-de-figuras-04",
+      "type": "fill-blank",
+      "prompt": "Completa con la unidad de medida adecuada para una superficie.",
+      "explanation": "Las superficies se miden en unidades cuadradas, como el cm². El centímetro sirve para longitudes y el litro para capacidades.",
+      "lang": "es",
+      "sentence": "Para medir la superficie del tablero de su pupitre, Hugo utiliza el ___.",
+      "options": [
+        "centímetro cuadrado (cm²)",
+        "centímetro (cm)",
+        "litro (l)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-area-de-figuras-05",
+      "type": "choice",
+      "prompt": "¡Cálculo mental! 🧠 Un mosaico cuadrado tiene 9 dm de lado. ¿Cuál es su área?",
+      "explanation": "El área de un cuadrado es lado × lado: 9 × 9 = 81 dm². 36 dm sería el perímetro (9 × 4).",
+      "hint": "Recuerda multiplicar lado por lado, no sumarlos.",
+      "lang": "es",
+      "options": [
+        "18 dm²",
+        "36 dm²",
+        "81 dm²"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-area-de-figuras-06",
+      "type": "classify",
+      "prompt": "Clasifica estas figuras según tengan un área mayor o menor que 24 cm²:",
+      "explanation": "Calculamos base × altura de cada una: 21, 20 y 16 son menores que 24; 25, 30 y 27 son mayores que 24.",
+      "lang": "es",
+      "categories": [
+        "Área menor que 24 cm²",
+        "Área mayor que 24 cm²"
+      ],
+      "items": [
+        {
+          "text": "Rectángulo de 7 cm × 3 cm",
+          "category": 0
+        },
+        {
+          "text": "Rectángulo de 5 cm × 5 cm",
+          "category": 1
+        },
+        {
+          "text": "Rectángulo de 10 cm × 2 cm",
+          "category": 0
+        },
+        {
+          "text": "Rectángulo de 6 cm × 5 cm",
+          "category": 1
+        },
+        {
+          "text": "Cuadrado de 4 cm × 4 cm",
+          "category": 0
+        },
+        {
+          "text": "Rectángulo de 9 cm × 3 cm",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-area-de-figuras-07",
+      "type": "choice",
+      "prompt": "🔎 ¡Encuentra el error! Omar quiere calcular el área de una alfombra rectangular de 4 m de largo y 3 m de ancho. Dice: «El área es 14 m² porque 4 + 3 + 4 + 3 = 14». ¿Dónde está su error?",
+      "explanation": "Omar sumó todos los lados (calculó el perímetro). Para hallar el área debe multiplicar base por altura: 4 × 3 = 12 m².",
+      "hint": "Fíjate si sumó los lados o si calculó el espacio interior.",
+      "lang": "es",
+      "options": [
+        "Ha calculado el perímetro en lugar del área; debía multiplicar 4 × 3 = 12 m².",
+        "Ha sumado mal los lados, porque 4 + 3 + 4 + 3 es igual a 12.",
+        "El área de un rectángulo siempre se calcula restando la base menos la altura."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-area-de-figuras-08",
+      "type": "order",
+      "prompt": "Ordena los pasos para calcular el área de una figura compleja dividiéndola en dos rectángulos:",
+      "explanation": "Primero dividimos la figura, luego tomamos medidas, calculamos cada área parcial y al final sumamos los resultados.",
+      "lang": "es",
+      "items": [
+        "Descomponer la figura en dos rectángulos más sencillos",
+        "Medir la base y la altura de cada rectángulo",
+        "Calcular el área de cada uno multiplicando su base por su altura",
+        "Sumar las dos áreas obtenidas para hallar el área total"
+      ]
+    },
+    {
+      "id": "g4-mates-area-de-figuras-09",
+      "type": "choice",
+      "prompt": "Aisha y Mateo quieren poner césped en una zona del huerto escolar de 6 m de largo y 4 m de ancho. Cada metro cuadrado de césped cuesta 5 €. ¿Cuánto costará todo el césped? 🌱",
+      "explanation": "Primero calculamos el área: 6 × 4 = 24 m². Después calculamos el precio: 24 × 5 = 120 €.",
+      "hint": "Problema de dos pasos: primero halla los m² y luego multiplica por el precio de cada uno.",
+      "lang": "es",
+      "options": [
+        "50 €",
+        "100 €",
+        "120 €"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-area-de-figuras-10",
+      "type": "choice",
+      "prompt": "En clase de plástica, Nerea recorta un rectángulo de cartulina de 8 cm por 6 cm. En el centro corta un cuadrado de 2 cm de lado para hacer una ventana. ¿Qué área de cartulina le queda?",
+      "explanation": "Área total = 8 × 6 = 48 cm². Área del recorte = 2 × 2 = 4 cm². Cartulina restante = 48 - 4 = 44 cm².",
+      "hint": "Calcula el área del rectángulo grande y réstale el área del cuadrado recortado.",
+      "lang": "es",
+      "options": [
+        "44 cm²",
+        "46 cm²",
+        "40 cm²"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:15:50.883Z",
+    "reviewed": false
+  }
+}

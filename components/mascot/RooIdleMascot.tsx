@@ -1,0 +1,125 @@
+import { useId } from 'react';
+
+const STYLES = `
+.roo-idle-svg .roo-idle-breathe { animation: roo-idle-breathe 3.8s ease-in-out infinite; transform-box: view-box; transform-origin: 100px 160px; }
+.roo-idle-svg .roo-idle-tail { animation: roo-idle-tail 5s ease-in-out infinite; transform-box: view-box; transform-origin: 63px 231px; }
+.roo-idle-svg .roo-idle-eye { animation: roo-idle-blink 5.4s infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+.roo-idle-svg .roo-idle-ear { animation: roo-idle-ear 7s ease-in-out infinite; transform-box: view-box; transform-origin: 131px 35px; }
+@keyframes roo-idle-breathe { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-0.6px); } }
+@keyframes roo-idle-tail { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(1.2deg); } }
+@keyframes roo-idle-blink { 0%, 93%, 97%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.08); } }
+@keyframes roo-idle-ear { 0%, 86%, 100% { transform: rotate(0); } 90% { transform: rotate(-3deg); } 94% { transform: rotate(1.5deg); } }
+@media (prefers-reduced-motion: reduce) { .roo-idle-svg * { animation: none !important; } }
+`;
+
+export default function RooIdleMascot({
+    size = 160,
+    className = '',
+    title = 'Roo, la mascota de Eduaroo (en reposo)',
+}: {
+    size?: number;
+    className?: string;
+    title?: string;
+}) {
+    const id = `roo-idle-${useId().replace(/[^a-zA-Z0-9_-]/g, '')}`;
+    const paint = (name: string) => `url(#${id}-${name})`;
+
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width={size} height={size * 1.2}
+            role="img" aria-label={title} className={`roo-svg roo-idle-svg ${className}`}>
+            <title>{title}</title>
+            <style>{STYLES}</style>
+            <defs>
+              <linearGradient id={`${id}-fur`} x1="0%" y1="0%" x2="100%" y2="70%">
+                <stop offset="0%" stopColor="#FFC269" />
+                <stop offset="50%" stopColor="#F7A444" />
+                <stop offset="100%" stopColor="#E78B32" />
+              </linearGradient>
+              <linearGradient id={`${id}-cream`} x1="0%" y1="0%" x2="60%" y2="100%">
+                <stop offset="0%" stopColor="#FFE0A2" />
+                <stop offset="100%" stopColor="#FFDB95" />
+              </linearGradient>
+              <linearGradient id={`${id}-blue`} x1="0%" y1="0%" x2="40%" y2="100%">
+                <stop offset="0%" stopColor="#77BCE9" />
+                <stop offset="50%" stopColor="#559CD3" />
+                <stop offset="100%" stopColor="#387CB7" />
+              </linearGradient>
+              <g id={`${id}-mitten`} fill="#F7A444" stroke="#63391F" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M -3 -4 C -4.6 -4.8 -6.6 -3.6 -6.3 -2 C -6.1 -1 -5.4 -0.6 -4.7 -0.9 C -5.4 2.2 -3.9 5.1 -1.1 5.7 C 1.5 6.3 4.4 4.9 5 2.5 C 5.6 0.2 4.3 -2.4 3 -4.5" strokeWidth="2" />
+                <path d="M -1.8 1.5 Q -1.8 3 -0.8 3.8 M 1.1 1.5 Q 1.7 3 2.4 3.4" fill="none" strokeWidth="1.2" />
+              </g>
+            </defs>
+            <g stroke="#63391F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <g id={`${id}-roo-shadow`} stroke="none">
+                <ellipse cx="100" cy="233" rx="80" ry="1" fill="#4E5267" opacity="0.2" />
+              </g>
+              <g id={`${id}-roo-tail`} className="roo-idle-tail">
+                <path d="M 87 202 C 70 209 49 203 39 187 C 29 172 26 153 30 138 C 31 133 29 131 26 135 C 13 150 13 179 24 200 C 34 220 45 231 63 231 C 74 231 82 225 88 220 Z" fill={paint('fur')} />
+              </g>
+              <g id={`${id}-roo-leg-far`}>
+                <path d="M 119 166 C 134 162 148 173 144 188 C 140 201 133 209 132 219 C 144 217 161 218 171 223 C 176 225 177 231 170 231 L 131 231 C 123 231 120 228 122 222 C 127 211 122 196 116 183 Z" fill="#E78B32" />
+                <path d="M 163 223 Q 168 226 167 231 M 156 222 Q 162 226 161 231" fill="none" strokeWidth="1.2" />
+              </g>
+              <g id={`${id}-roo-torso`} className="roo-idle-breathe">
+                <path d="M 107 90 C 111 90 120 92 125 95 C 121 105 123 113 131 120 C 142 137 146 151 142 169 C 137 187 125 202 108 205 C 91 209 79 198 75 180 C 69 161 77 140 90 121 C 99 110 105 101 107 90 Z" fill={paint('fur')} />
+                <path d="M 117 97 C 114 105 117 114 126 125 C 137 141 141 154 137 170 C 133 185 122 198 107 202 C 109 187 105 175 102 164 C 99 149 104 133 111 117 C 117 108 112 103 111 101 Z" fill={paint('cream')} stroke="none" />
+              </g>
+              <g id={`${id}-roo-arm-far`} className="roo-idle-breathe">
+                <path d="M 138 135 C 139 130 138 125 133 123 C 130 121 126 120 126 117 C 126 113 131 114 135 116 C 142 120 146 127 144 134.5" fill={paint('fur')} />
+                <use href={`#${id}-mitten`} x="141" y="139" />
+              </g>
+              <g id={`${id}-roo-leg-near`}>
+                <path d="M 88 157 C 77 160 70 171 73 188 C 76 201 81 212 82 219 C 79 223 75 225 75 228 Q 76 231 83 231 L 124 231 Q 132 231 129 226 C 126 222 111 220 97 220 C 97 215 99 210 102 203 C 110 188 111 172 103 163 Z" fill={paint('fur')} />
+                <path d="M 118 224 Q 124 227 123 231 M 110 222 Q 116 226 116 231" fill="none" strokeWidth="1.2" />
+              </g>
+              <g id={`${id}-roo-belt`} className="roo-idle-breathe">
+                <path d="M 79 144 C 97 152 119 154 143 148 L 143 157 C 121 163 96 162 77 153 Z" fill={paint('blue')} />
+                <rect x="113" y="150" width="9" height="9" rx="2" fill="#E9C46A" />
+                <path d="M 84 147 L 101 152 L 99 166 Q 98 171 93 170 L 81 167 Q 77 166 78 162 Z" fill={paint('blue')} />
+                <path d="M 81 155 Q 90 162 100 157" fill="none" strokeWidth="1.2" />
+              </g>
+              <g id={`${id}-roo-arm-near`} className="roo-idle-breathe">
+                <path d="M 102 146.7 C 98 146 95 139 95 133 C 95 128 99 122 102 119 C 104 115 100 113 97 116 C 92 123 89 135 93 143 C 95 149 100 151 105.5 141.8" fill={paint('fur')} />
+                <g transform="translate(107 147) rotate(-50)"><use href={`#${id}-mitten`} /></g>
+              </g>
+              <g id={`${id}-roo-head`} transform="translate(0 12)">
+                <g className="roo-idle-breathe">
+                <g id={`${id}-roo-ears`}>
+                  <path d="M 100 37 C 87 32 76 18 73 5 C 72 -2 77 0 84 5 C 97 15 105 26 107 34 Z" fill="#F7A444" />
+                  <path d="M 98 30 C 87 22 80 11 78 4 C 87 10 96 22 101 32 Z" fill="#F49A80" stroke="none" />
+                  <g className="roo-idle-ear">
+                    <path d="M 128 32 C 127 19 135 4 145 1 C 152 -1 151 7 148 16 C 144 27 137 34 132 35 Z" fill="#F7A444" />
+                    <path d="M 131 29 C 133 19 140 8 146 5 C 145 15 140 25 133 32 Z" fill="#F49A80" stroke="none" />
+                  </g>
+                </g>
+                <path d="M 99 36 C 91 43 92 62 98 74 C 103 83 112 87 121 86 C 132 88 146 81 152 72 C 156 65 154 58 145 55 C 147 45 142 35 134 32 C 123 27 108 29 99 36 Z" fill={paint('fur')} />
+                <path d="M 126 61 C 134 58 145 59 152 63 C 158 67 154 76 146 79 C 137 85 122 80 119 72 C 117 67 120 62 126 61 Z" fill="#FFC269" />
+                <path d="M 144 56 C 146 53 153 54 155 57 C 157 61 151 63 148 61 C 145 60 143 58 144 56 Z" fill="#593322" strokeWidth="1.2" />
+                <path d="M 135 65 Q 144 68 153 64 Q 151 70 144 69.5 Q 138 69.5 135 65 Z" fill="#743725" strokeWidth="1.2" />
+                <path d="M 141 68 Q 145 67 149 68 Q 146 70 143 69 Z" fill="#F49A80" stroke="none" />
+                <path d="M 105 40 Q 112 35 119 40 M 126 40 Q 133 35 140 40" fill="none" strokeWidth="1.2" />
+                <g transform="translate(112 51)"><g className="roo-idle-eye">
+                  <ellipse cx="0" cy="0" rx="6.6" ry="8" fill="#FFFDF7" />
+                  <ellipse cx="1" cy="0.5" rx="3.4" ry="4.8" fill="#2E211A" stroke="none" />
+                  <circle cx="-0.3" cy="-1.8" r="1.5" fill="#FFFDF7" stroke="none" />
+                  <circle cx="2.4" cy="2.7" r="0.7" fill="#FFFDF7" stroke="none" />
+                </g></g>
+                <g transform="translate(133 51)"><g className="roo-idle-eye">
+                  <ellipse cx="0" cy="0" rx="6.6" ry="8" fill="#FFFDF7" />
+                  <ellipse cx="1" cy="0.5" rx="3.4" ry="4.8" fill="#2E211A" stroke="none" />
+                  <circle cx="-0.3" cy="-1.8" r="1.5" fill="#FFFDF7" stroke="none" />
+                  <circle cx="2.4" cy="2.7" r="0.7" fill="#FFFDF7" stroke="none" />
+                </g></g>
+                <g id={`${id}-roo-hat`} transform="translate(0 -4)">
+                  <path d="M 100 32 C 99 22 107 18 118 18 C 129 17 135 23 136 31 L 134 35 L 102 37 Z" fill="#C8B785" />
+                  <path d="M 101 30 C 111 27 124 25 135 27 L 136 32 C 124 30 112 33 102 35 Z" fill="#93633A" strokeWidth="1.2" />
+                  <path d="M 87 38 C 95 31 110 28 124 27 C 139 25 151 26 156 29 C 158 31 148 34 135 35 C 117 36 101 37 89 40 C 87 41 85 40 87 38 Z" fill="#C8B785" />
+                  <circle cx="118" cy="23" r="3.6" fill="#FFFDF7" strokeWidth="1.2" />
+                  <path d="M 117 25 L 119 21" fill="none" strokeWidth="1.2" />
+                </g>
+                </g>
+              </g>
+            </g>
+        </svg>
+    );
+}

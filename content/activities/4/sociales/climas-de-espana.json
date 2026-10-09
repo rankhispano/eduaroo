@@ -1,0 +1,237 @@
+{
+  "id": "g4-sociales-climas-de-espana",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "climas-de-espana",
+  "temaNombre": "Climas de España",
+  "title": "Viaje por los climas españoles",
+  "summary": "Descubre las características, temperaturas y paisajes de los distintos climas de España.",
+  "keyIdeas": [
+    "En España existen cuatro climas principales: oceánico, mediterráneo, de montaña y subtropical.",
+    "El clima oceánico destaca por lluvias abundantes todo el año y temperaturas suaves.",
+    "El clima mediterráneo tiene veranos secos y calurosos, con variantes en la costa y en el interior."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-climas-de-espana-01",
+      "type": "true-false",
+      "prompt": "En el clima oceánico del norte de España llueve con frecuencia durante todo el año.",
+      "explanation": "El clima oceánico recibe la influencia del mar Cantábrico y el océano Atlántico, con precipitaciones regulares todo el año.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-02",
+      "type": "choice",
+      "prompt": "¿Qué clima predomina en las islas Canarias?",
+      "explanation": "Las islas Canarias tienen un clima subtropical, con temperaturas suaves y cálidas durante todo el año y pocas lluvias.",
+      "hint": "Están cerca del trópico y tienen temperaturas agradables casi siempre.",
+      "lang": "es",
+      "options": [
+        "Clima subtropical",
+        "Clima de montaña",
+        "Clima mediterráneo de interior"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-03",
+      "type": "match",
+      "prompt": "Une cada clima con su característica principal:",
+      "explanation": "Cada clima español tiene temperaturas y precipitaciones muy diferentes según su relieve y situación geográfica.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Clima de montaña",
+          "right": "Inviernos muy fríos con nieve frecuente"
+        },
+        {
+          "left": "Clima oceánico",
+          "right": "Lluvias abundantes y paisajes muy verdes"
+        },
+        {
+          "left": "Clima subtropical",
+          "right": "Temperaturas cálidas todo el año y pocas lluvias"
+        },
+        {
+          "left": "Clima mediterráneo",
+          "right": "Veranos calurosos y secos con poca lluvia"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el clima del centro peninsular:",
+      "explanation": "Al estar lejos del mar, el clima mediterráneo de interior presenta temperaturas extremas: mucho frío en invierno y mucho calor en verano.",
+      "lang": "es",
+      "sentence": "En la Meseta Central el clima mediterráneo de interior tiene inviernos muy ___ y veranos calurosos.",
+      "options": [
+        "fríos",
+        "lluviosos",
+        "suaves"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-05",
+      "type": "classify",
+      "prompt": "Clasifica estas ciudades según su clima predominante:",
+      "explanation": "Santander, A Coruña y Oviedo están en el norte atlántico y cantábrico. Valencia, Málaga y Palma dan al mar Mediterráneo.",
+      "lang": "es",
+      "categories": [
+        "Clima oceánico",
+        "Clima mediterráneo"
+      ],
+      "items": [
+        {
+          "text": "Santander",
+          "category": 0
+        },
+        {
+          "text": "Valencia",
+          "category": 1
+        },
+        {
+          "text": "A Coruña",
+          "category": 0
+        },
+        {
+          "text": "Málaga",
+          "category": 1
+        },
+        {
+          "text": "Oviedo",
+          "category": 0
+        },
+        {
+          "text": "Palma de Mallorca",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-06",
+      "type": "choice",
+      "prompt": "Hugo prepara su maleta para ir de excursión en julio a Asturias. ¿Qué objeto no debería olvidar nunca?",
+      "explanation": "En Asturias el clima oceánico hace que pueda llover incluso en verano, por lo que un chubasquero es imprescindible.",
+      "hint": "Piensa en el fenómeno atmosférico más habitual del norte peninsular.",
+      "lang": "es",
+      "options": [
+        "Un chubasquero para la lluvia",
+        "Un abrigo polar de alta montaña",
+        "Ropa especial para la nieve"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-07",
+      "type": "order",
+      "prompt": "Ordena estos paisajes de mayor a menor presencia habitual de nieve en invierno:",
+      "explanation": "En las altas cumbres de montaña nieva con frecuencia, en la meseta solo de forma puntual y en la costa canaria nunca.",
+      "lang": "es",
+      "items": [
+        "Cumbres de los Pirineos",
+        "Meseta de Castilla y León",
+        "Costa de las islas Canarias"
+      ]
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-08",
+      "type": "reading",
+      "prompt": "Lee el texto del cuaderno de campo y responde a las preguntas:",
+      "explanation": "La lectura muestra cómo el clima modela el paisaje vegetal: mucha lluvia en el norte y gran aridez en el sureste.",
+      "lang": "es",
+      "title": "El viaje escolar de Nerea",
+      "text": "Nerea ha viajado este curso con su colegio por dos zonas muy distintas de España. En otoño visitó los valles de Galicia. Allí contempló bosques verdes de robles y castaños gracias a las constantes lluvias atlánticas. En primavera viajó a Almería, en el sureste peninsular. El paisaje parecía un desierto con plantas adaptadas a la sequedad, como las pitas y los espartos. El guía les explicó que en esa comarca apenas llueve durante el año y el sol brilla casi todos los días. Nerea aprendió que las plantas de cada lugar dependen directamente del clima.",
+      "questions": [
+        {
+          "prompt": "¿Por qué los bosques de Galicia estaban verdes y frondosos?",
+          "explanation": "El clima de Galicia es oceánico, con lluvias abundantes que mantienen la vegetación verde durante todo el año.",
+          "options": [
+            "Por las lluvias frecuentes del clima oceánico",
+            "Porque allí casi nunca llueve y hace calor",
+            "Porque caen grandes nevadas durante el verano"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿A qué variedad de clima corresponde el paisaje seco de Almería?",
+          "explanation": "En el sureste peninsular, como en Almería, predomina el clima mediterráneo seco con lluvias extremadamente escasas.",
+          "options": [
+            "Clima de montaña húmedo",
+            "Mediterráneo seco o subdesértico",
+            "Clima oceánico continental"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-09",
+      "type": "choice",
+      "prompt": "Aisha compara los datos de dos pueblos: el pueblo A sumó 1.100 mm de lluvia al año; el pueblo B sumó solo 320 mm. ¿Qué conclusión es correcta?",
+      "explanation": "Más de 1.000 mm anuales indica precipitaciones abundantes propias del clima oceánico, mientras que 320 mm refleja la escasez del clima mediterráneo.",
+      "hint": "En el norte llueve mucho más del triple que en el sur o levante.",
+      "lang": "es",
+      "options": [
+        "Ambos pueblos tienen exactamente el mismo clima subtropical",
+        "El pueblo A está en Canarias y el pueblo B en Galicia",
+        "El pueblo A tiene clima oceánico y el pueblo B clima mediterráneo"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-10",
+      "type": "match",
+      "prompt": "Relaciona cada situación climática con la acción responsable para cuidar nuestro entorno:",
+      "explanation": "Cuidar el agua, reducir la contaminación y proteger los bosques ayuda a adaptarnos al clima y frenar el cambio climático.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Sequías largas en el clima mediterráneo",
+          "right": "Cerrar el grifo y ahorrar agua en casa"
+        },
+        {
+          "left": "Subida general de temperaturas",
+          "right": "Usar el transporte público o la bicicleta"
+        },
+        {
+          "left": "Riesgo de incendios por veranos secos",
+          "right": "No dejar basuras ni vidrios en el bosque"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:06:03.241Z",
+    "reviewed": false
+  }
+}

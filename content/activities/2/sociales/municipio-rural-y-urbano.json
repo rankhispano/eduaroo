@@ -1,0 +1,240 @@
+{
+  "id": "g2-sociales-municipio-rural-y-urbano",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "municipio-rural-y-urbano",
+  "temaNombre": "Municipio rural y urbano",
+  "title": "Pueblos y ciudades de ensueño",
+  "summary": "Aprenderás a distinguir la vida en un municipio rural y en uno urbano.",
+  "keyIdeas": [
+    "Los pueblos tienen menos población, casas más bajas y naturaleza.",
+    "Las ciudades tienen edificios altos, mucho tráfico y más habitantes.",
+    "El ayuntamiento organiza los servicios públicos de cada municipio."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-01",
+      "type": "choice",
+      "prompt": "¿En qué lugar encontramos rascacielos y mucho tráfico?",
+      "explanation": "Las grandes ciudades tienen edificios muy altos y muchos vehículos circulando.",
+      "hint": "Piensa en un lugar donde vive muchísima gente.",
+      "lang": "es",
+      "options": [
+        "En una gran ciudad",
+        "En una pequeña aldea",
+        "En un pueblo de montaña"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-02",
+      "type": "true-false",
+      "prompt": "En los pueblos suele vivir menos gente que en las ciudades.",
+      "explanation": "Los pueblos tienen menos habitantes. Las ciudades están mucho más pobladas.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el gobierno de un municipio.",
+      "explanation": "El alcalde o la alcaldesa dirige el ayuntamiento junto con los concejales.",
+      "lang": "es",
+      "sentence": "La persona que dirige el ayuntamiento es el ___.",
+      "options": [
+        "pastor",
+        "alcalde o alcaldesa",
+        "médico"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-04",
+      "type": "classify",
+      "prompt": "Clasifica estos elementos según el tipo de municipio.",
+      "explanation": "Los pueblos tienen campos y huertos. Las ciudades tienen metro y rascacielos.",
+      "lang": "es",
+      "categories": [
+        "Municipio rural",
+        "Municipio urbano"
+      ],
+      "items": [
+        {
+          "text": "Rascacielos con muchas oficinas",
+          "category": 1
+        },
+        {
+          "text": "Granjas y campos de cultivo",
+          "category": 0
+        },
+        {
+          "text": "Líneas de tren subterráneo o metro",
+          "category": 1
+        },
+        {
+          "text": "Casas bajas familiares con huerto",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-05",
+      "type": "match",
+      "prompt": "Une cada servicio municipal con su tarea principal.",
+      "explanation": "El ayuntamiento organiza estos servicios para cuidar a todos los vecinos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Policía Local",
+          "right": "Vigilar el tráfico del municipio"
+        },
+        {
+          "left": "Servicio de limpieza",
+          "right": "Barrer y vaciar papeleras"
+        },
+        {
+          "left": "Parque de bomberos",
+          "right": "Apagar incendios y hacer rescates"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-06",
+      "type": "choice",
+      "prompt": "Omar vive en un pueblo. Nerea vive en una ciudad. ¿Por qué el pueblo de Omar tiene menos ruido?",
+      "explanation": "En el pueblo hay menos vehículos y por eso hay más silencio.",
+      "hint": "Fíjate en la cantidad de coches que pasan.",
+      "lang": "es",
+      "options": [
+        "Porque en los pueblos nadie sale a la calle.",
+        "Porque los pueblos no tienen caminos ni personas.",
+        "Porque circulan menos coches y camiones."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-07",
+      "type": "order",
+      "prompt": "Ordena estos lugares de menor a mayor cantidad de habitantes.",
+      "explanation": "Una aldea tiene pocos vecinos, un pueblo más y una ciudad muchísimos.",
+      "lang": "es",
+      "items": [
+        "Aldea pequeña",
+        "Pueblo mediano",
+        "Gran ciudad"
+      ]
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-08",
+      "type": "reading",
+      "prompt": "Lee el texto con atención y responde a las preguntas.",
+      "explanation": "Los pueblos y las ciudades ofrecen diferentes formas de desplazarse a diario.",
+      "lang": "es",
+      "title": "Dos primos muy unidos",
+      "text": "Aisha vive en un pueblo tranquilo. Va al colegio en bicicleta todos los días. Su primo Hugo vive en una gran ciudad. Hugo se desplaza en metro para ir a clase. En vacaciones se visitan y juegan juntos.",
+      "questions": [
+        {
+          "prompt": "¿Cómo va Aisha a su colegio?",
+          "explanation": "El texto explica claramente que Aisha va en bicicleta cada día.",
+          "options": [
+            "En coche particular",
+            "En metro subterráneo",
+            "En bicicleta"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué transporte público utiliza Hugo en la ciudad?",
+          "explanation": "Hugo se desplaza en metro, un transporte típico de grandes ciudades.",
+          "options": [
+            "El tractor",
+            "El barco de vela",
+            "El metro"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-09",
+      "type": "choice",
+      "prompt": "Muchos coches juntos producen humos. ¿Cómo podemos mejorar el aire de la ciudad?",
+      "explanation": "El autobús y la bicicleta contaminan menos y cuidan el aire limpio.",
+      "hint": "Busca una opción que use menos motores de gasolina.",
+      "lang": "es",
+      "options": [
+        "Usando la bicicleta y el autobús público.",
+        "Viajando solos en nuestro coche propio.",
+        "Quitando todos los árboles de las aceras."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-10",
+      "type": "classify",
+      "prompt": "Clasifica estos trabajos según el entorno donde son más frecuentes.",
+      "explanation": "El campo destaca por la agricultura y ganadería. La ciudad por los servicios.",
+      "lang": "es",
+      "categories": [
+        "Medio rural",
+        "Medio urbano"
+      ],
+      "items": [
+        {
+          "text": "Pastorear ovejas en la montaña",
+          "category": 0
+        },
+        {
+          "text": "Conducir un tranvía por la avenida",
+          "category": 1
+        },
+        {
+          "text": "Recolectar aceitunas en un olivar",
+          "category": 0
+        },
+        {
+          "text": "Trabajar en grandes almacenes comerciales",
+          "category": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:25:37.801Z",
+    "reviewed": false
+  }
+}

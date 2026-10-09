@@ -1,0 +1,246 @@
+{
+  "id": "g3-ingles-hobbies",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "hobbies",
+  "temaNombre": "Hobbies",
+  "title": "Fun Hobbies and Free Time",
+  "summary": "Practica el vocabulario de las aficiones y pasatiempos en inglés de forma divertida.",
+  "keyIdeas": [
+    "Los hobbies son actividades que hacemos en nuestro tiempo libre para divertirnos.",
+    "Usamos verbos de acción como 'play', 'read', 'paint', 'swim' o 'ride' para hablar de aficiones.",
+    "Podemos decir lo que nos gusta con la estructura 'I like' seguida de la actividad."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-hobbies-01",
+      "type": "match",
+      "prompt": "Match each hobby with its object or place:",
+      "explanation": "Relacionamos cada afición con el objeto o lugar que necesitamos para practicarla.",
+      "hint": "Piensa qué necesitas para pintar o nadar.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Reading",
+          "right": "Books"
+        },
+        {
+          "left": "Swimming",
+          "right": "Pool"
+        },
+        {
+          "left": "Painting",
+          "right": "Brushes"
+        },
+        {
+          "left": "Playing football",
+          "right": "Ball"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-hobbies-02",
+      "type": "choice",
+      "prompt": "Aisha has a bicycle and a helmet. What is her hobby?",
+      "explanation": "Una bicicleta (bicycle) y un casco (helmet) se usan para montar en bici (riding a bike).",
+      "hint": "Fíjate en la palabra 'bicycle'.",
+      "lang": "en",
+      "options": [
+        "Riding a bike",
+        "Listening to music",
+        "Dancing"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-hobbies-03",
+      "type": "true-false",
+      "prompt": "You need water to practice swimming.",
+      "explanation": "Para nadar (swimming) necesitamos agua, ya sea en una piscina o en el mar.",
+      "hint": "Recuerda qué significa 'swimming'.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-ingles-hobbies-04",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra correcta para completar la frase:",
+      "explanation": "En inglés decimos 'listen to music' para referirnos a escuchar música.",
+      "hint": "Buscamos la acción de escuchar canciones.",
+      "lang": "en",
+      "sentence": "I love music. I like ___ to songs with my headphones.",
+      "options": [
+        "eating",
+        "listening",
+        "running"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-hobbies-05",
+      "type": "classify",
+      "prompt": "Classify these hobbies into outdoor (al aire libre) or indoor (en casa):",
+      "explanation": "Patinar y jugar al fútbol son al aire libre (outdoor), mientras que leer en la cama o jugar a videojuegos son de interior (indoor).",
+      "hint": "Piensa si necesitas salir a la calle o al parque para hacer esa actividad.",
+      "lang": "en",
+      "categories": [
+        "Outdoor hobbies",
+        "Indoor hobbies"
+      ],
+      "items": [
+        {
+          "text": "Riding a scooter in the park",
+          "category": 0
+        },
+        {
+          "text": "Reading a book in bed",
+          "category": 1
+        },
+        {
+          "text": "Playing video games",
+          "category": 1
+        },
+        {
+          "text": "Playing football in the playground",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-hobbies-06",
+      "type": "choice",
+      "prompt": "Hugo loves sports with water, but he does not like running. What is his favourite hobby?",
+      "explanation": "Swimming es un deporte acuático en el que nos movemos en el agua sin correr por la pista.",
+      "hint": "Busca la actividad que se hace en el agua.",
+      "lang": "en",
+      "options": [
+        "Basketball",
+        "Swimming",
+        "Drawing"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-hobbies-07",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la afición correcta:",
+      "explanation": "Con colores y papel (colours and paper) la actividad adecuada es pintar (painting).",
+      "hint": "¿Qué haces con colores y papel?",
+      "lang": "en",
+      "sentence": "Lucía has colours and paper. Her hobby is ___ pictures.",
+      "options": [
+        "sleeping",
+        "painting",
+        "cooking"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-hobbies-08",
+      "type": "order",
+      "prompt": "Order the words to make a correct sentence:",
+      "explanation": "El orden habitual en inglés es sujeto (I) + verbo (like) + afición (playing basketball) + complemento (with friends).",
+      "hint": "Empieza por la persona que hace la acción.",
+      "lang": "en",
+      "items": [
+        "I",
+        "like",
+        "playing",
+        "basketball",
+        "with",
+        "friends."
+      ]
+    },
+    {
+      "id": "g3-ingles-hobbies-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions:",
+      "explanation": "Para responder bien a un texto en inglés, localizamos las palabras clave de la pregunta en la lectura.",
+      "lang": "en",
+      "title": "Fun Weekend Hobbies",
+      "text": "Hello! My friends have fun hobbies. Wei loves playing football every Saturday. He plays in the park with his brother Leo. Martina likes painting colourful pictures. She paints cute animals and green trees in her art club. Omar enjoys reading exciting books before going to bed. On Sunday mornings, all three friends meet at the park. They ride their bikes and laugh together. Hobbies are great to learn new things, stay active, and enjoy time with good friends!",
+      "questions": [
+        {
+          "prompt": "When does Wei play football?",
+          "explanation": "El texto indica expresamente: 'Wei loves playing football every Saturday'.",
+          "options": [
+            "Every Friday",
+            "Every Monday",
+            "Every Saturday"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Martina like painting?",
+          "explanation": "El texto explica que Martina pinta animales monos y árboles verdes ('cute animals and green trees').",
+          "options": [
+            "Cute animals and green trees",
+            "Fast cars and big planes",
+            "Houses and yellow stars"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What do the three friends do together on Sunday mornings?",
+          "explanation": "El texto dice que los domingos por la mañana se juntan en el parque y montan en bicicleta ('They ride their bikes').",
+          "options": [
+            "They ride their bikes.",
+            "They paint pictures.",
+            "They read exciting books."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-hobbies-10",
+      "type": "choice",
+      "prompt": "Nerea wants a quiet, creative hobby that she can do alone at her desk. Which hobby is best?",
+      "explanation": "Dibujar (drawing) es una actividad tranquila, creativa y que se realiza sentado en un escritorio.",
+      "hint": "Busca una actividad silenciosa y artística que se haga en una mesa.",
+      "lang": "en",
+      "options": [
+        "Drawing and sketching",
+        "Playing the drums",
+        "Playing basketball"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:01:32.121Z",
+    "reviewed": false
+  }
+}

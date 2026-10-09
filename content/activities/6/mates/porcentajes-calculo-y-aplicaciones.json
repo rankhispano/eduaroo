@@ -1,0 +1,226 @@
+{
+  "id": "g6-mates-porcentajes-calculo-y-aplicaciones",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "porcentajes-calculo-y-aplicaciones",
+  "temaNombre": "Porcentajes: cálculo y aplicaciones",
+  "title": "Porcentajes en la vida cotidiana",
+  "summary": "Resuelve retos con rebajas, aumentos y equivalencias de porcentajes aplicados a situaciones del día a día.",
+  "keyIdeas": [
+    "Un porcentaje expresa cuántas partes tomamos de cada 100 y equivale a una fracción y a un decimal.",
+    "Para calcular el porcentaje de una cantidad, multiplicamos la cantidad por el porcentaje y dividimos entre 100.",
+    "En una rebaja restamos el descuento al precio original; en un aumento o recargo, se lo sumamos."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Razonamiento proporcional",
+      "A. Sentido numérico › Relaciones",
+      "A. Sentido numérico › Educación financiera"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-01",
+      "type": "match",
+      "prompt": "Une cada porcentaje con su forma decimal equivalente:",
+      "explanation": "Para pasar de porcentaje a decimal, dividimos el porcentaje entre 100: 50 ÷ 100 = 0,5; 25 ÷ 100 = 0,25; 10 ÷ 100 = 0,1; y 5 ÷ 100 = 0,05.",
+      "hint": "Recuerda que un porcentaje es una fracción con denominador 100.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "50 %",
+          "right": "0,5"
+        },
+        {
+          "left": "25 %",
+          "right": "0,25"
+        },
+        {
+          "left": "10 %",
+          "right": "0,1"
+        },
+        {
+          "left": "5 %",
+          "right": "0,05"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-02",
+      "type": "true-false",
+      "prompt": "Calcular el 20 % de 80 € da exactamente el mismo resultado que dividir 80 entre 5.",
+      "explanation": "El 20 % equivale a la fracción 20/100, que simplificada es 1/5. Por tanto, calcular el 20 % equivale a dividir la cantidad entre 5: 80 ÷ 5 = 16 €.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-03",
+      "type": "choice",
+      "prompt": "En una biblioteca escolar con 300 libros, el 40 % son de aventuras. ¿Cuántos libros de aventuras hay?",
+      "explanation": "Multiplicamos 300 por 40 y dividimos entre 100: (300 × 40) ÷ 100 = 12.000 ÷ 100 = 120 libros.",
+      "hint": "Calcula primero el 10 % de 300 y multiplícalo por 4.",
+      "lang": "es",
+      "options": [
+        "75 libros",
+        "120 libros",
+        "40 libros",
+        "140 libros"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-04",
+      "type": "fill-blank",
+      "prompt": "Completa el espacio para resolver este cálculo mental rápido:",
+      "explanation": "El 10 % representa 10 partes de 100, es decir, 1/10 de la cantidad total. Por eso, basta con dividir entre 10: 450 ÷ 10 = 45 €.",
+      "hint": "Piensa en simplificar la fracción 10/100 dividiendo entre 10.",
+      "lang": "es",
+      "sentence": "Para calcular mentalmente el 10 % de 450 €, basta con dividir entre ___.",
+      "options": [
+        "10",
+        "100",
+        "2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-05",
+      "type": "choice",
+      "prompt": "🔍 ¡Encuentra el error! Omar quiere comprar una sudadera de 60 € que tiene un 15 % de descuento. Omar calcula: «15 % de 60 es 9 €. Así que pagaré 60 + 9 = 69 €». ¿Cuál ha sido su fallo?",
+      "explanation": "El cálculo del descuento es correcto ((60 × 15) ÷ 100 = 9 €), pero un descuento reduce el precio, por lo que debe restarse: 60 - 9 = 51 €.",
+      "hint": "Fíjate en la última operación que hace Omar con el resultado del descuento.",
+      "lang": "es",
+      "options": [
+        "El descuento se resta directamente a 100, no al precio.",
+        "Debía haber multiplicado 60 por 15 sin dividir entre 100.",
+        "Ha sumado el descuento en vez de restárselo al precio inicial.",
+        "Ha calculado mal el 15 % de 60, que en realidad son 15 €."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-06",
+      "type": "order",
+      "prompt": "Ordena los pasos necesarios para averiguar el precio final de una bicicleta de 240 € rebajada un 20 %:",
+      "explanation": "Primero identificamos los datos del problema, después calculamos el valor absoluto del descuento, lo restamos del precio de partida y finalmente revisamos la coherencia del resultado.",
+      "lang": "es",
+      "items": [
+        "Identificar el precio inicial (240 €) y el porcentaje de descuento (20 %)",
+        "Calcular la rebaja: (240 × 20) ÷ 100 = 48 €",
+        "Restar la rebaja al precio original: 240 - 48 = 192 €",
+        "Comprobar que el precio final (192 €) es inferior al inicial"
+      ]
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-07",
+      "type": "choice",
+      "prompt": "Aisha y Hugo van a comprar una mochila de 50 €. La tienda aplica un 10 % de descuento, pero al pagar en caja hay que añadir un 10 % de IVA al precio rebajado. Aisha dice que pagarán 50 € exactos. ¿Tiene razón Aisha?",
+      "explanation": "Con el 10 % de descuento, la mochila cuesta 50 - 5 = 45 €. Luego, el 10 % de IVA sobre 45 € es 4,50 €. El precio final es 45 + 4,50 = 49,50 €.",
+      "hint": "Calcula primero el precio tras la rebaja y luego halla el 10 % de ese nuevo valor.",
+      "lang": "es",
+      "options": [
+        "Sí, porque sumar un 10 % y restar un 10 % siempre deja la misma cantidad.",
+        "No, pagarán 49,50 € porque el 10 % de IVA se aplica sobre 45 €, no sobre 50 €.",
+        "No, pagarán 51 € porque el IVA siempre es mayor que el descuento.",
+        "Sí, porque el descuento y el IVA se anulan automáticamente."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-08",
+      "type": "classify",
+      "prompt": "Clasifica cada situación según implique una cantidad final mayor o menor que la original:",
+      "explanation": "Los descuentos, rebajas y cupones de ahorro disminuyen la cantidad inicial. Los recargos, subidas de tarifas e impuestos suponen un aumento.",
+      "lang": "es",
+      "categories": [
+        "Aumento (precio final mayor)",
+        "Disminución (precio final menor)"
+      ],
+      "items": [
+        {
+          "text": "Un recargo del 5 % por pagar con retraso",
+          "category": 0
+        },
+        {
+          "text": "Un descuento del 30 % en las rebajas de enero",
+          "category": 1
+        },
+        {
+          "text": "La subida del 8 % en la tarifa del billete de autobús",
+          "category": 0
+        },
+        {
+          "text": "Una liquidación del 50 % por fin de temporada",
+          "category": 1
+        },
+        {
+          "text": "Un cupón promocional del 15 % de ahorro",
+          "category": 1
+        },
+        {
+          "text": "Un incremento del 21 % de impuestos indirectos",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-09",
+      "type": "choice",
+      "prompt": "En una encuesta sobre hábitos saludables realizada a los 120 alumnos y alumnas de 6º de Primaria, el 75 % afirma que va al colegio caminando o en bicicleta. ¿Cuántos estudiantes van de forma activa?",
+      "explanation": "El 75 % equivale a 3/4 partes del total. Calculamos: (120 ÷ 4) × 3 = 30 × 3 = 90 estudiantes.",
+      "hint": "Recuerda que el 75 % equivale a sumar el 50 % y el 25 %.",
+      "lang": "es",
+      "options": [
+        "90 estudiantes",
+        "80 estudiantes",
+        "75 estudiantes",
+        "95 estudiantes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-10",
+      "type": "choice",
+      "prompt": "Un club de baloncesto infantil tenía 80 inscripciones el año pasado. Este año las inscripciones han aumentado un 25 %. ¿Cuántos deportistas están inscritos en total este año?",
+      "explanation": "El 25 % de 80 es la cuarta parte: 80 ÷ 4 = 20 nuevas inscripciones. Sumamos el aumento al total anterior: 80 + 20 = 100 deportistas.",
+      "hint": "Calcula el 25 % de 80 y súmaselo a las 80 personas que ya estaban inscritas.",
+      "lang": "es",
+      "options": [
+        "95 deportistas",
+        "105 deportistas",
+        "85 deportistas",
+        "100 deportistas"
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:27:48.744Z",
+    "reviewed": false
+  }
+}

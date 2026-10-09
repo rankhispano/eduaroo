@@ -1,0 +1,246 @@
+{
+  "id": "g6-lengua-comunicacion-verbal-y-no-verbal",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "comunicacion-verbal-y-no-verbal",
+  "temaNombre": "Comunicación verbal y no verbal",
+  "title": "El poder de la comunicación",
+  "summary": "Descubre cómo combinamos las palabras, los gestos y la voz para comunicarnos con éxito en el día a día.",
+  "keyIdeas": [
+    "La comunicación verbal emplea palabras habladas o escritas, mientras que la no verbal usa gestos, miradas, posturas y sonidos.",
+    "El lenguaje corporal y la entonación deben guardar coherencia con las palabras para que el mensaje se entienda bien.",
+    "En una conversación, escuchar activamente con la mirada y la postura es tan importante como hablar con claridad."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE3",
+      "CE4"
+    ],
+    "criteria": [
+      "3.1",
+      "3.2",
+      "4.1"
+    ],
+    "descriptors": [
+      "CC2",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CE1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Contexto",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-01",
+      "type": "true-false",
+      "prompt": "¿Es correcta esta afirmación? «La comunicación verbal solo incluye las palabras que decimos en voz alta, mientras que los textos escritos pertenecen a la comunicación no verbal».",
+      "explanation": "La comunicación verbal engloba cualquier mensaje que utilice palabras como código, ya sea de forma hablada (oral) o mediante la escritura.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-02",
+      "type": "classify",
+      "prompt": "Clasifica cada uno de estos actos según el tipo de comunicación principal que utilizan:",
+      "explanation": "Los correos, podcasts y llamadas usan la palabra (oral o escrita), por lo que son comunicación verbal. Los gestos, miradas y sonidos sin palabras son no verbales.",
+      "lang": "es",
+      "categories": [
+        "Comunicación verbal",
+        "Comunicación no verbal"
+      ],
+      "items": [
+        {
+          "text": "Un correo electrónico para organizar un trabajo en equipo",
+          "category": 0
+        },
+        {
+          "text": "Levantar el pulgar para indicar que todo ha salido bien",
+          "category": 1
+        },
+        {
+          "text": "Un episodio de un podcast sobre inventos de la historia",
+          "category": 0
+        },
+        {
+          "text": "El sonido de la sirena de una ambulancia por la calle",
+          "category": 1
+        },
+        {
+          "text": "Fruncir el ceño al no entender una explicación",
+          "category": 1
+        },
+        {
+          "text": "Una conversación telefónica con tu abuela",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-03",
+      "type": "match",
+      "prompt": "Relaciona cada acción con el canal no verbal que predomina en ella:",
+      "explanation": "La comunicación no verbal incluye el rostro (expresión facial), el uso de la voz sin atender al texto (paralenguaje), la colocación del cuerpo (postura) y la distancia física (proxémica).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Sonreír amablemente al saludar",
+          "right": "Expresión facial"
+        },
+        {
+          "left": "Bajar el volumen y suavizar el ritmo",
+          "right": "Paralenguaje (tono y voz)"
+        },
+        {
+          "left": "Cruzar los brazos y dar la espalda",
+          "right": "Postura corporal"
+        },
+        {
+          "left": "Respetar el espacio personal al dialogar",
+          "right": "Proxémica (distancia)"
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-04",
+      "type": "choice",
+      "prompt": "Durante una exposición oral en clase de Ciencias, Hugo habla con claridad, pero mantiene la mirada fija en el suelo y habla con un volumen muy bajo. ¿Qué aspecto no verbal debería mejorar?",
+      "explanation": "El contacto visual con el público y un volumen adecuado son recursos no verbales imprescindibles para transmitir seguridad y captar la atención de la audiencia.",
+      "hint": "Piensa en qué elementos corporales y de la voz ayudan a conectar con los oyentes.",
+      "lang": "es",
+      "options": [
+        "Hablar lo más rápido posible para terminar antes la exposición.",
+        "Aprenderse el texto de memoria para no consultar sus notas en ningún momento.",
+        "Mantener el contacto visual con sus compañeros y proyectar la voz con un volumen adecuado."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra más precisa:",
+      "explanation": "La coherencia se produce cuando todos los elementos del mensaje (palabras, gestos, tono de voz) apuntan en la misma dirección sin contradecirse.",
+      "lang": "es",
+      "sentence": "Cuando las palabras que decimos coinciden con lo que transmiten nuestros gestos, existe una clara ___ entre el mensaje verbal y el no verbal.",
+      "options": [
+        "coherencia",
+        "contradicción",
+        "separación"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-06",
+      "type": "choice",
+      "prompt": "¿En cuál de las siguientes situaciones se produce una contradicción evidente entre la comunicación verbal y la no verbal?",
+      "explanation": "Adrián dice con palabras que está genial, pero su rostro decaído, su mirada baja y su tono tembloroso comunican justo lo contrario.",
+      "lang": "es",
+      "options": [
+        "Adrián afirma: «No me pasa nada, estoy estupendamente», mientras mira al suelo con el ceño fruncido y voz temblorosa.",
+        "Lucía exclama: «¡Qué alegría verte!» con una gran sonrisa y los brazos abiertos.",
+        "Aisha levanta la mano en silencio en el aula esperando a que el maestro le dé el turno de palabra."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-07",
+      "type": "order",
+      "prompt": "Ordena los pasos que sigue una persona para realizar una intervención oral formal y respetuosa en un debate:",
+      "explanation": "Una comunicación oral eficaz comienza con la petición ordenada del turno, continúa con el contacto visual y la exposición pausada, y concluye con una escucha activa y respetuosa.",
+      "lang": "es",
+      "items": [
+        "Pedir el turno de palabra levantando la mano con serenidad.",
+        "Dirigir la mirada al resto de participantes antes de comenzar a hablar.",
+        "Exponer los argumentos con tono calmado, pausas adecuadas y gestos abiertos.",
+        "Escuchar la réplica del compañero manteniendo una postura receptiva."
+      ]
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-08",
+      "type": "reading",
+      "prompt": "Lee atentamente este texto sobre el debate escolar y responde a las preguntas:",
+      "explanation": "El texto demuestra que el lenguaje verbal y el no verbal trabajan juntos para lograr una comunicación clara, persuasiva y respetuosa.",
+      "lang": "es",
+      "title": "Más allá de las palabras",
+      "text": "En el colegio Los Olivos, Martina y Leo preparaban la final del torneo de debate. Martina dominaba los datos y los argumentos, pero en los ensayos solía cruzarse de brazos y mirar al techo cada vez que su oponente intervenía. Su tutora, Elena, le explicó que la comunicación no termina cuando dejamos de hablar: la postura de escucha transmite tanto respeto como las palabras.\n\nPor su parte, Leo hablaba con entusiasmo, pero gesticulaba de forma tan exagerada y rápida que distraía al tribunal. Ambos decidieron corregir estos detalles. En el debate definitivo, Martina escuchó a su rival manteniendo la mirada atenta y asintiendo con la cabeza, mientras que Leo moderó sus gestos para enfatizar solo las ideas clave. Gracias a esa armonía entre su discurso verbal y su lenguaje corporal, el equipo transmitió seguridad y logró convencer al jurado.",
+      "questions": [
+        {
+          "prompt": "¿Qué error no verbal cometía Martina durante los ensayos del torneo?",
+          "explanation": "El texto indica expresamente que Martina se cruzaba de brazos y miraba al techo cada vez que intervenía su rival.",
+          "options": [
+            "Se cruzaba de brazos y miraba al techo mientras su oponente hablaba.",
+            "Hablaba en un tono excesivamente bajo que impedía escuchar sus argumentos.",
+            "Mantenía los ojos cerrados durante toda su intervención."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué es fundamental cuidar la postura corporal incluso cuando no es nuestro turno de palabra?",
+          "explanation": "La postura corporal mientras escuchamos transmite cortesía, atención e interés por lo que dice la otra persona, formando parte de la escucha activa.",
+          "options": [
+            "Porque demuestra respeto hacia quien habla y refleja una actitud de escucha activa.",
+            "Porque permite memorizar automáticamente todo lo que dice la otra persona.",
+            "Porque el reglamento de los debates prohíbe mover cualquier parte del cuerpo."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "A partir de la experiencia de Martina y Leo, ¿qué conclusión crítica podemos extraer sobre la comunicación en situaciones formales?",
+          "explanation": "Una comunicación eficaz requiere coherencia: tan importante es tener buenos argumentos verbales como acompañarlos de una expresión no verbal serena y acorde a la situación.",
+          "options": [
+            "El dominio de los contenidos debe complementarse con un lenguaje corporal equilibrado y adecuado al contexto.",
+            "Es preferible no utilizar ningún tipo de gesto para asegurarse de no cometer errores.",
+            "Las palabras son lo único que importa; los gestos nunca influyen en la valoración de un mensaje."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-09",
+      "type": "choice",
+      "prompt": "En un intercambio escolar, Nerea necesita pedirle a un compañero que espere un momento sin interrumpir a la profesora que está explicando. ¿Qué recurso no verbal resulta más cortés y adecuado?",
+      "explanation": "Un gesto suave con la palma de la mano y una mirada atenta transmiten el mensaje de esperar sin interrumpir ni alterar el clima del aula.",
+      "hint": "Busca la opción que resulte respetuosa con la profesora y con el compañero.",
+      "lang": "es",
+      "options": [
+        "Ponerse de pie de repente y señalar con insistencia el reloj del aula.",
+        "Chistar con fuerza para llamar su atención delante de toda la clase.",
+        "Mostrar la palma de la mano abierta con un gesto suave y mantener una mirada cómplice."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-10",
+      "type": "choice",
+      "prompt": "¿Qué función cumplen los emojis y emoticonos cuando escribimos un mensaje en un chat digital?",
+      "explanation": "En los textos digitales, los emojis funcionan de manera similar a los gestos y al tono de voz: complementan a las palabras aportando emoción, intención y cercanía.",
+      "lang": "es",
+      "options": [
+        "Son adornos obligatorios que determinan si una oración es simple o compuesta.",
+        "Son palabras de un idioma extranjero que sustituyen las normas ortográficas habituales.",
+        "Actúan como elementos no verbales gráficos que aportan entonación, emoción y matices al texto escrito."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:23:19.206Z",
+    "reviewed": false
+  }
+}

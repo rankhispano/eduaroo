@@ -1,0 +1,274 @@
+{
+  "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "el-texto-argumentativo-tesis-y-argumentos",
+  "temaNombre": "El texto argumentativo: tesis y argumentos",
+  "title": "Domina el texto argumentativo",
+  "summary": "Aprende a defender tus opiniones identificando la tesis, usando argumentos sólidos y organizando tus ideas.",
+  "keyIdeas": [
+    "La tesis es la postura u opinión principal que el autor o autora defiende en el texto.",
+    "Los argumentos son las razones, datos o ejemplos que demuestran y apoyan la tesis.",
+    "La estructura básica incluye: introducción con tesis, cuerpo argumentativo y conclusión final."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE10"
+    ],
+    "criteria": [
+      "4.1",
+      "4.2",
+      "10.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD3",
+      "CP2",
+      "CP3",
+      "CPSAA3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-01",
+      "type": "true-false",
+      "prompt": "En un texto argumentativo, la tesis es la opinión o postura principal que defiende quien escribe.",
+      "explanation": "La tesis es la idea central que el emisor sostiene y busca demostrar con argumentos a lo largo del texto.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-02",
+      "type": "match",
+      "prompt": "Empareja cada elemento del texto argumentativo con su función correspondiente:",
+      "explanation": "Cada parte cumple una misión clave: la tesis plantea la idea, los argumentos la sostienen, los contraargumentos responden a objeciones y la conclusión cierra el razonamiento.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Tesis",
+          "right": "Opinión o postura central que se defiende"
+        },
+        {
+          "left": "Argumento",
+          "right": "Razón o dato que sirve para apoyar una postura"
+        },
+        {
+          "left": "Contraargumento",
+          "right": "Objeción o idea contraria que se intenta rebatir"
+        },
+        {
+          "left": "Conclusión",
+          "right": "Resumen final que reafirma la posición defendida"
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-03",
+      "type": "classify",
+      "prompt": "Clasifica estos enunciados según sean hechos objetivos comprobables u opiniones que necesitan argumentos:",
+      "explanation": "Los hechos son datos comprobables de la realidad que no admiten discusión. Las opiniones expresan valoraciones personales y requieren argumentos para convencer a los demás.",
+      "lang": "es",
+      "categories": [
+        "Hecho objetivo",
+        "Opinión argumentable"
+      ],
+      "items": [
+        {
+          "text": "El agua hierve a 100 ºC a nivel del mar.",
+          "category": 0
+        },
+        {
+          "text": "El baloncesto es el deporte más divertido de practicar.",
+          "category": 1
+        },
+        {
+          "text": "España es un país situado en el suroeste de Europa.",
+          "category": 0
+        },
+        {
+          "text": "Deberíamos tener una hora diaria de lectura en el colegio.",
+          "category": 1
+        },
+        {
+          "text": "Los teléfonos móviles causan demasiada distracción en clase.",
+          "category": 1
+        },
+        {
+          "text": "La Tierra tarda 365 días y unas seis horas en dar la vuelta al Sol.",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-04",
+      "type": "choice",
+      "prompt": "En el consejo escolar, Lucía dice: «Propongo crear un huerto escolar porque cuidarlo nos enseñará responsabilidad con el medioambiente y fomentará el trabajo en equipo». ¿Cuál es la tesis de Lucía? 🌱",
+      "explanation": "La propuesta principal (tesis) es la creación del huerto escolar. Las ideas sobre la responsabilidad ambiental y el trabajo en equipo son los argumentos que justifican su propuesta.",
+      "hint": "Pregúntate qué propuesta concreta quiere llevar a cabo Lucía.",
+      "lang": "es",
+      "options": [
+        "Debemos crear un huerto escolar.",
+        "Cuidar plantas enseña responsabilidad ambiental.",
+        "El trabajo en equipo es muy importante para el alumnado."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-05",
+      "type": "fill-blank",
+      "prompt": "Completa la oración con el conector argumentativo de causa más adecuado:",
+      "explanation": "El conector 'ya que' introduce una causa o motivo que funciona como argumento para justificar la necesidad de reducir los plásticos.",
+      "lang": "es",
+      "sentence": "Es necesario reducir el uso de plásticos desechables ___ tardan cientos de años en descomponerse en el mar.",
+      "options": [
+        "ya que",
+        "sin embargo",
+        "por lo tanto"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-06",
+      "type": "order",
+      "prompt": "Ordena los pasos habituales que sigue la estructura de un texto argumentativo clásico:",
+      "explanation": "El texto argumentativo comienza exponiendo el tema y la postura, continúa desarrollando los argumentos (y posibles refutaciones) y finaliza con una conclusión que sintetiza la idea principal.",
+      "lang": "es",
+      "items": [
+        "Presentación del tema y formulación de la tesis",
+        "Exposición del primer argumento a favor",
+        "Presentación de un contraargumento y refutación",
+        "Conclusión final y cierre"
+      ]
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-07",
+      "type": "choice",
+      "prompt": "¡Detecta el error! 🔍 Omar quiere convencer a su clase de que hay que usar casco al montar en bicicleta. ¿Cuál de estas opciones NO es un argumento válido, sino un razonamiento erróneo?",
+      "explanation": "Atacar a una persona o justificar algo por antipatía no demuestra que el casco sea necesario. Los otros dos enunciados sí aportan datos científicos o el respaldo de una autoridad vial.",
+      "hint": "Busca la opción que se base en una manía personal en vez de en razones o datos objetivos.",
+      "lang": "es",
+      "options": [
+        "La Dirección General de Tráfico aconseja su uso para proteger la vida.",
+        "El casco reduce hasta un 70 % el riesgo de lesiones graves en la cabeza.",
+        "Debes ponerte el casco porque mi primo nunca se lo pone y a mí me cae mal."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-08",
+      "type": "classify",
+      "prompt": "Clasifica cada argumento según su tipología:",
+      "explanation": "Los datos aportan porcentajes o cifras comprobables; la autoridad se basa en personas o instituciones expertas; la experiencia personal surge de vivencias individuales.",
+      "lang": "es",
+      "categories": [
+        "Argumento de datos o hechos",
+        "Argumento de autoridad (experto)",
+        "Argumento de experiencia personal"
+      ],
+      "items": [
+        {
+          "text": "La Organización Mundial de la Salud recomienda hacer 60 minutos de ejercicio al día.",
+          "category": 1
+        },
+        {
+          "text": "El 85 % de los estudiantes aprueba cuando repasa las lecciones a diario.",
+          "category": 0
+        },
+        {
+          "text": "A mí me ayudó mucho organizar mi mochila la noche anterior para no llegar tarde.",
+          "category": 2
+        },
+        {
+          "text": "Según el Instituto Geográfico Nacional, el Teide mide 3715 metros.",
+          "category": 1
+        },
+        {
+          "text": "En mi barrio el tráfico disminuyó un 30 % tras abrir el nuevo carril bici.",
+          "category": 0
+        },
+        {
+          "text": "El año pasado me apunté al club de debate y aprendí a hablar en público con seguridad.",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-09",
+      "type": "reading",
+      "prompt": "Lee este artículo de opinión escolar y responde a las preguntas:",
+      "explanation": "El texto defiende con claridad una tesis ecológica y pedagógica mediante argumentos de bienestar térmico, salud médica y convivencia escolar.",
+      "lang": "es",
+      "title": "Patios más verdes para aprender mejor",
+      "text": "¿Deberían los colegios tener patios más verdes y con menos cemento? En mi opinión, transformar los patios escolares en espacios naturales con árboles, plantas y zonas de tierra es imprescindible para el bienestar y el aprendizaje del alumnado.\nEn primer lugar, los árboles proporcionan sombra natural y regulan la temperatura, lo que reduce el calor durante los meses de primavera y verano. Según varios estudios pediátricos, jugar en contacto directo con la naturaleza disminuye los niveles de estrés infantil y mejora la concentración en las clases posteriores. Además, los espacios verdes fomentan juegos más cooperativos y diversos, evitando que las pistas deportivas monopolicen todo el espacio disponible.\nEs verdad que el mantenimiento de un jardín requiere esfuerzo y cuidados compartidos, pero ese trabajo enseña responsabilidad ambiental a toda la comunidad educativa. Por todas estas razones, rediseñar los patios escolares no es un capricho estético, sino una necesidad urgente para nuestra salud física y emocional.",
+      "questions": [
+        {
+          "prompt": "Según los estudios pediátricos citados en el texto, ¿qué beneficio directo aporta el contacto con la naturaleza?",
+          "explanation": "El texto señala literalmente que jugar en la naturaleza disminuye los niveles de estrés infantil y mejora la concentración.",
+          "options": [
+            "Elimina por completo la necesidad de estudiar.",
+            "Aumenta la fuerza en los partidos de fútbol.",
+            "Disminuye el estrés y mejora la concentración."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué objeción o contraargumento anticipa el autor para luego rebatirlo?",
+          "explanation": "El autor reconoce que mantener un jardín exige esfuerzo, pero defiende que ese trabajo enseña responsabilidad ambiental a toda la comunidad.",
+          "options": [
+            "Que los patios de cemento son más seguros que la tierra.",
+            "Que cuidar un jardín requiere esfuerzo y dedicación.",
+            "Que a los niños y niñas no les gustan los árboles."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Cuál es la conclusión crítica del texto?",
+          "explanation": "En el párrafo final se concluye que rediseñar los patios con espacios naturales es una necesidad urgente para la salud física y emocional, no un mero capricho.",
+          "options": [
+            "Tener zonas verdes en el patio es una necesidad para la salud, no un simple capricho estético.",
+            "Hay que prohibir todos los deportes de pelota en horario de recreo.",
+            "El alumnado debe encargarse solo de regar las plantas sin ayuda de adultos."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-10",
+      "type": "choice",
+      "prompt": "En un debate sobre el uso de uniformes escolares, Adrián dice: «El uniforme escolar es perjudicial porque anula la personalidad y la libre expresión de cada estudiante». ¿Qué argumento serviría de contraargumento sólido frente a la postura de Adrián?",
+      "explanation": "Defender que el uniforme reduce las desigualdades socioeconómicas es un contraargumento razonado y de peso frente a la idea de que limita la libre expresión.",
+      "hint": "Busca una razón social sólida que justifique una ventaja real del uniforme.",
+      "lang": "es",
+      "options": [
+        "La ropa de calle siempre es más bonita que cualquier uniforme escolar.",
+        "Los uniformes son de color azul marino porque es el color preferido de la dirección.",
+        "El uniforme favorece la igualdad social al evitar comparaciones por marcas o ropa cara."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:21:48.904Z",
+    "reviewed": false
+  }
+}

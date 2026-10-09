@@ -1,0 +1,240 @@
+{
+  "id": "g5-mates-angulos-y-tipos",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "angulos-y-tipos",
+  "temaNombre": "Ángulos y tipos",
+  "title": "Exploradores de Ángulos Cotidianos",
+  "summary": "Identifica, clasifica y estima diferentes tipos de ángulos a través de situaciones de la vida real.",
+  "keyIdeas": [
+    "Un ángulo recto mide exactamente 90°, el agudo mide menos de 90° y el obtuso mide entre 90° y 180°.",
+    "Un ángulo llano mide exactamente 180° (media vuelta) y el completo mide 360° (vuelta entera).",
+    "Los ángulos consecutivos que forman un ángulo recto son complementarios (suman 90°) y si forman un llano son suplementarios (suman 180°)."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.3",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Estimación y relaciones",
+      "C. Sentido espacial › Figuras geométricas de dos y tres dimensiones",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-angulos-y-tipos-01",
+      "type": "match",
+      "prompt": "Une cada tipo de ángulo con su medida característica:",
+      "explanation": "El ángulo recto marca la referencia con 90°. Los menores son agudos, los mayores hasta 180° son obtusos y el de 180° en línea recta es llano.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Ángulo agudo",
+          "right": "Mide menos de 90°"
+        },
+        {
+          "left": "Ángulo recto",
+          "right": "Mide exactamente 90°"
+        },
+        {
+          "left": "Ángulo obtuso",
+          "right": "Mide entre 90° y 180°"
+        },
+        {
+          "left": "Ángulo llano",
+          "right": "Mide exactamente 180°"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-02",
+      "type": "classify",
+      "prompt": "Clasifica estos ángulos de la vida cotidiana según su tipo:",
+      "explanation": "Los ángulos menores de 90° (25°, 35° y 40°) son agudos. Los ángulos mayores de 90° y menores de 180° (115°, 130° y 140°) son obtusos.",
+      "lang": "es",
+      "categories": [
+        "Ángulo agudo (< 90°)",
+        "Ángulo obtuso (> 90° y < 180°)"
+      ],
+      "items": [
+        {
+          "text": "Tijeras entreabiertas marcando 35°",
+          "category": 0
+        },
+        {
+          "text": "Un abanico abierto a 130°",
+          "category": 1
+        },
+        {
+          "text": "Punta afilada de un lápiz de 25°",
+          "category": 0
+        },
+        {
+          "text": "Respaldo reclinado de una butaca a 115°",
+          "category": 1
+        },
+        {
+          "text": "Rampa suave de patinaje de 40°",
+          "category": 0
+        },
+        {
+          "text": "Tejado ancho de una casa a 140°",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-03",
+      "type": "true-false",
+      "prompt": "Las agujas de un reloj analógico que marca exactamente las 15:00 forman un ángulo recto.",
+      "explanation": "A las 15:00, la aguja horaria señala el 3 y el minutero señala el 12. La separación es de 3 horas sobre 12, lo que equivale a un cuarto de vuelta: 360° ÷ 4 = 90° (ángulo recto).",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la relación entre estos dos ángulos del parque infantil:",
+      "explanation": "Por definición geométrica, dos ángulos son complementarios cuando su suma equivale a un ángulo recto (90°). Si sumasen 180°, serían suplementarios.",
+      "lang": "es",
+      "sentence": "Dos ángulos que se unen compartiendo un lado y suman 90° son ángulos ___.",
+      "options": [
+        "llanos",
+        "complementarios",
+        "suplementarios",
+        "opuestos por el vértice"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-05",
+      "type": "choice",
+      "prompt": "Estimación mental: Omar abre una libreta y comprueba que se abre más que una esquina de folio (90°), pero sin llegar a quedar totalmente plana en la mesa (180°). ¿Cuál es la estimación más adecuada para su apertura?",
+      "explanation": "Buscamos un ángulo obtuso, situado estrictamente entre 90° y 180°. La única opción dentro de ese rango es 125°.",
+      "hint": "Recuerda que la libreta está más abierta que un ángulo recto, pero no llega a ser una línea recta plana.",
+      "lang": "es",
+      "options": [
+        "210°",
+        "125°",
+        "90°",
+        "45°"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-06",
+      "type": "order",
+      "prompt": "Ordena estos ángulos de menor a mayor amplitud según sus grados:",
+      "explanation": "Al comparar amplitudes ordenamos los valores numéricos: 30° < 75° < 90° < 135° < 180° < 360°.",
+      "lang": "es",
+      "items": [
+        "Ángulo agudo de 30°",
+        "Ángulo agudo de 75°",
+        "Ángulo recto de 90°",
+        "Ángulo obtuso de 135°",
+        "Ángulo llano de 180°",
+        "Ángulo completo de 360°"
+      ]
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-07",
+      "type": "choice",
+      "prompt": "En la clase de Plástica, Hugo recorta una cartulina rectangular por su esquina (90°). Divide ese ángulo recto en dos partes contiguas. Si una parte mide 38°, ¿cuánto mide la otra parte?",
+      "explanation": "Los dos ángulos son complementarios porque forman la esquina de 90°. Restamos: 90° - 38° = 52°. La otra parte mide exactamente 52°.",
+      "hint": "Un ángulo recto mide 90°. Réstale los 38° de la primera parte.",
+      "lang": "es",
+      "options": [
+        "142°",
+        "62°",
+        "42°",
+        "52°"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-08",
+      "type": "classify",
+      "prompt": "Clasifica cada suma de parejas de ángulos según el resultado que formen:",
+      "explanation": "50° + 40° = 90°, 65° + 25° = 90° y 15° + 75° = 90° forman ángulos rectos (complementarios). Por otro lado, 110° + 70° = 180°, 145° + 35° = 180° y 90° + 90° = 180° forman ángulos llanos (suplementarios).",
+      "lang": "es",
+      "categories": [
+        "Ángulos complementarios (suman 90°)",
+        "Ángulos suplementarios (suman 180°)"
+      ],
+      "items": [
+        {
+          "text": "50° y 40°",
+          "category": 0
+        },
+        {
+          "text": "110° y 70°",
+          "category": 1
+        },
+        {
+          "text": "65° y 25°",
+          "category": 0
+        },
+        {
+          "text": "145° y 35°",
+          "category": 1
+        },
+        {
+          "text": "15° y 75°",
+          "category": 0
+        },
+        {
+          "text": "90° y 90°",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-09",
+      "type": "choice",
+      "prompt": "Reto geométrico: Aisha programa un robot en línea recta sobre una mesa. En el punto de control, el robot gira primero un ángulo agudo de 45° a la derecha y luego, para esquivar un cono, gira otros 45° más en el mismo sentido. ¿Qué tipo de ángulo ha girado en total respecto a su marcha inicial?",
+      "explanation": "Sumamos ambos giros consecutivos en la misma dirección: 45° + 45° = 90°. Como 90° corresponde a la definición geométrica de ángulo recto, el robot ha realizado un giro recto total.",
+      "hint": "Suma los dos giros: 45° + 45°.",
+      "lang": "es",
+      "options": [
+        "Un ángulo recto",
+        "Un ángulo agudo",
+        "Un ángulo obtuso",
+        "Un ángulo llano"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:21:33.100Z",
+    "reviewed": false
+  }
+}

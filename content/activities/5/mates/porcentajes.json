@@ -1,0 +1,228 @@
+{
+  "id": "g5-mates-porcentajes",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "porcentajes",
+  "temaNombre": "Porcentajes",
+  "title": "El fascinante mundo de los porcentajes",
+  "summary": "Aprenderás a calcular porcentajes sencillos, relacionarlos con fracciones y aplicarlos en situaciones de la vida real.",
+  "keyIdeas": [
+    "Un porcentaje expresa cuántas partes de cada 100 se toman de una cantidad total.",
+    "El 50 % equivale a la mitad (1/2), el 25 % a un cuarto (1/4) y el 10 % a una décima parte (1/10).",
+    "Para calcular el tanto por ciento de un número, multiplica la cantidad por el porcentaje y divide entre 100."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Relaciones",
+      "A. Sentido numérico › Razonamiento proporcional",
+      "A. Sentido numérico › Educación financiera"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-porcentajes-01",
+      "type": "match",
+      "prompt": "Une cada porcentaje habitual con su significado como fracción o parte de un total:",
+      "explanation": "El 50 % es 50/100 (la mitad), el 25 % es 25/100 (un cuarto), el 10 % es 10/100 (un décimo) y el 100 % representa la totalidad.",
+      "hint": "Piensa en dividir 100 entre 2, entre 4 y entre 10.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "50 %",
+          "right": "La mitad (1/2)"
+        },
+        {
+          "left": "25 %",
+          "right": "La cuarta parte (1/4)"
+        },
+        {
+          "left": "10 %",
+          "right": "La décima parte (1/10)"
+        },
+        {
+          "left": "100 %",
+          "right": "El total completo"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-porcentajes-02",
+      "type": "true-false",
+      "prompt": "El 25 % de una cantidad representa exactamente la cuarta parte de dicha cantidad.",
+      "explanation": "Es verdadero, porque 25 de cada 100 partes equivale a la fracción irreducible 1/4 (25/100 = 1/4).",
+      "hint": "¿Cuántas veces cabe 25 en 100?",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-mates-porcentajes-03",
+      "type": "choice",
+      "prompt": "Omar quiere calcular mentalmente y de forma rápida el 10 % de 180 € para saber cuánto ahorrará este mes. ¿Qué estrategia es la correcta y qué resultado obtiene?",
+      "explanation": "El 10 % equivale a la décima parte (10/100 = 1/10). Por eso, para hallar el 10 % basta con dividir entre 10: 180 ÷ 10 = 18 €.",
+      "hint": "El 10 % es una parte de diez.",
+      "lang": "es",
+      "options": [
+        "Multiplicar 180 por 10, obteniendo 1.800 €.",
+        "Restar 10 a 180, obteniendo 170 €.",
+        "Dividir 180 entre 10, obteniendo 18 €."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-porcentajes-04",
+      "type": "fill-blank",
+      "prompt": "Completa la relación entre número decimal, fracción y porcentaje:",
+      "explanation": "La fracción 75/100 expresa 75 partes de cada 100, lo que se escribe 0,75 en forma decimal y 75 % como porcentaje.",
+      "hint": "Observa el numerador de la fracción con denominador 100.",
+      "lang": "es",
+      "sentence": "El número decimal 0,75 equivale a la fracción 75/100 y corresponde al ___ de la cantidad total.",
+      "options": [
+        "75 %",
+        "7,5 %",
+        "0,75 %"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-porcentajes-05",
+      "type": "classify",
+      "prompt": "Clasifica cada una de estas expresiones según equivalgan al 50 % o al 25 %:",
+      "explanation": "El 50 % es la mitad (0,5 o 50/100), mientras que el 25 % es un cuarto (0,25, 1/4 o 25/100).",
+      "lang": "es",
+      "categories": [
+        "Equivale al 50 %",
+        "Equivale al 25 %"
+      ],
+      "items": [
+        {
+          "text": "La mitad de un grupo de personas",
+          "category": 0
+        },
+        {
+          "text": "Fracción 1/4",
+          "category": 1
+        },
+        {
+          "text": "Número decimal 0,5",
+          "category": 0
+        },
+        {
+          "text": "Fracción 25/100",
+          "category": 1
+        },
+        {
+          "text": "Número decimal 0,25",
+          "category": 1
+        },
+        {
+          "text": "Fracción 50/100",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-porcentajes-06",
+      "type": "order",
+      "prompt": "Ordena los pasos necesarios para calcular el 30 % de 60 € mediante el método de la fracción decimal:",
+      "explanation": "Para hallar el porcentaje de una cantidad, primero expresamos el porcentaje como fracción de denominador 100, luego multiplicamos por el numerador y finalmente dividimos entre 100.",
+      "hint": "Empieza expresando el porcentaje en forma de fracción.",
+      "lang": "es",
+      "items": [
+        "Escribir el porcentaje como fracción: 30/100.",
+        "Multiplicar la cantidad inicial por el numerador: 60 × 30 = 1.800.",
+        "Dividir el producto obtenido entre el denominador: 1.800 ÷ 100 = 18 €."
+      ]
+    },
+    {
+      "id": "g5-mates-porcentajes-07",
+      "type": "choice",
+      "prompt": "Hugo quiere calcular el 20 % de 150 €. En su cuaderno ha escrito directamente: «150 - 20 = 130 €». ¿Cuál ha sido el fallo de Hugo?",
+      "explanation": "Un porcentaje no es una cantidad fija que se resta, sino una proporción. El 20 % de 150 € es (150 × 20) ÷ 100 = 30 €, no 20 €.",
+      "hint": "El símbolo % significa «de cada cien», no euros directos.",
+      "lang": "es",
+      "options": [
+        "El procedimiento de Hugo es totalmente correcto y la solución es 130 €.",
+        "Ha olvidado sumar 20 € en vez de restarlos del precio inicial.",
+        "Ha restado el número 20 como si fueran euros en lugar de calcular 20 partes de cada 100 de 150 €."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-porcentajes-08",
+      "type": "choice",
+      "prompt": "En una tienda deportiva, una mochila cuesta 40 €. Por la semana del deporte tiene un descuento del 15 %. ¿Cuánto dinero descuentan y cuál es su precio final rebajado?",
+      "explanation": "Calculamos el descuento: (40 × 15) ÷ 100 = 600 ÷ 100 = 6 €. Para saber el precio final, restamos la rebaja: 40 - 6 = 34 €.",
+      "hint": "Primero halla el 15 % de 40 y luego réstalo al precio original.",
+      "lang": "es",
+      "options": [
+        "Descuentan 15 € y el precio final es 25 €.",
+        "Descuentan 4 € y el precio final es 36 €.",
+        "Descuentan 6 € y el precio final es 34 €."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-porcentajes-09",
+      "type": "choice",
+      "prompt": "En el colegio de Aisha hay 200 estudiantes en tercer ciclo. El 60 % participa en el torneo escolar de ajedrez. ¿Cuántos estudiantes participan en total?",
+      "explanation": "Calculamos el 60 % de 200: (200 × 60) ÷ 100 = 12.000 ÷ 100 = 120 estudiantes participan en el torneo.",
+      "hint": "Multiplica 200 por 60 y divide el resultado entre 100.",
+      "lang": "es",
+      "options": [
+        "140 estudiantes.",
+        "60 estudiantes.",
+        "120 estudiantes."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-porcentajes-10",
+      "type": "choice",
+      "prompt": "Lucía quiere comprar un libro de aventuras que cuesta 20 €. Encuentra dos ofertas en librerías distintas: la Oferta A aplica un 25 % de descuento y la Oferta B descuenta directamente 6 €. ¿Cuál es la oferta más económica para Lucía?",
+      "explanation": "En la Oferta A, el 25 % de 20 € es 20 ÷ 4 = 5 € de rebaja, quedando en 20 - 5 = 15 €. En la Oferta B, descuentan 6 €, quedando en 20 - 6 = 14 €. Por tanto, la Oferta B es más barata.",
+      "hint": "Calcula el precio final con cada una de las dos ofertas y compáralos.",
+      "lang": "es",
+      "options": [
+        "Ambas ofertas son equivalentes y el libro cuesta exactamente lo mismo.",
+        "La Oferta A, porque un 25 % siempre rebaja más que una cantidad fija.",
+        "La Oferta B, porque el libro cuesta 14 € (frente a los 15 € de la Oferta A)."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:20:33.789Z",
+    "reviewed": false
+  }
+}

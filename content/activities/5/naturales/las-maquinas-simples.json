@@ -1,0 +1,244 @@
+{
+  "id": "g5-naturales-las-maquinas-simples",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "las-maquinas-simples",
+  "temaNombre": "Las máquinas simples",
+  "title": "El poder de las máquinas simples",
+  "summary": "Explora cómo las palancas, poleas y planos inclinados nos ayudan a multiplicar nuestra fuerza en la vida diaria.",
+  "keyIdeas": [
+    "Las máquinas simples transforman una fuerza aplicada para facilitar una tarea, cambiando su intensidad o dirección.",
+    "No ahorran energía total: para aplicar menos fuerza debemos recorrer una distancia mayor (fuerza por distancia).",
+    "Los tipos principales son la palanca, el plano inclinado, la polea, el torno, la cuña y el tornillo."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-las-maquinas-simples-01",
+      "type": "choice",
+      "prompt": "Lucía quiere ayudar a su abuelo a transportar sacos de abono en el huerto utilizando una carretilla. ¿Qué máquina simple aprovecha principalmente esta herramienta?",
+      "explanation": "La carretilla funciona como una palanca de segundo género: la rueda delantera es el punto de apoyo, la carga va en el medio y levantamos desde los mangos.",
+      "hint": "Fíjate en dónde se apoya la rueda en el suelo y desde dónde tiras hacia arriba.",
+      "lang": "es",
+      "options": [
+        "Un plano inclinado fijo con poleas de transmisión",
+        "Una palanca con la carga situada entre el punto de apoyo y la fuerza",
+        "Una cuña doble para dividir materiales pesados"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-02",
+      "type": "true-false",
+      "prompt": "Una polea fija instalada en lo alto de un pozo reduce a la mitad la fuerza necesaria para subir el cubo de agua.",
+      "explanation": "Una polea fija no reduce la fuerza necesaria; su gran ventaja es cambiar la dirección de la fuerza, permitiéndonos tirar hacia abajo a favor de la gravedad.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el funcionamiento de las rampas.",
+      "explanation": "El plano inclinado reparte el esfuerzo a lo largo de un trayecto más largo, por lo que la fuerza inmediata que debemos ejercer es menor.",
+      "lang": "es",
+      "sentence": "Al empujar una caja por un plano inclinado hasta un camión, aplicamos ___ fuerza que si la levantamos a pulso, pero recorremos más distancia.",
+      "options": [
+        "igual",
+        "más",
+        "menos"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-04",
+      "type": "match",
+      "prompt": "Relaciona cada objeto cotidiano con la máquina simple en la que se basa su funcionamiento:",
+      "explanation": "Las tijeras tienen el apoyo en el centro (palanca), la rampa facilita salvar alturas, el hacha concentra la fuerza en filo (cuña) y la bandera sube mediante una polea.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Tijeras de podar",
+          "right": "Palanca de primer género"
+        },
+        {
+          "left": "Rampa de acceso para sillas de ruedas",
+          "right": "Plano inclinado"
+        },
+        {
+          "left": "Hacha para cortar troncos",
+          "right": "Cuña"
+        },
+        {
+          "left": "Cuerda con rueda para izar la bandera",
+          "right": "Polea fija"
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-05",
+      "type": "classify",
+      "prompt": "Clasifica estas palancas cotidianas según la posición de sus elementos:",
+      "explanation": "El género de una palanca depende de qué elemento queda en la posición intermedia: el fulcro (1.er), la carga a vencer (2.º) o la fuerza de nuestras manos (3.er).",
+      "lang": "es",
+      "categories": [
+        "Punto de apoyo en el centro (1.er género)",
+        "Resistencia o carga en el centro (2.º género)",
+        "Fuerza o potencia en el centro (3.er género)"
+      ],
+      "items": [
+        {
+          "text": "Balancín del parque",
+          "category": 0
+        },
+        {
+          "text": "Alicates universales",
+          "category": 0
+        },
+        {
+          "text": "Cascanueces de frutos secos",
+          "category": 1
+        },
+        {
+          "text": "Carretilla de obra",
+          "category": 1
+        },
+        {
+          "text": "Pinzas para servir ensalada",
+          "category": 2
+        },
+        {
+          "text": "Caña de pescar al sujetar la presa",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-06",
+      "type": "choice",
+      "prompt": "Durante un debate de clase, Hugo afirma: «¡Las máquinas simples crean energía de la nada para que levantar cosas no cueste nada de trabajo!». ¿Cuál es el error científico en la afirmación de Hugo?",
+      "explanation": "La energía se conserva y no surge de la nada. Para hacer menos fuerza debemos empujar durante más distancia, realizando el mismo trabajo mecánico total.",
+      "hint": "Recuerda la ley de conservación de la energía: nada se crea de la nada.",
+      "lang": "es",
+      "options": [
+        "Las máquinas simples solo funcionan con electricidad o combustible fósil, por lo que siempre consumen baterías.",
+        "Las palancas y poleas aumentan la gravedad sobre los cuerpos para acelerar su desplazamiento vertical.",
+        "Las máquinas simples no crean energía; reducen la fuerza necesaria aumentando la distancia sobre la que se aplica."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-07",
+      "type": "order",
+      "prompt": "Ordena los pasos que debe seguir Adrián para mover con seguridad una roca pesada del huerto usando una barra de hierro rígida como palanca:",
+      "explanation": "Al colocar el punto de apoyo cerca de la carga y aplicar la fuerza en el extremo más largo, se logra la máxima ventaja mecánica para mover el peso.",
+      "lang": "es",
+      "items": [
+        "Identificar la roca pesada como la resistencia que se debe desplazar.",
+        "Colocar una piedra firme y estable muy cerca de la roca para usarla como punto de apoyo.",
+        "Introducir un extremo corto de la barra metálica debajo de la roca.",
+        "Empujar hacia abajo desde el extremo largo de la barra, lo más lejos posible del apoyo.",
+        "Comprobar cómo la roca asciende con un esfuerzo mucho menor."
+      ]
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-08",
+      "type": "choice",
+      "prompt": "En el laboratorio, Mateo y Sofía elevan un carro de 4 kg hasta una balda a 1 metro de altura usando un dinamómetro (aparato que mide la fuerza en newtons). Comparan dos rampas lisas: la rampa A mide 2 metros y la rampa B mide 4 metros. ¿Qué predicción científica es correcta?",
+      "explanation": "A mayor longitud de la rampa para una misma altura, menor es la pendiente y menor es la fuerza requerida para elevar la carga.",
+      "hint": "Piensa en qué cuesta más: subir una cuesta muy empinada o un camino suave y largo.",
+      "lang": "es",
+      "options": [
+        "El dinamómetro marcará exactamente la misma fuerza en ambas rampas, porque la altura final es la misma.",
+        "El dinamómetro marcará menor fuerza en la rampa A, porque al ser más corta el carro sube más rápido.",
+        "El dinamómetro marcará menor fuerza en la rampa B, porque su inclinación es menor y el recorrido es más largo.",
+        "El dinamómetro marcará cero newtons en la rampa B porque la rampa anula el peso por completo."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-09",
+      "type": "true-false",
+      "prompt": "Si Omar combina una polea fija unida al techo con una polea móvil enganchada a un fardo de libros, necesitará ejercer aproximadamente la mitad de fuerza para izarlo en comparación con levantarlo a pulso.",
+      "explanation": "Las poleas móviles reparten el peso de la carga entre dos tramos de cuerda, reduciendo el esfuerzo a la mitad a cambio de tener que recoger el doble de cuerda.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-10",
+      "type": "reading",
+      "prompt": "Lee atentamente este texto histórico sobre la tecnología y responde a las preguntas:",
+      "explanation": "Comprender la evolución histórica de las máquinas simples nos permite valorar cómo la ciencia básica sigue resolviendo retos técnicos actuales.",
+      "lang": "es",
+      "title": "El ingenio mecánico que transformó la historia",
+      "text": "Desde la Antigüedad, la humanidad ha ideado métodos para desplazar masas colosales sin lesionarse. En el antiguo Egipto, miles de obreros emplearon rampas de tierra y trineos sobre rodillos para elevar gigantescos bloques de caliza durante la construcción de las pirámides.\n\nSiglos más tarde, en la antigua Grecia, el sabio Arquímedes investigó las propiedades matemáticas de las palancas y las poleas combinadas. Convencido de la eficacia de estos mecanismos, formuló su célebre sentencia: «Dadme un punto de apoyo y moveré el mundo». Arquímedes diseñó también el tornillo helicoidal, un plano inclinado enrollado alrededor de un cilindro capaz de elevar agua desde ríos para regar campos elevados.\n\nHoy en día, aunque utilizamos potentes motores eléctricos y de combustible, la maquinaria moderna sigue sustentándose en estos mismos principios físicos: una grúa telescópica combina palancas y polipastos de poleas, mientras que los engranajes de una bicicleta transforman nuestro pedaleo en movimiento continuo.",
+      "questions": [
+        {
+          "prompt": "¿Qué invento ideó Arquímedes para elevar agua aprovechando el concepto de plano inclinado?",
+          "explanation": "El texto indica que ideó el tornillo helicoidal, consistente en un plano inclinado enrollado en un cilindro para subir agua.",
+          "options": [
+            "El trineo sobre rodillos",
+            "El tornillo helicoidal",
+            "La polea móvil con contrapeso"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué quería transmitir Arquímedes con su frase «Dadme un punto de apoyo y moveré el mundo»?",
+          "explanation": "La frase ilustra la ventaja mecánica: aumentando la distancia al punto de apoyo, una fuerza pequeña puede vencer una resistencia inmensa.",
+          "options": [
+            "Que las máquinas simples eliminan por completo la gravedad del planeta.",
+            "Que la Tierra podía colocarse sobre una plataforma para detener su movimiento de rotación.",
+            "Que con una palanca con el brazo de fuerza suficientemente largo se puede multiplicar el esfuerzo humano hasta mover cualquier masa."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "A partir de la lectura, ¿cuál es la relación entre las máquinas simples del pasado y la tecnología actual?",
+          "explanation": "El texto concluye mostrando que artefactos modernos como grúas o bicicletas siguen usando palancas, poleas y planos inclinados combinados.",
+          "options": [
+            "Las máquinas modernas no sustituyen los principios simples, sino que los integran y combinan con nuevas fuentes de energía.",
+            "Las máquinas simples quedaron totalmente obsoletas y ya no se emplean en la ingeniería contemporánea.",
+            "Los motores modernos funcionan sin respetar las leyes mecánicas descubiertas en la Antigüedad."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:14:49.594Z",
+    "reviewed": false
+  }
+}

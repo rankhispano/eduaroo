@@ -1,0 +1,257 @@
+{
+  "id": "g6-ingles-presente-perfecto",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "presente-perfecto",
+  "temaNombre": "Presente perfecto",
+  "title": "Adventures in Present Perfect",
+  "summary": "Practica el presente perfecto en inglés para hablar de experiencias y acciones recientes de la vida diaria.",
+  "keyIdeas": [
+    "Usamos 'have' o 'has' con el participio del verbo para hablar de experiencias pasadas conectadas con el presente.",
+    "Usamos 'has' con he, she e it, y 'have' con I, you, we y they.",
+    "Palabras como 'ever', 'never', 'already' y 'yet' nos ayudan a situar la acción en el tiempo."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-presente-perfecto-01",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la forma correcta del verbo auxiliar:",
+      "explanation": "Con la tercera persona del singular (Lucía = she), el auxiliar del presente perfecto es 'has'.",
+      "hint": "Lucía equivale al pronombre 'she'.",
+      "lang": "en",
+      "sentence": "Lucía ___ visited London twice with her family.",
+      "options": [
+        "is",
+        "have",
+        "has"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-presente-perfecto-02",
+      "type": "match",
+      "prompt": "Une cada verbo en infinitivo con su participio pasado:",
+      "explanation": "Muchos verbos en inglés tienen formas irregulares en participio pasado que debemos memorizar con la práctica.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "see",
+          "right": "seen"
+        },
+        {
+          "left": "eat",
+          "right": "eaten"
+        },
+        {
+          "left": "do",
+          "right": "done"
+        },
+        {
+          "left": "write",
+          "right": "written"
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-presente-perfecto-03",
+      "type": "true-false",
+      "prompt": "In the sentence 'We have already finished our science project', the action is completely finished.",
+      "explanation": "Usamos 'already' para indicar que una acción ya se ha completado antes de lo esperado.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-ingles-presente-perfecto-04",
+      "type": "classify",
+      "prompt": "Clasifica los participios según su terminación:",
+      "explanation": "Los verbos regulares añaden -ed para formar el participio, mientras que los irregulares cambian de forma.",
+      "lang": "en",
+      "categories": [
+        "Regular (-ed)",
+        "Irregular"
+      ],
+      "items": [
+        {
+          "text": "played",
+          "category": 0
+        },
+        {
+          "text": "gone",
+          "category": 1
+        },
+        {
+          "text": "watched",
+          "category": 0
+        },
+        {
+          "text": "broken",
+          "category": 1
+        },
+        {
+          "text": "climbed",
+          "category": 0
+        },
+        {
+          "text": "made",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-presente-perfecto-05",
+      "type": "choice",
+      "prompt": "Omar wants to ask Hugo about his experiences. Choose the correct question:",
+      "explanation": "Para preguntar sobre experiencias usamos 'Have you ever' seguido del verbo en participio pasado.",
+      "hint": "Recuerda que con 'you' usamos 'have' y el participio.",
+      "lang": "en",
+      "options": [
+        "Have you ever tried sushi?",
+        "Did you ever tried sushi?",
+        "Do you have ever tried sushi?",
+        "Has you ever try sushi?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-presente-perfecto-06",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar una frase afirmativa correcta:",
+      "explanation": "El orden habitual en inglés es: sujeto (Aisha and Wei) + auxiliar (have) + participio (cleaned) + complemento (their classroom).",
+      "lang": "en",
+      "items": [
+        "Aisha and Wei",
+        "have",
+        "cleaned",
+        "their",
+        "classroom"
+      ]
+    },
+    {
+      "id": "g6-ingles-presente-perfecto-07",
+      "type": "fill-blank",
+      "prompt": "Elige la opción correcta para una acción negativa reciente:",
+      "explanation": "Con 'Martina' (she) usamos 'hasn't' y el participio 'finished'. 'Yet' suele ir al final en frases negativas o preguntas.",
+      "hint": "Fíjate en el sujeto 'Martina' y en que la frase es negativa.",
+      "lang": "en",
+      "sentence": "Martina is still working because she ___ her homework yet.",
+      "options": [
+        "didn't finished",
+        "haven't finished",
+        "hasn't finished"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-presente-perfecto-08",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions:",
+      "explanation": "El texto utiliza el presente perfecto para conectar las acciones recientes del club escolar con sus efectos positivos en el presente.",
+      "lang": "en",
+      "title": "The School Eco-Club Challenge",
+      "text": "This term, our class has started an exciting project to protect the environment. Our teacher, Mr. Davies, has created a green challenge for all sixth graders. So far, we have collected more than fifty kilos of plastic bottles in the school playground. We have also planted twelve small oak trees in the garden behind the gym. Adrián and Nerea have designed fantastic posters with tips to save water at home, and they have shared them with the whole school. However, we have not built the wooden birdhouses yet because the wood arrived late yesterday. Everyone in our club feels proud because our small daily actions have already made our school a cleaner and greener place to learn.",
+      "questions": [
+        {
+          "prompt": "What have Adrián and Nerea done for the project?",
+          "explanation": "El texto indica expresamente que Adrián y Nerea han diseñado carteles con consejos para ahorrar agua.",
+          "options": [
+            "They have planted twelve oak trees behind the gym.",
+            "They have designed and shared posters about saving water.",
+            "They have collected fifty kilos of plastic bottles."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why haven't the students built the birdhouses yet?",
+          "explanation": "El texto explica que no las han construido todavía porque la madera llegó tarde el día anterior.",
+          "options": [
+            "Because they forgot to buy the nails.",
+            "Because they do not like working with wood.",
+            "Because the materials arrived late."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What message does the text give about helping the planet?",
+          "explanation": "El texto concluye mostrando que las pequeñas acciones diarias del alumnado han convertido el cole en un lugar más limpio y verde.",
+          "options": [
+            "Small actions by young people can create a real positive difference.",
+            "Only adults have the power to protect nature properly.",
+            "Planting trees is the only useful way to help the environment."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-presente-perfecto-09",
+      "type": "choice",
+      "prompt": "Adrián and his sister want to surprise their mum with breakfast. Look at the context and choose the correct sentence:",
+      "explanation": "Con el sujeto 'We' usamos 'have' y el participio irregular 'made'.",
+      "hint": "El participio del verbo irregular 'make' es 'made'.",
+      "lang": "en",
+      "options": [
+        "We have made fresh orange juice and pancakes for breakfast!",
+        "We has made fresh orange juice and pancakes for breakfast!",
+        "We have make fresh orange juice and pancakes for breakfast!",
+        "We make already fresh orange juice and pancakes for breakfast!"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-presente-perfecto-10",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar una pregunta sobre viajes y experiencias:",
+      "explanation": "La estructura de pregunta con 'ever' es: Have + sujeto (you) + ever + participio (travelled) + complemento (by plane?).",
+      "lang": "en",
+      "items": [
+        "Have",
+        "you",
+        "ever",
+        "travelled",
+        "by",
+        "plane?"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:19:14.173Z",
+    "reviewed": false
+  }
+}

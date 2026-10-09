@@ -1,0 +1,236 @@
+{
+  "id": "g6-ingles-presentacion-oral-final",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "presentacion-oral-final",
+  "temaNombre": "Presentación oral final",
+  "title": "Domina tu presentación oral final",
+  "summary": "Aprende a estructurar tu exposición oral en inglés, usar conectores clave y comunicar con confianza.",
+  "keyIdeas": [
+    "Estructura tu charla en tres partes: introducción, desarrollo con conectores y conclusión con ronda de preguntas.",
+    "Utiliza frases fijas para guiar al público, como 'Today I will talk about...' o 'To sum up...'.",
+    "Mira a tus compañeros, habla con calma y usa notas breves en lugar de leer diapositivas completas."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "2.1",
+      "2.3",
+      "3.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC4",
+      "CCL1",
+      "CCL5",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-presentacion-oral-final-01",
+      "type": "fill-blank",
+      "prompt": "Completa la frase para empezar tu presentación:",
+      "explanation": "Usamos la expresión 'talk about' (hablar sobre) cuando introducimos el tema de una presentación oral.",
+      "hint": "Buscamos un verbo de acción para decir que vas a explicar algo al público.",
+      "lang": "en",
+      "sentence": "Good morning everyone, today I am going to ___ about our trip to the science museum.",
+      "options": [
+        "talk",
+        "listen",
+        "hear"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-02",
+      "type": "true-false",
+      "prompt": "During an oral presentation, looking at the floor and speaking in a very quiet whisper helps the audience understand you.",
+      "explanation": "Para comunicar bien debemos mantener contacto visual con el público y proyectar la voz con un volumen claro y adecuado.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-03",
+      "type": "match",
+      "prompt": "Match each presentation phrase with its correct section:",
+      "explanation": "Cada frase cumple una función: saludar y presentarse va al inicio, hilar ideas en el cuerpo, y agradecer y abrir preguntas al final.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Hello everyone, my name is Adrián.",
+          "right": "Introduction"
+        },
+        {
+          "left": "Moving on to our next key point...",
+          "right": "Body"
+        },
+        {
+          "left": "Thank you for listening! Any questions?",
+          "right": "Conclusion"
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-04",
+      "type": "order",
+      "prompt": "Put the steps of an oral presentation in the correct chronological order:",
+      "explanation": "Toda buena presentación sigue este orden lógico: bienvenida y tema, desarrollo con ejemplos, resumen final y cierre con preguntas.",
+      "lang": "en",
+      "items": [
+        "Welcome the audience and introduce the topic.",
+        "Explain the main points using clear examples.",
+        "Summarize the most important ideas.",
+        "Thank the audience and invite questions."
+      ]
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-05",
+      "type": "choice",
+      "prompt": "Omar wants to move from talking about wind energy to his next slide about solar energy. Which signposting phrase is the most natural?",
+      "explanation": "'Let's move on to...' es la expresión adecuada para hacer una transición fluida entre dos apartados de una exposición.",
+      "hint": "Busca una frase de transición que enlace un punto con el siguiente.",
+      "lang": "en",
+      "options": [
+        "Good morning, my topic is solar energy.",
+        "Now, let's move on to solar energy.",
+        "That is the end of my presentation about energy."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-06",
+      "type": "classify",
+      "prompt": "Classify these presentation habits into 'Good presentation practice' or 'Practice to avoid':",
+      "explanation": "Es recomendable usar tarjetas con palabras clave y ritmo pausado, mientras que leer diapositivas enteras o correr dificulta la atención.",
+      "lang": "en",
+      "categories": [
+        "Good presentation practice",
+        "Practice to avoid"
+      ],
+      "items": [
+        {
+          "text": "Using cue cards with short keywords",
+          "category": 0
+        },
+        {
+          "text": "Reading entire paragraphs from the screen",
+          "category": 1
+        },
+        {
+          "text": "Speaking at a steady, natural pace",
+          "category": 0
+        },
+        {
+          "text": "Rushing through slides without pausing",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-07",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra correcta para cerrar tu discurso:",
+      "explanation": "La expresión 'To sum up' significa 'en resumen' o 'para resumir', y es perfecta para comenzar la conclusión.",
+      "hint": "Esta palabra forma parte del conector común que significa 'resumir'.",
+      "lang": "en",
+      "sentence": "To ___ up, protecting our local forests is everyone's responsibility.",
+      "options": [
+        "sum",
+        "make",
+        "count"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-08",
+      "type": "choice",
+      "prompt": "Lucía feels very nervous five minutes before her English presentation about renewable energy. What is the best strategy for her?",
+      "explanation": "Respirar hondo para calmar los nervios y apoyarse en notas breves da seguridad, mientras que memorizar al pie de la letra aumenta la ansiedad.",
+      "hint": "¿Qué técnica ayuda al cuerpo a relajarse y a la mente a centrarse?",
+      "lang": "en",
+      "options": [
+        "Decide to skip the introduction and read straight from the poster.",
+        "Try to memorize every single sentence word-for-word in her head.",
+        "Take three slow, deep breaths and review her keyword prompt cards calmly."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-09",
+      "type": "reading",
+      "prompt": "Read the text about Aisha's presentation and answer the questions:",
+      "explanation": "La lectura muestra cómo una buena preparación previa (diapositivas visuales, fichas breves y ensayo de voz) garantiza el éxito al hablar en público.",
+      "lang": "en",
+      "title": "Aisha's Presentation Day",
+      "text": "Last week, Aisha prepared her final English presentation about the Great Barrier Reef. First, she made colourful slides with short bullet points instead of long paragraphs, so her classmates would not get bored. Next, she wrote small index cards with keywords to help her remember facts without reading directly from the screen. Aisha also practised in front of a mirror to check her posture, eye contact, and voice projection. She timed her speech to make sure it lasted exactly four minutes. When presentation day arrived, she felt nervous at first, but taking a deep breath helped her relax. She smiled, greeted her classmates, and spoke clearly. At the end, Aisha invited the class to ask questions. Her teacher praised her for using signposting phrases like 'first of all' and 'in conclusion'.",
+      "questions": [
+        {
+          "prompt": "Why did Aisha write small index cards before presenting?",
+          "explanation": "El texto explica que usó tarjetas con palabras clave para recordar los datos sin tener que leer de la pantalla.",
+          "options": [
+            "To read long sentences directly to her teacher.",
+            "To give them to her classmates as a souvenir.",
+            "To remember facts using keywords without reading the screen."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why did Aisha choose bullet points instead of long paragraphs for her visual aids?",
+          "explanation": "El texto menciona que usó puntos breves para que sus compañeros no se aburrieran ('so her classmates would not get bored').",
+          "options": [
+            "Because her computer could only write three words per page.",
+            "Because she forgot to write the rest of the information.",
+            "To keep her audience interested and avoid boring them with too much text."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Aisha's preparation demonstrate about public speaking?",
+          "explanation": "Incluso sintiendo nervios al principio, ensayar y preparar recursos visuales permite exponer con claridad y seguridad.",
+          "options": [
+            "The best way to present is memorizing every word without any cards.",
+            "Good speakers never feel any nervousness before presenting.",
+            "Rehearsing and organizing visual aids build confidence and clarity."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-10",
+      "type": "choice",
+      "prompt": "During the question time at the end of David's presentation, a classmate asks a question he does not know the answer to. What is the most polite and professional response?",
+      "explanation": "Reconocer con educación que no sabes un dato y ofrecerte a investigarlo demuestra madurez, cortesía comunicativa y honestidad.",
+      "hint": "Elige la respuesta que muestre respeto hacia quien pregunta y una actitud positiva para aprender.",
+      "lang": "en",
+      "options": [
+        "I already explained everything, so you did not listen to my presentation.",
+        "That is a great question! I am not sure right now, but I will check and find out.",
+        "Nobody knows that answer, so please ask something much easier."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T18:22:57.722Z",
+    "reviewed": false
+  }
+}

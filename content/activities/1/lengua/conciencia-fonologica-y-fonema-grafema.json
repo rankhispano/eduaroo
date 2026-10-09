@@ -1,0 +1,233 @@
+{
+  "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "conciencia-fonologica-y-fonema-grafema",
+  "temaNombre": "Conciencia fonológica y fonema-grafema",
+  "title": "Jugamos con los sonidos y letras",
+  "summary": "Practica los sonidos de las palabras y las letras que los representan.",
+  "keyIdeas": [
+    "Cada letra tiene su propio sonido al hablar.",
+    "Las palabras se forman uniendo sonidos en un orden.",
+    "Si cambias un solo sonido, formas una palabra diferente."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-01",
+      "type": "choice",
+      "prompt": "Lucía juega en el recreo. ¿Qué palabra empieza por el sonido /p/?",
+      "explanation": "Pelota empieza por la letra p, que suena /p/. Mesa empieza por /m/ y gato por /g/.",
+      "hint": "Pon los labios juntos antes de decir la palabra.",
+      "lang": "es",
+      "options": [
+        "Pelota",
+        "Gato",
+        "Mesa"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-02",
+      "type": "true-false",
+      "prompt": "La palabra «sol» tiene tres sonidos: /s/, /o/, /l/.",
+      "explanation": "Es verdadero. Decimos primero /s/, luego /o/ y al final /l/.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-03",
+      "type": "fill-blank",
+      "prompt": "Completa con la letra del sonido inicial.",
+      "explanation": "La palabra es gato y empieza con la letra g, que hace el sonido /g/.",
+      "lang": "es",
+      "sentence": "El animal que dice miau es el ___ato.",
+      "options": [
+        "r",
+        "p",
+        "g"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-04",
+      "type": "classify",
+      "prompt": "Clasifica las palabras según su sonido final.",
+      "explanation": "Casa, luna y pera acaban con el sonido /a/. Sapo, pato y barco terminan con el sonido /o/.",
+      "lang": "es",
+      "categories": [
+        "Termina en /a/",
+        "Termina en /o/"
+      ],
+      "items": [
+        {
+          "text": "casa",
+          "category": 0
+        },
+        {
+          "text": "sapo",
+          "category": 1
+        },
+        {
+          "text": "luna",
+          "category": 0
+        },
+        {
+          "text": "pato",
+          "category": 1
+        },
+        {
+          "text": "pera",
+          "category": 0
+        },
+        {
+          "text": "barco",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-05",
+      "type": "match",
+      "prompt": "Une cada palabra con su letra inicial.",
+      "explanation": "Cada palabra empieza por la letra que hace su primer sonido: Sopa con S, Luna con L, Mano con M y Tomate con T.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Sopa",
+          "right": "S"
+        },
+        {
+          "left": "Luna",
+          "right": "L"
+        },
+        {
+          "left": "Mano",
+          "right": "M"
+        },
+        {
+          "left": "Tomate",
+          "right": "T"
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-06",
+      "type": "order",
+      "prompt": "Ordena los sonidos para formar la palabra «paz».",
+      "explanation": "Para decir «paz» pronunciamos primero /p/, después /a/ y terminamos con /z/.",
+      "lang": "es",
+      "items": [
+        "/p/",
+        "/a/",
+        "/z/"
+      ]
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-07",
+      "type": "choice",
+      "prompt": "Encuentra la frase con una palabra mal escrita por cambiar un sonido.",
+      "explanation": "La fruta se llama pera y empieza por el sonido /p/. Escribir bera con b es un error de sonido y letra.",
+      "hint": "Fíjate en el nombre de la fruta verde y jugosa.",
+      "lang": "es",
+      "options": [
+        "Hugo come una bera dulce.",
+        "Hugo come una pera dulce.",
+        "Hugo come una manzana dulce."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-08",
+      "type": "choice",
+      "prompt": "Aisha cuenta despacio los sonidos de «mesa». ¿Cuántos tiene?",
+      "explanation": "La palabra mesa tiene 4 sonidos: /m/, /e/, /s/ y /a/.",
+      "hint": "Separa cada sonido: m-e-s-a.",
+      "lang": "es",
+      "options": [
+        "Tres sonidos",
+        "Cuatro sonidos",
+        "Dos sonidos"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-09",
+      "type": "reading",
+      "prompt": "Lee el texto con atención y responde a las preguntas.",
+      "explanation": "Identificar los sonidos al principio y al final de las palabras nos ayuda a leer mejor.",
+      "lang": "es",
+      "title": "El perro de Mateo",
+      "text": "El perro de Mateo se llama Tobi.\nTobi corre por el jardín.\nLe gusta jugar con una pelota.\nMateo silba y Tobi viene.",
+      "questions": [
+        {
+          "prompt": "¿Qué palabra del texto empieza por el sonido /p/?",
+          "explanation": "Pelota y perro empiezan por la letra p, que suena /p/.",
+          "options": [
+            "Pelota",
+            "Tobi",
+            "Jardín"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué palabra del texto termina por el sonido /o/?",
+          "explanation": "Mateo termina con la letra o, que hace el sonido /o/. Jardín acaba en /n/ y viene acaba en /e/.",
+          "options": [
+            "Mateo",
+            "Jardín",
+            "Viene"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-10",
+      "type": "fill-blank",
+      "prompt": "Cambia el primer sonido de «pata» para formar otro animal.",
+      "explanation": "Al cambiar el sonido /p/ por el sonido /g/ formamos la palabra «gata».",
+      "lang": "es",
+      "sentence": "La ___ata maúlla en el tejado.",
+      "options": [
+        "g",
+        "m",
+        "b"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:22:29.049Z",
+    "reviewed": false
+  }
+}

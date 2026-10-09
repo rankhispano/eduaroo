@@ -1,0 +1,233 @@
+{
+  "id": "g3-naturales-fuentes-de-energia",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "fuentes-de-energia",
+  "temaNombre": "Fuentes de energía",
+  "title": "¡Descubre la fuerza de la energía!",
+  "summary": "Repasa las fuentes de energía renovables y no renovables y aprende a utilizarlas de forma responsable.",
+  "keyIdeas": [
+    "Las fuentes renovables proceden de recursos naturales inagotables como el sol, el viento o el agua.",
+    "Las fuentes no renovables existen en cantidades limitadas en la naturaleza y pueden llegar a agotarse.",
+    "Ahorrar energía en casa y en el colegio ayuda a cuidar el medio ambiente."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-fuentes-de-energia-01",
+      "type": "true-false",
+      "prompt": "El Sol es una fuente inagotable que nos proporciona luz y calor de forma natural.",
+      "explanation": "El Sol es una fuente de energía renovable porque no se agota con su uso.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-02",
+      "type": "choice",
+      "prompt": "¿Qué cualidad distingue a las fuentes de energía renovables? 🌱",
+      "explanation": "Las energías renovables proceden de recursos naturales que se reponen continuamente, como el viento o el agua.",
+      "hint": "Piensa en el significado de la palabra renovar.",
+      "lang": "es",
+      "options": [
+        "Se terminan rápidamente cuando las usamos mucho.",
+        "Se regeneran de forma natural y no se gastan.",
+        "Producen gran cantidad de humo al funcionar."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-03",
+      "type": "match",
+      "prompt": "Une cada recurso natural con el tipo de energía que produce:",
+      "explanation": "Cada recurso natural aprovecha una fuerza diferente: el viento genera energía eólica, el sol produce energía solar y el agua en movimiento genera hidráulica.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Viento",
+          "right": "Energía eólica"
+        },
+        {
+          "left": "Luz del Sol",
+          "right": "Energía solar"
+        },
+        {
+          "left": "Corrientes de agua",
+          "right": "Energía hidráulica"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-04",
+      "type": "classify",
+      "prompt": "Clasifica estas fuentes de energía según su disponibilidad en el planeta:",
+      "explanation": "El sol, el viento y los ríos son inagotables. En cambio, el petróleo, el carbón y el gas existen en depósitos limitados bajo tierra.",
+      "lang": "es",
+      "categories": [
+        "Fuentes renovables",
+        "Fuentes no renovables"
+      ],
+      "items": [
+        {
+          "text": "Luz solar",
+          "category": 0
+        },
+        {
+          "text": "Petróleo",
+          "category": 1
+        },
+        {
+          "text": "Fuerza del viento",
+          "category": 0
+        },
+        {
+          "text": "Carbón",
+          "category": 1
+        },
+        {
+          "text": "Gas natural",
+          "category": 1
+        },
+        {
+          "text": "Corrientes de ríos",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra adecuada:",
+      "explanation": "Tardan tanto tiempo en generarse en el subsuelo que el ser humano las consume mucho más rápido de lo que se reponen.",
+      "lang": "es",
+      "sentence": "El petróleo y el carbón tardan millones de años en formarse, por eso se consideran fuentes de energía ___.",
+      "options": [
+        "limpias",
+        "no renovables",
+        "ilimitadas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-06",
+      "type": "choice",
+      "prompt": "Hugo coloca dos coches de juguete al sol. El coche A lleva una pequeña placa solar y el coche B funciona con una pila gastada. ¿Qué predicción científica es correcta?",
+      "explanation": "Las placas solares transforman la luz en corriente eléctrica para alimentar el motor del juguete.",
+      "hint": "Fíjate en qué coche tiene un elemento que aprovecha la luz del sol.",
+      "lang": "es",
+      "options": [
+        "El coche A avanzará porque la placa transforma la luz solar en electricidad.",
+        "Ninguno de los dos coches funcionará porque el sol no produce electricidad.",
+        "Los dos coches se moverán igual de rápido gracias al calor del suelo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-07",
+      "type": "choice",
+      "prompt": "Encuentra la afirmación que contiene un error sobre el uso de la energía:",
+      "explanation": "Al caminar usamos nuestra propia energía corporal y evitamos el uso de gasolina o diésel, que son combustibles fósiles.",
+      "hint": "Caminar es un transporte limpio que no necesita gasolina.",
+      "lang": "es",
+      "options": [
+        "El viento mueve las aspas de los aerogeneradores.",
+        "Caminar en vez de ir en coche gasta combustible fósil.",
+        "Apagar las luces innecesarias ayuda a ahorrar energía."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-08",
+      "type": "reading",
+      "prompt": "Lee atentamente la noticia escolar y responde a las preguntas:",
+      "explanation": "La energía eólica aprovecha el viento de forma limpia y sostenible para abastecer al pueblo.",
+      "lang": "es",
+      "title": "Molinos en la colina",
+      "text": "En el pueblo de Aisha han instalado tres grandes aerogeneradores en la colina más alta. Cuando el viento sopla, sus enormes aspas giran sin parar. Este giro mueve una máquina que produce electricidad limpia para todo el vecindario. Gracias a esta instalación, el ayuntamiento ha dejado de comprar electricidad generada con carbón. Aisha y su clase visitaron las obras con su maestra. Aprendieron que el viento nunca se termina y que no expulsa humos tóxicos al aire. Desde entonces, las farolas del parque se iluminan cada noche con energía limpia.",
+      "questions": [
+        {
+          "prompt": "¿Qué recurso natural aprovechan los aerogeneradores de la colina?",
+          "explanation": "El texto explica claramente que las aspas giran cuando sopla el viento.",
+          "options": [
+            "La caída del agua del río.",
+            "La fuerza del viento.",
+            "El calor del sol."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por qué esta instalación beneficia al pueblo de Aisha?",
+          "explanation": "La energía eólica sustituye al carbón y produce electricidad sin contaminar la atmósfera del pueblo.",
+          "options": [
+            "Porque permite almacenar mucho carbón en la colina.",
+            "Porque produce electricidad sin expulsar humos tóxicos al aire.",
+            "Porque hace que sople mucho más viento cada tarde."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-09",
+      "type": "order",
+      "prompt": "Ordena el camino que sigue la energía desde el viento hasta tu casa:",
+      "explanation": "Primero el viento mueve las aspas, la máquina genera corriente, los cables la transportan y finalmente llega a los enchufes de casa.",
+      "lang": "es",
+      "items": [
+        "El viento hace girar las aspas del aerogenerador.",
+        "El generador transforma el movimiento en electricidad.",
+        "Los cables eléctricos transportan la energía al pueblo.",
+        "Enciendes la lámpara de tu habitación con el interruptor."
+      ]
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-10",
+      "type": "choice",
+      "prompt": "En el colegio de Leo quieren ahorrar energía. Cada clase gasta 4 bombillas encendidas toda la tarde. Si apagan 2 bombillas por clase durante 3 aulas, ¿cuántas bombillas apagan en total? 💡",
+      "explanation": "Si apagan 2 bombillas en cada una de las 3 aulas, el cálculo es 2 por 3 igual a 6 bombillas apagadas.",
+      "hint": "Multiplica las bombillas apagadas en un aula por el número de aulas.",
+      "lang": "es",
+      "options": [
+        "6 bombillas.",
+        "12 bombillas.",
+        "5 bombillas."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:52:03.953Z",
+    "reviewed": false
+  }
+}

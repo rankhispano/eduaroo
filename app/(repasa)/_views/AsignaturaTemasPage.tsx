@@ -3,6 +3,7 @@ import { asignaturaIcons } from '@/src/components/icons';
 import Breadcrumb from '@/src/components/Breadcrumb';
 import TemaAccordion from '@/src/components/TemaAccordion';
 import { getAsignatura, getCurso } from '@/src/data/curriculum';
+import { withGeneratedActivities } from '@/src/data/activityResources';
 
 export default function AsignaturaTemasPage({
   cursoId,
@@ -11,7 +12,8 @@ export default function AsignaturaTemasPage({
   homeHref = '/es',
   sectionLabel = 'Repaso',
   showLocalBreadcrumb = true,
-  topicsDescription = 'temas de repaso organizados por currículo LOMLOE.',
+  topicsDescription = 'temas para practicar',
+  activityHrefBase = '/es/learning',
 }: {
   cursoId: string;
   asignaturaId: string;
@@ -20,6 +22,7 @@ export default function AsignaturaTemasPage({
   sectionLabel?: string;
   showLocalBreadcrumb?: boolean;
   topicsDescription?: string;
+  activityHrefBase?: string;
 }) {
   const curso = getCurso(cursoId);
   const asignatura = getAsignatura(cursoId, asignaturaId);
@@ -28,6 +31,7 @@ export default function AsignaturaTemasPage({
     notFound();
   }
 
+  const temas = withGeneratedActivities(curso.id, asignatura.id, asignatura.temas, activityHrefBase);
   const Icon = asignaturaIcons[asignatura.icono as keyof typeof asignaturaIcons];
 
   return (
@@ -65,7 +69,7 @@ export default function AsignaturaTemasPage({
         </header>
 
         <section className="space-y-4" aria-label={`Temas de ${asignatura.nombre}`}>
-          {asignatura.temas.map((tema, index) => (
+          {temas.map((tema, index) => (
             <TemaAccordion
               key={tema.id}
               tema={tema}

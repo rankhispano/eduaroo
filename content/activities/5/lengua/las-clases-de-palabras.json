@@ -1,0 +1,209 @@
+{
+  "id": "g5-lengua-las-clases-de-palabras",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "las-clases-de-palabras",
+  "temaNombre": "Las clases de palabras",
+  "title": "Misión: El detective de palabras",
+  "summary": "Reconoce y clasifica las distintas clases de palabras para mejorar tu expresión oral y escrita.",
+  "keyIdeas": [
+    "Las palabras variables (sustantivos, adjetivos, determinantes, pronombres y verbos) cambian de género, número o tiempo.",
+    "Las palabras invariables (adverbios, preposiciones y conjunciones) nunca cambian de forma.",
+    "Cada clase de palabra cumple una función única para que nuestras oraciones tengan sentido completo."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-las-clases-de-palabras-01",
+      "type": "match",
+      "prompt": "Une cada clase de palabra con el ejemplo adecuado.",
+      "explanation": "Mochila nombra un objeto (sustantivo), brillante dice una cualidad (adjetivo), organizamos indica una acción (verbo) y rápidamente señala el modo en que se hace algo (adverbio).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Sustantivo",
+          "right": "mochila"
+        },
+        {
+          "left": "Adjetivo",
+          "right": "brillante"
+        },
+        {
+          "left": "Verbo",
+          "right": "organizamos"
+        },
+        {
+          "left": "Adverbio",
+          "right": "rápidamente"
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-02",
+      "type": "true-false",
+      "prompt": "Los adverbios y las preposiciones son palabras invariables porque no tienen género ni número.",
+      "explanation": "Es verdadero. Palabras como 'ayer', 'lejos', 'desde' o 'hacia' se mantienen siempre con la misma forma; nunca se ponen en plural ni en femenino.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-03",
+      "type": "choice",
+      "prompt": "En el recreo, Omar le dice a su amiga: «Hoy he corrido mucho en el patio». ¿Qué clase de palabra es «mucho» en esta oración?",
+      "explanation": "Aquí 'mucho' complementa directamente al verbo 'he corrido' expresando cantidad, por lo que funciona como un adverbio de cantidad.",
+      "hint": "Fíjate a qué palabra acompaña: ¿acompaña a un sustantivo o modifica al verbo?",
+      "lang": "es",
+      "options": [
+        "Un pronombre personal, porque sustituye a la persona que corre.",
+        "Un adverbio de cantidad, porque nos indica cuánto corrió y acompaña a un verbo.",
+        "Un sustantivo común, porque nombra una acción que ocurrió hoy.",
+        "Un adjetivo calificativo, porque describe cómo es el patio del colegio."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase de la excursión escolar eligiendo la preposición adecuada.",
+      "explanation": "'Hacia' es una preposición que indica dirección. En cambio, 'pero' es una conjunción y 'muy' es un adverbio.",
+      "lang": "es",
+      "sentence": "Caminamos juntos ___ la cima de la montaña para contemplar el valle.",
+      "options": [
+        "pero",
+        "hacia",
+        "muy"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-05",
+      "type": "reading",
+      "prompt": "Lee atentamente la crónica de Aisha para la revista escolar y contesta a las preguntas.",
+      "explanation": "Identificar palabras en un texto real te ayuda a comprender mejor el mensaje global y la función de cada elemento lingüístico.",
+      "lang": "es",
+      "title": "Un huerto lleno de vida",
+      "text": "El pasado viernes, la clase de quinto inauguró el huerto escolar detrás del gimnasio. Llevábamos semanas preparando la tierra con esmero y retirando piedras molestas. Hugo y Martina colocaron pequeños carteles de madera para identificar los tomates, las lechugas y las espinacas recién plantadas. De repente, una mariquita roja aterrizó sobre una hoja tierna. Todos guardamos un respetuoso silencio para observarla sin asustarla. El conserje, Antonio, nos explicó pacientemente que estos simpáticos insectos protegen los cultivos contra los pulgones dañinos. Gracias a esta experiencia, hemos comprendido que la naturaleza funciona en perfecto equilibrio y que cuidar el huerto exige constancia, compañerismo y mucha ilusión comunitaria.",
+      "questions": [
+        {
+          "prompt": "¿Por qué guardaron silencio los estudiantes al ver a la mariquita?",
+          "explanation": "El texto explica que guardaron un 'respetuoso silencio para observarla sin asustarla'.",
+          "options": [
+            "Porque querían observarla de cerca sin causarle miedo.",
+            "Porque el conserje les obligó a dejar de hablar de golpe.",
+            "Porque la mariquita emitía un sonido muy peligroso."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "En la frase «Antonio nos explicó pacientemente que estos simpáticos insectos protegen los cultivos», ¿qué clase de palabra es «pacientemente»?",
+          "explanation": "'Pacientemente' es un adverbio de modo terminado en '-mente' que describe la manera en que Antonio explicó la lección.",
+          "options": [
+            "Un sustantivo abstracto.",
+            "Un adjetivo calificativo.",
+            "Un adverbio de modo."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué conclusión general se desprende del trabajo de los alumnos en el huerto?",
+          "explanation": "La lectura destaca que cuidar el huerto requiere constancia y compañerismo, además de enseñar cómo los insectos ayudan al equilibrio natural.",
+          "options": [
+            "Que es mejor comprar verduras en el súper que perder tiempo sembrando.",
+            "Que los insectos siempre arruinan las plantas que se colocan en el colegio.",
+            "Que cultivar la tierra enseña a valorar la cooperación y la biodiversidad."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-06",
+      "type": "choice",
+      "prompt": "Encuentra el ERROR. Lucía ha analizado las palabras de la frase «Aquella bicicleta azul vuela velozmente», pero ha cometido un fallo en una etiqueta:",
+      "explanation": "El error está en clasificar 'azul' como pronombre; en realidad es un adjetivo calificativo porque acompaña al sustantivo 'bicicleta' y describe su color.",
+      "hint": "¿Qué clase de palabra nos dice una cualidad de un objeto?",
+      "lang": "es",
+      "options": [
+        "«azul» -> Pronombre personal",
+        "«Aquella» -> Determinante demostrativo",
+        "«bicicleta» -> Sustantivo común",
+        "«velozmente» -> Adverbio de modo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-07",
+      "type": "match",
+      "prompt": "Relaciona cada término gramatical con la función que cumple en nuestro idioma.",
+      "explanation": "Los pronombres reemplazan al sustantivo (ella, nosotros), las conjunciones enlazan (y, pero), las preposiciones unen términos subordinándolos (a, con, de) y los determinantes delimitan al nombre (el, este, mi).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Pronombre",
+          "right": "Sustituye a un nombre para no repetirlo"
+        },
+        {
+          "left": "Conjunción",
+          "right": "Une palabras u oraciones entre sí"
+        },
+        {
+          "left": "Preposición",
+          "right": "Relaciona palabras sirviendo de enlace"
+        },
+        {
+          "left": "Determinante",
+          "right": "Acompaña al sustantivo y lo concreta"
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-08",
+      "type": "choice",
+      "prompt": "Adrián está revisando su redacción sobre el campeonato de baloncesto: «Ayer jugamos bien, ___ perdimos en el último segundo». ¿Qué conjunción debe usar para conectar las dos oraciones expresando contraste?",
+      "explanation": "La conjunción 'pero' indica una contraposición entre jugar bien y haber perdido el partido en el último instante.",
+      "hint": "Busca la palabra que exprese un obstáculo o contraste entre las dos ideas.",
+      "lang": "es",
+      "options": [
+        "«pero», porque es una conjunción adversativa que une dos ideas opuestas.",
+        "«porque», porque es una conjunción que explica la causa del resultado.",
+        "«y», porque es una conjunción copulativa que solo añade más elementos iguales.",
+        "«si», porque introduce una condición para poder jugar el partido."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T19:35:43.850Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "id": "g6-ingles-textos-literarios-adaptados",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "textos-literarios-adaptados",
+  "temaNombre": "Textos literarios adaptados",
+  "title": "Aventuras con textos literarios adaptados",
+  "summary": "Explora y comprende historias clásicas de la literatura adaptadas al inglés.",
+  "keyIdeas": [
+    "Un texto adaptado simplifica el lenguaje de un clásico sin perder su emoción ni su mensaje.",
+    "Los elementos clave de un relato son los personajes (characters), el lugar (setting), la trama (plot) y la moraleja (moral).",
+    "Los conectores narrativos como 'suddenly' o 'finally' ayudan a entender el orden y las sorpresas del argumento."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "6.2"
+    ],
+    "descriptors": [
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP1",
+      "CP2",
+      "CP3",
+      "CPSAA1",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-textos-literarios-adaptados-01",
+      "type": "match",
+      "prompt": "Match each literary element with its correct meaning:",
+      "explanation": "Relacionamos cada concepto literario básico: character es el personaje, setting es el escenario, plot es el argumento y moral es la moraleja.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Character",
+          "right": "A person or animal in the story"
+        },
+        {
+          "left": "Setting",
+          "right": "The place and time where the story happens"
+        },
+        {
+          "left": "Plot",
+          "right": "The sequence of events and actions"
+        },
+        {
+          "left": "Moral",
+          "right": "The lesson or message of the tale"
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-textos-literarios-adaptados-02",
+      "type": "choice",
+      "prompt": "Read this sentence from an adapted story: 'The brave knight took his sword and defended the dark castle.' Which genre is this story?",
+      "explanation": "Elementos como 'knight' (caballero), 'sword' (espada) y 'castle' (castillo) pertenecen al género de aventuras y leyendas clásicas.",
+      "hint": "Piensa en cuentos antiguos de reyes y castillos.",
+      "lang": "en",
+      "options": [
+        "Adventure and legend",
+        "Modern sports comedy",
+        "Science fiction"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-textos-literarios-adaptados-03",
+      "type": "true-false",
+      "prompt": "An adapted literary text keeps the main story of an original classic, but uses simpler vocabulary and sentence structures.",
+      "explanation": "Las adaptaciones literarias mantienen la esencia y los personajes del relato original, pero adaptan el vocabulario para que podamos leerlo y disfrutarlo mejor.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-ingles-textos-literarios-adaptados-04",
+      "type": "fill-blank",
+      "prompt": "Choose the best adjective to complete this excerpt from an adapted version of 'Robin Hood':",
+      "explanation": "El adjetivo 'generous' (generoso) encaja con la acción de ayudar a las familias necesitadas.",
+      "hint": "Buscar una cualidad positiva sobre compartir.",
+      "lang": "en",
+      "sentence": "Robin Hood lived in Sherwood Forest and he was very ___ because he always helped poor families.",
+      "options": [
+        "lazy",
+        "selfish",
+        "generous"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-textos-literarios-adaptados-05",
+      "type": "classify",
+      "prompt": "Classify these elements from classic stories into 'Characters' or 'Settings':",
+      "explanation": "Los personajes (characters) son quienes actúan en la historia, mientras que los escenarios (settings) son los lugares donde transcurre la acción.",
+      "lang": "en",
+      "categories": [
+        "Characters",
+        "Settings"
+      ],
+      "items": [
+        {
+          "text": "Captain Hook",
+          "category": 0
+        },
+        {
+          "text": "Neverland",
+          "category": 1
+        },
+        {
+          "text": "Sherwood Forest",
+          "category": 1
+        },
+        {
+          "text": "Mowgli the jungle boy",
+          "category": 0
+        },
+        {
+          "text": "The White Rabbit",
+          "category": 0
+        },
+        {
+          "text": "A dark underground cave",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-textos-literarios-adaptados-06",
+      "type": "choice",
+      "prompt": "Read this adapted dialogue: 'Please Wendy, do not leave! The island is cold and lonely without you,' whispered Peter. How does Peter feel?",
+      "explanation": "Las palabras 'cold and lonely' (frío y solitario) y el ruego de que no se marche demuestran tristeza y temor a la soledad.",
+      "hint": "Fíjate en las palabras 'cold and lonely'.",
+      "lang": "en",
+      "options": [
+        "He feels sad and afraid of being alone.",
+        "He feels excited about an upcoming celebration.",
+        "He feels angry and wants to start an argument."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-textos-literarios-adaptados-07",
+      "type": "order",
+      "prompt": "Put the events of this adapted legend of 'King Arthur' in chronological order:",
+      "explanation": "La narración sigue un orden cronológico: presentación del protagonista, el reto que nadie supera, la hazaña de Arturo y su reinado final.",
+      "lang": "en",
+      "items": [
+        "Young Arthur lived quietly as a humble squire.",
+        "Many strong knights tried to pull the sword from the magic stone, but failed.",
+        "Arthur pulled the sword easily and discovered his royal destiny.",
+        "Arthur became the wise King of England and created the Round Table."
+      ]
+    },
+    {
+      "id": "g6-ingles-textos-literarios-adaptados-08",
+      "type": "fill-blank",
+      "prompt": "Choose the narrative connector that introduces an unexpected event in the story:",
+      "explanation": "'Suddenly' significa 'de repente' y es el conector que se utiliza para introducir un hecho sorpresivo o inesperado en una narración.",
+      "hint": "Significa 'de repente'.",
+      "lang": "en",
+      "sentence": "Alice was sitting quietly near the river. ___, a white rabbit with a golden watch ran past her!",
+      "options": [
+        "Suddenly",
+        "Yesterday",
+        "Finally"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-textos-literarios-adaptados-09",
+      "type": "reading",
+      "prompt": "Read this adapted excerpt from 'The Secret Garden' and answer the questions:",
+      "explanation": "Esta lectura adaptada de Frances Hodgson Burnett muestra cómo la curiosidad y la naturaleza guían el inicio de una gran aventura.",
+      "lang": "en",
+      "title": "The Mysterious Key",
+      "text": "Mary Lennox walked alone across the quiet gardens of Misselthwaite Manor. The morning was windy and cold, but Mary enjoyed exploring the open grounds. She stopped near a high stone wall covered with thick green ivy. Suddenly, a small robin hopped onto a pile of brown earth and began to sing a cheerful melody. Mary smiled because she felt a special connection with this little bird. As she watched the robin scratch the dirt, she noticed something bright shining under the dry leaves. She knelt down and picked up a heavy, rusty metal object. It was an old key! Mary held it with trembling hands. Could this key unlock the mysterious door that nobody had opened in ten years? Her heart beat fast as she looked at the ivy-covered wall. She knew her adventure was just beginning.",
+      "questions": [
+        {
+          "prompt": "What helped Mary discover the old key in the garden?",
+          "explanation": "El texto explica claramente que Mary vio algo brillante mientras observaba al petirrojo escarbar en la tierra.",
+          "options": [
+            "A friendly robin scratching the brown dirt.",
+            "An old gardener who gave it to her.",
+            "A strong wind that blew the heavy door open."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why were Mary's hands 'trembling' when she picked up the key?",
+          "explanation": "Tener las manos temblorosas y el corazón latiendo rápido indica emoción e intriga ante un gran descubrimiento misterioso.",
+          "options": [
+            "Because she was freezing and wanted to go home.",
+            "Because she was excited and nervous about solving a mystery.",
+            "Because the rusty key was dangerous and dirty."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why are adapted stories like this valuable for young readers?",
+          "explanation": "Los clásicos adaptados nos permiten conectar con emociones universales como la curiosidad y el descubrimiento a través de un lenguaje claro y motivador.",
+          "options": [
+            "They require students to memorize every word without understanding the plot.",
+            "They teach us historical facts about British gardening techniques.",
+            "They share universal emotions like curiosity and discovery in accessible English."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-textos-literarios-adaptados-10",
+      "type": "choice",
+      "prompt": "Lucía and Omar are reading an adapted version of 'Around the World in 80 Days'. During the trip, Phileas Fogg risks losing his famous bet to rescue a person in danger. What does this action show about the hero?",
+      "explanation": "La decisión del héroe demuestra que la empatía, la solidaridad y la vida humana están siempre por encima de cualquier recompensa material o competición.",
+      "hint": "Piensa en el valor moral del héroe frente al dinero.",
+      "lang": "en",
+      "options": [
+        "He did not care about the journey and wanted to quit.",
+        "Human lives and empathy are more valuable than winning a bet or prize.",
+        "Traveling by train is always safer than traveling by elephant."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T18:21:07.351Z",
+    "reviewed": false
+  }
+}

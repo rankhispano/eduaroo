@@ -1,0 +1,250 @@
+{
+  "id": "g6-lengua-generos-literarios",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "generos-literarios",
+  "temaNombre": "Géneros literarios",
+  "title": "Exploramos los grandes géneros literarios",
+  "summary": "Repasa las características, elementos y diferencias entre la narrativa, la lírica y el teatro.",
+  "keyIdeas": [
+    "La lírica expresa sentimientos y emociones, habitualmente en verso con ritmo y rima.",
+    "La narrativa cuenta historias mediante un narrador, con personajes, espacio y tiempo determinados.",
+    "El teatro o género dramático se basa en diálogos y acotaciones pensados para la representación."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "4.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "C. Educación literaria"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-generos-literarios-01",
+      "type": "true-false",
+      "prompt": "En las obras de teatro o género dramático, la historia avanza mediante los diálogos de los personajes y no existe una figura de narrador que cuente los hechos.",
+      "explanation": "El género dramático se caracteriza por la ausencia de narrador. La acción se desarrolla a través de las intervenciones directas de los personajes y las acotaciones.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-lengua-generos-literarios-02",
+      "type": "fill-blank",
+      "prompt": "Completa la definición con el término teatral adecuado:",
+      "explanation": "Las acotaciones son las notas que el dramaturgo incluye entre paréntesis para guiar a los actores y al director en la puesta en escena.",
+      "lang": "es",
+      "sentence": "En un guion teatral, las indicaciones del autor sobre los gestos, movimientos o decorado que van entre paréntesis se llaman ___.",
+      "options": [
+        "estrofas",
+        "acotaciones",
+        "capítulos",
+        "moralejas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-lengua-generos-literarios-03",
+      "type": "classify",
+      "prompt": "Clasifica cada una de estas obras o textos en su género literario correspondiente:",
+      "explanation": "Las novelas y leyendas relatan historias (narrativa), los poemas expresan sentimientos subjetivos (lírica) y las comedias o piezas teatrales están pensadas para representarse (dramática).",
+      "lang": "es",
+      "categories": [
+        "Género narrativo",
+        "Género lírico",
+        "Género dramático"
+      ],
+      "items": [
+        {
+          "text": "Una novela de misterio dividida en diez capítulos",
+          "category": 0
+        },
+        {
+          "text": "Un poema de tres estrofas dedicado a la llegada del otoño",
+          "category": 1
+        },
+        {
+          "text": "Una comedia dividida en dos actos para ser representada",
+          "category": 2
+        },
+        {
+          "text": "Una leyenda popular sobre el origen de un lago encantado",
+          "category": 0
+        },
+        {
+          "text": "Una oda que expresa el amor y la admiración hacia el mar",
+          "category": 1
+        },
+        {
+          "text": "Un entremés breve con diálogos y acotaciones escénicas",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-generos-literarios-04",
+      "type": "match",
+      "prompt": "Relaciona cada género literario con sus elementos característicos:",
+      "explanation": "Cada género literario emplea recursos propios: la narrativa relata sucesos, la lírica trabaja la musicalidad y los sentimientos, y el teatro estructura la acción en escenas dialogadas.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Género narrativo",
+          "right": "Narrador, trama, personajes y ambientación"
+        },
+        {
+          "left": "Género lírico",
+          "right": "Versos, estrofas, ritmo y rima"
+        },
+        {
+          "left": "Género dramático",
+          "right": "Actos, escenas, diálogos y acotaciones"
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-generos-literarios-05",
+      "type": "choice",
+      "prompt": "En la biblioteca del colegio, cuatro estudiantes debaten sobre literatura. ¿Quién ha cometido un ERROR en su afirmación?",
+      "explanation": "Hugo se equivoca porque la lírica no exige rima consonante obligatoria; existen poemas con rima asonante y también poemas en verso libre sin rima.",
+      "hint": "Fíjate en las normas sobre la rima en la poesía.",
+      "lang": "es",
+      "options": [
+        "Omar: «En el teatro, las acotaciones indican movimientos, tono de voz o detalles del decorado».",
+        "Lucía: «El género lírico se centra fundamentalmente en la transmisión de emociones y reflexiones íntimas».",
+        "Aisha: «Las novelas y los cuentos pertenecen a la narrativa porque cuentan una historia con un narrador».",
+        "Hugo: «Un poema solo pertenece al género lírico si tiene rima consonante obligatoria en todos sus versos»."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-lengua-generos-literarios-06",
+      "type": "choice",
+      "prompt": "Lee este fragmento escrito por Marcos: «Caminé despacio hacia la vieja buhardilla y abrí el baúl con temor. Jamás imaginé lo que encontraría allí dentro». ¿Qué tipo de narrador y género literario presenta?",
+      "explanation": "El texto relata acontecimientos en prosa y el narrador habla de sí mismo en primera persona («caminé», «abrí», «imaginé»), por lo que es un narrador protagonista dentro de la narrativa.",
+      "lang": "es",
+      "options": [
+        "Voz poética en verso libre dentro del género lírico.",
+        "Narrador omnisciente en tercera persona dentro del género lírico.",
+        "Diálogo teatral con acotaciones dentro del género dramático.",
+        "Narrador en primera persona (protagonista) dentro del género narrativo."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-lengua-generos-literarios-07",
+      "type": "order",
+      "prompt": "Ordena cronológicamente las partes fundamentales de la estructura clásica de un texto narrativo:",
+      "explanation": "La estructura narrativa tradicional se organiza en tres momentos clave: planteamiento (inicio), nudo (conflicto) y desenlace (resolución).",
+      "lang": "es",
+      "items": [
+        "Planteamiento: presentación de los personajes, el lugar y la situación inicial.",
+        "Nudo: surge un conflicto o problema que altera la situación inicial.",
+        "Desenlace: resolución final del conflicto y cierre de la historia."
+      ]
+    },
+    {
+      "id": "g6-lengua-generos-literarios-08",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto sobre el ensayo de una función escolar y responde a las preguntas:",
+      "explanation": "Comprender la diferencia entre leer una historia narrada y leer un texto dramático ayuda a identificar el propósito y la estructura de cada género literario.",
+      "lang": "es",
+      "title": "El misterio entre bambalinas",
+      "text": "El grupo de sexto preparaba la obra de fin de curso en el salón de actos. Sofía sostenía el libreto con fuerza y recitaba su intervención:\n—VALENTINA: (Dando un paso al frente y mirando al cielo con inquietud). No podemos cruzar el río antes del anochecer. La corriente arrastra secretos muy antiguos.\nDe pronto, el profesor detuvo el ensayo. Sofía había olvidado la acotación y sonreía mientras hablaba en lugar de mostrar preocupación.\n—Recuerda, Sofía —explicó el maestro con amabilidad—, en el teatro no solo importan las palabras del diálogo, sino cómo transmites las emociones del personaje con tus gestos y tu postura corporal.\nSofía asintió, respiró hondo y repitió la escena. Esta vez, su voz temblaba y su mirada transmitía una auténtica zozobra. Todo el auditorio quedó en silencio, conteniendo la respiración ante la magia del escenario.",
+      "questions": [
+        {
+          "prompt": "¿Qué indicaba la acotación que Sofía no realizó en su primer intento?",
+          "explanation": "En el texto se indica explícitamente entre paréntesis: «(Dando un paso al frente y mirando al cielo con inquietud)».",
+          "options": [
+            "Cruzar el río nadando antes del anochecer.",
+            "Sonreír y hablar con voz muy fuerte hacia el público.",
+            "Dar un paso al frente y mirar al cielo con inquietud.",
+            "Quedarse quieta en el centro del escenario en silencio."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué era incoherente que Sofía sonriera durante la escena?",
+          "explanation": "El diálogo habla de no cruzar por el peligro de la corriente; una sonrisa contradice el sentimiento de angustia y seriedad que requería la escena.",
+          "options": [
+            "Porque las palabras de Valentina expresaban peligro y temor ante el río.",
+            "Porque el director quería que la obra durase menos tiempo.",
+            "Porque el guion era una comedia de risa continua.",
+            "Porque los personajes de teatro nunca pueden sonreír en el escenario."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué rasgo demuestra que este texto es un relato narrativo y no una obra de teatro?",
+          "explanation": "El texto es narrativo porque una voz externa (narrador) nos relata lo sucedido en el ensayo, aunque dentro del relato se cite un breve diálogo teatral.",
+          "options": [
+            "Está escrito en verso con rima consonante regular.",
+            "No incluye ningún tipo de diálogo entre los personajes.",
+            "Carece por completo de personajes y de espacio definido.",
+            "Tiene un narrador en tercera persona que describe lo que hacen Sofía y el maestro."
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-generos-literarios-09",
+      "type": "choice",
+      "prompt": "Analiza estos versos creados por Nerea:\n«Vuela el viento entre las ramas\nsusurrando su cantar,\nmientras brillan las mañanas\njunto a la orilla del mar.»\n¿A qué género literario pertenece y qué tipo de rima presentan los versos pares (cantar / mar)?",
+      "explanation": "Pertenece a la lírica porque es un poema en estrofa. En los versos pares (cantar / mar) coinciden todas las letras a partir de la última vocal acentuada (-ar), lo que define la rima consonante.",
+      "hint": "Comprueba si coinciden solo las vocales o también las consonantes.",
+      "lang": "es",
+      "options": [
+        "Género lírico, con rima asonante en los versos pares.",
+        "Género dramático, con verso libre y sin rima.",
+        "Género narrativo, con rima asonante en todos los versos.",
+        "Género lírico, con rima consonante en los versos pares."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-lengua-generos-literarios-10",
+      "type": "choice",
+      "prompt": "Adrián quiere transformar este fragmento narrativo en un texto dramático: «La capitana miró fijamente el mapa, suspiró con cansancio y le ordenó al grumete que izara las velas de inmediato». ¿Cuál es la adaptación teatral correcta?",
+      "explanation": "En el género dramático se suprime el narrador: el nombre del personaje da paso a su parlamento directo y las acciones físicas o estados de ánimo se integran como acotaciones entre paréntesis.",
+      "lang": "es",
+      "options": [
+        "CAPITANA: (Mirando fijamente el mapa y suspirando con cansancio). ¡Iza las velas de inmediato, grumete!",
+        "La capitana: miraba el mapa mientras el narrador explicaba que estaba muy cansada.",
+        "Érase una vez una capitana que suspiró y le dijo al grumete que izara las velas.",
+        "CAPITANA: (Gritando muy alegre). El mapa es bonito y no quiero navegar hoy."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:24:13.281Z",
+    "reviewed": false
+  }
+}

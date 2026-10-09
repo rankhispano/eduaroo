@@ -1,0 +1,251 @@
+{
+  "id": "g6-sociales-la-ue-historia-e-instituciones",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "la-ue-historia-e-instituciones",
+  "temaNombre": "La UE: historia e instituciones",
+  "title": "La aventura de la Unión Europea",
+  "summary": "Repasa el origen histórico, los tratados fundamentales y las principales instituciones de la Unión Europea.",
+  "keyIdeas": [
+    "La Unión Europea nació tras la Segunda Guerra Mundial para garantizar la paz duradera y la cooperación económica entre los países miembros.",
+    "Las instituciones principales son el Parlamento Europeo, la Comisión Europea, el Consejo de la UE y el Tribunal de Justicia.",
+    "España se incorporó a la Comunidad Económica Europea en 1986, lo que impulsó su modernización democrática y económica."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE7",
+      "CE9"
+    ],
+    "criteria": [
+      "7.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CCL5",
+      "CE2",
+      "CPSAA1",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-01",
+      "type": "choice",
+      "prompt": "En el colegio de Lucía van a celebrar el Día de Europa decorando los pasillos con banderas. ¿En qué fecha se conmemora cada año este día tan especial? 🇪🇺",
+      "explanation": "El 9 de mayo se celebra el Día de Europa en recuerdo de la Declaración Schuman de 1950, considerada el inicio de la Unión Europea.",
+      "hint": "Recuerda que coincide con el aniversario de la histórica declaración de Robert Schuman en la primavera de 1950.",
+      "lang": "es",
+      "options": [
+        "El 9 de mayo",
+        "El 6 de diciembre",
+        "El 12 de octubre",
+        "El 1 de enero"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-02",
+      "type": "true-false",
+      "prompt": "Las ciudadanas y los ciudadanos de la Unión Europea eligen a los miembros del Parlamento Europeo mediante votación directa cada cinco años.",
+      "explanation": "Es verdadero. El Parlamento Europeo es la única institución comunitaria cuyos miembros son elegidos directamente por el sufragio de los ciudadanos de los países miembros.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el año correspondiente.",
+      "explanation": "España firmó el tratado de adhesión en 1985 y pasó a ser miembro oficial de pleno derecho el 1 de enero de 1986, junto con Portugal.",
+      "hint": "Ocurrió ocho años después de aprobar la Constitución española.",
+      "lang": "es",
+      "sentence": "España se convirtió en miembro oficial de la Comunidad Económica Europea en el año ___.",
+      "options": [
+        "1986",
+        "2002",
+        "1978",
+        "1992"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-04",
+      "type": "match",
+      "prompt": "Une cada institución de la Unión Europea con su función principal:",
+      "explanation": "Cada institución tiene una función clave para garantizar el equilibrio democrático entre los intereses comunes, los gobiernos de los países y la ciudadanía.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Parlamento Europeo",
+          "right": "Representa a la ciudadanía y aprueba leyes y presupuestos"
+        },
+        {
+          "left": "Comisión Europea",
+          "right": "Propone nuevas leyes y vigila que se cumplan los tratados"
+        },
+        {
+          "left": "Tribunal de Justicia de la UE",
+          "right": "Garantiza que el derecho europeo se aplique igual en todos los países"
+        },
+        {
+          "left": "Consejo Europeo",
+          "right": "Reúne a jefes de Estado o de Gobierno para fijar las directrices políticas"
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-05",
+      "type": "order",
+      "prompt": "Ordena cronológicamente estos hitos fundamentales en la historia de la Unión Europea, desde el más antiguo hasta el más reciente:",
+      "explanation": "La integración europea comenzó con la CECA (1951), siguió con el Tratado de Roma (1957), la adhesión española (1986), el Tratado de Maastricht (1992) y la llegada física del euro a nuestros bolsillos (2002).",
+      "lang": "es",
+      "items": [
+        "Creación de la Comunidad Europea del Carbón y del Acero (CECA)",
+        "Firma del Tratado de Roma que crea la CEE",
+        "Entrada de España y Portugal en la Comunidad Europea",
+        "Firma del Tratado de Maastricht y nacimiento formal de la UE",
+        "Entrada en circulación de las monedas y billetes de euro"
+      ]
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-06",
+      "type": "classify",
+      "prompt": "Clasifica estas tareas y características según correspondan al Parlamento Europeo o a la Comisión Europea:",
+      "explanation": "El Parlamento representa la voluntad ciudadana a través del voto, mientras que la Comisión actúa como órgano ejecutivo que vela por el interés general europeo.",
+      "lang": "es",
+      "categories": [
+        "Parlamento Europeo",
+        "Comisión Europea"
+      ],
+      "items": [
+        {
+          "text": "Sus miembros son elegidos directamente por la ciudadanía europea cada cinco años",
+          "category": 0
+        },
+        {
+          "text": "Tiene la iniciativa exclusiva de redactar y proponer las leyes europeas",
+          "category": 1
+        },
+        {
+          "text": "Debate y vota las leyes comunitarias junto con el Consejo de la UE",
+          "category": 0
+        },
+        {
+          "text": "Gestiona y ejecuta el presupuesto comunitario en el día a día",
+          "category": 1
+        },
+        {
+          "text": "Controla políticamente a las demás instituciones y aprueba la investidura de la Comisión",
+          "category": 0
+        },
+        {
+          "text": "Actúa como guardiana de los tratados y representa a la UE en negociaciones comerciales",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-07",
+      "type": "choice",
+      "prompt": "Al terminar la Segunda Guerra Mundial en 1945, los países europeos estaban devastados. ¿Cuál fue la causa principal por la que decidieron poner en común la producción del carbón y del acero en la CECA?",
+      "explanation": "El carbón y el acero eran los materiales indispensables para la industria armamentística. Al compartirlos bajo una autoridad común, una guerra entre Francia y Alemania se volvía materialmente imposible.",
+      "hint": "Piensa en qué materiales se necesitaban para fabricar tanques, puentes y armamento.",
+      "lang": "es",
+      "options": [
+        "Hacer inviable una nueva guerra entre ellos, al compartir las industrias básicas con las que se fabricaba armamento militar",
+        "Descubrir nuevos yacimientos minerales en otros continentes y crear una empresa privada mundial",
+        "Obligar a todos los países europeos a tener las mismas leyes de educación y sanidad",
+        "Sustituir inmediatamente todas las monedas nacionales por una moneda única para abaratar costes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-08",
+      "type": "choice",
+      "prompt": "Omar y su familia viajan de vacaciones desde Valencia hasta Múnich (Alemania) en coche, cruzando Francia. No tienen que cambiar de dinero ni parar en puestos de control fronterizo. ¿Qué dos logros comunitarios explican esta situación?",
+      "explanation": "El euro permite usar la misma moneda en los países de la Eurozona, y el acuerdo de Schengen suprimió los controles en las fronteras interiores de la mayoría de países europeos.",
+      "hint": "Uno se refiere a la moneda que usamos a diario y el otro a viajar sin pasaporte entre países europeos socios.",
+      "lang": "es",
+      "options": [
+        "El Tratado de París y la Política Pesquera Común",
+        "El Banco Central Europeo y la Carta de las Naciones Unidas",
+        "La Eurozona (moneda común) y el Espacio Schengen (libre circulación de personas)",
+        "La Declaración Schuman y los fondos del Tribunal de Cuentas Europeo"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-09",
+      "type": "reading",
+      "prompt": "Lee atentamente el siguiente texto sobre una figura clave de la historia comunitaria y responde a las preguntas:",
+      "explanation": "La lectura analiza la figura de Simone Veil y muestra los valores democráticos y de paz que sustentan el proyecto europeo.",
+      "lang": "es",
+      "title": "Simone Veil: una constructora de la paz europea",
+      "text": "Tras la devastación de la Segunda Guerra Mundial, Europa decidió unirse para asegurar una convivencia pacífica. En 1979 se alcanzó un hito histórico: las primeras elecciones por sufragio universal directo al Parlamento Europeo. En esa legislatura se eligió presidenta a la jurista francesa Simone Veil, convirtiéndose en la primera mujer al frente de esta institución comunitaria.\n\nSimone Veil, que había sobrevivido en su juventud a los campos de concentración nazis, dedicó su vocación pública a defender la reconciliación entre los pueblos y la protección irrenunciable de los derechos humanos. Durante su mandato, impulsó con firmeza que el Parlamento fuera la voz democrática directa de la ciudadanía europea y promovió debates fundamentales sobre la solidaridad social y la igualdad efectiva entre mujeres y hombres.\n\nSu trayectoria recuerda que el proyecto europeo se consolidó no solo como un acuerdo mercantil, sino como un compromiso ético indispensable para impedir que regresara el horror bélico a nuestro continente.",
+      "questions": [
+        {
+          "prompt": "¿Qué hecho histórico protagonizó Simone Veil en el año 1979 dentro del Parlamento Europeo?",
+          "explanation": "El texto explica claramente que en 1979 fue elegida presidenta del Parlamento, convirtiéndose en la primera mujer al frente de esta institución.",
+          "options": [
+            "Diseñó la bandera azul con doce estrellas amarillas y el himno comunitario",
+            "Redactó en solitario el Tratado de Roma que fundó la Comunidad Económica Europea",
+            "Fue elegida presidenta del Parlamento Europeo, siendo la primera mujer en ocupar el cargo"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "A partir de su experiencia como superviviente de la guerra, ¿qué pretendía garantizar Simone Veil mediante la construcción europea?",
+          "explanation": "El texto deduce que su pasado la llevó a defender la reconciliación, los derechos humanos y la prevención de tragedias bélicas.",
+          "options": [
+            "Limitar la entrada de personas de otros países para evitar discusiones políticas",
+            "Que un único país europeo gobernara sobre todos los demás para imponer el orden",
+            "La reconciliación entre las naciones europeas para evitar que los horrores bélicos volvieran a repetirse jamás"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué el texto sostiene que la Unión Europea es 'más que un acuerdo mercantil'?",
+          "explanation": "El proyecto europeo une la cooperación económica con la defensa activa de la libertad, la justicia social, la paz y los derechos fundamentales.",
+          "options": [
+            "Porque se fundamenta en valores éticos como la paz, la igualdad y los derechos de la ciudadanía, no solo en comerciar",
+            "Porque prohíbe el comercio de mercancías entre los países miembros de la Unión",
+            "Porque su única finalidad desde el principio fue organizar competiciones deportivas continentales"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-10",
+      "type": "choice",
+      "prompt": "El Parlamento Europeo y el Consejo de la UE han aprobado una directiva para reducir los plásticos de un solo uso en toda Europa. ¿Qué consecuencia tiene esta decisión en el pueblo o ciudad donde vives?",
+      "explanation": "Las directivas europeas son de obligado cumplimiento: todos los países miembros deben incorporar sus objetivos a la legislación nacional, afectando directamente a nuestra vida diaria y hábitos sostenibles.",
+      "hint": "Las normas aprobadas por las instituciones europeas vinculan a todos los países de la Unión, incluido el tuyo.",
+      "lang": "es",
+      "options": [
+        "España debe adaptar sus leyes para prohibir o sustituir esos plásticos, afectando a las tiendas y comercios de nuestra localidad",
+        "Solo afectará a las tiendas de Bruselas y Estrasburgo, porque las normas comunitarias no se aplican en España",
+        "Ninguna, porque las leyes aprobadas en Europa son sugerencias voluntarias que cada ayuntamiento puede ignorar",
+        "El ayuntamiento local debe inventar una moneda distinta para cobrar esos envases plásticos"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:46:12.821Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "id": "g3-mates-perimetro",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "perimetro",
+  "temaNombre": "Perímetro",
+  "title": "Mide y rodea: el perímetro",
+  "summary": "Aprenderás a calcular el perímetro sumando los lados de diferentes figuras en situaciones cotidianas.",
+  "keyIdeas": [
+    "El perímetro es la suma de las longitudes de todos los lados de una figura.",
+    "Para calcularlo, debemos medir todos los lados en la misma unidad (metros o centímetros).",
+    "En figuras con lados iguales, como el cuadrado, podemos usar la multiplicación."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "6.2"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica",
+      "B. Sentido de la medida › Medición",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-perimetro-01",
+      "type": "true-false",
+      "prompt": "El perímetro de un polígono es la suma de las longitudes de todos sus lados.",
+      "explanation": "El perímetro mide la longitud total del contorno de una figura plana sumando cada uno de sus lados.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-perimetro-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el marco de una foto cuadrada.",
+      "explanation": "Un cuadrado tiene 4 lados iguales: 10 + 10 + 10 + 10 = 40 cm (o 4 × 10 = 40 cm).",
+      "hint": "Recuerda que un cuadrado tiene cuatro lados iguales.",
+      "lang": "es",
+      "sentence": "Un portaretratos cuadrado tiene 10 cm en cada lado. Su contorno mide ___ cm en total.",
+      "options": [
+        "20",
+        "40",
+        "100"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-perimetro-03",
+      "type": "choice",
+      "prompt": "Aisha quiere poner una cinta alrededor de una tarjeta rectangular de 8 cm de largo y 5 cm de ancho. ¿Cuánta cinta necesita?",
+      "explanation": "El rectángulo tiene lados opuestos iguales: 8 + 5 + 8 + 5 = 26 cm de cinta en total.",
+      "hint": "No olvides sumar los cuatro lados del rectángulo.",
+      "lang": "es",
+      "options": [
+        "40 cm",
+        "13 cm",
+        "26 cm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-perimetro-04",
+      "type": "match",
+      "prompt": "Une cada figura con su perímetro correspondiente:",
+      "explanation": "Triángulo: 6 + 6 + 6 = 18 cm. Cuadrado: 4 × 7 = 28 cm. Rectángulo: 10 + 4 + 10 + 4 = 28 cm. Pentágono: 5 × 3 = 15 cm.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Triángulo con lados de 6 cm, 6 cm y 6 cm",
+          "right": "18 cm"
+        },
+        {
+          "left": "Cuadrado de 7 cm de lado",
+          "right": "28 cm"
+        },
+        {
+          "left": "Rectángulo de 10 cm de largo y 4 cm de ancho",
+          "right": "28 cm (rectángulo)"
+        },
+        {
+          "left": "Pentágono regular de 3 cm de lado",
+          "right": "15 cm"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-perimetro-05",
+      "type": "order",
+      "prompt": "Ordena los pasos para hallar el perímetro de la mesa de clase:",
+      "explanation": "Primero observamos los lados, medimos cada uno, anotamos las cifras y finalmente las sumamos todas.",
+      "lang": "es",
+      "items": [
+        "Identificar la forma de la mesa y cuántos lados tiene.",
+        "Medir la longitud de cada uno de los lados con una regla o cinta.",
+        "Anotar todas las medidas en la misma unidad.",
+        "Sumar la longitud de todos los lados para obtener el resultado."
+      ]
+    },
+    {
+      "id": "g3-mates-perimetro-06",
+      "type": "choice",
+      "prompt": "Cálculo mental: Estima el perímetro de una alfombra cuadrada de 19 cm de lado aproximando al número redondo más cercano.",
+      "explanation": "Aproximamos 19 cm a 20 cm. Al tener 4 lados iguales: 4 × 20 = 80 cm aproximadamente.",
+      "hint": "Redondea 19 a la decena más cercana antes de multiplicar por 4.",
+      "lang": "es",
+      "options": [
+        "80 cm",
+        "60 cm",
+        "40 cm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-perimetro-07",
+      "type": "choice",
+      "prompt": "¡Encuentra el error! 🔍 Omar calculó el perímetro de un campo rectangular de 30 m de largo y 15 m de ancho así: «30 + 15 = 45 m». ¿Qué error cometió?",
+      "explanation": "Un rectángulo tiene 4 lados. Omar solo sumó dos lados. El cálculo correcto es 30 + 15 + 30 + 15 = 90 m.",
+      "hint": "Piensa en cuántos lados tiene un campo rectangular.",
+      "lang": "es",
+      "options": [
+        "Solo sumó dos lados y olvidó sumar los otros dos lados del rectángulo.",
+        "Tenía que multiplicar 30 × 15 en lugar de sumar.",
+        "El resultado de 30 + 15 no es 45."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-perimetro-08",
+      "type": "classify",
+      "prompt": "Clasifica estas figuras según tengan un perímetro mayor o menor que 20 cm:",
+      "explanation": "Calculamos cada perímetro: 4×4=16 cm (<20), 3×6=18 cm (<20), 4×6=24 cm (>20), 7+4+7+4=22 cm (>20), 4×3=12 cm (<20) y 6×5=30 cm (>20).",
+      "lang": "es",
+      "categories": [
+        "Perímetro menor que 20 cm",
+        "Perímetro mayor que 20 cm"
+      ],
+      "items": [
+        {
+          "text": "Cuadrado de 4 cm de lado",
+          "category": 0
+        },
+        {
+          "text": "Triángulo equilátero de 6 cm de lado",
+          "category": 0
+        },
+        {
+          "text": "Cuadrado de 6 cm de lado",
+          "category": 1
+        },
+        {
+          "text": "Rectángulo de 7 cm de largo y 4 cm de ancho",
+          "category": 1
+        },
+        {
+          "text": "Rombo de 3 cm de lado",
+          "category": 0
+        },
+        {
+          "text": "Hexágono regular de 5 cm de lado",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-perimetro-09",
+      "type": "choice",
+      "prompt": "El huerto escolar tiene forma de triángulo con lados de 12 m, 15 m y 18 m. Para vallarlo, compran una valla de 50 m. ¿Cuántos metros de valla sobrarán?",
+      "explanation": "Primero sumamos los lados: 12 + 15 + 18 = 45 m. Luego restamos del total comprado: 50 - 45 = 5 m sobrantes.",
+      "hint": "Problema de dos pasos: primero halla el perímetro y luego resta.",
+      "lang": "es",
+      "options": [
+        "5 m",
+        "45 m",
+        "15 m"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-perimetro-10",
+      "type": "fill-blank",
+      "prompt": "El gran reto: averigua el lado desconocido.",
+      "explanation": "Los dos lados largos suman 8 + 8 = 16 cm. Quedan 24 - 16 = 8 cm a repartir entre los dos lados cortos: 8 ÷ 2 = 4 cm cada uno.",
+      "hint": "Resta los dos lados conocidos al total y reparte lo que queda entre dos.",
+      "lang": "es",
+      "sentence": "El perímetro de un rectángulo es 24 cm. Si sus dos lados largos miden 8 cm cada uno, cada lado corto mide ___ cm.",
+      "options": [
+        "6",
+        "8",
+        "4"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:11:09.076Z",
+    "reviewed": false
+  }
+}

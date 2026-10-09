@@ -1,0 +1,257 @@
+{
+  "id": "g3-naturales-nutricion-en-plantas-y-animales",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "nutricion-en-plantas-y-animales",
+  "temaNombre": "Nutrición en plantas y animales",
+  "title": "La nutrición de plantas y animales",
+  "summary": "Repasa cómo consiguen energía las plantas fabricando su alimento y los animales alimentándose de otros seres vivos.",
+  "keyIdeas": [
+    "Las plantas fabrican su propio alimento mediante agua, aire y luz solar.",
+    "Los animales no fabrican alimento; comen plantas, carne o ambas cosas.",
+    "Según su dieta, los animales son herbívoros, carnívoros u omnívoros."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-01",
+      "type": "true-false",
+      "prompt": "Los animales fabrican su propio alimento gracias a la luz del sol, igual que las plantas.",
+      "explanation": "Los animales no pueden fabricar su propio alimento. Necesitan conseguir energía comiendo plantas o a otros animales.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-02",
+      "type": "classify",
+      "prompt": "Clasifica a estos animales según el tipo de alimento que consumen en la naturaleza:",
+      "explanation": "Los herbívoros comen plantas, los carnívoros comen carne y los omnívoros comen tanto vegetales como animales.",
+      "lang": "es",
+      "categories": [
+        "Herbívoros",
+        "Carnívoros",
+        "Omnívoros"
+      ],
+      "items": [
+        {
+          "text": "Conejo de campo",
+          "category": 0
+        },
+        {
+          "text": "León",
+          "category": 1
+        },
+        {
+          "text": "Oso pardo",
+          "category": 2
+        },
+        {
+          "text": "Vaca",
+          "category": 0
+        },
+        {
+          "text": "Águila real",
+          "category": 1
+        },
+        {
+          "text": "Jabalí",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre cómo beben las plantas.",
+      "explanation": "La raíz sujeta la planta al suelo y absorbe agua con sales minerales disueltas.",
+      "hint": "Es la parte de la planta que suele estar enterrada bajo tierra.",
+      "lang": "es",
+      "sentence": "Las plantas absorben el agua y las sales minerales del suelo a través de la ___.",
+      "options": [
+        "flor",
+        "hoja",
+        "raíz"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-04",
+      "type": "match",
+      "prompt": "Une cada elemento con la parte o el lugar de donde lo obtiene la planta:",
+      "explanation": "Las plantas toman agua y sales por la raíz, mientras que captan luz y dióxido de carbono por las hojas.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Agua y sales",
+          "right": "Suelo mediante la raíz"
+        },
+        {
+          "left": "Dióxido de carbono",
+          "right": "Aire a través de las hojas"
+        },
+        {
+          "left": "Luz solar",
+          "right": "Sol captado por las hojas"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-05",
+      "type": "order",
+      "prompt": "Ordena los pasos del proceso de nutrición de una planta verde:",
+      "explanation": "Primero la raíz absorbe agua, luego esta sube a las hojas, allí se elabora el alimento y finalmente se distribuye.",
+      "lang": "es",
+      "items": [
+        "La raíz absorbe agua y sales minerales del suelo húmedo.",
+        "La mezcla de agua y sales sube por el tallo.",
+        "Las hojas usan la luz del sol y el aire para hacer alimento.",
+        "El alimento fabricado se reparte por toda la planta."
+      ]
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-06",
+      "type": "choice",
+      "prompt": "Adrián afirma: «Las plantas comen tierra para alimentarse y crecer». ¿Cuál es el error de su idea?",
+      "explanation": "Las plantas no comen tierra. Usan el agua del suelo y fabrican su propia materia orgánica en las hojas.",
+      "hint": "Recuerda que las plantas son productoras y crean su propia comida.",
+      "lang": "es",
+      "options": [
+        "Las plantas no usan nada del suelo y solo necesitan aire para vivir.",
+        "Las plantas solo comen piedras pequeñas que encuentran en el suelo.",
+        "Las plantas no comen tierra; fabrican su alimento usando agua, aire y luz."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-07",
+      "type": "choice",
+      "prompt": "Lucía riega dos plantas iguales. Una recibe luz solar y la otra está encerrada en un armario oscuro. ¿Qué ocurrirá?",
+      "explanation": "Sin luz del sol, las plantas no pueden realizar la fotosíntesis para nutrirse y no sobreviven.",
+      "lang": "es",
+      "options": [
+        "Las dos plantas crecerán igual porque el agua es lo único necesario.",
+        "La planta del armario crecerá mucho más rápido porque descansará mejor.",
+        "La planta del armario no podrá fabricar alimento y terminará marchitándose."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-08",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas:",
+      "explanation": "Las plantas fabrican su comida con luz, agua y aire. Los animales deben comer otros seres vivos para alimentarse.",
+      "lang": "es",
+      "title": "El huerto de Aisha",
+      "text": "Aisha cuida el huerto de su colegio con mucho cariño. Ella riega los tomates cada mañana. Sabe bien que las raíces toman agua y sales de la tierra. Además, las hojas verdes reciben luz solar y un gas del aire llamado dióxido de carbono. Con todo esto, las tomateras fabrican su propio alimento y expulsan oxígeno. Cerca de allí, un caracol y un mirlo visitan el huerto a diario. El caracol come hojas tiernas de lechuga, así que es herbívoro. En cambio, el mirlo busca gusanos en el suelo y también come moras dulces, por lo que es omnívoro.",
+      "questions": [
+        {
+          "prompt": "¿Qué gas toman las hojas de la tomatera del aire para producir su alimento?",
+          "explanation": "El texto explica que las hojas toman dióxido de carbono del aire para fabricar su alimento.",
+          "options": [
+            "Vapor de agua",
+            "Oxígeno puro",
+            "Dióxido de carbono"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué el mirlo del huerto se clasifica como omnívoro?",
+          "explanation": "Un animal omnívoro es aquel que se alimenta de alimentos de origen vegetal y animal.",
+          "options": [
+            "Porque únicamente se alimenta de hojas tiernas de lechuga.",
+            "Porque fabrica su propio alimento con ayuda de la luz solar.",
+            "Porque come tanto animales (gusanos) como plantas (moras)."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-09",
+      "type": "choice",
+      "prompt": "Hugo cuida un conejo que come heno y una tortuga que come pequeños peces e insectos. ¿Cómo se clasifican?",
+      "explanation": "El conejo solo come vegetales, por lo que es herbívoro. La tortuga come animales, así que es carnívora.",
+      "hint": "Fíjate en qué come cada una de las dos mascotas.",
+      "lang": "es",
+      "options": [
+        "El conejo es herbívoro y la tortuga es carnívora.",
+        "Ambos animales son herbívoros porque viven en una casa.",
+        "El conejo es omnívoro y la tortuga es herbívora."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-10",
+      "type": "classify",
+      "prompt": "Clasifica cada afirmación según describa la nutrición de las plantas o de los animales:",
+      "explanation": "Las plantas son seres autótrofos que fabrican su alimento. Los animales son heterótrofos y se alimentan de otros seres.",
+      "lang": "es",
+      "categories": [
+        "Nutrición de las plantas",
+        "Nutrición de los animales"
+      ],
+      "items": [
+        {
+          "text": "Fabrican su propio alimento con ayuda de la luz solar",
+          "category": 0
+        },
+        {
+          "text": "Consiguen nutrientes comiendo a otros seres vivos",
+          "category": 1
+        },
+        {
+          "text": "Absorben agua y sales minerales por la raíz",
+          "category": 0
+        },
+        {
+          "text": "Se clasifican en herbívoros, carnívoros u omnívoros",
+          "category": 1
+        },
+        {
+          "text": "Expulsan oxígeno al aire mientras elaboran su alimento",
+          "category": 0
+        },
+        {
+          "text": "Buscan y capturan su alimento en el entorno",
+          "category": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:53:40.468Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "id": "g2-naturales-habitos-saludables",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "habitos-saludables",
+  "temaNombre": "Hábitos saludables",
+  "title": "Cuidamos nuestro cuerpo cada día",
+  "summary": "Aprenderás a cuidar tu cuerpo con buena comida, higiene, deporte y descanso.",
+  "keyIdeas": [
+    "Comer frutas y verduras nos da energía y salud.",
+    "Lavarse las manos con agua y jabón evita enfermedades.",
+    "Dormir bien y hacer ejercicio ayudan a crecer fuertes."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE4"
+    ],
+    "criteria": [
+      "4.2",
+      "2.4"
+    ],
+    "descriptors": [
+      "CC3",
+      "CC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CPSAA1",
+      "CPSAA2",
+      "CPSAA3",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-habitos-saludables-01",
+      "type": "true-false",
+      "prompt": "Beber agua a lo largo del día es sano para el cuerpo.",
+      "explanation": "El agua nos hidrata y ayuda a que nuestro cuerpo funcione bien.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-02",
+      "type": "choice",
+      "prompt": "¿Qué alimento es mejor para merendar en el recreo?",
+      "explanation": "La fruta tiene vitaminas y nos da energía sana para jugar.",
+      "hint": "Elige la opción natural.",
+      "lang": "es",
+      "options": [
+        "Una manzana fresca",
+        "Una bolsa de caramelos",
+        "Un bollo con chocolate"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la higiene bucal.",
+      "explanation": "Cepillarse tras comer elimina los restos y previene las caries.",
+      "hint": "Piensa en el desayuno, la comida y la cena.",
+      "lang": "es",
+      "sentence": "Debemos cepillar los dientes después de cada ___.",
+      "options": [
+        "carrera",
+        "siesta",
+        "comida"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-04",
+      "type": "order",
+      "prompt": "Ordena los pasos para lavarse las manos con jabón.",
+      "explanation": "Primero mojamos, luego enjabonamos, después aclaramos y al final secamos.",
+      "lang": "es",
+      "items": [
+        "Mojar las manos con agua",
+        "Frotar bien con jabón",
+        "Aclarar la espuma con agua",
+        "Secar las manos con una toalla limpia"
+      ]
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-05",
+      "type": "classify",
+      "prompt": "Clasifica estas actividades de la vida diaria.",
+      "explanation": "El descanso y el ejercicio cuidan nuestra salud. Las pantallas en exceso la dañan.",
+      "lang": "es",
+      "categories": [
+        "Hábito saludable",
+        "Hábito no saludable"
+      ],
+      "items": [
+        {
+          "text": "Dormir diez horas por la noche",
+          "category": 0
+        },
+        {
+          "text": "Jugar cuatro horas seguidas a la consola",
+          "category": 1
+        },
+        {
+          "text": "Montar en bicicleta en el parque",
+          "category": 0
+        },
+        {
+          "text": "Comer dulces todos los días",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-06",
+      "type": "match",
+      "prompt": "Une cada acción con su beneficio para la salud.",
+      "explanation": "Cada hábito aporta un beneficio distinto y necesario para nuestro bienestar.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Hacer deporte",
+          "right": "Fortalece los músculos"
+        },
+        {
+          "left": "Dormir bien",
+          "right": "Recupera la energía"
+        },
+        {
+          "left": "Ducharse a diario",
+          "right": "Mantiene la piel limpia"
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-07",
+      "type": "choice",
+      "prompt": "Encuentra el error. ¿Cuál de estas ideas es falsa?",
+      "explanation": "Los microbios son invisibles a la vista. Por eso hay que lavarse las manos.",
+      "hint": "Hay cosas tan pequeñas que no se ven a simple vista.",
+      "lang": "es",
+      "options": [
+        "Comer verdura en la comida es bueno para crecer.",
+        "El ejercicio al aire libre ayuda a tener huesos fuertes.",
+        "Si no vemos suciedad en las manos, nunca tienen microbios."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-08",
+      "type": "choice",
+      "prompt": "En clase tocan dos rebanadas de pan. Una con manos limpias y otra con manos sucias. Las guardan en bolsas cerradas. ¿Qué pasará tras una semana?",
+      "explanation": "Las manos sin lavar llevan microbios que hacen crecer moho en el pan.",
+      "hint": "Piensa qué transportan las manos sucias.",
+      "lang": "es",
+      "options": [
+        "El pan con manos limpias se llenará antes de moho.",
+        "El pan tocado con manos sucias tendrá más moho.",
+        "Los dos panes quedarán completamente limpios y nuevos."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-09",
+      "type": "reading",
+      "prompt": "Lee la historia sobre el día de Omar y responde.",
+      "explanation": "Omar cuida su salud con movimiento, comida sana y buen descanso.",
+      "lang": "es",
+      "title": "El día activo de Omar",
+      "text": "Omar desayuna leche con avena y plátano. Va caminando al colegio con su madre. En el recreo juega al pilla-pilla con Martina. Por la tarde va al parque a correr y merienda una manzana. Al llegar a casa, se ducha y cena tortilla con ensalada. A las nueve de la noche ya duerme feliz en su cama.",
+      "questions": [
+        {
+          "prompt": "¿Cómo va Omar al colegio por la mañana?",
+          "explanation": "El texto dice que va caminando, lo cual es un buen ejercicio matutino.",
+          "options": [
+            "Caminando con su madre",
+            "En autobús escolar",
+            "En coche sentado"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué el día de Omar es saludable?",
+          "explanation": "Omar combina comida variada, ejercicio físico, higiene y buen descanso.",
+          "options": [
+            "Porque come sano, se mueve mucho y duerme temprano.",
+            "Porque se pasa la tarde entera viendo la televisión.",
+            "Porque solamente come dulces y merienda refrescos."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-10",
+      "type": "choice",
+      "prompt": "Lucía tiene sueño en clase y le cuesta prestar atención. ¿Qué cambio en su rutina la ayudará más?",
+      "explanation": "Dormir las horas necesarias sin pantallas relaja la mente y quita el cansancio.",
+      "hint": "Piensa en cómo descansar mejor por la noche.",
+      "lang": "es",
+      "options": [
+        "Quedarse viendo dibujos en la tableta hasta medianoche.",
+        "Tomar un refresco con mucho azúcar antes de entrar a clase.",
+        "Acostarse antes y dejar las pantallas una hora antes de dormir."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:42:44.262Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "id": "g5-sociales-la-edad-media-al-andalus-y-reinos",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "la-edad-media-al-andalus-y-reinos",
+  "temaNombre": "La Edad Media: Al-Ándalus y reinos",
+  "title": "Al-Ándalus y los reinos medievales",
+  "summary": "Repasa la historia, la sociedad y el legado cultural de Al-Ándalus y los reinos cristianos en la península ibérica.",
+  "keyIdeas": [
+    "La Edad Media peninsular estuvo marcada por la convivencia y los conflictos entre Al-Ándalus y los reinos cristianos.",
+    "Al-Ándalus introdujo grandes avances en agricultura, ciencia, arte y lenguaje que aún forman parte de nuestra cultura.",
+    "La sociedad medieval era diversa y estaba formada por personas de distintas religiones y procedencias, como mozárabes, muladíes y mudéjares."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE7",
+      "CE8"
+    ],
+    "criteria": [
+      "7.1",
+      "7.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CE2",
+      "CP3",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-01",
+      "type": "true-false",
+      "prompt": "¿Es verdadera o falsa esta afirmación sobre la historia de la península ibérica? 🏰\n«La Edad Media comenzó en la península con la llegada de las tropas musulmanas en el año 711».",
+      "explanation": "La Edad Media comenzó en el año 476 con la caída del Imperio romano y la formación del reino visigodo. El año 711 marca el inicio de Al-Ándalus, pero la etapa medieval ya llevaba más de dos siglos desarrollándose.",
+      "hint": "Piensa en qué pueblo gobernaba en la península antes del año 711.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el término correcto sobre los grupos sociales medievales:",
+      "explanation": "Los mozárabes conservaron su religión cristiana y sus leyes pagando un tributo especial a las autoridades musulmanas de Al-Ándalus.",
+      "hint": "Su nombre empieza por 'moz-' y convivieron pacíficamente durante siglos en ciudades como Córdoba y Toledo.",
+      "lang": "es",
+      "sentence": "Los ___ eran las personas cristianas que mantuvieron su fe y sus costumbres mientras vivían en territorio andalusí bajo gobierno musulmán.",
+      "options": [
+        "visigodos",
+        "mozárabes",
+        "nobles"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-03",
+      "type": "choice",
+      "prompt": "Aisha y su clase visitan una huerta tradicional en Murcia. El guía les cuenta que la mayoría de los sistemas de regadío históricos de la zona se crearon en época andalusí. 🌾\n¿Qué invento perfeccionado en Al-Ándalus permitía elevar el agua de pozos y ríos para regar los campos más altos?",
+      "explanation": "La noria hidráulica, movida por la fuerza del agua o por animales, permitía elevar el agua hacia canales y acequias para regar campos que estaban a mayor altura.",
+      "hint": "Consiste en una gran rueda con recipientes que suben el agua al girar.",
+      "lang": "es",
+      "options": [
+        "El arado romano",
+        "El molino de vapor",
+        "La noria hidráulica"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-04",
+      "type": "classify",
+      "prompt": "Clasifica cada elemento según fuera representativo de la vida en Al-Ándalus o en los reinos cristianos medievales:",
+      "explanation": "Las ciudades andalusíes destacaban por su vibrante vida urbana con zocos, mezquitas y baños públicos, mientras que en los reinos cristianos la vida rural y defensiva se organizaba en torno a castillos feudales, monasterios y más tarde catedrales.",
+      "lang": "es",
+      "categories": [
+        "Al-Ándalus",
+        "Reinos cristianos"
+      ],
+      "items": [
+        {
+          "text": "Zoco o mercado urbano de especias y telas",
+          "category": 0
+        },
+        {
+          "text": "Monasterio románico donde los monjes copiaban manuscritos",
+          "category": 1
+        },
+        {
+          "text": "Gran mezquita con patio de naranjos y alminar",
+          "category": 0
+        },
+        {
+          "text": "Castillo feudal de un noble con muralla y torre del homenaje",
+          "category": 1
+        },
+        {
+          "text": "Baños públicos o hammam para el aseo y la reunión social",
+          "category": 0
+        },
+        {
+          "text": "Catedral gótica con grandes arcos ojivales y vidrieras de colores",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-05",
+      "type": "order",
+      "prompt": "Ordena cronológicamente estas etapas políticas de Al-Ándalus, desde la más antigua (arriba) hasta la más reciente (abajo):",
+      "explanation": "Al-Ándalus comenzó siendo una provincia dependiente de Damasco, luego se convirtió en un califato poderoso, más tarde se fragmentó en reinos de taifas y finalmente sobrevivió únicamente el Reino Nazarí de Granada hasta su rendición en 1492.",
+      "lang": "es",
+      "items": [
+        "Emirato dependiente del califa de Damasco",
+        "Califato de Córdoba proclamado por Abderramán III",
+        "Reinos de Taifas enfrentados entre sí",
+        "Reino Nazarí de Granada antes de 1492"
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-06",
+      "type": "match",
+      "prompt": "Relaciona cada figura o grupo de la Edad Media con su papel en la sociedad de su época:",
+      "explanation": "Cada uno de estos personajes y estamentos desempeñó un papel clave en el desarrollo político, cultural y económico de la península durante el medievo.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Lubna de Córdoba",
+          "right": "Sabia andalusí, matemática y responsable de la gran biblioteca califal"
+        },
+        {
+          "left": "Alfonso X el Sabio",
+          "right": "Rey que impulsó la colaboración entre sabios en la Escuela de Traductores"
+        },
+        {
+          "left": "Abderramán III",
+          "right": "Gobernante que fundó el Califato de Córdoba y construyó Medina Azahara"
+        },
+        {
+          "left": "Campesinado feudal",
+          "right": "Trabajaba las tierras y pagaba tributos a cambio de protección militar"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-07",
+      "type": "reading",
+      "prompt": "Lee atentamente este texto sobre el intercambio cultural en el Toledo medieval y contesta a las preguntas:",
+      "explanation": "La Escuela de Traductores de Toledo es uno de los ejemplos más importantes de convivencia y cooperación cultural de la historia europea.",
+      "lang": "es",
+      "title": "El puente de los libros en Toledo",
+      "text": "Durante los siglos XII y XIII, la ciudad de Toledo se convirtió en el gran punto de encuentro de sabios cristianos, musulmanes y judíos. En la llamada Escuela de Traductores de Toledo, estos eruditos trabajaban juntos con el apoyo de monarcas como Alfonso X el Sabio. Su labor consistía en traducir al latín y al castellano valiosos manuscritos de astronomía, medicina, matemáticas y filosofía que estaban redactados en árabe y griego.\n\nGracias a esta estrecha cooperación, Europa redescubrió el pensamiento de antiguos filósofos y accedió a los revolucionarios avances científicos desarrollados en Oriente y Al-Ándalus. Este trabajo conjunto demostró que personas con diferentes creencias religiosas y orígenes podían dialogar y colaborar pacíficamente para enriquecer el patrimonio de toda la humanidad, transformando para siempre la ciencia y las universidades europeas.",
+      "questions": [
+        {
+          "prompt": "¿Qué tres comunidades religiosas colaboraban en la Escuela de Traductores de Toledo?",
+          "explanation": "El texto señala expresamente que la ciudad de Toledo acogió el trabajo conjunto de sabios cristianos, musulmanes y judíos.",
+          "options": [
+            "Griegos, fenicios y cartagineses",
+            "Romanos, visigodos y francos",
+            "Cristianos, musulmanes y judíos"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "A partir del texto, ¿por qué fue tan decisiva esta labor para toda Europa?",
+          "explanation": "La traducción de textos permitió difundir por las universidades europeas conocimientos avanzados de astronomía, medicina y filosofía que se habían conservado y ampliado en el mundo islámico.",
+          "options": [
+            "Porque permitió que llegaran a Europa saberes científicos y filosóficos que estaban olvidados o eran desconocidos",
+            "Porque sirvió para convencer a todos los reinos de Europa de que dejaran de utilizar las matemáticas",
+            "Porque obligó a que todos los pueblos europeos hablaran exclusivamente el mismo idioma"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué lección valiosa para nuestra sociedad actual podemos extraer de esta experiencia histórica?",
+          "explanation": "El ejemplo de Toledo demuestra que el respeto mutuo y la colaboración entre personas con culturas y creencias distintas favorecen el crecimiento cultural de toda la sociedad.",
+          "options": [
+            "Que la diversidad cultural y el trabajo conjunto pacífico son fuentes de progreso y riqueza colectiva",
+            "Que es mejor que cada comunidad viva aislada para no mezclar sus descubrimientos con los de otros",
+            "Que los avances científicos solo tienen valor si los inventa una única civilización sin ayuda exterior"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-08",
+      "type": "choice",
+      "prompt": "En el año 1031, el Califato de Córdoba sufrió una grave crisis y se desintegró en más de veinte pequeños territorios independientes denominados reinos de taifas. ⚔️\n¿Qué consecuencia tuvo esta fragmentación interna en el equilibrio peninsular?",
+      "explanation": "Al dividirse en pequeños reinos enfrentados entre sí, las taifas perdieron fuerza militar y muchas tuvieron que pagar tributos (parias) a los reyes cristianos, lo que aceleró la expansión cristiana hacia el sur.",
+      "hint": "Piensa en el refrán 'la unión hace la fuerza' y qué ocurre cuando un territorio se divide en muchas partes rivales.",
+      "lang": "es",
+      "options": [
+        "Debilitó militarmente a Al-Ándalus y facilitó el avance territorial de los reinos cristianos hacia el sur",
+        "Provocó que Al-Ándalus conquistara de inmediato todos los reinos cristianos del norte peninsular",
+        "Hizo que la población abandonara por completo las ciudades para refugiarse en zonas de alta montaña"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-09",
+      "type": "match",
+      "prompt": "Relaciona cada término medieval con su definición exacta:",
+      "explanation": "Distinguir entre muladíes (cristianos convertidos al islam) y mudéjares (musulmanes que permanecieron bajo dominio cristiano) es fundamental para comprender la rica diversidad social de la época.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Muladí",
+          "right": "Cristiano de la península que adoptó el islam y las costumbres andalusíes"
+        },
+        {
+          "left": "Mudéjar",
+          "right": "Persona musulmana que siguió viviendo en territorio conquistado por los cristianos"
+        },
+        {
+          "left": "Señor feudal",
+          "right": "Noble o eclesiástico dueño de tierras con autoridad sobre sus vasallos"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-10",
+      "type": "choice",
+      "prompt": "Hugo y Martina preparan en el colegio un cartel sobre las palabras que usamos a diario. Al buscar en el diccionario, comprueban que términos como alcachofa, aceite, zanahoria, noria, álgebra y almacén proceden del árabe andalusí. 🌿\n¿Qué nos demuestra este hecho sobre la historia de nuestro país?",
+      "explanation": "El castellano contiene más de cuatro mil palabras de origen árabe debido a los casi ochocientos años de convivencia e intercambio cultural, agrícola y comercial en la península ibérica.",
+      "hint": "Reflexiona sobre cómo influyen tantos siglos de convivencia en la lengua que hablamos hoy.",
+      "lang": "es",
+      "options": [
+        "Que los ocho siglos de presencia andalusí dejaron una profunda huella viva en nuestra cultura, lengua y vida cotidiana",
+        "Que en la península ibérica no existió ninguna lengua hablada antes de la llegada de los musulmanes en el siglo VIII",
+        "Que los reinos cristianos prohibieron el uso del castellano y obligaron a usar únicamente palabras orientales"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:35:48.585Z",
+    "reviewed": false
+  }
+}

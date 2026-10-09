@@ -1,0 +1,201 @@
+{
+  "id": "g6-mates-proporcionalidad-directa-e-inversa",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "proporcionalidad-directa-e-inversa",
+  "temaNombre": "Proporcionalidad directa e inversa",
+  "title": "Misterios de la proporcionalidad cotidiana",
+  "summary": "Distingue y resuelve situaciones de proporcionalidad directa e inversa en la vida real.",
+  "keyIdeas": [
+    "En la proporcionalidad directa, al multiplicar una magnitud por un número, la otra se multiplica por el mismo.",
+    "En la proporcionalidad inversa, al multiplicar una magnitud por un número, la otra se divide por ese número.",
+    "No todas las relaciones cotidianas son proporcionales, como la edad y la estatura."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.2",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Razonamiento proporcional",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-01",
+      "type": "classify",
+      "prompt": "Clasifica cada pareja de magnitudes según su tipo de relación:",
+      "explanation": "Si al aumentar una magnitud la otra aumenta al mismo ritmo multiplicativo, es directa. Si una aumenta y la otra disminuye dividiéndose, es inversa. Si no hay una relación multiplicativa constante, no hay proporcionalidad.",
+      "lang": "es",
+      "categories": [
+        "Proporcionalidad directa",
+        "Proporcionalidad inversa",
+        "Sin proporcionalidad"
+      ],
+      "items": [
+        {
+          "text": "Kilos de manzanas compradas y precio total pagado",
+          "category": 0
+        },
+        {
+          "text": "Velocidad constante de un tren y tiempo en llegar al destino",
+          "category": 1
+        },
+        {
+          "text": "Edad de una persona y su altura en centímetros",
+          "category": 2
+        },
+        {
+          "text": "Número de pintores trabajando al mismo ritmo y horas para pintar un muro",
+          "category": 1
+        },
+        {
+          "text": "Número de libretas iguales y su coste total",
+          "category": 0
+        },
+        {
+          "text": "Número de calzado y la nota de un examen",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-02",
+      "type": "true-false",
+      "prompt": "Si 3 grifos iguales llenan un depósito en 6 horas, 6 grifos tardarán 12 horas.",
+      "explanation": "Es falso porque se trata de proporcionalidad inversa. Al haber el doble de grifos (3 × 2 = 6), tardarán la mitad de tiempo (6 ÷ 2 = 3 horas), no el doble.",
+      "hint": "Piensa si con más grifos abiertos tardarás más tiempo o menos.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-03",
+      "type": "choice",
+      "prompt": "En la frutería del barrio, 4 kg de naranjas cuestan 6 €. ¿Cuánto costarán 10 kg de esas mismas naranjas?",
+      "explanation": "Calculamos el precio de 1 kg reduciendo a la unidad: 6 ÷ 4 = 1,50 € el kilo. Luego multiplicamos por los kilos deseados: 1,50 × 10 = 15 €.",
+      "hint": "Averigua primero cuánto cuesta un solo kilo.",
+      "lang": "es",
+      "options": [
+        "15 €",
+        "12 €",
+        "14 €",
+        "24 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-04",
+      "type": "fill-blank",
+      "prompt": "Completa el espacio para que la afirmación matemática sea correcta:",
+      "explanation": "En la proporcionalidad inversa el producto entre ambas magnitudes es constante (por ejemplo, 2 obreros × 6 horas = 12; 4 obreros × 3 horas = 12). En la directa, lo constante es el cociente.",
+      "hint": "¿Qué operación da siempre el mismo resultado: multiplicar o dividir los valores enfrentados?",
+      "lang": "es",
+      "sentence": "En una relación de proporcionalidad inversa, el ___ de las dos magnitudes siempre se mantiene constante.",
+      "options": [
+        "resultado de la suma",
+        "cociente",
+        "producto"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-05",
+      "type": "choice",
+      "prompt": "Cálculo mental rápido: Una máquina embotella 120 zumos en 2 minutos. ¿Cuántos zumos embotellará en 5 minutos al mismo ritmo?",
+      "explanation": "Mentalmente calculamos cuántos hace en 1 minuto: 120 ÷ 2 = 60 zumos. Después multiplicamos por 5 minutos: 60 × 5 = 300 zumos.",
+      "hint": "Calcula mentalmente la producción de un solo minuto.",
+      "lang": "es",
+      "options": [
+        "240 zumos",
+        "300 zumos",
+        "250 zumos",
+        "360 zumos"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-06",
+      "type": "choice",
+      "prompt": "¡Encuentra el error! Lucas resuelve este problema: '4 albañiles tardan 9 días en levantar una valla. ¿Cuánto tardarán 6 albañiles?'. Lucas escribe: 'Como 4 albañiles son 9 días, 6 albañiles harán más días: (6 × 9) ÷ 4 = 13,5 días'. ¿Dónde está su fallo?",
+      "explanation": "El error es de razonamiento: a más trabajadores, menos tiempo tardan. En proporcionalidad inversa el producto es constante: 4 × 9 = 36 días de trabajo total. Entre 6 albañiles tardarán 36 ÷ 6 = 6 días.",
+      "hint": "¿Tiene sentido que más personas tarden más tiempo en hacer el mismo trabajo?",
+      "lang": "es",
+      "options": [
+        "Debió sumar 4 + 6 antes de calcular la media de días.",
+        "Los albañiles siempre tardan el triple de días en cualquier obra.",
+        "Se equivocó en la multiplicación: 6 × 9 no es 54.",
+        "Aplicó proporcionalidad directa cuando es inversa: más albañiles tardarán menos días."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-07",
+      "type": "order",
+      "prompt": "Ordena los pasos para resolver por reducción a la unidad un problema de proporcionalidad directa (por ejemplo, saber el precio de 7 cuadernos conociendo el precio de 3):",
+      "explanation": "Primero comprobamos la relación, luego calculamos el valor unitario mediante una división, después multiplicamos por la cantidad buscada y finalmente revisamos la coherencia.",
+      "lang": "es",
+      "items": [
+        "Identificar las magnitudes implicadas y comprobar que la relación es directa.",
+        "Dividir el valor total conocido entre el número de unidades para hallar el valor de 1 unidad.",
+        "Multiplicar el valor de esa unidad por el nuevo número de unidades pedido.",
+        "Comprobar que el resultado final guarda una proporción lógica con el dato de partida."
+      ]
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-08",
+      "type": "choice",
+      "prompt": "Para una excursión de 6º, un autobús con 30 plazas completas cuesta 12 € por estudiante. Al final solo se apuntan 20 estudiantes y deben pagar el alquiler entero del autobús entre ellos. ¿Cuánto pagará cada uno?",
+      "explanation": "El coste total del autobús es 30 × 12 = 360 €. Al repartirlo entre los 20 estudiantes que asisten: 360 ÷ 20 = 18 € cada uno. Al ser menos alumnos, pagan más por cabeza (proporcionalidad inversa).",
+      "hint": "Halla primero el coste total del autobús multiplicando plazas por precio inicial.",
+      "lang": "es",
+      "options": [
+        "18 €",
+        "15 €",
+        "8 €",
+        "24 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-09",
+      "type": "choice",
+      "prompt": "Aisha y Mateo preparan limonada para la fiesta escolar. La receta para 8 vasos lleva 600 ml de agua y 150 ml de zumo de limón exprimido. Quieren preparar exactamente 20 vasos manteniendo el mismo sabor. ¿Qué cantidades necesitarán?",
+      "explanation": "Calculamos la constante dividiendo entre 8: para 1 vaso se necesitan 75 ml de agua (600 ÷ 8) y 18,75 ml de limón (150 ÷ 8). Para 20 vasos: 75 × 20 = 1.500 ml de agua y 18,75 × 20 = 375 ml de zumo de limón (también se puede ver multiplicando por 2,5, ya que 20 ÷ 8 = 2,5).",
+      "hint": "Observa cuántas veces cabe 8 en 20 o calcula los ingredientes para un solo vaso.",
+      "lang": "es",
+      "options": [
+        "1.500 ml de agua y 375 ml de zumo de limón",
+        "1.200 ml de agua y 300 ml de zumo de limón",
+        "1.800 ml de agua y 450 ml de zumo de limón",
+        "1.500 ml de agua y 300 ml de zumo de limón"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:26:56.245Z",
+    "reviewed": false
+  }
+}

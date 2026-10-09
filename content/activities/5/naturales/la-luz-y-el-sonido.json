@@ -1,0 +1,248 @@
+{
+  "id": "g5-naturales-la-luz-y-el-sonido",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "la-luz-y-el-sonido",
+  "temaNombre": "La luz y el sonido",
+  "title": "Misterios de la luz y el sonido",
+  "summary": "Investiga cómo viajan las ondas sonoras y los rayos de luz en nuestro entorno.",
+  "keyIdeas": [
+    "La luz viaja en línea recta y mucho más rápido que el sonido.",
+    "El sonido se produce por vibraciones y necesita materia para propagarse.",
+    "La reflexión hace rebotar la luz y el sonido; la refracción desvía la luz al cambiar de medio."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › Materia, fuerzas y energía"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-01",
+      "type": "true-false",
+      "prompt": "El sonido puede viajar a través del vacío del espacio exterior al igual que la luz solar.",
+      "explanation": "El sonido necesita un medio material (sólido, líquido o gas) cuyas partículas vibren para transmitirse; la luz, en cambio, sí viaja por el vacío.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-02",
+      "type": "classify",
+      "prompt": "Clasifica estos objetos cotidianos según su comportamiento ante el paso de la luz:",
+      "explanation": "Los objetos transparentes dejan pasar casi toda la luz, los translúcidos solo una parte dispersándola y los opacos impiden el paso de la luz por completo.",
+      "lang": "es",
+      "categories": [
+        "Transparente",
+        "Translúcido",
+        "Opaco"
+      ],
+      "items": [
+        {
+          "text": "Cristal limpio de una ventana",
+          "category": 0
+        },
+        {
+          "text": "Papel vegetal de horno",
+          "category": 1
+        },
+        {
+          "text": "Mesa de madera maciza",
+          "category": 2
+        },
+        {
+          "text": "Cuchara de acero inoxidable",
+          "category": 2
+        },
+        {
+          "text": "Agua clara en un vaso de cristal",
+          "category": 0
+        },
+        {
+          "text": "Cortina fina de la ducha",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-03",
+      "type": "match",
+      "prompt": "Relaciona cada cualidad del sonido con su característica principal:",
+      "explanation": "La intensidad depende del volumen, el tono de la frecuencia de vibración y el timbre de la forma de la onda y el instrumento.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Intensidad",
+          "right": "Permite distinguir entre sonidos fuertes y débiles"
+        },
+        {
+          "left": "Tono",
+          "right": "Permite clasificar los sonidos en agudos o graves"
+        },
+        {
+          "left": "Timbre",
+          "right": "Permite diferenciar la fuente o instrumento que emite el sonido"
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la velocidad del sonido en distintos medios:",
+      "explanation": "En los sólidos las partículas están muy unidas, lo que permite transmitir las vibraciones de unas a otras a mayor velocidad que en los gases.",
+      "lang": "es",
+      "sentence": "El sonido viaja más rápido en los sólidos que en el aire porque sus partículas están más ___ entre sí.",
+      "options": [
+        "separadas",
+        "juntas",
+        "frías"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-05",
+      "type": "choice",
+      "prompt": "Encuentra el error: Durante un debate de ciencias, cuatro estudiantes intentan explicar por qué vemos los objetos de colores. ¿Quién tiene una idea equivocada?",
+      "explanation": "Mateo se equivoca: vemos un objeto rojo precisamente porque refleja la luz roja hacia nuestros ojos y absorbe el resto de colores del espectro.",
+      "hint": "Piensa qué luz llega a nuestros ojos para que podamos ver ese color.",
+      "lang": "es",
+      "options": [
+        "Elena dice: 'Un jersey negro parece negro porque absorbe casi toda la luz y apenas refleja nada.'",
+        "Aisha dice: 'Una hoja verde absorbe la mayor parte del espectro luminoso y refleja la luz verde hacia nuestros ojos.'",
+        "Lucas dice: 'Un folio blanco se ve blanco porque refleja prácticamente todos los colores de la luz que recibe.'",
+        "Mateo dice: 'Un tomate se ve rojo porque absorbe la luz roja y refleja todos los demás colores.'"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-06",
+      "type": "choice",
+      "prompt": "Lucía mete un lápiz recto dentro de un vaso con agua. Al mirarlo desde el lateral, observa con sorpresa que el lápiz parece doblado o partido en dos. ¿Qué fenómeno físico explica esta observación?",
+      "explanation": "La refracción es el cambio de dirección que experimentan los rayos de luz cuando pasan de un medio a otro con diferente densidad, como del aire al agua.",
+      "hint": "Fíjate en cómo la luz cambia de medio transparente.",
+      "lang": "es",
+      "options": [
+        "La reflexión, provocada porque la superficie del agua actúa como un espejo perfecto.",
+        "La dispersión, debida a que el agua separa la luz blanca en siete colores visibles.",
+        "La refracción, producida porque la luz cambia de velocidad al pasar del aire al agua.",
+        "La difracción, originada porque el lápiz bloquea completamente las ondas lumínicas."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-07",
+      "type": "order",
+      "prompt": "Durante una tormenta lejana de verano, Hugo observa un rayo y después escucha el trueno. Ordena cronológicamente los sucesos desde que se origina la descarga:",
+      "explanation": "Luz y sonido nacen a la vez, pero la luz viaja casi un millón de veces más rápido en el aire, por lo que vemos el relámpago mucho antes de oír el trueno.",
+      "lang": "es",
+      "items": [
+        "Se produce la descarga eléctrica en la nube que genera luz y sonido a la vez",
+        "La luz del relámpago viaja a 300.000 km/s y llega casi al instante a los ojos de Hugo",
+        "La onda sonora del trueno viaja por el aire a unos 340 metros por segundo",
+        "El sonido llega a los oídos de Hugo con varios segundos de retraso respecto a la luz"
+      ]
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-08",
+      "type": "choice",
+      "prompt": "Razonamiento científico: Adrián grita en su habitación y no oye eco. Sin embargo, en una excursión por un cañón montañoso, grita frente a una pared de roca a 50 metros y escucha su voz repetida con total claridad. ¿Cuál es la causa?",
+      "explanation": "El oído humano necesita una diferencia de al menos 0,1 segundos para separar dos sonidos. Como el sonido recorre unos 34 metros en ese tiempo (ida y vuelta), la superficie reflectante debe estar a unos 17 metros como mínimo.",
+      "hint": "Tiene que ver con la distancia mínima para que nuestro oído diferencie el sonido original del rebote.",
+      "lang": "es",
+      "options": [
+        "El eco requiere que la pared esté al menos a unos 17 metros para que el oído distinga el sonido emitido del reflejado.",
+        "En la habitación no existe reflexión del sonido porque las paredes absorben el cien por cien de las ondas.",
+        "El aire de la montaña está más limpio y por eso el sonido rebota con mayor velocidad que en la ciudad.",
+        "El eco solo ocurre en lugares abiertos porque el sonido necesita viento para poder regresar hacia atrás."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-09",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto sobre el ruido en las ciudades y responde a las preguntas:",
+      "explanation": "El texto muestra la relación entre salud y nivel acústico, así como soluciones sencillas para reducir el exceso de ruido en el entorno escolar.",
+      "lang": "es",
+      "title": "Vivir con menos decibelios",
+      "text": "La Organización Mundial de la Salud (OMS) advierte de que el ruido excesivo constante, conocido como contaminación acústica, es perjudicial para la salud física y mental. En muchas ciudades, el tráfico rodado, las obras y la maquinaria superan con frecuencia los 65 decibelios (dB), el límite diurno recomendado.\n\nEstar expuestos de manera prolongada a niveles elevados no solo causa pérdida gradual de audición, sino también dolor de cabeza, estrés continuado, dificultad de concentración e insomnio. Para combatir este problema invisible, varias escuelas españolas han puesto en marcha 'semáforos de ruido' en comedores escolares y han colocado almohadillas de fieltro en las patas de mesas y sillas.\n\nReducir el volumen con el que hablamos y elegir medios de transporte activos y silenciosos, como la bicicleta o el desplazamiento a pie, mejora la convivencia y cuida nuestro bienestar general.",
+      "questions": [
+        {
+          "prompt": "¿Qué nivel de sonido diurno recomienda no sobrepasar la Organización Mundial de la Salud en las ciudades?",
+          "explanation": "El texto indica expresamente que el límite diurno recomendado por la OMS se sitúa en los 65 decibelios.",
+          "options": [
+            "65 decibelios.",
+            "50 decibelios.",
+            "85 decibelios."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "A partir del texto, ¿por qué colocar almohadillas de fieltro en las sillas del colegio ayuda a reducir la contaminación acústica?",
+          "explanation": "El fieltro absorbe la energía del impacto y la fricción, evitando que la madera o el metal vibren intensamente contra el suelo y emitan ruido.",
+          "options": [
+            "Porque cambian el tono del sonido haciéndolo imperceptible para el oído humano.",
+            "Porque amortiguan el roce y reducen la vibración que produce sonido molesto al arrastrarlas.",
+            "Porque impiden por completo que la luz rebote en el suelo del aula."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué conclusión crítica podemos extraer sobre el uso responsable de la tecnología de audio (auriculares) según lo expuesto?",
+          "explanation": "El texto recalca que la exposición continuada a niveles altos lesiona el sistema auditivo, un riesgo evidente al usar auriculares a gran volumen.",
+          "options": [
+            "Escuchar música con auriculares a volumen alto durante horas puede dañar irreversiblemente las células auditivas.",
+            "La contaminación acústica solo afecta al aire libre y nunca al uso individual de dispositivos.",
+            "Usar auriculares siempre es inocuo porque las ondas viajan directamente sin contaminar la calle."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-10",
+      "type": "choice",
+      "prompt": "Reto experimental: Omar quiere construir un proyector casero de sombras chinescas para una obra de teatro. Si desea proyectar sobre una pantalla blanca la sombra de una marioneta mucho más grande que el tamaño real del muñeco, ¿qué debe hacer?",
+      "explanation": "Como la luz se propaga en línea recta en todas direcciones desde el foco, al acercar el objeto opaco a la linterna se intercepta un cono de luz mayor, proyectando una sombra más grande sobre la pantalla lejana.",
+      "hint": "Piensa qué parte del haz de luz bloquea la marioneta cuando está más cerca del foco.",
+      "lang": "es",
+      "options": [
+        "Acercar la marioneta a la linterna y alejarla de la pantalla blanca.",
+        "Pegar la marioneta directamente a la pantalla blanca junto a la linterna.",
+        "Alejar la marioneta de la linterna y situarla pegada al foco de luz.",
+        "Poner un filtro de agua entre la linterna y la marioneta para doblar los rayos."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:13:24.284Z",
+    "reviewed": false
+  }
+}

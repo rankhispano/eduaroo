@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { ChevronRight } from '@/src/components/icons';
 import type { Curso } from '@/src/types';
 import { useNavStore } from '@/src/store/useNavStore';
+import { usePracticeStore } from '@/lib/learning/practiceStore';
 
 const cursoStyles: Record<string, string> = {
   '1': 'bg-blue-50 border-blue-100 text-blue-700',
@@ -26,11 +27,16 @@ export default function CursoCard({
   subjectsLabel?: string;
 }) {
   const setCurso = useNavStore((state) => state.setCurso);
+  // El curso elegido se recuerda para abrir directamente "Mi mapa" en la próxima visita
+  const rememberCurso = usePracticeStore((state) => state.setCurso);
 
   return (
     <Link
       href={`${basePath}/${curso.id}`}
-      onClick={() => setCurso(curso.id)}
+      onClick={() => {
+        setCurso(curso.id);
+        rememberCurso(curso.id);
+      }}
       className={`group flex min-h-44 flex-col justify-between rounded-2xl border-2 p-6 shadow-sm transition duration-200 hover:scale-[1.03] hover:shadow-xl ${cursoStyles[curso.id]}`}
       aria-label={`Ir a ${curso.nombre}`}
     >

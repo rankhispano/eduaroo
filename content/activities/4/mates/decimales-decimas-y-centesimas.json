@@ -1,0 +1,211 @@
+{
+  "id": "g4-mates-decimales-decimas-y-centesimas",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "decimales-decimas-y-centesimas",
+  "temaNombre": "Decimales: décimas y centésimas",
+  "title": "Aventuras con décimas y centésimas",
+  "summary": "Practica la comprensión, comparación y uso diario de los números decimales.",
+  "keyIdeas": [
+    "Una unidad se divide en 10 décimas o en 100 centésimas iguales.",
+    "La primera cifra tras la coma son décimas y la segunda son centésimas.",
+    "Para comparar decimales, compara primero las unidades y después las décimas."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.3",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones",
+      "A. Sentido numérico › Educación financiera"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-01",
+      "type": "match",
+      "prompt": "Une cada expresión con su número decimal correspondiente.",
+      "explanation": "Las décimas ocupan la primera posición tras la coma. Las centésimas ocupan la segunda posición.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "5 décimas",
+          "right": "0,5"
+        },
+        {
+          "left": "5 centésimas",
+          "right": "0,05"
+        },
+        {
+          "left": "1 unidad y 5 décimas",
+          "right": "1,5"
+        },
+        {
+          "left": "1 unidad y 5 centésimas",
+          "right": "1,05"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el peso de la fruta.",
+      "explanation": "La primera cifra decimal representa las décimas. Por eso, 0,4 kg equivale exactamente a 4 décimas de kilo.",
+      "lang": "es",
+      "sentence": "Una manzana que pesa 0,4 kg contiene exactamente ___ de kilo.",
+      "options": [
+        "4 centésimas",
+        "4 décimas",
+        "40 unidades"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-03",
+      "type": "true-false",
+      "prompt": "El número 0,5 es menor que 0,48 porque 5 es menor que 48.",
+      "explanation": "0,5 equivale a 0,50. Comparamos las décimas: 5 décimas es mayor que 4 décimas, por lo que 0,5 es mayor que 0,48.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-04",
+      "type": "classify",
+      "prompt": "Clasifica estos números decimales según su valor respecto a 1,5.",
+      "explanation": "1,5 es igual a 1,50. Los números con menos de 5 décimas son menores y los que tienen más de 5 décimas son mayores.",
+      "lang": "es",
+      "categories": [
+        "Menores que 1,5",
+        "Mayores que 1,5"
+      ],
+      "items": [
+        {
+          "text": "1,35",
+          "category": 0
+        },
+        {
+          "text": "1,09",
+          "category": 0
+        },
+        {
+          "text": "1,48",
+          "category": 0
+        },
+        {
+          "text": "1,52",
+          "category": 1
+        },
+        {
+          "text": "1,6",
+          "category": 1
+        },
+        {
+          "text": "1,71",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-05",
+      "type": "choice",
+      "prompt": "Hugo dice que '3 unidades y 4 centésimas' se escribe 3,4. ¿Cuál es su error?",
+      "explanation": "3,4 representa 3 unidades y 4 décimas. Las centésimas van en el segundo lugar decimal: 3,04.",
+      "hint": "Recuerda qué lugar ocupan las centésimas después de la coma.",
+      "lang": "es",
+      "options": [
+        "Confundió las centésimas con las décimas; lo correcto es 3,04.",
+        "Olvidó sumar las cifras; lo correcto es 7.",
+        "Colocó mal la coma; lo correcto es 0,34."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-06",
+      "type": "choice",
+      "prompt": "Omar tiene 1 moneda de 1 € y 3 monedas de 10 céntimos. ¿Cuánto dinero tiene en total?",
+      "explanation": "3 monedas de 10 céntimos suman 30 céntimos (3 décimas de euro). Al añadir 1 €, tenemos 1,30 €.",
+      "hint": "Cada moneda de 10 céntimos es 0,10 €.",
+      "lang": "es",
+      "options": [
+        "13,0 €",
+        "1,03 €",
+        "1,30 €"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-07",
+      "type": "fill-blank",
+      "prompt": "Calcula mentalmente cuánto falta para llegar a 1 metro entero.",
+      "explanation": "1 metro son 10 décimas. Como ya tenemos 7 décimas (0,7), faltan 3 décimas (0,3) porque 0,7 + 0,3 = 1.",
+      "lang": "es",
+      "sentence": "Si una cinta mide 0,7 metros, faltan ___ para completar 1 metro.",
+      "options": [
+        "0,03 metros",
+        "0,3 metros",
+        "3 metros"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-08",
+      "type": "order",
+      "prompt": "Ordena los tiempos de la carrera desde el más rápido (menor tiempo) hasta el más lento.",
+      "explanation": "El menor tiempo es 8,05 s, seguido de 8,20 s y 8,45 s. El mayor tiempo es 9,10 s.",
+      "lang": "es",
+      "items": [
+        "8,05 s",
+        "8,2 s",
+        "8,45 s",
+        "9,1 s"
+      ]
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-09",
+      "type": "choice",
+      "prompt": "Aisha compra una libreta por 0,45 € y un lápiz por 0,35 €. Paga con 1 €. ¿Cuánto le devuelven?",
+      "explanation": "Sumamos el gasto: 0,45 + 0,35 = 0,80 €. Luego restamos del euro: 1,00 - 0,80 = 0,20 € de cambio.",
+      "hint": "Calcula primero el gasto total y réstalo de 1 €.",
+      "lang": "es",
+      "options": [
+        "0,80 €",
+        "0,20 €",
+        "0,10 €"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:14:39.232Z",
+    "reviewed": false
+  }
+}

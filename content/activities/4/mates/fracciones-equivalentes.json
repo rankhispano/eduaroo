@@ -1,0 +1,224 @@
+{
+  "id": "g4-mates-fracciones-equivalentes",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "fracciones-equivalentes",
+  "temaNombre": "Fracciones equivalentes",
+  "title": "El misterio de las fracciones equivalentes",
+  "summary": "Practica cómo reconocer, crear y comprobar fracciones equivalentes en divertidas situaciones cotidianas.",
+  "keyIdeas": [
+    "Dos fracciones son equivalentes cuando representan la misma parte de la unidad.",
+    "Para obtener fracciones equivalentes, multiplica o divide el numerador y el denominador por el mismo número.",
+    "Al multiplicar en cruz los términos de dos fracciones equivalentes, obtienes el mismo resultado."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "2.3",
+      "3.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones",
+      "D. Sentido algebraico › Relaciones y funciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-fracciones-equivalentes-01",
+      "type": "choice",
+      "prompt": "Lucía come 1/2 empanada y Omar come 2/4 de otra idéntica. 🥟 ¿Quién ha comido más?",
+      "explanation": "Comieron lo mismo porque 1/2 y 2/4 son fracciones equivalentes. Representan la misma porción de la empanada.",
+      "hint": "Imagina partir la mitad de Lucía en dos partes iguales.",
+      "lang": "es",
+      "options": [
+        "Los dos comieron la misma cantidad.",
+        "Lucía comió más empanada.",
+        "Omar comió más empanada."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-02",
+      "type": "true-false",
+      "prompt": "Dos fracciones son equivalentes si representan exactamente la misma cantidad de la unidad.",
+      "explanation": "Es verdadero. Aunque sus números sean distintos, representan la misma parte del total.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-03",
+      "type": "match",
+      "prompt": "Empareja cada fracción con su fracción equivalente:",
+      "explanation": "En cada pareja, al multiplicar el numerador y el denominador por el mismo número, obtenemos la otra fracción.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "1/2",
+          "right": "4/8"
+        },
+        {
+          "left": "1/3",
+          "right": "2/6"
+        },
+        {
+          "left": "3/4",
+          "right": "6/8"
+        },
+        {
+          "left": "2/5",
+          "right": "4/10"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase para obtener una fracción equivalente amplificada.",
+      "explanation": "Multiplicamos 2 × 3 = 6 en el numerador y 3 × 3 = 9 en el denominador. Obtenemos 6/9.",
+      "hint": "Recuerda multiplicar arriba y abajo por 3.",
+      "lang": "es",
+      "sentence": "Si multiplicamos el numerador y el denominador de 2/3 por 3, obtenemos ___.",
+      "options": [
+        "6/3",
+        "5/6",
+        "6/9"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-05",
+      "type": "classify",
+      "prompt": "Clasifica estas fracciones según representen la mitad de la unidad o no:",
+      "explanation": "Para ser equivalente a 1/2, el numerador debe ser exactamente la mitad del denominador.",
+      "lang": "es",
+      "categories": [
+        "Equivalente a 1/2",
+        "No equivalente a 1/2"
+      ],
+      "items": [
+        {
+          "text": "3/6",
+          "category": 0
+        },
+        {
+          "text": "5/10",
+          "category": 0
+        },
+        {
+          "text": "2/4",
+          "category": 0
+        },
+        {
+          "text": "2/5",
+          "category": 1
+        },
+        {
+          "text": "4/6",
+          "category": 1
+        },
+        {
+          "text": "3/8",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-06",
+      "type": "choice",
+      "prompt": "Hugo intentó buscar una fracción equivalente a 3/5 y escribió 4/6. ¿Qué error cometió?",
+      "explanation": "Hugo sumó 1 arriba y abajo (3 + 1 = 4 y 5 + 1 = 6). Para conseguir fracciones equivalentes se debe multiplicar, nunca sumar.",
+      "hint": "Fíjate en qué operación hizo Hugo con el 3 y el 5.",
+      "lang": "es",
+      "options": [
+        "Multiplicó el numerador y el denominador por 2.",
+        "Sumó 1 al numerador y al denominador en lugar de multiplicar.",
+        "Dividió el denominador entre dos."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-07",
+      "type": "order",
+      "prompt": "Ordena los pasos para comprobar con productos cruzados si 2/3 y 4/6 son equivalentes:",
+      "explanation": "Primero multiplicamos en cruz ambos términos y después comparamos si dan el mismo resultado.",
+      "lang": "es",
+      "items": [
+        "Multiplicar 2 × 6 para hallar el primer producto.",
+        "Multiplicar 3 × 4 para hallar el segundo producto.",
+        "Comprobar que ambos resultados son iguales (12 = 12)."
+      ]
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-08",
+      "type": "choice",
+      "prompt": "Aisha y Wei pintan dos murales iguales. Aisha pintó 3/4 y Wei 9/12. ¿Por qué número multiplicó Wei?",
+      "explanation": "Hacemos cálculo mental: 3 × 3 = 9 y 4 × 3 = 12. Wei amplificó multiplicando por 3.",
+      "hint": "¿Por qué número multiplicas 3 para obtener 9?",
+      "lang": "es",
+      "options": [
+        "Multiplicó por 3.",
+        "Multiplicó por 2.",
+        "Multiplicó por 4."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-09",
+      "type": "fill-blank",
+      "prompt": "Completa el texto sobre el huerto escolar.",
+      "explanation": "Dividimos 4 ÷ 4 = 1 y 12 ÷ 4 = 3. La fracción simplificada equivalente es 1/3.",
+      "hint": "Divide numerador y denominador entre 4.",
+      "lang": "es",
+      "sentence": "En el huerto escolar, 4/12 de los bancales tienen lechugas. Si dividimos entre 4, equivale a ___ del huerto.",
+      "options": [
+        "2/6",
+        "1/4",
+        "1/3"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-10",
+      "type": "choice",
+      "prompt": "Martina divide su bizcocho en 8 trozos iguales y come 6. Adrián divide uno idéntico en 4 trozos. ¿Cuántos trozos debe comer Adrián para comer la misma cantidad?",
+      "explanation": "Martina come 6/8. Para tener denominador 4 dividimos entre 2: 6 ÷ 2 = 3 y 8 ÷ 2 = 4. Por tanto, 6/8 equivale a 3/4.",
+      "hint": "Busca una fracción equivalente a 6/8 con denominador 4.",
+      "lang": "es",
+      "options": [
+        "Debe comer 3 trozos.",
+        "Debe comer 2 trozos.",
+        "Debe comer 4 trozos."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:15:18.902Z",
+    "reviewed": false
+  }
+}

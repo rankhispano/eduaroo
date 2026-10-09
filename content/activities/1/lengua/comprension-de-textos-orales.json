@@ -1,0 +1,218 @@
+{
+  "id": "g1-lengua-comprension-de-textos-orales",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "comprension-de-textos-orales",
+  "temaNombre": "Comprensión de textos orales",
+  "title": "Escuchamos y comprendemos mensajes",
+  "summary": "Practicarás la escucha atenta de mensajes orales, avisos y pequeños cuentos cotidianos.",
+  "keyIdeas": [
+    "Escuchar con atención nos ayuda a entender bien los mensajes de los demás.",
+    "Para comprender un aviso oral, nos fijamos en qué ocurre, quién habla y dónde pasa.",
+    "Esperar el turno de palabra y mirar a quien habla demuestra respeto y educación."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE3",
+      "CE4",
+      "CE10"
+    ],
+    "criteria": [
+      "3.2",
+      "4.1",
+      "10.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CE1",
+      "CP2",
+      "CP3",
+      "CPSAA3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "B. Comunicación › Contexto"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-01",
+      "type": "true-false",
+      "prompt": "Para entender bien lo que nos dicen, debemos mirar y escuchar con atención.",
+      "explanation": "Mirar a la persona que habla y estar atentos nos ayuda a comprender todo el mensaje.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-02",
+      "type": "choice",
+      "prompt": "El profe dice por megafonía: «Hoy jugamos dentro porque llueve». ¿Qué ocurre fuera?",
+      "explanation": "El aviso dice claramente que jugamos dentro porque está lloviendo.",
+      "hint": "Fíjate en el motivo por el que no salen al patio.",
+      "lang": "es",
+      "options": [
+        "Hace sol",
+        "Está lloviendo",
+        "Hace mucho viento"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-03",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra que completa el consejo para escuchar bien.",
+      "explanation": "Guardar silencio nos permite oír con claridad lo que nos están explicando.",
+      "lang": "es",
+      "sentence": "Cuando otra persona habla en clase, debemos guardar ___.",
+      "options": [
+        "silencio",
+        "juguetes",
+        "dibujos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-04",
+      "type": "match",
+      "prompt": "Relaciona cada mensaje oral con el lugar donde se escucha.",
+      "explanation": "Cada mensaje oral se utiliza en una situación o lugar diferente de nuestro día a día.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "«Guardad los lápices en el estuche».",
+          "right": "En la clase"
+        },
+        {
+          "left": "«Abróchense los cinturones antes de arrancar».",
+          "right": "En el autobús"
+        },
+        {
+          "left": "«La cena ya está servida en la mesa».",
+          "right": "En casa"
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-05",
+      "type": "choice",
+      "prompt": "Aisha le cuenta a Hugo: «Mi gata blanca saltó al tejado». Encuentra el error en lo que repite Hugo.",
+      "explanation": "Hugo se ha equivocado de animal, porque Aisha hablaba de su gata y no de una perra.",
+      "hint": "Busca la frase que cambia el animal del mensaje original.",
+      "lang": "es",
+      "options": [
+        "«Tu perra blanca saltó al tejado».",
+        "«Tu gata saltó al tejado».",
+        "«Tu gata es de color blanco»."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-06",
+      "type": "classify",
+      "prompt": "Clasifica estas acciones según ayuden o molesten al escuchar un cuento.",
+      "explanation": "El silencio y la atención ayudan a escuchar, mientras que hablar o hacer ruidos molestan a los demás.",
+      "lang": "es",
+      "categories": [
+        "Ayuda a escuchar",
+        "Dificulta escuchar"
+      ],
+      "items": [
+        {
+          "text": "Mirar a la persona que narra la historia",
+          "category": 0
+        },
+        {
+          "text": "Hablar en voz alta con un compañero",
+          "category": 1
+        },
+        {
+          "text": "Estar en silencio y atentos",
+          "category": 0
+        },
+        {
+          "text": "Hacer ruidos con el estuche",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-07",
+      "type": "choice",
+      "prompt": "La monitora avisa: «Poneos la gorra verde para subir al autobús». ¿Qué objeto deben ponerse?",
+      "explanation": "El mensaje indica con claridad que la prenda es una gorra y su color es verde.",
+      "hint": "Recuerda la prenda y el color que dice la monitora.",
+      "lang": "es",
+      "options": [
+        "Una bufanda verde",
+        "Una gorra verde",
+        "Una gorra roja"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-08",
+      "type": "reading",
+      "prompt": "Lee este aviso que nos leen en clase y responde a las preguntas.",
+      "explanation": "Identificar los datos de un aviso nos permite saber qué debemos preparar.",
+      "lang": "es",
+      "title": "Aviso de la excursión",
+      "text": "Atención, clase de primero. Mañana visitamos la granja de animales. Tenéis que traer una botella de agua pequeña y una fruta para almorzar. Llevad zapatillas cómodas para caminar por el campo.",
+      "questions": [
+        {
+          "prompt": "¿A qué lugar va la clase de excursión?",
+          "explanation": "El texto dice que visitan la granja de animales.",
+          "options": [
+            "Al museo",
+            "A la piscina",
+            "A la granja"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué alimento deben llevar para el almuerzo?",
+          "explanation": "En el aviso se pide llevar una fruta para almorzar.",
+          "options": [
+            "Un bocadillo",
+            "Un pastel",
+            "Una fruta"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-09",
+      "type": "choice",
+      "prompt": "Omar escucha este mensaje: «Lávate las manos antes de merendar». ¿Qué debe hacer Omar primero?",
+      "explanation": "La palabra «antes» indica que lavarse las manos es la primera acción que debe realizar.",
+      "hint": "Fíjate en qué dice la instrucción que hay que hacer primero.",
+      "lang": "es",
+      "options": [
+        "Comerse la merienda deprisa",
+        "Lavarse las manos con jabón",
+        "Ponerse a jugar con la pelota"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:39:46.347Z",
+    "reviewed": false
+  }
+}

@@ -7,6 +7,8 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import AnimatedKangaroo from '@/components/AnimatedKangaroo';
 import Footer from '@/components/Footer';
+import KidsTabBar from '@/components/KidsTabBar';
+import PracticeStoreHydrator from '@/components/PracticeStoreHydrator';
 import { RolesProvider } from '@/lib/auth/RolesContext';
 
 import { getTranslations } from 'next-intl/server';
@@ -67,6 +69,8 @@ export default async function LocaleLayout({
                         <AnimatedKangaroo />
                         <Footer />
                     </div>
+                    <KidsTabBar />
+                    <PracticeStoreHydrator />
                 </ThemeProvider>
             </RolesProvider>
         </NextIntlClientProvider>

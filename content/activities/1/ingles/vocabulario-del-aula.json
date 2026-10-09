@@ -1,0 +1,230 @@
+{
+  "id": "g1-ingles-vocabulario-del-aula",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "vocabulario-del-aula",
+  "temaNombre": "Vocabulario del aula",
+  "title": "My Classroom Objects",
+  "summary": "Repasa el vocabulario de los objetos del aula en inglés.",
+  "keyIdeas": [
+    "Usamos 'a' delante de una palabra en singular que empieza por consonante, como 'a pencil'.",
+    "Recordamos palabras del cole: pencil (lápiz), rubber (goma), book (libro) y desk (mesa).",
+    "Podemos decir lo que tenemos usando 'I have a...'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-vocabulario-del-aula-01",
+      "type": "choice",
+      "prompt": "¿Qué objeto usas para escribir? What is it? ✏️",
+      "explanation": "Pencil significa lápiz. Lo usamos para escribir y dibujar.",
+      "hint": "Sirve para escribir en tu libreta.",
+      "lang": "en",
+      "options": [
+        "A pencil",
+        "A chair",
+        "A door"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-02",
+      "type": "true-false",
+      "prompt": "A rubber is for erasing pencil marks.",
+      "explanation": "Rubber significa goma de borrar. Sirve para borrar marcas de lápiz.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-03",
+      "type": "match",
+      "prompt": "Une cada objeto en inglés con su significado en español:",
+      "explanation": "Book es libro, ruler es regla, chair es silla y schoolbag es mochila.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Book",
+          "right": "Libro"
+        },
+        {
+          "left": "Ruler",
+          "right": "Regla"
+        },
+        {
+          "left": "Chair",
+          "right": "Silla"
+        },
+        {
+          "left": "Schoolbag",
+          "right": "Mochila"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta:",
+      "explanation": "Read significa leer, por eso leemos un libro (book).",
+      "hint": "Tiene páginas con letras y dibujos.",
+      "lang": "en",
+      "sentence": "I read a ___ in class.",
+      "options": [
+        "rubber",
+        "book",
+        "desk"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-05",
+      "type": "choice",
+      "prompt": "Hugo wants to draw a straight line. What does he need? 📏",
+      "explanation": "Ruler es una regla, ideal para trazar líneas rectas.",
+      "hint": "Tiene números para medir.",
+      "lang": "en",
+      "options": [
+        "A sharpener",
+        "A chair",
+        "A ruler"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-06",
+      "type": "classify",
+      "prompt": "Clasifica los objetos según su lugar en la clase:",
+      "explanation": "En el estuche (pencil case) guardamos la goma y el lápiz. La mesa y la silla son muebles de la clase.",
+      "lang": "en",
+      "categories": [
+        "In my pencil case",
+        "In the classroom"
+      ],
+      "items": [
+        {
+          "text": "A rubber",
+          "category": 0
+        },
+        {
+          "text": "A pencil",
+          "category": 0
+        },
+        {
+          "text": "A big desk",
+          "category": 1
+        },
+        {
+          "text": "A teacher's chair",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-07",
+      "type": "fill-blank",
+      "prompt": "Aisha opens her bag. Completa la frase:",
+      "explanation": "Pencil case significa estuche, donde guardamos los lápices.",
+      "hint": "Es el estuche donde guardas los colores.",
+      "lang": "en",
+      "sentence": "Aisha puts the pencil in the ___.",
+      "options": [
+        "door",
+        "window",
+        "pencil case"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-08",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar una frase correcta:",
+      "explanation": "En inglés decimos primero el sujeto (I), el verbo (have) y luego el objeto (a blue pen).",
+      "lang": "en",
+      "items": [
+        "I",
+        "have",
+        "a",
+        "blue",
+        "pen."
+      ]
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-09",
+      "type": "choice",
+      "prompt": "Omar breaks his pencil tip. What tool does he use? ✏️",
+      "explanation": "Sharpener es el sacapuntas, que sirve para afilar la punta del lápiz.",
+      "hint": "Sirve para sacar punta.",
+      "lang": "en",
+      "options": [
+        "A chair",
+        "A notebook",
+        "A sharpener"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-10",
+      "type": "reading",
+      "prompt": "Lee el texto sobre la mochila de Martina y responde:",
+      "explanation": "Martina nos cuenta qué objetos del cole lleva en su mochila roja.",
+      "lang": "en",
+      "title": "Martina's Schoolbag",
+      "text": "Hello! I am Martina. Look at my red schoolbag! Inside my schoolbag, I have a big book. I also have a small pencil case with two pencils and a pink rubber. I love my school!",
+      "questions": [
+        {
+          "prompt": "What colour is Martina's schoolbag?",
+          "explanation": "En el texto Martina dice: 'Look at my red schoolbag!'.",
+          "options": [
+            "Green",
+            "Blue",
+            "Red"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Martina have in her pencil case?",
+          "explanation": "Martina dice: 'two pencils and a pink rubber'. Esos son los objetos de su estuche.",
+          "options": [
+            "A big ruler and scissors",
+            "Two pencils and a pink rubber",
+            "Three books and a desk"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:54:26.710Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "id": "g5-naturales-la-atmosfera",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "la-atmosfera",
+  "temaNombre": "La atmósfera",
+  "title": "La atmósfera: nuestra capa protectora",
+  "summary": "Practica la composición del aire, las capas de la atmósfera y los fenómenos meteorológicos que influyen en nuestro planeta.",
+  "keyIdeas": [
+    "La atmósfera está compuesta principalmente por nitrógeno (78 %) y oxígeno (21 %), además de vapor de agua y otros gases.",
+    "Las capas principales son troposfera, estratosfera, mesosfera, termosfera y exosfera; en la troposfera ocurren los fenómenos meteorológicos.",
+    "El aire tiene masa, ocupa espacio y ejerce presión sobre la superficie terrestre."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1",
+      "5.3"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › Materia, fuerzas y energía"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-la-atmosfera-01",
+      "type": "true-false",
+      "prompt": "El gas más abundante en el aire de la atmósfera terrestre es el oxígeno.",
+      "explanation": "El gas más abundante es el nitrógeno, que representa cerca del 78 % del aire. El oxígeno supone aproximadamente el 21 %.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-02",
+      "type": "choice",
+      "prompt": "En el recreo, Lucía y Wei observan la formación de nubes y cómo empieza a llover 🌧️. ¿En qué capa de la atmósfera tienen lugar estos fenómenos meteorológicos?",
+      "explanation": "La troposfera es la capa más cercana a la superficie terrestre y contiene la mayor parte del vapor de agua, donde se forman las nubes, la lluvia y los vientos.",
+      "hint": "Es la capa en contacto directo con la superficie de la Tierra.",
+      "lang": "es",
+      "options": [
+        "En la troposfera",
+        "En la estratosfera",
+        "En la termosfera"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-03",
+      "type": "match",
+      "prompt": "Une cada capa de la atmósfera con la característica que le corresponde:",
+      "explanation": "Cada capa tiene una función crucial: la troposfera alberga la vida y el clima, la estratosfera nos protege de la radiación con el ozono y la termosfera frena partículas solares.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Troposfera",
+          "right": "Capa en la que vivimos y donde se producen las nubes y la lluvia"
+        },
+        {
+          "left": "Estratosfera",
+          "right": "Contiene la capa de ozono que filtra los rayos ultravioleta"
+        },
+        {
+          "left": "Termosfera",
+          "right": "Capa de altísima temperatura donde orbitan satélites y se ven auroras"
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-04",
+      "type": "order",
+      "prompt": "Ordena las capas de la atmósfera desde la superficie de la Tierra hacia el espacio exterior:",
+      "explanation": "Comenzando desde el suelo hacia el espacio exterior, el orden es troposfera, estratosfera, mesosfera, termosfera y, por último, la exosfera.",
+      "lang": "es",
+      "items": [
+        "Troposfera",
+        "Estratosfera",
+        "Mesosfera",
+        "Termosfera",
+        "Exosfera"
+      ]
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-05",
+      "type": "choice",
+      "prompt": "Omar cuelga de los extremos de una regla dos globos idénticos desinflados y la sostiene por el centro: la regla queda equilibrada. Luego infla uno de ellos y vuelve a colgarlo. ¿Qué observará y qué demuestra este experimento?",
+      "explanation": "El aire es materia y por tanto tiene masa. Al inflar el globo, este contiene más aire y pesa más, inclinando la balanza hacia su lado.",
+      "hint": "Recuerda que los gases son materia y ocupan un volumen.",
+      "lang": "es",
+      "options": [
+        "La regla seguirá completamente horizontal, porque los gases no pesan nada.",
+        "La regla se inclinará hacia el globo inflado, demostrando que el aire tiene masa.",
+        "La regla se inclinará hacia el globo desinflado, porque el aire hace flotar al globo inflado."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-06",
+      "type": "classify",
+      "prompt": "Clasifica los siguientes instrumentos meteorológicos según la variable del aire que miden:",
+      "explanation": "El termómetro mide la temperatura y el higrómetro la humedad del aire. El barómetro mide la presión atmosférica, mientras que la veleta y el anemómetro miden la dirección y velocidad del viento.",
+      "lang": "es",
+      "categories": [
+        "Temperatura y humedad",
+        "Viento y presión atmosférica"
+      ],
+      "items": [
+        {
+          "text": "Termómetro",
+          "category": 0
+        },
+        {
+          "text": "Higrómetro",
+          "category": 0
+        },
+        {
+          "text": "Barómetro",
+          "category": 1
+        },
+        {
+          "text": "Anemómetro",
+          "category": 1
+        },
+        {
+          "text": "Veleta",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-07",
+      "type": "fill-blank",
+      "prompt": "Completa la frase seleccionando la opción correcta:",
+      "explanation": "El gas ozono absorbe la radiación ultravioleta perjudicial emitida por el Sol, protegiendo a los seres vivos de quemaduras y enfermedades cutáneas.",
+      "lang": "es",
+      "sentence": "La capa de ozono situada en la estratosfera actúa como un escudo natural porque absorbe la mayor parte de los rayos ___ procedentes del Sol.",
+      "options": [
+        "ultravioleta",
+        "infrarrojos",
+        "luminosos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-08",
+      "type": "choice",
+      "prompt": "En clase de Ciencias se produce un debate. Adrián dice: «El efecto invernadero es un fenómeno 100 % negativo inventado por las personas que deberíamos hacer desaparecer de la Tierra». ¿Cuál es el error en la afirmación de Adrián?",
+      "explanation": "Sin el efecto invernadero natural, la temperatura media de la Tierra sería de unos 18 grados bajo cero, haciendo imposible la vida tal como la conocemos. El problema es la intensificación artificial por la quema de combustibles fósiles.",
+      "hint": "Piensa en qué pasaría con el calor de la Tierra si ningún gas retuviera la energía del Sol.",
+      "lang": "es",
+      "options": [
+        "El efecto invernadero solo afecta a los océanos y no tiene relación con el aire ni con la temperatura del planeta.",
+        "El efecto invernadero natural es imprescindible para la vida terrestre; el peligro actual reside en su aumento descontrolado por actividades humanas.",
+        "El efecto invernadero natural enfría la Tierra para que los polos no se derritan durante el verano."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-09",
+      "type": "choice",
+      "prompt": "En la ciudad de Martina se ha emitido un aviso por alta concentración de gases contaminantes acumulados en la troposfera tras varios días anticiclónicos sin lluvia ni viento. ¿Qué acción cotidiana contribuye a reducir esta contaminación de forma directa?",
+      "explanation": "El uso compartido del transporte o los desplazamientos activos a pie o en bicicleta reducen las emisiones de gases contaminantes producidas por los tubos de escape de los vehículos a motor.",
+      "hint": "Identifica la opción que frena el origen de los gases contaminantes en las ciudades.",
+      "lang": "es",
+      "options": [
+        "Regar las aceras y el asfalto por la noche para que el agua absorba los gases del aire.",
+        "Desplazarse caminando, en bicicleta o en transporte público en lugar de usar vehículos privados de combustible.",
+        "Abrir las ventanas de casa a mediodía para ventilar la calle con el aire del interior."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-10",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto y responde a las preguntas:",
+      "explanation": "En la troposfera, la temperatura y la presión descienden conforme aumenta la altitud, modificando las condiciones para los seres vivos.",
+      "lang": "es",
+      "title": "Un ascenso a la cumbre",
+      "text": "Durante el fin de semana, Nerea y su familia realizaron una ruta de senderismo en Sierra Nevada. Al salir desde el pueblo, a 1.200 metros de altitud, el aire se sentía templado y caminaban con total normalidad. Sin embargo, tras cuatro horas de subida continua, alcanzaron un collado situado a casi 3.000 metros en plena troposfera.\n\nAllí arriba, Nerea notó que la temperatura había bajado notablemente y que, al mantener el mismo paso, se fatigaba mucho antes y sentía la necesidad de respirar más rápido. Su padre le explicó que, a mayor altitud, la columna de aire que tenemos encima es menor, por lo que la presión atmosférica disminuye. Al haber menos presión, las moléculas de gas están más separadas y en cada inspiración entra menos cantidad de oxígeno a los pulmones. Por esta razón, el cuerpo debe esforzarse más para captar el oxígeno que los músculos necesitan.",
+      "questions": [
+        {
+          "prompt": "¿Qué le ocurre a la presión atmosférica según ascendemos a mayor altitud en una montaña?",
+          "explanation": "A mayor altura hay menos aire por encima de nosotros, por lo que la masa de aire ejerce menos presión sobre nuestro cuerpo.",
+          "options": [
+            "Aumenta, porque el aire se comprime con el frío de las cumbres.",
+            "Disminuye, porque la columna de aire que queda sobre nosotros es menor.",
+            "Permanece constante, ya que la atmósfera no cambia su peso."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "A partir de la lectura, ¿por qué Nerea siente fatiga y respira más rápido en el collado a 3.000 metros?",
+          "explanation": "Al estar el aire menos presurizado, la densidad de oxígeno por litro de aire inspirado es menor, obligando a respirar más veces.",
+          "options": [
+            "Porque el viento de la cumbre empuja hacia atrás e impide que el aire entre en la nariz.",
+            "Porque a esa altitud la atmósfera ya no contiene nada de oxígeno.",
+            "Porque la menor presión dispersa las moléculas de gas y obtiene menos oxígeno en cada inspiración."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Teniendo en cuenta el comportamiento de la troposfera descrito en el texto, ¿por qué es crucial consultar la previsión meteorológica antes de emprender una ruta de montaña?",
+          "explanation": "En la troposfera los cambios meteorológicos (frío extremo, tormentas, niebla) ocurren rápidamente y pueden suponer un riesgo vital en alta montaña.",
+          "options": [
+            "Porque la previsión meteorológica es necesaria para saber si la gravedad disminuirá en la cumbre.",
+            "Porque en la troposfera las condiciones de temperatura, presión y viento pueden volverse adversas con rapidez.",
+            "Porque a partir de 2.000 metros de altitud desaparece la capa de ozono de manera imprevista."
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:09:15.535Z",
+    "reviewed": false
+  }
+}

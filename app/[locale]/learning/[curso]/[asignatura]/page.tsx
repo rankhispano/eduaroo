@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
-import AsignaturaTemasPage from '@/app/(repasa)/_views/AsignaturaTemasPage';
+import TemaPath from '@/components/map/TemaPath';
 import { getAsignatura, getCurso } from '@/src/data/curriculum';
+import { getPracticeSet, withGeneratedActivities } from '@/src/data/activityResources';
+import { REGIONS } from '@/src/data/regions';
 
 export async function generateMetadata({
     params,
@@ -31,17 +34,27 @@ export default async function Page({
     params: Promise<{ locale: string; curso: string; asignatura: string }>;
 }) {
     const { locale, curso, asignatura } = await params;
-    const t = await getTranslations({ locale, namespace: 'LearningPage' });
+    const cursoData = getCurso(curso);
+    const asignaturaData = getAsignatura(curso, asignatura);
+
+    if (!cursoData || !asignaturaData) {
+        notFound();
+    }
+
+    const temas = withGeneratedActivities(curso, asignatura, asignaturaData.temas, `/${locale}/learning`);
+    const region = REGIONS[asignaturaData.id];
 
     return (
-        <AsignaturaTemasPage
+        <TemaPath
             cursoId={curso}
+            cursoNombre={cursoData.nombre}
             asignaturaId={asignatura}
-            basePath={`/${locale}/learning`}
-            homeHref={`/${locale}`}
-            sectionLabel={t('title')}
-            showLocalBreadcrumb={false}
-            topicsDescription={t('topicsDescription')}
+            asignaturaNombre={asignaturaData.nombre}
+            color={asignaturaData.color}
+            region={region.region}
+            mascotImage={region.image}
+            temas={temas}
+            practiceTemaIds={asignaturaData.temas.filter((x) => getPracticeSet(curso, asignatura, x.id)).map((x) => x.id)}
         />
     );
 }

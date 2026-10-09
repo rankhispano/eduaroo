@@ -1,0 +1,227 @@
+{
+  "id": "g1-naturales-los-sentidos",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "los-sentidos",
+  "temaNombre": "Los sentidos",
+  "title": "Exploramos con los cinco sentidos",
+  "summary": "Repasa los cinco sentidos, sus órganos y cómo nos ayudan a conocer el mundo.",
+  "keyIdeas": [
+    "Tenemos cinco sentidos: vista, oído, olfato, gusto y tacto.",
+    "Cada sentido tiene un órgano: ojos, orejas, nariz, lengua y piel.",
+    "El sentido del tacto está repartido por toda nuestra piel."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-los-sentidos-01",
+      "type": "match",
+      "prompt": "Une cada sentido con su órgano del cuerpo.",
+      "explanation": "Cada sentido usa un órgano para recibir información de todo lo que nos rodea.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Vista",
+          "right": "Ojos"
+        },
+        {
+          "left": "Oído",
+          "right": "Orejas"
+        },
+        {
+          "left": "Olfato",
+          "right": "Nariz"
+        },
+        {
+          "left": "Gusto",
+          "right": "Lengua"
+        },
+        {
+          "left": "Tacto",
+          "right": "Piel"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-los-sentidos-02",
+      "type": "true-false",
+      "prompt": "El sentido del tacto está en toda la piel del cuerpo.",
+      "explanation": "Sentimos frío, calor y caricias con la piel de cualquier parte del cuerpo, no solo con las manos.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-naturales-los-sentidos-03",
+      "type": "choice",
+      "prompt": "Hugo escucha la campana del colegio. ¿Qué sentido utiliza?",
+      "explanation": "El oído nos permite captar los sonidos del entorno, como la campana del cole.",
+      "hint": "Sirve para escuchar los sonidos.",
+      "lang": "es",
+      "options": [
+        "El olfato",
+        "La vista",
+        "El oído"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-los-sentidos-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el sentido correcto.",
+      "explanation": "El olfato se encuentra en la nariz y nos sirve para percibir los olores.",
+      "lang": "es",
+      "sentence": "Aisha huele una flor del jardín con el sentido del ___.",
+      "options": [
+        "gusto",
+        "olfato",
+        "tacto"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-los-sentidos-05",
+      "type": "classify",
+      "prompt": "Clasifica según el sentido principal que usas.",
+      "explanation": "Los sonidos entran por las orejas con el oído y los olores por la nariz con el olfato.",
+      "lang": "es",
+      "categories": [
+        "Se reconocen con el oído",
+        "Se reconocen con el olfato"
+      ],
+      "items": [
+        {
+          "text": "El silbato del árbitro",
+          "category": 0
+        },
+        {
+          "text": "El aroma de una tarta",
+          "category": 1
+        },
+        {
+          "text": "El maullido de un gato",
+          "category": 0
+        },
+        {
+          "text": "El olor a tierra mojada",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-los-sentidos-06",
+      "type": "choice",
+      "prompt": "Tres amigos hablan de los sentidos. ¿Quién dice una idea equivocada?",
+      "explanation": "Omar se equivoca. El órgano del tacto es toda la piel, no solo las manos.",
+      "hint": "Piensa en qué parte del cuerpo tenemos piel.",
+      "lang": "es",
+      "options": [
+        "Lucía: 'La lengua nos ayuda a saborear'.",
+        "Omar: 'Solo tenemos tacto en las manos'.",
+        "Mateo: 'Los ojos nos permiten ver colores'."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-los-sentidos-07",
+      "type": "choice",
+      "prompt": "Lucía come una manzana con la nariz tapada. ¿Qué pasará?",
+      "explanation": "El olfato colabora con el gusto. Si nos tapamos la nariz, los sabores se distinguen peor.",
+      "hint": "El olfato y el gusto trabajan juntos.",
+      "lang": "es",
+      "options": [
+        "Notará mucho menos el sabor de la manzana.",
+        "La manzana cambiará de color de repente.",
+        "Oirá ruidos más fuertes al masticar."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-los-sentidos-08",
+      "type": "choice",
+      "prompt": "Adrián toca dos toallas a oscuras para saber cuál está seca. ¿Qué sentido usa?",
+      "explanation": "Con el tacto de la piel podemos saber si algo está seco, mojado, suave o rugoso.",
+      "lang": "es",
+      "options": [
+        "El tacto",
+        "La vista",
+        "El gusto"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-los-sentidos-09",
+      "type": "true-false",
+      "prompt": "Escuchar música con el volumen muy alto ayuda a cuidar nuestros oídos.",
+      "explanation": "Los sonidos muy fuertes pueden dañar el oído. Debemos escuchar a un volumen suave.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-naturales-los-sentidos-10",
+      "type": "reading",
+      "prompt": "Lee la historia sobre la excursión y responde a las preguntas.",
+      "explanation": "En la naturaleza usamos todos los sentidos para explorar y disfrutar del entorno.",
+      "lang": "es",
+      "title": "Un paseo por el campo",
+      "text": "Nerea y Wei pasean por el campo. Nerea escucha cantar a los pájaros. Wei huele las flores del camino. Luego, Nerea acaricia a un perro suave. Wei prueba una rica ciruela dulce.",
+      "questions": [
+        {
+          "prompt": "¿Qué sentido usa Nerea para escuchar a los pájaros?",
+          "explanation": "Nerea escucha el canto gracias al sentido del oído.",
+          "options": [
+            "El gusto",
+            "La vista",
+            "El oído"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué sentido usa Wei para notar que la ciruela es dulce?",
+          "explanation": "El gusto, a través de la lengua, nos permite saborear lo dulce, lo salado o lo ácido.",
+          "options": [
+            "El olfato",
+            "El tacto",
+            "El gusto"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:29:15.579Z",
+    "reviewed": false
+  }
+}

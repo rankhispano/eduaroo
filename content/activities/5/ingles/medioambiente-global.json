@@ -1,0 +1,245 @@
+{
+  "id": "g5-ingles-medioambiente-global",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "medioambiente-global",
+  "temaNombre": "Medioambiente global",
+  "title": "Protecting Our Global Environment",
+  "summary": "Practica vocabulario y expresiones en inglés para cuidar el planeta y proteger el medioambiente global.",
+  "keyIdeas": [
+    "Recuerda las tres R: reduce, reuse and recycle para disminuir los residuos.",
+    "El calentamiento global (global warming) y la deforestación afectan a los hábitats de todo el mundo.",
+    "Podemos ahorrar energía y agua usando el transporte público, apagando las luces y cerrando los grifos."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-medioambiente-global-01",
+      "type": "choice",
+      "prompt": "Which action helps reduce pollution in our cities?",
+      "explanation": "Montar en bici no emite humos ni gases contaminantes, por lo que ayuda a reducir la contaminación del aire.",
+      "hint": "Piensa en un medio de transporte que no use combustible.",
+      "lang": "en",
+      "options": [
+        "Riding a bicycle to school",
+        "Leaving lights on all night",
+        "Driving a big car every day"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-02",
+      "type": "true-false",
+      "prompt": "Turning off the tap while brushing your teeth helps save water.",
+      "explanation": "Cerrar el grifo mientras te lavas los dientes ahorra muchos litros de agua limpia cada día.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra adecuada sobre reciclaje:",
+      "explanation": "La expresión correcta es 'recycling bin' (contenedor de reciclaje).",
+      "hint": "Buscamos la palabra relacionada con reciclar.",
+      "lang": "en",
+      "sentence": "You should throw empty soda cans into the yellow ___ bin.",
+      "options": [
+        "burning",
+        "destroying",
+        "recycling"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-04",
+      "type": "match",
+      "prompt": "Match each environmental action with its definition:",
+      "explanation": "Las 'tres R' son básicas: Reduce (usar menos), Reuse (reutilizar objetos) y Recycle (transformar residuos en nuevos productos).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Reduce",
+          "right": "Use less energy and buy fewer things"
+        },
+        {
+          "left": "Reuse",
+          "right": "Use something again instead of throwing it away"
+        },
+        {
+          "left": "Recycle",
+          "right": "Transform waste into new products"
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-05",
+      "type": "classify",
+      "prompt": "Classify these items into 'Green Habits' or 'Harmful Habits':",
+      "explanation": "Plantar árboles, usar bolsas de tela y apagar pantallas son hábitos ecológicos; tirar plástico y malgastar papel o energía dañan el entorno.",
+      "lang": "en",
+      "categories": [
+        "Green Habits",
+        "Harmful Habits"
+      ],
+      "items": [
+        {
+          "text": "Planting trees in the park",
+          "category": 0
+        },
+        {
+          "text": "Dropping plastic bottles on the beach",
+          "category": 1
+        },
+        {
+          "text": "Using cloth shopping bags",
+          "category": 0
+        },
+        {
+          "text": "Wasting paper in the classroom",
+          "category": 1
+        },
+        {
+          "text": "Switching off computer screens",
+          "category": 0
+        },
+        {
+          "text": "Leaving electronic devices on standby",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-06",
+      "type": "choice",
+      "prompt": "Lucía and Omar are organizing an Eco-Club at school. What can they say to invite their classmates to pick up litter in the playground?",
+      "explanation": "La primera opción propone una acción colaborativa y respetuosa para mantener limpio el entorno y cuidar a los animales.",
+      "hint": "Busca una propuesta positiva para cuidar el colegio.",
+      "lang": "en",
+      "options": [
+        "Let's clean our playground together to protect wildlife!",
+        "Don't worry about the trash, someone else will clean it.",
+        "We need to buy more plastic wrappers for our snacks."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-07",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la fuente de energía renovable correcta:",
+      "explanation": "Los aerogeneradores aprovechan la energía del viento ('wind energy') para generar electricidad limpia sin emitir gases contaminantes.",
+      "hint": "Observa el nombre de las turbinas.",
+      "lang": "en",
+      "sentence": "Wind turbines produce clean electricity using ___ energy.",
+      "options": [
+        "wind",
+        "coal",
+        "oil"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-08",
+      "type": "order",
+      "prompt": "Order the steps of a school compost project from start to finish:",
+      "explanation": "El compostaje empieza reuniendo restos de fruta, depositándolos en la compostera, esperando a que se descompongan y usando la tierra rica resultante para nutrir las plantas.",
+      "lang": "en",
+      "items": [
+        "Collect fruit peels and food scraps from the canteen",
+        "Put the organic waste into the garden compost bin",
+        "Wait a few months for the waste to decompose",
+        "Use the rich compost soil to nourish the school plants"
+      ]
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-09",
+      "type": "reading",
+      "prompt": "Read the report from the global school news and answer the questions:",
+      "explanation": "Los bosques son esenciales para la vida en la Tierra y las acciones colectivas de niños y jóvenes ayudan a conservarlos.",
+      "lang": "en",
+      "title": "Saving the World's Forests",
+      "text": "Forests are the lungs of planet Earth. The Amazon rainforest, for example, produces huge amounts of oxygen and is home to millions of animal species. However, human activities like illegal logging and clearing land for big farms are causing serious deforestation. When trees are cut down, animals lose their natural habitats, and global temperatures rise because trees absorb carbon dioxide. Fortunately, children across the globe are taking action. In a primary school in Valencia, students started a campaign called 'One Child, One Seed'. They plant native trees every spring and write digital letters to local politicians asking for forest protection. We cannot change the past, but our choices today can build a greener future.",
+      "questions": [
+        {
+          "prompt": "Why are forests often called the 'lungs' of planet Earth?",
+          "explanation": "El texto explica que los bosques producen grandes cantidades de oxígeno y absorben dióxido de carbono, funcionando como pulmones.",
+          "options": [
+            "Because they cover all the deserts in the world.",
+            "Because they produce oxygen and absorb carbon dioxide.",
+            "Because they provide wood to construct tall buildings."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What do the students in Valencia do in their 'One Child, One Seed' campaign?",
+          "explanation": "El texto menciona explícitamente que plantan árboles autóctonos en primavera y escriben a representantes políticos locales.",
+          "options": [
+            "They travel to the Amazon rainforest every month.",
+            "They sell tropical wood to make paper.",
+            "They plant native trees and contact politicians."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does the author suggest in the final sentence of the text?",
+          "explanation": "La frase 'our choices today can build a greener future' transmite la idea de que nuestras acciones presentes tienen impacto positivo en el futuro.",
+          "options": [
+            "Only grown-ups can make important environmental choices.",
+            "Individual and collective actions right now can create a better environment.",
+            "It is impossible to solve global environmental problems."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-10",
+      "type": "choice",
+      "prompt": "Aisha wants to reduce her carbon footprint during family holidays. Which choice is the most sustainable?",
+      "explanation": "El tren de alta velocidad emite significativamente menos dióxido de carbono por pasajero que los vuelos domésticos o los coches de gasolina.",
+      "hint": "Compara el impacto de viajar en tren frente a volar en distancias cortas.",
+      "lang": "en",
+      "options": [
+        "Taking a high-speed train instead of a domestic flight",
+        "Renting two large petrol cars for short journeys",
+        "Buying single-use plastic bottles every afternoon"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:15:54.764Z",
+    "reviewed": false
+  }
+}

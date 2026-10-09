@@ -1,0 +1,227 @@
+{
+  "id": "g1-lengua-lectura-de-silabas",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "lectura-de-silabas",
+  "temaNombre": "Lectura de sílabas",
+  "title": "Jugamos a leer sílabas",
+  "summary": "Practica la lectura y combinación de sílabas para formar palabras.",
+  "keyIdeas": [
+    "Las sílabas unen letras que suenan juntas en un solo golpe de voz.",
+    "Juntando sílabas formamos palabras completas como lu-na o pe-lo-ta.",
+    "Leer despacio cada sílaba te ayuda a comprender mejor el texto."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE7",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "7.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CD3",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-lectura-de-silabas-01",
+      "type": "choice",
+      "prompt": "¿Qué palabra se forma si juntas las sílabas «ca» y «sa»? 🏠",
+      "explanation": "Al juntar «ca» y «sa» se lee «casa». La primera sílaba es «ca» y la segunda es «sa».",
+      "hint": "Lee las dos partes en orden.",
+      "lang": "es",
+      "options": [
+        "casa",
+        "saca",
+        "cosa"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-02",
+      "type": "true-false",
+      "prompt": "La palabra «sol» tiene dos sílabas.",
+      "explanation": "La palabra «sol» se dice en un solo golpe de voz, así que tiene una sílaba.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-03",
+      "type": "fill-blank",
+      "prompt": "Elige la sílaba que falta para completar el nombre del animal 🐸.",
+      "explanation": "Completamos la palabra con «po» para formar «sapo».",
+      "lang": "es",
+      "sentence": "El animal del charco es un sa___.",
+      "options": [
+        "pa",
+        "pe",
+        "po"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-04",
+      "type": "match",
+      "prompt": "Une cada inicio con su final para formar palabras del cole 🎒.",
+      "explanation": "Al unir las sílabas formamos las palabras mesa, libro, lápiz y goma.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "me-",
+          "right": "-sa"
+        },
+        {
+          "left": "li-",
+          "right": "-bro"
+        },
+        {
+          "left": "la-",
+          "right": "-piz"
+        },
+        {
+          "left": "go-",
+          "right": "-ma"
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-05",
+      "type": "classify",
+      "prompt": "Clasifica según el número de sílabas.",
+      "explanation": "Contamos las palmadas: lu-na, bar-co y pe-rro tienen dos; pe-lo-ta, co-mi-da y to-ma-te tienen tres.",
+      "lang": "es",
+      "categories": [
+        "Dos sílabas",
+        "Tres sílabas"
+      ],
+      "items": [
+        {
+          "text": "lu-na",
+          "category": 0
+        },
+        {
+          "text": "pe-lo-ta",
+          "category": 1
+        },
+        {
+          "text": "bar-co",
+          "category": 0
+        },
+        {
+          "text": "co-mi-da",
+          "category": 1
+        },
+        {
+          "text": "to-ma-te",
+          "category": 1
+        },
+        {
+          "text": "pe-rro",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-06",
+      "type": "order",
+      "prompt": "Ordena estas sílabas para escribir una fruta rica 🍌.",
+      "explanation": "El orden correcto de las sílabas es plá-ta-no.",
+      "lang": "es",
+      "items": [
+        "plá-",
+        "ta-",
+        "no"
+      ]
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-07",
+      "type": "choice",
+      "prompt": "Aisha quiere pedir una merienda que empieza por la sílaba «man-». ¿Qué fruta pide? 🍎",
+      "explanation": "«Manzana» empieza por la sílaba «man-». Pera empieza por «pe-» y plátano por «plá-».",
+      "hint": "Busca la palabra que empieza por m.",
+      "lang": "es",
+      "options": [
+        "man-za-na",
+        "pe-ra",
+        "plá-ta-no"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-08",
+      "type": "fill-blank",
+      "prompt": "Elige la sílaba correcta para completar la frase.",
+      "explanation": "La palabra correcta es «maleta», que se forma con ma-le-ta.",
+      "lang": "es",
+      "sentence": "Nerea guarda su ropa en la ma___ta.",
+      "options": [
+        "le",
+        "lu",
+        "lo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-09",
+      "type": "reading",
+      "prompt": "Lee con atención y responde a las preguntas.",
+      "explanation": "Leer sílaba a sílaba nos ayuda a entender toda la historia del gato Tito.",
+      "lang": "es",
+      "title": "El gato Tito",
+      "text": "El gato Tito sube a la te-ja. Mira una ma-ri-po-sa a-zul. La ma-ri-po-sa vuela alto. Tito baja a su cu-na y se duerme fe-liz.",
+      "questions": [
+        {
+          "prompt": "¿A dónde sube el gato Tito?",
+          "explanation": "El texto dice claramente: «El gato Tito sube a la te-ja».",
+          "options": [
+            "A la cuna.",
+            "A la teja.",
+            "Al árbol."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿De qué color es la mariposa que ve Tito?",
+          "explanation": "En la lectura dice que Tito mira una mariposa azul.",
+          "options": [
+            "Azul.",
+            "Verde.",
+            "Roja."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:27:36.232Z",
+    "reviewed": false
+  }
+}

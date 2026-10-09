@@ -1,0 +1,225 @@
+{
+  "id": "g2-naturales-el-aire-y-el-agua",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "el-aire-y-el-agua",
+  "temaNombre": "El aire y el agua",
+  "title": "El aire y el agua",
+  "summary": "Descubre las propiedades del aire y el agua mientras aprendes a cuidarlos.",
+  "keyIdeas": [
+    "El aire es invisible pero ocupa espacio y se siente al moverse.",
+    "El agua puede ser líquida, sólida como el hielo o gas como el vapor.",
+    "El agua y el aire limpio son necesarios para la vida."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Materia, fuerzas y energía"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-01",
+      "type": "true-false",
+      "prompt": "El aire no se puede ver, pero podemos sentirlo cuando hace viento.",
+      "explanation": "El aire es invisible. Podemos sentir su fuerza en la cara cuando se mueve.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-02",
+      "type": "match",
+      "prompt": "Une cada estado del agua con su ejemplo cotidiano:",
+      "explanation": "El agua cambia de estado. Puede ser líquida, sólida o vapor.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Líquido",
+          "right": "Agua de un vaso"
+        },
+        {
+          "left": "Sólido",
+          "right": "Cúbito de hielo"
+        },
+        {
+          "left": "Gas",
+          "right": "Vapor de sopa caliente"
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-03",
+      "type": "choice",
+      "prompt": "Hugo sopla dentro de un globo y se infla. ¿Por qué ocurre esto?",
+      "explanation": "El aire no se ve, pero es materia y ocupa espacio dentro del globo.",
+      "hint": "Piensa en qué metemos dentro del globo al soplar.",
+      "lang": "es",
+      "options": [
+        "Porque el aire pesa tanto que estira la goma.",
+        "Porque el globo come aire para hacerse gigante.",
+        "Porque el aire entra y ocupa espacio dentro del globo."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-04",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra adecuada sobre el agua limpia para beber:",
+      "explanation": "El agua pura es inodora, es decir, no huele a nada.",
+      "lang": "es",
+      "sentence": "El agua limpia no tiene sabor, color ni ___.",
+      "options": [
+        "peso",
+        "olor",
+        "frío"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-05",
+      "type": "choice",
+      "prompt": "Leo dice tres frases sobre el agua. ¿Cuál es su error?",
+      "explanation": "Las nubes no son de algodón dulce. Están formadas por gotitas de agua.",
+      "hint": "Fíjate en qué cosas no pueden estar en el cielo.",
+      "lang": "es",
+      "options": [
+        "El agua de los ríos viaja hasta llegar al mar.",
+        "El hielo sigue siendo agua, pero en estado sólido.",
+        "Las nubes del cielo están hechas de algodón dulce blanco."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-06",
+      "type": "classify",
+      "prompt": "Clasifica estas acciones sobre el cuidado del agua en casa:",
+      "explanation": "Cerrar los grifos cuando no los usamos ayuda a ahorrar agua.",
+      "lang": "es",
+      "categories": [
+        "Ahorra agua 💧",
+        "Malgasta agua 🚫"
+      ],
+      "items": [
+        {
+          "text": "Cerrar el grifo mientras te cepillas los dientes",
+          "category": 0
+        },
+        {
+          "text": "Ducharse rápido en lugar de llenar la bañera",
+          "category": 0
+        },
+        {
+          "text": "Dejar la manguera abierta en el patio sin usarla",
+          "category": 1
+        },
+        {
+          "text": "Lavar una manzana con el grifo siempre abierto",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-07",
+      "type": "order",
+      "prompt": "Ordena cómo viaja una gota de agua en la naturaleza:",
+      "explanation": "El ciclo del agua empieza con la evaporación, forma nubes y llueve.",
+      "lang": "es",
+      "items": [
+        "El sol calienta el agua del mar.",
+        "El vapor sube y forma las nubes.",
+        "El agua cae en forma de lluvia.",
+        "El agua viaja por el río al mar."
+      ]
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-08",
+      "type": "choice",
+      "prompt": "Lucía mete un vaso boca abajo y recto en agua. La servilleta del fondo:",
+      "explanation": "El aire dentro del vaso no deja sitio al agua si no lo inclinas.",
+      "hint": "Recuerda que el aire ocupa un lugar dentro del vaso.",
+      "lang": "es",
+      "options": [
+        "Se rompe porque el agua la aplasta enseguida.",
+        "Se moja al momento porque el papel absorbe todo.",
+        "Se queda seca porque el aire dentro impide entrar al agua."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-09",
+      "type": "choice",
+      "prompt": "Wei quiere cuidar el aire de su barrio. ¿Qué acción ayuda más?",
+      "explanation": "Caminar o usar la bicicleta no echa humo y cuida el aire.",
+      "hint": "Busca la opción que no eche humo a la calle.",
+      "lang": "es",
+      "options": [
+        "Ir al colegio caminando o en bicicleta.",
+        "Ir al cole en un coche grande con motor.",
+        "Quemar hojas secas en la acera."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-10",
+      "type": "reading",
+      "prompt": "Lee el texto con atención y responde a las preguntas:",
+      "explanation": "El viento es aire que se mueve con fuerza y empuja cosas.",
+      "lang": "es",
+      "title": "El juego del viento",
+      "text": "Omar sale al parque con su molinillo de papel. Hoy hace viento y las aspas giran muy rápido. Su abuela le explica que el viento es aire en movimiento. No podemos atraparlo con las manos. El viento mueve las hojas de los árboles y ayuda a navegar a los barcos de vela.",
+      "questions": [
+        {
+          "prompt": "¿Qué hace girar el molinillo de Omar en el parque?",
+          "explanation": "El texto dice que el viento hace girar rápido las aspas.",
+          "options": [
+            "El agua de la fuente.",
+            "El viento suave.",
+            "Un motor eléctrico."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué es el viento según la abuela de Omar?",
+          "explanation": "La abuela explica que el viento es solo aire que se mueve.",
+          "options": [
+            "Es el agua que cae de las hojas.",
+            "Es una nube que baja a la tierra.",
+            "Es el aire en movimiento."
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:41:47.443Z",
+    "reviewed": false
+  }
+}

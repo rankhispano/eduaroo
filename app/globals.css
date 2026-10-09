@@ -48,3 +48,13 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
+/* Parada recomendada del camino de temas */
+@keyframes pulse-soft {
+  50% { transform: scale(1.07); }
+}
+.animate-pulse-soft {
+  animation: pulse-soft 1.8s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-pulse-soft { animation: none; }
+}

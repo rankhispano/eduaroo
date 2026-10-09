@@ -1,0 +1,224 @@
+{
+  "id": "g5-sociales-la-edad-moderna-america",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "la-edad-moderna-america",
+  "temaNombre": "La Edad Moderna: América",
+  "title": "Expedición a la Edad Moderna",
+  "summary": "Repasa la llegada a América en 1492, las culturas precolombinas y el intercambio entre continentes.",
+  "keyIdeas": [
+    "La llegada a América en 1492 señala el comienzo de la Edad Moderna en la historia de España.",
+    "Antes del contacto con los europeos, en América florecían civilizaciones avanzadas como mayas, aztecas e incas.",
+    "El intercambio comercial transformó la dieta y economía de ambos mundos con nuevos alimentos y recursos."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE7",
+      "CE8"
+    ],
+    "criteria": [
+      "7.1",
+      "7.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CE2",
+      "CP3",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-la-edad-moderna-america-01",
+      "type": "true-false",
+      "prompt": "Cristóbal Colón navegó hacia el oeste por el océano Atlántico convencido de que encontraría una ruta directa para llegar a Asia (las Indias).",
+      "explanation": "Colón sabía que la Tierra era redonda y pensaba que navegando hacia el oeste llegaría a Asia más rápido, sin saber que existía el continente americano en medio.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-02",
+      "type": "choice",
+      "prompt": "En clase de 5.º, Lucía investiga quiénes financiaron y apoyaron el proyecto del primer viaje de Colón en 1492. ¿Qué monarcas lo hicieron?",
+      "explanation": "La reina Isabel de Castilla confió en el proyecto de Colón y le otorgó el apoyo y los recursos necesarios mediante las Capitulaciones de Santa Fe.",
+      "hint": "Eran conocidos por unir las coronas de Castilla y Aragón.",
+      "lang": "es",
+      "options": [
+        "Los reyes de Portugal, Juan II y Leonor de Viseu.",
+        "El rey Carlos I de España y su madre Juana.",
+        "Los Reyes Católicos, Isabel I de Castilla y Fernando II de Aragón."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre los avances de la navegación en el siglo XV.",
+      "explanation": "La brújula fue un instrumento clave que, junto al astrolabio y las carabelas, permitió la navegación lejos de las costas.",
+      "lang": "es",
+      "sentence": "Para orientarse en mar abierto sin perder el rumbo, los marineros utilizaban la ___ magnética que señalaba siempre al norte.",
+      "options": [
+        "veleta",
+        "brújula",
+        "clepsidra"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-04",
+      "type": "match",
+      "prompt": "Relaciona cada pueblo precolombino con el rasgo que mejor lo define:",
+      "explanation": "Cada civilización precolombina se adaptó a su entorno geográfico con una organización social y técnica admirable.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Mayas",
+          "right": "Desarrollaron un calendario muy preciso y vivían en ciudades-estado en Centroamérica."
+        },
+        {
+          "left": "Incas",
+          "right": "Crearon un gran imperio en la cordillera de los Andes comunicado por una red de caminos."
+        },
+        {
+          "left": "Aztecas",
+          "right": "Construyeron su capital, Tenochtitlan, sobre un gran lago en el actual territorio de México."
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-05",
+      "type": "order",
+      "prompt": "Ordena los pasos de la expedición de 1492 desde su inicio hasta la llegada a América:",
+      "explanation": "La expedición partió de Huelva en agosto, descansó en Canarias y avistó tierra firme americana el 12 de octubre de 1492.",
+      "lang": "es",
+      "items": [
+        "Firma de las Capitulaciones de Santa Fe entre Colón y los Reyes Católicos.",
+        "Salida de las carabelas desde el puerto de Palos de la Frontera en Huelva.",
+        "Escala en las islas Canarias para reparar barcos y cargar víveres.",
+        "Llegada a la isla de Guanahaní tras semanas de navegación por el Atlántico."
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-06",
+      "type": "classify",
+      "prompt": "Clasifica estos productos según su lugar de origen antes del contacto entre Europa y América:",
+      "explanation": "Alimentos básicos de nuestra dieta como la patata, el tomate o el cacao llegaron de América, mientras que el trigo, el aceite o los caballos viajaron desde Europa.",
+      "lang": "es",
+      "categories": [
+        "Originarios de América",
+        "Llevados desde Europa a América"
+      ],
+      "items": [
+        {
+          "text": "Patata",
+          "category": 0
+        },
+        {
+          "text": "Trigo",
+          "category": 1
+        },
+        {
+          "text": "Tomate",
+          "category": 0
+        },
+        {
+          "text": "Caballo",
+          "category": 1
+        },
+        {
+          "text": "Cacao",
+          "category": 0
+        },
+        {
+          "text": "Olivo",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-07",
+      "type": "choice",
+      "prompt": "¿Cuál fue una de las principales razones por las que los países europeos buscaban nuevas rutas marítimas hacia Asia a finales del siglo XV?",
+      "explanation": "La caída de Constantinopla en 1453 cortó el paso terrestre hacia Oriente, obligando a buscar rutas alternativas por mar para conseguir productos valiosos como las especias.",
+      "hint": "Piensa en el comercio de la seda y las especias y los problemas para cruzar por tierra.",
+      "lang": "es",
+      "options": [
+        "Los turcos otomanos bloquearon las rutas comerciales tradicionales por tierra hacia las especias y la seda.",
+        "Querían trasladar todas las capitales europeas a islas lejanas del océano Índico.",
+        "Los barcos europeos eran demasiado grandes para navegar por el mar Mediterráneo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-08",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto y responde a las preguntas:",
+      "explanation": "El contacto entre continentes generó cambios biológicos, lingüísticos y sociales muy complejos para ambas partes.",
+      "lang": "es",
+      "title": "El encuentro de dos mundos",
+      "text": "En 1492, dos mundos que habían vivido aislados entraron en contacto por primera vez. Para los reinos europeos supuso acceder a territorios inexplorados, nuevas rutas de navegación y grandes reservas de metales como el oro y la plata. Sin embargo, para la población indígena este hecho tuvo consecuencias muy duras: sufrieron enfermedades desconocidas hasta entonces en América, como la viruela y el sarampión, que diezmaron a sus comunidades al no tener defensas naturales contra ellas. Al mismo tiempo se inició un proceso de mestizaje y un profundo intercambio cultural. El idioma castellano se extendió por gran parte de América, mientras que palabras de origen taíno o náhuatl como canoa, huracán o chocolate se incorporaron al vocabulario europeo. Por este motivo, hoy se prefiere hablar de un encuentro de culturas y no de un descubrimiento.",
+      "questions": [
+        {
+          "prompt": "¿Cuál fue una de las causas del gran descenso demográfico de la población indígena tras 1492?",
+          "explanation": "Las enfermedades infecciosas traídas desde Europa fueron la principal causa del grave descenso de la población originaria americana.",
+          "options": [
+            "Un cambio climático repentino que secó todos los cultivos en América.",
+            "El abandono voluntario de sus tierras para viajar a Europa en barco.",
+            "La llegada de enfermedades europeas como la viruela, para las que no tenían defensas."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué el texto indica que hoy se prefiere hablar de 'encuentro' en lugar de 'descubrimiento'?",
+          "explanation": "No se puede descubrir un territorio donde ya vivían pueblos con culturas milenarias; fue un contacto mutuo entre dos sociedades diferentes.",
+          "options": [
+            "Porque Colón utilizó mapas modernos creados por satélite para viajar.",
+            "Porque en América ya habitaban millones de personas con civilizaciones ricas y organizadas.",
+            "Porque los dos continentes estaban unidos físicamente por puentes de piedra."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-09",
+      "type": "choice",
+      "prompt": "Adrián y Nerea leen en su libro de Sociales que en el siglo XVI llegaban a Sevilla barcos cargados de plata y oro desde América. ¿Qué consecuencia económica tuvo esto en España?",
+      "explanation": "La gran cantidad de plata que entró disparó la inflación (subida general de precios), encareciendo la vida de la mayoría de la población trabajadora.",
+      "hint": "Cuando hay mucho dinero en circulación y los bienes no aumentan al mismo ritmo, los precios suben.",
+      "lang": "es",
+      "options": [
+        "Hizo que la comida y la ropa fueran completamente gratuitas para todos los habitantes.",
+        "Aumentó la cantidad de dinero disponible, lo que provocó una gran subida de precios en los productos cotidianos.",
+        "Provocó que se dejaran de usar las monedas de metal y solo se intercambiara mediante trueque."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-10",
+      "type": "true-false",
+      "prompt": "El intercambio cultural entre América y Europa fue en una sola dirección: los pueblos indígenas adoptaron costumbres europeas, pero Europa no incorporó ningún conocimiento ni palabra americana.",
+      "explanation": "El intercambio fue mutuo: Europa adoptó palabras indígenas (canoa, cacao, tiburón), plantas medicinales, técnicas agrícolas y alimentos fundamentales como el maíz y la patata.",
+      "lang": "es",
+      "answer": false
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:37:00.156Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "figuras-retoricas-metafora-simil-personificacion",
+  "temaNombre": "Figuras retóricas: metáfora, símil, personificación",
+  "title": "Exploradores de las figuras retóricas",
+  "summary": "Practica e identifica la metáfora, el símil y la personificación en textos poéticos y cotidianos.",
+  "keyIdeas": [
+    "El símil compara dos elementos usando palabras de enlace como 'como', 'parece' o 'igual que'.",
+    "La metáfora identifica un término real con uno imaginario de forma directa, sin nexos comparativos.",
+    "La personificación atribuye cualidades, acciones o emociones humanas a objetos, animales o ideas."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE8",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "8.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "C. Educación literaria",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-01",
+      "type": "choice",
+      "prompt": "En el taller de poesía, Lucía ha escrito: «El río corre como una serpiente plateada». ¿Qué figura retórica ha utilizado?",
+      "explanation": "Es un símil porque compara el movimiento del río con una serpiente usando la palabra de enlace 'como'.",
+      "hint": "Fíjate en la palabra que une los dos elementos comparados.",
+      "lang": "es",
+      "options": [
+        "Símil o comparación",
+        "Metáfora",
+        "Personificación"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-02",
+      "type": "true-false",
+      "prompt": "La frase «Las estrellas nos guiñaban los ojos desde el cielo» contiene una personificación.",
+      "explanation": "Es una personificación porque atribuye una acción propiamente humana (guiñar los ojos) a las estrellas.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-03",
+      "type": "fill-blank",
+      "prompt": "Completa la definición con el término adecuado.",
+      "explanation": "La metáfora traslada el significado de un término a otro de forma directa, a diferencia del símil que usa nexos.",
+      "lang": "es",
+      "sentence": "La ___ consiste en identificar un elemento real con otro imaginario sin usar nexos de comparación.",
+      "options": [
+        "metáfora",
+        "personificación",
+        "aliteración"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-04",
+      "type": "match",
+      "prompt": "Une cada ejemplo con la figura retórica que le corresponde:",
+      "explanation": "El viento susurrar es una acción humana (personificación), la comparación con 'como' es un símil y definir las farolas como centinelas es una metáfora.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "El viento susurraba secretos entre las hojas.",
+          "right": "Personificación"
+        },
+        {
+          "left": "Sus manos son suaves como el terciopelo.",
+          "right": "Símil"
+        },
+        {
+          "left": "Las farolas del parque son centinelas dorados.",
+          "right": "Metáfora"
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-05",
+      "type": "classify",
+      "prompt": "Clasifica estos versos según la figura retórica principal que emplean:",
+      "explanation": "Las metáforas identifican directamente dos realidades, los símiles usan nexos comparativos ('igual que', 'como') y las personificaciones dan cualidades humanas a seres inanimados.",
+      "lang": "es",
+      "categories": [
+        "Metáfora",
+        "Símil",
+        "Personificación"
+      ],
+      "items": [
+        {
+          "text": "El sol doraba el campo igual que una moneda de oro.",
+          "category": 1
+        },
+        {
+          "text": "El reloj del pasillo no para de quejarse.",
+          "category": 2
+        },
+        {
+          "text": "Las nubes son copos de algodón flotantes.",
+          "category": 0
+        },
+        {
+          "text": "Aisha es rápida como una gacela en la pista.",
+          "category": 1
+        },
+        {
+          "text": "La noche abrazó al pueblo en silencio.",
+          "category": 2
+        },
+        {
+          "text": "Sus ojos son dos luceros brillantes.",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-06",
+      "type": "choice",
+      "prompt": "¿Cuál de las siguientes oraciones contiene una METÁFORA y NO un símil?",
+      "explanation": "'El lago es un espejo de plata' identifica directamente el lago con el espejo sin usar nexos como 'tal como' o 'parece'.",
+      "hint": "Recuerda que el símil siempre utiliza nexos o verbos de semejanza.",
+      "lang": "es",
+      "options": [
+        "El lago parece un espejo brillante.",
+        "El lago brilla tal como un espejo.",
+        "El lago es un espejo de plata."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-07",
+      "type": "choice",
+      "prompt": "Omar está revisando su redacción. Ha escrito: «Mi perro Omar es tan veloz como un guepardo; por eso he usado una personificación muy bonita». ¿Cuál es el error de Omar?",
+      "explanation": "Omar se ha equivocado de figura: la estructura 'tan... como' establece una comparación explícita, por lo que se trata de un símil.",
+      "hint": "Busca la estructura de comparación en su frase.",
+      "lang": "es",
+      "options": [
+        "No es una personificación, sino una metáfora pura sin nexos.",
+        "No es una personificación, sino un símil, porque compara la velocidad usando 'tan... como'.",
+        "No hay ningún error, comparar animales siempre es personificación."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-08",
+      "type": "order",
+      "prompt": "Hugo quiere transformar una descripción cotidiana en un poema. Ordena los pasos desde la frase literal hasta la metáfora pura:",
+      "explanation": "El proceso avanza desde la realidad literal, pasando por la comparación explícita (símil), hasta identificar el término real con el imaginario (metáfora).",
+      "lang": "es",
+      "items": [
+        "Descripción literal: El cielo nocturno está lleno de estrellas.",
+        "Símil: El cielo parece un manto oscuro con estrellas como diamantes.",
+        "Metáfora impura: El cielo de la noche es un manto de terciopelo azul.",
+        "Metáfora pura: Aquel manto bordado de diamantes cubrió el valle."
+      ]
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-09",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto literario y responde a las preguntas:",
+      "explanation": "El texto combina personificaciones, metáforas y símiles para embellecer la descripción del amanecer.",
+      "lang": "es",
+      "title": "El despertar del bosque",
+      "text": "Aquel amanecer de mayo, la niebla bostezó sobre la colina y decidió retirarse lentamente hacia el valle. Los árboles ancianos estiraron sus ramas tras la larga noche de invierno y murmuraron entre ellos antiguas canciones de savia y viento. En el centro del prado, las gotas de rocío eran pequeñas perlas transparentes que adornaban la hierba recién nacida. Martina caminaba despacio por el sendero, fascinada por la calma. El aire fresco le acariciaba las mejillas con ternura mientras un arroyo, cantarín y juguetón como un niño en el recreo, saltaba entre las piedras pulidas. La naturaleza entera celebraba el inicio de una nueva estación llena de luz y esperanza.",
+      "questions": [
+        {
+          "prompt": "¿Qué figura retórica se utiliza en la expresión «la niebla bostezó sobre la colina»?",
+          "explanation": "Se trata de una personificación al atribuir a la niebla la acción humana de bostezar.",
+          "options": [
+            "Metáfora, porque sustituye la palabra nube por bostezo.",
+            "Personificación, porque bostezar es una acción humana atribuida a un fenómeno natural.",
+            "Símil, porque compara la niebla con el cansancio de la noche."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "En el texto se afirma que «las gotas de rocío eran pequeñas perlas transparentes». ¿Qué figura es?",
+          "explanation": "Es una metáfora porque identifica directamente las gotas de rocío con perlas transparentes, sin nexo comparativo.",
+          "options": [
+            "Símil",
+            "Metáfora",
+            "Personificación"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por qué el autor compara al arroyo con «un niño en el recreo»?",
+          "explanation": "El símil busca evocar la vivacidad, el sonido alegre y el dinamismo del agua asociándolo a los juegos infantiles.",
+          "options": [
+            "Porque el agua del arroyo era ruidosa y molestaba a los animales del bosque.",
+            "Para transmitir la alegría, el movimiento rápido y la vitalidad del agua al saltar.",
+            "Para indicar que el arroyo estaba situado al lado del patio de un colegio rural."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-10",
+      "type": "choice",
+      "prompt": "En el periódico escolar, Adrián quiere convencer a sus compañeros de cuidar los libros usando una personificación impactante. ¿Cuál de estas opciones logra ese objetivo literario?",
+      "explanation": "La opción correcta atribuye a los libros sentimientos y acciones humanas (llorar y esperar), creando una personificación con fuerza expresiva.",
+      "hint": "Busca la frase que dé vida y emociones humanas a los objetos.",
+      "lang": "es",
+      "options": [
+        "«Debemos colocar los libros ordenados en las estanterías de la biblioteca».",
+        "«Los libros son como tesoros llenos de conocimiento valioso».",
+        "«Cada libro olvidado en un rincón llora en silencio esperando que alguien lo abra»."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:22:25.767Z",
+    "reviewed": false
+  }
+}

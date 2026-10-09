@@ -1,0 +1,249 @@
+{
+  "id": "g6-lengua-el-quijote",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "el-quijote",
+  "temaNombre": "El Quijote",
+  "title": "Aventuras con Don Quijote",
+  "summary": "Repasa los personajes, aventuras y temas clave de la gran obra de Miguel de Cervantes.",
+  "keyIdeas": [
+    "Don Quijote de la Mancha es una célebre novela escrita por Miguel de Cervantes como parodia de los libros de caballerías.",
+    "Don Quijote encarna el idealismo y la justicia, mientras que Sancho Panza representa el realismo, la sensatez y la cultura popular.",
+    "La obra combina humor y reflexión sobre la amistad, la libertad y el contraste entre la imaginación y la realidad cotidiana."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "8.1",
+      "4.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "C. Educación literaria",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-el-quijote-01",
+      "type": "choice",
+      "prompt": "Aisha está organizando la sección de literatura clásica en la biblioteca escolar. ¿Quién escribió 'Don Quijote de la Mancha' y en qué época se publicó?",
+      "explanation": "Miguel de Cervantes publicó la primera parte de 'El ingenioso hidalgo don Quijote de la Mancha' en 1605, durante el Siglo de Oro español.",
+      "hint": "Es uno de los escritores españoles más universales del Siglo de Oro.",
+      "lang": "es",
+      "options": [
+        "Miguel de Cervantes Saavedra, a principios del siglo XVII (1605)",
+        "Federico García Lorca, a principios del siglo XX",
+        "Félix Lope de Vega, a finales del siglo XVIII"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-lengua-el-quijote-02",
+      "type": "true-false",
+      "prompt": "Alonso Quijano pierde el juicio y decide armarse caballero andante debido a su gran afición a leer novelas de caballerías.",
+      "explanation": "Alonso Quijano leía tantos libros de caballerías día y noche que se le secó el cerebro y decidió salir a buscar aventuras con armadura y caballo.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-lengua-el-quijote-03",
+      "type": "match",
+      "prompt": "Relaciona cada personaje o elemento de la obra con su descripción correspondiente:",
+      "explanation": "Cada uno de estos personajes acompaña o inspira a Don Quijote a lo largo de sus viajes por tierras manchegas.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Rocinante",
+          "right": "El caballo flaco y leal de Don Quijote"
+        },
+        {
+          "left": "Sancho Panza",
+          "right": "El fiel escudero labrador que viaja en asno"
+        },
+        {
+          "left": "Dulcinea del Toboso",
+          "right": "La dama idealizada a la que el caballero dedica sus triunfos"
+        },
+        {
+          "left": "Rucio",
+          "right": "El burro o asno que monta Sancho Panza"
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-el-quijote-04",
+      "type": "fill-blank",
+      "prompt": "Completa la oración sobre una de las aventuras más famosas de la novela.",
+      "explanation": "En el Campo de Criptana, Don Quijote confunde las aspas de los molinos con los brazos descomunales de una treintena de gigantes.",
+      "lang": "es",
+      "sentence": "Don Quijote confunde los molinos de viento con temibles ___ de largos brazos a los que decide desafiar en combate.",
+      "options": [
+        "hechiceros",
+        "dragones",
+        "gigantes"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-lengua-el-quijote-05",
+      "type": "classify",
+      "prompt": "Clasifica los siguientes rasgos y elementos según correspondan a Don Quijote o a su escudero Sancho Panza:",
+      "explanation": "Don Quijote y Sancho Panza representan dos visiones del mundo complementarias: el idealismo soñador frente al realismo práctico.",
+      "lang": "es",
+      "categories": [
+        "Don Quijote",
+        "Sancho Panza"
+      ],
+      "items": [
+        {
+          "text": "Se guía por ideales nobles, el honor y la fantasía",
+          "category": 0
+        },
+        {
+          "text": "Usa refranes populares y busca recompensas prácticas como una ínsula",
+          "category": 1
+        },
+        {
+          "text": "Confunde ventas humildes del camino con castillos señoriales",
+          "category": 0
+        },
+        {
+          "text": "Advierte a su amo de la realidad con sentido común",
+          "category": 1
+        },
+        {
+          "text": "Monta a un caballo delgado y viejo llamado Rocinante",
+          "category": 0
+        },
+        {
+          "text": "Se desplaza a lomos de un asno al que cuida con cariño",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-el-quijote-06",
+      "type": "order",
+      "prompt": "En clase de Lengua, Adrián resume el episodio de los molinos de viento. Ordena la secuencia de acontecimientos:",
+      "explanation": "Primero Don Quijote ve los molinos, ignora el aviso de Sancho, ataca con su lanza, es derribado por las aspas y finalmente justifica el suceso culpando a un mago enemigo.",
+      "lang": "es",
+      "items": [
+        "Don Quijote divisa los molinos de viento en el campo y cree que son gigantes malvados.",
+        "Sancho Panza le advierte de que solo son molinos con aspas que mueve el viento.",
+        "Don Quijote se encomienda a su amada Dulcinea y embiste al primer molino a galope.",
+        "El viento mueve el aspa con fuerza, rompe la lanza y derriba al caballero y a Rocinante.",
+        "Don Quijote afirma que el sabio Frestón ha transformado los gigantes en molinos para quitarle la victoria."
+      ]
+    },
+    {
+      "id": "g6-lengua-el-quijote-07",
+      "type": "choice",
+      "prompt": "Hugo ha escrito tres afirmaciones para un mural sobre 'El Quijote', pero una de ellas contiene un ERROR argumental. ¿Cuál es la frase falsa que debe corregir?",
+      "explanation": "Don Quijote nunca va a la corte: es armado caballero de manera cómica por el ventero de una modesta venta, a la que el hidalgo toma por castillo.",
+      "hint": "Fíjate en quién nombra caballero a Don Quijote y en qué lugar sucede.",
+      "lang": "es",
+      "options": [
+        "Don Quijote confunde rebaños de ovejas con dos poderosos ejércitos enfrentados en batalla.",
+        "Sancho Panza acepta acompañar a Don Quijote con la ilusión de ser gobernador de una ínsula.",
+        "Don Quijote es nombrado caballero solemnemente por el rey de España en un gran palacio de la corte."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-lengua-el-quijote-08",
+      "type": "reading",
+      "prompt": "Lee este texto sobre el viaje de Don Quijote y responde a las preguntas:",
+      "explanation": "El texto presenta los motivos que impulsan a Don Quijote y el nacimiento de la amistad entrañable con Sancho Panza.",
+      "lang": "es",
+      "title": "El ideal de Don Quijote",
+      "text": "En un rincón de La Mancha, Alonso Quijano pasaba los días y las noches sumergido en relatos de caballeros andantes, princesas encantadas y batallas heroicas. Tanto leyó que su imaginación transformó su modesta realidad. Decidió limpiar unas viejas armas oxidadas de sus bisabuelos, montar a su flaco rocín y salir a los caminos bajo el nombre de Don Quijote de la Mancha. Su propósito no era enriquecerse con dinero ni conquistar tierras para sí mismo, sino defender a los indefensos, enderezar entuertos y lograr que el mundo fuera un lugar más noble y justo. Aunque en su aldea pensaban que había perdido la cabeza, Don Quijote emprendió su viaje guiado por un ideal inquebrantable. A su lado marchaba Sancho, un vecino bondadoso que, pese a dudar de sus visiones, aprendió a admirar la generosidad y el gran corazón de su señor.",
+      "questions": [
+        {
+          "prompt": "¿Cuál era el objetivo principal de Don Quijote al salir a los caminos como caballero andante?",
+          "explanation": "El texto explica que el propósito de Don Quijote no era el dinero, sino defender a los necesitados y luchar por un mundo más noble.",
+          "options": [
+            "Defender a los indefensos y buscar la justicia en el mundo",
+            "Conseguir riquezas y acumular oro para su familia",
+            "Comprar tierras nuevas en la comarca de La Mancha"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué podemos inferir sobre la relación entre Sancho y Don Quijote a partir del texto?",
+          "explanation": "Aunque Sancho duda de las fantasías de Don Quijote, comprende sus buenos sentimientos y termina admirando su generosidad.",
+          "options": [
+            "Que Sancho solo seguía a Don Quijote para reírse de él",
+            "Que, más allá de la locura de Don Quijote, Sancho valora su bondad y nobleza de espíritu",
+            "Que Sancho creía que las ventas eran castillos con puentes levadizos"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué enseñanza o valor universal transmite la figura de Don Quijote a los lectores actuales?",
+          "explanation": "Don Quijote simboliza la defensa de los valores humanos, la justicia y los sueños nobles frente a las dificultades del entorno.",
+          "options": [
+            "Que luchar por ideales nobles y justos es valioso, aun cuando resulte difícil frente a la realidad",
+            "Que no se deben leer libros porque pueden confundir a las personas",
+            "Que lo único importante en la vida es acumular bienes materiales"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-el-quijote-09",
+      "type": "choice",
+      "prompt": "Martina y Omar debaten en el club de lectura sobre el propósito con el que Cervantes escribió su obra. ¿Qué recurso literario empleó principalmente el autor?",
+      "explanation": "Cervantes utilizó la parodia y la ironía para hacer una crítica divertida de los disparates y la falta de realismo de los libros de caballerías.",
+      "hint": "Cervantes quería hacer reír a los lectores imitando en tono de burla a los héroes medievales.",
+      "lang": "es",
+      "options": [
+        "La parodia humorística, para burlarse de las exageraciones de las novelas de caballerías de la época.",
+        "El drama trágico, para infundir miedo sobre los peligros de viajar por los caminos.",
+        "El cuento de hadas medieval, para ensalzar los poderes mágicos de los hechiceros."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-lengua-el-quijote-10",
+      "type": "fill-blank",
+      "prompt": "Completa el significado de una expresión cotidiana inspirada en la novela.",
+      "explanation": "La expresión alude a la confusión de Don Quijote y se usa hoy en día para describir batallas inútiles contra rivales ficticios.",
+      "lang": "es",
+      "sentence": "Cuando decimos que alguien 'lucha contra molinos de viento', significa que se enfrenta a ___ que no existen en la realidad o que no puede vencer.",
+      "options": [
+        "dificultades muy sencillas",
+        "enemigos o problemas imaginarios",
+        "personas justas y amables"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:25:08.172Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "id": "g4-lengua-personajes-espacio-y-tiempo",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "personajes-espacio-y-tiempo",
+  "temaNombre": "Personajes, espacio y tiempo",
+  "title": "Aventuras: personajes, espacio y tiempo",
+  "summary": "Reconoce los personajes, los lugares y la época en diferentes historias y cuentos.",
+  "keyIdeas": [
+    "Los personajes realizan las acciones en una historia; pueden ser principales o secundarios.",
+    "El espacio es el lugar o entorno donde ocurren los acontecimientos de la narración.",
+    "El tiempo indica cuándo ocurren los hechos y cuánto dura la historia."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "4.1",
+      "8.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "C. Educación literaria"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-01",
+      "type": "choice",
+      "prompt": "¿Quién es el personaje principal o protagonista de un cuento?",
+      "explanation": "El protagonista es el personaje principal que vive los hechos más importantes del relato.",
+      "hint": "Piensa en el héroe o heroína de la historia.",
+      "lang": "es",
+      "options": [
+        "El que sale solo al final de la historia.",
+        "El personaje más importante sobre el que trata la historia.",
+        "El que cuenta la historia sin participar en ella."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-02",
+      "type": "true-false",
+      "prompt": "El espacio de una narración siempre debe ser un lugar real, como una ciudad existente.",
+      "explanation": "El espacio puede ser un lugar real como un colegio, o imaginario como un planeta inventado.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-03",
+      "type": "match",
+      "prompt": "Relaciona cada elemento de la narración con su pregunta correspondiente:",
+      "explanation": "Los personajes realizan las acciones, el espacio señala el lugar y el tiempo indica el momento.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Personajes",
+          "right": "¿Quiénes participan?"
+        },
+        {
+          "left": "Espacio",
+          "right": "¿Dónde ocurre?"
+        },
+        {
+          "left": "Tiempo",
+          "right": "¿Cuándo sucede?"
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-04",
+      "type": "classify",
+      "prompt": "Clasifica estos elementos según correspondan al espacio o al tiempo de una historia:",
+      "explanation": "El espacio se refiere a lugares físicos y el tiempo señala momentos, épocas o duraciones.",
+      "lang": "es",
+      "categories": [
+        "Espacio",
+        "Tiempo"
+      ],
+      "items": [
+        {
+          "text": "Un bosque encantado",
+          "category": 0
+        },
+        {
+          "text": "Una tarde de tormenta",
+          "category": 1
+        },
+        {
+          "text": "En el siglo pasado",
+          "category": 1
+        },
+        {
+          "text": "La biblioteca del colegio",
+          "category": 0
+        },
+        {
+          "text": "Durante el recreo",
+          "category": 1
+        },
+        {
+          "text": "Una cueva secreta",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-05",
+      "type": "fill-blank",
+      "prompt": "Completa la oración sobre los tipos de personajes en una narración:",
+      "explanation": "Los personajes secundarios intervienen en la historia, pero no son el centro de la trama.",
+      "lang": "es",
+      "sentence": "Los personajes que acompañan al protagonista y tienen menos importancia se llaman personajes ___.",
+      "options": [
+        "secundarios",
+        "invisibles",
+        "espaciales"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-06",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto y responde a las preguntas:",
+      "explanation": "Al leer con atención identificas quiénes participan (Aisha y Leo), dónde están (desván) y cuándo ocurre (ayer por la tarde).",
+      "lang": "es",
+      "title": "El misterio del desván",
+      "text": "Ayer por la tarde, Aisha y su primo Leo subieron al desván de la abuela. Era un lugar oscuro y lleno de cajas viejas con olor a papel antiguo. Mientras buscaban un tablero de ajedrez, un reloj de cuco empezó a sonar de repente. Detrás del reloj descubrieron una pequeña puerta de madera que nunca antes habían visto. Estaba cerrada con un candado oxidado. Al lado del candado había una nota escrita con tinta azul que decía: La llave duerme en el jardín. Los dos primos se miraron asombrados y decidieron comenzar una gran aventura.",
+      "questions": [
+        {
+          "prompt": "¿Quiénes son los protagonistas de esta aventura?",
+          "explanation": "Aisha y Leo son los protagonistas que exploran el desván y encuentran la puerta misteriosa.",
+          "options": [
+            "Aisha y su primo Leo.",
+            "La abuela y el reloj de cuco.",
+            "Un pájaro del jardín."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿En qué espacio transcurre la escena leída?",
+          "explanation": "La historia comienza diciendo que subieron al desván de la abuela, que estaba lleno de cajas.",
+          "options": [
+            "En el desván de la abuela.",
+            "En el jardín de la casa.",
+            "En una tienda de antigüedades."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿En qué momento del tiempo sucede la acción?",
+          "explanation": "El texto empieza indicando claramente el tiempo: 'Ayer por la tarde'.",
+          "options": [
+            "Hace muchos siglos.",
+            "Ayer por la tarde.",
+            "Mañana por la mañana."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-07",
+      "type": "choice",
+      "prompt": "Encuentra el error en este comentario de Lucas sobre un cuento: 🔍\n«En mi cuento de piratas, el barco navegaba por el océano pacífico durante tres semanas. Por tanto, el océano es el tiempo y las tres semanas son el espacio».",
+      "explanation": "Lucas ha confundido los términos: el océano es el lugar (espacio) y las tres semanas la duración (tiempo).",
+      "hint": "Pregúntate qué responde a '¿dónde?' y qué responde a '¿cuánto duró?'.",
+      "lang": "es",
+      "options": [
+        "No hay ningún error, Lucas lo ha explicado perfectamente.",
+        "El océano es el espacio y las tres semanas representan el tiempo transcurrido.",
+        "Los piratas son el espacio y el barco es el personaje principal."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-08",
+      "type": "order",
+      "prompt": "Ordena estos hechos de la mañana de Martín según la línea temporal de la narración:",
+      "explanation": "Las acciones narrativas siguen un orden cronológico: despertarse, desayunar, llegar al colegio y empezar la clase.",
+      "lang": "es",
+      "items": [
+        "Martín se despierta temprano con el canto de los pájaros.",
+        "Desayuna una tostada con leche junto a su hermana.",
+        "Llega al colegio y saluda a sus amigos en el patio.",
+        "Comienza la primera clase de Lengua en su aula."
+      ]
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-09",
+      "type": "choice",
+      "prompt": "Omar escribe una historia sobre dinosaurios y un volcán gigante. ¿En qué tiempo está situada su historia?",
+      "explanation": "Los dinosaurios vivieron en la prehistoria, por lo que el tiempo de la narración es el pasado remoto.",
+      "hint": "¿Cuándo existieron los dinosaurios en la Tierra?",
+      "lang": "es",
+      "options": [
+        "En un tiempo pasado prehistórico.",
+        "En una época futura con naves espaciales.",
+        "En la época actual, en el presente."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-10",
+      "type": "choice",
+      "prompt": "Elena lee un cuento donde un zorro astuto engaña a un cuervo en lo alto de un árbol. ¿Qué papel cumple el cuervo?",
+      "explanation": "El cuervo es un personaje secundario de la fábula, mientras que el árbol representa el espacio.",
+      "hint": "El cuervo realiza acciones y habla, por lo que no es un objeto ni un lugar.",
+      "lang": "es",
+      "options": [
+        "Es un personaje secundario que interactúa con el protagonista.",
+        "Es el espacio exterior donde ocurre el conflicto.",
+        "Es el narrador que inventa el tiempo del relato."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:46:56.287Z",
+    "reviewed": false
+  }
+}

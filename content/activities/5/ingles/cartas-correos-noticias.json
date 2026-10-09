@@ -1,0 +1,254 @@
+{
+  "id": "g5-ingles-cartas-correos-noticias",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "cartas-correos-noticias",
+  "temaNombre": "Cartas, correos, noticias",
+  "title": "Letters, Emails and School News",
+  "summary": "Aprenderás a comprender y redactar cartas, correos electrónicos y noticias escolares en inglés.",
+  "keyIdeas": [
+    "Un email suele empezar con un saludo (Dear, Hi) y terminar con una despedida (Best wishes, Bye).",
+    "Las noticias responden a preguntas básicas: qué ocurrió (What), cuándo (When) y dónde (Where).",
+    "En los correos usamos el 'Subject' para indicar brevemente de qué trata nuestro mensaje."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "3.1"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-cartas-correos-noticias-01",
+      "type": "match",
+      "prompt": "Match each email section with its purpose:",
+      "explanation": "En un email, el 'Subject' indica el tema, el 'Greeting' es el saludo inicial, el 'Body' es el contenido y el 'Sign-off' es la despedida.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Subject line",
+          "right": "The topic of the message"
+        },
+        {
+          "left": "Greeting",
+          "right": "Saying hello to the person"
+        },
+        {
+          "left": "Body",
+          "right": "The main message of the text"
+        },
+        {
+          "left": "Sign-off",
+          "right": "Saying goodbye at the end"
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-02",
+      "type": "true-false",
+      "prompt": "In a formal or friendly letter, 'Dear Omar,' is used at the very end of the text.",
+      "explanation": "'Dear Omar,' es un saludo (greeting) y siempre se escribe al principio de una carta o correo, no al final.",
+      "hint": "¿Usas 'Dear' para saludar o para despedirte?",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-03",
+      "type": "choice",
+      "prompt": "Aisha wants to write an email to invite her friend to a birthday party. What is the best subject line?",
+      "explanation": "El asunto (subject line) debe resumir de forma clara y directa el contenido principal del mensaje.",
+      "lang": "en",
+      "options": [
+        "Mathematics homework page 42",
+        "My dog is very brown and big",
+        "Invitation: Birthday party this Saturday! 🎂"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-04",
+      "type": "classify",
+      "prompt": "Classify these common expressions into Greetings (saludos) or Farewells (despedidas):",
+      "explanation": "Expresiones como 'Dear' y 'Hi' inician la comunicación, mientras que 'Best regards' o 'Talk to you soon' se usan para cerrarla.",
+      "lang": "en",
+      "categories": [
+        "Greetings",
+        "Farewells"
+      ],
+      "items": [
+        {
+          "text": "Dear Ms Smith,",
+          "category": 0
+        },
+        {
+          "text": "Best regards,",
+          "category": 1
+        },
+        {
+          "text": "Hello everyone!",
+          "category": 0
+        },
+        {
+          "text": "Yours sincerely,",
+          "category": 1
+        },
+        {
+          "text": "Hi Lucas,",
+          "category": 0
+        },
+        {
+          "text": "Talk to you soon!",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-05",
+      "type": "fill-blank",
+      "prompt": "Elige la opción correcta para completar este correo formal:",
+      "explanation": "La expresión fija en inglés para pedir información es 'to ask for information'.",
+      "hint": "En inglés decimos 'ask ___ something' cuando pedimos algo.",
+      "lang": "en",
+      "sentence": "Dear Mr Davies, I am writing to ask ___ information about the science trip.",
+      "options": [
+        "for",
+        "from",
+        "at"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-06",
+      "type": "order",
+      "prompt": "Put the parts of a friendly email in the correct order from top to bottom:",
+      "explanation": "La estructura habitual de un email es: asunto, saludo inicial, cuerpo del mensaje, despedida y firma con tu nombre.",
+      "lang": "en",
+      "items": [
+        "Subject: Weekend bike trip 🚲",
+        "Hi Martina,",
+        "Are you free this Sunday? We are riding bikes in the park.",
+        "Write back soon,",
+        "Hugo"
+      ]
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-07",
+      "type": "choice",
+      "prompt": "Read this headline from the school newspaper: 'GREEN TEAM COLLECTS 200 KILOS OF PLASTIC'. What question does '200 kilos of plastic' answer?",
+      "explanation": "'200 kilos of plastic' indica qué objeto o cantidad se recogió, respondiendo a la pregunta 'What' (qué).",
+      "lang": "en",
+      "options": [
+        "Where did they go?",
+        "When did they start?",
+        "What did they collect?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-08",
+      "type": "reading",
+      "prompt": "Read the school news article and answer the questions:",
+      "explanation": "Una noticia informativa responde a las 5 preguntas básicas (qué, quién, cuándo, dónde y por qué) y transmite hechos de interés para la comunidad.",
+      "lang": "en",
+      "title": "Sunny Hills Eco-Garden Opening",
+      "text": "Yesterday morning, students at Sunny Hills Primary opened their new Eco-Garden behind the gym. The fifth-grade class worked for three weeks planting tomatoes, carrots and sunflowers. Headteacher Mrs Robinson cut a green ribbon to welcome everyone. 'This garden teaches us to protect nature and eat healthy food,' said Lucía, one of the student coordinators. Local neighbours also visited the school and donated gardening tools, seeds and recycled pots. The garden club plans to hold a vegetable market next month to collect funds for a community bird shelter.",
+      "questions": [
+        {
+          "prompt": "Where is the new Eco-Garden located?",
+          "explanation": "El texto menciona explícitamente: 'opened their new Eco-Garden behind the gym'.",
+          "options": [
+            "Inside the school library.",
+            "Next to the main entrance.",
+            "Behind the school gym."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why did the local neighbours bring tools and seeds?",
+          "explanation": "Se infiere que los vecinos colaboraron activamente con donaciones para apoyar la iniciativa ecológica de los alumnos.",
+          "options": [
+            "Because they wanted to support the school project.",
+            "Because the school gym was closed.",
+            "Because they wanted to sell vegetables to the students."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What value does this school news report promote?",
+          "explanation": "La noticia resalta el trabajo conjunto del alumnado y la comunidad para cuidar el medio ambiente y comer de forma saludable.",
+          "options": [
+            "Teamwork and environmental responsibility.",
+            "Individual sports competition.",
+            "Learning to design digital websites."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-09",
+      "type": "choice",
+      "prompt": "Wei received a friendly letter from his pen pal in London. The letter ends with 'P.S. Don't forget to send pictures of your city!'. What does 'P.S.' mean?",
+      "explanation": "'P.S.' significa 'Post Scriptum' (posdata) y se utiliza para añadir una información adicional después de firmar la carta.",
+      "hint": "Va al final de todo, después de la firma.",
+      "lang": "en",
+      "options": [
+        "The postal code of the sender.",
+        "The secret password of the school.",
+        "An extra note added after the signature."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-10",
+      "type": "fill-blank",
+      "prompt": "Completa el titular de esta noticia escolar sobre un evento pasado:",
+      "explanation": "Como la noticia describe un hecho que ocurrió ayer ('yesterday'), utilizamos la forma en pasado del verbo: 'won'.",
+      "hint": "Fíjate en la palabra 'yesterday'.",
+      "lang": "en",
+      "sentence": "Fifth graders ___ first prize in the national recycling contest yesterday!",
+      "options": [
+        "winning",
+        "won",
+        "win"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:14:53.421Z",
+    "reviewed": false
+  }
+}

@@ -425,3 +425,32 @@ Si no se elige comunidad todavia, la mejor estrategia es:
 1. Construir con base estatal LOMLOE.
 2. Guardar campos para `region`.
 3. Permitir despues adaptar textos y criterios a Andalucia, Madrid, Catalunya, Comunitat Valenciana, Galicia, Euskadi, etc.
+
+## 7. Catálogo LOMLOE y generador de actividades
+
+### Catálogo oficial
+
+- `lib/curriculum/lomloe/*.json`: competencias específicas (con descriptores del Perfil de salida), criterios de evaluación y saberes básicos por ciclo de Matemáticas, Lengua Castellana, Conocimiento del Medio y Lengua Extranjera. Se extraen del texto del BOE con `scripts/parse-rd157.py`.
+- `lib/curriculum/lomloe.ts`: acceso al catálogo y reparto de Conocimiento del Medio entre Naturales (CE1-CE6, bloques A y B) y Sociales (CE1, CE2, CE5-CE9, bloque C).
+- `lib/curriculum/types.ts`: tipos del catálogo y de las actividades.
+
+### Generador
+
+`scripts/generate-activities.mjs` crea un bloque de actividades original por tema de `src/data/curriculum.ts`, ligado a criterios de evaluación y saberes básicos del ciclo. No usa los bancos de `data/` ni `test/`.
+
+```bash
+npm run activities -- --list                                   # cobertura por curso y asignatura
+npm run activities -- --curso 3 --asignatura sociales --limit 2 # siguientes temas pendientes
+npm run activities -- --curso 3 --asignatura sociales --tema la-poblacion --append  # más actividades
+npm run activities -- --curso 3 --asignatura sociales --dry-run # ver el prompt sin llamar a la API
+```
+
+- Salida: `content/activities/<curso>/<asignatura>/<tema>.json` y el índice `content/activities/registry.ts` (generado, no editar).
+- Tipos de actividad: `choice`, `true-false`, `fill-blank`, `match`, `classify`, `order` y `reading`. El script valida cada actividad (opciones, respuesta, criterios existentes) y descarta las que no cumplen.
+- Por defecto se saltan los temas que ya tienen recursos hechos a mano (`--include-covered` para incluirlos).
+- Cada bloque nace con `meta.reviewed: false`: revisar el contenido y ponerlo a `true` cuando esté validado.
+
+### En la web
+
+- Cada bloque aparece como primer recurso de su tema en `/learning/<curso>/<asignatura>` y en `/repaso`.
+- Se juega en `/learning/<curso>/<asignatura>/<tema>` con `components/activities/ActivityPlayer.tsx`: ideas clave ("Recuerda"), una actividad cada vez, feedback explicado, pistas, lectura en voz alta y estrellas + XP al final.

@@ -1,0 +1,247 @@
+{
+  "id": "g3-naturales-los-ecosistemas",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "los-ecosistemas",
+  "temaNombre": "Los ecosistemas",
+  "title": "Exploradores de los ecosistemas",
+  "summary": "Repasa qué es un ecosistema, las cadenas alimentarias y cómo cuidar el equilibrio de la naturaleza.",
+  "keyIdeas": [
+    "Un ecosistema está formado por los seres vivos, el medio físico y las relaciones entre ellos.",
+    "En las cadenas alimentarias, las plantas son productoras y los animales son consumidores.",
+    "Cuidar los ecosistemas y evitar la contaminación mantiene el equilibrio de nuestro planeta."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-los-ecosistemas-01",
+      "type": "classify",
+      "prompt": "Clasifica estos elementos de un bosque según sean seres vivos o elementos inertes.",
+      "explanation": "Los seres vivos nacen, crecen, se reproducen y mueren. Los elementos inertes no tienen vida, pero son imprescindibles para que los seres vivos habiten allí.",
+      "lang": "es",
+      "categories": [
+        "Seres vivos (bióticos)",
+        "Elementos inertes (abióticos)"
+      ],
+      "items": [
+        {
+          "text": "Ciervo común",
+          "category": 0
+        },
+        {
+          "text": "Roca de granito",
+          "category": 1
+        },
+        {
+          "text": "Árbol de roble",
+          "category": 0
+        },
+        {
+          "text": "Agua del arroyo",
+          "category": 1
+        },
+        {
+          "text": "Mariquita de siete puntos",
+          "category": 0
+        },
+        {
+          "text": "Luz del sol",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-02",
+      "type": "true-false",
+      "prompt": "Un ecosistema está formado únicamente por los animales que viven en un lugar.",
+      "explanation": "Es falso porque un ecosistema incluye a los seres vivos (animales, plantas, hongos), al medio físico (suelo, agua, aire) y a las relaciones que hay entre todos ellos.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la función de las plantas en la naturaleza.",
+      "explanation": "Las plantas son organismos productores porque producen su propio alimento mediante la fotosíntesis, usando agua, aire y luz solar.",
+      "hint": "Piensa en quién 'produce' alimento y quién lo 'consume'.",
+      "lang": "es",
+      "sentence": "En una cadena alimentaria, las plantas son seres ___ porque fabrican su propio alimento gracias a la luz solar.",
+      "options": [
+        "descomponedores",
+        "consumidores",
+        "productores"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-04",
+      "type": "match",
+      "prompt": "Une cada ser vivo con su papel dentro de la cadena alimentaria.",
+      "explanation": "Las plantas producen alimento, los herbívoros comen plantas, los carnívoros comen otros animales y los descomponedores reciclan los restos orgánicos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Hierba fresca",
+          "right": "Productor"
+        },
+        {
+          "left": "Conejo silvestre",
+          "right": "Consumidor primario (herbívoro)"
+        },
+        {
+          "left": "Zorro rojo",
+          "right": "Consumidor secundario (carnívoro)"
+        },
+        {
+          "left": "Hongos del suelo",
+          "right": "Descomponedor"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-05",
+      "type": "order",
+      "prompt": "Ordena los elementos de esta cadena alimentaria según el paso de la energía, desde el productor.",
+      "explanation": "La bellota alimenta al ratón herbívoro, el búho caza al ratón y, al final, los descomponedores transforman la materia orgánica en nutrientes para la tierra.",
+      "lang": "es",
+      "items": [
+        "Bellota de encina",
+        "Ratón de campo",
+        "Búho real",
+        "Bacterias descomponedoras"
+      ]
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-06",
+      "type": "choice",
+      "prompt": "Hugo dice: «Si eliminamos a los lobos del bosque, el ecosistema estará mejor porque no cazarán ciervos». ¿Cuál es el error en su razonamiento?",
+      "explanation": "Los depredadores como el lobo regulan el número de herbívoros. Sin ellos, los ciervos comerían demasiada vegetación y destruirían el bosque.",
+      "hint": "¿Qué ocurre si una población de animales crece sin ningún límite?",
+      "lang": "es",
+      "options": [
+        "Los árboles crecerían tanto que taparían toda la luz a los ríos.",
+        "Los ciervos se transformarían en carnívoros para sobrevivir sin depredadores.",
+        "Los ciervos se multiplicarían sin control y agotarían la vegetación del bosque."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-07",
+      "type": "reading",
+      "prompt": "Lee atentamente la aventura científica de Aisha y Leo y responde a las preguntas.",
+      "explanation": "Los ecosistemas acuáticos son delicados y cualquier residuo altera la vida de los seres vivos que habitan en ellos.",
+      "lang": "es",
+      "title": "La charca de Aisha y Leo",
+      "text": "Aisha y Leo visitan la charca del pueblo para investigar su ecosistema con su clase. Observan juncos verdes en la orilla, pequeñas ranas saltarinas, libélulas que vuelan rápido y peces que nadan en el agua limpia. También descubren algas flotando bajo la luz del sol. Leo anota en su cuaderno científico que la temperatura del agua es templada. Al fijarse con atención en la orilla, descubren varias bolsas de plástico abandonadas. Por eso, deciden avisar a su maestra para organizar una recogida de residuos y proteger este valioso espacio natural.",
+      "questions": [
+        {
+          "prompt": "¿Qué elemento inerte (abiótico) registra Leo en su cuaderno de campo?",
+          "explanation": "La temperatura del agua es una característica física del medio inerte (factor abiótico), mientras que las ranas y libélulas son seres vivos.",
+          "options": [
+            "El tamaño de las libélulas",
+            "La temperatura del agua",
+            "La cantidad de ranas verdes"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué consecuencia tendría para los peces que el agua se llenase de basuras y sustancias tóxicas?",
+          "explanation": "La contaminación destruye las condiciones del agua que los peces necesitan para respirar y encontrar comida sana.",
+          "options": [
+            "Tendrían serias dificultades para respirar, alimentarse y sobrevivir.",
+            "Se reproducirían con más rapidez porque tendrían más escondites de plástico.",
+            "Aprenderían a salir a la orilla para respirar aire seco."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-08",
+      "type": "choice",
+      "prompt": "En una pradera no llueve durante muchos meses y la hierba se seca por completo. ¿Qué predicción científica es la más lógica?",
+      "explanation": "Al secarse la hierba, los herbívoros como los conejos sufren escasez de alimento, por lo que su número descenderá.",
+      "hint": "Piensa en el primer eslabón de la cadena: ¿quién come hierba?",
+      "lang": "es",
+      "options": [
+        "Las plantas producirán más semillas gracias al calor y a la sequía prolongada.",
+        "Los zorros aumentarán porque tendrán mucho más espacio para correr.",
+        "Los conejos tendrán menos comida disponible y su población disminuirá."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-09",
+      "type": "choice",
+      "prompt": "En una excursión al pinar del pueblo, Martina encuentra varias latas vacías bajo unos árboles. ¿Qué acción es la más responsable con el medio ambiente?",
+      "explanation": "Recoger y reciclar los residuos evita la contaminación del suelo y previene posibles incendios o heridas en los animales silvestres.",
+      "lang": "es",
+      "options": [
+        "Dejarlas allí porque los insectos pueden utilizarlas como refugio permanente.",
+        "Enterrarlas bajo la arena del pinar para que nadie las vea.",
+        "Recogerlas con cuidado con unos guantes y depositarlas en el contenedor de reciclaje adecuado."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-10",
+      "type": "match",
+      "prompt": "Relaciona cada tipo de ecosistema con sus características principales.",
+      "explanation": "Cada ecosistema presenta unas condiciones climáticas y físicas particulares a las que los seres vivos se han adaptado para sobrevivir.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Bosque mediterráneo",
+          "right": "Encinas, jabalíes y clima con veranos secos y calurosos"
+        },
+        {
+          "left": "Arrecife marino",
+          "right": "Corales, peces tropicales y agua salada con mucha luz"
+        },
+        {
+          "left": "Río de montaña",
+          "right": "Truchas, nutrias y corriente continua de agua dulce y fría"
+        },
+        {
+          "left": "Desierto cálido",
+          "right": "Cactus, lagartos y escasez extrema de agua"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:49:22.571Z",
+    "reviewed": false
+  }
+}

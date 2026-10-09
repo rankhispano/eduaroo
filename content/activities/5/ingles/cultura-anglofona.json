@@ -1,0 +1,194 @@
+{
+  "id": "g5-ingles-cultura-anglofona",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "cultura-anglofona",
+  "temaNombre": "Cultura anglófona",
+  "title": "Exploring the English-Speaking World",
+  "summary": "Practicarás tradiciones, costumbres, monumentos y formas de vida de diferentes países de habla inglesa.",
+  "keyIdeas": [
+    "El inglés se habla en países diversos como Reino Unido, Estados Unidos, Irlanda, Canadá o Australia.",
+    "Cada país anglófono tiene celebraciones y costumbres únicas (Thanksgiving, Bonfire Night o St. Patrick's Day).",
+    "Aprender sobre otras culturas y normas de cortesía nos ayuda a convivir con respeto y empatía."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE6"
+    ],
+    "criteria": [
+      "6.2",
+      "6.3"
+    ],
+    "descriptors": [
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL5",
+      "CP3",
+      "CPSAA1",
+      "CPSAA3"
+    ],
+    "basicKnowledge": [
+      "C. Interculturalidad",
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-cultura-anglofona-01",
+      "type": "true-false",
+      "prompt": "In many primary schools across the United Kingdom, children wear a school uniform every day.",
+      "explanation": "Es verdadero. En la gran mayoría de colegios británicos es una tradición muy extendida que el alumnado vista uniforme escolar.",
+      "hint": "Piensa en las películas o lecturas sobre escuelas británicas.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-02",
+      "type": "choice",
+      "prompt": "Families in the United States gather on the fourth Thursday of November to share a special meal and give thanks. What is this celebration called?",
+      "explanation": "Thanksgiving (Acción de Gracias) se celebra en EE. UU. en noviembre, y las familias suelen comer pavo y pastel de calabaza.",
+      "hint": "El nombre en inglés significa literalmente dar gracias.",
+      "lang": "en",
+      "options": [
+        "Thanksgiving",
+        "Halloween",
+        "Independence Day"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-03",
+      "type": "classify",
+      "prompt": "Classify these traditional celebrations according to where they are mainly celebrated:",
+      "explanation": "Bonfire Night y St. Andrew's Day son típicas de Reino Unido, mientras que Thanksgiving y el 4 de julio son fiestas clave en EE. UU.",
+      "hint": "Bonfire Night conmemora un hecho histórico ocurrido en Londres en 1605.",
+      "lang": "en",
+      "categories": [
+        "United Kingdom",
+        "United States"
+      ],
+      "items": [
+        {
+          "text": "Bonfire Night (Guy Fawkes)",
+          "category": 0
+        },
+        {
+          "text": "4th of July (Independence Day)",
+          "category": 1
+        },
+        {
+          "text": "St. Andrew's Day (Scotland)",
+          "category": 0
+        },
+        {
+          "text": "Thanksgiving",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre una costumbre británica muy popular:",
+      "explanation": "El té de la tarde con una nube de leche y galletas (afternoon tea) es una de las costumbres más conocidas del Reino Unido.",
+      "hint": "Es la infusión más famosa de las islas británicas.",
+      "lang": "en",
+      "sentence": "In the United Kingdom, many people enjoy having hot ___ with milk in the afternoon.",
+      "options": [
+        "soup",
+        "juice",
+        "tea"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-05",
+      "type": "choice",
+      "prompt": "Aisha's pen pal Liam lives in Sydney, Australia. Liam writes: 'On Christmas Day, my family goes to the beach and we have a barbecue!' Why is Christmas so warm in Australia?",
+      "explanation": "Al estar en el hemisferio sur, las estaciones están invertidas respecto a Europa; por eso en Australia la Navidad coincide con el pleno verano.",
+      "hint": "Recuerda cómo cambian las estaciones entre el hemisferio norte y el sur.",
+      "lang": "en",
+      "options": [
+        "Because Australians move Christmas celebrations to the month of August.",
+        "Because Australia has no winter seasons at all in any part of the country.",
+        "Because Australia is in the Southern Hemisphere, where December is summer."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-06",
+      "type": "order",
+      "prompt": "Order the steps of a traditional Pancake Day race in a British primary school:",
+      "explanation": "En Pancake Day (Martes de Carnaval), los colegios británicos organizan carreras donde deben correr volteando una tortita sin que caiga al suelo.",
+      "hint": "Primero te preparas con la sartén y al final cruzas la meta.",
+      "lang": "en",
+      "items": [
+        "Put on an apron and hold a frying pan with a pancake.",
+        "Run along the designated track when the whistle blows.",
+        "Toss and flip the pancake in the air at least three times.",
+        "Cross the finish line with the pancake still inside the pan."
+      ]
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-07",
+      "type": "classify",
+      "prompt": "Classify these everyday words into British English or American English:",
+      "explanation": "Aunque ambos países hablan inglés, usan palabras diferentes para referirse a cosas cotidianas como las galletas, el otoño o las vacaciones.",
+      "hint": "En EE. UU. suelen decir cookie y vacation, mientras en Reino Unido prefieren biscuit y holiday.",
+      "lang": "en",
+      "categories": [
+        "British English",
+        "American English"
+      ],
+      "items": [
+        {
+          "text": "biscuit",
+          "category": 0
+        },
+        {
+          "text": "cookie",
+          "category": 1
+        },
+        {
+          "text": "autumn",
+          "category": 0
+        },
+        {
+          "text": "fall",
+          "category": 1
+        },
+        {
+          "text": "holiday",
+          "category": 0
+        },
+        {
+          "text": "vacation",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-08",
+      "type": "choice",
+      "prompt": "Lucía is visiting London with her family. They want to use the escalators in the London Underground (the Tube). What is the polite rule everyone follows there?",
+      "explanation": "En el metro de Londres es una norma de cortesía muy estricta colocarse a la derecha (stand on the right) para dejar libre el lado izquierdo a quien tiene prisa.",
+      "hint": "Fíjate en las señales que indican a qué lado colocarse para dejar pasar.",
+      "lang": "en",
+      "options": [
+        "Stand on the right side so people in a hurry can walk on the left.",
+        "Stand in the middle with your bags to block both sides.",
+        "Sit on the moving steps while the escalator goes down."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:18:07.024Z",
+    "reviewed": false
+  }
+}

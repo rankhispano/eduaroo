@@ -1,0 +1,238 @@
+{
+  "id": "g2-ingles-la-familia",
+  "cursoId": "2",
+  "asignaturaId": "ingles",
+  "temaId": "la-familia",
+  "temaNombre": "La familia",
+  "title": "My Family: ¡Conoce a la familia!",
+  "summary": "Practica el vocabulario de la familia en inglés y aprende a presentar a sus miembros.",
+  "keyIdeas": [
+    "Usamos 'This is my...' para presentar a alguien: 'This is my mum' (Esta es mi mamá).",
+    "Usamos 'He' para chicos o señores (brother, dad, grandpa) y 'She' para chicas o señoras (sister, mum, grandma).",
+    "Las palabras 'dad' y 'father' significan papá/padre, y 'mum' y 'mother' significan mamá/madre."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-ingles-la-familia-01",
+      "type": "match",
+      "prompt": "Une cada palabra en inglés con su significado en español:",
+      "explanation": "Mum es mamá, Dad es papá, Brother es hermano y Sister es hermana.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Mum",
+          "right": "Mamá"
+        },
+        {
+          "left": "Dad",
+          "right": "Papá"
+        },
+        {
+          "left": "Brother",
+          "right": "Hermano"
+        },
+        {
+          "left": "Sister",
+          "right": "Hermana"
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-la-familia-02",
+      "type": "choice",
+      "prompt": "Hugo presenta a su madre en el cole. ¿Qué palabra falta? 'This is my ___.'",
+      "explanation": "Para hablar de su madre, Hugo dice 'mum'. 'Brother' es hermano y 'dad' es papá.",
+      "hint": "Recuerda cómo se dice mamá en inglés.",
+      "lang": "en",
+      "options": [
+        "dad",
+        "brother",
+        "mum"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-la-familia-03",
+      "type": "true-false",
+      "prompt": "A brother is a boy.",
+      "explanation": "Verdadero. En inglés, un 'brother' (hermano) es un chico (boy). Para una chica decimos 'sister'.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-ingles-la-familia-04",
+      "type": "fill-blank",
+      "prompt": "Aisha enseña una foto de su padre. Completa la frase:",
+      "explanation": "Aisha presenta a su padre diciendo 'This is my dad'. Sister es hermana y grandma es abuela.",
+      "hint": "Busca la palabra que signifique papá.",
+      "lang": "en",
+      "sentence": "This is my ___.",
+      "options": [
+        "grandma",
+        "sister",
+        "dad"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-la-familia-05",
+      "type": "classify",
+      "prompt": "Clasifica a estos miembros de la familia según usemos He (él) o She (ella):",
+      "explanation": "Usamos 'He' con los chicos (brother, dad, grandpa) y 'She' con las chicas (sister, grandma, mum).",
+      "lang": "en",
+      "categories": [
+        "He (Boy or Man)",
+        "She (Girl or Woman)"
+      ],
+      "items": [
+        {
+          "text": "Brother",
+          "category": 0
+        },
+        {
+          "text": "Sister",
+          "category": 1
+        },
+        {
+          "text": "Dad",
+          "category": 0
+        },
+        {
+          "text": "Grandma",
+          "category": 1
+        },
+        {
+          "text": "Grandpa",
+          "category": 0
+        },
+        {
+          "text": "Mum",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-la-familia-06",
+      "type": "choice",
+      "prompt": "Wei dice: 'Meet my baby sister!' ¿De quién habla Wei?",
+      "explanation": "'Baby sister' significa hermanita o bebé hermana.",
+      "hint": "'Baby' es bebé y 'sister' es hermana.",
+      "lang": "en",
+      "options": [
+        "De su hermanita pequeña.",
+        "De su abuelo.",
+        "De su hermano mayor."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-la-familia-07",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra correcta para presentar a Adrián:",
+      "explanation": "Usamos 'He' porque Adrián es un chico. Si fuera una chica, usaríamos 'She'.",
+      "hint": "Adrián es un chico.",
+      "lang": "en",
+      "sentence": "Look at Adrián! ___ is my brother.",
+      "options": [
+        "He",
+        "She",
+        "I"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-la-familia-08",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar una frase correcta:",
+      "explanation": "La frase correcta es 'This is my grandma' (Esta es mi abuela).",
+      "lang": "en",
+      "items": [
+        "This",
+        "is",
+        "my",
+        "grandma."
+      ]
+    },
+    {
+      "id": "g2-ingles-la-familia-09",
+      "type": "reading",
+      "prompt": "Lee el texto con atención y contesta a las preguntas:",
+      "explanation": "Martina nos presenta a su familia: su padre Leo, su madre Sara y su hermano Lucas.",
+      "lang": "en",
+      "title": "Martina's Family",
+      "text": "Hello! I am Martina. This is my family. My dad is Leo. My mum is Sara. I have one brother. His name is Lucas. I love my family!",
+      "questions": [
+        {
+          "prompt": "Who is Lucas?",
+          "explanation": "En el texto, Martina dice: 'I have one brother. His name is Lucas'.",
+          "options": [
+            "Martina's brother",
+            "Martina's dad",
+            "Martina's grandpa"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Who is Sara?",
+          "explanation": "El texto dice claramente: 'My mum is Sara'.",
+          "options": [
+            "Martina's brother",
+            "Martina's sister",
+            "Martina's mum"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-la-familia-10",
+      "type": "choice",
+      "prompt": "Omar dibuja su árbol familiar y señala al padre de su padre. ¿Quién es?",
+      "explanation": "El padre de tu padre (o de tu madre) es tu abuelo, en inglés 'grandfather' o 'grandpa'.",
+      "hint": "El padre de tu padre es tu...",
+      "lang": "en",
+      "options": [
+        "His mother",
+        "His brother",
+        "His grandfather"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:59:43.510Z",
+    "reviewed": false
+  }
+}

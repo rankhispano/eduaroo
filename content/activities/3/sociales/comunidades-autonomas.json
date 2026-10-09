@@ -1,0 +1,237 @@
+{
+  "id": "g3-sociales-comunidades-autonomas",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "comunidades-autonomas",
+  "temaNombre": "Comunidades autónomas",
+  "title": "Viajamos por las comunidades autónomas",
+  "summary": "Repasa cómo se organiza el territorio español en comunidades autónomas, provincias y ciudades autónomas.",
+  "keyIdeas": [
+    "España está organizada en 17 comunidades autónomas y 2 ciudades autónomas (Ceuta y Melilla).",
+    "Cada comunidad autónoma está formada por una o varias provincias y tiene su propia capital.",
+    "Cada comunidad autónoma cuenta con su propio Estatuto de Autonomía y sus instituciones de gobierno."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-comunidades-autonomas-01",
+      "type": "true-false",
+      "prompt": "España está formada por 17 comunidades autónomas y 2 ciudades autónomas.",
+      "explanation": "España tiene 17 comunidades autónomas distribuidas por la península y las islas, además de Ceuta y Melilla en el norte de África.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-02",
+      "type": "choice",
+      "prompt": "¿Cuáles son las dos ciudades autónomas de España situadas en el norte de África? 🌍",
+      "explanation": "Ceuta y Melilla son las dos ciudades con estatuto de autonomía que tiene España en el norte de África.",
+      "hint": "Sus nombres empiezan por C y por M.",
+      "lang": "es",
+      "options": [
+        "Palma y Menorca",
+        "Santa Cruz e Ibiza",
+        "Ceuta y Melilla"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta sobre la ley fundamental de cada comunidad.",
+      "explanation": "El Estatuto de Autonomía es la norma básica de cada comunidad autónoma, aprobada por las Cortes Generales.",
+      "lang": "es",
+      "sentence": "La ley más importante de cada comunidad autónoma es su ___ de Autonomía.",
+      "options": [
+        "Reglamento",
+        "Estatuto",
+        "Tratado"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-04",
+      "type": "classify",
+      "prompt": "Clasifica estas comunidades autónomas según tengan solo una provincia o varias provincias.",
+      "explanation": "Algunas comunidades autónomas son uniprovinciales (tienen una única provincia, como Madrid o Asturias), mientras que otras reúnen varias (como Andalucía con 8 o Galicia con 4).",
+      "lang": "es",
+      "categories": [
+        "Comunidad con una sola provincia",
+        "Comunidad con varias provincias"
+      ],
+      "items": [
+        {
+          "text": "Comunidad de Madrid",
+          "category": 0
+        },
+        {
+          "text": "Andalucía",
+          "category": 1
+        },
+        {
+          "text": "Principado de Asturias",
+          "category": 0
+        },
+        {
+          "text": "Galicia",
+          "category": 1
+        },
+        {
+          "text": "Región de Murcia",
+          "category": 0
+        },
+        {
+          "text": "Castilla y León",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-05",
+      "type": "match",
+      "prompt": "Une cada comunidad autónoma con su capital autonómica correspondiente:",
+      "explanation": "Cada comunidad autónoma tiene una ciudad designada como sede de sus instituciones principales de gobierno, que es su capital.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Galicia",
+          "right": "Santiago de Compostela"
+        },
+        {
+          "left": "Andalucía",
+          "right": "Sevilla"
+        },
+        {
+          "left": "Cataluña",
+          "right": "Barcelona"
+        },
+        {
+          "left": "Aragón",
+          "right": "Zaragoza"
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-06",
+      "type": "choice",
+      "prompt": "En clase de Ciencias Sociales, Hugo y Aisha señalan los dos archipiélagos españoles en el mapa. ¿Cuáles son? 🏝️",
+      "explanation": "España cuenta con dos comunidades autónomas formadas por islas: las Islas Baleares (en el mar Mediterráneo) y Canarias (en el océano Atlántico).",
+      "hint": "Una está en el mar Mediterráneo y la otra en el océano Atlántico.",
+      "lang": "es",
+      "options": [
+        "Las islas Cíes y las islas Medas",
+        "Las islas Baleares y las islas Canarias",
+        "Las islas Columbretes y las islas Cíes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-07",
+      "type": "reading",
+      "prompt": "Lee el texto sobre la excursión de Lucía y responde a las preguntas.",
+      "explanation": "Las comunidades autónomas pueden tener diferente número de provincias y paisajes, pero todas cuentan con instituciones de autogobierno semejantes.",
+      "lang": "es",
+      "title": "El viaje de intercambio de Lucía",
+      "text": "Lucía vive en Logroño, la capital de La Rioja, una comunidad autónoma pequeña con una sola provincia. Su colegio realiza un intercambio cultural con un centro educativo de Mérida, la capital de Extremadura. Extremadura está situada al oeste de España y tiene dos provincias muy extensas: Cáceres y Badajoz. El abuelo de Lucía le cuenta que, aunque los paisajes de ambos lugares son diferentes, las dos comunidades se organizan de forma parecida: ambas tienen un Parlamento, un Presidente autonómico y su propio Estatuto de Autonomía para cuidar los colegios y la salud de sus habitantes.",
+      "questions": [
+        {
+          "prompt": "¿En qué se diferencian La Rioja y Extremadura según la lectura?",
+          "explanation": "El texto explica que La Rioja tiene una sola provincia, mientras que Extremadura tiene dos: Cáceres y Badajoz.",
+          "options": [
+            "La Rioja tiene una provincia y Extremadura tiene dos.",
+            "Una tiene Estatuto de Autonomía y la otra no.",
+            "Solo Extremadura tiene presidente autonómico."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué institución comparten en común según el texto para organizar sus comunidades?",
+          "explanation": "El abuelo de Lucía explica que ambas comunidades tienen su propio Parlamento y Presidente para gobernar su territorio.",
+          "options": [
+            "Comparten los mismos colegios y hospitales.",
+            "Tienen el mismo alcalde en ambas ciudades.",
+            "Tienen un Parlamento y un Presidente autonómico propio."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-08",
+      "type": "order",
+      "prompt": "Ordena estos niveles territoriales desde el espacio más pequeño hasta el más grande: 🗺️",
+      "explanation": "Un municipio forma parte de una provincia, una o varias provincias forman una comunidad autónoma, y todas juntas componen el Estado español.",
+      "lang": "es",
+      "items": [
+        "Municipio (localidad)",
+        "Provincia",
+        "Comunidad autónoma",
+        "Estado español"
+      ]
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-09",
+      "type": "choice",
+      "prompt": "Nerea viaja en tren desde Toledo hasta Santander. ¿Por qué comunidades autónomas pasa, en orden? 🚆",
+      "explanation": "Toledo está en Castilla-La Mancha. El tren sube hacia el norte por la Comunidad de Madrid y Castilla y León hasta llegar a Santander, la capital de Cantabria.",
+      "hint": "Toledo está en el centro-sur y Santander en la costa norte.",
+      "lang": "es",
+      "options": [
+        "Castilla-La Mancha, Comunidad de Madrid, Castilla y León y Cantabria",
+        "Extremadura, Galicia y Asturias",
+        "Castilla-La Mancha, Cantabria y Andalucía"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-10",
+      "type": "choice",
+      "prompt": "Omar lee una noticia: el gobierno autonómico construirá un nuevo centro de salud en su barrio. ¿Qué institución se encarga de este servicio en su comunidad? 🏥",
+      "explanation": "Las comunidades autónomas gestionan servicios públicos fundamentales para la ciudadanía, como los hospitales, centros de salud y colegios.",
+      "hint": "Es la institución que dirige y gestiona la comunidad autónoma.",
+      "lang": "es",
+      "options": [
+        "El Gobierno autonómico",
+        "La Unión Europea exclusivamente",
+        "El tribunal de justicia del barrio"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:55:02.946Z",
+    "reviewed": false
+  }
+}

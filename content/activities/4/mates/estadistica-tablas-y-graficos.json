@@ -1,0 +1,219 @@
+{
+  "id": "g4-mates-estadistica-tablas-y-graficos",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "estadistica-tablas-y-graficos",
+  "temaNombre": "Estadística: tablas y gráficos",
+  "title": "Exploradores de tablas y gráficos",
+  "summary": "Practica la lectura de tablas, pictogramas y gráficos de barras con situaciones del día a día.",
+  "keyIdeas": [
+    "La frecuencia absoluta es la cantidad de veces que se repite un dato.",
+    "La moda es el valor o dato que aparece con más frecuencia.",
+    "En los pictogramas cada dibujo representa una cantidad fija de elementos."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "E. Sentido estocástico › Organización y análisis de datos",
+      "D. Sentido algebraico › Modelo matemático"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-estadistica-tablas-y-graficos-01",
+      "type": "match",
+      "prompt": "Une cada concepto estadístico con su definición:",
+      "explanation": "La frecuencia cuenta las repeticiones, la moda es el dato más repetido y los gráficos nos ayudan a verlos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Frecuencia absoluta",
+          "right": "Número de veces que se repite un dato."
+        },
+        {
+          "left": "Moda",
+          "right": "Dato que tiene la frecuencia más alta."
+        },
+        {
+          "left": "Pictograma",
+          "right": "Gráfico que utiliza iconos o dibujos."
+        },
+        {
+          "left": "Gráfico de barras",
+          "right": "Gráfico que usa barras para comparar datos."
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-estadistica-tablas-y-graficos-02",
+      "type": "true-false",
+      "prompt": "En un estudio estadístico, la moda es siempre el dato que menos veces aparece.",
+      "explanation": "La moda es el dato con mayor frecuencia absoluta, es decir, el que más veces se repite.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-mates-estadistica-tablas-y-graficos-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el recuento de datos:",
+      "explanation": "La frecuencia absoluta coincide exactamente con el número de personas que eligen esa opción: 7.",
+      "lang": "es",
+      "sentence": "Si 7 personas eligen manzana como fruta favorita, la frecuencia absoluta de manzana es ___.",
+      "options": [
+        "7",
+        "14",
+        "1"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-estadistica-tablas-y-graficos-04",
+      "type": "choice",
+      "prompt": "Aisha lee un pictograma. Cada 📖 vale 4 libros leídos. Si ve 3 iconos de 📖, ¿cuántos libros representan?",
+      "explanation": "Multiplicamos la cantidad de dibujos por su valor: 3 × 4 = 12 libros.",
+      "hint": "Multiplica el número de iconos por cuatro.",
+      "lang": "es",
+      "options": [
+        "7 libros",
+        "12 libros",
+        "3 libros",
+        "16 libros"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-estadistica-tablas-y-graficos-05",
+      "type": "classify",
+      "prompt": "En el patio juegan: Baloncesto (8), Fútbol (12) y Comba (4). Clasifica estas afirmaciones:",
+      "explanation": "Sumamos 8 + 12 + 4 = 24 alumnos. El fútbol tiene la frecuencia más alta (12), superando en 4 al baloncesto (12 - 8 = 4).",
+      "lang": "es",
+      "categories": [
+        "Verdadera",
+        "Falsa"
+      ],
+      "items": [
+        {
+          "text": "El fútbol es la moda porque tiene 12 jugadores.",
+          "category": 0
+        },
+        {
+          "text": "En total están jugando 24 alumnos.",
+          "category": 0
+        },
+        {
+          "text": "La comba tiene mayor frecuencia que el baloncesto.",
+          "category": 1
+        },
+        {
+          "text": "Fútbol tiene 4 jugadores más que baloncesto.",
+          "category": 0
+        },
+        {
+          "text": "La moda de los juegos es la comba.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-estadistica-tablas-y-graficos-06",
+      "type": "order",
+      "prompt": "Ordena los pasos para hacer una pequeña investigación estadística en clase:",
+      "explanation": "Primero preguntamos, después contamos, organizamos los datos en la tabla y finalmente construimos el gráfico.",
+      "lang": "es",
+      "items": [
+        "Hacer una pregunta a los compañeros",
+        "Anotar y contar las respuestas obtenidas",
+        "Organizar las frecuencias en una tabla",
+        "Dibujar el gráfico de barras con los datos"
+      ]
+    },
+    {
+      "id": "g4-mates-estadistica-tablas-y-graficos-07",
+      "type": "choice",
+      "prompt": "Hugo encuesta a 20 amigos: Perro (11), Gato (6) y Pájaro (3). Dice: 'La moda es pájaro porque es pequeño'. ¿Cuál es su error?",
+      "explanation": "La moda solo se fija en la frecuencia absoluta. El perro tiene 11 votos y es el más frecuente.",
+      "hint": "Recuerda la definición de moda en estadística.",
+      "lang": "es",
+      "options": [
+        "No hay error; el animal más pequeño siempre es la moda.",
+        "La moda es la suma de todos los animales: 20.",
+        "Hugo debió elegir el gato porque está en el medio.",
+        "La moda no depende del tamaño, sino del dato más repetido: el perro."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g4-mates-estadistica-tablas-y-graficos-08",
+      "type": "choice",
+      "prompt": "Omar anota los bocadillos vendidos: Jamón (25), Queso (15), Tortilla (18) y Atún (12). ¿Total vendido y moda?",
+      "explanation": "Sumamos: 25 + 15 + 18 + 12 = 70 bocadillos. El jamón es la moda porque tiene 25 ventas, la cifra más alta.",
+      "hint": "Suma primero todas las ventas y luego mira cuál es el número mayor.",
+      "lang": "es",
+      "options": [
+        "60 bocadillos en total y la moda es Jamón.",
+        "70 bocadillos en total y la moda es Tortilla.",
+        "70 bocadillos en total y la moda es Jamón.",
+        "58 bocadillos en total y la moda es Atún."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-estadistica-tablas-y-graficos-09",
+      "type": "true-false",
+      "prompt": "En un gráfico de barras vertical, cuanto más alta es una barra, mayor es la frecuencia de ese dato.",
+      "explanation": "La altura de la barra indica el número de veces que se repite un dato: más altura significa mayor frecuencia.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-mates-estadistica-tablas-y-graficos-10",
+      "type": "choice",
+      "prompt": "En un pictograma, cada 📚 vale 5 libros. 4ºA tiene 6 dibujos de 📚 y 4ºB tiene 4 dibujos. ¿Cuántos libros más tiene 4ºA?",
+      "explanation": "4ºA tiene 6 × 5 = 30 libros. 4ºB tiene 4 × 5 = 20 libros. Restamos: 30 - 20 = 10 libros más.",
+      "hint": "Calcula los libros de cada clase multiplicando por 5 y luego resta.",
+      "lang": "es",
+      "options": [
+        "10 libros más",
+        "2 libros más",
+        "5 libros más",
+        "30 libros más"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:52:52.825Z",
+    "reviewed": false
+  }
+}

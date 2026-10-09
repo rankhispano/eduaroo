@@ -1,0 +1,234 @@
+{
+  "id": "g2-ingles-los-alimentos",
+  "cursoId": "2",
+  "asignaturaId": "ingles",
+  "temaId": "los-alimentos",
+  "temaNombre": "Los alimentos",
+  "title": "Yummy Food in English!",
+  "summary": "Practica el vocabulario de la comida y aprende a decir lo que te gusta en inglés.",
+  "keyIdeas": [
+    "Usamos 'I like' para decir lo que nos gusta y 'I do not like' para lo que no nos gusta.",
+    "Palabras como 'apple', 'bread' o 'milk' sirven para hablar del desayuno y el recreo.",
+    "Para preguntar a alguien si le gusta algo, decimos 'Do you like...?'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-ingles-los-alimentos-01",
+      "type": "choice",
+      "prompt": "Aisha eats a red fruit in the playground. What is it? 🍎",
+      "explanation": "Apple significa manzana, que es una fruta roja muy rica. Fish es pescado y milk es leche.",
+      "hint": "Es una fruta de color rojo.",
+      "lang": "en",
+      "options": [
+        "A milk",
+        "A fish",
+        "An apple"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-los-alimentos-02",
+      "type": "match",
+      "prompt": "Match each food word in English with its Spanish word:",
+      "explanation": "Bread es pan, milk es leche, cheese es queso y water es agua.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "bread",
+          "right": "pan"
+        },
+        {
+          "left": "milk",
+          "right": "leche"
+        },
+        {
+          "left": "cheese",
+          "right": "queso"
+        },
+        {
+          "left": "water",
+          "right": "agua"
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-los-alimentos-03",
+      "type": "true-false",
+      "prompt": "A carrot is a fruit. 🥕",
+      "explanation": "Carrot significa zanahoria, y es una verdura (vegetable), no una fruta (fruit).",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g2-ingles-los-alimentos-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase para decir que te gusta el queso:",
+      "explanation": "Usamos la palabra like para decir que algo nos gusta: I like cheese.",
+      "lang": "en",
+      "sentence": "I ___ cheese. It is delicious!",
+      "options": [
+        "like",
+        "am",
+        "play"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-los-alimentos-05",
+      "type": "classify",
+      "prompt": "Classify the items into Fruit or Drink:",
+      "explanation": "Banana, orange y apple son frutas para comer. Water, milk y juice son bebidas para beber.",
+      "lang": "en",
+      "categories": [
+        "Fruit",
+        "Drink"
+      ],
+      "items": [
+        {
+          "text": "Banana",
+          "category": 0
+        },
+        {
+          "text": "Water",
+          "category": 1
+        },
+        {
+          "text": "Orange",
+          "category": 0
+        },
+        {
+          "text": "Milk",
+          "category": 1
+        },
+        {
+          "text": "Apple",
+          "category": 0
+        },
+        {
+          "text": "Juice",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-los-alimentos-06",
+      "type": "choice",
+      "prompt": "Hugo wants a healthy snack for the break. What does he choose?",
+      "explanation": "La leche y la fruta forman un desayuno saludable y nutritivo para el cole.",
+      "hint": "Busca la opción con fruta y leche.",
+      "lang": "en",
+      "options": [
+        "Ice cream and chips",
+        "Four candies",
+        "Milk and an apple"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-los-alimentos-07",
+      "type": "fill-blank",
+      "prompt": "Omar quiere decir que no le gusta el pescado. Completa la frase:",
+      "explanation": "Para decir que no nos gusta algo, decimos 'I do not like' o 'I don't like'.",
+      "lang": "en",
+      "sentence": "I do ___ like fish.",
+      "options": [
+        "red",
+        "yes",
+        "not"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-los-alimentos-08",
+      "type": "order",
+      "prompt": "Order the steps to prepare a fruit snack:",
+      "explanation": "Primero lavamos la manzana, luego la cortamos en trocitos y al final nos la comemos.",
+      "lang": "en",
+      "items": [
+        "Wash the apple.",
+        "Cut the apple.",
+        "Eat the apple."
+      ]
+    },
+    {
+      "id": "g2-ingles-los-alimentos-09",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions:",
+      "explanation": "Martina nos cuenta qué come hoy: pasta y ensalada, con agua fría para beber.",
+      "lang": "en",
+      "title": "Martina's Lunch",
+      "text": "Hello! I am Martina. Today I have pasta and salad for lunch. Pasta is my favourite food. I drink cold water. I do not like fish today.",
+      "questions": [
+        {
+          "prompt": "What is Martina's favourite food?",
+          "explanation": "En el texto, Martina dice claramente: Pasta is my favourite food.",
+          "options": [
+            "Salad",
+            "Fish",
+            "Pasta"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Martina drink?",
+          "explanation": "El texto dice: I drink cold water.",
+          "options": [
+            "Cold water",
+            "Milk",
+            "Orange juice"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-los-alimentos-10",
+      "type": "choice",
+      "prompt": "In the canteen, Wei asks Lucía: 'Do you like chicken?' Lucía likes it. What does she answer?",
+      "explanation": "A la pregunta 'Do you like...?', si la respuesta es afirmativa decimos 'Yes, I do'.",
+      "hint": "Recuerda cómo se responde que sí de forma corta.",
+      "lang": "en",
+      "options": [
+        "My name is Lucía.",
+        "Yes, I do.",
+        "No, I do not."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:01:14.471Z",
+    "reviewed": false
+  }
+}

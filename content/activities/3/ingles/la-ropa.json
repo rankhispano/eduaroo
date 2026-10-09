@@ -1,0 +1,248 @@
+{
+  "id": "g3-ingles-la-ropa",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "la-ropa",
+  "temaNombre": "La ropa",
+  "title": "Let's Talk About Clothes!",
+  "summary": "Practica el vocabulario de la ropa en inglés y aprende a describir lo que llevas puesto.",
+  "keyIdeas": [
+    "Usamos 'I am wearing...' para decir qué ropa llevamos puesta.",
+    "Recuerda que en inglés el color va antes de la prenda: 'a blue jumper'.",
+    "Adaptamos la ropa según el clima: ropa fresca para el calor y abrigo para el frío."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-la-ropa-01",
+      "type": "match",
+      "prompt": "Match each piece of clothing with the part of the body where you wear it.",
+      "explanation": "Cada prenda tiene su lugar: el gorro en la cabeza (head), los calcetines en los pies (feet), los guantes en las manos (hands) y la bufanda en el cuello (neck).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "A warm hat",
+          "right": "On your head"
+        },
+        {
+          "left": "Socks",
+          "right": "On your feet"
+        },
+        {
+          "left": "Gloves",
+          "right": "On your hands"
+        },
+        {
+          "left": "A scarf",
+          "right": "Around your neck"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-la-ropa-02",
+      "type": "choice",
+      "prompt": "It is a sunny summer day at the park. What does Leo wear?",
+      "explanation": "En un día soleado de verano hace calor, por lo que Leo necesita ropa ligera como una camiseta (T-shirt) y pantalones cortos (shorts).",
+      "hint": "Piensa en qué ropa te pones cuando hace mucho sol y calor.",
+      "lang": "en",
+      "options": [
+        "A heavy coat and gloves",
+        "A T-shirt and shorts",
+        "A woolly jumper and boots"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-la-ropa-03",
+      "type": "true-false",
+      "prompt": "You wear a swimming suit and sandals when it snows in the mountains.",
+      "explanation": "En la nieve hace mucho frío, por lo que usamos abrigo, botas y guantes, no un bañador (swimming suit) ni sandalias.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-ingles-la-ropa-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct item for a rainy day.",
+      "explanation": "'Raincoat' significa impermeable o chubasquero, la prenda ideal para no mojarse en los días de lluvia.",
+      "hint": "Fíjate en la palabra 'rain' dentro de la opción correcta.",
+      "lang": "en",
+      "sentence": "When it rains, Aisha puts on her yellow ___ to stay dry.",
+      "options": [
+        "raincoat",
+        "sunglasses",
+        "sandals"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-la-ropa-05",
+      "type": "classify",
+      "prompt": "Classify the clothes into Summer clothes or Winter clothes.",
+      "explanation": "El bañador, los pantalones cortos y la gorra son prendas veraniegas, mientras que el abrigo, el gorro de lana y los guantes nos protegen del frío invernal.",
+      "lang": "en",
+      "categories": [
+        "Summer clothes ☀️",
+        "Winter clothes ❄️"
+      ],
+      "items": [
+        {
+          "text": "Swimsuit",
+          "category": 0
+        },
+        {
+          "text": "Warm coat",
+          "category": 1
+        },
+        {
+          "text": "Shorts",
+          "category": 0
+        },
+        {
+          "text": "Woolly hat",
+          "category": 1
+        },
+        {
+          "text": "Sun hat",
+          "category": 0
+        },
+        {
+          "text": "Gloves",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-la-ropa-06",
+      "type": "choice",
+      "prompt": "Nerea is getting ready for physical education class. Her teacher says: 'Put on sports shoes!'. What does she wear?",
+      "explanation": "'Trainers' significa zapatillas de deporte, que son las adecuadas para correr y hacer ejercicio en Educación Física.",
+      "hint": "Busca el calzado adecuado para hacer deporte.",
+      "lang": "en",
+      "options": [
+        "Slippers",
+        "Rain boots",
+        "Trainers"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-la-ropa-07",
+      "type": "fill-blank",
+      "prompt": "Choose the correct verb form to describe what Adrián is wearing.",
+      "explanation": "Con el pronombre 'he' (él) utilizamos la forma singular del verbo to be: 'is' ('He is wearing').",
+      "hint": "Recuerda la regla: I am, you are, he/she is.",
+      "lang": "en",
+      "sentence": "Look at Adrián! He ___ wearing a green sweater.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-la-ropa-08",
+      "type": "order",
+      "prompt": "Order the steps to get your feet ready before going to school.",
+      "explanation": "El orden lógico es ponerse primero los calcetines, luego calzarse los zapatos y finalmente atarse los cordones.",
+      "lang": "en",
+      "items": [
+        "Put on your clean socks",
+        "Put your feet into your shoes",
+        "Tie your shoelaces tightly"
+      ]
+    },
+    {
+      "id": "g3-ingles-la-ropa-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "¡Buen trabajo de comprensión lectora! Identificar prendas y colores en un texto ayuda a consolidar el vocabulario.",
+      "lang": "en",
+      "title": "A Rainy Morning for Lucía and Omar",
+      "text": "Today is Tuesday and it is raining outside. Lucía looks out of her bedroom window. She sees big grey clouds and puddles on the street. Lucía opens her wardrobe to get dressed for school. First, she puts on blue jeans and a warm red sweater. Next, she takes her favourite yellow raincoat and waterproof boots. Her brother Omar is also ready. He is wearing a dark jacket and holding a big blue umbrella. 'Don't forget your scarf, Lucía!' says Omar smiling. Lucía takes her green scarf, and they both walk happily to school.",
+      "questions": [
+        {
+          "prompt": "What colour is Lucía's sweater?",
+          "explanation": "El texto dice textualmente: 'First, she puts on blue jeans and a warm red sweater'.",
+          "options": [
+            "Red",
+            "Green",
+            "Blue"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why are Lucía and Omar wearing coats and boots?",
+          "explanation": "La lectura indica que el día es lluvioso y frío ('it is raining outside', 'puddles on the street').",
+          "options": [
+            "Because they are going swimming",
+            "Because it is very sunny",
+            "Because it is cold and raining"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Omar remind Lucía to take before leaving?",
+          "explanation": "Omar le dice a Lucía: 'Don't forget your scarf, Lucía!' antes de salir.",
+          "options": [
+            "Her scarf",
+            "Her umbrella",
+            "Her backpack"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-la-ropa-10",
+      "type": "choice",
+      "prompt": "Riddle time: 'I keep your neck warm when the cold wind blows. I am long, soft, and woolly. What am I?'",
+      "explanation": "La bufanda ('scarf') es una prenda alargada y suave que nos ponemos alrededor del cuello para no pasar frío.",
+      "hint": "Se lleva alrededor del cuello ('neck').",
+      "lang": "en",
+      "options": [
+        "A scarf",
+        "A belt",
+        "A pair of socks",
+        "A T-shirt"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:45:33.508Z",
+    "reviewed": false
+  }
+}

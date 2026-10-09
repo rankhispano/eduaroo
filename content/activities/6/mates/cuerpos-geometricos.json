@@ -1,0 +1,225 @@
+{
+  "id": "g6-mates-cuerpos-geometricos",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "cuerpos-geometricos",
+  "temaNombre": "Cuerpos geométricos",
+  "title": "Exploradores de Cuerpos Geométricos 3D",
+  "summary": "Repasa e investiga las propiedades de poliedros y cuerpos redondos en situaciones de la vida diaria.",
+  "keyIdeas": [
+    "Los poliedros tienen todas sus caras planas, mientras que los cuerpos redondos tienen al menos una superficie curva.",
+    "En los poliedros convexos se cumple la fórmula de Euler: Caras + Vértices = Aristas + 2.",
+    "Los prismas tienen dos bases iguales y caras laterales en paralelogramo; las pirámides tienen una base y caras triangulares."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.3",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sentido espacial › Figuras geométricas de dos y tres dimensiones",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-cuerpos-geometricos-01",
+      "type": "classify",
+      "prompt": "Clasifica estos objetos cotidianos según sean poliedros o cuerpos redondos:",
+      "explanation": "Los poliedros tienen únicamente caras planas (polígonos). Los cuerpos redondos contienen alguna superficie curva.",
+      "lang": "es",
+      "categories": [
+        "Poliedros",
+        "Cuerpos redondos"
+      ],
+      "items": [
+        {
+          "text": "Caja rectangular de zapatos",
+          "category": 0
+        },
+        {
+          "text": "Bote cilíndrico de lápices",
+          "category": 1
+        },
+        {
+          "text": "Dado cúbico de parchís",
+          "category": 0
+        },
+        {
+          "text": "Balón esférico de baloncesto",
+          "category": 1
+        },
+        {
+          "text": "Cucurucho de helado",
+          "category": 1
+        },
+        {
+          "text": "Pirámide de regalo para caramelos",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-02",
+      "type": "true-false",
+      "prompt": "Un cilindro es un poliedro porque tiene dos bases circulares planas.",
+      "explanation": "Para ser un poliedro, todas sus caras deben ser planas y polígonos. Como el cilindro tiene una superficie lateral curva, es un cuerpo redondo.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-03",
+      "type": "match",
+      "prompt": "Relaciona cada cuerpo geométrico con la descripción correcta de sus caras laterales:",
+      "explanation": "Las caras laterales de los prismas rectos son rectángulos según el número de lados de la base, las de las pirámides son triángulos concurrentes en el vértice superior y el cilindro posee una superficie curva continua.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Prisma pentagonal",
+          "right": "5 rectángulos"
+        },
+        {
+          "left": "Pirámide hexagonal",
+          "right": "6 triángulos"
+        },
+        {
+          "left": "Cilindro",
+          "right": "1 superficie lateral curva"
+        },
+        {
+          "left": "Tetraedro regular",
+          "right": "4 triángulos equiláteros en total"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el término geométrico adecuado:",
+      "explanation": "El punto más alto donde concurren los triángulos laterales de una pirámide se denomina cúspide o vértice superior.",
+      "hint": "Es el pico más alto donde se juntan todas las caras inclinadas.",
+      "lang": "es",
+      "sentence": "En una pirámide de base cuadrada, el punto superior común donde se unen todas las caras laterales triangulares se llama ___ de la pirámide.",
+      "options": [
+        "base",
+        "cúspide o vértice",
+        "arista"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-05",
+      "type": "choice",
+      "prompt": "Encuentra el error: Darío dice que ha construido con pajitas y plastilina un prisma con 6 caras, 8 vértices y 14 aristas. Su compañera Lucía le dice que algo está mal. ¿Cuál es el error de Darío?",
+      "explanation": "Por la relación de Euler, Caras + Vértices = Aristas + 2. Si tiene 6 caras y 8 vértices, 6 + 8 = 14, por lo que Aristas + 2 = 14, lo que significa que debe tener exactamente 12 aristas, no 14.",
+      "hint": "Aplica la fórmula de Euler: C + V = A + 2.",
+      "lang": "es",
+      "options": [
+        "El prisma hexagonal no tiene 6 caras, tiene 7 caras.",
+        "Ha contado mal las aristas: un prisma cuadrangular tiene 6 caras, 8 vértices y 12 aristas (6 + 8 = 12 + 2).",
+        "Los prismas no pueden tener nunca 8 vértices."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-06",
+      "type": "choice",
+      "prompt": "Cálculo mental rápido: Una carpa para un campamento tiene forma de prisma hexagonal. ¿Cuántas aristas de aluminio necesita la estructura en total contando las dos bases y las paredes laterales?",
+      "explanation": "Un prisma hexagonal tiene 6 lados en la base inferior, 6 lados en la base superior y 6 aristas laterales verticales: 6 × 3 = 18 aristas en total.",
+      "hint": "Multiplica el número de lados de la base por 3.",
+      "lang": "es",
+      "options": [
+        "24 aristas",
+        "18 aristas",
+        "12 aristas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-07",
+      "type": "order",
+      "prompt": "Omar quiere construir una maqueta de cartulina de un prisma triangular. Ordena los pasos lógicos que debe seguir:",
+      "explanation": "Para armar un cuerpo geométrico primero se dibuja el desarrollo plano, luego se recorta, después se pliegan las aristas y finalmente se encolan las pestañas para cerrarlo.",
+      "lang": "es",
+      "items": [
+        "Dibujar con regla el desarrollo plano (2 bases triangulares y 3 rectángulos contiguos) con pestañas para pegar.",
+        "Recortar cuidadosamente la silueta exterior del desarrollo en la cartulina.",
+        "Doblar todas las aristas y pestañas marcadas.",
+        "Poner pegamento en las pestañas y unir las caras para cerrar el cuerpo tridimensional."
+      ]
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-08",
+      "type": "choice",
+      "prompt": "Aisha está analizando un cuerpo geométrico misterioso. Tiene 1 cara circular plana y 1 superficie curva que termina en una punta. ¿De qué cuerpo se trata?",
+      "explanation": "El cono es el cuerpo redondo que tiene una sola base circular y una superficie curva lateral que termina en un vértice o cúspide.",
+      "hint": "Piensa en el sombrero de un mago o en un cucurucho.",
+      "lang": "es",
+      "options": [
+        "Cilindro",
+        "Cono",
+        "Pirámide circular"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-09",
+      "type": "choice",
+      "prompt": "Adrián tiene una pirámide de base octogonal (8 lados). Quiere saber cuántas caras (totales) y cuántos vértices tiene para un proyecto de plástica. ¿Cuál es el recuento correcto?",
+      "explanation": "En una pirámide con base de n lados: tiene n + 1 caras (8 caras laterales triangulares + 1 base = 9) y n + 1 vértices (8 vértices en la base + 1 en la cúspide = 9).",
+      "hint": "Suma la base más las caras laterales para las caras, y los vértices de la base más la punta para los vértices.",
+      "lang": "es",
+      "options": [
+        "9 caras y 16 vértices",
+        "8 caras y 8 vértices",
+        "9 caras y 9 vértices"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-10",
+      "type": "choice",
+      "prompt": "Reto geométrico: Si cortamos transversalmente un prisma rectangular de madera con un corte perfectamente paralelo a sus bases rectangulares, ¿qué forma exacta tiene la superficie del corte resultante?",
+      "explanation": "Cualquier sección paralela a las bases de un prisma recto produce un polígono idéntico (congruente) a sus bases, en este caso un rectángulo con las mismas dimensiones.",
+      "hint": "Imagina rebanar un bloque de mantequilla con un corte horizontal recto.",
+      "lang": "es",
+      "options": [
+        "Un rectángulo idéntico a las bases",
+        "Un triángulo rectángulo",
+        "Un trapecio escaleno"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:30:01.422Z",
+    "reviewed": false
+  }
+}

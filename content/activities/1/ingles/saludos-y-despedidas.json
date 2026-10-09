@@ -1,0 +1,228 @@
+{
+  "id": "g1-ingles-saludos-y-despedidas",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "saludos-y-despedidas",
+  "temaNombre": "Saludos y despedidas",
+  "title": "Hello and Goodbye!",
+  "summary": "Practica los saludos y despedidas más comunes en inglés para usar cada día.",
+  "keyIdeas": [
+    "Usamos 'Hello' o 'Hi' para decir 'hola' y 'Goodbye' o 'Bye' para decir 'adiós'.",
+    "Decimos 'Good morning' por la mañana y 'Good night' al ir a dormir por la noche."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "3.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-saludos-y-despedidas-01",
+      "type": "choice",
+      "prompt": "You arrive at school in the morning. What do you say?",
+      "explanation": "Por la mañana decimos 'Good morning' para dar los buenos días al llegar al cole.",
+      "hint": "Es por la mañana, justo al empezar el día.",
+      "lang": "en",
+      "options": [
+        "Goodbye!",
+        "Good morning!",
+        "Good night!"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-02",
+      "type": "fill-blank",
+      "prompt": "Completa el saludo cuando ves a un amigo en el parque:",
+      "explanation": "Usamos 'Hello' para saludar a un amigo cuando nos encontramos.",
+      "hint": "Busca la palabra que sirve para decir 'hola'.",
+      "lang": "en",
+      "sentence": "___, Leo! Nice to see you.",
+      "options": [
+        "Bye",
+        "Hello",
+        "Night"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-03",
+      "type": "match",
+      "prompt": "Une cada saludo o despedida con su respuesta:",
+      "explanation": "'Hello' y 'Hi' son saludos parecidos, igual que 'Goodbye' y 'Bye-bye' para despedirse.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Hello!",
+          "right": "Hi!"
+        },
+        {
+          "left": "Good morning!",
+          "right": "Good morning, teacher!"
+        },
+        {
+          "left": "Goodbye!",
+          "right": "Bye-bye!"
+        },
+        {
+          "left": "See you later!",
+          "right": "See you!"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-04",
+      "type": "classify",
+      "prompt": "Clasifica estas expresiones en saludos o despedidas:",
+      "explanation": "'Hello', 'Hi' y 'Good morning' sirven para empezar a hablar; 'Goodbye', 'Bye-bye' y 'See you' sirven para despedirse.",
+      "lang": "en",
+      "categories": [
+        "Greetings (Saludos)",
+        "Goodbyes (Despedidas)"
+      ],
+      "items": [
+        {
+          "text": "Hello",
+          "category": 0
+        },
+        {
+          "text": "Goodbye",
+          "category": 1
+        },
+        {
+          "text": "Good morning",
+          "category": 0
+        },
+        {
+          "text": "Bye-bye",
+          "category": 1
+        },
+        {
+          "text": "Hi",
+          "category": 0
+        },
+        {
+          "text": "See you tomorrow",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-05",
+      "type": "choice",
+      "prompt": "Hugo goes to bed at night. What does he say to his family?",
+      "explanation": "Al acostarnos por la noche decimos 'Good night' para desear buenas noches.",
+      "hint": "Es de noche y Hugo va a dormir a su cama.",
+      "lang": "en",
+      "options": [
+        "Good night!",
+        "Good morning!",
+        "Hello!"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-06",
+      "type": "order",
+      "prompt": "Ordena los saludos a lo largo de un día:",
+      "explanation": "Primero decimos 'Good morning' (mañana), luego 'Good afternoon' (tarde) y al final 'Good night' (noche).",
+      "lang": "en",
+      "items": [
+        "Good morning",
+        "Good afternoon",
+        "Good night"
+      ]
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-07",
+      "type": "fill-blank",
+      "prompt": "Las clases terminan por hoy. Completa la despedida:",
+      "explanation": "Al terminar las clases decimos 'Goodbye' o 'Bye' para despedirnos hasta el día siguiente.",
+      "hint": "Es la hora de irse a casa.",
+      "lang": "en",
+      "sentence": "___, see you tomorrow!",
+      "options": [
+        "Morning",
+        "Hello",
+        "Goodbye"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-08",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions:",
+      "explanation": "El texto muestra cómo se saludan al entrar y cómo se despiden al salir del colegio.",
+      "lang": "en",
+      "title": "At the School Gate",
+      "text": "Lucía arrives at school. She sees Omar. Lucía says: 'Good morning, Omar!' Omar smiles: 'Hello, Lucía!' Later, school finishes. Omar waves his hand: 'Goodbye, Lucía!' Lucía answers: 'Bye-bye, see you tomorrow!'",
+      "questions": [
+        {
+          "prompt": "What does Lucía say in the morning?",
+          "explanation": "Al inicio del texto, Lucía saluda diciendo 'Good morning, Omar!'.",
+          "options": [
+            "Goodbye, Omar!",
+            "Good night, Omar!",
+            "Good morning, Omar!"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Omar say when school finishes?",
+          "explanation": "Al terminar la jornada, Omar se despide diciendo 'Goodbye, Lucía!'.",
+          "options": [
+            "Goodbye, Lucía!",
+            "Good morning, Lucía!",
+            "Hello, Lucía!"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-09",
+      "type": "choice",
+      "prompt": "Martina enters the classroom at nine o'clock. What does she say to her teacher?",
+      "explanation": "A las nueve de la mañana, al entrar al aula, saludamos con educación diciendo 'Good morning, teacher!'.",
+      "hint": "Son las nueve de la mañana y Martina llega a clase.",
+      "lang": "en",
+      "options": [
+        "Good morning, teacher!",
+        "Good night, teacher!",
+        "Goodbye, teacher!"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:51:15.998Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "id": "g2-lengua-el-adjetivo-calificativo",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "el-adjetivo-calificativo",
+  "temaNombre": "El adjetivo calificativo",
+  "title": "Descubrimos el adjetivo calificativo",
+  "summary": "Aprenderás a reconocer adjetivos y a usarlos para decir cómo son las cosas.",
+  "keyIdeas": [
+    "Los adjetivos calificativos nos dicen cómo son o cómo están las personas, animales y cosas.",
+    "El adjetivo siempre concuerda en género y número con el sustantivo al que acompaña.",
+    "Para encontrar el adjetivo, pregunta: ¿cómo es? o ¿cómo está?"
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-01",
+      "type": "choice",
+      "prompt": "¿Qué palabra nos dice cómo es el limón? 🍋\n«El limón es muy ácido».",
+      "explanation": "La palabra «ácido» es un adjetivo porque nos explica cómo es el limón.",
+      "hint": "Pregúntate: ¿cómo es el limón?",
+      "lang": "es",
+      "options": [
+        "muy",
+        "ácido",
+        "limón"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-02",
+      "type": "true-false",
+      "prompt": "En la frase «El perro peludo duerme», la palabra «peludo» es un adjetivo.",
+      "explanation": "Es verdadero porque «peludo» dice una cualidad del perro.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-03",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra adecuada para completar la oración:",
+      "explanation": "Como «manzanas» es femenino y plural, el adjetivo debe ser «rojas».",
+      "hint": "Fíjate en si la palabra manzanas está en plural.",
+      "lang": "es",
+      "sentence": "Aisha come unas manzanas ___ en el recreo.",
+      "options": [
+        "rojas",
+        "rojo",
+        "roja"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-04",
+      "type": "match",
+      "prompt": "Une cada sustantivo con su adjetivo contrario:",
+      "explanation": "Los adjetivos también tienen palabras contrarias para describir la realidad.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "sopa caliente",
+          "right": "sopa fría"
+        },
+        {
+          "left": "camino largo",
+          "right": "camino corto"
+        },
+        {
+          "left": "caja pesada",
+          "right": "caja ligera"
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-05",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según sean sustantivos o adjetivos:",
+      "explanation": "Los sustantivos nombran objetos o animales y los adjetivos explican cómo son.",
+      "lang": "es",
+      "categories": [
+        "Sustantivos (nombran cosas)",
+        "Adjetivos (dicen cómo son)"
+      ],
+      "items": [
+        {
+          "text": "mochila",
+          "category": 0
+        },
+        {
+          "text": "brillante",
+          "category": 1
+        },
+        {
+          "text": "pelota",
+          "category": 0
+        },
+        {
+          "text": "simpático",
+          "category": 1
+        },
+        {
+          "text": "rápido",
+          "category": 1
+        },
+        {
+          "text": "gato",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-06",
+      "type": "reading",
+      "prompt": "Lee con atención y responde a las preguntas:",
+      "explanation": "Las palabras pequeña, juguetona, suave, gris y cómoda son adjetivos del texto.",
+      "lang": "es",
+      "title": "La gatita de Omar",
+      "text": "Omar tiene una gatita pequeña y juguetona. Su pelo es suave y gris. Siempre duerme en una cesta cómoda cerca de la ventana.",
+      "questions": [
+        {
+          "prompt": "¿Qué adjetivos describen a la gatita?",
+          "explanation": "El texto dice que la gatita es «pequeña» y «juguetona».",
+          "options": [
+            "Omar y cesta",
+            "Pequeña y juguetona",
+            "Duerme y ventana"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Cómo es la cesta donde duerme la gatita?",
+          "explanation": "En el texto pone que la gatita duerme en una cesta «cómoda».",
+          "options": [
+            "Pequeña",
+            "Gris",
+            "Cómoda"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-07",
+      "type": "choice",
+      "prompt": "Encuentra el error. ¿Qué frase está MAL escrita?",
+      "explanation": "El adjetivo debe coincidir en plural con «zapatos». Lo correcto es «zapatos nuevos».",
+      "hint": "Comprueba si el adjetivo termina en ese.",
+      "lang": "es",
+      "options": [
+        "Hugo lleva unos zapatos nuevos.",
+        "Hugo lleva unos zapatos nuevo.",
+        "Hugo lleva un zapato nuevo."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-08",
+      "type": "fill-blank",
+      "prompt": "Elige el adjetivo que mejor completa la situación del parque:",
+      "explanation": "«Verde» concuerda con «hierba» y tiene sentido con la realidad del jardín.",
+      "lang": "es",
+      "sentence": "Lucía corre muy veloz sobre la hierba ___ del jardín.",
+      "options": [
+        "azules",
+        "altos",
+        "verde"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-09",
+      "type": "choice",
+      "prompt": "Martina quiere describir su estuche favorito. ¿Qué frase usa dos adjetivos?",
+      "explanation": "«Azul» y «espacioso» son dos adjetivos que dicen cómo es el estuche de Martina.",
+      "hint": "Busca la frase que responda dos veces a ¿cómo es?",
+      "lang": "es",
+      "options": [
+        "Mi estuche está sobre la mesa.",
+        "Mi estuche tiene lápices y goma.",
+        "Mi estuche es azul y espacioso."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-10",
+      "type": "order",
+      "prompt": "Ordena estas palabras para formar una oración correcta:",
+      "explanation": "Primero va el artículo, luego el sustantivo con su adjetivo y al final el verbo con el adverbio.",
+      "lang": "es",
+      "items": [
+        "Los",
+        "pájaros",
+        "cantores",
+        "vuelan",
+        "alto."
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:15:48.756Z",
+    "reviewed": false
+  }
+}

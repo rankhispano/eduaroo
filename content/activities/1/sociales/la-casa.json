@@ -1,0 +1,238 @@
+{
+  "id": "g1-sociales-la-casa",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "la-casa",
+  "temaNombre": "La casa",
+  "title": "Nuestra casa y la convivencia",
+  "summary": "Repasa las partes de la casa y aprende a colaborar en el hogar.",
+  "keyIdeas": [
+    "Cada habitación de la casa tiene una función diferente.",
+    "Todas las personas de la familia colaboran en las tareas del hogar.",
+    "Ahorrar agua y apagar la luz cuida nuestro hogar y el planeta."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "6.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-la-casa-01",
+      "type": "choice",
+      "prompt": "¿En qué habitación de la casa dormimos por la noche?",
+      "explanation": "El dormitorio es la habitación pensada para descansar y dormir en la cama.",
+      "hint": "Allí suele estar tu cama.",
+      "lang": "es",
+      "options": [
+        "En el cuarto de baño",
+        "En la cocina",
+        "En el dormitorio"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-la-casa-02",
+      "type": "true-false",
+      "prompt": "La cocina sirve para preparar la comida de la familia.",
+      "explanation": "En la cocina guardamos los alimentos y preparamos los platos de cada día.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-la-casa-03",
+      "type": "match",
+      "prompt": "Une cada objeto con la habitación donde se suele usar.",
+      "explanation": "Cada objeto de la casa tiene su lugar según la actividad que hacemos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Cama",
+          "right": "Dormitorio"
+        },
+        {
+          "left": "Sartén",
+          "right": "Cocina"
+        },
+        {
+          "left": "Bañera",
+          "right": "Baño"
+        },
+        {
+          "left": "Sofá",
+          "right": "Salón"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-la-casa-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el cuidado de la casa.",
+      "explanation": "Cerrar el grifo evita perder agua y ayuda a cuidar el planeta.",
+      "lang": "es",
+      "sentence": "Al lavarnos los dientes debemos ___ el grifo.",
+      "options": [
+        "cerrar",
+        "abrir",
+        "romper"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-la-casa-05",
+      "type": "classify",
+      "prompt": "Clasifica cada acción en su grupo correspondiente.",
+      "explanation": "En casa tenemos tiempo para jugar y también tareas en las que colaborar.",
+      "lang": "es",
+      "categories": [
+        "Tareas de casa",
+        "Juegos y descanso"
+      ],
+      "items": [
+        {
+          "text": "Poner la mesa",
+          "category": 0
+        },
+        {
+          "text": "Guardar los juguetes",
+          "category": 0
+        },
+        {
+          "text": "Barrer el suelo",
+          "category": 0
+        },
+        {
+          "text": "Ver los dibujos",
+          "category": 1
+        },
+        {
+          "text": "Pintar con colores",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-la-casa-06",
+      "type": "choice",
+      "prompt": "Hugo y Martina viven juntos. ¿Quién debe recoger los platos?",
+      "explanation": "Todas las personas deben repartirse las tareas de casa por igual.",
+      "hint": "En casa trabajamos en equipo.",
+      "lang": "es",
+      "options": [
+        "Los dos colaboran por igual",
+        "Solo debe hacerlo Martina",
+        "Solo debe hacerlo Hugo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-la-casa-07",
+      "type": "choice",
+      "prompt": "¿Qué ocurre si dejamos la puerta de la nevera abierta?",
+      "explanation": "Dejar la nevera abierta gasta electricidad y hace que los alimentos pierdan el frío.",
+      "hint": "Piensa en la electricidad y el frío.",
+      "lang": "es",
+      "options": [
+        "Se gasta mucha energía y la comida se estropea",
+        "La comida se calienta mejor",
+        "La nevera se limpia sola por dentro"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-la-casa-08",
+      "type": "classify",
+      "prompt": "Clasifica estas características según el tipo de vivienda.",
+      "explanation": "Hay viviendas en bloques con muchas familias y casas individuales.",
+      "lang": "es",
+      "categories": [
+        "Piso en un edificio",
+        "Casa baja"
+      ],
+      "items": [
+        {
+          "text": "Tiene ascensor para subir",
+          "category": 0
+        },
+        {
+          "text": "Viven muchos vecinos",
+          "category": 0
+        },
+        {
+          "text": "Tiene un jardín alrededor",
+          "category": 1
+        },
+        {
+          "text": "Es para una sola familia",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-la-casa-09",
+      "type": "reading",
+      "prompt": "Lee el texto con atención y responde.",
+      "explanation": "Aisha colabora con su familia manteniendo el orden y ahorrando energía.",
+      "lang": "es",
+      "title": "La casa de Aisha",
+      "text": "Aisha vive en el tercer piso de un edificio. Su casa tiene cocina, salón, baño y dos dormitorios. A Aisha le gusta ayudar a su familia. Hoy ha ordenado sus juguetes con cuidado. También ha apagado las luces del pasillo. En su hogar todas las personas colaboran a diario.",
+      "questions": [
+        {
+          "prompt": "¿En qué tipo de vivienda vive Aisha?",
+          "explanation": "El texto dice que Aisha vive en el tercer piso de un edificio.",
+          "options": [
+            "En una granja aislada",
+            "En una tienda de campaña",
+            "En el piso de un edificio"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué apaga Aisha las luces del pasillo?",
+          "explanation": "Apagar las luces que no usamos ayuda a no gastar electricidad sin necesidad.",
+          "options": [
+            "Para ahorrar energía en casa",
+            "Para jugar a no ver nada",
+            "Porque la lámpara está rota"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:20:37.320Z",
+    "reviewed": false
+  }
+}

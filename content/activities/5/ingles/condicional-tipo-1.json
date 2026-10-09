@@ -1,0 +1,255 @@
+{
+  "id": "g5-ingles-condicional-tipo-1",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "condicional-tipo-1",
+  "temaNombre": "Condicional tipo 1",
+  "title": "Mastering the First Conditional",
+  "summary": "Practica cómo hablar de situaciones futuras posibles y sus consecuencias con el primer condicional en inglés.",
+  "keyIdeas": [
+    "Usamos 'if + presente simple' para la condición y 'will + verbo' para el resultado futuro.",
+    "Nunca ponemos 'will' directamente detrás de 'if' en la misma parte de la frase.",
+    "El orden puede cambiar: 'If it rains, I will stay' o 'I will stay if it rains' (sin coma en medio)."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-condicional-tipo-1-01",
+      "type": "true-false",
+      "prompt": "Read the rule: In a First Conditional sentence, we use the Present Simple in the 'if' clause.",
+      "explanation": "Es verdadero. En el primer condicional, la condición va introducida por 'if' seguido de un verbo en presente simple (por ejemplo: If it rains...).",
+      "hint": "Piensa en la estructura básica: If + presente, will + verbo.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-02",
+      "type": "choice",
+      "prompt": "Choose the correct option: If it is sunny tomorrow, we ___ to the beach.",
+      "explanation": "La parte del resultado futuro necesita 'will' + el verbo en infinitivo ('will go').",
+      "hint": "Buscamos la consecuencia futura después de la coma.",
+      "lang": "en",
+      "options": [
+        "will go",
+        "go",
+        "went"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la forma correcta del verbo para la condición:",
+      "explanation": "En la condición con 'if' usamos presente simple. Como el sujeto es 'Aisha' (3ª persona del singular: she), añadimos -es al verbo: 'finishes'.",
+      "hint": "Recuerda añadir la terminación de tercera persona singular en presente simple.",
+      "lang": "en",
+      "sentence": "If Aisha ___ her homework early, she will play video games.",
+      "options": [
+        "finishes",
+        "will finish",
+        "finish"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-04",
+      "type": "classify",
+      "prompt": "Classify each part of the sentence into Condition (If...) or Result (Will...):",
+      "explanation": "La condición siempre empieza por 'If' y expresa lo que debe ocurrir primero. El resultado lleva 'will' o 'won't' y expresa la consecuencia.",
+      "lang": "en",
+      "categories": [
+        "Condition",
+        "Result"
+      ],
+      "items": [
+        {
+          "text": "If Omar studies hard",
+          "category": 0
+        },
+        {
+          "text": "he will pass the test",
+          "category": 1
+        },
+        {
+          "text": "If you don't sleep well",
+          "category": 0
+        },
+        {
+          "text": "you will feel tired",
+          "category": 1
+        },
+        {
+          "text": "we will miss the bus",
+          "category": 1
+        },
+        {
+          "text": "If we don't hurry up",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-05",
+      "type": "match",
+      "prompt": "Match each condition with its logical result:",
+      "explanation": "Cada condición tiene una consecuencia lógica en el futuro: si tiras un vaso de cristal, se romperá; si nieva, haremos un muñeco de nieve.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "If you drop that glass,",
+          "right": "it will break."
+        },
+        {
+          "left": "If it snows tonight,",
+          "right": "we will build a snowman."
+        },
+        {
+          "left": "If you practice every day,",
+          "right": "you will play the guitar well."
+        },
+        {
+          "left": "If we forget our umbrellas,",
+          "right": "we will get wet."
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-06",
+      "type": "choice",
+      "prompt": "Martina and Adrián are planning a race. Martina says: 'If you ___ fast, you will win the trophy.'",
+      "explanation": "Después de 'if' usamos el presente simple, nunca 'will'. Como el sujeto es 'you', usamos la forma base 'run'.",
+      "hint": "Cuidado con la regla de oro: nunca usamos 'will' justo después de 'if'.",
+      "lang": "en",
+      "options": [
+        "run",
+        "runs",
+        "will run"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-07",
+      "type": "order",
+      "prompt": "Put the words in order to form a correct First Conditional sentence:",
+      "explanation": "El orden natural comienza con la condición 'If you eat all the cake,' seguida del resultado futuro 'you will have a stomachache.'",
+      "lang": "en",
+      "items": [
+        "If",
+        "you eat",
+        "all the cake,",
+        "you will have",
+        "a stomachache."
+      ]
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-08",
+      "type": "fill-blank",
+      "prompt": "Completa la frase invertida (resultado primero, condición después):",
+      "explanation": "Aunque la frase empiece con el resultado, la parte que va con 'if' sigue requiriendo presente simple. Con 'he', el verbo lleva -s: 'saves'.",
+      "hint": "Fíjate en la palabra 'if': el verbo que viene después debe ir en presente simple.",
+      "lang": "en",
+      "sentence": "Wei will buy a new skateboard if he ___ enough money.",
+      "options": [
+        "save",
+        "saves",
+        "will save"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions:",
+      "explanation": "El texto utiliza condicionales para mostrar planes alternativos según el tiempo que haga el sábado.",
+      "lang": "en",
+      "title": "The Green Club's Saturday Plan",
+      "text": "Aisha and Lucas are active members of their school Green Club. They are planning a special activity for this Saturday at the local city park. The weather forecast says it might be sunny, but there are also clouds. Aisha says, 'If the sun shines, we will clean the park and plant six new trees near the pond.' Lucas is also preparing for bad weather. 'If it rains, we will stay in the youth centre and paint recycling posters for the school corridors,' he explains. Their teacher, Mr. Davies, is very proud of their dedication. He says that if more students join the Green Club, our town will be much cleaner and healthier for everyone. The members are excited because whatever happens with the weather, they will help the environment and have a fantastic day together.",
+      "questions": [
+        {
+          "prompt": "What will Aisha and Lucas do if it rains on Saturday?",
+          "explanation": "El texto dice explícitamente: 'If it rains, we will stay in the youth centre and paint recycling posters'.",
+          "options": [
+            "They will plant six new trees near the pond.",
+            "They will stay at home and watch television.",
+            "They will paint recycling posters in the youth centre."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why does Lucas prepare an alternative indoor activity?",
+          "explanation": "El pronóstico del tiempo anuncia sol pero también nubes, por lo que Lucas prepara un plan B por si llueve.",
+          "options": [
+            "Because the weather is uncertain and it might rain.",
+            "Because he doesn't like planting trees outdoors.",
+            "Because the park is closed on Saturdays."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "According to Mr. Davies, how can the town become cleaner and healthier?",
+          "explanation": "El profesor afirma que si más estudiantes se unen al club ecológico y participan activamente, el pueblo estará más limpio.",
+          "options": [
+            "If schools stop organizing outdoor activities.",
+            "If the weather is always sunny on weekends.",
+            "If more students get involved in environmental actions."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-10",
+      "type": "choice",
+      "prompt": "Challenge! Read the school science fair rule: 'If your project ___ ready on Friday, you won't participate in the exhibition.'",
+      "explanation": "La cláusula condicional con 'if' necesita el presente simple negativo del verbo to be. Para 'your project' (it), usamos 'isn't'.",
+      "hint": "Tu proyecto es singular ('it') y necesitamos el presente simple negativo del verbo to be.",
+      "lang": "en",
+      "options": [
+        "aren't",
+        "won't be",
+        "isn't"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:12:06.268Z",
+    "reviewed": false
+  }
+}

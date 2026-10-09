@@ -1,0 +1,255 @@
+{
+  "id": "g6-sociales-espana-en-el-siglo-xix-y-xx",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "espana-en-el-siglo-xix-y-xx",
+  "temaNombre": "España en el siglo XIX y XX",
+  "title": "Viaje por la España contemporánea",
+  "summary": "Repasa los grandes cambios políticos, sociales y culturales de España durante los siglos XIX y XX.",
+  "keyIdeas": [
+    "El siglo XIX comenzó con la Guerra de la Independencia y la Constitución de Cádiz de 1812.",
+    "La sociedad pasó de estamentos a clases sociales con el auge de la industria y el ferrocarril.",
+    "Las mujeres lucharon activamente por acceder a la educación superior y conseguir el derecho al voto."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE7"
+    ],
+    "criteria": [
+      "7.1",
+      "7.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CE2",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-01",
+      "type": "true-false",
+      "prompt": "La Constitución de 1812, aprobada en Cádiz y apodada popularmente «la Pepa», fue el primer texto constitucional de la historia de España.",
+      "explanation": "Se promulgó el 19 de marzo de 1812, día de San José (por eso la llamaron «la Pepa»), y limitaba por primera vez el poder absoluto del rey.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-02",
+      "type": "choice",
+      "prompt": "En clase, Lucía y Mateo investigan cómo cambió la vida cotidiana en el siglo XIX. ¿Qué medio de transporte revolucionó el comercio y el traslado de personas al conectar ciudades a gran velocidad?",
+      "explanation": "El ferrocarril funcionaba con máquinas de vapor y acortó enormemente los viajes, impulsando la economía y la industria española desde mediados del siglo XIX.",
+      "hint": "Utilizaba carbón para calentar agua y generar vapor sobre raíles.",
+      "lang": "es",
+      "options": [
+        "El carruaje de caballos de tiro rápido",
+        "El ferrocarril a vapor",
+        "El avión comercial de pasajeros"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la conquista de los derechos democráticos.",
+      "explanation": "Clara Campoamor defendió con brillantes discursos en las Cortes que hombres y mujeres debían tener los mismos derechos políticos, logrando el sufragio femenino.",
+      "lang": "es",
+      "sentence": "En 1931, durante la Segunda República, la diputada ___ logró que se reconociera el derecho al voto de las mujeres en España.",
+      "options": [
+        "Rosalía de Castro",
+        "Isabel II",
+        "Clara Campoamor"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-04",
+      "type": "order",
+      "prompt": "Ordena cronológicamente estas etapas y acontecimientos históricos de España:",
+      "explanation": "La Guerra de la Independencia empezó en 1808, el reinado de Isabel II en 1833, la Restauración en 1874 y la Segunda República se proclamó en 1931.",
+      "lang": "es",
+      "items": [
+        "Guerra de la Independencia española",
+        "Reinado de Isabel II",
+        "Restauración borbónica",
+        "Proclamación de la Segunda República"
+      ]
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-05",
+      "type": "match",
+      "prompt": "Relaciona cada figura del siglo XIX con su papel histórico o aportación:",
+      "explanation": "Cada personaje refleja las tensiones entre absolutistas y liberales o la gran riqueza cultural y literaria del siglo XIX.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Fernando VII",
+          "right": "Monarca que abolió la Constitución de 1812 para imponer el absolutismo."
+        },
+        {
+          "left": "Rosalía de Castro",
+          "right": "Poetisa fundamental que revitalizó la literatura en lengua gallega."
+        },
+        {
+          "left": "Amadeo I de Saboya",
+          "right": "Rey elegido de origen italiano que abdicó por la gran inestabilidad política."
+        },
+        {
+          "left": "María Cristina de Borbón",
+          "right": "Regente que apoyó a los liberales para defender el trono de su hija Isabel."
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-06",
+      "type": "classify",
+      "prompt": "Tras la Revolución Industrial, la sociedad de estamentos dio paso a una sociedad de clases. Clasifica estas situaciones según el grupo social:",
+      "explanation": "La burguesía poseía el capital y los medios de producción, mientras que la clase obrera aportaba su fuerza de trabajo en condiciones a menudo precarias.",
+      "lang": "es",
+      "categories": [
+        "Burguesía",
+        "Clase obrera (proletariado)"
+      ],
+      "items": [
+        {
+          "text": "Eran propietarios de fábricas, bancos y grandes comercios",
+          "category": 0
+        },
+        {
+          "text": "Trabajaban largas jornadas con salarios muy reducidos",
+          "category": 1
+        },
+        {
+          "text": "Vivían en casas amplias con comodidades en los ensanches urbanos",
+          "category": 0
+        },
+        {
+          "text": "Se agrupaban en sindicatos para exigir mejores condiciones laborales",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-07",
+      "type": "choice",
+      "prompt": "Durante las últimas décadas del siglo XIX y principios del XX, miles de familias campesinas abandonaron sus pueblos para trasladarse a ciudades como Barcelona o Bilbao. ¿Cuál fue la causa principal de este «éxodo rural»?",
+      "explanation": "La pobreza en el campo y la escasa mecanización empujaron a la población a emigrar a las ciudades industriales, donde surgían talleres y fábricas que demandaban mano de obra.",
+      "hint": "Piensa en qué ofrecían las grandes urbes industriales frente a las dificultades del campo.",
+      "lang": "es",
+      "options": [
+        "El deseo de estudiar carreras universitarias obligatorias para toda la población",
+        "La falta de empleo agrario por el atraso técnico y la atracción de puestos de trabajo en las fábricas",
+        "La prohibición legal de poseer tierras de cultivo en las zonas rurales"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-08",
+      "type": "reading",
+      "prompt": "Lee este texto histórico y contesta a las preguntas:",
+      "explanation": "El texto permite comprender las enormes barreras de género que existían en el siglo XIX y la importancia de la educación para la igualdad.",
+      "lang": "es",
+      "title": "Una pionera en las aulas",
+      "text": "A mediados del siglo XIX, la sociedad española experimentaba lentos cambios. Las leyes y las costumbres impedían que las mujeres accediesen a la universidad. Ante esta injusticia, Concepción Arenal se vistió con ropas masculinas para asistir como oyente a las clases de Derecho en Madrid. Años después, dedicó su vida a escribir sobre los problemas sociales, a reformar el sistema de prisiones y a defender la igualdad educativa. Su célebre lema, «odia el delito y compadece al delincuente», resumía su profunda vocación humanitaria. Junto a escritoras ilustres como Emilia Pardo Bazán, Concepción demostró la valía intelectual de las mujeres y abrió un camino imprescindible para que las futuras generaciones pudieran cursar estudios universitarios y ejercer profesiones libres.",
+      "questions": [
+        {
+          "prompt": "¿Por qué Concepción Arenal tuvo que disfrazarse con ropa masculina para acudir a la universidad?",
+          "explanation": "En el siglo XIX las mujeres tenían vetado el acceso formal a los estudios superiores universitarios.",
+          "options": [
+            "Porque prefería pasar desapercibida para que sus amistades no supieran que estudiaba",
+            "Porque la legislación y costumbres de la época prohibían la entrada de mujeres a las aulas universitarias",
+            "Porque era una costumbre obligatoria para todo el alumnado de Derecho"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "A partir del texto, ¿qué efecto a largo plazo tuvieron las acciones de pioneras como Concepción Arenal y Emilia Pardo Bazán?",
+          "explanation": "Su valentía y producción intelectual demostraron la capacidad de la mujer y sentaron las bases para que se legalizara su acceso a la educación.",
+          "options": [
+            "Provocaron el cierre definitivo de las facultades de Derecho",
+            "Iniciaron el camino hacia la igualdad de oportunidades y la educación superior femenina",
+            "Lograron que el ejército español admitiera mujeres de inmediato"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué actitud crítica demostró Concepción Arenal ante una ley injusta?",
+          "explanation": "Concepción Arenal asumió riesgos personales para formarse y consagró su labor a defender a colectivos desfavorecidos y reformar la sociedad.",
+          "options": [
+            "Abandonar el país para desentenderse de los problemas de España",
+            "Desafiar el obstáculo con ingenio para formarse y trabajar por mejorar la sociedad",
+            "Resignarse y esperar sin actuar a que las leyes cambiaran solas"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-09",
+      "type": "choice",
+      "prompt": "En 1898, España perdió sus últimas posesiones de ultramar (Cuba, Puerto Rico y Filipinas). Este hecho, conocido como «el Desastre del 98», provocó principalmente:",
+      "explanation": "La pérdida de las colonias supuso un fuerte golpe anímico para el país, impulsando a la 'Generación del 98' a reflexionar sobre los problemas de España y la necesidad de regenerar sus instituciones.",
+      "hint": "Provocó desánimo social e inspiró a autores como Unamuno o Machado a reflexionar sobre el país.",
+      "lang": "es",
+      "options": [
+        "Una profunda crisis moral y social que llevó a escritores e intelectuales a reclamar la modernización urgente de España",
+        "El inicio inmediato de una era de expansión imperial hacia el norte de Europa",
+        "La sustitución inmediata de la moneda nacional por el euro"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-10",
+      "type": "classify",
+      "prompt": "Clasifica estos importantes sucesos históricos según hayan ocurrido en el siglo XIX o en el primer tercio del siglo XX (hasta 1936):",
+      "explanation": "Las Guerras Carlistas, la primera línea de tren y las Cortes de Cádiz pertenecen al siglo XIX, mientras que las reformas laborales modernas y el voto femenino pleno pertenecen a las primeras décadas del siglo XX.",
+      "lang": "es",
+      "categories": [
+        "Siglo XIX",
+        "Siglo XX (hasta 1936)"
+      ],
+      "items": [
+        {
+          "text": "Aprobación de la Constitución de Cádiz (1812)",
+          "category": 0
+        },
+        {
+          "text": "Primera huelga general revolucionaria de ámbito nacional (1917)",
+          "category": 1
+        },
+        {
+          "text": "Construcción de la primera vía férrea peninsular Barcelona-Mataró (1848)",
+          "category": 0
+        },
+        {
+          "text": "Aprobación de la ley del descanso dominical obligatorio (1904)",
+          "category": 1
+        },
+        {
+          "text": "Implantación del sufragio universal femenino en las elecciones (1931-1933)",
+          "category": 1
+        },
+        {
+          "text": "Las tres Guerras Carlistas por la sucesión al trono",
+          "category": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:43:09.584Z",
+    "reviewed": false
+  }
+}

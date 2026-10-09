@@ -1,0 +1,214 @@
+{
+  "id": "g2-mates-fracciones-mitad-y-cuarta-parte",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "fracciones-mitad-y-cuarta-parte",
+  "temaNombre": "Fracciones: mitad y cuarta parte",
+  "title": "Mitades y cuartas partes divertidas",
+  "summary": "Practica cómo calcular la mitad y la cuarta parte con situaciones del día a día.",
+  "keyIdeas": [
+    "La mitad se obtiene al repartir algo en 2 partes iguales.",
+    "La cuarta parte se obtiene al repartir algo en 4 partes iguales.",
+    "Para calcular la mitad dividimos entre 2 y para el cuarto entre 4."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-01",
+      "type": "true-false",
+      "prompt": "Para tener la mitad, los dos trozos deben ser iguales.",
+      "explanation": "La mitad siempre divide una cantidad o figura en dos partes exactamente iguales.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-02",
+      "type": "choice",
+      "prompt": "Lucía tiene 6 fresas 🍓. Se come la mitad. ¿Cuántas fresas come?",
+      "explanation": "La mitad de 6 es 3 porque 3 + 3 = 6 (o 6 ÷ 2 = 3).",
+      "hint": "Reparte 6 fresas en dos platos iguales.",
+      "lang": "es",
+      "options": [
+        "2 fresas",
+        "3 fresas",
+        "4 fresas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la cuarta parte.",
+      "explanation": "La cuarta parte significa dividir una unidad o grupo en 4 partes iguales.",
+      "lang": "es",
+      "sentence": "Para calcular la cuarta parte, repartimos en ___ partes iguales.",
+      "options": [
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-04",
+      "type": "match",
+      "prompt": "Une cada número con su mitad.",
+      "explanation": "Para hallar la mitad buscamos dos números iguales que sumen esa cantidad: 2 + 2 = 4, 4 + 4 = 8, 5 + 5 = 10 y 6 + 6 = 12.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Mitad de 4",
+          "right": "2"
+        },
+        {
+          "left": "Mitad de 8",
+          "right": "4"
+        },
+        {
+          "left": "Mitad de 10",
+          "right": "5"
+        },
+        {
+          "left": "Mitad de 12",
+          "right": "6"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-05",
+      "type": "classify",
+      "prompt": "Clasifica cada situación según el reparto que se hace.",
+      "explanation": "Si repartimos en 2 partes iguales obtenemos mitades. Si repartimos en 4 partes iguales obtenemos cuartas partes.",
+      "lang": "es",
+      "categories": [
+        "Mitad",
+        "Cuarta parte"
+      ],
+      "items": [
+        {
+          "text": "Repartir un bizcocho entre 2 amigos",
+          "category": 0
+        },
+        {
+          "text": "Doblar un papel en 4 partes iguales",
+          "category": 1
+        },
+        {
+          "text": "Cortar una pizza en 2 trozos iguales",
+          "category": 0
+        },
+        {
+          "text": "Repartir 8 caramelos entre 4 niños",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-06",
+      "type": "choice",
+      "prompt": "Omar tiene 8 pinturas ✏️. Regala una cuarta parte a Wei. ¿Cuántas le da?",
+      "explanation": "La cuarta parte de 8 es 2 porque 8 ÷ 4 = 2 (o 2 + 2 + 2 + 2 = 8).",
+      "hint": "Haz 4 montones iguales con las 8 pinturas.",
+      "lang": "es",
+      "options": [
+        "4 pinturas",
+        "2 pinturas",
+        "1 pintura"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-07",
+      "type": "choice",
+      "prompt": "Hugo dice que la mitad de 10 es 6. ¿Qué error cometió?",
+      "explanation": "La mitad de 10 es 5 porque 5 + 5 = 10. Si sumamos 6 + 6 obtenemos 12.",
+      "hint": "Comprueba si dos grupos de 6 suman 10.",
+      "lang": "es",
+      "options": [
+        "6 + 6 es 12, no 10",
+        "10 no tiene mitad",
+        "Debía restar 10 menos 2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-08",
+      "type": "order",
+      "prompt": "Ordena los pasos para doblar un papel en cuatro partes iguales.",
+      "explanation": "Al doblar por la mitad tienes dos partes. Si vuelves a doblar por la mitad, consigues cuatro partes iguales.",
+      "lang": "es",
+      "items": [
+        "Empiezas con el papel entero",
+        "Doblas el papel por la mitad",
+        "Vuelves a doblar por la mitad",
+        "Al abrirlo ves cuatro partes iguales"
+      ]
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-09",
+      "type": "choice",
+      "prompt": "Nerea tiene 12 pegatinas. Regala la mitad a su hermano. ¿Cuántas regala?",
+      "explanation": "La mitad de 12 es 6 porque 12 ÷ 2 = 6 (o 6 + 6 = 12).",
+      "hint": "Busca un número que sumado consigo mismo dé 12.",
+      "lang": "es",
+      "options": [
+        "3 pegatinas",
+        "4 pegatinas",
+        "6 pegatinas"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-10",
+      "type": "choice",
+      "prompt": "Hay 16 galletas 🍪. Martina come la cuarta parte. ¿Cuántas galletas quedan?",
+      "explanation": "La cuarta parte de 16 es 4 (16 ÷ 4 = 4). Si se come 4 galletas, quedan 16 - 4 = 12 galletas.",
+      "hint": "Primero calcula la cuarta parte y luego resta esa cantidad.",
+      "lang": "es",
+      "options": [
+        "12 galletas",
+        "4 galletas",
+        "8 galletas"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:04:51.905Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "id": "g6-mates-coordenadas-cartesianas",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "coordenadas-cartesianas",
+  "temaNombre": "Coordenadas cartesianas",
+  "title": "Aventura en las coordenadas cartesianas",
+  "summary": "Practica la localización de puntos, lectura de ejes y cálculo de recorridos sobre el plano cartesiano.",
+  "keyIdeas": [
+    "En una coordenada (X, Y), el primer número (eje X o abscisas) indica el avance horizontal hacia la derecha.",
+    "El segundo número (eje Y u ordenadas) indica la posición vertical hacia arriba.",
+    "El origen de coordenadas es el punto (0, 0), donde se cruzan ambos ejes."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE6"
+    ],
+    "criteria": [
+      "1.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sentido espacial › Localización y sistemas de representación",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-coordenadas-cartesianas-01",
+      "type": "choice",
+      "prompt": "Aisha está trazando el plano de su barrio en un eje cartesiano. En la coordenada (4, 7), ¿qué número indica la posición horizontal en el eje X (abscisas)?",
+      "explanation": "En un par ordenado (X, Y), el primer valor siempre representa el eje horizontal X (abscisas). Por tanto, el 4 indica la posición horizontal.",
+      "hint": "Recuerda el orden alfabético: la X va antes que la Y.",
+      "lang": "es",
+      "options": [
+        "El 4",
+        "El 7",
+        "El 11",
+        "El 3"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-02",
+      "type": "true-false",
+      "prompt": "El punto de origen en un plano cartesiano se representa con las coordenadas (0, 0), que es el lugar exacto donde se cruzan el eje X y el eje Y.",
+      "explanation": "Es verdadero: el origen de coordenadas es la intersección de ambos ejes y corresponde al punto inicial (0, 0).",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre los componentes de un sistema de coordenadas.",
+      "explanation": "El eje horizontal X recibe el nombre técnico de eje de abscisas, mientras que el eje vertical Y es el eje de ordenadas.",
+      "lang": "es",
+      "sentence": "En el punto (6, 2), el número 6 corresponde al eje de ___ y el número 2 corresponde al eje de ordenadas.",
+      "options": [
+        "abscisas",
+        "alturas",
+        "orígenes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-04",
+      "type": "match",
+      "prompt": "Une cada elemento del mapa del parque con su coordenada cartesiana correspondiente.",
+      "explanation": "Las coordenadas se escriben siempre en la forma (X, Y), situando primero el valor horizontal y después el vertical.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "La fuente (3 horizontal, 5 vertical)",
+          "right": "(3, 5)"
+        },
+        {
+          "left": "Los columpios (5 horizontal, 3 vertical)",
+          "right": "(5, 3)"
+        },
+        {
+          "left": "El quiosco de helados (0 horizontal, 4 vertical)",
+          "right": "(0, 4)"
+        },
+        {
+          "left": "La entrada principal (0 horizontal, 0 vertical)",
+          "right": "(0, 0)"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-05",
+      "type": "choice",
+      "prompt": "¡Encuentra el error! Hugo quiere situar la biblioteca en el plano. Está a 5 unidades a la derecha (eje X) y 2 unidades hacia arriba (eje Y). Hugo ha anotado la coordenada como (2, 5). ¿Qué error ha cometido?",
+      "explanation": "Hugo ha puesto primero la posición vertical (2) y después la horizontal (5). El orden correcto es siempre (X, Y), por lo que la coordenada es (5, 2).",
+      "hint": "Fíjate en qué eje se escribe en primer lugar en un par ordenado.",
+      "lang": "es",
+      "options": [
+        "Ha intercambiado el eje X y el eje Y; la coordenada correcta es (5, 2).",
+        "Ha sumado los dos valores en lugar de colocarlos entre paréntesis.",
+        "Ha contado desde la biblioteca en lugar de empezar en el origen.",
+        "Debería haber escrito (-5, -2) por estar a la derecha y arriba."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-06",
+      "type": "classify",
+      "prompt": "Clasifica cada coordenada según su ubicación exacta sobre los ejes o el plano.",
+      "explanation": "Si la segunda coordenada (Y) es 0, el punto está en el eje X. Si la primera coordenada (X) es 0, está en el eje Y. Si ambas son mayores que 0, está fuera de los ejes.",
+      "lang": "es",
+      "categories": [
+        "Sobre el eje X (Y = 0)",
+        "Sobre el eje Y (X = 0)",
+        "Fuera de los ejes"
+      ],
+      "items": [
+        {
+          "text": "(4, 0)",
+          "category": 0
+        },
+        {
+          "text": "(0, 6)",
+          "category": 1
+        },
+        {
+          "text": "(3, 5)",
+          "category": 2
+        },
+        {
+          "text": "(7, 0)",
+          "category": 0
+        },
+        {
+          "text": "(0, 2)",
+          "category": 1
+        },
+        {
+          "text": "(1, 8)",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-07",
+      "type": "choice",
+      "prompt": "Lucía camina en línea recta desde su casa en (2, 3) hasta la tienda en (8, 3). Luego sube en vertical hasta el polideportivo en (8, 7). Calcula mentalmente cuántas unidades recorre en total.",
+      "explanation": "De x = 2 a x = 8 recorre 8 - 2 = 6 unidades horizontales. De y = 3 a y = 7 recorre 7 - 3 = 4 unidades verticales. En total recorre 6 + 4 = 10 unidades.",
+      "hint": "Resta las coordenadas para hallar la distancia de cada tramo y luego súmalas.",
+      "lang": "es",
+      "options": [
+        "10 unidades",
+        "12 unidades",
+        "14 unidades",
+        "8 unidades"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-08",
+      "type": "order",
+      "prompt": "Para dibujar un rectángulo empezando en el origen (0, 0) y avanzando en el sentido de las agujas del reloj, ordena las coordenadas de sus cuatro vértices (base de 5 unidades, altura de 3 unidades).",
+      "explanation": "Comenzamos en el origen (0, 0), subimos 3 unidades verticales a (0, 3), avanzamos 5 unidades horizontales a la derecha a (5, 3) y bajamos al eje X a (5, 0).",
+      "lang": "es",
+      "items": [
+        "(0, 0)",
+        "(0, 3)",
+        "(5, 3)",
+        "(5, 0)"
+      ]
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-09",
+      "type": "choice",
+      "prompt": "Adrián dibuja un cuadrado en el plano cartesiano. Tres de sus vértices están situados en las coordenadas (2, 2), (6, 2) y (6, 6). ¿Cuáles son las coordenadas del cuarto vértice para completar el cuadrado?",
+      "explanation": "El lado del cuadrado mide 6 - 2 = 4 unidades. El cuarto vértice debe alinearse verticalmente con el punto (2, 2) en X = 2 y horizontalmente con (6, 6) en Y = 6, dando el punto (2, 6).",
+      "hint": "Un cuadrado tiene lados opuestos paralelos e iguales. Observa los valores X e Y que faltan por emparejar.",
+      "lang": "es",
+      "options": [
+        "(4, 6)",
+        "(2, 6)",
+        "(2, 4)",
+        "(6, 4)"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.6-flash",
+    "generatedAt": "2026-10-08T11:34:56.674Z",
+    "reviewed": false
+  }
+}

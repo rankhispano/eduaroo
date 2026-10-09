@@ -1,0 +1,248 @@
+{
+  "id": "g6-mates-estadistica-diagramas-de-sectores",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "estadistica-diagramas-de-sectores",
+  "temaNombre": "Estadística: diagramas de sectores",
+  "title": "Interpretamos diagramas de sectores",
+  "summary": "Aprenderás a interpretar, calcular ángulos y analizar datos organizados en diagramas de sectores.",
+  "keyIdeas": [
+    "Un diagrama de sectores representa el total de los datos en un círculo completo de 360° (100 %).",
+    "El ángulo de cada sector se calcula multiplicando su porcentaje o fracción por 360°.",
+    "El 50 % equivale a medio círculo (180°) y el 25 % a un cuarto de círculo (90°)."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "1.2",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "E. Sentido estocástico › Organización y análisis de datos",
+      "A. Sentido numérico › Razonamiento proporcional"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-01",
+      "type": "choice",
+      "prompt": "En un diagrama de sectores, ¿cuántos grados mide el círculo completo y a qué porcentaje del total de datos corresponde?",
+      "explanation": "Un círculo completo siempre tiene una amplitud de 360° y representa el 100 % de los datos analizados.",
+      "hint": "Piensa en cuántos grados da una vuelta completa un reloj o una brújula.",
+      "lang": "es",
+      "options": [
+        "360° y equivale al 100 %",
+        "180° y equivale al 50 %",
+        "360° y equivale al 50 %",
+        "100° y equivale al 100 %"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-02",
+      "type": "match",
+      "prompt": "Une cada porcentaje de un diagrama de sectores con la amplitud de su ángulo correspondiente.",
+      "explanation": "Para hallar los grados, multiplicamos el porcentaje por 360 y dividimos entre 100. Por ejemplo, el 25 % de 360° es 90°.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "50 % de los datos",
+          "right": "180° (medio círculo)"
+        },
+        {
+          "left": "25 % de los datos",
+          "right": "90° (un cuarto de círculo)"
+        },
+        {
+          "left": "75 % de los datos",
+          "right": "270° (tres cuartos de círculo)"
+        },
+        {
+          "left": "10 % de los datos",
+          "right": "36° (una décima parte)"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-03",
+      "type": "choice",
+      "prompt": "En el club deportivo de Nerea hay 200 personas socias. Un diagrama de sectores indica que el 25 % practica natación. ¿Cuántas personas practican natación?",
+      "explanation": "El 25 % es la cuarta parte del total. Dividimos 200 ÷ 4 = 50 personas.",
+      "hint": "Calcula un cuarto de 200 dividiendo entre 4.",
+      "lang": "es",
+      "options": [
+        "40 personas",
+        "100 personas",
+        "25 personas",
+        "50 personas"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-04",
+      "type": "order",
+      "prompt": "Ordena los pasos para construir un diagrama de sectores a partir de una encuesta.",
+      "explanation": "Primero obtenemos el total, luego calculamos la proporción de cada parte, convertimos esa proporción en grados y finalmente trazamos el diagrama.",
+      "lang": "es",
+      "items": [
+        "Recoger los datos y sumar las frecuencias para hallar el total de respuestas.",
+        "Calcular el porcentaje o la fracción que representa cada opción sobre el total.",
+        "Multiplicar el porcentaje o fracción por 360° para averiguar los grados del sector.",
+        "Dibujar los ángulos correspondientes en el círculo con el transportador."
+      ]
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-05",
+      "type": "choice",
+      "prompt": "Hugo ha hecho un diagrama de sectores sobre las mascotas de sus 30 compañeros. A 15 alumnos les gustan los perros (el 50 %). Hugo dice: 'Como son 15 alumnos, el ángulo mide 15°'. ¿Cuál es su error?",
+      "explanation": "Los grados miden la apertura del ángulo, no la cantidad de personas. El 50 % de 360° es 360° ÷ 2 = 180°.",
+      "hint": "Recuerda que la mitad del círculo equivale al 50 % del total.",
+      "lang": "es",
+      "options": [
+        "Confundió el número de personas con los grados: al 50 % le corresponde medio círculo, que son 180°.",
+        "Debió sumar 15° al total de 360°, obteniendo un sector de 375°.",
+        "No hay ningún error; los grados siempre son iguales al número de personas encuestadas.",
+        "Tenía que multiplicar 15 por 30 para obtener los grados exactos."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-06",
+      "type": "classify",
+      "prompt": "Clasifica las siguientes afirmaciones sobre los diagramas de sectores en verdaderas o falsas.",
+      "explanation": "La suma total de un diagrama siempre es 360°. A mayor frecuencia de un dato, mayor será el sector circular que le corresponde.",
+      "lang": "es",
+      "categories": [
+        "Verdadera",
+        "Falsa"
+      ],
+      "items": [
+        {
+          "text": "La suma de los ángulos de todos los sectores de un diagrama siempre es igual a 360°.",
+          "category": 0
+        },
+        {
+          "text": "Un sector que representa el 25 % del total forma un ángulo recto de 90°.",
+          "category": 0
+        },
+        {
+          "text": "El sector con mayor amplitud angular siempre representa la opción menos elegida.",
+          "category": 1
+        },
+        {
+          "text": "Un sector de 90° representa la tercera parte del total de los datos.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-07",
+      "type": "fill-blank",
+      "prompt": "Completa el hueco con el número de grados correcto.",
+      "explanation": "10 de 40 es 10/40 = 1/4 (el 25 %). Calculamos un cuarto de 360° dividiendo 360 ÷ 4 = 90°.",
+      "lang": "es",
+      "sentence": "Aisha encuestó a 40 compañeros sobre su fruta favorita. Si 10 eligieron manzana, el sector de la manzana debe medir ___ grados.",
+      "options": [
+        "100",
+        "45",
+        "90",
+        "36"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-08",
+      "type": "choice",
+      "prompt": "En la biblioteca del cole hay 400 libros. El diagrama de sectores muestra que el 40 % son de aventuras y el 20 % de ciencia ficción. ¿Cuántos libros de aventuras hay más que de ciencia ficción?",
+      "explanation": "Aventuras: 40 % de 400 = 160. Ciencia ficción: 20 % de 400 = 80. La diferencia es 160 - 80 = 80 libros.",
+      "hint": "Calcula primero cuántos libros representa cada porcentaje y luego resta los resultados.",
+      "lang": "es",
+      "options": [
+        "20 libros",
+        "160 libros",
+        "40 libros",
+        "80 libros"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-09",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto y responde a las preguntas planteadas.",
+      "explanation": "Leemos los porcentajes del diagrama: el 25 % corresponde a un ángulo recto de 90° y la suma de 50 % y 25 % forma el 75 % (3/4 del total).",
+      "lang": "es",
+      "title": "El estudio de movilidad de Mateo",
+      "text": "Mateo y su equipo de 6º de Primaria organizaron un estudio estadístico sobre cómo se desplazan las 120 familias de su colegio por el barrio. Tras recoger todas las respuestas, resumieron la información en un diagrama de sectores para presentarlo en el consejo escolar.\n\nEl diagrama mostró los siguientes resultados: el 50 % de las familias acude caminando, el 25 % utiliza la bicicleta, el 15 % viene en autobús público y el 10 % restante viaja en coche privado. Mateo destacó emocionado que las tres cuartas partes del alumnado utiliza medios de transporte activos y sostenibles (caminar o bicicleta).\n\nSin embargo, en la reunión del consejo, una representante de las familias señaló que, aunque la mayoría camina o pedalea, el sector del coche privado (que son 12 familias) genera los mayores problemas de atascos en la puerta del colegio a las 9:00 de la mañana. Por ello, propusieron sustituir progresivamente los viajes en coche por rutas a pie acompañadas.",
+      "questions": [
+        {
+          "prompt": "¿Qué amplitud de ángulo le corresponde en el diagrama al sector de las familias que van en bicicleta?",
+          "explanation": "Las familias en bicicleta representan el 25 % del total. El 25 % de 360° equivale a 360° ÷ 4 = 90°.",
+          "options": [
+            "36°",
+            "54°",
+            "180°",
+            "90°"
+          ],
+          "answer": 3
+        },
+        {
+          "prompt": "¿Por qué la afirmación de Mateo de que las tres cuartas partes usan transporte sostenible es matemáticamente correcta?",
+          "explanation": "Sumamos 50 % + 25 % = 75 %. Como 75 % equivale a 75/100, simplificado es 3/4.",
+          "options": [
+            "Porque el 50 % que camina ya representa de por sí tres cuartos de la población total.",
+            "Porque las tres cuartas partes de un diagrama de sectores forman un ángulo plano de 180°.",
+            "Porque sumar caminar (50 %) y bicicleta (25 %) da un 75 %, que equivale a la fracción 3/4.",
+            "Porque hay 120 familias en total y 90 de ellas solo se desplazan en autobús público."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-10",
+      "type": "choice",
+      "prompt": "En un taller de medio ambiente, 60 escolares votaron por su animal en peligro de extinción favorito: 30 votaron por el lince ibérico, 15 por el águila imperial y 15 por el lobo. ¿Qué ángulo sumarán juntos los sectores del águila imperial y del lobo?",
+      "explanation": "El águila son 15 de 60 (1/4 = 90°) y el lobo son 15 de 60 (1/4 = 90°). Juntos suman 90° + 90° = 180°, formando la mitad del diagrama.",
+      "hint": "Calcula la fracción que representan 15 de 60 respuestas.",
+      "lang": "es",
+      "options": [
+        "180°",
+        "90°",
+        "120°",
+        "270°"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.6-flash",
+    "generatedAt": "2026-10-08T11:36:48.627Z",
+    "reviewed": false
+  }
+}

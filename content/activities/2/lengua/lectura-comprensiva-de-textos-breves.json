@@ -1,0 +1,206 @@
+{
+  "id": "g2-lengua-lectura-comprensiva-de-textos-breves",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "lectura-comprensiva-de-textos-breves",
+  "temaNombre": "Lectura comprensiva de textos breves",
+  "title": "Comprendemos textos cortos",
+  "summary": "Practica la lectura atenta de notas, avisos y pequeños relatos para entenderlos genial.",
+  "keyIdeas": [
+    "Leer despacio nos ayuda a saber qué pasa en la historia.",
+    "Fíjate bien en quién participa, dónde ocurre y qué hacen.",
+    "Si no entiendes una palabra, vuelve a leer la frase entera."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE7"
+    ],
+    "criteria": [
+      "4.1",
+      "7.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CD3",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-01",
+      "type": "true-false",
+      "prompt": "Hugo escribe: 'Mamá, he ido al parque con el abuelo'. ¿Hugo está en el parque?",
+      "explanation": "La nota dice que Hugo ha ido al parque con su abuelo.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-02",
+      "type": "choice",
+      "prompt": "Lee: 'Aisha guarda su estuche rojo en la mochila azul'. ¿Dónde guarda el estuche?",
+      "explanation": "El texto explica claramente que Aisha guarda el estuche en su mochila azul.",
+      "hint": "Busca la palabra mochila en la frase.",
+      "lang": "es",
+      "options": [
+        "En la mesa del profesor",
+        "En el cajón de clase",
+        "En la mochila azul"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-03",
+      "type": "match",
+      "prompt": "Lee: 'Omar riega, Lucía barre y Leo alimenta al gato'. Une cada persona con su tarea:",
+      "explanation": "Cada niño realiza una tarea distinta en la casa.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Omar",
+          "right": "Riega las plantas"
+        },
+        {
+          "left": "Lucía",
+          "right": "Barre el patio"
+        },
+        {
+          "left": "Leo",
+          "right": "Alimenta al gato"
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase según el sentido del texto:",
+      "explanation": "En verano hace calor, por eso el perro salta al agua para refrescarse.",
+      "lang": "es",
+      "sentence": "El perro salta a la piscina porque tiene mucho ___ en verano.",
+      "options": [
+        "miedo",
+        "sueño",
+        "calor"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-05",
+      "type": "choice",
+      "prompt": "Lee: 'Mateo merienda una rica manzana en el parque'. Encuentra la frase con un error:",
+      "explanation": "Es un error porque Mateo come una manzana, no una pera.",
+      "hint": "Comprueba qué fruta come Mateo en el texto.",
+      "lang": "es",
+      "options": [
+        "Mateo está merendando en el parque.",
+        "Mateo come una manzana.",
+        "Mateo merienda una pera en el parque."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-06",
+      "type": "classify",
+      "prompt": "Lee: 'En la granja vimos vacas lecheras y tractores verdes'. Clasifica cada elemento:",
+      "explanation": "Las vacas y terneros son animales, mientras que los tractores y camiones son vehículos.",
+      "lang": "es",
+      "categories": [
+        "Animales",
+        "Vehículos"
+      ],
+      "items": [
+        {
+          "text": "Vacas",
+          "category": 0
+        },
+        {
+          "text": "Tractores",
+          "category": 1
+        },
+        {
+          "text": "Terneros",
+          "category": 0
+        },
+        {
+          "text": "Camiones",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-07",
+      "type": "choice",
+      "prompt": "Lee el cartel: '¡Atención! Suelo mojado'. ¿Qué debes hacer al pasar?",
+      "explanation": "Si el suelo está mojado, hay que andar con cuidado para no resbalar.",
+      "lang": "es",
+      "options": [
+        "Caminar despacio y con cuidado",
+        "Correr muy rápido para no mojarte",
+        "Saltar a la pata coja"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-08",
+      "type": "true-false",
+      "prompt": "La ardilla tenía cinco nueces y perdió una. ¿Le quedan cuatro nueces?",
+      "explanation": "Si tenía cinco y pierde una, hacemos cinco menos una y quedan cuatro.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-09",
+      "type": "reading",
+      "prompt": "Lee con atención esta historia y responde a las preguntas:",
+      "explanation": "Comprender un texto es descubrir qué cuenta y por qué hacen las cosas los personajes.",
+      "lang": "es",
+      "title": "El nido del patio",
+      "text": "Hoy en el recreo hemos visto una sorpresa. En el árbol grande hay un nido con tres pajaritos. Su mamá les trae comida con el pico. Todos miramos en silencio para no asustarlos.",
+      "questions": [
+        {
+          "prompt": "¿Cuántos pajaritos hay en el nido?",
+          "explanation": "El texto dice que en el árbol hay un nido con tres pajaritos.",
+          "options": [
+            "Tres pajaritos",
+            "Dos pajaritos",
+            "Cinco pajaritos"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué miran los niños en silencio?",
+          "explanation": "Miran en silencio para que la mamá y los pajaritos no tengan miedo.",
+          "options": [
+            "Porque la profesora no les deja hablar",
+            "Para no asustar a los pajaritos",
+            "Porque tienen mucho sueño"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:09:56.576Z",
+    "reviewed": false
+  }
+}

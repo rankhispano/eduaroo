@@ -1,0 +1,221 @@
+{
+  "id": "g2-lengua-el-verbo-accion",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "el-verbo-accion",
+  "temaNombre": "El verbo: acción",
+  "title": "¡Descubrimos los verbos en acción!",
+  "summary": "Reconoce los verbos como palabras que indican acciones que hacemos cada día.",
+  "keyIdeas": [
+    "Los verbos son palabras que indican acciones, como correr, leer o cantar.",
+    "Para saber si una palabra es un verbo, pregúntate: ¿es algo que se puede hacer?",
+    "En una oración, el verbo nos cuenta qué hace la persona, animal o cosa."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-el-verbo-accion-01",
+      "type": "choice",
+      "prompt": "¿Qué palabra indica una acción que puedes hacer?",
+      "explanation": "Saltar es una acción, algo que puedes hacer con tu cuerpo. Mesa es un objeto y azul es un color.",
+      "hint": "Piensa en algo que puedas hacer en el recreo.",
+      "lang": "es",
+      "options": [
+        "Azul",
+        "Mesa",
+        "Saltar"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-02",
+      "type": "true-false",
+      "prompt": "En la frase «Omar come una manzana», la palabra «come» es un verbo.",
+      "explanation": "Es verdadero porque «come» indica la acción que hace Omar.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-03",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según indiquen una acción o un objeto.",
+      "explanation": "Escribir y dormir son acciones que podemos hacer. Lápiz y balón son objetos que podemos tocar.",
+      "lang": "es",
+      "categories": [
+        "Acción (verbo)",
+        "Objeto (cosa)"
+      ],
+      "items": [
+        {
+          "text": "Escribir",
+          "category": 0
+        },
+        {
+          "text": "Lápiz",
+          "category": 1
+        },
+        {
+          "text": "Dormir",
+          "category": 0
+        },
+        {
+          "text": "Balón",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-04",
+      "type": "fill-blank",
+      "prompt": "Elige el verbo adecuado para completar la frase.",
+      "explanation": "La palabra «pinta» es el verbo que indica la acción que realiza Aisha.",
+      "lang": "es",
+      "sentence": "Aisha ___ un dibujo muy bonito para su abuela.",
+      "options": [
+        "pinta",
+        "papel",
+        "alegre"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-05",
+      "type": "match",
+      "prompt": "Une a cada persona o animal con la acción que realiza.",
+      "explanation": "Vuela, prepara y juegan son los verbos que expresan lo que hace cada uno.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "El pájaro",
+          "right": "vuela alto"
+        },
+        {
+          "left": "La cocinera",
+          "right": "prepara la sopa"
+        },
+        {
+          "left": "Los niños",
+          "right": "juegan al escondite"
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-06",
+      "type": "choice",
+      "prompt": "¿Cuál es el verbo en esta oración del recreo? «Hugo corre por el patio».",
+      "explanation": "«Corre» es el verbo porque dice qué hace Hugo.",
+      "hint": "Busca la palabra que dice lo que hace Hugo.",
+      "lang": "es",
+      "options": [
+        "corre",
+        "patio",
+        "Hugo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-07",
+      "type": "order",
+      "prompt": "Ordena estas acciones desde que te levantas hasta que entras al cole.",
+      "explanation": "Primero despiertas, luego desayunas para tener energía y después caminas hacia el colegio.",
+      "lang": "es",
+      "items": [
+        "Despertar",
+        "Desayunar",
+        "Caminar al cole"
+      ]
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-08",
+      "type": "reading",
+      "prompt": "Lee con atención y responde a las preguntas.",
+      "explanation": "Montar, saltar, lanzar y reír son los verbos de acción de este texto.",
+      "lang": "es",
+      "title": "Tarde en el parque",
+      "text": "Martina y Wei van al parque de su barrio. Martina monta en patinete con cuidado. Wei lanza la pelota a su perra Chispas. Chispas salta muy alto y atrapa el balón. Los dos amigos ríen contentos.",
+      "questions": [
+        {
+          "prompt": "¿Qué acción realiza Martina en el parque?",
+          "explanation": "El texto dice claramente que Martina monta en patinete.",
+          "options": [
+            "Come una manzana",
+            "Duerme en la hierba",
+            "Monta en patinete"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué verbo dice lo que hace la perra Chispas antes de atrapar el balón?",
+          "explanation": "El texto cuenta que Chispas salta muy alto.",
+          "options": [
+            "Ríe",
+            "Lanza",
+            "Salta"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-09",
+      "type": "choice",
+      "prompt": "Encuentra el error: ¿cuál de estas frases NO tiene ningún verbo de acción?",
+      "explanation": "«El perro grande y marrón» no tiene ningún verbo; no dice qué hace el perro. En las otras frases están los verbos «lee» y «nada».",
+      "hint": "Fíjate en cuál de las tres frases no dice qué hace nadie.",
+      "lang": "es",
+      "options": [
+        "Nerea lee un cuento divertido.",
+        "El perro grande y marrón.",
+        "Adrián nada en la piscina."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-10",
+      "type": "choice",
+      "prompt": "Lucía ayuda en la biblioteca del cole. ¿Qué oración explica bien su acción?",
+      "explanation": "«Ordena» es el verbo que explica la acción que realiza Lucía en la biblioteca.",
+      "hint": "Busca la frase que use un verbo para contar qué hace Lucía.",
+      "lang": "es",
+      "options": [
+        "Lucía ordena los libros en las estanterías.",
+        "Lucía biblioteca silenciosa azul.",
+        "Lucía libros estantería grande."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:17:19.993Z",
+    "reviewed": false
+  }
+}

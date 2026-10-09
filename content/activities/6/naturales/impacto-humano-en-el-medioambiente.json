@@ -1,0 +1,261 @@
+{
+  "id": "g6-naturales-impacto-humano-en-el-medioambiente",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "impacto-humano-en-el-medioambiente",
+  "temaNombre": "Impacto humano en el medioambiente",
+  "title": "Cuidamos nuestro planeta Tierra",
+  "summary": "Analizarás el impacto de las actividades humanas en los ecosistemas y descubrirás soluciones sostenibles para proteger nuestro entorno natural.",
+  "keyIdeas": [
+    "El efecto invernadero natural permite la vida, pero el exceso de gases contaminantes calienta el planeta de manera acelerada.",
+    "La contaminación del agua, la tala indiscriminada y la sobreexplotación destruyen hábitats y amenazan la biodiversidad.",
+    "Adoptar hábitos sostenibles y aplicar la economía circular ayuda a reducir nuestra huella ecológica y regenerar la naturaleza."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.3",
+      "6.1",
+      "6.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Materia, fuerzas y energía"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-01",
+      "type": "true-false",
+      "prompt": "El efecto invernadero natural de la Tierra es un fenómeno perjudicial que los seres humanos debemos intentar eliminar por completo.",
+      "explanation": "El efecto invernadero natural es imprescindible para la vida porque mantiene una temperatura media templada en el planeta. El problema actual es su intensificación artificial por las emisiones de gases contaminantes.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la pérdida de vegetación en el planeta.",
+      "explanation": "Los árboles absorben dióxido de carbono de la atmósfera para producir materia orgánica a través de la fotosíntesis; al deforestar, se pierde esa capacidad natural de capturar carbono.",
+      "hint": "Piensa en el proceso de las plantas para fabricar su propio alimento usando la luz solar.",
+      "lang": "es",
+      "sentence": "Al talar grandes extensiones de bosque, disminuye la captura de dióxido de carbono mediante la ___, lo que intensifica el calentamiento global.",
+      "options": [
+        "respiración celular",
+        "evaporación",
+        "fotosíntesis"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-03",
+      "type": "classify",
+      "prompt": "Clasifica estas acciones cotidianas según aumenten o reduzcan la huella ecológica de una persona:",
+      "explanation": "La huella ecológica mide la cantidad de recursos naturales que consumimos y los residuos que generamos; caminar, reutilizar envases y ahorrar energía reducen esa huella.",
+      "lang": "es",
+      "categories": [
+        "Aumenta la huella ecológica",
+        "Reduce la huella ecológica"
+      ],
+      "items": [
+        {
+          "text": "Comprar fruta fuera de temporada transportada en avión desde otro continente",
+          "category": 0
+        },
+        {
+          "text": "Desplazarse al colegio caminando, en patinete sin motor o en bicicleta",
+          "category": 1
+        },
+        {
+          "text": "Dejar cargadores de dispositivos enchufados cuando no se están utilizando",
+          "category": 0
+        },
+        {
+          "text": "Llevar el desayuno en una fiambrera reutilizable en lugar de envolverlo en plástico de un solo uso",
+          "category": 1
+        },
+        {
+          "text": "Usar toallitas desechables para limpiar superficies en lugar de bayetas reutilizables",
+          "category": 0
+        },
+        {
+          "text": "Aprovechar al máximo la luz natural abriendo persianas antes de encender bombillas",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-04",
+      "type": "match",
+      "prompt": "Une cada impacto ambiental con la causa directa que lo provoca:",
+      "explanation": "Cada actividad humana genera residuos o presiones concretas sobre los ecosistemas acuáticos, terrestres y atmosféricos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Eutrofización de un lago",
+          "right": "Llegada de abonos agrícolas y fertilizantes con nitrógeno y fósforo al agua"
+        },
+        {
+          "left": "Lluvia ácida",
+          "right": "Emisión de gases de azufre y nitrógeno por la combustión en fábricas y vehículos"
+        },
+        {
+          "left": "Pérdida de biodiversidad",
+          "right": "Fragmentación y destrucción de hábitats naturales para construir o cultivar"
+        },
+        {
+          "left": "Salinización de acuíferos",
+          "right": "Extracción excesiva de agua dulce subterránea cerca de zonas costeras"
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-05",
+      "type": "choice",
+      "prompt": "En clase debaten sobre el cambio climático y la atmósfera. ¿Qué estudiante comete un ERROR científico?",
+      "explanation": "En el espacio exterior no existe aire y las temperaturas son bajísimas; además, el calentamiento global lo causa la retención de radiación infrarroja por gases como el CO2, no la entrada de aire cósmico.",
+      "hint": "¿Qué hay en el espacio exterior fuera de nuestra atmósfera?",
+      "lang": "es",
+      "options": [
+        "Hugo: «El calentamiento global sucede porque el agujero de la capa de ozono deja entrar aire muy caliente procedente del espacio exterior».",
+        "Lucía: «El deshielo del Ártico hace que el océano refleje menos luz solar y absorba más calor, acelerando el cambio climático».",
+        "Mateo: «El agujero de la capa de ozono deja pasar más radiación ultravioleta perjudicial, pero no es la causa principal del calentamiento global actual»."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-06",
+      "type": "order",
+      "prompt": "Ordena cronológicamente los pasos que explican cómo ocurre la eutrofización en una laguna:",
+      "explanation": "El exceso de nutrientes desata una reacción en cadena: proliferación de algas, bloqueo de luz solar, descomposición bacteriana acelerada y anoxia mortal para la fauna acuática.",
+      "lang": "es",
+      "items": [
+        "Los fertilizantes químicos de los campos cercanos son arrastrados por la lluvia hacia la laguna.",
+        "Las algas de la superficie se multiplican masivamente gracias al exceso de nutrientes.",
+        "La densa capa verde superficial impide que la luz del sol llegue a las plantas del fondo.",
+        "Las bacterias descomponen las plantas muertas consumiendo casi todo el oxígeno del agua.",
+        "Los peces y otros animales acuáticos mueren por asfixia al agotarse el oxígeno disuelto."
+      ]
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-07",
+      "type": "choice",
+      "prompt": "Aisha y Adrián colocan dos botes de cristal sellados e idénticos bajo una lámpara de calor. El bote A contiene aire común. En el bote B introducen dióxido de carbono puro (CO₂) usando una reacción segura de vinagre y bicarbonato. Ambos tienen un termómetro dentro. ¿Qué predicción científica es correcta tras 30 minutos?",
+      "explanation": "El dióxido de carbono es un gas de efecto invernadero que atrapa la radiación térmica con mayor eficacia que los componentes habituales del aire seco como el nitrógeno.",
+      "hint": "Recuerda la propiedad principal de los gases de efecto invernadero respecto a la energía térmica.",
+      "lang": "es",
+      "options": [
+        "El bote B alcanzará mayor temperatura porque el dióxido de carbono retiene más calor radiante que el aire común.",
+        "Ambos botes marcarán exactamente la misma temperatura porque el cristal bloquea cualquier intercambio de energía.",
+        "El bote A estará más caliente porque el aire corriente tiene mayor densidad y almacena mejor el calor que el CO₂."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-08",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto y responde a las preguntas:",
+      "explanation": "La restauración ecológica exitosa combina conocimiento científico, soluciones naturales y la participación de toda la comunidad.",
+      "lang": "es",
+      "title": "El renacer de la Laguna del Carrizal",
+      "text": "Durante décadas, la Laguna del Carrizal sufrió un grave deterioro ambiental. Las aguas residuales urbanas y los abonos químicos de las granjas cercanas llegaban sin depurar a su cuenca. Hacia 2012, el agua presentaba un color verdoso turbio, los juncos de la ribera habían desaparecido y las aves migratorias dejaron de anidar allí.\n\nEn 2018, la comunidad local inició un plan de restauración ecológica. Se construyó una depuradora ecológica con filtros verdes de grava y espadañas para purificar el agua de forma biológica, y los agricultores redujeron voluntariamente el empleo de pesticidas sintéticos. Cuatro años después, los análisis confirmaron un descenso del 85 % en los niveles de nitratos. La vegetación autóctona volvió a brotar en las orillas y más de cuarenta especies de aves acuáticas han regresado a la zona, demostrando que los ecosistemas degradados pueden recuperarse si la sociedad se compromete activamente.",
+      "questions": [
+        {
+          "prompt": "¿Qué solución técnica ayudó a limpiar las aguas residuales que llegaban a la laguna?",
+          "explanation": "El texto explica que se empleó una depuradora biológica con filtros verdes naturales compuestos de grava y espadañas.",
+          "options": [
+            "La construcción de una presa de hormigón que impidió la entrada de cualquier corriente de agua.",
+            "El drenaje completo de la laguna para sustituir el fango del fondo por arena seca.",
+            "La instalación de una depuradora ecológica con filtros verdes de grava y espadañas."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué el regreso de la vegetación de ribera facilitó que las aves volvieran a la laguna?",
+          "explanation": "La vegetación de las orillas constituye la estructura básica del hábitat acuático, ofreciendo cobijo frente a depredadores y alimento.",
+          "options": [
+            "Porque las aves migratorias únicamente se orientan guiadas por el aroma de las flores acuáticas.",
+            "Porque las plantas proporcionan lugares seguros para anidar, refugio y alimento.",
+            "Porque las raíces de los juncos elevan la temperatura del agua varios grados en invierno."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué conclusión general sobre la gestión del medio ambiente se extrae de esta experiencia?",
+          "explanation": "El caso demuestra que el compromiso colectivo y las tecnologías ecológicas tienen un gran potencial para regenerar hábitats dañados.",
+          "options": [
+            "Los ecosistemas acuáticos que sufren contaminación nunca vuelven a ser habitables para las aves.",
+            "Para cuidar un humedal es obligatorio desalojar a toda la población humana de los alrededores.",
+            "La cooperación ciudadana junto con soluciones sostenibles permite revertir daños ambientales graves."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-09",
+      "type": "choice",
+      "prompt": "El colegio de Omar quiere reducir las emisiones de gases de efecto invernadero en el comedor. Comparan dos opciones de fruta para el postre de mayo:\n\n• Opción A: Cerezas de temporada cosechadas en una comarca situada a 30 km del centro educativo.\n• Opción B: Piñas cultivadas en invernaderos a 7.000 km y transportadas en avión refrigerado.\n\n¿Cuál es la razón ambiental por la que la Opción A es más sostenible?",
+      "explanation": "El consumo de productos de temporada y proximidad (kilómetro cero) evita las enormes emisiones de CO2 vinculadas al transporte aéreo y a la climatización de invernaderos.",
+      "hint": "Fíjate en la distancia recorrida y en el medio de transporte de cada opción.",
+      "lang": "es",
+      "options": [
+        "Minimiza el consumo de combustibles fósiles en el transporte y aprovecha el ciclo estacional natural sin calefacción artificial.",
+        "Las cerezas locales no consumen agua durante su crecimiento porque las plantas autóctonas nunca necesitan riego.",
+        "Los alimentos transportados en avión pierden todo su valor nutricional durante el vuelo y no alimentan al alumnado."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-10",
+      "type": "match",
+      "prompt": "Relaciona cada principio de la economía circular con el ejemplo práctico correspondiente:",
+      "explanation": "La economía circular busca alargar al máximo la vida útil de los materiales antes de desecharlos, transformando los residuos en nuevos recursos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Reducir",
+          "right": "Llevar bolsas de tela a la compra para evitar usar bolsas de plástico desechables"
+        },
+        {
+          "left": "Reutilizar",
+          "right": "Limpiar tarros de vidrio de mermelada para guardar frutos secos o lápices"
+        },
+        {
+          "left": "Reparar",
+          "right": "Poner un parche a la cámara pinchada de una bicicleta en vez de tirarla"
+        },
+        {
+          "left": "Reciclar",
+          "right": "Depositar latas de aluminio en el contenedor amarillo para fundirlas y crear envases nuevos"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:26:14.087Z",
+    "reviewed": false
+  }
+}

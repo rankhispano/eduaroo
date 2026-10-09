@@ -1,0 +1,247 @@
+{
+  "id": "g5-sociales-la-globalizacion",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "la-globalizacion",
+  "temaNombre": "La globalización",
+  "title": "Un mundo interconectado: la globalización",
+  "summary": "Practica cómo la globalización conecta a las personas, la economía y las culturas de todo el planeta.",
+  "keyIdeas": [
+    "La globalización es el proceso de conexión e intercambio económico, cultural y tecnológico entre países de todo el mundo.",
+    "Tiene ventajas como el intercambio de conocimientos, pero también retos como la contaminación del transporte internacional.",
+    "El consumo responsable y el comercio justo ayudan a lograr un mundo más equitativo y sostenible."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6",
+      "CE8"
+    ],
+    "criteria": [
+      "5.2",
+      "6.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CP3",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-la-globalizacion-01",
+      "type": "choice",
+      "prompt": "Lucía puede hablar al instante por videollamada con su prima en Japón y probar platos típicos de otros continentes en su barrio. ¿Qué fenómeno explica principalmente esta conexión mundial?",
+      "explanation": "La globalización es el proceso por el cual los países del mundo están cada vez más comunicados e interconectados.",
+      "hint": "Piensa en una palabra que viene de globo terráqueo.",
+      "lang": "es",
+      "options": [
+        "La despoblación rural",
+        "La globalización",
+        "El aislamiento geográfico"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-02",
+      "type": "true-false",
+      "prompt": "La invención de Internet y el desarrollo de medios de transporte rápidos, como los aviones de carga y los grandes barcos mercantes, han acelerado la globalización.",
+      "explanation": "Las tecnologías de la información y las mejoras del transporte permiten mover datos, personas y mercancías con gran rapidez por todo el planeta.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-03",
+      "type": "classify",
+      "prompt": "Clasifica estos aspectos de la globalización según representen una ventaja o un reto que debemos resolver.",
+      "explanation": "La globalización nos ofrece grandes oportunidades de comunicación y aprendizaje, pero requiere cuidar el medioambiente y proteger las culturas locales.",
+      "lang": "es",
+      "categories": [
+        "Ventaja de la globalización",
+        "Reto o problema a mejorar"
+      ],
+      "items": [
+        {
+          "text": "Acceso rápido a descubrimientos científicos y noticias de otros países",
+          "category": 0
+        },
+        {
+          "text": "Aumento de emisiones contaminantes por transportar productos miles de kilómetros",
+          "category": 1
+        },
+        {
+          "text": "Intercambio cultural mediante la música, el arte y la gastronomía",
+          "category": 0
+        },
+        {
+          "text": "Pérdida potencial de tradiciones locales ante modas comunes en todo el mundo",
+          "category": 1
+        },
+        {
+          "text": "Cooperación internacional para enviar ayuda humanitaria en catástrofes",
+          "category": 0
+        },
+        {
+          "text": "Desigualdad entre regiones si algunos lugares carecen de acceso a tecnología",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-04",
+      "type": "match",
+      "prompt": "Une cada ámbito de la globalización con el ejemplo de la vida cotidiana que le corresponde.",
+      "explanation": "La globalización influye en nuestra cultura, en lo que compramos, en la tecnología que usamos y en los acuerdos para cuidar el planeta.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Globalización cultural",
+          "right": "Escuchar canciones y ver películas creadas en otros continentes"
+        },
+        {
+          "left": "Globalización económica",
+          "right": "Comprar una mochila fabricada con materiales de tres países distintos"
+        },
+        {
+          "left": "Globalización tecnológica",
+          "right": "Enviar un mensaje en tiempo real a una persona situada al otro lado del mundo"
+        },
+        {
+          "left": "Globalización ecológica",
+          "right": "Firmar acuerdos mundiales para proteger los océanos y frenar el cambio climático"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta sobre el impacto ambiental del comercio internacional.",
+      "explanation": "La huella ecológica mide el impacto de nuestras decisiones y actividades sobre los recursos del planeta.",
+      "hint": "Es la marca o rastro que dejamos en el medioambiente con nuestros hábitos de consumo.",
+      "lang": "es",
+      "sentence": "Al comprar alimentos transportados en avión desde el otro lado del mundo en lugar de productos locales de temporada, aumentamos nuestra ___ ecológica.",
+      "options": [
+        "huella",
+        "frontera",
+        "moneda"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-06",
+      "type": "order",
+      "prompt": "Ordena los pasos del recorrido que suele realizar un producto global, como una camiseta, desde su origen hasta tu casa.",
+      "explanation": "La producción globalizada implica muchas fases en distintos lugares del planeta antes de que el producto final llegue a nuestras manos.",
+      "lang": "es",
+      "items": [
+        "Cultivo del algodón en campos agrícolas.",
+        "Fabricación de la tela y confección de la prenda en una fábrica.",
+        "Transporte marítimo del cargamento en un gran buque portacontenedores.",
+        "Llegada a las tiendas y centros de distribución de tu localidad.",
+        "Compra y uso de la prenda por parte del consumidor."
+      ]
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-07",
+      "type": "reading",
+      "prompt": "Lee el texto con atención y contesta a las preguntas.",
+      "explanation": "La lectura muestra cómo nuestras elecciones diarias de consumo se relacionan con el transporte mundial, la ecología y los derechos de las personas.",
+      "lang": "es",
+      "title": "La merienda global de Omar y Martina",
+      "text": "Durante una merienda en el colegio, Omar y Martina revisaron las etiquetas de sus alimentos. La manzana de Omar procedía de un valle cercano, a unos 40 kilómetros del colegio. Sin embargo, el plátano de Martina venía de una cooperativa con sello de comercio justo en Costa Rica, y la barrita de cereales indicaba ingredientes elaborados en tres países distintos. Intrigados, le preguntaron a su maestra por qué viajaba tanto la comida. Ella les explicó que la globalización nos permite acceder a productos de cualquier rincón de la Tierra, pero que los traslados a larga distancia consumen mucha energía y generan contaminación. Martina reflexionó entonces sobre la importancia de combinar el consumo de proximidad para proteger el entorno natural con el apoyo al comercio justo, que garantiza un salario digno a familias agricultoras de países lejanos.",
+      "questions": [
+        {
+          "prompt": "¿A qué distancia aproximada del colegio se cultivó la manzana de Omar?",
+          "explanation": "El texto indica expresamente que la manzana procedía de un valle cercano, a unos 40 kilómetros del colegio.",
+          "options": [
+            "A unos 40 kilómetros",
+            "En otro continente",
+            "A más de 5000 kilómetros"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué el transporte de alimentos entre países muy lejanos puede perjudicar el medioambiente?",
+          "explanation": "Los medios de transporte de largo recorrido, como barcos y aviones, consumen combustibles fósiles que provocan emisiones contaminantes.",
+          "options": [
+            "Porque los alimentos pierden sus etiquetas durante los viajes en barco",
+            "Porque el traslado a larga distancia consume mucha energía y produce gases contaminantes",
+            "Porque impide que las personas aprendan otros idiomas en el colegio"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "A partir de la reflexión final de Martina, ¿cuál es una actitud responsable frente a la globalización alimentaria?",
+          "explanation": "Consumir alimentos de proximidad reduce la contaminación y elegir comercio justo asegura condiciones laborales dignas para quienes producen lejos de nuestro país.",
+          "options": [
+            "Comprar únicamente productos de importación sin tener en cuenta su procedencia ni su impacto",
+            "Priorizar los productos locales y elegir comercio justo cuando compremos bienes de lugares lejanos",
+            "Dejar de consumir frutas y verduras frescas para ahorrar en transporte"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-08",
+      "type": "choice",
+      "prompt": "Adrián quiere merendar fruta y busca reducir la contaminación producida por el transporte. En el mercado encuentra peras cultivadas en su comunidad y otras traídas en avión desde otro continente. ¿Qué opción es más coherente con un estilo de vida sostenible?",
+      "explanation": "El consumo de proximidad reduce la quema de combustibles fósiles en el transporte y apoya la economía local.",
+      "hint": "Menor distancia de viaje implica menos contaminación por transporte.",
+      "lang": "es",
+      "options": [
+        "Elegir las peras locales de su comunidad para evitar las emisiones del transporte lejano",
+        "Elegir productos ultraprocesados con envoltorios de plástico de un solo uso",
+        "Elegir las peras del otro continente porque han recorrido miles de kilómetros en avión"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-09",
+      "type": "true-false",
+      "prompt": "La globalización cultural exige que todos los pueblos del mundo renuncien a su propia lengua y a sus tradiciones locales para tener las mismas costumbres.",
+      "explanation": "La globalización permite conocer otras culturas, pero es fundamental respetar, conservar y valorar la diversidad cultural, las lenguas y las tradiciones locales.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-10",
+      "type": "choice",
+      "prompt": "En la economía global, algunas personas trabajan muchas horas por salarios muy bajos y sin medidas de seguridad. ¿Qué iniciativa busca garantizar precios dignos a los productores y respeto por los derechos humanos y el medioambiente?",
+      "explanation": "El comercio justo es un modelo comercial solidario que promueve salarios dignos, igualdad de género, erradicación del trabajo infantil y cuidado ambiental.",
+      "hint": "Busca que las condiciones sean equitativas y respetuosas para los trabajadores.",
+      "lang": "es",
+      "options": [
+        "El consumo desmedido",
+        "La publicidad engañosa",
+        "El comercio justo"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:40:38.594Z",
+    "reviewed": false
+  }
+}

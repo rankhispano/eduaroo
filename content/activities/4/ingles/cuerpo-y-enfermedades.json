@@ -1,0 +1,238 @@
+{
+  "id": "g4-ingles-cuerpo-y-enfermedades",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "cuerpo-y-enfermedades",
+  "temaNombre": "Cuerpo y enfermedades",
+  "title": "Healthy Body, Happy Days",
+  "summary": "Practica el vocabulario del cuerpo y cómo expresar problemas de salud y dar consejos en inglés.",
+  "keyIdeas": [
+    "Usamos 'I have got a...' para dolencias como 'headache', 'stomach ache' o 'cold'.",
+    "Usamos 'My (knee/arm) hurts' para decir que nos duele una parte del cuerpo.",
+    "Para preguntar qué le ocurre a alguien decimos: 'What is the matter?'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "3.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-cuerpo-y-enfermedades-01",
+      "type": "match",
+      "prompt": "Match each body part with its description:",
+      "explanation": "Relacionamos cada parte del cuerpo con su función principal: los oídos para oír, los ojos para ver, el estómago para la comida y la rodilla en la pierna.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Ear",
+          "right": "You listen to sounds with this."
+        },
+        {
+          "left": "Eye",
+          "right": "You look at things with this."
+        },
+        {
+          "left": "Stomach",
+          "right": "Your food goes here."
+        },
+        {
+          "left": "Knee",
+          "right": "It is in the middle of your leg."
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-cuerpo-y-enfermedades-02",
+      "type": "choice",
+      "prompt": "Aisha feels very hot and her temperature is 38 degrees. What is the matter?",
+      "explanation": "Cuando la temperatura corporal es alta y sentimos mucho calor, decimos 'have got a fever' (tener fiebre).",
+      "hint": "Piensa en qué palabra usamos cuando la temperatura del cuerpo sube mucho.",
+      "lang": "en",
+      "options": [
+        "She has got a fever.",
+        "She has got a toothache.",
+        "She has got a broken arm."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-cuerpo-y-enfermedades-03",
+      "type": "true-false",
+      "prompt": "Eating cold ice cream is the best idea when you have a bad cough.",
+      "explanation": "Falso. Si tienes tos ('cough'), tomar cosas muy frías puede irritar más la garganta; es mejor descansar y beber agua templada.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-ingles-cuerpo-y-enfermedades-04",
+      "type": "fill-blank",
+      "prompt": "Choose the correct illness to complete the sentence:",
+      "explanation": "Comer demasiados dulces suele provocar dolor de barriga, que en inglés se dice 'stomach ache'.",
+      "hint": "¿Qué parte del cuerpo procesa la comida y los dulces?",
+      "lang": "en",
+      "sentence": "Hugo ate ten big candies and now he has got a ___.",
+      "options": [
+        "broken finger",
+        "headache",
+        "stomach ache"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-cuerpo-y-enfermedades-05",
+      "type": "classify",
+      "prompt": "Classify the words into Body Parts and Health Problems:",
+      "explanation": "'Shoulder' (hombro), 'ankle' (tobillo) y 'elbow' (codo) son partes del cuerpo. 'Sore throat', 'headache' y 'toothache' son molestias o enfermedades.",
+      "lang": "en",
+      "categories": [
+        "Body Parts",
+        "Health Problems"
+      ],
+      "items": [
+        {
+          "text": "Shoulder",
+          "category": 0
+        },
+        {
+          "text": "Sore throat",
+          "category": 1
+        },
+        {
+          "text": "Ankle",
+          "category": 0
+        },
+        {
+          "text": "Headache",
+          "category": 1
+        },
+        {
+          "text": "Elbow",
+          "category": 0
+        },
+        {
+          "text": "Toothache",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-cuerpo-y-enfermedades-06",
+      "type": "choice",
+      "prompt": "Doctor: 'Hello, Mateo. What is the matter?' Mateo: '___'",
+      "explanation": "A la pregunta 'What is the matter?' (¿Qué te pasa?), respondemos explicando el síntoma o dolor, como 'I have got a sore throat' (me duele la garganta).",
+      "hint": "El médico te pregunta qué síntoma o problema de salud tienes.",
+      "lang": "en",
+      "options": [
+        "I have got a sore throat.",
+        "My school bag is blue.",
+        "I like playing football."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-cuerpo-y-enfermedades-07",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions:",
+      "explanation": "El texto narra la visita de Lucas a la enfermera escolar cuando no se encuentra bien.",
+      "lang": "en",
+      "title": "A Visit to Nurse Clara",
+      "text": "Today at school, Lucas is not feeling well during PE class. He is sitting on the bench. Nurse Clara comes to talk to him. 'What is the matter, Lucas?' she asks. Lucas touches his head and says, 'I have got a bad headache and my throat hurts.' Nurse Clara checks his temperature. Lucas does not have a fever, but he looks very tired. 'You need to drink fresh water and rest quietly in this chair,' says Nurse Clara. After thirty minutes, Lucas feels much better.",
+      "questions": [
+        {
+          "prompt": "Where does Lucas feel pain?",
+          "explanation": "En el texto, Lucas dice: 'I have got a bad headache and my throat hurts' (le duele la cabeza y la garganta).",
+          "options": [
+            "His head and his throat.",
+            "His stomach and his leg.",
+            "His knee and his foot."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What does Nurse Clara tell Lucas to do?",
+          "explanation": "La enfermera Clara le aconseja beber agua fresca y descansar tranquilo en la silla.",
+          "options": [
+            "Run three laps around the gym.",
+            "Drink fresh water and rest quietly.",
+            "Eat a big chocolate cake."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-cuerpo-y-enfermedades-08",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct action word:",
+      "explanation": "Usamos el verbo 'hurts' (duele) cuando una parte del cuerpo causa dolor tras un golpe o tropiezo.",
+      "hint": "Buscamos la palabra que significa que algo duele.",
+      "lang": "en",
+      "sentence": "Martina tripped in the playground and her left knee ___.",
+      "options": [
+        "hurts",
+        "reads",
+        "sings"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-cuerpo-y-enfermedades-09",
+      "type": "order",
+      "prompt": "Put the steps in order when you feel sick at school:",
+      "explanation": "Primero avisas al profe, luego vas a la enfermería, la enfermera te revisa y finalmente descansas.",
+      "lang": "en",
+      "items": [
+        "You tell your teacher that you feel sick.",
+        "You walk to the school nurse room.",
+        "The nurse checks your temperature.",
+        "You rest on the bed until you feel better."
+      ]
+    },
+    {
+      "id": "g4-ingles-cuerpo-y-enfermedades-10",
+      "type": "choice",
+      "prompt": "Omar has got a terrible toothache after lunch. What is the best advice for him?",
+      "explanation": "Para un dolor de muelas ('toothache'), el mejor consejo de salud es acudir al dentista ('visit the dentist').",
+      "hint": "¿Qué especialista cuida de nuestros dientes?",
+      "lang": "en",
+      "options": [
+        "He should visit the dentist.",
+        "He should eat hard candies.",
+        "He should shout very loudly."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:13:22.442Z",
+    "reviewed": false
+  }
+}

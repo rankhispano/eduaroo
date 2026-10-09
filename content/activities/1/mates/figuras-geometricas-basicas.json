@@ -1,0 +1,204 @@
+{
+  "id": "g1-mates-figuras-geometricas-basicas",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "figuras-geometricas-basicas",
+  "temaNombre": "Figuras geométricas básicas",
+  "title": "¡Descubrimos las figuras geométricas básicas!",
+  "summary": "Reconocerás círculos, triángulos, cuadrados y rectángulos en objetos de la vida diaria.",
+  "keyIdeas": [
+    "El círculo es redondo y no tiene lados rectos ni esquinas.",
+    "El triángulo tiene tres lados rectos y tres esquinas.",
+    "El cuadrado y el rectángulo tienen cuatro lados rectos y cuatro esquinas."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sentido espacial › Figuras geométricas de dos y tres dimensiones",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-01",
+      "type": "choice",
+      "prompt": "Hugo ve una señal con tres lados rectos. ¿Qué forma tiene?",
+      "explanation": "La figura con 3 lados rectos y 3 esquinas es el triángulo.",
+      "hint": "Cuenta cuántos lados tiene la señal.",
+      "lang": "es",
+      "options": [
+        "Cuadrado",
+        "Triángulo",
+        "Círculo"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-02",
+      "type": "true-false",
+      "prompt": "El círculo tiene cuatro esquinas.",
+      "explanation": "El círculo es una línea curva cerrada. No tiene lados rectos ni esquinas.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el cuadrado.",
+      "explanation": "Un cuadrado siempre tiene cuatro lados y todos miden exactamente lo mismo.",
+      "lang": "es",
+      "sentence": "El cuadrado tiene ___ lados iguales.",
+      "options": [
+        "dos",
+        "tres",
+        "cuatro"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-04",
+      "type": "match",
+      "prompt": "Une cada objeto con su forma geométrica.",
+      "explanation": "Cada objeto de nuestra vida diaria se parece a una figura plana.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Una moneda redonda",
+          "right": "Círculo"
+        },
+        {
+          "left": "Una rebanada de pan cuadrada",
+          "right": "Cuadrado"
+        },
+        {
+          "left": "Una puerta alta",
+          "right": "Rectángulo"
+        },
+        {
+          "left": "Un trozo de pizza",
+          "right": "Triángulo"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-05",
+      "type": "classify",
+      "prompt": "Clasifica según el número de lados rectos.",
+      "explanation": "Los triángulos tienen 3 lados. Los cuadrados y los rectángulos tienen 4 lados.",
+      "lang": "es",
+      "categories": [
+        "Tiene 3 lados",
+        "Tiene 4 lados"
+      ],
+      "items": [
+        {
+          "text": "Triángulo",
+          "category": 0
+        },
+        {
+          "text": "Cuadrado",
+          "category": 1
+        },
+        {
+          "text": "Rectángulo",
+          "category": 1
+        },
+        {
+          "text": "Señal triangular",
+          "category": 0
+        },
+        {
+          "text": "Libro de clase",
+          "category": 1
+        },
+        {
+          "text": "Tejado en pico",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-06",
+      "type": "choice",
+      "prompt": "Aisha dibuja dos triángulos. ¿Cuántos lados ha dibujado en total?",
+      "explanation": "Cada triángulo tiene 3 lados. Sumamos 3 + 3 = 6 lados en total.",
+      "hint": "Suma los 3 lados de cada figura.",
+      "lang": "es",
+      "options": [
+        "5 lados",
+        "6 lados",
+        "8 lados"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-07",
+      "type": "choice",
+      "prompt": "Leo dice que el círculo tiene esquinas. ¿Cuál es su error?",
+      "explanation": "Leo se equivoca porque los círculos son redondos y no tienen esquinas.",
+      "lang": "es",
+      "options": [
+        "El círculo tiene tres esquinas.",
+        "El círculo tiene lados rectos.",
+        "El círculo no tiene esquinas."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-08",
+      "type": "order",
+      "prompt": "Ordena de menor a mayor número de lados rectos.",
+      "explanation": "El círculo tiene 0 lados rectos, el triángulo tiene 3 y el cuadrado tiene 4.",
+      "lang": "es",
+      "items": [
+        "Círculo",
+        "Triángulo",
+        "Cuadrado"
+      ]
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-09",
+      "type": "choice",
+      "prompt": "Omar junta un triángulo y un cuadrado. ¿Cuántos lados suma en total?",
+      "explanation": "El triángulo tiene 3 lados y el cuadrado tiene 4 lados. 3 + 4 = 7 lados.",
+      "hint": "Suma 3 lados más 4 lados.",
+      "lang": "es",
+      "options": [
+        "8 lados",
+        "7 lados",
+        "6 lados"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:56:31.846Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "id": "g5-lengua-complemento-directo-e-indirecto",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "complemento-directo-e-indirecto",
+  "temaNombre": "Complemento directo e indirecto",
+  "title": "Misión: Complemento directo e indirecto",
+  "summary": "Aprenderás a identificar y diferenciar el complemento directo (CD) y el complemento indirecto (CI) en las oraciones.",
+  "keyIdeas": [
+    "El complemento directo (CD) nombra el objeto o ser sobre el que recae la acción y se sustituye por lo, la, los o las.",
+    "El complemento indirecto (CI) indica el destinatario o beneficiario de la acción y se sustituye por le o les.",
+    "Al sustituir a la vez el CD y el CI por pronombres, el pronombre le o les se transforma en se."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-01",
+      "type": "choice",
+      "prompt": "En la oración «Hugo preparó una tarta deliciosa para el cumpleaños», ¿qué función cumple «una tarta deliciosa»?",
+      "explanation": "Es complemento directo porque recibe directamente la acción de preparar y se puede sustituir por «la»: «Hugo la preparó para el cumpleaños».",
+      "hint": "Prueba a sustituir ese grupo de palabras por el pronombre «la».",
+      "lang": "es",
+      "options": [
+        "Sujeto de la oración",
+        "Complemento directo (CD)",
+        "Complemento indirecto (CI)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-02",
+      "type": "true-false",
+      "prompt": "Para comprobar si un grupo de palabras funciona como complemento directo (CD), podemos sustituirlo por los pronombres «le» o «les».",
+      "explanation": "Es falso. El complemento directo se sustituye por «lo», «la», «los» o «las». Los pronombres «le» y «les» sirven para sustituir al complemento indirecto.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-03",
+      "type": "match",
+      "prompt": "Une cada oración con el pronombre que sustituye a su complemento directo destacado:",
+      "explanation": "El pronombre debe coincidir en género y número con el complemento directo al que sustituye: los lápices (los), una postal (la), el armario (lo) y las plantas (las).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Adrián recogió los lápices",
+          "right": "Los"
+        },
+        {
+          "left": "Nerea escribió una postal",
+          "right": "La"
+        },
+        {
+          "left": "Omar ordenó el armario",
+          "right": "Lo"
+        },
+        {
+          "left": "Lucía regó las plantas",
+          "right": "Las"
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-04",
+      "type": "classify",
+      "prompt": "Clasifica los elementos destacados en mayúsculas según su función en la oración:",
+      "explanation": "Los complementos directos reciben la acción y se sustituyen por lo, la, los o las. Los indirectos indican quién recibe el daño o provecho y se sustituyen por le o les.",
+      "lang": "es",
+      "categories": [
+        "Complemento directo (CD)",
+        "Complemento indirecto (CI)"
+      ],
+      "items": [
+        {
+          "text": "Aisha envió un paquete A SU PRIMA",
+          "category": 1
+        },
+        {
+          "text": "Mateo compró ENTRADAS DE CINE para todos",
+          "category": 0
+        },
+        {
+          "text": "El profesor explicó la lección A LOS ALUMNOS",
+          "category": 1
+        },
+        {
+          "text": "Sofía encontró UNAS LLAVES en el patio",
+          "category": 0
+        },
+        {
+          "text": "El médico recetó un jarabe AL PACIENTE",
+          "category": 1
+        },
+        {
+          "text": "David dibujó UN PAISAJE precioso",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-05",
+      "type": "fill-blank",
+      "prompt": "Completa la oración sustituyendo el complemento indirecto destacado («a su entrenadora») por el pronombre adecuado:",
+      "explanation": "El pronombre correcto para sustituir al complemento indirecto en singular («a su entrenadora») es «le»: «Wei le entregó una medalla».",
+      "lang": "es",
+      "sentence": "Wei entregó una medalla a su entrenadora. -> Wei ___ entregó una medalla.",
+      "options": [
+        "se",
+        "la",
+        "le"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-06",
+      "type": "choice",
+      "prompt": "En el mercadillo solidario del colegio, Martina dice: «Doné mis libros favoritos a la biblioteca del barrio». ¿Qué funciones tienen los complementos destacados?",
+      "explanation": "«Mis libros favoritos» es CD porque se sustituye por «los» («Los doné...») y «a la biblioteca del barrio» es CI porque indica el destino final y se sustituye por «le».",
+      "hint": "Prueba a sustituir cada parte por pronombres: «los doné» y «le doné mis libros».",
+      "lang": "es",
+      "options": [
+        "«Mis libros favoritos» es CI y «a la biblioteca del barrio» es CD.",
+        "«Mis libros favoritos» es CD y «a la biblioteca del barrio» es CI.",
+        "Ambos grupos de palabras son complementos directos (CD)."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-07",
+      "type": "choice",
+      "prompt": "¡Encuentra el error! 🔍 Tres compañeros han sustituido el CD o el CI de la frase «Lucas regaló bombones a su hermana». ¿Quién ha cometido un error gramatical?",
+      "explanation": "Elena comete un error llamado laísmo: «a su hermana» es complemento indirecto y debe sustituirse por «le» («Lucas le regaló bombones»), nunca por «la».",
+      "hint": "Fíjate en cómo se sustituye el complemento indirecto femenino («a su hermana»).",
+      "lang": "es",
+      "options": [
+        "Elena: «Lucas la regaló bombones».",
+        "Marcos: «Lucas le regaló bombones».",
+        "Sara: «Lucas los regaló a su hermana»."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-08",
+      "type": "order",
+      "prompt": "Ordena los pasos para comprobar con seguridad si un grupo de palabras es complemento directo (CD):",
+      "explanation": "Para analizar correctamente, primero buscamos el verbo, planteamos la hipótesis sobre el complemento, aplicamos la regla de sustitución pronominal y verificamos el sentido.",
+      "lang": "es",
+      "items": [
+        "Localiza el verbo de la oración.",
+        "Identifica el grupo de palabras que parece recibir la acción directa.",
+        "Prueba a sustituirlo por los pronombres lo, la, los o las.",
+        "Comprueba que la frase mantiene el sentido con el pronombre delante del verbo."
+      ]
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-09",
+      "type": "reading",
+      "prompt": "Lee atentamente la noticia del periódico escolar y responde a las preguntas:",
+      "explanation": "El análisis sintáctico riguroso mediante sustitución pronominal ayuda a comprender la estructura del texto y a evitar confusiones habituales.",
+      "lang": "es",
+      "title": "Un huerto lleno de vida",
+      "text": "Esta mañana, el alumnado de quinto curso inauguró el nuevo huerto ecológico del colegio. Durante varias semanas, las niñas y los niños prepararon la tierra con esmero y retiraron las piedras del terreno. Después, una agricultora del pueblo ofreció semillas tradicionales a la clase para comenzar la siembra de primavera.\n\nAl terminar la jornada, Hugo entregó una regadera a sus compañeros de equipo para regar los primeros brotes de lechuga. La directora del centro felicitó a todos los participantes por su gran dedicación y entusiasmo. Gracias a la colaboración de las familias, muy pronto el comedor escolar cocinará verduras frescas y saludables cultivadas por sus propios estudiantes.",
+      "questions": [
+        {
+          "prompt": "¿Qué función cumple el grupo de palabras «semillas tradicionales» en la oración «una agricultora del pueblo ofreció semillas tradicionales a la clase»?",
+          "explanation": "«Semillas tradicionales» es CD porque recibe la acción de ofrecer y se sustituye por «las»: «la agricultora las ofreció a la clase».",
+          "options": [
+            "Complemento directo (CD), porque se puede sustituir por «las».",
+            "Complemento indirecto (CI), porque indica quién recibe la ayuda.",
+            "Sujeto de la oración, porque realiza la acción del verbo."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "En la oración «Hugo entregó una regadera a sus compañeros de equipo», ¿cuál es el complemento indirecto?",
+          "explanation": "«A sus compañeros de equipo» es CI porque son los destinatarios de la entrega y admiten la sustitución por «les»: «Hugo les entregó una regadera».",
+          "options": [
+            "A sus compañeros de equipo",
+            "Una regadera",
+            "Hugo"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué es importante comprobar los complementos mediante pronombres y no solo haciendo preguntas como «¿a quién?» al verbo?",
+          "explanation": "Hacer preguntas al verbo suele inducir a error: si decimos «felicitó a los participantes», la pregunta «¿a quién felicitó?» parece un CI, pero es CD («los felicitó»). La prueba del pronombre es el método más fiable.",
+          "options": [
+            "Porque la pregunta «¿a quién?» puede confundir un CI con un CD de persona introducido por la preposición «a».",
+            "Porque los pronombres cambian el significado del verbo y crean una historia diferente.",
+            "Porque la regla gramatical prohíbe formular preguntas al verbo en primaria."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-10",
+      "type": "choice",
+      "prompt": "Queremos sustituir a la vez el CD y el CI en esta frase: «Nerea entregó el trabajo al maestro». ¿Cuál es la transformación correcta?",
+      "explanation": "Al coincidir los dos pronombres («le» de CI y «lo» de CD), el pronombre «le» se transforma obligatoriamente en «se» por razones de sonoridad: «Nerea se lo entregó».",
+      "hint": "En español no se dice «le lo», sino que cambiamos la primera parte por «se».",
+      "lang": "es",
+      "options": [
+        "Nerea se le entregó.",
+        "Nerea le lo entregó.",
+        "Nerea se lo entregó."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:50:45.838Z",
+    "reviewed": false
+  }
+}

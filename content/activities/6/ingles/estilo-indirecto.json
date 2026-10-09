@@ -1,0 +1,248 @@
+{
+  "id": "g6-ingles-estilo-indirecto",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "estilo-indirecto",
+  "temaNombre": "Estilo indirecto",
+  "title": "Mastering Reported Speech in English",
+  "summary": "Practica cómo contar en inglés lo que otras personas han dicho usando el estilo indirecto.",
+  "keyIdeas": [
+    "En estilo indirecto cambiamos los verbos en presente al pasado (am/is a was, like a liked, can a could).",
+    "Los pronombres cambian según quién habla (I pasa a he o she).",
+    "Usamos 'said that' o 'told me that' para introducir lo que alguien dijo."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-estilo-indirecto-01",
+      "type": "true-false",
+      "prompt": "When we report what someone said in the past, present verbs usually change to past verbs.",
+      "explanation": "Es verdadero. En el estilo indirecto (reported speech), si contamos algo que ocurrió en el pasado, el verbo da un salto hacia atrás en el tiempo (por ejemplo, 'play' pasa a 'played').",
+      "hint": "Piensa si usamos el presente o el pasado para contar lo que alguien ya dijo.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-02",
+      "type": "classify",
+      "prompt": "Classify these sentences into Direct Speech or Reported Speech:",
+      "explanation": "El estilo directo reproduce las palabras exactas entre comillas (\"...\"), mientras que el estilo indirecto explica el mensaje usando conectores como 'said that' o 'told me that'.",
+      "lang": "en",
+      "categories": [
+        "Direct Speech",
+        "Reported Speech"
+      ],
+      "items": [
+        {
+          "text": "\"I love football,\" said Hugo.",
+          "category": 0
+        },
+        {
+          "text": "Hugo said that he loved football.",
+          "category": 1
+        },
+        {
+          "text": "\"We are ready,\" shouted the children.",
+          "category": 0
+        },
+        {
+          "text": "Aisha told me that she was tired.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-03",
+      "type": "match",
+      "prompt": "Match each present verb in direct speech with its reported past form:",
+      "explanation": "Al pasar a estilo indirecto, 'am/is' cambia a 'was', 'are' a 'were', los verbos regulares añaden '-ed' ('liked') y 'can' se convierte en 'could'.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "am / is",
+          "right": "was"
+        },
+        {
+          "left": "are",
+          "right": "were"
+        },
+        {
+          "left": "like",
+          "right": "liked"
+        },
+        {
+          "left": "can",
+          "right": "could"
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-04",
+      "type": "fill-blank",
+      "prompt": "Choose the correct pronoun to report what Hugo said:",
+      "explanation": "Como estamos hablando de lo que dijo Hugo (un chico), el pronombre de primera persona 'I' cambia a 'he' en estilo indirecto.",
+      "hint": "Hugo es un chico y ya no está hablando en primera persona.",
+      "lang": "en",
+      "sentence": "Hugo said: 'I am very hungry.' -> Hugo said that ___ was very hungry.",
+      "options": [
+        "I",
+        "you",
+        "he"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-05",
+      "type": "choice",
+      "prompt": "Choose the correct reporting verb: Aisha ___ me that she loved painting.",
+      "explanation": "Usamos 'told' cuando mencionamos a quién se lo dijo (aquí tenemos 'me': told me). Si no especificamos la persona, usamos 'said that'.",
+      "hint": "Fíjate en que detrás del hueco aparece la palabra 'me'.",
+      "lang": "en",
+      "options": [
+        "said",
+        "told",
+        "spoke"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-06",
+      "type": "choice",
+      "prompt": "Martina says in class: \"I have a new pencil case.\" How do you report this?",
+      "explanation": "El pronombre 'I' pasa a 'she' y el presente 'have' cambia al pasado 'had'.",
+      "hint": "Recuerda cambiar tanto el pronombre como el tiempo del verbo.",
+      "lang": "en",
+      "options": [
+        "Martina said that I had a new pencil case.",
+        "Martina said that she have a new pencil case.",
+        "Martina said that she had a new pencil case."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-07",
+      "type": "order",
+      "prompt": "Order the words to make a correct sentence in reported speech:",
+      "explanation": "El orden estándar en inglés es Sujeto (Omar) + verbo de reporte (said) + conjunción (that) + nuevo sujeto (he) + verbo en pasado (was) + adjetivo (happy).",
+      "lang": "en",
+      "items": [
+        "Omar",
+        "said",
+        "that",
+        "he",
+        "was",
+        "happy."
+      ]
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-08",
+      "type": "fill-blank",
+      "prompt": "Complete the reported sentence with the past form of 'can':",
+      "explanation": "El pasado del verbo modal 'can' es 'could', por lo que en estilo indirecto decimos 'she could run'.",
+      "hint": "Es un verbo irregular que empieza por 'c' y termina en 'd'.",
+      "lang": "en",
+      "sentence": "Lucía told the coach that she ___ run very fast.",
+      "options": [
+        "could",
+        "can",
+        "canned"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-09",
+      "type": "reading",
+      "prompt": "Read the text about the school club and answer the questions:",
+      "explanation": "El texto utiliza el estilo indirecto para resumir las ideas que aportó cada alumno en la reunión ecológica.",
+      "lang": "en",
+      "title": "The Green Club Meeting",
+      "text": "Yesterday, our school Green Club had an important meeting. Aisha said that our school needed more recycling bins in the playground. Then, Wei explained that his class collected paper every Friday to help the planet. Leo arrived a bit late and told the teacher that he had three big boxes for plastic bottles. Our teacher, Mr. Davies, was very proud. He said that small actions made a huge difference for nature. Lucía suggested a clean-up day for next Saturday. She told everyone that her parents wanted to help in the school garden too. At the end of the meeting, Aisha took notes so we could share the ideas with our families. We are very excited because our project is helping our school community become greener and cleaner!",
+      "questions": [
+        {
+          "prompt": "What did Wei explain about his class?",
+          "explanation": "En el texto se menciona literalmente: 'Wei explained that his class collected paper every Friday to help the planet'.",
+          "options": [
+            "That his class planted flowers yesterday.",
+            "That his class bought new plastic bottles.",
+            "That his class collected paper every Friday."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why was Mr. Davies proud of his students?",
+          "explanation": "Se infiere que el maestro estaba orgulloso porque los alumnos propusieron ideas útiles y comprometidas con la naturaleza (papelera, cajas, limpieza).",
+          "options": [
+            "Because nobody arrived late to the meeting.",
+            "Because they finished their homework very quickly.",
+            "Because they brought creative solutions to care for the environment."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "How does Lucía's proposal involve people beyond the school?",
+          "explanation": "Lucía incluye a personas de fuera del colegio porque comentó que sus padres también querían colaborar en el huerto escolar.",
+          "options": [
+            "She said that her parents wanted to help in the garden.",
+            "She invited children from another city to visit.",
+            "She asked the supermarket for cardboard boxes."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-10",
+      "type": "choice",
+      "prompt": "David tells the class: \"We want to plant trees tomorrow.\" How do you report his words correctly?",
+      "explanation": "La opción correcta usa 'told the teacher' (sin 'to'), cambia 'we' a 'they' y pasa el verbo 'want' a pasado 'wanted'.",
+      "hint": "Revisa la estructura de 'told someone' y el tiempo pasado del verbo.",
+      "lang": "en",
+      "options": [
+        "David told to the teacher that they want to plant trees.",
+        "David told the teacher that they wanted to plant trees.",
+        "David said the teacher that we want to plant trees."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:21:39.098Z",
+    "reviewed": false
+  }
+}

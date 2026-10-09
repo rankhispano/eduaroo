@@ -1,0 +1,253 @@
+{
+  "id": "g6-naturales-ciencia-y-tecnologia",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "ciencia-y-tecnologia",
+  "temaNombre": "Ciencia y tecnología",
+  "title": "Explorando la ciencia y la tecnología",
+  "summary": "Descubre cómo investiga la ciencia y cómo la tecnología diseña soluciones prácticas para mejorar nuestro día a día.",
+  "keyIdeas": [
+    "La ciencia busca comprender el mundo natural mediante el método científico, mientras que la tecnología aplica conocimientos para resolver necesidades humanas.",
+    "En todo experimento fiable es imprescindible controlar las variables; refutar una hipótesis previa también genera conocimiento científico valioso.",
+    "Los proyectos de diseño siguen fases clave: identificar el problema, diseñar bocetos, construir un prototipo, probarlo y evaluar mejoras."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "2.4",
+      "3.2",
+      "3.3"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "B. Tecnología y digitalización › Proyectos de diseño y pensamiento computacional"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-01",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la finalidad de la ciencia y la tecnología.",
+      "explanation": "La ciencia genera conocimiento para entender el mundo, mientras que la tecnología aplica ese conocimiento para crear objetos, sistemas o herramientas útiles.",
+      "hint": "Piensa en inventos e ingenios que resuelven problemas cotidianos.",
+      "lang": "es",
+      "sentence": "Mientras que la ciencia busca explicar los fenómenos de la naturaleza, la tecnología aprovecha ese saber para diseñar ___ que den respuesta a necesidades humanas.",
+      "options": [
+        "hipótesis teóricas",
+        "soluciones prácticas",
+        "leyes universales"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-02",
+      "type": "order",
+      "prompt": "Ordena los pasos habituales de una investigación científica desde el inicio hasta el final.",
+      "explanation": "El método científico comienza con la curiosidad ante una observación, formula una posible respuesta (hipótesis), la pone a prueba con pruebas rigurosas y finalmente comparte los hallazgos.",
+      "lang": "es",
+      "items": [
+        "Observar un fenómeno y formular una pregunta",
+        "Plantear una hipótesis razonada",
+        "Diseñar y realizar un experimento controlado",
+        "Registrar y analizar los datos obtenidos",
+        "Extraer conclusiones y comunicar los resultados"
+      ]
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-03",
+      "type": "classify",
+      "prompt": "Clasifica cada elemento según sea un descubrimiento científico o una invención tecnológica.",
+      "explanation": "Los descubrimientos revelan leyes o elementos que ya existían en la naturaleza, mientras que las invenciones son objetos y sistemas creados por el ser humano.",
+      "lang": "es",
+      "categories": [
+        "Descubrimiento científico",
+        "Invención tecnológica"
+      ],
+      "items": [
+        {
+          "text": "La penicilina producida de forma natural por hongos",
+          "category": 0
+        },
+        {
+          "text": "El microscopio electrónico",
+          "category": 1
+        },
+        {
+          "text": "La ley de la gravitación universal",
+          "category": 0
+        },
+        {
+          "text": "El panel solar fotovoltaico",
+          "category": 1
+        },
+        {
+          "text": "La estructura de la molécula de ADN",
+          "category": 0
+        },
+        {
+          "text": "El brazo robótico para cirugía",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-04",
+      "type": "match",
+      "prompt": "Relaciona cada herramienta o concepto tecnológico con su función en un proyecto escolar.",
+      "explanation": "Cada herramienta digital o técnica cumple un rol específico en el proceso de idear, programar y construir prototipos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Sensor de ultrasonidos",
+          "right": "Medir distancias y detectar obstáculos cercanos"
+        },
+        {
+          "left": "Impresora 3D",
+          "right": "Fabricar piezas y prototipos físicos capa a capa"
+        },
+        {
+          "left": "Algoritmo",
+          "right": "Secuencia ordenada de pasos para resolver un reto"
+        },
+        {
+          "left": "Boceto técnico",
+          "right": "Dibujo inicial a mano para planificar un diseño"
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-05",
+      "type": "true-false",
+      "prompt": "Si en un experimento los datos demuestran que tu hipótesis inicial era incorrecta, la investigación ha sido un fracaso y no aporta nada a la ciencia.",
+      "explanation": "Comprobar que una hipótesis es falsa es un avance científico fundamental, pues descarta ideas equivocadas y orienta a la comunidad científica hacia nuevas preguntas.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-06",
+      "type": "choice",
+      "prompt": "Aisha y Hugo quieren programar un pequeño robot móvil para que recorra un laberinto en clase de Ciencias. Aplicando el pensamiento computacional, ¿cuál debe ser su primer paso?",
+      "explanation": "La descomposición de problemas consiste en dividir un reto grande en tareas más sencillas y ordenadas, base del pensamiento computacional.",
+      "hint": "Recuerda que los ordenadores y robots necesitan instrucciones paso a paso.",
+      "lang": "es",
+      "options": [
+        "Cambiar las ruedas por unas más grandes sin analizar el trazado del circuito",
+        "Escribir código muy complejo al azar hasta que el robot acierte por casualidad",
+        "Descomponer el recorrido completo en instrucciones simples de avance y giro"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-07",
+      "type": "choice",
+      "prompt": "Martina y Omar investigan qué material reduce mejor el ruido. Colocan un timbre sonando dentro de tres cajas idénticas: una con corcho, otra con cartón y otra con algodón. ¿Qué variable deben mantener estrictamente constante para que el ensayo sea justo?",
+      "explanation": "Para que un experimento sea válido, solo debe cambiar la variable que investigamos (el material). Todas las demás condiciones (volumen inicial, distancia de medición) deben ser iguales.",
+      "hint": "Si cambias la distancia del medidor en cada caja, no sabrás si la diferencia se debe al material o a la distancia.",
+      "lang": "es",
+      "options": [
+        "La masa exacta del material aislante sin importar la posición del medidor",
+        "El material aislante colocado dentro de cada una de las cajas",
+        "La intensidad del sonido emitido por el timbre y la distancia del medidor a la caja"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-08",
+      "type": "order",
+      "prompt": "Ordena las fases de un proyecto de diseño tecnológico desde la detección de una necesidad hasta su resolución.",
+      "explanation": "El proceso tecnológico avanza desde la detección de la necesidad hasta el prototipado, el ensayo riguroso y la comunicación de las conclusiones.",
+      "lang": "es",
+      "items": [
+        "Identificar el problema o necesidad en el entorno",
+        "Diseñar bocetos y planificar los recursos necesarios",
+        "Construir un primer prototipo funcional",
+        "Probar el prototipo y evaluar sus posibles fallos",
+        "Comunicar la solución final y plantear mejoras futuras"
+      ]
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-09",
+      "type": "reading",
+      "prompt": "Lee este texto sobre cómo la naturaleza inspira a la ingeniería y contesta a las preguntas.",
+      "explanation": "La biomímesis demuestra cómo la observación científica de la naturaleza proporciona soluciones directas a desafíos de la ingeniería.",
+      "lang": "es",
+      "title": "El tren que imitó el vuelo de un ave",
+      "text": "En Japón, el tren de alta velocidad Shinkansen alcanzaba más de trescientos kilómetros por hora, pero sufría un grave problema: al salir de los túneles empujaba el aire comprimido y provocaba un estruendo ensordecedor que molestaba a las poblaciones vecinas. El ingeniero Eiji Nakatsu, apasionado de la ornitología, observó con atención al martín pescador. Esta pequeña ave se lanza en picado desde el aire y penetra en el agua a gran velocidad casi sin salpicar ni perder impulso. La clave estaba en la forma alargada y afilada de su pico. Nakatsu y su equipo rediseñaron la nariz del tren copiando con exactitud esa silueta natural. El resultado superó las expectativas: el tren eliminó los ruidos molestos en los túneles, redujo su resistencia aerodinámica, consumió un 15 % menos de energía eléctrica y aumentó su velocidad. Esta rama que une ciencia y tecnología inspirándose en seres vivos se llama biomímesis.",
+      "questions": [
+        {
+          "prompt": "¿En qué rasgo anatómico del martín pescador se inspiró el equipo de ingenieros para remodelar el tren?",
+          "explanation": "El texto explica que el pico alargado del martín pescador le permite entrar en un medio denso como el agua sin generar resistencia brusca ni salpicaduras.",
+          "options": [
+            "En la curvatura de sus patas al aterrizar",
+            "En la posición de sus plumas durante el planeo",
+            "En la forma alargada y aerodinámica de su pico"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué el nuevo diseño permitió que el tren consumiera un 15 % menos de energía eléctrica?",
+          "explanation": "Al reducir la resistencia aerodinámica, el motor necesita ejercer menos fuerza para avanzar a la misma velocidad, lo que ahorra electricidad.",
+          "options": [
+            "Porque la forma aerodinámica redujo la fuerza de fricción contra el aire",
+            "Porque sustituyeron los motores eléctricos por biocombustibles naturales",
+            "Porque el tren empezó a circular a menor velocidad dentro de los túneles"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "A partir de lo leído, ¿qué conclusión crítica podemos extraer sobre la biomímesis?",
+          "explanation": "La biomímesis demuestra que millones de años de evolución biológica ofrecen soluciones ingeniosas y sostenibles a problemas mecánicos complejos.",
+          "options": [
+            "Que cualquier máquina creada por el ser humano supera sin esfuerzo a las adaptaciones de los animales",
+            "Que la ingeniería debe sustituir los cálculos matemáticos por el adiestramiento de animales salvajes",
+            "Que observar y conservar los ecosistemas aporta ideas clave para crear tecnologías más eficientes y sostenibles"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-10",
+      "type": "choice",
+      "prompt": "En el colegio de Lucía quieren avisar a las familias de los menús del comedor sin gastar tanto papel. El equipo de robótica propone dos opciones: crear una sección informativa en la web del centro o colocar tres pantallas gigantes encendidas día y noche en la fachada. ¿Por qué la solución digital en la web es más adecuada desde el punto de vista tecnológico y sostenible?",
+      "explanation": "Un buen diseño tecnológico busca resolver la necesidad minimizando el impacto ambiental y el gasto energético, algo que cumple la publicación web frente al consumo de pantallas 24 horas.",
+      "hint": "Valora cuál de las dos propuestas resuelve el problema gastando menos recursos.",
+      "lang": "es",
+      "options": [
+        "Porque los ordenadores de la web funcionan de manera permanente sin requerir ningún tipo de energía ni mantenimiento",
+        "Porque ofrece acceso inmediato a la información desde cualquier lugar sin provocar un consumo eléctrico continuo e innecesario",
+        "Porque instalar pantallas luminosas gigantes en la calle está prohibido para todos los centros educativos"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:18:35.523Z",
+    "reviewed": false
+  }
+}

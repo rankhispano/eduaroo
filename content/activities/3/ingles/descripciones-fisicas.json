@@ -1,0 +1,248 @@
+{
+  "id": "g3-ingles-descripciones-fisicas",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "descripciones-fisicas",
+  "temaNombre": "Descripciones físicas",
+  "title": "Describing People: ¡Aprende a describir!",
+  "summary": "Repasa cómo describir el aspecto físico de las personas en inglés usando adjetivos y el verbo have got.",
+  "keyIdeas": [
+    "Usamos 'is' con adjetivos de estatura como 'tall' (alto) o 'short' (bajo).",
+    "Usamos 'has got' (tiene) para hablar del pelo y los ojos: 'She has got curly hair'.",
+    "Para describir el pelo, colocamos los adjetivos antes del sustantivo: 'long blond hair'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-descripciones-fisicas-01",
+      "type": "match",
+      "prompt": "Relaciona cada palabra o rasgo físico con su opuesto:",
+      "explanation": "En inglés, 'tall' (alto) es el opuesto de 'short' (bajo), 'straight' (liso) de 'curly' (rizado), y 'dark' (oscuro) de 'blond' (rubio).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "tall",
+          "right": "short"
+        },
+        {
+          "left": "long hair",
+          "right": "short hair"
+        },
+        {
+          "left": "straight hair",
+          "right": "curly hair"
+        },
+        {
+          "left": "dark hair",
+          "right": "blond hair"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-02",
+      "type": "true-false",
+      "prompt": "Read the sentence: 'Lucas is tall and he has got curly hair.' Lucas has got straight hair.",
+      "explanation": "La frase dice que Lucas tiene el pelo rizado ('curly hair'), no liso ('straight hair').",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-03",
+      "type": "choice",
+      "prompt": "Elige la opción correcta para completar la frase: 'My friend Martina ___ very tall.'",
+      "explanation": "Para hablar de la altura usamos el verbo 'to be' ('is'). Usamos 'has got' para partes del cuerpo como el pelo o los ojos.",
+      "hint": "¿Hablamos de cómo es o de lo que tiene?",
+      "lang": "en",
+      "options": [
+        "has got",
+        "is",
+        "have got"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-04",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según describan el pelo ('Hair') o los ojos ('Eyes'):",
+      "explanation": "'Curly' (rizado), 'straight' (liso) y 'blond' (rubio) describen el pelo. 'Blue', 'green' y 'brown eyes' se refieren a los ojos.",
+      "lang": "en",
+      "categories": [
+        "Hair",
+        "Eyes"
+      ],
+      "items": [
+        {
+          "text": "curly",
+          "category": 0
+        },
+        {
+          "text": "blue",
+          "category": 1
+        },
+        {
+          "text": "straight",
+          "category": 0
+        },
+        {
+          "text": "green",
+          "category": 1
+        },
+        {
+          "text": "blond",
+          "category": 0
+        },
+        {
+          "text": "brown eyes",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la forma correcta del verbo tener:",
+      "explanation": "Para 'he' (my brother) usamos 'has got'. 'Have got' se usa con I, you, we y they.",
+      "hint": "Recuerda que 'brother' equivale a 'he'.",
+      "lang": "en",
+      "sentence": "My brother ___ brown eyes and glasses.",
+      "options": [
+        "is",
+        "have got",
+        "has got"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-06",
+      "type": "choice",
+      "prompt": "En el recreo buscas a Omar: 'Omar is short, has got curly black hair and wears red glasses.' ¿Quién es Omar?",
+      "explanation": "Omar es el chico bajo con pelo rizado y negro que lleva gafas rojas ('red glasses').",
+      "lang": "en",
+      "options": [
+        "The boy with short curly black hair and red glasses.",
+        "The tall girl with straight blond hair.",
+        "The boy with long brown hair and blue eyes."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-07",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar una frase correcta sobre la descripción de Aisha:",
+      "explanation": "El orden correcto en inglés es: Sujeto ('She') + verbo ('has got') + adjetivos ('long curly') + sustantivo ('hair').",
+      "lang": "en",
+      "items": [
+        "She",
+        "has got",
+        "long",
+        "curly",
+        "hair."
+      ]
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-08",
+      "type": "choice",
+      "prompt": "Adrián describes his cousin: 'She hasn't got straight hair. Her hair is ___.'",
+      "explanation": "'Wavy' (ondulado) es un tipo de pelo. 'Tall' describe la estatura y 'green' no es un color natural de pelo.",
+      "hint": "Busca una palabra que describa la forma del pelo.",
+      "lang": "en",
+      "options": [
+        "green",
+        "tall",
+        "wavy"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-09",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas:",
+      "explanation": "¡Muy bien! Has encontrado todos los detalles físicos de Aisha en el texto.",
+      "lang": "en",
+      "title": "Meeting at the School Library",
+      "text": "Today is School Club Day. Leo is looking for his friend Aisha. Aisha is tall and cheerful. She has got long wavy hair. Her hair is dark brown. Aisha has got big green eyes and she wears purple glasses. Leo looks near the library and sees three students. Then Leo spots Aisha sitting by the window. She is reading a comic book and smiling.",
+      "questions": [
+        {
+          "prompt": "What kind of hair has Aisha got?",
+          "explanation": "El texto dice explícitamente: 'She has got long wavy hair. Her hair is dark brown.'",
+          "options": [
+            "Long wavy dark brown hair.",
+            "Short straight blond hair.",
+            "Curly red hair."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What colour are Aisha's glasses?",
+          "explanation": "En la lectura se indica: 'she wears purple glasses'.",
+          "options": [
+            "Purple",
+            "Green",
+            "Red"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Where is Aisha sitting?",
+          "explanation": "El texto explica que Leo la encuentra sentada junto a la ventana ('by the window') cerca de la biblioteca.",
+          "options": [
+            "At the school cafeteria.",
+            "In the football pitch.",
+            "By the window near the library."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-10",
+      "type": "fill-blank",
+      "prompt": "Resuelve la adivinanza completando el adjetivo de estatura que falta:",
+      "explanation": "Lo contrario de 'tall' (alto) es 'short' (bajo). 'Curly' y 'straight' describen el pelo, no la estatura.",
+      "hint": "Es el opuesto de 'tall'.",
+      "lang": "en",
+      "sentence": "I am not tall. I am ___. I have got green eyes and short hair.",
+      "options": [
+        "curly",
+        "short",
+        "straight"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:59:33.307Z",
+    "reviewed": false
+  }
+}

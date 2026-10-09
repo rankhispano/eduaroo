@@ -1,0 +1,262 @@
+{
+  "id": "g4-naturales-reproduccion-en-animales-y-plantas",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "reproduccion-en-animales-y-plantas",
+  "temaNombre": "Reproducción en animales y plantas",
+  "title": "La reproducción: plantas y animales",
+  "summary": "Repasa cómo nacen los animales y cómo se reproducen las plantas con flor y sin flor.",
+  "keyIdeas": [
+    "Los animales pueden ser ovíparos si nacen de huevos o vivíparos si se desarrollan en el vientre materno.",
+    "Las flores tienen órganos masculinos, los estambres, y un órgano femenino llamado pistilo.",
+    "Muchas plantas se reproducen mediante semillas y otras de forma asexual usando tallos, tubérculos o bulbos."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-01",
+      "type": "classify",
+      "prompt": "Clasifica estos animales según su forma de nacer.",
+      "explanation": "Los ovíparos ponen huevos donde crece la cría. Los vivíparos se forman dentro del cuerpo de la madre.",
+      "lang": "es",
+      "categories": [
+        "Animales ovíparos (nacen de huevos)",
+        "Animales vivíparos (vientre materno)"
+      ],
+      "items": [
+        {
+          "text": "Águila imperial",
+          "category": 0
+        },
+        {
+          "text": "Delfín mular",
+          "category": 1
+        },
+        {
+          "text": "Rana común",
+          "category": 0
+        },
+        {
+          "text": "Oveja",
+          "category": 1
+        },
+        {
+          "text": "Mariposa",
+          "category": 0
+        },
+        {
+          "text": "Lobo ibérico",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta sobre las plantas.",
+      "explanation": "La polinización es el transporte del polen de una flor a otra gracias al viento o a insectos.",
+      "hint": "Piensa en el polen.",
+      "lang": "es",
+      "sentence": "El viaje del polen desde los estambres hasta el pistilo de una flor se llama ___.",
+      "options": [
+        "polinización",
+        "germinación",
+        "fotosíntesis"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-03",
+      "type": "true-false",
+      "prompt": "Todas las plantas del planeta necesitan obligatoriamente semillas para poder reproducirse.",
+      "explanation": "Es falso. Algunas plantas pueden reproducirse de forma asexual mediante tubérculos, bulbos o estolones sin usar semillas.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-04",
+      "type": "match",
+      "prompt": "Une cada parte de la flor con su función principal.",
+      "explanation": "Cada parte de la flor cumple una misión clave para que la planta pueda reproducirse con éxito.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Pistilo",
+          "right": "Parte femenina que contiene los óvulos"
+        },
+        {
+          "left": "Estambres",
+          "right": "Parte masculina que produce los granos de polen"
+        },
+        {
+          "left": "Pétalos",
+          "right": "Hojas de colores vistosos que atraen insectos"
+        },
+        {
+          "left": "Sépalos",
+          "right": "Hojas verdes de la base que protegen la flor cerrada"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-05",
+      "type": "choice",
+      "prompt": "Omar planta una fresa en una maceta. Pronto observa un tallo largo que toca la tierra y echa raíces. ¿Qué proceso es?",
+      "explanation": "Las fresas emiten tallos rastreros llamados estolones. Al tocar el suelo, forman raíces y crean una planta idéntica sin semillas.",
+      "hint": "La nueva planta nace directamente de un tallo de la planta madre.",
+      "lang": "es",
+      "options": [
+        "Polinización mediante el viento",
+        "Reproducción asexual mediante estolones",
+        "Reproducción sexual por semillas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-06",
+      "type": "order",
+      "prompt": "Ordena los pasos de la reproducción sexual en las plantas con flor, del primero al último.",
+      "explanation": "Primero ocurre la polinización, luego la fecundación, la formación del fruto, la dispersión y, por último, la germinación.",
+      "lang": "es",
+      "items": [
+        "El polen viaja desde los estambres hasta el pistilo.",
+        "El polen se une con el óvulo dentro del ovario.",
+        "El pistilo se transforma en fruto con semillas dentro.",
+        "Las semillas caen y se dispersan por el suelo.",
+        "La semilla absorbe agua, germina y nace una plántula."
+      ]
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-07",
+      "type": "choice",
+      "prompt": "Adrián dice en clase: «Las ballenas ponen huevos en el agua porque viven en el mar como los peces». ¿Cuál es su error?",
+      "explanation": "Aunque vivan en el agua, las ballenas son mamíferos. Tienen reproducción vivípara y amamantan a sus crías.",
+      "hint": "Recuerda a qué grupo de vertebrados pertenecen las ballenas.",
+      "lang": "es",
+      "options": [
+        "Las ballenas son mamíferos vivíparos y sus crías nacen de la madre.",
+        "Las ballenas ponen huevos con cáscara dura en las playas de arena.",
+        "Las ballenas no ponen huevos porque son animales anfibios."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-08",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas.",
+      "explanation": "Los polinizadores son imprescindibles para la fecundación de muchas plantas y para obtener cosechas en los huertos.",
+      "lang": "es",
+      "title": "El huerto escolar de Martina y Hugo",
+      "text": "Martina y Hugo cuidan el huerto del colegio. Han plantado calabacines y tomates. Una mañana, Martina observa a varios abejorros posarse en las flores amarillas del calabacín. Los insectos se llenan de un polvo amarillo llamado polen mientras buscan néctar. Al volar hacia otra flor, dejan caer parte de ese polen en el pistilo. Gracias a esta polinización, los óvulos se fecundan y la base de la flor empieza a engordar. En pocas semanas, esa flor marchita dará paso a un sabroso calabacín lleno de semillas.",
+      "questions": [
+        {
+          "prompt": "¿Qué parte de la flor engorda tras la fecundación para transformarse en fruto?",
+          "explanation": "El ovario, situado en la base del pistilo, engorda tras la fecundación para convertirse en el fruto con semillas.",
+          "options": [
+            "Los granos de polen que caen al suelo",
+            "Los pétalos exteriores de color amarillo",
+            "La base de la flor que contiene los óvulos"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué ocurriría con los calabacines si desaparecieran los abejorros y otros polinizadores del huerto?",
+          "explanation": "Sin insectos polinizadores, el polen no llegaría a los pistilos, impidiendo la fecundación y la formación de frutos.",
+          "options": [
+            "Muchas flores no se fecundarían y se recogerían muy pocos frutos.",
+            "Las plantas darían el doble de calabacines porque no sufrirían picaduras.",
+            "Las flores se transformarían en calabacines mucho más rápido."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-09",
+      "type": "choice",
+      "prompt": "Aisha prepara un experimento con semillas de lenteja. Pone un vaso con tierra húmeda y otro con tierra totalmente seca. Ambos reciben la misma luz. ¿Qué predicción científica es la correcta?",
+      "explanation": "El agua es indispensable para que la cáscara de la semilla se ablande y el embrión empiece a crecer.",
+      "hint": "¿Qué elemento esencial le falta al vaso seco?",
+      "lang": "es",
+      "options": [
+        "Germinarán ambos vasos a la vez porque la luz solar es lo único imprescindible.",
+        "Germinarán las del vaso seco porque el exceso de agua ahoga a todas las semillas.",
+        "Solo germinarán las lentejas del vaso húmedo porque el agua activa la semilla."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-10",
+      "type": "classify",
+      "prompt": "Clasifica cómo se reproduce cada una de estas plantas en la agricultura.",
+      "explanation": "Las semillas proceden de la reproducción sexual con flores. Los tubérculos y bulbos son tallos que permiten la reproducción asexual.",
+      "lang": "es",
+      "categories": [
+        "Reproducción sexual (a partir de semillas)",
+        "Reproducción asexual (tallos, bulbos o tubérculos)"
+      ],
+      "items": [
+        {
+          "text": "Trigo sembrado con granos en el campo",
+          "category": 0
+        },
+        {
+          "text": "Patata nacida de los brotes de un tubérculo",
+          "category": 1
+        },
+        {
+          "text": "Ajo cultivado enterrando un diente del bulbo",
+          "category": 1
+        },
+        {
+          "text": "Girasol que crece tras plantar una pipa",
+          "category": 0
+        },
+        {
+          "text": "Cebolla sembrada a partir de un bulbo",
+          "category": 1
+        },
+        {
+          "text": "Tomatera nacida de una semilla de tomate",
+          "category": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:59:29.099Z",
+    "reviewed": false
+  }
+}

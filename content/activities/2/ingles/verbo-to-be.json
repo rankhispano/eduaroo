@@ -1,0 +1,228 @@
+{
+  "id": "g2-ingles-verbo-to-be",
+  "cursoId": "2",
+  "asignaturaId": "ingles",
+  "temaId": "verbo-to-be",
+  "temaNombre": "Verbo to be",
+  "title": "Aprende el verbo to be",
+  "summary": "Practica las formas am, is y are para presentarte y describir personas o cosas.",
+  "keyIdeas": [
+    "Usamos 'am' con 'I' (yo): I am happy.",
+    "Usamos 'is' con una sola persona o cosa: He is, She is, It is.",
+    "Usamos 'are' con varias personas o con 'you': You are, We are, They are."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-ingles-verbo-to-be-01",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra correcta para completar la frase:",
+      "explanation": "Con el pronombre I (yo) siempre usamos am.",
+      "hint": "Recuerda qué forma del verbo acompaña a I.",
+      "lang": "en",
+      "sentence": "I ___ a student.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-02",
+      "type": "choice",
+      "prompt": "She ___ happy today.",
+      "explanation": "Con she (ella) usamos is porque hablamos de una sola persona.",
+      "hint": "She significa ella (singular).",
+      "lang": "en",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-03",
+      "type": "match",
+      "prompt": "Une cada pronombre con su forma correcta del verbo to be:",
+      "explanation": "Decimos I am, He is y They are.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "am"
+        },
+        {
+          "left": "He",
+          "right": "is"
+        },
+        {
+          "left": "They",
+          "right": "are"
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-04",
+      "type": "true-false",
+      "prompt": "¿Es correcta esta frase? 'They is my friends.'",
+      "explanation": "No es correcta. Con they (ellos) debemos usar are: They are my friends.",
+      "hint": "They se refiere a varias personas (plural).",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-05",
+      "type": "classify",
+      "prompt": "Clasifica cada pronombre según la forma del verbo to be que le corresponde:",
+      "explanation": "Usamos is con he, she, it. Usamos are con you, we, they.",
+      "lang": "en",
+      "categories": [
+        "is",
+        "are"
+      ],
+      "items": [
+        {
+          "text": "She",
+          "category": 0
+        },
+        {
+          "text": "It",
+          "category": 0
+        },
+        {
+          "text": "We",
+          "category": 1
+        },
+        {
+          "text": "You",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-06",
+      "type": "fill-blank",
+      "prompt": "En el recreo, Aisha señala a su amigo Hugo. Completa:",
+      "explanation": "Hugo es un chico (he), por eso usamos is.",
+      "hint": "Hugo es una sola persona.",
+      "lang": "en",
+      "sentence": "Hugo ___ my friend.",
+      "options": [
+        "am",
+        "are",
+        "is"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-07",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar una frase correcta:",
+      "explanation": "El orden en inglés es sujeto (We), verbo (are) y lugar (in the park).",
+      "lang": "en",
+      "items": [
+        "We",
+        "are",
+        "in",
+        "the",
+        "park."
+      ]
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-08",
+      "type": "choice",
+      "prompt": "Omar y Lucía están en clase. Omar dice: 'We ___ ready!'",
+      "explanation": "We significa nosotros, así que usamos are.",
+      "hint": "We es plural.",
+      "lang": "en",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-09",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions:",
+      "explanation": "Leo nos cuenta sobre él y su amiga Martina usando el verbo to be.",
+      "lang": "en",
+      "title": "At the School Yard",
+      "text": "Hello! I am Leo. I am seven years old. Martina is my friend. She is funny. We are at school today. The school is big.",
+      "questions": [
+        {
+          "prompt": "Who is Leo's friend?",
+          "explanation": "El texto dice claramente: Martina is my friend.",
+          "options": [
+            "Lucía",
+            "Aisha",
+            "Martina"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Complete with the text: The school ___ big.",
+          "explanation": "The school es una cosa singular (it), por eso el texto dice is.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-10",
+      "type": "fill-blank",
+      "prompt": "Mira la pregunta y elige la forma correcta para completarla:",
+      "explanation": "Con you siempre usamos are, también en preguntas: Are you happy today?",
+      "hint": "El pronombre es you.",
+      "lang": "en",
+      "sentence": "___ you happy today?",
+      "options": [
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:08:26.284Z",
+    "reviewed": false
+  }
+}

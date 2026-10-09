@@ -1,0 +1,220 @@
+{
+  "id": "g1-sociales-la-familia",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "la-familia",
+  "temaNombre": "La familia",
+  "title": "Descubrimos a nuestra familia",
+  "summary": "Repasa los tipos de familia, el parentesco y la colaboración en casa.",
+  "keyIdeas": [
+    "Todas las familias son diferentes y se cuidan con cariño.",
+    "En casa, todas las personas colaboramos en las tareas del hogar.",
+    "Nuestros abuelos y abuelas forman parte de nuestra historia familiar."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE7",
+      "CE8",
+      "CE9"
+    ],
+    "criteria": [
+      "7.1",
+      "8.2",
+      "9.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CCL5",
+      "CE2",
+      "CP3",
+      "CPSAA1",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-la-familia-01",
+      "type": "true-false",
+      "prompt": "¿Todas las familias son iguales?",
+      "explanation": "Hay muchos tipos de familia y todas son especiales y únicas.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-sociales-la-familia-02",
+      "type": "match",
+      "prompt": "Une a cada persona con su parentesco.",
+      "explanation": "Las palabras familiares explican cómo nos unimos en la familia.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "La madre de mi madre",
+          "right": "Mi abuela"
+        },
+        {
+          "left": "El hijo de mis padres",
+          "right": "Mi hermano"
+        },
+        {
+          "left": "El hermano de mi padre",
+          "right": "Mi tío"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-la-familia-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la familia.",
+      "explanation": "El cariño y el respeto son la base de las familias.",
+      "lang": "es",
+      "sentence": "En la familia, lo más importante es cuidarse y darse ___.",
+      "options": [
+        "cariño",
+        "miedo",
+        "enfado"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-la-familia-04",
+      "type": "classify",
+      "prompt": "Clasifica estas tareas según quién puede hacerlas en casa.",
+      "explanation": "Los adultos hacen tareas difíciles y los pequeños colaboramos ordenando.",
+      "lang": "es",
+      "categories": [
+        "Niñas y niños pequeños",
+        "Personas adultas"
+      ],
+      "items": [
+        {
+          "text": "Recoger mis juguetes de la habitación",
+          "category": 0
+        },
+        {
+          "text": "Poner las servilletas en la mesa",
+          "category": 0
+        },
+        {
+          "text": "Cocinar con aceite muy caliente",
+          "category": 1
+        },
+        {
+          "text": "Planchar la ropa con calor",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-la-familia-05",
+      "type": "choice",
+      "prompt": "Lucas ve a su padre barriendo el salón. ¿Qué puede hacer?",
+      "explanation": "Colaborar en las tareas del hogar mejora la convivencia de todos.",
+      "hint": "Piensa en cómo ayudar para terminar antes.",
+      "lang": "es",
+      "options": [
+        "Irse a jugar sin recoger nada.",
+        "Tirar más papeles al suelo.",
+        "Ayudar a recoger los juguetes del suelo."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-la-familia-06",
+      "type": "order",
+      "prompt": "Ordena el ciclo de vida de una persona desde el principio.",
+      "explanation": "Todas las personas nacemos como bebés y crecemos con el tiempo.",
+      "lang": "es",
+      "items": [
+        "Bebé",
+        "Niña o niño",
+        "Persona adulta",
+        "Persona anciana"
+      ]
+    },
+    {
+      "id": "g1-sociales-la-familia-07",
+      "type": "true-false",
+      "prompt": "Solo las madres deben lavar los platos y cocinar.",
+      "explanation": "Todas las personas de la casa deben colaborar por igual.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-sociales-la-familia-08",
+      "type": "choice",
+      "prompt": "¿Qué ocurre cuando todos en casa colaboran y ayudan?",
+      "explanation": "Repartir las tareas nos deja más tiempo para jugar juntos.",
+      "hint": "Piensa en las ventajas del trabajo en equipo.",
+      "lang": "es",
+      "options": [
+        "Tenemos más tiempo libre para disfrutar juntos.",
+        "La casa se queda más desordenada y sucia.",
+        "Nadie sabe qué tarea tiene que hacer."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-la-familia-09",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el pasado familiar.",
+      "explanation": "Los recuerdos de los mayores nos enseñan el pasado.",
+      "lang": "es",
+      "sentence": "Los abuelos nos cuentan historias del pasado gracias a sus ___.",
+      "options": [
+        "recuerdos",
+        "patinetes",
+        "mochilas"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-la-familia-10",
+      "type": "reading",
+      "prompt": "Lee el texto con atención y responde a las preguntas.",
+      "explanation": "Mirar fotos familiares nos ayuda a conocer cómo vivían nuestros antepasados.",
+      "lang": "es",
+      "title": "El álbum de fotos de Martina",
+      "text": "Martina mira un álbum de fotos con su abuelo Luis. En una foto antigua sale Luis de niño jugando con peonzas. Martina sonríe y le enseña su juego favorito de bloques. A los dos les encanta compartir sus historias juntos.",
+      "questions": [
+        {
+          "prompt": "¿Con qué jugaba el abuelo Luis de pequeño?",
+          "explanation": "El texto explica que el abuelo Luis jugaba con peonzas.",
+          "options": [
+            "Con bloques de plástico.",
+            "Con peonzas de madera.",
+            "Con una tableta digital."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué descubren Martina y su abuelo al mirar las fotos?",
+          "explanation": "Las fotos antiguas nos muestran cómo cambia la vida con el tiempo.",
+          "options": [
+            "Que en el pasado nadie jugaba en casa.",
+            "Que los abuelos nunca fueron niños pequeños.",
+            "Que los juegos cambian a lo largo del tiempo."
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:19:43.484Z",
+    "reviewed": false
+  }
+}

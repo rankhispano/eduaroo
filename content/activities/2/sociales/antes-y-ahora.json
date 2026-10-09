@@ -1,0 +1,203 @@
+{
+  "id": "g2-sociales-antes-y-ahora",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "antes-y-ahora",
+  "temaNombre": "Antes y ahora",
+  "title": "El paso del tiempo: antes y ahora",
+  "summary": "Practica cómo cambia la vida cotidiana, los objetos y las personas a lo largo del tiempo.",
+  "keyIdeas": [
+    "Las personas y las cosas cambian con el paso del tiempo.",
+    "Los abuelos y las personas mayores nos enseñan cómo era la vida en el pasado.",
+    "Cuidamos los objetos antiguos porque forman parte de nuestra historia."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE7"
+    ],
+    "criteria": [
+      "7.1",
+      "7.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CE2",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-antes-y-ahora-01",
+      "type": "choice",
+      "prompt": "Hugo mira fotos antiguas. ¿Qué transporte usaba su bisabuelo para viajar?",
+      "explanation": "Antiguamente no había coches ni patinetes con motor. Se usaban caballos para desplazarse.",
+      "hint": "Piensa en un transporte que no usa electricidad.",
+      "lang": "es",
+      "options": [
+        "Carro con caballos",
+        "Tren de alta velocidad",
+        "Patinete eléctrico"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-02",
+      "type": "true-false",
+      "prompt": "Antes las personas lavaban la ropa a mano en el río.",
+      "explanation": "En el pasado no existían las lavadoras. La gente lavaba la ropa a mano.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-03",
+      "type": "match",
+      "prompt": "Une cada objeto del pasado con el que usamos ahora.",
+      "explanation": "Los inventos modernos hacen estas tareas más fáciles y rápidas.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Vela con fuego",
+          "right": "Bombilla de luz"
+        },
+        {
+          "left": "Pluma con tinta",
+          "right": "Bolígrafo moderno"
+        },
+        {
+          "left": "Carta en papel",
+          "right": "Mensaje por móvil"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el paso del tiempo.",
+      "explanation": "Con el tiempo crecemos y cambiamos. Pasamos de ser bebés a personas adultas.",
+      "lang": "es",
+      "sentence": "Con los años, los bebés crecen y se convierten en personas ___.",
+      "options": [
+        "adultas",
+        "pequeñas",
+        "antiguas"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-05",
+      "type": "classify",
+      "prompt": "Clasifica estas formas de cocinar y conservar alimentos.",
+      "explanation": "Hoy usamos electrodomésticos modernos para cocinar y enfriar la comida.",
+      "lang": "es",
+      "categories": [
+        "En el pasado",
+        "En la actualidad"
+      ],
+      "items": [
+        {
+          "text": "Cocinar con fuego de leña",
+          "category": 0
+        },
+        {
+          "text": "Guardar comida en la nevera",
+          "category": 1
+        },
+        {
+          "text": "Salazón para conservar pescado",
+          "category": 0
+        },
+        {
+          "text": "Usar el microondas",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-06",
+      "type": "order",
+      "prompt": "Ordena estas etapas de la vida desde el nacimiento.",
+      "explanation": "Primero nacemos como bebés. Después somos niños, adultos y, al final, ancianos.",
+      "lang": "es",
+      "items": [
+        "Bebé",
+        "Niñez",
+        "Persona adulta",
+        "Persona anciana"
+      ]
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-07",
+      "type": "reading",
+      "prompt": "Lee el texto y responde a las preguntas.",
+      "explanation": "Las escuelas han cambiado mucho y ahora tienen mejores comodidades.",
+      "lang": "es",
+      "title": "El cole de la abuela",
+      "text": "Aisha visita el colegio de su abuela Rosa. Rosa le cuenta que no había ordenadores. Escribían con tiza en pizarras pequeñas. Tampoco tenían calefacción en invierno. Ahora el colegio tiene pantallas digitales, libros de colores y mucha luz.",
+      "questions": [
+        {
+          "prompt": "¿Con qué escribía la abuela Rosa en la escuela?",
+          "explanation": "El texto dice que Rosa escribía con tiza en pizarras pequeñas.",
+          "options": [
+            "Con tiza en pizarras pequeñas",
+            "Con ordenadores portátiles",
+            "Con rotuladores de colores"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué cambio importante tiene ahora la escuela de Aisha?",
+          "explanation": "Ahora las aulas modernas cuentan con pantallas digitales y mejor tecnología.",
+          "options": [
+            "Solo usan pizarras de piedra",
+            "No tiene calefacción",
+            "Tiene pantallas digitales"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-08",
+      "type": "choice",
+      "prompt": "Antes, una carta tardaba días en llegar. ¿Por qué ahora nos comunicamos al instante?",
+      "explanation": "Gracias a internet y los teléfonos, los mensajes llegan en pocos segundos.",
+      "hint": "Piensa en la tecnología que usamos hoy en casa.",
+      "lang": "es",
+      "options": [
+        "Porque las cartas van en coches con caballos.",
+        "Porque las palomas mensajeras vuelan más rápido.",
+        "Porque usamos teléfonos móviles e internet."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-09",
+      "type": "choice",
+      "prompt": "En el pueblo de Lucía quieren restaurar una fuente antigua. ¿Por qué es importante cuidarla?",
+      "explanation": "Los monumentos antiguos son parte de nuestra historia. Debemos protegerlos para aprender del pasado.",
+      "hint": "Los objetos del pasado guardan recuerdos de nuestro pueblo.",
+      "lang": "es",
+      "options": [
+        "Porque los objetos viejos no sirven para nada.",
+        "Porque nos enseña cómo vivían nuestros antepasados.",
+        "Porque las cosas antiguas deben cambiarse siempre."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:29:29.403Z",
+    "reviewed": false
+  }
+}

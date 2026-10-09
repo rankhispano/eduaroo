@@ -1,0 +1,214 @@
+{
+  "id": "g1-mates-resta-sin-llevadas",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "resta-sin-llevadas",
+  "temaNombre": "Resta sin llevadas",
+  "title": "Restamos sin llevadas con alegría",
+  "summary": "Practica la resta sin llevadas resolviendo situaciones cotidianas y retos divertidos.",
+  "keyIdeas": [
+    "Restar es quitar, perder, gastar o buscar la diferencia entre dos cantidades.",
+    "Para restar números de dos cifras, restamos primero las unidades y luego las decenas.",
+    "Comprueba que el número de arriba siempre sea mayor o igual que el de abajo."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "6.2"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-resta-sin-llevadas-01",
+      "type": "choice",
+      "prompt": "Lucía tiene 8 lápices de colores. Presta 3 lápices a Omar. ¿Cuántos lápices le quedan a Lucía?",
+      "explanation": "8 - 3 = 5. A 8 lápices le quitamos 3 y quedan 5.",
+      "hint": "Cuenta hacia atrás tres números empezando en el 8.",
+      "lang": "es",
+      "options": [
+        "4 lápices",
+        "11 lápices",
+        "5 lápices"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-02",
+      "type": "true-false",
+      "prompt": "Si en una cesta hay 7 manzanas y te comes 2, quedan 5 manzanas.",
+      "explanation": "Es correcto: 7 - 2 = 5.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-03",
+      "type": "fill-blank",
+      "prompt": "Completa con la palabra adecuada.",
+      "explanation": "El signo menos (-) representa la operación de la resta.",
+      "lang": "es",
+      "sentence": "Cuando usamos el signo menos (-), estamos haciendo una ___.",
+      "options": [
+        "resta",
+        "figura",
+        "suma"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-04",
+      "type": "match",
+      "prompt": "Une cada resta con su resultado correcto:",
+      "explanation": "Calculamos quitando unidades: 9 - 4 = 5, 7 - 1 = 6, 6 - 3 = 3 y 8 - 6 = 2.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "9 - 4",
+          "right": "5"
+        },
+        {
+          "left": "7 - 1",
+          "right": "6"
+        },
+        {
+          "left": "6 - 3",
+          "right": "3"
+        },
+        {
+          "left": "8 - 6",
+          "right": "2"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-05",
+      "type": "choice",
+      "prompt": "Hugo tiene 10 cromos y regala 4 a su hermana. ¿Cuántos cromos tiene ahora?",
+      "explanation": "10 - 4 = 6. Si a 10 le quitamos 4, obtenemos 6.",
+      "hint": "Piensa qué número sumado con 4 da 10.",
+      "lang": "es",
+      "options": [
+        "6 cromos",
+        "14 cromos",
+        "5 cromos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-06",
+      "type": "order",
+      "prompt": "Ordena los pasos para resolver la resta en vertical: 47 - 23",
+      "explanation": "Primero colocamos los números, después restamos las unidades, luego las decenas y leemos el resultado.",
+      "lang": "es",
+      "items": [
+        "Colocamos las decenas con decenas y unidades con unidades.",
+        "Restamos las unidades: 7 - 3 = 4.",
+        "Restamos las decenas: 4 - 2 = 2.",
+        "Leemos el resultado final: 24."
+      ]
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-07",
+      "type": "choice",
+      "prompt": "¡Detecta el error! Aisha calcula 39 - 15 y dice que da 20. ¿Qué ha hecho mal Aisha?",
+      "explanation": "39 - 15 = 24. Las unidades son 9 - 5 = 4 y las decenas son 3 - 1 = 2.",
+      "hint": "Mira con atención la resta de las unidades: 9 menos 5.",
+      "lang": "es",
+      "options": [
+        "Ha restado mal las unidades: 9 - 5 da 4, no 0.",
+        "Ha sumado las decenas en vez de restarlas.",
+        "El cálculo es correcto y no tiene errores."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-08",
+      "type": "classify",
+      "prompt": "Clasifica según el resultado sea mayor que 30 o menor que 30:",
+      "explanation": "55 - 20 = 35 y 48 - 12 = 36 son mayores que 30. 39 - 10 = 29 y 45 - 23 = 22 son menores que 30.",
+      "lang": "es",
+      "categories": [
+        "Mayor que 30",
+        "Menor que 30"
+      ],
+      "items": [
+        {
+          "text": "55 - 20",
+          "category": 0
+        },
+        {
+          "text": "48 - 12",
+          "category": 0
+        },
+        {
+          "text": "39 - 10",
+          "category": 1
+        },
+        {
+          "text": "45 - 23",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-09",
+      "type": "choice",
+      "prompt": "Cálculo mental rápido: ¿Cuánto es 68 - 30?",
+      "explanation": "Restamos 3 decenas a 6 decenas: 6 decenas - 3 decenas = 3 decenas. Las 8 unidades no cambian: 38.",
+      "hint": "Quita 3 decenas a las 6 decenas.",
+      "lang": "es",
+      "options": [
+        "38",
+        "28",
+        "98"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-10",
+      "type": "choice",
+      "prompt": "En el autobús viajan 46 personas. En la parada bajan 24 personas y no sube nadie. ¿Cuántas personas quedan?",
+      "explanation": "46 - 24 = 22. Restamos unidades (6 - 4 = 2) y decenas (4 - 2 = 2). Quedan 22 personas.",
+      "hint": "Resta primero las unidades y después las decenas.",
+      "lang": "es",
+      "options": [
+        "22 personas",
+        "24 personas",
+        "70 personas"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:55:20.129Z",
+    "reviewed": false
+  }
+}

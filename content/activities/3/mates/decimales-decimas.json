@@ -1,0 +1,242 @@
+{
+  "id": "g3-mates-decimales-decimas",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "decimales-decimas",
+  "temaNombre": "Decimales: décimas",
+  "title": "¡Descubrimos las décimas!",
+  "summary": "Practica la lectura, comparación y uso de números con décimas en situaciones del día a día.",
+  "keyIdeas": [
+    "Una unidad se divide en 10 partes iguales llamadas décimas.",
+    "Una décima se escribe 0,1 con una coma decimal.",
+    "La coma separa la parte entera de las décimas."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-decimales-decimas-01",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre las partes de la unidad.",
+      "explanation": "Una décima es cada una de las 10 partes iguales de una unidad. Se escribe 0,1.",
+      "lang": "es",
+      "sentence": "Cuando dividimos una unidad entera en 10 partes iguales, cada parte es una ___.",
+      "options": [
+        "décima",
+        "centena",
+        "decena"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-decimales-decimas-02",
+      "type": "match",
+      "prompt": "Une cada expresión en palabras con su número decimal.",
+      "explanation": "La cifra antes de la coma indica las unidades. La cifra de después indica las décimas.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Cuatro décimas",
+          "right": "0,4"
+        },
+        {
+          "left": "Una unidad y dos décimas",
+          "right": "1,2"
+        },
+        {
+          "left": "Siete décimas",
+          "right": "0,7"
+        },
+        {
+          "left": "Tres unidades y cinco décimas",
+          "right": "3,5"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-decimales-decimas-03",
+      "type": "true-false",
+      "prompt": "En una carrera de caracoles, Babitas recorrió 0,9 metros y Rayo recorrió 1,1 metros. ¿Babitas recorrió más distancia que Rayo?",
+      "explanation": "Rayo recorrió más distancia. Rayo tiene 1 unidad entera y Babitas tiene 0 unidades enteras.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g3-mates-decimales-decimas-04",
+      "type": "classify",
+      "prompt": "Clasifica estos números decimales según su valor.",
+      "explanation": "Si la parte entera es 0, el número es menor que 1. Si es 1 o más, es mayor.",
+      "lang": "es",
+      "categories": [
+        "Menores que 1",
+        "Mayores que 1"
+      ],
+      "items": [
+        {
+          "text": "0,3",
+          "category": 0
+        },
+        {
+          "text": "1,5",
+          "category": 1
+        },
+        {
+          "text": "0,8",
+          "category": 0
+        },
+        {
+          "text": "2,1",
+          "category": 1
+        },
+        {
+          "text": "0,6",
+          "category": 0
+        },
+        {
+          "text": "1,2",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-decimales-decimas-05",
+      "type": "choice",
+      "prompt": "Aisha y Omar comparten una chocolatina de 10 onzas iguales. Aisha come 3 onzas y Omar 4 onzas. ¿Qué número decimal representa lo que han comido entre los dos?",
+      "explanation": "Entre los dos comen 3 + 4 = 7 onzas de 10. Siete décimas se escribe 0,7.",
+      "hint": "Suma las onzas y piensa cuántas décimas forman.",
+      "lang": "es",
+      "options": [
+        "0,7",
+        "7,0",
+        "0,34"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-decimales-decimas-06",
+      "type": "choice",
+      "prompt": "Mateo quería escribir «cinco unidades y seis décimas», pero escribió 56. ¿Qué error cometió?",
+      "explanation": "Debía escribir 5,6. Sin la coma, el número 56 representa cincuenta y seis unidades enteras.",
+      "hint": "Fíjate en el signo que separa unidades de décimas.",
+      "lang": "es",
+      "options": [
+        "Olvidó poner la coma decimal entre el 5 y el 6.",
+        "Sumó las unidades con las décimas.",
+        "Escribió primero las décimas y luego las unidades."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-decimales-decimas-07",
+      "type": "order",
+      "prompt": "Ordena estas medidas de menor a mayor longitud.",
+      "explanation": "Comparamos primero la parte entera y luego las décimas: 0,5 < 0,9 < 1,2 < 1,8 < 2,1.",
+      "lang": "es",
+      "items": [
+        "0,5 m",
+        "0,9 m",
+        "1,2 m",
+        "1,8 m",
+        "2,1 m"
+      ]
+    },
+    {
+      "id": "g3-mates-decimales-decimas-08",
+      "type": "choice",
+      "prompt": "Cálculo mental: un bote tiene 2,4 litros de agua. Si usamos 0,3 litros para regar, ¿cuánta agua queda?",
+      "explanation": "Restamos solo las décimas: 4 décimas menos 3 décimas es 1 décima. Por eso, 2,4 - 0,3 = 2,1 litros.",
+      "hint": "Resta las décimas y mantén las unidades enteras.",
+      "lang": "es",
+      "options": [
+        "2,7 litros",
+        "2,1 litros",
+        "1,9 litros"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-decimales-decimas-09",
+      "type": "choice",
+      "prompt": "En el huerto escolar, un girasol medía 3,1 dm. Creció 0,4 dm el lunes y 0,3 dm el martes. ¿Cuánto mide ahora?",
+      "explanation": "Creció en total 0,4 + 0,3 = 0,7 dm. Sumamos a la altura inicial: 3,1 + 0,7 = 3,8 dm.",
+      "hint": "Calcula primero cuánto creció en los dos días.",
+      "lang": "es",
+      "options": [
+        "4,1 dm",
+        "3,7 dm",
+        "3,8 dm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-decimales-decimas-10",
+      "type": "reading",
+      "prompt": "Lee el texto sobre la competición del colegio y responde.",
+      "explanation": "Comparamos las décimas para saber quién lanzó más lejos y cuánto faltaba para la siguiente unidad.",
+      "lang": "es",
+      "title": "Aviones de papel",
+      "text": "Hoy la clase de 3º ha organizado una competición de aviones de papel en el patio. Cada participante ha lanzado su avión sobre una pista marcada con décimas de metro. El avión de Martina ha llegado hasta los 3,4 metros. El avión de Hugo ha volado una distancia de 2,9 metros. Aisha ha lanzado su avión con fuerza y ha alcanzado 3,7 metros. El maestro ha felicitado al grupo. Todos han medido las marcas con precisión usando la cinta métrica.",
+      "questions": [
+        {
+          "prompt": "¿Qué avión ha conseguido llegar más lejos?",
+          "explanation": "3,7 metros es la mayor cantidad porque 3 unidades y 7 décimas supera a 3,4 y a 2,9.",
+          "options": [
+            "El avión de Martina con 3,4 metros",
+            "El avión de Hugo con 2,9 metros",
+            "El avión de Aisha con 3,7 metros"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Cuántas décimas le faltaron al avión de Hugo para llegar a 3 metros?",
+          "explanation": "Hugo llegó a 2,9 metros. Con 1 décima más (0,1 m) alcanza las 3 unidades enteras.",
+          "options": [
+            "1 décima",
+            "2 décimas",
+            "9 décimas"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:10:00.004Z",
+    "reviewed": false
+  }
+}

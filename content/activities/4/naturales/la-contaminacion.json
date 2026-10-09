@@ -1,0 +1,234 @@
+{
+  "id": "g4-naturales-la-contaminacion",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "la-contaminacion",
+  "temaNombre": "La contaminación",
+  "title": "Cuidemos nuestro planeta de la contaminación",
+  "summary": "Practica cómo identificar los tipos de contaminación, sus efectos en los ecosistemas y acciones para cuidar el entorno.",
+  "keyIdeas": [
+    "La contaminación altera el medio ambiente con sustancias perjudiciales para los seres vivos.",
+    "Existen varios tipos de contaminación: del aire, del agua, del suelo, acústica y lumínica.",
+    "Nuestras acciones diarias pueden reducir los residuos y ayudar a proteger la naturaleza."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-la-contaminacion-01",
+      "type": "choice",
+      "prompt": "Aisha pasea por su localidad y observa el entorno. ¿Qué es la contaminación?",
+      "explanation": "La contaminación ocurre cuando introducimos sustancias perjudiciales en el aire, el agua o el suelo, afectando a la salud y al equilibrio natural.",
+      "hint": "Piensa en algo que ensucia o daña la naturaleza.",
+      "lang": "es",
+      "options": [
+        "La presencia de sustancias dañinas en el medio ambiente que perjudican a los seres vivos.",
+        "El cambio natural de las estaciones del año que hace caer las hojas.",
+        "La evaporación del agua de los ríos cuando suben las temperaturas en verano."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-02",
+      "type": "true-false",
+      "prompt": "El ruido excesivo de coches, aviones y obras se considera un tipo de contaminación llamado contaminación acústica.",
+      "explanation": "El exceso de ruido perjudica el descanso de las personas y desorienta a muchos animales, por lo que es contaminación acústica.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre los transportes:",
+      "explanation": "Los vehículos que queman gasolina o diésel expulsan gases nocivos directamente a la atmósfera, contaminando el aire que respiramos.",
+      "lang": "es",
+      "sentence": "El humo de los tubos de escape de los coches expulsa gases que contaminan el ___ de las ciudades.",
+      "options": [
+        "aire",
+        "subsuelo",
+        "suelo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-04",
+      "type": "classify",
+      "prompt": "Clasifica cada elemento según el tipo de contaminación que produce principalmente:",
+      "explanation": "Los humos y gases dañan el aire; los plásticos y vertidos líquidos dañan el agua; y las pilas o pesticidas degradan el suelo.",
+      "lang": "es",
+      "categories": [
+        "Contaminación del aire",
+        "Contaminación del agua",
+        "Contaminación del suelo"
+      ],
+      "items": [
+        {
+          "text": "Humo procedente de las chimeneas de una fábrica",
+          "category": 0
+        },
+        {
+          "text": "Bolsas de plástico flotando en el curso de un río",
+          "category": 1
+        },
+        {
+          "text": "Pilas usadas arrojadas en un campo de cultivo",
+          "category": 2
+        },
+        {
+          "text": "Gases nocivos emitidos por el tráfico de camiones",
+          "category": 0
+        },
+        {
+          "text": "Detergentes y aceites vertidos por un desagüe",
+          "category": 1
+        },
+        {
+          "text": "Pesticidas químicos acumulados sobre la tierra",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-05",
+      "type": "match",
+      "prompt": "Une cada problema ambiental con la acción cotidiana más adecuada para reducirlo:",
+      "explanation": "Pequeños cambios en nuestro transporte, consumo y uso de la energía ayudan a conservar el patrimonio natural.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Gran cantidad de humos por coches particulares",
+          "right": "Ir caminando o en autobús urbano al colegio"
+        },
+        {
+          "left": "Envases de plástico abandonados en el bosque",
+          "right": "Usar botellas reutilizables y recoger los residuos"
+        },
+        {
+          "left": "Luces artificiales que desorientan a las aves nocturnas",
+          "right": "Apagar luces innecesarias y dirigir farolas hacia abajo"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-06",
+      "type": "choice",
+      "prompt": "En clase debaten sobre la basura en la naturaleza. ¿Quién comete un ERROR científico?",
+      "explanation": "El plástico no es biodegradable como los restos de fruta. Puede tardar cientos de años en descomponerse en la naturaleza.",
+      "hint": "Compara cuánto tarda en deshacerse un plástico frente a una fruta.",
+      "lang": "es",
+      "options": [
+        "Mateo: «Una botella de plástico enterrada se pudre en pocos días como una piel de manzana».",
+        "Carla: «Los microplásticos pueden entrar en la cadena alimentaria a través de los peces».",
+        "Hugo: «El aceite usado tirado por el fregadero puede contaminar miles de litros de agua»."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-07",
+      "type": "reading",
+      "prompt": "Lee el texto sobre la investigación de dos escolares y responde a las preguntas:",
+      "explanation": "La indagación científica demuestra que el tráfico ensucia el aire y que las zonas verdes lo protegen.",
+      "lang": "es",
+      "title": "Las cartulinas detectoras",
+      "text": "Lucía y Omar hicieron un experimento en su colegio. Colocaron dos cartulinas blancas cubiertas con una capa fina de vaselina. Pusieron una cartulina junto a la puerta principal del colegio, cerca de una calle con mucho tráfico. La otra cartulina la colocaron en el huerto escolar, rodeada de árboles. Al cabo de tres días, las recogieron para observarlas con una lupa. La cartulina de la calle estaba llena de puntos negros de hollín. La cartulina del huerto escolar apenas tenía suciedad.",
+      "questions": [
+        {
+          "prompt": "¿Por qué la cartulina situada cerca de la calle tenía manchas negras?",
+          "explanation": "La vaselina atrapa las partículas sólidas y hollín flotantes que expulsan los motores de los vehículos con el tráfico.",
+          "options": [
+            "Porque los insectos del huerto se desplazaron hasta allí.",
+            "Porque la lluvia manchó la cartulina con barro de la acera.",
+            "Porque atrapó las partículas contaminantes del humo de los coches."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué conclusión científica pueden extraer de este experimento?",
+          "explanation": "Los árboles y plantas frenan el viento y absorben impurezas, manteniendo el aire local más limpio que en las zonas con tráfico.",
+          "options": [
+            "Las cartulinas con vaselina eliminan los humos de toda la ciudad.",
+            "El huerto escolar está más contaminado que la calle con tráfico.",
+            "La vegetación del huerto ayuda a filtrar y mantener el aire más limpio."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-08",
+      "type": "choice",
+      "prompt": "Un grupo de guardas forestales nota que en un tramo del río han muerto muchos peces. Aguas arriba hay una fábrica con vertidos sin tratar. ¿Cuál es la causa científica?",
+      "explanation": "Los vertidos químicos alteran las propiedades del agua, destruyen el oxígeno disuelto y envenenan a los peces y plantas acuáticas.",
+      "hint": "Recuerda que los peces respiran el oxígeno presente en el agua.",
+      "lang": "es",
+      "options": [
+        "Los vertidos tóxicos redujeron el oxígeno del agua e intoxicaron a los seres vivos.",
+        "Los peces decidieron emigrar nadando por la orilla hacia tierra firme.",
+        "El agua del río se congeló de repente debido al vertido químico."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-09",
+      "type": "order",
+      "prompt": "Ordena la cadena de sucesos que ocurre cuando tiramos un plástico al suelo de la ciudad:",
+      "explanation": "La basura arrojada en la calle no desaparece: el agua y el viento la transportan a ríos y mares, dañando la fauna marina.",
+      "lang": "es",
+      "items": [
+        "Una persona tira un envoltorio plástico al suelo de la acera.",
+        "El viento y la lluvia arrastran el envoltorio hasta las alcantarillas.",
+        "El residuo viaja por el desagüe y desemboca en el río más cercano.",
+        "La corriente del río transporta el plástico hasta el mar.",
+        "Un pez o tortuga marina confunde el plástico con comida y enferma."
+      ]
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-10",
+      "type": "choice",
+      "prompt": "En el cole de Nerea, 60 familias usan un coche cada una para llevar a su hijo. Proponen organizarse en coche compartido con 3 alumnos por vehículo. ¿Cuántos coches circularán y qué beneficio tendrá?",
+      "explanation": "Al compartir vehículo, 60 alumnos necesitan solo 20 coches (60 dividido entre 3). Menos coches suponen menos emisiones contaminantes y menos ruido.",
+      "hint": "Divide el total de alumnos entre 3 para saber el número de coches necesarios.",
+      "lang": "es",
+      "options": [
+        "Circularán 20 coches, reduciendo los atascos y los gases contaminantes.",
+        "Circularán 40 coches, aumentando el ruido y el gasto de combustible.",
+        "Circularán 180 coches, provocando una mayor suciedad en el aire."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:05:17.821Z",
+    "reviewed": false
+  }
+}

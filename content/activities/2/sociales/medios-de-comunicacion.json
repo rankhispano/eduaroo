@@ -1,0 +1,224 @@
+{
+  "id": "g2-sociales-medios-de-comunicacion",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "medios-de-comunicacion",
+  "temaNombre": "Medios de comunicación",
+  "title": "¡Nos comunicamos con el mundo!",
+  "summary": "Repasa los medios de comunicación, su evolución y cómo usarlos bien.",
+  "keyIdeas": [
+    "Los medios personales comunican a dos personas y los colectivos a muchas.",
+    "La radio, la prensa, la televisión e internet transmiten información.",
+    "Internet nos conecta rápido, pero siempre debemos usarlo con ayuda adulta."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE5",
+      "CE7"
+    ],
+    "criteria": [
+      "1.1",
+      "5.1",
+      "7.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD4",
+      "CD5",
+      "CE1",
+      "CE2",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-medios-de-comunicacion-01",
+      "type": "choice",
+      "prompt": "Aisha quiere hablar con su tía que vive lejos. ¿Qué medio utiliza?",
+      "explanation": "El teléfono permite hablar con personas que están lejos.",
+      "hint": "Sirve para hacer llamadas y escuchar la voz.",
+      "lang": "es",
+      "options": [
+        "La bicicleta",
+        "El microondas",
+        "El teléfono móvil"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-02",
+      "type": "true-false",
+      "prompt": "La radio sirve para informar a muchas personas a la vez.",
+      "explanation": "La radio es un medio de comunicación social o masivo.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la prensa escrita.",
+      "explanation": "El periódico contiene noticias escritas que se publican cada día.",
+      "lang": "es",
+      "sentence": "El abuelo de Hugo lee las noticias de papel en el ___.",
+      "options": [
+        "reloj",
+        "semáforo",
+        "periódico"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-04",
+      "type": "classify",
+      "prompt": "Clasifica según el tipo de comunicación.",
+      "explanation": "Los medios individuales conectan a dos personas. Los colectivos llegan a mucha gente.",
+      "lang": "es",
+      "categories": [
+        "Medio individual",
+        "Medio colectivo"
+      ],
+      "items": [
+        {
+          "text": "Una carta a un amigo",
+          "category": 0
+        },
+        {
+          "text": "La televisión del salón",
+          "category": 1
+        },
+        {
+          "text": "Una llamada por teléfono",
+          "category": 0
+        },
+        {
+          "text": "Un programa de radio",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-05",
+      "type": "match",
+      "prompt": "Une cada medio con la forma en que transmite su mensaje.",
+      "explanation": "Cada medio de comunicación utiliza diferentes sentidos: la vista, el oído o ambos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "La radio",
+          "right": "Solo con sonido y voz"
+        },
+        {
+          "left": "El periódico",
+          "right": "Con texto e imágenes en papel"
+        },
+        {
+          "left": "La televisión",
+          "right": "Con imágenes en movimiento y sonido"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-06",
+      "type": "order",
+      "prompt": "Ordena los pasos para enviar una carta postal.",
+      "explanation": "Primero escribimos la carta. Luego la preparamos y la enviamos por correo postal.",
+      "lang": "es",
+      "items": [
+        "Escribir el mensaje en el papel",
+        "Meter la carta en el sobre y pegar el sello",
+        "Echar la carta en el buzón amarillo",
+        "El cartero reparte la carta en la casa"
+      ]
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-07",
+      "type": "choice",
+      "prompt": "¿Por qué hoy las noticias llegan más rápido que hace cien años?",
+      "explanation": "Gracias a internet y la tecnología moderna, la información viaja al instante.",
+      "hint": "Piensa en las tecnologías que usamos ahora.",
+      "lang": "es",
+      "options": [
+        "Porque las cartas pesan menos que antes.",
+        "Porque la gente corre más deprisa.",
+        "Por internet y los satélites modernos."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-08",
+      "type": "true-false",
+      "prompt": "Cuando navegamos por internet, debemos pedir ayuda o permiso a un adulto.",
+      "explanation": "Los adultos nos enseñan a usar internet de forma segura y protegida.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-09",
+      "type": "reading",
+      "prompt": "Lee el texto y responde a las preguntas.",
+      "explanation": "La radio escolar sirve para comunicar noticias a toda la comunidad educativa.",
+      "lang": "es",
+      "title": "La radio escolar de Omar",
+      "text": "En el colegio de Omar tienen una radio escolar. Cada viernes, los alumnos leen noticias sobre el huerto y el recreo. Toda la escuela escucha el programa por los altavoces durante el desayuno.",
+      "questions": [
+        {
+          "prompt": "¿Qué día emiten el programa de radio?",
+          "explanation": "El texto explica que los alumnos hacen su programa cada viernes.",
+          "options": [
+            "Los viernes",
+            "Los martes",
+            "Los domingos"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Cómo escucha la escuela el programa?",
+          "explanation": "El texto dice que el programa se oye por los altavoces del colegio.",
+          "options": [
+            "Por el teléfono fijo",
+            "Por cartas de papel",
+            "Por los altavoces"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-10",
+      "type": "order",
+      "prompt": "Ordena estos medios desde el más antiguo al más moderno.",
+      "explanation": "Primero viajaban cartas en carruajes. Después se inventó el teléfono fijo y más tarde las tabletas digitales.",
+      "lang": "es",
+      "items": [
+        "Carta enviada en un carruaje",
+        "Teléfono fijo con cable",
+        "Videollamada en una tableta"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:30:22.846Z",
+    "reviewed": false
+  }
+}

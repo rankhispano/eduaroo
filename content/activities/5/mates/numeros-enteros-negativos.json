@@ -1,0 +1,208 @@
+{
+  "id": "g5-mates-numeros-enteros-negativos",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "numeros-enteros-negativos",
+  "temaNombre": "Números enteros negativos",
+  "title": "Explorando los números enteros negativos",
+  "summary": "Descubre cómo los números negativos nos ayudan a medir temperaturas bajo cero, plantas de garaje y deudas.",
+  "keyIdeas": [
+    "Los números negativos van precedidos por el signo menos (-) y representan cantidades menores que cero.",
+    "En la recta numérica, cuanto más a la izquierda está un número negativo, menor es su valor (por ejemplo, -5 es menor que -2).",
+    "El número cero no es positivo ni negativo, y siempre es mayor que cualquier número negativo."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.3",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-numeros-enteros-negativos-01",
+      "type": "match",
+      "prompt": "Une cada situación de la vida diaria con el número entero que mejor la expresa:",
+      "explanation": "Las situaciones por debajo de una referencia fija (bajo cero, sótanos o deudas) se expresan con números negativos, mientras que las ganancias y alturas son positivas.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "5 grados bajo cero",
+          "right": "-5 °C"
+        },
+        {
+          "left": "Planta 3 del sótano",
+          "right": "-3"
+        },
+        {
+          "left": "Ganar 10 euros de propina",
+          "right": "+10 €"
+        },
+        {
+          "left": "Nivel de la superficie del mar",
+          "right": "0 m"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-numeros-enteros-negativos-02",
+      "type": "choice",
+      "prompt": "Omar consulta la pantalla meteorológica de una estación de esquí y ve que la temperatura es de «cuatro grados bajo cero». ¿Cómo se escribe de forma abreviada?",
+      "explanation": "Cuatro grados por debajo del punto de congelación (0 °C) se representa con el signo menos delante: -4 °C.",
+      "hint": "Recuerda que 'bajo cero' indica que está por debajo del origen.",
+      "lang": "es",
+      "options": [
+        "-4 °C",
+        "0 °C",
+        "-14 °C",
+        "+4 °C"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-numeros-enteros-negativos-03",
+      "type": "true-false",
+      "prompt": "El número 0 es menor que cualquier número entero negativo porque no tiene valor.",
+      "explanation": "El 0 está situado a la derecha de todos los números negativos en la recta numérica. Por eso, el 0 es siempre mayor que cualquier número negativo (por ejemplo, 0 > -3).",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-mates-numeros-enteros-negativos-04",
+      "type": "classify",
+      "prompt": "Clasifica estas situaciones según representen un valor positivo (mayor que 0) o negativo (menor que 0):",
+      "explanation": "Las deudas, profundidades marinas y temperaturas bajo cero van por debajo del punto de referencia 0, por lo que son valores negativos.",
+      "lang": "es",
+      "categories": [
+        "Negativo (menor que 0)",
+        "Positivo (mayor que 0)"
+      ],
+      "items": [
+        {
+          "text": "Tener una deuda de 12 €",
+          "category": 0
+        },
+        {
+          "text": "Subir a la 4.ª planta de un bloque",
+          "category": 1
+        },
+        {
+          "text": "Una temperatura de 8 grados bajo cero",
+          "category": 0
+        },
+        {
+          "text": "Bucear a 15 m de profundidad en el mar",
+          "category": 0
+        },
+        {
+          "text": "Tener 25 € ahorrados en la hucha",
+          "category": 1
+        },
+        {
+          "text": "Una montaña de 850 m de altitud",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-numeros-enteros-negativos-05",
+      "type": "order",
+      "prompt": "Ordena estas temperaturas registradas en invierno de la más fría (menor) a la más cálida (mayor):",
+      "explanation": "En los números negativos, cuanto más alejado del cero esté el número, más frío hace y menor es su valor: -7 < -3 < -1 < +2 < +6.",
+      "lang": "es",
+      "items": [
+        "-7 °C",
+        "-3 °C",
+        "-1 °C",
+        "+2 °C",
+        "+6 °C"
+      ]
+    },
+    {
+      "id": "g5-mates-numeros-enteros-negativos-06",
+      "type": "fill-blank",
+      "prompt": "Completa la frase indicando la planta del edificio a la que llega Lucía:",
+      "explanation": "Partimos de 1: al bajar 1 planta llegamos a 0; al bajar otra planta llegamos a -1; y con la tercera planta descendida llegamos a la planta -2 (segundo sótano).",
+      "hint": "Resta 3 al piso inicial: 1 - 3.",
+      "lang": "es",
+      "sentence": "Lucía se sube al ascensor en la planta 1 y desciende 3 plantas para ir al garaje, por lo que llega a la planta ___.",
+      "options": [
+        "-2",
+        "-1",
+        "+2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-numeros-enteros-negativos-07",
+      "type": "choice",
+      "prompt": "A primera hora de la mañana, en Teruel había una temperatura de -3 °C. Al mediodía, el termómetro subió 7 °C. ¿Qué temperatura marcaba al mediodía?",
+      "explanation": "Desde -3 °C subimos 3 grados para llegar a 0 °C, y nos quedan 4 grados más por subir: -3 + 7 = +4 °C.",
+      "hint": "Avanza hacia la derecha en la recta numérica empezando en el -3.",
+      "lang": "es",
+      "options": [
+        "-4 °C",
+        "-10 °C",
+        "+10 °C",
+        "+4 °C"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-numeros-enteros-negativos-08",
+      "type": "choice",
+      "prompt": "Hugo dice en clase: «El número -9 es mayor que -2 porque el 9 es un número más grande que el 2». ¿Por qué es incorrecto lo que dice Hugo?",
+      "explanation": "Tener 9 grados bajo cero es más frío que tener 2 bajo cero. En la recta numérica, el -9 está más a la izquierda que el -2, por lo que -9 es menor que -2.",
+      "hint": "Piensa en qué hace más frío: ¿-9 °C o -2 °C?",
+      "lang": "es",
+      "options": [
+        "Porque todos los números que llevan un signo menos valen exactamente lo mismo.",
+        "Porque el número -9 es positivo y el número -2 es negativo.",
+        "Porque en los negativos, cuanto más alejado está del cero a la izquierda, menor es su valor (-9 < -2)."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-numeros-enteros-negativos-09",
+      "type": "true-false",
+      "prompt": "Un submarino navega a -45 m bajo el nivel del mar y una gaviota vuela a +45 m de altura. Ambos están exactamente a la misma distancia de la superficie del agua (nivel 0).",
+      "explanation": "Ambos se encuentran a 45 metros del nivel del mar: el submarino 45 metros hacia abajo y la gaviota 45 metros hacia arriba. La distancia al cero es la misma.",
+      "lang": "es",
+      "answer": true
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:17:55.017Z",
+    "reviewed": false
+  }
+}

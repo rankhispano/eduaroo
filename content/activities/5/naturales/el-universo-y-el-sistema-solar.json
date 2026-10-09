@@ -1,0 +1,235 @@
+{
+  "id": "g5-naturales-el-universo-y-el-sistema-solar",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "el-universo-y-el-sistema-solar",
+  "temaNombre": "El universo y el sistema solar",
+  "title": "Misión espacial: el sistema solar",
+  "summary": "Repasa los componentes del universo, las características de los planetas y los misterios del sistema solar.",
+  "keyIdeas": [
+    "El sistema solar está formado por el Sol, ocho planetas con sus satélites, planetas enanos, asteroides y cometas.",
+    "Los planetas interiores son rocosos y cercanos al Sol; los exteriores son gigantescos y predominantemente gaseosos.",
+    "El Sol es la estrella central de nuestro sistema y se encuentra en una galaxia espiral llamada Vía Láctea."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-01",
+      "type": "classify",
+      "prompt": "Clasifica estos planetas del sistema solar según sean rocosos (interiores) o gaseosos (exteriores):",
+      "explanation": "Mercurio, Venus, la Tierra y Marte tienen superficie sólida y rocosa; Júpiter, Saturno, Urano y Neptuno son planetas gigantes formados principalmente por gases.",
+      "lang": "es",
+      "categories": [
+        "Planetas interiores (rocosos)",
+        "Planetas exteriores (gaseosos)"
+      ],
+      "items": [
+        {
+          "text": "Mercurio",
+          "category": 0
+        },
+        {
+          "text": "Júpiter",
+          "category": 1
+        },
+        {
+          "text": "Marte",
+          "category": 0
+        },
+        {
+          "text": "Saturno",
+          "category": 1
+        },
+        {
+          "text": "Venus",
+          "category": 0
+        },
+        {
+          "text": "Neptuno",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-02",
+      "type": "choice",
+      "prompt": "En el recreo, Aisha y Leo observan la luz del día. Aisha explica a sus compañeros qué tipo de astro es el Sol. ¿Cuál de las siguientes afirmaciones es la científicamente correcta? ☀️",
+      "explanation": "El Sol es una estrella, el único astro con luz propia de nuestro sistema solar, alrededor del cual orbitan la Tierra y los demás cuerpos celestes.",
+      "hint": "Recuerda si los planetas emiten luz propia o no.",
+      "lang": "es",
+      "options": [
+        "Es el planeta más grande y cálido de nuestro sistema solar.",
+        "Es un satélite gigante que refleja la luz procedente de otras galaxias lejanas.",
+        "Es una estrella de tamaño mediano que produce luz y calor mediante reacciones en su interior."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la estructura de nuestro rincón en el universo.",
+      "explanation": "La Vía Láctea es la galaxia en espiral que alberga al sistema solar y a miles de millones de otras estrellas.",
+      "lang": "es",
+      "sentence": "Nuestro sistema solar se encuentra dentro de una enorme galaxia con forma espiral llamada la ___.",
+      "options": [
+        "Andrómeda",
+        "Vía Láctea",
+        "Osa Mayor"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-04",
+      "type": "order",
+      "prompt": "Hugo está construyendo una maqueta a escala en clase de Ciencias. Ayúdale a ordenar estos cuatro planetas según su distancia al Sol, desde el más cercano al más lejano: 🪐",
+      "explanation": "El orden creciente de distancia desde el Sol es: Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano y Neptuno.",
+      "lang": "es",
+      "items": [
+        "Mercurio",
+        "Tierra",
+        "Júpiter",
+        "Urano"
+      ]
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-05",
+      "type": "choice",
+      "prompt": "Durante una acampada nocturna, Omar señala el cielo y grita: «¡Mirad, una estrella fugaz! ¡Ha caído una estrella a la Tierra!». Lucía le explica que esa idea es un error muy común. ¿Qué explicación científica correcta le da Lucía?",
+      "explanation": "Las estrellas fugaces no son estrellas reales. Son meteoroides que, al rozar a enorme velocidad con el aire de la atmósfera terrestre, se calientan por fricción y generan un trazo luminoso.",
+      "hint": "Piensa en el tamaño real de una estrella frente a la Tierra.",
+      "lang": "es",
+      "options": [
+        "Son satélites de comunicación que la Agencia Espacial apaga y deja caer de forma programada.",
+        "Son fragmentos desprendidos del Sol que se enfrían rápidamente al caer de noche sobre la superficie terrestre.",
+        "En realidad son meteoroides: pequeñas partículas de roca o polvo que entran en la atmósfera y brillan por la fricción antes de desintegrarse."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-06",
+      "type": "match",
+      "prompt": "Relaciona cada cuerpo celeste con la característica que mejor lo describe:",
+      "explanation": "Cada tipo de cuerpo celeste tiene propiedades diferenciadas según su tamaño, composición y tipo de órbita.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Asteroide",
+          "right": "Cuerpo rocoso e irregular que orbita el Sol, abundante entre Marte y Júpiter."
+        },
+        {
+          "left": "Cometa",
+          "right": "Astro helado que desarrolla una cola brillante de gas y polvo al acercarse al calor del Sol."
+        },
+        {
+          "left": "Planeta enano",
+          "right": "Cuerpo esférico que orbita el Sol pero no ha limpiado los alrededores de su órbita."
+        },
+        {
+          "left": "Satélite natural",
+          "right": "Cuerpo celeste que gira alrededor de un planeta, como nuestra Luna."
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-07",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto divulgativo sobre la exploración espacial y responde a las preguntas:",
+      "explanation": "La observación astronómica desde el espacio nos permite estudiar galaxias remotas y conocer la atmósfera de planetas situados fuera de nuestro sistema solar.",
+      "lang": "es",
+      "title": "El telescopio James Webb: nuestra ventana al cosmos",
+      "text": "En diciembre de 2021, la comunidad científica celebró el lanzamiento del telescopio espacial James Webb. A diferencia de los telescopios terrestres, que sufren la distorsión del aire y la contaminación lumínica de las ciudades, el telescopio James Webb orbita en el espacio, a un millón y medio de kilómetros de la Tierra.\n\nEste observatorio está diseñado para captar la luz infrarroja, lo que le permite atravesar las densas nubes de polvo cósmico donde nacen nuevas estrellas y sistemas planetarios. Gracias a sus gigantescos espejos dorados de berilio, capta la débil radiación emitida por las primeras galaxias formadas poco después del origen del universo, hace más de trece mil millones de años.\n\nAdemás, el telescopio analiza la composición química de la atmósfera de exoplanetas, es decir, planetas que orbitan estrellas distintas a nuestro Sol, buscando huellas de agua o dióxido de carbono. El James Webb demuestra cómo la cooperación científica internacional amplía las fronteras del conocimiento humano.",
+      "questions": [
+        {
+          "prompt": "¿Por qué resulta más eficaz situar un telescopio como el James Webb en el espacio en lugar de instalarlo en una montaña de la Tierra?",
+          "explanation": "El texto explica que los telescopios terrestres sufren la distorsión del aire y la luz artificial de las poblaciones, obstáculos que no existen en el vacío espacial.",
+          "options": [
+            "Porque en el espacio evita la distorsión causada por la atmósfera y la contaminación lumínica de las ciudades.",
+            "Porque fuera de la Tierra las estrellas están tan cerca que se pueden fotografiar sin necesidad de espejos.",
+            "Porque en el espacio no existe la gravedad solar y el telescopio no necesita mantenimiento técnico."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Si el telescopio James Webb detecta vapor de agua en la atmósfera de un exoplaneta lejano, ¿qué conclusión científica razonada se debe extraer?",
+          "explanation": "En el método científico, encontrar agua es una condición favorable, pero no constituye una prueba concluyente de vida sin investigaciones complementarias rigurosas.",
+          "options": [
+            "Demuestra que ese planeta perteneció antiguamente a nuestro sistema solar y fue expulsado de su órbita.",
+            "Confirma con certeza absoluta que ese planeta está habitado por seres vivos complejos semejantes a los terrestres.",
+            "Es un indicio interesante que merece más investigación, pero no demuestra por sí solo que exista vida en ese planeta."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-08",
+      "type": "choice",
+      "prompt": "Martina analiza estos datos sobre el tiempo que tarda cada planeta en completar una vuelta alrededor del Sol (período de traslación):\n- Mercurio: 88 días terrestres\n- Tierra: 365 días terrestres\n- Júpiter: 12 años terrestres\n\nMartina plantea una hipótesis: «A mayor distancia del Sol, mayor es el tiempo que tarda un planeta en completar su traslación». Si se descubre un nuevo cuerpo celeste más allá de Neptuno (que tarda 165 años), ¿cuál es la predicción científica correcta?",
+      "explanation": "Siguiendo el patrón observado, cuanto más lejos está un astro del Sol, más largo es el recorrido de su órbita y menor la fuerza gravitatoria, por lo que su período orbital aumenta.",
+      "hint": "Fíjate en la tendencia: Mercurio < Tierra < Júpiter < Neptuno.",
+      "lang": "es",
+      "options": [
+        "Tardará exactamente 365 días terrestres, ya que todos los astros distantes se sincronizan con la Tierra.",
+        "Tardará más de 165 años terrestres, porque su órbita es mucho más extensa y la atracción gravitatoria del Sol es menor.",
+        "Tardará menos de 88 días terrestres, porque en el borde exterior del sistema solar los astros viajan a la velocidad de la luz."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-09",
+      "type": "true-false",
+      "prompt": "¿Es verdadera o falsa esta afirmación? «Plutón dejó de ser considerado el noveno planeta del sistema solar en 2006 porque los astrónomos descubrieron que se había desviado y ya no orbitaba alrededor del Sol».",
+      "explanation": "Plutón sigue orbitando alrededor del Sol. Pasó a clasificarse como 'planeta enano' porque comparte su órbita con muchos otros cuerpos helados del cinturón de Kuiper y no tiene la masa suficiente para haber 'despejado' su vecindad orbital.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-10",
+      "type": "fill-blank",
+      "prompt": "Adrián prepara un panel explicativo sobre las fronteras entre los planetas del sistema solar.",
+      "explanation": "El cinturón de asteroides actúa como una frontera natural entre los cuatro planetas interiores rocosos y los cuatro gigantes gaseosos exteriores.",
+      "lang": "es",
+      "sentence": "Entre las órbitas de Marte y Júpiter se localiza el cinturón principal de ___, formado por miles de fragmentos rocosos sobrantes del origen del sistema solar.",
+      "options": [
+        "asteroides",
+        "satélites",
+        "galaxias"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:06:20.365Z",
+    "reviewed": false
+  }
+}

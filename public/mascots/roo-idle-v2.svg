@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240" role="img" aria-label="Roo, la mascota de Eduaroo (en reposo)" class="roo-svg roo-idle-svg">
+  <title>Roo, la mascota de Eduaroo (en reposo)</title>
+  <style>
+    .roo-idle-svg .roo-idle-breathe { animation: roo-idle-breathe 3.8s ease-in-out infinite; transform-box: view-box; transform-origin: 100px 160px; }
+    .roo-idle-svg .roo-idle-tail { animation: roo-idle-tail 5s ease-in-out infinite; transform-box: view-box; transform-origin: 53px 231px; }
+    .roo-idle-svg .roo-idle-eye { animation: roo-idle-blink 5.4s infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+    .roo-idle-svg .roo-idle-ear { animation: roo-idle-ear 7s ease-in-out infinite; transform-box: view-box; transform-origin: 131px 35px; }
+    @keyframes roo-idle-breathe { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-0.6px); } }
+    @keyframes roo-idle-tail { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(1.2deg); } }
+    @keyframes roo-idle-blink { 0%, 93%, 97%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.08); } }
+    @keyframes roo-idle-ear { 0%, 86%, 100% { transform: rotate(0); } 90% { transform: rotate(-3deg); } 94% { transform: rotate(1.5deg); } }
+    @media (prefers-reduced-motion: reduce) { .roo-idle-svg * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="roo-idle-r2-fur" x1="0%" y1="0%" x2="100%" y2="70%">
+      <stop offset="0%" stop-color="#FFC269" />
+      <stop offset="50%" stop-color="#F7A444" />
+      <stop offset="100%" stop-color="#E78B32" />
+    </linearGradient>
+    <linearGradient id="roo-idle-r2-cream" x1="0%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" stop-color="#FFE0A2" />
+      <stop offset="100%" stop-color="#FFDB95" />
+    </linearGradient>
+    <linearGradient id="roo-idle-r2-blue" x1="0%" y1="0%" x2="40%" y2="100%">
+      <stop offset="0%" stop-color="#77BCE9" />
+      <stop offset="50%" stop-color="#559CD3" />
+      <stop offset="100%" stop-color="#387CB7" />
+    </linearGradient>
+    <g id="roo-idle-r2-mitten" fill="#F7A444" stroke="#63391F" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -4.5 -3 C -4.5 -5 -1.5 -5 0 -3.5 C 2 -5 4.5 -3 4.5 0 L 4.5 2 C 4.5 5 2 5 0 5 C -3 5 -4.5 3 -4.5 0 Z" stroke-width="2" />
+      <path d="M -1.5 1 L -1.5 3 M 1.5 1 L 1.5 3" fill="none" stroke-width="1.2" />
+    </g>
+  </defs>
+  <g stroke="#63391F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g id="roo-idle-r2-roo-shadow" stroke="none">
+      <ellipse cx="100" cy="233" rx="80" ry="1" fill="#4E5267" opacity="0.2" />
+    </g>
+    <g id="roo-idle-r2-roo-tail" class="roo-idle-tail">
+      <path d="M 88 180 C 71 187 77 211 56 222 C 43 229 26 229 19 222 C 15 218 11 221 15 226 C 23 233 39 231 53 231 C 74 229 91 216 99 195 Z" fill="url(#roo-idle-r2-fur)" />
+    </g>
+    <g id="roo-idle-r2-roo-leg-far">
+      <path d="M 119 166 C 134 162 148 173 144 188 C 140 201 133 209 132 219 C 144 217 161 218 171 223 C 176 225 177 231 170 231 L 131 231 C 123 231 120 228 122 222 C 127 211 122 196 116 183 Z" fill="#E78B32" />
+      <path d="M 163 223 Q 168 226 167 231 M 156 222 Q 162 226 161 231" fill="none" stroke-width="1.2" />
+    </g>
+    <g id="roo-idle-r2-roo-arm-far" class="roo-idle-breathe">
+      <path d="M 126 113 C 139 111 149 120 149 128 C 149 133 145 138 140 139 L 135 133 C 140 130 141 126 136 124 L 127 124 Z" fill="#E78B32" />
+    </g>
+    <g id="roo-idle-r2-roo-torso" class="roo-idle-breathe">
+      <path d="M 107 78 C 111 78 120 80 125 83 C 121 95 122 107 131 120 C 142 137 146 151 142 169 C 137 187 125 202 108 205 C 91 209 79 198 75 180 C 69 161 77 140 90 121 C 99 106 105 90 107 78 Z" fill="url(#roo-idle-r2-fur)" />
+      <path d="M 117 85 C 114 97 117 111 126 125 C 137 141 141 154 137 170 C 133 185 122 198 107 202 C 109 187 105 175 102 164 C 99 149 104 133 111 117 C 117 103 112 95 111 89 Z" fill="url(#roo-idle-r2-cream)" stroke="none" />
+    </g>
+    <g id="roo-idle-r2-roo-leg-near">
+      <path d="M 88 157 C 77 160 70 171 73 188 C 76 201 81 212 82 219 C 79 223 75 225 75 228 Q 76 231 83 231 L 124 231 Q 132 231 129 226 C 126 222 111 220 97 220 C 97 215 99 210 102 203 C 110 188 111 172 103 163 Z" fill="url(#roo-idle-r2-fur)" />
+      <path d="M 118 224 Q 124 227 123 231 M 110 222 Q 116 226 116 231" fill="none" stroke-width="1.2" />
+    </g>
+    <g id="roo-idle-r2-roo-belt" class="roo-idle-breathe">
+      <path d="M 79 144 C 97 152 119 154 143 148 L 143 157 C 121 163 96 162 77 153 Z" fill="url(#roo-idle-r2-blue)" />
+      <rect x="113" y="150" width="9" height="9" rx="2" fill="#E9C46A" />
+      <path d="M 84 147 L 101 152 L 99 166 Q 98 171 93 170 L 81 167 Q 77 166 78 162 Z" fill="url(#roo-idle-r2-blue)" />
+      <path d="M 81 155 Q 90 162 100 157" fill="none" stroke-width="1.2" />
+    </g>
+    <!-- La mano lejana se superpone al torso para que quede completamente visible. -->
+    <g id="roo-idle-r2-roo-arm-far-hand" class="roo-idle-breathe">
+      <use href="#roo-idle-r2-mitten" x="139" y="137" />
+    </g>
+    <g id="roo-idle-r2-roo-arm-near" class="roo-idle-breathe">
+      <path d="M 98 116 C 94 123 90 135 92 142 C 95 151 103 154 110 150 L 109 143 C 104 146 100 144 100 139 C 99 133 104 124 105 121 C 106 117 102 114 98 116 Z" fill="url(#roo-idle-r2-fur)" />
+      <use href="#roo-idle-r2-mitten" x="108" y="151" />
+    </g>
+    <g id="roo-idle-r2-roo-head" class="roo-idle-breathe">
+      <path d="M 99 36 C 91 43 92 62 98 74 C 103 83 112 87 121 86 C 132 88 146 81 152 72 C 156 65 154 58 145 55 C 147 45 142 35 134 32 C 123 27 108 29 99 36 Z" fill="url(#roo-idle-r2-fur)" />
+      <path d="M 124 57 C 132 54 145 56 151 60 C 158 65 155 76 142 80 C 131 81 122 73 121 65 C 121 61 122 59 124 57 Z" fill="#FFC269" stroke="none" />
+      <path d="M 144 56 C 146 53 153 54 155 57 C 157 61 151 63 148 61 C 145 60 143 58 144 56 Z" fill="#593322" stroke-width="1.2" />
+      <path d="M 135 65 Q 144 68 153 64 Q 151 70 144 69.5 Q 138 69.5 135 65 Z" fill="#743725" stroke-width="1.2" />
+      <path d="M 141 68 Q 145 67 149 68 Q 146 70 143 69 Z" fill="#F49A80" stroke="none" />
+      <g transform="translate(112 55)"><g class="roo-idle-eye">
+        <ellipse cx="0" cy="0" rx="6.6" ry="8" fill="#FFFDF7" />
+        <ellipse cx="1" cy="0.5" rx="3.4" ry="4.8" fill="#2E211A" stroke="none" />
+        <circle cx="-0.3" cy="-1.8" r="1.5" fill="#FFFDF7" stroke="none" />
+        <circle cx="2.4" cy="2.7" r="0.7" fill="#FFFDF7" stroke="none" />
+      </g></g>
+      <g transform="translate(133 55)"><g class="roo-idle-eye">
+        <ellipse cx="0" cy="0" rx="6.6" ry="8" fill="#FFFDF7" />
+        <ellipse cx="1" cy="0.5" rx="3.4" ry="4.8" fill="#2E211A" stroke="none" />
+        <circle cx="-0.3" cy="-1.8" r="1.5" fill="#FFFDF7" stroke="none" />
+        <circle cx="2.4" cy="2.7" r="0.7" fill="#FFFDF7" stroke="none" />
+      </g></g>
+      <g id="roo-idle-r2-roo-ears">
+        <path d="M 100 37 C 89 33 80 22 79 12 C 78 6 82 7 88 11 C 98 18 104 26 107 34 Z" fill="#F7A444" />
+        <path d="M 98 31 C 88 25 84 20 83 12 C 91 17 97 25 101 32 Z" fill="#F49A80" stroke="none" />
+        <g class="roo-idle-ear">
+          <path d="M 128 32 C 127 25 134 12 141 9 C 146 7 146 12 144 19 C 141 27 137 32 132 34 Z" fill="#F7A444" />
+          <path d="M 130 30 C 131 23 137 15 142 12 C 140 20 137 27 132 32 Z" fill="#F49A80" stroke="none" />
+        </g>
+      </g>
+      <g id="roo-idle-r2-roo-hat">
+        <path d="M 100 32 C 99 22 107 18 118 18 C 129 17 135 23 136 31 L 134 35 L 102 37 Z" fill="#C8B785" />
+        <path d="M 101 30 C 111 27 124 25 135 27 L 136 32 C 124 30 112 33 102 35 Z" fill="#93633A" stroke-width="1.2" />
+        <path d="M 87 38 C 95 31 110 28 124 27 C 139 25 151 26 156 29 C 158 31 148 34 135 35 C 117 36 101 37 89 40 C 87 41 85 40 87 38 Z" fill="#C8B785" />
+        <circle cx="118" cy="23" r="3.6" fill="#FFFDF7" stroke-width="1.2" />
+        <path d="M 117 25 L 119 21" fill="none" stroke-width="1.2" />
+      </g>
+    </g>
+  </g>
+</svg>

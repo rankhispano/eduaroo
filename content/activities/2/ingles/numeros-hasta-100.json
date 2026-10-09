@@ -1,0 +1,241 @@
+{
+  "id": "g2-ingles-numeros-hasta-100",
+  "cursoId": "2",
+  "asignaturaId": "ingles",
+  "temaId": "numeros-hasta-100",
+  "temaNombre": "Números hasta 100",
+  "title": "Numbers up to 100!",
+  "summary": "Practica los números en inglés hasta el 100 de forma divertida y sencilla.",
+  "keyIdeas": [
+    "Las decenas en inglés suelen terminar en -ty, como twenty (20) o thirty (30).",
+    "Los números compuestos se forman uniendo la decena y la unidad: forty-two (42).",
+    "El número 100 se dice one hundred."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-ingles-numeros-hasta-100-01",
+      "type": "match",
+      "prompt": "Une cada número con su palabra en inglés:",
+      "explanation": "Ten es 10, twenty es 20, thirty es 30 y forty es 40.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "10",
+          "right": "Ten"
+        },
+        {
+          "left": "20",
+          "right": "Twenty"
+        },
+        {
+          "left": "30",
+          "right": "Thirty"
+        },
+        {
+          "left": "40",
+          "right": "Forty"
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-numeros-hasta-100-02",
+      "type": "choice",
+      "prompt": "¿Qué número es twenty-five?",
+      "explanation": "Twenty es 20 y five es 5, así que twenty-five es 25.",
+      "hint": "Twenty es 20.",
+      "lang": "en",
+      "options": [
+        "52",
+        "25",
+        "15"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-ingles-numeros-hasta-100-03",
+      "type": "true-false",
+      "prompt": "Fifty is the number 50.",
+      "explanation": "Fifty es la palabra en inglés para el número 50.",
+      "hint": "Recuerda que five es 5.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-ingles-numeros-hasta-100-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta:",
+      "explanation": "El número 60 en inglés se escribe sixty. Sixteen es 16 y six es 6.",
+      "hint": "Las decenas terminan en -ty.",
+      "lang": "en",
+      "sentence": "The bus number is ___ (60).",
+      "options": [
+        "six",
+        "sixteen",
+        "sixty"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-numeros-hasta-100-05",
+      "type": "order",
+      "prompt": "Ordena estos números de menor a mayor:",
+      "explanation": "El orden correcto de menor a mayor es: twenty (20), thirty (30), forty (40) y fifty (50).",
+      "lang": "en",
+      "items": [
+        "Twenty",
+        "Thirty",
+        "Forty",
+        "Fifty"
+      ]
+    },
+    {
+      "id": "g2-ingles-numeros-hasta-100-06",
+      "type": "classify",
+      "prompt": "Clasifica los números según su terminación:",
+      "explanation": "Los números del 13 al 19 terminan en -teen, mientras que las decenas terminan en -ty.",
+      "lang": "en",
+      "categories": [
+        "Terminan en -teen (13-19)",
+        "Terminan en -ty (decenas)"
+      ],
+      "items": [
+        {
+          "text": "Thirteen",
+          "category": 0
+        },
+        {
+          "text": "Thirty",
+          "category": 1
+        },
+        {
+          "text": "Fourteen",
+          "category": 0
+        },
+        {
+          "text": "Forty",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-numeros-hasta-100-07",
+      "type": "choice",
+      "prompt": "Omar has 30 stickers. Aisha gives him 10 more stickers. How many stickers does Omar have now?",
+      "explanation": "30 más 10 son 40. En inglés, el número 40 se dice forty.",
+      "hint": "Suma: 30 + 10.",
+      "lang": "en",
+      "options": [
+        "Fifty stickers",
+        "Fourteen stickers",
+        "Forty stickers"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-numeros-hasta-100-08",
+      "type": "match",
+      "prompt": "Une cada número con su palabra en inglés:",
+      "explanation": "Seventy es 70, eighty es 80, ninety es 90 y one hundred es 100.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "70",
+          "right": "Seventy"
+        },
+        {
+          "left": "80",
+          "right": "Eighty"
+        },
+        {
+          "left": "90",
+          "right": "Ninety"
+        },
+        {
+          "left": "100",
+          "right": "One hundred"
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-numeros-hasta-100-09",
+      "type": "reading",
+      "prompt": "Lee el texto sobre la clase y responde a las preguntas:",
+      "explanation": "Forty significa 40 y ninety significa 90.",
+      "lang": "en",
+      "title": "Our Classroom",
+      "text": "Look at our classroom! We have forty blue pencils. We have fifty yellow books. Hugo counts ninety stars on the wall. We love numbers!",
+      "questions": [
+        {
+          "prompt": "How many blue pencils are there in the classroom?",
+          "explanation": "El texto dice claramente: We have forty blue pencils (tenemos 40 lápices azules).",
+          "options": [
+            "Four",
+            "Forty",
+            "Fourteen"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "How many stars does Hugo count on the wall?",
+          "explanation": "El texto dice: Hugo counts ninety stars on the wall (Hugo cuenta 90 estrellas en la pared).",
+          "options": [
+            "Ninety",
+            "Nineteen",
+            "Nine"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-numeros-hasta-100-10",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra que completa la serie de diez en diez:",
+      "explanation": "La serie cuenta de diez en diez: 70, 80, 90 y 100. Cien se dice one hundred.",
+      "hint": "Viene después de ninety (90).",
+      "lang": "en",
+      "sentence": "Seventy, eighty, ninety, ___.",
+      "options": [
+        "ten",
+        "one thousand",
+        "one hundred"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:05:19.710Z",
+    "reviewed": false
+  }
+}

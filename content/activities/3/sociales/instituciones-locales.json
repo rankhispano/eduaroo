@@ -1,0 +1,231 @@
+{
+  "id": "g3-sociales-instituciones-locales",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "instituciones-locales",
+  "temaNombre": "Instituciones locales",
+  "title": "Descubre las instituciones de tu localidad",
+  "summary": "Aprenderás cómo funciona el ayuntamiento, quiénes lo forman y qué servicios públicos cuidan de tu localidad.",
+  "keyIdeas": [
+    "El ayuntamiento es la institución que gobierna y organiza un municipio.",
+    "El gobierno municipal está formado por el alcalde o alcaldesa y los concejales y concejalas.",
+    "Los vecinos eligen a los concejales cada cuatro años mediante elecciones municipales."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "9.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-instituciones-locales-01",
+      "type": "choice",
+      "prompt": "¿En qué edificio trabaja el gobierno de un municipio? 🏛️",
+      "explanation": "El ayuntamiento es el edificio donde se gestionan los asuntos del municipio y trabaja el equipo de gobierno.",
+      "hint": "Es el lugar donde se celebran los plenos del pueblo o ciudad.",
+      "lang": "es",
+      "options": [
+        "En la estación de tren",
+        "En el museo local",
+        "En el ayuntamiento"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-02",
+      "type": "true-false",
+      "prompt": "El alcalde o la alcaldesa toma todas las decisiones en solitario, sin la ayuda de nadie.",
+      "explanation": "El alcalde o alcaldesa trabaja en equipo junto a los concejales y concejalas para gobernar el municipio.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-03",
+      "type": "match",
+      "prompt": "Une cada servicio municipal con su tarea principal en la localidad:",
+      "explanation": "El ayuntamiento organiza diferentes servicios públicos para mantener el municipio limpio, seguro y cuidado.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Policía Local",
+          "right": "Organizar el tráfico y vigilar la seguridad"
+        },
+        {
+          "left": "Servicio de limpieza",
+          "right": "Barrer las calles y recoger los contenedores"
+        },
+        {
+          "left": "Parques y jardines",
+          "right": "Cuidar los árboles y las zonas verdes"
+        },
+        {
+          "left": "Biblioteca municipal",
+          "right": "Prestar libros y organizar talleres de lectura"
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre las elecciones en tu localidad:",
+      "explanation": "En España, las elecciones municipales se celebran cada cuatro años para renovar el gobierno local.",
+      "hint": "Es el mismo número de años que dura un ciclo bisiesto.",
+      "lang": "es",
+      "sentence": "Los vecinos y vecinas mayores de edad eligen a sus concejales cada ___ años en las elecciones municipales.",
+      "options": [
+        "diez",
+        "dos",
+        "cuatro"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-05",
+      "type": "classify",
+      "prompt": "Clasifica estas responsabilidades según a quién corresponden:",
+      "explanation": "El ayuntamiento cuida de los espacios públicos y cada familia se encarga de las tareas de su hogar.",
+      "lang": "es",
+      "categories": [
+        "Servicios del Ayuntamiento",
+        "Responsabilidad en casa"
+      ],
+      "items": [
+        {
+          "text": "Reparar una farola de la calle",
+          "category": 0
+        },
+        {
+          "text": "Ordenar los juguetes de tu habitación",
+          "category": 1
+        },
+        {
+          "text": "Asfaltar una avenida del barrio",
+          "category": 0
+        },
+        {
+          "text": "Recoger y fregar los platos de la cena",
+          "category": 1
+        },
+        {
+          "text": "Regar las plantas del balcón",
+          "category": 1
+        },
+        {
+          "text": "Mantener limpio el parque infantil",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-06",
+      "type": "reading",
+      "prompt": "Lee atentamente la noticia escolar y responde a las preguntas:",
+      "explanation": "El salón de plenos es el corazón democrático del ayuntamiento y las mejoras se pagan entre todos los vecinos.",
+      "lang": "es",
+      "title": "La clase de 3º visita el salón de plenos",
+      "text": "Hoy la clase de 3º ha visitado el ayuntamiento de su localidad. La alcaldesa, Nuria, recibió al grupo en el salón de plenos. Les explicó que allí se reúnen los concejales para debatir y votar las mejoras del barrio. Los escolares preguntaron por el nuevo parque infantil y por el carril bici del colegio. Nuria les contó que los presupuestos municipales pagan estos proyectos con los impuestos de toda la ciudadanía. Al final, los alumnos ocuparon los asientos de los concejales e hicieron una votación simulada para elegir el árbol del patio escolar.",
+      "questions": [
+        {
+          "prompt": "¿En qué sala del ayuntamiento se debaten y votan las decisiones?",
+          "explanation": "El texto explica que los concejales se reúnen en el salón de plenos para debatir y votar.",
+          "options": [
+            "En el salón de plenos",
+            "En el almacén municipal",
+            "En la torre del reloj"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Cómo se pagan los servicios y obras del municipio?",
+          "explanation": "La alcaldesa explica que las obras se financian con los impuestos de toda la ciudadanía.",
+          "options": [
+            "Con los impuestos que pagan los vecinos",
+            "Con dinero que regalan los turistas",
+            "Con premios de concursos escolares"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-07",
+      "type": "order",
+      "prompt": "Ordena los pasos del proceso democrático en un municipio:",
+      "explanation": "Primero se presentan las ideas, luego la ciudadanía vota concejales y finalmente estos eligen a quien presidirá el ayuntamiento.",
+      "lang": "es",
+      "items": [
+        "Los partidos explican sus propuestas a los vecinos",
+        "Los ciudadanos votan en las urnas electorales",
+        "Se eligen los concejales de cada partido",
+        "Los concejales eligen al alcalde o alcaldesa"
+      ]
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-08",
+      "type": "choice",
+      "prompt": "Omar y Lucía ven un columpio roto en el parque de su barrio. ¿Qué deben hacer sus familias? 🛝",
+      "explanation": "El ayuntamiento es el responsable de mantener y reparar los parques infantiles del municipio.",
+      "hint": "Piensa qué institución gestiona las zonas de juego públicas.",
+      "lang": "es",
+      "options": [
+        "Avisar al ayuntamiento a través del servicio de atención ciudadana",
+        "Llamar al hospital para pedir una ambulancia",
+        "Esperar a que llueva para ver si se arregla solo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-09",
+      "type": "true-false",
+      "prompt": "Los vecinos y vecinas empadronados pueden asistir a los plenos del ayuntamiento como público.",
+      "explanation": "Los plenos municipales son públicos para que los ciudadanos conozcan cómo se toman las decisiones de su pueblo o ciudad.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-10",
+      "type": "choice",
+      "prompt": "En el pueblo de Aisha quieren crear un carril bici seguro hacia el colegio. ¿Quiénes deben debatir y aprobar esta obra pública? 🚲",
+      "explanation": "Las obras públicas en las calles del municipio las debate y aprueba el equipo de concejales y el alcalde en el pleno.",
+      "hint": "Se trata del órgano de gobierno local.",
+      "lang": "es",
+      "options": [
+        "El alcalde y los concejales en el pleno municipal",
+        "El director del colegio junto con los monitores de comedor",
+        "Los conductores de autobús de la línea escolar"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:56:00.706Z",
+    "reviewed": false
+  }
+}

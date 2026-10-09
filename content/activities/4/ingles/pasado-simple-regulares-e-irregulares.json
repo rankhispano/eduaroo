@@ -1,0 +1,243 @@
+{
+  "id": "g4-ingles-pasado-simple-regulares-e-irregulares",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "pasado-simple-regulares-e-irregulares",
+  "temaNombre": "Pasado simple: regulares e irregulares",
+  "title": "Aventuras en el pasado",
+  "summary": "Practica el pasado simple en inglés con verbos regulares e irregulares en situaciones cotidianas.",
+  "keyIdeas": [
+    "Los verbos regulares añaden -ed al final para formar el pasado simple (play -> played).",
+    "Los verbos irregulares no siguen una regla fija y cambian de forma (go -> went, eat -> ate).",
+    "Usamos palabras como yesterday o last weekend para indicar que una acción ocurrió en el pasado."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-01",
+      "type": "choice",
+      "prompt": "Complete the sentence: Yesterday, Lucía ___ football with her friends in the playground.",
+      "explanation": "Usamos 'played' porque es un verbo regular en pasado simple que añade la terminación -ed.",
+      "hint": "Recuerda añadir -ed al final del verbo para el pasado.",
+      "lang": "en",
+      "options": [
+        "playing",
+        "play",
+        "played"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-02",
+      "type": "fill-blank",
+      "prompt": "Elige la forma correcta del verbo 'go' en pasado:",
+      "explanation": "'Go' es un verbo irregular, por lo que su forma en pasado es 'went' y nunca 'goed'.",
+      "hint": "Es un verbo irregular muy común que empieza por 'w'.",
+      "lang": "en",
+      "sentence": "Last Saturday, Aisha ___ to the cinema with her family.",
+      "options": [
+        "goes",
+        "goed",
+        "went"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-03",
+      "type": "match",
+      "prompt": "Match each present verb with its correct past simple form:",
+      "explanation": "Los verbos regulares añaden -ed (watch -> watched, visit -> visited) y los irregulares cambian (eat -> ate, see -> saw).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "eat",
+          "right": "ate"
+        },
+        {
+          "left": "watch",
+          "right": "watched"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "visit",
+          "right": "visited"
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-04",
+      "type": "classify",
+      "prompt": "Classify these past simple verbs into Regular or Irregular:",
+      "explanation": "Los verbos regulares terminan en -ed (walked, listened, cooked), mientras que had, went y saw son formas irregulares.",
+      "lang": "en",
+      "categories": [
+        "Regular verbs (-ed)",
+        "Irregular verbs"
+      ],
+      "items": [
+        {
+          "text": "walked",
+          "category": 0
+        },
+        {
+          "text": "had",
+          "category": 1
+        },
+        {
+          "text": "listened",
+          "category": 0
+        },
+        {
+          "text": "went",
+          "category": 1
+        },
+        {
+          "text": "cooked",
+          "category": 0
+        },
+        {
+          "text": "saw",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-05",
+      "type": "true-false",
+      "prompt": "Is this sentence correct? 'Yesterday, Hugo goed to the park by bike.'",
+      "explanation": "Es incorrecto porque 'go' es irregular. La forma adecuada del pasado es 'went', no 'goed'.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-06",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la fiesta de cumpleaños:",
+      "explanation": "El pasado del verbo irregular 'eat' es 'ate'. La forma 'eated' no existe en inglés.",
+      "hint": "El verbo 'eat' cambia sus letras en pasado.",
+      "lang": "en",
+      "sentence": "At the party, Martina and her friends ___ delicious chocolate cake.",
+      "options": [
+        "eated",
+        "ate",
+        "eating"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-07",
+      "type": "order",
+      "prompt": "Order Omar's morning actions from first to last:",
+      "explanation": "El orden cronológico sigue los conectores temporales: First (primero), Next (luego), Then (después) y Finally (finalmente).",
+      "lang": "en",
+      "items": [
+        "First, Omar woke up at eight o'clock.",
+        "Next, he ate toast and fruit for breakfast.",
+        "Then, he walked to school with his dad.",
+        "Finally, he saw his teacher in the classroom."
+      ]
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-08",
+      "type": "choice",
+      "prompt": "Adrián is writing in his diary. Which sentence has both verbs in the correct past form?",
+      "explanation": "Usamos 'visited' (regular con -ed) y 'had' (irregular de have). 'Haved' es un error común.",
+      "hint": "Fíjate bien en el pasado del verbo 'have'.",
+      "lang": "en",
+      "options": [
+        "Yesterday, I visited my grandparents and we had lunch together.",
+        "Yesterday, I visited my grandparents and we haved lunch together.",
+        "Yesterday, I visit my grandparents and we had lunch together."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-09",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions:",
+      "explanation": "En textos narrativos en pasado, identificamos acciones clave buscando verbos regulares (watched, played) e irregulares (went, saw, ate).",
+      "lang": "en",
+      "title": "A Fun Day at the Farm",
+      "text": "Yesterday, class 4B went on a school trip to Green Valley Farm. Wei and Martina saw many farm animals. First, they watched the sheep in the green field. Then, the farmer opened the gate and they fed the rabbits with fresh carrots. At one o'clock, everyone ate sandwiches under a big tree. Wei played ball games with his friends on the grass. Martina took nice photos of the horses. In the afternoon, they came back to school by bus. They loved the trip!",
+      "questions": [
+        {
+          "prompt": "Where did class 4B go yesterday?",
+          "explanation": "El texto dice explícitamente: 'class 4B went on a school trip to Green Valley Farm'.",
+          "options": [
+            "A sunny beach",
+            "The city museum",
+            "Green Valley Farm"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What did the students eat under the tree?",
+          "explanation": "El texto explica que 'everyone ate sandwiches under a big tree'.",
+          "options": [
+            "Sandwiches",
+            "Carrots",
+            "Pizza"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-10",
+      "type": "choice",
+      "prompt": "Nerea is talking about last weekend. Which sentence is completely correct?",
+      "explanation": "El pasado de 'do' es 'did' (irregular) y el pasado de 'watch' es 'watched' (regular con -ed). Ambas formas deben estar en pasado.",
+      "hint": "Recuerda que ambos verbos deben estar en su forma correcta de pasado.",
+      "lang": "en",
+      "options": [
+        "Last Sunday, I did my homework and watch a film.",
+        "Last Sunday, I doed my homework and watched a film.",
+        "Last Sunday, I did my homework and watched a film."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:12:17.008Z",
+    "reviewed": false
+  }
+}

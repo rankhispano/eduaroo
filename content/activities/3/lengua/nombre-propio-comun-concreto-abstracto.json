@@ -1,0 +1,258 @@
+{
+  "id": "g3-lengua-nombre-propio-comun-concreto-abstracto",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "nombre-propio-comun-concreto-abstracto",
+  "temaNombre": "Nombre propio/común/concreto/abstracto",
+  "title": "El gran viaje de los sustantivos",
+  "summary": "Practica la identificación de sustantivos propios, comunes, concretos y abstractos en diferentes situaciones.",
+  "keyIdeas": [
+    "Los sustantivos propios nombran seres o lugares en particular y siempre empiezan con mayúscula.",
+    "Los sustantivos comunes nombran a personas, animales o cosas de la misma clase.",
+    "Los sustantivos concretos se perciben por los sentidos y los abstractos nombran ideas o sentimientos."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-01",
+      "type": "choice",
+      "prompt": "En la oración «Hugo llevó su balón al parque», ¿cuál es el sustantivo propio?",
+      "explanation": "Hugo es un sustantivo propio porque identifica a una persona concreta y se escribe con mayúscula inicial.",
+      "hint": "Fíjate en la palabra que nombra a una persona concreta.",
+      "lang": "es",
+      "options": [
+        "Hugo",
+        "parque",
+        "balón"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-02",
+      "type": "true-false",
+      "prompt": "La palabra «alegría» es un sustantivo abstracto porque nombra una emoción que no podemos tocar.",
+      "explanation": "Los sustantivos abstractos nombran sentimientos, emociones o ideas que no se perciben con los sentidos.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-03",
+      "type": "classify",
+      "prompt": "Clasifica estos sustantivos según sean propios o comunes.",
+      "explanation": "Los nombres de personas y lugares son propios y llevan mayúscula. Los objetos y lugares generales son comunes.",
+      "lang": "es",
+      "categories": [
+        "Sustantivos propios",
+        "Sustantivos comunes"
+      ],
+      "items": [
+        {
+          "text": "Martina",
+          "category": 0
+        },
+        {
+          "text": "río",
+          "category": 1
+        },
+        {
+          "text": "Pirineos",
+          "category": 0
+        },
+        {
+          "text": "colegio",
+          "category": 1
+        },
+        {
+          "text": "Sevilla",
+          "category": 0
+        },
+        {
+          "text": "pizarra",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-04",
+      "type": "fill-blank",
+      "prompt": "Elige el sustantivo abstracto adecuado para completar la oración.",
+      "explanation": "Felicidad es un sustantivo abstracto porque expresa una emoción. Mochila y manzana son sustantivos concretos.",
+      "lang": "es",
+      "sentence": "Durante el recreo, Martina sintió mucha ___ al compartir su merienda con Omar.",
+      "options": [
+        "mochila",
+        "felicidad",
+        "manzana"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-05",
+      "type": "match",
+      "prompt": "Une cada sustantivo con su tipo principal.",
+      "explanation": "Valencia es propio, amistad es un sentimiento abstracto, guitarra es un objeto concreto y ciudad es común.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Valencia",
+          "right": "Sustantivo propio"
+        },
+        {
+          "left": "amistad",
+          "right": "Sustantivo abstracto"
+        },
+        {
+          "left": "guitarra",
+          "right": "Sustantivo concreto"
+        },
+        {
+          "left": "ciudad",
+          "right": "Sustantivo común"
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-06",
+      "type": "choice",
+      "prompt": "¿En qué oración hay un error en la escritura de un sustantivo propio?",
+      "explanation": "Córdoba es el nombre de una ciudad y debe escribirse con mayúscula inicial por ser un sustantivo propio.",
+      "hint": "Busca el nombre de un lugar escrito con minúscula.",
+      "lang": "es",
+      "options": [
+        "El perro Tobi corretea por el jardín.",
+        "Aisha y Lucas visitaron el museo el martes.",
+        "Mi prima Lucía viajó en tren hasta córdoba."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-07",
+      "type": "classify",
+      "prompt": "Separa estas palabras en sustantivos concretos o abstractos.",
+      "explanation": "Los concretos se pueden ver, oír o tocar (campana, cuaderno, árbol). Los abstractos son ideas o emociones (tristeza, valentía, paz).",
+      "lang": "es",
+      "categories": [
+        "Sustantivos concretos",
+        "Sustantivos abstractos"
+      ],
+      "items": [
+        {
+          "text": "campana",
+          "category": 0
+        },
+        {
+          "text": "tristeza",
+          "category": 1
+        },
+        {
+          "text": "cuaderno",
+          "category": 0
+        },
+        {
+          "text": "valentía",
+          "category": 1
+        },
+        {
+          "text": "árbol",
+          "category": 0
+        },
+        {
+          "text": "paz",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-08",
+      "type": "reading",
+      "prompt": "Lee atentamente la historia y responde a las preguntas.",
+      "explanation": "En los textos narrativos combinamos sustantivos propios para identificar personajes y lugares, y sustantivos abstractos para sus emociones.",
+      "lang": "es",
+      "title": "Una tarde en el parque",
+      "text": "Aisha y su perro Golfo pasean cada tarde por el parque del Retiro, en la ciudad de Madrid. Hoy han encontrado una pequeña tortuga de tierra cerca del gran estanque. Al verla tan asustada entre la hierba, sintieron una profunda compasión. La niña decidió avisar a Mateo, el jardinero del parque. Con mucha paciencia y cuidado, Mateo recogió al animal para avisar al centro de rescate de fauna. Aisha regresó a su casa llena de orgullo y alegría por haber protegido a un ser vivo. ¡Fue una tarde inolvidable para todos!",
+      "questions": [
+        {
+          "prompt": "¿Cuál de las siguientes palabras del texto es un sustantivo abstracto?",
+          "explanation": "Compasión es un sustantivo abstracto porque nombra un sentimiento que no se puede tocar ni ver físicamente.",
+          "options": [
+            "tortuga",
+            "estanque",
+            "compasión"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Cuáles de estas palabras del texto son sustantivos propios?",
+          "explanation": "Aisha y Madrid son sustantivos propios porque nombran en particular a una persona y a una ciudad.",
+          "options": [
+            "Aisha y Madrid",
+            "parque y estanque",
+            "jardinero y animal"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-09",
+      "type": "choice",
+      "prompt": "Lucas organiza una caja de materiales para Plástica. ¿Qué sustantivo abstracto se ha colado por error?",
+      "explanation": "Ilusión es un sustantivo abstracto porque nombra una emoción. Los demás son objetos materiales que se tocan.",
+      "hint": "Piensa en cuál de estas palabras no se puede guardar dentro de una caja.",
+      "lang": "es",
+      "options": [
+        "rotulador",
+        "tijeras",
+        "ilusión",
+        "cartulina"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-10",
+      "type": "order",
+      "prompt": "Ordena los pasos lógicos para clasificar el sustantivo «esperanza».",
+      "explanation": "Primero revisamos si es propio o común, y después comprobamos si se percibe con los sentidos para saber si es abstracto.",
+      "lang": "es",
+      "items": [
+        "Comprobar si nombra a alguien en particular con mayúscula inicial.",
+        "Identificar que es un sustantivo común porque va en minúscula.",
+        "Pensar si nombra algo que se percibe con los sentidos.",
+        "Concluir que es un sustantivo abstracto porque expresa un sentimiento."
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:25:00.280Z",
+    "reviewed": false
+  }
+}

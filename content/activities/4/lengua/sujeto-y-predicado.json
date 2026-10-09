@@ -1,0 +1,234 @@
+{
+  "id": "g4-lengua-sujeto-y-predicado",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "sujeto-y-predicado",
+  "temaNombre": "Sujeto y predicado",
+  "title": "Misión: Descubre el sujeto y el predicado",
+  "summary": "Aprende a reconocer el sujeto y el predicado de una oración, a comprobar su concordancia y a encontrar sujetos omitidos.",
+  "keyIdeas": [
+    "El sujeto indica quién realiza la acción o de quién se dice algo.",
+    "El predicado expresa lo que hace o lo que se dice del sujeto, y contiene al verbo.",
+    "El núcleo del sujeto y el verbo siempre concuerdan en número (singular o plural) y persona."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-sujeto-y-predicado-01",
+      "type": "true-false",
+      "prompt": "En cualquier oración con verbo, el verbo siempre forma parte del predicado.",
+      "explanation": "El verbo es la palabra principal y el núcleo del predicado, ya que indica la acción o el estado del sujeto.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-02",
+      "type": "choice",
+      "prompt": "En la oración «Los entrenadores del cole prepararon el partido», ¿cuál es el sujeto completo?",
+      "explanation": "«Los entrenadores del cole» es el sujeto completo porque responde a la pregunta de quiénes prepararon el partido.",
+      "hint": "Pregúntale al verbo quién o quiénes realizan la acción.",
+      "lang": "es",
+      "options": [
+        "Prepararon el partido",
+        "El partido",
+        "Los entrenadores del cole"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-03",
+      "type": "match",
+      "prompt": "Une cada sujeto con el predicado que concuerda en número y persona:",
+      "explanation": "El sujeto y el verbo deben compartir la misma persona (primera, segunda o tercera) y el mismo número (singular o plural).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Aisha y tú",
+          "right": "dibujáis un cartel sobre el reciclaje."
+        },
+        {
+          "left": "Mi hermana pequeña",
+          "right": "lee su cuento favorito antes de dormir."
+        },
+        {
+          "left": "Nuestros compañeros",
+          "right": "organizan los libros de la biblioteca."
+        },
+        {
+          "left": "Yo",
+          "right": "riego las plantas de la clase cada mañana."
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-04",
+      "type": "classify",
+      "prompt": "Clasifica las partes destacadas entre comillas según la función que cumplen en la oración:",
+      "explanation": "El sujeto nombra a quien hace la acción o de quien hablamos, mientras que el predicado explica qué ocurre o qué hace.",
+      "lang": "es",
+      "categories": [
+        "Sujeto",
+        "Predicado"
+      ],
+      "items": [
+        {
+          "text": "«Las bicis rojas» están en el patio.",
+          "category": 0
+        },
+        {
+          "text": "Omar «comió fruta fresca en el recreo».",
+          "category": 1
+        },
+        {
+          "text": "«Ese perro blanco» corre por la hierba.",
+          "category": 0
+        },
+        {
+          "text": "Nosotras «visitaremos el museo el próximo viernes».",
+          "category": 1
+        },
+        {
+          "text": "«La profesora de música» toca la flauta.",
+          "category": 0
+        },
+        {
+          "text": "Lucía y Marcos «escribieron una carta divertida».",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-05",
+      "type": "fill-blank",
+      "prompt": "Elige la forma verbal que concuerda adecuadamente con el sujeto:",
+      "explanation": "El sujeto «Martina y su abuela» equivale a «ellas» (tercera persona del plural), por lo que el verbo debe ser «cocinan».",
+      "lang": "es",
+      "sentence": "Martina y su abuela ___ ricas galletas de limón todos los domingos.",
+      "options": [
+        "cocinan",
+        "cocina",
+        "cocinamos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-06",
+      "type": "order",
+      "prompt": "Ordena los pasos del truco de la concordancia para encontrar el sujeto sin equivocarte:",
+      "explanation": "El sujeto siempre concuerda con el verbo; por eso, al cambiar el verbo de número, el sujeto cambia con él obligatoriamente.",
+      "lang": "es",
+      "items": [
+        "Localiza el verbo principal de la oración.",
+        "Cambia el número del verbo: si está en singular ponlo en plural, o al revés.",
+        "Observa qué palabra o grupo de palabras te ves obligado a cambiar.",
+        "Esa parte que cambia obligatoriamente con el verbo es el sujeto."
+      ]
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-07",
+      "type": "choice",
+      "prompt": "Adrián redacta las noticias de la revista escolar. ¿Qué titular tiene un error de concordancia entre sujeto y predicado?",
+      "explanation": "«Los delegados» es un sujeto en plural, por lo que el verbo del predicado debería ser «propusieron», no «propuso».",
+      "hint": "Fíjate si el verbo está en singular o en plural y compáralo con su sujeto.",
+      "lang": "es",
+      "options": [
+        "Los delegados de la clase propuso nuevas ideas para el recreo.",
+        "Nuestra clase ganó el concurso de poesía infantil.",
+        "Los árboles del jardín escolar florecen esta primavera."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-08",
+      "type": "choice",
+      "prompt": "En la frase del diario de Nerea «Ayer encontramos hojas secas de roble», ¿cuál es el sujeto omitido?",
+      "explanation": "El verbo «encontramos» está en primera persona del plural, lo que significa que el sujeto no escrito es «nosotros» o «nosotras».",
+      "hint": "Fíjate en la terminación del verbo para saber qué pronombre encaja.",
+      "lang": "es",
+      "options": [
+        "Ellos o ellas",
+        "Vosotros o vosotras",
+        "Nosotros o nosotras"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-09",
+      "type": "reading",
+      "prompt": "Lee con atención el texto y responde a las preguntas sobre su contenido y estructura:",
+      "explanation": "El sujeto nombra a quienes realizan la acción (Aisha y Mateo) y el predicado reúne el verbo y sus complementos.",
+      "lang": "es",
+      "title": "El misterio del huerto escolar",
+      "text": "Esta mañana, las niñas y los niños de cuarto salieron al huerto escolar. Las matas de tomates mostraban frutos rojos y brillantes. De repente, Hugo descubrió unas pequeñas huellas cerca del bancal de lechugas. Aisha y Mateo examinaron la tierra húmeda con una lupa. Minutos después, un simpático conejo marrón apareció entre las hierbas altas. El pequeño animal comía una hoja crujiente con gran tranquilidad. Toda la clase observó al visitante en silencio para no asustarlo. Fue una sorpresa maravillosa que alegró el día a todos.",
+      "questions": [
+        {
+          "prompt": "¿Por qué el alumnado guardó silencio al ver al conejo?",
+          "explanation": "El texto explica claramente que la clase guardó silencio para no asustar al visitante mientras comía.",
+          "options": [
+            "Para evitar que el conejo se asustara y huyera del huerto.",
+            "Porque el profesor les mandó callar con un silbato.",
+            "Porque querían escuchar el ruido de la lluvia."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "En la oración «Aisha y Mateo examinaron la tierra húmeda con una lupa», ¿cuál es el predicado?",
+          "explanation": "El predicado incluye el verbo «examinaron» y la información que explica qué hicieron y cómo lo hicieron.",
+          "options": [
+            "Aisha y Mateo",
+            "examinaron la tierra húmeda con una lupa",
+            "la tierra húmeda con una lupa"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-10",
+      "type": "choice",
+      "prompt": "¡Reto final! En la oración «Por el camino de tierra paseaban los caballos», ¿cuál es el sujeto?",
+      "explanation": "«Los caballos» es el sujeto porque realizan la acción de pasear. En español, el sujeto no siempre va al principio de la oración.",
+      "hint": "Aplica el truco: si pones el verbo en singular («paseaba»), ¿qué parte cambia obligatoriamente?",
+      "lang": "es",
+      "options": [
+        "los caballos",
+        "Por el camino de tierra",
+        "paseaban los caballos"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:44:25.495Z",
+    "reviewed": false
+  }
+}

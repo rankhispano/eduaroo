@@ -1,0 +1,225 @@
+{
+  "id": "g1-ingles-animales-domesticos",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "animales-domesticos",
+  "temaNombre": "Animales domésticos",
+  "title": "My Lovely Pets",
+  "summary": "Practica el vocabulario de los animales domésticos en inglés de forma divertida.",
+  "keyIdeas": [
+    "Los animales domésticos o mascotas en inglés se llaman pets.",
+    "Palabras clave para recordar: dog (perro), cat (gato), bird (pájaro), fish (pez) y rabbit (conejo).",
+    "Podemos decir I have a pet para contar qué mascota tenemos en casa."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-animales-domesticos-01",
+      "type": "choice",
+      "prompt": "Which pet says 'woof woof'?",
+      "explanation": "En inglés, el perro se dice 'dog' y su sonido típico es 'woof'.",
+      "hint": "Es el mejor amigo del ser humano y ladra.",
+      "lang": "en",
+      "options": [
+        "A dog",
+        "A cat",
+        "A fish"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-02",
+      "type": "match",
+      "prompt": "Match each pet with its sound:",
+      "explanation": "Cada animal hace un sonido especial en inglés: dog hace woof, cat hace meow y bird hace tweet.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Dog",
+          "right": "Woof"
+        },
+        {
+          "left": "Cat",
+          "right": "Meow"
+        },
+        {
+          "left": "Bird",
+          "right": "Tweet"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-03",
+      "type": "true-false",
+      "prompt": "A fish can swim in the water.",
+      "explanation": "Los peces (fish) viven y nadan (swim) en el agua.",
+      "hint": "Piensa en dónde viven los peces.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-04",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra correcta:",
+      "explanation": "El animal que maúlla ('meow') es el gato, que en inglés se dice 'cat'.",
+      "hint": "Es un felino que maúlla.",
+      "lang": "en",
+      "sentence": "Lucía has a pet ___ that says meow.",
+      "options": [
+        "cat",
+        "dog",
+        "bird"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-05",
+      "type": "classify",
+      "prompt": "Clasifica los animales en su grupo:",
+      "explanation": "Dog, cat y rabbit son mascotas de casa (pets). Lion y elephant son animales salvajes (wild animals).",
+      "lang": "en",
+      "categories": [
+        "Pets",
+        "Wild animals"
+      ],
+      "items": [
+        {
+          "text": "Dog",
+          "category": 0
+        },
+        {
+          "text": "Cat",
+          "category": 0
+        },
+        {
+          "text": "Rabbit",
+          "category": 0
+        },
+        {
+          "text": "Lion",
+          "category": 1
+        },
+        {
+          "text": "Elephant",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-06",
+      "type": "choice",
+      "prompt": "Aisha gives food to her pet in the water. Her pet is a...",
+      "explanation": "Aisha tiene un pez ('fish'), ya que vive y come en el agua.",
+      "hint": "Nada en una pecera o acuario.",
+      "lang": "en",
+      "options": [
+        "fish",
+        "hamster",
+        "cat"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-07",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra correcta para completar:",
+      "explanation": "Los conejos tienen orejas largas: 'long ears'. Books y pencils son objetos del cole.",
+      "hint": "Las usa para escuchar muy bien.",
+      "lang": "en",
+      "sentence": "The white rabbit has long ___.",
+      "options": [
+        "books",
+        "pencils",
+        "ears"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-08",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar una frase:",
+      "explanation": "La frase ordenada en inglés es 'I love my pet' (Yo quiero a mi mascota).",
+      "lang": "en",
+      "items": [
+        "I",
+        "love",
+        "my",
+        "pet"
+      ]
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-09",
+      "type": "true-false",
+      "prompt": "A dog and a cat can live in a house.",
+      "explanation": "Los perros y los gatos son animales domésticos que pueden vivir felices en casa.",
+      "hint": "¿Pueden vivir los perros y gatos con una familia?",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-10",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions:",
+      "explanation": "Emma tiene un perro llamado Max al que le encanta correr en el parque.",
+      "lang": "en",
+      "title": "Emma and Max",
+      "text": "Emma has a pet dog. His name is Max. Max is brown and happy. Max likes to run in the park.",
+      "questions": [
+        {
+          "prompt": "Who is Max?",
+          "explanation": "El texto dice claramente en la primera línea: 'Emma has a pet dog. His name is Max'.",
+          "options": [
+            "A bird",
+            "A dog",
+            "A cat"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Where does Max like to run?",
+          "explanation": "Al final del texto leemos: 'Max likes to run in the park'.",
+          "options": [
+            "In the park",
+            "In the classroom",
+            "In the bedroom"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:57:06.927Z",
+    "reviewed": false
+  }
+}

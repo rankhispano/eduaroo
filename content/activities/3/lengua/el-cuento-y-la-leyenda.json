@@ -1,0 +1,257 @@
+{
+  "id": "g3-lengua-el-cuento-y-la-leyenda",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "el-cuento-y-la-leyenda",
+  "temaNombre": "El cuento y la leyenda",
+  "title": "Mundos de cuento y leyenda",
+  "summary": "Repasa la estructura de los cuentos y descubre las características mágicas de las leyendas.",
+  "keyIdeas": [
+    "El cuento es una narración breve con inicio, nudo y desenlace.",
+    "La leyenda explica el origen de algo real mezclando fantasía y tradición.",
+    "El narrador cuenta la historia y los personajes realizan las acciones."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "4.1",
+      "8.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "C. Educación literaria"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-01",
+      "type": "choice",
+      "prompt": "¿Qué es una leyenda?",
+      "explanation": "Las leyendas son relatos tradicionales que mezclan hechos reales y mágicos para explicar el origen de un elemento de la naturaleza o de un lugar.",
+      "hint": "Piensa en historias populares que explican cómo nació un lago o una montaña.",
+      "lang": "es",
+      "options": [
+        "Una lista con los nombres de todos los personajes de un libro.",
+        "Una noticia informativa sobre un suceso ocurrido ayer en la ciudad.",
+        "Un relato tradicional que explica con fantasía el origen de algo real."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-02",
+      "type": "true-false",
+      "prompt": "En un cuento, el nudo es la parte donde se presentan los personajes y el lugar donde viven.",
+      "explanation": "En el nudo se presenta el conflicto o problema de la historia. Los personajes y el lugar se presentan en el inicio.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-03",
+      "type": "match",
+      "prompt": "Une cada parte de una narración con lo que ocurre en ella.",
+      "explanation": "Toda narración sigue un orden claro: primero presenta la situación, luego plantea el conflicto y al final lo soluciona.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Inicio",
+          "right": "Presenta a los personajes y el lugar de la historia."
+        },
+        {
+          "left": "Nudo",
+          "right": "Surge el problema o la aventura principal."
+        },
+        {
+          "left": "Desenlace",
+          "right": "Se soluciona el conflicto y termina el relato."
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-04",
+      "type": "classify",
+      "prompt": "Clasifica estas características según pertenezcan al cuento o a la leyenda.",
+      "explanation": "Los cuentos son relatos de ficción con inicio típico y moraleja, mientras que las leyendas forman parte de la tradición popular y explican orígenes reales.",
+      "lang": "es",
+      "categories": [
+        "Cuento",
+        "Leyenda"
+      ],
+      "items": [
+        {
+          "text": "Suele empezar con fórmulas como 'Érase una vez'.",
+          "category": 0
+        },
+        {
+          "text": "Intenta explicar el origen de un lugar real o un fenómeno natural.",
+          "category": 1
+        },
+        {
+          "text": "Es una historia de ficción creada principalmente para entretener.",
+          "category": 0
+        },
+        {
+          "text": "Se transmite de generación en generación en una comunidad.",
+          "category": 1
+        },
+        {
+          "text": "Suele tener un final feliz o una enseñanza clara.",
+          "category": 0
+        },
+        {
+          "text": "Combina elementos reales con hechos mágicos o sobrenaturales.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-05",
+      "type": "order",
+      "prompt": "Ordena los momentos de esta historia según la estructura de la narración.",
+      "explanation": "El relato comienza con el descubrimiento (inicio), continúa con la pérdida en el sótano (nudo) y concluye con la salida airosa (desenlace).",
+      "lang": "es",
+      "items": [
+        "Lucas encuentra un mapa misterioso en la biblioteca del colegio.",
+        "Lucas y Aisha se pierden en el sótano buscando el cofre secreto.",
+        "Consiguen abrir la puerta con una llave dorada y celebran su hallazgo."
+      ]
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-06",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre los elementos del cuento.",
+      "explanation": "El narrador es la persona o voz creada por el autor para relatar los acontecimientos de la historia.",
+      "lang": "es",
+      "sentence": "La voz que cuenta la historia y explica lo que hacen los personajes se llama ___.",
+      "options": [
+        "narrador",
+        "protagonista",
+        "lector"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-07",
+      "type": "reading",
+      "prompt": "Lee con atención este texto tradicional y responde a las preguntas.",
+      "explanation": "Las leyendas unen lugares conocidos con historias mágicas que se cuentan de abuelos a nietos.",
+      "lang": "es",
+      "title": "La leyenda del lago azul",
+      "text": "Cuentan los abuelos del pueblo que hace muchos años el valle no tenía agua. Una tarde calurosa, una cierva dorada bajó de la montaña más alta buscando refugio. Los campesinos, en lugar de cazarla, le ofrecieron sombra y frutos secos. Agradecida por su bondad, la cierva golpeó el suelo rocoso tres veces con sus pezuñas mágicas. De repente, brotó un manantial cristalino que llenó todo el valle y formó el lago azul. Desde entonces, los vecinos cuidan la naturaleza y recuerdan a la misteriosa cierva.",
+      "questions": [
+        {
+          "prompt": "¿Por qué golpeó la cierva el suelo rocoso?",
+          "explanation": "El texto explica claramente que la cierva golpeó el suelo agradecida por la bondad de los campesinos al cuidarla.",
+          "options": [
+            "Para agradecer la bondad y la ayuda de los campesinos.",
+            "Porque estaba asustada por los ruidos del valle.",
+            "Para abrir un camino de regreso a la montaña."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué podemos decir que este texto es una leyenda?",
+          "explanation": "Es una leyenda porque parte de un lugar del entorno (el lago) y explica su origen mediante un suceso fantástico y tradicional.",
+          "options": [
+            "Porque explica el origen de un lago real mezclando hechos cotidianos con magia.",
+            "Porque describe con datos científicos cómo brota el agua subterránea.",
+            "Porque es una noticia real publicada en el periódico del pueblo."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-08",
+      "type": "choice",
+      "prompt": "Encuentra el error. Leo ha escrito tres notas sobre los cuentos en su cuaderno. ¿Cuál de ellas es INCORRECTA?",
+      "explanation": "Los cuentos son narraciones de ficción inventadas por el autor, no noticias ni historias reales. Por eso esa afirmación es incorrecta.",
+      "hint": "Fíjate en si los cuentos son reales o imaginados.",
+      "lang": "es",
+      "options": [
+        "El problema o conflicto del cuento se desarrolla en el nudo.",
+        "Los cuentos son siempre crónicas reales de cosas que ocurrieron de verdad.",
+        "Los cuentos tienen personajes principales a los que llamamos protagonistas."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-09",
+      "type": "choice",
+      "prompt": "Martina y Omar quieren escribir una leyenda para el certamen del colegio. ¿Cuál de estas ideas es la adecuada?",
+      "explanation": "Una leyenda siempre intenta explicar el origen o forma de un elemento real de la naturaleza recurriendo a la fantasía.",
+      "hint": "Busca la opción que explique un elemento natural mediante la magia.",
+      "lang": "es",
+      "options": [
+        "Redactar una guía con instrucciones para cuidar el huerto escolar paso a paso.",
+        "Contar por qué la gran roca del río tiene forma de tortuga debido al conjuro de un duende.",
+        "Escribir una lista de la compra divertida para organizar una fiesta de cumpleaños."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-10",
+      "type": "classify",
+      "prompt": "Clasifica cada fragmento según la parte del cuento a la que corresponde.",
+      "explanation": "El inicio presenta a los personajes y el entorno, el nudo introduce el problema inesperado y el desenlace cierra la aventura con una solución.",
+      "lang": "es",
+      "categories": [
+        "Inicio",
+        "Nudo",
+        "Desenlace"
+      ],
+      "items": [
+        {
+          "text": "Había una vez un pequeño erizo que vivía en un bosque tranquilo.",
+          "category": 0
+        },
+        {
+          "text": "De repente, una fuerte tormenta apagó la fogata y quedaron a oscuras.",
+          "category": 1
+        },
+        {
+          "text": "Al final, encontraron el camino de vuelta y celebraron una gran fiesta.",
+          "category": 2
+        },
+        {
+          "text": "En un reino lejano gobernaba una reina sabia y bondadosa.",
+          "category": 0
+        },
+        {
+          "text": "Sin previo aviso, el puente se rompió y nadie podía cruzar el río.",
+          "category": 1
+        },
+        {
+          "text": "Y así fue como todos aprendieron a colaborar y vivieron en paz.",
+          "category": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:29:53.288Z",
+    "reviewed": false
+  }
+}

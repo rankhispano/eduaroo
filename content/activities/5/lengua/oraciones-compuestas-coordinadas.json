@@ -1,0 +1,246 @@
+{
+  "id": "g5-lengua-oraciones-compuestas-coordinadas",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "oraciones-compuestas-coordinadas",
+  "temaNombre": "Oraciones compuestas coordinadas",
+  "title": "Descubre las oraciones compuestas coordinadas",
+  "summary": "Practica la identificación y el uso de oraciones compuestas coordinadas y sus nexos.",
+  "keyIdeas": [
+    "Una oración compuesta tiene dos o más verbos conjugados.",
+    "Las oraciones coordinadas se unen mediante nexos sin que una dependa de la otra.",
+    "Los nexos pueden ser copulativos (y, e, ni), disyuntivos (o, u) o adversativos (pero, sino)."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC2",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD2",
+      "CD3",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-oraciones-compuestas-coordinadas-01",
+      "type": "true-false",
+      "prompt": "Una oración compuesta se diferencia de una simple en que tiene más de una forma verbal con significado completo.",
+      "explanation": "Las oraciones compuestas tienen dos o más verbos, lo que significa que están formadas por dos o más proposiciones u oraciones simples enlazadas.",
+      "hint": "Cuenta cuántos verbos conjugados necesita una oración para ser compuesta.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-lengua-oraciones-compuestas-coordinadas-02",
+      "type": "match",
+      "prompt": "Relaciona cada nexo coordinante con el tipo de relación que establece entre las oraciones:",
+      "explanation": "Los nexos copulativos suman significados, los disyuntivos presentan opciones y los adversativos expresan contrariedad entre las dos ideas.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "y, e, ni",
+          "right": "Copulativa (suma o adición)"
+        },
+        {
+          "left": "o, u",
+          "right": "Disyuntiva (opción o elección)"
+        },
+        {
+          "left": "pero, sino",
+          "right": "Adversativa (oposición o contraste)"
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-oraciones-compuestas-coordinadas-03",
+      "type": "fill-blank",
+      "prompt": "Completa la oración con el nexo copulativo correcto para evitar la cacofonía:",
+      "explanation": "Se utiliza la conjunción 'e' en lugar de 'y' cuando la palabra siguiente empieza por el sonido 'i' (i- o hi-) para facilitar la pronunciación.",
+      "hint": "Fíjate en el sonido con el que empieza el nombre propio que va justo después del hueco.",
+      "lang": "es",
+      "sentence": "Aisha preparó el guion del proyecto teatral ___ Irene diseñó los decorados.",
+      "options": [
+        "e",
+        "ni",
+        "y"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-lengua-oraciones-compuestas-coordinadas-04",
+      "type": "classify",
+      "prompt": "Clasifica cada oración compuesta coordinada según la clase de nexo que utiliza:",
+      "explanation": "Identificamos el tipo de coordinación fijándonos en el nexo: 'y' y 'ni' son copulativos; 'o' y 'u' son disyuntivos; 'pero' es adversativo.",
+      "lang": "es",
+      "categories": [
+        "Coordinada copulativa",
+        "Coordinada disyuntiva",
+        "Coordinada adversativa"
+      ],
+      "items": [
+        {
+          "text": "Hugo recogió los balones y Martina guardó los conos.",
+          "category": 0
+        },
+        {
+          "text": "¿Vienes hoy al polideportivo o prefieres descansar?",
+          "category": 1
+        },
+        {
+          "text": "Entrenamos con muchas ganas, pero no marcamos ningún gol.",
+          "category": 2
+        },
+        {
+          "text": "No le gusta el atletismo ni practica la natación.",
+          "category": 0
+        },
+        {
+          "text": "El examen era difícil, pero todos prestamos atención.",
+          "category": 2
+        },
+        {
+          "text": "¿Hacemos el trabajo por ordenador u organizamos una cartulina?",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-oraciones-compuestas-coordinadas-05",
+      "type": "choice",
+      "prompt": "Encuentra la frase que contiene un ERROR en el uso de los nexos coordinantes:",
+      "explanation": "La primera frase contiene un error porque la conjunción 'y' debe sustituirse por 'e' delante de una palabra que comience por 'i' (Inés).",
+      "hint": "Revisa las reglas fonéticas al unir palabras que empiezan por 'i'.",
+      "lang": "es",
+      "options": [
+        "Adrián ordenó sus pinturas y Inés afiló los lápices de colores.",
+        "Podemos ir caminando al museo o coger el autobús de las diez.",
+        "Lucía terminó la maqueta, pero olvidó rotular los títulos."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-lengua-oraciones-compuestas-coordinadas-06",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto sobre el concurso de robótica escolar y responde a las preguntas:",
+      "explanation": "El texto combina oraciones coordinadas copulativas, adversativas y disyuntivas para narrar la experiencia del equipo escolar.",
+      "lang": "es",
+      "title": "El reto de los pequeños inventores",
+      "text": "La clase de quinto participaba en el torneo escolar de robótica. Wei programó los sensores de movimiento y Omar ajustó las ruedas del prototipo con precisión. Habían ensayado durante semanas, pero el robot se detuvo inesperadamente ante la primera rampa del circuito. El público contuvo la respiración y los jueces observaron atentamente la pantalla de control. ¿Reiniciarían el circuito o intentarían calibrar el sensor a distancia? Wei mantuvo la calma, pulsó dos comandos rápidos en la tableta y el robot reanudó la marcha hacia la meta. Finalmente, el equipo no consiguió el primer premio, pero todos aprendieron que cooperar bajo presión resuelve cualquier problema técnico.",
+      "questions": [
+        {
+          "prompt": "¿Qué tarea concreta realizó Wei al inicio de la preparación del robot?",
+          "explanation": "En el texto se indica explícitamente: 'Wei programó los sensores de movimiento y Omar ajustó las ruedas'.",
+          "options": [
+            "Ajustó las ruedas del prototipo con precisión.",
+            "Programó los sensores de movimiento.",
+            "Diseñó la rampa de pruebas del circuito."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "En la oración 'Habían ensayado durante semanas, pero el robot se detuvo', ¿qué función cumple el nexo 'pero'?",
+          "explanation": "El nexo 'pero' es adversativo y sirve para contraponer una dificultad (el robot se paró) frente a la preparación previa (habían ensayado semanas).",
+          "options": [
+            "Contrapone un obstáculo inesperado a todo el esfuerzo previo.",
+            "Plantea dos opciones para que el lector elija una.",
+            "Añade una acción complementaria a los ensayos."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué conclusión constructiva extraen los protagonistas tras su experiencia en el torneo?",
+          "explanation": "Al final del texto se destaca que cooperar bajo presión les permitió resolver el fallo y aprender una valiosa lección.",
+          "options": [
+            "Que es mejor trabajar de forma individual para evitar errores técnicos.",
+            "Que el trabajo en equipo permite superar imprevistos con serenidad.",
+            "Que ganar medallas es lo único que demuestra si un proyecto es bueno."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-oraciones-compuestas-coordinadas-07",
+      "type": "choice",
+      "prompt": "Nerea quiere redactar una propuesta para el periódico escolar uniendo estas dos ideas con una relación de contraste: 'El patio tiene pocos bancos' y 'El espacio es suficiente para colocarlos'. ¿Qué oración coordinada adversativa está mejor construida?",
+      "explanation": "Para expresar contraste u oposición entre ambas ideas, el nexo coordinante adecuado es 'pero' (adversativo).",
+      "hint": "Busca el nexo que contraponga la falta de bancos con la existencia de espacio.",
+      "lang": "es",
+      "options": [
+        "El patio tiene pocos bancos u organizamos el espacio disponible.",
+        "El patio tiene pocos bancos y el espacio es suficiente para colocarlos.",
+        "El patio tiene pocos bancos, pero el espacio es suficiente para colocarlos."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-lengua-oraciones-compuestas-coordinadas-08",
+      "type": "fill-blank",
+      "prompt": "Elige la conjunción disyuntiva adecuada para completar la frase sin cometer errores fonéticos:",
+      "explanation": "Se emplea 'u' en lugar de 'o' cuando la palabra siguiente empieza por el sonido 'o' (o-, ho-), como en 'orquídeas'.",
+      "hint": "Observa por qué vocal comienza la palabra que va después del espacio en blanco.",
+      "lang": "es",
+      "sentence": "Para la fiesta de primavera, ¿decoramos la entrada con guirnaldas ___ orquídeas de papel?",
+      "options": [
+        "o",
+        "u",
+        "e"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-oraciones-compuestas-coordinadas-09",
+      "type": "order",
+      "prompt": "Ordena los fragmentos para formar una oración compuesta coordinada adversativa con sentido completo:",
+      "explanation": "La oración se estructura con una primera proposición ('El equipo... lluvia'), el nexo adversativo ('pero') y la segunda proposición que muestra el contraste con el esfuerzo realizado.",
+      "lang": "es",
+      "items": [
+        "El equipo de atletismo entrenó bajo la lluvia,",
+        "pero el mal tiempo",
+        "no impidió que lograran",
+        "su mejor marca personal."
+      ]
+    },
+    {
+      "id": "g5-lengua-oraciones-compuestas-coordinadas-10",
+      "type": "choice",
+      "prompt": "Cuidado con las trampas: ¿cuál de las siguientes oraciones es realmente una ORACIÓN COMPUESTA coordinada y NO una simple con sujeto o complemento compuesto?",
+      "explanation": "Para que sea una oración compuesta debe tener al menos dos verbos conjugados: aquí tenemos 'preparó' y 'encendió', unidos por la conjunción 'y'. Las otras frases solo tienen un verbo ('compró', 'bailaron').",
+      "hint": "Localiza los verbos en cada opción: una oración compuesta siempre tiene más de un verbo conjugado.",
+      "lang": "es",
+      "options": [
+        "Nerea y su prima bailaron toda la tarde en el festival escolar.",
+        "Sofía preparó la masa del bizcocho y su hermano encendió el horno.",
+        "Mateo compró manzanas, peras y plátanos en la frutería del barrio."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:51:43.923Z",
+    "reviewed": false
+  }
+}

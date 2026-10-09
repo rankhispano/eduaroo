@@ -1,0 +1,209 @@
+{
+  "id": "g2-ingles-preguntas-con-what-where",
+  "cursoId": "2",
+  "asignaturaId": "ingles",
+  "temaId": "preguntas-con-what-where",
+  "temaNombre": "Preguntas con What/Where",
+  "title": "Preguntamos con What y Where",
+  "summary": "Aprende a preguntar por cosas y lugares usando What y Where en inglés.",
+  "keyIdeas": [
+    "Usamos 'What' para preguntar por cosas, objetos o acciones (¿qué?).",
+    "Usamos 'Where' para preguntar por lugares o la posición de algo (¿dónde?)."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "3.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-ingles-preguntas-con-what-where-01",
+      "type": "choice",
+      "prompt": "Choose the correct word: '___ is this? It is a pencil.' ✏️",
+      "explanation": "Usamos 'What' para preguntar qué es un objeto.",
+      "hint": "Preguntamos por una cosa, no por un lugar.",
+      "lang": "en",
+      "options": [
+        "What",
+        "Where",
+        "Who"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-preguntas-con-what-where-02",
+      "type": "choice",
+      "prompt": "Choose the correct word: '___ is the cat? In the garden.' 🐱",
+      "explanation": "Usamos 'Where' para preguntar en qué lugar está el gato.",
+      "hint": "La respuesta dice un lugar: 'in the garden'.",
+      "lang": "en",
+      "options": [
+        "Where",
+        "What",
+        "Yes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-preguntas-con-what-where-03",
+      "type": "classify",
+      "prompt": "Classify the questions with What or Where:",
+      "explanation": "'What' sirve para preguntar nombres y cosas. 'Where' sirve para saber dónde están personas u objetos.",
+      "lang": "en",
+      "categories": [
+        "Questions with What",
+        "Questions with Where"
+      ],
+      "items": [
+        {
+          "text": "___ is your name?",
+          "category": 0
+        },
+        {
+          "text": "___ is my school bag?",
+          "category": 1
+        },
+        {
+          "text": "___ is this animal?",
+          "category": 0
+        },
+        {
+          "text": "___ is the teacher?",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-preguntas-con-what-where-04",
+      "type": "true-false",
+      "prompt": "The question 'Where is the dog?' asks for a place. 🐶",
+      "explanation": "¡Correcto! 'Where' significa 'dónde' y nos sirve para preguntar por un lugar.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-ingles-preguntas-con-what-where-05",
+      "type": "fill-blank",
+      "prompt": "Completa la pregunta con la opción correcta:",
+      "explanation": "Como la respuesta indica una posición ('on the table'), la pregunta empieza con 'Where'.",
+      "hint": "Buscamos un lugar.",
+      "lang": "en",
+      "sentence": "___ is my ruler? It is on the table.",
+      "options": [
+        "It",
+        "What",
+        "Where"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-preguntas-con-what-where-06",
+      "type": "fill-blank",
+      "prompt": "Completa la conversación en clase:",
+      "explanation": "Preguntamos 'What is in your pencil case?' para saber qué objeto hay dentro.",
+      "hint": "La respuesta nombra una cosa: 'a blue pen'.",
+      "lang": "en",
+      "sentence": "___ is in your pencil case? A blue pen.",
+      "options": [
+        "Under",
+        "Where",
+        "What"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-preguntas-con-what-where-07",
+      "type": "order",
+      "prompt": "Put the words in order to make a question:",
+      "explanation": "El orden correcto para preguntar dónde está algo es: 'Where is my hat?'.",
+      "lang": "en",
+      "items": [
+        "Where",
+        "is",
+        "my",
+        "hat?"
+      ]
+    },
+    {
+      "id": "g2-ingles-preguntas-con-what-where-08",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions:",
+      "explanation": "Leemos con atención las pistas del texto para responder qué hay y dónde está cada cosa.",
+      "lang": "en",
+      "title": "Hugo's Bedroom",
+      "text": "Hugo is in his bedroom. His green ball is under the bed. His red cap is on the desk. Hugo looks at the desk. 'What is this?', he says. It is a comic book!",
+      "questions": [
+        {
+          "prompt": "Where is the green ball?",
+          "explanation": "El texto dice que la pelota verde está debajo de la cama ('under the bed').",
+          "options": [
+            "Under the bed.",
+            "On the desk.",
+            "In the garden."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What is on the desk?",
+          "explanation": "En el escritorio están la gorra roja ('red cap') y el cómic ('comic book').",
+          "options": [
+            "The red cap and a comic.",
+            "A green ball.",
+            "A yellow pencil."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-preguntas-con-what-where-09",
+      "type": "choice",
+      "prompt": "Martina lost her notebook in the park. What question does she ask Omar? 🌳",
+      "explanation": "Para encontrar su cuaderno perdido, Martina necesita saber el lugar, así que pregunta 'Where is my notebook?'.",
+      "hint": "Quiere saber en qué lugar está.",
+      "lang": "en",
+      "options": [
+        "Where is my notebook?",
+        "What is a notebook?",
+        "What color is my notebook?"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:06:06.372Z",
+    "reviewed": false
+  }
+}

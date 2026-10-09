@@ -1,0 +1,229 @@
+{
+  "id": "g3-lengua-silaba-tonica-y-atona",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "silaba-tonica-y-atona",
+  "temaNombre": "Sílaba tónica y átona",
+  "title": "El ritmo de las sílabas",
+  "summary": "Aprende a distinguir la sílaba tónica de las sílabas átonas en diferentes palabras.",
+  "keyIdeas": [
+    "La sílaba tónica se pronuncia con más fuerza de voz y solo hay una por palabra.",
+    "Las sílabas átonas son las demás sílabas de la palabra y se pronuncian más suave.",
+    "Un buen truco es llamar a la palabra como si estuviera lejos para oír su golpe de voz."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-01",
+      "type": "choice",
+      "prompt": "Aisha le explica a su hermano qué es la sílaba tónica. ¿Cuál es la explicación correcta?",
+      "explanation": "La sílaba tónica es aquella que recibe el mayor golpe de voz en la palabra.",
+      "hint": "Piensa en qué sílaba suena más fuerte al hablar.",
+      "lang": "es",
+      "options": [
+        "Es cualquier sílaba que no lleva tilde escrita.",
+        "Es la primera sílaba con la que empieza siempre la palabra.",
+        "Es la sílaba que se pronuncia con más fuerza en una palabra."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-02",
+      "type": "true-false",
+      "prompt": "Una misma palabra puede tener dos sílabas tónicas.",
+      "explanation": "Cada palabra tiene solo una sílaba tónica; todas las demás sílabas son átonas.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-03",
+      "type": "choice",
+      "prompt": "Hugo dice en voz alta la palabra «cartera» (car-te-ra). 🎒 ¿Cuál es su sílaba tónica?",
+      "explanation": "En «car-te-ra», el golpe de voz recae en «te», por eso es la sílaba tónica.",
+      "hint": "Imagina que llamas a la cartera desde lejos: ¡car-tee-ra!",
+      "lang": "es",
+      "options": [
+        "te",
+        "car",
+        "ra"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra adecuada.",
+      "explanation": "Las sílabas átonas son las que pronunciamos de manera más suave, sin el golpe de voz principal.",
+      "lang": "es",
+      "sentence": "Las sílabas de una palabra que se pronuncian con menos fuerza se llaman sílabas ___.",
+      "options": [
+        "tónicas",
+        "átonas",
+        "fuertes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-05",
+      "type": "match",
+      "prompt": "Une cada palabra con su correspondiente sílaba tónica.",
+      "explanation": "Cada palabra tiene su golpe de voz en una sílaba diferente: plá-ta-no, re-loj, ven-ta-na y mú-si-ca.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "plátano",
+          "right": "plá"
+        },
+        {
+          "left": "reloj",
+          "right": "loj"
+        },
+        {
+          "left": "ventana",
+          "right": "ta"
+        },
+        {
+          "left": "música",
+          "right": "mú"
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-06",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según la posición de su sílaba tónica.",
+      "explanation": "Palabras como balón, papel y ratón cargan la voz al final; mesa, árbol y mochila lo hacen en la penúltima sílaba.",
+      "lang": "es",
+      "categories": [
+        "Sílaba tónica en la última sílaba",
+        "Sílaba tónica en la penúltima sílaba"
+      ],
+      "items": [
+        {
+          "text": "balón",
+          "category": 0
+        },
+        {
+          "text": "mesa",
+          "category": 1
+        },
+        {
+          "text": "papel",
+          "category": 0
+        },
+        {
+          "text": "árbol",
+          "category": 1
+        },
+        {
+          "text": "ratón",
+          "category": 0
+        },
+        {
+          "text": "mochila",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-07",
+      "type": "choice",
+      "prompt": "Lucía ha destacado en mayúsculas la sílaba tónica de cuatro palabras. ¿En cuál ha cometido un error?",
+      "explanation": "El error está en «PA-pel». Decimos «pa-PEL», por lo que la sílaba tónica es «pel» y no «pa».",
+      "hint": "Pronuncia «papel» con naturalidad para escuchar dónde cae el golpe.",
+      "lang": "es",
+      "options": [
+        "ca-MI-sa",
+        "or-de-na-DOR",
+        "PA-pel",
+        "es-CUE-la"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-08",
+      "type": "reading",
+      "prompt": "Lee el texto y responde a las preguntas.",
+      "explanation": "Llamar a la palabra ayuda a alargar la sílaba tónica y diferenciarla de las sílabas átonas.",
+      "lang": "es",
+      "title": "El juego del caza-sílabas",
+      "text": "Hoy en clase de tercero hemos jugado al «caza-sílabas». La maestra Clara nos ha enseñado un truco muy divertido: para encontrar la sílaba tónica de cualquier palabra, debemos imaginar que llamamos a alguien desde la otra punta del patio. Martina lo probó primero con la palabra «manzana»: gritó «¡man-ZAAA-na!» y todos escuchamos enseguida que la sílaba «za» sonaba con más fuerza y duración. Después, Omar probó con «tambor»: gritó «¡tam-BOOOR!» y descubrió que la sílaba tónica era «bor». ¡Nadie falló en toda la tarde!",
+      "questions": [
+        {
+          "prompt": "¿Qué truco propone la maestra Clara para localizar la sílaba tónica?",
+          "explanation": "El texto explica que el truco consiste en imaginar que llamamos a alguien desde la otra punta del patio.",
+          "options": [
+            "Escribir la palabra con bolígrafo verde.",
+            "Contar con los dedos las letras de la palabra.",
+            "Fingir que llamamos a alguien desde lejos."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "En la palabra «manzana», ¿cuántas sílabas átonas hay?",
+          "explanation": "La palabra «manzana» tiene tres sílabas (man-za-na). Como «za» es la tónica, las otras dos («man» y «na») son átonas.",
+          "options": [
+            "Dos sílabas átonas.",
+            "Una sílaba átona.",
+            "Tres sílabas átonas."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-09",
+      "type": "order",
+      "prompt": "Ordena los pasos que sigue Adrián para encontrar las sílabas átonas de una palabra:",
+      "explanation": "Primero dividimos en sílabas, luego buscamos el golpe de voz para hallar la tónica y así reconocemos las átonas.",
+      "lang": "es",
+      "items": [
+        "Separar la palabra en sílabas.",
+        "Pronunciar la palabra para localizar el golpe de voz.",
+        "Identificar la única sílaba tónica.",
+        "Reconocer las sílabas restantes como átonas."
+      ]
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-10",
+      "type": "choice",
+      "prompt": "Nerea crea un pareado para el periódico escolar. Busca dos palabras cuya sílaba tónica esté en la última sílaba. ¿Qué pareja debe elegir?",
+      "explanation": "En «le-ón» y «pa-red», la sílaba tónica es la última. En «casa» es la penúltima y en «plátano» la antepenúltima.",
+      "hint": "Comprueba dónde recae el golpe de voz en las dos palabras de cada opción.",
+      "lang": "es",
+      "options": [
+        "plátano y tambor",
+        "casa y camión",
+        "león y pared"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:21:54.070Z",
+    "reviewed": false
+  }
+}

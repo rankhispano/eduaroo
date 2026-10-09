@@ -1,0 +1,249 @@
+{
+  "id": "g6-naturales-cadenas-y-redes-troficas",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "cadenas-y-redes-troficas",
+  "temaNombre": "Cadenas y redes tróficas",
+  "title": "Cadenas y redes tróficas",
+  "summary": "Repasa cómo fluye la energía en los ecosistemas a través de productores, consumidores y descomponedores.",
+  "keyIdeas": [
+    "Los productores fabrican su propio alimento con la fotosíntesis y forman la base de la cadena.",
+    "Las flechas en una cadena o red trófica señalan hacia el ser vivo que recibe la energía al alimentarse.",
+    "Los descomponedores transforman restos orgánicos en sales minerales que vuelven al suelo."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-01",
+      "type": "choice",
+      "prompt": "Hugo observa las plantas del huerto escolar. En una cadena trófica, ¿por qué los vegetales reciben el nombre de organismos productores?",
+      "explanation": "Las plantas, algas y ciertas bacterias son autótrofas: producen materia orgánica propia mediante la fotosíntesis, iniciando el flujo de energía.",
+      "hint": "Recuerda la palabra 'autótrofo' y cómo obtienen su energía.",
+      "lang": "es",
+      "options": [
+        "Porque fabrican su propio alimento mediante la fotosíntesis a partir de agua, sales y luz solar.",
+        "Porque producen verduras y frutas destinadas únicamente al consumo humano.",
+        "Porque absorben animales microscópicos del suelo para alimentarse de ellos."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-02",
+      "type": "true-false",
+      "prompt": "En el esquema de una cadena trófica, la flecha señala hacia el organismo que es comido para indicar su procedencia.",
+      "explanation": "La flecha siempre apunta hacia el organismo que come, porque representa la dirección en la que viajan la materia y la energía (por ejemplo: hierba → conejo).",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-03",
+      "type": "classify",
+      "prompt": "Clasifica estos seres vivos de un bosque mediterráneo según su nivel trófico:",
+      "explanation": "Las plantas son productoras, los herbívoros son consumidores primarios y los hongos y bacterias descomponen la materia orgánica.",
+      "lang": "es",
+      "categories": [
+        "Productores",
+        "Consumidores primarios",
+        "Descomponedores"
+      ],
+      "items": [
+        {
+          "text": "Encina",
+          "category": 0
+        },
+        {
+          "text": "Conejo de campo",
+          "category": 1
+        },
+        {
+          "text": "Hongos de suelo",
+          "category": 2
+        },
+        {
+          "text": "Romero silvestre",
+          "category": 0
+        },
+        {
+          "text": "Saltamontes",
+          "category": 1
+        },
+        {
+          "text": "Bacterias de la hojarasca",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el reciclaje de nutrientes en el suelo.",
+      "explanation": "Los descomponedores cierran el ciclo de la materia transformando restos orgánicos en sales minerales que nutren las raíces vegetales.",
+      "hint": "Piensa en las sustancias del suelo que absorben las raíces con el agua.",
+      "lang": "es",
+      "sentence": "Los descomponedores degradan la materia orgánica muerta y la transforman en ___ que las plantas aprovechan de nuevo.",
+      "options": [
+        "dióxido de carbono líquido",
+        "energía luminosa",
+        "sales minerales"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-05",
+      "type": "match",
+      "prompt": "Une cada organismo de una laguna dulceacuícola con su función en la red trófica:",
+      "explanation": "El fitoplancton capta la luz, el zooplancton lo consume, la trucha come zooplancton y la garza pesca a la trucha.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Fitoplancton",
+          "right": "Productor microscópico acuático"
+        },
+        {
+          "left": "Pulga de agua (dafnio)",
+          "right": "Consumidor primario que filtra algas"
+        },
+        {
+          "left": "Trucha común",
+          "right": "Consumidor secundario carnívoro"
+        },
+        {
+          "left": "Garza real",
+          "right": "Consumidor terciario en la cima de la red"
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-06",
+      "type": "order",
+      "prompt": "Ordena estos eslabones para formar una cadena trófica completa según el sentido del flujo de energía:",
+      "explanation": "La energía fluye desde el productor (bellota) al consumidor primario (ratón), de este al depredador (búho) y finalmente a los descomponedores.",
+      "lang": "es",
+      "items": [
+        "Bellota de encina",
+        "Ratón de campo",
+        "Búho real",
+        "Bacterias del suelo"
+      ]
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-07",
+      "type": "choice",
+      "prompt": "En clase debaten sobre las relaciones tróficas. ¿Quién sostiene una idea EQUIVOCADA sobre el funcionamiento del ecosistema?",
+      "explanation": "Mateo se equivoca: aunque los carnívoros no coman plantas directamente, dependen de ellas de forma indirecta porque sus presas necesitan vegetales para subsistir.",
+      "hint": "¿De qué se alimentan los herbívoros que caza el carnívoro?",
+      "lang": "es",
+      "options": [
+        "Mateo: 'Los lobos no dependen para nada de la vegetación porque son carnívoros estrictos y solo comen otros animales'.",
+        "Nerea: 'Si desaparecieran las plantas, los carnívoros también morirían porque sus presas herbívoras se quedarían sin comida'.",
+        "Aisha: 'En cada nivel trófico se aprovecha solo una parte de la energía, ya que el resto se pierde en forma de calor'."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-08",
+      "type": "choice",
+      "prompt": "En un bosque, una plaga marchita la mayoría de los arbustos que producen moras. Los lirones se alimentan casi exclusivamente de estas moras, y las lechuzas cazan principalmente lirones. ¿Qué predicción razonada ocurrirá primero?",
+      "explanation": "Al reducirse el recurso de los consumidores primarios (lirones), su número baja por hambre y, a continuación, los depredadores sufren escasez de presas.",
+      "hint": "Sigue el orden de la cadena: ¿a quién afecta de forma inmediata la escasez de frutos?",
+      "lang": "es",
+      "options": [
+        "Disminuirá la población de lirones por falta de alimento, lo que afectará negativamente después a las lechuzas.",
+        "Aumentará la población de lechuzas de inmediato porque los lirones estarán más cansados.",
+        "Los arbustos comenzarán a cazar lirones para compensar las hojas perdidas."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-09",
+      "type": "reading",
+      "prompt": "Lee este texto sobre el bosque mediterráneo y responde a las preguntas.",
+      "explanation": "El lince actúa como especie clave: su presencia mantiene el equilibrio entre las distintas poblaciones del monte mediterráneo.",
+      "lang": "es",
+      "title": "El lince ibérico y el equilibrio del monte",
+      "text": "En el bosque mediterráneo, el lince ibérico ocupa la cima de la pirámide trófica. Este felino se alimenta principalmente de conejos de campo, que constituyen cerca del 90 % de su dieta habitual. Durante décadas, diversas enfermedades diezmaron a los conejos y la actividad humana fragmentó los montes, colocando al lince al borde de la extinción.\n\nCuando los científicos investigaron las zonas donde el lince había desaparecido, comprobaron un desajuste inesperado: aumentaron depredadores de tamaño mediano como zorros y meloncillos. Al no competir con el lince por el territorio, estos carnívoros proliferaron y comenzaron a cazar en exceso otras aves y pequeños mamíferos.\n\nCon la recuperación paulatina del lince ibérico en parques naturales como Sierra Morena y Doñana, el monte ha recuperado su balance. El lince aleja a los depredadores menores y regula las poblaciones de conejo. La protección de este gran carnívoro demuestra que cada eslabón sostiene la estabilidad de toda la comunidad biológica.",
+      "questions": [
+        {
+          "prompt": "¿Qué animal constituye la presa fundamental del lince ibérico según el texto?",
+          "explanation": "El texto señala expresamente que los conejos de campo suponen cerca del 90 % de su dieta habitual.",
+          "options": [
+            "La perdiz roja.",
+            "El meloncillo.",
+            "El conejo de campo."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué la ausencia del lince favoreció la multiplicación de zorros y meloncillos?",
+          "explanation": "Al faltar el superdepredador territorial, los carnívoros medianos encontraron vía libre para ocupar el espacio y cazar sin competencia.",
+          "options": [
+            "Porque los conejos eligieron a los zorros como nuevos protectores de sus madrigueras.",
+            "Porque los zorros aprendieron a alimentarse de los restos que dejaban los linces.",
+            "Porque el lince ya no competía con ellos ni marcaba territorio para frenar su expansión."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué conclusión científica sobre la conservación se extrae de esta situación?",
+          "explanation": "Los grandes depredadores cumplen un papel regulador esencial; su presencia evita la sobrepoblación y el colapso del ecosistema.",
+          "options": [
+            "Proteger a los superdepredadores ayuda a mantener el equilibrio de todas las poblaciones de la red trófica.",
+            "Es mejor eliminar a los carnívoros para que solo vivan herbívoros en el monte.",
+            "Las redes tróficas funcionan mejor cuando desaparecen las especies que comen carne."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-10",
+      "type": "choice",
+      "prompt": "Lucía compara una cadena trófica lineal con una red trófica compleja. ¿Por qué una red trófica hace que el ecosistema sea mucho más estable y resistente ante imprevistos?",
+      "explanation": "En una red trófica los organismos tienen varias fuentes de alimento. Si una presa falla temporalmente, la comunidad sobrevive adaptando su dieta.",
+      "hint": "Piensa en qué ocurre si tienes varias opciones para merendar en lugar de una sola.",
+      "lang": "es",
+      "options": [
+        "Porque los consumidores primarios de una red pueden realizar la fotosíntesis cuando los vegetales se secan.",
+        "Porque ofrece rutas alternativas: si una especie escasea, los depredadores pueden alimentarse de otras presas distintas.",
+        "Porque en una red trófica no existen descomponedores y la energía nunca se agota."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:24:47.637Z",
+    "reviewed": false
+  }
+}

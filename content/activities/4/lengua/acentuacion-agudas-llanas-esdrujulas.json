@@ -1,0 +1,225 @@
+{
+  "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "acentuacion-agudas-llanas-esdrujulas",
+  "temaNombre": "Acentuación: agudas, llanas, esdrújulas",
+  "title": "El misterio de las palabras acentuadas",
+  "summary": "Aprenderás a clasificar palabras agudas, llanas y esdrújulas y a aplicar sus reglas de acentuación.",
+  "keyIdeas": [
+    "La sílaba tónica es la que pronunciamos con más fuerza en una palabra.",
+    "Las agudas llevan tilde si acaban en vocal, -n o -s; las llanas, si no acaban en vocal, -n ni -s.",
+    "Las palabras esdrújulas llevan tilde siempre en la antepenúltima sílaba."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-01",
+      "type": "choice",
+      "prompt": "¿En qué sílaba suena con más fuerza la palabra «camaleón»?",
+      "explanation": "La sílaba tónica de «camaleón» es la última sílaba (-ón). Por eso es una palabra aguda.",
+      "hint": "Pronuncia la palabra despacio dando una palmada en el golpe de voz más fuerte.",
+      "lang": "es",
+      "options": [
+        "En la antepenúltima sílaba (-ma-)",
+        "En la penúltima sílaba (-le-)",
+        "En la última sílaba (-ón)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-02",
+      "type": "true-false",
+      "prompt": "Todas las palabras esdrújulas llevan tilde siempre.",
+      "explanation": "Es correcto. A diferencia de las agudas y llanas, las palabras esdrújulas siempre llevan tilde sobre su sílaba tónica.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-03",
+      "type": "match",
+      "prompt": "Relaciona cada tipo de palabra con la posición de su sílaba tónica:",
+      "explanation": "Las agudas tienen la fuerza en la última sílaba, las llanas en la penúltima y las esdrújulas en la antepenúltima.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Aguda",
+          "right": "Última sílaba"
+        },
+        {
+          "left": "Llana",
+          "right": "Penúltima sílaba"
+        },
+        {
+          "left": "Esdrújula",
+          "right": "Antepenúltima sílaba"
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-04",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según la posición de su sílaba tónica:",
+      "explanation": "«Tambor» y «compás» son agudas; «mochila» y «árbol» son llanas; «brújula» y «lámpara» son esdrújulas.",
+      "lang": "es",
+      "categories": [
+        "Agudas",
+        "Llanas",
+        "Esdrújulas"
+      ],
+      "items": [
+        {
+          "text": "Tambor",
+          "category": 0
+        },
+        {
+          "text": "Compás",
+          "category": 0
+        },
+        {
+          "text": "Mochila",
+          "category": 1
+        },
+        {
+          "text": "Árbol",
+          "category": 1
+        },
+        {
+          "text": "Brújula",
+          "category": 2
+        },
+        {
+          "text": "Lámpara",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-05",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra bien escrita para completar la frase:",
+      "explanation": "«Pincel» es una palabra aguda terminada en «l», por lo que no debe llevar tilde.",
+      "lang": "es",
+      "sentence": "Aisha metió el ___ en la mochila antes de ir a clase de Plástica.",
+      "options": [
+        "pincél",
+        "pincel",
+        "píncel"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-06",
+      "type": "choice",
+      "prompt": "En el recreo, Hugo y Martina leen un cartel de la biblioteca: «El club de lectura es muy util». ¿Qué palabra tiene un error de tilde?",
+      "explanation": "«Útil» es una palabra llana que termina en «l», por lo que debe llevar tilde en la «u».",
+      "hint": "Fíjate en las palabras llanas que terminan en consonante distinta de -n o -s.",
+      "lang": "es",
+      "options": [
+        "util",
+        "club",
+        "lectura"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-07",
+      "type": "order",
+      "prompt": "Ordena los pasos para saber si una palabra debe llevar tilde:",
+      "explanation": "Primero localizamos el golpe de voz, luego clasificamos la palabra, miramos su final y aplicamos la regla.",
+      "lang": "es",
+      "items": [
+        "Pronunciar la palabra y localizar la sílaba tónica.",
+        "Identificar si la palabra es aguda, llana o esdrújula.",
+        "Comprobar en qué letra termina la palabra.",
+        "Aplicar la regla ortográfica correspondiente y escribir la tilde si toca."
+      ]
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-08",
+      "type": "choice",
+      "prompt": "¿Por qué la palabra «azúcar» lleva tilde y «cuchara» no, si las dos son llanas?",
+      "explanation": "Las palabras llanas solo llevan tilde cuando terminan en consonante distinta de -n o -s. «Azúcar» termina en «r» y «cuchara» en vocal.",
+      "lang": "es",
+      "options": [
+        "Porque «cuchara» tiene más sílabas que «azúcar» y no necesita acento gráfico.",
+        "Porque las palabras que empiezan por la letra «a» siempre llevan tilde obligatoria.",
+        "Porque «azúcar» termina en consonante distinta de -n o -s, y «cuchara» termina en vocal."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-09",
+      "type": "reading",
+      "prompt": "Lee atentamente la noticia escolar y responde a las preguntas:",
+      "explanation": "En el texto aparecen palabras agudas con tilde como «calabacín» e «ilusión», y esdrújulas como «ecológico» y «automático».",
+      "lang": "es",
+      "title": "Gran éxito del huerto escolar",
+      "text": "El alumnado de cuarto de primaria inauguró ayer el nuevo huerto ecológico del colegio. Durante semanas, niños y niñas plantaron semillas de calabacín, tomate y perejil con gran ilusión. Omar y Nerea explicaron a las familias cómo funciona el sistema de riego automático que construyeron con tubos reciclados. Además, colocaron pequeños carteles de madera para identificar cada hortaliza. La directora del centro felicitó a toda la clase por su esfuerzo, dedicación y trabajo en equipo. ¡Pronto recogerán su primera cosecha!",
+      "questions": [
+        {
+          "prompt": "¿Cuál de estas palabras del texto es aguda con tilde?",
+          "explanation": "«Calabacín» es aguda porque su sílaba tónica es la última y lleva tilde por terminar en «n».",
+          "options": [
+            "huerto",
+            "automático",
+            "calabacín"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué palabra del texto es esdrújula?",
+          "explanation": "«Ecológico» tiene su golpe de voz en la antepenúltima sílaba (e-co-ló-gi-co), por lo que es esdrújula.",
+          "options": [
+            "ecológico",
+            "ilusión",
+            "madera"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-10",
+      "type": "choice",
+      "prompt": "Lucía está revisando una lista de compras para una excursión: «melocoton, lapiz, cantimplora y platano». ¿Cuántas palabras deben llevar tilde obligatoriamente?",
+      "explanation": "Deben llevar tilde «melocotón» (aguda acabada en -n), «lápiz» (llana acabada en -z) y «plátano» (esdrújula). «Cantimplora» es llana acabada en vocal y no lleva tilde.",
+      "hint": "Revisa cada palabra: hay una aguda, una llana que termina en «z» y una esdrújula.",
+      "lang": "es",
+      "options": [
+        "2 palabras: melocotón y plátano",
+        "3 palabras: melocotón, lápiz y plátano",
+        "4 palabras: todas las de la lista"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:31:22.953Z",
+    "reviewed": false
+  }
+}

@@ -36,9 +36,11 @@ export default function TemaAccordion({
           <div className="min-w-0">
             <h2 className="text-xl font-black text-slate-900">{tema.nombre}</h2>
             <p className="text-sm font-bold text-slate-500">
-              {tema.recursos.length === 1
-                ? '1 recurso disponible'
-                : `${tema.recursos.length} recursos disponibles`}
+              {tema.recursos.length === 0
+                ? 'Muy pronto'
+                : tema.recursos.length === 1
+                  ? '1 actividad'
+                  : `${tema.recursos.length} actividades`}
             </p>
           </div>
         </div>
@@ -53,16 +55,16 @@ export default function TemaAccordion({
           {tema.recursos.length > 0 ? (
             <ul className="space-y-3">
               {tema.recursos.map((recurso) => (
-                <RecursoItem key={recurso.id} recurso={recurso} />
+                <RecursoItem key={recurso.id} recurso={recurso} color={color} />
               ))}
             </ul>
           ) : (
             <div className="flex flex-col items-start gap-3 rounded-xl border border-dashed border-slate-300 bg-white p-5 sm:flex-row sm:items-center">
               <PlusCircle className="h-6 w-6 shrink-0 text-slate-400" aria-hidden />
               <div>
-                <p className="font-black text-slate-800">Recursos pendientes de añadir</p>
+                <p className="font-black text-slate-800">¡Muy pronto habrá actividades aquí!</p>
                 <p className="text-sm font-semibold text-slate-500">
-                  Añade ejercicios, vídeos, fichas, juegos o lecturas en `src/data/curriculum.ts`.
+                  Mientras tanto, puedes practicar otro tema o echar una partida en Juegos.
                 </p>
               </div>
             </div>

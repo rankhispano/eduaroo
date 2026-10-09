@@ -1,0 +1,238 @@
+{
+  "id": "g3-sociales-mapas-fisicos-de-espana",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "mapas-fisicos-de-espana",
+  "temaNombre": "Mapas físicos de España",
+  "title": "Exploramos los mapas físicos de España",
+  "summary": "Practica cómo interpretar los mapas físicos, sus colores y los principales elementos del relieve de España.",
+  "keyIdeas": [
+    "Un mapa físico representa el relieve, las montañas, los ríos y las costas con diferentes colores.",
+    "El color verde indica zonas llanas o bajas, el amarillo mesetas, el marrón montañas y el azul agua.",
+    "España tiene una gran meseta central, importantes cordilleras y dos archipiélagos: Baleares y Canarias."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-01",
+      "type": "true-false",
+      "prompt": "En un mapa físico, el color verde representa siempre las montañas más altas.",
+      "explanation": "El color verde indica llanuras, costas y terrenos de poca altitud. Las montañas altas se representan con tonos marrones.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta sobre los mapas físicos.",
+      "explanation": "El color azul se reserva siempre para las masas de agua, como océanos, mares, lagos y ríos.",
+      "lang": "es",
+      "sentence": "En los mapas físicos, el agua de los mares y ríos se dibuja de color ___.",
+      "options": [
+        "marrón",
+        "azul",
+        "verde"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-03",
+      "type": "match",
+      "prompt": "Relaciona cada color del mapa físico con la forma de relieve que representa.",
+      "explanation": "Cada color ayuda a conocer la altitud del terreno y la presencia de agua.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Verde",
+          "right": "Llanuras y valles de poca altitud"
+        },
+        {
+          "left": "Marrón oscuro",
+          "right": "Montañas muy elevadas"
+        },
+        {
+          "left": "Azul",
+          "right": "Mares, océanos y ríos"
+        },
+        {
+          "left": "Amarillo",
+          "right": "Zonas de altura intermedia o mesetas"
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-04",
+      "type": "choice",
+      "prompt": "Lucía observa el centro de la península ibérica en el mapa físico de España. ¿Qué gran relieve ocupa esa zona central?",
+      "explanation": "La Meseta Central es una gran llanura elevada que ocupa el centro de la península ibérica.",
+      "hint": "Es una zona llana pero elevada en el interior de la península.",
+      "lang": "es",
+      "options": [
+        "El mar Mediterráneo",
+        "Los Pirineos",
+        "La Meseta Central"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-05",
+      "type": "classify",
+      "prompt": "Clasifica estos elementos del mapa físico según la masa de agua donde se sitúan.",
+      "explanation": "Las islas Canarias y Galicia están bañadas por el océano Atlántico, mientras que las islas Baleares y el río Ebro están en el Mediterráneo.",
+      "lang": "es",
+      "categories": [
+        "Océano Atlántico",
+        "Mar Mediterráneo"
+      ],
+      "items": [
+        {
+          "text": "Islas Canarias",
+          "category": 0
+        },
+        {
+          "text": "Islas Baleares",
+          "category": 1
+        },
+        {
+          "text": "Desembocadura del río Ebro",
+          "category": 1
+        },
+        {
+          "text": "Costas de Galicia",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-06",
+      "type": "choice",
+      "prompt": "Adrián busca en el mapa físico el pico más alto de toda España. ¿Cuál debe señalar?",
+      "explanation": "El Teide, situado en la isla de Tenerife (Canarias), es el pico más alto de España con 3.715 metros.",
+      "hint": "Se encuentra en una isla volcánica del archipiélago canario.",
+      "lang": "es",
+      "options": [
+        "El Teide",
+        "El Mulhacén",
+        "El Aneto"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-07",
+      "type": "order",
+      "prompt": "Ordena los colores del mapa físico desde la zona más baja hasta la cumbre más alta.",
+      "explanation": "Los tonos verdes indican terrenos al nivel del mar y se oscurecen hacia el marrón según aumenta la altura.",
+      "lang": "es",
+      "items": [
+        "Verde (zonas llanas y bajas)",
+        "Amarillo (altitud media)",
+        "Marrón claro (montañas medias)",
+        "Marrón oscuro (altas montañas)"
+      ]
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-08",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto y contesta las preguntas.",
+      "explanation": "Los mapas físicos utilizan códigos de color para informar sobre la altura de cordilleras como los Pirineos.",
+      "lang": "es",
+      "title": "El viaje de Aisha por el mapa",
+      "text": "Aisha y su clase están observando un gran mapa físico de España en la pizarra digital. El maestro les pide que señalen las fronteras naturales. En el norte descubren una gran cordillera que separa España de Francia: los Pirineos. Aisha nota que tiene un marrón muy oscuro porque sus cumbres son muy altas. Después, viajan con la vista hacia el sur de la península y encuentran los Sistemas Béticos. Finalmente, miran hacia el este y descubren las islas Baleares, rodeadas por las aguas azules del mar Mediterráneo. ¡El relieve de España es muy variado!",
+      "questions": [
+        {
+          "prompt": "¿Qué cordillera separa España de Francia según el texto?",
+          "explanation": "El texto explica que los Pirineos forman la frontera natural del norte con Francia.",
+          "options": [
+            "Los Sistemas Béticos",
+            "Los Pirineos",
+            "El Sistema Central"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por qué los Pirineos están dibujados con un color marrón muy oscuro?",
+          "explanation": "En los mapas físicos, el marrón más oscuro se utiliza para indicar las montañas de mayor elevación.",
+          "options": [
+            "Porque están rodeados enteramente por el mar",
+            "Porque tienen montañas con cumbres muy altas",
+            "Porque están cubiertos de muchos bosques secos"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-09",
+      "type": "choice",
+      "prompt": "Omar quiere diseñar una ruta en bicicleta por un terreno llano y sin pendientes duras. ¿Por qué zona de color debe trazarla?",
+      "explanation": "Las zonas verdes representan terrenos llanos de poca altitud, ideales para pedalear sin subir grandes pendientes.",
+      "hint": "Busca el color que señala terrenos llanos y bajos.",
+      "lang": "es",
+      "options": [
+        "Por la zona coloreada de azul",
+        "Por la zona coloreada de verde",
+        "Por la zona coloreada de marrón oscuro"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-10",
+      "type": "match",
+      "prompt": "Une cada elemento del mapa físico de España con su localización correcta.",
+      "explanation": "Localizar las cordilleras, mares y archipiélagos nos permite interpretar correctamente la geografía de España.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Pirineos",
+          "right": "Frontera norte con Francia"
+        },
+        {
+          "left": "Sistema Central",
+          "right": "Divide la Meseta Central en dos"
+        },
+        {
+          "left": "Mar Cantábrico",
+          "right": "Agua que baña la costa norte peninsular"
+        },
+        {
+          "left": "Islas Baleares",
+          "right": "Archipiélago situado en el mar Mediterráneo"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:52:57.795Z",
+    "reviewed": false
+  }
+}

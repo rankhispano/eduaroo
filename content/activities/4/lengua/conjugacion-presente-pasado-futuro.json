@@ -1,0 +1,204 @@
+{
+  "id": "g4-lengua-conjugacion-presente-pasado-futuro",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "conjugacion-presente-pasado-futuro",
+  "temaNombre": "Conjugación: presente, pasado, futuro",
+  "title": "Viajeros del tiempo verbal",
+  "summary": "Practica la conjugación en presente, pasado y futuro reconociendo cuándo ocurre cada acción en situaciones reales.",
+  "keyIdeas": [
+    "El pasado indica acciones ya ocurridas, el presente las que ocurren ahora y el futuro las que sucederán.",
+    "Palabras como «ayer», «hoy» o «mañana» nos dan pistas sobre qué tiempo verbal debemos utilizar.",
+    "El verbo debe concordar siempre con la persona y con el momento exacto en que sucede la acción."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-01",
+      "type": "choice",
+      "prompt": "En la frase «Hugo come una manzana en el recreo», ¿en qué tiempo verbal está la acción?",
+      "explanation": "El verbo «come» indica una acción que ocurre en este mismo instante, por lo que está en presente.",
+      "hint": "Pregúntate si Hugo realiza la acción ahora, antes o después.",
+      "lang": "es",
+      "options": [
+        "Presente",
+        "Pasado",
+        "Futuro"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-02",
+      "type": "true-false",
+      "prompt": "En la oración «Ayer visitaremos el museo de ciencias», el verbo está bien utilizado con la palabra «ayer».",
+      "explanation": "«Ayer» señala un momento pasado, por lo que el verbo adecuado es «visitamos» y no «visitaremos», que expresa futuro.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-03",
+      "type": "classify",
+      "prompt": "Clasifica estas formas verbales según el tiempo en el que ocurren.",
+      "explanation": "«Escribí» y «escucharon» son acciones pasadas; «salto» y «lees» ocurren ahora; «viajaremos» y «abrirá» pasarán más adelante.",
+      "lang": "es",
+      "categories": [
+        "Pasado",
+        "Presente",
+        "Futuro"
+      ],
+      "items": [
+        {
+          "text": "escribí",
+          "category": 0
+        },
+        {
+          "text": "salto",
+          "category": 1
+        },
+        {
+          "text": "viajaremos",
+          "category": 2
+        },
+        {
+          "text": "escucharon",
+          "category": 0
+        },
+        {
+          "text": "lees",
+          "category": 1
+        },
+        {
+          "text": "abrirá",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-04",
+      "type": "match",
+      "prompt": "Une cada expresión temporal con la acción que mejor encaja.",
+      "explanation": "Cada marcador temporal debe concordar con el tiempo del verbo: pasado para lo vivido, presente para el ahora y futuro para lo que vendrá.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "El año pasado",
+          "right": "viví en Valencia"
+        },
+        {
+          "left": "En este momento",
+          "right": "hago los deberes"
+        },
+        {
+          "left": "El próximo sábado",
+          "right": "nadaremos en la piscina"
+        },
+        {
+          "left": "Hace dos días",
+          "right": "perdiste el lápiz"
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la forma verbal correcta.",
+      "explanation": "Como la acción sucederá «mañana», debemos emplear el verbo en futuro: «jugarán».",
+      "lang": "es",
+      "sentence": "Mañana por la tarde, Lucía y Wei ___ en el parque del barrio.",
+      "options": [
+        "jugaron",
+        "jugarán",
+        "juegan"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-06",
+      "type": "order",
+      "prompt": "Ordena estas tres acciones desde la más antigua hasta la que ocurrirá al final.",
+      "explanation": "El orden cronológico va del pasado («terminé») al presente («guardo») y termina en el futuro («entregaré»).",
+      "lang": "es",
+      "items": [
+        "Ayer terminé el dibujo de Plástica.",
+        "Ahora guardo las pinturas en el estuche.",
+        "Mañana entregaré la lámina al maestro."
+      ]
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-07",
+      "type": "choice",
+      "prompt": "Aisha revisa su diario escolar. ¿Qué oración contiene un error en el tiempo verbal?",
+      "explanation": "«La semana que viene» expresa futuro, por lo que el verbo no puede estar en pasado («recogisteis»), sino en futuro («recogeréis»).",
+      "hint": "Fíjate en la frase que une una fecha futura con un verbo en pasado.",
+      "lang": "es",
+      "options": [
+        "El lunes pasado regamos los tomates con cuidado.",
+        "La semana que viene recogisteis las zanahorias grandes.",
+        "Hoy plantamos las semillas de lechuga en el huerto."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-08",
+      "type": "choice",
+      "prompt": "Omar quiere explicarle a su abuela sus planes para el próximo fin de semana. ¿Cuál es la opción correcta?",
+      "explanation": "Para hablar de planes que todavía no han ocurrido debemos usar verbos en futuro: «iré» y «prestaré».",
+      "hint": "Elige la opción donde los dos verbos hablen de algo que aún no ha sucedido.",
+      "lang": "es",
+      "options": [
+        "Fui en bicicleta a la biblioteca y presté dos cómics.",
+        "Voy en bicicleta a la biblioteca y presté dos cómics.",
+        "Iré en bicicleta a la biblioteca y prestaré dos cómics."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-09",
+      "type": "fill-blank",
+      "prompt": "Elige la forma verbal adecuada según el momento de la acción.",
+      "explanation": "«El domingo pasado» exige pasado. Para la persona «nosotros», la forma correcta es «cocinamos».",
+      "lang": "es",
+      "sentence": "Nosotros ___ un pastel delicioso el domingo pasado con la tía Nerea.",
+      "options": [
+        "cocinan",
+        "cocinaremos",
+        "cocinamos"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:41:25.446Z",
+    "reviewed": false
+  }
+}

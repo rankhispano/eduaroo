@@ -1,0 +1,273 @@
+{
+  "id": "g5-lengua-ortografia-ll-y-r-rr-c-z",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "ortografia-ll-y-r-rr-c-z",
+  "temaNombre": "Ortografía: ll/y, r/rr, c/z",
+  "title": "Maestros de la ortografía",
+  "summary": "Repasa y domina las reglas de uso de las grafías ll/y, r/rr y c/z con retos y textos cotidianos.",
+  "keyIdeas": [
+    "Las palabras terminadas en -illo y -illa van con ll; las formas verbales sin ll ni y en el infinitivo usan y.",
+    "El sonido r fuerte se escribe con rr entre vocales y con una sola r a principio de palabra o tras l, n, s.",
+    "Se escribe c ante e, i (ce, ci) y z ante a, o, u (za, zo, zu); los plurales de palabras en -z terminan en -ces."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC2",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD2",
+      "CD3",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-01",
+      "type": "choice",
+      "prompt": "Aisha está ordenando su estuche para la clase de Plástica. ¿Qué opción completa correctamente la frase respetando la regla de la c y la z? ✏️\n\n«Tengo un ___ afilado y tres ___ de colores».",
+      "explanation": "Las palabras que terminan en -z en singular forman el plural transformando esa letra en -ces (lápiz -> lápices). Nunca se escribe 'z' delante de la vocal 'e'.",
+      "hint": "Recuerda cómo cambia la letra final del singular al plural.",
+      "lang": "es",
+      "options": [
+        "lápiz / lápizes",
+        "lápiz / lápices",
+        "lápis / lápises",
+        "lápice / lápizes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-02",
+      "type": "true-false",
+      "prompt": "Detrás de las consonantes l, n y s, el sonido r fuerte siempre se debe escribir con doble erre (rr), como en «alrrededor» o «enrredo».",
+      "explanation": "Es falso. Aunque el sonido sea fuerte, detrás de las consonantes l, n y s siempre se escribe una sola 'r' (alrededor, enredo, sonrisa, Israel).",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-03",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra bien escrita para completar la oración.",
+      "explanation": "Todas las palabras que terminan en los sufijos diminutivos -illo y -illa se escriben con doble ele (ll).",
+      "lang": "es",
+      "sentence": "Lucía guardó las llaves de la bicicleta en el ___ delantero de su mochila.",
+      "options": [
+        "bolsillo",
+        "bolsiyo",
+        "bolzillo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-04",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según representen el sonido R fuerte con una sola 'r' o con doble 'rr'.",
+      "explanation": "El sonido r fuerte se escribe con una sola 'r' a principio de palabra (ratón) o tras l, n, s (alrededor, sonrisa). Se escribe con 'rr' cuando va entre dos vocales (carrera, pelirrojo, pararrayos).",
+      "lang": "es",
+      "categories": [
+        "Sonido fuerte con 'r'",
+        "Sonido fuerte con 'rr'"
+      ],
+      "items": [
+        {
+          "text": "alrededor",
+          "category": 0
+        },
+        {
+          "text": "sonrisa",
+          "category": 0
+        },
+        {
+          "text": "ratón",
+          "category": 0
+        },
+        {
+          "text": "pelirrojo",
+          "category": 1
+        },
+        {
+          "text": "carrera",
+          "category": 1
+        },
+        {
+          "text": "pararrayos",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-05",
+      "type": "match",
+      "prompt": "Empareja cada sustantivo en singular con su forma plural correcta.",
+      "explanation": "Los sustantivos acabados en -z sustituyen la z por la c al formar el plural en -ces.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "antifaz",
+          "right": "antifaces"
+        },
+        {
+          "left": "luz",
+          "right": "luces"
+        },
+        {
+          "left": "cicatriz",
+          "right": "cicatrices"
+        },
+        {
+          "left": "avestruz",
+          "right": "avestruces"
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-06",
+      "type": "choice",
+      "prompt": "Hugo ha escrito cuatro frases en su diario de excursión. ¿En cuál de ellas ha cometido una falta de ortografía?",
+      "explanation": "La forma correcta del verbo caer es 'cayó' (con y). La palabra 'calló' (con ll) pertenece al verbo callar (guardar silencio).",
+      "hint": "Fíjate en las formas verbales que provienen de 'caer' o 'callar'.",
+      "lang": "es",
+      "options": [
+        "Adrián organizó un partido de baloncesto en el recreo.",
+        "Ayer el payaso se calló de la silla durante la función.",
+        "Mi tío Enrique coció unas ricas verduras en la cazuela.",
+        "El perro corrió veloz por la orilla del río."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-07",
+      "type": "fill-blank",
+      "prompt": "Completa la oración con la forma correcta del verbo leer en pasado.",
+      "explanation": "Los tiempos verbales cuyos infinitivos no llevan ni 'll' ni 'y' (como leer) se escriben con 'y' en las formas que tienen ese sonido (leyó, leyeron). Además, al ser palabra aguda terminada en vocal, lleva tilde.",
+      "lang": "es",
+      "sentence": "Ayer Martina ___ un cómic enterito antes de merendar.",
+      "options": [
+        "leyó",
+        "lelló",
+        "leyo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-08",
+      "type": "reading",
+      "prompt": "Lee atentamente este texto sobre una excursión y responde a las preguntas.",
+      "explanation": "La lectura combina la comprensión del texto con la observación de las reglas de ortografía aplicadas en situaciones reales.",
+      "lang": "es",
+      "title": "Aventura en el jardín botánico",
+      "text": "El pasado martes, el grupo de quinto visitó el jardín botánico con su maestra Nerea. Nada más cruzar la cancela de hierro, un suave olor a azahar y tierra mojada llenó el ambiente. Omar observó con atención un cartel de madera que señalaba el sendero de los helechos. Mientras caminaban en fila, un pájaro de plumaje brillante y pico rojizo se posó en una rama cercana.\n\nLucía sacó su libreta para anotar los detalles: descubrieron un estanque con diminutos peces de colores y una zona llena de calabacines y cebollas gigantes. De repente, una ráfaga de viento movió las hojas secas del suelo y todos oyeron un crujido misterioso. Al acercarse con cuidado entre los matorrales, descubrieron a un erizo enrollado junto a un castaño centenario. El jardinero Enrique les explicó que el animalillo buscaba refugio antes de que cayera la lluvia de la tarde.",
+      "questions": [
+        {
+          "prompt": "¿Qué animal descubrieron escondido entre los matorrales?",
+          "explanation": "El texto indica de manera explícita que al acercarse entre los matorrales encontraron a un erizo enrollado.",
+          "options": [
+            "Un pájaro de pico rojizo.",
+            "Un erizo enrollado.",
+            "Unos peces de colores."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por qué el jardinero Enrique pensaba que el erizo estaba buscando refugio?",
+          "explanation": "Enrique explicó que el animalillo buscaba refugio antes de que cayera la lluvia de la tarde, lo que demuestra que presentía el mal tiempo.",
+          "options": [
+            "Porque tenía hambre y buscaba castañas.",
+            "Porque se avecinaba una tormenta o lluvia.",
+            "Porque huía del ruido de los escolares."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Observa las palabras del texto: 'peces', 'oyeron', 'Enrique' y 'animalillo'. ¿Qué afirmación ortográfica es correcta?",
+          "explanation": "'Peces' cambia la z de 'pez' por c al formar el plural, y 'oyeron' pertenece al verbo 'oír', por lo que incorpora 'y'. En 'Enrique' la r suena fuerte tras n.",
+          "options": [
+            "'Peces' se escribe con c porque viene del singular pez; 'oyeron' lleva y porque oír no tiene ll ni y.",
+            "'Enrique' lleva una sola r porque el sonido es suave.",
+            "'Animalillo' se escribe con ll porque empieza por vocal."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-09",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según se escriban con 'll' o con 'y'.",
+      "explanation": "Se escriben con 'll' las palabras que empiezan por fo- (folleto) y las terminadas en -illo/-illa (mantequilla, castillo). Se escriben con 'y' palabras con la sílaba -yec- (proyectil), los plurales en -yes de palabras acabadas en -y (bueyes) y vocablos como desayuno.",
+      "lang": "es",
+      "categories": [
+        "Se escriben con 'll'",
+        "Se escriben con 'y'"
+      ],
+      "items": [
+        {
+          "text": "folleto",
+          "category": 0
+        },
+        {
+          "text": "mantequilla",
+          "category": 0
+        },
+        {
+          "text": "castillo",
+          "category": 0
+        },
+        {
+          "text": "proyectil",
+          "category": 1
+        },
+        {
+          "text": "bueyes",
+          "category": 1
+        },
+        {
+          "text": "desayuno",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-10",
+      "type": "choice",
+      "prompt": "Al formar palabras compuestas uniendo dos palabras simples, ¿qué opción está escrita de manera 100% correcta? 🧠",
+      "explanation": "Cuando el segundo elemento de una palabra compuesta empieza por 'r' y queda colocado entre dos vocales, se debe duplicar la erre ('rr') para mantener el sonido fuerte: para + rayos = pararrayos.",
+      "hint": "El sonido fuerte entre vocales siempre necesita dos erres.",
+      "lang": "es",
+      "options": [
+        "para + rayos = pararroyos",
+        "para + rayos = pararayos",
+        "para + rayos = pararallos",
+        "para + rayos = pararrayos"
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T14:57:12.903Z",
+    "reviewed": false
+  }
+}

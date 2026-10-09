@@ -1,0 +1,217 @@
+{
+  "id": "g1-mates-dias-y-meses",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "dias-y-meses",
+  "temaNombre": "Días y meses",
+  "title": "Aventuras con días y meses",
+  "summary": "Practica los días de la semana y los meses del año con retos divertidos.",
+  "keyIdeas": [
+    "Una semana tiene 7 días: de lunes a domingo.",
+    "Un año tiene 12 meses y empieza en enero.",
+    "El calendario nos ayuda a organizar nuestras actividades de cada día."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "B. Sentido de la medida › Medición"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-dias-y-meses-01",
+      "type": "choice",
+      "prompt": "¿Cuántos días tiene una semana entera?",
+      "explanation": "Una semana completa tiene siempre 7 días: de lunes a domingo.",
+      "hint": "Cuenta: lunes, martes, miércoles, jueves, viernes, sábado y domingo.",
+      "lang": "es",
+      "options": [
+        "10 días",
+        "5 días",
+        "7 días"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-dias-y-meses-02",
+      "type": "order",
+      "prompt": "Ordena estos días de la semana de primero a último:",
+      "explanation": "El orden de la semana escolar empieza en lunes y sigue hasta el viernes.",
+      "lang": "es",
+      "items": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes"
+      ]
+    },
+    {
+      "id": "g1-mates-dias-y-meses-03",
+      "type": "match",
+      "prompt": "Une cada grupo de días con su nombre:",
+      "explanation": "De lunes a viernes vamos al cole y el sábado y domingo descansamos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Lunes a viernes",
+          "right": "Días de colegio"
+        },
+        {
+          "left": "Sábado y domingo",
+          "right": "Fin de semana"
+        },
+        {
+          "left": "Siete días juntos",
+          "right": "Una semana"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-dias-y-meses-04",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra correcta para completar la frase:",
+      "explanation": "El año siempre comienza el 1 de enero.",
+      "hint": "Es el mes en el que vienen los Reyes Magos.",
+      "lang": "es",
+      "sentence": "El primer mes de cada año es ___.",
+      "options": [
+        "enero",
+        "marzo",
+        "diciembre"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-dias-y-meses-05",
+      "type": "true-false",
+      "prompt": "Un año tiene 10 meses en total.",
+      "explanation": "Un año tiene 12 meses en total, desde enero hasta diciembre.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-mates-dias-y-meses-06",
+      "type": "classify",
+      "prompt": "Clasifica cada palabra en su grupo:",
+      "explanation": "Martes, viernes y domingo son días. Mayo, agosto y octubre son meses.",
+      "lang": "es",
+      "categories": [
+        "Días de la semana",
+        "Meses del año"
+      ],
+      "items": [
+        {
+          "text": "Martes",
+          "category": 0
+        },
+        {
+          "text": "Mayo",
+          "category": 1
+        },
+        {
+          "text": "Viernes",
+          "category": 0
+        },
+        {
+          "text": "Agosto",
+          "category": 1
+        },
+        {
+          "text": "Domingo",
+          "category": 0
+        },
+        {
+          "text": "Octubre",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-dias-y-meses-07",
+      "type": "choice",
+      "prompt": "Hugo dice la semana así: lunes, martes, jueves, miércoles, viernes. ¿Qué error comete?",
+      "explanation": "El miércoles va antes que el jueves. Hugo los ha dicho al revés.",
+      "hint": "Piensa qué día viene justo después del martes.",
+      "lang": "es",
+      "options": [
+        "Ha cambiado de orden el miércoles y el jueves",
+        "Se ha olvidado de decir el martes",
+        "Ha dicho un mes en vez de un día"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-dias-y-meses-08",
+      "type": "choice",
+      "prompt": "Hoy es martes. El cumpleaños de Lucía es dentro de 3 días. ¿Qué día será?",
+      "explanation": "Contamos 3 días hacia delante desde el martes: miércoles (1), jueves (2) y viernes (3).",
+      "hint": "Cuenta tres días a partir del martes.",
+      "lang": "es",
+      "options": [
+        "Sábado",
+        "Jueves",
+        "Viernes"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-dias-y-meses-09",
+      "type": "choice",
+      "prompt": "Aisha va a patinar los sábados y los domingos. ¿Cuántos días patina en dos semanas?",
+      "explanation": "En una semana va 2 días. En dos semanas va 2 + 2 = 4 días.",
+      "hint": "Suma dos días de la primera semana más dos de la segunda.",
+      "lang": "es",
+      "options": [
+        "7 días",
+        "2 días",
+        "4 días"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-dias-y-meses-10",
+      "type": "order",
+      "prompt": "Ordena estos primeros cuatro meses del año:",
+      "explanation": "Los cuatro primeros meses del año son enero, febrero, marzo y abril.",
+      "lang": "es",
+      "items": [
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:58:05.316Z",
+    "reviewed": false
+  }
+}

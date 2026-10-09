@@ -1,0 +1,215 @@
+{
+  "id": "g2-lengua-el-articulo",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "el-articulo",
+  "temaNombre": "El artículo",
+  "title": "¡Jugamos con los artículos!",
+  "summary": "Practica el uso de los artículos y su concordancia con las palabras.",
+  "keyIdeas": [
+    "Los artículos van delante de los sustantivos y nos dicen su género y número.",
+    "Son determinados (el, la, los, las) o indeterminados (un, una, unos, unas).",
+    "El artículo y el sustantivo siempre deben coincidir en género y número."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-el-articulo-01",
+      "type": "true-false",
+      "prompt": "El artículo 'el' se usa con palabras masculinas y en singular.",
+      "explanation": "Decimos 'el lápiz' o 'el perro' porque son palabras masculinas y solo hay una.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-lengua-el-articulo-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el artículo correcto:",
+      "explanation": "Usamos 'los' porque 'libros' es una palabra masculina y está en plural.",
+      "lang": "es",
+      "sentence": "Hugo guarda ___ libros nuevos en la mochila.",
+      "options": [
+        "los",
+        "la",
+        "el"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-lengua-el-articulo-03",
+      "type": "classify",
+      "prompt": "Clasifica estos artículos según su número:",
+      "explanation": "Los artículos en singular nombran a un solo objeto o ser. Los del plural nombran a varios.",
+      "lang": "es",
+      "categories": [
+        "Singular (uno solo)",
+        "Plural (más de uno)"
+      ],
+      "items": [
+        {
+          "text": "el",
+          "category": 0
+        },
+        {
+          "text": "las",
+          "category": 1
+        },
+        {
+          "text": "un",
+          "category": 0
+        },
+        {
+          "text": "unos",
+          "category": 1
+        },
+        {
+          "text": "la",
+          "category": 0
+        },
+        {
+          "text": "unas",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-el-articulo-04",
+      "type": "match",
+      "prompt": "Une cada artículo con el sustantivo que le corresponde:",
+      "explanation": "Cada artículo debe coincidir en género y número con el sustantivo al que acompaña.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "La",
+          "right": "pelota"
+        },
+        {
+          "left": "Unos",
+          "right": "patines"
+        },
+        {
+          "left": "El",
+          "right": "estuche"
+        },
+        {
+          "left": "Las",
+          "right": "bicicletas"
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-el-articulo-05",
+      "type": "choice",
+      "prompt": "Omar está en Plástica. ¿Qué pregunta tiene el artículo correcto?",
+      "explanation": "Decimos 'unas ceras' porque la palabra 'ceras' es femenina y está en plural.",
+      "hint": "La palabra 'ceras' termina en -s y es femenina.",
+      "lang": "es",
+      "options": [
+        "¿Me dejas el ceras?",
+        "¿Me dejas un ceras?",
+        "¿Me dejas unas ceras?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-lengua-el-articulo-06",
+      "type": "choice",
+      "prompt": "Encuentra la oración que tiene un error en el artículo:",
+      "explanation": "No se puede decir 'la cuadernos' porque 'cuadernos' es masculino plural. Lo correcto es 'los cuadernos'.",
+      "lang": "es",
+      "options": [
+        "Adrián compró la cuadernos.",
+        "Adrián compró los cuadernos.",
+        "Adrián compró un cuaderno."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-lengua-el-articulo-07",
+      "type": "fill-blank",
+      "prompt": "Elige el artículo indeterminado adecuado:",
+      "explanation": "Usamos 'una' porque 'mariposa' es una palabra femenina y está en singular.",
+      "lang": "es",
+      "sentence": "En el jardín vimos ___ mariposa de colores.",
+      "options": [
+        "un",
+        "una",
+        "unas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-lengua-el-articulo-08",
+      "type": "reading",
+      "prompt": "Lee atentamente y responde a las preguntas:",
+      "explanation": "En el texto vemos artículos determinados como 'el' o 'las' e indeterminados como 'unos' o 'una'.",
+      "lang": "es",
+      "title": "El huerto escolar",
+      "text": "Hoy visitamos el huerto. Hugo riega las plantas verdes. Aisha coge unos tomates rojos. En el suelo hay una regadera grande. Todos cuidamos las flores con cariño.",
+      "questions": [
+        {
+          "prompt": "¿Qué artículo acompaña a 'tomates' en la lectura?",
+          "explanation": "El texto dice textualmente: 'Aisha coge unos tomates rojos'.",
+          "options": [
+            "las",
+            "los",
+            "unos"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué usamos 'las' delante de 'plantas'?",
+          "explanation": "'Plantas' es una palabra femenina y plural, por eso necesita el artículo 'las'.",
+          "options": [
+            "Porque es femenino y plural.",
+            "Porque es masculino y singular.",
+            "Porque nombra una sola cosa."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-el-articulo-09",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar una oración correcta:",
+      "explanation": "La oración empieza con el artículo 'Los' en mayúscula y termina con el punto en 'árbol.'.",
+      "lang": "es",
+      "items": [
+        "Los",
+        "pájaros",
+        "cantan",
+        "en",
+        "el",
+        "árbol."
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:11:45.918Z",
+    "reviewed": false
+  }
+}

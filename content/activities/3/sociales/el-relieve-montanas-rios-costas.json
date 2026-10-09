@@ -1,0 +1,226 @@
+{
+  "id": "g3-sociales-el-relieve-montanas-rios-costas",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "el-relieve-montanas-rios-costas",
+  "temaNombre": "El relieve: montañas, ríos, costas",
+  "title": "Aventuras por el relieve",
+  "summary": "Descubre las montañas, los ríos y las costas mientras exploras los paisajes de nuestro entorno.",
+  "keyIdeas": [
+    "El relieve es el conjunto de formas que tiene la superficie de la Tierra.",
+    "Las montañas tienen tres partes principales: pie, ladera y cumbre o cima.",
+    "Los ríos nacen en las montañas y recorren tres cursos hasta su desembocadura en el mar."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-01",
+      "type": "choice",
+      "prompt": "Lucía sube hasta la parte más alta de una montaña. ¿Cómo se llama esa zona? ⛰️",
+      "explanation": "La cima o cumbre es el punto más elevado de una montaña. El pie es la parte baja.",
+      "hint": "Es el punto más alto de todos.",
+      "lang": "es",
+      "options": [
+        "Pie",
+        "Ladera",
+        "Cumbre o cima"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-02",
+      "type": "true-false",
+      "prompt": "Una llanura es un terreno plano y sin grandes elevaciones.",
+      "explanation": "Las llanuras son grandes extensiones de terreno llano y horizontal.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre las partes de un río.",
+      "explanation": "Los ríos brotan en el nacimiento, que suele estar en zonas de montaña.",
+      "hint": "Piensa en el verbo nacer.",
+      "lang": "es",
+      "sentence": "El lugar donde nace un río se llama ___.",
+      "options": [
+        "desembocadura",
+        "nacimiento",
+        "meandro"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-04",
+      "type": "classify",
+      "prompt": "Clasifica estos elementos según pertenezcan al relieve de interior o al relieve de costa.",
+      "explanation": "Las cordilleras, mesetas y valles están en el interior. Playas, cabos y acantilados tocan el mar.",
+      "lang": "es",
+      "categories": [
+        "Relieve de interior",
+        "Relieve de costa"
+      ],
+      "items": [
+        {
+          "text": "Cordillera",
+          "category": 0
+        },
+        {
+          "text": "Acantilado",
+          "category": 1
+        },
+        {
+          "text": "Meseta",
+          "category": 0
+        },
+        {
+          "text": "Playa",
+          "category": 1
+        },
+        {
+          "text": "Valle",
+          "category": 0
+        },
+        {
+          "text": "Cabo",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-05",
+      "type": "match",
+      "prompt": "Une cada accidente costero con su definición correcta.",
+      "explanation": "Cada forma de la costa tiene un nombre según cómo se une con el agua del mar.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Isla",
+          "right": "Tierra rodeada de agua por todas partes"
+        },
+        {
+          "left": "Península",
+          "right": "Tierra rodeada de agua excepto por un istmo"
+        },
+        {
+          "left": "Golfo",
+          "right": "Gran entrada del mar en la costa"
+        },
+        {
+          "left": "Cabo",
+          "right": "Parte de la costa que se adentra en el mar"
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-06",
+      "type": "order",
+      "prompt": "Ordena el recorrido del agua de un río desde su inicio hasta el final.",
+      "explanation": "El río nace arriba en la montaña, recorre sus tres cursos y desemboca en el mar.",
+      "lang": "es",
+      "items": [
+        "Nacimiento en la montaña",
+        "Curso alto con aguas rápidas",
+        "Curso medio con curvas llamadas meandros",
+        "Curso bajo con aguas lentas",
+        "Desembocadura en el mar"
+      ]
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-07",
+      "type": "choice",
+      "prompt": "Hugo y Aisha visitan un terreno elevado pero llano en su parte superior. ¿Qué forma de relieve es? 🗺️",
+      "explanation": "Una meseta es una llanura elevada a bastante altura sobre el nivel del mar.",
+      "hint": "Parece una mesa gigante.",
+      "lang": "es",
+      "options": [
+        "Un valle",
+        "Una montaña",
+        "Una meseta"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-08",
+      "type": "reading",
+      "prompt": "Lee atentamente la excursión de Omar y responde a las preguntas.",
+      "explanation": "Los valles se sitúan entre montañas y por ellos suelen discurrir ríos y sus afluentes.",
+      "lang": "es",
+      "title": "Un día en el valle del río Verde",
+      "text": "Ayer fuimos de excursión escolar al valle del río Verde. El profesor nos explicó que este valle se formó entre dos sierras muy altas. Caminamos junto a la orilla del río en su curso medio. Allí el agua iba tranquila y formaba curvas suaves llamadas meandros. A lo lejos vimos cómo un río más pequeño, un afluente, se unía al río principal. En la orilla recogimos varias piedras redondas y lisas, pulidas por la corriente durante muchos años. ¡Fue una jornada genial!",
+      "questions": [
+        {
+          "prompt": "¿Dónde se formó el valle que visitó el grupo de Omar?",
+          "explanation": "El texto dice claramente que el valle se formó entre dos sierras muy altas.",
+          "options": [
+            "Entre dos sierras muy altas",
+            "En una playa de arena dorada",
+            "En lo alto de un acantilado marino"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Cómo se llama el río pequeño que desemboca en el río principal?",
+          "explanation": "Un afluente es un río secundario que vierte sus aguas en otro río mayor.",
+          "options": [
+            "Afluente",
+            "Meandro",
+            "Cañón"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-09",
+      "type": "true-false",
+      "prompt": "El caudal de un río es la distancia que recorre desde su nacimiento.",
+      "explanation": "El caudal es la cantidad de agua que lleva el río. La distancia recorrida es su longitud.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-10",
+      "type": "choice",
+      "prompt": "Nerea observa en un mapa que varios pueblos costeros se sitúan junto a una bahía. ¿Por qué es un buen lugar para un puerto? ⛵",
+      "explanation": "Las bahías ofrecen aguas tranquilas y protegidas del viento, ideales para construir puertos seguros.",
+      "hint": "Piensa en la protección que ofrecen las curvas de la costa.",
+      "lang": "es",
+      "options": [
+        "Porque la entrada de mar resguarda los barcos del oleaje",
+        "Porque allí el agua del mar está siempre congelada",
+        "Porque las olas son gigantescas y muy peligrosas"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:49:38.231Z",
+    "reviewed": false
+  }
+}

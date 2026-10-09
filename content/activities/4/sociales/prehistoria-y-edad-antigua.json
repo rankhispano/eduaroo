@@ -1,0 +1,236 @@
+{
+  "id": "g4-sociales-prehistoria-y-edad-antigua",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "prehistoria-y-edad-antigua",
+  "temaNombre": "Prehistoria y Edad Antigua",
+  "title": "Viaje a la Prehistoria y Antigüedad",
+  "summary": "Repasa las formas de vida del pasado desde las cavernas prehistóricas hasta las grandes ciudades romanas.",
+  "keyIdeas": [
+    "La Prehistoria se divide en Paleolítico, Neolítico y Edad de los Metales.",
+    "La invención de la escritura marca el final de la Prehistoria y el comienzo de la Edad Antigua.",
+    "Los romanos transformaron el territorio con calzadas, acueductos y ciudades muy organizadas."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE7"
+    ],
+    "criteria": [
+      "5.3",
+      "7.1",
+      "7.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL3",
+      "CD1",
+      "CE1",
+      "CE2",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-01",
+      "type": "choice",
+      "prompt": "¿Qué gran acontecimiento marca el final de la Prehistoria y el inicio de la Edad Antigua? 📜",
+      "explanation": "La escritura permitió dejar testimonios escritos de los acontecimientos. Por eso marca el comienzo de la Historia.",
+      "hint": "Permitió registrar datos con símbolos y letras.",
+      "lang": "es",
+      "options": [
+        "La invención de la escritura",
+        "El descubrimiento del fuego",
+        "La invención de la rueda"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-02",
+      "type": "true-false",
+      "prompt": "En el Paleolítico, los seres humanos eran nómadas porque cambiaban de lugar para buscar comida cazando y recolectando.",
+      "explanation": "Los grupos paleolíticos no tenían poblados fijos. Se desplazaban cuando los recursos alimentarios de la zona escaseaban.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el gran cambio del Neolítico.",
+      "explanation": "El sedentarismo consiste en vivir siempre en un mismo lugar. Comenzó con el nacimiento de la agricultura.",
+      "lang": "es",
+      "sentence": "Al aprender a cultivar plantas y domesticar animales, las personas se hicieron ___.",
+      "options": [
+        "sedentarias",
+        "nómadas",
+        "marineras"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-04",
+      "type": "match",
+      "prompt": "Une cada avance o descubrimiento con la etapa en la que surgió.",
+      "explanation": "Cada etapa histórica aportó innovaciones técnicas que cambiaron la forma de vivir de las personas.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Dominio del fuego",
+          "right": "Paleolítico"
+        },
+        {
+          "left": "Aparición de la agricultura",
+          "right": "Neolítico"
+        },
+        {
+          "left": "Trabajo con el bronce",
+          "right": "Edad de los Metales"
+        },
+        {
+          "left": "Construcción de calzadas",
+          "right": "Edad Antigua"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-05",
+      "type": "classify",
+      "prompt": "Clasifica estos restos arqueológicos según su época histórica.",
+      "explanation": "Los objetos prehistóricos no contienen escritura. Los restos romanos pertenecen a la Edad Antigua.",
+      "lang": "es",
+      "categories": [
+        "Prehistoria",
+        "Edad Antigua"
+      ],
+      "items": [
+        {
+          "text": "Pintura de bisontes en Altamira",
+          "category": 0
+        },
+        {
+          "text": "Mosaico romano de colores",
+          "category": 1
+        },
+        {
+          "text": "Hacha de bronce afilada",
+          "category": 0
+        },
+        {
+          "text": "Acueducto de grandes piedras",
+          "category": 1
+        },
+        {
+          "text": "Vasija de barro neolítica",
+          "category": 0
+        },
+        {
+          "text": "Teatro con gradas de piedra",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-06",
+      "type": "order",
+      "prompt": "Ordena estas etapas históricas desde la más antigua hasta la más reciente.",
+      "explanation": "La Prehistoria abarca el Paleolítico, el Neolítico y los Metales. Después comenzó la Edad Antigua.",
+      "lang": "es",
+      "items": [
+        "Paleolítico",
+        "Neolítico",
+        "Edad de los Metales",
+        "Edad Antigua"
+      ]
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-07",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas.",
+      "explanation": "Los romanos eran grandes ingenieros y urbanistas que mejoraron las comunicaciones y la higiene urbana.",
+      "lang": "es",
+      "title": "Una visita a la ciudad romana",
+      "text": "Lucía y su clase visitan las ruinas de una antigua ciudad romana llamada Segóbriga. El arqueólogo les enseña el gran teatro de piedra. Allí asistían tanto mujeres como hombres para ver comedias divertidas. Después, caminan por una calzada romana pavimentada con losas enormes. Esas losas permitían a los carruajes viajar sin atascarse con el barro. Cerca de las murallas observan los restos de un acueducto. Esta construcción transportaba agua limpia desde el río hasta las fuentes del pueblo. Los romanos cuidaban mucho el agua para mantener la ciudad limpia y saludable.",
+      "questions": [
+        {
+          "prompt": "¿Para qué servía el acueducto de la ciudad romana?",
+          "explanation": "El texto explica que el acueducto llevaba agua limpia desde el río hasta las fuentes.",
+          "options": [
+            "Para transportar agua limpia desde el río",
+            "Para defender la muralla de los enemigos",
+            "Para representar obras de comedia teatral"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué ventaja ofrecían las losas de piedra de la calzada romana?",
+          "explanation": "Las losas duras formaban un firme sólido sobre el que los carros podían rodar fácilmente.",
+          "options": [
+            "Evitaban que las ruedas se quedaran atascadas en el barro",
+            "Mantenían el camino caliente durante todo el invierno",
+            "Servían para regar los campos de cultivo cercanos"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-08",
+      "type": "choice",
+      "prompt": "Hoy sabemos que en la Prehistoria tanto mujeres como hombres cooperaban. ¿En qué participaban conjuntamente?",
+      "explanation": "La supervivencia dependía de todo el grupo. Mujeres y hombres compartían labores de alimentación y protección.",
+      "hint": "Piensa en actividades relacionadas con conseguir comida en la naturaleza.",
+      "lang": "es",
+      "options": [
+        "En la conducción de vehículos a motor",
+        "En la redacción de leyes en ordenadores",
+        "En la caza menor y la recolección vegetal"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-09",
+      "type": "choice",
+      "prompt": "Adrián visita Mérida y cruza un puente romano que todavía soporta el paso de peatones. ¿Qué demuestra esto?",
+      "explanation": "Las obras romanas de piedra estaban tan bien diseñadas que muchas continúan en uso dos milenios después.",
+      "lang": "es",
+      "options": [
+        "La excelente calidad y resistencia de la ingeniería romana",
+        "Que los puentes romanos fueron construidos el año pasado",
+        "Que en la Edad Antigua usaban materiales poco duraderos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-10",
+      "type": "choice",
+      "prompt": "En una cueva prehistórica, una persona quiere tocar una pintura rupestre. ¿Qué conducta correcta debe recordar Nerea? 🎨",
+      "explanation": "El patrimonio rupestre es sumamente delicado. Tocarlo o usar flashes daña los pigmentos de forma irreparable.",
+      "hint": "Cuidar el patrimonio exige admirarlo sin causarle ningún contacto físico.",
+      "lang": "es",
+      "options": [
+        "Se pueden tocar libremente si antes nos lavamos las manos con agua",
+        "Nunca se deben tocar las pinturas porque la grasa de los dedos las borra",
+        "Conviene iluminarlas muy cerca con linternas de flash potente"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:09:30.972Z",
+    "reviewed": false
+  }
+}

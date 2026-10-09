@@ -1,0 +1,221 @@
+{
+  "id": "g4-mates-division-por-dos-cifras",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "division-por-dos-cifras",
+  "temaNombre": "División por dos cifras",
+  "title": "Misión: División por dos cifras",
+  "summary": "Resuelve retos cotidianos, estima cocientes y domina los secretos de la división.",
+  "keyIdeas": [
+    "El resto siempre debe ser menor que el divisor.",
+    "Para comprobar una división: Dividendo = (divisor × cociente) + resto.",
+    "Estimar las cifras del cociente te ayuda a calcular con seguridad y sin equivocarte."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "6.2"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones",
+      "D. Sentido algebraico › Pensamiento computacional"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-division-por-dos-cifras-01",
+      "type": "choice",
+      "prompt": "¿Cuántas cifras tendrá el cociente al dividir 748 ÷ 32?",
+      "explanation": "Como 74 es mayor que 32, tomamos las dos primeras cifras para empezar a dividir. Por eso, el cociente tendrá 2 cifras (decenas y unidades).",
+      "hint": "Compara las dos primeras cifras del dividendo con el divisor.",
+      "lang": "es",
+      "options": [
+        "2 cifras",
+        "1 cifra",
+        "3 cifras"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-02",
+      "type": "match",
+      "prompt": "Une cada término de la división con su significado en un reparto escolar:",
+      "explanation": "En un reparto, el dividendo es la cantidad total, el divisor los grupos, el cociente lo que recibe cada grupo y el resto lo que sobra.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Dividendo",
+          "right": "Total de cuadernos que se reparten"
+        },
+        {
+          "left": "Divisor",
+          "right": "Número de cajas iguales disponibles"
+        },
+        {
+          "left": "Cociente",
+          "right": "Cuadernos que caben en cada caja"
+        },
+        {
+          "left": "Resto",
+          "right": "Cuadernos que sobran sin guardar"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-03",
+      "type": "order",
+      "prompt": "Ordena los pasos del algoritmo para dividir 852 ÷ 24:",
+      "explanation": "Primero seleccionamos cifras suficientes, calculamos la primera cifra del cociente, restamos, bajamos la cifra siguiente y repetimos el proceso.",
+      "lang": "es",
+      "items": [
+        "Seleccionar las dos primeras cifras del dividendo (85).",
+        "Buscar qué número multiplicado por 24 se acerca a 85.",
+        "Restar el producto obtenido a 85 y comprobar el resto.",
+        "Bajar la siguiente cifra (2) junto al resto.",
+        "Dividir la nueva cantidad entre 24 para hallar la siguiente cifra."
+      ]
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-04",
+      "type": "true-false",
+      "prompt": "En una división entre 25, ¿puede sobrar 27 de resto?",
+      "explanation": "No es posible, porque el resto siempre debe ser estrictamente menor que el divisor. Si sobra 27, cabía una vez más.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-05",
+      "type": "choice",
+      "prompt": "En el colegio hay 345 estudiantes. Viajan en autobuses de 45 plazas cada uno. ¿Cuántos autobuses completos se llenan y cuántos estudiantes van en el último?",
+      "explanation": "Hacemos 345 ÷ 45: 45 × 7 = 315. Restamos 345 - 315 = 30. Se llenan 7 autobuses y quedan 30 estudiantes para otro autobús.",
+      "hint": "Calcula 345 ÷ 45 hallando cociente y resto.",
+      "lang": "es",
+      "options": [
+        "Se llenan 7 autobuses y en el último viajan 30 estudiantes.",
+        "Se llenan 8 autobuses completos y no sobra ninguno.",
+        "Se llenan 6 autobuses y en el último viajan 75 estudiantes."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-06",
+      "type": "classify",
+      "prompt": "Clasifica cada división según el número de cifras que tendrá su cociente:",
+      "explanation": "Si las dos primeras cifras del dividendo son menores que el divisor, el cociente tiene 1 cifra. Si son iguales o mayores, tiene 2 cifras.",
+      "lang": "es",
+      "categories": [
+        "Cociente de 1 cifra",
+        "Cociente de 2 cifras"
+      ],
+      "items": [
+        {
+          "text": "184 ÷ 23",
+          "category": 0
+        },
+        {
+          "text": "564 ÷ 24",
+          "category": 1
+        },
+        {
+          "text": "210 ÷ 35",
+          "category": 0
+        },
+        {
+          "text": "890 ÷ 41",
+          "category": 1
+        },
+        {
+          "text": "312 ÷ 52",
+          "category": 0
+        },
+        {
+          "text": "735 ÷ 31",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-07",
+      "type": "choice",
+      "prompt": "Hugo ha dividido 672 ÷ 21. Ha obtenido cociente 31 y resto 21. ¿Qué error ha cometido?",
+      "explanation": "El resto nunca puede ser igual o mayor que el divisor. Como sobró 21, cabía a 32 exactamente (21 × 32 = 672, resto 0).",
+      "hint": "Fíjate bien en el resto que le ha quedado a Hugo y compáralo con 21.",
+      "lang": "es",
+      "options": [
+        "Se ha equivocado al restar las unidades.",
+        "Debía poner un cero en el cociente al principio.",
+        "El resto no puede ser igual al divisor; cabía a 32."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-08",
+      "type": "fill-blank",
+      "prompt": "Aplica la prueba de la división para encontrar el dato que falta:",
+      "explanation": "Multiplicamos primero divisor por cociente: 24 × 15 = 360. Después sumamos el resto: 360 + 8 = 368.",
+      "lang": "es",
+      "sentence": "Dividendo = (24 × 15) + 8 = ___",
+      "options": [
+        "368",
+        "372",
+        "360"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-09",
+      "type": "choice",
+      "prompt": "Sin hacer la cuenta larga, estima mentalmente: ¿cuál es el resultado aproximado de 598 ÷ 29?",
+      "explanation": "Redondeamos 598 a 600 y 29 a 30. Calculamos 600 ÷ 30 = 20. El resultado real es 20 y sobran 18.",
+      "hint": "Redondea 598 a centenas y 29 a decenas.",
+      "lang": "es",
+      "options": [
+        "Alrededor de 30",
+        "Alrededor de 10",
+        "Alrededor de 20"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-10",
+      "type": "choice",
+      "prompt": "Aisha tiene 500 € para comprar entradas de teatro a 24 € cada una. Con el dinero que le sobra, compra un libro de 15 €. ¿Cuánto dinero le queda al final?",
+      "explanation": "Dividimos 500 ÷ 24 = 20 entradas y sobran 20 € (24 × 20 = 480). Después, restamos el precio del libro: 20 - 15 = 5 €.",
+      "hint": "Divide 500 entre 24 para saber cuánto dinero sobra antes de comprar el libro.",
+      "lang": "es",
+      "options": [
+        "5 €",
+        "20 €",
+        "12 €"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:13:32.872Z",
+    "reviewed": false
+  }
+}

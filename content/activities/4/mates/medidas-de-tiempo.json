@@ -1,0 +1,234 @@
+{
+  "id": "g4-mates-medidas-de-tiempo",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "medidas-de-tiempo",
+  "temaNombre": "Medidas de tiempo",
+  "title": "Aventura con las medidas de tiempo",
+  "summary": "Practica el cálculo de horas, minutos y duraciones para organizar tu día a día.",
+  "keyIdeas": [
+    "Una hora tiene 60 minutos y un minuto tiene 60 segundos: el tiempo no va de 100 en 100.",
+    "Para calcular duraciones, avanza primero hasta la siguiente hora en punto y luego añade los minutos restantes.",
+    "En los relojes digitales de 24 horas, las horas mayores que 12 corresponden a la tarde y noche."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "B. Sentido de la medida › Medición",
+      "B. Sentido de la medida › Estimación y relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-medidas-de-tiempo-01",
+      "type": "match",
+      "prompt": "Une cada unidad de tiempo con su equivalencia correcta:",
+      "explanation": "El tiempo utiliza el sistema sexagesimal para horas y minutos (base 60) y 24 horas completan un día.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "1 hora",
+          "right": "60 minutos"
+        },
+        {
+          "left": "1 día",
+          "right": "24 horas"
+        },
+        {
+          "left": "1 minuto",
+          "right": "60 segundos"
+        },
+        {
+          "left": "1 semana",
+          "right": "7 días"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-02",
+      "type": "true-false",
+      "prompt": "Una película dura 1 hora y 40 minutos. Esto significa que dura exactamente 140 minutos.",
+      "explanation": "Es falso porque 1 hora son 60 minutos. Sumamos 60 + 40 = 100 minutos en total, no 140.",
+      "hint": "Recuerda cuántos minutos tiene una sola hora.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-03",
+      "type": "order",
+      "prompt": "Ordena estas duraciones de menor a mayor:",
+      "explanation": "45 segundos es menos de 1 minuto; 2 minutos son 120 segundos; 1 hora y media son 90 minutos; 1 día son 24 horas y 1 semana son 7 días.",
+      "lang": "es",
+      "items": [
+        "45 segundos",
+        "2 minutos",
+        "1 hora y media",
+        "1 día",
+        "1 semana"
+      ]
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-04",
+      "type": "choice",
+      "prompt": "Hugo sale al parque a las 17:15 y regresa a su casa a las 18:30. ¿Cuánto tiempo ha estado fuera jugando?",
+      "explanation": "De 17:15 a 18:15 pasa 1 hora completa. De 18:15 a 18:30 pasan 15 minutos más. En total: 1 hora y 15 minutos.",
+      "hint": "Cuenta primero cuánto pasa hasta las 18:15.",
+      "lang": "es",
+      "options": [
+        "1 hora y 15 minutos",
+        "1 hora y 25 minutos",
+        "1 hora y 45 minutos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-05",
+      "type": "classify",
+      "prompt": "Clasifica estas unidades de tiempo según sean menores o mayores que un día entero:",
+      "explanation": "Los segundos, minutos y horas caben dentro de un día de 24 horas. Semanas, meses, décadas y siglos duran más de un día.",
+      "lang": "es",
+      "categories": [
+        "Menores que un día",
+        "Mayores que un día"
+      ],
+      "items": [
+        {
+          "text": "Minuto",
+          "category": 0
+        },
+        {
+          "text": "Semana",
+          "category": 1
+        },
+        {
+          "text": "Hora",
+          "category": 0
+        },
+        {
+          "text": "Siglo",
+          "category": 1
+        },
+        {
+          "text": "Segundo",
+          "category": 0
+        },
+        {
+          "text": "Década",
+          "category": 1
+        },
+        {
+          "text": "Mes",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-06",
+      "type": "fill-blank",
+      "prompt": "Calcula mentalmente la duración total del entrenamiento de Aisha:",
+      "explanation": "Sumamos los tiempos de nado y descanso: 15 + 15 = 30 minutos nadando, más 10 minutos de descanso = 40 minutos en total.",
+      "hint": "Suma las dos series de nado y añade el descanso.",
+      "lang": "es",
+      "sentence": "Aisha nada durante dos series de 15 minutos y descansa 10 minutos entre ellas. Su entrenamiento dura ___ minutos.",
+      "options": [
+        "30",
+        "40",
+        "50"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-07",
+      "type": "choice",
+      "prompt": "Omar quiere pasar 2 horas y 15 minutos a minutos. Dice: «Son 215 minutos porque cada hora vale 100». ¿Qué error ha cometido?",
+      "explanation": "El tiempo no funciona en base 10: 1 hora son 60 minutos. El cálculo correcto es (2 × 60) + 15 = 120 + 15 = 135 minutos.",
+      "hint": "¿Cuántos minutos tiene realmente una hora?",
+      "lang": "es",
+      "options": [
+        "Tendría que haber multiplicado las horas por 24.",
+        "Ha sumado 15 minutos en vez de restarlos.",
+        "Ha pensado que una hora tiene 100 minutos en lugar de 60."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-08",
+      "type": "choice",
+      "prompt": "Una función de teatro empieza a las 16:40 y dura 1 hora y 35 minutos. ¿A qué hora terminará?",
+      "explanation": "Añadimos 1 hora a las 16:40 y son las 17:40. Para las 18:00 faltan 20 minutos. De los 35 minutos quedan 15, así que acaba a las 18:15.",
+      "hint": "Recuerda que cuando los minutos llegan a 60, sumas una hora.",
+      "lang": "es",
+      "options": [
+        "A las 17:15",
+        "A las 18:05",
+        "A las 18:15",
+        "A las 17:75"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-09",
+      "type": "fill-blank",
+      "prompt": "Completa la lectura del reloj analógico:",
+      "explanation": "A las 19:45 faltan 15 minutos (un cuarto de hora) para llegar a las 20:00 (las ocho de la tarde). Por eso decimos «las ocho menos cuarto».",
+      "hint": "Piensa cuántos minutos faltan para la siguiente hora en punto.",
+      "lang": "es",
+      "sentence": "En un reloj digital se leen las 19:45. En el reloj tradicional decimos que son las ocho ___ de la tarde.",
+      "options": [
+        "y cuarto",
+        "menos cuarto",
+        "y media"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-10",
+      "type": "choice",
+      "prompt": "Un tren sale a las 09:20 y llega a su destino a las 11:05. Hace una parada de 10 minutos. ¿Cuánto tiempo ha estado en movimiento?",
+      "explanation": "De 09:20 a 11:05 pasa 1 hora y 45 minutos (105 minutos en total). Restamos los 10 minutos de la parada: 105 - 10 = 95 minutos, que son 1 hora y 35 minutos.",
+      "hint": "Calcula el tiempo total del viaje y resta los minutos que estuvo parado.",
+      "lang": "es",
+      "options": [
+        "1 hora y 35 minutos",
+        "1 hora y 55 minutos",
+        "1 hora y 25 minutos",
+        "1 hora y 45 minutos"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:16:47.769Z",
+    "reviewed": false
+  }
+}

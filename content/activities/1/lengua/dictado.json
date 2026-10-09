@@ -1,0 +1,180 @@
+{
+  "id": "g1-lengua-dictado",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "dictado",
+  "temaNombre": "Dictado",
+  "title": "¡Listos para el dictado!",
+  "summary": "Practica cómo escuchar, escribir y revisar tus dictados paso a paso.",
+  "keyIdeas": [
+    "Escucha toda la frase con atención antes de empezar a escribir.",
+    "Empieza siempre con mayúscula, deja un espacio entre palabras y pon un punto al final.",
+    "Al terminar el dictado, relee despacio para comprobar que no faltan letras ni palabras."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-dictado-01",
+      "type": "choice",
+      "prompt": "¿Qué debes hacer primero cuando la maestra empieza a dictar? 👂",
+      "explanation": "Primero escuchamos con atención para comprender toda la frase en nuestra cabeza.",
+      "hint": "Usa tus orejas antes de usar el lápiz.",
+      "lang": "es",
+      "options": [
+        "Escribir corriendo sin oír el final",
+        "Escuchar en silencio con mucha atención",
+        "Hablar con el compañero de mesa"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-lengua-dictado-02",
+      "type": "true-false",
+      "prompt": "Al escribir una frase en el dictado, la primera palabra empieza con mayúscula.",
+      "explanation": "Todas las oraciones deben empezar siempre con letra mayúscula.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-lengua-dictado-03",
+      "type": "fill-blank",
+      "prompt": "¿Qué signo falta al final de la frase que dictó el maestro? ✏️",
+      "explanation": "Al terminar de escribir una frase completa, siempre ponemos un punto final.",
+      "lang": "es",
+      "sentence": "Hugo juega en el patio con su pelota___",
+      "options": [
+        ".",
+        ",",
+        "-"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-dictado-04",
+      "type": "order",
+      "prompt": "Ordena los pasos correctos para hacer un buen dictado:",
+      "explanation": "Primero escuchamos, luego escribimos con cuidado, ponemos el punto y al final revisamos.",
+      "lang": "es",
+      "items": [
+        "Escuchar la frase completa",
+        "Escribir separando las palabras",
+        "Poner el punto final",
+        "Releer para comprobar"
+      ]
+    },
+    {
+      "id": "g1-lengua-dictado-05",
+      "type": "classify",
+      "prompt": "Clasifica estas frases según la separación de sus palabras:",
+      "explanation": "Hay que dejar un pequeño espacio entre cada palabra para poder leer bien.",
+      "lang": "es",
+      "categories": [
+        "Bien separadas",
+        "Palabras pegadas"
+      ],
+      "items": [
+        {
+          "text": "El sol brilla.",
+          "category": 0
+        },
+        {
+          "text": "Lamanzanaroja.",
+          "category": 1
+        },
+        {
+          "text": "Un barco azul.",
+          "category": 0
+        },
+        {
+          "text": "Mipapácanta.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-dictado-06",
+      "type": "choice",
+      "prompt": "Omar revisa su dictado: «la tortuga come lechuga.» ¿Qué error tiene? 🔍",
+      "explanation": "La primera palabra debe escribirse con mayúscula: «La tortuga come lechuga.».",
+      "hint": "Fíjate en la primera letra de la frase.",
+      "lang": "es",
+      "options": [
+        "Le falta la mayúscula al principio",
+        "Le falta el punto final",
+        "Tiene todas las palabras juntas"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-dictado-07",
+      "type": "match",
+      "prompt": "Une cada parte del dictado con su regla:",
+      "explanation": "Estas tres reglas son mágicas para que tus dictados queden perfectos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Primera letra de la frase",
+          "right": "Se escribe con mayúscula"
+        },
+        {
+          "left": "Entre palabra y palabra",
+          "right": "Se deja un espacio"
+        },
+        {
+          "left": "Final de la oración",
+          "right": "Se escribe un punto"
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-dictado-08",
+      "type": "fill-blank",
+      "prompt": "En el dictado dicen «plátano». Elige la palabra bien escrita sin olvidar letras:",
+      "explanation": "La palabra correcta es «plátano», con su letra l y su tilde en la primera a.",
+      "lang": "es",
+      "sentence": "Aisha come un rico ___ en la merienda.",
+      "options": [
+        "plátano",
+        "pátano",
+        "platno"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-dictado-09",
+      "type": "true-false",
+      "prompt": "Al terminar un dictado, es bueno releerlo para comprobar si falta alguna letra.",
+      "explanation": "Releer despacio nos ayuda a descubrir pequeños despistes y corregirlos a tiempo.",
+      "lang": "es",
+      "answer": true
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:06:49.404Z",
+    "reviewed": false
+  }
+}

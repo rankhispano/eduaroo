@@ -1,0 +1,227 @@
+{
+  "id": "g1-ingles-ordenes-sencillas",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "ordenes-sencillas",
+  "temaNombre": "Órdenes sencillas",
+  "title": "Fun Classroom Commands!",
+  "summary": "Practica las órdenes sencillas que usamos todos los días en la clase de inglés.",
+  "keyIdeas": [
+    "Las órdenes o 'commands' nos dicen qué acción debemos hacer.",
+    "'Stand up' significa ponerse de pie y 'sit down' significa sentarse.",
+    "Decimos 'please' para pedir las cosas por favor y con educación."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-ordenes-sencillas-01",
+      "type": "choice",
+      "prompt": "The teacher says: 'Sit down, please.' What do you do?",
+      "explanation": "'Sit down' significa sentarse en tu silla para empezar la clase.",
+      "hint": "Piensa en qué haces cuando llegas a tu pupitre.",
+      "lang": "en",
+      "options": [
+        "Run in the classroom",
+        "Stand up on your feet",
+        "Sit on your chair"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-ordenes-sencillas-02",
+      "type": "true-false",
+      "prompt": "The command 'Stand up!' means '¡Ponte de pie!'.",
+      "explanation": "¡Correcto! 'Stand up' nos indica que debemos levantarnos y ponernos de pie.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-ingles-ordenes-sencillas-03",
+      "type": "match",
+      "prompt": "Match each English command with its meaning in Spanish:",
+      "explanation": "Muy bien: 'listen' es escuchar con atención, 'look' es mirar, 'silence' pide silencio y 'clap' es dar palmas.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Listen",
+          "right": "Escuchar"
+        },
+        {
+          "left": "Look",
+          "right": "Mirar"
+        },
+        {
+          "left": "Silence, please",
+          "right": "Silencio, por favor"
+        },
+        {
+          "left": "Clap your hands",
+          "right": "Aplaudir"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-ordenes-sencillas-04",
+      "type": "fill-blank",
+      "prompt": "El maestro quiere que empecemos la lectura. Completa la orden:",
+      "explanation": "Usamos 'Open your book' para decir 'Abre tu libro'.",
+      "hint": "Es lo contrario de cerrar.",
+      "lang": "en",
+      "sentence": "___ your book, please.",
+      "options": [
+        "Open",
+        "Sleep",
+        "Jump"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-ordenes-sencillas-05",
+      "type": "choice",
+      "prompt": "We play Simon Says! Simon says: 'Touch your nose!' What do you touch?",
+      "explanation": "'Touch your nose' significa tocarte la nariz.",
+      "hint": "Busca la parte de la cara que usas para oler.",
+      "lang": "en",
+      "options": [
+        "Your nose 👃",
+        "Your feet 🦶",
+        "Your hands 🤲"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-ordenes-sencillas-06",
+      "type": "classify",
+      "prompt": "Classify these instructions into the correct group:",
+      "explanation": "'Jump', 'stand up' y 'clap' son acciones que haces con tu cuerpo, mientras que 'open' y 'close' se refieren al libro.",
+      "lang": "en",
+      "categories": [
+        "Actions with your body",
+        "Actions with your book"
+      ],
+      "items": [
+        {
+          "text": "Jump!",
+          "category": 0
+        },
+        {
+          "text": "Open your book",
+          "category": 1
+        },
+        {
+          "text": "Stand up!",
+          "category": 0
+        },
+        {
+          "text": "Close your book",
+          "category": 1
+        },
+        {
+          "text": "Clap your hands!",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-ordenes-sencillas-07",
+      "type": "fill-blank",
+      "prompt": "La clase ha terminado y guardamos el material. Completa la frase:",
+      "explanation": "'Close your book' significa 'Cierra tu libro' para terminar la lección.",
+      "hint": "Piensa en la acción contraria a 'open'.",
+      "lang": "en",
+      "sentence": "___ your book, please.",
+      "options": [
+        "Close",
+        "Eat",
+        "Run"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-ordenes-sencillas-08",
+      "type": "order",
+      "prompt": "Put the teacher's instructions in order at the start of class:",
+      "explanation": "Primero entramos al aula ('Come in!'), luego nos sentamos ('Sit down') y por último abrimos el libro ('Open your book').",
+      "lang": "en",
+      "items": [
+        "Come in!",
+        "Sit down, please.",
+        "Open your book."
+      ]
+    },
+    {
+      "id": "g1-ingles-ordenes-sencillas-09",
+      "type": "choice",
+      "prompt": "In PE class, the teacher says: 'Stop!' What does Omar do?",
+      "explanation": "'Stop' significa detenerse y quedarse quieto de inmediato.",
+      "hint": "Es la señal de parar como un semáforo rojo.",
+      "lang": "en",
+      "options": [
+        "He jumps on the bench",
+        "He runs very fast",
+        "He stops and stays still"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-ordenes-sencillas-10",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions:",
+      "explanation": "¡Gran trabajo de lectura! Has identificado las órdenes que Miss Sarah da en clase.",
+      "lang": "en",
+      "title": "Aisha in English Class",
+      "text": "Miss Sarah is in class. She says: 'Good morning! Sit down, please.' Aisha sits down. Miss Sarah says: 'Open your book and look.' Aisha opens her book. Then Miss Sarah says: 'Listen to the story.' Aisha is quiet and happy.",
+      "questions": [
+        {
+          "prompt": "What does Miss Sarah tell Aisha to do first?",
+          "explanation": "El texto dice que primero la maestra dice: 'Good morning! Sit down, please.'.",
+          "options": [
+            "Jump high.",
+            "Close your book.",
+            "Sit down, please."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Miss Sarah tell Aisha to open?",
+          "explanation": "Miss Sarah dice: 'Open your book and look', por lo que Aisha abre su libro.",
+          "options": [
+            "Her book",
+            "Her pencil case",
+            "The door"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:58:34.789Z",
+    "reviewed": false
+  }
+}

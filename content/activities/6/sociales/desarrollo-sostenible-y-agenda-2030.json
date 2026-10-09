@@ -1,0 +1,275 @@
+{
+  "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "desarrollo-sostenible-y-agenda-2030",
+  "temaNombre": "Desarrollo sostenible y Agenda 2030",
+  "title": "Misión Planeta: Agenda 2030",
+  "summary": "Aprende qué es el desarrollo sostenible, descubre los ODS de la Agenda 2030 y aplica ideas prácticas para cuidar el mundo.",
+  "keyIdeas": [
+    "El desarrollo sostenible satisface las necesidades del presente sin agotar los recursos para las generaciones futuras.",
+    "La Agenda 2030 de la ONU incluye 17 Objetivos de Desarrollo Sostenible (ODS) para lograr un planeta justo, sano y en paz.",
+    "La sostenibilidad requiere equilibrar tres pilares esenciales: el cuidado del medioambiente, la justicia social y una economía responsable."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.3",
+      "6.1",
+      "6.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-01",
+      "type": "choice",
+      "prompt": "En clase de Ciencias Sociales, Lucía y Hugo debaten sobre el futuro del planeta. ¿Cuál es la mejor definición de «desarrollo sostenible»?",
+      "explanation": "El desarrollo sostenible busca un equilibrio justo: vivir bien hoy cuidando los recursos para que quienes vengan detrás también puedan disfrutarlos.",
+      "hint": "Piensa en el equilibrio entre lo que necesitamos hoy y lo que necesitarán las personas del mañana.",
+      "lang": "es",
+      "options": [
+        "Aprovechar todos los recursos naturales posibles ahora para generar la máxima riqueza antes de que se agoten.",
+        "Satisfacer las necesidades de la población actual sin comprometer la capacidad de las generaciones futuras para cubrir las suyas.",
+        "Prohibir por completo cualquier actividad económica humana para que la naturaleza vuelva a su estado salvaje.",
+        "Aumentar el consumo de productos de plástico siempre que se depositen en el contenedor amarillo."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-02",
+      "type": "true-false",
+      "prompt": "La Agenda 2030 es un plan de acción internacional aprobado en 2015 por los países miembros de la ONU que contiene 17 Objetivos de Desarrollo Sostenible (ODS).",
+      "explanation": "Es totalmente verdadero. La Organización de las Naciones Unidas (ONU) impulsó este acuerdo global en 2015 para poner fin a la pobreza, frenar el cambio climático y reducir las desigualdades antes de 2030.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el concepto ecológico correcto:",
+      "explanation": "La huella ecológica mide el impacto de nuestro estilo de vida sobre el planeta y nos ayuda a saber si estamos consumiendo más recursos de los que la Tierra puede regenerar.",
+      "lang": "es",
+      "sentence": "La ___ indica el área de tierra y agua productiva necesaria para generar los recursos que consume una persona y absorber los residuos que produce.",
+      "options": [
+        "huella ecológica",
+        "esperanza de vida",
+        "capacidad hotelera",
+        "tasa de reciclaje"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-04",
+      "type": "match",
+      "prompt": "Relaciona cada Objetivo de Desarrollo Sostenible (ODS) con su meta principal:",
+      "explanation": "Cada uno de los 17 ODS se enfoca en un reto concreto para mejorar la vida de las personas y preservar los ecosistemas.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "ODS 5: Igualdad de género",
+          "right": "Garantizar los mismos derechos y oportunidades a mujeres y hombres"
+        },
+        {
+          "left": "ODS 7: Energía asequible y no contaminante",
+          "right": "Fomentar el uso de fuentes renovables como la solar o la eólica"
+        },
+        {
+          "left": "ODS 12: Producción y consumo responsables",
+          "right": "Reducir el desperdicio de alimentos y evitar los plásticos de un solo uso"
+        },
+        {
+          "left": "ODS 14: Vida submarina",
+          "right": "Proteger los océanos frente a los vertidos y la pesca excesiva"
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-05",
+      "type": "classify",
+      "prompt": "Clasifica estas acciones cotidianas según pertenezcan al modelo de economía lineal («usar y tirar») o al de economía circular («reducir y aprovechar»):",
+      "explanation": "La economía circular busca alargar la vida útil de los materiales y eliminar los residuos, mientras que la economía lineal agota recursos y genera basura constante.",
+      "lang": "es",
+      "categories": [
+        "Economía lineal",
+        "Economía circular"
+      ],
+      "items": [
+        {
+          "text": "Comprar una botella de agua de plástico desechable y tirarla a la basura ordinaria al terminarla",
+          "category": 0
+        },
+        {
+          "text": "Llevar los zapatos con la suela gastada al zapatero del barrio para repararlos",
+          "category": 1
+        },
+        {
+          "text": "Fabricar estuches escolares utilizando plástico reciclado recogido del mar",
+          "category": 1
+        },
+        {
+          "text": "Desechar una chaqueta porque le falta un botón sin intentar cosérselo",
+          "category": 0
+        },
+        {
+          "text": "Intercambiar libros leídos en la biblioteca del colegio para darles una segunda vida",
+          "category": 1
+        },
+        {
+          "text": "Tirar un teléfono móvil estropeado que tiene piezas que aún podrían reutilizarse",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-06",
+      "type": "choice",
+      "prompt": "Aisha acompaña a su abuelo al mercado para comprar alimentos para toda la semana. Quieren reducir su huella de carbono asociada al transporte. ¿Cuál de estas elecciones es la más sostenible?",
+      "explanation": "Los productos locales y de temporada recorren distancias mucho más cortas, lo que ahorra combustible y reduce las emisiones contaminantes del transporte.",
+      "hint": "Fíjate en la distancia recorrida por los productos («kilómetro cero») y en el medio de transporte usado.",
+      "lang": "es",
+      "options": [
+        "Comprar frutas fuera de temporada cultivadas en invernaderos con calefacción intensiva muy lejanos.",
+        "Elegir siempre productos que vengan en bandejas de poliestireno envueltas en film transparente para que duren más.",
+        "Desplazarse en coche particular hasta un supermercado situado a 30 kilómetros solo para comprar un racimo de uvas.",
+        "Comprar manzanas cultivadas en una huerta cercana a su comarca en lugar de manzanas importadas en avión desde otro continente."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-07",
+      "type": "order",
+      "prompt": "Ordena estas estrategias de gestión de residuos según su orden de prioridad para la sostenibilidad (desde la más recomendada hasta la que debe ser el último recurso):",
+      "explanation": "La mejor gestión es evitar generar residuos (reducir). Si ya existen, lo prioritario es reutilizarlos y repararlos; después, reciclarlos, y solo como último remedio depositarlos en el vertedero.",
+      "lang": "es",
+      "items": [
+        "Reducir la compra y el consumo de productos innecesarios",
+        "Reutilizar los objetos dándoles una segunda oportunidad",
+        "Reparar los aparatos averiados en lugar de cambiarlos por nuevos",
+        "Reciclar los materiales para transformarlos en materia prima",
+        "Depositar en vertederos los desechos que no han podido aprovecharse"
+      ]
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-08",
+      "type": "choice",
+      "prompt": "Nerea y Adrián participan en el Consejo Infantil de su municipio para proponer mejoras en favor del ODS 11 (Ciudades y comunidades sostenibles). ¿Qué propuesta mejora de verdad la calidad del aire y la convivencia vecinal?",
+      "explanation": "Favorecer la movilidad activa (caminar o bicicleta) y el transporte público reduce los atascos, el ruido y los humos contaminantes, haciendo el municipio más saludable.",
+      "hint": "Una ciudad sostenible prioriza a las personas y al transporte limpio frente al coche de combustión.",
+      "lang": "es",
+      "options": [
+        "Eliminar las aceras peatonales para habilitar más plazas de aparcamiento en la puerta de los colegios.",
+        "Crear caminos escolares seguros a pie, fomentar carriles bici y ampliar las zonas verdes arboladas del barrio.",
+        "Aumentar el número de carriles para coches privados en el centro histórico para que circulen más rápido.",
+        "Sustituir los autobuses urbanos públicos por el fomento de viajes individuales en coche particular."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-09",
+      "type": "reading",
+      "prompt": "Lee atentamente la noticia sobre este proyecto escolar y responde a las preguntas:",
+      "explanation": "El proyecto muestra cómo el ahorro de recursos permite reinvertir en energías limpias y hábitos más saludables.",
+      "lang": "es",
+      "title": "Un colegio con energía propia",
+      "text": "En el CEIP Los Olivos, el alumnado de sexto descubrió en una auditoría ambiental que gran parte de la electricidad se desperdiciaba por dejar luces y ordenadores encendidos durante los recreos. Para frenar este gasto, nombraron una patrulla ecológica semanal encargada de supervisar las aulas, instalaron termostatos inteligentes y promovieron el uso de fiambreras lavables en los almuerzos.\n\nTras cinco meses de trabajo en equipo, el colegio consiguió reducir su factura eléctrica un 24 % y eliminó por completo el papel de aluminio en los patios. Con el dinero ahorrado en electricidad, el centro instaló placas solares en el tejado del gimnasio y creó un huerto ecológico que ahora abastece de lechugas y tomates frescos al comedor escolar. El director felicitó a los estudiantes recordándoles que la sostenibilidad no consiste en gastar menos por obligación, sino en utilizar la creatividad ciudadana para vivir mejor respetando el entorno.",
+      "questions": [
+        {
+          "prompt": "¿Qué porcentaje de ahorro en la factura eléctrica consiguió el colegio tras las medidas aplicadas?",
+          "explanation": "El texto indica expresamente que, tras cinco meses de trabajo, el centro redujo su consumo eléctrico un 24 %.",
+          "options": [
+            "Un 50 %.",
+            "Un 15 %.",
+            "Un 24 %."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué la sustitución del papel de aluminio por fiambreras lavables apoya el ODS 12 de consumo responsable?",
+          "explanation": "Al usar fiambreras reutilizables evitamos los envoltorios desechables diarios, reduciendo drásticamente la cantidad de basura generada.",
+          "options": [
+            "Porque las fiambreras lavables consumen electricidad del tejado del gimnasio para calentarse.",
+            "Porque el papel de aluminio contiene minerales tóxicos que impiden el funcionamiento de las placas solares.",
+            "Porque las fiambreras lavables son envases reutilizables que evitan generar kilos de residuos de un solo uso cada día."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué conclusión crítica sobre la ciudadanía activa se extrae del éxito de este proyecto escolar?",
+          "explanation": "La experiencia del colegio demuestra que el compromiso colectivo de un grupo de estudiantes y profesores puede transformar su realidad local y cuidar el planeta.",
+          "options": [
+            "Que solo las grandes organizaciones internacionales pueden lograr cambios medioambientales significativos.",
+            "Que la implicación y los pequeños cambios organizados de una comunidad local generan un impacto positivo medible en su entorno.",
+            "Que para cuidar el planeta es imprescindible eliminar todos los aparatos electrónicos de las escuelas."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-10",
+      "type": "classify",
+      "prompt": "El desarrollo sostenible se sostiene sobre tres pilares inseparables. Clasifica cada medida dentro de su dimensión correspondiente:",
+      "explanation": "La verdadera sostenibilidad solo se alcanza cuando cuidamos la naturaleza (ambiental), garantizamos los derechos de las personas (social) y creamos una economía justa y viable (económica).",
+      "lang": "es",
+      "categories": [
+        "Dimensión ambiental",
+        "Dimensión social",
+        "Dimensión económica"
+      ],
+      "items": [
+        {
+          "text": "Reforestar un monte quemado con especies autóctonas para proteger la biodiversidad",
+          "category": 0
+        },
+        {
+          "text": "Asegurar que todas las niñas y niños tengan acceso a una educación de calidad y gratuita",
+          "category": 1
+        },
+        {
+          "text": "Impulsar empresas que fabriquen paneles solares creando empleos estables y justos",
+          "category": 2
+        },
+        {
+          "text": "Depurar las aguas residuales de los pueblos antes de devolverlas a los ríos",
+          "category": 0
+        },
+        {
+          "text": "Garantizar la atención sanitaria pública e igualitaria para toda la población",
+          "category": 1
+        },
+        {
+          "text": "Fomentar el comercio justo que paga un precio digno a los agricultores por sus cosechas",
+          "category": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:48:30.652Z",
+    "reviewed": false
+  }
+}

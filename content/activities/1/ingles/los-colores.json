@@ -1,0 +1,220 @@
+{
+  "id": "g1-ingles-los-colores",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "los-colores",
+  "temaNombre": "Los colores",
+  "title": "A World of Colors",
+  "summary": "Practica el vocabulario de los colores en inglés a través de divertidas frases y situaciones cotidianas.",
+  "keyIdeas": [
+    "Los colores nos ayudan a describir cómo son las cosas que nos rodean.",
+    "En inglés, solemos decir el color antes del objeto (por ejemplo: 'red apple').",
+    "Podemos usar 'The... is...' para decir de qué color es algo (por ejemplo: 'The sun is yellow')."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-los-colores-01",
+      "type": "choice",
+      "prompt": "What color is a ripe banana? 🍌",
+      "explanation": "Los plátanos maduros son de color amarillo, que en inglés se dice 'yellow'.",
+      "hint": "Piensa en el color del sol.",
+      "lang": "en",
+      "options": [
+        "Blue",
+        "Black",
+        "Yellow"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-los-colores-02",
+      "type": "match",
+      "prompt": "Match each thing with its natural color:",
+      "explanation": "El sol es amarillo (yellow), la hierba es verde (green) y el cielo despejado es azul (blue).",
+      "hint": "Mira a tu alrededor en un día de parque.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "The sun ☀️",
+          "right": "Yellow"
+        },
+        {
+          "left": "Grass 🌿",
+          "right": "Green"
+        },
+        {
+          "left": "The sky ☁️",
+          "right": "Blue"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-los-colores-03",
+      "type": "true-false",
+      "prompt": "Strawberries are red. 🍓",
+      "explanation": "¡Correcto! Las fresas son rojas, y rojo en inglés se dice 'red'.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-ingles-los-colores-04",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra que completa la frase:",
+      "explanation": "La nieve es blanca, y en inglés se dice 'white'.",
+      "hint": "Es el color del folio en blanco.",
+      "lang": "en",
+      "sentence": "Snow is cold and ___.",
+      "options": [
+        "orange",
+        "green",
+        "white"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-los-colores-05",
+      "type": "choice",
+      "prompt": "Hugo paints a tree. The trunk is ___.",
+      "explanation": "El tronco de los árboles es de color marrón, que en inglés se dice 'brown'.",
+      "hint": "Es el color del chocolate y la madera.",
+      "lang": "en",
+      "options": [
+        "purple",
+        "pink",
+        "brown"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-los-colores-06",
+      "type": "classify",
+      "prompt": "Classify these things by their color:",
+      "explanation": "El cielo y el mar son azules (blue), mientras que los limones y el sol son amarillos (yellow).",
+      "lang": "en",
+      "categories": [
+        "Blue",
+        "Yellow"
+      ],
+      "items": [
+        {
+          "text": "The sky",
+          "category": 0
+        },
+        {
+          "text": "A lemon 🍋",
+          "category": 1
+        },
+        {
+          "text": "The sea 🌊",
+          "category": 0
+        },
+        {
+          "text": "The sun ☀️",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-los-colores-07",
+      "type": "true-false",
+      "prompt": "Milk is purple. 🥛",
+      "explanation": "Es falso. La leche no es morada ('purple'), es blanca ('white').",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-ingles-los-colores-08",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar la frase correcta:",
+      "explanation": "La estructura correcta en inglés es 'The frog is green' (La rana es verde).",
+      "lang": "en",
+      "items": [
+        "The",
+        "frog",
+        "is",
+        "green."
+      ]
+    },
+    {
+      "id": "g1-ingles-los-colores-09",
+      "type": "fill-blank",
+      "prompt": "Aisha mixes colors in art class. What color does she get?",
+      "explanation": "Al mezclar rojo ('red') y amarillo ('yellow') obtenemos naranja ('orange').",
+      "hint": "Es el color de una zanahoria.",
+      "lang": "en",
+      "sentence": "Red and yellow make ___.",
+      "options": [
+        "blue",
+        "orange",
+        "black"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-los-colores-10",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions:",
+      "explanation": "¡Fantástica lectura! Has identificado los colores de los diferentes elementos del dibujo de Leo.",
+      "lang": "en",
+      "title": "Leo's Painting",
+      "text": "Leo paints a picture. The big sun is yellow. The sea is blue. Leo has a small red boat. His dog is brown. Leo loves colors!",
+      "questions": [
+        {
+          "prompt": "What color is the boat?",
+          "explanation": "En el texto dice: 'Leo has a small red boat'.",
+          "options": [
+            "Red",
+            "Yellow",
+            "Blue"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What color is the dog?",
+          "explanation": "En el texto dice: 'His dog is brown'.",
+          "options": [
+            "Brown",
+            "Green",
+            "White"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:53:20.509Z",
+    "reviewed": false
+  }
+}

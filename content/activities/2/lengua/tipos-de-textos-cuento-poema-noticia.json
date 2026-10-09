@@ -1,0 +1,235 @@
+{
+  "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "tipos-de-textos-cuento-poema-noticia",
+  "temaNombre": "Tipos de textos: cuento, poema, noticia",
+  "title": "Descubrimos cuentos, poemas y noticias",
+  "summary": "Aprende a diferenciar un cuento, un poema y una noticia con actividades divertidas.",
+  "keyIdeas": [
+    "El cuento narra una historia imaginaria con personajes.",
+    "El poema se escribe en versos y suele tener rima.",
+    "La noticia cuenta un hecho real que ha ocurrido."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "4.1",
+      "4.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "C. Educación literaria"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-01",
+      "type": "choice",
+      "prompt": "¿Qué texto cuenta una noticia real?",
+      "explanation": "La apertura de una biblioteca es un hecho real. Las noticias informan sobre sucesos verdaderos.",
+      "hint": "Busca el suceso que pasa de verdad en un barrio.",
+      "lang": "es",
+      "options": [
+        "La luna sonríe vestida de seda blanca.",
+        "Ayer abrió la nueva biblioteca del barrio.",
+        "Un dragón vuela sobre el castillo encantado."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-02",
+      "type": "true-false",
+      "prompt": "Los poemas suelen tener palabras que riman.",
+      "explanation": "Los poemas juegan con el sonido y el ritmo de las palabras mediante la rima.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-03",
+      "type": "fill-blank",
+      "prompt": "Completa con el tipo de texto correcto:",
+      "explanation": "Las noticias nos informan de hechos reales y recientes ocurridos en un lugar.",
+      "lang": "es",
+      "sentence": "Para saber qué pasó ayer en mi ciudad leo una ___.",
+      "options": [
+        "poesía",
+        "adivinanza",
+        "noticia"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-04",
+      "type": "match",
+      "prompt": "Une cada inicio con el tipo de texto que le corresponde:",
+      "explanation": "Érase una vez inicia un cuento, los versos forman un poema y la información real es una noticia.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Érase una vez en un bosque lejano...",
+          "right": "Cuento"
+        },
+        {
+          "left": "Verde que te quiero verde, verde viento...",
+          "right": "Poema"
+        },
+        {
+          "left": "El museo de la ciudad abre mañana sus puertas.",
+          "right": "Noticia"
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-05",
+      "type": "classify",
+      "prompt": "Clasifica cada frase según el texto al que pertenece:",
+      "explanation": "Los cuentos narran fantasía, los poemas tienen rima y las noticias cuentan sucesos reales.",
+      "lang": "es",
+      "categories": [
+        "Cuento",
+        "Poema",
+        "Noticia"
+      ],
+      "items": [
+        {
+          "text": "La princesa vivía en un gran palacio.",
+          "category": 0
+        },
+        {
+          "text": "El gato chiquito duerme en su saquito.",
+          "category": 1
+        },
+        {
+          "text": "Los bomberos rescatan a un perro en el parque.",
+          "category": 2
+        },
+        {
+          "text": "Había una vez un duende juguetón.",
+          "category": 0
+        },
+        {
+          "text": "Estrellita de la noche, brillas en mi coche.",
+          "category": 1
+        },
+        {
+          "text": "El colegio estrena un patio con huerto.",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-06",
+      "type": "reading",
+      "prompt": "Lee el texto y contesta a las preguntas:",
+      "explanation": "El texto informa de un suceso real y actual, por eso es una noticia.",
+      "lang": "es",
+      "title": "Adopción de mascotas",
+      "text": "El refugio de animales del pueblo celebra hoy una fiesta. Muchas familias han acudido para adoptar perros y gatos sin hogar. Los organizadores afirman que ya han encontrado casa para diez cachorros.",
+      "questions": [
+        {
+          "prompt": "¿Qué tipo de texto es?",
+          "explanation": "Informa sobre un hecho real que ocurre hoy en el refugio del pueblo.",
+          "options": [
+            "Una noticia",
+            "Un poema",
+            "Un cuento"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué consiguieron los organizadores?",
+          "explanation": "El texto dice claramente que ya encontraron casa para diez cachorros.",
+          "options": [
+            "Un castillo con dragones",
+            "Casa para diez cachorros",
+            "Un premio de poesía"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-07",
+      "type": "order",
+      "prompt": "Ordena las partes habituales de un cuento:",
+      "explanation": "Un cuento empieza con el inicio, sigue con el nudo y termina con el desenlace.",
+      "lang": "es",
+      "items": [
+        "Inicio donde conocemos a los personajes",
+        "Nudo donde ocurre un problema",
+        "Desenlace donde se resuelve la historia"
+      ]
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-08",
+      "type": "choice",
+      "prompt": "Aisha quiere escribir un poema sobre el sol. ¿Qué línea rima mejor?",
+      "explanation": "Brillante y gigante riman porque terminan con el mismo sonido. Eso crea ritmo en el poema.",
+      "hint": "Fíjate en las palabras que terminan con el mismo sonido.",
+      "lang": "es",
+      "options": [
+        "El sol brillante calienta al gigante.",
+        "El sol está en el cielo azul.",
+        "El sol sale a las siete de la mañana."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-09",
+      "type": "choice",
+      "prompt": "Encuentra el error: ¿qué texto está MAL clasificado?",
+      "explanation": "Caperucita Roja es un cuento popular de fantasía, no es una noticia del periódico.",
+      "hint": "Caperucita Roja es un personaje de ficción muy conocido.",
+      "lang": "es",
+      "options": [
+        "«Caperucita roja visitó a su abuela»: Noticia",
+        "«La mariposa rosa se posa»: Poema",
+        "«El rey construyó una torre mágica»: Cuento"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-10",
+      "type": "choice",
+      "prompt": "Hugo quiere avisar a todo el colegio de un partido solidario. ¿Qué debe escribir?",
+      "explanation": "Para informar a la gente sobre un evento real, lo más adecuado es escribir una noticia o nota informativa.",
+      "hint": "Hugo necesita dar información real sobre cuándo y dónde será el partido.",
+      "lang": "es",
+      "options": [
+        "Una noticia con la fecha y el lugar del partido.",
+        "Un cuento de hadas y duendes veloces.",
+        "Un poema con rimas sobre dragones."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:20:40.162Z",
+    "reviewed": false
+  }
+}

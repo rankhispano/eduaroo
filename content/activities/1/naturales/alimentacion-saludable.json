@@ -1,0 +1,211 @@
+{
+  "id": "g1-naturales-alimentacion-saludable",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "alimentacion-saludable",
+  "temaNombre": "Alimentación saludable",
+  "title": "Comemos sano cada día",
+  "summary": "Aprende a elegir alimentos saludables para crecer con fuerza y energía.",
+  "keyIdeas": [
+    "Comer fruta y verdura a diario nos da vitaminas para no enfermar.",
+    "El agua es la mejor bebida para tener el cuerpo bien hidratado.",
+    "Los dulces y la bollería solo se deben comer en ocasiones especiales."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE4"
+    ],
+    "criteria": [
+      "2.4",
+      "4.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CPSAA1",
+      "CPSAA2",
+      "CPSAA3",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-alimentacion-saludable-01",
+      "type": "choice",
+      "prompt": "Lucía tiene sed después de jugar al pilla-pilla. ¿Qué bebida es la más sana?",
+      "explanation": "El agua calma la sed y es la bebida más sana para nuestro cuerpo.",
+      "hint": "No tiene azúcar ni colorantes.",
+      "lang": "es",
+      "options": [
+        "Un vaso de agua fresca",
+        "Un refresco con mucho gas",
+        "Un batido de chocolate"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-02",
+      "type": "true-false",
+      "prompt": "Las frutas y las verduras nos ayudan a no enfermar.",
+      "explanation": "Tienen muchas vitaminas y minerales que protegen nuestra salud.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-03",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra adecuada para completar la oración.",
+      "explanation": "Es bueno tomar fruta todos los días, como en el recreo o de postre.",
+      "lang": "es",
+      "sentence": "Para crecer fuertes, debemos tomar fruta fresca todos los ___.",
+      "options": [
+        "días",
+        "meses",
+        "años"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-04",
+      "type": "classify",
+      "prompt": "Clasifica estos alimentos según su tipo:",
+      "explanation": "El plátano y la manzana son frutas dulces. La espinaca y la zanahoria son verduras muy nutritivas.",
+      "lang": "es",
+      "categories": [
+        "Frutas",
+        "Verduras"
+      ],
+      "items": [
+        {
+          "text": "Plátano",
+          "category": 0
+        },
+        {
+          "text": "Espinaca",
+          "category": 1
+        },
+        {
+          "text": "Manzana",
+          "category": 0
+        },
+        {
+          "text": "Zanahoria",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-05",
+      "type": "match",
+      "prompt": "Une cada alimento con el momento más adecuado para tomarlo:",
+      "explanation": "La fruta se come a diario y los pasteles solo de vez en cuando en fiestas.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Manzana crujiente",
+          "right": "Todos los días en el recreo"
+        },
+        {
+          "left": "Lentejas con verduras",
+          "right": "Comida del mediodía"
+        },
+        {
+          "left": "Tarta de cumpleaños",
+          "right": "En fiestas y días especiales"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-06",
+      "type": "choice",
+      "prompt": "¿Cuál de estas meriendas es la más equilibrada para Aisha?",
+      "explanation": "El pan con queso, tomate y fruta aporta energía sana y muchas vitaminas.",
+      "hint": "Busca la opción con alimentos frescos.",
+      "lang": "es",
+      "options": [
+        "Dos magdalenas con chispas de chocolate",
+        "Una bolsa de patatas fritas y zumo envasado",
+        "Bocadillo de queso con tomate y una mandarina"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-07",
+      "type": "choice",
+      "prompt": "Encuentra el error. ¿Qué frase sobre la comida NO es correcta?",
+      "explanation": "La fruta entera es mejor que los zumos envasados porque conserva su fibra sana y no añade azúcares.",
+      "hint": "Piensa en qué tiene más azúcares añadidos.",
+      "lang": "es",
+      "options": [
+        "El zumo envasado sustituye a comer fruta entera",
+        "El pescado y los huevos nos dan proteínas para los músculos",
+        "Comer verdura nos ayuda a hacer bien la digestión"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-08",
+      "type": "choice",
+      "prompt": "Omar compara dos manzanas. Una viene de un árbol del pueblo y otra en una caja de plástico desde muy lejos. ¿Cuál cuida mejor el planeta?",
+      "explanation": "Comer alimentos cercanos reduce el humo de los camiones y evita gastar plásticos innecesarios.",
+      "hint": "Cuanto menos viaje la comida, mejor.",
+      "lang": "es",
+      "options": [
+        "La manzana que viajó lejos en caja de plástico",
+        "La manzana del pueblo, porque no gasta tanto transporte",
+        "Las dos dañan el medio ambiente por igual"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-09",
+      "type": "reading",
+      "prompt": "Lee la historia de Nerea y responde a las preguntas:",
+      "explanation": "Las verduras de la huerta son frescas y aportan nutrientes estupendos para nuestro cuerpo.",
+      "lang": "es",
+      "title": "El huerto de la abuela",
+      "text": "Nerea visita a su abuela en el campo. Juntas recogen tomates rojos y lechugas verdes. La abuela prepara una ensalada fresca con aceite de oliva. Nerea prueba las hojas verdes y sonríe. ¡Qué rica sabe la verdura recién cortada de la tierra!",
+      "questions": [
+        {
+          "prompt": "¿Qué recogen Nerea y su abuela en el huerto?",
+          "explanation": "El texto dice que recogen tomates y lechugas de la tierra.",
+          "options": [
+            "Naranjas y plátanos amarillos",
+            "Galletas y caramelos de fresa",
+            "Tomates rojos y lechugas verdes"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué es saludable la comida que preparan?",
+          "explanation": "Los alimentos frescos del huerto son naturales, sanos y muy buenos para crecer.",
+          "options": [
+            "Porque tiene mucho azúcar y chocolate",
+            "Porque viene en bolsas de plástico",
+            "Porque son verduras frescas y naturales"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:33:19.196Z",
+    "reviewed": false
+  }
+}

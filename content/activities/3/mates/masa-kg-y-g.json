@@ -1,0 +1,224 @@
+{
+  "id": "g3-mates-masa-kg-y-g",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "masa-kg-y-g",
+  "temaNombre": "Masa: kg y g",
+  "title": "Masa en acción: kilos y gramos",
+  "summary": "Practica la equivalencia entre kilogramos y gramos resolviendo situaciones cotidianas y pequeños retos.",
+  "keyIdeas": [
+    "Un kilogramo equivale exactamente a 1.000 gramos (1 kg = 1.000 g).",
+    "Medio kilo son 500 gramos y un cuarto de kilo son 250 gramos.",
+    "Para comparar o sumar masas, primero convierte todas las cantidades a la misma unidad."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "B. Sentido de la medida › Estimación y relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-masa-kg-y-g-01",
+      "type": "true-false",
+      "prompt": "Un paquete de macarrones de 1 kg pesa exactamente lo mismo que 1.000 g de arroz.",
+      "explanation": "Es verdadero porque 1 kg equivale exactamente a 1.000 g, sin importar el alimento que contenga.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-02",
+      "type": "match",
+      "prompt": "Une cada masa con su equivalencia correspondiente:",
+      "explanation": "1 kg son 1.000 g. La mitad son 500 g y la cuarta parte son 250 g. Por eso, 3 kg son 3.000 g.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "1 kg",
+          "right": "1.000 g"
+        },
+        {
+          "left": "Medio kilo",
+          "right": "500 g"
+        },
+        {
+          "left": "Un cuarto de kilo",
+          "right": "250 g"
+        },
+        {
+          "left": "3 kg",
+          "right": "3.000 g"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-03",
+      "type": "classify",
+      "prompt": "Clasifica estos objetos según la unidad más adecuada para medir su masa:",
+      "explanation": "Los objetos ligeros como un clip o una uva se miden en gramos. Los objetos pesados se miden en kilogramos.",
+      "lang": "es",
+      "categories": [
+        "Se mide mejor en gramos (g)",
+        "Se mide mejor en kilogramos (kg)"
+      ],
+      "items": [
+        {
+          "text": "Un clip metálico",
+          "category": 0
+        },
+        {
+          "text": "Una bicicleta de montaña",
+          "category": 1
+        },
+        {
+          "text": "Un grano de uva",
+          "category": 0
+        },
+        {
+          "text": "Un saco de patatas",
+          "category": 1
+        },
+        {
+          "text": "Una goma de borrar",
+          "category": 0
+        },
+        {
+          "text": "Un compañero de clase",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la cantidad correcta:",
+      "explanation": "Como 1 kg son 1.000 g, calculamos 250 + 250 + 250 + 250 = 1.000 g. Hacen falta 4 paquetes de 250 g.",
+      "lang": "es",
+      "sentence": "Para tener 1 kg de harina necesito juntar ___ paquetes de 250 g.",
+      "options": [
+        "4",
+        "2",
+        "10"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-05",
+      "type": "choice",
+      "prompt": "Omar quiere estimar mentalmente la masa de una manzana mediana. ¿Cuál es la opción más razonable?",
+      "explanation": "Una manzana suele rondar entre 150 g y 200 g. 15 kg pesaría una mochila enorme y 2 g es casi nada.",
+      "hint": "Piensa en objetos que pesen cerca de 1 kilo.",
+      "lang": "es",
+      "options": [
+        "Unos 2 g",
+        "Unos 15 kg",
+        "Unos 180 g"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-06",
+      "type": "order",
+      "prompt": "Ordena estas masas de menor a mayor:",
+      "explanation": "Pasamos todo a gramos: 350 g < 500 g (medio kilo) < 850 g < 1.200 g (1 kg y 200 g) < 2.000 g (2 kg).",
+      "lang": "es",
+      "items": [
+        "350 g",
+        "Medio kilo",
+        "850 g",
+        "1 kg y 200 g",
+        "2 kg"
+      ]
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-07",
+      "type": "choice",
+      "prompt": "Lucía dice: «2 kg y 40 g son 2.400 g». ¿Dónde está el error de Lucía?",
+      "explanation": "2 kg equivalen a 2.000 g. Si sumamos 40 g, obtenemos 2.000 + 40 = 2.040 g. 2.400 g serían 2 kg y 400 g.",
+      "hint": "Recuerda cuántas cifras tiene el millar.",
+      "lang": "es",
+      "options": [
+        "No hay ningún error, 2 kg y 40 g son exactamente 2.400 g.",
+        "Ha sumado mal porque 2 kg son 200 g, así que son 240 g.",
+        "Ha olvidado que 40 g no son 400 g; la respuesta correcta es 2.040 g."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-08",
+      "type": "choice",
+      "prompt": "Martina prepara una tarta. Necesita 1 kg de fruta. Tiene 450 g de fresas y 350 g de plátano. ¿Cuántos gramos le faltan?",
+      "explanation": "Primero sumamos la fruta que tiene: 450 + 350 = 800 g. Como 1 kg = 1.000 g, restamos: 1.000 - 800 = 200 g.",
+      "hint": "Pasa el kilo a gramos antes de restar.",
+      "lang": "es",
+      "options": [
+        "300 g",
+        "100 g",
+        "200 g"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-09",
+      "type": "choice",
+      "prompt": "En una balanza ponemos en el plato izquierdo una calabaza de 3 kg. En el derecho colocamos un melón de 1.800 g. ¿Cuánto peso falta en el plato derecho para equilibrar la balanza?",
+      "explanation": "3 kg son 3.000 g. Para equilibrar, restamos: 3.000 - 1.800 = 1.200 g (o 1 kg y 200 g).",
+      "hint": "Calcula la diferencia hasta llegar a 3.000 g.",
+      "lang": "es",
+      "options": [
+        "1.200 g",
+        "2.200 g",
+        "1.800 g"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-10",
+      "type": "choice",
+      "prompt": "Hugo lleva una mochila vacía de 600 g. Mete 3 libros iguales de 500 g cada uno y un estuche de 400 g. ¿Cuánto marca la báscula al pesar la mochila llena?",
+      "explanation": "Los 3 libros pesan: 3 × 500 = 1.500 g. Sumamos todo: 600 + 1.500 + 400 = 2.500 g, que equivale a 2 kg y 500 g.",
+      "hint": "Calcula primero el peso de los tres libros juntos.",
+      "lang": "es",
+      "options": [
+        "2 kg",
+        "1 kg y 500 g",
+        "2 kg y 500 g"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:10:39.480Z",
+    "reviewed": false
+  }
+}

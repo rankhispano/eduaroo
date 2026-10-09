@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Link } from '@/i18n/navigation';
-import Mascot from '@/components/landing/Mascot';
+import RooMascot from '@/components/mascot/RooMascot';
 import { Home } from 'lucide-react';
 
 export default function NotFoundContent() {
@@ -39,7 +39,7 @@ export default function NotFoundContent() {
                     }}
                 >
                     <div className="scale-150">
-                        <Mascot />
+                        <RooMascot pose="think" size={150} />
                     </div>
                 </motion.div>
 

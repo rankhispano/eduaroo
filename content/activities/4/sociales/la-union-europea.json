@@ -1,0 +1,243 @@
+{
+  "id": "g4-sociales-la-union-europea",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "la-union-europea",
+  "temaNombre": "La Unión Europea",
+  "title": "Descubrimos la Unión Europea",
+  "summary": "Repasa qué es la Unión Europea, sus países miembros, símbolos y principales instituciones democráticas.",
+  "keyIdeas": [
+    "La Unión Europea es una unión democrática de países europeos para vivir en paz y cooperar.",
+    "Sus símbolos comunes son la bandera azul con doce estrellas, el himno de la alegría y el euro.",
+    "Instituciones como el Parlamento Europeo y la Comisión Europea ayudan a organizar y mejorar la vida de la ciudadanía."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-la-union-europea-01",
+      "type": "true-false",
+      "prompt": "Todos los países del continente europeo forman parte de la Unión Europea.",
+      "explanation": "No todos los países de Europa están en la Unión Europea. Por ejemplo, Suiza o Noruega no forman parte de ella.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-sociales-la-union-europea-02",
+      "type": "choice",
+      "prompt": "En la clase de Hugo miran la bandera de la Unión Europea. ¿Qué elementos aparecen en ella?",
+      "explanation": "La bandera oficial tiene fondo azul y un círculo de 12 estrellas doradas que simbolizan la unidad y la solidaridad.",
+      "hint": "El número de estrellas no cambia según el número de países.",
+      "lang": "es",
+      "options": [
+        "Un círculo de 12 estrellas doradas sobre fondo azul.",
+        "Una estrella grande por cada país miembro de la Unión.",
+        "Franjas de colores rojo, blanco y azul con un escudo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-la-union-europea-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la moneda común.",
+      "explanation": "El euro es la moneda oficial de la mayoría de países de la Unión Europea, incluida España.",
+      "lang": "es",
+      "sentence": "La moneda oficial que comparten muchos países de la Unión Europea se llama ___.",
+      "options": [
+        "libra",
+        "euro",
+        "dólar"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-la-union-europea-04",
+      "type": "match",
+      "prompt": "Une cada símbolo de la Unión Europea con su significado.",
+      "explanation": "Cada símbolo representa valores comunes como la paz, la unión, la cultura y la diversidad entre los países miembros.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Bandera",
+          "right": "Doce estrellas doradas en círculo"
+        },
+        {
+          "left": "Himno",
+          "right": "Oda a la Alegría de Beethoven"
+        },
+        {
+          "left": "Lema",
+          "right": "Unida en la diversidad"
+        },
+        {
+          "left": "Día de Europa",
+          "right": "9 de mayo"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-la-union-europea-05",
+      "type": "classify",
+      "prompt": "Clasifica estos países según pertenezcan o no a la Unión Europea.",
+      "explanation": "España, Francia, Italia y Alemania son miembros de la Unión Europea. Reino Unido y Suiza no pertenecen a la Unión.",
+      "lang": "es",
+      "categories": [
+        "Países de la Unión Europea",
+        "Países fuera de la Unión Europea"
+      ],
+      "items": [
+        {
+          "text": "España",
+          "category": 0
+        },
+        {
+          "text": "Francia",
+          "category": 0
+        },
+        {
+          "text": "Italia",
+          "category": 0
+        },
+        {
+          "text": "Reino Unido",
+          "category": 1
+        },
+        {
+          "text": "Suiza",
+          "category": 1
+        },
+        {
+          "text": "Alemania",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-la-union-europea-06",
+      "type": "choice",
+      "prompt": "Aisha y su familia viajan de vacaciones de España a Portugal en coche. ¿Qué ventaja ofrece la Unión Europea en este viaje?",
+      "explanation": "Gracias al espacio común europeo, la ciudadanía puede desplazarse libremente entre los países miembros sin controles de aduanas.",
+      "hint": "Piensa en el derecho a circular libremente por Europa.",
+      "lang": "es",
+      "options": [
+        "Pueden cruzar la frontera libremente sin necesidad de visado ni aduanas.",
+        "Tienen que cambiar sus euros por otra moneda distinta en la frontera.",
+        "Deben esperar varias horas para obtener un permiso especial de viaje."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-la-union-europea-07",
+      "type": "match",
+      "prompt": "Une cada institución europea con su función principal.",
+      "explanation": "Estas instituciones trabajan juntas de forma democrática para gobernar y asegurar la justicia en la Unión Europea.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Parlamento Europeo",
+          "right": "Aprueba leyes y presupuestos con representantes elegidos"
+        },
+        {
+          "left": "Comisión Europea",
+          "right": "Propone leyes nuevas y comprueba que se cumplan"
+        },
+        {
+          "left": "Tribunal de Justicia",
+          "right": "Garantiza que todos los países respeten las normas comunes"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-la-union-europea-08",
+      "type": "reading",
+      "prompt": "Lee el texto sobre la historia de la Unión Europea y contesta a las preguntas.",
+      "explanation": "La Unión Europea nació con el Tratado de Roma de 1957 y creció hasta reunir a 27 democracias que colaboran unidas.",
+      "lang": "es",
+      "title": "El origen de una gran unión",
+      "text": "Tras la Segunda Guerra Mundial, varios países de Europa decidieron unirse para evitar nuevos conflictos. En 1957, seis países fundaron la Comunidad Económica Europea mediante el Tratado de Roma: Francia, Alemania, Italia, Bélgica, Países Bajos y Luxemburgo. Querían ayudarse en el comercio y colaborar como amigos. Con el paso de los años, muchos otros países se sumaron al proyecto común. España entró a formar parte de esta unión en el año 1986. Hoy en día, la Unión Europea cuenta con 27 países que trabajan juntos por la paz, el progreso económico y la protección de los derechos humanos.",
+      "questions": [
+        {
+          "prompt": "¿En qué año se incorporó España a la unión europea?",
+          "explanation": "El texto explica claramente que España entró a formar parte de la unión en el año 1986.",
+          "options": [
+            "En 1957",
+            "En 1945",
+            "En 1986"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Cuál fue el objetivo principal por el que varios países decidieron unirse tras la guerra?",
+          "explanation": "Los países europeos buscaron unirse para garantizar la paz duradera y evitar futuras guerras entre ellos.",
+          "options": [
+            "Evitar nuevos conflictos y colaborar en paz.",
+            "Tener un único equipo de fútbol europeo.",
+            "Obligar a todos los países a hablar el mismo idioma."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-la-union-europea-09",
+      "type": "order",
+      "prompt": "Ordena estos hechos históricos de la Unión Europea desde el más antiguo al más reciente.",
+      "explanation": "Primero se firmó el Tratado de Roma en 1957, luego se incorporó España en 1986 y finalmente comenzó a circular el euro en 2002.",
+      "lang": "es",
+      "items": [
+        "Seis países firman el Tratado de Roma para colaborar en paz.",
+        "España entra a formar parte de la Comunidad Europea en 1986.",
+        "Empieza a circular el euro como moneda común en muchos países."
+      ]
+    },
+    {
+      "id": "g4-sociales-la-union-europea-10",
+      "type": "choice",
+      "prompt": "Nerea descubre que las personas adultas votan cada cinco años a quienes forman el Parlamento Europeo. ¿Por qué es importante esta votación?",
+      "explanation": "El Parlamento Europeo representa a la ciudadanía, por lo que votar garantiza la participación democrática en las leyes comunes.",
+      "hint": "Recuerda que la Unión Europea es una organización basada en la democracia.",
+      "lang": "es",
+      "options": [
+        "Porque permite participar democráticamente en las decisiones que afectan a toda la ciudadanía europea.",
+        "Porque solo sirve para elegir qué bandera debe colocarse en las escuelas europeas.",
+        "Porque se decide el país que organizará los próximos juegos olímpicos de verano."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:06:38.005Z",
+    "reviewed": false
+  }
+}

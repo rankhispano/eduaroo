@@ -1,0 +1,213 @@
+{
+  "id": "g3-mates-multiplicacion-con-llevadas",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "multiplicacion-con-llevadas",
+  "temaNombre": "Multiplicación con llevadas",
+  "title": "El reto de la multiplicación",
+  "summary": "Practica la multiplicación con llevadas mediante retos diarios, estimaciones y resolución de problemas.",
+  "keyIdeas": [
+    "Multiplica primero las unidades; si el resultado es 10 o mayor, anota la llevada.",
+    "Multiplica las decenas y súmale siempre la cantidad que te has llevado.",
+    "Comprueba tu resultado estimando o revisando cada paso con atención."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-01",
+      "type": "true-false",
+      "prompt": "En la multiplicación 24 × 3, al hacer 3 × 4 obtenemos 12 y nos llevamos 1 a las decenas.",
+      "explanation": "3 × 4 = 12. Dejamos el 2 en las unidades y sumamos 1 a las decenas al multiplicar.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-02",
+      "type": "fill-blank",
+      "prompt": "Completa con la cantidad que te llevas:",
+      "explanation": "El número 20 tiene 0 unidades y 2 decenas, por lo que nos llevamos 2 a la siguiente columna.",
+      "lang": "es",
+      "sentence": "Para calcular 35 × 4, hacemos 4 × 5 = 20, escribimos 0 y nos llevamos ___ a las decenas.",
+      "options": [
+        "1",
+        "3",
+        "2"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-03",
+      "type": "order",
+      "prompt": "Ordena los pasos para resolver correctamente 46 × 3:",
+      "explanation": "Resolvemos de derecha a izquierda: primero unidades con su llevada, después decenas más la llevada.",
+      "lang": "es",
+      "items": [
+        "Multiplicar 3 por 6 unidades (da 18)",
+        "Escribir el 8 y guardar 1 en las decenas",
+        "Multiplicar 3 por 4 decenas (da 12)",
+        "Sumar la llevada: 12 + 1 = 13 decenas",
+        "Escribir el resultado final: 138"
+      ]
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-04",
+      "type": "match",
+      "prompt": "Une cada multiplicación con la cifra que te llevas a las decenas:",
+      "explanation": "Multiplicamos las unidades: 2 × 7 = 14 (llevas 1), 5 × 5 = 25 (llevas 2), 4 × 8 = 32 (llevas 3) y 5 × 9 = 45 (llevas 4).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "37 × 2",
+          "right": "Te llevas 1"
+        },
+        {
+          "left": "15 × 5",
+          "right": "Te llevas 2"
+        },
+        {
+          "left": "28 × 4",
+          "right": "Te llevas 3"
+        },
+        {
+          "left": "19 × 5",
+          "right": "Te llevas 4"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-05",
+      "type": "choice",
+      "prompt": "Adrián quiere comprar 4 juegos de mesa que valen 28 € cada uno. ¿Cuánto pagará aproximadamente?",
+      "explanation": "Redondeamos 28 € a 30 €. Calculamos 4 × 30 = 120 €. Por tanto, pagará aproximadamente 120 €.",
+      "hint": "Redondea 28 a la decena más cercana antes de multiplicar.",
+      "lang": "es",
+      "options": [
+        "Unos 200 €",
+        "Unos 120 €",
+        "Unos 60 €"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-06",
+      "type": "choice",
+      "prompt": "Aisha ha resuelto 36 × 4 y ha escrito 124. ¿Qué error ha tenido?",
+      "explanation": "4 × 6 = 24 (escribe 4 y lleva 2). Luego hizo 4 × 3 = 12, pero olvidó sumar las 2: 12 + 2 = 14 (el resultado correcto es 144).",
+      "hint": "Calcula 4 × 3 decenas y piensa qué pasó con la llevada.",
+      "lang": "es",
+      "options": [
+        "Se le ha olvidado sumar las 2 decenas que se llevaba.",
+        "Ha sumado la llevada antes de multiplicar las decenas.",
+        "Ha calculado mal 4 × 6."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-07",
+      "type": "classify",
+      "prompt": "Clasifica estas operaciones según tengan o no llevada en las unidades:",
+      "explanation": "Si el producto de las unidades es menor que 10 no hay llevada. Si es 10 o mayor, nos llevamos decenas.",
+      "lang": "es",
+      "categories": [
+        "Sin llevada",
+        "Con llevada"
+      ],
+      "items": [
+        {
+          "text": "21 × 4",
+          "category": 0
+        },
+        {
+          "text": "32 × 3",
+          "category": 0
+        },
+        {
+          "text": "43 × 2",
+          "category": 0
+        },
+        {
+          "text": "24 × 3",
+          "category": 1
+        },
+        {
+          "text": "15 × 4",
+          "category": 1
+        },
+        {
+          "text": "38 × 2",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-08",
+      "type": "choice",
+      "prompt": "En el huerto escolar, Hugo ha plantado 6 filas con 27 tomateras cada una. 🍅 ¿Cuántas tomateras hay en total?",
+      "explanation": "27 × 6 = 162: multiplicamos 6 × 7 = 42 (nos llevamos 4) y 6 × 2 = 12; sumamos 12 + 4 = 16.",
+      "hint": "Haz 6 × 7 unidades y no olvides sumar las que te lleves a 6 × 2.",
+      "lang": "es",
+      "options": [
+        "142 tomateras",
+        "122 tomateras",
+        "162 tomateras"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-09",
+      "type": "true-false",
+      "prompt": "En una multiplicación, la llevada se suma antes de multiplicar la siguiente cifra.",
+      "explanation": "Primero multiplicamos la cifra por la decena y después sumamos la llevada al resultado.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-10",
+      "type": "choice",
+      "prompt": "Para la merienda, Omar compra 4 cajas con 35 zumos cada una. Si se beben 28 zumos, ¿cuántos quedan? 🧃",
+      "explanation": "Primero calculamos el total: 35 × 4 = 140 zumos (4 × 5 = 20, llevamos 2; 4 × 3 = 12 + 2 = 14). Luego restamos: 140 - 28 = 112.",
+      "hint": "Calcula primero cuántos zumos hay en total multiplicando.",
+      "lang": "es",
+      "options": [
+        "120 zumos",
+        "140 zumos",
+        "112 zumos"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:06:34.900Z",
+    "reviewed": false
+  }
+}

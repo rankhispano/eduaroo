@@ -1,0 +1,258 @@
+{
+  "id": "g1-lengua-vocales-y-consonantes",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "vocales-y-consonantes",
+  "temaNombre": "Vocales y consonantes",
+  "title": "Jugamos con vocales y consonantes",
+  "summary": "Practica la diferencia entre vocales y consonantes formando palabras del día a día.",
+  "keyIdeas": [
+    "Las cinco vocales son la A, la E, la I, la O y la U.",
+    "Las demás letras del abecedario se llaman consonantes.",
+    "Juntamos vocales y consonantes para formar sílabas y palabras."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-vocales-y-consonantes-01",
+      "type": "choice",
+      "prompt": "Hugo busca una vocal para jugar. ¿Cuál de estas letras es una vocal?",
+      "explanation": "La letra E es una vocal. Las letras M y P son consonantes.",
+      "hint": "Recuerda las cinco vocales: A, E, I, O, U.",
+      "lang": "es",
+      "options": [
+        "P",
+        "M",
+        "E"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-02",
+      "type": "true-false",
+      "prompt": "La letra S es una consonante.",
+      "explanation": "¡Muy bien! Las únicas vocales son A, E, I, O y U. La letra S es una consonante.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-03",
+      "type": "classify",
+      "prompt": "Clasifica estas letras en su caja correspondiente.",
+      "explanation": "A, O y U son vocales. T, L y P son consonantes.",
+      "lang": "es",
+      "categories": [
+        "Vocales",
+        "Consonantes"
+      ],
+      "items": [
+        {
+          "text": "A",
+          "category": 0
+        },
+        {
+          "text": "T",
+          "category": 1
+        },
+        {
+          "text": "O",
+          "category": 0
+        },
+        {
+          "text": "L",
+          "category": 1
+        },
+        {
+          "text": "U",
+          "category": 0
+        },
+        {
+          "text": "P",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-04",
+      "type": "match",
+      "prompt": "Une cada palabra con la vocal por la que empieza.",
+      "explanation": "Cada una de estas palabras empieza por una vocal diferente: avión por A, elefante por E, isla por I y oso por O.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "avión",
+          "right": "A"
+        },
+        {
+          "left": "elefante",
+          "right": "E"
+        },
+        {
+          "left": "isla",
+          "right": "I"
+        },
+        {
+          "left": "oso",
+          "right": "O"
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la palabra SOL.",
+      "explanation": "En la palabra SOL, la letra O es una vocal y está entre dos consonantes (S y L).",
+      "lang": "es",
+      "sentence": "En la palabra SOL, la letra O es una ___.",
+      "options": [
+        "frase",
+        "vocal",
+        "consonante"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-06",
+      "type": "order",
+      "prompt": "Ordena las cinco vocales como aparecen en el abecedario.",
+      "explanation": "El orden de las cinco vocales siempre es A, E, I, O y U.",
+      "lang": "es",
+      "items": [
+        "A",
+        "E",
+        "I",
+        "O",
+        "U"
+      ]
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-07",
+      "type": "reading",
+      "prompt": "Lee este texto breve y responde a las preguntas.",
+      "explanation": "Has leído con atención el texto y has contado las vocales de la palabra GATO.",
+      "lang": "es",
+      "title": "El gato de Aisha",
+      "text": "Aisha tiene un gato blanco. Se llama Peluso. A Peluso le gusta jugar con lana y dormir al sol.",
+      "questions": [
+        {
+          "prompt": "¿Cómo se llama el gato de Aisha?",
+          "explanation": "El texto dice claramente que el gato se llama Peluso.",
+          "options": [
+            "Sol",
+            "Peluso",
+            "Blanco"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "En la palabra GATO, ¿cuántas vocales hay?",
+          "explanation": "La palabra GATO tiene dos vocales: la A y la O.",
+          "options": [
+            "Una vocal",
+            "Dos vocales",
+            "Cuatro vocales"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-08",
+      "type": "choice",
+      "prompt": "Omar hizo una lista de vocales: A, E, M, U. ¿Cuál es la consonante que se coló por error?",
+      "explanation": "La letra M es una consonante, por lo que no debe estar en una lista de vocales.",
+      "hint": "Fíjate en cuál de las tres letras no suena como una vocal.",
+      "lang": "es",
+      "options": [
+        "M",
+        "A",
+        "E"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-09",
+      "type": "classify",
+      "prompt": "Clasifica según la letra con la que empieza cada palabra.",
+      "explanation": "Uva, estrella e iglú empiezan por vocal (u, e, i). Barco, mesa y casa empiezan por consonante (b, m, c).",
+      "lang": "es",
+      "categories": [
+        "Empieza por vocal",
+        "Empieza por consonante"
+      ],
+      "items": [
+        {
+          "text": "uva",
+          "category": 0
+        },
+        {
+          "text": "barco",
+          "category": 1
+        },
+        {
+          "text": "estrella",
+          "category": 0
+        },
+        {
+          "text": "mesa",
+          "category": 1
+        },
+        {
+          "text": "iglú",
+          "category": 0
+        },
+        {
+          "text": "casa",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-10",
+      "type": "choice",
+      "prompt": "Adrián busca una palabra con dos vocales y dos consonantes. ¿Cuál es?",
+      "explanation": "LUNA tiene dos consonantes (L, N) y dos vocales (U, A). SOL solo tiene una vocal y PLÁTANO tiene más letras.",
+      "hint": "Cuenta las letras de LUNA: L-U-N-A.",
+      "lang": "es",
+      "options": [
+        "PLÁTANO",
+        "SOL",
+        "LUNA"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:24:16.441Z",
+    "reviewed": false
+  }
+}

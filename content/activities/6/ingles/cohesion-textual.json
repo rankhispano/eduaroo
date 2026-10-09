@@ -1,0 +1,251 @@
+{
+  "id": "g6-ingles-cohesion-textual",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "cohesion-textual",
+  "temaNombre": "Cohesión textual",
+  "title": "Conecta tus ideas en inglés",
+  "summary": "Aprende a unir oraciones y estructurar textos en inglés usando conectores lógicos, palabras de secuencia y pronombres de referencia.",
+  "keyIdeas": [
+    "Los conectores como 'and', 'but', 'because' y 'so' enlazan ideas para expresar suma, contraste, causa y consecuencia.",
+    "Las palabras de secuencia ('first', 'next', 'then', 'finally') marcan el orden cronológico de una historia o proceso.",
+    "Los pronombres personales y demostrativos evitan repetir innecesariamente los mismos sustantivos a lo largo del texto."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-cohesion-textual-01",
+      "type": "fill-blank",
+      "prompt": "Elige el conector que indica contraste para completar la frase:",
+      "explanation": "Usamos 'but' para unir dos ideas contrarias u opuestas: a Hugo le encanta jugar al fútbol, pero hoy está lloviendo mucho.",
+      "hint": "Buscamos un conector que exprese un obstáculo o contraste.",
+      "lang": "en",
+      "sentence": "Hugo loves playing football in the playground, ___ today it is raining heavily.",
+      "options": [
+        "so",
+        "but",
+        "because"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-02",
+      "type": "choice",
+      "prompt": "Choose the correct linking word to explain the reason: 'Omar stayed in bed yesterday ___ he had a high fever.'",
+      "explanation": "Usamos 'because' para introducir la causa o motivo de una acción (quedarse en cama porque tenía fiebre).",
+      "hint": "¿Qué palabra introduce la razón de lo que ha pasado?",
+      "lang": "en",
+      "options": [
+        "so",
+        "finally",
+        "although",
+        "because"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-03",
+      "type": "match",
+      "prompt": "Une cada conector en inglés con la función que cumple dentro de un texto:",
+      "explanation": "Cada conector cumple un papel específico: ordenar el tiempo, dar motivos, contrastar ideas o sumar información nueva.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "First / Finally",
+          "right": "Order actions in time"
+        },
+        {
+          "left": "Because",
+          "right": "Explain a reason"
+        },
+        {
+          "left": "However / But",
+          "right": "Show a contrast"
+        },
+        {
+          "left": "In addition / And",
+          "right": "Add extra information"
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-04",
+      "type": "true-false",
+      "prompt": "In the sentence 'Lucía bought a new notebook and she wrote her first story in it', the pronoun 'it' refers to 'her first story'.",
+      "explanation": "Es falso. El pronombre 'it' sustituye a 'a new notebook' para no repetir esa palabra; escribió la historia dentro de ese cuaderno.",
+      "hint": "Pregúntate: ¿dónde escribió Lucía la historia?",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-05",
+      "type": "order",
+      "prompt": "Ordena cronológicamente los pasos de esta receta fijándote en los marcadores temporales:",
+      "explanation": "El orden temporal clásico sigue la secuencia: 'First' (primero), 'Next' (a continuación), 'Then' (luego) y 'Finally' (finalmente).",
+      "lang": "en",
+      "items": [
+        "First, wash your hands and peel the bananas.",
+        "Next, cut the fruit into small slices.",
+        "Then, pour milk and yogurt into the blender.",
+        "Finally, blend everything together and serve the smoothie."
+      ]
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-06",
+      "type": "classify",
+      "prompt": "Clasifica estos conectores según el tipo de relación lógica que establecen:",
+      "explanation": "'However' y 'although' marcan contraste; 'after that' y 'afterwards' ordenan secuencias temporales; 'because' y 'therefore' explican causas y consecuencias.",
+      "lang": "en",
+      "categories": [
+        "Contrast",
+        "Time sequence",
+        "Cause and result"
+      ],
+      "items": [
+        {
+          "text": "However",
+          "category": 0
+        },
+        {
+          "text": "Although",
+          "category": 0
+        },
+        {
+          "text": "After that",
+          "category": 1
+        },
+        {
+          "text": "Afterwards",
+          "category": 1
+        },
+        {
+          "text": "Because",
+          "category": 2
+        },
+        {
+          "text": "Therefore",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-07",
+      "type": "fill-blank",
+      "prompt": "Elige el pronombre que mantiene la cohesión del texto sin repetir los nombres:",
+      "explanation": "'Martina and Wei' son dos personas (tercera persona del plural), por lo que el pronombre cohesivo correcto es 'They'.",
+      "hint": "Son dos personas trabajando juntas.",
+      "lang": "en",
+      "sentence": "Martina and Wei designed a science poster about oceans. ___ showed the project to the headteacher.",
+      "options": [
+        "She",
+        "They",
+        "He"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-08",
+      "type": "choice",
+      "prompt": "Read the context and choose the connector of consequence: 'Aisha forgot her keys at school, ___ she had to wait for her brother outside.'",
+      "explanation": "'So' significa 'así que' o 'por tanto', y conecta una causa (olvidar las llaves) con su resultado inmediato (esperar fuera).",
+      "hint": "Buscamos una palabra que introduzca el resultado o la consecuencia.",
+      "lang": "en",
+      "options": [
+        "first",
+        "although",
+        "because",
+        "so"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-09",
+      "type": "reading",
+      "prompt": "Lee atentamente este texto sobre el huerto escolar y responde a las preguntas:",
+      "explanation": "Identificar los conectores y a qué sustantivos sustituyen los pronombres es fundamental para comprender textos complejos.",
+      "lang": "en",
+      "title": "The School Garden Project",
+      "text": "Last month, our class decided to build a school vegetable garden. First, we cleaned the backyard because there were many dry leaves. Next, our teacher brought wooden boxes, soil and seeds. We planted tomatoes, carrots and lettuce. Water was very important, so Adrián and Nerea watered the soil every morning before the bell rang. However, hungry birds tried to eat the young seeds during the second week! Fortunately, Aisha and Hugo built a colourful scarecrow using old clothes. After that, the plants grew fast and green. Finally, yesterday we harvested our first red tomatoes and shared them in the canteen. It was hard work, but we felt proud of our project.",
+      "questions": [
+        {
+          "prompt": "What did the students do immediately after cleaning the backyard?",
+          "explanation": "El texto utiliza el conector 'Next' para indicar que justo después trajeron cajas, tierra y plantaron las semillas.",
+          "options": [
+            "They received boxes, soil and planted seeds.",
+            "They harvested fresh red tomatoes.",
+            "They constructed a scarecrow with old clothes."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "In the sentence '...shared them in the canteen', what does the word 'them' refer to?",
+          "explanation": "El pronombre 'them' sustituye a 'our first red tomatoes' para evitar la repetición del sustantivo en la misma frase.",
+          "options": [
+            "The hungry birds",
+            "The old clothes",
+            "The red tomatoes"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why was the scarecrow necessary according to the text?",
+          "explanation": "El texto explica mediante 'However' que unos pájaros hambrientos intentaron comerse las semillas, por lo que fabricaron el espantapájaros.",
+          "options": [
+            "Because the students wanted to decorate the canteen.",
+            "Because the weather was too cold for the plants.",
+            "Because birds were trying to eat the seeds."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-10",
+      "type": "order",
+      "prompt": "Ordena estas oraciones para reconstruir un párrafo coherente y bien enlazado:",
+      "explanation": "El texto avanza de forma lógica: presentación de la situación, inicio ('First'), problema ('However'), solución consecuencia ('So') y desenlace ('In the end').",
+      "lang": "en",
+      "items": [
+        "Last Saturday, Leo planned a picnic in the park with his family.",
+        "First, they prepared sandwiches, orange juice and sliced apples.",
+        "However, dark clouds suddenly appeared in the sky.",
+        "So, they quickly moved the picnic to the living room carpet.",
+        "In the end, they watched a film together and had a wonderful afternoon."
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:24:18.388Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "id": "g1-mates-numeros-del-0-al-99",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "numeros-del-0-al-99",
+  "temaNombre": "Números del 0 al 99",
+  "title": "Aventuras numéricas hasta el 99",
+  "summary": "Practica la lectura, descomposición y comparación de números hasta el 99 con retos cotidianos.",
+  "keyIdeas": [
+    "Una decena vale 10 unidades.",
+    "El número de la izquierda indica las decenas y el de la derecha las unidades.",
+    "Para comparar números de dos cifras, mira primero las decenas."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-numeros-del-0-al-99-01",
+      "type": "choice",
+      "prompt": "Hugo tiene 4 paquetes de 10 galletas y 3 galletas sueltas. ¿Cuántas galletas tiene?",
+      "explanation": "4 paquetes de 10 son 4 decenas (40) y 3 sueltas son 3 unidades: 40 + 3 = 43 galletas.",
+      "hint": "Cuenta de 10 en 10 los paquetes y luego suma las sueltas.",
+      "lang": "es",
+      "options": [
+        "40 galletas",
+        "34 galletas",
+        "43 galletas"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-02",
+      "type": "match",
+      "prompt": "Une cada número con su descomposición en decenas (D) y unidades (U).",
+      "explanation": "El primer número indica las decenas y el segundo las unidades.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "25",
+          "right": "2 D y 5 U"
+        },
+        {
+          "left": "52",
+          "right": "5 D y 2 U"
+        },
+        {
+          "left": "70",
+          "right": "7 D y 0 U"
+        },
+        {
+          "left": "19",
+          "right": "1 D y 9 U"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-03",
+      "type": "true-false",
+      "prompt": "El número 68 tiene 8 decenas y 6 unidades.",
+      "explanation": "Es falso. El 68 tiene 6 decenas y 8 unidades.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-04",
+      "type": "order",
+      "prompt": "Ordena estos dorsales de menor a mayor.",
+      "explanation": "Comparamos las decenas: 1 decena es menor que 3, 3 menor que 4 y 4 menor que 8.",
+      "lang": "es",
+      "items": [
+        "15",
+        "32",
+        "47",
+        "84"
+      ]
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-05",
+      "type": "classify",
+      "prompt": "Clasifica los números según sean mayores o menores que 50.",
+      "explanation": "Los números con menos de 5 decenas son menores que 50. Los que tienen más de 5 decenas son mayores.",
+      "lang": "es",
+      "categories": [
+        "Menores que 50",
+        "Mayores que 50"
+      ],
+      "items": [
+        {
+          "text": "23",
+          "category": 0
+        },
+        {
+          "text": "49",
+          "category": 0
+        },
+        {
+          "text": "12",
+          "category": 0
+        },
+        {
+          "text": "56",
+          "category": 1
+        },
+        {
+          "text": "81",
+          "category": 1
+        },
+        {
+          "text": "95",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-06",
+      "type": "choice",
+      "prompt": "¿Qué número es mayor que 72 y menor que 80?",
+      "explanation": "El 76 tiene 7 decenas y es mayor que 72 y menor que 80.",
+      "hint": "Busca un número de la familia del setenta.",
+      "lang": "es",
+      "options": [
+        "82",
+        "67",
+        "76"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-07",
+      "type": "choice",
+      "prompt": "Encuentra el error: Lucas dice que 39 es más grande que 51 porque el 9 es mayor que el 1. ¿Qué error comete?",
+      "explanation": "Para comparar números de dos cifras miramos primero las decenas: 5 decenas (50) ganan a 3 decenas (30).",
+      "hint": "Fíjate en el valor de cada cifra.",
+      "lang": "es",
+      "options": [
+        "Se ha equivocado al sumar 3 y 9.",
+        "Tiene razón, 39 es mayor que 51.",
+        "Debe mirar primero las decenas: 5 decenas es más que 3 decenas."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-08",
+      "type": "choice",
+      "prompt": "Lucía tiene 8 decenas de pegatinas. Regala 1 decena a su hermano. ¿Cuántas pegatinas le quedan?",
+      "explanation": "8 decenas menos 1 decena son 7 decenas: 7 decenas equivalen a 70 pegatinas.",
+      "hint": "8 menos 1 son 7 decenas.",
+      "lang": "es",
+      "options": [
+        "90 pegatinas",
+        "7 pegatinas",
+        "70 pegatinas"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:54:12.836Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "id": "g2-mates-longitud-cm-y-m",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "longitud-cm-y-m",
+  "temaNombre": "Longitud: cm y m",
+  "title": "¡A medir en centímetros y metros!",
+  "summary": "Practica cómo medir con la regla y el metro a través de divertidos retos cotidianos.",
+  "keyIdeas": [
+    "Usamos el centímetro (cm) para objetos pequeños y el metro (m) para cosas grandes.",
+    "Un metro equivale exactamente a 100 centímetros (1 m = 100 cm).",
+    "Al medir con la regla, siempre debemos colocar el inicio del objeto en el número 0."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "B. Sentido de la medida › Medición",
+      "B. Sentido de la medida › Estimación y relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-longitud-cm-y-m-01",
+      "type": "choice",
+      "prompt": "¿Qué unidad conviene usar para medir el largo de tu goma de borrar?",
+      "explanation": "La goma es un objeto pequeño. Por eso usamos los centímetros.",
+      "hint": "Piensa si la goma cabe en la palma de tu mano.",
+      "lang": "es",
+      "options": [
+        "El paso",
+        "El centímetro (cm)",
+        "El metro (m)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-02",
+      "type": "true-false",
+      "prompt": "Un metro tiene exactamente 100 centímetros.",
+      "explanation": "¡Exacto! La palabra centímetro viene de cien: 1 m son 100 cm.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-03",
+      "type": "classify",
+      "prompt": "¿En qué unidad conviene medir cada uno de estos elementos?",
+      "explanation": "Los objetos pequeños se miden en centímetros. Las cosas grandes y distancias se miden en metros.",
+      "lang": "es",
+      "categories": [
+        "En centímetros (cm)",
+        "En metros (m)"
+      ],
+      "items": [
+        {
+          "text": "Un sacapuntas escolar",
+          "category": 0
+        },
+        {
+          "text": "La pizarra de clase",
+          "category": 1
+        },
+        {
+          "text": "Un clip de papel",
+          "category": 0
+        },
+        {
+          "text": "La altura de una puerta",
+          "category": 1
+        },
+        {
+          "text": "El largo del patio",
+          "category": 1
+        },
+        {
+          "text": "Un lápiz de colores",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase para comparar las dos medidas:",
+      "explanation": "2 metros son 200 centímetros. 200 cm es mucho más que 50 cm.",
+      "lang": "es",
+      "sentence": "Una cuerda de 2 metros mide ___ que una cinta de 50 centímetros.",
+      "options": [
+        "igual",
+        "menos",
+        "más"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-05",
+      "type": "match",
+      "prompt": "Une cada objeto con la medida que mejor encaja en la realidad:",
+      "explanation": "Cada objeto tiene un tamaño lógico: un lápiz mide unos 15 cm y una persona más de 1 metro.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Un lápiz nuevo",
+          "right": "15 cm"
+        },
+        {
+          "left": "Un paso largo de un adulto",
+          "right": "1 m"
+        },
+        {
+          "left": "La altura de un niño de 7 años",
+          "right": "1 m y 20 cm"
+        },
+        {
+          "left": "Una hormiga pequeña",
+          "right": "1 cm"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-06",
+      "type": "choice",
+      "prompt": "Lucas mide su lápiz. Pone la punta en el 1 de la regla y termina en el 9. Dice: «¡Mide 9 cm!». ¿Qué error ha cometido?",
+      "explanation": "Para medir bien hay que empezar en el 0. Como empezó en el 1, el lápiz mide 8 cm y no 9 cm.",
+      "hint": "¿Desde qué número debemos empezar a medir siempre con la regla?",
+      "lang": "es",
+      "options": [
+        "Ha colocado la regla del revés.",
+        "El lápiz siempre se mide en metros.",
+        "Debía empezar a medir desde el 0 de la regla."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-07",
+      "type": "choice",
+      "prompt": "Sin medir con la regla, ¿cuánto estimas que mide de ancho tu mesa del cole?",
+      "explanation": "60 cm es algo más de medio metro, una medida lógica para una mesa escolar.",
+      "hint": "Una mesa mide menos de 1 metro de ancho.",
+      "lang": "es",
+      "options": [
+        "Unos 60 cm",
+        "Unos 60 m",
+        "Unos 2 cm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-08",
+      "type": "order",
+      "prompt": "Ordena estas longitudes de la más corta a la más larga:",
+      "explanation": "12 cm es la menor. Le sigue 80 cm. Después va 1 m (100 cm) y la mayor es 1 m y 40 cm (140 cm).",
+      "lang": "es",
+      "items": [
+        "12 cm",
+        "80 cm",
+        "1 m",
+        "1 m y 40 cm"
+      ]
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-09",
+      "type": "choice",
+      "prompt": "Martina une dos tiras de papel: una de 30 cm y otra de 25 cm. ¿Cuánto mide la tira larga?",
+      "explanation": "Sumamos las dos tiras: 30 + 25 = 55 cm en total.",
+      "hint": "Junta las dos partes haciendo una suma.",
+      "lang": "es",
+      "options": [
+        "65 cm",
+        "45 cm",
+        "55 cm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-10",
+      "type": "choice",
+      "prompt": "Omar tiene un lazo de 1 m de largo. Corta un trozo de 40 cm para un paquete. ¿Cuántos centímetros de lazo le quedan?",
+      "explanation": "1 metro son 100 cm. Restamos el trozo cortado: 100 - 40 = 60 cm le quedan.",
+      "hint": "Recuerda que 1 metro equivale a 100 centímetros.",
+      "lang": "es",
+      "options": [
+        "60 cm",
+        "50 cm",
+        "140 cm"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:03:07.864Z",
+    "reviewed": false
+  }
+}

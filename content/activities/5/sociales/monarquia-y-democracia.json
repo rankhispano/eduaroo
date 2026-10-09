@@ -1,0 +1,239 @@
+{
+  "id": "g5-sociales-monarquia-y-democracia",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "monarquia-y-democracia",
+  "temaNombre": "Monarquía y democracia",
+  "title": "Monarquía parlamentaria y democracia en España",
+  "summary": "Repasa cómo se organiza el Estado democrático español, la división de poderes y el papel de nuestras instituciones.",
+  "keyIdeas": [
+    "España es una monarquía parlamentaria donde la soberanía reside en el pueblo y el rey es el jefe del Estado.",
+    "La Constitución de 1978 es la ley suprema que garantiza nuestros derechos, libertades y deberes fundamentales.",
+    "El poder se divide en tres: legislativo (Cortes Generales), ejecutivo (Gobierno) y judicial (jueces y tribunales)."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL5",
+      "CPSAA1"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-monarquia-y-democracia-01",
+      "type": "true-false",
+      "prompt": "En una monarquía parlamentaria como la española, el rey toma personalmente las decisiones políticas y redacta las leyes del país.",
+      "explanation": "El rey es el jefe del Estado y representa a España, pero no redacta leyes ni gobierna. Esa labor corresponde a las Cortes Generales y al Gobierno.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-02",
+      "type": "choice",
+      "prompt": "En clase, Hugo y Aisha preparan un mural sobre las normas de convivencia. ¿Cuál es la ley más importante de España, aprobada en 1978, en la que deben basarse todas las demás normas?",
+      "explanation": "La Constitución española de 1978 es la norma suprema de nuestro país. Ninguna otra ley puede contradecir lo que en ella se establece.",
+      "hint": "Se votó el 6 de diciembre y recoge los derechos de todos los ciudadanos.",
+      "lang": "es",
+      "options": [
+        "El Código de Circulación",
+        "La Constitución española",
+        "El Estatuto de Autonomía"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la participación democrática.",
+      "explanation": "El voto o sufragio permite a los ciudadanos elegir libremente a las personas que gobernarán y elaborarán las leyes en su nombre.",
+      "hint": "Es la acción que se realiza al introducir una papeleta en la urna.",
+      "lang": "es",
+      "sentence": "En un sistema democrático, la ciudadanía elige a sus representantes políticos mediante el ___ libre y secreto en las elecciones.",
+      "options": [
+        "decreto",
+        "sorteo",
+        "voto"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-04",
+      "type": "match",
+      "prompt": "Une cada poder del Estado con la institución o personas que lo ejercen:",
+      "explanation": "La división de poderes garantiza que ninguna institución acumule todo el control: unos elaboran las leyes, otros las ejecutan y otros juzgan su cumplimiento.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Poder legislativo",
+          "right": "Las Cortes Generales (Congreso y Senado)"
+        },
+        {
+          "left": "Poder ejecutivo",
+          "right": "El presidente del Gobierno y sus ministros"
+        },
+        {
+          "left": "Poder judicial",
+          "right": "Los jueces y magistrados en los tribunales"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-05",
+      "type": "classify",
+      "prompt": "Clasifica las siguientes funciones según correspondan a las Cortes Generales o al Gobierno de España:",
+      "explanation": "Las Cortes (poder legislativo) elaboran leyes y controlan al Gobierno, mientras que el Gobierno (poder ejecutivo) gestiona el país y hace cumplir las leyes.",
+      "lang": "es",
+      "categories": [
+        "Cortes Generales",
+        "Gobierno de España"
+      ],
+      "items": [
+        {
+          "text": "Debatir y aprobar las leyes del Estado",
+          "category": 0
+        },
+        {
+          "text": "Aprobar los Presupuestos Generales del Estado",
+          "category": 0
+        },
+        {
+          "text": "Dirigir la política interior y exterior del país",
+          "category": 1
+        },
+        {
+          "text": "Administrar los servicios públicos y aplicar las leyes",
+          "category": 1
+        },
+        {
+          "text": "Controlar la acción política del presidente y los ministros",
+          "category": 0
+        },
+        {
+          "text": "Gestionar la economía diaria y los ministerios",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-06",
+      "type": "choice",
+      "prompt": "Omar y Lucía quieren proponer un carril bici seguro cerca de su colegio. ¿Qué órgano de gobierno democrático es el más cercano y responsable directo de gestionar las calles y servicios del municipio?",
+      "explanation": "El Ayuntamiento es la institución local más cercana a la ciudadanía encargada de gestionar los servicios del pueblo o ciudad.",
+      "hint": "Es la institución local donde trabajan el alcalde y los concejales.",
+      "lang": "es",
+      "options": [
+        "El Tribunal Constitucional",
+        "El Congreso de los Diputados",
+        "El Ayuntamiento, formado por concejales y alcalde",
+        "El Senado de la Nación"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-07",
+      "type": "choice",
+      "prompt": "Durante la Edad Moderna, muchos monarcas ejercían una monarquía absoluta. ¿Qué diferencia fundamental existe entre aquel sistema y la monarquía parlamentaria actual de España?",
+      "explanation": "En el pasado absoluto, el rey concentraba todo el poder sin límites. En la monarquía parlamentaria actual, el poder reside en el pueblo y el rey tiene un papel representativo fijado por la Constitución.",
+      "hint": "Piensa en quién tiene realmente el poder de gobernar en una democracia.",
+      "lang": "es",
+      "options": [
+        "En la monarquía parlamentaria, el rey concentra en su persona los tres poderes del Estado.",
+        "En la monarquía absoluta existía una Constitución democrática que protegía los derechos humanos.",
+        "En la monarquía parlamentaria, el rey no gobierna y sus funciones están limitadas por la Constitución y las leyes.",
+        "En la monarquía absoluta, el pueblo elegía periódicamente a los ministros en elecciones con voto libre."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-08",
+      "type": "order",
+      "prompt": "Ordena cronológicamente los pasos que se siguen para formar un nuevo Gobierno tras unas elecciones generales:",
+      "explanation": "Primero vota la ciudadanía; luego se forma el Congreso, este vota la investidura del presidente y, finalmente, el presidente forma su equipo de Gobierno.",
+      "lang": "es",
+      "items": [
+        "La ciudadanía con derecho a voto acude a las urnas en las elecciones generales.",
+        "Se constituye el nuevo Congreso de los Diputados con los representantes elegidos.",
+        "Los diputados debaten y votan la investidura del candidato a presidente del Gobierno.",
+        "El nuevo presidente toma posesión y nombra a sus ministros y ministras."
+      ]
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-09",
+      "type": "reading",
+      "prompt": "Lee atentamente el siguiente texto sobre el origen de nuestra democracia y responde a las preguntas.",
+      "explanation": "La Transición y la Constitución de 1978 demostraron que el diálogo pacífico y el respeto a la diversidad son la base de la vida democrática.",
+      "lang": "es",
+      "title": "El gran acuerdo por la convivencia",
+      "text": "Tras casi cuarenta años de dictadura bajo el mando de Francisco Franco, España inició en 1975 un periodo histórico conocido como la Transición hacia la democracia. Durante esta etapa de intensos cambios, representantes de partidos políticos muy diversos, con ideologías opuestas, lograron sentarse a dialogar. Su objetivo era construir un país libre, moderno y pacífico donde cupieran todas las opiniones.\n\nEl resultado de este gran esfuerzo de diálogo fue la Constitución de 1978, redactada con el acuerdo de distintas fuerzas políticas. El 6 de diciembre de 1978, las ciudadanas y los ciudadanos españoles acudieron a las urnas y aprobaron mayoritariamente el texto en un referéndum histórico. La Constitución estableció que España es un Estado democrático cuya forma política es la monarquía parlamentaria. Además, garantizó derechos fundamentales como la libertad de expresión, la igualdad ante la ley y la educación pública para todos.",
+      "questions": [
+        {
+          "prompt": "¿En qué fecha votó y aprobó la ciudadanía española la Constitución en referéndum?",
+          "explanation": "El texto indica claramente que el 6 de diciembre de 1978 la ciudadanía aprobó la Constitución en referéndum, fecha en la que celebramos el Día de la Constitución.",
+          "options": [
+            "El 6 de diciembre de 1978",
+            "El 12 de octubre de 1992",
+            "El 20 de noviembre de 1975"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué fue imprescindible el acuerdo entre partidos con ideologías diferentes durante la Transición?",
+          "explanation": "El consenso entre personas de ideas distintas permitió superar una dictadura y construir un marco común donde todos los ciudadanos pudieran convivir pacíficamente.",
+          "options": [
+            "Porque los partidos querían que el rey gobernase sin la intervención del Parlamento.",
+            "Porque un único partido político tenía prohibido redactar leyes según las normas internacionales.",
+            "Porque era necesario crear normas compartidas que aseguraran la paz y la convivencia de toda la sociedad."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "A partir de lo leído, ¿por qué es valioso para ti y tus compañeros vivir hoy en un Estado de Derecho?",
+          "explanation": "En un Estado de Derecho, las leyes protegen la igualdad, la libertad y la justicia, impidiendo los abusos de poder y garantizando la convivencia.",
+          "options": [
+            "Porque garantiza que solo gobiernen las personas que piensan exactamente igual que nosotros.",
+            "Porque nos permite cambiar las normas escolares sin respetar las decisiones de los demás.",
+            "Porque las leyes protegen nuestros derechos básicos y aseguran que nadie tenga poder absoluto por encima de la justicia."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-10",
+      "type": "choice",
+      "prompt": "En un debate en el aula, Martina pregunta: «¿Qué ocurriría si el presidente del Gobierno tuviera también el poder de dictar sentencias en los juicios y destituir a los jueces a su gusto?». ¿Cuál es la respuesta correcta desde el punto de vista democrático?",
+      "explanation": "La independencia de los jueces es esencial en democracia. Si quien gobierna pudiera juzgar a su antojo, no habría protección contra las injusticias ni garantías para los ciudadanos.",
+      "hint": "Recuerda por qué Montesquieu y los pensadores democráticos defendieron separar los tres poderes.",
+      "lang": "es",
+      "options": [
+        "Se rompería la independencia judicial y la división de poderes, poniendo en grave peligro las libertades ciudadanas.",
+        "Sería beneficioso porque los procesos judiciales se resolverían con mayor rapidez al mandar una sola persona.",
+        "No afectaría a la democracia porque el presidente siempre es elegido mediante el voto de la ciudadanía.",
+        "Sería normal, ya que el poder ejecutivo debe estar por encima de todos los demás poderes del Estado."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:38:24.392Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "id": "g1-lengua-mayusculas-y-signos-de-puntuacion",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "mayusculas-y-signos-de-puntuacion",
+  "temaNombre": "Mayúsculas y signos de puntuación",
+  "title": "Mayúsculas y puntos al escribir",
+  "summary": "Aprenderás a usar las mayúsculas y los puntos en tus frases.",
+  "keyIdeas": [
+    "Siempre empezamos a escribir con letra mayúscula.",
+    "Los nombres de personas y animales se escriben con mayúscula.",
+    "Al terminar una frase completa, ponemos un punto final."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.2",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-01",
+      "type": "true-false",
+      "prompt": "Al empezar una frase, siempre escribimos la primera letra en mayúscula.",
+      "explanation": "Muy bien. Todas las oraciones comienzan siempre con una letra mayúscula.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-02",
+      "type": "choice",
+      "prompt": "¿Qué signo se pone al final de una frase?",
+      "explanation": "Ponemos un punto cuando terminamos de escribir una frase completa.",
+      "hint": "Es un circulito pequeño que cierra la oración.",
+      "lang": "es",
+      "options": [
+        "Un punto",
+        "Una coma",
+        "Una letra"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-03",
+      "type": "classify",
+      "prompt": "Separa estas palabras según su primera letra:",
+      "explanation": "Los nombres de personas como Martina y Hugo llevan mayúscula inicial.",
+      "lang": "es",
+      "categories": [
+        "Empieza por mayúscula",
+        "Empieza por minúscula"
+      ],
+      "items": [
+        {
+          "text": "Martina",
+          "category": 0
+        },
+        {
+          "text": "pelota",
+          "category": 1
+        },
+        {
+          "text": "Hugo",
+          "category": 0
+        },
+        {
+          "text": "gato",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-04",
+      "type": "match",
+      "prompt": "Une cada nombre con el motivo por el que lleva mayúscula:",
+      "explanation": "Los nombres propios de personas, animales y ciudades siempre se escriben con mayúscula.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Aisha",
+          "right": "Nombre de persona"
+        },
+        {
+          "left": "Tobi",
+          "right": "Nombre de mascota"
+        },
+        {
+          "left": "Madrid",
+          "right": "Nombre de ciudad"
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-05",
+      "type": "choice",
+      "prompt": "Encuentra la frase que tiene un error:",
+      "explanation": "La frase 'la casa es grande.' empieza con minúscula y debe empezar con 'L' mayúscula.",
+      "hint": "Fíjate bien en la primera letra de cada frase.",
+      "lang": "es",
+      "options": [
+        "la casa es grande.",
+        "El perro corre rápido.",
+        "Lucía come una manzana."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-06",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar una frase bien escrita:",
+      "explanation": "La frase empieza con la mayúscula 'El' y termina con la palabra que lleva punto: 'aquí.'.",
+      "lang": "es",
+      "items": [
+        "El",
+        "gato",
+        "duerme",
+        "aquí."
+      ]
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-07",
+      "type": "choice",
+      "prompt": "Wei quiere escribir un mensaje a su abuela. ¿Cuál está bien escrito?",
+      "explanation": "La frase empieza con mayúscula en 'Te' y termina con un punto final.",
+      "hint": "Busca la opción que empiece con mayúscula y termine con punto.",
+      "lang": "es",
+      "options": [
+        "te Quiero mucho Abuela.",
+        "Te quiero mucho, abuela.",
+        "te quiero mucho abuela"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-08",
+      "type": "fill-blank",
+      "prompt": "Elige el signo que falta al final de la nota de Nerea:",
+      "explanation": "Al terminar la oración completa debemos colocar un punto.",
+      "hint": "Es el signo de puntuación que cierra la frase.",
+      "lang": "es",
+      "sentence": "Hoy comemos arroz en el comedor___",
+      "options": [
+        ",",
+        ".",
+        "a"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-09",
+      "type": "reading",
+      "prompt": "Lee con atención y responde a las preguntas:",
+      "explanation": "Los nombres de personas y animales llevan mayúscula inicial, y cada frase termina en punto.",
+      "lang": "es",
+      "title": "La tortuga de Adrián",
+      "text": "Adrián tiene una tortuga pequeña. Se llama Chispa. Chispa come hojas de lechuga verde en el jardín. Los dos juegan juntos por la tarde.",
+      "questions": [
+        {
+          "prompt": "¿Por qué la palabra 'Chispa' empieza con mayúscula?",
+          "explanation": "Chispa es el nombre propio de la mascota de Adrián, por eso lleva mayúscula.",
+          "options": [
+            "Porque es una comida rica.",
+            "Porque es una palabra muy larga.",
+            "Porque es el nombre de la tortuga."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué signo hay al final de cada frase del texto?",
+          "explanation": "Cada una de las cuatro oraciones del texto termina con un punto.",
+          "options": [
+            "Una raya.",
+            "Una coma.",
+            "Un punto."
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:33:06.808Z",
+    "reviewed": false
+  }
+}

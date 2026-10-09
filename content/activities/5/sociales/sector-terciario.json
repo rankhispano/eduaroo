@@ -1,0 +1,252 @@
+{
+  "id": "g5-sociales-sector-terciario",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "sector-terciario",
+  "temaNombre": "Sector terciario",
+  "title": "El sector terciario y los servicios",
+  "summary": "Practica cómo funciona el sector servicios, el comercio, el transporte y el turismo sostenible en España.",
+  "keyIdeas": [
+    "El sector terciario no fabrica productos físicos, sino que ofrece servicios a las personas y a otras empresas.",
+    "El comercio puede ser interior (mayorista o minorista) o exterior (exportaciones e importaciones).",
+    "Los servicios públicos se financian con impuestos y garantizan derechos básicos como la sanidad y la educación."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-sector-terciario-01",
+      "type": "true-false",
+      "prompt": "El sector terciario o de servicios se encarga de transformar las materias primas en productos elaborados dentro de las fábricas.",
+      "explanation": "El sector que transforma materias primas en las fábricas es el secundario. El sector terciario presta servicios como el transporte, la educación o el comercio.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-sociales-sector-terciario-02",
+      "type": "classify",
+      "prompt": "Clasifica estos servicios según sean públicos (financiados por el Estado con impuestos) o privados (gestionados por empresas particulares):",
+      "explanation": "Los servicios públicos atienden necesidades básicas de toda la ciudadanía mediante impuestos, mientras que los privados pertenecen a personas o empresas que cobran por sus servicios.",
+      "lang": "es",
+      "categories": [
+        "Servicio público",
+        "Servicio privado"
+      ],
+      "items": [
+        {
+          "text": "Un hospital de la Seguridad Social",
+          "category": 0
+        },
+        {
+          "text": "Una academia de baile particular",
+          "category": 1
+        },
+        {
+          "text": "Un colegio público de tu municipio",
+          "category": 0
+        },
+        {
+          "text": "Una peluquería de barrio",
+          "category": 1
+        },
+        {
+          "text": "El cuerpo de bomberos municipal",
+          "category": 0
+        },
+        {
+          "text": "Una tienda de ropa de un centro comercial",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-sector-terciario-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el término comercial correcto:",
+      "explanation": "La exportación consiste en vender productos o servicios nacionales a otros países, mientras que la importación es comprar bienes procedentes del extranjero.",
+      "hint": "Fíjate en si el producto sale del país o entra.",
+      "lang": "es",
+      "sentence": "Cuando una cooperativa de aceite de Jaén vende miles de botellas a tiendas de Alemania, está realizando una ___ comercial.",
+      "options": [
+        "subvención",
+        "exportación",
+        "importación"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-sector-terciario-04",
+      "type": "match",
+      "prompt": "Relaciona cada tipo de transporte con su medio y función más representativa:",
+      "explanation": "El transporte se clasifica según la vía por la que circula: terrestre (carretera y ferrocarril), marítimo/fluvial (barcos por agua) y aéreo (aviones por aire).",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Transporte terrestre",
+          "right": "Trenes de cercanías y furgonetas de reparto"
+        },
+        {
+          "left": "Transporte marítimo",
+          "right": "Grandes buques de carga y transbordadores"
+        },
+        {
+          "left": "Transporte aéreo",
+          "right": "Aviones de pasajeros para distancias largas"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-sector-terciario-05",
+      "type": "order",
+      "prompt": "Ordena cronológicamente los pasos que sigue una caja de naranjas desde el campo hasta la mesa del consumidor:",
+      "explanation": "La cadena de distribución conecta el sector primario (recolección) con los servicios de transporte y comercio (mayorista y minorista) hasta llegar al hogar.",
+      "lang": "es",
+      "items": [
+        "Recolección de las naranjas en los campos agrícolas por trabajadores del sector primario.",
+        "Transporte de la fruta en camiones hasta un gran centro logístico de venta mayorista.",
+        "Distribución y venta del producto a la frutería del barrio (comercio minorista).",
+        "Compra del kilo de naranjas por parte de una familia para su consumo en casa."
+      ]
+    },
+    {
+      "id": "g5-sociales-sector-terciario-06",
+      "type": "choice",
+      "prompt": "Un pueblo de montaña con mucha riqueza natural ha multiplicado sus visitantes. El exceso de vehículos privados causa atascos y ruidos que asustan a la fauna local. ¿Qué medida del sector servicios favorece un turismo sostenible?",
+      "explanation": "El turismo sostenible busca compatibilizar la actividad económica con el respeto medioambiental, ofreciendo transporte colectivo limpio en lugar de saturar el espacio con coches.",
+      "hint": "Busca una solución que combine el acceso de los visitantes con la protección de la naturaleza.",
+      "lang": "es",
+      "options": [
+        "Prohibir la entrada a todas las personas y cerrar cualquier albergue o casa rural de la zona.",
+        "Construir un gran aparcamiento de varias plantas talando parte del bosque cercano.",
+        "Establecer autobuses lanzadera eléctricos y limitar el paso de coches a la zona protegida."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-sector-terciario-07",
+      "type": "classify",
+      "prompt": "Clasifica cada actividad turística según su modalidad principal:",
+      "explanation": "España cuenta con una gran diversidad turística: el turismo cultural se centra en monumentos y arte, el de sol y playa en las costas, y el rural en el contacto con la naturaleza.",
+      "lang": "es",
+      "categories": [
+        "Turismo cultural",
+        "Turismo de sol y playa",
+        "Turismo rural o de naturaleza"
+      ],
+      "items": [
+        {
+          "text": "Visitar la mezquita-catedral de Córdoba y el Museo del Prado",
+          "category": 0
+        },
+        {
+          "text": "Descansar y bañarse en las calas de Menorca",
+          "category": 1
+        },
+        {
+          "text": "Hacer una ruta a pie por el Parque Nacional de Ordesa",
+          "category": 2
+        },
+        {
+          "text": "Asistir al festival de teatro clásico romano en Mérida",
+          "category": 0
+        },
+        {
+          "text": "Alojarte en una masía tradicional y observar aves en Doñana",
+          "category": 2
+        },
+        {
+          "text": "Tomar el sol y practicar deportes náuticos en la Costa del Sol",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-sector-terciario-08",
+      "type": "choice",
+      "prompt": "En la ciudad de Hugo quieren reducir las emisiones contaminantes provocadas por la movilidad diaria. ¿Qué medida del sector del transporte es más eficaz y sostenible para el conjunto de la ciudadanía?",
+      "explanation": "Priorizar el transporte público con bajas emisiones y la movilidad activa (como la bicicleta) reduce la contaminación acústica y del aire en las ciudades.",
+      "lang": "es",
+      "options": [
+        "Aumentar el número de vuelos cortos entre ciudades que ya están unidas por tren.",
+        "Eliminar las paradas de autobús para que los vehículos particulares circulen más rápido.",
+        "Fomentar el transporte público electrificado y habilitar una red conectada de carriles bici."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-sector-terciario-09",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto sobre el papel de los servicios en nuestra sociedad y responde a las preguntas:",
+      "explanation": "El sector terciario es clave en la economía española, pero debe gestionarse con responsabilidad social y ambiental para no agotar los recursos locales.",
+      "lang": "es",
+      "title": "El motor de los servicios en España",
+      "text": "En España, más de tres de cada cuatro personas ocupadas trabajan en el sector terciario, lo que lo convierte en el principal motor económico del país. Dentro de este sector, el comercio y el turismo destacan notablemente gracias a nuestro patrimonio histórico, parajes naturales y clima favorable. Asimismo, servicios esenciales como la sanidad y la educación públicas garantizan el bienestar social y la igualdad de oportunidades al financiarse mediante los impuestos de todos los ciudadanos.\n\nSin embargo, este gran desarrollo presenta retos ecosociales urgentes. Por ejemplo, la concentración masiva de turistas en ciertas temporadas puede sobrecargar el consumo de agua, generar toneladas de residuos y encarecer la vivienda para los vecinos locales. Por esta razón, hoy se promueve una transición hacia un modelo más responsable: impulsar el turismo respetuoso, apoyar el pequeño comercio de proximidad y modernizar las redes de transporte limpio para proteger el medioambiente.",
+      "questions": [
+        {
+          "prompt": "¿Qué proporción de personas trabaja aproximadamente en el sector terciario en España según el texto?",
+          "explanation": "El texto señala expresamente que 'más de tres de cada cuatro personas ocupadas trabajan en el sector terciario'.",
+          "options": [
+            "Exactamente la mitad de la población trabajadora.",
+            "Más de tres de cada cuatro personas ocupadas.",
+            "Menos de la cuarta parte de los trabajadores."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por qué se afirma en el texto que la sanidad y la educación públicas promueven la igualdad de oportunidades?",
+          "explanation": "Los servicios públicos se pagan entre toda la ciudadanía mediante impuestos para que cualquier persona reciba atención médica y educación sin importar sus ingresos.",
+          "options": [
+            "Porque son empresas privadas que compiten por conseguir más clientes en el mercado.",
+            "Porque se financian con los impuestos de toda la sociedad para dar servicio a toda la población.",
+            "Porque solo pueden acceder a ellas quienes pagan una entrada en taquilla."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué consecuencia negativa del turismo masivo menciona el texto que justifica buscar un modelo más sostenible?",
+          "explanation": "El texto explica que la llegada descontrolada de turistas puede provocar escasez de agua, acumulación de basuras y problemas de vivienda para los residentes locales.",
+          "options": [
+            "El cierre definitivo de todos los monumentos y museos históricos.",
+            "La falta total de transportes modernos en las grandes ciudades.",
+            "La sobrecarga en el consumo de agua y la gran cantidad de residuos generados."
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:34:24.096Z",
+    "reviewed": false
+  }
+}

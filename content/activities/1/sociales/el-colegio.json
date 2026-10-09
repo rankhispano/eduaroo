@@ -1,0 +1,218 @@
+{
+  "id": "g1-sociales-el-colegio",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "el-colegio",
+  "temaNombre": "El colegio",
+  "title": "Exploramos nuestro colegio",
+  "summary": "Practica los espacios, las personas y las normas de convivencia de tu colegio.",
+  "keyIdeas": [
+    "El colegio es un lugar para aprender, convivir y hacer amistades.",
+    "En el cole trabajan muchas personas que nos cuidan y ayudan.",
+    "Cumplir las normas y cuidar los materiales nos ayuda a convivir mejor."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-el-colegio-01",
+      "type": "choice",
+      "prompt": "¿En qué lugar del cole leemos y cogemos libros prestados?",
+      "explanation": "La biblioteca es el espacio silencioso donde guardamos y leemos los libros del cole.",
+      "hint": "Es un lugar tranquilo lleno de cuentos y estanterías.",
+      "lang": "es",
+      "options": [
+        "En la biblioteca",
+        "En el gimnasio",
+        "En el comedor"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-el-colegio-02",
+      "type": "true-false",
+      "prompt": "En el aula levantamos la mano para pedir el turno de palabra.",
+      "explanation": "Levantar la mano ayuda a escucharnos con respeto y sin interrumpir a los demás.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-el-colegio-03",
+      "type": "match",
+      "prompt": "Une a cada persona del cole con su tarea.",
+      "explanation": "Cada persona del colegio realiza una tarea importante para que todo funcione bien.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Maestra o maestro",
+          "right": "Enseña y ayuda a aprender"
+        },
+        {
+          "left": "Conserje",
+          "right": "Abre las puertas y cuida el edificio"
+        },
+        {
+          "left": "Cocinera o cocinero",
+          "right": "Prepara la comida del comedor"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-el-colegio-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la mañana en el colegio.",
+      "explanation": "En el recreo descansamos, jugamos con las amistades y tomamos un almuerzo o desayuno saludable.",
+      "lang": "es",
+      "sentence": "Al salir al patio para jugar tomamos el ___.",
+      "options": [
+        "desayuno",
+        "abrigo",
+        "cuaderno"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-el-colegio-05",
+      "type": "classify",
+      "prompt": "Clasifica estos espacios según su uso principal en el cole.",
+      "explanation": "El aula y la biblioteca sirven para estudiar, mientras que el patio y el gimnasio son para el movimiento.",
+      "lang": "es",
+      "categories": [
+        "Aprender y trabajar",
+        "Jugar y hacer deporte"
+      ],
+      "items": [
+        {
+          "text": "El aula de clase",
+          "category": 0
+        },
+        {
+          "text": "La biblioteca",
+          "category": 0
+        },
+        {
+          "text": "El patio de recreo",
+          "category": 1
+        },
+        {
+          "text": "El gimnasio",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-el-colegio-06",
+      "type": "order",
+      "prompt": "Ordena los momentos del día de Hugo en el cole:",
+      "explanation": "Primero entramos al colegio, luego trabajamos en clase, después salimos al recreo y al final volvemos a casa.",
+      "lang": "es",
+      "items": [
+        "Llega al cole por la mañana",
+        "Aprende y trabaja en el aula",
+        "Juega con amigos en el recreo",
+        "Vuelve a casa al terminar"
+      ]
+    },
+    {
+      "id": "g1-sociales-el-colegio-07",
+      "type": "choice",
+      "prompt": "Aisha y Leo quieren la misma pelota. ¿Qué deben hacer?",
+      "explanation": "Hablar y compartir los juguetes permite que todo el grupo se divierta en paz.",
+      "hint": "Piensa en una solución en la que jueguen los dos.",
+      "lang": "es",
+      "options": [
+        "Compartir la pelota y jugar por turnos.",
+        "Quitar la pelota y salir corriendo.",
+        "Enfadarse y no volver a hablarse."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-el-colegio-08",
+      "type": "true-false",
+      "prompt": "Si cuidamos el material de clase, durará todo el curso.",
+      "explanation": "Cuidar las ceras, tijeras y libros permite que toda la clase pueda usarlos siempre que los necesite.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-el-colegio-09",
+      "type": "choice",
+      "prompt": "La mesa de Marcos tiene restos de papel. ¿Qué debe hacer?",
+      "explanation": "Cada persona es responsable de mantener limpio y ordenado su espacio de trabajo.",
+      "hint": "Es importante colaborar en el orden de la clase.",
+      "lang": "es",
+      "options": [
+        "Tirar los papeles a la papelera de reciclaje.",
+        "Dejar los papeles en el suelo de la clase.",
+        "Esperar a que otra persona limpie su sitio."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-el-colegio-10",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas.",
+      "explanation": "Martín cuida sus materiales, saluda a su maestra y comparte con sus compañeras.",
+      "lang": "es",
+      "title": "Un día en el cole de Martín",
+      "text": "Martín llega sonriente al colegio. Saluda a su maestra Elena en la puerta. En clase, aprende números y dibuja con ceras. En el recreo, comparte su manzana con Sofía. Al terminar, recoge sus lápices y guarda la mochila.",
+      "questions": [
+        {
+          "prompt": "¿A quién saluda Martín al llegar al cole?",
+          "explanation": "El texto dice que Martín saluda en la puerta a su maestra Elena.",
+          "options": [
+            "A su maestra Elena",
+            "A la cocinera del comedor",
+            "A su hermano pequeño"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué Martín recoge sus lápices antes de irse?",
+          "explanation": "Recoger el material ayuda a cuidar las cosas del aula y tener todo listo para el día siguiente.",
+          "options": [
+            "Para regalárselos a su amiga Sofía",
+            "Porque ya no quiere volver al colegio",
+            "Para dejar la clase limpia y ordenada"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:21:49.361Z",
+    "reviewed": false
+  }
+}

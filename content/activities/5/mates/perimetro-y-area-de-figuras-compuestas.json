@@ -1,0 +1,196 @@
+{
+  "id": "g5-mates-perimetro-y-area-de-figuras-compuestas",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "perimetro-y-area-de-figuras-compuestas",
+  "temaNombre": "Perímetro y área de figuras compuestas",
+  "title": "Mundo de figuras compuestas",
+  "summary": "Practica cómo descomponer figuras, calcular perímetros exteriores y sumar o restar áreas en situaciones reales.",
+  "keyIdeas": [
+    "El perímetro es la longitud del contorno exterior; los lados interiores donde se unen las figuras no se suman.",
+    "Para hallar el área de una figura compuesta, divídela en rectángulos o cuadrados más sencillos y suma sus áreas.",
+    "Si una figura tiene un hueco interior, calcula el área total exterior y réstale el área de la parte vacía."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.2",
+      "2.2",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-01",
+      "type": "true-false",
+      "prompt": "Al unir dos rectángulos para formar una figura en forma de L, el perímetro de la nueva figura es exactamente igual a la suma de los perímetros de los dos rectángulos originales.",
+      "explanation": "Es falso porque, al unir las dos figuras, los lados que quedan pegados pasan al interior y ya no forman parte del contorno exterior.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-02",
+      "type": "fill-blank",
+      "prompt": "Calcula mentalmente el área total descomponiendo la figura:",
+      "explanation": "El área del cuadrado es 4 × 4 = 16 m². El área del rectángulo es 3 × 2 = 6 m². Sumamos ambas superficies: 16 + 6 = 22 m².",
+      "hint": "Calcula el área de cada pieza por separado y luego súmalas.",
+      "lang": "es",
+      "sentence": "Un cartel está formado por un cuadrado de 4 m de lado y un rectángulo pegado de 3 m de base por 2 m de altura. El área total del cartel es de ___ m².",
+      "options": [
+        "18",
+        "22",
+        "14"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-03",
+      "type": "order",
+      "prompt": "Ordena los pasos lógicos que debes seguir para calcular el área de una figura compuesta desconocida:",
+      "explanation": "Primero analizamos la forma, la descomponemos en partes conocidas, deducimos lados que falten, calculamos cada área y finalmente las sumamos.",
+      "lang": "es",
+      "items": [
+        "Observar la figura y buscar figuras geométricas conocidas (cuadrados, rectángulos).",
+        "Trazar líneas discontinuas para dividir la figura en partes sencillas.",
+        "Calcular las medidas de los lados que falten usando los datos conocidos.",
+        "Hallar el área de cada una de las figuras simples.",
+        "Sumar las áreas parciales para obtener la superficie total."
+      ]
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-04",
+      "type": "choice",
+      "prompt": "🔍 ¡Encuentra el error! Omar quiere vallar un corral formado por dos rectángulos unidos. Para hallar el perímetro, ha sumado todos los lados de los dos rectángulos por separado, obteniendo 38 m. ¿Qué error ha cometido Omar?",
+      "explanation": "El perímetro solo incluye las líneas exteriores que delimitan la figura. La línea divisoria donde se pegan los rectángulos queda dentro y no se debe sumar.",
+      "hint": "Piensa por dónde pasaría la valla: ¿se pone valla por dentro del corral?",
+      "lang": "es",
+      "options": [
+        "Ha sumado la línea de unión interior entre ambos rectángulos, que no forma parte del contorno exterior.",
+        "Debería haber multiplicado las áreas en lugar de sumar las longitudes.",
+        "Olvidó restar las esquinas que coinciden entre las dos figuras."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-05",
+      "type": "classify",
+      "prompt": "Clasifica cada acción según sirva para calcular el perímetro o el área de una figura compuesta:",
+      "explanation": "El perímetro se ocupa exclusivamente de la longitud del contorno exterior, mientras que el área mide el espacio de la superficie que queda encerrada.",
+      "lang": "es",
+      "categories": [
+        "Para calcular el perímetro",
+        "Para calcular el área"
+      ],
+      "items": [
+        {
+          "text": "Sumar únicamente las longitudes de los lados exteriores de la figura.",
+          "category": 0
+        },
+        {
+          "text": "Descomponer la figura en rectángulos y sumar sus superficies individuales.",
+          "category": 1
+        },
+        {
+          "text": "Medir con una cinta métrica todo el contorno exterior.",
+          "category": 0
+        },
+        {
+          "text": "Calcular el área del rectángulo grande exterior y restar el área del hueco vacío.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-06",
+      "type": "choice",
+      "prompt": "En el patio del colegio van a pintar una zona de juegos con forma de T. La parte superior es un rectángulo de 6 m de largo y 2 m de ancho. La parte vertical inferior es otro rectángulo de 2 m de ancho y 4 m de largo. ¿Cuántos metros cuadrados de pintura necesitan en total?",
+      "explanation": "Área de la parte superior: 6 × 2 = 12 m². Área de la parte inferior: 4 × 2 = 8 m². Área total: 12 + 8 = 20 m².",
+      "hint": "Calcula el área de los dos rectángulos y súmalas.",
+      "lang": "es",
+      "options": [
+        "20 m²",
+        "14 m²",
+        "24 m²",
+        "18 m²"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-07",
+      "type": "choice",
+      "prompt": "Una piscina infantil tiene forma de L. Sus lados exteriores miden consecutivamente: 8 m (base inferior), 6 m (lado derecho vertical), 3 m (lado superior horizontal), 2 m (bajada vertical), 5 m (lado horizontal hacia la izquierda) y 4 m (lado izquierdo vertical). ¿Cuál es el perímetro total que hay que bordear con baldosas antideslizantes?",
+      "explanation": "Sumamos todos los lados exteriores del contorno: 8 + 6 + 3 + 2 + 5 + 4 = 28 m de perímetro.",
+      "hint": "Recorre el contorno sumando los 6 lados exteriores.",
+      "lang": "es",
+      "options": [
+        "32 m",
+        "24 m",
+        "18 m",
+        "28 m"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-08",
+      "type": "choice",
+      "prompt": "Aisha diseña un jardín rectangular de 10 m de largo por 6 m de ancho. En el centro ha dejado un estanque cuadrado de 2 m de lado. El resto estará cubierto de césped. ¿Cuántos metros cuadrados de césped plantará?",
+      "explanation": "Área total del jardín: 10 × 6 = 60 m². Área del estanque que no lleva césped: 2 × 2 = 4 m². Restamos el hueco: 60 - 4 = 56 m² de césped.",
+      "hint": "Calcula el área total del rectángulo y réstale el área del estanque.",
+      "lang": "es",
+      "options": [
+        "56 m²",
+        "60 m²",
+        "64 m²",
+        "52 m²"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-09",
+      "type": "choice",
+      "prompt": "Un escenario tiene forma de polígono escalonado en L. Sabemos que la base total mide 9 m y la altura total izquierda mide 7 m. El escalón superior horizontal mide 4 m. ¿Cuánto mide el escalón horizontal intermedio que falta para completar la figura?",
+      "explanation": "La suma de los lados horizontales superiores debe igualar a la base total inferior: 4 m + lado desconocido = 9 m. Por tanto, el lado mide 9 - 4 = 5 m.",
+      "hint": "Los dos tramos horizontales superiores juntos miden lo mismo que la base inferior.",
+      "lang": "es",
+      "options": [
+        "2 m",
+        "13 m",
+        "3 m",
+        "5 m"
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:22:16.364Z",
+    "reviewed": false
+  }
+}

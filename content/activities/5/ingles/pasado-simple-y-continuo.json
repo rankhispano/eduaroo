@@ -1,0 +1,253 @@
+{
+  "id": "g5-ingles-pasado-simple-y-continuo",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "pasado-simple-y-continuo",
+  "temaNombre": "Pasado simple y continuo",
+  "title": "Misterios en pasado: Simple vs Continuous",
+  "summary": "Practica cómo contar historias y acciones del pasado combinando el Past Simple y el Past Continuous.",
+  "keyIdeas": [
+    "Usamos el Past Continuous (was/were + -ing) para acciones largas que estaban ocurriendo en el pasado.",
+    "Usamos el Past Simple (-ed o verbos irregulares) para acciones cortas o puntuales que ocurrieron.",
+    "A menudo usamos 'while' con acciones continuas y 'when' antes de una acción corta que interrumpe."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-01",
+      "type": "fill-blank",
+      "prompt": "Completa con la forma correcta del Past Continuous:",
+      "explanation": "Con sujetos en tercera persona singular (he/she/it como Omar), usamos 'was' + el verbo acabado en -ing.",
+      "hint": "Omar equivale al pronombre 'he'.",
+      "lang": "en",
+      "sentence": "Yesterday at 5:00 PM, Omar ___ his homework in his bedroom.",
+      "options": [
+        "did",
+        "were doing",
+        "was doing"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-02",
+      "type": "true-false",
+      "prompt": "In English, we use 'were' with 'you', 'we', and 'they' in the Past Continuous.",
+      "explanation": "¡Correcto! Usamos 'was' para I, he, she, it y 'were' para you, we, they.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-03",
+      "type": "classify",
+      "prompt": "Clasifica cada forma verbal en su tiempo correspondiente:",
+      "explanation": "El Past Simple consta de una sola forma verbal (con -ed o irregular), mientras que el Past Continuous necesita dos partes: was/were + verbo en -ing.",
+      "lang": "en",
+      "categories": [
+        "Past Simple",
+        "Past Continuous"
+      ],
+      "items": [
+        {
+          "text": "played",
+          "category": 0
+        },
+        {
+          "text": "was watching",
+          "category": 1
+        },
+        {
+          "text": "went",
+          "category": 0
+        },
+        {
+          "text": "were eating",
+          "category": 1
+        },
+        {
+          "text": "wrote",
+          "category": 0
+        },
+        {
+          "text": "was reading",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-04",
+      "type": "choice",
+      "prompt": "Elige el verbo correcto para la acción que interrumpe: Lucía was riding her bike in the park when she ___ an adorable puppy. 🐶",
+      "explanation": "Usamos el Past Simple ('saw') para la acción puntual que interrumpe una acción que ya estaba en progreso ('was riding').",
+      "hint": "Detrás de 'when' suele ir una acción puntual en Past Simple.",
+      "lang": "en",
+      "options": [
+        "saw",
+        "was seeing",
+        "sees"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-05",
+      "type": "match",
+      "prompt": "Une el inicio y el final de cada frase para crear historias con sentido:",
+      "explanation": "Combinamos una acción larga en Past Continuous con una acción breve e interruptora en Past Simple usando 'when' o 'while'.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "We were having a picnic in the park...",
+          "right": "...when it started to rain."
+        },
+        {
+          "left": "While Aisha was sleeping peacefully,...",
+          "right": "...her cat jumped on the bed."
+        },
+        {
+          "left": "Hugo dropped his pencil...",
+          "right": "...while he was taking notes."
+        },
+        {
+          "left": "The children were playing football...",
+          "right": "...when the school bell rang."
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-06",
+      "type": "fill-blank",
+      "prompt": "Completa con el tiempo verbal correcto:",
+      "explanation": "Detrás de 'while' usamos Past Continuous ('was reading') para indicar la acción continua que se estaba desarrollando.",
+      "hint": "'My sister' equivale a 'she', por lo que necesita 'was'.",
+      "lang": "en",
+      "sentence": "While my sister ___ a comic book, our dad cooked dinner.",
+      "options": [
+        "was reading",
+        "were reading",
+        "readed"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-07",
+      "type": "choice",
+      "prompt": "Adrián explica qué ocurrió en la cocina cuando se fue la luz. ¿Qué frase es correcta?",
+      "explanation": "La acción larga en progreso lleva 'was washing' y la acción puntual que la corta lleva Past Simple ('went out').",
+      "lang": "en",
+      "options": [
+        "I were washing the dishes when the lights went out.",
+        "I washed the dishes when the lights were going out.",
+        "I was washing the dishes when the lights went out."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-08",
+      "type": "order",
+      "prompt": "Ordena estas palabras para formar una frase correcta:",
+      "explanation": "Estructura correcta: While + sujeto + pasado continuo, + sujeto + pasado simple.",
+      "lang": "en",
+      "items": [
+        "While",
+        "Wei",
+        "was cooking,",
+        "the telephone",
+        "rang."
+      ]
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-09",
+      "type": "reading",
+      "prompt": "Lee el texto sobre una mañana movida en el cole y responde a las preguntas:",
+      "explanation": "El texto combina acciones continuas de fondo (working, drawing, explaining) con sucesos puntuales (jumped, landed, offered).",
+      "lang": "en",
+      "title": "An Unexpected Visitor",
+      "text": "Yesterday was an unusual morning at Oak Tree School. At 9:30, all the fifth-grade students were working quietly in their classroom. Martina was drawing a colourful map of the solar system, and Omar was writing a science project in his notebook. Suddenly, while the teacher, Mr. Green, was explaining a difficult maths problem on the board, a small squirrel jumped through the open window! The squirrel landed right on Martina's desk. Everyone stopped working. Martina did not scream; she stayed calm and slowly offered the squirrel a piece of an apple from her snack box. While the squirrel was eating the apple, Mr. Green opened the classroom door very gently. The little animal finished its food, looked at the happy students, and ran safely back outside into the green garden. It was a morning nobody forgot!",
+      "questions": [
+        {
+          "prompt": "What was Martina doing when the squirrel jumped into the classroom?",
+          "explanation": "El texto dice textualmente: 'Martina was drawing a colourful map of the solar system'.",
+          "options": [
+            "She was eating an apple with Omar.",
+            "She was writing a science project.",
+            "She was drawing a map of the solar system."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why did Martina give the squirrel a piece of apple?",
+          "explanation": "Martina reaccionó con calma para no asustar al animal y mantener la situación tranquila.",
+          "options": [
+            "Because she didn't want to finish her breakfast.",
+            "Because Mr. Green told her to feed wild animals.",
+            "To stay calm and help the animal feel safe."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What can we learn from how the class reacted to the animal?",
+          "explanation": "El comportamiento calmado de Martina y del profesor evitó el caos y ayudó a que la ardilla saliera ilesa.",
+          "options": [
+            "Staying calm helps solve unexpected surprises peacefully.",
+            "You should always close all windows in autumn.",
+            "Maths lessons are more interesting with animals."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-10",
+      "type": "choice",
+      "prompt": "¿Cuál de estas oraciones describe DOS acciones largas que ocurrían al mismo tiempo en el pasado?",
+      "explanation": "Cuando dos acciones se estaban realizando simultáneamente en el pasado, usamos el Past Continuous en ambas: 'was studying' y 'was playing'.",
+      "hint": "Busca la frase donde ambas partes lleven 'was/were' + '-ing'.",
+      "lang": "en",
+      "options": [
+        "While Nerea was studying, her brother was playing the guitar.",
+        "When Nerea studied, her brother played the guitar.",
+        "Nerea was studying when her brother broke the guitar."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:10:27.948Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "id": "g4-lengua-texto-instructivo-y-periodistico",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "texto-instructivo-y-periodistico",
+  "temaNombre": "Texto instructivo y periodístico",
+  "title": "Periodistas y expertos en instrucciones",
+  "summary": "Reconocerás las partes y características de las noticias y aprenderás a comprender y redactar instrucciones paso a paso.",
+  "keyIdeas": [
+    "Los textos instructivos explican cómo hacer algo siguiendo un orden claro y usando verbos en infinitivo o imperativo.",
+    "Las noticias informan sobre hechos reales y recientes respondiendo a preguntas clave: qué, quién, cuándo y dónde.",
+    "Una noticia tiene titular, entradilla y cuerpo, y debe contar los hechos de forma clara y objetiva."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4"
+    ],
+    "criteria": [
+      "4.1",
+      "4.2"
+    ],
+    "descriptors": [
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-01",
+      "type": "choice",
+      "prompt": "En clase de Educación Física, el maestro reparte una hoja con las reglas del balón prisionero. ¿Qué tipo de texto es?",
+      "explanation": "Las reglas de un juego son un texto instructivo porque guían nuestras acciones paso a paso para conseguir un objetivo.",
+      "hint": "Fíjate en su función: ¿te da órdenes y pasos para jugar o te informa de una noticia?",
+      "lang": "es",
+      "options": [
+        "Un texto instructivo, porque explica los pasos y normas para jugar.",
+        "Un texto periodístico, porque cuenta un suceso de actualidad.",
+        "Un texto poético, porque expresa emociones con rimas."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-02",
+      "type": "true-false",
+      "prompt": "En una noticia periodística, quien escribe debe inventar detalles fantásticos para que resulte más emocionante.",
+      "explanation": "Las noticias deben explicar hechos reales, verdaderos y objetivos, sin inventar información ni personajes de fantasía.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-03",
+      "type": "match",
+      "prompt": "Une cada parte de una noticia con su función principal:",
+      "explanation": "El titular capta el interés, la entradilla resume lo esencial y el cuerpo aporta todos los detalles del acontecimiento.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Titular",
+          "right": "Resume la idea principal con letras grandes y llamativas."
+        },
+        {
+          "left": "Entradilla",
+          "right": "Primer párrafo que resume los datos más importantes del suceso."
+        },
+        {
+          "left": "Cuerpo",
+          "right": "Párrafos que explican los detalles y el desarrollo de lo ocurrido."
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-04",
+      "type": "order",
+      "prompt": "Hugo y Aisha quieren preparar brochetas de fruta. Ordena las instrucciones lógicamente:",
+      "explanation": "En un texto instructivo el orden cronológico es fundamental: primero limpiamos la fruta, luego la cortamos, después la montamos y finalmente la servimos.",
+      "lang": "es",
+      "items": [
+        "Lavar bien las manzanas, las fresas y las uvas con agua fresca.",
+        "Pelar las manzanas y cortar toda la fruta en trozos medianos con cuidado.",
+        "Insertar los trozos de fruta alternando colores en los palillos de madera.",
+        "Servir las brochetas en un plato limpio y disfrutar de la merienda."
+      ]
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-05",
+      "type": "classify",
+      "prompt": "Clasifica estos textos según su tipología:",
+      "explanation": "Las recetas y manuales dan indicaciones para hacer algo (instructivos), mientras que las crónicas, entrevistas y noticias comunican actualidad (periodísticos).",
+      "lang": "es",
+      "categories": [
+        "Texto instructivo",
+        "Texto periodístico"
+      ],
+      "items": [
+        {
+          "text": "Receta de tarta de manzana con canela",
+          "category": 0
+        },
+        {
+          "text": "Inaugurada la nueva biblioteca municipal del barrio",
+          "category": 1
+        },
+        {
+          "text": "Manual para montar una estantería de madera",
+          "category": 0
+        },
+        {
+          "text": "Rescate con éxito de dos excursionistas en la sierra",
+          "category": 1
+        },
+        {
+          "text": "Guía de pasos para plantar semillas de tomate",
+          "category": 0
+        },
+        {
+          "text": "Entrevista a una científica sobre el cambio climático",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-06",
+      "type": "fill-blank",
+      "prompt": "Completa esta regla de uso del laboratorio con la forma verbal adecuada:",
+      "explanation": "Los textos instructivos suelen utilizar verbos en infinitivo (llevar, cortar, doblar) o en imperativo para indicar las acciones requeridas.",
+      "lang": "es",
+      "sentence": "Para evitar accidentes, es obligatorio ___ las tijeras con la punta hacia abajo.",
+      "options": [
+        "llevar",
+        "llevaba",
+        "llevaste"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-07",
+      "type": "choice",
+      "prompt": "Encuentra el error: Lucía ha escrito este paso para un experimento: «Echa el agua azul en el vaso y espera». ¿Qué fallo tiene esta instrucción?",
+      "explanation": "Una buena instrucción debe ser clara y precisa; decir «espera» sin indicar el tiempo (por ejemplo, «cinco minutos») genera confusión.",
+      "hint": "Piensa si sabrías exactamente qué hacer solo leyendo esa frase.",
+      "lang": "es",
+      "options": [
+        "El verbo «espera» pertenece a una noticia y no se puede usar en experimentos.",
+        "Está mal escrita porque las instrucciones nunca pueden llevar la conjunción «y».",
+        "Es imprecisa, porque no indica cuánta agua echar ni cuánto tiempo hay que esperar."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-08",
+      "type": "reading",
+      "prompt": "Lee esta noticia del periódico escolar y responde a las preguntas:",
+      "explanation": "Comprender una noticia exige identificar el acontecimiento central, los participantes y las circunstancias temporales y espaciales.",
+      "lang": "es",
+      "title": "Éxito total en el estreno del huerto escolar",
+      "text": "Ayer por la mañana, el alumnado de cuarto de primaria inauguró el huerto ecológico del colegio Cervantes. Durante dos semanas, niños y niñas limpiaron el terreno, colocaron bancales de madera y sembraron lechugas, zanahorias y fresas. La actividad contó con el apoyo de las familias y de la asociación ecologista del barrio, que aportó semillas tradicionales. La directora del centro felicitó a todos los participantes por su trabajo en equipo y anunció que la primera cosecha se recolectará en junio.",
+      "questions": [
+        {
+          "prompt": "¿Qué hecho principal narra la noticia?",
+          "explanation": "El texto explica principalmente la puesta en marcha del huerto escolar por parte del alumnado de cuarto.",
+          "options": [
+            "Una clase teórica de botánica en la biblioteca municipal.",
+            "Una excursión a la montaña organizada por las familias.",
+            "La inauguración del huerto escolar del colegio Cervantes."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Quiénes colaboraron aportando semillas tradicionales?",
+          "explanation": "El texto menciona explícitamente que la asociación ecologista del barrio aportó las semillas tradicionales.",
+          "options": [
+            "Una tienda de jardinería lejana.",
+            "La asociación ecologista del barrio.",
+            "La policía local del municipio."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por qué sabemos que este texto es periodístico y no instructivo?",
+          "explanation": "Es una noticia porque informa con objetividad de un acontecimiento reciente y responde a las preguntas periodísticas básicas.",
+          "options": [
+            "Porque enseña paso a paso cómo construir un bancal de madera casero.",
+            "Porque contiene una lista ordenada de materiales y herramientas de jardinería.",
+            "Porque relata un suceso real y responde a qué ocurrió, quién participó y cuándo, sin dar pasos a seguir."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-09",
+      "type": "choice",
+      "prompt": "Omar escribe una noticia para el periódico del colegio: «El equipo de voleibol ganó la final por tres sets a dos tras un partido muy emocionante». ¿Qué dato fundamental falta para responder a la pregunta «¿Cuándo?»?",
+      "explanation": "La pregunta periodística «¿cuándo?» se responde indicando la fecha o el momento exacto en el que ocurrió la noticia (por ejemplo: «ayer por la tarde»).",
+      "hint": "El «cuándo» siempre hace referencia al tiempo en el calendario o el reloj.",
+      "lang": "es",
+      "options": [
+        "El color de las camisetas de los jugadores.",
+        "El nombre del fabricante del balón.",
+        "El día y la hora en que se disputó el partido."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-10",
+      "type": "choice",
+      "prompt": "Nerea tiene que elegir el mejor titular para una noticia sobre la recogida de plásticos en la playa local. ¿Cuál es el más adecuado para un periódico?",
+      "explanation": "El primer titular es informativo, claro y objetivo. El segundo expresa una opinión personal y el tercero parece el título de una guía de instrucciones.",
+      "hint": "Busca el titular que informe de un hecho concreto con datos reales y tono neutral.",
+      "lang": "es",
+      "options": [
+        "¡Qué asco de playa, la gente tira demasiadas botellas de plástico!",
+        "Voluntarios locales retiran doscientos kilos de plástico de la playa del Sol",
+        "Pasos sencillos para no ensuciar la arena cuando vayas a nadar"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:46:00.253Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "id": "g4-naturales-clasificacion-de-seres-vivos",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "clasificacion-de-seres-vivos",
+  "temaNombre": "Clasificación de seres vivos",
+  "title": "Exploramos los reinos vivos",
+  "summary": "Practica cómo clasificar animales, plantas, hongos y microorganismos según sus características principales.",
+  "keyIdeas": [
+    "Los seres vivos se clasifican en cinco grandes reinos según sus características comunes.",
+    "Los animales y los hongos no fabrican su propio alimento, mientras que las plantas sí.",
+    "Los animales se dividen en vertebrados, con esqueleto interno, e invertebrados, sin columna vertebral."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "2.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-01",
+      "type": "classify",
+      "prompt": "Clasifica estos seres vivos según el reino al que pertenecen:",
+      "explanation": "Las plantas fabrican su propio alimento y no se desplazan. Los animales se alimentan de otros seres y se mueven.",
+      "lang": "es",
+      "categories": [
+        "Reino de las plantas",
+        "Reino animal"
+      ],
+      "items": [
+        {
+          "text": "Roble",
+          "category": 0
+        },
+        {
+          "text": "Lobo ibérico",
+          "category": 1
+        },
+        {
+          "text": "Romero silvestre",
+          "category": 0
+        },
+        {
+          "text": "Mariquita",
+          "category": 1
+        },
+        {
+          "text": "Helecho",
+          "category": 0
+        },
+        {
+          "text": "Delfín",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-02",
+      "type": "true-false",
+      "prompt": "Las setas y los champiñones pertenecen al reino de las plantas porque nacen en el suelo.",
+      "explanation": "Las setas forman parte del reino de los hongos. No son plantas porque no pueden fabricar su propio alimento.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-03",
+      "type": "choice",
+      "prompt": "Aisha observa un yogur con el microscopio y descubre seres microscópicos de una sola célula. ¿Qué son?",
+      "explanation": "Los yogures contienen bacterias beneficiosas. Son microorganismos unicelulares que pertenecen al reino de las bacterias.",
+      "hint": "Son seres vivos microscópicos formados por una única célula.",
+      "lang": "es",
+      "options": [
+        "Hongos con sombrero",
+        "Bacterias",
+        "Plantas diminutas",
+        "Animales vertebrados"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-04",
+      "type": "match",
+      "prompt": "Une cada grupo de vertebrados con una característica exclusiva de su cuerpo:",
+      "explanation": "Cada grupo de vertebrados cuenta con adaptaciones únicas en su piel y respiración para vivir en su entorno.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Aves",
+          "right": "Cuerpo cubierto de plumas"
+        },
+        {
+          "left": "Mamíferos",
+          "right": "Piel con pelo y crías que maman leche"
+        },
+        {
+          "left": "Peces",
+          "right": "Aletas y respiración por branquias"
+        },
+        {
+          "left": "Reptiles",
+          "right": "Piel seca cubierta de escamas duras"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-05",
+      "type": "choice",
+      "prompt": "En el acuario, Adrián dice: «Los corales son plantas porque viven fijos en las rocas». ¿Cuál es su error?",
+      "explanation": "Aunque vivan fijos a las rocas, los corales capturan nutrientes y no hacen fotosíntesis. Son animales marinos.",
+      "hint": "Piensa en cómo consiguen su energía y alimento.",
+      "lang": "es",
+      "options": [
+        "Son animales, ya que capturan alimento del agua y no hacen la fotosíntesis.",
+        "Son hongos marinos que absorben la sal del fondo del mar.",
+        "Son rocas mágicas que crecen con el agua salada."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-06",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la alimentación de los hongos:",
+      "explanation": "Los hongos son descomponedores. Transforman restos de plantas y animales caídos en nutrientes para el suelo.",
+      "lang": "es",
+      "sentence": "Los hongos obtienen energía a partir de restos de otros seres vivos mediante la ___.",
+      "options": [
+        "descomposición",
+        "fotosíntesis",
+        "respiración"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-07",
+      "type": "choice",
+      "prompt": "Wei encuentra un organismo verde en el bosque. Tiene muchas células y absorbe luz solar. ¿Qué deduces?",
+      "explanation": "Tener clorofila para hacer la fotosíntesis con luz solar es el rasgo definitorio del reino de las plantas.",
+      "hint": "Solo un reino produce su propio alimento usando la energía del sol.",
+      "lang": "es",
+      "options": [
+        "Es un animal herbívoro de color verde que no se mueve.",
+        "Es un hongo que necesita el sol para calentarse.",
+        "Es una planta, porque usa la luz solar para fabricar su alimento."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-08",
+      "type": "classify",
+      "prompt": "Separa estos animales en vertebrados o invertebrados según tengan o no columna vertebral:",
+      "explanation": "Los vertebrados tienen esqueleto interno con columna vertebral. Los invertebrados no poseen esqueleto óseo interno.",
+      "lang": "es",
+      "categories": [
+        "Animales vertebrados",
+        "Animales invertebrados"
+      ],
+      "items": [
+        {
+          "text": "Gorrión común",
+          "category": 0
+        },
+        {
+          "text": "Caracol de huerta",
+          "category": 1
+        },
+        {
+          "text": "Lagartija ibérica",
+          "category": 0
+        },
+        {
+          "text": "Lombriz de tierra",
+          "category": 1
+        },
+        {
+          "text": "Trucha de río",
+          "category": 0
+        },
+        {
+          "text": "Medusa de mar",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-09",
+      "type": "reading",
+      "prompt": "Lee la experiencia de laboratorio de Omar y Martina y contesta las preguntas:",
+      "explanation": "Los microorganismos unicelulares como los protozoos viven en el agua y solo pueden verse mediante microscopios.",
+      "lang": "es",
+      "title": "Una gota llena de vida",
+      "text": "Omar y Martina recogen una gota de agua estancada del estanque del colegio. Con ayuda de su maestra, colocan la gota en un portaobjetos y miran por el microscopio escolar. Al principio solo ven agua clara, pero pronto descubren criaturas diminutas que nadan a gran velocidad. Omar observa una ameba que cambia de forma para atrapar partículas. Martina encuentra paramecios alargados cubiertos de pelitos llamados cilios. Su maestra les explica que son microorganismos unicelulares. No son ni plantas ni animales, sino protozoos que habitan en medios acuáticos.",
+      "questions": [
+        {
+          "prompt": "¿Qué instrumento necesitan Omar y Martina para ver a estos seres vivos?",
+          "explanation": "El texto explica que colocan la gota de agua en el microscopio escolar para poder observarlos.",
+          "options": [
+            "Una lupa sencilla",
+            "Un telescopio",
+            "Un microscopio"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué no podían ver a las amebas a simple vista en el agua?",
+          "explanation": "Los microorganismos unicelulares son tan pequeños que el ojo humano necesita lentes de gran aumento para distinguirlos.",
+          "options": [
+            "Porque son seres microscópicos de una sola célula, invisibles para nuestros ojos.",
+            "Porque se escondían dentro de las piedras del fondo del estanque.",
+            "Porque solo salen a nadar cuando la habitación está completamente oscura."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-10",
+      "type": "order",
+      "prompt": "Ordena los pasos que sigue una científica para clasificar un ser vivo recién descubierto:",
+      "explanation": "Primero observamos las características, luego analizamos su nutrición, determinamos su reino y registramos el hallazgo.",
+      "lang": "es",
+      "items": [
+        "Observar con atención sus partes y su forma de desplazarse.",
+        "Comprobar si fabrica su propio alimento o si come otros seres.",
+        "Identificar el reino al que pertenece según sus características.",
+        "Registrar los datos y darle un nombre científico en su cuaderno."
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:01:21.963Z",
+    "reviewed": false
+  }
+}

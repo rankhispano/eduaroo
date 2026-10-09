@@ -1,0 +1,240 @@
+{
+  "id": "g2-ingles-la-casa",
+  "cursoId": "2",
+  "asignaturaId": "ingles",
+  "temaId": "la-casa",
+  "temaNombre": "La casa",
+  "title": "Welcome to My House!",
+  "summary": "Repasa las partes de la casa y los objetos más comunes en inglés.",
+  "keyIdeas": [
+    "Las habitaciones principales son: bedroom (dormitorio), kitchen (cocina), bathroom (baño) y living room (salón).",
+    "Cada habitación tiene objetos típicos: bed (cama), sofa (sofá) o fridge (frigorífico).",
+    "Usamos 'in the...' para decir en qué lugar de la casa estamos."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-ingles-la-casa-01",
+      "type": "choice",
+      "prompt": "You sleep here at night. What room is it?",
+      "explanation": "En el dormitorio (bedroom) es donde dormimos por la noche.",
+      "hint": "Piensa en la habitación donde está tu cama.",
+      "lang": "en",
+      "options": [
+        "Bedroom",
+        "Kitchen",
+        "Bathroom"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-la-casa-02",
+      "type": "match",
+      "prompt": "Match each room with its Spanish name:",
+      "explanation": "Kitchen es cocina, bathroom es baño, living room es salón y garden es jardín.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "kitchen",
+          "right": "cocina"
+        },
+        {
+          "left": "bathroom",
+          "right": "baño"
+        },
+        {
+          "left": "living room",
+          "right": "salón"
+        },
+        {
+          "left": "garden",
+          "right": "jardín"
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-la-casa-03",
+      "type": "true-false",
+      "prompt": "The bed is in the kitchen.",
+      "explanation": "La cama (bed) está en el dormitorio (bedroom), no en la cocina.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g2-ingles-la-casa-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la habitación correcta:",
+      "explanation": "Cocinamos (cook) en la cocina (kitchen).",
+      "hint": "Es el lugar de la casa donde preparamos la comida.",
+      "lang": "en",
+      "sentence": "Mum cooks dinner in the ___.",
+      "options": [
+        "kitchen",
+        "bedroom",
+        "bathroom"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-la-casa-05",
+      "type": "classify",
+      "prompt": "Classify these items into the correct room:",
+      "explanation": "La cama (bed) y la almohada (pillow) van en el dormitorio. El sofá y la televisión van en el salón.",
+      "lang": "en",
+      "categories": [
+        "Bedroom",
+        "Living room"
+      ],
+      "items": [
+        {
+          "text": "Bed",
+          "category": 0
+        },
+        {
+          "text": "Pillow",
+          "category": 0
+        },
+        {
+          "text": "Sofa",
+          "category": 1
+        },
+        {
+          "text": "Television",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-la-casa-06",
+      "type": "choice",
+      "prompt": "Lucía washes her hands with water and soap. Where is Lucía?",
+      "explanation": "Nos lavamos las manos en el cuarto de baño (bathroom).",
+      "hint": "Busca la habitación con lavabo y ducha.",
+      "lang": "en",
+      "options": [
+        "In the bedroom",
+        "In the bathroom",
+        "In the garden"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-ingles-la-casa-07",
+      "type": "match",
+      "prompt": "Match each object with its room:",
+      "explanation": "El frigorífico está en la cocina, la ducha en el baño, el sofá en el salón y el armario en el dormitorio.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "fridge",
+          "right": "kitchen"
+        },
+        {
+          "left": "shower",
+          "right": "bathroom"
+        },
+        {
+          "left": "sofa",
+          "right": "living room"
+        },
+        {
+          "left": "wardrobe",
+          "right": "bedroom"
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-la-casa-08",
+      "type": "order",
+      "prompt": "Order Aisha's morning routine through the house:",
+      "explanation": "Primero Aisha se despierta en el dormitorio, luego se lava en el baño, desayuna en la cocina y sale por la puerta.",
+      "lang": "en",
+      "items": [
+        "Wake up in the bedroom",
+        "Wash face in the bathroom",
+        "Eat toast in the kitchen",
+        "Open the front door to go out"
+      ]
+    },
+    {
+      "id": "g2-ingles-la-casa-09",
+      "type": "fill-blank",
+      "prompt": "Hugo is reading a book on the big sofa.",
+      "explanation": "El sofá grande suele estar en el salón (living room).",
+      "hint": "Es la sala donde nos sentamos a descansar en familia.",
+      "lang": "en",
+      "sentence": "Hugo is in the ___.",
+      "options": [
+        "living room",
+        "bathroom",
+        "garden"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-la-casa-10",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions:",
+      "explanation": "¡Buen trabajo leyendo el texto! El dormitorio es azul y Leo juega con la pelota en el jardín.",
+      "lang": "en",
+      "title": "Leo's House",
+      "text": "Leo is at home. His house is small. The bedroom is blue. The kitchen is yellow. Leo has a big green garden. He plays with a ball in the garden.",
+      "questions": [
+        {
+          "prompt": "What color is the bedroom?",
+          "explanation": "El texto dice claramente: 'The bedroom is blue'.",
+          "options": [
+            "Yellow",
+            "Blue",
+            "Green"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Where does Leo play with the ball?",
+          "explanation": "El texto indica: 'He plays with a ball in the garden'.",
+          "options": [
+            "In the kitchen",
+            "In the bedroom",
+            "In the garden"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:04:46.383Z",
+    "reviewed": false
+  }
+}

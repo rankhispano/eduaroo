@@ -1,0 +1,246 @@
+{
+  "id": "g2-sociales-el-paisaje",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "el-paisaje",
+  "temaNombre": "El paisaje",
+  "title": "Descubrimos los paisajes",
+  "summary": "Reconocerás elementos naturales y humanizados y cómo cuidar nuestros paisajes.",
+  "keyIdeas": [
+    "Un paisaje natural apenas tiene cambios hechos por las personas.",
+    "El paisaje humanizado tiene casas, puentes, cultivos o carreteras.",
+    "Debemos cuidar la naturaleza recogiendo siempre nuestra basura."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-el-paisaje-01",
+      "type": "true-false",
+      "prompt": "En un paisaje natural no hay carreteras ni edificios construidos.",
+      "explanation": "El paisaje natural conserva sus elementos propios sin obras hechas por personas.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-el-paisaje-02",
+      "type": "choice",
+      "prompt": "Lucía pasea por el campo. ¿Qué elemento de estos es natural?",
+      "explanation": "El río y los peces forman parte de la naturaleza.",
+      "hint": "Piensa en algo que no hayan construido las personas.",
+      "lang": "es",
+      "options": [
+        "Una carretera asfaltada",
+        "Un puente de piedra",
+        "Un río con peces"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-el-paisaje-03",
+      "type": "classify",
+      "prompt": "Clasifica estos elementos del paisaje según su origen.",
+      "explanation": "Las montañas, ríos y bosques son naturales. Las carreteras, puentes y edificios los construyen las personas.",
+      "lang": "es",
+      "categories": [
+        "Elemento natural",
+        "Elemento humanizado"
+      ],
+      "items": [
+        {
+          "text": "Montaña",
+          "category": 0
+        },
+        {
+          "text": "Carretera",
+          "category": 1
+        },
+        {
+          "text": "Bosque",
+          "category": 0
+        },
+        {
+          "text": "Puente",
+          "category": 1
+        },
+        {
+          "text": "Río",
+          "category": 0
+        },
+        {
+          "text": "Edificio",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-el-paisaje-04",
+      "type": "match",
+      "prompt": "Une cada paisaje con su elemento característico.",
+      "explanation": "La montaña tiene zonas elevadas, la costa está junto al mar y la llanura es plana.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Paisaje de montaña",
+          "right": "Cumbres altas y rocosas"
+        },
+        {
+          "left": "Paisaje de costa",
+          "right": "Playa de arena y mar"
+        },
+        {
+          "left": "Paisaje de llanura",
+          "right": "Terreno plano y extenso"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-el-paisaje-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la costa.",
+      "explanation": "La playa es la orilla de arena o piedras junto al mar.",
+      "lang": "es",
+      "sentence": "El terreno llano con arena que toca el mar es una ___.",
+      "options": [
+        "playa",
+        "cima",
+        "meseta"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-el-paisaje-06",
+      "type": "choice",
+      "prompt": "Hugo ve un túnel en una gran montaña. ¿Por qué se construyó?",
+      "explanation": "Las personas perforan túneles para viajar más rápido a través de las montañas.",
+      "hint": "Sirve para el transporte de personas y mercancías.",
+      "lang": "es",
+      "options": [
+        "Para plantar más árboles en la cumbre.",
+        "Para cruzar la montaña en coche o tren.",
+        "Para desviar el agua de la lluvia."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-sociales-el-paisaje-07",
+      "type": "order",
+      "prompt": "Ordena las partes de una montaña desde abajo hacia arriba.",
+      "explanation": "El pie es la parte baja, la falda es la ladera intermedia y la cima es lo más alto.",
+      "lang": "es",
+      "items": [
+        "Pie",
+        "Falda",
+        "Cima"
+      ]
+    },
+    {
+      "id": "g2-sociales-el-paisaje-08",
+      "type": "reading",
+      "prompt": "Lee con atención y responde a las preguntas.",
+      "explanation": "Recoger nuestros residuos mantiene el paisaje limpio y cuida a los animales.",
+      "lang": "es",
+      "title": "Excursión a la sierra",
+      "text": "Aisha y Omar fueron de excursión a la sierra. Encontraron un sendero precioso lleno de robles. Al terminar su merienda, guardaron todos los envoltorios en la mochila. Aisha dijo: «Si dejamos basura aquí, dañamos el bosque y a los animales». Ambos dejaron todo limpio y volvieron muy contentos a casa.",
+      "questions": [
+        {
+          "prompt": "¿Dónde fueron de excursión Aisha y Omar?",
+          "explanation": "El texto dice que fueron de excursión a la sierra.",
+          "options": [
+            "A la playa",
+            "A la ciudad",
+            "A la sierra"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué guardaron los envoltorios en la mochila?",
+          "explanation": "Guardaron la basura para proteger la naturaleza y no ensuciar el paisaje.",
+          "options": [
+            "Para no dañar el bosque ni a los animales.",
+            "Porque querían comer otra vez en casa.",
+            "Para que la mochila pesara mucho más."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-el-paisaje-09",
+      "type": "choice",
+      "prompt": "¿Qué ocurre si las personas talan un bosque entero?",
+      "explanation": "Al cortar los árboles sin control, los animales se quedan sin hogar ni alimento.",
+      "hint": "Piensa en dónde viven las aves y otros animales del bosque.",
+      "lang": "es",
+      "options": [
+        "Muchos animales pierden su refugio y comida.",
+        "Nacen ríos nuevos con agua salada.",
+        "Crecen flores gigantes en pocos días."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-el-paisaje-10",
+      "type": "classify",
+      "prompt": "Clasifica las acciones según su efecto en el paisaje.",
+      "explanation": "Plantar árboles y no salirte del camino cuida el entorno. La basura y las pintadas lo estropean.",
+      "lang": "es",
+      "categories": [
+        "Cuida el paisaje",
+        "Daña el paisaje"
+      ],
+      "items": [
+        {
+          "text": "Tirar botellas de plástico al río",
+          "category": 1
+        },
+        {
+          "text": "Plantar árboles con la escuela",
+          "category": 0
+        },
+        {
+          "text": "Pintar sobre las rocas del monte",
+          "category": 1
+        },
+        {
+          "text": "Caminar solo por los senderos marcados",
+          "category": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:27:23.223Z",
+    "reviewed": false
+  }
+}

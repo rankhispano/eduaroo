@@ -1,0 +1,229 @@
+{
+  "id": "g3-naturales-sistema-digestivo",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "sistema-digestivo",
+  "temaNombre": "Sistema digestivo",
+  "title": "El viaje de los alimentos",
+  "summary": "Repasa cómo funciona el sistema digestivo y cómo nuestro cuerpo aprovecha los nutrientes.",
+  "keyIdeas": [
+    "La digestión transforma los alimentos para extraer los nutrientes que necesitamos.",
+    "El tubo digestivo empieza en la boca y termina en el ano.",
+    "Los nutrientes pasan a la sangre en el intestino delgado."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-sistema-digestivo-01",
+      "type": "choice",
+      "prompt": "Lucía merienda una manzana en el recreo. ¿Dónde empieza la digestión de ese alimento? 🍎",
+      "explanation": "La digestión comienza en la boca gracias a los dientes que trituran y a la saliva que humedece.",
+      "hint": "Es el lugar donde masticamos la comida.",
+      "lang": "es",
+      "options": [
+        "En el esófago",
+        "En el estómago",
+        "En la boca"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-02",
+      "type": "true-false",
+      "prompt": "El esófago es un tubo que conecta la boca directamente con el intestino delgado.",
+      "explanation": "El esófago conecta la faringe con el estómago, no con el intestino delgado.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta sobre la digestión:",
+      "explanation": "Los jugos gástricos están en el estómago y descomponen los alimentos en una papilla.",
+      "hint": "La palabra empieza por g y tiene que ver con el estómago.",
+      "lang": "es",
+      "sentence": "En el estómago, los alimentos se mezclan con los jugos ___ para deshacerse.",
+      "options": [
+        "pulmonares",
+        "salivales",
+        "gástricos"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-04",
+      "type": "order",
+      "prompt": "Ordena el camino que sigue un trozo de pan desde que entra al cuerpo hasta que se digiere:",
+      "explanation": "El alimento viaja en orden desde la boca al esófago, estómago, intestino delgado y finalmente al grueso.",
+      "lang": "es",
+      "items": [
+        "Boca",
+        "Esófago",
+        "Estómago",
+        "Intestino delgado",
+        "Intestino grueso"
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-05",
+      "type": "match",
+      "prompt": "Une cada parte del sistema digestivo con su función principal:",
+      "explanation": "Los dientes mastican, el intestino delgado absorbe nutrientes y el grueso retira el agua sobrante.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Dientes",
+          "right": "Cortar y triturar la comida"
+        },
+        {
+          "left": "Intestino delgado",
+          "right": "Absorber los nutrientes"
+        },
+        {
+          "left": "Intestino grueso",
+          "right": "Absorber agua y formar las heces"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-06",
+      "type": "classify",
+      "prompt": "Clasifica estos elementos del cuerpo según si forman parte del tubo digestivo o son glándulas que ayudan:",
+      "explanation": "El tubo digestivo es el camino hueco que recorre la comida. El hígado, el páncreas y las glándulas salivales producen sustancias para ayudar.",
+      "lang": "es",
+      "categories": [
+        "Órganos del tubo digestivo",
+        "Glándulas digestivas"
+      ],
+      "items": [
+        {
+          "text": "Estómago",
+          "category": 0
+        },
+        {
+          "text": "Hígado",
+          "category": 1
+        },
+        {
+          "text": "Intestino delgado",
+          "category": 0
+        },
+        {
+          "text": "Glándulas salivales",
+          "category": 1
+        },
+        {
+          "text": "Páncreas",
+          "category": 1
+        },
+        {
+          "text": "Esófago",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-07",
+      "type": "reading",
+      "prompt": "Lee atentamente la experiencia de Omar y responde a las preguntas:",
+      "explanation": "La digestión química comienza en la boca gracias a las sustancias activas que contiene la saliva.",
+      "lang": "es",
+      "title": "El experimento de la galleta",
+      "text": "Omar hace un experimento en clase de Ciencias. La maestra le pide masticar un trozo de galleta salada durante dos minutos enteros sin tragarla. Al principio, la galleta sabe salada y crujiente. Poco a poco, la saliva empapa la masa. Omar nota algo curioso: después de masticar mucho tiempo, la galleta empieza a saber un poco dulce. La maestra explica que la saliva tiene unas sustancias especiales llamadas enzimas. Estas sustancias rompen los hidratos de carbono complejos de la galleta y los transforman en azúcares sencillos.",
+      "questions": [
+        {
+          "prompt": "¿Qué líquido de la boca transforma la galleta durante el experimento?",
+          "explanation": "El texto explica claramente que la saliva es la que actúa sobre la masa de la galleta.",
+          "options": [
+            "El agua del vaso",
+            "El jugo gástrico",
+            "La saliva"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué la galleta cambia de sabor y se vuelve dulce?",
+          "explanation": "Las enzimas de la saliva transforman los componentes del pan o la galleta en azúcares más simples.",
+          "options": [
+            "Porque la saliva convierte los hidratos de carbono en azúcares sencillos",
+            "Porque los dientes están hechos de azúcar",
+            "Porque Omar le añadió azúcar a escondidas"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-08",
+      "type": "choice",
+      "prompt": "Razonamiento científico: Martina mastica muy rápido la comida y apenas usa los dientes. ¿Qué pasará en su estómago? 🧪",
+      "explanation": "Si no trituramos bien con los dientes, los trozos grandes dificultan y retrasan el trabajo de los jugos gástricos.",
+      "hint": "Piensa en el trabajo extra que tendrá que hacer el estómago.",
+      "lang": "es",
+      "options": [
+        "El estómago tardará mucho más tiempo en digerir trozos tan grandes",
+        "Los nutrientes pasarán al instante a la sangre",
+        "El estómago digerirá todo más rápido porque no hay saliva"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-09",
+      "type": "choice",
+      "prompt": "Encuentra el error: Hugo ha escrito tres afirmaciones en su cuaderno. ¿Cuál contiene una idea INCORRECTA? ❌",
+      "explanation": "Es un error frecuente: la absorción de nutrientes ocurre en el intestino delgado. El intestino grueso se encarga sobre todo del agua y formar heces.",
+      "hint": "¿En qué intestino se absorben los nutrientes?",
+      "lang": "es",
+      "options": [
+        "Las heces se expulsan al exterior a través del ano",
+        "El bolo alimenticio se forma en la boca con la comida y la saliva",
+        "El intestino grueso es donde se absorben la mayoría de los nutrientes que pasan a la sangre"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-10",
+      "type": "true-false",
+      "prompt": "Beber suficiente agua y comer alimentos con fibra ayuda a que el intestino funcione correctamente.",
+      "explanation": "El agua y la fibra facilitan el movimiento de los alimentos por el tubo digestivo y previenen el estreñimiento.",
+      "lang": "es",
+      "answer": true
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:44:43.523Z",
+    "reviewed": false
+  }
+}

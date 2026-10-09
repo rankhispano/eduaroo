@@ -1,0 +1,255 @@
+{
+  "id": "g5-lengua-uso-del-diccionario",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "uso-del-diccionario",
+  "temaNombre": "Uso del diccionario",
+  "title": "Secretos y trucos del diccionario",
+  "summary": "Aprenderás a buscar palabras con rapidez, interpretar acepciones, abreviaturas y palabras guía para enriquecer tu vocabulario.",
+  "keyIdeas": [
+    "Las palabras se ordenan alfabéticamente; si la primera letra coincide, nos fijamos en la segunda, tercera o siguientes.",
+    "Los sustantivos y adjetivos se buscan en masculino singular y los verbos en infinitivo (-ar, -er, -ir).",
+    "Cada significado numerado de una palabra es una acepción y las palabras guía indican la primera y última palabra de la página."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE6",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "6.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC2",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD4",
+      "CE3",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-uso-del-diccionario-01",
+      "type": "order",
+      "prompt": "Hugo está ordenando las fichas de vocabulario para su clase. Ordena estas palabras tal como aparecerían en el diccionario:",
+      "explanation": "Todas empiezan por 'b', así que nos fijamos en la segunda letra: a (barco), o (botella), r (brújula) y u (buzón).",
+      "lang": "es",
+      "items": [
+        "barco",
+        "botella",
+        "brújula",
+        "buzón"
+      ]
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-02",
+      "type": "choice",
+      "prompt": "Lucía está leyendo una novela y encuentra la palabra 'escribíamos'. ¿Bajo qué forma debe buscarla en el diccionario?",
+      "explanation": "En el diccionario, las formas verbales siempre se buscan por su infinitivo, que en este caso es 'escribir'.",
+      "hint": "Recuerda que los verbos aparecen con las terminaciones -ar, -er o -ir.",
+      "lang": "es",
+      "options": [
+        "escribir",
+        "escribíamos",
+        "escrito",
+        "escribo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-03",
+      "type": "true-false",
+      "prompt": "En un diccionario escolar, las palabras guía de una página abierta son 'farola' y 'fiesta'. Por tanto, la palabra 'felino' se encuentra en esa página.",
+      "explanation": "Es correcto, porque alfabéticamente 'felino' va después de 'farola' (fa...) y antes de 'fiesta' (fi...).",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-04",
+      "type": "match",
+      "prompt": "Une cada abreviatura habitual del diccionario con su significado correspondiente:",
+      "explanation": "Las abreviaturas nos dan información gramatical muy valiosa sobre la categoría y características de cada palabra.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "sust. m.",
+          "right": "Sustantivo masculino"
+        },
+        {
+          "left": "adj.",
+          "right": "Adjetivo"
+        },
+        {
+          "left": "v. tr.",
+          "right": "Verbo transitivo"
+        },
+        {
+          "left": "sin.",
+          "right": "Sinónimo"
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-05",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según si aparecen tal cual como entrada en el diccionario o si debes transformar su forma para poder encontrarlas:",
+      "explanation": "Los sustantivos en singular y los verbos en infinitivo aparecen directamente. Las formas en plural, femenino de adjetivos o verbos conjugados deben transformarse.",
+      "lang": "es",
+      "categories": [
+        "Aparece tal cual (lema)",
+        "Hay que transformarla"
+      ],
+      "items": [
+        {
+          "text": "árbol",
+          "category": 0
+        },
+        {
+          "text": "cantábamos",
+          "category": 1
+        },
+        {
+          "text": "altas",
+          "category": 1
+        },
+        {
+          "text": "dormir",
+          "category": 0
+        },
+        {
+          "text": "pequeñitos",
+          "category": 1
+        },
+        {
+          "text": "sol",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-06",
+      "type": "fill-blank",
+      "prompt": "Completa la definición con el término correcto:",
+      "explanation": "Una acepción es cada uno de los diferentes significados que puede tener una palabra polisémica en el diccionario.",
+      "lang": "es",
+      "sentence": "Cada uno de los significados numerados que tiene una misma palabra dentro del artículo del diccionario se denomina ___.",
+      "options": [
+        "etimología",
+        "entrada",
+        "acepción"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-07",
+      "type": "choice",
+      "prompt": "Encuentra el error. Adrián le explica a su compañera cómo buscar palabras. ¿Cuál de sus afirmaciones es INCORRECTA?",
+      "explanation": "La afirmación sobre 'listas' es falsa: los adjetivos no se buscan en femenino plural, sino en masculino singular ('listo').",
+      "hint": "¿Cómo aparecen los adjetivos en el diccionario?",
+      "lang": "es",
+      "options": [
+        "Las palabras con la misma primera letra se ordenan por su segunda o tercera letra.",
+        "Si busco el adjetivo 'listas', debo buscarlo directamente como 'listas' en plural.",
+        "Para saber qué significa 'canciones', debo buscar la palabra 'canción'.",
+        "Para consultar el significado de 'comiste', debo buscar el verbo 'comer'."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-08",
+      "type": "choice",
+      "prompt": "Lee esta oración: 'El barco pesquero regresó al puerto tras avistar un enorme banco de sardinas'. ¿Qué acepción de la palabra 'banco' se está utilizando?",
+      "explanation": "En el contexto de la pesca y el mar, un banco es una gran agrupación de peces que nadan juntos.",
+      "hint": "Fíjate en el contexto marino de la frase.",
+      "lang": "es",
+      "options": [
+        "1. Asiento con respaldo o sin él, en que pueden sentarse varias personas.",
+        "2. Empresa dedicada a realizar operaciones financieras con dinero.",
+        "4. Establecimiento médico donde se conservan órganos o sangre para trasplantes.",
+        "3. Conjunto de peces que van juntos en gran número."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-09",
+      "type": "reading",
+      "prompt": "Lee atentamente el siguiente texto sobre una investigación en el aula y responde a las preguntas:",
+      "explanation": "La lectura demuestra la utilidad del diccionario y cómo este recoge el léxico vivo de la sociedad.",
+      "lang": "es",
+      "title": "El misterio del tomo gastado",
+      "text": "Durante la clase de Lengua, Omar y Nerea encontraron un tomo encuadernado en tela roja en la biblioteca del colegio. Era un diccionario ilustrado de 1960. Al abrirlo por la letra 'C', se fijaron en las palabras guía de la cabecera: 'Calamar - Calina'. Entre ellas descubrieron vocablos en desuso y grabados detallados de animales marinos.\n\nNerea buscó la palabra 'computadora' y comprobó con sorpresa que no aparecía en aquel ejemplar. Omar le explicó que los diccionarios reflejan la lengua viva de cada época, y que muchas palabras tecnológicas se incorporaron décadas más tarde. En cambio, hallaron términos rurales antiguos que hoy apenas se emplean en las ciudades. Ambos comprendieron que el diccionario no es solo una lista fija de palabras, sino un testimonio cambiante de nuestra historia y forma de vida.",
+      "questions": [
+        {
+          "prompt": "¿Por qué no aparecía la palabra 'computadora' en el diccionario de 1960?",
+          "explanation": "Como explica Omar, los diccionarios cambian con el tiempo y reflejan las palabras que se usan en cada época histórica.",
+          "options": [
+            "Porque las palabras de tecnología no pertenecían al uso común en esa época y se incorporaron más tarde.",
+            "Porque el diccionario tenía páginas arrancadas y estaba incompleto.",
+            "Porque en los diccionarios ilustrados nunca se incluyen inventos modernos."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Según las palabras guía de la página ('Calamar - Calina'), ¿cuál de estas palabras podría encontrarse en esa misma página?",
+          "explanation": "'Calambre' se sitúa alfabéticamente entre 'Calamar' (cala-m...) y 'Calina' (cali...). 'Cacao' va antes y 'Calor' va después.",
+          "options": [
+            "Calor",
+            "Cacao",
+            "Calambre"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué conclusión importante obtienen Omar y Nerea sobre la lengua al final de su lectura?",
+          "explanation": "El texto resalta que el diccionario es un testimonio cambiante que evoluciona con la historia y las necesidades de los hablantes.",
+          "options": [
+            "Que los diccionarios antiguos son mejores y más precisos que los actuales.",
+            "Que la lengua y los diccionarios están vivos y evolucionan junto con la sociedad.",
+            "Que no es necesario consultar el diccionario si conocemos las palabras modernas."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-10",
+      "type": "choice",
+      "prompt": "Aisha está consultando un diccionario digital y busca palabras que empiecen por 'des-'. ¿Cuál de las siguientes series de cuatro palabras está en riguroso ORDEN ALFABÉTICO?",
+      "explanation": "El orden correcto alfabético es: des-a-c (desactivar) -> des-á-n (desánimo) -> des-c (descubrir) -> des-f (desfile).",
+      "hint": "Compara letra a letra: desa..., desá..., desc..., desf...",
+      "lang": "es",
+      "options": [
+        "descubrir, desactivar, desánimo, desfile",
+        "desánimo, desactivar, desfile, descubrir",
+        "desactivar, desánimo, descubrir, desfile",
+        "desactivar, descubrir, desánimo, desfile"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T14:48:19.078Z",
+    "reviewed": false
+  }
+}

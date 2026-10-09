@@ -1,0 +1,262 @@
+{
+  "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "la-reproduccion-humana-y-la-pubertad",
+  "temaNombre": "La reproducción humana y la pubertad",
+  "title": "La reproducción humana y la pubertad",
+  "summary": "Repasa los cambios de la pubertad, el funcionamiento de los aparatos reproductores y las etapas del desarrollo humano.",
+  "keyIdeas": [
+    "La pubertad es una etapa natural donde el cuerpo madura física y emocionalmente gracias a las hormonas.",
+    "Los caracteres sexuales primarios son los órganos reproductores; los secundarios son los rasgos que aparecen durante la pubertad.",
+    "La reproducción humana requiere la unión del óvulo y el espermatozoide para formar una nueva vida que crece en el útero materno."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE5"
+    ],
+    "criteria": [
+      "4.1",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "CPSAA2",
+      "CPSAA3",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-01",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta sobre las células reproductoras:",
+      "explanation": "Los óvulos son los gametos o células reproductoras femeninas producidas en los ovarios, mientras que los espermatozoides se forman en los testículos.",
+      "hint": "Se forman en los ovarios.",
+      "lang": "es",
+      "sentence": "Las células reproductoras masculinas se llaman espermatozoides y las células reproductoras femeninas son los ___.",
+      "options": [
+        "óvulos",
+        "cigotos",
+        "embriones"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-02",
+      "type": "match",
+      "prompt": "Une cada órgano del aparato reproductor con su función principal:",
+      "explanation": "Cada órgano desempeña un papel clave en la reproducción: los ovarios y testículos crean gametos, las trompas conectan el ovario con el útero y el útero acoge el desarrollo fetal.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Ovarios",
+          "right": "Producen y maduran los óvulos"
+        },
+        {
+          "left": "Útero",
+          "right": "Alberga y nutre al embrión durante el embarazo"
+        },
+        {
+          "left": "Testículos",
+          "right": "Fabrican los espermatozoides"
+        },
+        {
+          "left": "Trompas de Falopio",
+          "right": "Comunican los ovarios con el útero y donde suele ocurrir la fecundación"
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-03",
+      "type": "classify",
+      "prompt": "Clasifica estos cambios corporales de la pubertad según en quiénes suelen manifestarse:",
+      "explanation": "Muchos cambios son comunes a ambos sexos, como el estirón o el vello corporal, mientras que otros son específicos por la acción de distintas hormonas.",
+      "lang": "es",
+      "categories": [
+        "Chicos",
+        "Chicas",
+        "Ambos"
+      ],
+      "items": [
+        {
+          "text": "Primera menstruación o regla",
+          "category": 1
+        },
+        {
+          "text": "Cambio notable hacia una voz más grave",
+          "category": 0
+        },
+        {
+          "text": "Aparición de vello en axilas y pubis",
+          "category": 2
+        },
+        {
+          "text": "Desarrollo de las mamas",
+          "category": 1
+        },
+        {
+          "text": "Crecimiento rápido de estatura (estirón)",
+          "category": 2
+        },
+        {
+          "text": "Aparición de vello facial en barba y bigote",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-04",
+      "type": "true-false",
+      "prompt": "Durante la pubertad solo se producen transformaciones biológicas y corporales, mientras que los gustos, emociones y relaciones sociales se mantienen idénticos a la infancia.",
+      "explanation": "Falso. La pubertad y la adolescencia implican también importantes cambios psicológicos, emocionales y sociales: se busca mayor autonomía, cambian los intereses y se viven las emociones con mayor intensidad.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-05",
+      "type": "order",
+      "prompt": "Ordena cronológicamente las fases de la reproducción humana desde el inicio hasta el nacimiento:",
+      "explanation": "La reproducción sigue una secuencia lógica: primero se produce la ovulación, luego la fecundación, después la implantación en el útero, el desarrollo durante el embarazo y, finalmente, el parto.",
+      "lang": "es",
+      "items": [
+        "Liberación de un óvulo maduro desde el ovario (ovulación)",
+        "Unión del espermatozoide con el óvulo en la trompa de Falopio (fecundación)",
+        "Fijación del cigoto en la pared del útero materno (implantación)",
+        "Desarrollo del embrión y feto con la ayuda de la placenta (embarazo)",
+        "Salida del bebé al exterior a través del canal del parto (nacimiento)"
+      ]
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-06",
+      "type": "choice",
+      "prompt": "🔍 Encuentra el error: En un debate en clase sobre la pubertad, cuatro compañeros dicen una frase. ¿Cuál de ellos ha afirmado una idea CIENTÍFICAMENTE ERRÓNEA?",
+      "explanation": "La afirmación de Omar es errónea. La pubertad no comienza en una fecha exacta ni igual para todo el mundo; suele iniciarse entre los 9 y los 14 años según factores biológicos y genéticos propios de cada persona.",
+      "hint": "Fíjate en si el desarrollo humano ocurre de forma simultánea e idéntica en todas las personas.",
+      "lang": "es",
+      "options": [
+        "Omar: «La pubertad empieza exactamente el día en que cumples 11 años en todas las personas del mundo».",
+        "Hugo: «Tener granitos o sudar más en esta etapa es completamente normal debido a la mayor actividad de las glándulas sebáceas y sudoríparas».",
+        "Lucía: «Una buena higiene diaria y el descanso suficiente ayudan a sentirse mejor con los cambios del cuerpo».",
+        "Aisha: «Cada persona inicia la pubertad a una edad diferente dentro de un rango normal; no todos crecemos al mismo ritmo»."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-07",
+      "type": "choice",
+      "prompt": "🧪 Razonamiento científico: Martina investiga cómo se nutre el futuro bebé. Si la sangre de la madre y la del feto no se mezclan directamente de forma libre, ¿a través de qué órgano se produce el intercambio de oxígeno y nutrientes?",
+      "explanation": "La placenta actúa como filtro e intermediaria: permite el paso de oxígeno y nutrientes de la sangre materna al feto por el cordón umbilical, y la eliminación de desechos, sin que sus sangres se mezclen directamente.",
+      "hint": "Es un órgano especial formado durante el embarazo que se conecta con el ombligo del bebé.",
+      "lang": "es",
+      "options": [
+        "A través del estómago del bebé, que digiere directamente la comida materna.",
+        "A través de la placenta y los vasos sanguíneos del cordón umbilical.",
+        "A través de los pulmones del bebé, que respiran el líquido amniótico."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-08",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto y contesta a las preguntas:",
+      "explanation": "La lectura muestra las bases biológicas de la pubertad (hormonas) y la importancia del respeto a los distintos ritmos de maduración.",
+      "lang": "es",
+      "title": "Un reloj biológico personal",
+      "text": "Durante la pubertad, nuestro cerebro envía señales químicas a través de unas sustancias llamadas hormonas. Estas actúan como mensajeros que indican al cuerpo que ha llegado el momento de crecer y desarrollarse. En el caso de las chicas, los estrógenos y la progesterona promueven cambios como el desarrollo de las mamas o el inicio del ciclo menstrual. En los chicos, la testosterona estimula el crecimiento muscular, el vello corporal y el cambio de voz.\n\nSin embargo, este proceso no empieza a la vez en todas las personas. Mientras algunos compañeros de 6º ya han dado un estirón notable, otros tardarán uno o dos años más en notar cambios evidentes. Esta diferencia de ritmos es completamente natural y saludable. La pubertad no es una carrera de velocidad, sino un viaje personal en el que el respeto mutuo y la empatía son fundamentales para que todo el mundo se sienta cómodo con su propio cuerpo.",
+      "questions": [
+        {
+          "prompt": "¿Qué sustancias químicas actúan como mensajeras para ordenar el inicio de los cambios corporales?",
+          "explanation": "El texto explica claramente que las hormonas son señales químicas que viajan por el organismo indicando al cuerpo que debe transformarse.",
+          "options": [
+            "Las vitaminas",
+            "Las hormonas",
+            "Los glóbulos blancos"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "A partir del texto, ¿qué se puede deducir sobre dos amigos de la misma clase que tienen distinta altura y desarrollo?",
+          "explanation": "El texto aclara que la pubertad tiene ritmos individuales; empezar antes o después entra dentro de la normalidad biológica.",
+          "options": [
+            "Que quien no haya crecido tiene un problema de salud grave.",
+            "Que cada organismo tiene su propio calendario biológico y ambos ritmos son normales.",
+            "Que quien madura antes será siempre más alto y fuerte en la edad adulta."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Por qué es importante comprender la diversidad de ritmos en la pubertad para la convivencia escolar?",
+          "explanation": "Comprender que cada cuerpo cambia a su ritmo ayuda a desarrollar empatía, aceptar la diversidad y evitar el acoso o las burlas relacionadas con el aspecto físico.",
+          "options": [
+            "Para exigir a los profesores que agrupen a los alumnos según su nivel de desarrollo corporal.",
+            "Para evitar burlas y comentarios incómodos sobre el cuerpo de los demás, fomentando un clima de respeto.",
+            "Para competir por ver quién completa antes todas las fases del crecimiento."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-09",
+      "type": "choice",
+      "prompt": "Adrián nota que últimamente se irrita con más facilidad por cosas pequeñas y a veces se siente inseguro respecto a su aspecto corporal. Su amiga Nerea le pide consejo. Desde el punto de vista del bienestar emocional en la pubertad, ¿cuál es la actitud más adecuada?",
+      "explanation": "Los cambios emocionales y de ánimo son habituales en la pubertad debido al ajuste hormonal y madurativo. Expresar lo que se siente y buscar apoyo en personas de confianza favorece una salud emocional positiva.",
+      "hint": "Piensa en qué actitud promueve la comunicación y la tranquilidad.",
+      "lang": "es",
+      "options": [
+        "Preocuparse en exceso porque los cambios de humor demuestran que algo no funciona bien en su salud mental.",
+        "Ocultar lo que siente, aislarse de su grupo de amigos y evitar hablar con adultos.",
+        "Reconocer que esos altibajos emocionales forman parte de los cambios hormonales y hablar con naturalidad con su familia o docentes."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-10",
+      "type": "match",
+      "prompt": "Relaciona cada término del desarrollo prenatal con su definición científica:",
+      "explanation": "El cigoto es la primera célula, el embrión comprende las primeras semanas de organogénesis, el feto es el estadio posterior donde crece y madura, y el líquido amniótico actúa como amortiguador protector.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Cigoto",
+          "right": "Célula inicial única formada tras la fusión del óvulo y el espermatozoide"
+        },
+        {
+          "left": "Embrión",
+          "right": "Organismo en desarrollo durante las primeras ocho semanas, formando sus órganos principales"
+        },
+        {
+          "left": "Feto",
+          "right": "Denominación a partir del tercer mes, cuando ya tiene forma reconocible y madura sus órganos"
+        },
+        {
+          "left": "Líquido amniótico",
+          "right": "Fluido que protege al feto contra golpes y mantiene la temperatura adecuada"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:21:06.602Z",
+    "reviewed": false
+  }
+}

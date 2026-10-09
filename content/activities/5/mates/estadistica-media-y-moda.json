@@ -1,0 +1,226 @@
+{
+  "id": "g5-mates-estadistica-media-y-moda",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "estadistica-media-y-moda",
+  "temaNombre": "Estadística: media y moda",
+  "title": "Investigamos con la media y moda",
+  "summary": "Interpreta y calcula la media y la moda a través de situaciones cotidianas y análisis de datos.",
+  "keyIdeas": [
+    "La moda es el dato que más veces se repite en un conjunto.",
+    "La media se calcula sumando todos los datos y dividiendo entre el número total de datos.",
+    "La media puede dar un número decimal aunque los datos sean números naturales."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "E. Sentido estocástico › Organización y análisis de datos",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-estadistica-media-y-moda-01",
+      "type": "choice",
+      "prompt": "En una encuesta sobre la mascota preferida de 5.º de Primaria se obtuvieron estos votos:\nPerro: 12, Gato: 8, Pájaro: 3, Pez: 8.\n¿Cuál es la moda de estos datos? 🐶🐱",
+      "explanation": "La moda es el valor o categoría que más se repite. El perro es la opción con mayor frecuencia (12 votos).",
+      "hint": "Busca la opción que tiene el número de votos más alto.",
+      "lang": "es",
+      "options": [
+        "El perro",
+        "El gato",
+        "El pez",
+        "12"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-02",
+      "type": "true-false",
+      "prompt": "Para calcular la media de un conjunto de datos, sumamos todos los valores y dividimos el resultado entre el número total de datos.",
+      "explanation": "Es correcto: la media aritmética se obtiene dividiendo la suma de todos los datos entre la cantidad total de datos recopilados.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-03",
+      "type": "match",
+      "prompt": "Une cada conjunto de notas con su moda correspondiente:",
+      "explanation": "En cada lista, la moda es la nota con mayor frecuencia: 7 aparece dos veces en la primera, 8 tres veces en la segunda, 9 tres veces en la tercera y 5 dos veces en la cuarta.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "6, 7, 7, 8, 9",
+          "right": "Moda: 7"
+        },
+        {
+          "left": "5, 6, 8, 8, 8",
+          "right": "Moda: 8"
+        },
+        {
+          "left": "9, 9, 10, 6, 9",
+          "right": "Moda: 9"
+        },
+        {
+          "left": "4, 5, 5, 6, 7",
+          "right": "Moda: 5"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-04",
+      "type": "order",
+      "prompt": "Ordena los pasos necesarios para calcular la media de goles que marcó Hugo en sus 4 partidos: 2, 1, 4 y 1 goles.",
+      "explanation": "El proceso correcto consiste primero en identificar los datos y su cantidad, luego sumarlos todos y, finalmente, dividir entre el número de sumandos.",
+      "lang": "es",
+      "items": [
+        "Identificar y contar cuántos datos tenemos en total (4 partidos)",
+        "Sumar todos los goles anotados: 2 + 1 + 4 + 1 = 8",
+        "Dividir la suma total entre el número de partidos: 8 ÷ 4 = 2",
+        "Concluir que la media del equipo es de 2 goles por partido"
+      ]
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-05",
+      "type": "choice",
+      "prompt": "Aisha ha leído varios libros durante cuatro meses: 3 libros en enero, 5 en febrero, 2 en marzo y 6 en abril. ¿Cuál es la media de libros leídos por mes? 📚",
+      "explanation": "Sumamos los libros: 3 + 5 + 2 + 6 = 16. Después dividimos entre los 4 meses: 16 ÷ 4 = 4 libros al mes.",
+      "hint": "Suma primero todos los libros y divide entre 4.",
+      "lang": "es",
+      "options": [
+        "4 libros",
+        "5 libros",
+        "16 libros",
+        "3 libros"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-06",
+      "type": "classify",
+      "prompt": "Clasifica cada afirmación según se refiera a la «Media» o a la «Moda»:",
+      "explanation": "La moda indica lo más frecuente (y puede ser cualitativo), mientras que la media es un cálculo de reparto equitativo que requiere sumas y divisiones numéricas.",
+      "lang": "es",
+      "categories": [
+        "Media",
+        "Moda"
+      ],
+      "items": [
+        {
+          "text": "Es el valor que tiene mayor frecuencia absoluta",
+          "category": 1
+        },
+        {
+          "text": "Se calcula sumando todos los valores y repartiéndolos en partes iguales",
+          "category": 0
+        },
+        {
+          "text": "Puede ser una cualidad que no sea un número (ej. color favorito)",
+          "category": 1
+        },
+        {
+          "text": "Siempre requiere realizar una suma y una división",
+          "category": 0
+        },
+        {
+          "text": "Representa el valor medio o promedio del conjunto",
+          "category": 0
+        },
+        {
+          "text": "Es el dato que más se repite en una lista",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-07",
+      "type": "choice",
+      "prompt": "¡Encuentra el error! 🔍 Omar quiere calcular la media de sus saltos en longitud: 3 m, 4 m y 5 m. Omar dice: «La media es 12 m porque sumé 3 + 4 + 5 = 12». ¿Qué error ha cometido?",
+      "explanation": "Omar sumó correctamente (3 + 4 + 5 = 12), pero olvidó el segundo paso: dividir entre la cantidad de saltos (12 ÷ 3 = 4 m).",
+      "hint": "¿Qué paso falta después de sumar todos los datos?",
+      "lang": "es",
+      "options": [
+        "Debería haber multiplicado los números en lugar de sumarlos",
+        "Ha sumado mal los números, porque 3 + 4 + 5 son 11",
+        "Ha sumado los saltos, pero ha olvidado dividir el resultado entre 3",
+        "Tenía que haber elegido el número 4 porque es la moda"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-08",
+      "type": "fill-blank",
+      "prompt": "Calcula mentalmente y completa la frase con la opción adecuada.",
+      "explanation": "Sumamos: 18 + 20 + 20 + 22 + 20 = 100. Dividimos entre los 5 días: 100 ÷ 5 = 20 °C.",
+      "hint": "Suma las cinco temperaturas y reparte entre 5.",
+      "lang": "es",
+      "sentence": "Las temperaturas máximas de lunes a viernes fueron 18 °C, 20 °C, 20 °C, 22 °C y 20 °C. La temperatura media fue de ___ °C.",
+      "options": [
+        "19",
+        "100",
+        "25",
+        "20"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-09",
+      "type": "choice",
+      "prompt": "En una carrera de atletismo escolar, cinco amigos registraron estos tiempos en segundos: 12, 14, 15, 15 y 16. ¿Cuáles son la media y la moda de estos tiempos? ⏱️",
+      "explanation": "La suma total es 12 + 14 + 15 + 15 + 16 = 72. Dividimos entre 5: 72 ÷ 5 = 14,4 s. El dato que más se repite es 15 s, por lo que esa es la moda.",
+      "hint": "Recuerda que la media puede tener decimales al dividir 72 entre 5.",
+      "lang": "es",
+      "options": [
+        "Media: 15 segundos | Moda: 14 segundos",
+        "Media: 14,4 segundos | Moda: 15 segundos",
+        "Media: 72 segundos | Moda: 15 segundos",
+        "Media: 14 segundos | Moda: 15 segundos"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-10",
+      "type": "choice",
+      "prompt": "Lucía ha obtenido estas calificaciones en cuatro controles de Lengua: 7, 8, 9 y 8. La semana que viene hará el quinto y último examen. Si quiere conseguir una media final exacta de 8, ¿qué nota necesita sacar en ese examen? 🎯",
+      "explanation": "Para que la media de 5 notas sea 8, la suma total debe ser 5 × 8 = 40. Las cuatro notas actuales suman 7 + 8 + 9 + 8 = 32. Por tanto, necesita 40 - 32 = 8.",
+      "hint": "Calcula cuánto deben sumar las 5 notas en total si la media tiene que ser 8.",
+      "lang": "es",
+      "options": [
+        "Un 8",
+        "Un 9",
+        "Un 10",
+        "Un 7"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:24:37.821Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "id": "g2-lengua-grupos-consonanticos",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "grupos-consonanticos",
+  "temaNombre": "Grupos consonánticos",
+  "title": "Aventuras con grupos consonánticos",
+  "summary": "Reconoce y escribe palabras con grupos consonánticos como bl, br, pr o tr.",
+  "keyIdeas": [
+    "Un grupo consonántico une dos consonantes seguidas en la misma sílaba, como en 'plato' o 'tren'.",
+    "Las letras 'l' y 'r' forman grupos con consonantes como b, c, d, f, g, p y t.",
+    "Pronunciar despacio cada sonido te ayuda a escribir todas las letras sin olvidar ninguna."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-grupos-consonanticos-01",
+      "type": "choice",
+      "prompt": "¿Qué grupo consonántico tiene la palabra 'brazo'?",
+      "explanation": "La palabra 'brazo' empieza por la letra b seguida de la r, formando el grupo 'br'.",
+      "hint": "Fíjate en las dos primeras letras de la palabra.",
+      "lang": "es",
+      "options": [
+        "br",
+        "bl",
+        "pr"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-02",
+      "type": "true-false",
+      "prompt": "La palabra 'globo' tiene el grupo consonántico 'gl'.",
+      "explanation": "¡Correcto! En la primera sílaba de 'globo' se unen la g y la l para sonar 'glo'.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-03",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra bien escrita para completar la frase.",
+      "explanation": "La forma correcta es 'plátano', con el grupo consonántico 'pl' al inicio.",
+      "lang": "es",
+      "sentence": "Aisha merienda un dulce ___ en el recreo.",
+      "options": [
+        "plátano",
+        "pátano",
+        "palátano"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-04",
+      "type": "match",
+      "prompt": "Une cada palabra con su grupo consonántico.",
+      "explanation": "Cada palabra contiene una pareja de consonantes que suenan juntas en la misma sílaba.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "dragón",
+          "right": "dr"
+        },
+        {
+          "left": "flecha",
+          "right": "fl"
+        },
+        {
+          "left": "tren",
+          "right": "tr"
+        },
+        {
+          "left": "clase",
+          "right": "cl"
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-05",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según tengan un grupo con R o con L.",
+      "explanation": "Las palabras 'primo', 'grillo' y 'fruta' llevan R acompañada. Las palabras 'blanco', 'pluma' y 'clavel' llevan L acompañada.",
+      "lang": "es",
+      "categories": [
+        "Grupos con R",
+        "Grupos con L"
+      ],
+      "items": [
+        {
+          "text": "primo",
+          "category": 0
+        },
+        {
+          "text": "blanco",
+          "category": 1
+        },
+        {
+          "text": "grillo",
+          "category": 0
+        },
+        {
+          "text": "pluma",
+          "category": 1
+        },
+        {
+          "text": "fruta",
+          "category": 0
+        },
+        {
+          "text": "clavel",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-06",
+      "type": "choice",
+      "prompt": "Encuentra el error. ¿Qué palabra está mal escrita en esta frase? 'Hugo lee un libor divertido en la biblioteca.'",
+      "explanation": "La palabra correcta es 'libro'. Las letras 'b' y 'r' deben ir juntas para formar el grupo 'br'.",
+      "hint": "Busca la palabra que tiene las letras cambiadas de orden.",
+      "lang": "es",
+      "options": [
+        "biblioteca",
+        "libor",
+        "Hugo"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-07",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta.",
+      "explanation": "La palabra adecuada es 'prado', que lleva el grupo consonántico 'pr'. 'Pardo' significa de color marrón.",
+      "lang": "es",
+      "sentence": "Nerea vio una mariposa en el verde ___ del parque.",
+      "options": [
+        "pardo",
+        "prado",
+        "padro"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-08",
+      "type": "reading",
+      "prompt": "Lee el texto con atención y responde a las preguntas.",
+      "explanation": "Al leer con calma encontramos la información y descubrimos palabras con grupos consonánticos como 'bl' en 'blanco'.",
+      "lang": "es",
+      "title": "La excursión de Clara",
+      "text": "Clara y Bruno van de excursión al campo. Llevan una cesta con fruta fresca y pan blanco. De pronto, Clara ve un grillo saltando entre las piedras. Bruno le saca una foto con su cámara. ¡Qué día tan alegre!",
+      "questions": [
+        {
+          "prompt": "¿Qué animal ve Clara en el campo?",
+          "explanation": "El texto dice claramente que Clara ve un grillo saltando entre las piedras.",
+          "options": [
+            "Un pez veloz.",
+            "Un grillo saltarín.",
+            "Un pájaro cantor."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué palabra del texto tiene el grupo consonántico 'bl'?",
+          "explanation": "La palabra 'blanco' empieza con el grupo 'bl'. 'Bruno' empieza con 'br' y 'piedras' lleva 'dr'.",
+          "options": [
+            "blanco",
+            "Bruno",
+            "piedras"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-09",
+      "type": "classify",
+      "prompt": "Separa estas palabras según lleven el grupo TR o el grupo DR.",
+      "explanation": "'Trompeta', 'estrella' y 'tractor' tienen 'tr'. 'Cuadro', 'cocodrilo' y 'piedra' tienen 'dr'.",
+      "lang": "es",
+      "categories": [
+        "Grupo TR",
+        "Grupo DR"
+      ],
+      "items": [
+        {
+          "text": "trompeta",
+          "category": 0
+        },
+        {
+          "text": "cuadro",
+          "category": 1
+        },
+        {
+          "text": "estrella",
+          "category": 0
+        },
+        {
+          "text": "cocodrilo",
+          "category": 1
+        },
+        {
+          "text": "tractor",
+          "category": 0
+        },
+        {
+          "text": "piedra",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-10",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar una frase con sentido.",
+      "explanation": "La oración ordenada es: 'La bruja prepara una crema mágica.' Fíjate en los grupos 'br' de bruja, 'pr' de prepara y 'cr' de crema.",
+      "lang": "es",
+      "items": [
+        "La",
+        "bruja",
+        "prepara",
+        "una",
+        "crema",
+        "mágica."
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:08:07.708Z",
+    "reviewed": false
+  }
+}

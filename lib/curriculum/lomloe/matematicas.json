@@ -1,0 +1,965 @@
+{
+  "area": "matematicas",
+  "name": "Matemáticas",
+  "source": "Real Decreto 157/2022, de 1 de marzo (BOE-A-2022-3296), Anexo II",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-3296",
+  "competencies": [
+    {
+      "id": "CE1",
+      "number": 1,
+      "text": "Interpretar situaciones de la vida cotidiana, proporcionando una representación matemática de las mismas mediante conceptos, herramientas y estrategias, para analizar la información más relevante.",
+      "descriptors": [
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CD2",
+        "CPSAA5",
+        "CE1",
+        "CE3",
+        "CCEC4"
+      ]
+    },
+    {
+      "id": "CE2",
+      "number": 2,
+      "text": "Resolver situaciones problematizadas, aplicando diferentes técnicas, estrategias y formas de razonamiento, para explorar distintas maneras de proceder, obtener soluciones y asegurar su validez desde un punto de vista formal y en relación con el contexto planteado.",
+      "descriptors": [
+        "STEM1",
+        "STEM2",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ]
+    },
+    {
+      "id": "CE3",
+      "number": 3,
+      "text": "Explorar, formular y comprobar conjeturas sencillas o plantear problemas de tipo matemático en situaciones basadas en la vida cotidiana, de forma guiada, reconociendo el valor del razonamiento y la argumentación, para contrastar su validez, adquirir e integrar nuevo conocimiento.",
+      "descriptors": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CD3",
+        "CD5",
+        "CE3"
+      ]
+    },
+    {
+      "id": "CE4",
+      "number": 4,
+      "text": "Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes, reconociendo patrones, generalizando e interpretando, modificando y creando algoritmos de forma guiada, para modelizar y automatizar situaciones de la vida cotidiana.",
+      "descriptors": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CD3",
+        "CD5",
+        "CE3"
+      ]
+    },
+    {
+      "id": "CE5",
+      "number": 5,
+      "text": "Reconocer y utilizar conexiones entre las diferentes ideas matemáticas, así como identificar las matemáticas implicadas en otras áreas o en la vida cotidiana, interrelacionando conceptos y procedimientos, para interpretar situaciones y contextos diversos.",
+      "descriptors": [
+        "STEM1",
+        "STEM3",
+        "CD3",
+        "CD5",
+        "CC4",
+        "CCEC1"
+      ]
+    },
+    {
+      "id": "CE6",
+      "number": 6,
+      "text": "Comunicar y representar, de forma individual y colectiva, conceptos, procedimientos y resultados matemáticos, utilizando el lenguaje oral, escrito, gráfico, multimodal y la terminología apropiados, para dar significado y permanencia a las ideas matemáticas.",
+      "descriptors": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD5",
+        "CE3",
+        "CCEC4"
+      ]
+    },
+    {
+      "id": "CE7",
+      "number": 7,
+      "text": "Desarrollar destrezas personales que ayuden a identificar y gestionar emociones al enfrentarse a retos matemáticos, fomentando la confianza en las propias posibilidades, aceptando el error como parte del proceso de aprendizaje y adaptándose a las situaciones de incertidumbre, para mejorar la perseverancia y disfrutar en el aprendizaje de las matemáticas.",
+      "descriptors": [
+        "STEM5",
+        "CPSAA1",
+        "CPSAA4",
+        "CPSAA5",
+        "CE2",
+        "CE3"
+      ]
+    },
+    {
+      "id": "CE8",
+      "number": 8,
+      "text": "Desarrollar destrezas sociales, reconociendo y respetando las emociones, las experiencias de los demás y el valor de la diversidad y participando activamente en equipos de trabajo heterogéneos con roles asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el bienestar personal y crear relaciones saludables.",
+      "descriptors": [
+        "CCL5",
+        "CP3",
+        "STEM3",
+        "CPSAA1",
+        "CPSAA3",
+        "CC2",
+        "CC3"
+      ]
+    }
+  ],
+  "cycles": [
+    {
+      "cycle": 1,
+      "grades": [
+        1,
+        2
+      ],
+      "criteria": [
+        {
+          "id": "1.1",
+          "competency": "CE1",
+          "text": "Comprender las preguntas planteadas a través de diferentes estrategias o herramientas, reconociendo la información contenida en problemas de la vida cotidiana."
+        },
+        {
+          "id": "1.2",
+          "competency": "CE1",
+          "text": "Proporcionar ejemplos de representaciones de situaciones problematizadas sencillas, con recursos manipulativos y gráficos que ayuden en la resolución de un problema de la vida cotidiana."
+        },
+        {
+          "id": "2.1",
+          "competency": "CE2",
+          "text": "Emplear algunas estrategias adecuadas en la resolución de problemas."
+        },
+        {
+          "id": "2.2",
+          "competency": "CE2",
+          "text": "Obtener posibles soluciones a problemas, de forma guiada, aplicando estrategias básicas de resolución."
+        },
+        {
+          "id": "2.3",
+          "competency": "CE2",
+          "text": "Describir verbalmente la idoneidad de las soluciones de un problema a partir de las preguntas previamente planteadas."
+        },
+        {
+          "id": "3.1",
+          "competency": "CE3",
+          "text": "Realizar conjeturas matemáticas sencillas, investigando patrones, propiedades y relaciones de forma guiada."
+        },
+        {
+          "id": "3.2",
+          "competency": "CE3",
+          "text": "Dar ejemplos de problemas a partir de situaciones cotidianas que se resuelven matemáticamente."
+        },
+        {
+          "id": "4.1",
+          "competency": "CE4",
+          "text": "Describir rutinas y actividades sencillas de la vida cotidiana que se realicen paso a paso, utilizando principios básicos del pensamiento computacional de forma guiada."
+        },
+        {
+          "id": "4.2",
+          "competency": "CE4",
+          "text": "Emplear herramientas tecnológicas adecuadas, de forma guiada, en el proceso de resolución de problemas."
+        },
+        {
+          "id": "5.1",
+          "competency": "CE5",
+          "text": "Reconocer conexiones entre los diferentes elementos matemáticos, aplicando conocimientos y experiencias propios."
+        },
+        {
+          "id": "5.2",
+          "competency": "CE5",
+          "text": "Reconocer las matemáticas presentes en la vida cotidiana y en otras áreas, estableciendo conexiones sencillas entre ellas."
+        },
+        {
+          "id": "6.1",
+          "competency": "CE6",
+          "text": "Reconocer lenguaje matemático sencillo presente en la vida cotidiana, adquiriendo vocabulario específico básico."
+        },
+        {
+          "id": "6.2",
+          "competency": "CE6",
+          "text": "Explicar ideas y procesos matemáticos sencillos, los pasos seguidos en la resolución de un problema o los resultados matemáticos, de forma verbal o gráfica."
+        },
+        {
+          "id": "7.1",
+          "competency": "CE7",
+          "text": "Reconocer las emociones básicas propias al abordar retos matemáticos, pidiendo ayuda solo cuando sea necesario."
+        },
+        {
+          "id": "7.2",
+          "competency": "CE7",
+          "text": "Expresar actitudes positivas ante retos matemáticos, valorando el error como una oportunidad de aprendizaje."
+        },
+        {
+          "id": "8.1",
+          "competency": "CE8",
+          "text": "Participar respetuosamente en el trabajo en equipo, estableciendo relaciones saludables basadas en el respeto, la igualdad y la resolución pacífica de conflictos."
+        },
+        {
+          "id": "8.2",
+          "competency": "CE8",
+          "text": "Aceptar la tarea y rol asignado en el trabajo en equipo, cumpliendo con las responsabilidades individuales y contribuyendo a la consecución de los objetivos del grupo."
+        }
+      ],
+      "basicKnowledge": [
+        {
+          "id": "A",
+          "title": "Sentido numérico",
+          "sections": [
+            {
+              "title": "Conteo",
+              "items": [
+                "Estrategias variadas de conteo y recuento sistemático en situaciones de la vida cotidiana en cantidades hasta el 999."
+              ]
+            },
+            {
+              "title": "Cantidad",
+              "items": [
+                "Estimaciones razonadas de cantidades en contextos de resolución de problemas.",
+                "Lectura, representación (incluida la recta numérica y con materiales manipulativos), composición, descomposición y recomposición de números naturales hasta 999.",
+                "Representación de una misma cantidad de distintas formas (manipulativa, gráfica o numérica) y estrategias de elección de la representación adecuada para cada situación o problema."
+              ]
+            },
+            {
+              "title": "Sentido de las operaciones",
+              "items": [
+                "Estrategias de cálculo mental con números naturales hasta 999.",
+                "Suma y resta de números naturales resueltas con flexibilidad y sentido: utilidad en situaciones contextualizadas, estrategias y herramientas de resolución y propiedades."
+              ]
+            },
+            {
+              "title": "Relaciones",
+              "items": [
+                "Sistema de numeración de base diez (hasta el 999): aplicación de las relaciones que genera en las operaciones.",
+                "Números naturales en contextos de la vida cotidiana: comparación y ordenación.",
+                "Relaciones entre la suma y la resta: aplicación en contextos cotidianos."
+              ]
+            },
+            {
+              "title": "Educación financiera",
+              "items": [
+                "Sistema monetario europeo: monedas (1, 2 euros) y billetes de euro (5, 10, 20, 50 y 100), valor y equivalencia."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Sentido de la medida",
+          "sections": [
+            {
+              "title": "Magnitud",
+              "items": [
+                "Atributos mensurables de los objetos (longitud, masa, capacidad), distancias y tiempos.",
+                "Unidades convencionales (metro, kilo y litro) y no convencionales en situaciones de la vida cotidiana.",
+                "Unidades de medida del tiempo (año, mes, semana, día y hora) en situaciones de la vida cotidiana."
+              ]
+            },
+            {
+              "title": "Medición",
+              "items": [
+                "Procesos para medir mediante repetición de una unidad y mediante la utilización de instrumentos convencionales (reglas, cintas métricas, balanzas, calendarios...) y no convencionales en contextos familiares."
+              ]
+            },
+            {
+              "title": "Estimación y relaciones",
+              "items": [
+                "Estrategias de comparación directa y ordenación de medidas de la misma magnitud.",
+                "Estimación de medidas (distancias, tamaños, masas, capacidades...) por comparación directa con otras medidas."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Sentido espacial",
+          "sections": [
+            {
+              "title": "Figuras geométricas de dos y tres dimensiones",
+              "items": [
+                "Figuras geométricas sencillas de dos dimensiones en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos.",
+                "Estrategias y técnicas de construcción de figuras geométricas sencillas de una, dos o tres dimensiones de forma manipulativa.",
+                "Vocabulario geométrico básico: descripción verbal de los elementos y las propiedades de figuras geométricas sencillas.",
+                "Propiedades de figuras geométricas de dos dimensiones: exploración mediante materiales manipulables y herramientas digitales."
+              ]
+            },
+            {
+              "title": "Localización y sistemas de representación",
+              "items": [
+                "Posición relativa de objetos en el espacio e interpretación de movimientos: descripción en referencia a uno mismo a través de vocabulario adecuado (arriba, abajo, delante, detrás, entre, más cerca que, menos cerca que, más lejos que, menos lejos que…)."
+              ]
+            },
+            {
+              "title": "Visualización, razonamiento y modelización geométrica",
+              "items": [
+                "Modelos geométricos en la resolución de problemas relacionados con los otros sentidos.",
+                "Relaciones geométricas: reconocimiento en el entorno."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Sentido algebraico",
+          "sections": [
+            {
+              "title": "Patrones",
+              "items": [
+                "Estrategias para la identificación, descripción oral, descubrimiento de elementos ocultos y extensión de secuencias a partir de las regularidades en una colección de números, figuras o imágenes."
+              ]
+            },
+            {
+              "title": "Modelo matemático",
+              "items": [
+                "Proceso guiado de modelización (dibujos, esquemas, diagramas, objetos manipulables, dramatizaciones...) en la comprensión y resolución de problemas de la vida cotidiana."
+              ]
+            },
+            {
+              "title": "Relaciones y funciones",
+              "items": [
+                "Expresión de relaciones de igualdad y desigualdad mediante los signos = y ≠ entre expresiones que incluyan operaciones.",
+                "Representación de la igualdad como expresión de una relación de equivalencia entre dos elementos y obtención de datos sencillos desconocidos (representados por medio de un símbolo) en cualquiera de los dos elementos."
+              ]
+            },
+            {
+              "title": "Pensamiento computacional",
+              "items": [
+                "Estrategias para la interpretación de algoritmos sencillos (rutinas, instrucciones con pasos ordenados…)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "E",
+          "title": "Sentido estocástico",
+          "sections": [
+            {
+              "title": "",
+              "items": [
+                "Estrategias de reconocimiento de los principales elementos y extracción de la información relevante de gráficos estadísticos sencillos de la vida cotidiana (pictogramas, gráficas de barras...).",
+                "Estrategias sencillas para la recogida, clasificación y recuento de datos cualitativos y cuantitativos en muestras pequeñas.",
+                "Representación de datos obtenidos a través de recuentos mediante gráficos estadísticos sencillos y recursos manipulables y tecnológicos."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F",
+          "title": "Sentido socioafectivo",
+          "sections": [
+            {
+              "title": "Creencias, actitudes y emociones",
+              "items": [
+                "Gestión emocional: estrategias de identificación y expresión de las propias emociones ante las matemáticas. Curiosidad e iniciativa en el aprendizaje de las matemáticas."
+              ]
+            },
+            {
+              "title": "Trabajo en equipo, inclusión, respeto y diversidad",
+              "items": [
+                "Identificación y rechazo de actitudes discriminatorias ante las diferencias individuales presentes en el aula. Actitudes inclusivas y aceptación de la diversidad del grupo.",
+                "Participación activa en el trabajo en equipo: interacción positiva y respeto por el trabajo de los demás.",
+                "Contribución de las matemáticas a los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "grades": [
+        3,
+        4
+      ],
+      "criteria": [
+        {
+          "id": "1.1",
+          "competency": "CE1",
+          "text": "Interpretar, de forma verbal o gráfica, problemas de la vida cotidiana, comprendiendo las preguntas planteadas a través de diferentes estrategias o herramientas, incluidas las tecnológicas."
+        },
+        {
+          "id": "1.2",
+          "competency": "CE1",
+          "text": "Producir representaciones matemáticas a través de esquemas o diagramas que ayuden en la resolución de una situación problematizada."
+        },
+        {
+          "id": "2.1",
+          "competency": "CE2",
+          "text": "Comparar entre diferentes estrategias para resolver un problema de forma pautada."
+        },
+        {
+          "id": "2.2",
+          "competency": "CE2",
+          "text": "Obtener posibles soluciones de un problema siguiendo alguna estrategia conocida."
+        },
+        {
+          "id": "2.3",
+          "competency": "CE2",
+          "text": "Demostrar la corrección matemática de las soluciones de un problema y su coherencia en el contexto planteado."
+        },
+        {
+          "id": "3.1",
+          "competency": "CE3",
+          "text": "Analizar conjeturas matemáticas sencillas investigando patrones, propiedades y relaciones de forma pautada."
+        },
+        {
+          "id": "3.2",
+          "competency": "CE3",
+          "text": "Dar ejemplos de problemas sobre situaciones cotidianas que se resuelven matemáticamente."
+        },
+        {
+          "id": "4.1",
+          "competency": "CE4",
+          "text": "Automatizar situaciones sencillas de la vida cotidiana que se realicen paso a paso o sigan una rutina, utilizando de forma pautada principios básicos del pensamiento computacional."
+        },
+        {
+          "id": "4.2",
+          "competency": "CE4",
+          "text": "Emplear herramientas tecnológicas adecuadas en el proceso de resolución de problemas."
+        },
+        {
+          "id": "5.1",
+          "competency": "CE5",
+          "text": "Realizar conexiones entre los diferentes elementos matemáticos, aplicando conocimientos y experiencias propios."
+        },
+        {
+          "id": "5.2",
+          "competency": "CE5",
+          "text": "Interpretar situaciones en contextos diversos, reconociendo las conexiones entre las matemáticas y la vida cotidiana."
+        },
+        {
+          "id": "6.1",
+          "competency": "CE6",
+          "text": "Reconocer el lenguaje matemático sencillo presente en la vida cotidiana en diferentes formatos, adquiriendo vocabulario específico básico y mostrando la comprensión del mensaje."
+        },
+        {
+          "id": "6.2",
+          "competency": "CE6",
+          "text": "Explicar los procesos e ideas matemáticas, los pasos seguidos en la resolución de un problema o los resultados obtenidos, utilizando un lenguaje matemático sencillo en diferentes formatos."
+        },
+        {
+          "id": "7.1",
+          "competency": "CE7",
+          "text": "Identificar las emociones propias al abordar retos matemáticos, pidiendo ayuda solo cuando sea necesario y desarrollando la autoconfianza."
+        },
+        {
+          "id": "7.2",
+          "competency": "CE7",
+          "text": "Mostrar actitudes positivas ante retos matemáticos tales como el esfuerzo y la flexibilidad, valorando el error como una oportunidad de aprendizaje."
+        },
+        {
+          "id": "8.1",
+          "competency": "CE8",
+          "text": "Trabajar en equipo activa y respetuosamente, comunicándose adecuadamente, respetando la diversidad del grupo y estableciendo relaciones saludables basadas en la igualdad y la resolución pacífica de conflictos."
+        },
+        {
+          "id": "8.2",
+          "competency": "CE8",
+          "text": "Participar en el reparto de tareas, asumiendo y respetando las responsabilidades individuales asignadas y empleando estrategias sencillas de trabajo en equipo dirigidas a la consecución de objetivos compartidos."
+        }
+      ],
+      "basicKnowledge": [
+        {
+          "id": "A",
+          "title": "Sentido numérico",
+          "sections": [
+            {
+              "title": "Conteo",
+              "items": [
+                "Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana en cantidades hasta el 9999."
+              ]
+            },
+            {
+              "title": "Cantidad",
+              "items": [
+                "Estrategias y técnicas de interpretación y manipulación del orden de magnitud de los números (decenas, centenas y millares).",
+                "Estimaciones y aproximaciones razonadas de cantidades en contextos de resolución de problemas.",
+                "Lectura, representación (incluida la recta numérica y con materiales manipulativos), composición, descomposición y recomposición de números naturales hasta 9999.",
+                "Fracciones propias con denominador hasta 12 en contextos de la vida cotidiana."
+              ]
+            },
+            {
+              "title": "Sentido de las operaciones",
+              "items": [
+                "Estrategias de cálculo mental con números naturales y fracciones.",
+                "Estrategias de reconocimiento de qué operaciones simples (suma, resta, multiplicación, división como reparto y partición) son útiles para resolver situaciones contextualizadas.",
+                "Construcción de las tablas de multiplicar apoyándose en número de veces, suma repetida o disposición en cuadrículas.",
+                "Suma, resta, multiplicación y división de números naturales resueltas con flexibilidad y sentido en situaciones contextualizadas: estrategias y herramientas de resolución y propiedades."
+              ]
+            },
+            {
+              "title": "Relaciones",
+              "items": [
+                "Sistema de numeración de base diez (hasta el 9999): aplicación de las relaciones que genera en las operaciones.",
+                "Números naturales y fracciones en contextos de la vida cotidiana: comparación y ordenación.",
+                "Relaciones entre la suma y la resta, y la multiplicación y la división: aplicación en contextos cotidianos."
+              ]
+            },
+            {
+              "title": "Educación financiera",
+              "items": [
+                "Cálculo y estimación de cantidades y cambios (euros y céntimos de euro) en problemas de la vida cotidiana: ingresos, gastos y ahorro. Decisiones de compra responsable."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Sentido de la medida",
+          "sections": [
+            {
+              "title": "Magnitud",
+              "items": [
+                "Atributos mensurables de los objetos (longitud, masa, capacidad, superficie, volumen y amplitud del ángulo).",
+                "Unidades convencionales (km, m, cm, mm; kg, g; l y ml) y no convencionales en situaciones de la vida cotidiana.",
+                "Medida del tiempo (año, mes, semana, día, hora y minutos) y determinación de la duración de periodos de tiempo."
+              ]
+            },
+            {
+              "title": "Medición",
+              "items": [
+                "Estrategias para realizar mediciones con instrumentos y unidades no convencionales (repetición de una unidad, uso de cuadrículas y materiales manipulativos) y convencionales.",
+                "Procesos de medición mediante instrumentos convencionales (regla, cinta métrica, balanzas, reloj analógico y digital)."
+              ]
+            },
+            {
+              "title": "Estimación y relaciones",
+              "items": [
+                "Estrategias de comparación y ordenación de medidas de la misma magnitud (km, m, cm, mm; kg, g; l y ml): aplicación de equivalencias entre unidades en problemas de la vida cotidiana que impliquen convertir en unidades más pequeñas.",
+                "Estimación de medidas de longitud, masa y capacidad por comparación.",
+                "Evaluación de resultados de mediciones y estimaciones o cálculos de medidas."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Sentido espacial",
+          "sections": [
+            {
+              "title": "Figuras geométricas de dos y tres dimensiones",
+              "items": [
+                "Figuras geométricas de dos o tres dimensiones en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos y a las relaciones entre ellos.",
+                "Estrategias y técnicas de construcción de figuras geométricas de dos dimensiones por composición y descomposición, mediante materiales manipulables, instrumentos de dibujo (regla y escuadra) y aplicaciones informáticas.",
+                "Vocabulario: descripción verbal de los elementos y las propiedades de figuras geométricas sencillas.",
+                "Propiedades de figuras geométricas de dos y tres dimensiones: exploración mediante materiales manipulables (cuadrículas, geoplanos, policubos, etc.) y el manejo de herramientas digitales (programas de geometría dinámica, realidad aumentada, robótica educativa, etc.)."
+              ]
+            },
+            {
+              "title": "Localización y sistemas de representación",
+              "items": [
+                "Descripción de la posición relativa de objetos en el espacio o de sus representaciones, utilizando vocabulario geométrico adecuado (paralelo, perpendicular, oblicuo, derecha, izquierda, etc.)",
+                "Descripción verbal e interpretación de movimientos, en relación a uno mismo o a otros puntos de referencia, utilizando vocabulario geométrico adecuado.",
+                "Interpretación de itinerarios en planos, utilizando soportes físicos y virtuales."
+              ]
+            },
+            {
+              "title": "Movimientos y transformaciones",
+              "items": [
+                "Identificación de figuras transformadas mediante traslaciones y simetrías en situaciones de la vida cotidiana.",
+                "Generación de figuras transformadas a partir de simetrías y traslaciones de un patrón inicial y predicción del resultado."
+              ]
+            },
+            {
+              "title": "Visualización, razonamiento y modelización geométrica",
+              "items": [
+                "Estrategias para el cálculo de perímetros de figuras planas y utilización en la resolución de problemas de la vida cotidiana.",
+                "Modelos geométricos en la resolución de problemas relacionados con los otros sentidos.",
+                "Reconocimiento de relaciones geométricas en campos ajenos a la clase de matemáticas, como el arte, las ciencias y la vida cotidiana."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Sentido algebraico",
+          "sections": [
+            {
+              "title": "Patrones",
+              "items": [
+                "Identificación, descripción verbal, representación y predicción razonada de términos a partir de las regularidades en una colección de números, figuras o imágenes."
+              ]
+            },
+            {
+              "title": "Modelo matemático",
+              "items": [
+                "Proceso pautado de modelización usando representaciones matemáticas (gráficas, tablas...) para facilitar la comprensión y la resolución de problemas de la vida cotidiana."
+              ]
+            },
+            {
+              "title": "Relaciones y funciones",
+              "items": [
+                "Relaciones de igualdad y desigualdad, y uso de los signos = y ≠ entre expresiones que incluyan operaciones y sus propiedades.",
+                "La igualdad como expresión de una relación de equivalencia entre dos elementos y obtención de datos sencillos desconocidos (representados por medio de un símbolo) en cualquiera de los dos elementos.",
+                "Representación de la relación «mayor que» y «menor que», y uso de los signos < y >."
+              ]
+            },
+            {
+              "title": "Pensamiento computacional",
+              "items": [
+                "Estrategias para la interpretación y modificación de algoritmos sencillos (reglas de juegos, instrucciones secuenciales, bucles, patrones repetitivos, programación por bloques, robótica educativa...)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "E",
+          "title": "Sentido estocástico",
+          "sections": [
+            {
+              "title": "Organización y análisis de datos",
+              "items": [
+                "Gráficos estadísticos de la vida cotidiana (pictogramas, gráficas de barras, histogramas...): lectura e interpretación.",
+                "Estrategias sencillas para la recogida, clasificación y organización de datos cualitativos o cuantitativos discretos en muestras pequeñas mediante calculadora y aplicaciones informáticas sencillas. Frecuencia absoluta: interpretación.",
+                "Gráficos estadísticos sencillos (diagrama de barras y pictogramas) para representar datos, seleccionando el más conveniente, mediante recursos tradicionales y aplicaciones informáticas sencillas.",
+                "La moda: interpretación como el dato más frecuente.",
+                "Comparación gráfica de dos conjuntos de datos para establecer relaciones y extraer conclusiones."
+              ]
+            },
+            {
+              "title": "Incertidumbre",
+              "items": [
+                "La probabilidad como medida subjetiva de la incertidumbre. Reconocimiento de la incertidumbre en situaciones de la vida cotidiana y mediante la realización de experimentos.",
+                "Identificación de suceso seguro, suceso posible y suceso imposible.",
+                "Comparación de la probabilidad de dos sucesos de forma intuitiva."
+              ]
+            },
+            {
+              "title": "Inferencia",
+              "items": [
+                "Formulación de conjeturas a partir de los datos recogidos y analizados, dándoles sentido en el contexto de estudio."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F",
+          "title": "Sentido socioafectivo",
+          "sections": [
+            {
+              "title": "Creencias, actitudes y emociones",
+              "items": [
+                "Gestión emocional: estrategias de identificación y manifestación de las propias emociones ante las matemáticas. Iniciativa y tolerancia ante la frustración en el aprendizaje de las matemáticas.",
+                "Fomento de la autonomía y estrategias para la toma de decisiones en situaciones de resolución de problemas."
+              ]
+            },
+            {
+              "title": "Trabajo en equipo, inclusión, respeto y diversidad",
+              "items": [
+                "Sensibilidad y respeto ante las diferencias individuales presentes en el aula: identificación y rechazo de actitudes discriminatorias.",
+                "Participación activa en el trabajo en equipo, escucha activa y respeto por el trabajo de los demás.",
+                "Reconocimiento y comprensión de las emociones y experiencias de los demás ante las matemáticas.",
+                "Valoración de la contribución de las matemáticas a los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cycle": 3,
+      "grades": [
+        5,
+        6
+      ],
+      "criteria": [
+        {
+          "id": "1.1",
+          "competency": "CE1",
+          "text": "Comprender problemas de la vida cotidiana a través de la reformulación de la pregunta, de forma verbal y gráfica."
+        },
+        {
+          "id": "1.2",
+          "competency": "CE1",
+          "text": "Elaborar representaciones matemáticas que ayuden en la búsqueda y elección de estrategias y herramientas, incluidas las tecnológicas, para la resolución de una situación problematizada."
+        },
+        {
+          "id": "2.1",
+          "competency": "CE2",
+          "text": "Seleccionar entre diferentes estrategias para resolver un problema, justificando la elección."
+        },
+        {
+          "id": "2.2",
+          "competency": "CE2",
+          "text": "Obtener posibles soluciones de un problema, seleccionando entre varias estrategias conocidas de forma autónoma."
+        },
+        {
+          "id": "2.3",
+          "competency": "CE2",
+          "text": "Comprobar la corrección matemática de las soluciones de un problema y su coherencia en el contexto planteado."
+        },
+        {
+          "id": "3.1",
+          "competency": "CE3",
+          "text": "Formular conjeturas matemáticas sencillas investigando patrones, propiedades y relaciones de forma guiada."
+        },
+        {
+          "id": "3.2",
+          "competency": "CE3",
+          "text": "Plantear nuevos problemas sobre situaciones cotidianas que se resuelvan matemáticamente."
+        },
+        {
+          "id": "4.1",
+          "competency": "CE4",
+          "text": "Modelizar situaciones de la vida cotidiana utilizando, de forma pautada, principios básicos del pensamiento computacional."
+        },
+        {
+          "id": "4.2",
+          "competency": "CE4",
+          "text": "Emplear herramientas tecnológicas adecuadas en la investigación y resolución de problemas."
+        },
+        {
+          "id": "5.1",
+          "competency": "CE5",
+          "text": "Utilizar conexiones entre diferentes elementos matemáticos movilizando conocimientos y experiencias propios."
+        },
+        {
+          "id": "5.2",
+          "competency": "CE5",
+          "text": "Utilizar las conexiones entre las matemáticas, otras áreas y la vida cotidiana para resolver problemas en contextos no matemáticos."
+        },
+        {
+          "id": "6.1",
+          "competency": "CE6",
+          "text": "Interpretar el lenguaje matemático sencillo presente en la vida cotidiana en diferentes formatos, adquiriendo vocabulario apropiado y mostrando la comprensión del mensaje."
+        },
+        {
+          "id": "6.2",
+          "competency": "CE6",
+          "text": "Comunicar en diferentes formatos las conjeturas y procesos matemáticos, utilizando lenguaje matemático adecuado."
+        },
+        {
+          "id": "7.1",
+          "competency": "CE7",
+          "text": "Autorregular las emociones propias y reconocer algunas fortalezas y debilidades, desarrollando así la autoconfianza al abordar retos matemáticos."
+        },
+        {
+          "id": "7.2",
+          "competency": "CE7",
+          "text": "Elegir actitudes positivas ante retos matemáticos, tales como la perseverancia y la responsabilidad, valorando el error como una oportunidad de aprendizaje."
+        },
+        {
+          "id": "8.1",
+          "competency": "CE8",
+          "text": "Trabajar en equipo activa, respetuosa y responsablemente, mostrando iniciativa, comunicándose de forma efectiva, valorando la diversidad, mostrando empatía y estableciendo relaciones saludables basadas en el respeto, la igualdad y la resolución pacífica de conflictos."
+        },
+        {
+          "id": "8.2",
+          "competency": "CE8",
+          "text": "Colaborar en el reparto de tareas, asumiendo y respetando las responsabilidades individuales asignadas y empleando estrategias de trabajo en equipo sencillas dirigidas a la consecución de objetivos compartidos."
+        }
+      ],
+      "basicKnowledge": [
+        {
+          "id": "A",
+          "title": "Sentido numérico",
+          "sections": [
+            {
+              "title": "Conteo",
+              "items": [
+                "Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana."
+              ]
+            },
+            {
+              "title": "Cantidad",
+              "items": [
+                "Estrategias y técnicas de interpretación y manipulación del orden de magnitud de los números.",
+                "Estimaciones y aproximaciones razonadas de cantidades en contextos de resolución de problemas.",
+                "Lectura, representación (incluida la recta numérica y con materiales manipulativos), composición, descomposición y recomposición de números naturales y decimales hasta las milésimas.",
+                "Fracciones y decimales para expresar cantidades en contextos de la vida cotidiana y elección de la mejor representación para cada situación o problema."
+              ]
+            },
+            {
+              "title": "Sentido de las operaciones",
+              "items": [
+                "Estrategias de cálculo mental con números naturales, fracciones y decimales.",
+                "Estrategias de reconocimiento de qué operaciones simples o combinadas (suma, resta, multiplicación, división) son útiles para resolver situaciones contextualizadas.",
+                "Potencia como producto de factores iguales. Cuadrados y cubos.",
+                "Estrategias de resolución de operaciones aritméticas (con números naturales, decimales y fracciones) con flexibilidad y sentido: mentalmente, de manera escrita o con calculadora; utilidad en situaciones contextualizadas y propiedades."
+              ]
+            },
+            {
+              "title": "Relaciones",
+              "items": [
+                "Sistema de numeración de base diez (números naturales y decimales hasta las milésimas): aplicación de las relaciones que genera en las operaciones.",
+                "Números naturales, fracciones y decimales hasta las milésimas en contextos de la vida cotidiana: comparación y ordenación.",
+                "Relaciones entre las operaciones aritméticas: aplicación en contextos cotidianos.",
+                "Relación de divisibilidad: múltiplos y divisores.",
+                "Relación entre fracciones sencillas, decimales y porcentajes."
+              ]
+            },
+            {
+              "title": "Razonamiento proporcional",
+              "items": [
+                "Situaciones proporcionales y no proporcionales en problemas de la vida cotidiana: identificación como comparación multiplicativa entre magnitudes.",
+                "Resolución de problemas de proporcionalidad, porcentajes y escalas de la vida cotidiana, mediante la igualdad entre razones, la reducción a la unidad o el uso de coeficientes de proporcionalidad."
+              ]
+            },
+            {
+              "title": "Educación financiera",
+              "items": [
+                "Resolución de problemas relacionados con el consumo responsable (valor/precio, calidad/precio y mejor precio) y con el dinero: precios, intereses y rebajas."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Sentido de la medida",
+          "sections": [
+            {
+              "title": "Magnitud",
+              "items": [
+                "Unidades convencionales del Sistema Métrico Decimal (longitud, masa, capacidad, volumen y superficie), tiempo y grado (ángulos) en contextos de la vida cotidiana: selección y uso de las unidades adecuadas."
+              ]
+            },
+            {
+              "title": "Medición",
+              "items": [
+                "Instrumentos (analógicos o digitales) y unidades adecuadas para medir longitudes, objetos, ángulos y tiempos: selección y uso."
+              ]
+            },
+            {
+              "title": "Estimación y relaciones",
+              "items": [
+                "Estrategias de comparación y ordenación de medidas de la misma magnitud, aplicando las equivalencias entre unidades (sistema métrico decimal) en problemas de la vida cotidiana.",
+                "Relación entre el sistema métrico decimal y el sistema de numeración decimal.",
+                "Estimación de medidas de ángulos y superficies por comparación.",
+                "Evaluación de resultados de mediciones y estimaciones o cálculos de medidas, razonando si son o no posibles."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Sentido espacial",
+          "sections": [
+            {
+              "title": "Figuras geométricas de dos y tres dimensiones",
+              "items": [
+                "Figuras geométricas en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos y a las relaciones entre ellos.",
+                "Técnicas de construcción de figuras geométricas por composición y descomposición, mediante materiales manipulables, instrumentos de dibujo y aplicaciones informáticas.",
+                "Vocabulario geométrico: descripción verbal de los elementos y las propiedades de figuras geométricas.",
+                "Propiedades de figuras geométricas: exploración mediante materiales manipulables (cuadrículas, geoplanos, policubos, etc.) y herramientas digitales (programas de geometría dinámica, realidad aumentada, robótica educativa, etc.)."
+              ]
+            },
+            {
+              "title": "Localización y sistemas de representación",
+              "items": [
+                "Localización y desplazamientos en planos y mapas a partir de puntos de referencia (incluidos los puntos cardinales), direcciones y cálculo de distancias (escalas): descripción e interpretación con el vocabulario adecuado en soportes físicos y virtuales.",
+                "Descripción de posiciones y movimientos en el primer cuadrante del sistema de coordenadas cartesiano."
+              ]
+            },
+            {
+              "title": "Movimientos y transformaciones",
+              "items": [
+                "Transformaciones mediante giros, traslaciones y simetrías en situaciones de la vida cotidiana: identificación de figuras transformadas, generación a partir de patrones iniciales y predicción del resultado.",
+                "Semejanza en situaciones de la vida cotidiana: identificación de figuras semejantes, generación a partir de patrones iniciales y predicción del resultado."
+              ]
+            },
+            {
+              "title": "Visualización, razonamiento y modelización geométrica",
+              "items": [
+                "Estrategias para el cálculo de áreas y perímetros de figuras planas en situaciones de la vida cotidiana.",
+                "Modelos geométricos en la resolución de problemas relacionados con los otros sentidos.",
+                "Elaboración de conjeturas sobre propiedades geométricas, utilizando instrumentos de dibujo (compás y transportador de ángulos) y programas de geometría dinámica.",
+                "Las ideas y las relaciones geométricas en el arte, las ciencias y la vida cotidiana."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Sentido algebraico",
+          "sections": [
+            {
+              "title": "Patrones",
+              "items": [
+                "Estrategias de identificación, representación (verbal o mediante tablas, gráficos y notaciones inventadas) y predicción razonada de términos a partir de las regularidades en una colección de números, figuras o imágenes.",
+                "Creación de patrones recurrentes a partir de regularidades o de otros patrones utilizando números, figuras o imágenes."
+              ]
+            },
+            {
+              "title": "Modelo matemático",
+              "items": [
+                "Proceso de modelización a partir de problemas de la vida cotidiana, usando representaciones matemáticas."
+              ]
+            },
+            {
+              "title": "Relaciones y funciones",
+              "items": [
+                "Relaciones de igualdad y desigualdad y uso de los signos < y >. Determinación de datos desconocidos (representados por medio de una letra o un símbolo) en expresiones sencillas relacionadas mediante estos signos y los signos = y ≠."
+              ]
+            },
+            {
+              "title": "Pensamiento computacional",
+              "items": [
+                "Estrategias para la interpretación, modificación y creación de algoritmos sencillos (secuencias de pasos ordenados, esquemas, simulaciones, patrones repetitivos, bucles, instrucciones anidadas y condicionales, representaciones computacionales, programación por bloques, robótica educativa...)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "E",
+          "title": "Sentido estocástico",
+          "sections": [
+            {
+              "title": "Organización y análisis de datos",
+              "items": [
+                "Conjuntos de datos y gráficos estadísticos de la vida cotidiana: descripción, interpretación y análisis crítico.",
+                "Estrategias para la realización de un estudio estadístico sencillo: formulación de preguntas, y recogida, registro y organización de datos cualitativos y cuantitativos procedentes de diferentes experimentos (encuestas, mediciones, observaciones…). Tablas de frecuencias absolutas y relativas: interpretación.",
+                "Gráficos estadísticos sencillos (diagrama de barras, diagrama de sectores, histograma, etc.): representación de datos mediante recursos tradicionales y tecnológicos y selección del más conveniente.",
+                "Medidas de centralización (media y moda): interpretación, cálculo y aplicación.",
+                "Medidas de dispersión (rango): cálculo e interpretación.",
+                "Calculadora y otros recursos digitales, como la hoja de cálculo, para organizar la información estadística y realizar diferentes visualizaciones de los datos.",
+                "Relación y comparación de dos conjuntos de datos a partir de su representación gráfica: formulación de conjeturas, análisis de la dispersión y obtención de conclusiones."
+              ]
+            },
+            {
+              "title": "Incertidumbre",
+              "items": [
+                "La incertidumbre en situaciones de la vida cotidiana: cuantificación y estimación subjetiva y mediante la comprobación de la estabilización de las frecuencias relativas en experimentos aleatorios repetitivos.",
+                "Cálculo de probabilidades en experimentos, comparaciones o investigaciones en los que sea aplicable la regla de Laplace: aplicación de técnicas básicas del conteo."
+              ]
+            },
+            {
+              "title": "Inferencia",
+              "items": [
+                "Identificación de un conjunto de datos como muestra de un conjunto más grande y reflexión sobre la población a la que es posible aplicar las conclusiones de investigaciones estadísticas sencillas."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "F",
+          "title": "Sentido socioafectivo",
+          "sections": [
+            {
+              "title": "Creencias, actitudes y emociones propias",
+              "items": [
+                "Autorregulación emocional: autoconcepto y aprendizaje de las matemáticas desde una perspectiva de género. Estrategias de mejora de la perseverancia y el sentido de la responsabilidad hacia el aprendizaje de las matemáticas.",
+                "Flexibilidad cognitiva, adaptación y cambio de estrategia en caso necesario. Valoración del error como oportunidad de aprendizaje."
+              ]
+            },
+            {
+              "title": "Trabajo en equipo, inclusión, respeto y diversidad",
+              "items": [
+                "Respeto por las emociones y experiencias de los demás ante las matemáticas.",
+                "Aplicación de técnicas simples para el trabajo en equipo en matemáticas, y estrategias para la gestión de conflictos, promoción de conductas empáticas e inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.",
+                "Valoración de la contribución de las matemáticas a los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

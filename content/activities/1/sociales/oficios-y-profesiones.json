@@ -1,0 +1,221 @@
+{
+  "id": "g1-sociales-oficios-y-profesiones",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "oficios-y-profesiones",
+  "temaNombre": "Oficios y profesiones",
+  "title": "¡Descubrimos los oficios y profesiones!",
+  "summary": "Reconoce diferentes trabajos, las herramientas que usan y cómo ayudan a la comunidad.",
+  "keyIdeas": [
+    "Todas las profesiones son importantes y ayudan a mejorar la vida de las personas.",
+    "Tanto mujeres como hombres pueden realizar cualquier trabajo u oficio.",
+    "Cada profesión utiliza herramientas y lugares de trabajo especiales para cumplir sus tareas."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE8",
+      "CE9"
+    ],
+    "criteria": [
+      "5.2",
+      "8.2",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CP3",
+      "CPSAA1",
+      "CPSAA3",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-oficios-y-profesiones-01",
+      "type": "choice",
+      "prompt": "¿Quién cuida de nuestra salud cuando nos ponemos enfermos? 🩺",
+      "explanation": "El personal médico revisa nuestra salud y nos receta medicinas para curarnos.",
+      "hint": "Trabaja en el centro de salud o en el hospital.",
+      "lang": "es",
+      "options": [
+        "El cartero o la cartera",
+        "El médico o la médica",
+        "El bombero o la bombera"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-02",
+      "type": "true-false",
+      "prompt": "Tanto las mujeres como los hombres pueden ser pilotos de avión.",
+      "explanation": "Cualquier persona puede elegir la profesión que le guste y formarse para ella.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-03",
+      "type": "match",
+      "prompt": "Une cada profesional con la herramienta que utiliza en su trabajo.",
+      "explanation": "Cada oficio necesita unas herramientas especiales para realizar bien sus tareas diarias.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Pintor o pintora",
+          "right": "Brocha"
+        },
+        {
+          "left": "Carpintero o carpintera",
+          "right": "Martillo"
+        },
+        {
+          "left": "Jardinero o jardinera",
+          "right": "Regadera"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-04",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra que completa la oración.",
+      "explanation": "Las maestras y maestros nos ayudan a aprender cosas nuevas en el colegio.",
+      "lang": "es",
+      "sentence": "La persona que nos enseña a leer y escribir es la ___.",
+      "options": [
+        "pescadora",
+        "mecánica",
+        "maestra"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-05",
+      "type": "classify",
+      "prompt": "Clasifica cada trabajo según el lugar donde se realiza habitualmente.",
+      "explanation": "Hay trabajos que se hacen dentro de edificios y otros en la calle o la naturaleza.",
+      "lang": "es",
+      "categories": [
+        "En un edificio o local",
+        "Al aire libre"
+      ],
+      "items": [
+        {
+          "text": "Cocinero en un restaurante",
+          "category": 0
+        },
+        {
+          "text": "Barrendera en la calle",
+          "category": 1
+        },
+        {
+          "text": "Dentista en una clínica",
+          "category": 0
+        },
+        {
+          "text": "Agricultor en el campo",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-06",
+      "type": "choice",
+      "prompt": "Hugo ve humo salir de una papelera del parque. ¿A quién debe avisar?",
+      "explanation": "Los bomberos se encargan de apagar el fuego y protegernos en situaciones de peligro.",
+      "hint": "Tienen camiones rojos con mangueras de agua.",
+      "lang": "es",
+      "options": [
+        "A los bomberos",
+        "A la cartera",
+        "Al fontanero"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-07",
+      "type": "order",
+      "prompt": "Ordena los pasos que sigue una panadera para preparar pan fresco.",
+      "explanation": "Primero se prepara la masa, luego se cocina al calor del horno y al final se vende.",
+      "lang": "es",
+      "items": [
+        "Mezcla la harina con agua y levadura",
+        "Mete la masa en el horno caliente",
+        "Coloca el pan recién hecho en la tienda"
+      ]
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-08",
+      "type": "choice",
+      "prompt": "En la frutería del barrio, Martina atiende a los vecinos. ¿Qué servicio ofrece Martina?",
+      "explanation": "En las fruterías se venden frutas y verduras frescas para cuidar nuestra alimentación.",
+      "hint": "Piensa en las manzanas y los plátanos.",
+      "lang": "es",
+      "options": [
+        "Vender alimentos frescos y saludables",
+        "Arreglar coches estropeados",
+        "Construir casas con ladrillos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-09",
+      "type": "true-false",
+      "prompt": "El trabajo de barrendero o barrendera no es necesario para el barrio.",
+      "explanation": "Todos los trabajos son muy necesarios. Mantener las calles limpias cuida nuestra salud y bienestar.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-10",
+      "type": "reading",
+      "prompt": "Lee esta historia y responde a las preguntas.",
+      "explanation": "Los mecánicos y mecánicas cuidan los vehículos para que circulen con seguridad.",
+      "lang": "es",
+      "title": "La visita al taller",
+      "text": "Hoy Aisha visita el taller mecánico de su tío Adrián. Adrián repara coches y motos. Revisa las ruedas y cambia el aceite con sus llaves inglesas. Aisha aprende que revisar los frenos ayuda a que los coches viajen seguros por la carretera.",
+      "questions": [
+        {
+          "prompt": "¿Qué vehículos arregla Adrián en su taller?",
+          "explanation": "El texto dice que Adrián trabaja reparando coches y motos en su taller mecánico.",
+          "options": [
+            "Trenes y tractores",
+            "Barcos y aviones",
+            "Coches y motos"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Por qué es importante el trabajo de Adrián para los vecinos?",
+          "explanation": "Al revisar piezas como los frenos, el mecánico ayuda a prevenir accidentes en la carretera.",
+          "options": [
+            "Porque permite viajar de forma segura en coche",
+            "Porque pinta las señales de la calle",
+            "Porque vende billetes de autobús"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:24:29.438Z",
+    "reviewed": false
+  }
+}

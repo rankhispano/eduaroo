@@ -1,0 +1,243 @@
+{
+  "id": "g3-ingles-las-tiendas",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "las-tiendas",
+  "temaNombre": "Las tiendas",
+  "title": "A Day at the Shops",
+  "summary": "Practica el vocabulario de las tiendas y frases útiles para comprar en inglés.",
+  "keyIdeas": [
+    "Usamos palabras como bakery (panadería), pet shop (tienda de mascotas) o toy shop (juguetería) para nombrar tiendas.",
+    "Para preguntar el precio de un objeto usamos la expresión 'How much is it?' (¿Cuánto cuesta?).",
+    "Frases amables habituales son 'Can I help you?' (¿Te puedo ayudar?) y 'Here you are' (Aquí tienes)."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "3.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-las-tiendas-01",
+      "type": "match",
+      "prompt": "Une cada tienda con el producto que se compra en ella:",
+      "explanation": "En la panadería (bakery) compramos pan, en la juguetería (toy shop) juguetes, en la tienda de mascotas (pet shop) comida para animales y en la de chuches (sweet shop) piruletas.",
+      "hint": "Piensa en el significado de palabras como 'bake' (hornear) o 'pet' (mascota).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "bakery",
+          "right": "bread"
+        },
+        {
+          "left": "toy shop",
+          "right": "robot"
+        },
+        {
+          "left": "pet shop",
+          "right": "dog food"
+        },
+        {
+          "left": "sweet shop",
+          "right": "lollipop"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-las-tiendas-02",
+      "type": "choice",
+      "prompt": "Lucía wants to buy a new book for school. Where does she go?",
+      "explanation": "Lucía va a la librería (bookshop) porque allí se venden libros (books). En la panadería compramos pan y en la tienda de animales cosas para mascotas.",
+      "hint": "Busca la palabra que contiene 'book'.",
+      "lang": "en",
+      "options": [
+        "To the bakery",
+        "To the bookshop",
+        "To the pet shop"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-las-tiendas-03",
+      "type": "true-false",
+      "prompt": "In a shop, the shop assistant often says: 'Can I help you?'",
+      "explanation": "Es verdadero. 'Can I help you?' significa '¿Te puedo ayudar?' y es la frase clásica y educada con la que atiende un dependiente.",
+      "hint": "'Help' significa ayudar.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-ingles-las-tiendas-04",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra correcta para preguntar el precio:",
+      "explanation": "Para preguntar el precio de algo usamos siempre 'How much is it?'. 'How many' se usa para contar cosas y 'How old' para la edad.",
+      "hint": "Recuerda la fórmula fija para el dinero y los precios.",
+      "lang": "en",
+      "sentence": "Excuse me, how ___ is this teddy bear?",
+      "options": [
+        "much",
+        "many",
+        "old"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-las-tiendas-05",
+      "type": "classify",
+      "prompt": "Clasifica cada producto en su tienda correspondiente:",
+      "explanation": "En la panadería (bakery) encontramos croissants, tartas y panecillos. En la juguetería (toy shop) compramos puzzles, juegos de mesa y muñecas.",
+      "hint": "Separa la comida horneada de los juegos.",
+      "lang": "en",
+      "categories": [
+        "Bakery",
+        "Toy shop"
+      ],
+      "items": [
+        {
+          "text": "croissant",
+          "category": 0
+        },
+        {
+          "text": "puzzle",
+          "category": 1
+        },
+        {
+          "text": "cake",
+          "category": 0
+        },
+        {
+          "text": "board game",
+          "category": 1
+        },
+        {
+          "text": "bread rolls",
+          "category": 0
+        },
+        {
+          "text": "doll",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-las-tiendas-06",
+      "type": "choice",
+      "prompt": "Omar has 5 euros. He buys an apple for 1 euro and a comic for 2 euros. How much change does he get?",
+      "explanation": "Omar gasta 1 + 2 = 3 euros. Como paga con un billete de 5 euros, su cambio es 5 - 3 = 2 euros.",
+      "hint": "Suma primero lo que gasta Omar y réstaselo a 5.",
+      "lang": "en",
+      "options": [
+        "1 euro",
+        "3 euros",
+        "2 euros"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-las-tiendas-07",
+      "type": "order",
+      "prompt": "Ordena este diálogo en una tienda desde el principio hasta el final:",
+      "explanation": "Primero el dependiente saluda y ofrece ayuda, luego el cliente pide lo que busca, el dependiente se lo entrega diciendo el precio y al final el cliente agradece y se despide.",
+      "hint": "Comienza por el saludo inicial del dependiente.",
+      "lang": "en",
+      "items": [
+        "Shop assistant: Hello! Can I help you?",
+        "Customer: Yes, please. I want a comic.",
+        "Shop assistant: Here you are. It is three euros.",
+        "Customer: Thank you! Goodbye!"
+      ]
+    },
+    {
+      "id": "g3-ingles-las-tiendas-08",
+      "type": "fill-blank",
+      "prompt": "Completa la respuesta educada del dependiente tras recibir el pago:",
+      "explanation": "En inglés, a la frase de agradecimiento 'Thank you' se responde 'You are welcome' (De nada).",
+      "hint": "Es la expresión que equivale a 'De nada'.",
+      "lang": "en",
+      "sentence": "Customer: 'Thank you very much!' - Shop assistant: 'You are ___!'",
+      "options": [
+        "welcome",
+        "please",
+        "sorry"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-las-tiendas-09",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions:",
+      "explanation": "¡Gran trabajo de lectura! Has identificado correctamente qué compra Leo para su perro y el lugar donde compraron las tartas de manzana.",
+      "hint": "Localiza en el texto las palabras 'pet shop' y 'bakery'.",
+      "lang": "en",
+      "title": "Saturday Morning Shopping",
+      "text": "On Saturday morning, Leo and Martina go to the town square with their grandfather. First, they visit the bakery to buy fresh bread and four apple pies. Next, they walk to the pet shop. Leo buys a blue ball for his puppy, Toby. Martina wants some pencils, so they go to the stationery shop. Finally, they visit the sweet shop and buy two fruit lollipops. Grandfather pays with ten euros and says: 'Thank you very much!' They are very happy with their shopping day.",
+      "questions": [
+        {
+          "prompt": "What does Leo buy in the pet shop?",
+          "explanation": "El texto dice expresamente: 'Leo buys a blue ball for his puppy, Toby'.",
+          "options": [
+            "Four apple pies",
+            "A blue ball for Toby",
+            "Two fruit lollipops"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Where do they buy the four apple pies?",
+          "explanation": "En el texto se explica: 'First, they visit the bakery to buy fresh bread and four apple pies'.",
+          "options": [
+            "At the bakery",
+            "At the sweet shop",
+            "At the stationery shop"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-las-tiendas-10",
+      "type": "choice",
+      "prompt": "Aisha smells hot bread and sweet biscuits. People are buying muffins. Which shop is she visiting?",
+      "explanation": "El olor a pan caliente y galletas indica con claridad que Aisha está en la panadería (bakery).",
+      "hint": "'Bread' significa pan y 'biscuits' galletas.",
+      "lang": "en",
+      "options": [
+        "The chemist",
+        "The clothes shop",
+        "The bakery"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:57:46.220Z",
+    "reviewed": false
+  }
+}

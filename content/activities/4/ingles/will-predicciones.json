@@ -1,0 +1,233 @@
+{
+  "id": "g4-ingles-will-predicciones",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "will-predicciones",
+  "temaNombre": "Will: predicciones",
+  "title": "Predictions: The World Tomorrow",
+  "summary": "Practica cómo hacer predicciones sobre el futuro usando will y won't en inglés.",
+  "keyIdeas": [
+    "Usamos 'will' seguido del verbo en infinitivo sin 'to' para predecir el futuro (ej. 'Cars will fly').",
+    "La forma negativa es 'won't' (will not), y tampoco cambia con he, she o it.",
+    "Para preguntar, colocamos 'Will' al principio de la frase (ej. 'Will robots cook?')."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-will-predicciones-01",
+      "type": "choice",
+      "prompt": "Look at those dark clouds! 🌧️ It ___ rain this afternoon.",
+      "explanation": "Usamos 'will' para hacer predicciones de futuro. Además, 'will' nunca cambia ni añade 's'.",
+      "hint": "Recuerda que para el futuro usamos la palabra auxiliar 'will'.",
+      "lang": "en",
+      "options": [
+        "is",
+        "wills",
+        "will"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-will-predicciones-02",
+      "type": "true-false",
+      "prompt": "'People won't live on Mars' means that people are definitely going to live on Mars.",
+      "explanation": "'Won't' es la forma negativa de 'will'. Por lo tanto, la frase significa que las personas no vivirán en Marte.",
+      "hint": "'Won't' es la forma corta de 'will not'.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-ingles-will-predicciones-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la forma correcta de futuro:",
+      "explanation": "La estructura de futuro es 'will' más el verbo en infinitivo sin 'to'.",
+      "hint": "Después del sujeto ponemos directamente 'will' antes del verbo principal.",
+      "lang": "en",
+      "sentence": "In the year 2050, robots ___ help doctors in hospitals.",
+      "options": [
+        "will",
+        "will to",
+        "are"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-will-predicciones-04",
+      "type": "match",
+      "prompt": "Une cada causa con su predicción lógica de futuro:",
+      "explanation": "Relacionamos cada situación presente con lo que predecimos que pasará en el futuro con 'will'.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Leo studies a lot for the exam.",
+          "right": "He will get a good mark."
+        },
+        {
+          "left": "It is freezing outside.",
+          "right": "It will snow tonight."
+        },
+        {
+          "left": "The smartphone has 1% battery.",
+          "right": "It will turn off soon."
+        },
+        {
+          "left": "Martina eats fruits and vegetables.",
+          "right": "She will be healthy and strong."
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-will-predicciones-05",
+      "type": "classify",
+      "prompt": "Clasifica estas predicciones según sean afirmativas o negativas:",
+      "explanation": "Las frases con 'will' son afirmativas y las frases con 'won't' son negativas.",
+      "lang": "en",
+      "categories": [
+        "Affirmative prediction",
+        "Negative prediction"
+      ],
+      "items": [
+        {
+          "text": "Cars will fly over the cities.",
+          "category": 0
+        },
+        {
+          "text": "People won't use dirty petrol.",
+          "category": 1
+        },
+        {
+          "text": "Houses will produce their own energy.",
+          "category": 0
+        },
+        {
+          "text": "Children won't carry heavy backpacks.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-will-predicciones-06",
+      "type": "fill-blank",
+      "prompt": "Completa la pregunta sobre el futuro:",
+      "explanation": "Para formular preguntas de predicción en futuro, colocamos 'Will' al principio de la frase.",
+      "hint": "Las preguntas sobre predicciones de futuro empiezan por el verbo auxiliar.",
+      "lang": "en",
+      "sentence": "___ people travel to the Moon for holidays?",
+      "options": [
+        "Will",
+        "Do",
+        "Are"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-will-predicciones-07",
+      "type": "order",
+      "prompt": "Ordena las palabras para formar una predicción correcta:",
+      "explanation": "El orden natural en inglés es: complemento temporal, sujeto (we), auxiliar (will), verbo (travel) y resto de la frase.",
+      "lang": "en",
+      "items": [
+        "In the future,",
+        "we",
+        "will",
+        "travel",
+        "by",
+        "electric train."
+      ]
+    },
+    {
+      "id": "g4-ingles-will-predicciones-08",
+      "type": "choice",
+      "prompt": "Omar and Aisha are talking about school in the future. Omar says: 'Teachers ___ us, but computers will help.'",
+      "explanation": "Detrás de 'will' siempre usamos el verbo en su forma base (teach), sin añadir 's' ni 'to'.",
+      "hint": "El verbo principal va en su forma base (infinitivo sin 'to' y sin 's').",
+      "lang": "en",
+      "options": [
+        "will still teach",
+        "will still teaches",
+        "will to teach"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-will-predicciones-09",
+      "type": "reading",
+      "prompt": "Lee el texto de Aisha sobre el futuro y responde a las preguntas:",
+      "explanation": "El texto nos muestra predicciones de Aisha sobre el cole, el transporte y el medio ambiente usando 'will' y 'will not'.",
+      "lang": "en",
+      "title": "Life in the Future by Aisha",
+      "text": "Life in the Future by Aisha.\nI think our world will be very different in fifty years. Students will not carry heavy backpacks because computers will hold all our lessons. Teachers will explain difficult projects, but helpful robots will organise the materials. In the playground, children will play games with interactive holograms. Also, flying buses will carry people to work and school, so traffic jams will disappear. We will use clean energy from the sun and wind. I think the future will be green and fun!",
+      "questions": [
+        {
+          "prompt": "Why won't students carry heavy backpacks in the future?",
+          "explanation": "El texto explica claramente: 'Students will not carry heavy backpacks because computers will hold all our lessons'.",
+          "options": [
+            "Because robots will carry their heavy bags.",
+            "Because students won't go to school.",
+            "Because computers will hold all their lessons."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Where will clean energy come from?",
+          "explanation": "Aisha menciona explícitamente: 'We will use clean energy from the sun and wind'.",
+          "options": [
+            "From the sun and wind.",
+            "From flying buses.",
+            "From petrol and coal."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-will-predicciones-10",
+      "type": "order",
+      "prompt": "Ordena las palabras para hacer una pregunta sobre el futuro:",
+      "explanation": "Para preguntar en futuro seguimos la estructura: Will + sujeto (robots) + verbo base (cook) + complementos (our dinner?).",
+      "lang": "en",
+      "items": [
+        "Will",
+        "robots",
+        "cook",
+        "our",
+        "dinner?"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:17:36.804Z",
+    "reviewed": false
+  }
+}

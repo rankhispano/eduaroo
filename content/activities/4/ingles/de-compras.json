@@ -1,0 +1,254 @@
+{
+  "id": "g4-ingles-de-compras",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "de-compras",
+  "temaNombre": "De compras",
+  "title": "Let's Go Shopping!",
+  "summary": "Practica vocabulario de tiendas, precios, compras y diálogos en inglés.",
+  "keyIdeas": [
+    "Usamos 'How much is...?' para cosas en singular y 'How much are...?' para cosas en plural.",
+    "Para pedir algo con cortesía decimos 'Can I have..., please?' y respondemos con 'Here you are'.",
+    "En el Reino Unido la moneda oficial es la libra (pound, £) y el penique (penny/pence, p)."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "3.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-de-compras-01",
+      "type": "match",
+      "prompt": "Match each shop with the item you can buy there.",
+      "explanation": "En la panadería (bakery) compras pan, en la juguetería (toy shop) peluches, en la librería (bookshop) cómics y en la zapatería (shoe shop) botas.",
+      "hint": "Piensa en el significado de 'bake' (hornear) y 'book' (libro).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Bakery",
+          "right": "Fresh bread"
+        },
+        {
+          "left": "Toy shop",
+          "right": "Teddy bear"
+        },
+        {
+          "left": "Bookshop",
+          "right": "Comic book"
+        },
+        {
+          "left": "Shoe shop",
+          "right": "Winter boots"
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-de-compras-02",
+      "type": "choice",
+      "prompt": "Elige la palabra adecuada para preguntar el precio: '___ much is this red scarf?'",
+      "explanation": "Para preguntar el precio en inglés siempre usamos la estructura 'How much...?' (¿Cuánto cuesta?).",
+      "hint": "Recuerda la combinación fija que usamos para saber cuánto vale algo.",
+      "lang": "en",
+      "options": [
+        "How",
+        "Who",
+        "Where"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-de-compras-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase para pedir algo amablemente en la tienda.",
+      "explanation": "Detrás del verbo modal 'can' siempre usamos la forma base del verbo: 'Can I have...?' (¿Me da/puedo tomar...?).",
+      "hint": "Usa la forma simple del verbo sin añadir 's' ni '-ing'.",
+      "lang": "en",
+      "sentence": "Can I ___ two apples, please?",
+      "options": [
+        "have",
+        "has",
+        "having"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-de-compras-04",
+      "type": "true-false",
+      "prompt": "In the United Kingdom, people use pounds (£) and pence (p) to pay in shops.",
+      "explanation": "Es verdadero. En el Reino Unido la moneda oficial es la libra esterlina (pound, £) dividida en peniques (pence, p).",
+      "hint": "Recuerda que en el Reino Unido no usan el euro.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-ingles-de-compras-05",
+      "type": "classify",
+      "prompt": "Clasifica cada artículo según la pregunta adecuada para saber su precio.",
+      "explanation": "Usamos 'How much is...?' con elementos en singular (T-shirt, pencil case, cap) y 'How much are...?' con sustantivos en plural (socks, shoes, sunglasses).",
+      "hint": "Fíjate si la prenda o el objeto termina en 's' de plural.",
+      "lang": "en",
+      "categories": [
+        "How much is...?",
+        "How much are...?"
+      ],
+      "items": [
+        {
+          "text": "this blue T-shirt",
+          "category": 0
+        },
+        {
+          "text": "these yellow socks",
+          "category": 1
+        },
+        {
+          "text": "that big pencil case",
+          "category": 0
+        },
+        {
+          "text": "those black shoes",
+          "category": 1
+        },
+        {
+          "text": "these cool sunglasses",
+          "category": 1
+        },
+        {
+          "text": "the green cap",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-de-compras-06",
+      "type": "order",
+      "prompt": "Ordena esta conversación en la tienda de Aisha del principio al final.",
+      "explanation": "Primero el dependiente saluda y ofrece ayuda, luego el cliente pregunta el precio, el vendedor contesta, el cliente paga diciendo 'Here you are' y finalmente se despiden cordialmente.",
+      "hint": "Empieza con el saludo del vendedor y termina con la despedida final.",
+      "lang": "en",
+      "items": [
+        "Hello! Can I help you?",
+        "Yes, please. How much is that mug?",
+        "It is four pounds.",
+        "Here you are. Thank you!",
+        "You are welcome. Have a nice day!"
+      ]
+    },
+    {
+      "id": "g4-ingles-de-compras-07",
+      "type": "choice",
+      "prompt": "Omar has €10. He buys a notebook for €4 and a pen for €2. How much change does he get?",
+      "explanation": "Omar gasta 4 + 2 = 6 euros. Como paga con un billete de 10 euros, su cambio (change) es 10 - 6 = 4 euros.",
+      "hint": "Suma primero lo que gasta en total y réstaselo a los 10 euros.",
+      "lang": "en",
+      "options": [
+        "€2",
+        "€6",
+        "€4"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-de-compras-08",
+      "type": "fill-blank",
+      "prompt": "Completa la frase que dice la cajera al entregar el dinero que te sobra.",
+      "explanation": "En inglés, 'change' significa 'cambio' o 'vuelta' cuando nos devuelven el dinero sobrante tras pagar.",
+      "hint": "Busca la palabra que significa 'vuelta' o dinero devuelto.",
+      "lang": "en",
+      "sentence": "Here is your ___ , thank you!",
+      "options": [
+        "change",
+        "shopping",
+        "price"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-de-compras-09",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "Has demostrado una gran comprensión leyendo los detalles de la compra en el mercado.",
+      "lang": "en",
+      "title": "A Morning at Camden Market",
+      "text": "Lucía and her brother Hugo are at the street market on Saturday morning. Lucía wants to buy a present for her friend Aisha. They stop at a colourful stall with toys and stationery. Lucía asks the seller, 'Excuse me, how much is the green notebook?' The seller smiles and says, 'It is four pounds, but today it has a discount: it is only three pounds!' Hugo finds a funny pen shaped like a cat for two pounds. Lucía pays five pounds in total for the notebook and the pen. 'Here is your bag. Have a wonderful day!' says the seller.",
+      "questions": [
+        {
+          "prompt": "Who is the present for?",
+          "explanation": "El texto dice expresamente: 'Lucía wants to buy a present for her friend Aisha'.",
+          "options": [
+            "Aisha",
+            "Hugo",
+            "The seller"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How much is the discount on the notebook?",
+          "explanation": "El cuaderno costaba 4 libras y con descuento cuesta 3 libras, por lo que el descuento es de 1 libra (4 - 3 = 1).",
+          "options": [
+            "£4",
+            "£1",
+            "£2"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "How much money does Lucía pay altogether for the notebook and the cat pen?",
+          "explanation": "El cuaderno cuesta 3 libras y el bolígrafo 2 libras. En total paga 3 + 2 = 5 libras ('Lucía pays five pounds in total').",
+          "options": [
+            "£3",
+            "£6",
+            "£5"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-de-compras-10",
+      "type": "choice",
+      "prompt": "Hugo wants to buy a comic for £6 and a badge for £3. He only has £7. How much more money does he need?",
+      "explanation": "El cómic y la chapa cuestan 6 + 3 = 9 libras en total. Como Hugo solo tiene 7 libras, necesita 9 - 7 = 2 libras más.",
+      "hint": "Calcula el precio total de los dos artículos y réstale lo que tiene Hugo.",
+      "lang": "en",
+      "options": [
+        "£3",
+        "£2",
+        "£1"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:16:51.971Z",
+    "reviewed": false
+  }
+}

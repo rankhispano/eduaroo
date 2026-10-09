@@ -1,0 +1,226 @@
+{
+  "id": "g4-naturales-sistema-nervioso",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "sistema-nervioso",
+  "temaNombre": "Sistema nervioso",
+  "title": "Misión: El sistema nervioso",
+  "summary": "Descubre cómo tu cerebro y tus nervios controlan todo lo que haces cada día.",
+  "keyIdeas": [
+    "El sistema nervioso recibe información de los sentidos, la procesa y ordena una respuesta.",
+    "El encéfalo y la médula espinal forman el sistema nervioso central.",
+    "Los nervios conectan todo tu cuerpo para transmitir mensajes muy rápidos mediante neuronas."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-sistema-nervioso-01",
+      "type": "choice",
+      "prompt": "En el recreo, Hugo decide lanzar un pase a Martina. ¿Qué órgano principal toma esa decisión voluntaria?",
+      "explanation": "El cerebro es el órgano del encéfalo encargado de pensar, recordar y tomar decisiones voluntarias.",
+      "hint": "Se encuentra dentro del cráneo y controla tus pensamientos.",
+      "lang": "es",
+      "options": [
+        "El corazón",
+        "El estómago",
+        "El cerebro"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-02",
+      "type": "true-false",
+      "prompt": "Los nervios recorren todo el cuerpo como una red de cables para llevar y traer información.",
+      "explanation": "Los nervios forman una red por todo el cuerpo que conecta los órganos y sentidos con el encéfalo y la médula.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta sobre las células del sistema nervioso.",
+      "explanation": "Las neuronas son las células nerviosas que transmiten señales e impulsos por todo nuestro cuerpo.",
+      "lang": "es",
+      "sentence": "Las células especializadas en transmitir información eléctrica por todo el sistema nervioso son las ___.",
+      "options": [
+        "neuronas",
+        "plaquetas",
+        "bacterias"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-04",
+      "type": "match",
+      "prompt": "Une cada parte del sistema nervioso con su función principal.",
+      "explanation": "El cerebro piensa, el cerebelo mantiene el equilibrio al movernos y la médula conecta el encéfalo con los nervios.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Cerebro",
+          "right": "Controla los recuerdos y las decisiones"
+        },
+        {
+          "left": "Cerebelo",
+          "right": "Coordina el equilibrio y los movimientos"
+        },
+        {
+          "left": "Médula espinal",
+          "right": "Conduce mensajes y gestiona reflejos rápidos"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-05",
+      "type": "classify",
+      "prompt": "Clasifica cada una de estas acciones según el tipo de movimiento que realiza el sistema nervioso.",
+      "explanation": "Los movimientos voluntarios los decidimos nosotros. Los involuntarios o reflejos ocurren automáticamente para protegernos o mantenernos con vida.",
+      "lang": "es",
+      "categories": [
+        "Movimiento voluntario",
+        "Movimiento involuntario o reflejo"
+      ],
+      "items": [
+        {
+          "text": "Escribir tu nombre en el cuaderno",
+          "category": 0
+        },
+        {
+          "text": "El latido del corazón mientras duermes",
+          "category": 1
+        },
+        {
+          "text": "Retirar la mano al pincharte con una espina",
+          "category": 1
+        },
+        {
+          "text": "Chutar un balón de fútbol hacia la portería",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-06",
+      "type": "order",
+      "prompt": "Ordena los pasos que sigue tu sistema nervioso cuando suena la alarma del despertador.",
+      "explanation": "Primero captamos el estímulo con un sentido, viaja al cerebro, este decide la respuesta y la envía a los músculos.",
+      "lang": "es",
+      "items": [
+        "El oído capta el sonido de la alarma",
+        "Los nervios llevan el mensaje sonoro hasta el cerebro",
+        "El cerebro procesa la información y decide apagar la alarma",
+        "Los nervios envían la orden a los músculos del brazo",
+        "La mano se mueve y presiona el botón"
+      ]
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-07",
+      "type": "choice",
+      "prompt": "Aisha escucha varias opiniones de sus compañeros en clase de Ciencias. ¿Quién está diciendo un ERROR?",
+      "explanation": "Lucía se equivoca. El latido del corazón es una función involuntaria controlada automáticamente por el sistema nervioso.",
+      "hint": "Piensa en qué órganos funcionan sin que tengamos que ordenarles nada.",
+      "lang": "es",
+      "options": [
+        "Adrián dice: Cuando dormimos, el sistema nervioso sigue controlando nuestra respiración.",
+        "Lucía dice: Podemos controlar voluntariamente los latidos de nuestro corazón si pensamos con mucha fuerza.",
+        "Omar dice: El cráneo y la columna vertebral protegen partes delicadas del sistema nervioso."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-08",
+      "type": "choice",
+      "prompt": "En clase sueltan una regla vertical entre los dedos de Nerea para medir su tiempo de reacción. Con luz la atrapa a los 10 cm. Con los ojos cerrados y guiada por un sonido, la atrapa a los 22 cm. ¿Qué conclusión científica explica este resultado?",
+      "explanation": "Cuanto mayor es la distancia en centímetros de la regla, más tiempo ha tardado en reaccionar. Su respuesta fue más rápida con la vista.",
+      "hint": "Fíjate en qué número de centímetros es más pequeño.",
+      "lang": "es",
+      "options": [
+        "El sistema nervioso no funciona cuando cerramos los ojos",
+        "Nerea reacciona más despacio al estímulo sonoro que al estímulo visual",
+        "La regla cae mucho más rápido cuando hay ruido en la habitación"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-09",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto y responde a las preguntas.",
+      "explanation": "Ramón y Cajal demostró con pruebas visuales que las neuronas son células individuales, transformando la ciencia para siempre.",
+      "lang": "es",
+      "title": "Un gran científico español",
+      "text": "Hace más de cien años, el médico español Santiago Ramón y Cajal investigaba el cerebro humano en su laboratorio. En aquella época, muchos científicos creían que el sistema nervioso era una red continua y pegada, como una tela de araña gigante.\n\nCajal utilizó un microscopio y tintes especiales para observar muestras con enorme paciencia. Así descubrió que el tejido nervioso está formado por células individuales que no están pegadas del todo, sino separadas por diminutos espacios. Las llamó neuronas. Gracias a este gran hallazgo, demostró cómo viajan los mensajes por el cuerpo y ganó el Premio Nobel de Medicina.",
+      "questions": [
+        {
+          "prompt": "¿Qué instrumento utilizó Ramón y Cajal para observar las células del cerebro?",
+          "explanation": "El texto indica expresamente que utilizó un microscopio y tintes especiales para observar las muestras.",
+          "options": [
+            "Una lupa de mano",
+            "Un telescopio",
+            "Un microscopio"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Cuál fue el gran descubrimiento de Ramón y Cajal sobre el sistema nervioso?",
+          "explanation": "Demostró que el sistema nervioso no era una red continua, sino un conjunto de células independientes llamadas neuronas.",
+          "options": [
+            "Descubrió cómo hacer que los huesos crezcan más deprisa",
+            "Demostró que el cerebro está formado por una sola red continua sin células",
+            "Descubrió que el sistema nervioso está formado por células individuales llamadas neuronas"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-10",
+      "type": "choice",
+      "prompt": "Wei va en bicicleta al parque. ¿Por qué es fundamental que se ponga el casco para cuidar su sistema nervioso?",
+      "explanation": "El casco amortigua los golpes en la cabeza, protegiendo el cráneo y el encéfalo de traumatismos graves.",
+      "hint": "Piensa qué órgano vital del sistema nervioso se encuentra dentro de la cabeza.",
+      "lang": "es",
+      "options": [
+        "Porque el casco ayuda a que los nervios de las piernas pedaleen con más fuerza",
+        "Porque el casco permite que los ojos vean mejor las señales de tráfico",
+        "Porque el casco protege el cráneo y evita lesiones graves en el encéfalo"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:56:00.110Z",
+    "reviewed": false
+  }
+}

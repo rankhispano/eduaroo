@@ -1,0 +1,269 @@
+{
+  "id": "g5-naturales-la-litosfera",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "la-litosfera",
+  "temaNombre": "La litosfera",
+  "title": "Explorando los secretos de la litosfera",
+  "summary": "Repasa las capas de la Tierra, las rocas, los minerales y los procesos geológicos que modelan nuestro relieve.",
+  "keyIdeas": [
+    "La litosfera es la capa sólida exterior de la Tierra, formada por la corteza y la parte superior del manto.",
+    "Las rocas están compuestas por uno o más minerales y se clasifican en sedimentarias, ígneas y metamórficas según su origen.",
+    "El relieve terrestre cambia continuamente por procesos internos, como terremotos y volcanes, y externos, como la erosión y la sedimentación."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-la-litosfera-01",
+      "type": "true-false",
+      "prompt": "La litosfera abarca únicamente el fondo de los océanos, mientras que los continentes forman otra capa diferente.",
+      "explanation": "La litosfera comprende toda la corteza terrestre (tanto la continental como la oceánica) y la parte superior sólida del manto.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-la-litosfera-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la propiedad de los minerales adecuada.",
+      "explanation": "La dureza mide la resistencia al rayado. Para medirla en el laboratorio escolar se suele utilizar como referencia la escala de Mohs.",
+      "hint": "Recuerda que el diamante es el mineral con mayor valor en esta propiedad.",
+      "lang": "es",
+      "sentence": "La resistencia que ofrece un mineral a ser rayado por otro objeto o mineral se denomina ___.",
+      "options": [
+        "dureza",
+        "brillo",
+        "exfoliación",
+        "densidad"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-la-litosfera-03",
+      "type": "match",
+      "prompt": "Relaciona cada capa de la Tierra con su característica principal:",
+      "explanation": "La Tierra se organiza en tres capas concéntricas: la corteza en la superficie, el manto en la zona media y el núcleo en el centro.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Corteza",
+          "right": "Capa más externa y fina, donde habitan los seres vivos."
+        },
+        {
+          "left": "Manto",
+          "right": "Capa intermedia muy gruesa formada por rocas a altas temperaturas."
+        },
+        {
+          "left": "Núcleo",
+          "right": "Capa más profunda y caliente, compuesta sobre todo de hierro y níquel."
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-litosfera-04",
+      "type": "classify",
+      "prompt": "Clasifica estos ejemplos según el tipo de proceso geológico que representan:",
+      "explanation": "Los procesos internos se originan por el calor del interior de la Tierra (volcanes, terremotos), mientras que los externos son causados por la atmósfera, el agua o el viento (erosión, transporte y sedimentación).",
+      "lang": "es",
+      "categories": [
+        "Proceso geológico interno",
+        "Proceso geológico externo"
+      ],
+      "items": [
+        {
+          "text": "Erupción de un volcán expulsando lava",
+          "category": 0
+        },
+        {
+          "text": "Desgaste de una roca por el viento en el desierto",
+          "category": 1
+        },
+        {
+          "text": "Terremoto por fricción de placas tectónicas",
+          "category": 0
+        },
+        {
+          "text": "Acumulación de arena en la desembocadura de un río",
+          "category": 1
+        },
+        {
+          "text": "Rotura de rocas en la montaña debido al hielo",
+          "category": 1
+        },
+        {
+          "text": "Formación de cordilleras por choque de placas",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-litosfera-05",
+      "type": "order",
+      "prompt": "Ordena las fases del modelado del relieve por acción del agua de un río, desde que arranca el material hasta que se deposita:",
+      "explanation": "Primero el agua desgasta y arranca materiales (erosión), luego los desplaza con la corriente (transporte) y finalmente los deposita en zonas bajas (sedimentación).",
+      "lang": "es",
+      "items": [
+        "Erosión de fragmentos rocosos en el curso alto",
+        "Transporte de los sedimentos a lo largo del cauce",
+        "Sedimentación de los materiales en la desembocadura"
+      ]
+    },
+    {
+      "id": "g5-naturales-la-litosfera-06",
+      "type": "choice",
+      "prompt": "En clase de Ciencias, Hugo afirma: «Todas las rocas son exactamente lo mismo que los minerales, solo que más grandes». ¿Cuál es el error en la afirmación de Hugo?",
+      "explanation": "Un mineral es una sustancia natural pura con composición fija, mientras que una roca es un agregado compuesto por uno o más tipos de minerales.",
+      "hint": "Piensa en el granito: está compuesto por cuarzo, feldespato y mica.",
+      "lang": "es",
+      "options": [
+        "El error es que los minerales no existen en la naturaleza de forma pura.",
+        "El error es que las rocas están formadas por la unión de uno o varios minerales diferentes.",
+        "No hay ningún error; una roca es simplemente un mineral de gran tamaño.",
+        "El error es que las rocas son líquidas y los minerales son siempre sólidos."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-litosfera-07",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas:",
+      "explanation": "Comprender la procedencia geológica de los materiales cotidianos nos permite valorar la importancia del consumo responsable y el reciclaje.",
+      "lang": "es",
+      "title": "La huella oculta de nuestros móviles",
+      "text": "En una excursión al centro de interpretación geológica, Nerea y Adrián descubrieron que los dispositivos tecnológicos que usamos a diario dependen directamente de la litosfera. Para fabricar un solo teléfono móvil se necesitan más de treinta minerales y metales diferentes. Entre ellos destacan el silicio para los microchips, el litio para las baterías y el cobre para conducir la electricidad.\n\nEl monitor del centro explicó que la extracción de estos minerales en minas y canteras genera un impacto ambiental considerable: destruye hábitats naturales, consume grandes cantidades de agua y genera residuos contaminantes. Además, muchos de estos recursos no son renovables, lo que significa que algún día podrían agotarse si no los gestionamos con responsabilidad.\n\nAl terminar la visita, el grupo debatió sobre qué podían hacer como consumidores. Llegaron a la conclusión de que alargar la vida útil de los dispositivos y reciclarlos en puntos limpios es fundamental para reducir la necesidad de abrir nuevas explotaciones mineras.",
+      "questions": [
+        {
+          "prompt": "¿Qué mineral o metal de los citados en el texto se utiliza principalmente para almacenar energía en las baterías?",
+          "explanation": "El texto indica expresamente que el litio se emplea para fabricar las baterías de los teléfonos móviles.",
+          "options": [
+            "El litio",
+            "El silicio",
+            "El cobre"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué el reciclaje de aparatos electrónicos ayuda a proteger la litosfera?",
+          "explanation": "Al reciclar aparatos recuperamos los metales ya existentes, reduciendo la necesidad de extraer nuevos recursos de la corteza terrestre.",
+          "options": [
+            "Porque permite recuperar minerales ya extraídos, evitando abrir más minas destructivas.",
+            "Porque el reciclaje hace que los minerales se reproduzcan de forma natural en el suelo.",
+            "Porque los teléfonos usados se convierten espontáneamente en rocas sedimentarias."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Desde un punto de vista crítico sobre la sostenibilidad, ¿cuál de las siguientes acciones individuales es la más responsable?",
+          "explanation": "Reparar los objetos alarga su vida útil, disminuye la demanda de recursos minerales y asegura un reciclaje seguro en lugares adecuados.",
+          "options": [
+            "Cambiar de teléfono cada año aunque funcione perfectamente para tener el último modelo.",
+            "Tirar los aparatos estropeados al contenedor de basura orgánica del hogar.",
+            "Reparar el dispositivo si se avería y llevarlo a un punto limpio solo cuando sea inservible."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-litosfera-08",
+      "type": "choice",
+      "prompt": "Aisha encuentra en el campo una roca formada por capas horizontales visibles con pequeños restos de conchas fósiles incrustadas. ¿Qué tipo de roca ha encontrado con mayor probabilidad y cómo se originó?",
+      "explanation": "Las rocas sedimentarias suelen presentar estratos o capas horizontales y son las únicas que pueden conservar fósiles, pues no han sufrido el calor destructor del magma.",
+      "hint": "Fíjate en las capas horizontales y en la presencia de fósiles.",
+      "lang": "es",
+      "options": [
+        "Una roca metamórfica, originada por la fusión completa de minerales a altísima temperatura.",
+        "Una roca sedimentaria, originada por la acumulación y compactación de restos a lo largo del tiempo.",
+        "Una roca ígnea o magmática, originada al enfriarse el magma de un volcán."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-litosfera-09",
+      "type": "choice",
+      "prompt": "Omar y Lucía realizan un experimento sobre meteorización: llenan una botella de plástico rígido hasta el borde con agua, cierran el tapón herméticamente y la meten en el congelador toda la noche. Al día siguiente, la botella se ha agrietado y deformado. ¿Qué fenómeno geológico acaban de comprobar de forma experimental?",
+      "explanation": "El agua aumenta de volumen al congelarse. En las montañas, el agua entra en las grietas de las rocas y, al helarse, actúa como una cuña que rompe la roca (gelifracción).",
+      "hint": "Recuerda que el hielo ocupa más espacio que el agua líquida.",
+      "lang": "es",
+      "options": [
+        "La sedimentación química: el hielo atrae minerales disueltos y los transforma en granito.",
+        "La gelifracción: el agua se expande al congelarse dentro de las grietas de las rocas y las fractura.",
+        "La actividad volcánica: el frío del congelador genera presión de gases magmáticos subterráneos."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-litosfera-10",
+      "type": "classify",
+      "prompt": "Clasifica estas rocas comunes según su origen geológico:",
+      "explanation": "Las rocas ígneas surgen del magma, las sedimentarias de fragmentos y restos compactados, y las metamórficas de otras rocas transformadas por presión y temperatura sin llegar a fundirse.",
+      "lang": "es",
+      "categories": [
+        "Sedimentarias",
+        "Ígneas o magmáticas",
+        "Metamórficas"
+      ],
+      "items": [
+        {
+          "text": "Basalto (enfriamiento rápido de lava)",
+          "category": 1
+        },
+        {
+          "text": "Arcilla (acumulación de lodo compactado)",
+          "category": 0
+        },
+        {
+          "text": "Mármol (caliza transformada por calor y presión)",
+          "category": 2
+        },
+        {
+          "text": "Granito (magma enfriado lentamente en el interior)",
+          "category": 1
+        },
+        {
+          "text": "Carbón (restos vegetales compactados millones de años)",
+          "category": 0
+        },
+        {
+          "text": "Pizarra (arcilla transformada por alta presión)",
+          "category": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:11:20.736Z",
+    "reviewed": false
+  }
+}

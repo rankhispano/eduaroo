@@ -1,0 +1,222 @@
+{
+  "id": "g2-lengua-silabas-diptongo",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "silabas-diptongo",
+  "temaNombre": "Sílabas: diptongo",
+  "title": "Aventuras con diptongos y sílabas",
+  "summary": "Practica cómo encontrar diptongos y separar palabras en sílabas correctamente.",
+  "keyIdeas": [
+    "Un diptongo son dos vocales juntas que suenan en la misma sílaba.",
+    "Las vocales de un diptongo nunca se separan al dar palmadas.",
+    "Palabras como agua, puente o peine tienen diptongo."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-silabas-diptongo-01",
+      "type": "true-false",
+      "prompt": "En un diptongo, dos vocales van juntas en la misma sílaba.",
+      "explanation": "¡Correcto! En el diptongo, dos vocales se pronuncian juntas en un solo golpe de voz.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-02",
+      "type": "choice",
+      "prompt": "¿Qué palabra tiene un diptongo?",
+      "explanation": "Fuego tiene diptongo porque las vocales 'u' y 'e' van juntas en la sílaba fue.",
+      "hint": "Busca dos vocales seguidas en la misma sílaba.",
+      "lang": "es",
+      "options": [
+        "Taza",
+        "Mesa",
+        "Fuego"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-03",
+      "type": "match",
+      "prompt": "Une cada palabra con sus sílabas correctas:",
+      "explanation": "Los diptongos ai, ue e io no se separan al dividir las palabras.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Aire",
+          "right": "Ai - re"
+        },
+        {
+          "left": "Cueva",
+          "right": "Cue - va"
+        },
+        {
+          "left": "Patio",
+          "right": "Pa - tio"
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-04",
+      "type": "choice",
+      "prompt": "Hugo da palmadas para separar 'baile'. ¿Cómo debe hacerlo?",
+      "explanation": "Las vocales 'a' e 'i' forman un diptongo y van juntas: bai - le.",
+      "hint": "El diptongo se dice en una sola palmada.",
+      "lang": "es",
+      "options": [
+        "Bai - le",
+        "Ba - i - le",
+        "B - ai - le"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-05",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según tengan o no diptongo:",
+      "explanation": "Flauta tiene el diptongo 'au' y viento tiene 'ie'. Pelota y camino no tienen vocales juntas.",
+      "lang": "es",
+      "categories": [
+        "Tiene diptongo",
+        "No tiene diptongo"
+      ],
+      "items": [
+        {
+          "text": "Flauta",
+          "category": 0
+        },
+        {
+          "text": "Pelota",
+          "category": 1
+        },
+        {
+          "text": "Viento",
+          "category": 0
+        },
+        {
+          "text": "Camino",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-06",
+      "type": "reading",
+      "prompt": "Lee el texto con atención y responde a las preguntas:",
+      "explanation": "Omar y Aisha juegan en el patio. La palabra 'cielo' tiene el diptongo 'ie'.",
+      "lang": "es",
+      "title": "La merienda en el patio",
+      "text": "Hoy Omar y Aisha juegan en el patio del colegio. El cielo está azul y corre un aire suave. Omar come una manzana dulce y Aisha saca un peine nuevo para su muñeca. Los dos se divierten mucho antes de volver a la clase de música.",
+      "questions": [
+        {
+          "prompt": "¿Dónde juegan Omar y Aisha?",
+          "explanation": "El texto dice que juegan en el patio del colegio.",
+          "options": [
+            "En el patio del colegio.",
+            "En el parque del barrio.",
+            "En el comedor del colegio."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Qué palabra del texto tiene diptongo?",
+          "explanation": "Cielo tiene el diptongo 'ie' en su primera sílaba: cie - lo.",
+          "options": [
+            "Manzana",
+            "Música",
+            "Cielo"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-07",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra que contiene un diptongo:",
+      "explanation": "Agua tiene el diptongo 'ua' en la primera sílaba: a - gua.",
+      "hint": "Fíjate en cuál tiene dos vocales unidas.",
+      "lang": "es",
+      "sentence": "En el recreo, Wei bebe un vaso de ___ fresca.",
+      "options": [
+        "sopa",
+        "leche",
+        "agua"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-08",
+      "type": "order",
+      "prompt": "Ordena estas sílabas para formar una palabra con diptongo:",
+      "explanation": "Al juntar cua - der - no formamos 'cuaderno', que tiene diptongo en 'cua'.",
+      "lang": "es",
+      "items": [
+        "Cua",
+        "der",
+        "no"
+      ]
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-09",
+      "type": "choice",
+      "prompt": "¿Qué separación en sílabas contiene un error?",
+      "explanation": "El error es re - i - na. Como 'ei' es un diptongo, se separa: rei - na.",
+      "hint": "Recuerda que las vocales del diptongo no se separan.",
+      "lang": "es",
+      "options": [
+        "Rui - do",
+        "Pien - so",
+        "Re - i - na"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-10",
+      "type": "choice",
+      "prompt": "Nerea escribe una nota: 'El pu-en-te es alto'. ¿Por qué está mal?",
+      "explanation": "En 'puente', la 'u' y la 'e' forman un diptongo. Se divide: puen - te.",
+      "hint": "Piensa en cómo suenan juntas la 'u' y la 'e'.",
+      "lang": "es",
+      "options": [
+        "Porque 'ue' es un diptongo y no se debe separar.",
+        "Porque a la palabra le faltan letras.",
+        "Porque la palabra se divide en cuatro partes."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:17:49.155Z",
+    "reviewed": false
+  }
+}

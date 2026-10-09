@@ -1,0 +1,218 @@
+{
+  "id": "g2-sociales-planos-y-mapas",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "planos-y-mapas",
+  "temaNombre": "Planos y mapas",
+  "title": "Nos orientamos con planos y mapas",
+  "summary": "Aprenderás a interpretar planos y mapas para orientarte en tu entorno.",
+  "keyIdeas": [
+    "Un plano representa un lugar pequeño visto desde arriba.",
+    "Un mapa representa territorios más grandes como países o el mundo.",
+    "La leyenda explica con símbolos qué significa cada dibujo."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-planos-y-mapas-01",
+      "type": "true-false",
+      "prompt": "Un plano nos muestra un lugar visto desde arriba.",
+      "explanation": "Los planos representan espacios vistos desde arriba, como si voláramos.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-02",
+      "type": "choice",
+      "prompt": "Lucía dibuja su habitación vista desde arriba. ¿Qué tipo de dibujo hace?",
+      "explanation": "Para representar lugares pequeños como una habitación usamos un plano.",
+      "hint": "Es para un lugar pequeño.",
+      "lang": "es",
+      "options": [
+        "Un mapamundi",
+        "Un plano",
+        "Un globo terráqueo"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la representación de la Tierra.",
+      "explanation": "El mapamundi muestra todos los continentes y océanos de forma plana.",
+      "lang": "es",
+      "sentence": "El mapa que representa la Tierra entera y plana se llama ___.",
+      "options": [
+        "edificio",
+        "callejero",
+        "mapamundi"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-04",
+      "type": "match",
+      "prompt": "Une cada símbolo del plano con el lugar que representa:",
+      "explanation": "En los planos usamos símbolos sencillos para señalar lugares importantes.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Una cruz roja",
+          "right": "Hospital"
+        },
+        {
+          "left": "Un columpio",
+          "right": "Parque infantil"
+        },
+        {
+          "left": "Un libro abierto",
+          "right": "Biblioteca"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-05",
+      "type": "classify",
+      "prompt": "Clasifica cada lugar según cómo lo representarías:",
+      "explanation": "El plano sirve para espacios pequeños y el mapa para territorios grandes.",
+      "lang": "es",
+      "categories": [
+        "Con un plano",
+        "Con un mapa"
+      ],
+      "items": [
+        {
+          "text": "El aula de clase",
+          "category": 0
+        },
+        {
+          "text": "Toda España",
+          "category": 1
+        },
+        {
+          "text": "El patio del colegio",
+          "category": 0
+        },
+        {
+          "text": "El continente europeo",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-06",
+      "type": "order",
+      "prompt": "Ordena estos espacios del más pequeño al más grande:",
+      "explanation": "La habitación está dentro del colegio, el colegio en la ciudad y la ciudad en el país.",
+      "lang": "es",
+      "items": [
+        "Mi habitación",
+        "Mi colegio",
+        "Mi ciudad",
+        "Mi país"
+      ]
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-07",
+      "type": "choice",
+      "prompt": "Omar mira al frente en la biblioteca. El plano dice que los cuentos están a su derecha. ¿Qué hace?",
+      "explanation": "Si el plano marca la derecha, debe girar hacia ese lado para orientarse.",
+      "hint": "Sigue el lado que indica el plano.",
+      "lang": "es",
+      "options": [
+        "Camina hacia atrás",
+        "Gira hacia su izquierda",
+        "Gira hacia su derecha"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-08",
+      "type": "choice",
+      "prompt": "Aisha mira el plano de su barrio. ¿Qué le ayuda a saber qué significa cada dibujo?",
+      "explanation": "La leyenda nos enseña qué significa cada símbolo y color en el plano.",
+      "hint": "Tiene pequeños dibujos explicados.",
+      "lang": "es",
+      "options": [
+        "El color de su estuche",
+        "La leyenda con sus símbolos",
+        "El tamaño del papel"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-09",
+      "type": "reading",
+      "prompt": "Lee el texto sobre una búsqueda en el parque y responde:",
+      "explanation": "Leer bien las pistas de un plano nos ayuda a encontrar cualquier lugar.",
+      "lang": "es",
+      "title": "El plano del parque",
+      "text": "Nerea y Hugo juegan en el parque. Tienen un plano con una cruz roja. La cruz marca una caja escondida. Primero salen del banco de madera. Luego caminan diez pasos rectos. Por último, giran a la izquierda. ¡Bajo el gran pino está el tesoro!",
+      "questions": [
+        {
+          "prompt": "¿Qué símbolo marca la caja escondida en el plano?",
+          "explanation": "El texto explica que la cruz roja marca la caja escondida.",
+          "options": [
+            "Una flor verde",
+            "Un círculo azul",
+            "Una cruz roja"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Dónde está la caja del tesoro?",
+          "explanation": "El texto dice que el tesoro está bajo el gran pino.",
+          "options": [
+            "Bajo el gran pino",
+            "En la fuente de agua",
+            "Dentro de la papelera"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-10",
+      "type": "choice",
+      "prompt": "¿Qué objeto redondo usamos para ver la forma real de la Tierra?",
+      "explanation": "El globo terráqueo es una esfera, igual que nuestro planeta Tierra.",
+      "hint": "Tiene forma redonda de esfera.",
+      "lang": "es",
+      "options": [
+        "El globo terráqueo",
+        "Un plano de metro",
+        "Una regla de plástico"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:26:28.133Z",
+    "reviewed": false
+  }
+}

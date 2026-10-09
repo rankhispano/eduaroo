@@ -1,0 +1,226 @@
+{
+  "id": "g4-sociales-patrimonio-cultural",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "patrimonio-cultural",
+  "temaNombre": "Patrimonio cultural",
+  "title": "Descubrimos nuestro patrimonio cultural",
+  "summary": "Repasa qué es el patrimonio cultural material e inmaterial y aprende a cuidarlo y valorarlo.",
+  "keyIdeas": [
+    "El patrimonio cultural material incluye monumentos, edificios históricos, cuadros y restos arqueológicos que podemos tocar.",
+    "El patrimonio inmaterial son las tradiciones, leyendas, músicas, bailes y fiestas que se transmiten entre generaciones.",
+    "Cuidar y respetar el patrimonio es tarea de todas las personas para que dure en el futuro."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.3"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-patrimonio-cultural-01",
+      "type": "true-false",
+      "prompt": "Un castillo medieval de tu comunidad forma parte del patrimonio cultural.",
+      "explanation": "Los castillos y edificios antiguos son bienes culturales muy valiosos construidos por sociedades del pasado.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-02",
+      "type": "choice",
+      "prompt": "¿Cuál de estos elementos es un ejemplo de patrimonio cultural inmaterial? 🎶",
+      "explanation": "Las canciones tradicionales no se pueden tocar, se transmiten de viva voz entre generaciones.",
+      "hint": "Piensa en algo que se escucha y se aprende, no en algo que se toca.",
+      "lang": "es",
+      "options": [
+        "Una vasija de barro antigua",
+        "Una canción tradicional popular",
+        "Una catedral gótica"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-03",
+      "type": "classify",
+      "prompt": "Clasifica estos elementos en patrimonio material o inmaterial.",
+      "explanation": "El patrimonio material son objetos o construcciones físicas. El inmaterial incluye saberes, fiestas y tradiciones.",
+      "lang": "es",
+      "categories": [
+        "Patrimonio material",
+        "Patrimonio inmaterial"
+      ],
+      "items": [
+        {
+          "text": "Un acueducto romano",
+          "category": 0
+        },
+        {
+          "text": "Un cuadro en un museo",
+          "category": 0
+        },
+        {
+          "text": "Una receta tradicional de la abuela",
+          "category": 1
+        },
+        {
+          "text": "Un baile folclórico regional",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-04",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra adecuada para completar la frase.",
+      "explanation": "La Unesco es la organización encargada de declarar y proteger el Patrimonio de la Humanidad.",
+      "lang": "es",
+      "sentence": "El organismo internacional de la ONU que protege el patrimonio mundial se llama ___.",
+      "options": [
+        "Unesco",
+        "Cruz Roja",
+        "Unicef"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-05",
+      "type": "match",
+      "prompt": "Relaciona cada manifestación cultural con su tipo correspondiente.",
+      "explanation": "Las pinturas son restos materiales, las fiestas son patrimonio inmaterial y los espacios protegidos forman el patrimonio natural.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Pinturas rupestres de Altamira",
+          "right": "Patrimonio material mueble o inmueble"
+        },
+        {
+          "left": "La fiesta de las Fallas",
+          "right": "Patrimonio inmaterial o fiesta tradicional"
+        },
+        {
+          "left": "Parque Nacional de Doñana",
+          "right": "Patrimonio natural"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-06",
+      "type": "choice",
+      "prompt": "Omar y Lucía visitan un yacimiento arqueológico. ¿Qué conducta es la más adecuada? 🏛️",
+      "explanation": "Para proteger los restos históricos debemos respetar las normas y no tocar ni alterar nada del lugar.",
+      "hint": "Debemos conservar las ruinas para que otras personas puedan disfrutarlas.",
+      "lang": "es",
+      "options": [
+        "Llevarse una pequeña piedra antigua de recuerdo",
+        "Caminar solo por las pasarelas señalizadas y no tocar nada",
+        "Pisar los muros antiguos para hacer una foto"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-07",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas.",
+      "explanation": "El molino es patrimonio material y las historias orales de los vecinos son patrimonio inmaterial.",
+      "lang": "es",
+      "title": "El misterio del viejo molino",
+      "text": "En el pueblo de Aisha hay un molino harinero del siglo dieciocho junto al río. Durante décadas estuvo abandonado y lleno de maleza. El año pasado, la asociación vecinal decidió restaurarlo con ayuda de historiadores locales. Limpiaron las ruedas de madera, arreglaron el canal de agua y colocaron paneles explicativos. Ahora, los colegios visitan el molino para aprender cómo se obtenía la harina antiguamente gracias a la fuerza del agua. Los mayores del pueblo cuentan con orgullo cómo sus bisabuelos trabajaban allí día y noche.",
+      "questions": [
+        {
+          "prompt": "¿Por qué es importante haber restaurado el molino?",
+          "explanation": "Recuperar edificios antiguos ayuda a conservar la memoria de los trabajos y tradiciones locales.",
+          "options": [
+            "Porque ahora sirve para fabricar pan gratis para todo el pueblo",
+            "Porque permite conocer los oficios y la forma de vida del pasado",
+            "Porque así se puede vender a turistas extranjeros"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué tipo de patrimonio representa el relato que cuentan los mayores del pueblo?",
+          "explanation": "Los relatos transmitidos oralmente de padres a hijos forman parte del patrimonio cultural inmaterial.",
+          "options": [
+            "Patrimonio exclusivamente natural",
+            "Patrimonio inmaterial de tradición oral",
+            "Patrimonio material escrito"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-08",
+      "type": "order",
+      "prompt": "Ordena los pasos que sigue un museo para exponer una vasija antigua encontrada bajo tierra.",
+      "explanation": "Primero se extrae con cuidado la pieza, luego se limpia y restaura, después se investiga su origen y finalmente se expone.",
+      "lang": "es",
+      "items": [
+        "Excavación arqueológica cuidadosa del terreno",
+        "Limpieza y restauración de los fragmentos encontrados",
+        "Estudio histórico y datación de la pieza",
+        "Exposición en una vitrina con información para el público"
+      ]
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-09",
+      "type": "choice",
+      "prompt": "En el colegio de Adrián van a celebrar el Día del Patrimonio. ¿Qué propuesta fomenta mejor el patrimonio inmaterial? 🎭",
+      "explanation": "Aprender los juegos y canciones de nuestros mayores mantiene vivas las tradiciones inmateriales de la comunidad.",
+      "hint": "El patrimonio inmaterial se transmite de unas personas a otras mediante la práctica.",
+      "lang": "es",
+      "options": [
+        "Pintar un grafiti en la fachada de la biblioteca municipal",
+        "Invitar a los abuelos para que enseñen juegos tradicionales y canciones populares",
+        "Comprar figuras de plástico en una tienda"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-10",
+      "type": "match",
+      "prompt": "Relaciona cada amenaza para el patrimonio con su medida de protección correcta.",
+      "explanation": "Cada tipo de patrimonio necesita acciones específicas para evitar su deterioro físico o su olvido cultural.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Grafitis y pintadas en monumentos",
+          "right": "Vigilancia y campañas ciudadanas de respeto"
+        },
+        {
+          "left": "Olvido de leyendas y oficios tradicionales",
+          "right": "Grabación de testimonios y talleres escolares"
+        },
+        {
+          "left": "Desgaste de cuevas con arte rupestre",
+          "right": "Control estricto del número de visitantes diarios"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:09:56.136Z",
+    "reviewed": false
+  }
+}

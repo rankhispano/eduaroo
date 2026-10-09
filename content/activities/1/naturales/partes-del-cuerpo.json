@@ -1,0 +1,229 @@
+{
+  "id": "g1-naturales-partes-del-cuerpo",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "partes-del-cuerpo",
+  "temaNombre": "Partes del cuerpo",
+  "title": "¡Descubrimos las partes del cuerpo!",
+  "summary": "Practica y reconoce las diferentes partes y articulaciones de tu cuerpo.",
+  "keyIdeas": [
+    "El cuerpo humano tiene tres partes principales: cabeza, tronco y extremidades.",
+    "Las extremidades superiores son los brazos y las inferiores son las piernas.",
+    "Las articulaciones como codos y rodillas nos permiten doblar el cuerpo."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-partes-del-cuerpo-01",
+      "type": "choice",
+      "prompt": "El cuerpo humano se divide en cabeza, tronco y...",
+      "explanation": "Nuestro cuerpo tiene tres partes principales: cabeza, tronco y extremidades.",
+      "hint": "Son los brazos y las piernas.",
+      "lang": "es",
+      "options": [
+        "extremidades",
+        "sombreros",
+        "juguetes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-02",
+      "type": "true-false",
+      "prompt": "La espalda y la barriga forman parte del tronco.",
+      "explanation": "El tronco está formado por el pecho, la barriga y la espalda.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-03",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra que completa la frase.",
+      "explanation": "La rodilla es la articulación que une el muslo con la pierna.",
+      "hint": "La usamos para agacharnos.",
+      "lang": "es",
+      "sentence": "El codo está en el brazo y la rodilla está en la ___.",
+      "options": [
+        "espalda",
+        "cabeza",
+        "pierna"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-04",
+      "type": "match",
+      "prompt": "Une cada parte con su zona del cuerpo.",
+      "explanation": "La frente está en la cabeza, la barriga en el tronco, la mano en el brazo y el pie en la pierna.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Frente",
+          "right": "Cabeza"
+        },
+        {
+          "left": "Barriga",
+          "right": "Tronco"
+        },
+        {
+          "left": "Mano",
+          "right": "Brazo"
+        },
+        {
+          "left": "Pie",
+          "right": "Pierna"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-05",
+      "type": "classify",
+      "prompt": "Clasifica cada parte según la extremidad a la que pertenece.",
+      "explanation": "Los brazos son las extremidades superiores y las piernas son las extremidades inferiores.",
+      "lang": "es",
+      "categories": [
+        "Extremidad superior",
+        "Extremidad inferior"
+      ],
+      "items": [
+        {
+          "text": "Mano",
+          "category": 0
+        },
+        {
+          "text": "Codo",
+          "category": 0
+        },
+        {
+          "text": "Pie",
+          "category": 1
+        },
+        {
+          "text": "Rodilla",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-06",
+      "type": "choice",
+      "prompt": "Aisha quiere doblar su pierna para chutar un balón. ¿Qué articulación flexiona?",
+      "explanation": "La rodilla nos permite doblar la pierna hacia atrás para dar fuerza al chutar.",
+      "hint": "Está en medio de la pierna.",
+      "lang": "es",
+      "options": [
+        "La muñeca",
+        "El cuello",
+        "La rodilla"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-07",
+      "type": "order",
+      "prompt": "Ordena estas partes del cuerpo de arriba hacia abajo.",
+      "explanation": "Los ojos están en la cabeza, el pecho en el tronco y la rodilla y los dedos abajo.",
+      "lang": "es",
+      "items": [
+        "Ojos",
+        "Pecho",
+        "Rodilla",
+        "Dedos del pie"
+      ]
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-08",
+      "type": "choice",
+      "prompt": "Tres amigos hablan sobre el cuerpo. ¿Quién comete un error?",
+      "explanation": "Omar se equivoca porque la rodilla está en la pierna. En el brazo está el codo.",
+      "hint": "Fíjate en qué articulación pertenece al brazo y cuál a la pierna.",
+      "lang": "es",
+      "options": [
+        "Nerea: «Los dedos están en las manos».",
+        "Hugo: «El cuello une la cabeza con el tronco».",
+        "Omar: «La rodilla está en el brazo»."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-09",
+      "type": "choice",
+      "prompt": "¿Qué pasaría si tuviéramos los brazos rígidos y sin codos?",
+      "explanation": "El codo es la articulación que nos permite doblar el brazo y acercar las manos a la cara.",
+      "hint": "Piensa para qué sirve doblar el brazo.",
+      "lang": "es",
+      "options": [
+        "No podríamos doblar el brazo para llevarnos la comida a la boca.",
+        "Podríamos correr mucho más rápido por el patio.",
+        "Las manos se caerían al suelo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-10",
+      "type": "reading",
+      "prompt": "Lee atentamente el texto y responde a las preguntas.",
+      "explanation": "El baile ayuda a mover todas las partes del cuerpo y sus articulaciones.",
+      "lang": "es",
+      "title": "El baile de Leo",
+      "text": "Leo baila en el recreo con sus amigos. Mueve la cabeza a los lados. Luego sube y baja los brazos. Gracias a sus articulaciones, puede doblar los codos y las rodillas. ¡Qué divertido es mover todo el cuerpo!",
+      "questions": [
+        {
+          "prompt": "¿Qué partes mueve Leo hacia arriba y hacia abajo?",
+          "explanation": "El texto dice claramente que Leo sube y baja los brazos.",
+          "options": [
+            "Los pies",
+            "La nariz",
+            "Los brazos"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué parte de su cuerpo le permite doblar codos y rodillas?",
+          "explanation": "Las articulaciones son las zonas que unen los huesos y permiten el movimiento.",
+          "options": [
+            "Los zapatos",
+            "Las articulaciones",
+            "El pelo"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:27:53.084Z",
+    "reviewed": false
+  }
+}

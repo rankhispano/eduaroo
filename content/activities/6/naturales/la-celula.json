@@ -1,0 +1,252 @@
+{
+  "id": "g6-naturales-la-celula",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "la-celula",
+  "temaNombre": "La célula",
+  "title": "Exploramos el mundo de la célula",
+  "summary": "Repasa la estructura de la célula, sus orgánulos y los niveles de organización de los seres vivos.",
+  "keyIdeas": [
+    "La célula es la unidad básica más pequeña con vida que realiza las tres funciones vitales.",
+    "Las células vegetales tienen pared celular y cloroplastos, estructuras ausentes en las células animales.",
+    "Los seres vivos pluricelulares se organizan en células, tejidos, órganos, aparatos y sistemas."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-la-celula-01",
+      "type": "choice",
+      "prompt": "En el laboratorio del colegio, Aisha mira por el microscopio una muestra y observa la unidad más pequeña capaz de realizar las tres funciones vitales (nutrición, relación y reproducción). ¿Qué está observando?",
+      "explanation": "La célula es la unidad estructural y funcional básica de todos los seres vivos, capaz de nutrirse, relacionarse y reproducirse por sí misma.",
+      "hint": "Es la parte viva más elemental de cualquier organismo.",
+      "lang": "es",
+      "options": [
+        "Una molécula",
+        "Un tejido",
+        "Una célula",
+        "Un órgano"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-la-celula-02",
+      "type": "true-false",
+      "prompt": "Tanto los organismos unicelulares (como las bacterias) como los pluricelulares (como las plantas y los animales) están formados por células.",
+      "explanation": "Todos los seres vivos están formados por células; algunos constan de una sola (unicelulares) y otros de millones coordinadas entre sí (pluricelulares).",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-naturales-la-celula-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la estructura celular:",
+      "explanation": "La membrana plasmática o celular es la envoltura presente en todas las células que controla qué sustancias entran y cuáles salen.",
+      "lang": "es",
+      "sentence": "La capa delgada que envuelve a la célula, la protege y regula el intercambio de sustancias con el exterior es la ___ plasmática.",
+      "options": [
+        "pared",
+        "membrana",
+        "vacuola"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-naturales-la-celula-04",
+      "type": "match",
+      "prompt": "Une cada parte principal de la célula con la función o descripción que le corresponde:",
+      "explanation": "El núcleo coordina la célula, el citoplasma alberga los orgánulos, las mitocondrias aportan energía y los cloroplastos capturan luz solar en vegetales.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Núcleo",
+          "right": "Contiene el material genético y dirige el funcionamiento celular"
+        },
+        {
+          "left": "Citoplasma",
+          "right": "Líquido viscoso donde flotan los orgánulos celulares"
+        },
+        {
+          "left": "Mitocondria",
+          "right": "Orgánulo encargado de obtener energía mediante la respiración celular"
+        },
+        {
+          "left": "Cloroplasto",
+          "right": "Orgánulo vegetal que realiza la fotosíntesis gracias a la clorofila"
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-la-celula-05",
+      "type": "order",
+      "prompt": "Ordena los niveles de organización de los seres vivos pluricelulares, desde el nivel más simple hasta el más complejo:",
+      "explanation": "Las células similares forman tejidos; varios tejidos forman un órgano; varios órganos forman un aparato o sistema; y su conjunto compone el organismo completo.",
+      "lang": "es",
+      "items": [
+        "Célula",
+        "Tejido",
+        "Órgano",
+        "Aparato o sistema",
+        "Organismo completo"
+      ]
+    },
+    {
+      "id": "g6-naturales-la-celula-06",
+      "type": "classify",
+      "prompt": "Clasifica estas estructuras según sean exclusivas de las células vegetales o comunes a células animales y vegetales:",
+      "explanation": "La pared vegetal, los cloroplastos y una gran vacuola central solo existen en vegetales. Ambas comparten membrana, citoplasma, núcleo y mitocondrias.",
+      "lang": "es",
+      "categories": [
+        "Exclusivas de células vegetales",
+        "Comunes a animales y vegetales"
+      ],
+      "items": [
+        {
+          "text": "Pared celular de celulosa",
+          "category": 0
+        },
+        {
+          "text": "Cloroplastos",
+          "category": 0
+        },
+        {
+          "text": "Membrana plasmática",
+          "category": 1
+        },
+        {
+          "text": "Núcleo",
+          "category": 1
+        },
+        {
+          "text": "Mitocondrias",
+          "category": 1
+        },
+        {
+          "text": "Gran vacuola central única",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-la-celula-07",
+      "type": "choice",
+      "prompt": "Hugo dice en clase: «Las células de una ballena azul son gigantescas, del tamaño de pelotas de tenis, porque la ballena es enorme». ¿Qué error científico contiene su afirmación?",
+      "explanation": "El tamaño celular es microscópico en casi todos los seres vivos. Un animal gigante como la ballena tiene billones de células más que un ratón, pero de tamaño similar.",
+      "hint": "Piensa si un edificio grande tiene ladrillos gigantes o simplemente más ladrillos.",
+      "lang": "es",
+      "options": [
+        "Las células de la ballena son grandes, pero del tamaño de una canica.",
+        "La ballena es grande porque sus órganos son de aire, no porque tenga más células.",
+        "El tamaño de las células es microscópico en casi todos los seres vivos; la ballena es más grande porque tiene muchísimas más células, no porque sean gigantes.",
+        "Las células de los animales marinos no tienen membrana y por eso no pueden medirse."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-la-celula-08",
+      "type": "choice",
+      "prompt": "Omar y Lucía preparan una gota de agua estancada para mirarla al microscopio óptico. Quieren observar microorganismos vivos moviéndose. Si usan un aumento total de 400x (ocular de 10x y objetivo de 40x), ¿qué ocurrirá?",
+      "explanation": "El aumento total del microscopio se calcula multiplicando el aumento del ocular por el del objetivo: 10 x 40 = 400 veces el tamaño real. Los microscopios ópticos escolares no permiten ver átomos.",
+      "hint": "Multiplica el valor del ocular por el del objetivo.",
+      "lang": "es",
+      "options": [
+        "Podrán ver los átomos individuales de las moléculas de agua.",
+        "Los microorganismos se quemarán de inmediato debido a la potencia de las lentes.",
+        "Verán la muestra 40 veces más grande porque solo cuenta el objetivo.",
+        "Verán la imagen 400 veces más grande que el tamaño real del microorganismo."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-naturales-la-celula-09",
+      "type": "reading",
+      "prompt": "Lee el siguiente texto sobre el descubrimiento celular y responde a las preguntas:",
+      "explanation": "La lectura muestra el origen histórico del concepto de célula y la estrecha relación entre avance tecnológico y descubrimiento científico.",
+      "lang": "es",
+      "title": "La ventana al mundo invisible",
+      "text": "En el siglo XVII, el científico inglés Robert Hooke perfeccionó un instrumento fascinante: el microscopio. Fascinado por explorar la naturaleza oculta a simple vista, cortó una lámina finísima de corcho de la corteza de un alcornoque y la colocó bajo sus lentes.\n\nAl mirar, observó una red de pequeñas cavidades poligonales, muy parecidas a las celdas de un panal de abejas o a las pequeñas habitaciones de los monjes en los monasterios, llamadas celdas o 'cellulae' en latín. Por esta razón, Hooke las bautizó con la palabra 'célula'.\n\nSin embargo, Hooke solo vio las paredes celulares vacías de un tejido vegetal muerto, sin saber qué ocurría en su interior. Tuvieron que pasar casi dos siglos de avances tecnológicos en la óptica para que otros investigadores descubrieran que las células vivas contienen citoplasma, núcleo y orgánulos, confirmando que toda forma de vida en la Tierra nace a partir de una célula.",
+      "questions": [
+        {
+          "prompt": "¿Por qué Robert Hooke eligió el término 'célula' para nombrar lo que vio en el microscopio?",
+          "explanation": "El texto explica que las cavidades huecas que observó se parecían a las celdas de un panal o las habitaciones de los monjes ('cellulae').",
+          "options": [
+            "Porque le recordaban a las celdas de los panales o de los monasterios.",
+            "Porque descubrió que en su interior había pequeñas semillas vivas.",
+            "Porque era el nombre que se usaba antiguamente para las hojas de corcho."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Por qué Hooke no pudo observar orgánulos como las mitocondrias o el núcleo dentro del corcho?",
+          "explanation": "El corcho está formado por paredes celulares de células vegetales muertas, por lo que carece de orgánulos activos, y la tecnología del siglo XVII aún era muy limitada.",
+          "options": [
+            "Porque el corcho es tejido vegetal muerto y el microscopio de su época no tenía suficiente potencia para ver orgánulos microscópicos.",
+            "Porque olvidó teñir la muestra con colorantes químicos modernos.",
+            "Porque el corcho es un tejido animal que carece de núcleo."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "A partir del texto, ¿qué conclusión podemos sacar sobre cómo avanza la ciencia?",
+          "explanation": "La ciencia es un proceso colectivo acumulativo: la invención y mejora de herramientas (como el microscopio) permite profundizar y corregir ideas previas con nuevas evidencias.",
+          "options": [
+            "Los descubrimientos científicos dependen únicamente de la suerte de una sola persona.",
+            "El conocimiento científico se construye poco a poco, combinando curiosidad humana y el perfeccionamiento de la tecnología a lo largo del tiempo.",
+            "Las primeras observaciones científicas nunca tienen valor porque siempre contienen errores."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-la-celula-10",
+      "type": "choice",
+      "prompt": "En una investigación, Adrián toma dos muestras vegetales: una de la hoja verde de un geranio y otra del interior de una patata (que crece bajo tierra y no recibe luz). Al observarlas con el microscopio, predice que los cloroplastos abundarán en la hoja, pero apenas estarán presentes en la patata subterránea. ¿Es correcta su predicción y por qué?",
+      "explanation": "Los cloroplastos capturan la energía solar para la fotosíntesis. En las partes subterráneas sin luz, como las patatas, las células no necesitan cloroplastos fotosintéticos y se especializan en acumular almidón.",
+      "hint": "Recuerda para qué sirve la clorofila de los cloroplastos y si bajo tierra hay sol.",
+      "lang": "es",
+      "options": [
+        "No, porque las raíces y tubérculos necesitan el doble de cloroplastos para fabricar tierra fértil.",
+        "Sí, porque los cloroplastos contienen clorofila para captar luz solar; en los tubérculos subterráneos no hay luz y la planta almacena nutrientes en otros orgánulos.",
+        "No, porque todas las células de una misma planta tienen exactamente los mismos orgánulos en igual cantidad.",
+        "Sí, porque las patatas son hongos y no tienen células vegetales."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:22:36.948Z",
+    "reviewed": false
+  }
+}

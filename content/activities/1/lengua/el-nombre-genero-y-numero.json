@@ -1,0 +1,236 @@
+{
+  "id": "g1-lengua-el-nombre-genero-y-numero",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "el-nombre-genero-y-numero",
+  "temaNombre": "El nombre: género y número",
+  "title": "Jugamos con el nombre y sus formas",
+  "summary": "Practica el género masculino o femenino y el número singular o plural de las palabras.",
+  "keyIdeas": [
+    "Un nombre puede ser masculino (el gato) o femenino (la gata).",
+    "Singular nombra a una sola cosa (perro) y plural a más de una (perros).",
+    "Los nombres concuerdan con palabras como el, la, los y las."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "4.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-01",
+      "type": "choice",
+      "prompt": "¿Qué palabra tiene género femenino?",
+      "explanation": "Decimos 'la mesa', por eso es una palabra de género femenino.",
+      "hint": "Prueba a poner 'el' o 'la' delante.",
+      "lang": "es",
+      "options": [
+        "Libro",
+        "Lápiz",
+        "Mesa"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-02",
+      "type": "true-false",
+      "prompt": "La palabra 'pelotas' está en plural.",
+      "explanation": "'Pelotas' termina en -s y se refiere a varias pelotas, así que está en plural.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-03",
+      "type": "match",
+      "prompt": "Une cada nombre singular con su plural:",
+      "explanation": "Para formar el plural añadimos -s o -es al final de la palabra.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "gato",
+          "right": "gatos"
+        },
+        {
+          "left": "flor",
+          "right": "flores"
+        },
+        {
+          "left": "pez",
+          "right": "peces"
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-04",
+      "type": "classify",
+      "prompt": "Clasifica estos nombres según su género:",
+      "explanation": "Decimos 'el barco' y 'el árbol' (masculino), y 'la silla' y 'la manzana' (femenino).",
+      "lang": "es",
+      "categories": [
+        "Masculino",
+        "Femenino"
+      ],
+      "items": [
+        {
+          "text": "barco",
+          "category": 0
+        },
+        {
+          "text": "silla",
+          "category": 1
+        },
+        {
+          "text": "árbol",
+          "category": 0
+        },
+        {
+          "text": "manzana",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-05",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra que completa la oración en el recreo:",
+      "explanation": "Usamos 'fresas' porque la palabra 'unas' indica femenino y plural.",
+      "lang": "es",
+      "sentence": "Hugo y Aisha comen unas ___ rojas.",
+      "options": [
+        "fresa",
+        "fresas",
+        "manzano"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-06",
+      "type": "classify",
+      "prompt": "Separa estas palabras según su número:",
+      "explanation": "Mochila y estuche nombran un solo objeto. Cuadernos y gomas nombran varios.",
+      "lang": "es",
+      "categories": [
+        "Singular (uno solo)",
+        "Plural (más de uno)"
+      ],
+      "items": [
+        {
+          "text": "mochila",
+          "category": 0
+        },
+        {
+          "text": "cuadernos",
+          "category": 1
+        },
+        {
+          "text": "estuche",
+          "category": 0
+        },
+        {
+          "text": "gomas",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-07",
+      "type": "choice",
+      "prompt": "¿Qué frase tiene un error de concordancia?",
+      "explanation": "Hay un error porque 'las' está en plural y 'niña' en singular. Lo correcto es 'las niñas'.",
+      "hint": "Fíjate si concuerdan las palabras que van juntas.",
+      "lang": "es",
+      "options": [
+        "Las niña juegan en el parque.",
+        "El perro corre rápido.",
+        "Los gatos beben leche."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-08",
+      "type": "order",
+      "prompt": "Ordena estas palabras para formar una oración correcta:",
+      "explanation": "Primero va 'Los' en mayúscula, luego el nombre 'pájaros' y la acción 'cantan alto.'.",
+      "lang": "es",
+      "items": [
+        "Los",
+        "pájaros",
+        "cantan",
+        "alto."
+      ]
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-09",
+      "type": "reading",
+      "prompt": "Lee esta historia corta del huerto escolar y responde:",
+      "explanation": "En el huerto hay nombres masculinos y femeninos, en singular y en plural.",
+      "lang": "es",
+      "title": "El huerto de 1º",
+      "text": "Omar y Lucía cuidan el huerto del colegio. Hoy riegan las plantas verdes. También recogen un tomate rojo y unas fresas dulces. Los niños están muy contentos con la cosecha.",
+      "questions": [
+        {
+          "prompt": "¿Qué fruta u hortaliza está en número singular en el texto?",
+          "explanation": "El texto dice 'un tomate', nombrando solo uno (singular).",
+          "options": [
+            "Tomate",
+            "Fresas",
+            "Plantas"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Cuál de estas palabras del texto es femenina y plural?",
+          "explanation": "Decimos 'las plantas', que es femenino y termina en -s para indicar plural.",
+          "options": [
+            "tomate",
+            "huerto",
+            "plantas"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-10",
+      "type": "choice",
+      "prompt": "Martina quiere cambiar 'el león fiero' al femenino y plural. ¿Cómo queda?",
+      "explanation": "El femenino de 'león' es 'leona', y en plural pasa a ser 'las leonas fieras'.",
+      "hint": "Recuerda que debes cambiar tanto el género como el número.",
+      "lang": "es",
+      "options": [
+        "Las leonas fieras",
+        "Los leones fieros",
+        "La leona fiera"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:31:02.120Z",
+    "reviewed": false
+  }
+}

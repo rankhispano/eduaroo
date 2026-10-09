@@ -1,0 +1,223 @@
+{
+  "id": "g3-mates-numeros-hasta-9-999",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "numeros-hasta-9-999",
+  "temaNombre": "Números hasta 9.999",
+  "title": "Misión: Números hasta 9.999",
+  "summary": "Practica el valor posicional, la descomposición, el redondeo y la comparación de números de cuatro cifras.",
+  "keyIdeas": [
+    "Un número de cuatro cifras está formado por unidades de millar (UM), centenas (C), decenas (D) y unidades (U).",
+    "Una unidad de millar equivale a 10 centenas, 100 decenas o 1.000 unidades.",
+    "Para comparar números de cuatro cifras, empezamos mirando siempre las unidades de millar."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-numeros-hasta-9-999-01",
+      "type": "match",
+      "prompt": "Une cada descomposición con su número correspondiente:",
+      "explanation": "Cada orden ocupa su posición: UM en los millares, C en las centenas, D en las decenas y U en las unidades.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "4 UM + 3 C + 2 D + 5 U",
+          "right": "4.325"
+        },
+        {
+          "left": "7 UM + 0 C + 8 D + 4 U",
+          "right": "7.084"
+        },
+        {
+          "left": "5 UM + 6 C + 0 D + 9 U",
+          "right": "5.609"
+        },
+        {
+          "left": "9 UM + 4 C + 5 D + 0 U",
+          "right": "9.450"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-02",
+      "type": "choice",
+      "prompt": "En la biblioteca del colegio hay 3.482 libros. ¿Cuál es el valor de la cifra 4?",
+      "explanation": "La cifra 4 está en el lugar de las centenas (C). Cuatro centenas equivalen a 400 unidades.",
+      "hint": "Fíjate en qué posición está el 4: unidades, decenas, centenas o millares.",
+      "lang": "es",
+      "options": [
+        "40 unidades",
+        "400 unidades",
+        "4.000 unidades"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-03",
+      "type": "true-false",
+      "prompt": "En una carrera, Hugo lleva el dorsal 6.209 y Aisha lleva el 6.092. El dorsal de Hugo es mayor.",
+      "explanation": "Ambos tienen 6 millares, pero Hugo tiene 2 centenas y Aisha tiene 0 centenas. Por tanto, 6.209 > 6.092.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-04",
+      "type": "order",
+      "prompt": "Ordena estos números de menor a mayor:",
+      "explanation": "Comparamos primero los millares y luego las centenas: 1.099 < 1.900 < 2.015 < 2.105 < 2.501.",
+      "lang": "es",
+      "items": [
+        "1.099",
+        "1.900",
+        "2.015",
+        "2.105",
+        "2.501"
+      ]
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-05",
+      "type": "choice",
+      "prompt": "Aisha quiere redondear el número 3.784 a la centena más cercana. ¿Qué número obtendrá?",
+      "explanation": "Miramos las decenas: hay un 8 (mayor o igual que 5). Por eso aumentamos una centena: 3.800.",
+      "hint": "Observa la cifra de las decenas para saber si aproximas hacia arriba o hacia abajo.",
+      "lang": "es",
+      "options": [
+        "3.700",
+        "3.800",
+        "4.000"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-06",
+      "type": "fill-blank",
+      "prompt": "Completa con el número correcto:",
+      "explanation": "8 unidades de millar son 8.000 unidades y 15 decenas son 150 unidades. 8.000 + 150 = 8.150.",
+      "lang": "es",
+      "sentence": "El número formado por 8 unidades de millar y 15 decenas es el ___.",
+      "options": [
+        "8.510",
+        "8.150",
+        "8.015"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-07",
+      "type": "classify",
+      "prompt": "Clasifica cada número según la centena a la que está más próximo:",
+      "explanation": "Los números entre 5.350 y 5.449 se redondean a 5.400. Los números a partir de 5.450 se aproximan a 5.500.",
+      "lang": "es",
+      "categories": [
+        "Más cerca de 5.400",
+        "Más cerca de 5.500"
+      ],
+      "items": [
+        {
+          "text": "5.412",
+          "category": 0
+        },
+        {
+          "text": "5.380",
+          "category": 0
+        },
+        {
+          "text": "5.440",
+          "category": 0
+        },
+        {
+          "text": "5.470",
+          "category": 1
+        },
+        {
+          "text": "5.495",
+          "category": 1
+        },
+        {
+          "text": "5.520",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-08",
+      "type": "choice",
+      "prompt": "Adrián descompone el número 6.047 así: 6.000 + 400 + 7. ¿Cuál es su error?",
+      "explanation": "El 4 ocupa el lugar de las decenas, por lo que vale 40 unidades y no 400. Lo correcto es 6.000 + 40 + 7.",
+      "hint": "Fíjate bien en la posición que ocupa la cifra 4 en 6.047.",
+      "lang": "es",
+      "options": [
+        "Ha puesto 400 unidades en vez de 40.",
+        "Ha olvidado sumar las unidades de millar.",
+        "Ha escrito 7 unidades en vez de 70."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-09",
+      "type": "choice",
+      "prompt": "El sábado fueron 4.250 personas al polideportivo. El domingo fueron 300 personas más. ¿Cuántas fueron el domingo?",
+      "explanation": "Sumamos 3 centenas a la cifra de las centenas: 4.250 + 300 = 4.550 personas.",
+      "hint": "Suma 300 a 4.250 fijándote en la posición de las centenas.",
+      "lang": "es",
+      "options": [
+        "4.550 personas",
+        "4.280 personas",
+        "7.250 personas"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-10",
+      "type": "choice",
+      "prompt": "Adivina el número: tiene 9 millares, las unidades son el doble de 3 y no tiene centenas ni decenas.",
+      "explanation": "Tiene 9 UM (9.000), 0 C, 0 D y las unidades son 2 × 3 = 6. El número es 9.006.",
+      "hint": "Calcula primero el doble de 3 y pon esa cifra en el lugar de las unidades.",
+      "lang": "es",
+      "options": [
+        "9.600",
+        "9.060",
+        "9.006"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:05:39.556Z",
+    "reviewed": false
+  }
+}

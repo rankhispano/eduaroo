@@ -1,0 +1,220 @@
+{
+  "id": "g3-sociales-siglos-y-decadas",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "siglos-y-decadas",
+  "temaNombre": "Siglos y décadas",
+  "title": "Viajeros del tiempo: siglos y décadas",
+  "summary": "Aprende a medir el paso del tiempo histórico usando décadas y siglos.",
+  "keyIdeas": [
+    "Una década es un período de 10 años seguidos.",
+    "Un siglo es un período de 100 años seguidos o 10 décadas.",
+    "Los historiadores suelen escribir los siglos con números romanos, como el siglo XXI."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE7"
+    ],
+    "criteria": [
+      "7.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CE2",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-siglos-y-decadas-01",
+      "type": "true-false",
+      "prompt": "Una década es un período de tiempo formado por 10 años.",
+      "explanation": "Una década dura exactamente 10 años. Si multiplicas 10 por 10, obtienes un siglo.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-sociales-siglos-y-decadas-02",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con la palabra correcta.",
+      "explanation": "Un siglo está formado por 100 años. Diez años forman una década.",
+      "lang": "es",
+      "sentence": "Un siglo es un período de tiempo que dura ___ años.",
+      "options": [
+        "1000",
+        "10",
+        "100"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-siglos-y-decadas-03",
+      "type": "match",
+      "prompt": "Une cada medida de tiempo con su duración correspondiente.",
+      "explanation": "Un lustro son 5 años, una década son 10, un siglo son 100 y un milenio son 1000 años.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Un lustro",
+          "right": "5 años"
+        },
+        {
+          "left": "Una década",
+          "right": "10 años"
+        },
+        {
+          "left": "Un siglo",
+          "right": "100 años"
+        },
+        {
+          "left": "Un milenio",
+          "right": "1000 años"
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-siglos-y-decadas-04",
+      "type": "choice",
+      "prompt": "El abuelo de Omar nació hace exactamente 70 años. ¿Cuántas décadas ha vivido?",
+      "explanation": "Como cada década tiene 10 años, dividimos 70 entre 10 y obtenemos 7 décadas.",
+      "hint": "Recuerda que cada grupo de 10 años es una década.",
+      "lang": "es",
+      "options": [
+        "700 décadas",
+        "70 décadas",
+        "7 décadas"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-siglos-y-decadas-05",
+      "type": "classify",
+      "prompt": "Clasifica cada acontecimiento según la unidad de tiempo más adecuada para medirlo.",
+      "explanation": "Los acontecimientos de 10 a 90 años se miden bien en décadas; la historia antigua se cuenta en siglos.",
+      "lang": "es",
+      "categories": [
+        "Se mide en décadas",
+        "Se mide en siglos"
+      ],
+      "items": [
+        {
+          "text": "La edad de tu tía favorita (30 años)",
+          "category": 0
+        },
+        {
+          "text": "La construcción de las pirámides de Egipto",
+          "category": 1
+        },
+        {
+          "text": "El tiempo que lleva abierto tu colegio (20 años)",
+          "category": 0
+        },
+        {
+          "text": "La vida de un castillo medieval muy antiguo",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-siglos-y-decadas-06",
+      "type": "order",
+      "prompt": "Ordena estas medidas de tiempo de menor a mayor duración.",
+      "explanation": "Un año dura menos que una década (10 años), esta menos que medio siglo (50 años) y el siglo dura 100 años.",
+      "lang": "es",
+      "items": [
+        "Un año",
+        "Una década",
+        "Medio siglo (50 años)",
+        "Un siglo completo"
+      ]
+    },
+    {
+      "id": "g3-sociales-siglos-y-decadas-07",
+      "type": "fill-blank",
+      "prompt": "Completa el cálculo sobre el colegio de Martina.",
+      "explanation": "Un centenario son 100 años. Como cada década tiene 10 años, 100 años son exactamente 10 décadas.",
+      "lang": "es",
+      "sentence": "El colegio de Martina celebró su centenario. Eso significa que cumplió ___ décadas de historia.",
+      "options": [
+        "100",
+        "5",
+        "10"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-siglos-y-decadas-08",
+      "type": "choice",
+      "prompt": "Si un castillo se construyó en el año 1200 y ahora estamos en el año 2000, ¿cuántos siglos han pasado?",
+      "explanation": "De 1200 a 2000 van 800 años. Como cada siglo tiene 100 años, 800 años equivalen a 8 siglos.",
+      "hint": "Resta los años y cuenta cuántos grupos de 100 obtienes.",
+      "lang": "es",
+      "options": [
+        "8 siglos",
+        "80 siglos",
+        "800 siglos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-sociales-siglos-y-decadas-09",
+      "type": "reading",
+      "prompt": "Lee atentamente la historia del reloj de la torre del pueblo de Lucía.",
+      "explanation": "Dos siglos son 200 años y cuatro décadas son 40 años.",
+      "lang": "es",
+      "title": "El gran reloj de la plaza",
+      "text": "En el pueblo de Lucía hay una torre con un gran reloj de campana. Los vecinos dicen que el reloj comenzó a funcionar hace dos siglos completos. Durante todo ese tiempo, el relojero de la villa ha cuidado su maquinaria. Hace cuatro décadas cambiaron las viejas manecillas de hierro por unas de bronce brillante. Hoy en día, niños y mayores siguen escuchando sus campanadas cada hora. Es el monumento más querido de toda la localidad.",
+      "questions": [
+        {
+          "prompt": "¿Cuántos años lleva funcionando el reloj de la torre?",
+          "explanation": "El texto dice que funciona desde hace dos siglos completos, y dos siglos son 200 años.",
+          "options": [
+            "200 años",
+            "20 años",
+            "2000 años"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿Hace cuántos años cambiaron las manecillas por unas de bronce?",
+          "explanation": "Cuatro décadas equivalen a 4 grupos de 10 años, es decir, 40 años.",
+          "options": [
+            "Hace 40 años",
+            "Hace 4 años",
+            "Hace 400 años"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-siglos-y-decadas-10",
+      "type": "choice",
+      "prompt": "Una biblioteca municipal tiene 6 décadas y 5 años de vida. ¿Cuántos años le faltan para cumplir un siglo?",
+      "explanation": "6 décadas y 5 años son 65 años. Para llegar a un siglo (100 años) faltan: 100 - 65 = 35 años.",
+      "hint": "Primero calcula cuántos años tiene la biblioteca en total.",
+      "lang": "es",
+      "options": [
+        "25 años",
+        "45 años",
+        "35 años"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:56:30.408Z",
+    "reviewed": false
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "id": "g3-lengua-el-texto-descriptivo",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "el-texto-descriptivo",
+  "temaNombre": "El texto descriptivo",
+  "title": "Descubrimos el texto descriptivo",
+  "summary": "Practica cómo describir personas, animales, objetos y lugares usando las palabras adecuadas.",
+  "keyIdeas": [
+    "Describir consiste en explicar con detalle cómo es una persona, un animal, un objeto o un lugar.",
+    "Los adjetivos son palabras fundamentales para decir las cualidades y rasgos de lo que describimos.",
+    "Para hacer una buena descripción solemos seguir un orden, como de lo general a los detalles."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "4.2",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-el-texto-descriptivo-01",
+      "type": "choice",
+      "prompt": "¿Cuál es la función principal de un texto descriptivo?",
+      "explanation": "El texto descriptivo sirve para explicar cómo son las personas, animales, cosas o lugares, mostrando sus rasgos y características.",
+      "hint": "Piensa en qué haces cuando dices cómo es tu habitación o tu mascota.",
+      "lang": "es",
+      "options": [
+        "Contar una historia imaginaria con personajes y diálogos.",
+        "Explicar con palabras cómo es un ser, un objeto o un lugar.",
+        "Dar instrucciones paso a paso para elaborar una receta."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-02",
+      "type": "true-false",
+      "prompt": "En los textos descriptivos se usan muchos adjetivos para indicar las cualidades.",
+      "explanation": "Es verdadero. Los adjetivos calificativos son las palabras que nos dicen cómo son o cómo están las cosas.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-03",
+      "type": "match",
+      "prompt": "Relaciona cada elemento con el tipo de descripción que le corresponde:",
+      "explanation": "Podemos describir diferentes realidades: lugares, animales, objetos o personas según el elemento que observemos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Plaza Mayor del pueblo",
+          "right": "Descripción de un lugar"
+        },
+        {
+          "left": "Gato siamés cariñoso",
+          "right": "Descripción de un animal"
+        },
+        {
+          "left": "Mochila escolar azul",
+          "right": "Descripción de un objeto"
+        },
+        {
+          "left": "Abuela sonriente y ágil",
+          "right": "Descripción de una persona"
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-04",
+      "type": "fill-blank",
+      "prompt": "Completa la frase con el adjetivo más adecuado para la descripción:",
+      "explanation": "La palabra espeso indica que hay muchos árboles y vegetación junta, por eso tapa la luz solar.",
+      "lang": "es",
+      "sentence": "El bosque era tan ___ que apenas entraban los rayos de sol.",
+      "options": [
+        "ruidoso",
+        "salado",
+        "espeso"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-05",
+      "type": "classify",
+      "prompt": "Clasifica estos rasgos de una persona según describan su físico o su carácter:",
+      "explanation": "Los rasgos físicos se ven a simple vista en el cuerpo, mientras que el carácter describe la forma de ser y comportarse.",
+      "lang": "es",
+      "categories": [
+        "Rasgos físicos",
+        "Rasgos de carácter"
+      ],
+      "items": [
+        {
+          "text": "Pelo rizado",
+          "category": 0
+        },
+        {
+          "text": "Generosa",
+          "category": 1
+        },
+        {
+          "text": "Ojos rasgados",
+          "category": 0
+        },
+        {
+          "text": "Paciente",
+          "category": 1
+        },
+        {
+          "text": "Estatura alta",
+          "category": 0
+        },
+        {
+          "text": "Alegre",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-06",
+      "type": "choice",
+      "prompt": "Encuentra el error: ¿qué frase contiene una contradicción en la descripción?",
+      "explanation": "Un desierto se caracteriza por la falta de agua y la aridez. Decir que está cubierto por un gran lago contradice la descripción.",
+      "hint": "Fíjate en las características propias de un desierto.",
+      "lang": "es",
+      "options": [
+        "El parque tenía bancos de madera limpia y árboles llenos de hojas verdes.",
+        "Aisha llevaba una bufanda de lana suave porque hacía una mañana fresca.",
+        "El desierto era muy seco y estaba cubierto por un profundo lago de agua dulce."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-07",
+      "type": "order",
+      "prompt": "Ordena estos pasos para organizar una buena descripción de una persona:",
+      "explanation": "Al describir a alguien solemos empezar por la presentación general, seguimos con su físico, continuamos con su carácter y terminamos con sus aficiones.",
+      "lang": "es",
+      "items": [
+        "Presentar quién es la persona y cómo se llama.",
+        "Describir sus rasgos físicos generales y particulares.",
+        "Explicar su forma de ser o carácter.",
+        "Mencionar sus gustos, aficiones o qué ropa lleva."
+      ]
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-08",
+      "type": "reading",
+      "prompt": "Lee atentamente la descripción y responde a las preguntas:",
+      "explanation": "En las descripciones de lugares se usan detalles visuales, olores y sensaciones para que imaginemos el espacio.",
+      "lang": "es",
+      "title": "El refugio de Lucas",
+      "text": "Lucas tiene una casita de madera construida en las ramas de un viejo roble. Sus paredes son de color castaño y el tejado tiene tejas rojas brillantes. Por fuera cuelgan macetas con geranios olorosos que alegran la entrada. Dentro hay una alfombra redonda y mullida junto a un baúl repleto de cuentos. A través de la ventana circular se contempla todo el huerto de su abuela Martina. Es un rincón silencioso, acogedor y perfecto para leer en las tardes de otoño.",
+      "questions": [
+        {
+          "prompt": "¿Dónde está situada la casita de Lucas?",
+          "explanation": "El texto indica expresamente que la casita de madera está construida en las ramas de un viejo roble.",
+          "options": [
+            "En medio del huerto sobre el suelo.",
+            "En la azotea de la casa del pueblo.",
+            "En las ramas de un viejo roble."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué sentido se utiliza cuando se menciona que los geranios son olorosos?",
+          "explanation": "La palabra olorosos hace referencia al olor de las flores, que se percibe a través del sentido del olfato.",
+          "options": [
+            "El sentido del oído.",
+            "El sentido del olfato.",
+            "El sentido del tacto."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué adjetivos resumen cómo se siente estar dentro del refugio?",
+          "explanation": "La lectura concluye diciendo que es un rincón silencioso, acogedor y perfecto para leer.",
+          "options": [
+            "Silencioso y acogedor.",
+            "Peligroso y oscuro.",
+            "Frío y aburrido."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-09",
+      "type": "choice",
+      "prompt": "Hugo ha perdido a su perro en el parque. ¿Cuál de estos textos es el cartel descriptivo más útil para encontrarlo?",
+      "explanation": "Para reconocer a un animal perdido se necesitan datos concretos sobre su tamaño, color, rasgos físicos y accesorios visibles.",
+      "hint": "Busca el texto que detalle la apariencia física del animal.",
+      "lang": "es",
+      "options": [
+        "Perro muy simpático. Le encanta jugar con la pelota y correr mucho por el césped los domingos.",
+        "Perro mediano, pelo canela rizado, orejas caídas y collar rojo con chapa plateada. Responde al nombre de Choco.",
+        "Ayer se perdió mi perro favorito. Si lo ves avísame pronto porque lo echo mucho de menos en casa."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-10",
+      "type": "choice",
+      "prompt": "¿Qué recurso descriptivo se ha usado en la frase: «Las nubes parecían copos de algodón blanco»?",
+      "explanation": "Se ha utilizado una comparación al relacionar las nubes con el algodón usando la palabra parecían, lo que ayuda a imaginar su aspecto.",
+      "hint": "Observa cómo se relaciona un elemento con otro parecido.",
+      "lang": "es",
+      "options": [
+        "Una pregunta para comprobar el tiempo meteorológico.",
+        "Una instrucción para dibujar las nubes paso a paso.",
+        "Una comparación para destacar la forma y suavidad de las nubes."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:30:43.260Z",
+    "reviewed": false
+  }
+}

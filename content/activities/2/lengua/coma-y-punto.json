@@ -1,0 +1,209 @@
+{
+  "id": "g2-lengua-coma-y-punto",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "coma-y-punto",
+  "temaNombre": "Coma y punto",
+  "title": "El punto y la coma",
+  "summary": "Aprenderás a usar el punto y la coma para escribir textos claros y ordenados.",
+  "keyIdeas": [
+    "El punto (.) se escribe al final de una oración completa y después se empieza con mayúscula.",
+    "La coma (,) sirve para separar elementos en una lista y hacer una pequeña pausa.",
+    "Antes de la última palabra de una lista solemos poner 'y' en lugar de coma."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.2",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-coma-y-punto-01",
+      "type": "choice",
+      "prompt": "¿Qué signo de puntuación se escribe al terminar una oración?",
+      "explanation": "El punto se coloca siempre al final de una oración para indicar que ha terminado.",
+      "hint": "Es una pequeña marca redonda que cierra la idea.",
+      "lang": "es",
+      "options": [
+        "La coma",
+        "El punto",
+        "La interrogación"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-02",
+      "type": "true-false",
+      "prompt": "Usamos la coma para separar cosas en una lista.",
+      "explanation": "¡Correcto! La coma sirve para separar palabras de una enumeración o lista.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-03",
+      "type": "fill-blank",
+      "prompt": "Elige la palabra adecuada para completar la regla.",
+      "explanation": "Tras un punto, la siguiente palabra siempre debe comenzar con letra mayúscula.",
+      "lang": "es",
+      "sentence": "Después de un punto siempre escribimos la primera letra en ___.",
+      "options": [
+        "minúscula",
+        "mayúscula",
+        "cursiva"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-04",
+      "type": "match",
+      "prompt": "Une cada signo de puntuación con su función principal.",
+      "explanation": "El punto cierra oraciones, la coma separa elementos y la mayúscula inicia una oración nueva.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Punto final",
+          "right": "Termina una oración o texto"
+        },
+        {
+          "left": "Coma",
+          "right": "Separa palabras de una lista"
+        },
+        {
+          "left": "Letra mayúscula",
+          "right": "Va justo después de un punto"
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-05",
+      "type": "choice",
+      "prompt": "Hugo prepara su estuche. ¿Qué frase está bien puntuada?",
+      "explanation": "Las palabras de la lista se separan con comas y la última se une con la letra 'y'.",
+      "hint": "Fíjate en las pausas entre los objetos del estuche.",
+      "lang": "es",
+      "options": [
+        "Tengo lápiz goma sacapuntas y tijeras.",
+        "Tengo lápiz. goma. sacapuntas. y tijeras.",
+        "Tengo lápiz, goma, sacapuntas y tijeras."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-06",
+      "type": "classify",
+      "prompt": "Clasifica si falta una coma o un punto en el hueco marcado con [?].",
+      "explanation": "Usamos coma para separar los elementos de una lista y punto para separar dos oraciones completas.",
+      "lang": "es",
+      "categories": [
+        "Falta una coma (,)",
+        "Falta un punto (.)"
+      ],
+      "items": [
+        {
+          "text": "Compré manzanas [?] peras y plátanos.",
+          "category": 0
+        },
+        {
+          "text": "El perro corre [?] Luego bebe agua.",
+          "category": 1
+        },
+        {
+          "text": "Aisha tiene cromos [?] muñecas y peonzas.",
+          "category": 0
+        },
+        {
+          "text": "Hoy sale el sol [?] El cielo está azul.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-07",
+      "type": "choice",
+      "prompt": "Encuentra la frase que contiene un error de puntuación.",
+      "explanation": "Después del punto en 'fruta.', la palabra 'luego' debe empezar con mayúscula: 'Luego'.",
+      "hint": "Revisa qué pasa con la letra que va después del punto.",
+      "lang": "es",
+      "options": [
+        "Lucía juega, salta y ríe en el patio.",
+        "Omar come fruta. luego lee su libro favorito.",
+        "El gato duerme en el sofá."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-08",
+      "type": "order",
+      "prompt": "Ordena estas partes para formar una oración bien puntuada.",
+      "explanation": "La oración empieza con el sujeto o acción, separa los elementos con coma y termina con punto final.",
+      "lang": "es",
+      "items": [
+        "En la mochila llevo",
+        "mi cuaderno,",
+        "los lápices",
+        "y la regla."
+      ]
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-09",
+      "type": "reading",
+      "prompt": "Lee el texto atentamente y responde a las preguntas.",
+      "explanation": "El texto utiliza comas para enumerar las verduras y puntos para separar cuatro ideas u oraciones distintas.",
+      "lang": "es",
+      "title": "La huerta del colegio",
+      "text": "En el huerto del cole plantamos tomates, lechugas, zanahorias y cebollas. Cada día regamos la tierra con cuidado. Las plantas crecen muy rápido bajo el sol brillante. Pronto prepararemos una ensalada rica y sana con la cosecha.",
+      "questions": [
+        {
+          "prompt": "¿Por qué hay comas en la primera frase del texto?",
+          "explanation": "La coma se utiliza para separar los elementos de la lista de verduras.",
+          "options": [
+            "Porque la frase ya se ha terminado por completo.",
+            "Porque separa las verduras que plantaron en el huerto.",
+            "Porque después de cada verdura va una mayúscula."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Cuántas oraciones completas terminadas en punto hay en total?",
+          "explanation": "Hay 4 oraciones separadas por sus respectivos puntos.",
+          "options": [
+            "6 oraciones",
+            "2 oraciones",
+            "4 oraciones"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:19:13.301Z",
+    "reviewed": false
+  }
+}

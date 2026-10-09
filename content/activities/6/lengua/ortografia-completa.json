@@ -1,0 +1,258 @@
+{
+  "id": "g6-lengua-ortografia-completa",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "ortografia-completa",
+  "temaNombre": "Ortografía completa",
+  "title": "Maestría en ortografía y acentuación",
+  "summary": "Repasa las reglas de acentuación, las grafías dudosas y los signos de puntuación con retos prácticos.",
+  "keyIdeas": [
+    "Las palabras agudas, llanas y esdrújulas siguen reglas fijas según su terminación y su sílaba tónica.",
+    "La tilde diacrítica distingue palabras idénticas con distinta función gramatical y significado.",
+    "Los hiatos de vocal abierta y cerrada tónica siempre llevan tilde en la vocal cerrada."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC2",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD2",
+      "CD3",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-ortografia-completa-01",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según se escriban con b o con v siguiendo sus reglas ortográficas.",
+      "explanation": "Se escriben con B las terminaciones del pretérito imperfecto en -aba, los verbos terminados en -bir y el sufijo -bundo. Se escriben con V las palabras con el prefijo ad-, las terminaciones en -ívoro y detrás de n.",
+      "lang": "es",
+      "categories": [
+        "Se escriben con B",
+        "Se escriben con V"
+      ],
+      "items": [
+        {
+          "text": "cantábamos",
+          "category": 0
+        },
+        {
+          "text": "adverbio",
+          "category": 1
+        },
+        {
+          "text": "vagabundo",
+          "category": 0
+        },
+        {
+          "text": "carnívoro",
+          "category": 1
+        },
+        {
+          "text": "escribir",
+          "category": 0
+        },
+        {
+          "text": "invento",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-02",
+      "type": "true-false",
+      "prompt": "Todas las palabras esdrújulas y sobresdrújulas llevan tilde siempre, independientemente de la letra en la que terminen.",
+      "explanation": "Es una regla general fija: las palabras esdrújulas y sobresdrújulas siempre llevan tilde en la sílaba tónica (antepenúltima o anterior a la antepenúltima).",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-03",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre la excursión de Aisha y Omar con la palabra correcta.",
+      "explanation": "Las palabras que empiezan por los diptongos ue-, ui-, ia- e ie- se escriben siempre con hache inicial.",
+      "lang": "es",
+      "sentence": "Aisha y Omar encontraron una extraña ___ de dinosaurio en el barro del sendero.",
+      "options": [
+        "huella",
+        "uella",
+        "güella"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-04",
+      "type": "match",
+      "prompt": "Une cada palabra monosílaba con su función gramatical según lleve o no tilde diacrítica.",
+      "explanation": "La tilde diacrítica permite diferenciar palabras que tienen la misma forma pero pertenecen a categorías gramaticales y significados distintos.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "dé",
+          "right": "Forma del verbo dar"
+        },
+        {
+          "left": "de",
+          "right": "Preposición"
+        },
+        {
+          "left": "té",
+          "right": "Sustantivo que nombra una infusión"
+        },
+        {
+          "left": "te",
+          "right": "Pronombre personal"
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-05",
+      "type": "choice",
+      "prompt": "Hugo ha escrito estas oraciones para el periódico escolar, pero una contiene una falta de ortografía. ¿Cuál es?",
+      "explanation": "La palabra «ensayo» se escribe con «y», al igual que todas las formas del verbo ensayar y sus derivados.",
+      "hint": "Fíjate en las palabras con dígrafo ll o con y.",
+      "lang": "es",
+      "options": [
+        "Ayer recogimos varias muestras de agua del río.",
+        "El profesor nos sugirió traer un tubo de ensallo.",
+        "Mañana publicaremos las conclusiones del proyecto.",
+        "Observamos varias especies de insectos acuáticos."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-06",
+      "type": "classify",
+      "prompt": "Clasifica estas palabras según contengan un diptongo o un hiato.",
+      "explanation": "Los diptongos unen dos vocales en una misma sílaba (abierta + cerrada átona o dos cerradas), mientras que los hiatos separan las vocales en sílabas distintas (dos abiertas o abierta + cerrada tónica con tilde).",
+      "lang": "es",
+      "categories": [
+        "Contiene diptongo",
+        "Contiene hiato"
+      ],
+      "items": [
+        {
+          "text": "canción",
+          "category": 0
+        },
+        {
+          "text": "país",
+          "category": 1
+        },
+        {
+          "text": "puerta",
+          "category": 0
+        },
+        {
+          "text": "teatro",
+          "category": 1
+        },
+        {
+          "text": "caída",
+          "category": 1
+        },
+        {
+          "text": "ciudad",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-07",
+      "type": "fill-blank",
+      "prompt": "Elige la opción correcta para completar la pregunta que Martina plantea en el laboratorio.",
+      "explanation": "Se escribe «Por qué» en dos palabras y con tilde en las oraciones interrogativas directas e indirectas.",
+      "lang": "es",
+      "sentence": "¿___ no reacciona este líquido si ya hemos añadido el reactivo?",
+      "options": [
+        "Porqué",
+        "Porque",
+        "Por que",
+        "Por qué"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-08",
+      "type": "choice",
+      "prompt": "En el club de lectura leen esta frase: «El conser___e nos advirtió de que el carrua___e requería un via___e muy proli___o». ¿Qué letras completan los huecos?",
+      "explanation": "Todas se escriben con «j»: conserje (acabada en -je), carruaje y viaje (acabadas en -aje) y prolijo (acabada en -jo).",
+      "hint": "Recuerda las reglas de las palabras terminadas en -aje, -eje y -jería.",
+      "lang": "es",
+      "options": [
+        "j - g - g - j",
+        "g - j - j - g",
+        "j - j - g - j",
+        "j - j - j - j"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-09",
+      "type": "reading",
+      "prompt": "Lee este texto sobre el taller escolar de redacción y contesta a las preguntas.",
+      "explanation": "La comprensión del texto destaca el valor comunicativo de la ortografía y la importancia de la revisión textual reflexiva.",
+      "lang": "es",
+      "title": "El taller de redacción de sexto",
+      "text": "En el colegio El Olivar, la clase de sexto ha inaugurado un taller de periodismo digital. La maestra Elena explicó que, en la era de internet, escribir con corrección ortográfica es un acto de respeto hacia los lectores y una garantía indispensable de claridad. Durante la primera sesión, Aisha y Nerea debatieron sobre cómo los errores de acentuación pueden alterar por completo el sentido de un mensaje: no es lo mismo escribir «canto», «cantó» o «canto». Además, descubrieron que los signos de puntuación estructuran el razonamiento e impiden confusiones en los titulares informativos.\n\nAl finalizar la jornada, todo el grupo consensuó un decálogo de buenas prácticas para su revista. Su primer compromiso fue revisar cada borrador dos veces antes de publicarlo: una para comprobar la veracidad de los datos y otra para verificar las tildes, las mayúsculas y las grafías dudosas como la b, la v, la g y la j.",
+      "questions": [
+        {
+          "prompt": "Según el texto, ¿por qué es fundamental escribir con corrección ortográfica en internet?",
+          "explanation": "El texto indica expresamente que escribir bien es un acto de respeto hacia el lector y asegura la claridad del texto.",
+          "options": [
+            "Porque es un requisito informático para que los buscadores reconozcan el texto.",
+            "Porque demuestra respeto hacia los lectores y garantiza la claridad del mensaje.",
+            "Porque permite escribir oraciones excesivamente largas sin usar comas."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Qué demuestra el ejemplo de las formas verbales mencionado por Aisha y Nerea?",
+          "explanation": "Al cambiar la posición del acento (canto en presente frente a cantó en pasado), cambian tanto la persona como el tiempo del verbo.",
+          "options": [
+            "Que en las revistas escolares no se deben emplear verbos en pasado.",
+            "Que todas las palabras agudas deben llevar tilde sin excepción.",
+            "Que la tilde puede modificar por completo el tiempo verbal y la persona gramatical."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿Qué conclusión crítica se deduce sobre el proceso de revisión de un texto?",
+          "explanation": "El compromiso del alumnado muestra que una buena revisión debe analizar tanto la veracidad del contenido como la precisión formal y ortográfica.",
+          "options": [
+            "Basta con revisar el contenido general sin detenerse en las faltas de ortografía.",
+            "Solo los escritores profesionales necesitan comprobar la acentuación y la puntuación.",
+            "La revisión exige atender de forma separada al contenido y a la corrección ortográfica de la lengua."
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:26:52.031Z",
+    "reviewed": false
+  }
+}

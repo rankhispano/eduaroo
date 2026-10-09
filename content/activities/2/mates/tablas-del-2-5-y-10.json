@@ -1,0 +1,223 @@
+{
+  "id": "g2-mates-tablas-del-2-5-y-10",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "tablas-del-2-5-y-10",
+  "temaNombre": "Tablas del 2, 5 y 10",
+  "title": "Aventura con las tablas mágicas",
+  "summary": "Practica las tablas del 2, 5 y 10 con divertidos retos cotidianos.",
+  "keyIdeas": [
+    "Multiplicar por 2 es sumar el mismo número dos veces o calcular su doble.",
+    "Los resultados de la tabla del 5 siempre terminan en 0 o en 5.",
+    "Para multiplicar por 10, solo añadimos un cero al final del número."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE3",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "3.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones",
+      "D. Sentido algebraico › Patrones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-01",
+      "type": "match",
+      "prompt": "Une cada multiplicación con su suma repetida.",
+      "explanation": "Multiplicar por 2 equivale a sumar dos veces el mismo número.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "2 × 3",
+          "right": "3 + 3"
+        },
+        {
+          "left": "2 × 4",
+          "right": "4 + 4"
+        },
+        {
+          "left": "2 × 5",
+          "right": "5 + 5"
+        },
+        {
+          "left": "2 × 6",
+          "right": "6 + 6"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-02",
+      "type": "fill-blank",
+      "prompt": "Calcula los lápices que hay en total.",
+      "explanation": "Multiplicamos 4 × 10 = 40. Cuatro grupos de 10 forman 40 lápices.",
+      "lang": "es",
+      "sentence": "Aisha tiene 4 cajas con 10 lápices cada una. En total tiene ___ lápices.",
+      "options": [
+        "40",
+        "44",
+        "14"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-03",
+      "type": "choice",
+      "prompt": "Hugo compra 3 sobres con 5 pegatinas cada uno. ¿Cuántas pegatinas tiene en total?",
+      "explanation": "Multiplicamos 3 sobres por 5 pegatinas: 3 × 5 = 15 pegatinas.",
+      "hint": "Cuenta de 5 en 5 tres veces: 5, 10, 15.",
+      "lang": "es",
+      "options": [
+        "8 pegatinas",
+        "15 pegatinas",
+        "20 pegatinas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-04",
+      "type": "classify",
+      "prompt": "Clasifica estos resultados de la tabla del 5 según su última cifra.",
+      "explanation": "Los resultados de la tabla del 5 se alternan: terminan en 0 o en 5.",
+      "lang": "es",
+      "categories": [
+        "Terminan en 0",
+        "Terminan en 5"
+      ],
+      "items": [
+        {
+          "text": "5 × 2 = 10",
+          "category": 0
+        },
+        {
+          "text": "5 × 3 = 15",
+          "category": 1
+        },
+        {
+          "text": "5 × 6 = 30",
+          "category": 0
+        },
+        {
+          "text": "5 × 7 = 35",
+          "category": 1
+        },
+        {
+          "text": "5 × 8 = 40",
+          "category": 0
+        },
+        {
+          "text": "5 × 9 = 45",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-05",
+      "type": "true-false",
+      "prompt": "Todos los números de la tabla del 2 son pares.",
+      "explanation": "Correcto. Al contar de 2 en 2, todos terminan en 0, 2, 4, 6 u 8.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-06",
+      "type": "order",
+      "prompt": "Una rana salta de 5 en 5. Ordena sus saltos de menor a mayor.",
+      "explanation": "La serie de la tabla del 5 suma 5 cada vez: 5, 10, 15, 20 y 25.",
+      "lang": "es",
+      "items": [
+        "5",
+        "10",
+        "15",
+        "20",
+        "25"
+      ]
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-07",
+      "type": "choice",
+      "prompt": "Leo cuenta las ruedas de 6 bicicletas: «6 × 2 = 14». ¿Cuál es su error?",
+      "explanation": "6 × 2 = 12 porque 6 + 6 = 12. Leo sumó 2 de más por error.",
+      "hint": "Calcula el doble de 6 sumando 6 + 6.",
+      "lang": "es",
+      "options": [
+        "Ha sumado de más: 6 × 2 es igual a 12.",
+        "Le falta sumar: 6 × 2 es igual a 8.",
+        "La tabla del 2 solo llega hasta el número 10."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-08",
+      "type": "choice",
+      "prompt": "Piensa rápido. Si sabemos que 10 × 3 = 30, ¿cuánto es 10 × 4?",
+      "explanation": "En la tabla del 10 sumamos 10 al número anterior: 30 + 10 = 40.",
+      "hint": "Añade una decena más a 30.",
+      "lang": "es",
+      "options": [
+        "34",
+        "40",
+        "50"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-09",
+      "type": "fill-blank",
+      "prompt": "Calcula el dinero total de la compra.",
+      "explanation": "Multiplicamos 7 × 2 = 14 €. El doble de 7 es 14.",
+      "lang": "es",
+      "sentence": "Adrián compra 7 billetes de tren a 2 € cada uno. Adrián paga ___ €.",
+      "options": [
+        "9",
+        "16",
+        "14"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-10",
+      "type": "choice",
+      "prompt": "Martina tiene 3 cajas de 10 ceras. Wei tiene 6 cajas de 5 ceras. ¿Quién tiene más ceras?",
+      "explanation": "Martina tiene 3 × 10 = 30 ceras. Wei tiene 6 × 5 = 30 ceras. ¡Tienen las mismas!",
+      "hint": "Calcula cuántas ceras tiene cada uno por separado.",
+      "lang": "es",
+      "options": [
+        "Los dos tienen la misma cantidad.",
+        "Wei tiene más ceras.",
+        "Martina tiene más ceras."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:02:13.387Z",
+    "reviewed": false
+  }
+}

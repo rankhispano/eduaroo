@@ -1,0 +1,234 @@
+{
+  "id": "g1-naturales-habitos-de-higiene",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "habitos-de-higiene",
+  "temaNombre": "Hábitos de higiene",
+  "title": "Hábitos geniales para estar limpios",
+  "summary": "Practica cómo cuidar la higiene del cuerpo y ahorrar agua cada día.",
+  "keyIdeas": [
+    "Lavarse las manos con agua y jabón elimina los microbios y la suciedad.",
+    "Cepillarse los dientes después de comer previene las caries y cuida la boca.",
+    "Cerrar el grifo mientras nos lavamos ayuda a proteger el agua del planeta."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE6"
+    ],
+    "criteria": [
+      "4.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCL5",
+      "CE1",
+      "CPSAA1",
+      "CPSAA2",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM2",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-habitos-de-higiene-01",
+      "type": "choice",
+      "prompt": "Aisha vuelve del patio y va a merendar. ¿Qué debe hacer antes de tocar la comida?",
+      "explanation": "Lavarse con agua y jabón elimina los microbios que recogemos al jugar. Así comemos de forma segura.",
+      "hint": "Necesitas agua y jabón.",
+      "lang": "es",
+      "options": [
+        "Lavarse las manos con agua y jabón",
+        "Limpiarse las manos en el pantalón",
+        "Peinarse el pelo con colonia"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-02",
+      "type": "true-false",
+      "prompt": "Lavarse las manos solo con agua elimina todos los microbios.",
+      "explanation": "El agua sola no quita toda la suciedad ni la grasa. Necesitamos jabón para atrapar los microbios.",
+      "lang": "es",
+      "answer": false
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-03",
+      "type": "match",
+      "prompt": "Une cada objeto de higiene con su uso correcto.",
+      "explanation": "Cada parte del cuerpo necesita un objeto especial para limpiarse y secarse bien.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Cepillo y pasta",
+          "right": "Limpiar los dientes"
+        },
+        {
+          "left": "Peine",
+          "right": "Desenredar el pelo"
+        },
+        {
+          "left": "Esponja y jabón",
+          "right": "Lavar el cuerpo"
+        },
+        {
+          "left": "Toalla limpia",
+          "right": "Secar la piel"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-04",
+      "type": "order",
+      "prompt": "Ordena los pasos para lavarse las manos de forma correcta.",
+      "explanation": "Primero mojamos la piel, luego hacemos espuma con el jabón, aclaramos y secamos muy bien.",
+      "lang": "es",
+      "items": [
+        "Mojar las manos con agua",
+        "Frotar con jabón haciendo espuma",
+        "Aclarar las manos con agua limpia",
+        "Secar bien con una toalla limpia"
+      ]
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-05",
+      "type": "fill-blank",
+      "prompt": "Completa la frase sobre el cuidado de la boca.",
+      "explanation": "El cepillado elimina los restos de comida y evita que salgan caries en los dientes.",
+      "lang": "es",
+      "sentence": "Hugo se cepilla los dientes para evitar las ___.",
+      "options": [
+        "cosquillas",
+        "caries",
+        "pecas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-06",
+      "type": "classify",
+      "prompt": "Clasifica estas acciones según sean saludables o no.",
+      "explanation": "Mantener limpio nuestro cuerpo y no compartir objetos personales nos ayuda a no enfermar.",
+      "lang": "es",
+      "categories": [
+        "Hábito saludable",
+        "Hábito no saludable"
+      ],
+      "items": [
+        {
+          "text": "Lavarse las manos antes de comer",
+          "category": 0
+        },
+        {
+          "text": "Comer con las manos llenas de barro",
+          "category": 1
+        },
+        {
+          "text": "Usar un pañuelo limpio al estornudar",
+          "category": 0
+        },
+        {
+          "text": "Compartir el cepillo de dientes con otros",
+          "category": 1
+        },
+        {
+          "text": "Ducharse después de hacer deporte",
+          "category": 0
+        },
+        {
+          "text": "Llevar la ropa sudada varios días",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-07",
+      "type": "choice",
+      "prompt": "Omar pone purpurina en sus manos para imitar a los microbios. Con solo agua, no se va. ¿Qué pasará si usa agua y jabón?",
+      "explanation": "El jabón se une a la suciedad y ayuda a que el agua se la lleve al aclarar.",
+      "hint": "El jabón sirve para despegar la suciedad.",
+      "lang": "es",
+      "options": [
+        "Se pegará más purpurina a la piel",
+        "La purpurina cambiará de color",
+        "La purpurina se irá con la espuma"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-08",
+      "type": "choice",
+      "prompt": "Lucía escucha tres consejos en clase. ¿Cuál de estos consejos es un ERROR?",
+      "explanation": "Dejar el grifo abierto malgasta agua. Debemos cerrarlo siempre mientras nos frotamos con jabón.",
+      "hint": "Piensa en qué acción gasta agua sin necesidad.",
+      "lang": "es",
+      "options": [
+        "Dejar el grifo abierto mientras te enjabonas",
+        "Cerrar el grifo mientras te frotas los dientes",
+        "Ducharse rápido para gastar menos agua"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-09",
+      "type": "choice",
+      "prompt": "A Leo le pica la nariz y va a estornudar. No tiene un pañuelo de papel. ¿Cómo debe taparse?",
+      "explanation": "Taparse con el codo evita llenar las manos de microbios que luego pasaríamos a las cosas que tocamos.",
+      "hint": "Si usas la mano, luego tocas objetos.",
+      "lang": "es",
+      "options": [
+        "Con la parte interior del codo",
+        "Sin taparse y hacia sus compañeros",
+        "Con la palma de su mano"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-10",
+      "type": "reading",
+      "prompt": "Lee este texto y responde a las preguntas.",
+      "explanation": "Tener una buena rutina de limpieza y ahorrar agua cuida nuestra salud y la naturaleza.",
+      "lang": "es",
+      "title": "La rutina de Nerea",
+      "text": "Nerea y su hermano cuidan su cuerpo cada día. Por la mañana se lavan la cara. Después de comer se cepillan los dientes dos minutos. Al volver del parque se duchan con jabón. Siempre cierran el grifo para cuidar el agua.",
+      "questions": [
+        {
+          "prompt": "¿Cuánto tiempo se cepillan los dientes?",
+          "explanation": "El texto dice que se cepillan los dientes durante dos minutos después de comer.",
+          "options": [
+            "Dos segundos",
+            "Dos minutos",
+            "Diez minutos"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿Para qué cierran el grifo mientras se enjabonan?",
+          "explanation": "Cerrar el grifo evita malgastar agua y protege nuestro planeta.",
+          "options": [
+            "Para cuidar el agua del planeta",
+            "Porque tienen mucho frío",
+            "Para no hacer ruido en casa"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:34:10.075Z",
+    "reviewed": false
+  }
+}

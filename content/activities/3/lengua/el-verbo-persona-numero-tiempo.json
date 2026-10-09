@@ -1,0 +1,227 @@
+{
+  "id": "g3-lengua-el-verbo-persona-numero-tiempo",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "el-verbo-persona-numero-tiempo",
+  "temaNombre": "El verbo: persona, número, tiempo",
+  "title": "El verbo: persona, número y tiempo",
+  "summary": "Aprende a reconocer la persona, el número y el tiempo de las formas verbales con divertidos retos.",
+  "keyIdeas": [
+    "Los verbos indican acciones y pueden estar en pasado, presente o futuro.",
+    "El número puede ser singular (una persona) o plural (varias personas).",
+    "La persona indica quién hace la acción: primera (yo, nosotros), segunda (tú, vosotros) o tercera (él, ellos)."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-01",
+      "type": "choice",
+      "prompt": "¿En qué tiempo verbal está la palabra destacada? Ayer Omar <b>dibujó</b> un gran mural en el patio.",
+      "explanation": "La palabra 'dibujó' expresa una acción que ya ocurrió ayer, por eso está en pasado.",
+      "hint": "Fíjate en la palabra 'Ayer', indica un momento que ya ha pasado.",
+      "lang": "es",
+      "options": [
+        "Pasado",
+        "Presente",
+        "Futuro"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-02",
+      "type": "true-false",
+      "prompt": "El verbo 'comemos' está en número plural porque la acción la realizan varias personas.",
+      "explanation": "'Comemos' se refiere a 'nosotros o nosotras', es decir, más de una persona, por lo que su número es plural.",
+      "lang": "es",
+      "answer": true
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-03",
+      "type": "match",
+      "prompt": "Une cada pronombre personal con la persona gramatical que le corresponde:",
+      "explanation": "Yo es primera persona, tú es segunda persona y ella o ellos corresponden a la tercera persona.",
+      "lang": "es",
+      "pairs": [
+        {
+          "left": "Yo",
+          "right": "Primera persona del singular"
+        },
+        {
+          "left": "Tú",
+          "right": "Segunda persona del singular"
+        },
+        {
+          "left": "Ella",
+          "right": "Tercera persona del singular"
+        },
+        {
+          "left": "Ellos",
+          "right": "Tercera persona del plural"
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-04",
+      "type": "classify",
+      "prompt": "Clasifica estas formas verbales según el tiempo en el que ocurren:",
+      "explanation": "Las acciones que pasan ahora están en presente ('escribo', 'saltas', 'escuchan') y las que ocurrirán después están en futuro ('viajaré', 'leeremos', 'abrirán').",
+      "lang": "es",
+      "categories": [
+        "Presente",
+        "Futuro"
+      ],
+      "items": [
+        {
+          "text": "escribo",
+          "category": 0
+        },
+        {
+          "text": "viajaré",
+          "category": 1
+        },
+        {
+          "text": "saltas",
+          "category": 0
+        },
+        {
+          "text": "leeremos",
+          "category": 1
+        },
+        {
+          "text": "escuchan",
+          "category": 0
+        },
+        {
+          "text": "abrirán",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-05",
+      "type": "fill-blank",
+      "prompt": "Elige la forma verbal que concuerda correctamente con el sujeto de la oración:",
+      "explanation": "'Aisha y Martina' equivale al pronombre 'ellas' (tercera persona del plural), por lo que el verbo correcto es 'cocinan'.",
+      "lang": "es",
+      "sentence": "Aisha y Martina ___ un pastel de manzana para la fiesta del colegio.",
+      "options": [
+        "cocina",
+        "cocinan",
+        "cocináis"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-06",
+      "type": "order",
+      "prompt": "Ordena estas oraciones de la más antigua a la que ocurrirá más tarde según su tiempo verbal:",
+      "explanation": "El orden temporal correcto es pasado ('plantamos el año pasado'), presente ('ahora cuidamos') y futuro ('mañana regaremos').",
+      "lang": "es",
+      "items": [
+        "El año pasado plantamos un roble en el parque.",
+        "Ahora cuidamos las hojas tiernas del árbol.",
+        "Mañana regaremos la tierra con la manguera."
+      ]
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-07",
+      "type": "choice",
+      "prompt": "Encuentra el error: ¿cuál de estas frases tiene un fallo de concordancia entre la persona y el verbo?",
+      "explanation": "El pronombre 'vosotros' es la segunda persona del plural, por lo que el verbo debe ser 'corréis' y no 'corren'.",
+      "hint": "Prueba a conjugar el verbo 'correr' con 'vosotros'.",
+      "lang": "es",
+      "options": [
+        "Nosotros fuimos a la biblioteca del barrio.",
+        "Tú preparaste la mochila para la excursión.",
+        "Vosotros corren muy rápido en la pista de atletismo."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-08",
+      "type": "reading",
+      "prompt": "Lee atentamente el siguiente texto sobre el huerto escolar y responde a las preguntas:",
+      "explanation": "El texto muestra acciones pasadas ('limpiaron'), presentes ('cuidamos') y futuras ('organizaremos').",
+      "lang": "es",
+      "title": "Un día en el huerto escolar",
+      "text": "El curso pasado, Hugo y Lucía limpiaron el terreno detrás del gimnasio con la ayuda del conserje. Arrancaron malas hierbas y removieron la tierra con azadas pequeñas.\n\nHoy, todos los niños de la clase cuidamos con cariño las lechugas y recogemos tomates maduros en grandes cestas de mimbre.\n\nLa próxima semana, nosotros organizaremos un mercadillo solidario en el porche. Venderemos las verduras a las familias del barrio para recaudar dinero para la protectora de animales.",
+      "questions": [
+        {
+          "prompt": "¿En qué tiempo verbal se narran las acciones que Hugo y Lucía hicieron el curso pasado?",
+          "explanation": "Verbos como 'limpiaron', 'arrancaron' y 'removieron' indican acciones ya finalizadas en el pasado.",
+          "options": [
+            "Pasado",
+            "Presente",
+            "Futuro"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "En la frase 'cuidamos con cariño las lechugas', ¿en qué persona y número está el verbo?",
+          "explanation": "El sujeto es 'nosotros', por lo que 'cuidamos' está en primera persona del plural.",
+          "options": [
+            "Tercera persona del singular",
+            "Primera persona del plural",
+            "Segunda persona del plural"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-09",
+      "type": "fill-blank",
+      "prompt": "Completa el mensaje de Adrián con la forma correcta en futuro:",
+      "explanation": "'Tú y yo' equivale a 'nosotros', por lo que el verbo en futuro debe ser 'pasearemos' (primera persona del plural).",
+      "lang": "es",
+      "sentence": "Si terminamos pronto los deberes, tú y yo ___ en bicicleta por el río.",
+      "options": [
+        "pasearemos",
+        "pasearéis",
+        "pasearán"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-10",
+      "type": "choice",
+      "prompt": "¿Qué análisis corresponde exactamente a la forma verbal 'escuchabais'?",
+      "explanation": "'Escuchabais' concuerda con 'vosotros' (segunda persona del plural) y expresa una acción que ocurría en el pasado.",
+      "hint": "¿Qué pronombre acompaña a 'escuchabais'?",
+      "lang": "es",
+      "options": [
+        "Segunda persona del singular, tiempo pasado",
+        "Segunda persona del plural, tiempo pasado",
+        "Tercera persona del plural, tiempo presente"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:26:40.115Z",
+    "reviewed": false
+  }
+}
