@@ -1,10 +1,13 @@
 'use client';
 
 import { Link } from '@/i18n/navigation';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+import { curriculum } from '@/src/data/curriculum';
+import { paths } from '@/lib/seo/urls';
 
 export default function Footer() {
     const t = useTranslations('Footer');
+    const es = useLocale() !== 'en';
     const currentYear = new Date().getFullYear();
 
     return (
@@ -20,10 +23,21 @@ export default function Footer() {
                         </p>
                     </div>
 
-                    {/* Social icons - centered */}
-                    <div className="flex justify-center gap-4">
-                        {/* Social links can be added here */}
-                    </div>
+                    {/* Acceso a los 6 cursos desde todas las páginas (enlaces en el HTML servido) */}
+                    <nav aria-label={es ? 'Repaso por curso' : 'Revision by year'} className="md:justify-self-center">
+                        <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-300">
+                            {es ? 'Repaso por curso' : 'Revision by year'}
+                        </h2>
+                        <ul className="grid grid-cols-2 gap-x-6 gap-y-1 text-sm">
+                            {curriculum.map((curso) => (
+                                <li key={curso.id}>
+                                    <Link href={paths.curso(curso.id)} className="text-slate-300 transition-colors hover:text-emerald-400">
+                                        {es ? `Repaso de ${curso.id}º de Primaria` : `Primary ${curso.id} revision`}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </nav>
 
                     {/* Contact info - right aligned */}
                     <div className="flex flex-col md:items-end gap-2 text-sm text-slate-300">

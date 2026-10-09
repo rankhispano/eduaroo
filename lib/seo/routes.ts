@@ -22,7 +22,7 @@ export async function getIndexableRoutes(): Promise<IndexableRoute[]> {
         const all = latest(pages.map((p) => p.lastModified));
 
         routes.push({ path: urls.home(locale), lastModified: all });
-        routes.push({ path: urls.learning(locale), lastModified: all });
+        routes.push({ path: urls.primaria(locale), lastModified: all });
 
         for (const curso of curriculum) {
             const delCurso = pages.filter((p) => p.cursoId === curso.id);

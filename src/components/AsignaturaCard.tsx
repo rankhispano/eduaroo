@@ -1,7 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
+import { paths } from '@/lib/seo/urls';
 import { asignaturaIcons, ChevronRight } from '@/src/components/icons';
 import { useNavStore } from '@/src/store/useNavStore';
 import type { Asignatura } from '@/src/types';
@@ -11,11 +12,9 @@ import { REGIONS } from '@/src/data/regions';
 export default function AsignaturaCard({
   cursoId,
   asignatura,
-  basePath = '/repaso',
 }: {
   cursoId: string;
   asignatura: Asignatura;
-  basePath?: string;
 }) {
   const setAsignatura = useNavStore((state) => state.setAsignatura);
   const Icon = asignaturaIcons[asignatura.icono as keyof typeof asignaturaIcons];
@@ -23,11 +22,11 @@ export default function AsignaturaCard({
 
   return (
     <Link
-      href={`${basePath}/${cursoId}/${asignatura.id}`}
+      href={paths.asignatura(cursoId, asignatura.id)}
       onClick={() => setAsignatura(asignatura.id)}
       className={`group relative flex items-center gap-4 overflow-hidden rounded-3xl border-2 border-transparent p-4 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-white hover:shadow-2xl sm:flex-col sm:items-stretch sm:gap-0 sm:p-6 sm:pb-5 ${kingdom.bg}`}
       style={{ boxShadow: `0 12px 32px ${asignatura.color}18` }}
-      aria-label={`Ver temas de ${asignatura.nombre}`}
+      aria-label={`${asignatura.nombre}: ${asignatura.temas.length} temas`}
     >
       <div className={`absolute inset-0 bg-gradient-to-br ${kingdom.gradient} opacity-0 transition group-hover:opacity-10`} />
       <div className="relative mb-4 hidden items-center justify-between sm:flex">

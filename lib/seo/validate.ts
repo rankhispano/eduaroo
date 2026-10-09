@@ -4,6 +4,7 @@ import { catalog } from './catalog';
 import { finalTitle } from './metadata';
 import { staticPages } from './pages';
 import { englishIndexable } from './site';
+import { localize, paths } from './urls';
 import { DESCRIPTION_MAX, DESCRIPTION_MIN, templates, type SeoText } from './templates';
 
 const TITLE_RANGE = [30, 60] as const;
@@ -14,25 +15,25 @@ export interface SeoIssue {
 }
 
 export function validateGeneratedMetadata(): SeoIssue[] {
-    const entries: { path: string; text: SeoText }[] = [{ path: '/es', text: templates.es.home() }, { path: '/es/learning', text: templates.es.cursos() }];
+    const entries: { path: string; text: SeoText }[] = [{ path: paths.home(), text: templates.es.home() }, { path: paths.primaria(), text: templates.es.cursos() }];
 
     for (const c of catalog) {
-        entries.push({ path: `/es/learning/${c.curso.id}`, text: templates.es.curso(c) });
+        entries.push({ path: paths.curso(c.curso.id), text: templates.es.curso(c) });
         for (const a of c.asignaturas) {
             if (a.published.length === 0) continue;
-            entries.push({ path: `/es/learning/${c.curso.id}/${a.asignatura.id}`, text: templates.es.asignatura(c, a) });
+            entries.push({ path: paths.asignatura(c.curso.id, a.asignatura.id), text: templates.es.asignatura(c, a) });
             for (const { tema, set } of a.published) {
                 entries.push({
-                    path: `/es/learning/${c.curso.id}/${a.asignatura.id}/${tema.id}`,
+                    path: paths.tema(c.curso.id, a.asignatura.id, tema.id),
                     text: templates.es.tema(c, a, tema.nombre, set.summary, set.activityCount),
                 });
             }
         }
     }
     for (const page of Object.values(staticPages)) {
-        if (!page.noindex) entries.push({ path: `/es${page.path}`, text: page.es });
+        if (!page.noindex) entries.push({ path: page.path, text: page.es });
     }
-    if (englishIndexable) entries.push({ path: '/en', text: templates.en.home() });
+    if (englishIndexable) entries.push({ path: localize('en', paths.home()), text: templates.en.home() });
 
     const issues: SeoIssue[] = [];
     const titles = new Map<string, string>();

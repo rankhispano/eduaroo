@@ -6,6 +6,7 @@ import { Link } from '@/i18n/navigation';
 import { ChevronDown, ChevronRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { curriculum } from '@/src/data/curriculum';
+import { paths } from '@/lib/seo/urls';
 import { asignaturaIcons } from '@/src/components/icons';
 
 export default function MegaMenu() {
@@ -108,6 +109,15 @@ export default function MegaMenu() {
                                             <span className="w-6 h-px bg-gray-200 dark:bg-gray-700"></span>
                                             {t('subjectsOf', { course: activeCurso?.nombre })}
                                         </h3>
+                                        {activeCurso ? (
+                                            <Link
+                                                href={paths.curso(activeCurso.id)}
+                                                onClick={() => setIsOpen(false)}
+                                                className="mb-3 inline-flex text-sm font-bold text-brand-blue underline-offset-4 hover:underline"
+                                            >
+                                                {activeCurso.nombre}
+                                            </Link>
+                                        ) : null}
 
                                         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
                                             {activeCurso?.asignaturas.map((asignatura) => {

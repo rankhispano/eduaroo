@@ -1,6 +1,7 @@
 'use client';
 
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
+import { paths } from '@/lib/seo/urls';
 import { ChevronRight } from '@/src/components/icons';
 import type { Curso } from '@/src/types';
 import { useNavStore } from '@/src/store/useNavStore';
@@ -17,12 +18,10 @@ const cursoStyles: Record<string, string> = {
 
 export default function CursoCard({
   curso,
-  basePath = '/repaso',
   levelLabel = 'Primaria',
   subjectsLabel = 'asignaturas',
 }: {
   curso: Curso;
-  basePath?: string;
   levelLabel?: string;
   subjectsLabel?: string;
 }) {
@@ -32,13 +31,13 @@ export default function CursoCard({
 
   return (
     <Link
-      href={`${basePath}/${curso.id}`}
+      href={paths.curso(curso.id)}
       onClick={() => {
         setCurso(curso.id);
         rememberCurso(curso.id);
       }}
       className={`group flex min-h-44 flex-col justify-between rounded-2xl border-2 p-6 shadow-sm transition duration-200 hover:scale-[1.03] hover:shadow-xl ${cursoStyles[curso.id]}`}
-      aria-label={`Ir a ${curso.nombre}`}
+      aria-label={`${levelLabel} ${curso.id}º: ${curso.asignaturas.length} ${subjectsLabel}`}
     >
       <div className="flex items-start justify-between gap-4">
         <span className="text-7xl font-black leading-none">{curso.id}º</span>

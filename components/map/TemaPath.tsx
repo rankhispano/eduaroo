@@ -79,10 +79,11 @@ export default function TemaPath({
                         <Image src={mascotImage} alt="" fill className="object-cover" sizes="96px" />
                     </div>
                     <div className="min-w-0 flex-1">
-                        <p className="text-sm font-extrabold text-white/85">
+                        {/* El h1 de la página es "curso · asignatura" (lo que busca quien llega); el nombre de la región es el título visual */}
+                        <h1 className="text-sm font-extrabold text-white/85">
                             {cursoNombre} · {asignaturaNombre}
-                        </p>
-                        <h1 className="text-3xl font-black leading-tight sm:text-4xl">{region}</h1>
+                        </h1>
+                        <p className="text-3xl font-black leading-tight sm:text-4xl">{region}</p>
                         {possible > 0 ? (
                             <div className="mt-2 max-w-xs">
                                 <p className="text-sm font-black">{t('starsProgress', { earned, possible })}</p>

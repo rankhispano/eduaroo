@@ -15,7 +15,7 @@ interface StaticPage {
 
 export const staticPages = {
     games: {
-        path: '/games',
+        path: paths.games(),
         noindex: false,
         es: {
             title: 'Juegos educativos gratis de Primaria',
@@ -29,7 +29,7 @@ export const staticPages = {
         },
     },
     privacy: {
-        path: '/privacy',
+        path: paths.privacy(),
         noindex: true,
         es: {
             title: 'Política de privacidad',
@@ -41,7 +41,7 @@ export const staticPages = {
         },
     },
     terms: {
-        path: '/terms',
+        path: paths.terms(),
         noindex: true,
         es: {
             title: 'Términos de servicio',

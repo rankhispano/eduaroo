@@ -8,6 +8,9 @@ export const routing = defineRouting({
     // Used when no locale matches
     defaultLocale: 'es',
 
+    // El español (idioma principal) va sin prefijo: la home es "/" y el inglés cuelga de "/en"
+    localePrefix: 'as-needed',
+
     // Sin detección por Accept-Language ni cookie NEXT_LOCALE: cada URL sirve siempre el mismo idioma
     // (indexable y cacheable en CDN)
     localeDetection: false,

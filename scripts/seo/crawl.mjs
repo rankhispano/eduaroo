@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Rastreo SEO del HTML servido (sin JS). Uso:
-//   node scripts/seo/crawl.mjs --base http://localhost:3000 [--routes sitemap|known] [--out seo-audit]
+//   node scripts/seo/crawl.mjs --base http://localhost:3000 [--routes all|sitemap] [--out seo-audit]
+// `all` (por defecto) rastrea las URLs del sitemap más las páginas noindex/heredadas conocidas.
 // Genera <out>.csv y <out>.json con title, description, h1, canonical, robots, og/twitter,
 // JSON-LD, enlaces internos, palabras visibles, imágenes sin alt y estado de los enlaces internos.
 import { readdirSync, writeFileSync } from 'node:fs';
@@ -10,15 +11,9 @@ import * as cheerio from 'cheerio';
 const args = new Map();
 for (let i = 2; i < process.argv.length; i += 2) args.set(process.argv[i].replace(/^--/, ''), process.argv[i + 1]);
 const BASE = (args.get('base') ?? 'http://localhost:3000').replace(/\/$/, '');
-const MODE = args.get('routes') ?? 'known';
+const MODE = args.get('routes') ?? 'all';
 const OUT = args.get('out') ?? 'seo-audit';
 const CONCURRENCY = 8;
-
-function walk(dir) {
-    return readdirSync(dir, { withFileTypes: true }).flatMap((d) =>
-        d.isDirectory() ? walk(join(dir, d.name)) : d.name.endsWith('.json') ? [join(dir, d.name)] : [],
-    );
-}
 
 function walkPages(dir) {
     return readdirSync(dir, { withFileTypes: true }).flatMap((d) =>
@@ -26,49 +21,22 @@ function walkPages(dir) {
     );
 }
 
-// Rutas públicas conocidas a partir del repositorio (ficheros de content/activities + páginas estáticas)
-function knownRoutes() {
-    const root = 'content/activities';
-    const sets = { es: [], en: [] };
-    for (const file of walk(root)) {
-        const rel = relative(root, file).replace(/\.json$/, '').split('/');
-        if (rel[0] === 'en') sets.en.push(rel.slice(1).join('/'));
-        else sets.es.push(rel.join('/'));
+// Rutas que no están en el sitemap (noindex o heredadas) pero existen y hay que auditar
+function extraRoutes() {
+    const routes = new Set(['/politica-de-privacidad', '/terminos', '/kids', '/kids/store', '/pegatinas', '/mascota', '/parents', '/teachers', '/blog', '/en']);
+    for (const slug of ['lengua', 'matematicas', 'ciencias-naturales', 'ciencias-sociales', 'ingles']) {
+        for (const c of [1, 2, 3, 4, 5, 6]) routes.add(`/primaria/${c}-primaria/${slug}/examen`);
     }
-    const routes = new Set(['/', '/repaso', '/politica-de-privacidad', '/robots.txt', '/sitemap.xml']);
-    for (const locale of ['es', 'en']) {
-        for (const p of ['', '/learning', '/games', '/kids', '/parents', '/teachers', '/blog', '/privacy', '/terms', '/mascota', '/pegatinas']) {
-            routes.add(`/${locale}${p}`);
-        }
-        for (const g of ['astro-type', 'bitblox', 'calculate-target', 'cyber-segments', 'galaxy-math-fuel', 'geominds', 'syllable-quest', 'tictac', 'wordsearch']) {
-            routes.add(`/${locale}/games/${g}`);
-        }
-        const cursos = new Set();
-        const asignaturas = new Set();
-        for (const key of sets[locale]) {
-            const [c, a] = key.split('/');
-            cursos.add(c);
-            asignaturas.add(`${c}/${a}`);
-            routes.add(`/${locale}/learning/${key}`);
-        }
-        for (const c of ['1', '2', '3', '4', '5', '6']) cursos.add(c);
-        for (const c of cursos) routes.add(`/${locale}/learning/${c}`);
-        for (const a of asignaturas) {
-            routes.add(`/${locale}/learning/${a}`);
-            routes.add(`/${locale}/learning/${a}/examen`);
-        }
-    }
-    // Ejercicios heredados: app/[locale]/learning/{math,language}/**/page.tsx
+    routes.add('/en/primaria');
+    routes.add('/en/primaria/3-primaria');
+    routes.add('/en/primaria/3-primaria/matematicas');
+    routes.add('/en/juegos');
+    // Ejercicios heredados: app/[locale]/learning/{math,language,programming}/**/page.tsx
     for (const file of walkPages('app/[locale]/learning')) {
         const path = relative('app/[locale]', file).replace(/\/page\.tsx$/, '');
-        if (/^learning\/(math|language)(\/|$)/.test(path)) {
-            for (const locale of ['es', 'en']) routes.add(`/${locale}/${path}`);
-        }
+        if (/^learning\/(math|language|programming)(\/|$)/.test(path) && !path.includes('[')) routes.add(`/${path}`);
     }
-    for (const c of ['1', '2', '3', '4', '5', '6']) {
-        routes.add(`/repaso/${c}`);
-        for (const a of ['lengua', 'mates', 'naturales', 'sociales', 'ingles']) routes.add(`/repaso/${c}/${a}`);
-    }
+    routes.add('/learning/repaso');
     return [...routes].sort();
 }
 
@@ -162,7 +130,7 @@ async function pool(items, fn) {
     return results;
 }
 
-const routes = MODE === 'sitemap' ? await sitemapRoutes() : knownRoutes();
+const routes = [...new Set([...(await sitemapRoutes()), ...(MODE === 'all' ? extraRoutes() : [])])].sort();
 console.error(`Rastreando ${routes.length} rutas en ${BASE} (${MODE})`);
 const crawled = await pool(routes, async (path) => ({ path, ...analyse(path, await fetchPage(path)) }));
 
