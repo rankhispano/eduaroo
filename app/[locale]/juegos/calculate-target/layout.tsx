@@ -11,7 +11,7 @@ export default async function Layout({ children, params }: { children: React.Rea
     const { locale } = await params;
     return (
         <>
-            <GameCrumbs locale={locale} slug="calculate-target" />
+            <GameCrumbs locale={locale} slug="calculate-target" withH1 />
             {children}
         </>
     );

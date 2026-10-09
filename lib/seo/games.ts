@@ -3,6 +3,9 @@ import type { SiteLocale } from './site';
 
 export const GAMES_LAST_MODIFIED = new Date('2026-02-18T13:27:42+01:00');
 
+// Fecha de redacción de las páginas Sobre Eduaroo y Contacto. Actualizar al editarlas.
+export const INFO_PAGES_LAST_MODIFIED = new Date('2026-10-09T12:00:00+02:00');
+
 interface GameSeo {
     slug: string;
     es: { title: string; description: string };

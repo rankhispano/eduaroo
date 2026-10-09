@@ -22,6 +22,8 @@ export const paths = {
     game: (slug: string) => `/juegos/${slug}`,
     privacy: () => '/politica-de-privacidad',
     terms: () => '/terminos',
+    about: () => '/sobre-eduaroo',
+    contact: () => '/contacto',
 };
 
 export function localize(locale: SiteLocale, path: string): string {

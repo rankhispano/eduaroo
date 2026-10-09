@@ -3,7 +3,7 @@
 
 import { curriculum } from '@/src/data/curriculum';
 import { getActivityPages, latest } from './content';
-import { GAMES_LAST_MODIFIED, games } from './games';
+import { GAMES_LAST_MODIFIED, games, INFO_PAGES_LAST_MODIFIED } from './games';
 import { englishIndexable, locales, type SiteLocale } from './site';
 import { urls } from './urls';
 
@@ -41,6 +41,8 @@ export async function getIndexableRoutes(): Promise<IndexableRoute[]> {
             }
         }
 
+        routes.push({ path: urls.about(locale), lastModified: INFO_PAGES_LAST_MODIFIED });
+        routes.push({ path: urls.contact(locale), lastModified: INFO_PAGES_LAST_MODIFIED });
         routes.push({ path: urls.games(locale), lastModified: GAMES_LAST_MODIFIED });
         for (const game of games) routes.push({ path: urls.game(locale, game), lastModified: GAMES_LAST_MODIFIED });
     }

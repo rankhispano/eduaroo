@@ -28,6 +28,31 @@ export const staticPages = {
                 'A collection of free educational games for primary school children: maths, logic and language. Practise by playing with typing, calculation, syllables and more.',
         },
     },
+    about: {
+        path: paths.about(),
+        noindex: false,
+        es: {
+            title: 'Sobre Eduaroo: repaso de Primaria LOMLOE',
+            description:
+                'Quién está detrás de Eduaroo, cómo se elaboran las actividades de repaso de Primaria y qué criterios de la LOMLOE siguen. Para familias y docentes.',
+        },
+        en: {
+            title: 'About Eduaroo: primary revision (LOMLOE)',
+            description: 'Who is behind Eduaroo, how the primary school revision activities are made and which LOMLOE criteria they follow. For families and teachers.',
+        },
+    },
+    contact: {
+        path: paths.contact(),
+        noindex: false,
+        es: {
+            title: 'Contacto con Eduaroo: errores y sugerencias',
+            description: 'Escríbenos si encuentras un error en una actividad, tienes una sugerencia o quieres proponer un tema de repaso de Primaria para tu curso.',
+        },
+        en: {
+            title: 'Contact Eduaroo: mistakes and suggestions',
+            description: 'Write to us if you find a mistake in an activity, have a suggestion or want to propose a primary school revision topic for your year.',
+        },
+    },
     privacy: {
         path: paths.privacy(),
         noindex: true,

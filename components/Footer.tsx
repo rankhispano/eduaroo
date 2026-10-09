@@ -71,7 +71,13 @@ export default function Footer() {
                             🌍
                         </span>
                     </p>
-                    <div className="flex gap-6 text-sm">
+                    <div className="flex flex-wrap gap-6 text-sm">
+                        <Link href={paths.about()} className="text-slate-400 hover:text-emerald-400 transition-colors">
+                            {es ? 'Sobre Eduaroo' : 'About Eduaroo'}
+                        </Link>
+                        <Link href={paths.contact()} className="text-slate-400 hover:text-emerald-400 transition-colors">
+                            {es ? 'Contacto' : 'Contact'}
+                        </Link>
                         <Link
                             href="/privacy"
                             className="text-slate-400 hover:text-emerald-400 transition-colors"
