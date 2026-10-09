@@ -4,19 +4,21 @@ import { setRequestLocale } from 'next-intl/server';
 import ActivityPlayer from '@/components/activities/ActivityPlayer';
 import BreadcrumbNav from '@/components/seo/BreadcrumbNav';
 import { RelatedLinks, UpdatedOn } from '@/components/seo/HubSections';
+import JsonLd from '@/components/seo/JsonLd';
 import { ACTIVITY_LOADERS } from '@/content/activities/registry';
 import { getCriterion } from '@/lib/curriculum/lomloe';
 import { getCatalogAsignatura, getCatalogCurso } from '@/lib/seo/catalog';
 import { getActivityPages } from '@/lib/seo/content';
 import { subjectName } from '@/lib/seo/hub-content';
+import { LOMLOE_SOURCE } from '@/lib/seo/lomloe';
 import { buildMetadata } from '@/lib/seo/metadata';
 import { ogImage } from '@/lib/seo/og-image';
 import { temaParams } from '@/lib/seo/params';
 import { relatedForTema } from '@/lib/seo/related';
-import { toSiteLocale } from '@/lib/seo/site';
+import { absoluteUrl, siteName, toSiteLocale } from '@/lib/seo/site';
 import { parseAsignaturaSlug, parseCursoSlug } from '@/lib/seo/slugs';
 import { templates } from '@/lib/seo/templates';
-import { paths } from '@/lib/seo/urls';
+import { localize, paths } from '@/lib/seo/urls';
 
 type Params = Promise<{ locale: string; curso: string; asignatura: string; tema: string }>;
 
@@ -107,6 +109,40 @@ export default async function TemaPage({ params }: { params: Params }) {
                 backHref={paths.asignatura(cursoId, asignaturaId)}
                 criteria={criteria}
                 extras={a.asignatura.temas.find((x) => x.id === temaId)?.recursos ?? []}
+            />
+            <JsonLd
+                data={{
+                    '@type': 'LearningResource',
+                    '@id': `${absoluteUrl(localize(l, paths.tema(cursoId, asignaturaId, temaId)))}#resource`,
+                    name: templates[l].tema(c, a, temaNombre, summary.summary, summary.activityCount).title,
+                    headline: set.title,
+                    description: summary.summary,
+                    url: absoluteUrl(localize(l, paths.tema(cursoId, asignaturaId, temaId))),
+                    inLanguage: l === 'es' ? 'es-ES' : 'en-GB',
+                    isAccessibleForFree: true,
+                    learningResourceType: l === 'es' ? 'Ejercicios interactivos' : 'Interactive exercises',
+                    interactivityType: 'active',
+                    educationalLevel: l === 'es' ? `${c.grade}º de Educación Primaria` : `Primary Education, year ${c.grade}`,
+                    typicalAgeRange: `${c.grade + 5}-${c.grade + 6}`,
+                    timeRequired: `PT${summary.estimatedMinutes}M`,
+                    teaches: set.keyIdeas,
+                    about: [
+                        { '@type': 'Thing', name: temaNombre },
+                        { '@type': 'Thing', name },
+                    ],
+                    educationalAlignment: criteria.map((criterion) => ({
+                        '@type': 'AlignmentObject',
+                        alignmentType: 'teaches',
+                        educationalFramework: 'LOMLOE · Real Decreto 157/2022',
+                        targetName: `Criterio de evaluación ${criterion.id}: ${criterion.text}`,
+                        targetUrl: LOMLOE_SOURCE.url,
+                    })),
+                    audience: ['student', 'teacher', 'parent'].map((audienceType) => ({ '@type': 'EducationalAudience', educationalRole: audienceType })),
+                    datePublished: summary.lastModified.toISOString(),
+                    dateModified: summary.lastModified.toISOString(),
+                    isPartOf: { '@type': 'WebPage', url: absoluteUrl(localize(l, paths.asignatura(cursoId, asignaturaId))) },
+                    publisher: { '@type': 'Organization', name: siteName, url: absoluteUrl('/') },
+                }}
             />
             <div className="mx-auto max-w-4xl space-y-8 px-4 pb-20 pt-4 text-slate-950 dark:text-white">
                 <UpdatedOn date={summary.lastModified} locale={l} />
