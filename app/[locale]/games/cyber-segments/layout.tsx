@@ -1,13 +1,9 @@
-import { getTranslations } from 'next-intl/server';
+import { gameMetadata } from '@/lib/seo/pages';
+import { toSiteLocale } from '@/lib/seo/site';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
-    const t = await getTranslations({ locale, namespace: 'GamesPage.cyberSegmentsMessages' });
-
-    return {
-        title: t('meta_title'),
-        description: t('meta_description')
-    };
+    return gameMetadata('cyber-segments', toSiteLocale(locale));
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

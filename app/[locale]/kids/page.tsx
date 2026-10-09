@@ -1,15 +1,11 @@
+import { staticPageMetadata } from '@/lib/seo/pages';
+import { toSiteLocale } from '@/lib/seo/site';
 import { getTranslations } from 'next-intl/server';
 import StudentDashboard from '@/components/StudentDashboard';
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
-    const params = await props.params;
-    const { locale } = params;
-    const t = await getTranslations({ locale, namespace: 'Dashboard' });
-
-    return {
-        title: 'Mi Progreso',
-        description: 'Tu panel de progreso y logros en Eduaroo'
-    };
+    const { locale } = await props.params;
+    return staticPageMetadata('kids', toSiteLocale(locale));
 }
 
 export default function DashboardPage() {

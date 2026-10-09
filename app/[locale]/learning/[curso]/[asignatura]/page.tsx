@@ -2,7 +2,13 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import TemaPath from '@/components/map/TemaPath';
+import { ogImage } from '@/lib/seo/og-image';
+import { getCatalogAsignatura, getCatalogCurso } from '@/lib/seo/catalog';
+import { buildMetadata } from '@/lib/seo/metadata';
 import { asignaturaParams } from '@/lib/seo/params';
+import { toSiteLocale } from '@/lib/seo/site';
+import { templates } from '@/lib/seo/templates';
+import { paths } from '@/lib/seo/urls';
 import { getAsignatura, getCurso } from '@/src/data/curriculum';
 import { getPracticeSet, withGeneratedActivities } from '@/src/data/activityResources';
 import { REGIONS } from '@/src/data/regions';
@@ -16,20 +22,11 @@ export async function generateMetadata({
     params: Promise<{ locale: string; curso: string; asignatura: string }>;
 }): Promise<Metadata> {
     const { locale, curso, asignatura } = await params;
-    const t = await getTranslations({ locale, namespace: 'LearningPage' });
-    const cursoData = getCurso(curso);
-    const asignaturaData = getAsignatura(curso, asignatura);
-
-    return {
-        title:
-            cursoData && asignaturaData
-                ? `${asignaturaData.nombre} | ${cursoData.nombre}`
-                : t('subjectNotFound'),
-        description:
-            cursoData && asignaturaData
-                ? t('subjectSeo', { subject: asignaturaData.nombre, course: cursoData.nombre })
-                : undefined,
-    };
+    const c = getCatalogCurso(curso);
+    const a = getCatalogAsignatura(curso, asignatura);
+    if (!c || !a) return {};
+    const l = toSiteLocale(locale);
+    return buildMetadata({ locale: l, ...templates[l].asignatura(c, a), path: paths.asignatura(curso, asignatura), image: ogImage.asignatura(l, curso, asignatura) });
 }
 
 export default async function Page({

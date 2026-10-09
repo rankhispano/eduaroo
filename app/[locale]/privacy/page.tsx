@@ -1,17 +1,11 @@
+import { staticPageMetadata } from '@/lib/seo/pages';
+import { toSiteLocale } from '@/lib/seo/site';
 import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
-    const params = await props.params;
-    const { locale } = params;
-    const isSpanish = locale === 'es';
-
-    return {
-        title: isSpanish ? 'Política de Privacidad | Eduaroo' : 'Privacy Policy | Eduaroo',
-        description: isSpanish
-            ? 'Política de privacidad oficial de Eduaroo: Tablas de Multiplicar. Transparencia sobre datos locales, AdMob infantil y compras Premium.'
-            : 'Official Privacy Policy for Eduaroo: Multiplication Tables. Transparency on local data, child-directed AdMob, and Premium purchases.'
-    };
+    const { locale } = await props.params;
+    return staticPageMetadata('privacy', toSiteLocale(locale));
 }
 
 export default async function PrivacyPage(props: { params: Promise<{ locale: string }> }) {

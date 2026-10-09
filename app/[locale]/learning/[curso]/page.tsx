@@ -2,7 +2,12 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import CursoAsignaturasPage from '@/app/(repasa)/_views/CursoAsignaturasPage';
 import { cursoParams } from '@/lib/seo/params';
-import { getCurso } from '@/src/data/curriculum';
+import { ogImage } from '@/lib/seo/og-image';
+import { getCatalogCurso } from '@/lib/seo/catalog';
+import { buildMetadata } from '@/lib/seo/metadata';
+import { toSiteLocale } from '@/lib/seo/site';
+import { templates } from '@/lib/seo/templates';
+import { paths } from '@/lib/seo/urls';
 
 export const dynamicParams = false;
 export const generateStaticParams = cursoParams;
@@ -13,13 +18,10 @@ export async function generateMetadata({
     params: Promise<{ locale: string; curso: string }>;
 }): Promise<Metadata> {
     const { locale, curso } = await params;
-    const t = await getTranslations({ locale, namespace: 'LearningPage' });
-    const cursoData = getCurso(curso);
-
-    return {
-        title: cursoData ? `${cursoData.nombre} | ${t('title')}` : t('courseNotFound'),
-        description: cursoData ? t('courseSeo', { course: cursoData.nombre }) : undefined,
-    };
+    const data = getCatalogCurso(curso);
+    if (!data) return {};
+    const l = toSiteLocale(locale);
+    return buildMetadata({ locale: l, ...templates[l].curso(data), path: paths.curso(curso), image: ogImage.curso(l, curso) });
 }
 
 export default async function Page({

@@ -1,5 +1,9 @@
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
+import type { Metadata } from 'next';
 import { getMessages, setRequestLocale } from 'next-intl/server';
+import { defaultDescription, defaultTitle } from '@/lib/seo/metadata';
+import { ogLocales, siteName, siteUrl } from '@/lib/seo/site';
+import { templates } from '@/lib/seo/templates';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import Navbar from '@/components/Navbar';
@@ -11,7 +15,6 @@ import KidsTabBar from '@/components/KidsTabBar';
 import PracticeStoreHydrator from '@/components/PracticeStoreHydrator';
 import { RolesProvider } from '@/lib/auth/RolesContext';
 
-import { getTranslations } from 'next-intl/server';
 
 // El sitio no usa formato de fechas relativas (useNow): valor fijo para no depender de la petición
 const BUILD_NOW = new Date(0);
@@ -22,23 +25,21 @@ export function generateStaticParams() {
     return routing.locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
-    const params = await props.params;
-    const { locale } = params;
-    const t = await getTranslations({ locale, namespace: 'HomePage' });
+export { viewport } from '@/lib/seo/metadata';
+
+// Valores por defecto del sitio. Cada página fija su propio title, description, canonical y
+// Open Graph con buildMetadata(); aquí solo van los comunes (no canonical: heredaría la home).
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+    const { locale } = await props.params;
+    const es = locale !== 'en';
 
     return {
-        title: {
-            template: '%s | Eduaroo',
-            default: 'Eduaroo'
-        },
-        description: t('description'),
-        alternates: {
-            languages: {
-                'en': '/en',
-                'es': '/es'
-            }
-        }
+        metadataBase: new URL(siteUrl),
+        applicationName: siteName,
+        title: { default: es ? defaultTitle : templates.en.home().title, template: `%s | ${siteName}` },
+        description: es ? defaultDescription : templates.en.home().description,
+        openGraph: { siteName, locale: ogLocales[es ? 'es' : 'en'], type: 'website' },
+        formatDetection: { telephone: false, email: false, address: false },
     };
 }
 

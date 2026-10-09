@@ -1,16 +1,16 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import CursoCard from '@/src/components/CursoCard';
+import { buildMetadata } from '@/lib/seo/metadata';
+import { toSiteLocale } from '@/lib/seo/site';
+import { templates } from '@/lib/seo/templates';
+import { paths } from '@/lib/seo/urls';
 import { curriculum } from '@/src/data/curriculum';
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const { locale } = await props.params;
-    const t = await getTranslations({ locale, namespace: 'LearningPage' });
-
-    return {
-        title: t('title'),
-        description: t('description'),
-    };
+    const l = toSiteLocale(locale);
+    return buildMetadata({ locale: l, ...templates[l].cursos(), path: paths.learning() });
 }
 
 export default async function LearningPage(props: { params: Promise<{ locale: string }> }) {

@@ -21,6 +21,8 @@ export const englishIndexable = false;
 
 export const isSiteLocale = (value: string): value is SiteLocale => (locales as readonly string[]).includes(value);
 
+export const toSiteLocale = (value: string): SiteLocale => (isSiteLocale(value) ? value : defaultLocale);
+
 export function absoluteUrl(path: string): string {
     if (/^https?:\/\//.test(path)) return path;
     return `${siteUrl}${path.startsWith('/') ? path : `/${path}`}`;

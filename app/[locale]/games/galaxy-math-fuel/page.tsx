@@ -1,15 +1,10 @@
-import { getTranslations } from 'next-intl/server';
 import GalaxyMathFuel from '@/components/games/GalaxyMathFuel';
+import { gameMetadata } from '@/lib/seo/pages';
+import { toSiteLocale } from '@/lib/seo/site';
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
-    const params = await props.params;
-    const { locale } = params;
-    const t = await getTranslations({ locale, namespace: 'GalaxyMathFuelPage' });
-
-    return {
-        title: t('meta_title'),
-        description: t('meta_description')
-    };
+    const { locale } = await props.params;
+    return gameMetadata('galaxy-math-fuel', toSiteLocale(locale));
 }
 
 export default function GalaxyMathFuelPage() {

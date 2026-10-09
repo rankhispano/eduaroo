@@ -1,22 +1,19 @@
-import { useTranslations } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
+import { staticPageMetadata } from '@/lib/seo/pages';
+import { toSiteLocale } from '@/lib/seo/site';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { Rocket, Stars, Brain, Binary, Calculator, Gamepad2, SquareAsterisk } from 'lucide-react';
 import GamesList from './GamesList'; // We'll move the client logic here
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
-    const params = await props.params;
-    const { locale } = params;
-    const t = await getTranslations({ locale, namespace: 'GamesPage' });
-
-    return {
-        title: t('seoTitle'),
-        description: t('seoDesc')
-    };
+    const { locale } = await props.params;
+    return staticPageMetadata('games', toSiteLocale(locale));
 }
 
-export default function GamesPage() {
-    const t = useTranslations('GamesPage');
+export default async function GamesPage(props: { params: Promise<{ locale: string }> }) {
+    const { locale } = await props.params;
+    setRequestLocale(locale);
+    const t = await getTranslations({ locale, namespace: 'GamesPage' });
 
     return (
         <div className="min-h-screen bg-brand-yellow/10 dark:bg-background p-8">

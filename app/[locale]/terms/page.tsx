@@ -1,14 +1,10 @@
+import { staticPageMetadata } from '@/lib/seo/pages';
+import { toSiteLocale } from '@/lib/seo/site';
 import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
-    const params = await props.params;
-    const { locale } = params;
-    const t = await getTranslations({ locale, namespace: 'Terms' });
-
-    return {
-        title: t('title'),
-        description: 'Términos de servicio de Eduaroo'
-    };
+    const { locale } = await props.params;
+    return staticPageMetadata('terms', toSiteLocale(locale));
 }
 
 export default async function TermsPage(props: { params: Promise<{ locale: string }> }) {
