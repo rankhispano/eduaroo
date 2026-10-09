@@ -3,6 +3,7 @@
 import { catalog } from './catalog';
 import { finalTitle } from './metadata';
 import { staticPages } from './pages';
+import { gameCatalog } from './games';
 import { englishIndexable } from './site';
 import { localize, paths } from './urls';
 import { DESCRIPTION_MAX, DESCRIPTION_MIN, templates, type SeoText } from './templates';
@@ -33,6 +34,7 @@ export function validateGeneratedMetadata(): SeoIssue[] {
     for (const page of Object.values(staticPages)) {
         if (!page.noindex) entries.push({ path: page.path, text: page.es });
     }
+    for (const game of gameCatalog) entries.push({ path: paths.game(game.slug), text: game.es });
     if (englishIndexable) entries.push({ path: localize('en', paths.home()), text: templates.en.home() });
 
     const issues: SeoIssue[] = [];

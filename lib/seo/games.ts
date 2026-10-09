@@ -83,11 +83,11 @@ export const gameCatalog: GameSeo[] = [
         es: {
             title: 'GeoMinds: puzle de formas geométricas',
             description:
-                'Encaja las formas geométricas en el área objetivo en este juego de razonamiento espacial. Gratis y pensado para niños de Primaria.',
+                'Resuelve tangrams: encaja las formas geométricas en el área objetivo en este juego de razonamiento espacial. Gratis y pensado para niños de Primaria.',
         },
         en: {
             title: 'GeoMinds: a geometric shapes puzzle',
-            description: 'Fit the geometric shapes into the target area in this spatial reasoning game. Free and designed for primary school children.',
+            description: 'Solve tangrams: fit the geometric shapes into the target area in this spatial reasoning game. Free and designed for primary school children.',
         },
     },
     {
@@ -121,12 +121,12 @@ export const gameCatalog: GameSeo[] = [
         es: {
             title: 'Sopa de letras educativa: vocabulario de Primaria',
             description:
-                'Encuentra palabras ocultas de animales, comida, escuela y más en esta sopa de letras educativa. Vocabulario y ortografía gratis para Primaria.',
+                'Elige un tema (animales, comida, escuela, tecnología, colores o deportes) y encuentra las palabras ocultas. Sopa de letras gratis para ampliar vocabulario.',
         },
         en: {
             title: 'Educational word search: primary vocabulary',
             description:
-                'Find hidden words about animals, food, school and more in this educational word search. Free vocabulary and spelling practice for primary school.',
+                'Pick a topic (animals, food, school, technology, colours or sports) and find the hidden words. A free word search to build vocabulary in primary school.',
         },
     },
 ];
