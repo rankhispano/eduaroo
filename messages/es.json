@@ -113,7 +113,7 @@
         },
         "galaxyMathFuelTitle": "Combustible Galáctico",
         "galaxyMathFuelTag": "Matemáticas • Cálculo Mental",
-        "galaxyMathFuelDesc": "¡Ayuda a la nave a conseguir combustible resolviendo operaciones matemáticas antes de que se agote el tiempo!",
+        "galaxyMathFuelDesc": "¡Repasa las tablas de multiplicar y guía la nave hasta el combustible con el resultado correcto!",
         "cyberSegmentsTitle": "Cyber Segments",
         "cyberSegmentsTag": "Lógica • Binario",
         "cyberSegmentsDesc": "Descifra el patrón de los 7 segmentos. Activa los interruptores correctos para formar el número objetivo.",
@@ -141,7 +141,7 @@
         "playNow": "Jugar ahora",
         "syllableQuestMessages": {
             "meta_title": "Syllable Quest - Aprende a Leer",
-            "meta_description": "¡Únete a la búsqueda! Separa palabras en sílabas y derrota monstruos en este juego de lectoescritura.",
+            "meta_description": "¡Corta las palabras en sílabas con un clic entre las letras! Juego de lectoescritura contra reloj.",
             "check": "COMPROBAR",
             "correct": "¡Correcto!",
             "incorrect": "¡Ups!",

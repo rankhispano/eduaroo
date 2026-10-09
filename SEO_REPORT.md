@@ -65,7 +65,7 @@ El LCP *simulado* sigue por encima de 2,5 s (Lighthouse lo extrapola con CPU 4×
 9. **"Sobre Eduaroo" dice que las actividades se elaboran con ayuda de IA** (el repositorio lo indica: `meta.generator`/`model`, `reviewed: false`). Es honesto y recomendable, pero es decisión del equipo publicarlo: `lib/seo/info-content.ts`.
 10. **Política de privacidad**: el texto existente describe la app "Eduaroo: Tablas de Multiplicar" (AdMob, paquete Android), no esta web. No he escrito texto legal; sigue `noindex`.
 11. **Sin datos de volumen/competencia**: `KEYWORD_MAP.md` y el plan de contenido son cualitativos.
-12. **Las páginas de juego tienen poco texto** (54–77 palabras, solo interfaz). Están en el sitemap; el check lo marca como P1.
+12. **Textos de los juegos**: cada juego tiene ahora ~280-350 palabras en el HTML (cómo se juega, qué se practica, consejos y enlaces a temas de repaso y a otros juegos), redactadas contra el código de cada juego (`lib/seo/game-content.ts`). Conviene que alguien del equipo las lea; si cambia una mecánica, hay que actualizar el texto. En `calculate-target` se quitó `body { overflow: hidden }` para poder llegar al texto.
 13. **ISR / `revalidate`**: no aplica; las páginas son estáticas y el contenido cambia con cada despliegue. `priority` en imágenes: el LCP es texto, no hay imagen LCP.
 14. **Dependencias de desarrollo nuevas**: `cheerio` (rastreo) y `vitest`. Nada de terceros en producción.
 
@@ -84,7 +84,6 @@ El LCP *simulado* sigue por encima de 2,5 s (Lighthouse lo extrapola con CPU 4×
 | Reescribir la política de privacidad para la web y para público infantil (revisión legal) | `app/[locale]/politica-de-privacidad` |
 | Revisión docente de los bloques (`meta.reviewed` es `false` en todos) y, si existe, mostrar quién revisó | datos de `content/activities` |
 | Confirmar el enlace al BOE (RD 157/2022) y, si procede, añadir decretos autonómicos | `lib/seo/lomloe.ts` |
-| Texto descriptivo para cada juego (≥ 120 palabras: qué se practica, cómo se juega, curso recomendado) | `app/[locale]/juegos/*` |
 | Traducción al inglés completa → activar `englishIndexable` | ver §4.5 |
 | Decidir qué hacer con `/blog`, `/mascota` (hoy `noindex`, sin enlaces) | — |
 | `app-ads.txt` en un sitio infantil: confirmar que sigue siendo necesario | `public/app-ads.txt` |
@@ -116,7 +115,7 @@ Sin datos de volumen ni competencia: prioridad por (a) intención gratuita clara
 
 | Semanas | Qué | Por qué |
 |---|---|---|
-| 1–2 | Desplegar, verificar, enviar sitemap, medir CWV de campo. Revisar títulos/descriptions de los 6 hubs de curso con los primeros datos de impresiones. Añadir texto a los 9 juegos. | Sin medir no se puede priorizar; el contenido de juegos es el más fino. |
+| 1–2 | Desplegar, verificar, enviar sitemap, medir CWV de campo. Revisar títulos/descriptions de los 6 hubs de curso con los primeros datos de impresiones. | Sin medir no se puede priorizar. |
 | 3–6 | **Fichas imprimibles (PDF)** de los temas ya publicados, empezando por Matemáticas y Lengua de 2º–4º (más demanda genérica de "fichas"), con página de descarga por asignatura y curso y evento `Ficha+download`. | Es la búsqueda más habitual y hoy no hay recurso que la satisfaga. |
 | 5–8 | Completar **Sociales e Inglés de 3º–4º** (prioridad ya decidida) y revisar la duplicidad de nombres entre cursos. | Cierra huecos de cobertura en asignaturas con menos temas por curso. |
 | 7–10 | Vista **"con soluciones"** por tema (explicaciones visibles en el HTML) y 2–3 páginas de **modelo de examen** indexables por asignatura (hoy `examen` es herramienta noindex). | Capturan "con soluciones" y "examen {asignatura} {n}º". |

@@ -1,3 +1,4 @@
+import GameInfo from '@/components/seo/GameInfo';
 import { GameCrumbs } from '@/components/seo/StaticCrumbs';
 import { gameMetadata } from '@/lib/seo/pages';
 import { toSiteLocale } from '@/lib/seo/site';
@@ -13,6 +14,7 @@ export default async function Layout({ children, params }: { children: React.Rea
         <>
             <GameCrumbs locale={locale} slug="cyber-segments" withH1 />
             {children}
+            <GameInfo locale={locale} slug="cyber-segments" />
         </>
     );
 }

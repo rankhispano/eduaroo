@@ -1,4 +1,6 @@
 import { describe, expect, it } from 'vitest';
+import { countWords, gameContent } from './game-content';
+import { gameCatalog } from './games';
 import { toLogicalPath, toPublicPath } from './legacy-paths';
 import { legacyRedirects } from './redirects';
 import { ASIGNATURA_SLUGS, parseAsignaturaSlug, parseCursoSlug } from './slugs';
@@ -59,5 +61,17 @@ describe('redirects', () => {
 describe('metadata generada', () => {
     it('title y description únicos y dentro de rango en todo el catálogo', () => {
         expect(validateGeneratedMetadata()).toEqual([]);
+    });
+});
+
+describe('texto de los juegos', () => {
+    it('cada juego tiene texto en español e inglés de al menos 120 palabras', () => {
+        for (const { slug } of gameCatalog) {
+            for (const locale of ['es', 'en'] as const) {
+                const content = gameContent[slug]?.[locale];
+                expect(content, `${slug} (${locale})`).toBeDefined();
+                expect(countWords(content!), `${slug} (${locale})`).toBeGreaterThanOrEqual(120);
+            }
+        }
     });
 });

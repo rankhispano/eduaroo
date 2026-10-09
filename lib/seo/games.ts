@@ -68,14 +68,14 @@ export const gameCatalog: GameSeo[] = [
     {
         slug: 'galaxy-math-fuel',
         es: {
-            title: 'Combustible Galáctico: juego de operaciones',
+            title: 'Combustible Galáctico: tablas de multiplicar',
             description:
-                'Ayuda a la nave a conseguir combustible resolviendo operaciones matemáticas antes de que se agote el tiempo. Juego de cálculo gratis para Primaria.',
+                'Repasa las tablas de multiplicar guiando una nave para recoger el combustible con el resultado correcto. Juego de cálculo gratis para Primaria.',
         },
         en: {
-            title: 'Galaxy Math Fuel: an operations game',
+            title: 'Galaxy Math Fuel: multiplication tables',
             description:
-                'Help the spaceship get fuel by solving maths operations before time runs out. A free calculation game for primary school.',
+                'Revise the multiplication tables by steering a spaceship to catch the fuel with the right result. A free calculation game for primary school.',
         },
     },
     {
@@ -95,12 +95,12 @@ export const gameCatalog: GameSeo[] = [
         es: {
             title: 'Syllable Quest: aprende a leer con sílabas',
             description:
-                'Separa palabras en sílabas y derrota monstruos en este juego de lectoescritura. Practica la lectura en Primaria, gratis y sin registro.',
+                'Corta palabras en sílabas con un clic entre las letras, contra reloj y con cinco vidas. Lectoescritura gratis en cinco idiomas para Primaria.',
         },
         en: {
             title: 'Syllable Quest: learn to read with syllables',
             description:
-                'Split words into syllables and defeat monsters in this reading and writing game. Practise reading in primary school, free and with no sign-up.',
+                'Cut words into syllables with a click between the letters, against the clock and with five lives. Free literacy practice in five languages for primary school.',
         },
     },
     {

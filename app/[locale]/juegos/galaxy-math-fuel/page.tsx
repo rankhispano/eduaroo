@@ -1,4 +1,5 @@
 import GalaxyMathFuel from '@/components/games/GalaxyMathFuel';
+import GameInfo from '@/components/seo/GameInfo';
 import { GameCrumbs } from '@/components/seo/StaticCrumbs';
 import { gameMetadata } from '@/lib/seo/pages';
 import { toSiteLocale } from '@/lib/seo/site';
@@ -14,6 +15,7 @@ export default async function GalaxyMathFuelPage(props: { params: Promise<{ loca
         <>
             <GameCrumbs locale={locale} slug="galaxy-math-fuel" />
             <GalaxyMathFuel />
+            <GameInfo locale={locale} slug="galaxy-math-fuel" />
         </>
     );
 }

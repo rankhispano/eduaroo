@@ -316,7 +316,7 @@ const CalculateTargetPage = () => {
             </AnimatePresence>
 
             <style>{`
-        body { background-color: #FFFBF0; overflow: hidden; }
+        body { background-color: #FFFBF0; }
       `}</style>
         </div>
     );
