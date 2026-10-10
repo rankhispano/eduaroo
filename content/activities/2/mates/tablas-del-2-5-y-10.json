@@ -9,7 +9,7 @@
   "keyIdeas": [
     "Multiplicar por 2 es sumar el mismo número dos veces o calcular su doble.",
     "Los resultados de la tabla del 5 siempre terminan en 0 o en 5.",
-    "Para multiplicar por 10, solo añadimos un cero al final del número."
+    "Para multiplicar un número natural por 10, cada cifra pasa a valer diez veces más; se escribe un cero a la derecha."
   ],
   "lomloe": {
     "area": "matematicas",

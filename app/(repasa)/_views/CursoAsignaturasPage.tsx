@@ -1,10 +1,11 @@
 import { notFound } from 'next/navigation';
 import AsignaturaCard from '@/src/components/AsignaturaCard';
 import Breadcrumb from '@/src/components/Breadcrumb';
-import { getCurso } from '@/src/data/curriculum';
+import { getCurso } from '@/src/data/localizedCurriculum';
 
 export default function CursoAsignaturasPage({
   cursoId,
+  locale = 'es',
   basePath = '/repaso',
   homeHref = '/es',
   sectionLabel = 'Repaso',
@@ -14,6 +15,7 @@ export default function CursoAsignaturasPage({
   description = 'Elige una asignatura y después el tema que estás dando en clase.',
 }: {
   cursoId: string;
+  locale?: string;
   basePath?: string;
   homeHref?: string;
   sectionLabel?: string;
@@ -22,7 +24,7 @@ export default function CursoAsignaturasPage({
   chooseSubjectLabel?: string;
   description?: string;
 }) {
-  const curso = getCurso(cursoId);
+  const curso = getCurso(cursoId, locale);
 
   if (!curso) {
     notFound();
@@ -53,7 +55,7 @@ export default function CursoAsignaturasPage({
 
         <section
           className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3"
-          aria-label={`Asignaturas de ${curso.nombre}`}
+          aria-label={locale === 'en' ? `Subjects for ${curso.nombre}` : `Asignaturas de ${curso.nombre}`}
         >
           {curso.asignaturas.map((asignatura) => (
             <AsignaturaCard

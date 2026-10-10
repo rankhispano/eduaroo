@@ -1,0 +1,235 @@
+{
+  "id": "g5-mates-estadistica-media-y-moda",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "estadistica-media-y-moda",
+  "temaNombre": "Statistics: Mean and Mode",
+  "title": "Investigating Mean and Mode",
+  "summary": "Interpret and calculate means and modes in everyday data. These exercises use decimal commas: 14,4 means fourteen and four tenths.",
+  "keyIdeas": [
+    "The mode is the value or category appearing most often.",
+    "Find the arithmetic mean by adding all numerical values and dividing by the number of values.",
+    "The mean can be a decimal even when all the data are whole numbers."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "E. Sentido estocástico › Organización y análisis de datos",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-estadistica-media-y-moda-01",
+      "type": "choice",
+      "prompt": "A fifth-grade favourite-pet survey gives these votes: dog 12, cat 8, bird 3, fish 8. What is the mode? 🐶🐱",
+      "explanation": "Dog has the highest frequency, with 12 votes, so the mode is dog, not the frequency 12.",
+      "hint": "Find the category with the most votes.",
+      "lang": "en",
+      "options": [
+        "Dog",
+        "Cat",
+        "Fish",
+        "12"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-02",
+      "type": "true-false",
+      "prompt": "To find the arithmetic mean, add all values and divide by the total number of values.",
+      "explanation": "True. The mean is the sum divided by the number of data values.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-03",
+      "type": "match",
+      "prompt": "Match each set of marks with its mode.",
+      "explanation": "The most frequent marks in these sets are 7, 8, 9 and 5 respectively.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "6, 7, 7, 8, 9",
+          "right": "Mode: 7"
+        },
+        {
+          "left": "5, 6, 8, 8, 8",
+          "right": "Mode: 8"
+        },
+        {
+          "left": "9, 9, 10, 6, 9",
+          "right": "Mode: 9"
+        },
+        {
+          "left": "4, 5, 5, 6, 7",
+          "right": "Mode: 5"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-04",
+      "type": "order",
+      "prompt": "Put the steps for finding Hugo's mean goals in 4 matches (2, 1, 4, 1) in order.",
+      "explanation": "Count the data, add the values, divide and interpret the result.",
+      "lang": "en",
+      "items": [
+        "Count the data values: 4 matches.",
+        "Add all goals: 2 + 1 + 4 + 1 = 8.",
+        "Divide by the number of matches: 8 ÷ 4 = 2.",
+        "Conclude that Hugo's mean is 2 goals per match."
+      ]
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-05",
+      "type": "choice",
+      "prompt": "Aisha reads 3 books in January, 5 in February, 2 in March and 6 in April. What is the mean number of books per month? 📚",
+      "explanation": "3 + 5 + 2 + 6 = 16 books; 16 ÷ 4 = 4 books per month.",
+      "hint": "Add all the books and divide by 4.",
+      "lang": "en",
+      "options": [
+        "4 books",
+        "5 books",
+        "16 books",
+        "3 books"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-06",
+      "type": "classify",
+      "prompt": "Sort each description into Mean or Mode.",
+      "explanation": "The mode is the most frequent value or category. The mean is a numerical average found by sharing the total equally.",
+      "lang": "en",
+      "categories": [
+        "Mean",
+        "Mode"
+      ],
+      "items": [
+        {
+          "text": "The value or category with the highest absolute frequency",
+          "category": 1
+        },
+        {
+          "text": "Calculated by adding all values and sharing the total equally",
+          "category": 0
+        },
+        {
+          "text": "Can be a non-numerical category, such as favourite colour",
+          "category": 1
+        },
+        {
+          "text": "Its calculation rule uses a sum and a division",
+          "category": 0
+        },
+        {
+          "text": "The numerical average of the data set",
+          "category": 0
+        },
+        {
+          "text": "The value or category appearing most often",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-07",
+      "type": "choice",
+      "prompt": "Find the mistake! 🔍 Omar's long jumps are 3 m, 4 m and 5 m. He says, 'The mean is 12 m because 3 + 4 + 5 = 12'. What did he miss?",
+      "explanation": "The sum is correct, but he must divide by 3 jumps: 12 ÷ 3 = 4 m.",
+      "hint": "What step comes after adding the values?",
+      "lang": "en",
+      "options": [
+        "He should multiply the values instead of adding them.",
+        "He added incorrectly because 3 + 4 + 5 equals 11.",
+        "He added the jumps but forgot to divide by 3.",
+        "He should choose 4 because it is the mode."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-08",
+      "type": "fill-blank",
+      "prompt": "Calculate mentally and complete the sentence.",
+      "explanation": "18 + 20 + 20 + 22 + 20 = 100; 100 ÷ 5 = 20 °C.",
+      "hint": "Add the five temperatures and divide by 5.",
+      "lang": "en",
+      "sentence": "The daily maximum temperatures from Monday to Friday were 18 °C, 20 °C, 20 °C, 22 °C and 20 °C. Their mean was ___ °C.",
+      "options": [
+        "19",
+        "100",
+        "25",
+        "20"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-09",
+      "type": "choice",
+      "prompt": "Five friends record race times of 12, 14, 15, 15 and 16 seconds. What are the mean and mode? ⏱️",
+      "explanation": "The sum is 72, so the mean is 72 ÷ 5 = 14,4 s. The most frequent time is 15 s, the mode.",
+      "hint": "The mean can have a decimal part.",
+      "lang": "en",
+      "options": [
+        "Mean: 15 seconds | Mode: 14 seconds",
+        "Mean: 14,4 seconds | Mode: 15 seconds",
+        "Mean: 72 seconds | Mode: 15 seconds",
+        "Mean: 14 seconds | Mode: 15 seconds"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-estadistica-media-y-moda-10",
+      "type": "choice",
+      "prompt": "Lucía's four Spanish Language test marks are 7, 8, 9 and 8. What mark must she get in a fifth, equally weighted test for an exact final mean of 8? 🎯",
+      "explanation": "Five marks with mean 8 must total 5 × 8 = 40. Her current total is 32, so she needs 40 − 32 = 8.",
+      "hint": "Find the total required for five marks with mean 8.",
+      "lang": "en",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "7"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:24:37.821Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:14:28.638Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "486e5614d0d734ac45263eb75c40bd230c85220c400510a9d36101d5fbcca049",
+      "validation": "manual-review"
+    }
+  }
+}

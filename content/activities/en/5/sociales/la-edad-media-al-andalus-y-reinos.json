@@ -1,0 +1,263 @@
+{
+  "id": "g5-sociales-la-edad-media-al-andalus-y-reinos",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "la-edad-media-al-andalus-y-reinos",
+  "temaNombre": "The Middle Ages: Al-Andalus and kingdoms",
+  "title": "Al-Andalus and the medieval kingdoms",
+  "summary": "Explore the history, society and cultural legacy of Al-Andalus and the Christian kingdoms of the Iberian Peninsula.",
+  "keyIdeas": [
+    "Medieval Iberia saw both coexistence and conflict between Al-Andalus and Christian kingdoms.",
+    "Al-Andalus developed and spread advances in agriculture, science, art and language that remain part of Spain's culture.",
+    "Medieval society included people of different religions and backgrounds, including Mozarabs, Muladíes and Mudéjares."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE7",
+      "CE8"
+    ],
+    "criteria": [
+      "7.1",
+      "7.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CE2",
+      "CP3",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-01",
+      "type": "true-false",
+      "prompt": "True or false? 'The Middle Ages began in the Iberian Peninsula with the arrival of Muslim troops in 711.' 🏰",
+      "explanation": "The usual European historical periods place the start of the Middle Ages in 476, with the fall of the Western Roman Empire. The arrival in 711 came later.",
+      "hint": "Who ruled in the peninsula before 711?",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about medieval social groups.",
+      "explanation": "Mozarabs kept their Christian religion and laws while paying a special tax to Muslim authorities in Al-Andalus.",
+      "hint": "The name starts with 'Moz-': Christian communities under Muslim rule.",
+      "lang": "en",
+      "sentence": "___ were Christians who kept their faith and customs while living under Muslim rule in Al-Andalus.",
+      "options": [
+        "Visigoths",
+        "Mozarabs",
+        "Nobles"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-03",
+      "type": "choice",
+      "prompt": "Aisha's class visits a traditional growing area in Murcia. The guide explains that many historic irrigation systems date from Al-Andalus. Which improved device raised water to higher fields? 🌾",
+      "explanation": "Water-lifting wheels, powered by flowing water or animals, raised water into irrigation channels.",
+      "hint": "It is a large wheel with containers that lift water as it turns.",
+      "lang": "en",
+      "options": [
+        "The Roman plough",
+        "The steam-powered mill",
+        "The water-lifting wheel, or noria"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-04",
+      "type": "classify",
+      "prompt": "Classify these examples as representative of Al-Andalus or medieval Christian kingdoms.",
+      "explanation": "These are representative examples. Both Al-Andalus and Christian kingdoms also had towns and fortifications.",
+      "lang": "en",
+      "categories": [
+        "Al-Andalus",
+        "Christian kingdoms"
+      ],
+      "items": [
+        {
+          "text": "A souk: an urban market selling spices and cloth",
+          "category": 0
+        },
+        {
+          "text": "A Romanesque monastery where monks copied manuscripts",
+          "category": 1
+        },
+        {
+          "text": "A large mosque with an orange-tree courtyard and minaret",
+          "category": 0
+        },
+        {
+          "text": "A Romanesque cathedral on the Camino de Santiago",
+          "category": 1
+        },
+        {
+          "text": "A hammam: public baths for washing and social gatherings",
+          "category": 0
+        },
+        {
+          "text": "A Gothic cathedral with pointed arches and coloured stained glass",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-05",
+      "type": "order",
+      "prompt": "Order these selected political stages of Al-Andalus from earliest to latest.",
+      "explanation": "These are selected stages, not the whole history. An independent emirate and Almoravid and Almohad periods also existed. The Nasrid kingdom ended in 1492.",
+      "lang": "en",
+      "items": [
+        "An emirate dependent on the caliph of Damascus",
+        "The Caliphate of Córdoba proclaimed by Abd al-Rahman III",
+        "Rival taifa kingdoms",
+        "The Nasrid Kingdom of Granada before 1492"
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-06",
+      "type": "match",
+      "prompt": "Match each medieval figure or group to its role.",
+      "explanation": "These people and social groups contributed to the peninsula's political, cultural and economic life.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Lubna of Córdoba",
+          "right": "An educated woman associated with the court of the Caliphate of Córdoba"
+        },
+        {
+          "left": "Alfonso X the Wise",
+          "right": "King who encouraged scholars' collaboration in translation"
+        },
+        {
+          "left": "Abd al-Rahman III",
+          "right": "Ruler who founded the Caliphate of Córdoba and built Medina Azahara"
+        },
+        {
+          "left": "Feudal peasants",
+          "right": "Worked the land and paid dues in return for military protection"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-07",
+      "type": "reading",
+      "prompt": "Read about cultural exchange in medieval Toledo and answer the questions.",
+      "explanation": "Toledo's translation work is an important example of cultural cooperation in European history.",
+      "lang": "en",
+      "title": "Books as bridges in Toledo",
+      "text": "In the 12th and 13th centuries, Toledo became a meeting place for Christian, Muslim and Jewish scholars. In what is known as the Toledo School of Translators, they worked with support from rulers such as Alfonso X the Wise. They translated valuable writings on astronomy, medicine, mathematics and philosophy from Arabic and Greek traditions into Latin and Castilian Spanish.\n\nThis cooperation helped Europe rediscover ancient philosophical ideas and learn about scientific advances developed in the East and Al-Andalus. It showed how people with different beliefs and backgrounds could collaborate peacefully to enrich shared knowledge, helping transform European science and universities.",
+      "questions": [
+        {
+          "prompt": "Which three religious communities collaborated in Toledo?",
+          "explanation": "The text identifies Christian, Muslim and Jewish scholars.",
+          "options": [
+            "Greeks, Phoenicians and Carthaginians",
+            "Romans, Visigoths and Franks",
+            "Christians, Muslims and Jews"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why was their work important across Europe?",
+          "explanation": "Translations spread scientific and philosophical knowledge preserved and developed in the Islamic world.",
+          "options": [
+            "It brought Europe scientific and philosophical knowledge that was forgotten or unfamiliar.",
+            "It persuaded every European kingdom to stop using mathematics.",
+            "It forced all European peoples to speak one language."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What lesson can society today learn?",
+          "explanation": "Mutual respect and cooperation across cultures can enrich society's knowledge.",
+          "options": [
+            "Cultural diversity and peaceful collaboration can bring shared progress.",
+            "Communities should stay isolated so their discoveries never mix.",
+            "Scientific advances matter only if one civilisation creates them without help."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-08",
+      "type": "choice",
+      "prompt": "In 1031, the Caliphate of Córdoba broke into more than twenty small independent taifa kingdoms. How did this affect power in the peninsula? ⚔️",
+      "explanation": "Rival kingdoms became militarily weaker. Many paid tribute, called parias, to Christian rulers, helping those kingdoms expand southwards.",
+      "hint": "Think about how rivalry can weaken divided territories.",
+      "lang": "en",
+      "options": [
+        "It weakened Al-Andalus militarily and helped Christian kingdoms expand southwards.",
+        "Al-Andalus immediately conquered every northern Christian kingdom.",
+        "Everyone abandoned cities to live in high mountains."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-09",
+      "type": "match",
+      "prompt": "Match each medieval term to its definition.",
+      "explanation": "Muladíes were Christians who converted to Islam. Mudéjares were Muslims who remained under Christian rule. The distinction helps explain medieval society's diversity.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Muladí",
+          "right": "A Christian from the peninsula who adopted Islam and Andalusi customs"
+        },
+        {
+          "left": "Mudéjar",
+          "right": "A Muslim who continued living in territory conquered by Christians"
+        },
+        {
+          "left": "Feudal lord",
+          "right": "A noble or church leader who owned land and had authority over vassals"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-10",
+      "type": "choice",
+      "prompt": "Hugo and Martina find that Spanish words such as alcachofa, aceite, zanahoria, noria, álgebra and almacén come from Andalusi Arabic. What does this show about Spain's history? 🌿",
+      "explanation": "Many Castilian Spanish words have Arabic origins, showing the influence of centuries of Andalusi presence and cultural exchange.",
+      "hint": "Think about how centuries of interaction influence language.",
+      "lang": "en",
+      "options": [
+        "Centuries of Andalusi presence left a lasting influence on Spain's culture, language and daily life.",
+        "No language existed in Iberia before Muslims arrived in the eighth century.",
+        "Christian kingdoms banned Castilian Spanish and allowed only words from the East."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:35:48.585Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:10:39.742Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "fccb3648a3e9cd92836f650df4373de1a79d430d1ae9954d45a2cf4fbda7d1b5",
+      "validation": "manual-review"
+    }
+  }
+}

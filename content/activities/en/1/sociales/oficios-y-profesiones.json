@@ -1,0 +1,230 @@
+{
+  "id": "g1-sociales-oficios-y-profesiones",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "oficios-y-profesiones",
+  "temaNombre": "Jobs and professions",
+  "title": "Discovering jobs and professions!",
+  "summary": "Recognise jobs, the tools people use and how they help the community.",
+  "keyIdeas": [
+    "Different jobs help improve people's lives.",
+    "Women and men can train for any job or profession.",
+    "Each job uses suitable tools and workplaces for its tasks."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE8",
+      "CE9"
+    ],
+    "criteria": [
+      "5.2",
+      "8.2",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CP3",
+      "CPSAA1",
+      "CPSAA3",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-oficios-y-profesiones-01",
+      "type": "choice",
+      "prompt": "Who cares for our health when we are ill? 🩺",
+      "explanation": "Doctors check our health and can prescribe medicine when needed.",
+      "hint": "They work in a health centre or hospital.",
+      "lang": "en",
+      "options": [
+        "Postal worker",
+        "Doctor",
+        "Firefighter"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-02",
+      "type": "true-false",
+      "prompt": "Both women and men can be aircraft pilots.",
+      "explanation": "People can choose a profession they like and train for it, regardless of being a woman or man.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-03",
+      "type": "match",
+      "prompt": "Match each worker to a tool they use.",
+      "explanation": "Different jobs need suitable tools for their daily tasks.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Painter",
+          "right": "Paintbrush"
+        },
+        {
+          "left": "Carpenter",
+          "right": "Hammer"
+        },
+        {
+          "left": "Gardener",
+          "right": "Watering can"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-04",
+      "type": "fill-blank",
+      "prompt": "Choose the word that completes the sentence.",
+      "explanation": "Teachers help us learn new things at school.",
+      "lang": "en",
+      "sentence": "The person who teaches us to read and write is the ___.",
+      "options": [
+        "fisher",
+        "mechanic",
+        "teacher"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-05",
+      "type": "classify",
+      "prompt": "Sort each job by where it usually happens.",
+      "explanation": "Some jobs take place inside buildings, and others outdoors.",
+      "lang": "en",
+      "categories": [
+        "Inside a building",
+        "Outdoors"
+      ],
+      "items": [
+        {
+          "text": "Cook in a restaurant",
+          "category": 0
+        },
+        {
+          "text": "Street cleaner",
+          "category": 1
+        },
+        {
+          "text": "Dentist in a clinic",
+          "category": 0
+        },
+        {
+          "text": "Farmer in a field",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-06",
+      "type": "choice",
+      "prompt": "Hugo sees smoke in a bin. He moves away and tells an adult. Which service can put out the fire?",
+      "explanation": "Firefighters put out fires. If we see smoke or fire, we move away and tell an adult.",
+      "hint": "They have fire engines with water hoses.",
+      "lang": "en",
+      "options": [
+        "Fire service",
+        "Postal service",
+        "Plumber"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-07",
+      "type": "order",
+      "prompt": "Put the baker's steps for making fresh bread in order.",
+      "explanation": "First, prepare the dough. Then bake it in the oven and put it in the shop to sell.",
+      "lang": "en",
+      "items": [
+        "Mix flour with water and yeast",
+        "Put the dough in a hot oven",
+        "Put the freshly baked bread in the shop"
+      ]
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-08",
+      "type": "choice",
+      "prompt": "Martina serves customers at the local greengrocer's. What service does she provide?",
+      "explanation": "Greengrocers sell fresh fruit and vegetables.",
+      "hint": "Think about apples and bananas.",
+      "lang": "en",
+      "options": [
+        "Selling fresh, healthy food",
+        "Repairing broken cars",
+        "Building brick houses"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-09",
+      "type": "true-false",
+      "prompt": "Street cleaners help care for our neighbourhood.",
+      "explanation": "Keeping streets clean is important work for the community.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-oficios-y-profesiones-10",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "Mechanics care for vehicles to help them travel safely.",
+      "lang": "en",
+      "title": "A visit to the garage",
+      "text": "Aisha visits her uncle Adrián's garage. He repairs cars and motorbikes. He checks tyres and uses spanners when changing the oil. Aisha learns that checking brakes helps cars travel safely on the road.",
+      "questions": [
+        {
+          "prompt": "Which vehicles does Adrián repair?",
+          "explanation": "The text says Adrián repairs cars and motorbikes.",
+          "options": [
+            "Trains and tractors",
+            "Boats and planes",
+            "Cars and motorbikes"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why is Adrián's work important for local people?",
+          "explanation": "Checking parts such as brakes helps prevent road accidents.",
+          "options": [
+            "It helps people travel safely by car",
+            "He paints street signs",
+            "He sells bus tickets"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:24:29.438Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:00:48.702Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "65619fd4db8200295e0c0607d81ba7c4543ed1372445aff3a22e7123d53309c0",
+      "validation": "manual-review"
+    }
+  }
+}

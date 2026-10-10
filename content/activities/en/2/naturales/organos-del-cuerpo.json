@@ -1,0 +1,237 @@
+{
+  "id": "g2-naturales-organos-del-cuerpo",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "organos-del-cuerpo",
+  "temaNombre": "Body organs",
+  "title": "Our amazing body organs",
+  "summary": "Review what your main body organs do and how to care for them.",
+  "keyIdeas": [
+    "The brain, heart, lungs and stomach are important body organs.",
+    "Each organ has a special job that helps keep us alive and healthy.",
+    "Exercise and eating well help us care for our organs."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-organos-del-cuerpo-01",
+      "type": "choice",
+      "prompt": "Omar puts his hand on his chest and feels fast beats. Which organ pumps blood?",
+      "explanation": "The heart is a muscle that pumps blood around the body.",
+      "hint": "It goes thump-thump inside your chest.",
+      "lang": "en",
+      "options": [
+        "The stomach",
+        "The heart",
+        "The brain"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-02",
+      "type": "true-false",
+      "prompt": "The brain controls our thoughts and feelings.",
+      "explanation": "The brain controls thoughts, memories, emotions and body movements.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-03",
+      "type": "match",
+      "prompt": "Match each organ to its main job.",
+      "explanation": "Each organ has an important job in our body.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Lungs",
+          "right": "Receive the air we breathe"
+        },
+        {
+          "left": "Stomach",
+          "right": "Helps break down food"
+        },
+        {
+          "left": "Heart",
+          "right": "Sends blood around the body"
+        },
+        {
+          "left": "Brain",
+          "right": "Controls movements and thoughts"
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about breathing.",
+      "explanation": "Air reaches the lungs. There, oxygen passes from the air into the blood.",
+      "lang": "en",
+      "sentence": "When we breathe in through our nose, air reaches the ___.",
+      "options": [
+        "stomachs",
+        "lungs",
+        "bones"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-05",
+      "type": "classify",
+      "prompt": "Sort these organs by where they are in the body.",
+      "explanation": "The brain is protected inside the head. The heart, lungs and stomach are in the trunk, the main part of the body.",
+      "lang": "en",
+      "categories": [
+        "In the head",
+        "In the trunk"
+      ],
+      "items": [
+        {
+          "text": "Brain",
+          "category": 0
+        },
+        {
+          "text": "Heart",
+          "category": 1
+        },
+        {
+          "text": "Lungs",
+          "category": 1
+        },
+        {
+          "text": "Stomach",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-06",
+      "type": "choice",
+      "prompt": "Aisha skips at break time. Her heart beats faster. Why?",
+      "explanation": "During exercise, muscles work harder and need the heart to pump blood faster.",
+      "hint": "Think about what your legs need when you run.",
+      "lang": "en",
+      "options": [
+        "Her heart is tired and wants to stop",
+        "Her working muscles need more blood and oxygen",
+        "Her lungs have stopped working while she jumps"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-07",
+      "type": "choice",
+      "prompt": "Find the statement about organs that contains a mistake.",
+      "explanation": "The heart keeps beating while we sleep. The lungs let air move in and out as we breathe.",
+      "hint": "One organ keeps working day and night.",
+      "lang": "en",
+      "options": [
+        "The heart stops when we sleep",
+        "The stomach helps digest food",
+        "The lungs let us breathe air in and out"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-08",
+      "type": "order",
+      "prompt": "Put a strawberry's journey through the body in order.",
+      "explanation": "Digestion starts in the mouth. Food passes through the oesophagus and stomach, then reaches the intestines.",
+      "lang": "en",
+      "items": [
+        "It enters the mouth and our teeth chew it",
+        "It travels down the oesophagus",
+        "It reaches the stomach to be mixed and digested",
+        "It passes into the intestines, where nutrients are absorbed"
+      ]
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-09",
+      "type": "choice",
+      "prompt": "Martina rides a bike in the park. What helps protect her brain if she falls?",
+      "explanation": "The skull protects the brain inside the head. A helmet adds protection outside if we fall.",
+      "lang": "en",
+      "options": [
+        "A properly fastened helmet",
+        "Plastic knee pads",
+        "The bicycle bell"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-organos-del-cuerpo-10",
+      "type": "reading",
+      "prompt": "Read the story carefully and answer the questions.",
+      "explanation": "The heart moves blood. In the lungs, blood receives oxygen from the air. They work together.",
+      "lang": "en",
+      "title": "Hugo's visit to the doctor",
+      "text": "Hugo visits Doctor Laura at the health centre. She uses a tool to listen to his chest. His heart beats strongly and steadily. Then she asks him to breathe deeply. Laura listens to air moving in and out of his lungs. Hugo's organs work as a team!",
+      "questions": [
+        {
+          "prompt": "Which organs does the doctor listen to when Hugo breathes deeply?",
+          "explanation": "When Hugo breathes deeply, air enters his lungs and the doctor hears his breathing.",
+          "options": [
+            "The stomach",
+            "The brain",
+            "The lungs"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why is it important for organs to work together?",
+          "explanation": "Organs help each other so our body works well.",
+          "options": [
+            "So we can sleep all day",
+            "So we never need to eat again",
+            "To keep our body alive and healthy"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:35:40.975Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:40:09.268Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "29d54351a1f9949d0949995ed916a951c64348d366bc9a9164f57ca247ee80b1",
+      "validation": "manual-review"
+    }
+  }
+}

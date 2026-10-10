@@ -1,0 +1,252 @@
+{
+  "id": "g4-ingles-pasado-simple-regulares-e-irregulares",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "pasado-simple-regulares-e-irregulares",
+  "temaNombre": "Past Simple: Regular and Irregular Verbs",
+  "title": "Adventures in the Past",
+  "summary": "Practise the past simple with regular and irregular verbs in everyday situations.",
+  "keyIdeas": [
+    "Regular verbs form the past simple with an -ed ending, sometimes with spelling changes: play → played.",
+    "Irregular verbs do not follow the regular -ed pattern: go → went, eat → ate.",
+    "Words such as 'yesterday' and 'last weekend' tell us when an action happened in the past."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-01",
+      "type": "choice",
+      "prompt": "Complete the sentence: Yesterday, Lucía ___ football with her friends in the playground.",
+      "explanation": "'Played' is the past simple of the regular verb 'play': add -ed.",
+      "hint": "Add -ed to 'play' to describe yesterday's action.",
+      "lang": "en",
+      "options": [
+        "playing",
+        "play",
+        "played"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-02",
+      "type": "fill-blank",
+      "prompt": "Choose the correct past simple form of 'go'.",
+      "explanation": "'Go' is irregular: its past simple form is 'went', not 'goed'.",
+      "hint": "This common irregular past form begins with 'w'.",
+      "lang": "en",
+      "sentence": "Last Saturday, Aisha ___ to the cinema with her family.",
+      "options": [
+        "goes",
+        "goed",
+        "went"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-03",
+      "type": "match",
+      "prompt": "Match each base verb with its past simple form.",
+      "explanation": "'Watch' and 'visit' add -ed. 'Eat' and 'see' have irregular past forms: 'ate' and 'saw'.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "eat",
+          "right": "ate"
+        },
+        {
+          "left": "watch",
+          "right": "watched"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "visit",
+          "right": "visited"
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-04",
+      "type": "classify",
+      "prompt": "Sort these past simple forms into Regular or Irregular.",
+      "explanation": "'Walked', 'listened' and 'cooked' have regular -ed endings. 'Had', 'went' and 'saw' are irregular forms.",
+      "lang": "en",
+      "categories": [
+        "Regular verbs (-ed)",
+        "Irregular verbs"
+      ],
+      "items": [
+        {
+          "text": "walked",
+          "category": 0
+        },
+        {
+          "text": "had",
+          "category": 1
+        },
+        {
+          "text": "listened",
+          "category": 0
+        },
+        {
+          "text": "went",
+          "category": 1
+        },
+        {
+          "text": "cooked",
+          "category": 0
+        },
+        {
+          "text": "saw",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-05",
+      "type": "true-false",
+      "prompt": "Is this sentence correct? 'Yesterday, Hugo goed to the park by bike.'",
+      "explanation": "False. The past simple of 'go' is 'went', not 'goed'.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-06",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the birthday party.",
+      "explanation": "The past simple of 'eat' is 'ate'. 'Eated' is not a correct past form.",
+      "hint": "'Eat' changes its letters in the past simple.",
+      "lang": "en",
+      "sentence": "At the party, Martina and her friends ___ delicious chocolate cake.",
+      "options": [
+        "eated",
+        "ate",
+        "eating"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-07",
+      "type": "order",
+      "prompt": "Put Omar's morning actions in order from first to last.",
+      "explanation": "Follow the time words: 'First', 'Next', 'Then' and 'Finally'.",
+      "lang": "en",
+      "items": [
+        "First, Omar woke up at eight o'clock.",
+        "Next, he ate toast and fruit for breakfast.",
+        "Then, he walked to school with his dad.",
+        "Finally, he saw his teacher in the classroom."
+      ]
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-08",
+      "type": "choice",
+      "prompt": "Adrián is writing in his diary. Which sentence has both verbs in the correct past form?",
+      "explanation": "'Visited' is regular and 'had' is the irregular past form of 'have'. 'Haved' is incorrect.",
+      "hint": "Check the past form of 'have'.",
+      "lang": "en",
+      "options": [
+        "Yesterday, I visited my grandparents and we had lunch together.",
+        "Yesterday, I visited my grandparents and we haved lunch together.",
+        "Yesterday, I visit my grandparents and we had lunch together."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-09",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "Look for regular past forms such as 'watched' and 'played', and irregular forms such as 'went', 'saw' and 'ate'.",
+      "lang": "en",
+      "title": "A Fun Day at the Farm",
+      "text": "Yesterday, class 4B went on a school trip to Green Valley Farm. Wei and Martina saw many farm animals. First, they watched the sheep in the green field. Then, the farmer opened the gate and they fed the rabbits with fresh carrots. At one o'clock, everyone ate sandwiches under a big tree. Wei played ball games with his friends on the grass. Martina took nice photos of the horses. In the afternoon, they came back to school by bus. They loved the trip!",
+      "questions": [
+        {
+          "prompt": "Where did class 4B go yesterday?",
+          "explanation": "Class 4B went on a school trip to Green Valley Farm.",
+          "options": [
+            "A sunny beach",
+            "The city museum",
+            "Green Valley Farm"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What did the students eat under the tree?",
+          "explanation": "Everyone ate sandwiches under a big tree.",
+          "options": [
+            "Sandwiches",
+            "Carrots",
+            "Pizza"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-pasado-simple-regulares-e-irregulares-10",
+      "type": "choice",
+      "prompt": "Nerea is talking about last weekend. Which sentence is completely correct?",
+      "explanation": "'Did' is the irregular past form of 'do'. 'Watched' is the regular past form of 'watch'.",
+      "hint": "Both verbs need their correct past forms.",
+      "lang": "en",
+      "options": [
+        "Last Sunday, I did my homework and watch a film.",
+        "Last Sunday, I doed my homework and watched a film.",
+        "Last Sunday, I did my homework and watched a film."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:12:17.008Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:21:43.627Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "dc04426e014aa729b48168e772ee393d91c0d7cc4d423adabdb403f5551807d6",
+      "validation": "manual-review"
+    }
+  }
+}

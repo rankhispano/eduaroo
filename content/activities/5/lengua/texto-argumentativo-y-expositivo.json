@@ -224,7 +224,7 @@
       "id": "g5-lengua-texto-argumentativo-y-expositivo-10",
       "type": "choice",
       "prompt": "Para redactar un texto expositivo sobre los volcanes, ¿cuál de estos enunciados es adecuado incluir por ser un hecho objetivo?",
-      "explanation": "La primera opción es una definición científica y comprobable (un hecho), mientras que las otras dos son opiniones o emociones personales.",
+      "explanation": "La definición del volcán es una afirmación científica comprobable. Las frases sobre su belleza o el miedo expresan valoraciones personales.",
       "hint": "Un hecho se puede comprobar científicamente; una opinión depende del gusto o temor de cada persona.",
       "lang": "es",
       "options": [

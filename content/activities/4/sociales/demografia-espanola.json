@@ -137,7 +137,7 @@
       "id": "g4-sociales-demografia-espanola-06",
       "type": "choice",
       "prompt": "En el pueblo de Omar nacieron 15 bebés y fallecieron 8 personas. ¿Qué ha ocurrido con el crecimiento natural?",
-      "explanation": "Al restar las muertes a los nacimientos (15 - 8 = 7), el resultado es positivo: el pueblo creció en 7 habitantes.",
+      "explanation": "El crecimiento natural fue de 7 habitantes (15 − 8). Para conocer el cambio total de población necesitamos también las llegadas y las salidas.",
       "hint": "Compara el número de nacimientos con el de fallecimientos.",
       "lang": "es",
       "options": [
@@ -164,12 +164,12 @@
       "id": "g4-sociales-demografia-espanola-08",
       "type": "order",
       "prompt": "Ordena los pasos para calcular si un municipio gana o pierde población en un año:",
-      "explanation": "Primero hallamos el crecimiento natural, luego el saldo migratorio y finalmente sumamos ambos resultados.",
+      "explanation": "Primero reunimos los datos; después calculamos ambos saldos y finalmente los sumamos.",
       "lang": "es",
       "items": [
-        "Contar los nacimientos y restar las defunciones",
-        "Calcular la diferencia entre inmigrantes y emigrantes",
-        "Sumar el crecimiento natural y el saldo migratorio"
+        "Reunir los datos de nacimientos, defunciones, llegadas y salidas",
+        "Calcular el crecimiento natural y el saldo migratorio",
+        "Sumar ambos saldos para conocer el cambio total"
       ]
     },
     {
@@ -179,7 +179,7 @@
       "explanation": "La llegada de nuevas familias a zonas rurales ayuda a frenar la despoblación y mantiene servicios clave.",
       "lang": "es",
       "title": "La vida en Aldeavieja",
-      "text": "Aldeavieja es un pequeño pueblo de montaña. Hace cincuenta años vivían aquí quinientas personas, pero muchos jóvenes marcharon a la ciudad para estudiar y trabajar. En la actualidad solo quedan sesenta habitantes, la mayoría personas mayores. Sin embargo, el año pasado llegaron Lucía y David con sus dos hijas para montar una quesería artesanal y teletrabajar con internet. Gracias a su llegada, la escuela del pueblo ha podido seguir abierta con cuatro alumnos más. Los vecinos están muy ilusionados con el futuro de su comunidad.",
+      "text": "Aldeavieja es un pequeño pueblo de montaña. Hace cincuenta años vivían aquí quinientas personas, pero muchos jóvenes marcharon a la ciudad para estudiar y trabajar. En la actualidad solo quedan sesenta habitantes, la mayoría personas mayores. Sin embargo, el año pasado llegaron Lucía y David con sus dos hijas para montar una quesería artesanal y teletrabajar con internet. Gracias a su llegada, la escuela del pueblo ha podido seguir abierta con dos alumnas más. Los vecinos están muy ilusionados con el futuro de su comunidad.",
       "questions": [
         {
           "prompt": "¿Por qué motivo marcharon muchos jóvenes de Aldeavieja a la gran ciudad?",

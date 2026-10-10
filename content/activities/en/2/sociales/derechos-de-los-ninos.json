@@ -1,0 +1,218 @@
+{
+  "id": "g2-sociales-derechos-de-los-ninos",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "derechos-de-los-ninos",
+  "temaNombre": "Children's rights",
+  "title": "Learning about children's rights",
+  "summary": "Review rights that protect all children and responsibilities that help us live together.",
+  "keyIdeas": [
+    "All children around the world have the same rights, without discrimination.",
+    "We have rights to health, education, play and family care.",
+    "Alongside our rights, we have a responsibility to respect others."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL5",
+      "CPSAA1"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-01",
+      "type": "true-false",
+      "prompt": "All children have the right to go to school.",
+      "explanation": "Education is a basic right that helps all children learn and grow.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-02",
+      "type": "choice",
+      "prompt": "Omar has a high fever at home. Which right protects his access to care?",
+      "explanation": "The right to health includes getting medical care when Omar is ill.",
+      "hint": "Think about a hospital or health centre.",
+      "lang": "en",
+      "options": [
+        "The right to health",
+        "The right to travel by plane",
+        "The right to buy toys"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about a child's identity.",
+      "explanation": "Having a name identifies us and is part of our right to an identity.",
+      "lang": "en",
+      "sentence": "Every child has the right to a ___ and a nationality from birth.",
+      "options": [
+        "name",
+        "mobile phone",
+        "car"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-04",
+      "type": "match",
+      "prompt": "Match each right to an everyday example.",
+      "explanation": "Rights help protect us as we grow.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "The right to play",
+          "right": "Having fun in the park"
+        },
+        {
+          "left": "The right to education",
+          "right": "Learning to read in class"
+        },
+        {
+          "left": "The right to health",
+          "right": "Receiving vaccinations"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-05",
+      "type": "true-false",
+      "prompt": "Children only have rights when they get very good marks.",
+      "explanation": "Rights belong to every child. Children do not have to earn them by getting good marks.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-06",
+      "type": "classify",
+      "prompt": "Sort these examples into rights or responsibilities.",
+      "explanation": "Rights protect us. Responsibilities help us live well together.",
+      "lang": "en",
+      "categories": [
+        "A right",
+        "A responsibility"
+      ],
+      "items": [
+        {
+          "text": "Having family care",
+          "category": 0
+        },
+        {
+          "text": "Tidying toys after playing",
+          "category": 1
+        },
+        {
+          "text": "Going to school to learn",
+          "category": 0
+        },
+        {
+          "text": "Treating classmates with respect",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-07",
+      "type": "choice",
+      "prompt": "Aisha wants to share an idea for the school festival. She has the right to:",
+      "explanation": "All children have the right to express their views and be listened to.",
+      "hint": "Good classmates listen to each other.",
+      "lang": "en",
+      "options": [
+        "Give orders to all the other children",
+        "Be heard and respected",
+        "Always get her own way"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-08",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about care at home.",
+      "explanation": "All children deserve love, protection and care, whatever their family situation.",
+      "lang": "en",
+      "sentence": "All children have the right to protection and ___ at home.",
+      "options": [
+        "love",
+        "expensive prizes",
+        "harsh punishments"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-09",
+      "type": "classify",
+      "prompt": "Match each public service to the right it protects.",
+      "explanation": "Hospitals care for our health, and schools support our education.",
+      "lang": "en",
+      "categories": [
+        "The right to health",
+        "The right to education"
+      ],
+      "items": [
+        {
+          "text": "A children's doctor's clinic",
+          "category": 0
+        },
+        {
+          "text": "The school library",
+          "category": 1
+        },
+        {
+          "text": "The school's computer classroom",
+          "category": 1
+        },
+        {
+          "text": "The hospital emergency department",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-derechos-de-los-ninos-10",
+      "type": "choice",
+      "prompt": "A child works so many hours that they cannot attend school or rest. Why does this violate their rights?",
+      "explanation": "Work that prevents learning or rest, or harms health, violates children's rights.",
+      "hint": "Remember the rights to learn, rest and be protected.",
+      "lang": "en",
+      "options": [
+        "They need education, rest and protection from exploitation",
+        "They should only work without being paid",
+        "Studying only matters when they are an adult"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:31:14.491Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:41:26.729Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "1d1003b8a06eb9e2d8c186b7004ae21beaf856d56573eb85522eb69d21a94845",
+      "validation": "manual-review"
+    }
+  }
+}

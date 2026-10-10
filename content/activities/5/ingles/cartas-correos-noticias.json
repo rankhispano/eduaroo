@@ -177,7 +177,7 @@
     {
       "id": "g5-ingles-cartas-correos-noticias-08",
       "type": "reading",
-      "prompt": "Read the school news article and answer the questions:",
+      "prompt": "Read this invented school news article and answer.",
       "explanation": "Una noticia informativa responde a las 5 preguntas básicas (qué, quién, cuándo, dónde y por qué) y transmite hechos de interés para la comunidad.",
       "lang": "en",
       "title": "Sunny Hills Eco-Garden Opening",
@@ -232,7 +232,7 @@
     {
       "id": "g5-ingles-cartas-correos-noticias-10",
       "type": "fill-blank",
-      "prompt": "Completa el titular de esta noticia escolar sobre un evento pasado:",
+      "prompt": "Completa la frase sobre un evento de ayer usando el pasado simple.",
       "explanation": "Como la noticia describe un hecho que ocurrió ayer ('yesterday'), utilizamos la forma en pasado del verbo: 'won'.",
       "hint": "Fíjate en la palabra 'yesterday'.",
       "lang": "en",

@@ -1,0 +1,216 @@
+{
+  "id": "g1-mates-series-numericas",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "series-numericas",
+  "temaNombre": "Number sequences",
+  "title": "Playing with number sequences",
+  "summary": "Practise finding and continuing number sequences by adding and subtracting.",
+  "keyIdeas": [
+    "These number sequences follow a fixed rule.",
+    "To count forwards, we add the same amount each time.",
+    "To count backwards, we subtract the same amount each time."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "3.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Sentido algebraico › Patrones",
+      "A. Sentido numérico › Conteo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-series-numericas-01",
+      "type": "fill-blank",
+      "prompt": "Complete Lucía's count of her steps in the playground.",
+      "explanation": "Add 1 with each step. 8 comes after 7.",
+      "hint": "Count forwards in ones.",
+      "lang": "en",
+      "sentence": "Lucía counts her steps: 5, 6, 7, ___, 9.",
+      "options": [
+        "10",
+        "8",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-series-numericas-02",
+      "type": "choice",
+      "prompt": "Hugo jumps across tiles in twos: 2, 4, 6... Which number comes next?",
+      "explanation": "The sequence adds 2 with each jump. 6 + 2 = 8.",
+      "hint": "Add two to 6.",
+      "lang": "en",
+      "options": [
+        "9",
+        "8",
+        "7"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-series-numericas-03",
+      "type": "order",
+      "prompt": "Put the numbers in order, counting forwards in tens.",
+      "explanation": "Count in tens: 10, 20, 30, 40, 50.",
+      "lang": "en",
+      "items": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "50"
+      ]
+    },
+    {
+      "id": "g1-mates-series-numericas-04",
+      "type": "true-false",
+      "prompt": "In the sequence 8, 7, 6, 5... the next number is 4.",
+      "explanation": "This sequence counts backwards. Subtract 1 each time: 5 - 1 = 4.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-mates-series-numericas-05",
+      "type": "choice",
+      "prompt": "Leo writes a sequence counting in twos: 2, 4, 5, 8. Which number is wrong?",
+      "explanation": "The sequence adds 2 each time. It should have 6 instead of 5.",
+      "hint": "Check where the sequence fails to add 2.",
+      "lang": "en",
+      "options": [
+        "8",
+        "5",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-series-numericas-06",
+      "type": "classify",
+      "prompt": "Sort each sequence by its rule.",
+      "explanation": "Some sequences increase by adding 2. The others increase by adding 10.",
+      "lang": "en",
+      "categories": [
+        "Counts in twos",
+        "Counts in tens"
+      ],
+      "items": [
+        {
+          "text": "2, 4, 6, 8",
+          "category": 0
+        },
+        {
+          "text": "10, 20, 30, 40",
+          "category": 1
+        },
+        {
+          "text": "12, 14, 16, 18",
+          "category": 0
+        },
+        {
+          "text": "50, 60, 70, 80",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-series-numericas-07",
+      "type": "fill-blank",
+      "prompt": "Aisha counts trading cards in fives.",
+      "explanation": "Add 5 each time. 15 + 5 = 20.",
+      "hint": "Add 5 to 15.",
+      "lang": "en",
+      "sentence": "Aisha counts: 5, 10, 15, ___, 25.",
+      "options": [
+        "30",
+        "20",
+        "16"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-series-numericas-08",
+      "type": "match",
+      "prompt": "Match each sequence to its rule.",
+      "explanation": "Each sequence follows a different rule for adding or subtracting.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "3, 4, 5, 6",
+          "right": "Add 1"
+        },
+        {
+          "left": "10, 8, 6, 4",
+          "right": "Subtract 2"
+        },
+        {
+          "left": "5, 10, 15, 20",
+          "right": "Add 5"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-series-numericas-09",
+      "type": "choice",
+      "prompt": "Omar saves 2 euros each day: 2 €, 4 €, 6 €... How much will he have on the fourth day?",
+      "explanation": "Add 2 euros each day: 6 + 2 = 8 euros.",
+      "hint": "Add 2 more euros.",
+      "lang": "en",
+      "options": [
+        "9 euros",
+        "8 euros",
+        "7 euros"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-series-numericas-10",
+      "type": "order",
+      "prompt": "Put this sequence in order, counting backwards in twos.",
+      "explanation": "Subtract 2 each time: 10, 8, 6, 4, 2.",
+      "lang": "en",
+      "items": [
+        "10",
+        "8",
+        "6",
+        "4",
+        "2"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:52:01.644Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:20:15.822Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "9f61098553fcb8cbd33450003a9f6206f5b436da925a450d119cdf3222e00322",
+      "validation": "manual-review"
+    }
+  }
+}

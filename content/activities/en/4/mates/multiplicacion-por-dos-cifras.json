@@ -1,0 +1,229 @@
+{
+  "id": "g4-mates-multiplicacion-por-dos-cifras",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "multiplicacion-por-dos-cifras",
+  "temaNombre": "Multiplication by Two-Digit Numbers",
+  "title": "Multiplication Masters",
+  "summary": "Practise multiplication using strategies, estimation and everyday problems. These exercises use dots to group thousands: 1.000 means one thousand.",
+  "keyIdeas": [
+    "When multiplying by the tens digit in a column calculation, shift that partial product one place left or put a zero in its ones column.",
+    "For a whole number, multiplying by 20 means doubling it and then multiplying by 10.",
+    "Rounding to the nearest ten helps estimate and check whether a product makes sense."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-01",
+      "type": "choice",
+      "prompt": "Wei prepares 20 packets with 34 stickers each. How many stickers are there altogether?",
+      "explanation": "34 × 2 = 68, then 68 × 10 = 680. So 34 × 20 = 680.",
+      "hint": "First calculate 34 × 2, then add a zero at the end.",
+      "lang": "en",
+      "options": [
+        "680 stickers",
+        "68 stickers",
+        "640 stickers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-02",
+      "type": "order",
+      "prompt": "Put the steps for column multiplication by a two-digit number in order.",
+      "explanation": "Multiply by the ones, prepare the tens row, multiply by the tens and add both partial products.",
+      "lang": "en",
+      "items": [
+        "Multiply the top number by the bottom number's ones digit.",
+        "Leave a space or place a zero in the ones column of the next row.",
+        "Multiply the top number by the bottom number's tens digit, writing the result from the tens column.",
+        "Add the two partial products to find the final product."
+      ]
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-03",
+      "type": "choice",
+      "prompt": "Aisha estimates the cost of 29 books at €18 each. Which estimate rounds both numbers to the nearest ten?",
+      "explanation": "29 rounds to 30 and 18 rounds to 20, giving 30 × 20 = €600.",
+      "hint": "Round both numbers to the nearest ten before multiplying.",
+      "lang": "en",
+      "options": [
+        "30 × 10 = €300",
+        "20 × 10 = €200",
+        "30 × 20 = €600"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-04",
+      "type": "true-false",
+      "prompt": "When calculating 46 × 23 in columns, the second row represents 46 × 20.",
+      "explanation": "True. The 2 is in the tens position, so it represents 2 tens, or 20.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-05",
+      "type": "match",
+      "prompt": "Match each multiplication with its correct product.",
+      "explanation": "Use multiplication by tens. For example, 25 × 20 = (25 × 2) × 10 = 500.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "25 × 20",
+          "right": "500"
+        },
+        {
+          "left": "15 × 30",
+          "right": "450"
+        },
+        {
+          "left": "12 × 30",
+          "right": "360"
+        },
+        {
+          "left": "40 × 15",
+          "right": "600"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-06",
+      "type": "choice",
+      "prompt": "Hugo calculates 132 × 24. He gets 132 × 4 = 528, writes 264 directly below it and adds to get 792. What is his mistake?",
+      "explanation": "The 2 represents 20. The second partial product is 2.640, giving 528 + 2.640 = 3.168.",
+      "hint": "Check the position of the second row.",
+      "lang": "en",
+      "options": [
+        "He added the two final amounts incorrectly.",
+        "He did not shift the result of 132 × 2 one place to the left.",
+        "He calculated 132 × 4 incorrectly."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-07",
+      "type": "choice",
+      "prompt": "Lucía's school has 24 classrooms, each with 25 desks. How many desks are there in total?",
+      "explanation": "24 × 20 = 480 and 24 × 5 = 120. Add 480 + 120 = 600 desks.",
+      "hint": "Multiply 24 by 25 step by step.",
+      "lang": "en",
+      "options": [
+        "600 desks",
+        "500 desks",
+        "625 desks"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-08",
+      "type": "classify",
+      "prompt": "Sort each multiplication by whether its result is less than or greater than 1.000.",
+      "explanation": "32 × 21 = 672, 45 × 12 = 540 and 24 × 30 = 720 are below 1.000. The others are 1.300, 1.952 and 1.400, above 1.000.",
+      "lang": "en",
+      "categories": [
+        "Less than 1.000",
+        "Greater than 1.000"
+      ],
+      "items": [
+        {
+          "text": "32 × 21",
+          "category": 0
+        },
+        {
+          "text": "52 × 25",
+          "category": 1
+        },
+        {
+          "text": "45 × 12",
+          "category": 0
+        },
+        {
+          "text": "61 × 32",
+          "category": 1
+        },
+        {
+          "text": "24 × 30",
+          "category": 0
+        },
+        {
+          "text": "40 × 35",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-09",
+      "type": "fill-blank",
+      "prompt": "Complete the school-trip problem.",
+      "explanation": "35 × 12 = (35 × 10) + (35 × 2) = 350 + 70 = €420.",
+      "hint": "Split 12 into 10 + 2.",
+      "lang": "en",
+      "sentence": "A group of 35 pupils pays €12 each to enter a museum. The total cost is €___.",
+      "options": [
+        "420",
+        "410",
+        "350"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-multiplicacion-por-dos-cifras-10",
+      "type": "choice",
+      "prompt": "A greengrocer receives 45 boxes with 18 kg of oranges each. After selling 300 kg, how many kilograms remain?",
+      "explanation": "45 × 18 = 810 kg received. Subtract sales: 810 − 300 = 510 kg.",
+      "hint": "First find the total mass, then subtract the mass sold.",
+      "lang": "en",
+      "options": [
+        "500 kg",
+        "410 kg",
+        "810 kg",
+        "510 kg"
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:12:47.257Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:54:37.945Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "52e7e3d705d1806134d84f099a70184b78951cbbc8208faa2f4825e3c5caff8a",
+      "validation": "manual-review"
+    }
+  }
+}

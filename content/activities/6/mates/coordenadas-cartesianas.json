@@ -7,8 +7,8 @@
   "title": "Aventura en las coordenadas cartesianas",
   "summary": "Practica la localización de puntos, lectura de ejes y cálculo de recorridos sobre el plano cartesiano.",
   "keyIdeas": [
-    "En una coordenada (X, Y), el primer número (eje X o abscisas) indica el avance horizontal hacia la derecha.",
-    "El segundo número (eje Y u ordenadas) indica la posición vertical hacia arriba.",
+    "El primer número de (X, Y) indica la posición horizontal; los valores positivos avanzan a la derecha del origen.",
+    "El segundo número indica la posición vertical; los valores positivos avanzan hacia arriba del origen.",
     "El origen de coordenadas es el punto (0, 0), donde se cruzan ambos ejes."
   ],
   "lomloe": {

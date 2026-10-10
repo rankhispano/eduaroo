@@ -1,0 +1,264 @@
+{
+  "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "determinantes-posesivos-demostrativos-numerales",
+  "temaNombre": "Spanish Determiners: Possessives, Demonstratives and Numerals",
+  "title": "Adventures with Determiners",
+  "summary": "Practise Spanish possessive, demonstrative and numeral determiners in everyday situations.",
+  "keyIdeas": [
+    "Demonstratives can show closeness («este»), middle distance («ese») or greater distance («aquel»).",
+    "Possessives show belonging and can refer to one or several possessors: «mi», «nuestro».",
+    "Cardinal numerals show exact quantities, such as «dos»; ordinal numerals show order, such as «segundo»."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-01",
+      "type": "choice",
+      "prompt": "Aisha says: «He dejado mi estuche sobre esa mesa». Which word is a demonstrative determiner showing middle distance?",
+      "explanation": "«Esa» is demonstrative. «Mi» is possessive and «mesa» is a noun.",
+      "hint": "Find the word accompanying a noun and indicating its position.",
+      "lang": "en",
+      "options": [
+        "mesa",
+        "esa",
+        "mi"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-02",
+      "type": "true-false",
+      "prompt": "In «Omar quedó en quinta posición en la carrera deportiva», «quinta» is an ordinal numeral determiner because it shows order.",
+      "explanation": "True. Ordinals indicate position or order, while cardinals indicate quantity.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-03",
+      "type": "classify",
+      "prompt": "Sort these Spanish demonstratives by the distance they express from the speaker.",
+      "explanation": "The este group shows closeness, the ese group middle distance and the aquel group greater distance.",
+      "lang": "en",
+      "categories": [
+        "Close",
+        "Middle distance",
+        "Far"
+      ],
+      "items": [
+        {
+          "text": "este lápiz",
+          "category": 0
+        },
+        {
+          "text": "aquella colina",
+          "category": 2
+        },
+        {
+          "text": "ese cuaderno",
+          "category": 1
+        },
+        {
+          "text": "estas zapatillas",
+          "category": 0
+        },
+        {
+          "text": "aquel parque",
+          "category": 2
+        },
+        {
+          "text": "esos balones",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-04",
+      "type": "match",
+      "prompt": "Match each determiner type with its Spanish example.",
+      "explanation": "Possessives refer to belonging with one or several possessors. Cardinals give exact quantities; ordinals give positions.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Possessive: one possessor",
+          "right": "mi mochila"
+        },
+        {
+          "left": "Possessive: several possessors",
+          "right": "nuestro colegio"
+        },
+        {
+          "left": "Cardinal numeral",
+          "right": "ocho lápices"
+        },
+        {
+          "left": "Ordinal numeral",
+          "right": "tercer piso"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-05",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish demonstrative for an object very far from the speaker and listener.",
+      "explanation": "For the distant boat on the horizon, the expected demonstrative is «aquel».",
+      "lang": "en",
+      "sentence": "Mira hacia el horizonte: ¿ves ___ barco navegando cerca del faro?",
+      "options": [
+        "ese",
+        "este",
+        "aquel"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-06",
+      "type": "choice",
+      "prompt": "Hugo writes a school notice. Which Spanish sentence contains a determiner agreement error?",
+      "explanation": "«Gomas» is feminine plural, so use «estas gomas», not «estos gomas».",
+      "hint": "Compare the noun and determiner's gender and number.",
+      "lang": "en",
+      "options": [
+        "Perdí mi chaqueta verde en el patio durante el recreo.",
+        "Devolveremos estos libros a la biblioteca esta tarde.",
+        "Encontré estos gomas de borrar debajo del banco de madera."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-07",
+      "type": "order",
+      "prompt": "Put these Spanish ordinal expressions in order from earliest to latest position.",
+      "explanation": "The positions are first, second, fourth, seventh and tenth.",
+      "lang": "en",
+      "items": [
+        "primer lugar",
+        "segundo lugar",
+        "cuarto lugar",
+        "séptimo lugar",
+        "décimo lugar"
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-08",
+      "type": "choice",
+      "prompt": "Lucía says to classmates: «Traed vuestros bocadillos y cuatro manzanas lavadas». Which types of determiner are used?",
+      "explanation": "«Vuestros» refers to several possessors, «vosotros». «Cuatro» is an exact quantity, so it is cardinal.",
+      "lang": "en",
+      "options": [
+        "A possessive for one possessor («vuestros») and an ordinal numeral («cuatro»).",
+        "A possessive for several possessors («vuestros») and a cardinal numeral («cuatro»).",
+        "A middle-distance demonstrative («vuestros») and a cardinal numeral («cuatro»)."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-09",
+      "type": "fill-blank",
+      "prompt": "Choose the third-person Spanish possessive for a dog belonging to Martina and her brother.",
+      "explanation": "«Perro» is singular, so use «su». The possessive's number agrees with the thing possessed, not the number of owners.",
+      "lang": "en",
+      "sentence": "Martina y su hermano pasean siempre a ___ perro por el parque del barrio.",
+      "options": [
+        "su",
+        "sus",
+        "nuestro"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-determinantes-posesivos-demostrativos-numerales-10",
+      "type": "reading",
+      "prompt": "Read the Spanish school garden news and answer the questions.",
+      "explanation": "Use the school story to identify possessive, demonstrative and numeral determiners.",
+      "lang": "en",
+      "title": "Un huerto vivo en la escuela",
+      "text": "Esta mañana, nuestro grupo de quinto ha inaugurado el nuevo huerto escolar tras semanas de preparación. El profesor Adrián nos repartió las tareas con precisión: Aisha y Marco prepararon los tres bancales principales, mientras que Lucía y yo plantamos aquellas pequeñas semillas de tomate que guardábamos desde la primavera pasada.\n\nA mitad de la jornada, Mateo celebró con alegría nuestro primer brote verde en un bancal sembrado días antes: una diminuta hoja asomaba tímida entre la tierra húmeda. Para que el proyecto funcione de forma sostenible, hemos acordado dos reglas básicas de convivencia: cuidar las herramientas compartidas y regar solo al atardecer para evitar que el agua se evapore con el calor.\n\nAl contemplar ese rincón tan verde y lleno de vida al fondo del patio, comprendimos que el esfuerzo en equipo transforma cualquier espacio. Ya soñamos con probar nuestra primera cosecha de hortalizas antes de que termine el curso escolar.",
+      "questions": [
+        {
+          "prompt": "Why do the pupils decide to water the garden only at dusk?",
+          "explanation": "In the text, watering at dusk is intended to reduce rapid evaporation in the sun's heat.",
+          "options": [
+            "Because tomato seeds only grow in darkness.",
+            "Because the teacher only gives out tools at the end of the day.",
+            "To avoid rapid water evaporation in the sun's heat."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "In «plantamos aquellas pequeñas semillas de tomate», what information does «aquellas» add?",
+          "explanation": "Here, «aquellas» refers back to seeds kept since the previous spring, suggesting distance in time or memory.",
+          "options": [
+            "It says the seeds belong only to the narrator.",
+            "It places the seeds in a distant moment or memory compared with the present.",
+            "It gives the exact number of seeds planted."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "In «nuestro primer brote verde», how are «nuestro» and «primer» classified?",
+          "explanation": "«Nuestro» refers to several possessors; «primer» gives order and is ordinal.",
+          "options": [
+            "«Nuestro» is possessive for one possessor and «primer» is cardinal.",
+            "«Nuestro» is a close demonstrative and «primer» is cardinal.",
+            "«Nuestro» is possessive for several possessors and «primer» is ordinal."
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:49:55.685Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:01:30.521Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "6fd37d88bc38862b569bbdfcb9c298cbbda3d7ad63e35a947d183e4adc424da8",
+      "validation": "manual-review"
+    }
+  }
+}

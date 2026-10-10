@@ -1,0 +1,258 @@
+{
+  "id": "g5-naturales-la-luz-y-el-sonido",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "la-luz-y-el-sonido",
+  "temaNombre": "Light and sound",
+  "title": "The mysteries of light and sound",
+  "summary": "Investigate how sound waves and light travel around us.",
+  "keyIdeas": [
+    "In a uniform material, light travels in straight lines and much faster than sound.",
+    "Sound comes from vibrations and needs matter to travel through.",
+    "Reflection makes light or sound bounce back. Refraction bends light when it passes between different materials."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › Materia, fuerzas y energía"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-01",
+      "type": "true-false",
+      "prompt": "Sound can travel through the vacuum of space just like sunlight.",
+      "explanation": "Sound needs a solid, liquid or gas whose particles can vibrate. Light can travel through a vacuum.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-02",
+      "type": "classify",
+      "prompt": "Classify these objects by how they let light pass through.",
+      "explanation": "Transparent materials let most light through clearly. Translucent materials scatter transmitted light. Opaque objects block light.",
+      "lang": "en",
+      "categories": [
+        "Transparent",
+        "Translucent",
+        "Opaque"
+      ],
+      "items": [
+        {
+          "text": "Clean window glass",
+          "category": 0
+        },
+        {
+          "text": "Baking parchment",
+          "category": 1
+        },
+        {
+          "text": "A solid wooden table",
+          "category": 2
+        },
+        {
+          "text": "A stainless-steel spoon",
+          "category": 2
+        },
+        {
+          "text": "Clear water in a glass",
+          "category": 0
+        },
+        {
+          "text": "A translucent plastic shower curtain",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-03",
+      "type": "match",
+      "prompt": "Match each sound property to its main feature.",
+      "explanation": "Intensity relates to loudness, pitch to vibration frequency, and timbre to the wave's shape and its source.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Intensity: loudness",
+          "right": "Distinguishes loud and quiet sounds"
+        },
+        {
+          "left": "Pitch",
+          "right": "Distinguishes high and low sounds"
+        },
+        {
+          "left": "Timbre: tone quality",
+          "right": "Helps distinguish the instrument or source making the sound"
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about sound transmission.",
+      "explanation": "Sound travels through vibrations in solids, liquids or gases. Its speed depends on the material's properties.",
+      "lang": "en",
+      "sentence": "Sound needs a material whose particles can ___.",
+      "options": [
+        "vibrate",
+        "disappear",
+        "emit light"
+      ],
+      "answer": 0,
+      "hint": "Think about what a guitar string does when it sounds."
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-05",
+      "type": "choice",
+      "prompt": "Find the scientific error. Four pupils explain why objects look coloured. Who is mistaken?",
+      "explanation": "Mateo is mistaken. A red object reflects red light towards our eyes and absorbs much of the other light.",
+      "hint": "Which light reaches our eyes so we see that colour?",
+      "lang": "en",
+      "options": [
+        "Elena: 'A black jumper absorbs almost all the light and reflects very little.'",
+        "Aisha: 'A green leaf absorbs much of the light and reflects green light towards our eyes.'",
+        "Lucas: 'White paper reflects almost all the colours of the light it receives.'",
+        "Mateo: 'A tomato looks red because it absorbs red light and reflects all the other colours.'"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-06",
+      "type": "choice",
+      "prompt": "Lucía puts a straight pencil in a glass of water. Viewed from the side, it looks bent. Which physical effect explains this?",
+      "explanation": "Light changes speed and can change direction when passing between air and water. This refraction makes the pencil look bent.",
+      "hint": "Notice where light passes between transparent materials.",
+      "lang": "en",
+      "options": [
+        "Reflection: the water acts as a perfect mirror.",
+        "Dispersion: the water separates white light into seven colours.",
+        "Refraction: light changes speed when passing between air and water.",
+        "Diffraction: the pencil completely blocks light waves."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-07",
+      "type": "order",
+      "prompt": "During a distant summer storm, Hugo sees lightning before hearing thunder. Order the events from the discharge onwards.",
+      "explanation": "Light and sound start travelling at the same time. Light's greater speed makes the flash arrive first.",
+      "lang": "en",
+      "items": [
+        "The electrical discharge produces light and sound",
+        "Both travel outwards; light travels much faster",
+        "Light reaches Hugo's eyes",
+        "Sound then reaches his ears"
+      ]
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-08",
+      "type": "choice",
+      "prompt": "Adrián hears no separate echo in his bedroom, but hears one clearly from a canyon wall 50 metres away. Why?",
+      "explanation": "To hear a separate echo, the delay is roughly 0,1 seconds or more. Sound travels about 34 metres there and back in that time, so the reflecting surface needs to be about 17 metres away or farther.",
+      "hint": "Consider the delay needed to distinguish the original sound from its reflection.",
+      "lang": "en",
+      "options": [
+        "A wall needs to be about 17 metres away or farther for a clearly separate echo.",
+        "Bedroom walls absorb 100% of sound, so no sound is reflected.",
+        "Clean mountain air makes sound bounce faster than city air.",
+        "Echoes only occur outdoors because sound needs wind to return."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-09",
+      "type": "reading",
+      "prompt": "Read about noise in cities and answer the questions.",
+      "explanation": "The text connects noise with health and describes simple ways to reduce school noise.",
+      "lang": "en",
+      "title": "Living with less noise",
+      "text": "The World Health Organization (WHO) warns that excessive ongoing noise, or noise pollution, can harm physical and mental health. Traffic, construction and machinery are common city sources. The risk depends on both loudness and exposure time.\n\nLong exposure to high noise levels can damage hearing and contribute to headaches, stress, difficulty concentrating and sleep problems. Some Spanish schools use 'noise traffic lights' in dining halls and fit felt pads to table and chair legs.\n\nSpeaking more quietly and choosing quieter, active travel such as cycling or walking can improve shared spaces and our wellbeing.",
+      "questions": [
+        {
+          "prompt": "According to the text, what determines noise-related health risks?",
+          "options": [
+            "Loudness and exposure time",
+            "Only the colour of the sound source",
+            "Only whether the sound occurs indoors or outdoors"
+          ],
+          "answer": 0,
+          "explanation": "The text mentions both noise level and the length of exposure."
+        },
+        {
+          "prompt": "Why do felt pads on school chairs reduce noise?",
+          "explanation": "Felt softens impacts and friction, reducing strong vibrations against the floor.",
+          "options": [
+            "They change sound to a pitch humans cannot hear.",
+            "They soften rubbing and reduce noisy vibrations when chairs are moved.",
+            "They prevent light reflecting off the classroom floor."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What can we conclude about using headphones responsibly?",
+          "explanation": "Prolonged loud listening can damage hearing, including when using headphones.",
+          "options": [
+            "Listening through headphones at high volume for hours can permanently damage hearing cells.",
+            "Noise pollution only matters outdoors, never with personal devices.",
+            "Headphones are always harmless because they do not make the street noisy."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-luz-y-el-sonido-10",
+      "type": "choice",
+      "prompt": "Omar makes a shadow-puppet theatre. How can he project a puppet's shadow much larger than the puppet onto a white screen?",
+      "explanation": "Light travels outwards from the torch in straight lines. A puppet nearer the torch blocks a wider part of the beam, making a larger shadow on a distant screen.",
+      "hint": "Think about the beam blocked when the puppet is nearer the torch.",
+      "lang": "en",
+      "options": [
+        "Move the puppet closer to the torch and farther from the screen.",
+        "Place the puppet directly against the screen beside the torch.",
+        "Move the puppet farther from the torch and closer to the white screen.",
+        "Put a water filter between the torch and puppet to bend the rays."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:13:24.284Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:04:14.236Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "1b8b616e5b539eda373f5bcb6b6d831bfbfbec49dd6b26056fc0e1344b8ada9c",
+      "validation": "manual-review"
+    }
+  }
+}

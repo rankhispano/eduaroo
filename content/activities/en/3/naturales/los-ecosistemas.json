@@ -1,0 +1,256 @@
+{
+  "id": "g3-naturales-los-ecosistemas",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "los-ecosistemas",
+  "temaNombre": "Ecosystems",
+  "title": "Ecosystem explorers",
+  "summary": "Review ecosystems, food chains and how to care for the balance of nature.",
+  "keyIdeas": [
+    "An ecosystem includes living things, their physical surroundings and the relationships between them.",
+    "In food chains, plants are producers and animals are consumers.",
+    "Caring for ecosystems and preventing pollution helps protect the balance of life on our planet."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-los-ecosistemas-01",
+      "type": "classify",
+      "prompt": "Sort these forest features into living and non-living things.",
+      "explanation": "Living things are born, grow and eventually die; they belong to groups that can reproduce. Non-living features have no life, but living things depend on them.",
+      "lang": "en",
+      "categories": [
+        "Living things (biotic)",
+        "Non-living features (abiotic)"
+      ],
+      "items": [
+        {
+          "text": "A red deer",
+          "category": 0
+        },
+        {
+          "text": "A granite rock",
+          "category": 1
+        },
+        {
+          "text": "An oak tree",
+          "category": 0
+        },
+        {
+          "text": "Stream water",
+          "category": 1
+        },
+        {
+          "text": "A seven-spot ladybird",
+          "category": 0
+        },
+        {
+          "text": "Sunlight",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-02",
+      "type": "true-false",
+      "prompt": "An ecosystem consists only of the animals living in a place.",
+      "explanation": "False. An ecosystem includes living things such as animals, plants and fungi, physical surroundings such as soil, water and air, and their relationships.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about plants' role in nature.",
+      "explanation": "Plants are producers because they make their own food through photosynthesis, using water, air and sunlight.",
+      "hint": "Think about who produces food and who consumes it.",
+      "lang": "en",
+      "sentence": "In a food chain, plants are ___ because they make their own food using sunlight.",
+      "options": [
+        "decomposers",
+        "consumers",
+        "producers"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-04",
+      "type": "match",
+      "prompt": "Match each living thing to its role in this food chain.",
+      "explanation": "In this chain, grass makes food, the rabbit eats plants and the fox eats the rabbit. Decomposers break down remains from all living things.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Fresh grass",
+          "right": "Producer"
+        },
+        {
+          "left": "Wild rabbit",
+          "right": "Primary consumer (herbivore)"
+        },
+        {
+          "left": "Fox eating the rabbit",
+          "right": "Secondary consumer (carnivore)"
+        },
+        {
+          "left": "Soil fungi",
+          "right": "Decomposer"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-05",
+      "type": "order",
+      "prompt": "Put these food-chain links in order to show energy passing on from the producer.",
+      "explanation": "In this chain, the mouse eats an acorn and the owl eats the mouse. Mice can eat other foods too. Decomposers break down remains from any link.",
+      "lang": "en",
+      "items": [
+        "Holm oak producing acorns",
+        "Field mouse",
+        "Eagle owl",
+        "Decomposing bacteria"
+      ]
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-06",
+      "type": "choice",
+      "prompt": "Hugo says, 'If we remove wolves from the forest, the ecosystem will be better because they will not hunt deer.' What is wrong with his reasoning?",
+      "explanation": "Predators affect herbivore numbers. Removing them can increase the amount of plants eaten. Food, disease and other factors also affect populations.",
+      "hint": "Think about the relationships between wolves, deer and plants.",
+      "lang": "en",
+      "options": [
+        "Trees would grow so much that they would block all light reaching rivers",
+        "Deer would turn into carnivores to survive without predators",
+        "Deer numbers could increase, and they could eat more plants"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-07",
+      "type": "reading",
+      "prompt": "Read about Aisha and Leo's science adventure and answer the questions.",
+      "explanation": "Aquatic ecosystems can be harmed by rubbish, which can affect the living things that live there.",
+      "lang": "en",
+      "title": "Aisha and Leo's pond",
+      "text": "Aisha and Leo visit the village pond with their class to investigate its ecosystem. They see green reeds along the bank, small jumping frogs, fast-flying dragonflies and fish swimming in clean water. They also spot algae in the sunlight. Leo writes in his science notebook that the water feels warm. Looking closely at the bank, they find several abandoned plastic bags. They tell their teacher so they can organise a litter collection and protect this valuable natural space.",
+      "questions": [
+        {
+          "prompt": "Which non-living, or abiotic, feature does Leo record in his notebook?",
+          "explanation": "Water temperature is a physical feature of the environment, or an abiotic factor. Frogs and dragonflies are living things.",
+          "options": [
+            "The size of the dragonflies",
+            "The water temperature",
+            "The number of green frogs"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What could happen to the fish if rubbish and toxic substances filled the water?",
+          "explanation": "Pollution damages the water conditions fish need to breathe and find safe food.",
+          "options": [
+            "They would have serious difficulty breathing, feeding and surviving",
+            "They would reproduce faster because plastic provides more hiding places",
+            "They would learn to leave the water and breathe dry air"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-08",
+      "type": "choice",
+      "prompt": "No rain falls on a meadow for many months, and all the grass dries up. Which scientific prediction is most reasonable?",
+      "explanation": "When the grass dries up, herbivores such as rabbits have less food, so their numbers are likely to fall.",
+      "hint": "Think about the first link in the chain: who eats grass?",
+      "lang": "en",
+      "options": [
+        "Plants will produce more seeds because of the heat and long drought",
+        "Fox numbers will increase because they have more space to run",
+        "Rabbits will have less food, and their population will decrease"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-09",
+      "type": "choice",
+      "prompt": "Martina finds empty cans on a class trip. Which action helps the environment without getting hurt?",
+      "explanation": "Tell an adult. A litter collection should use suitable protection and avoid touching dangerous waste.",
+      "lang": "en",
+      "options": [
+        "Leave them because all rubbish makes a useful shelter",
+        "Bury them so nobody can see them",
+        "Tell her teacher so they can organise a safe collection and recycle them"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-los-ecosistemas-10",
+      "type": "match",
+      "prompt": "Match each ecosystem to its main features.",
+      "explanation": "Each ecosystem has particular climate and physical conditions. Its living things have adaptations that help them survive there.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Mediterranean woodland",
+          "right": "Holm oaks, wild boar, and hot, dry summers"
+        },
+        {
+          "left": "Marine coral reef",
+          "right": "Corals, tropical fish, and sunlit salt water"
+        },
+        {
+          "left": "Mountain river",
+          "right": "Trout, otters, and a steady flow of cold fresh water"
+        },
+        {
+          "left": "Hot desert",
+          "right": "Cacti, lizards, and very little water"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:49:22.571Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:23:17.833Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "fa572b6ab174d199876390a8be7173d382aa44b15400a54987fddee4fe44b02a",
+      "validation": "manual-review"
+    }
+  }
+}

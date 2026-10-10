@@ -1,0 +1,228 @@
+{
+  "id": "g1-lengua-mayusculas-y-signos-de-puntuacion",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "mayusculas-y-signos-de-puntuacion",
+  "temaNombre": "Capital letters and punctuation",
+  "title": "Writing with capital letters and full stops",
+  "summary": "Learn to use capital letters and full stops in Spanish sentences.",
+  "keyIdeas": [
+    "Sentences begin with a capital letter.",
+    "Names such as Lucía, Chispa and Madrid begin with a capital letter.",
+    "The statements in these exercises end with a full stop."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.2",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-01",
+      "type": "true-false",
+      "prompt": "The first letter of a sentence is always a capital letter.",
+      "explanation": "All sentences begin with a capital letter.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-02",
+      "type": "choice",
+      "prompt": "Which mark ends the Spanish sentence «Hugo juega en el patio»?",
+      "explanation": "This sentence makes a statement and ends with a full stop.",
+      "hint": "It is a small dot at the end of the sentence.",
+      "lang": "en",
+      "options": [
+        "A full stop",
+        "A comma",
+        "A letter"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-03",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by their first letter.",
+      "explanation": "People's names, such as Martina and Hugo, begin with a capital letter.",
+      "lang": "en",
+      "categories": [
+        "Begins with a capital letter",
+        "Begins with a lower-case letter"
+      ],
+      "items": [
+        {
+          "text": "Martina",
+          "category": 0
+        },
+        {
+          "text": "pelota",
+          "category": 1
+        },
+        {
+          "text": "Hugo",
+          "category": 0
+        },
+        {
+          "text": "gato",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-04",
+      "type": "match",
+      "prompt": "Match each name to the reason it begins with a capital letter.",
+      "explanation": "The names of people, pets and cities begin with a capital letter.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Aisha",
+          "right": "A person's name"
+        },
+        {
+          "left": "Tobi",
+          "right": "A pet's name"
+        },
+        {
+          "left": "Madrid",
+          "right": "A city's name"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-05",
+      "type": "choice",
+      "prompt": "Find the Spanish sentence with a mistake.",
+      "explanation": "The sentence «la casa es grande.» starts with a lower-case l. It needs a capital L.",
+      "hint": "Look carefully at the first letter of each sentence.",
+      "lang": "en",
+      "options": [
+        "la casa es grande.",
+        "El perro corre rápido.",
+        "Lucía come una manzana."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-06",
+      "type": "order",
+      "prompt": "Put the Spanish words in order: who sleeps, then the action, then where.",
+      "explanation": "The sentence begins with a capital letter in «El» and ends with the word with a full stop: «aquí.».",
+      "lang": "en",
+      "items": [
+        "El",
+        "gato",
+        "duerme",
+        "aquí."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-07",
+      "type": "choice",
+      "prompt": "Wei wants to write a message in Spanish to his grandmother. Which sentence is written correctly?",
+      "explanation": "The sentence starts with a capital letter in «Te» and ends with a full stop.",
+      "hint": "Find the sentence that begins with a capital letter and ends with a full stop.",
+      "lang": "en",
+      "options": [
+        "te Quiero mucho Abuela.",
+        "Te quiero mucho, abuela.",
+        "te quiero mucho abuela"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-08",
+      "type": "fill-blank",
+      "prompt": "Choose the missing mark at the end of Nerea's Spanish note.",
+      "explanation": "This complete statement needs a full stop at the end.",
+      "hint": "It is the punctuation mark that ends this sentence.",
+      "lang": "en",
+      "sentence": "Hoy comemos arroz en el comedor___",
+      "options": [
+        ",",
+        ".",
+        "a"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-09",
+      "type": "reading",
+      "prompt": "Read the Spanish text carefully and answer the questions.",
+      "explanation": "Chispa is a name. All the sentences in this text end with a full stop.",
+      "lang": "en",
+      "title": "La tortuga de Adrián",
+      "text": "Adrián tiene una tortuga pequeña. Se llama Chispa. Chispa come hojas de lechuga verde en el jardín. Los dos juegan juntos por la tarde.",
+      "questions": [
+        {
+          "prompt": "Why does «Chispa» begin with a capital letter?",
+          "explanation": "Chispa is the name of Adrián's pet, so it begins with a capital letter.",
+          "options": [
+            "Because it is a tasty food.",
+            "Because it is a very long word.",
+            "Because it is the turtle's name."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which mark is at the end of each sentence in the text?",
+          "explanation": "Each of the four sentences ends with a full stop.",
+          "options": [
+            "A dash.",
+            "A comma.",
+            "A full stop."
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:33:06.808Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:13:30.548Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "6d4c1154f08d7ecea1ccf184a95ef557c1a95db386f9b30e77411faacfdb8fed",
+      "validation": "manual-review"
+    }
+  }
+}

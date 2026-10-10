@@ -135,8 +135,8 @@
     {
       "id": "g1-sociales-oficios-y-profesiones-06",
       "type": "choice",
-      "prompt": "Hugo ve humo salir de una papelera del parque. ¿A quién debe avisar?",
-      "explanation": "Los bomberos se encargan de apagar el fuego y protegernos en situaciones de peligro.",
+      "prompt": "Hugo ve humo en una papelera. Se aleja y avisa a una persona adulta. ¿Qué servicio puede apagar el fuego?",
+      "explanation": "Los bomberos apagan incendios. Si vemos fuego o humo, nos alejamos y avisamos a una persona adulta.",
       "hint": "Tienen camiones rojos con mangueras de agua.",
       "lang": "es",
       "options": [
@@ -175,10 +175,10 @@
     {
       "id": "g1-sociales-oficios-y-profesiones-09",
       "type": "true-false",
-      "prompt": "El trabajo de barrendero o barrendera no es necesario para el barrio.",
-      "explanation": "Todos los trabajos son muy necesarios. Mantener las calles limpias cuida nuestra salud y bienestar.",
+      "prompt": "El trabajo de barrendero o barrendera ayuda a cuidar el barrio.",
+      "explanation": "Mantener las calles limpias es un trabajo importante para la comunidad.",
       "lang": "es",
-      "answer": false
+      "answer": true
     },
     {
       "id": "g1-sociales-oficios-y-profesiones-10",

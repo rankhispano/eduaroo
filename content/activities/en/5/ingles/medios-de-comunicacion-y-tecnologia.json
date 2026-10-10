@@ -1,0 +1,260 @@
+{
+  "id": "g5-ingles-medios-de-comunicacion-y-tecnologia",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "medios-de-comunicacion-y-tecnologia",
+  "temaNombre": "Media and Technology",
+  "title": "Media and Technology in Action",
+  "summary": "Practise English words for media, digital devices and responsible technology use.",
+  "keyIdeas": [
+    "Technology verbs include 'download', 'upload', 'turn on' and 'turn off'.",
+    "Media can be printed, such as paper books and newspapers, or digital, such as podcasts and websites.",
+    "Netiquette helps us communicate respectfully online, while internet safety habits help protect us."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "3.1"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-01",
+      "type": "match",
+      "prompt": "Match each device with its function.",
+      "explanation": "Headphones play sound, keyboards enter text, webcams capture video and screens display text and images.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Headphones",
+          "right": "Listen to audio privately"
+        },
+        {
+          "left": "Keyboard",
+          "right": "Type letters and numbers"
+        },
+        {
+          "left": "Webcam",
+          "right": "Record video or make video calls"
+        },
+        {
+          "left": "Screen",
+          "right": "Display text and images"
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-02",
+      "type": "choice",
+      "prompt": "Omar wants to save a picture from the school website to his computer. What action does he take?",
+      "explanation": "'Download' means to transfer a file from the internet to your device. 'Delete' removes something, and 'turn off' switches a device off.",
+      "hint": "Choose the verb for bringing a file from the internet to your device.",
+      "lang": "en",
+      "options": [
+        "Download",
+        "Delete",
+        "Turn off"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-03",
+      "type": "true-false",
+      "prompt": "It is safe and responsible to share your private passwords with strangers on the internet.",
+      "explanation": "False. Keep passwords private and do not share them with strangers.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the most suitable media verb.",
+      "explanation": "Use 'watch' with videos and 'listen to' with audio. 'Print' means make a paper copy.",
+      "hint": "Videos show moving images and can include sound.",
+      "lang": "en",
+      "sentence": "Aisha likes to ___ educational videos about science on her tablet.",
+      "options": [
+        "watch",
+        "listen",
+        "print"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-05",
+      "type": "classify",
+      "prompt": "Sort these items into Digital Media or Print Media.",
+      "explanation": "Digital media is accessed through electronic devices, sometimes using the internet. Print media is on paper.",
+      "lang": "en",
+      "categories": [
+        "Digital Media",
+        "Print Media"
+      ],
+      "items": [
+        {
+          "text": "Podcast episode",
+          "category": 0
+        },
+        {
+          "text": "Paper newspaper",
+          "category": 1
+        },
+        {
+          "text": "Online blog",
+          "category": 0
+        },
+        {
+          "text": "Printed magazine",
+          "category": 1
+        },
+        {
+          "text": "Video streaming site",
+          "category": 0
+        },
+        {
+          "text": "Paper comic book",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-06",
+      "type": "choice",
+      "prompt": "Lucía and Wei want to listen to an audio programme in which scientists discuss space. Which media format are they looking for?",
+      "explanation": "An audio podcast is a digital programme you can listen to on many different topics.",
+      "hint": "Audio podcasts are listened to; video podcasts also exist.",
+      "lang": "en",
+      "options": [
+        "A text message",
+        "A printed poster",
+        "A podcast"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-07",
+      "type": "order",
+      "prompt": "Follow this email-writing guide: recipient, subject, message, review and send.",
+      "explanation": "This guide suggests a work order, including checking before sending. You could also draft the message first.",
+      "lang": "en",
+      "items": [
+        "Write the recipient’s email address.",
+        "Type a clear subject line.",
+        "Write a polite greeting and your message.",
+        "Check the recipient and the message.",
+        "Click the send button."
+      ]
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-08",
+      "type": "fill-blank",
+      "prompt": "Complete the advice about a healthy technology habit.",
+      "explanation": "'Turn off' means switch off. Taking a break from screens before bedtime can help you settle down for sleep.",
+      "hint": "Choose the opposite of 'turn on'.",
+      "lang": "en",
+      "sentence": "Before going to sleep, it is a healthy habit to ___ your mobile phone so you can rest well.",
+      "options": [
+        "upload",
+        "search",
+        "turn off"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-09",
+      "type": "reading",
+      "prompt": "Read this invented school article and answer the questions.",
+      "explanation": "Identify details, infer intentions and think about the technology habits described in the fictional article.",
+      "lang": "en",
+      "title": "The Tech Gazette: Finding Balance",
+      "text": "At Oak Tree Primary School, students run an online newspaper called 'The Tech Gazette'. Every month, young reporters write articles about technology and everyday life. Adrián, a fifth-grader, writes the technology column. Recently, he investigated screen time among his classmates.\n\nHe found that many students spent more than three hours each afternoon playing video games and watching videos on their tablets. Adrián interviewed the school nurse, who explained that long periods on screens can contribute to tired eyes and make it harder to settle down for sleep. In response, Adrián started the 'Digital Balance Challenge'. He proposed turning off all electronic devices one hour before bed and reading a book instead.\n\nThe challenge was a huge success. After two weeks, teachers reported that students were more focused in class, and many children said they felt rested and energetic. Adrián showed that technology is fantastic, but our brains also need regular digital breaks.",
+      "questions": [
+        {
+          "prompt": "Who writes the technology column in 'The Tech Gazette'?",
+          "explanation": "The text names Adrián as the fifth-grader who writes the column.",
+          "options": [
+            "Adrián",
+            "The school nurse",
+            "The headteacher"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why did Adrián propose turning off screens one hour before bedtime?",
+          "explanation": "In the article, the nurse explains that long screen sessions can make it harder to settle for sleep, so Adrián proposes a break before bed.",
+          "options": [
+            "To help students avoid sleep problems and rest better",
+            "Because tablets do not work at night",
+            "To save electricity for the school"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What is the main message of Adrián's 'Digital Balance Challenge'?",
+          "explanation": "The article values technology while also encouraging regular breaks for well-being.",
+          "options": [
+            "Technology is helpful, but we need breaks for our well-being",
+            "Children should never use tablets or computers again",
+            "Playing online video games is the only way to learn"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-10",
+      "type": "choice",
+      "prompt": "Martina sees an online message saying tomorrow's classes are cancelled because of heavy snow, but it is warm and sunny outside. What should she do first?",
+      "explanation": "Check doubtful information with official sources or a trusted adult before believing or sharing it.",
+      "hint": "Verify the source before sharing an online claim.",
+      "lang": "en",
+      "options": [
+        "Check the official school website or ask an adult at home",
+        "Immediately share the message with all her classmates",
+        "Turn off the computer and decide not to go to school"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:09:36.541Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:59:41.813Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "1a2006c89c1b369e8d314da386d50bc7a425bf727b0bdccf557ed3770c39e875",
+      "validation": "manual-review"
+    }
+  }
+}

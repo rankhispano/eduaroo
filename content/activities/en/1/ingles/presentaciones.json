@@ -1,0 +1,238 @@
+{
+  "id": "g1-ingles-presentaciones",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "presentaciones",
+  "temaNombre": "Introductions",
+  "title": "Introducing ourselves in English",
+  "summary": "Learn to introduce yourself, say your name and meet new friends in English.",
+  "keyIdeas": [
+    "To say your name, use 'My name is ...' or 'I am ...'.",
+    "To ask someone's name, say 'What is your name?'.",
+    "When meeting someone, say 'Nice to meet you!' politely."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "3.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-presentaciones-01",
+      "type": "choice",
+      "prompt": "Which question asks someone's name?",
+      "explanation": "We use 'What is your name?' to ask a classmate's name.",
+      "hint": "Look for the word name.",
+      "lang": "en",
+      "options": [
+        "How old are you?",
+        "What is your name?",
+        "Where is your pencil?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-presentaciones-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence to introduce yourself.",
+      "explanation": "We say 'My name is ...' to give our name.",
+      "hint": "This word means nombre in Spanish.",
+      "lang": "en",
+      "sentence": "Hello! My ___ is Aisha.",
+      "options": [
+        "name",
+        "cat",
+        "chair"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-presentaciones-03",
+      "type": "true-false",
+      "prompt": "In English, 'My name is Hugo' is a way of saying your name.",
+      "explanation": "My name is Hugo means 'Mi nombre es Hugo' in Spanish. It is a common way to introduce yourself.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-ingles-presentaciones-04",
+      "type": "match",
+      "prompt": "Match each English phrase to its Spanish meaning.",
+      "explanation": "These phrases ask a name, say your own name, greet someone politely or introduce someone else.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "What is your name?",
+          "right": "¿Cómo te llamas?"
+        },
+        {
+          "left": "My name is Leo.",
+          "right": "Mi nombre es Leo."
+        },
+        {
+          "left": "Nice to meet you!",
+          "right": "¡Encantado de conocerte!"
+        },
+        {
+          "left": "This is Emma.",
+          "right": "Esta es Emma."
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-presentaciones-05",
+      "type": "fill-blank",
+      "prompt": "Lucía introduces herself in class. Choose the correct word.",
+      "explanation": "The present form of be with I is am: 'I am Lucía'.",
+      "hint": "With I, use am in this sentence.",
+      "lang": "en",
+      "sentence": "I ___ Lucía. Nice to meet you!",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-presentaciones-06",
+      "type": "choice",
+      "prompt": "Omar meets a new friend in the playground. Which polite phrase can he say?",
+      "explanation": "We say 'Nice to meet you!' when meeting someone for the first time.",
+      "hint": "Choose a friendly introduction.",
+      "lang": "en",
+      "options": [
+        "Open your bag!",
+        "Close the door!",
+        "Nice to meet you!"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-presentaciones-07",
+      "type": "order",
+      "prompt": "Put the words in order to introduce yourself.",
+      "explanation": "The correct sentence is 'Hello, my name is David.'.",
+      "lang": "en",
+      "items": [
+        "Hello,",
+        "my",
+        "name",
+        "is",
+        "David."
+      ]
+    },
+    {
+      "id": "g1-ingles-presentaciones-08",
+      "type": "classify",
+      "prompt": "Sort the phrases by what they do.",
+      "explanation": "What is your name? asks a name. My name is ... and I am ... can give your name.",
+      "lang": "en",
+      "categories": [
+        "Ask for a name",
+        "Say a name"
+      ],
+      "items": [
+        {
+          "text": "What is your name?",
+          "category": 0
+        },
+        {
+          "text": "My name is Sara.",
+          "category": 1
+        },
+        {
+          "text": "What's your name?",
+          "category": 0
+        },
+        {
+          "text": "I am Wei.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-presentaciones-09",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions.",
+      "explanation": "Kenzo says his name and introduces his friend Martina.",
+      "lang": "en",
+      "title": "A new classmate",
+      "text": "Hello! My name is Kenzo. I am six years old. This is my friend Martina. We are happy in our new school.",
+      "questions": [
+        {
+          "prompt": "What is the boy's name?",
+          "explanation": "He says 'My name is Kenzo'.",
+          "options": [
+            "Martina",
+            "David",
+            "Kenzo"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Who is Martina?",
+          "explanation": "Kenzo says 'This is my friend Martina'.",
+          "options": [
+            "His friend",
+            "His teacher",
+            "His pet dog"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-presentaciones-10",
+      "type": "order",
+      "prompt": "Put this short conversation in order.",
+      "explanation": "First ask the name, then hear the answer, and finally greet Aisha politely.",
+      "lang": "en",
+      "items": [
+        "Hello! What is your name?",
+        "Hi! My name is Aisha.",
+        "Nice to meet you, Aisha!"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:52:24.768Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:03:57.194Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "d7d6df8898f0ebc522f1956ef61fa1ad123d803cdffea9b8994719d29746aae6",
+      "validation": "manual-review"
+    }
+  }
+}

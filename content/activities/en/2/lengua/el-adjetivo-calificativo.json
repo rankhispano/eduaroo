@@ -1,0 +1,251 @@
+{
+  "id": "g2-lengua-el-adjetivo-calificativo",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "el-adjetivo-calificativo",
+  "temaNombre": "Descriptive adjectives",
+  "title": "Discovering descriptive adjectives",
+  "summary": "Learn to recognise Spanish adjectives and use them to describe things.",
+  "keyIdeas": [
+    "Descriptive adjectives tell us what people, animals and things are like, or how they are.",
+    "In Spanish, an adjective agrees in gender and number with the noun it describes.",
+    "To find an adjective, ask what something is like or how it is."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-01",
+      "type": "choice",
+      "prompt": "Which Spanish word describes the lemon? 🍋\n«El limón es muy ácido».",
+      "explanation": "«ácido» is an adjective because it tells us what the lemon is like.",
+      "hint": "Ask yourself what the lemon is like.",
+      "lang": "en",
+      "options": [
+        "muy",
+        "ácido",
+        "limón"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-02",
+      "type": "true-false",
+      "prompt": "In the Spanish sentence «El perro peludo duerme», «peludo» is an adjective.",
+      "explanation": "True. «peludo» describes a quality of the dog.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-03",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish word to complete the sentence.",
+      "explanation": "«manzanas» is feminine and plural, so the adjective must be «rojas».",
+      "hint": "Check whether «manzanas» is plural.",
+      "lang": "en",
+      "sentence": "Aisha come unas manzanas ___ en el recreo.",
+      "options": [
+        "rojas",
+        "rojo",
+        "roja"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-04",
+      "type": "match",
+      "prompt": "Match each Spanish phrase to the same noun with the opposite adjective.",
+      "explanation": "Some adjectives have opposites that describe a different quality.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "sopa caliente",
+          "right": "sopa fría"
+        },
+        {
+          "left": "camino largo",
+          "right": "camino corto"
+        },
+        {
+          "left": "caja pesada",
+          "right": "caja ligera"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-05",
+      "type": "classify",
+      "prompt": "Sort these Spanish words into nouns or adjectives.",
+      "explanation": "These nouns name objects or animals. These adjectives describe what they are like.",
+      "lang": "en",
+      "categories": [
+        "Nouns (name things)",
+        "Adjectives (describe things)"
+      ],
+      "items": [
+        {
+          "text": "mochila",
+          "category": 0
+        },
+        {
+          "text": "brillante",
+          "category": 1
+        },
+        {
+          "text": "pelota",
+          "category": 0
+        },
+        {
+          "text": "simpático",
+          "category": 1
+        },
+        {
+          "text": "rápido",
+          "category": 1
+        },
+        {
+          "text": "gato",
+          "category": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-06",
+      "type": "reading",
+      "prompt": "Read the Spanish text carefully and answer the questions.",
+      "explanation": "«pequeña», «juguetona», «suave», «gris» and «cómoda» are adjectives in the text.",
+      "lang": "en",
+      "title": "La gatita de Omar",
+      "text": "Omar tiene una gatita pequeña y juguetona. Su pelo es suave y gris. Siempre duerme en una cesta cómoda cerca de la ventana.",
+      "questions": [
+        {
+          "prompt": "Which Spanish adjectives describe the kitten?",
+          "explanation": "The text says the kitten is «pequeña» and «juguetona».",
+          "options": [
+            "Omar y cesta",
+            "Pequeña y juguetona",
+            "Duerme y ventana"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which Spanish word describes the basket where the kitten sleeps?",
+          "explanation": "The text says the kitten sleeps in a «cómoda» basket.",
+          "options": [
+            "Pequeña",
+            "Gris",
+            "Cómoda"
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-07",
+      "type": "choice",
+      "prompt": "Find the mistake. Which Spanish sentence is written incorrectly?",
+      "explanation": "The adjective must be plural to agree with «zapatos». The correct phrase is «zapatos nuevos».",
+      "hint": "Check whether the adjective ends in the letter s.",
+      "lang": "en",
+      "options": [
+        "Hugo lleva unos zapatos nuevos.",
+        "Hugo lleva unos zapatos nuevo.",
+        "Hugo lleva un zapato nuevo."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-08",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish adjective that fits this park scene.",
+      "explanation": "«verde» agrees with «hierba» and makes sense for the garden's grass.",
+      "lang": "en",
+      "sentence": "Lucía corre muy veloz sobre la hierba ___ del jardín.",
+      "options": [
+        "azules",
+        "altos",
+        "verde"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-09",
+      "type": "choice",
+      "prompt": "Martina wants to describe her favourite pencil case. Which Spanish sentence uses two adjectives?",
+      "explanation": "«azul» and «espacioso» are two adjectives describing Martina's pencil case.",
+      "hint": "Find the sentence that describes two qualities.",
+      "lang": "en",
+      "options": [
+        "Mi estuche está sobre la mesa.",
+        "Mi estuche tiene lápices y goma.",
+        "Mi estuche es azul y espacioso."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-adjetivo-calificativo-10",
+      "type": "order",
+      "prompt": "Put the Spanish sentence in order: first the animals and their adjective, then what they do and how.",
+      "explanation": "The article comes first, then the noun and its adjective, then the verb and adverb.",
+      "lang": "en",
+      "items": [
+        "Los",
+        "pájaros",
+        "cantores",
+        "vuelan",
+        "alto."
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:15:48.756Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:25:38.605Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "fcd868077fb055a06c90763e9c401dbaad09bd2278133218cfe87e450825c65d",
+      "validation": "manual-review"
+    }
+  }
+}

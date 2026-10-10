@@ -1,0 +1,216 @@
+{
+  "id": "g2-mates-suma-con-llevadas",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "suma-con-llevadas",
+  "temaNombre": "Addition with regrouping",
+  "title": "Adding with regrouping",
+  "summary": "Practise addition with regrouping in fun challenges and everyday problems.",
+  "keyIdeas": [
+    "10 ones make 1 ten.",
+    "If the ones add up to 10 or more, regroup 10 ones as 1 ten.",
+    "Remember to add the extra ten in the tens column."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.1",
+      "2.2",
+      "6.2"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-suma-con-llevadas-01",
+      "type": "choice",
+      "prompt": "If the ones add up to 14, what should you do?",
+      "explanation": "14 has 4 ones and 1 ten. Write 4 in the ones column and carry 1 to the tens column.",
+      "hint": "Think about which digit shows the ones.",
+      "lang": "en",
+      "options": [
+        "Write 4 and carry 1 to the tens column.",
+        "Write all of 14 under the ones column.",
+        "Write 1 and carry 4."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-02",
+      "type": "order",
+      "prompt": "Put the steps of this addition with regrouping in order.",
+      "explanation": "First add the ones. If the total is more than 9, carry the ten to its column, then add all the tens.",
+      "lang": "en",
+      "items": [
+        "Add the ones.",
+        "Carry the extra ten to the tens column.",
+        "Add all the tens."
+      ]
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-03",
+      "type": "true-false",
+      "prompt": "In 48 + 25, do we carry one ten when we add the ones?",
+      "explanation": "True. 8 + 5 = 13. Because 13 is greater than 9, carry 1 ten.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-04",
+      "type": "match",
+      "prompt": "Match each addition to the sum of its ones.",
+      "explanation": "Adding the ones tells us which digit to write and what to carry.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "27 + 15",
+          "right": "7 + 5 = 12 (write 2 and carry 1)"
+        },
+        {
+          "left": "38 + 26",
+          "right": "8 + 6 = 14 (write 4 and carry 1)"
+        },
+        {
+          "left": "49 + 14",
+          "right": "9 + 4 = 13 (write 3 and carry 1)"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-05",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct digit.",
+      "explanation": "8 + 5 = 13. Write 3 in the ones column and carry 1 to the tens column.",
+      "hint": "How many tens are in 13?",
+      "lang": "en",
+      "sentence": "When adding 38 + 15, write 3 in the ones column and carry ___ to the tens column.",
+      "options": [
+        "1",
+        "2",
+        "5"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-06",
+      "type": "choice",
+      "prompt": "Mateo adds 36 + 27 and writes 53. What mistake does he make?",
+      "explanation": "6 + 7 = 13, so carry 1. Then 3 + 2 + 1 = 6 tens. The answer is 63, rather than 53.",
+      "hint": "Check whether Mateo adds the carried ten.",
+      "lang": "en",
+      "options": [
+        "He forgets to add the carried ten.",
+        "He adds the ones incorrectly.",
+        "He subtracts instead of adding."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-07",
+      "type": "choice",
+      "prompt": "Aisha has 28 stickers and Omar gives her 17 more. How many does she have now?",
+      "explanation": "28 + 17 = 45. Add 8 + 7 = 15, write 5, then add 1 + 2 + 1 = 4 tens.",
+      "hint": "Add 8 + 7 first and remember the carried ten.",
+      "lang": "en",
+      "options": [
+        "41 stickers",
+        "35 stickers",
+        "45 stickers"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-08",
+      "type": "classify",
+      "prompt": "Sort these additions by whether they need carrying.",
+      "explanation": "In these additions, carry a ten if the ones total is 10 or more. If it is less than 10, there is no carry.",
+      "lang": "en",
+      "categories": [
+        "Needs carrying",
+        "No carrying"
+      ],
+      "items": [
+        {
+          "text": "37 + 25",
+          "category": 0
+        },
+        {
+          "text": "41 + 23",
+          "category": 1
+        },
+        {
+          "text": "56 + 18",
+          "category": 0
+        },
+        {
+          "text": "62 + 15",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-09",
+      "type": "choice",
+      "prompt": "Martina estimates 39 + 22 mentally. Which number is the sum closest to?",
+      "explanation": "39 is close to 40 and 22 is close to 20. 40 + 20 = 60. The exact answer is 61.",
+      "hint": "Round 39 to 40 and 22 to 20.",
+      "lang": "en",
+      "options": [
+        "50",
+        "60",
+        "40"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-suma-con-llevadas-10",
+      "type": "choice",
+      "prompt": "The garden has 46 lettuces and 28 more are planted. How many are there altogether?",
+      "explanation": "46 + 28 = 74. Add 6 + 8 = 14 and carry 1. Then add 1 + 4 + 2 = 7 tens.",
+      "hint": "Add the ones: 6 + 8 = 14.",
+      "lang": "en",
+      "options": [
+        "72 lettuces",
+        "64 lettuces",
+        "74 lettuces"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:00:22.720Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:32:22.935Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "471336c9e5445f6a6e9a280ac3cc93d5bd110bff85bf4a549a058d15b687cf63",
+      "validation": "manual-review"
+    }
+  }
+}

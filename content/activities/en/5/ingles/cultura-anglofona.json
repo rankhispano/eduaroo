@@ -1,0 +1,203 @@
+{
+  "id": "g5-ingles-cultura-anglofona",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "cultura-anglofona",
+  "temaNombre": "English-Speaking Cultures",
+  "title": "Exploring the English-Speaking World",
+  "summary": "Explore traditions, customs, landmarks and ways of life in different English-speaking countries.",
+  "keyIdeas": [
+    "English is spoken in diverse countries, including the UK, USA, Ireland, Canada and Australia.",
+    "Countries can share or adapt celebrations. Thanksgiving is celebrated on different dates in the USA and Canada.",
+    "Learning about cultures and polite behaviour helps us treat others with respect and empathy."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE6"
+    ],
+    "criteria": [
+      "6.2",
+      "6.3"
+    ],
+    "descriptors": [
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL5",
+      "CP3",
+      "CPSAA1",
+      "CPSAA3"
+    ],
+    "basicKnowledge": [
+      "C. Interculturalidad",
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-cultura-anglofona-01",
+      "type": "true-false",
+      "prompt": "In many primary schools across the United Kingdom, children wear a school uniform every school day.",
+      "explanation": "True. Many British schools use uniforms, but rules vary between schools.",
+      "hint": "Think about descriptions of British schools in stories or films.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-02",
+      "type": "choice",
+      "prompt": "Many families in the United States gather on the fourth Thursday of November for a special meal and to give thanks. What is the celebration called?",
+      "explanation": "Thanksgiving is celebrated in the USA in November. A traditional meal can include turkey and pumpkin pie.",
+      "hint": "The name includes the idea of giving thanks.",
+      "lang": "en",
+      "options": [
+        "Thanksgiving",
+        "Halloween",
+        "Independence Day"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-03",
+      "type": "classify",
+      "prompt": "Sort these celebrations by the country they are associated with in this activity.",
+      "explanation": "November's Thanksgiving is associated with the USA; Canada's is in October. Bonfire Night and Scotland's St Andrew's Day are associated here with the UK.",
+      "hint": "Bonfire Night remembers the Gunpowder Plot in London in 1605.",
+      "lang": "en",
+      "categories": [
+        "United Kingdom",
+        "United States"
+      ],
+      "items": [
+        {
+          "text": "Bonfire Night (Guy Fawkes)",
+          "category": 0
+        },
+        {
+          "text": "4th of July (Independence Day)",
+          "category": 1
+        },
+        {
+          "text": "St Andrew's Day (Scotland)",
+          "category": 0
+        },
+        {
+          "text": "Thanksgiving on the fourth Thursday of November",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about a popular British drink.",
+      "explanation": "Many people in the UK enjoy tea, sometimes with milk and biscuits. Customs and preferences vary.",
+      "hint": "Choose the drink made by infusing tea leaves.",
+      "lang": "en",
+      "sentence": "In the United Kingdom, many people enjoy having hot ___ with milk in the afternoon.",
+      "options": [
+        "soup",
+        "juice",
+        "tea"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-05",
+      "type": "choice",
+      "prompt": "Aisha's pen pal Liam lives in Sydney, Australia. He writes, 'On Christmas Day, my family goes to the beach and has a barbecue!'. Why is December a summer month in Sydney?",
+      "explanation": "Australia is in the Southern Hemisphere, so its seasons are opposite to Europe's. December is a summer month there, although weather varies.",
+      "hint": "Compare seasons in the Northern and Southern Hemispheres.",
+      "lang": "en",
+      "options": [
+        "Because Australians move Christmas celebrations to August.",
+        "Because Australia has no winter anywhere in the country.",
+        "Because Australia is in the Southern Hemisphere, where December is summer."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-06",
+      "type": "order",
+      "prompt": "A school invents these Pancake Day race rules: prepare, start running, flip three times on the track, then finish. Put the rules in order.",
+      "explanation": "This is an invented school race. Some communities hold pancake races, but their rules can differ.",
+      "hint": "Prepare with the pan first and cross the finish line last.",
+      "lang": "en",
+      "items": [
+        "Put on an apron and hold a frying pan with a pancake.",
+        "Run along the designated track when the whistle blows.",
+        "Toss and flip the pancake in the air at least three times.",
+        "Cross the finish line with the pancake still inside the pan."
+      ]
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-07",
+      "type": "classify",
+      "prompt": "Sort these vocabulary choices by their typical association in this comparison. Both varieties also share words.",
+      "explanation": "Here, 'autumn' and 'holiday' are associated with British English; 'fall' and 'vacation' with American English. These are tendencies, not exclusive boundaries: 'cookie' is also used in the UK.",
+      "hint": "Compare the usual pairs 'biscuit/cookie' and 'holiday/vacation'.",
+      "lang": "en",
+      "categories": [
+        "British English",
+        "American English"
+      ],
+      "items": [
+        {
+          "text": "biscuit",
+          "category": 0
+        },
+        {
+          "text": "cookie",
+          "category": 1
+        },
+        {
+          "text": "autumn",
+          "category": 0
+        },
+        {
+          "text": "fall",
+          "category": 1
+        },
+        {
+          "text": "holiday (time off work or school)",
+          "category": 0
+        },
+        {
+          "text": "vacation (time off work or school)",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-cultura-anglofona-08",
+      "type": "choice",
+      "prompt": "Lucía sees a 'Stand on the right' sign on a Tube escalator. Which action follows the sign?",
+      "explanation": "The sign tells her to stand on the right, leaving the left side clear.",
+      "hint": "Read which side the sign names.",
+      "lang": "en",
+      "options": [
+        "Stand on the right side so people in a hurry can walk on the left.",
+        "Stand in the middle with your bags to block both sides.",
+        "Sit on the moving steps while the escalator goes down."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:18:07.024Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:57:05.766Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "d048f0fa307168f0f07622cf863a5c43a7ad4c67e99d37656763960d5301dbc9",
+      "validation": "manual-review"
+    }
+  }
+}

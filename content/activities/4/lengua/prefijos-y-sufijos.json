@@ -45,8 +45,8 @@
     {
       "id": "g4-lengua-prefijos-y-sufijos-02",
       "type": "classify",
-      "prompt": "Clasifica estas palabras según lleven un prefijo o un sufijo:",
-      "explanation": "Deshacer, imposible y recolocar llevan partículas al inicio. Panadería, campanario y violinista tienen terminaciones añadidas al final.",
+      "prompt": "Clasifica estas palabras según el elemento trabajado: prefijos des-, im-, re- o sufijos -ería, -ario, -ista.",
+      "explanation": "En deshacer, imposible y recolocar nos fijamos en los prefijos des-, im- y re-. En panadería, campanario y violinista nos fijamos en los sufijos -ería, -ario e -ista. Una palabra puede contener más de un elemento añadido.",
       "lang": "es",
       "categories": [
         "Lleva prefijo",
@@ -137,10 +137,10 @@
       "id": "g4-lengua-prefijos-y-sufijos-06",
       "type": "reading",
       "prompt": "Lee el texto sobre el taller del colegio y responde:",
-      "explanation": "El texto muestra palabras derivadas: ultrarrápido tiene prefijo y científica lleva sufijo.",
+      "explanation": "«Ultrarrápido» tiene el prefijo «ultra-» y «jardinera» tiene el sufijo «-era».",
       "lang": "es",
       "title": "El invento de Mateo",
-      "text": "En el taller de ciencias, Mateo presentó su invento: un monopatín ultrarrápido con ruedas recargables. Su amiga Martina, que sueña con ser científica, lo examinó con curiosidad. Mateo explicó que el motor era completamente silencioso para no molestar a los vecinos. Toda la clase aplaudió entusiasmada al ver que el vehículo se movía con suavidad por el patio.",
+      "text": "En el taller de ciencias, Mateo presentó su invento: un monopatín ultrarrápido con ruedas recargables. Su amiga Martina, que sueña con ser jardinera, lo examinó con curiosidad. Mateo explicó que el motor era completamente silencioso para no molestar a los vecinos. Toda la clase aplaudió entusiasmada al ver que el vehículo se movía con suavidad por el patio.",
       "questions": [
         {
           "prompt": "¿Qué palabra del texto contiene un prefijo que significa «muy» o «en grado extremo»?",
@@ -153,14 +153,14 @@
           "answer": 2
         },
         {
-          "prompt": "En la palabra «científica», ¿qué función cumple el sufijo «-ífica»?",
-          "explanation": "El sufijo «-ífica» o «-ico» sirve para designar a la persona especialista en esa disciplina.",
+          "prompt": "En «jardinera», ¿qué aporta el sufijo «-era»?",
           "options": [
-            "Indica lo contrario de tener ciencia.",
-            "Indica la persona que se dedica a esa profesión.",
-            "Indica el lugar donde se trabaja."
+            "La idea de deshacer una acción.",
+            "El nombre de una persona que trabaja cuidando jardines.",
+            "El nombre de un planeta."
           ],
-          "answer": 1
+          "answer": 1,
+          "explanation": "En «jardinera», el sufijo «-era» ayuda a formar el nombre de un oficio a partir de «jardín»."
         }
       ]
     },
@@ -181,21 +181,21 @@
     {
       "id": "g4-lengua-prefijos-y-sufijos-08",
       "type": "order",
-      "prompt": "Ordena los pasos lógicos para formar una nueva palabra a partir del verbo «marcar»:",
-      "explanation": "Primero reconocemos la palabra base, luego elegimos el afijo según el significado y al final componemos la nueva palabra.",
+      "prompt": "Ordena esta guía para formar una palabra que significa volver a leer.",
+      "explanation": "El prefijo «re-» añadido a «leer» forma «releer», que significa volver a leer.",
       "lang": "es",
       "items": [
-        "Identificar la palabra base: «marcar».",
+        "Identificar la palabra base: «leer».",
         "Elegir el prefijo «re-» para indicar repetición.",
-        "Unir ambas partes para obtener la palabra «remarcar»."
+        "Unir ambas partes para obtener «releer»."
       ]
     },
     {
       "id": "g4-lengua-prefijos-y-sufijos-09",
       "type": "fill-blank",
       "prompt": "Elige la palabra que completa la oración según la norma ortográfica de los prefijos:",
-      "explanation": "Se escribe «in-» delante de consonantes que no sean b ni p. Delante de c usamos «in-», por eso es «increíble».",
-      "hint": "Recuerda que solo se escribe «m» delante de «p» y «b».",
+      "explanation": "«Increíble» se forma con «in-» y «creíble». El prefijo adopta la forma «im-» ante b o p, como en «imposible».",
+      "hint": "Piensa en la palabra «creíble» y en el prefijo que la niega.",
       "lang": "es",
       "sentence": "La noticia era tan extraña que a todos les pareció algo completamente ___.",
       "options": [

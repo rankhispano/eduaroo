@@ -4,12 +4,12 @@
   "asignaturaId": "lengua",
   "temaId": "complemento-directo-e-indirecto",
   "temaNombre": "Complemento directo e indirecto",
-  "title": "Misión: Complemento directo e indirecto",
-  "summary": "Aprenderás a identificar y diferenciar el complemento directo (CD) y el complemento indirecto (CI) en las oraciones.",
+  "title": "Complementos: ampliación guiada",
+  "summary": "Con ejemplos y ayuda, distingue lo que se entrega de la persona que lo recibe.",
   "keyIdeas": [
-    "El complemento directo (CD) nombra el objeto o ser sobre el que recae la acción y se sustituye por lo, la, los o las.",
-    "El complemento indirecto (CI) indica el destinatario o beneficiario de la acción y se sustituye por le o les.",
-    "Al sustituir a la vez el CD y el CI por pronombres, el pronombre le o les se transforma en se."
+    "Ampliación: «Hugo entregó el libro a Aisha». «El libro» es CD: «Hugo lo entregó».",
+    "«A Aisha» es CI: «Hugo le entregó el libro». En estos ejemplos, el CI indica quién recibe algo.",
+    "Si sustituimos ambos: «Hugo se lo entregó». Usamos modelos y contexto para comprobarlo."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -58,8 +58,8 @@
     {
       "id": "g5-lengua-complemento-directo-e-indirecto-02",
       "type": "true-false",
-      "prompt": "Para comprobar si un grupo de palabras funciona como complemento directo (CD), podemos sustituirlo por los pronombres «le» o «les».",
-      "explanation": "Es falso. El complemento directo se sustituye por «lo», «la», «los» o «las». Los pronombres «le» y «les» sirven para sustituir al complemento indirecto.",
+      "prompt": "En «Hugo preparó una tarta», el complemento directo «una tarta» se sustituye por «le».",
+      "explanation": "Se sustituye por «la»: «Hugo la preparó». «Le» se usa para el complemento indirecto; también hay usos aceptados de «le» para un CD masculino de persona, que no es este caso.",
       "lang": "es",
       "answer": false
     },
@@ -225,7 +225,7 @@
       "id": "g5-lengua-complemento-directo-e-indirecto-10",
       "type": "choice",
       "prompt": "Queremos sustituir a la vez el CD y el CI en esta frase: «Nerea entregó el trabajo al maestro». ¿Cuál es la transformación correcta?",
-      "explanation": "Al coincidir los dos pronombres («le» de CI y «lo» de CD), el pronombre «le» se transforma obligatoriamente en «se» por razones de sonoridad: «Nerea se lo entregó».",
+      "explanation": "Cuando sustituimos juntos el CI y el CD, «le» o «les» pasan a «se»: «Nerea se lo entregó».",
       "hint": "En español no se dice «le lo», sino que cambiamos la primera parte por «se».",
       "lang": "es",
       "options": [

@@ -1,0 +1,226 @@
+{
+  "id": "g5-lengua-las-clases-de-palabras",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "las-clases-de-palabras",
+  "temaNombre": "Spanish Word Classes",
+  "title": "Mission: Word Detective",
+  "summary": "Recognise Spanish word classes to improve speaking and writing.",
+  "keyIdeas": [
+    "Variable word classes include nouns, adjectives, determiners, pronouns and verbs. Their forms can change for features such as gender, number or tense.",
+    "Adverbs, prepositions and conjunctions are invariable: they do not change to agree in gender, number or tense in the uses studied here.",
+    "A word's class depends on its use: compare «mucho» in «corre mucho» and «mucho pan»."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-las-clases-de-palabras-01",
+      "type": "match",
+      "prompt": "Match each word class with its Spanish example.",
+      "explanation": "«Mochila» names an object; «brillante» describes a quality; «organizamos» is a verb; «rápidamente» describes how something happens.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Noun",
+          "right": "mochila"
+        },
+        {
+          "left": "Adjective",
+          "right": "brillante"
+        },
+        {
+          "left": "Verb",
+          "right": "organizamos"
+        },
+        {
+          "left": "Adverb",
+          "right": "rápidamente"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-02",
+      "type": "true-false",
+      "prompt": "Spanish adverbs and prepositions are invariable because they do not agree in gender or number.",
+      "explanation": "True. In these uses, «ayer», «lejos», «desde» and «hacia» do not take feminine or plural agreement forms.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-03",
+      "type": "choice",
+      "prompt": "Omar says: «Hoy he corrido mucho en el patio». What word class does «mucho» belong to here?",
+      "explanation": "Here, «mucho» modifies «he corrido» and expresses quantity, so it is an adverb.",
+      "hint": "Does «mucho» accompany a noun or modify a verb?",
+      "lang": "en",
+      "options": [
+        "A personal pronoun replacing the person who runs.",
+        "An adverb of quantity showing how much he ran and modifying a verb.",
+        "A common noun naming an action that happened today.",
+        "A descriptive adjective describing the playground."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-04",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish school-trip sentence with the suitable preposition.",
+      "explanation": "«Hacia» is a preposition showing direction. «Pero» is a conjunction and «muy» is an adverb.",
+      "lang": "en",
+      "sentence": "Caminamos juntos ___ la cima de la montaña para contemplar el valle.",
+      "options": [
+        "pero",
+        "hacia",
+        "muy"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-05",
+      "type": "reading",
+      "prompt": "Read Aisha's Spanish school magazine report and answer the questions.",
+      "explanation": "Recognising words in context helps us understand the text and its grammar.",
+      "lang": "en",
+      "title": "Un huerto lleno de vida",
+      "text": "El pasado viernes, la clase de quinto inauguró el huerto escolar detrás del gimnasio. Llevábamos semanas preparando la tierra con esmero y retirando piedras molestas. Hugo y Martina colocaron pequeños carteles de madera para identificar los tomates, las lechugas y las espinacas recién plantadas. De repente, una mariquita roja aterrizó sobre una hoja tierna. Todos guardamos un respetuoso silencio para observarla sin asustarla. El conserje, Antonio, nos explicó pacientemente que muchas mariquitas se alimentan de pulgones y pueden ayudar a proteger los cultivos. Gracias a esta experiencia, hemos comprendido que los seres vivos se relacionan entre sí y que cuidar el huerto exige constancia, compañerismo y mucha ilusión comunitaria.",
+      "questions": [
+        {
+          "prompt": "Why did the pupils stay quiet when they saw the ladybird?",
+          "explanation": "They kept a respectful silence to observe it without frightening it.",
+          "options": [
+            "Because they wanted to observe it without causing fear.",
+            "Because the caretaker suddenly ordered them to stop talking.",
+            "Because the ladybird made a dangerous sound."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "In «Antonio nos explicó pacientemente», what word class is «pacientemente»?",
+          "explanation": "«Pacientemente» is an adverb of manner ending in «-mente», describing how Antonio explained.",
+          "options": [
+            "An abstract noun.",
+            "A descriptive adjective.",
+            "An adverb of manner."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What general conclusion follows from the pupils' garden work?",
+          "explanation": "The story connects cooperation and regular care with learning about relationships between living things.",
+          "options": [
+            "Buying vegetables is better than wasting time planting.",
+            "Insects always ruin plants at school.",
+            "Growing plants teaches us to value cooperation and biodiversity."
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-06",
+      "type": "choice",
+      "prompt": "Find the ERROR in Lucía's labels for «Aquella bicicleta azul vuela velozmente».",
+      "explanation": "«Azul» is a descriptive adjective here: it describes the colour of «bicicleta». It is not a personal pronoun.",
+      "hint": "Which word class describes an object's quality?",
+      "lang": "en",
+      "options": [
+        "«azul» → Personal pronoun",
+        "«Aquella» → Demonstrative determiner",
+        "«bicicleta» → Common noun",
+        "«velozmente» → Adverb of manner"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-07",
+      "type": "match",
+      "prompt": "Match each Spanish grammar term with its role.",
+      "explanation": "Pronouns can replace nouns or noun phrases. Conjunctions link words or clauses; prepositions introduce related groups; determiners accompany nouns.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Pronoun",
+          "right": "Replaces a noun or noun phrase to avoid repeating it"
+        },
+        {
+          "left": "Conjunction",
+          "right": "Joins words or clauses, for example with y or pero"
+        },
+        {
+          "left": "Preposition",
+          "right": "Introduces a group and relates it to another element: a, con, de"
+        },
+        {
+          "left": "Determiner",
+          "right": "Accompanies a noun and helps specify it"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-las-clases-de-palabras-08",
+      "type": "choice",
+      "prompt": "Adrián writes: «Ayer jugamos bien, ___ perdimos en el último segundo». Which Spanish conjunction expresses contrast?",
+      "explanation": "«Pero» contrasts playing well with losing at the last moment.",
+      "hint": "Choose the connector that contrasts the two ideas.",
+      "lang": "en",
+      "options": [
+        "«pero», a contrast conjunction linking the two ideas.",
+        "«porque», a conjunction explaining a cause.",
+        "«y», a conjunction adding information.",
+        "«si», a conjunction introducing a condition."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T19:35:43.850Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:08:47.652Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "0bc24a222d58605d8d959ac65b3a1035b48e350eddcfa23b6f3fc7b43c62414c",
+      "validation": "manual-review"
+    }
+  }
+}

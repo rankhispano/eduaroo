@@ -1,0 +1,266 @@
+{
+  "id": "g5-lengua-recursos-literarios-basicos",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "recursos-literarios-basicos",
+  "temaNombre": "Basic Literary Devices",
+  "title": "The Magic of Literary Devices",
+  "summary": "Identify and use personification, simile, metaphor and hyperbole in Spanish texts.",
+  "keyIdeas": [
+    "Personification gives human actions or qualities to animals, objects or elements of nature.",
+    "Similes compare using links such as «como» or «parece»; metaphors identify one thing directly with another.",
+    "Hyperbole deliberately exaggerates for expressive effect."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "4.1",
+      "8.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "C. Educación literaria",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-01",
+      "type": "choice",
+      "prompt": "Hugo writes: «El viento susurraba secretos entre las ramas». Which literary device does he use?",
+      "explanation": "This is personification: the wind is given the human action of whispering secrets.",
+      "hint": "Can the wind literally tell secrets?",
+      "lang": "en",
+      "options": [
+        "Hyperbole",
+        "Simile",
+        "Personification"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-02",
+      "type": "true-false",
+      "prompt": "«El río corre veloz como una gacela» contains a simile because it uses «como» to compare two things.",
+      "explanation": "True. A simile explicitly compares things with links such as «como», «parece» or «igual que».",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-03",
+      "type": "match",
+      "prompt": "Match each literary device with its Spanish example.",
+      "explanation": "The coffee maker is personified; the simile uses «como»; the number of calls is exaggerated; teeth are metaphorically called pearls.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Personification",
+          "right": "La vieja cafetera tosía con rabia cada mañana."
+        },
+        {
+          "left": "Simile",
+          "right": "Sus manos estaban tan frías como un témpano."
+        },
+        {
+          "left": "Hyperbole",
+          "right": "Te he llamado un millón de veces por teléfono."
+        },
+        {
+          "left": "Metaphor",
+          "right": "Las perlas de su boca brillaban al reír."
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-04",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish explanation about simile and metaphor.",
+      "explanation": "Adding «como» gives «Tus cabellos son como hilos de oro», making the comparison explicit.",
+      "lang": "en",
+      "sentence": "La frase «Tus cabellos son hilos de oro» es una metáfora, pero si añadimos la palabra «___» entre medias se transformará en una comparación.",
+      "options": [
+        "muy",
+        "como",
+        "también"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-05",
+      "type": "classify",
+      "prompt": "Sort these Spanish sentences by the literary device that stands out most.",
+      "explanation": "The sun, lamps and door receive human actions. The other sentences exaggerate waiting, hunger and tears.",
+      "lang": "en",
+      "categories": [
+        "Personification",
+        "Hyperbole"
+      ],
+      "items": [
+        {
+          "text": "El sol nos saludaba alegremente desde la colina.",
+          "category": 0
+        },
+        {
+          "text": "Tardaste mil años en llegar a la parada del autobús.",
+          "category": 1
+        },
+        {
+          "text": "Las farolas del barrio vigilaban la calle silenciosa.",
+          "category": 0
+        },
+        {
+          "text": "Tengo tanta hambre que me comería una montaña entera.",
+          "category": 1
+        },
+        {
+          "text": "La puerta chirrió quejándose al abrirse despacio.",
+          "category": 0
+        },
+        {
+          "text": "Lloró ríos de lágrimas al terminar aquella película.",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-06",
+      "type": "choice",
+      "prompt": "Three pupils analyse «El cielo llora lágrimas de cristal». Who makes a mistake?",
+      "explanation": "Lucas is mistaken. «Cristal» does not act as an explicit comparison link such as «como».",
+      "hint": "Look for an explicit comparison link in the sentence.",
+      "lang": "en",
+      "options": [
+        "Martina, who says «lágrimas de cristal» is a metaphor for raindrops.",
+        "Aisha, who says the sky crying is personification.",
+        "Lucas, who says «cristal» is a comparison link making the phrase a simile."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-07",
+      "type": "reading",
+      "prompt": "Read the Spanish literary text about autumn and answer the questions.",
+      "explanation": "The text uses several literary devices to describe an autumn afternoon.",
+      "lang": "en",
+      "title": "Una tarde en el parque viejo",
+      "text": "Al llegar noviembre, el parque del barrio parecía haberse transformado en un lienzo dorado. Los viejos robles se desnudaban despacio, dejando caer sus hojas secas como confeti de fiesta. Omar y Aisha caminaban sobre una alfombra crujiente que protestaba a cada paso con murmullos apagados.\n\nDe repente, el viento del norte despertó con furia. Sopló con tanta fuerza que habría enviado cien ciudades volando hasta Marte. Era un gigante invisible que rugía y despeinaba a los transeúntes distraídos.\n\n—¡Mira las nubes, Omar! —exclamó Aisha señalando al cielo plomizo—. Son enormes ovejas negras tapando el sol.\n\nLos dos amigos se abrocharon los abrigos y corrieron hacia casa riendo, esquivando los charcos que brillaban como pequeños espejos en la acera mojada.",
+      "questions": [
+        {
+          "prompt": "What is personified as «protestaba a cada paso»?",
+          "explanation": "The crunchy carpet of fallen leaves is described as protesting with muffled murmurs.",
+          "options": [
+            "The street lamps",
+            "The bare old oak trees",
+            "The crunchy carpet of dry leaves"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What device is used when the wind could have sent «cien ciudades volando hasta Marte»?",
+          "explanation": "This impossible exaggeration of the wind's strength is hyperbole.",
+          "options": [
+            "Hyperbole",
+            "Simile",
+            "Alliteration"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "In «Son enormes ovejas negras tapando el sol», what does Aisha's metaphor refer to?",
+          "explanation": "Aisha identifies dark rain clouds with enormous black sheep covering the sun.",
+          "options": [
+            "The thick dark storm clouds",
+            "Shadows from tall buildings",
+            "The dark treetops in the park"
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-08",
+      "type": "choice",
+      "prompt": "Wei and Nerea want a garden poster using personification to encourage care. Which Spanish sentence should they choose?",
+      "explanation": "The second gives plants human feelings and smiles. This is figurative language: plants do not literally smile. The first uses a simile and the third mainly exaggerates.",
+      "hint": "Look for human feelings or actions given to plants.",
+      "lang": "en",
+      "options": [
+        "«Los árboles limpian el aire como esponjas gigantescas».",
+        "«Cuida las plantas del patio: ellas sienten tu cariño y te sonríen».",
+        "«Tenemos un millón de flores esperando tu ayuda en el huerto»."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-09",
+      "type": "order",
+      "prompt": "Put Lucía's Spanish poem lines in order from the most distant view to the nearest, keeping the repeated beginning.",
+      "explanation": "Each line starts with «Mira», an example of anaphora. The view moves from the horizon to the path to your feet.",
+      "lang": "en",
+      "items": [
+        "Mira las altas cumbres en el horizonte lejano,",
+        "Mira los viejos robles que bordean el sendero,",
+        "Mira las diminutas hormigas trabajando a tus pies."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-recursos-literarios-basicos-10",
+      "type": "choice",
+      "prompt": "Why is «La luna es una moneda de plata olvidada en el estanque» a metaphor rather than a simile?",
+      "explanation": "It directly identifies the moon with a silver coin without an explicit comparison link.",
+      "hint": "Is there a comparison link such as «como» or «parece»?",
+      "lang": "en",
+      "options": [
+        "Because it describes an action only humans can do in a pond.",
+        "Because it exaggerates the water's brightness as if it were real silver.",
+        "Because it directly identifies the moon with a silver coin without «como» or «parece»."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:44:33.364Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:10:06.055Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "63a95f2cdbcdfc815bdb1c5352f21509ce9aab0306c40e67b0dac0de4e4bab94",
+      "validation": "manual-review"
+    }
+  }
+}

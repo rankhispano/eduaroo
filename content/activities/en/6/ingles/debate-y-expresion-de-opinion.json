@@ -1,0 +1,274 @@
+{
+  "id": "g6-ingles-debate-y-expresion-de-opinion",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "debate-y-expresion-de-opinion",
+  "temaNombre": "Debating and Expressing Opinions",
+  "title": "Share Your Opinion Respectfully",
+  "summary": "Practise giving opinions and reasons in English, listening to others and disagreeing politely.",
+  "keyIdeas": [
+    "In my opinion and I believe introduce a personal view.",
+    "I see your point, but introduces a polite disagreement.",
+    "Listen carefully, take turns and give constructive reasons during a debate."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "3.1"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-01",
+      "type": "match",
+      "prompt": "Match each English expression to its purpose in a conversation.",
+      "explanation": "These expressions help us give opinions, agree, disagree politely and invite others to speak.",
+      "hint": "Think about whether each expression shares a view, agrees, disagrees or asks a question.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "In my opinion...",
+          "right": "Give a personal view."
+        },
+        {
+          "left": "I completely agree.",
+          "right": "Show full agreement."
+        },
+        {
+          "left": "I see your point, but...",
+          "right": "Disagree politely."
+        },
+        {
+          "left": "What do you think?",
+          "right": "Ask for someone else's opinion."
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-02",
+      "type": "fill-blank",
+      "prompt": "Choose the phrase that introduces an opinion about sport.",
+      "explanation": "In my opinion introduces the speaker's personal view.",
+      "hint": "Look for a phrase that introduces a view.",
+      "lang": "en",
+      "sentence": "___, doing sport every day is great for our health and mood.",
+      "options": [
+        "Yesterday afternoon",
+        "Good morning",
+        "In my opinion"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-03",
+      "type": "true-false",
+      "prompt": "In a friendly debate, shouting louder than your classmates is the best way to convince them.",
+      "explanation": "False. Give clear reasons, listen respectfully and wait for your turn. Shouting does not make an argument stronger.",
+      "hint": "Think about respectful classroom discussion rules.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-04",
+      "type": "classify",
+      "prompt": "Sort the expressions into agreement or disagreement.",
+      "explanation": "Agreement supports the other person's view. Disagreement expresses a different view, which we can do politely.",
+      "hint": "Think about the meaning of each expression.",
+      "lang": "en",
+      "categories": [
+        "Agreeing",
+        "Disagreeing"
+      ],
+      "items": [
+        {
+          "text": "I think exactly the same as you.",
+          "category": 0
+        },
+        {
+          "text": "I'm afraid I have a different opinion.",
+          "category": 1
+        },
+        {
+          "text": "You are totally right.",
+          "category": 0
+        },
+        {
+          "text": "I don't see it that way.",
+          "category": 1
+        },
+        {
+          "text": "That's a very good point.",
+          "category": 0
+        },
+        {
+          "text": "I disagree with that statement.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-05",
+      "type": "choice",
+      "prompt": "Hugo says cats are better pets because they are quiet. Aisha prefers dogs. Which reply disagrees politely?",
+      "explanation": "The correct reply recognises Hugo's point and gives another reason without insulting him.",
+      "hint": "Look for a respectful reply with a reason.",
+      "lang": "en",
+      "options": [
+        "Cats are bad and nobody should adopt them.",
+        "That's a terrible idea. You know nothing.",
+        "I see your point, but dogs are very loyal and friendly."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-06",
+      "type": "order",
+      "prompt": "Put the steps in this useful model for a debate contribution in order.",
+      "explanation": "One clear way to contribute is to state your opinion, give a reason, add an example and invite a response.",
+      "hint": "Start with your main idea and finish by inviting someone else to speak.",
+      "lang": "en",
+      "items": [
+        "State your opinion: In my opinion...",
+        "Give a reason or evidence: Because...",
+        "Provide a real example: For example...",
+        "Ask a classmate's opinion: What do you think?"
+      ]
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-07",
+      "type": "fill-blank",
+      "prompt": "Choose the connector that contrasts a benefit with a drawback.",
+      "explanation": "But introduces a contrast between the benefit of games and a problem with playing for too long.",
+      "hint": "Look for a conjunction that shows contrast.",
+      "lang": "en",
+      "sentence": "Video games can help us solve problems, ___ playing for too many hours can tire our eyes.",
+      "options": [
+        "so",
+        "because",
+        "but"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-08",
+      "type": "reading",
+      "prompt": "Read the class debate and answer the questions.",
+      "explanation": "A respectful debate lets people compare reasons, understand other views and reach agreements when possible.",
+      "lang": "en",
+      "title": "The Friday Class Debate",
+      "text": "Yesterday, Class 6B organised a debate about weekend homework. Their teacher, Mr Davis, wrote the question on the board: 'Should primary students have homework at weekends?' Lucas spoke first for the 'No Homework' team. 'In my opinion,' he argued, 'weekends are for resting, doing sports, and spending quality time with our families. If we work hard all week at school, our brains need a real break.' Many pupils nodded in agreement. Next, Martina presented the opposite view. 'I understand Lucas's point, but short tasks help us remember what we studied. For instance, reading ten pages of a book does not take much time, and it improves our vocabulary.' Finally, the class voted. Most pupils agreed that huge projects are stressful, but reading for pleasure is a great habit. Mr Davis smiled and proposed a compromise: optional weekend reading quests instead of long worksheets.",
+      "questions": [
+        {
+          "prompt": "What is Lucas's main argument?",
+          "explanation": "Lucas says weekends should allow time for rest, sport and family.",
+          "options": [
+            "Teachers do not want to mark work on Mondays.",
+            "Pupils should never study.",
+            "Weekends are for rest, sport and family time."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why does Mr Davis suggest optional weekend reading?",
+          "explanation": "He proposes a compromise between relaxing and continuing to learn.",
+          "options": [
+            "To punish the pupils who voted against homework.",
+            "To find a fair balance between relaxing and learning.",
+            "Because nobody wanted to take part in the debate."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "How does Martina make her argument respectful and persuasive?",
+          "explanation": "She recognises Lucas's point before presenting a different view with an example.",
+          "options": [
+            "She says Lucas has no good points.",
+            "She interrupts Lucas.",
+            "She recognises his point before giving a different argument and example."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-09",
+      "type": "choice",
+      "prompt": "Omar suggests free public transport for children. Which reply gives a constructive counterargument?",
+      "explanation": "The correct reply recognises the benefit for families and raises a relevant question about paying for maintenance.",
+      "hint": "Look for a respectful reason about the same topic.",
+      "lang": "en",
+      "options": [
+        "I agree it would help families, but cities also need money to repair buses and trains.",
+        "That's silly. I won't listen to you.",
+        "There are big yellow buses in other countries."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-debate-y-expresion-de-opinion-10",
+      "type": "match",
+      "prompt": "Match each connector to its role in explaining an argument.",
+      "explanation": "However shows contrast, furthermore adds support, for instance introduces an example and therefore introduces a conclusion or result.",
+      "hint": "For instance introduces an example; however introduces a contrast.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "However,",
+          "right": "Introduce a contrasting idea."
+        },
+        {
+          "left": "Furthermore,",
+          "right": "Add a supporting argument."
+        },
+        {
+          "left": "For instance,",
+          "right": "Give a concrete example."
+        },
+        {
+          "left": "Therefore,",
+          "right": "Explain a logical conclusion or result."
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T19:36:36.415Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:37:41.420Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "d0e571434ac82f157236ae1565cda0416620bdd748e89bb30cfd2a8e0e975078",
+      "validation": "manual-review"
+    }
+  }
+}

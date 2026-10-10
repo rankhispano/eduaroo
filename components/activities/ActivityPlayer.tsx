@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import confetti from 'canvas-confetti';
 import { ArrowRight, BookOpen, ChevronLeft, Clock, Lightbulb, RefreshCcw, Star, Target } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
@@ -12,6 +12,7 @@ import { useGamificationStore, type SubjectId } from '@/lib/gamification/store';
 import { usePracticeStore, type StepAnswer } from '@/lib/learning/practiceStore';
 import { playComplete, playCorrect, playIncorrect } from '@/lib/audio/soundEffects';
 import { starsFor, toSteps, type Step } from '@/lib/curriculum/steps';
+import { activitySpeechSegments } from '@/lib/curriculum/speech';
 import type { ActivitySet, LomloeCycle } from '@/lib/curriculum/types';
 import type { AsignaturaId, Recurso } from '@/src/types';
 import RooMascot from '@/components/mascot/RooMascot';
@@ -65,6 +66,7 @@ export default function ActivityPlayer({
     extras?: Recurso[];
 }) {
     const t = useTranslations('Activities');
+    const locale = useLocale();
     const completeExercise = useGamificationStore((s) => s.completeExercise);
     const recordTopicResult = usePracticeStore((s) => s.recordTopicResult);
     const recordAnswers = usePracticeStore((s) => s.recordAnswers);
@@ -142,6 +144,7 @@ export default function ActivityPlayer({
 
     const stars = starsFor(correctCount, steps.length);
     const speakText = step ? (step.type === 'fill-blank' ? `${step.prompt}. ${step.sentence}` : step.prompt) : '';
+    const speakSegments = step ? activitySpeechSegments(step) : undefined;
 
     return (
         <div className="mx-auto max-w-4xl p-4">
@@ -180,9 +183,13 @@ export default function ActivityPlayer({
                             </div>
                             {set.summary ? <p className="text-xl font-semibold text-gray-700 dark:text-gray-200">{set.summary}</p> : null}
 
+                            {locale === 'en' && !set.meta.translation ? (
+                                <p className="rounded-xl bg-sky-50 px-4 py-3 font-semibold text-sky-800 dark:bg-sky-900/30 dark:text-sky-200">{t('spanishTopic')}</p>
+                            ) : null}
+
                             {set.keyIdeas.length > 0 ? (
                                 <section className="relative rounded-2xl bg-amber-50 p-6 sm:pr-36 dark:bg-amber-900/20">
-                                    <RooMascot pose="read" size={110} className="absolute -bottom-3 right-3 hidden sm:block" />
+                                    <RooMascot pose="read" title={t('rooMascot')} size={110} className="absolute -bottom-3 right-3 hidden sm:block" />
                                     <h2 className="mb-4 flex items-center gap-2 text-xl font-black text-amber-700 dark:text-amber-300">
                                         <Lightbulb className="h-6 w-6" /> {t('keyIdeasTitle')}
                                     </h2>
@@ -215,6 +222,7 @@ export default function ActivityPlayer({
                             {criteria.length > 0 ? (
                                 <details className="rounded-xl border border-slate-200 p-4 text-sm text-slate-600 dark:border-gray-800 dark:text-gray-400">
                                     <summary className="cursor-pointer font-bold">{t('lomloeTitle')}</summary>
+                                    {locale === 'en' ? <p className="mt-3">{t('lomloeOriginal')}</p> : null}
                                     <ul className="mt-3 space-y-2">
                                         {criteria.map((c) => (
                                             <li key={c.id}>
@@ -260,15 +268,15 @@ export default function ActivityPlayer({
                                         <article className="w-full rounded-2xl bg-slate-50 p-6 dark:bg-gray-800">
                                             <div className="mb-3 flex items-center justify-between gap-3">
                                                 <h3 className="text-lg font-black text-gray-800 dark:text-gray-100">📖 {step.passage.title}</h3>
-                                                <SpeakButton text={`${step.passage.title}. ${step.passage.text}`} lang={step.lang} />
+                                                <SpeakButton text={`${step.passage.title}. ${step.passage.text}`} lang={step.passage.lang} />
                                             </div>
-                                            <p className="whitespace-pre-line text-lg leading-relaxed text-gray-700 dark:text-gray-200">{step.passage.text}</p>
+                                            <p lang={step.passage.lang} className="whitespace-pre-line text-lg leading-relaxed text-gray-700 dark:text-gray-200">{step.passage.text}</p>
                                         </article>
                                     ) : null}
 
                                     <div className="flex w-full items-start justify-center gap-3">
                                         <h2 className={`text-center font-bold text-gray-800 dark:text-gray-100 ${look.prompt}`}>{step.prompt}</h2>
-                                        <SpeakButton text={speakText} lang={step.lang} autoPlay={look.autoRead && step.type !== 'reading-question'} />
+                                        <SpeakButton text={speakText} lang={step.lang} segments={speakSegments} autoPlay={look.autoRead && step.type !== 'reading-question'} />
                                     </div>
 
                                     {renderStep(step, result !== null, handleAnswer)}
@@ -291,7 +299,7 @@ export default function ActivityPlayer({
                                     animate={{ opacity: 1, y: 0 }}
                                     className={`fixed inset-x-0 bottom-0 z-60 flex flex-col gap-4 rounded-t-3xl border-t-2 p-5 pb-[max(1.25rem,env(safe-area-inset-bottom))] shadow-[0_-10px_30px_rgba(15,23,42,0.15)] sm:static sm:z-auto sm:flex-row sm:items-center sm:rounded-2xl sm:border-2 sm:pb-5 sm:shadow-none ${result ? 'border-green-300 bg-green-50 dark:border-green-800 dark:bg-green-950' : 'border-amber-300 bg-amber-50 dark:border-amber-800 dark:bg-amber-950'}`}
                                 >
-                                    <RooMascot pose={result ? 'celebrate' : 'encourage'} size={58} className="hidden shrink-0 sm:block" />
+                                    <RooMascot pose={result ? 'celebrate' : 'encourage'} title={t('rooMascot')} size={58} className="hidden shrink-0 sm:block" />
                                     <div className="flex-1">
                                         <p className={`text-lg font-black ${result ? 'text-green-700 dark:text-green-300' : 'text-amber-700 dark:text-amber-300'}`}>
                                             {result ? t('correct') : t('incorrect')}
@@ -352,7 +360,7 @@ export default function ActivityPlayer({
 
             {/* La celebración a pantalla completa solo en pantallas grandes: en móvil taparía la explicación */}
             <div className="hidden sm:block">
-                <ExerciseFeedback show={feedback.show} isCorrect={feedback.isCorrect} onComplete={() => setFeedback((f) => ({ ...f, show: false }))} />
+                <ExerciseFeedback show={feedback.show} isCorrect={feedback.isCorrect} message={feedback.isCorrect ? t('correct') : t('incorrect')} onComplete={() => setFeedback((f) => ({ ...f, show: false }))} />
             </div>
         </div>
     );

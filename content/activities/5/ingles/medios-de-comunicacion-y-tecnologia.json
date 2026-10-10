@@ -148,7 +148,7 @@
       "type": "choice",
       "prompt": "Lucía and Wei are preparing a class presentation. They want to listen to an audio program where scientists discuss space. What media format are they looking for?",
       "explanation": "Un podcast es un programa de audio digital que puedes escuchar por internet sobre infinidad de temas interesantes.",
-      "hint": "Es un formato puramente de audio disponible en plataformas digitales.",
+      "hint": "Un podcast de audio es un programa que se escucha; también existen podcasts en vídeo.",
       "lang": "en",
       "options": [
         "A text message",
@@ -160,13 +160,14 @@
     {
       "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-07",
       "type": "order",
-      "prompt": "Put the steps of sending an email in the correct chronological order:",
-      "explanation": "Primero indicamos la dirección del destinatario, luego el asunto (subject), después redactamos el mensaje educado y por último pulsamos enviar (send).",
+      "prompt": "Follow this email-writing guide: recipient, subject, message, review and send.",
+      "explanation": "Esta guía propone un orden de trabajo y una revisión antes de enviar. También puedes redactar primero el mensaje.",
       "lang": "en",
       "items": [
-        "Write the recipient's email address.",
-        "Type a clear subject line for your email.",
+        "Write the recipient’s email address.",
+        "Type a clear subject line.",
         "Write a polite greeting and your message.",
+        "Check the recipient and the message.",
         "Click the send button."
       ]
     },
@@ -188,11 +189,11 @@
     {
       "id": "g5-ingles-medios-de-comunicacion-y-tecnologia-09",
       "type": "reading",
-      "prompt": "Read the school news article and answer the questions below:",
+      "prompt": "Read this invented school article and answer.",
       "explanation": "Leer artículos informativos nos ayuda a extraer información concreta, deducir intenciones y reflexionar sobre nuestros propios hábitos tecnológicos.",
       "lang": "en",
       "title": "The Tech Gazette: Finding Balance",
-      "text": "At Oak Tree Primary School, students run an online newspaper called 'The Tech Gazette'. Every month, young reporters write articles about technology and everyday life. Adrián, a fifth-grader, writes the technology column. Recently, he investigated screen time among his classmates.\n\nHe found that many students spent more than three hours each afternoon playing video games and watching videos on their tablets. Adrián interviewed the school nurse, who explained that excessive screen time causes tired eyes, headaches, and trouble sleeping. In response, Adrián started the 'Digital Balance Challenge'. He proposed turning off all electronic devices one hour before bed and reading a book instead.\n\nThe challenge was a huge success. After two weeks, teachers reported that students were more focused in class, and many children said they felt rested and energetic. Adrián showed that technology is fantastic, but our brains also need regular digital breaks.",
+      "text": "At Oak Tree Primary School, students run an online newspaper called 'The Tech Gazette'. Every month, young reporters write articles about technology and everyday life. Adrián, a fifth-grader, writes the technology column. Recently, he investigated screen time among his classmates.\n\nHe found that many students spent more than three hours each afternoon playing video games and watching videos on their tablets. Adrián interviewed the school nurse, who explained that long periods on screens can contribute to tired eyes and make it harder to settle down for sleep. In response, Adrián started the 'Digital Balance Challenge'. He proposed turning off all electronic devices one hour before bed and reading a book instead.\n\nThe challenge was a huge success. After two weeks, teachers reported that students were more focused in class, and many children said they felt rested and energetic. Adrián showed that technology is fantastic, but our brains also need regular digital breaks.",
       "questions": [
         {
           "prompt": "Who writes the technology column in 'The Tech Gazette'?",

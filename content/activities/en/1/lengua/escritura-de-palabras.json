@@ -1,0 +1,228 @@
+{
+  "id": "g1-lengua-escritura-de-palabras",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "escritura-de-palabras",
+  "temaNombre": "Writing Spanish words",
+  "title": "Learning to write words!",
+  "summary": "Practise joining letters and syllables to write Spanish words.",
+  "keyIdeas": [
+    "We combine letters to write words and represent their sounds.",
+    "We leave spaces between words.",
+    "Checking our writing helps us improve."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE8",
+      "CE9"
+    ],
+    "criteria": [
+      "8.2",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL4",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-escritura-de-palabras-01",
+      "type": "true-false",
+      "prompt": "In the Spanish sentence «El perro corre», the words are correctly spaced.",
+      "explanation": "We leave a space between words when writing.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-02",
+      "type": "match",
+      "prompt": "Join the syllables to form these Spanish words: «casa», «pelo» and «luna».",
+      "explanation": "Ca + sa makes casa; pe + lo makes pelo; and lu + na makes luna.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "ca",
+          "right": "sa"
+        },
+        {
+          "left": "pe",
+          "right": "lo"
+        },
+        {
+          "left": "lu",
+          "right": "na"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-03",
+      "type": "fill-blank",
+      "prompt": "Choose the correctly spelt Spanish word to complete the sentence.",
+      "explanation": "Lápiz starts with l and ends with z. It also has an accent on a.",
+      "hint": "We use it to draw and write.",
+      "lang": "en",
+      "sentence": "Hugo dibuja en su cuaderno con un ___.",
+      "options": [
+        "lápiz",
+        "lapi",
+        "llápiz"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-04",
+      "type": "order",
+      "prompt": "Put the letters in order to write an animal's name in Spanish.",
+      "explanation": "G-A-T-O forms gato.",
+      "lang": "en",
+      "items": [
+        "G",
+        "A",
+        "T",
+        "O"
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-05",
+      "type": "choice",
+      "prompt": "Which Spanish word is correctly spelt?",
+      "explanation": "Barco starts with b and has an r in the middle.",
+      "hint": "It floats on the sea.",
+      "lang": "en",
+      "options": [
+        "baco",
+        "varco",
+        "barco"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-06",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by their syllables.",
+      "explanation": "Pan and sol each have one syllable. Me-sa and mo-no each have two.",
+      "lang": "en",
+      "categories": [
+        "One syllable",
+        "Two syllables"
+      ],
+      "items": [
+        {
+          "text": "pan",
+          "category": 0
+        },
+        {
+          "text": "sol",
+          "category": 0
+        },
+        {
+          "text": "mesa",
+          "category": 1
+        },
+        {
+          "text": "mono",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-07",
+      "type": "choice",
+      "prompt": "Aisha checks her notebook. Which Spanish word has a spelling mistake?",
+      "explanation": "Kasa is misspelt. In Spanish, casa starts with c.",
+      "hint": "It is where we live.",
+      "lang": "en",
+      "options": [
+        "pelota",
+        "kasa",
+        "camisón"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-08",
+      "type": "reading",
+      "prompt": "Read the Spanish text carefully and answer the questions.",
+      "explanation": "Martina uses short, clear words to send a message to her grandfather.",
+      "lang": "en",
+      "title": "La nota de Martina",
+      "text": "Martina escribe una nota para su abuelo. En el papel pone: «Hola, te quiero mucho. Hoy comí sopa de fideos». Martina firma su nota con una carita feliz.",
+      "questions": [
+        {
+          "prompt": "Who is Martina writing the note for?",
+          "explanation": "The text says Martina writes to her grandfather.",
+          "options": [
+            "Her grandfather",
+            "Her teacher",
+            "Her friend"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which Spanish word in the text names a food?",
+          "explanation": "Sopa means soup, a food.",
+          "options": [
+            "sopa",
+            "carita",
+            "papel"
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-escritura-de-palabras-09",
+      "type": "order",
+      "prompt": "Order the Spanish sentence: first the animal, then what it does, then what it eats.",
+      "explanation": "First name the animal, El león, then its action, come carne.",
+      "lang": "en",
+      "items": [
+        "El",
+        "león",
+        "come",
+        "carne."
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:30:31.834Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:09:34.439Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "fc6215f47a0affb632c44a985b5b04493df12f49d12abe051eb496203f76566b",
+      "validation": "manual-review"
+    }
+  }
+}

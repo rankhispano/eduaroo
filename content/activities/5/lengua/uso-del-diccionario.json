@@ -8,7 +8,7 @@
   "summary": "Aprenderás a buscar palabras con rapidez, interpretar acepciones, abreviaturas y palabras guía para enriquecer tu vocabulario.",
   "keyIdeas": [
     "Las palabras se ordenan alfabéticamente; si la primera letra coincide, nos fijamos en la segunda, tercera o siguientes.",
-    "Los sustantivos y adjetivos se buscan en masculino singular y los verbos en infinitivo (-ar, -er, -ir).",
+    "Los sustantivos suelen buscarse en singular, conservando su género («mesa»). Los adjetivos de dos terminaciones suelen aparecer en masculino singular, y los verbos en infinitivo.",
     "Cada significado numerado de una palabra es una acepción y las palabras guía indican la primera y última palabra de la página."
   ],
   "lomloe": {
@@ -111,8 +111,8 @@
     {
       "id": "g5-lengua-uso-del-diccionario-05",
       "type": "classify",
-      "prompt": "Clasifica estas palabras según si aparecen tal cual como entrada en el diccionario o si debes transformar su forma para poder encontrarlas:",
-      "explanation": "Los sustantivos en singular y los verbos en infinitivo aparecen directamente. Las formas en plural, femenino de adjetivos o verbos conjugados deben transformarse.",
+      "prompt": "En esta actividad practicamos las formas de entrada habituales: sustantivos en singular, adjetivos en masculino singular y verbos en infinitivo. Clasifica según si hay que cambiar la forma.",
+      "explanation": "En estos ejemplos, árbol, dormir y sol ya tienen la forma de entrada. Cantábamos pasa a cantar; altas, a alto; pequeñitos, al singular pequeñito. Algunos diccionarios digitales permiten buscar formas flexionadas y remiten a su entrada.",
       "lang": "es",
       "categories": [
         "Aparece tal cual (lema)",
@@ -196,17 +196,17 @@
       "explanation": "La lectura demuestra la utilidad del diccionario y cómo este recoge el léxico vivo de la sociedad.",
       "lang": "es",
       "title": "El misterio del tomo gastado",
-      "text": "Durante la clase de Lengua, Omar y Nerea encontraron un tomo encuadernado en tela roja en la biblioteca del colegio. Era un diccionario ilustrado de 1960. Al abrirlo por la letra 'C', se fijaron en las palabras guía de la cabecera: 'Calamar - Calina'. Entre ellas descubrieron vocablos en desuso y grabados detallados de animales marinos.\n\nNerea buscó la palabra 'computadora' y comprobó con sorpresa que no aparecía en aquel ejemplar. Omar le explicó que los diccionarios reflejan la lengua viva de cada época, y que muchas palabras tecnológicas se incorporaron décadas más tarde. En cambio, hallaron términos rurales antiguos que hoy apenas se emplean en las ciudades. Ambos comprendieron que el diccionario no es solo una lista fija de palabras, sino un testimonio cambiante de nuestra historia y forma de vida.",
+      "text": "Durante la clase de Lengua, Omar y Nerea encontraron un diccionario ilustrado antiguo en la biblioteca. Al abrirlo por la letra C, vieron las palabras guía «Calamar - Calina». Entre ellas descubrieron palabras poco usadas y dibujos de animales marinos.\n\nNerea buscó «videollamada», pero no aparecía en ese ejemplar. Omar recordó que un diccionario no recoge todas las palabras de la lengua y que sus ediciones se actualizan. Consultaron un diccionario digital reciente y encontraron la palabra y su significado. Compararon ambas obras: la antigua conservaba vocabulario de otra época y la actual incorporaba usos nuevos. Comprendieron que la lengua cambia y que conviene elegir un diccionario adecuado para cada consulta.",
       "questions": [
         {
-          "prompt": "¿Por qué no aparecía la palabra 'computadora' en el diccionario de 1960?",
-          "explanation": "Como explica Omar, los diccionarios cambian con el tiempo y reflejan las palabras que se usan en cada época histórica.",
+          "prompt": "¿Qué hicieron al no encontrar «videollamada» en aquel ejemplar?",
           "options": [
-            "Porque las palabras de tecnología no pertenecían al uso común en esa época y se incorporaron más tarde.",
-            "Porque el diccionario tenía páginas arrancadas y estaba incompleto.",
-            "Porque en los diccionarios ilustrados nunca se incluyen inventos modernos."
+            "Consultaron un diccionario digital reciente.",
+            "Decidieron que la palabra no existía.",
+            "Arrancaron las páginas del diccionario antiguo."
           ],
-          "answer": 0
+          "answer": 0,
+          "explanation": "El texto dice que consultaron un diccionario digital reciente y encontraron el significado."
         },
         {
           "prompt": "Según las palabras guía de la página ('Calamar - Calina'), ¿cuál de estas palabras podría encontrarse en esa misma página?",

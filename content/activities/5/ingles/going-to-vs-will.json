@@ -57,8 +57,8 @@
     {
       "id": "g5-ingles-going-to-vs-will-02",
       "type": "choice",
-      "prompt": "Omar: 'I am very thirsty!' Aisha: 'Wait, I ___ get you a glass of water.'",
-      "explanation": "Aisha decide ayudar a Omar en ese mismo instante, por lo que se utiliza 'will' para decisiones espontáneas.",
+      "prompt": "Aisha decides right now to help Omar. Choose the usual «will» form for this immediate offer.",
+      "explanation": "«Will» es la elección habitual para un ofrecimiento decidido al hablar. Otras formas pueden usarse con un contexto diferente.",
       "hint": "Aisha toma la decisión justo en este momento, no lo tenía planeado.",
       "lang": "en",
       "options": [
@@ -71,7 +71,7 @@
     {
       "id": "g5-ingles-going-to-vs-will-03",
       "type": "fill-blank",
-      "prompt": "Completa la frase observando la evidencia del tiempo:",
+      "prompt": "Completa con «be going to» para expresar una predicción basada en lo que vemos.",
       "explanation": "Usamos 'is going to' porque hay una prueba clara en el presente (las nubes oscuras) de lo que va a ocurrir.",
       "hint": "Vemos una señal clara en el cielo ahora mismo.",
       "lang": "en",
@@ -131,7 +131,7 @@
       "lang": "en",
       "categories": [
         "Plans or Evidence (Going to)",
-        "Spontaneous decisions or Promises (Will)"
+        "Will: decisions, promises or beliefs"
       ],
       "items": [
         {
@@ -176,7 +176,7 @@
     {
       "id": "g5-ingles-going-to-vs-will-08",
       "type": "choice",
-      "prompt": "Hugo: 'Why are you holding that paintbrush?' Martina: 'Because I ___ paint my bicycle red.'",
+      "prompt": "Martina ya ha preparado la pintura y la brocha. Completa su frase con «be going to»: «I ___ paint my bike».",
       "explanation": "Martina ya tiene la brocha en la mano porque había decidido pintar su bici antes de que Hugo le preguntara; es un plan previo.",
       "hint": "Martina ya tenía la pintura preparada antes de hablar.",
       "lang": "en",
@@ -231,7 +231,7 @@
     {
       "id": "g5-ingles-going-to-vs-will-10",
       "type": "choice",
-      "prompt": "Nerea planned to bake a cake and bought flour. But opening the fridge, she sees there is no milk! She says: 'Oh! There is no milk! I ___ go to the shop right now.'",
+      "prompt": "Nerea suddenly notices there is no milk and decides to go out right now. Choose the usual «will» form for this new decision.",
       "explanation": "Aunque hornear el pastel era su plan previo, darse cuenta de que no hay leche es una sorpresa y decide ir a la tienda justo en ese segundo.",
       "hint": "Fíjate en cuándo surge la necesidad: es una reacción inmediata ante la nevera vacía.",
       "lang": "en",

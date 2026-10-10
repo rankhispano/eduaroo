@@ -1,0 +1,235 @@
+{
+  "id": "g3-naturales-sistema-respiratorio",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "sistema-respiratorio",
+  "temaNombre": "The respiratory system",
+  "title": "The journey of air through our body",
+  "summary": "Review how we breathe, the parts of the respiratory system and ways to care for it.",
+  "keyIdeas": [
+    "When we breathe, we take oxygen from the air and release carbon dioxide.",
+    "Air enters through the nose, passes through the windpipe and reaches the lungs.",
+    "Exercise and letting fresh air into rooms help us care for our lungs."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-sistema-respiratorio-01",
+      "type": "choice",
+      "prompt": "Which gas in the air does our body need when we breathe?",
+      "explanation": "Our body needs oxygen from the air to release energy from food. Carbon dioxide is a waste gas.",
+      "hint": "This gas passes from the air into the blood in the lungs.",
+      "lang": "en",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Smoke"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-02",
+      "type": "match",
+      "prompt": "Match each part of the respiratory system to its main job.",
+      "explanation": "Each part has an important job. The nose prepares the air, the windpipe carries it, and the lungs pass oxygen into the blood.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Nasal passages",
+          "right": "Filter and warm incoming air"
+        },
+        {
+          "left": "Windpipe (trachea)",
+          "right": "Tube carrying air towards the bronchi"
+        },
+        {
+          "left": "Lungs",
+          "right": "Spongy organs where oxygen passes into the blood"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-03",
+      "type": "order",
+      "prompt": "Put the air's route into the body in order as you breathe in.",
+      "explanation": "Air enters through the nose, travels down the windpipe, passes into the bronchi and reaches the lungs.",
+      "lang": "en",
+      "items": [
+        "Nasal passages",
+        "Windpipe",
+        "Bronchi",
+        "Lungs"
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-04",
+      "type": "true-false",
+      "prompt": "When we breathe out calmly, the chest relaxes and becomes smaller.",
+      "explanation": "During a quiet breath out, the chest gets smaller and some air leaves. The lungs do not empty completely.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-05",
+      "type": "classify",
+      "prompt": "Sort what happens when we breathe in and breathe out.",
+      "explanation": "When we breathe in, air enters and the chest expands. When we breathe out, air leaves and the chest becomes smaller.",
+      "lang": "en",
+      "categories": [
+        "Breathing in",
+        "Breathing out"
+      ],
+      "items": [
+        {
+          "text": "Air enters the lungs",
+          "category": 0
+        },
+        {
+          "text": "The chest expands and gets larger",
+          "category": 0
+        },
+        {
+          "text": "Air leaves the body",
+          "category": 1
+        },
+        {
+          "text": "The chest becomes smaller",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-06",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about gas exchange.",
+      "explanation": "Alveoli are tiny air sacs surrounded by very thin blood vessels. Oxygen passes into the blood there.",
+      "hint": "This red liquid travels around our body.",
+      "lang": "en",
+      "sentence": "In the lung's tiny air sacs, oxygen passes into the ___ and carbon dioxide moves out of it.",
+      "options": [
+        "skin",
+        "saliva",
+        "blood"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-07",
+      "type": "choice",
+      "prompt": "The class discusses breathing. Which statement contains a mistake?",
+      "explanation": "Omar's idea is incorrect. Air we breathe out contains more carbon dioxide than incoming air, but it still contains some oxygen.",
+      "hint": "The air we breathe in and out is a mixture of several gases.",
+      "lang": "en",
+      "options": [
+        "Martina says the air we breathe out contains carbon dioxide",
+        "Omar says we breathe out only pure carbon dioxide and no oxygen",
+        "Aisha says breathing through the nose filters dust from the air"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-08",
+      "type": "choice",
+      "prompt": "Hugo counts his breaths for one minute. At rest, he counts 18. He then runs in the playground and counts again. Which result is most likely?",
+      "explanation": "During exercise, muscles work harder and need extra oxygen, so breathing becomes faster.",
+      "hint": "Think about how you breathe just after a race.",
+      "lang": "en",
+      "options": [
+        "8 breaths, because tired lungs rest",
+        "32 breaths, because his muscles need more oxygen",
+        "Exactly 18 breaths, because breathing rate never changes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "Breathing clean air and letting fresh air into our homes help care for our airways and health.",
+      "lang": "en",
+      "title": "A healthy walk in the pine woods",
+      "text": "Today, the Primary Grade 3 class visits the village's pine woods. Their teacher, Laura, explains that the nose filters and warms air before it reaches the lungs. Air in nature is often cleaner than on busy roads. Trees take in carbon dioxide and release oxygen while making food in daylight. Lucía feels refreshed by the cool air. Laura explains that airing their rooms each morning and avoiding smoke are two useful habits for caring for their lungs.",
+      "questions": [
+        {
+          "prompt": "According to the text, why is breathing through the nose useful?",
+          "explanation": "Tiny hairs and mucus in the nose trap particles. The nose also warms air to help protect the lungs.",
+          "options": [
+            "No carbon dioxide can enter through the nose",
+            "The nose warms and filters air before it reaches the lungs",
+            "Air instantly freezes if it enters through the mouth"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which habit in the text helps care for our lungs at home?",
+          "explanation": "Opening windows replaces indoor air and reduces the build-up of dust and irritating substances.",
+          "options": [
+            "Lighting wood-burning stoves in the bedroom",
+            "Keeping windows shut all day",
+            "Airing the room each morning"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-respiratorio-10",
+      "type": "choice",
+      "prompt": "Nerea and Adrián make a school poster about caring for the respiratory system. Which idea is best for their poster?",
+      "explanation": "Exercise helps keep the respiratory system healthy, and avoiding harmful smoke helps protect the airways.",
+      "hint": "Look for an action that helps you breathe clean air and stay active.",
+      "lang": "en",
+      "options": [
+        "Exercise outdoors and stay away from traffic fumes and tobacco smoke",
+        "Always stay in closed rooms without ever opening windows",
+        "Always breathe through your mouth when it is very cold outside"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:46:02.603Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:25:16.170Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "7f8daecf2e0ec2811724a36d0eafb4f6aa69c60c2d43c0353b6b07556f2e0572",
+      "validation": "manual-review"
+    }
+  }
+}

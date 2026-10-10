@@ -1,0 +1,229 @@
+{
+  "id": "g1-sociales-el-barrio-y-municipio",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "el-barrio-y-municipio",
+  "temaNombre": "Neighbourhoods and municipalities",
+  "title": "Discovering our neighbourhood",
+  "summary": "Learn about neighbourhoods, villages and cities, and how to care for them.",
+  "keyIdeas": [
+    "A municipality can include a small town or a large city.",
+    "The mayor and their team work at the town hall.",
+    "We all help care for parks, streets and neighbourhood services."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.2",
+      "9.3"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-01",
+      "type": "choice",
+      "prompt": "Which place has very tall buildings and busy avenues? 🏙️",
+      "explanation": "Large cities often have many residents, wide avenues and tall buildings.",
+      "hint": "Think of many cars and tall blocks with lifts.",
+      "lang": "en",
+      "options": [
+        "A small village",
+        "A large city",
+        "An isolated farm"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-02",
+      "type": "true-false",
+      "prompt": "The town hall is the building where the mayor works.",
+      "explanation": "The municipality's government works in the town hall and organises local services.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-03",
+      "type": "match",
+      "prompt": "Match each need to the right neighbourhood place.",
+      "explanation": "Libraries, health centres and parks are local services and spaces. Not all are managed by the council.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Borrow a book",
+          "right": "Municipal library"
+        },
+        {
+          "left": "Get care when ill",
+          "right": "Health centre"
+        },
+        {
+          "left": "Play outdoors",
+          "right": "Public park"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-04",
+      "type": "fill-blank",
+      "prompt": "Choose the word that completes this road-safety rule.",
+      "explanation": "Use a pedestrian crossing with an adult. Look first and wait until it is safe.",
+      "lang": "en",
+      "sentence": "To cross the road safely, we use a ___ crossing.",
+      "options": [
+        "street lamp",
+        "tree",
+        "pedestrian"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-05",
+      "type": "classify",
+      "prompt": "Sort these features by where they are more common.",
+      "explanation": "Small villages often have low houses and quiet streets. Some large cities have underground trains and tall towers.",
+      "lang": "en",
+      "categories": [
+        "Small village",
+        "Large city"
+      ],
+      "items": [
+        {
+          "text": "Low houses and very quiet streets",
+          "category": 0
+        },
+        {
+          "text": "Underground train station",
+          "category": 1
+        },
+        {
+          "text": "Few residents who know each other",
+          "category": 0
+        },
+        {
+          "text": "Skyscrapers with many offices",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-06",
+      "type": "choice",
+      "prompt": "Aisha walks her dog in the park. The dog poos on the grass. What should Aisha do? 🐕",
+      "explanation": "Dog owners must pick up their pet's poo to keep public places clean.",
+      "hint": "Think about children playing in the park.",
+      "lang": "en",
+      "options": [
+        "Leave it because it is fertiliser",
+        "Cover it with leaves and run away",
+        "Pick it up with a bag and put it in a bin"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-07",
+      "type": "true-false",
+      "prompt": "All residents should care for public benches and street lamps.",
+      "explanation": "Public street furniture belongs to the community. We treat it with care and respect.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-08",
+      "type": "order",
+      "prompt": "Put Lucas's steps for crossing at a pedestrian crossing with an adult in order.",
+      "explanation": "Use a pedestrian crossing with an adult, follow traffic lights and check that it is safe.",
+      "lang": "en",
+      "items": [
+        "Stop before stepping off the pavement",
+        "Look both ways and check traffic lights if there are any",
+        "Wait until vehicles stop or no vehicles are coming",
+        "Walk across when it is safe"
+      ]
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-09",
+      "type": "reading",
+      "prompt": "Read this neighbourhood story and answer the questions.",
+      "explanation": "Working together helps make public places pleasant and safe.",
+      "lang": "en",
+      "title": "A green day in the square",
+      "text": "Hugo's neighbourhood cares for its main square. On Saturday, the mayor and residents plant flowers. Hugo waters the pots with his grandmother. Now the square is clean and cheerful for everyone.",
+      "questions": [
+        {
+          "prompt": "Who helps Hugo water the pots?",
+          "explanation": "Hugo waters the pots with his grandmother.",
+          "options": [
+            "The postal worker",
+            "His teacher",
+            "His grandmother"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why do the neighbours plant flowers together?",
+          "explanation": "They work together to make their shared neighbourhood nicer for everyone.",
+          "options": [
+            "To care for and improve their shared space",
+            "To sell the pots and make money",
+            "Walking in the square is forbidden"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-el-barrio-y-municipio-10",
+      "type": "choice",
+      "prompt": "There are many traffic fumes in Martina's neighbourhood. Which action helps keep the air cleaner? 🚲",
+      "explanation": "Walking and cycling produce no exhaust fumes.",
+      "hint": "Think about travelling without petrol.",
+      "lang": "en",
+      "options": [
+        "Sound the horn to warn other cars",
+        "Walk or cycle to school",
+        "Use a car for very short trips"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:22:32.669Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:58:34.378Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "cb0cd9997b43a94aa867f546cdcf85698e9fb8892cbd8972b5063e2dd8b4b862",
+      "validation": "manual-review"
+    }
+  }
+}

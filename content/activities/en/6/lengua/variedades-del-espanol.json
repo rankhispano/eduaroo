@@ -1,0 +1,269 @@
+{
+  "id": "g6-lengua-variedades-del-espanol",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "variedades-del-espanol",
+  "temaNombre": "Varieties of Spanish",
+  "title": "The Rich Diversity of Spanish",
+  "summary": "Explore Spanish varieties, dialects and vocabulary around the world, and learn to value their diversity.",
+  "keyIdeas": [
+    "Spanish has many geographical varieties in Spain and the Americas. No variety is inherently superior to another.",
+    "Dialects can differ in pronunciation, such as seseo, grammar, such as voseo, and vocabulary.",
+    "Respecting different ways of speaking enriches our culture and helps prevent language prejudice."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE4"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "4.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CCEC1",
+      "CCEC3",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CP3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Las lenguas y sus hablantes",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-variedades-del-espanol-01",
+      "type": "true-false",
+      "prompt": "The Spanish spoken in central Spain is the only correct model, and other varieties are incorrect.",
+      "explanation": "False. No Spanish variety is inherently superior to another. Regional varieties are part of the language's cultural richness.",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-02",
+      "type": "match",
+      "prompt": "Match each word common in Spain to a usual equivalent in some parts of the Americas or the Canary Islands.",
+      "explanation": "Regional vocabulary can name the same object in different ways. These differences enrich the language.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Autobús",
+          "right": "Guagua"
+        },
+        {
+          "left": "Teléfono móvil",
+          "right": "Celular"
+        },
+        {
+          "left": "Cometa",
+          "right": "Papalote"
+        },
+        {
+          "left": "Zapatillas de deporte",
+          "right": "Tenis"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-03",
+      "type": "choice",
+      "prompt": "What is the name for pronouncing c before e/i and z with the same sound as s, as in «zapato» in many American, Canarian and Andalusian varieties?",
+      "explanation": "Seseo means pronouncing c before e/i and z with the sound of s. It is an accepted feature of many Spanish varieties.",
+      "hint": "Think about the letter naming the sound used.",
+      "lang": "en",
+      "options": [
+        "Yeísmo",
+        "Voseo",
+        "Ceceo",
+        "Seseo"
+      ],
+      "answer": 3,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-04",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with the pronoun characteristic of River Plate Spanish in Argentina and Uruguay.",
+      "explanation": "Voseo uses «vos» instead of «tú» for informal address. It occurs in Argentina, Uruguay and parts of Central America, among other places.",
+      "lang": "en",
+      "sentence": "En Argentina es muy habitual decir: '¿___ querés venir a merendar a mi casa?'.",
+      "options": [
+        "vos",
+        "ustedes",
+        "tú"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-05",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by their usual association in this comparison: Spain or Spanish-speaking America.",
+      "explanation": "«Ordenador»/«computadora», «aparcar»/«estacionar» and «zumo»/«jugo» are valid alternatives. Usage varies and some words are shared across regions.",
+      "lang": "en",
+      "categories": [
+        "Usual in Spain",
+        "Usual in Spanish-speaking America"
+      ],
+      "items": [
+        {
+          "text": "Ordenador",
+          "category": 0
+        },
+        {
+          "text": "Computadora",
+          "category": 1
+        },
+        {
+          "text": "Aparcar",
+          "category": 0
+        },
+        {
+          "text": "Estacionar",
+          "category": 1
+        },
+        {
+          "text": "Zumo",
+          "category": 0
+        },
+        {
+          "text": "Jugo",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-06",
+      "type": "choice",
+      "prompt": "Three pupils discuss a new classmate from Colombia. Who shows language prejudice?",
+      "explanation": "Calling a variety bad simply because it uses unfamiliar words is language prejudice. Different Spanish varieties have their own valid patterns.",
+      "hint": "Look for an unfair negative judgement about someone's variety of Spanish.",
+      "lang": "en",
+      "options": [
+        "Adrián: He speaks strangely and badly because he uses words we don't use here.",
+        "Lucía: He says «celular» for «teléfono móvil». How interesting!",
+        "Mateo: I like his accent and want to learn about the words he uses."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-07",
+      "type": "order",
+      "prompt": "Put this respectful approach to an unfamiliar word from another Spanish variety in order.",
+      "explanation": "Listening and asking respectfully helps us learn vocabulary and understand people from different backgrounds.",
+      "lang": "en",
+      "items": [
+        "Listen carefully to the word in the conversation.",
+        "Ask kindly and with curiosity what it means.",
+        "Connect the new word to the term you usually use.",
+        "Thank the speaker for explaining and appreciate the language's diversity."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-08",
+      "type": "fill-blank",
+      "prompt": "During a call with a Mexican school, Sofía hears «¡Ese jersey te queda muy padre!». What does it mean here?",
+      "explanation": "In colloquial Mexican Spanish, «padre» can mean excellent, great or very nice.",
+      "lang": "en",
+      "sentence": "En la variedad mexicana, la expresión 'estar muy padre' equivale a decir que algo es muy ___.",
+      "options": [
+        "antiguo o pasado de moda",
+        "grande y holgado",
+        "bonito o genial"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-09",
+      "type": "reading",
+      "prompt": "Read the Spanish text about the cooking workshop and answer the questions.",
+      "explanation": "The story shows different Spanish vocabulary varieties being shared naturally and respectfully.",
+      "lang": "en",
+      "title": "Un taller con mucho sabor",
+      "text": "En el colegio Las Palmeras, el alumnado de sexto organizó un taller de cocina internacional. Nerea, que nació en Tenerife, trajo papas arrugadas con mojo picón. Al ver las papas, Carlos, que es de Madrid, exclamó: '¡Qué ricas estas patatas!'. Nerea sonrió y le explicó que en Canarias es habitual usar la palabra 'papa', igual que en muchos lugares de Hispanoamérica, una herencia del quechua que llegó a las islas hace siglos.\n\nMás tarde, Valeria, procedente de Perú, preparó una ensalada con aguacate. Ella lo llamaba «palta», otra palabra usada en su región. Todo el grupo coincidió en que probar platos de distintos lugares y aprender cómo se nombran los ingredientes en cada país hace que las clases sean mucho más divertidas y enriquecedoras. Al terminar, elaboraron un recetario conjunto con las distintas formas de nombrar cada alimento.",
+      "questions": [
+        {
+          "prompt": "According to the text, which Indigenous language does «papa» originally come from?",
+          "explanation": "The text identifies «papa» as a word inherited from Quechua.",
+          "options": [
+            "Guaraní",
+            "Nahuatl",
+            "Quechua"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why do Nerea and Carlos use different words for the same food?",
+          "explanation": "Nerea, from Tenerife, says «papas»; Carlos, from Madrid, says «patatas». Both name the same food using regional vocabulary.",
+          "options": [
+            "They use vocabulary usual in their own regions.",
+            "«Patatas» and «papas» are completely different foods.",
+            "Carlos made a mistake and Nerea had to correct him."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What is the main conclusion about language diversity?",
+          "explanation": "Sharing regional words makes the group's experience richer and more enjoyable.",
+          "options": [
+            "Learning and sharing different ways of speaking enriches learning and life together.",
+            "School should use just one official word for each food.",
+            "International recipes only work with vocabulary from mainland Spain."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-variedades-del-espanol-10",
+      "type": "choice",
+      "prompt": "In many parts of southern Spain and the Caribbean, a final s may be omitted or pronounced as a soft aspiration, for example «loh niñoh» for «los niños». Which statement is correct?",
+      "explanation": "Aspiration of final s is a pronunciation feature of many southern and Atlantic Spanish varieties, with its own cultural history.",
+      "hint": "Regional pronunciation features are part of natural dialect variation.",
+      "lang": "en",
+      "options": [
+        "It is an incorrect habit that should disappear completely.",
+        "It is a spelling mistake made only by people who never went to school.",
+        "It is a dialect pronunciation feature of southern and Atlantic Spanish varieties."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:25:50.971Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:30:09.896Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "72dc27c93a7be73d170a68a6530ae36dc40c41938d38a53e1819ca6cbdfcef0e",
+      "validation": "manual-review"
+    }
+  }
+}

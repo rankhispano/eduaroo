@@ -1,7 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import CursoCard from '@/src/components/CursoCard';
-import { curriculum } from '@/src/data/curriculum';
+import { getCurriculum } from '@/src/data/localizedCurriculum';
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const { locale } = await props.params;
@@ -40,7 +40,7 @@ export default async function LearningPage(props: { params: Promise<{ locale: st
                 </header>
 
                 <section className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3" aria-label={t('courseTitle')}>
-                    {curriculum.map((curso) => (
+                    {getCurriculum(locale).map((curso) => (
                         <CursoCard
                             key={curso.id}
                             curso={curso}

@@ -45,8 +45,8 @@
     {
       "id": "g3-ingles-descripciones-fisicas-01",
       "type": "match",
-      "prompt": "Relaciona cada palabra o rasgo físico con su opuesto:",
-      "explanation": "En inglés, 'tall' (alto) es el opuesto de 'short' (bajo), 'straight' (liso) de 'curly' (rizado), y 'dark' (oscuro) de 'blond' (rubio).",
+      "prompt": "Relaciona cada descripción con otra que contrasta con ella:",
+      "explanation": "Tall y short contrastan en estatura; long hair y short hair, en longitud. Straight hair y curly hair describen formas distintas, y dark hair y blond hair, colores distintos. Hay otras formas y colores de pelo.",
       "lang": "en",
       "pairs": [
         {
@@ -92,7 +92,7 @@
     {
       "id": "g3-ingles-descripciones-fisicas-04",
       "type": "classify",
-      "prompt": "Clasifica estas palabras según describan el pelo ('Hair') o los ojos ('Eyes'):",
+      "prompt": "Classify these descriptions as Hair or Eyes.",
       "explanation": "'Curly' (rizado), 'straight' (liso) y 'blond' (rubio) describen el pelo. 'Blue', 'green' y 'brown eyes' se refieren a los ojos.",
       "lang": "en",
       "categories": [
@@ -101,23 +101,23 @@
       ],
       "items": [
         {
-          "text": "curly",
+          "text": "curly hair",
           "category": 0
         },
         {
-          "text": "blue",
+          "text": "blue eyes",
           "category": 1
         },
         {
-          "text": "straight",
+          "text": "straight hair",
           "category": 0
         },
         {
-          "text": "green",
+          "text": "green eyes",
           "category": 1
         },
         {
-          "text": "blond",
+          "text": "blond hair",
           "category": 0
         },
         {
@@ -148,7 +148,7 @@
       "explanation": "Omar es el chico bajo con pelo rizado y negro que lleva gafas rojas ('red glasses').",
       "lang": "en",
       "options": [
-        "The boy with short curly black hair and red glasses.",
+        "The short boy with curly black hair and red glasses.",
         "The tall girl with straight blond hair.",
         "The boy with long brown hair and blue eyes."
       ],
@@ -172,11 +172,11 @@
       "id": "g3-ingles-descripciones-fisicas-08",
       "type": "choice",
       "prompt": "Adrián describes his cousin: 'She hasn't got straight hair. Her hair is ___.'",
-      "explanation": "'Wavy' (ondulado) es un tipo de pelo. 'Tall' describe la estatura y 'green' no es un color natural de pelo.",
+      "explanation": "«Wavy» significa ondulado y describe la forma del pelo. «Tall» describe la estatura y «square» no describe aquí un tipo de pelo.",
       "hint": "Busca una palabra que describa la forma del pelo.",
       "lang": "en",
       "options": [
-        "green",
+        "square",
         "tall",
         "wavy"
       ],

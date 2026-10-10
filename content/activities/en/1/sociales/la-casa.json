@@ -1,0 +1,247 @@
+{
+  "id": "g1-sociales-la-casa",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "la-casa",
+  "temaNombre": "Home",
+  "title": "Our home and living together",
+  "summary": "Review rooms at home and ways to help.",
+  "keyIdeas": [
+    "Rooms at home have different uses.",
+    "Everyone in the family helps with household tasks.",
+    "Saving water and turning off lights help our home and planet."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "6.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-la-casa-01",
+      "type": "choice",
+      "prompt": "In which room do we sleep at night?",
+      "explanation": "A bedroom is a room for resting and sleeping.",
+      "hint": "Your bed is usually there.",
+      "lang": "en",
+      "options": [
+        "Bathroom",
+        "Kitchen",
+        "Bedroom"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-la-casa-02",
+      "type": "true-false",
+      "prompt": "The kitchen is used to prepare family meals.",
+      "explanation": "We keep food and prepare meals in the kitchen.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-la-casa-03",
+      "type": "match",
+      "prompt": "Match each object to the room where it is usually used.",
+      "explanation": "Objects are used in different rooms for different activities.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Bed",
+          "right": "Bedroom"
+        },
+        {
+          "left": "Frying pan",
+          "right": "Kitchen"
+        },
+        {
+          "left": "Bath",
+          "right": "Bathroom"
+        },
+        {
+          "left": "Sofa",
+          "right": "Living room"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-la-casa-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about caring for our home.",
+      "explanation": "Turning off the tap saves water and helps care for the planet.",
+      "lang": "en",
+      "sentence": "While brushing our teeth, we should ___ the tap.",
+      "options": [
+        "turn off",
+        "turn on",
+        "break"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-la-casa-05",
+      "type": "classify",
+      "prompt": "Sort each action into its group.",
+      "explanation": "At home, we have time to play and tasks we can help with.",
+      "lang": "en",
+      "categories": [
+        "Household tasks",
+        "Play and rest"
+      ],
+      "items": [
+        {
+          "text": "Set the table",
+          "category": 0
+        },
+        {
+          "text": "Put toys away",
+          "category": 0
+        },
+        {
+          "text": "Sweep the floor",
+          "category": 0
+        },
+        {
+          "text": "Watch cartoons",
+          "category": 1
+        },
+        {
+          "text": "Draw with colours",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-la-casa-06",
+      "type": "choice",
+      "prompt": "Hugo and Martina live together. Who should clear the dishes?",
+      "explanation": "Tasks are shared fairly, according to each person's age and abilities.",
+      "hint": "We work as a team at home.",
+      "lang": "en",
+      "options": [
+        "Both help equally",
+        "Only Martina",
+        "Only Hugo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-la-casa-07",
+      "type": "choice",
+      "prompt": "What happens if we leave the fridge door open?",
+      "explanation": "An open fridge wastes electricity and lets food warm up.",
+      "hint": "Think about electricity and keeping food cold.",
+      "lang": "en",
+      "options": [
+        "Energy is wasted and food can spoil",
+        "It is a better way to heat food",
+        "The fridge cleans itself"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-la-casa-08",
+      "type": "classify",
+      "prompt": "Lola lives in a flat with a lift. Leo lives in a low house with a garden. Sort each fact by who it describes.",
+      "explanation": "The question says Lola has a flat with a lift and Leo has a low house with a garden.",
+      "lang": "en",
+      "categories": [
+        "Lola's home",
+        "Leo's home"
+      ],
+      "items": [
+        {
+          "text": "It is in a block of flats",
+          "category": 0
+        },
+        {
+          "text": "A lift can take her upstairs",
+          "category": 0
+        },
+        {
+          "text": "It has a garden around it",
+          "category": 1
+        },
+        {
+          "text": "It is a low house",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-la-casa-09",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "Aisha helps her family by tidying and saving energy.",
+      "lang": "en",
+      "title": "Aisha's home",
+      "text": "Aisha lives on the third floor of a building. Her home has a kitchen, living room, bathroom and two bedrooms. She likes helping her family. Today, she put her toys away carefully and turned off the hallway lights. Everyone at home helps each day.",
+      "questions": [
+        {
+          "prompt": "What type of home does Aisha live in?",
+          "explanation": "Aisha lives on the third floor of a building.",
+          "options": [
+            "An isolated farm",
+            "A tent",
+            "A flat in a building"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why does Aisha turn off the hallway lights?",
+          "explanation": "Turning off unused lights avoids wasting electricity.",
+          "options": [
+            "To save energy at home",
+            "To play without seeing anything",
+            "The lamp is broken"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:20:37.320Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:59:25.616Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "c2fc419c9ad2f71a4c197dac0bd234dbeccdef3e25d31f42e38580af882a79ea",
+      "validation": "manual-review"
+    }
+  }
+}

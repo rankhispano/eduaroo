@@ -7,7 +7,7 @@
   "title": "Exploradores de Ángulos Cotidianos",
   "summary": "Identifica, clasifica y estima diferentes tipos de ángulos a través de situaciones de la vida real.",
   "keyIdeas": [
-    "Un ángulo recto mide exactamente 90°, el agudo mide menos de 90° y el obtuso mide entre 90° y 180°.",
+    "Un ángulo recto mide 90°; el agudo es mayor que 0° y menor que 90°; el obtuso es mayor que 90° y menor que 180°.",
     "Un ángulo llano mide exactamente 180° (media vuelta) y el completo mide 360° (vuelta entera).",
     "Los ángulos consecutivos que forman un ángulo recto son complementarios (suman 90°) y si forman un llano son suplementarios (suman 180°)."
   ],
@@ -57,7 +57,7 @@
       "pairs": [
         {
           "left": "Ángulo agudo",
-          "right": "Mide menos de 90°"
+          "right": "Mide más de 0° y menos de 90°"
         },
         {
           "left": "Ángulo recto",
@@ -65,7 +65,7 @@
         },
         {
           "left": "Ángulo obtuso",
-          "right": "Mide entre 90° y 180°"
+          "right": "Mide más de 90° y menos de 180°"
         },
         {
           "left": "Ángulo llano",
@@ -101,7 +101,7 @@
           "category": 1
         },
         {
-          "text": "Rampa suave de patinaje de 40°",
+          "text": "Rampa de patinaje de 40°",
           "category": 0
         },
         {
@@ -113,7 +113,7 @@
     {
       "id": "g5-mates-angulos-y-tipos-03",
       "type": "true-false",
-      "prompt": "Las agujas de un reloj analógico que marca exactamente las 15:00 forman un ángulo recto.",
+      "prompt": "El menor ángulo que forman las agujas de un reloj a las 15:00 es un ángulo recto.",
       "explanation": "A las 15:00, la aguja horaria señala el 3 y el minutero señala el 12. La separación es de 3 horas sobre 12, lo que equivale a un cuarto de vuelta: 360° ÷ 4 = 90° (ángulo recto).",
       "lang": "es",
       "answer": true

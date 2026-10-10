@@ -1,0 +1,263 @@
+{
+  "id": "g4-sociales-rios-de-espana-y-europa",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "rios-de-espana-y-europa",
+  "temaNombre": "Rivers of Spain and Europe",
+  "title": "River explorers: Spain and Europe",
+  "summary": "Practise the features of rivers, Spain's drainage regions and Europe's major rivers.",
+  "keyIdeas": [
+    "Rivers can receive water from tributaries and flow into the sea, a lake or another river.",
+    "Spain's rivers belong to three drainage regions: Cantabrian, Atlantic and Mediterranean.",
+    "The Tagus is the longest river on the Iberian Peninsula, and the Volga is the longest river in Europe."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-01",
+      "type": "choice",
+      "prompt": "What do we call the place where a river flows into the sea or a lake? 🌊",
+      "explanation": "The mouth is the end of a river. Its source is where the river begins.",
+      "hint": "It is at the end of the river.",
+      "lang": "en",
+      "options": [
+        "Mouth",
+        "Source",
+        "Tributary",
+        "Meander"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-02",
+      "type": "true-false",
+      "prompt": "The Tagus is the longest river on the whole Iberian Peninsula.",
+      "explanation": "The Tagus is more than a thousand kilometres long and flows into the Atlantic Ocean at Lisbon.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the right word.",
+      "explanation": "A tributary adds its water to a larger river. For example, the Jarama is a tributary of the Tagus.",
+      "lang": "en",
+      "sentence": "A smaller river that flows into a larger river is called a ___.",
+      "options": [
+        "meander",
+        "tributary",
+        "delta"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-04",
+      "type": "order",
+      "prompt": "Put the stages of this river's journey in order. It begins in a mountain and flows into the sea.",
+      "explanation": "This river starts high in the mountains, flows through its upper, middle and lower course, then reaches its mouth.",
+      "lang": "en",
+      "items": [
+        "Source in the mountains",
+        "Upper course with steep slopes and fast-flowing water",
+        "Middle course with slower water",
+        "Lower course near the coast",
+        "Mouth at the sea"
+      ]
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-05",
+      "type": "classify",
+      "prompt": "Sort these Iberian rivers by the drainage region they belong to.",
+      "explanation": "Cantabrian rivers flow into the Cantabrian Sea, Atlantic rivers into the Atlantic Ocean, and Mediterranean rivers into the Mediterranean Sea.",
+      "lang": "en",
+      "categories": [
+        "Cantabrian drainage region",
+        "Atlantic drainage region",
+        "Mediterranean drainage region"
+      ],
+      "items": [
+        {
+          "text": "Nalón",
+          "category": 0
+        },
+        {
+          "text": "Duero",
+          "category": 1
+        },
+        {
+          "text": "Ebro",
+          "category": 2
+        },
+        {
+          "text": "Guadalquivir",
+          "category": 1
+        },
+        {
+          "text": "Segura",
+          "category": 2
+        },
+        {
+          "text": "Navia",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-06",
+      "type": "match",
+      "prompt": "Match each Spanish drainage region to the features of its rivers.",
+      "explanation": "These are general patterns. Rivers within each region vary: not all Atlantic rivers are long, and not all Mediterranean rivers carry little water.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Cantabrian drainage region",
+          "right": "Many short rivers with a fairly steady flow"
+        },
+        {
+          "left": "Atlantic drainage region",
+          "right": "Large rivers such as the Tagus and Duero, and other shorter rivers"
+        },
+        {
+          "left": "Mediterranean drainage region",
+          "right": "Many rivers have low summer flow; the Ebro is a notable exception"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-07",
+      "type": "reading",
+      "prompt": "Read about a major European river and answer the questions.",
+      "explanation": "The Danube is an important international river that connects many European countries and capital cities.",
+      "lang": "en",
+      "title": "The journey of the Danube",
+      "text": "In science class, Hugo and Martina investigate Europe's rivers. They discover that the Danube is the continent's second-longest river. It begins in Germany's Black Forest and flows east for more than two thousand eight hundred kilometres. Along the way, it passes through or borders ten countries and reaches four capital cities: Vienna, Bratislava, Budapest and Belgrade. Finally, it flows into the Black Sea, forming a huge delta. This delta is protected because of its rich variety of birds and fish.",
+      "questions": [
+        {
+          "prompt": "Where does the Danube begin?",
+          "explanation": "The text says that the Danube begins in Germany's Black Forest.",
+          "options": [
+            "In the mountains by the Black Sea",
+            "On the coast of Budapest",
+            "In Germany's Black Forest"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which sea does the Danube finally flow into?",
+          "explanation": "The Danube flows into the Black Sea, forming a delta with great value for wildlife.",
+          "options": [
+            "The Black Sea",
+            "The Atlantic Ocean",
+            "The Mediterranean Sea"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-08",
+      "type": "choice",
+      "prompt": "Aisha looks for Europe's longest river on her map. Which river is it? 🗺️",
+      "explanation": "The Volga is more than 3.500 kilometres long and flows into the Caspian Sea. It is Europe's longest river.",
+      "hint": "It flows into the Caspian Sea.",
+      "lang": "en",
+      "options": [
+        "The Seine",
+        "The Rhine",
+        "The Danube",
+        "The Volga"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-09",
+      "type": "classify",
+      "prompt": "Sort these European rivers by the ocean or sea they flow into.",
+      "explanation": "The Seine, Thames and Loire flow into the Atlantic drainage region. The Rhône, Tiber and Ebro flow into the Mediterranean.",
+      "lang": "en",
+      "categories": [
+        "Atlantic drainage region",
+        "Mediterranean drainage region"
+      ],
+      "items": [
+        {
+          "text": "Seine",
+          "category": 0
+        },
+        {
+          "text": "Rhône",
+          "category": 1
+        },
+        {
+          "text": "Thames",
+          "category": 0
+        },
+        {
+          "text": "Tiber",
+          "category": 1
+        },
+        {
+          "text": "Loire",
+          "category": 0
+        },
+        {
+          "text": "Ebro",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-rios-de-espana-y-europa-10",
+      "type": "choice",
+      "prompt": "Nerea visits a Mediterranean river in August and sees very little water flowing in it. What is this called? ☀️",
+      "explanation": "Low flow is the period when a river carries the least water. In many Mediterranean rivers, this happens in summer when there is little rain.",
+      "hint": "It happens when there is very little rain in summer.",
+      "lang": "en",
+      "options": [
+        "Overflowing",
+        "Flooding",
+        "Low flow",
+        "A rise in river level"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:02:38.655Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:20:55.467Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "6acc31c0f8be8e5e72ebd45df13a13c6608b1b1cbd623e2e16f0aa6b00067bfb",
+      "validation": "manual-review"
+    }
+  }
+}

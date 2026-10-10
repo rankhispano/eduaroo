@@ -7,9 +7,9 @@
   "title": "Maestros de la ortografía",
   "summary": "Repasa y domina las reglas de uso de las grafías ll/y, r/rr y c/z con retos y textos cotidianos.",
   "keyIdeas": [
-    "Las palabras terminadas en -illo y -illa van con ll; las formas verbales sin ll ni y en el infinitivo usan y.",
+    "Las terminaciones -illo e -illa se escriben con ll. Formas como «leyó» y «cayó» llevan y, aunque sus infinitivos no la tengan.",
     "El sonido r fuerte se escribe con rr entre vocales y con una sola r a principio de palabra o tras l, n, s.",
-    "Se escribe c ante e, i (ce, ci) y z ante a, o, u (za, zo, zu); los plurales de palabras en -z terminan en -ces."
+    "En palabras como «cena» y «cine» usamos c; en «zapato», «zorro» y «zumo», z. Hay excepciones, como «zeta». Los plurales de nombres en -z suelen terminar en -ces."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -46,7 +46,7 @@
       "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-01",
       "type": "choice",
       "prompt": "Aisha está ordenando su estuche para la clase de Plástica. ¿Qué opción completa correctamente la frase respetando la regla de la c y la z? ✏️\n\n«Tengo un ___ afilado y tres ___ de colores».",
-      "explanation": "Las palabras que terminan en -z en singular forman el plural transformando esa letra en -ces (lápiz -> lápices). Nunca se escribe 'z' delante de la vocal 'e'.",
+      "explanation": "«Lápiz» forma el plural «lápices»: cambia z por c ante e. Esto no significa que z nunca pueda ir ante e: existe «zeta».",
       "hint": "Recuerda cómo cambia la letra final del singular al plural.",
       "lang": "es",
       "options": [
@@ -191,7 +191,7 @@
         },
         {
           "prompt": "¿Por qué el jardinero Enrique pensaba que el erizo estaba buscando refugio?",
-          "explanation": "Enrique explicó que el animalillo buscaba refugio antes de que cayera la lluvia de la tarde, lo que demuestra que presentía el mal tiempo.",
+          "explanation": "Según Enrique, el erizo buscaba refugio antes de la lluvia. Es su explicación dentro del relato; observarlo así no demuestra que predijera el tiempo.",
           "options": [
             "Porque tenía hambre y buscaba castañas.",
             "Porque se avecinaba una tormenta o lluvia.",
@@ -215,7 +215,7 @@
       "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-09",
       "type": "classify",
       "prompt": "Clasifica estas palabras según se escriban con 'll' o con 'y'.",
-      "explanation": "Se escriben con 'll' las palabras que empiezan por fo- (folleto) y las terminadas en -illo/-illa (mantequilla, castillo). Se escriben con 'y' palabras con la sílaba -yec- (proyectil), los plurales en -yes de palabras acabadas en -y (bueyes) y vocablos como desayuno.",
+      "explanation": "«Folleto», «mantequilla» y «castillo» llevan ll. «Proyectil», «bueyes» y «desayuno» llevan y. No todas las palabras que empiezan por fo- llevan ll: «foto» no la lleva.",
       "lang": "es",
       "categories": [
         "Se escriben con 'll'",

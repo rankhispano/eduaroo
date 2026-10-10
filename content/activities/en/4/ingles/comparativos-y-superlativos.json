@@ -1,0 +1,253 @@
+{
+  "id": "g4-ingles-comparativos-y-superlativos",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "comparativos-y-superlativos",
+  "temaNombre": "Comparatives and superlatives",
+  "title": "Comparatives and Superlatives Fun",
+  "summary": "Practise comparing people, animals and things in English with -er comparatives and -est superlatives.",
+  "keyIdeas": [
+    "For short adjectives such as tall, add -er to compare two things, followed by 'than': taller than.",
+    "For these short adjectives, use 'the' and -est for the highest degree in a group: the tallest.",
+    "Good is irregular: its comparative is better and its superlative is the best."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-01",
+      "type": "fill-blank",
+      "prompt": "Choose the correct comparative form.",
+      "explanation": "We compare Aisha and Hugo, so add -er to tall: taller than.",
+      "hint": "With this short adjective, use -er to compare two people.",
+      "lang": "en",
+      "sentence": "Aisha is 140 cm and Hugo is 135 cm. Aisha is ___ than Hugo.",
+      "options": [
+        "taller",
+        "tallest",
+        "tall"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-02",
+      "type": "match",
+      "prompt": "Match each adjective to its comparative form.",
+      "explanation": "These short adjectives make comparatives by adding -er.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "fast",
+          "right": "faster"
+        },
+        {
+          "left": "small",
+          "right": "smaller"
+        },
+        {
+          "left": "cold",
+          "right": "colder"
+        },
+        {
+          "left": "clean",
+          "right": "cleaner"
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-03",
+      "type": "true-false",
+      "prompt": "In English, we say: 'An elephant is bigger than a dog.'",
+      "explanation": "Correct. Use than after the comparative: bigger than.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-04",
+      "type": "fill-blank",
+      "prompt": "Complete the superlative sentence.",
+      "explanation": "Use the superlative ending -est with the because the blue whale is compared with all the animals in the world.",
+      "hint": "Notice the word the before the gap.",
+      "lang": "en",
+      "sentence": "The blue whale is the ___ animal in the world.",
+      "options": [
+        "biggest",
+        "big",
+        "bigger"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-05",
+      "type": "classify",
+      "prompt": "Sort the words into comparatives or superlatives.",
+      "explanation": "These comparatives end in -er. These superlatives use the and end in -est.",
+      "lang": "en",
+      "categories": [
+        "Comparatives (-er)",
+        "Superlatives (-est)"
+      ],
+      "items": [
+        {
+          "text": "slower",
+          "category": 0
+        },
+        {
+          "text": "the oldest",
+          "category": 1
+        },
+        {
+          "text": "stronger",
+          "category": 0
+        },
+        {
+          "text": "the highest",
+          "category": 1
+        },
+        {
+          "text": "shorter",
+          "category": 0
+        },
+        {
+          "text": "the smallest",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-06",
+      "type": "choice",
+      "prompt": "Omar's school bag is 5 kg. Martina's is 3 kg. What can we say?",
+      "explanation": "Omar's bag has greater mass, so it is heavier than Martina's.",
+      "hint": "Compare the masses in kilograms.",
+      "lang": "en",
+      "options": [
+        "Omar's bag is the lightest bag.",
+        "Martina's bag is heavier than Omar's bag.",
+        "Omar's bag is heavier than Martina's bag."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-07",
+      "type": "order",
+      "prompt": "Put the animals in order from slowest to fastest using these clues: a rabbit is faster than a turtle, and a cheetah is fastest of the three.",
+      "explanation": "The turtle is slowest, the rabbit is faster than the turtle, and the cheetah is fastest.",
+      "lang": "en",
+      "items": [
+        "turtle",
+        "rabbit",
+        "cheetah"
+      ]
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-08",
+      "type": "fill-blank",
+      "prompt": "Choose the irregular comparative of good.",
+      "explanation": "Good is irregular. Say better than, rather than gooder.",
+      "hint": "Good changes form completely in a comparison.",
+      "lang": "en",
+      "sentence": "My bike is good, but your bike is ___ than mine.",
+      "options": [
+        "gooder",
+        "better",
+        "the best"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-09",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "The measurements and descriptions show who does best in each event.",
+      "lang": "en",
+      "title": "Sports Day at School",
+      "text": "Today is Sports Day at school. Lucía, Adrián, and Wei are running a race. Adrián is very fast, but Wei is faster than Adrián. Lucía is the fastest runner in the class! She wins the gold medal. Next, they do the high jump. Adrián jumps 1 metre. Lucía jumps 1 metre and 10 centimetres. Wei jumps 1 metre and 20 centimetres. Wei is the highest jumper today. All the children are very happy. It is the best day of the week!",
+      "questions": [
+        {
+          "prompt": "Who is the fastest runner in the race?",
+          "explanation": "The text says, 'Lucía is the fastest runner in the class!'.",
+          "options": [
+            "Wei",
+            "Adrián",
+            "Lucía"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Who jumps higher, Wei or Adrián?",
+          "explanation": "Wei jumps 1 m and 20 cm, while Adrián jumps 1 m. Wei jumps higher.",
+          "options": [
+            "They jump the same height.",
+            "Adrián jumps higher than Wei.",
+            "Wei jumps higher than Adrián."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-comparativos-y-superlativos-10",
+      "type": "choice",
+      "prompt": "Mount Everest has Earth's highest summit above sea level. Complete: Mount Everest is the ___ mountain above sea level.",
+      "explanation": "Use highest to compare its summit's height above sea level with other mountains. Measuring from a mountain's base is a different comparison.",
+      "hint": "Choose the superlative for the highest summit above sea level.",
+      "lang": "en",
+      "options": [
+        "highest",
+        "higher",
+        "high",
+        "more high"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:12:47.419Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:51:33.433Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "2bdba8d47e09ec3cc13545c8f80ca257f68c70844106176e4807bf6b24e4e6aa",
+      "validation": "manual-review"
+    }
+  }
+}

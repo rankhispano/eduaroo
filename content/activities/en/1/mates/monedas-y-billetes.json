@@ -1,0 +1,231 @@
+{
+  "id": "g1-mates-monedas-y-billetes",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "monedas-y-billetes",
+  "temaNombre": "Coins and banknotes",
+  "title": "Playing with coins and banknotes",
+  "summary": "Practise the values of euro coins and banknotes in everyday situations.",
+  "keyIdeas": [
+    "In these exercises, we use 1 € and 2 € coins.",
+    "The lowest-value banknotes are 5 €, 10 € and 20 €.",
+    "We can add several small coins to make a larger amount."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Educación financiera",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-monedas-y-billetes-01",
+      "type": "classify",
+      "prompt": "Sort the money into euro coins and banknotes.",
+      "explanation": "1 € and 2 € are metal coins. 5 €, 10 € and 20 € are paper banknotes.",
+      "lang": "en",
+      "categories": [
+        "Coins",
+        "Banknotes"
+      ],
+      "items": [
+        {
+          "text": "1 €",
+          "category": 0
+        },
+        {
+          "text": "2 €",
+          "category": 0
+        },
+        {
+          "text": "5 €",
+          "category": 1
+        },
+        {
+          "text": "10 €",
+          "category": 1
+        },
+        {
+          "text": "20 €",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-02",
+      "type": "match",
+      "prompt": "Match each group of money to its total value.",
+      "explanation": "Add the values: 1 + 1 = 2 €, 1 + 2 = 3 €, five 1 € coins make 5 €, and 5 + 5 = 10 €.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Two 1 € coins",
+          "right": "Total: 2 €"
+        },
+        {
+          "left": "One 1 € coin and one 2 € coin",
+          "right": "Total: 3 €"
+        },
+        {
+          "left": "Five 1 € coins",
+          "right": "Total: 5 €"
+        },
+        {
+          "left": "Two 5 € banknotes",
+          "right": "Total: 10 €"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-03",
+      "type": "true-false",
+      "prompt": "A 2 € coin is worth more than a 5 € banknote.",
+      "explanation": "False. A 5 € banknote is worth more because 5 is greater than 2.",
+      "hint": "Compare 2 and 5.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-04",
+      "type": "choice",
+      "prompt": "Omar buys a notebook for 3 €. He pays with a 5 € banknote. How much change does he get?",
+      "explanation": "Subtract: 5 - 3 = 2 €. His change is 2 €.",
+      "hint": "Subtract the notebook's price from the money Omar pays.",
+      "lang": "en",
+      "options": [
+        "3 €",
+        "1 €",
+        "2 €"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-05",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct coin.",
+      "explanation": "Two 2 € coins make 4 € because 2 + 2 = 4.",
+      "hint": "Find the number that makes 4 when added to itself.",
+      "lang": "en",
+      "sentence": "To pay exactly 4 €, we need two ___ coins.",
+      "options": [
+        "2 €",
+        "5 €",
+        "1 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-06",
+      "type": "order",
+      "prompt": "Put these amounts in order from lowest to highest value.",
+      "explanation": "From lowest to highest: 1 €, 2 €, 5 €, 10 €, 20 €.",
+      "lang": "en",
+      "items": [
+        "1 €",
+        "2 €",
+        "5 €",
+        "10 €",
+        "20 €"
+      ]
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-07",
+      "type": "choice",
+      "prompt": "Lucía has two 2 € coins. She says she has 3 € altogether. What mistake does she make?",
+      "explanation": "She adds incorrectly: 2 + 2 = 4 €, not 3 €. Lucía has 4 €.",
+      "hint": "Add the value of a 2 € coin twice.",
+      "lang": "en",
+      "options": [
+        "She counts banknotes instead of coins.",
+        "She adds incorrectly: two 2 € coins make 4 €.",
+        "She should subtract the coins instead of adding them."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-08",
+      "type": "choice",
+      "prompt": "Aisha has 8 € in her purse. She wants to buy a storybook for 10 €. Does she have enough?",
+      "explanation": "8 is less than 10, so she does not have enough. 10 - 8 = 2 €. She needs 2 € more.",
+      "hint": "Compare 8 € and 10 €.",
+      "lang": "en",
+      "options": [
+        "No, she needs 2 € more.",
+        "Yes, with 1 € left over.",
+        "Yes, she has exactly enough."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-09",
+      "type": "choice",
+      "prompt": "Hugo has a 5 € banknote and a 2 € coin. How much money does he have altogether?",
+      "explanation": "Add the banknote and coin: 5 + 2 = 7 €.",
+      "hint": "Add 5 and 2.",
+      "lang": "en",
+      "options": [
+        "6 €",
+        "7 €",
+        "8 €"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-monedas-y-billetes-10",
+      "type": "choice",
+      "prompt": "Nerea wants a board game that costs 10 €. She has a 2 € coin and a 5 € banknote. How much more does she need?",
+      "explanation": "First add her money: 5 + 2 = 7 €. Then subtract from the price: 10 - 7 = 3 €. She needs 3 € more.",
+      "hint": "First find how much money Nerea has altogether.",
+      "lang": "en",
+      "options": [
+        "1 €",
+        "2 €",
+        "3 €"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:58:48.869Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:18:41.403Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "7ac2b95d04c0c44c54371a7fb09b38cb63fae8c24a89a69f20d7fc7cee4394c6",
+      "validation": "manual-review"
+    }
+  }
+}

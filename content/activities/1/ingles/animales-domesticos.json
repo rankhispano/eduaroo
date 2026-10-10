@@ -7,7 +7,7 @@
   "title": "My Lovely Pets",
   "summary": "Practica el vocabulario de los animales domésticos en inglés de forma divertida.",
   "keyIdeas": [
-    "Los animales domésticos o mascotas en inglés se llaman pets.",
+    "Las mascotas se llaman pets. Algunos animales domésticos, como los caballos de una granja, no son mascotas.",
     "Palabras clave para recordar: dog (perro), cat (gato), bird (pájaro), fish (pez) y rabbit (conejo).",
     "Podemos decir I have a pet para contar qué mascota tenemos en casa."
   ],
@@ -103,7 +103,7 @@
     {
       "id": "g1-ingles-animales-domesticos-05",
       "type": "classify",
-      "prompt": "Clasifica los animales en su grupo:",
+      "prompt": "En este dibujo, dog, cat y rabbit viven con una familia. Lion y elephant viven libres. Clasifica los animales del dibujo.",
       "explanation": "Dog, cat y rabbit son mascotas de casa (pets). Lion y elephant son animales salvajes (wild animals).",
       "lang": "en",
       "categories": [

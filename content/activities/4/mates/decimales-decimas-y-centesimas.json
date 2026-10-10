@@ -99,7 +99,7 @@
       "id": "g4-mates-decimales-decimas-y-centesimas-04",
       "type": "classify",
       "prompt": "Clasifica estos números decimales según su valor respecto a 1,5.",
-      "explanation": "1,5 es igual a 1,50. Los números con menos de 5 décimas son menores y los que tienen más de 5 décimas son mayores.",
+      "explanation": "Comparamos con 1,50. Si las décimas coinciden, miramos las centésimas: 1,52 tiene 2 centésimas más que 1,50.",
       "lang": "es",
       "categories": [
         "Menores que 1,5",

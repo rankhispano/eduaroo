@@ -138,7 +138,7 @@
       "id": "g3-mates-numeros-hasta-9-999-07",
       "type": "classify",
       "prompt": "Clasifica cada número según la centena a la que está más próximo:",
-      "explanation": "Los números entre 5.350 y 5.449 se redondean a 5.400. Los números a partir de 5.450 se aproximan a 5.500.",
+      "explanation": "A la centena más cercana, 5.350–5.449 se redondean a 5.400 y 5.450–5.549 a 5.500. En el punto medio usamos la regla de redondear hacia arriba.",
       "lang": "es",
       "categories": [
         "Más cerca de 5.400",

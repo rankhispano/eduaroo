@@ -1,0 +1,254 @@
+{
+  "id": "g3-ingles-presente-simple",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "presente-simple",
+  "temaNombre": "The present simple",
+  "title": "Daily Routines: Present Simple Fun",
+  "summary": "Practise the present simple to talk about routines and everyday actions in English.",
+  "keyIdeas": [
+    "With I, you, we and they, use the base form for these actions: I eat, they play.",
+    "In affirmative sentences with he, she and it, most verbs add -s or -es: she eats, he watches.",
+    "For negatives and questions with most action verbs, use do/don't or does/doesn't."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-presente-simple-01",
+      "type": "choice",
+      "prompt": "Choose the correct verb for this routine: 'I ___ football in the park every Saturday.'",
+      "explanation": "Use the base form without -s with 'I': 'I play'.",
+      "hint": "For this verb, only he, she or it takes the final -s.",
+      "lang": "en",
+      "options": [
+        "plays",
+        "play",
+        "playing"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-presente-simple-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct verb form.",
+      "explanation": "Lucía uses the same verb form as 'she', so add -s: walks.",
+      "hint": "Use the form that goes with she.",
+      "lang": "en",
+      "sentence": "Lucía ___ to school every morning at eight o'clock.",
+      "options": [
+        "walking",
+        "walk",
+        "walks"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-presente-simple-03",
+      "type": "true-false",
+      "prompt": "In this sentence, the verb is correct: 'Omar eat apples for breakfast.'",
+      "explanation": "Omar is third-person singular (he), so the verb needs -s: 'Omar eats apples'.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-ingles-presente-simple-04",
+      "type": "match",
+      "prompt": "Match each subject and action to the correct present simple phrase.",
+      "explanation": "With he and she, add -s (drinks, reads). With we and they, use the base form (drink, read).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "She + drink milk",
+          "right": "drinks milk"
+        },
+        {
+          "left": "We + drink water",
+          "right": "drink water"
+        },
+        {
+          "left": "He + read stories",
+          "right": "reads stories"
+        },
+        {
+          "left": "They + read comics",
+          "right": "read comics"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-presente-simple-05",
+      "type": "classify",
+      "prompt": "Sort these forms for affirmative present simple sentences.",
+      "explanation": "In these affirmative sentences, third-person singular uses likes, watches and runs. After does or doesn't, use the base form.",
+      "lang": "en",
+      "categories": [
+        "Use with I / You / We / They",
+        "Use with He / She / It"
+      ],
+      "items": [
+        {
+          "text": "like",
+          "category": 0
+        },
+        {
+          "text": "likes",
+          "category": 1
+        },
+        {
+          "text": "watch",
+          "category": 0
+        },
+        {
+          "text": "watches",
+          "category": 1
+        },
+        {
+          "text": "run",
+          "category": 0
+        },
+        {
+          "text": "runs",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-presente-simple-06",
+      "type": "choice",
+      "prompt": "Aisha talks about her brother. Choose the correct negative form: 'My brother ___ like cheese.'",
+      "explanation": "For this present simple negative with he (my brother), use doesn't followed by the base verb.",
+      "hint": "Use doesn't with he/she/it and don't with I/you/we/they.",
+      "lang": "en",
+      "options": [
+        "doesn't",
+        "isn't",
+        "don't"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-presente-simple-07",
+      "type": "order",
+      "prompt": "Put the subject first, then the action and place, and finish with 'together'.",
+      "explanation": "The requested order is subject (We), verb (have), object (lunch), place (at school), then together.",
+      "lang": "en",
+      "items": [
+        "We",
+        "have",
+        "lunch",
+        "at",
+        "school",
+        "together."
+      ]
+    },
+    {
+      "id": "g3-ingles-presente-simple-08",
+      "type": "fill-blank",
+      "prompt": "Choose the word to begin the question.",
+      "explanation": "For this present simple question with 'you', use the helping verb 'Do'.",
+      "hint": "Remember: Do you...? and Does he...?",
+      "lang": "en",
+      "sentence": "___ you live in a green house?",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-presente-simple-09",
+      "type": "reading",
+      "prompt": "Read about Martin's day and answer the questions.",
+      "explanation": "Read carefully to find each person's present simple actions.",
+      "lang": "en",
+      "title": "Martin's Busy Day",
+      "text": "Martin wakes up at seven o'clock every weekday. He washes his face, brushes his teeth, and eats delicious cereal with warm milk. At eight o'clock, Martin walks to school with his best friend Hugo. They arrive at school early and talk in the playground. In the afternoon, Martin does his English homework and plays the guitar in his room. His sister Aisha plays tennis in the garden. At night, Martin reads an adventure book with his dad. Finally, he goes to bed at nine o'clock feeling happy.",
+      "questions": [
+        {
+          "prompt": "Who walks to school with Martin?",
+          "explanation": "The text says Martin walks to school with his best friend Hugo.",
+          "options": [
+            "Aisha",
+            "Hugo",
+            "His dad"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What does Martin do in the afternoon?",
+          "explanation": "Martin plays the guitar in his room. His sister Aisha plays tennis.",
+          "options": [
+            "He plays tennis in the garden.",
+            "He washes his face.",
+            "He plays the guitar."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-presente-simple-10",
+      "type": "choice",
+      "prompt": "Which sentence is grammatically correct?",
+      "explanation": "'My friends' is plural (they), so the verb has no final -s: play.",
+      "hint": "Look carefully at the subject. Friends is plural.",
+      "lang": "en",
+      "options": [
+        "My friends playing basketball on Fridays.",
+        "My friends plays basketball on Fridays.",
+        "My friends play basketball on Fridays."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:58:18.081Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:37:38.968Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "9563e0cbf6efebb31b602b5271d7d7dcb3ffde10c7d3dbefa3ef1904234ac103",
+      "validation": "manual-review"
+    }
+  }
+}

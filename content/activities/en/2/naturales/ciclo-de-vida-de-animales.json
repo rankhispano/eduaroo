@@ -1,0 +1,244 @@
+{
+  "id": "g2-naturales-ciclo-de-vida-de-animales",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "ciclo-de-vida-de-animales",
+  "temaNombre": "Animal life cycles",
+  "title": "The animal life cycle",
+  "summary": "Practise how animals are born and grow.",
+  "keyIdeas": [
+    "All animals are born, grow and die. They may reproduce.",
+    "Some animals hatch from eggs. Others are born from their mother's body.",
+    "Animals such as frogs and butterflies change a lot as they grow."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-01",
+      "type": "true-false",
+      "prompt": "Animals are born, grow and may reproduce.",
+      "explanation": "A life cycle includes birth, growth, possible reproduction and death. Not every animal has young.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-02",
+      "type": "choice",
+      "prompt": "Lucía sees a nest. Where do baby sparrows come from?",
+      "explanation": "Sparrows are birds. They hatch from eggs laid by their mothers.",
+      "hint": "Think about how birds are born.",
+      "lang": "en",
+      "options": [
+        "An egg",
+        "Their mother's body",
+        "A seed"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-03",
+      "type": "order",
+      "prompt": "Put the frog's life cycle in order.",
+      "explanation": "A frog hatches from an egg. It is first a tadpole, then a young frog.",
+      "lang": "en",
+      "items": [
+        "Egg",
+        "Tadpole",
+        "Young frog with legs",
+        "Adult frog"
+      ]
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-04",
+      "type": "match",
+      "prompt": "Match each animal to its young.",
+      "explanation": "Young animals have different names depending on their species.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Dog",
+          "right": "Puppy"
+        },
+        {
+          "left": "Frog",
+          "right": "Tadpole"
+        },
+        {
+          "left": "Butterfly",
+          "right": "Caterpillar"
+        },
+        {
+          "left": "Hen",
+          "right": "Chick"
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-05",
+      "type": "classify",
+      "prompt": "Sort these animals by how they are born.",
+      "explanation": "Egg-laying animals hatch from eggs. Live-bearing animals are born from their mother's body.",
+      "lang": "en",
+      "categories": [
+        "Hatch from eggs",
+        "Born from their mother's body"
+      ],
+      "items": [
+        {
+          "text": "Duck",
+          "category": 0
+        },
+        {
+          "text": "Cow",
+          "category": 1
+        },
+        {
+          "text": "Tortoise",
+          "category": 0
+        },
+        {
+          "text": "Rabbit",
+          "category": 1
+        },
+        {
+          "text": "Sardine",
+          "category": 0
+        },
+        {
+          "text": "Sheep",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-06",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the caterpillar.",
+      "explanation": "A caterpillar changes into a butterfly.",
+      "lang": "en",
+      "sentence": "As it grows, a caterpillar becomes a ___ with wings.",
+      "options": [
+        "butterfly",
+        "spider",
+        "frog"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-07",
+      "type": "choice",
+      "prompt": "Hugo watches a video of a tadpole. Which change will he see before it becomes an adult frog?",
+      "explanation": "A tadpole grows small legs. Later, it loses its tail.",
+      "hint": "Think about how frogs swim and jump.",
+      "lang": "en",
+      "options": [
+        "It grows legs",
+        "It grows wings",
+        "It grows hair"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-08",
+      "type": "choice",
+      "prompt": "Which statement about animals is incorrect?",
+      "explanation": "Not all young animals look just like their parents. A tadpole looks different from a frog.",
+      "hint": "Remember how frogs and caterpillars change.",
+      "lang": "en",
+      "options": [
+        "Calves drink their mother's milk",
+        "Ducklings hatch from eggs",
+        "All young animals look exactly like their parents at birth"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-09",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions.",
+      "explanation": "A caterpillar becomes a chrysalis before a butterfly emerges. We observe animals without harming them.",
+      "lang": "en",
+      "title": "Aisha's caterpillar",
+      "text": "Aisha watches a green caterpillar in the garden without touching it. It eats fresh leaves. Later, it becomes a chrysalis. Its body changes during this stage. Then a butterfly comes out and flies away. Aisha keeps watching with her teacher.",
+      "questions": [
+        {
+          "prompt": "What does Aisha's caterpillar eat?",
+          "explanation": "The text says the caterpillar eats fresh leaves.",
+          "options": [
+            "Fresh leaves",
+            "Dried fruit",
+            "Hard seeds"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What does the caterpillar become in the end?",
+          "explanation": "A butterfly comes out of the chrysalis.",
+          "options": [
+            "A bee",
+            "A butterfly",
+            "A grasshopper"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-ciclo-de-vida-de-animales-10",
+      "type": "order",
+      "prompt": "Put the stages of a butterfly's life cycle in order.",
+      "explanation": "First comes the egg, then the caterpillar, chrysalis and adult butterfly.",
+      "lang": "en",
+      "items": [
+        "Egg",
+        "Caterpillar",
+        "Chrysalis",
+        "Adult butterfly"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:36:58.597Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:37:45.935Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "9085cccd38129133770df19520756c3c4e507b1f29d93f87a6fec7147cbabb22",
+      "validation": "manual-review"
+    }
+  }
+}

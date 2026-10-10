@@ -1,0 +1,242 @@
+{
+  "id": "g3-naturales-fuentes-de-energia",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "fuentes-de-energia",
+  "temaNombre": "Energy sources",
+  "title": "Discover the power of energy!",
+  "summary": "Review renewable and non-renewable energy sources and learn to use them responsibly.",
+  "keyIdeas": [
+    "Renewable sources are replaced through natural processes, such as wind and the water cycle.",
+    "Non-renewable sources exist in limited amounts in nature and can run out.",
+    "Saving energy at home and at school helps care for the environment."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-fuentes-de-energia-01",
+      "type": "true-false",
+      "prompt": "The Sun is a source we do not use up, and it naturally gives us light and heat.",
+      "explanation": "Solar energy is renewable because using sunlight does not use it up.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-02",
+      "type": "choice",
+      "prompt": "What makes an energy source renewable? 🌱",
+      "explanation": "Renewable sources are replaced through natural processes. This does not mean they are available all the time.",
+      "hint": "Think about what the word renew means.",
+      "lang": "en",
+      "options": [
+        "It quickly runs out when we use a lot of it",
+        "It is replaced through natural processes",
+        "It produces a lot of smoke when used"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-03",
+      "type": "match",
+      "prompt": "Match each natural resource to the energy it provides.",
+      "explanation": "Different resources provide different kinds of energy: wind energy, solar energy from the Sun, and water power from moving water.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Wind",
+          "right": "Wind energy"
+        },
+        {
+          "left": "Sunlight",
+          "right": "Solar energy"
+        },
+        {
+          "left": "Flowing water",
+          "right": "Water power"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-04",
+      "type": "classify",
+      "prompt": "Sort these energy sources by whether nature replaces them as we use them.",
+      "explanation": "Wind, sunlight and the water cycle provide renewable energy. Coal, oil and gas form much more slowly than we use them.",
+      "lang": "en",
+      "categories": [
+        "Renewable sources",
+        "Non-renewable sources"
+      ],
+      "items": [
+        {
+          "text": "Sunlight",
+          "category": 0
+        },
+        {
+          "text": "Oil",
+          "category": 1
+        },
+        {
+          "text": "The power of wind",
+          "category": 0
+        },
+        {
+          "text": "Coal",
+          "category": 1
+        },
+        {
+          "text": "Natural gas",
+          "category": 1
+        },
+        {
+          "text": "Flowing rivers",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-05",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the right words.",
+      "explanation": "These resources take so long to form underground that people use them much faster than they are replaced.",
+      "lang": "en",
+      "sentence": "Oil and coal take millions of years to form, so they are ___ energy sources.",
+      "options": [
+        "clean",
+        "non-renewable",
+        "unlimited"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-06",
+      "type": "choice",
+      "prompt": "Hugo puts two toy cars in the sun. Car A has a small solar panel, and car B has a flat battery. Which scientific prediction is correct?",
+      "explanation": "Solar panels turn light into electricity to power the toy's motor.",
+      "hint": "Look for the car with something that uses sunlight.",
+      "lang": "en",
+      "options": [
+        "Car A will move because its panel turns sunlight into electricity",
+        "Neither car will work because the Sun cannot provide electrical energy",
+        "Both cars will move equally fast because the ground is warm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-07",
+      "type": "choice",
+      "prompt": "Find the statement that contains a mistake about energy use.",
+      "explanation": "When we walk, we use energy from our bodies and avoid using petrol or diesel, which are fossil fuels.",
+      "hint": "Walking does not need petrol.",
+      "lang": "en",
+      "options": [
+        "Wind turns the blades of wind turbines",
+        "Walking instead of travelling by car uses fossil fuel",
+        "Turning off unnecessary lights helps save energy"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-08",
+      "type": "reading",
+      "prompt": "Read the school news story and answer the questions.",
+      "explanation": "Wind turbines use wind without burning fuel. Wind energy also has environmental effects that need to be studied.",
+      "lang": "en",
+      "title": "Wind turbines on the hill",
+      "text": "Three large wind turbines have been installed on the highest hill in Aisha's village. When the wind blows, their huge blades turn. This movement drives a machine that generates electricity for local homes. The council no longer buys electricity generated from coal. Aisha's class visited with their teacher. They learnt that wind is renewable, although it does not always blow. Wind turbines do not burn fuel when generating electricity. The electricity enters the village's power grid.",
+      "questions": [
+        {
+          "prompt": "Which natural resource do the wind turbines on the hill use?",
+          "explanation": "The text explains that the blades turn when the wind blows.",
+          "options": [
+            "Water falling in the river",
+            "The power of the wind",
+            "Heat from the Sun"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why does this installation help Aisha's village?",
+          "explanation": "Wind turbines do not burn coal or release smoke when generating electricity. Their effects on the landscape and living things must also be studied.",
+          "options": [
+            "It allows lots of coal to be stored on the hill",
+            "It generates electricity without releasing toxic smoke into the air",
+            "It makes much more wind blow every afternoon"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-09",
+      "type": "order",
+      "prompt": "Put the energy's journey from the wind to your home in order.",
+      "explanation": "First, wind turns the blades. The generator makes electricity, cables carry it, and it finally reaches your home's sockets.",
+      "lang": "en",
+      "items": [
+        "Wind turns the turbine's blades",
+        "The generator turns movement into electricity",
+        "Electric cables carry energy to the village",
+        "You use the switch to turn on your bedroom lamp"
+      ]
+    },
+    {
+      "id": "g3-naturales-fuentes-de-energia-10",
+      "type": "choice",
+      "prompt": "Leo's school wants to save energy. Each classroom has 4 light bulbs on all afternoon. They turn off 2 bulbs in each of 3 classrooms. How many bulbs do they turn off altogether? 💡",
+      "explanation": "They turn off 2 bulbs in each of 3 classrooms: 2 × 3 = 6 bulbs turned off.",
+      "hint": "Multiply the bulbs turned off in one classroom by the number of classrooms.",
+      "lang": "en",
+      "options": [
+        "6 bulbs",
+        "12 bulbs",
+        "5 bulbs"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:52:03.953Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:22:07.048Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "cc5f632a119f31352399ffa6c7a311f74555faf0e14a86d709075cfafe6a9518",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "id": "g1-sociales-la-familia",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "la-familia",
+  "temaNombre": "Family",
+  "title": "Discovering our families",
+  "summary": "Review different families, family relationships and helping at home.",
+  "keyIdeas": [
+    "Families can be different. Everyone deserves care and respect.",
+    "We help at home according to our age and what we can do.",
+    "Memories from relatives and people close to us help us learn about the past."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE7",
+      "CE8",
+      "CE9"
+    ],
+    "criteria": [
+      "7.1",
+      "8.2",
+      "9.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CCL5",
+      "CE2",
+      "CP3",
+      "CPSAA1",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-la-familia-01",
+      "type": "true-false",
+      "prompt": "All families are the same.",
+      "explanation": "There are many different families. Each is unique.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-sociales-la-familia-02",
+      "type": "match",
+      "prompt": "Match each person to their family relationship.",
+      "explanation": "Family words describe how people are related.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "My mother's mother",
+          "right": "My grandmother"
+        },
+        {
+          "left": "Another son of my parents",
+          "right": "My brother"
+        },
+        {
+          "left": "My father's brother",
+          "right": "My uncle"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-la-familia-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about family.",
+      "explanation": "Love and respect are important in families.",
+      "lang": "en",
+      "sentence": "In a family, caring for each other and showing ___ matter most.",
+      "options": [
+        "love",
+        "fear",
+        "anger"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-la-familia-04",
+      "type": "classify",
+      "prompt": "Sort these tasks by who can do them at home.",
+      "explanation": "Adults do dangerous tasks. Young children can help with simple tidying.",
+      "lang": "en",
+      "categories": [
+        "Young children",
+        "Adults"
+      ],
+      "items": [
+        {
+          "text": "Put my bedroom toys away",
+          "category": 0
+        },
+        {
+          "text": "Put napkins on the table",
+          "category": 0
+        },
+        {
+          "text": "Cook with very hot oil",
+          "category": 1
+        },
+        {
+          "text": "Use a hot iron on clothes",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-la-familia-05",
+      "type": "choice",
+      "prompt": "Lucas sees his father sweeping the living room. What can Lucas do?",
+      "explanation": "Helping with household tasks makes living together easier.",
+      "hint": "Think about helping finish the task.",
+      "lang": "en",
+      "options": [
+        "Go and play without tidying",
+        "Drop more paper on the floor",
+        "Help pick up toys from the floor"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-la-familia-06",
+      "type": "order",
+      "prompt": "Put these life stages in order from the beginning.",
+      "explanation": "We are born as babies and grow over time.",
+      "lang": "en",
+      "items": [
+        "Baby",
+        "Child",
+        "Adult",
+        "Older person"
+      ]
+    },
+    {
+      "id": "g1-sociales-la-familia-07",
+      "type": "true-false",
+      "prompt": "Only mothers should wash dishes and cook.",
+      "explanation": "Tasks do not depend on being a man or woman. They are shared according to each person's age and abilities.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-sociales-la-familia-08",
+      "type": "choice",
+      "prompt": "What happens when everyone at home helps?",
+      "explanation": "Sharing tasks can give us more time to enjoy together.",
+      "hint": "Think about the benefits of teamwork.",
+      "lang": "en",
+      "options": [
+        "We have more free time to enjoy together",
+        "The home becomes messier and dirtier",
+        "Nobody knows which task to do"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-la-familia-09",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about family history.",
+      "explanation": "Older people's memories help us learn about the past.",
+      "lang": "en",
+      "sentence": "Grandparents tell stories about the past using their ___.",
+      "options": [
+        "memories",
+        "scooters",
+        "backpacks"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-la-familia-10",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "Family photographs can show us how people lived in the past.",
+      "lang": "en",
+      "title": "Martina's photo album",
+      "text": "Martina looks at a photo album with her grandfather Luis. An old photo shows Luis as a child playing with spinning tops. Martina smiles and shows him her favourite building-block game. They enjoy sharing their stories.",
+      "questions": [
+        {
+          "prompt": "What did Grandpa Luis play with as a child?",
+          "explanation": "The text says he played with spinning tops.",
+          "options": [
+            "Plastic building blocks",
+            "Spinning tops",
+            "A digital tablet"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What do Martina and her grandfather discover from the photos?",
+          "explanation": "Old photographs show how life changes over time.",
+          "options": [
+            "Nobody played at home in the past",
+            "Grandparents were never children",
+            "Games change over time"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:19:43.484Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:59:25.617Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "95f4ac10b40eadb4530ebea3fa5f794ac24eca9f1fac108c5cab515dd763729d",
+      "validation": "manual-review"
+    }
+  }
+}

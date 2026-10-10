@@ -9,7 +9,7 @@
   "keyIdeas": [
     "La comunicación verbal emplea palabras habladas o escritas, mientras que la no verbal usa gestos, miradas, posturas y sonidos.",
     "El lenguaje corporal y la entonación deben guardar coherencia con las palabras para que el mensaje se entienda bien.",
-    "En una conversación, escuchar activamente con la mirada y la postura es tan importante como hablar con claridad."
+    "Escuchar activamente implica atender, dejar hablar y responder al mensaje. No todas las personas necesitan mirar a los ojos para escuchar."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -118,13 +118,13 @@
       "id": "g6-lengua-comunicacion-verbal-y-no-verbal-04",
       "type": "choice",
       "prompt": "Durante una exposición oral en clase de Ciencias, Hugo habla con claridad, pero mantiene la mirada fija en el suelo y habla con un volumen muy bajo. ¿Qué aspecto no verbal debería mejorar?",
-      "explanation": "El contacto visual con el público y un volumen adecuado son recursos no verbales imprescindibles para transmitir seguridad y captar la atención de la audiencia.",
+      "explanation": "Un volumen audible ayuda a seguir la explicación. Puede mirar al grupo o a un punto cercano si le resulta más cómodo; el contacto visual directo no es imprescindible.",
       "hint": "Piensa en qué elementos corporales y de la voz ayudan a conectar con los oyentes.",
       "lang": "es",
       "options": [
         "Hablar lo más rápido posible para terminar antes la exposición.",
         "Aprenderse el texto de memoria para no consultar sus notas en ningún momento.",
-        "Mantener el contacto visual con sus compañeros y proyectar la voz con un volumen adecuado."
+        "Hablar con un volumen que se oiga y orientar su explicación hacia el público."
       ],
       "answer": 2
     },
@@ -145,8 +145,8 @@
     {
       "id": "g6-lengua-comunicacion-verbal-y-no-verbal-06",
       "type": "choice",
-      "prompt": "¿En cuál de las siguientes situaciones se produce una contradicción evidente entre la comunicación verbal y la no verbal?",
-      "explanation": "Adrián dice con palabras que está genial, pero su rostro decaído, su mirada baja y su tono tembloroso comunican justo lo contrario.",
+      "prompt": "¿En qué situación los gestos podrían hacer dudar de que las palabras reflejen cómo se siente la persona?",
+      "explanation": "El tono tembloroso y el ceño fruncido pueden parecer poco acordes con «estoy estupendamente». Los gestos no permiten saber con certeza cómo se siente alguien: conviene preguntarle con respeto.",
       "lang": "es",
       "options": [
         "Adrián afirma: «No me pasa nada, estoy estupendamente», mientras mira al suelo con el ceño fruncido y voz temblorosa.",
@@ -159,13 +159,13 @@
       "id": "g6-lengua-comunicacion-verbal-y-no-verbal-07",
       "type": "order",
       "prompt": "Ordena los pasos que sigue una persona para realizar una intervención oral formal y respetuosa en un debate:",
-      "explanation": "Una comunicación oral eficaz comienza con la petición ordenada del turno, continúa con el contacto visual y la exposición pausada, y concluye con una escucha activa y respetuosa.",
+      "explanation": "Primero se pide y espera el turno; después se exponen los argumentos y se escucha la respuesta.",
       "lang": "es",
       "items": [
-        "Pedir el turno de palabra levantando la mano con serenidad.",
-        "Dirigir la mirada al resto de participantes antes de comenzar a hablar.",
-        "Exponer los argumentos con tono calmado, pausas adecuadas y gestos abiertos.",
-        "Escuchar la réplica del compañero manteniendo una postura receptiva."
+        "Pedir el turno de palabra.",
+        "Esperar a recibir el turno y preparar la intervención.",
+        "Exponer los argumentos con tono calmado y pausas adecuadas.",
+        "Escuchar la respuesta sin interrumpir."
       ]
     },
     {

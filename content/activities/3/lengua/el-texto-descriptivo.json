@@ -144,8 +144,8 @@
       "id": "g3-lengua-el-texto-descriptivo-06",
       "type": "choice",
       "prompt": "Encuentra el error: ¿qué frase contiene una contradicción en la descripción?",
-      "explanation": "Un desierto se caracteriza por la falta de agua y la aridez. Decir que está cubierto por un gran lago contradice la descripción.",
-      "hint": "Fíjate en las características propias de un desierto.",
+      "explanation": "La misma superficie no puede estar muy seca y, a la vez, completamente cubierta por un lago profundo. Esta es la contradicción de la frase.",
+      "hint": "Compara las dos características atribuidas al mismo lugar: muy seco y cubierto por un lago.",
       "lang": "es",
       "options": [
         "El parque tenía bancos de madera limpia y árboles llenos de hojas verdes.",
@@ -157,8 +157,8 @@
     {
       "id": "g3-lengua-el-texto-descriptivo-07",
       "type": "order",
-      "prompt": "Ordena estos pasos para organizar una buena descripción de una persona:",
-      "explanation": "Al describir a alguien solemos empezar por la presentación general, seguimos con su físico, continuamos con su carácter y terminamos con sus aficiones.",
+      "prompt": "Sigue esta guía: presentación, físico, carácter y gustos. Ordena sus pasos.",
+      "explanation": "Esta guía propone empezar con la presentación, seguir con el físico y el carácter, y terminar con gustos o aficiones. Hay otras formas de organizar una descripción.",
       "lang": "es",
       "items": [
         "Presentar quién es la persona y cómo se llama.",

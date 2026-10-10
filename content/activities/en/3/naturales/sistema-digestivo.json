@@ -1,0 +1,238 @@
+{
+  "id": "g3-naturales-sistema-digestivo",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "sistema-digestivo",
+  "temaNombre": "The digestive system",
+  "title": "The journey of food",
+  "summary": "Review how the digestive system works and how our body uses nutrients.",
+  "keyIdeas": [
+    "Digestion breaks down food to obtain the nutrients we need.",
+    "The digestive tract starts at the mouth and ends at the anus.",
+    "Most nutrients pass into the blood through the small intestine."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-sistema-digestivo-01",
+      "type": "choice",
+      "prompt": "Lucía eats an apple at break time. Where does digestion of this food begin? 🍎",
+      "explanation": "Digestion begins in the mouth, where teeth break up food and saliva moistens it.",
+      "hint": "It is where we chew food.",
+      "lang": "en",
+      "options": [
+        "In the oesophagus",
+        "In the stomach",
+        "In the mouth"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-02",
+      "type": "true-false",
+      "prompt": "The oesophagus is a tube connecting the mouth directly to the small intestine.",
+      "explanation": "The oesophagus connects the throat to the stomach, rather than to the small intestine.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about digestion with the right word.",
+      "explanation": "Gastric juices in the stomach help break down food into a soft mixture.",
+      "hint": "The word begins with g and relates to the stomach.",
+      "lang": "en",
+      "sentence": "In the stomach, food mixes with ___ juices to help break it down.",
+      "options": [
+        "lung",
+        "salivary",
+        "gastric"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-04",
+      "type": "order",
+      "prompt": "Put the route of a piece of bread through the digestive tract in order.",
+      "explanation": "Food passes from the mouth through the oesophagus, stomach, small intestine and finally the large intestine.",
+      "lang": "en",
+      "items": [
+        "Mouth",
+        "Oesophagus",
+        "Stomach",
+        "Small intestine",
+        "Large intestine"
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-05",
+      "type": "match",
+      "prompt": "Match each part of the digestive system to its main job.",
+      "explanation": "Teeth chew food, the small intestine absorbs nutrients, and the large intestine absorbs water from the remaining material.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Teeth",
+          "right": "Cutting and breaking up food"
+        },
+        {
+          "left": "Small intestine",
+          "right": "Absorbing nutrients"
+        },
+        {
+          "left": "Large intestine",
+          "right": "Absorbing water and forming faeces"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-06",
+      "type": "classify",
+      "prompt": "Sort these body parts into organs of the digestive tract or glands that help digestion.",
+      "explanation": "The digestive tract is the hollow route food travels through. The liver, pancreas and salivary glands make substances that help digestion.",
+      "lang": "en",
+      "categories": [
+        "Organs of the digestive tract",
+        "Digestive glands"
+      ],
+      "items": [
+        {
+          "text": "Stomach",
+          "category": 0
+        },
+        {
+          "text": "Liver",
+          "category": 1
+        },
+        {
+          "text": "Small intestine",
+          "category": 0
+        },
+        {
+          "text": "Salivary glands",
+          "category": 1
+        },
+        {
+          "text": "Pancreas",
+          "category": 1
+        },
+        {
+          "text": "Oesophagus",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-07",
+      "type": "reading",
+      "prompt": "Read about Omar's experience and answer the questions.",
+      "explanation": "Chemical digestion begins in the mouth because saliva contains substances that break down food.",
+      "lang": "en",
+      "title": "The cracker experiment",
+      "text": "Omar learns about digestion in science class. The teacher explains what happens when we chew a savoury cracker. At first, it tastes salty and feels crunchy. Slowly, saliva soaks into it. Omar notices something curious: after chewing for a while, the cracker starts to taste a little sweet. The teacher explains that saliva contains special substances called enzymes. They break down complex carbohydrates in the cracker into simpler sugars.",
+      "questions": [
+        {
+          "prompt": "Which liquid in the mouth changes the cracker during the experiment?",
+          "explanation": "The text explains that saliva acts on the cracker.",
+          "options": [
+            "Water from a glass",
+            "Gastric juice",
+            "Saliva"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why does the cracker start to taste sweet?",
+          "explanation": "Enzymes in saliva break down the starch in bread or crackers into simpler sugars.",
+          "options": [
+            "Saliva breaks down carbohydrates into simpler sugars",
+            "Teeth are made of sugar",
+            "Omar secretly added sugar"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-08",
+      "type": "choice",
+      "prompt": "Think scientifically: Martina eats very quickly and hardly chews. What might happen in her stomach? 🧪",
+      "explanation": "Chewing well makes food pieces smaller and mixes them with saliva. This helps the digestive system do its work.",
+      "hint": "Think about the extra work the stomach will need to do.",
+      "lang": "en",
+      "options": [
+        "Large pieces could make digestion harder",
+        "Nutrients will enter the blood instantly",
+        "The stomach will digest everything faster because there is no saliva"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-09",
+      "type": "choice",
+      "prompt": "Find the mistake: Hugo writes three statements in his notebook. Which one is incorrect? ❌",
+      "explanation": "Most nutrients are absorbed in the small intestine. The large intestine mainly absorbs water and forms faeces.",
+      "hint": "Which intestine absorbs most nutrients?",
+      "lang": "en",
+      "options": [
+        "Faeces leave the body through the anus",
+        "Chewed food and saliva form a ball of food in the mouth",
+        "The large intestine absorbs most of the nutrients that enter the blood"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-sistema-digestivo-10",
+      "type": "true-false",
+      "prompt": "Drinking enough water and eating foods with fibre help the intestine work properly.",
+      "explanation": "Water and fibre help material move through the digestive tract and help prevent constipation.",
+      "lang": "en",
+      "answer": true
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:44:43.523Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:25:16.169Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "c6afd60ff00d6c9d6cef9d2140430bf66ab190118d369dc135677a6264381f12",
+      "validation": "manual-review"
+    }
+  }
+}

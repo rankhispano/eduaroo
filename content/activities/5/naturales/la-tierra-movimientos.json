@@ -61,7 +61,7 @@
       "id": "g5-naturales-la-tierra-movimientos-02",
       "type": "true-false",
       "prompt": "La Tierra tarda exactamente 365 días en dar una vuelta completa alrededor del Sol.",
-      "explanation": "La Tierra tarda 365 días y casi 6 horas en completar su órbita. Por eso, cada cuatro años sumamos un día en febrero (año bisiesto).",
+      "explanation": "La vuelta dura aproximadamente 365 días y casi 6 horas. El calendario se ajusta con años bisiestos, normalmente cada cuatro años, con algunas excepciones.",
       "lang": "es",
       "answer": false
     },
@@ -86,7 +86,7 @@
         },
         {
           "left": "Año bisiesto",
-          "right": "Ajuste de las 6 horas sobrantes cada cuatro años"
+          "right": "Día añadido en febrero para ajustar el calendario, normalmente cada cuatro años"
         }
       ]
     },
@@ -173,7 +173,7 @@
     {
       "id": "g5-naturales-la-tierra-movimientos-08",
       "type": "choice",
-      "prompt": "Razonamiento científico: Hugo clava un lápiz vertical en el suelo del patio a las 9:00, a las 12:00 y a las 15:00 en un día soleado de otoño. ¿Qué observación registrará en su cuaderno sobre la sombra proyectada? ✏️",
+      "prompt": "Razonamiento científico: Hugo clava un lápiz vertical en el suelo del patio por la mañana, al mediodía solar (cuando el Sol está más alto) y por la tarde en un día soleado de otoño. ¿Qué observación registrará en su cuaderno sobre la sombra proyectada? ✏️",
       "explanation": "A mediodía el Sol alcanza su posición más alta en el cielo, por lo que la sombra proyectada es más corta. Al estar más bajo por la mañana y la tarde, las sombras son más alargadas.",
       "hint": "Imagina cómo varía la altura del Sol a lo largo del día por la rotación.",
       "lang": "es",
@@ -192,7 +192,7 @@
       "explanation": "El experimento demuestra cómo la inclinación fija del eje durante la traslación es la causa fundamental de las estaciones y de las noches polares.",
       "lang": "es",
       "title": "Un experimento con linterna y naranja",
-      "text": "Hoy en clase de Ciencias investigamos por qué los polos pasan meses en penumbra. Nuestra maestra Nerea nos repartió una naranja atravesada con un palillo de brocheta ligeramente inclinado y una linterna fija. La linterna simulaba el Sol y la naranja representaba la Tierra con su eje.\n\nAl hacer girar la naranja sobre el palillo sin variar su inclinación, observamos que la mitad iluminada cambiaba continuamente, demostrando el día y la noche. Pero lo más sorprendente ocurrió al trasladar la naranja en círculo manteniendo el palillo apuntando siempre hacia la misma pared del aula.\n\nDurante una parte del recorrido, el extremo superior del palillo (el polo norte) quedaba permanentemente iluminado al rotar: era el solsticio de verano boreal. En cambio, el polo sur permanecía a oscuras durante giros enteros. Comprendí que no necesitamos que la Tierra se acerque o se aleje del Sol para que cambie la temperatura; basta con que los rayos caigan más inclinados para que calienten menos superficie.",
+      "text": "Hoy en clase de Ciencias investigamos por qué los polos pasan meses en penumbra. Nuestra maestra Nerea nos repartió una naranja atravesada con un palillo de brocheta ligeramente inclinado y una linterna fija. La linterna simulaba el Sol y la naranja representaba la Tierra con su eje.\n\nAl hacer girar la naranja sobre el palillo sin variar su inclinación, observamos que la mitad iluminada cambiaba continuamente, demostrando el día y la noche. Pero lo más sorprendente ocurrió al trasladar la naranja en círculo manteniendo el palillo apuntando siempre hacia la misma pared del aula.\n\nDurante una parte del recorrido, el extremo superior del palillo (el polo norte) quedaba permanentemente iluminado al rotar: era el solsticio de verano boreal. En cambio, el polo sur permanecía a oscuras durante giros enteros. Comprendí que no necesitamos que la Tierra se acerque o se aleje del Sol para que cambie la temperatura; basta con que los rayos caigan más inclinados para que repartan su energía sobre una superficie mayor.",
       "questions": [
         {
           "prompt": "¿Qué objeto del experimento representaba el eje terrestre de rotación?",
@@ -206,15 +206,14 @@
           "answer": 0
         },
         {
-          "prompt": "¿Qué se puede deducir sobre lo que ocurriría en los polos si el eje de la Tierra no estuviese inclinado?",
-          "explanation": "Sin inclinación axial, los rayos solares incidirían siempre con el mismo ángulo durante todo el año, haciendo que el día y la noche durasen lo mismo en cualquier latitud y desapareciendo las estaciones.",
+          "prompt": "¿Qué fenómeno polar del modelo se debe a la inclinación del eje?",
           "options": [
-            "Todos los días del año tendrían exactamente 12 horas de luz y 12 horas de oscuridad en todo el planeta.",
-            "Los polos se congelarían por completo y la Tierra dejaría de girar en su órbita.",
-            "El polo norte estaría siempre iluminado y el polo sur siempre a oscuras durante todo el año.",
-            "El Sol brillaría con el doble de intensidad en todas las regiones del planeta al mismo tiempo."
+            "Pasar largos períodos con luz continua o con oscuridad continua",
+            "Dejar de girar sobre el eje durante el invierno",
+            "Duplicar la intensidad del Sol durante el verano"
           ],
-          "answer": 0
+          "answer": 0,
+          "explanation": "La inclinación permite que un polo quede orientado hacia el Sol durante una parte del año y en sentido contrario durante otra."
         },
         {
           "prompt": "¿Por qué es importante mantener el eje apuntando siempre en la misma dirección durante el experimento de traslación?",
@@ -233,13 +232,13 @@
       "id": "g5-naturales-la-tierra-movimientos-10",
       "type": "choice",
       "prompt": "Imagina que un equipo de astrónomos descubre un exoplaneta idéntico a la Tierra, pero su eje no tiene ninguna inclinación (es totalmente perpendicular a su órbita). ¿Qué afirmación científica describe con rigor la vida en ese planeta? 🪐",
-      "explanation": "Al no existir inclinación del eje, el ángulo con el que inciden los rayos solares en cada latitud sería constante a lo largo de todo el año, eliminando las estaciones térmicas.",
+      "explanation": "Sin inclinación no habría el cambio estacional de iluminación que vemos en la Tierra. Esto no significa que desaparezcan las variaciones del tiempo atmosférico.",
       "hint": "Recuerda cuál es el factor determinante para que existan primavera, verano, otoño e invierno.",
       "lang": "es",
       "options": [
         "Una mitad del planeta se quemaría con fuego eterno y la otra mitad quedaría congelada sin luz solar jamás.",
         "El planeta tendría seis estaciones al año porque giraría mucho más deprisa sobre sí mismo.",
-        "No existirían estaciones del año; cada zona del planeta tendría el mismo clima y la misma duración de luz día tras día.",
+        "No tendría las estaciones causadas por la inclinación del eje, aunque el tiempo atmosférico podría cambiar.",
         "El año duraría el doble de días porque la traslación se volvería dos veces más lenta sin inclinación."
       ],
       "answer": 2

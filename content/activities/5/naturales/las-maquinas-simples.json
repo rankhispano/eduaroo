@@ -8,7 +8,7 @@
   "summary": "Explora cómo las palancas, poleas y planos inclinados nos ayudan a multiplicar nuestra fuerza en la vida diaria.",
   "keyIdeas": [
     "Las máquinas simples transforman una fuerza aplicada para facilitar una tarea, cambiando su intensidad o dirección.",
-    "No ahorran energía total: para aplicar menos fuerza debemos recorrer una distancia mayor (fuerza por distancia).",
+    "Las máquinas no crean energía: en un modelo ideal, reducir la fuerza exige aplicarla durante más distancia.",
     "Los tipos principales son la palanca, el plano inclinado, la polea, el torno, la cuña y el tornillo."
   ],
   "lomloe": {
@@ -133,7 +133,7 @@
           "category": 1
         },
         {
-          "text": "Pinzas para servir ensalada",
+          "text": "Pinzas flexibles de una pieza, unidas por un extremo",
           "category": 2
         },
         {
@@ -146,7 +146,7 @@
       "id": "g5-naturales-las-maquinas-simples-06",
       "type": "choice",
       "prompt": "Durante un debate de clase, Hugo afirma: «¡Las máquinas simples crean energía de la nada para que levantar cosas no cueste nada de trabajo!». ¿Cuál es el error científico en la afirmación de Hugo?",
-      "explanation": "La energía se conserva y no surge de la nada. Para hacer menos fuerza debemos empujar durante más distancia, realizando el mismo trabajo mecánico total.",
+      "explanation": "Las máquinas no crean energía. En un modelo ideal sin rozamiento, menos fuerza implica más recorrido y el mismo trabajo. Las máquinas reales también pierden energía por rozamiento.",
       "hint": "Recuerda la ley de conservación de la energía: nada se crea de la nada.",
       "lang": "es",
       "options": [
@@ -159,15 +159,15 @@
     {
       "id": "g5-naturales-las-maquinas-simples-07",
       "type": "order",
-      "prompt": "Ordena los pasos que debe seguir Adrián para mover con seguridad una roca pesada del huerto usando una barra de hierro rígida como palanca:",
-      "explanation": "Al colocar el punto de apoyo cerca de la carga y aplicar la fuerza en el extremo más largo, se logra la máxima ventaja mecánica para mover el peso.",
+      "prompt": "La docente prepara una maqueta con un bloque pequeño y ligero, una regla rígida y un apoyo estable. Ordena los pasos para levantar el bloque con la palanca:",
+      "explanation": "La maqueta permite observar la ventaja de situar el apoyo cerca de la carga y aplicar la fuerza lejos del apoyo.",
       "lang": "es",
       "items": [
-        "Identificar la roca pesada como la resistencia que se debe desplazar.",
-        "Colocar una piedra firme y estable muy cerca de la roca para usarla como punto de apoyo.",
-        "Introducir un extremo corto de la barra metálica debajo de la roca.",
-        "Empujar hacia abajo desde el extremo largo de la barra, lo más lejos posible del apoyo.",
-        "Comprobar cómo la roca asciende con un esfuerzo mucho menor."
+        "Identificar el bloque como la carga",
+        "Colocar el apoyo cerca del bloque",
+        "Situar un extremo corto de la regla bajo el bloque",
+        "Presionar suavemente el extremo largo",
+        "Observar que el bloque asciende"
       ]
     },
     {
@@ -200,11 +200,11 @@
       "explanation": "Comprender la evolución histórica de las máquinas simples nos permite valorar cómo la ciencia básica sigue resolviendo retos técnicos actuales.",
       "lang": "es",
       "title": "El ingenio mecánico que transformó la historia",
-      "text": "Desde la Antigüedad, la humanidad ha ideado métodos para desplazar masas colosales sin lesionarse. En el antiguo Egipto, miles de obreros emplearon rampas de tierra y trineos sobre rodillos para elevar gigantescos bloques de caliza durante la construcción de las pirámides.\n\nSiglos más tarde, en la antigua Grecia, el sabio Arquímedes investigó las propiedades matemáticas de las palancas y las poleas combinadas. Convencido de la eficacia de estos mecanismos, formuló su célebre sentencia: «Dadme un punto de apoyo y moveré el mundo». Arquímedes diseñó también el tornillo helicoidal, un plano inclinado enrollado alrededor de un cilindro capaz de elevar agua desde ríos para regar campos elevados.\n\nHoy en día, aunque utilizamos potentes motores eléctricos y de combustible, la maquinaria moderna sigue sustentándose en estos mismos principios físicos: una grúa telescópica combina palancas y polipastos de poleas, mientras que los engranajes de una bicicleta transforman nuestro pedaleo en movimiento continuo.",
+      "text": "Desde la Antigüedad, la humanidad ha ideado métodos para desplazar masas colosales sin lesionarse. En el antiguo Egipto, miles de obreros emplearon rampas de tierra y trineos para elevar gigantescos bloques de caliza durante la construcción de las pirámides.\n\nSiglos más tarde, en la antigua Grecia, el sabio Arquímedes investigó las propiedades matemáticas de las palancas y las poleas combinadas. Convencido de la eficacia de estos mecanismos, formuló su célebre sentencia: «Dadme un punto de apoyo y moveré el mundo». A Arquímedes se asocia también el tornillo helicoidal, un plano inclinado enrollado alrededor de un cilindro capaz de elevar agua desde ríos para regar campos elevados.\n\nHoy en día, aunque utilizamos potentes motores eléctricos y de combustible, la maquinaria moderna sigue sustentándose en estos mismos principios físicos: una grúa telescópica combina palancas y polipastos de poleas, mientras que los engranajes de una bicicleta transforman nuestro pedaleo en movimiento continuo.",
       "questions": [
         {
-          "prompt": "¿Qué invento ideó Arquímedes para elevar agua aprovechando el concepto de plano inclinado?",
-          "explanation": "El texto indica que ideó el tornillo helicoidal, consistente en un plano inclinado enrollado en un cilindro para subir agua.",
+          "prompt": "¿Qué mecanismo asociado a Arquímedes permite elevar agua?",
+          "explanation": "El texto presenta el tornillo helicoidal como un mecanismo para elevar agua.",
           "options": [
             "El trineo sobre rodillos",
             "El tornillo helicoidal",
@@ -218,7 +218,7 @@
           "options": [
             "Que las máquinas simples eliminan por completo la gravedad del planeta.",
             "Que la Tierra podía colocarse sobre una plataforma para detener su movimiento de rotación.",
-            "Que con una palanca con el brazo de fuerza suficientemente largo se puede multiplicar el esfuerzo humano hasta mover cualquier masa."
+            "Que una palanca con un brazo largo permite mover una carga grande con menos fuerza."
           ],
           "answer": 2
         },

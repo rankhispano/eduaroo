@@ -1,0 +1,276 @@
+{
+  "id": "g6-lengua-ortografia-completa",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "ortografia-completa",
+  "temaNombre": "Spanish Spelling Review",
+  "title": "Spelling and Accent Marks",
+  "summary": "Review Spanish accent marks, commonly confused letters and punctuation through practical challenges.",
+  "keyIdeas": [
+    "Spanish stress groups such as agudas, llanas and esdrújulas follow accent rules based on the stressed syllable and the word ending.",
+    "A distinguishing accent mark can separate words with the same letters but different meanings and grammatical roles.",
+    "When a stressed i or u forms a hiatus with an unstressed a, e or o, the i or u carries an accent mark."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC2",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD2",
+      "CD3",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-ortografia-completa-01",
+      "type": "classify",
+      "prompt": "Sort each Spanish word by the missing letter: b or v.",
+      "explanation": "B completes «cantábamos», «vagabundo» and «escribir». V completes «adverbio», «carnívoro» and «invento». Some complete words contain both letters.",
+      "lang": "en",
+      "categories": [
+        "Missing letter B",
+        "Missing letter V"
+      ],
+      "items": [
+        {
+          "text": "cantá_amos",
+          "category": 0
+        },
+        {
+          "text": "ad_erbio",
+          "category": 1
+        },
+        {
+          "text": "vaga_undo",
+          "category": 0
+        },
+        {
+          "text": "carní_oro",
+          "category": 1
+        },
+        {
+          "text": "escri_ir",
+          "category": 0
+        },
+        {
+          "text": "in_ento",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-02",
+      "type": "true-false",
+      "prompt": "Spanish esdrújulas and sobresdrújulas, excluding adverbs ending in -mente, carry an accent mark regardless of their final letter.",
+      "explanation": "True. These words mark their stressed syllable. Adverbs in -mente follow a separate rule: they keep the adjective's accent mark, as in «fácilmente», or have none, as in «claramente».",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-03",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence about Aisha and Omar's trip with the correctly spelt word.",
+      "explanation": "«Huella» begins with h. A dictionary can confirm its spelling; sharing sounds does not guarantee sharing every letter.",
+      "lang": "en",
+      "sentence": "Aisha y Omar encontraron una extraña ___ de dinosaurio en el barro del sendero.",
+      "options": [
+        "huella",
+        "uella",
+        "güella"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-04",
+      "type": "match",
+      "prompt": "Match each Spanish one-syllable word to its grammatical role, with or without an accent mark.",
+      "explanation": "These accent marks distinguish words with the same letters but different meanings and grammatical roles.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "dé",
+          "right": "A form of the verb «dar»"
+        },
+        {
+          "left": "de",
+          "right": "Preposition"
+        },
+        {
+          "left": "té",
+          "right": "A noun naming the drink tea"
+        },
+        {
+          "left": "te",
+          "right": "Personal pronoun"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-05",
+      "type": "choice",
+      "prompt": "Hugo writes these Spanish sentences for the school newspaper. Which one contains a spelling mistake?",
+      "explanation": "«Ensayo» is written with y, as are the forms and derivatives of «ensayar».",
+      "hint": "Look at words containing ll or y.",
+      "lang": "en",
+      "options": [
+        "Ayer recogimos varias muestras de agua del río.",
+        "El profesor nos sugirió traer un tubo de ensallo.",
+        "Mañana publicaremos las conclusiones del proyecto.",
+        "Observamos varias especies de insectos acuáticos."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-06",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by whether they contain a diphthong or a hiatus.",
+      "explanation": "A diphthong joins two vowels in one syllable. In these examples, a hiatus separates two open vowels, or an open vowel and a stressed closed vowel marked with an accent.",
+      "lang": "en",
+      "categories": [
+        "Contains a diphthong",
+        "Contains a hiatus"
+      ],
+      "items": [
+        {
+          "text": "canción",
+          "category": 0
+        },
+        {
+          "text": "país",
+          "category": 1
+        },
+        {
+          "text": "puerta",
+          "category": 0
+        },
+        {
+          "text": "teatro",
+          "category": 1
+        },
+        {
+          "text": "caída",
+          "category": 1
+        },
+        {
+          "text": "ciudad",
+          "category": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-07",
+      "type": "fill-blank",
+      "prompt": "Choose the correct Spanish form to complete Martina's laboratory question.",
+      "explanation": "When asking why, «por qué» is two words and has an accent mark, in direct and indirect questions.",
+      "lang": "en",
+      "sentence": "¿___ no reacciona este líquido si ya hemos añadido el reactivo?",
+      "options": [
+        "Porqué",
+        "Porque",
+        "Por que",
+        "Por qué"
+      ],
+      "answer": 3,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-08",
+      "type": "choice",
+      "prompt": "Complete the letters in this Spanish sentence: «El conser___e nos advirtió de que el carrua___e requería un via___e muy proli___o».",
+      "explanation": "All four words use j: «conserje», «carruaje», «viaje» and «prolijo». The middle two share the ending -aje; a dictionary can confirm the others.",
+      "hint": "«Carruaje» and «viaje» end in -aje. Check «conserje» and «prolijo» in a dictionary.",
+      "lang": "en",
+      "options": [
+        "j - g - g - j",
+        "g - j - j - g",
+        "j - j - g - j",
+        "j - j - j - j"
+      ],
+      "answer": 3,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-ortografia-completa-09",
+      "type": "reading",
+      "prompt": "Read the Spanish text about the writing workshop and answer the questions.",
+      "explanation": "The text shows how spelling supports communication and why thoughtful revision matters.",
+      "lang": "en",
+      "title": "El taller de redacción de sexto",
+      "text": "En el colegio El Olivar, la clase de sexto ha inaugurado un taller de periodismo digital. La maestra Elena explicó que, en la era de internet, escribir con corrección ortográfica es un acto de respeto hacia los lectores y una ayuda para comunicarse con claridad. Durante la primera sesión, Aisha y Nerea debatieron sobre cómo los errores de acentuación pueden alterar por completo el sentido de un mensaje: no es lo mismo escribir «canto» y «cantó». Además, descubrieron que los signos de puntuación estructuran el razonamiento e impiden confusiones en los titulares informativos.\n\nAl finalizar la jornada, todo el grupo consensuó un decálogo de buenas prácticas para su revista. Su primer compromiso fue revisar cada borrador dos veces antes de publicarlo: una para comprobar la veracidad de los datos y otra para verificar las tildes, las mayúsculas y las grafías dudosas como la b, la v, la g y la j.",
+      "questions": [
+        {
+          "prompt": "According to the text, why does correct spelling matter online?",
+          "explanation": "The teacher explains that correct spelling helps readers understand and shows care towards them.",
+          "options": [
+            "It is a computer requirement for search engines to recognise a text.",
+            "It respects readers and helps understanding.",
+            "It allows very long sentences without commas."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What does Aisha and Nerea's example of verb forms show?",
+          "explanation": "«Canto» is first-person present; «cantó» is third-person past. The stress and accent mark distinguish the forms.",
+          "options": [
+            "School magazines should never use past-tense verbs.",
+            "Every aguda word must have an accent mark without exception.",
+            "An accent mark can change the verb tense and grammatical person."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What conclusion can we draw about reviewing a text?",
+          "explanation": "The class checks both the truth of its information and the accuracy of spelling and written form.",
+          "options": [
+            "Checking the general content is enough; spelling mistakes do not matter.",
+            "Only professional writers need to check accents and punctuation.",
+            "Revision requires attention to both content and correct spelling."
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:26:52.031Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:30:09.895Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "46623abd8b5a25c9b1761e9d702f16f5c5813db0e032cea7a1223fef7e888a99",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "id": "g1-lengua-dictado",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "dictado",
+  "temaNombre": "Spanish dictation",
+  "title": "Ready for dictation!",
+  "summary": "Prepare Spanish dictations with rules and examples. Ask an adult to read the sentences aloud so you can practise writing too.",
+  "keyIdeas": [
+    "Listen to the whole sentence before writing.",
+    "Start sentences with a capital letter and leave spaces between words. The sentences practised here end with a full stop.",
+    "After a dictation, reread slowly to check for missing letters or words."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-dictado-01",
+      "type": "choice",
+      "prompt": "What should you do first when your teacher starts a dictation? 👂",
+      "explanation": "First listen carefully to understand the whole sentence.",
+      "hint": "Use your ears before your pencil.",
+      "lang": "en",
+      "options": [
+        "Write quickly without hearing the end",
+        "Listen quietly and carefully",
+        "Talk to the person beside you"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-dictado-02",
+      "type": "true-false",
+      "prompt": "When writing a sentence in a dictation, its first word starts with a capital letter.",
+      "explanation": "Sentences begin with a capital letter.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-dictado-03",
+      "type": "fill-blank",
+      "prompt": "Which punctuation mark is missing from the end of this Spanish sentence? ✏️",
+      "explanation": "This sentence states something and ends with a full stop. Questions and exclamations use different marks.",
+      "lang": "en",
+      "sentence": "Hugo juega en el patio con su pelota___",
+      "options": [
+        ".",
+        ",",
+        "-"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-dictado-04",
+      "type": "order",
+      "prompt": "Put the steps for this dictation in order.",
+      "explanation": "First listen, then write carefully, add the full stop and check your work.",
+      "lang": "en",
+      "items": [
+        "Listen to the whole sentence",
+        "Write with spaces between words",
+        "Add the final full stop",
+        "Reread to check"
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-dictado-05",
+      "type": "classify",
+      "prompt": "Sort these Spanish sentences by their word spacing.",
+      "explanation": "Leave a small space between words so they are easy to read.",
+      "lang": "en",
+      "categories": [
+        "Words correctly spaced",
+        "Words joined together"
+      ],
+      "items": [
+        {
+          "text": "El sol brilla.",
+          "category": 0
+        },
+        {
+          "text": "Lamanzanaroja.",
+          "category": 1
+        },
+        {
+          "text": "Un barco azul.",
+          "category": 0
+        },
+        {
+          "text": "Mipapácanta.",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-dictado-06",
+      "type": "choice",
+      "prompt": "Omar checks his dictation: «la tortuga come lechuga.» What is the mistake? 🔍",
+      "explanation": "The first word needs a capital: La tortuga come lechuga.",
+      "hint": "Look at the sentence's first letter.",
+      "lang": "en",
+      "options": [
+        "It needs a capital at the beginning",
+        "It needs a final full stop",
+        "All its words are joined together"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-dictado-07",
+      "type": "match",
+      "prompt": "Match each part of the dictation to its rule.",
+      "explanation": "Capitals, spaces and final punctuation help make sentences clear.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "The first letter of a sentence",
+          "right": "Use a capital letter"
+        },
+        {
+          "left": "Between words",
+          "right": "Leave a space"
+        },
+        {
+          "left": "The end of a sentence such as «Hugo juega.»",
+          "right": "Use a full stop"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-dictado-08",
+      "type": "fill-blank",
+      "prompt": "The dictated Spanish word is «plátano». Choose the correctly spelt word with no missing letters.",
+      "explanation": "Plátano includes the letter l and an accent on its first a.",
+      "lang": "en",
+      "sentence": "Aisha come un rico ___ en la merienda.",
+      "options": [
+        "plátano",
+        "pátano",
+        "platno"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-dictado-09",
+      "type": "true-false",
+      "prompt": "After finishing a dictation, rereading helps us check for missing letters.",
+      "explanation": "Rereading slowly helps us find and correct small mistakes.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:06:49.404Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:08:33.335Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "6420c76d962ef6eb3e7ee1859b57a54ec315beb079be91929e192c5d02a8ba15",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -7,7 +7,7 @@
   "title": "Cuidamos nuestro planeta Tierra",
   "summary": "Analizarás el impacto de las actividades humanas en los ecosistemas y descubrirás soluciones sostenibles para proteger nuestro entorno natural.",
   "keyIdeas": [
-    "El efecto invernadero natural permite la vida, pero el exceso de gases contaminantes calienta el planeta de manera acelerada.",
+    "El efecto invernadero natural permite una Tierra templada; aumentar la concentración de estos gases intensifica el calentamiento.",
     "La contaminación del agua, la tala indiscriminada y la sobreexplotación destruyen hábitats y amenazan la biodiversidad.",
     "Adoptar hábitos sostenibles y aplicar la economía circular ayuda a reducir nuestra huella ecológica y regenerar la naturaleza."
   ],
@@ -48,7 +48,7 @@
       "id": "g6-naturales-impacto-humano-en-el-medioambiente-01",
       "type": "true-false",
       "prompt": "El efecto invernadero natural de la Tierra es un fenómeno perjudicial que los seres humanos debemos intentar eliminar por completo.",
-      "explanation": "El efecto invernadero natural es imprescindible para la vida porque mantiene una temperatura media templada en el planeta. El problema actual es su intensificación artificial por las emisiones de gases contaminantes.",
+      "explanation": "El efecto invernadero natural conserva parte de la energía térmica. Su intensificación por el aumento de gases como el CO₂ contribuye al calentamiento actual.",
       "lang": "es",
       "answer": false
     },
@@ -133,7 +133,7 @@
       "id": "g6-naturales-impacto-humano-en-el-medioambiente-05",
       "type": "choice",
       "prompt": "En clase debaten sobre el cambio climático y la atmósfera. ¿Qué estudiante comete un ERROR científico?",
-      "explanation": "En el espacio exterior no existe aire y las temperaturas son bajísimas; además, el calentamiento global lo causa la retención de radiación infrarroja por gases como el CO2, no la entrada de aire cósmico.",
+      "explanation": "El calentamiento actual se relaciona con el aumento de gases que absorben radiación térmica, como el CO₂. El agujero de ozono afecta sobre todo a la protección frente a la radiación ultravioleta.",
       "hint": "¿Qué hay en el espacio exterior fuera de nuestra atmósfera?",
       "lang": "es",
       "options": [
@@ -160,25 +160,25 @@
     {
       "id": "g6-naturales-impacto-humano-en-el-medioambiente-07",
       "type": "choice",
-      "prompt": "Aisha y Adrián colocan dos botes de cristal sellados e idénticos bajo una lámpara de calor. El bote A contiene aire común. En el bote B introducen dióxido de carbono puro (CO₂) usando una reacción segura de vinagre y bicarbonato. Ambos tienen un termómetro dentro. ¿Qué predicción científica es correcta tras 30 minutos?",
-      "explanation": "El dióxido de carbono es un gas de efecto invernadero que atrapa la radiación térmica con mayor eficacia que los componentes habituales del aire seco como el nitrógeno.",
-      "hint": "Recuerda la propiedad principal de los gases de efecto invernadero respecto a la energía térmica.",
+      "prompt": "Una animación muestra que los gases de efecto invernadero absorben parte de la radiación térmica que emite la Tierra. ¿Qué puede ocurrir si aumenta su concentración, manteniendo iguales los demás factores?",
+      "explanation": "Aumentar estos gases altera el balance entre la energía que entra y sale del planeta. La animación es un modelo: ayuda a explicar el proceso, sin reproducir todos sus detalles.",
+      "hint": "Piensa qué sucede si sale menos energía hacia el espacio.",
       "lang": "es",
       "options": [
-        "El bote B alcanzará mayor temperatura porque el dióxido de carbono retiene más calor radiante que el aire común.",
-        "Ambos botes marcarán exactamente la misma temperatura porque el cristal bloquea cualquier intercambio de energía.",
-        "El bote A estará más caliente porque el aire corriente tiene mayor densidad y almacena mejor el calor que el CO₂."
+        "La temperatura media puede aumentar al retenerse más energía",
+        "La luz del Sol desaparece por completo",
+        "La Tierra pierde toda su atmósfera"
       ],
       "answer": 0
     },
     {
       "id": "g6-naturales-impacto-humano-en-el-medioambiente-08",
       "type": "reading",
-      "prompt": "Lee atentamente el texto y responde a las preguntas:",
+      "prompt": "Lee este caso ficticio de restauración ambiental y responde:",
       "explanation": "La restauración ecológica exitosa combina conocimiento científico, soluciones naturales y la participación de toda la comunidad.",
       "lang": "es",
       "title": "El renacer de la Laguna del Carrizal",
-      "text": "Durante décadas, la Laguna del Carrizal sufrió un grave deterioro ambiental. Las aguas residuales urbanas y los abonos químicos de las granjas cercanas llegaban sin depurar a su cuenca. Hacia 2012, el agua presentaba un color verdoso turbio, los juncos de la ribera habían desaparecido y las aves migratorias dejaron de anidar allí.\n\nEn 2018, la comunidad local inició un plan de restauración ecológica. Se construyó una depuradora ecológica con filtros verdes de grava y espadañas para purificar el agua de forma biológica, y los agricultores redujeron voluntariamente el empleo de pesticidas sintéticos. Cuatro años después, los análisis confirmaron un descenso del 85 % en los niveles de nitratos. La vegetación autóctona volvió a brotar en las orillas y más de cuarenta especies de aves acuáticas han regresado a la zona, demostrando que los ecosistemas degradados pueden recuperarse si la sociedad se compromete activamente.",
+      "text": "Este caso ficticio sirve para estudiar la restauración de un humedal. Durante décadas, la Laguna del Carrizal sufrió un grave deterioro ambiental. Las aguas residuales urbanas y los abonos químicos de las granjas cercanas llegaban sin depurar a su cuenca. Hacia 2012, el agua presentaba un color verdoso turbio, los juncos de la ribera habían desaparecido y las aves migratorias dejaron de anidar allí.\n\nEn 2018, la comunidad local inició un plan de restauración ecológica. Se construyó una depuradora ecológica con filtros verdes de grava y espadañas para purificar el agua de forma biológica, y los agricultores ajustaron el uso de abonos para reducir el exceso de nutrientes. Cuatro años después, los análisis confirmaron un descenso del 85 % en los niveles de nitratos. La vegetación autóctona volvió a brotar en las orillas y más de cuarenta especies de aves acuáticas han regresado a la zona, demostrando que los ecosistemas degradados pueden recuperarse si la sociedad se compromete activamente.",
       "questions": [
         {
           "prompt": "¿Qué solución técnica ayudó a limpiar las aguas residuales que llegaban a la laguna?",

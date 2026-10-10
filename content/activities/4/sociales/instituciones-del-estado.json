@@ -97,7 +97,7 @@
         },
         {
           "left": "Poder judicial (Tribunales)",
-          "right": "Juzga a quien no cumple las leyes"
+          "right": "Resuelve conflictos aplicando las leyes"
         }
       ]
     },
@@ -134,13 +134,13 @@
       "id": "g4-sociales-instituciones-del-estado-06",
       "type": "order",
       "prompt": "Ordena los pasos que sigue una ley desde que se propone hasta que se cumple:",
-      "explanation": "Primero se presenta la propuesta, las Cortes la debaten y votan, el Rey la sanciona y finalmente se publica para que sea obligatoria.",
+      "explanation": "La propuesta se debate y aprueba en las Cortes. Después, el Rey sanciona la ley y se publica; su entrada en vigor puede fijarse para una fecha posterior.",
       "lang": "es",
       "items": [
         "El Gobierno o un grupo propone una idea de ley",
         "El Congreso y el Senado debaten y votan la propuesta",
         "El Rey firma la ley aprobada",
-        "La ley se publica y entra en vigor para toda la ciudadanía"
+        "La ley se publica y entra en vigor en la fecha establecida"
       ]
     },
     {
@@ -150,7 +150,7 @@
       "explanation": "Esta lectura muestra cómo participan los ciudadanos en la democracia y cómo se organizan las instituciones públicas.",
       "lang": "es",
       "title": "La clase de 4º visita el Congreso",
-      "text": "El grupo de 4º de Primaria visitó ayer el Congreso de los Diputados en Madrid. Aisha y Omar se sentaron en los escaños donde trabajan los diputados elegidos por la ciudadanía. La guía les explicó que en democracia todas las personas mayores de 18 años pueden votar cada cuatro años para elegir a sus representantes. También aprendieron que los jueces y juezas trabajan de forma independiente en los juzgados para resolver los conflictos entre ciudadanos.",
+      "text": "El grupo de 4º de Primaria visitó ayer el Congreso de los Diputados en Madrid. Aisha y Omar se sentaron en los escaños donde trabajan los diputados elegidos por la ciudadanía. La guía les explicó que en las elecciones generales la ciudadanía española con derecho al voto puede participar desde los 18 años. El mandato ordinario dura cuatro años, aunque las elecciones pueden adelantarse. También aprendieron que los jueces y juezas trabajan de forma independiente en los juzgados para resolver los conflictos entre ciudadanos.",
       "questions": [
         {
           "prompt": "¿A partir de qué edad pueden votar los ciudadanos en España?",

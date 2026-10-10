@@ -1,0 +1,233 @@
+{
+  "id": "g4-mates-area-de-figuras",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "area-de-figuras",
+  "temaNombre": "Area of Shapes",
+  "title": "Exploring Area and Surface",
+  "summary": "Measure and calculate the area of flat shapes using grids and everyday situations.",
+  "keyIdeas": [
+    "Area measures the surface a shape covers, in square units such as square centimetres (cm²).",
+    "Find a rectangle's area by multiplying length by width: base × height.",
+    "Perimeter measures the boundary; area measures the space inside it."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "B. Sentido de la medida › Medición",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-area-de-figuras-01",
+      "type": "true-false",
+      "prompt": "The area of a shape measures the length all the way around its boundary.",
+      "explanation": "False. That length is the perimeter. Area measures the surface inside the shape.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-mates-area-de-figuras-02",
+      "type": "choice",
+      "prompt": "Lucía draws a rectangle on a grid. It has 4 rows with 5 squares in each row. What is its area in grid squares?",
+      "explanation": "Multiply rows by squares per row: 4 × 5 = 20 squares.",
+      "hint": "Multiply the number of rows by the squares in each row.",
+      "lang": "en",
+      "options": [
+        "9 squares",
+        "20 squares",
+        "18 squares"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-area-de-figuras-03",
+      "type": "match",
+      "prompt": "Match each rectangle with its area.",
+      "explanation": "Multiply base × height: 6 × 3 = 18, 8 × 2 = 16, 5 × 5 = 25 and 7 × 4 = 28.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Base 6 cm and height 3 cm",
+          "right": "18 cm²"
+        },
+        {
+          "left": "Base 8 cm and height 2 cm",
+          "right": "16 cm²"
+        },
+        {
+          "left": "Base 5 cm and height 5 cm",
+          "right": "25 cm²"
+        },
+        {
+          "left": "Base 7 cm and height 4 cm",
+          "right": "28 cm²"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-area-de-figuras-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with a suitable unit for area.",
+      "explanation": "Area uses square units, such as cm². Centimetres measure length and litres measure capacity.",
+      "lang": "en",
+      "sentence": "To measure the surface of his desktop, Hugo uses the ___.",
+      "options": [
+        "square centimetre (cm²)",
+        "centimetre (cm)",
+        "litre (l)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-area-de-figuras-05",
+      "type": "choice",
+      "prompt": "Mental maths! 🧠 A square mosaic has sides of 9 dm. What is its area?",
+      "explanation": "For a square, multiply side × side: 9 × 9 = 81 dm². Its perimeter would be 4 × 9 = 36 dm.",
+      "hint": "Multiply the side length by itself.",
+      "lang": "en",
+      "options": [
+        "18 dm²",
+        "36 dm²",
+        "81 dm²"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-area-de-figuras-06",
+      "type": "classify",
+      "prompt": "Sort these shapes by whether their area is less than or greater than 24 cm².",
+      "explanation": "The areas 21, 20 and 16 are less than 24. The areas 25, 30 and 27 are greater than 24.",
+      "lang": "en",
+      "categories": [
+        "Area less than 24 cm²",
+        "Area greater than 24 cm²"
+      ],
+      "items": [
+        {
+          "text": "Rectangle 7 cm × 3 cm",
+          "category": 0
+        },
+        {
+          "text": "Rectangle 5 cm × 5 cm",
+          "category": 1
+        },
+        {
+          "text": "Rectangle 10 cm × 2 cm",
+          "category": 0
+        },
+        {
+          "text": "Rectangle 6 cm × 5 cm",
+          "category": 1
+        },
+        {
+          "text": "Square 4 cm × 4 cm",
+          "category": 0
+        },
+        {
+          "text": "Rectangle 9 cm × 3 cm",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-area-de-figuras-07",
+      "type": "choice",
+      "prompt": "🔎 Find the mistake! Omar calculates the area of a rectangular rug 4 m long and 3 m wide. He says, 'The area is 14 m² because 4 + 3 + 4 + 3 = 14'. What is wrong?",
+      "explanation": "Omar added the sides to find the perimeter. For area, multiply: 4 × 3 = 12 m².",
+      "hint": "Did he add the side lengths or calculate the surface inside?",
+      "lang": "en",
+      "options": [
+        "He found the perimeter instead of the area; he should calculate 4 × 3 = 12 m².",
+        "He added the sides incorrectly, because 4 + 3 + 4 + 3 equals 12.",
+        "A rectangle's area is always found by subtracting height from base."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-area-de-figuras-08",
+      "type": "order",
+      "prompt": "Put the steps for finding a shape's area by splitting it into two rectangles in order.",
+      "explanation": "Split the shape without overlapping, measure, calculate both areas and add them.",
+      "lang": "en",
+      "items": [
+        "Split the shape into two simpler rectangles.",
+        "Measure the base and height of each rectangle.",
+        "Multiply base by height to find each rectangle's area.",
+        "Add the two areas to find the total."
+      ]
+    },
+    {
+      "id": "g4-mates-area-de-figuras-09",
+      "type": "choice",
+      "prompt": "Aisha and Mateo want to lay grass in a rectangular part of the school garden 6 m long and 4 m wide. Each square metre of grass costs €5. What is the total cost? 🌱",
+      "explanation": "Area: 6 × 4 = 24 m². Cost: 24 × 5 = €120.",
+      "hint": "First find the area in m², then multiply by the price per m².",
+      "lang": "en",
+      "options": [
+        "€50",
+        "€100",
+        "€120"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-area-de-figuras-10",
+      "type": "choice",
+      "prompt": "In art class, Nerea cuts a rectangle of card 8 cm by 6 cm. She cuts out a square with 2 cm sides to make a window. What area of card is left?",
+      "explanation": "Rectangle: 8 × 6 = 48 cm². Cut-out: 2 × 2 = 4 cm². Remaining area: 48 − 4 = 44 cm².",
+      "hint": "Subtract the cut-out square's area from the rectangle's area.",
+      "lang": "en",
+      "options": [
+        "44 cm²",
+        "46 cm²",
+        "40 cm²"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:15:50.883Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:27:36.053Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "40827b91a1ea51bee7e0a926e20eeb8e46fef3c5da453189b4800b634db2b7ac",
+      "validation": "manual-review"
+    }
+  }
+}

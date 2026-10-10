@@ -1,0 +1,253 @@
+{
+  "id": "g5-naturales-las-maquinas-simples",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "las-maquinas-simples",
+  "temaNombre": "Simple machines",
+  "title": "The power of simple machines",
+  "summary": "Explore how levers, pulleys and ramps help us apply forces in everyday life.",
+  "keyIdeas": [
+    "Simple machines make tasks easier by changing a force's size or direction.",
+    "Machines do not create energy. In an ideal model, using less force means applying it over a longer distance.",
+    "Main types include the lever, inclined plane, pulley, wheel and axle, wedge and screw."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-las-maquinas-simples-01",
+      "type": "choice",
+      "prompt": "Lucía helps her grandfather move fertiliser bags with a wheelbarrow. Which simple machine does it mainly use?",
+      "explanation": "A wheelbarrow acts as a second-class lever: the wheel is the fulcrum, the load lies in the middle, and effort is applied at the handles.",
+      "hint": "Notice the wheel's support point and where the handles are lifted.",
+      "lang": "en",
+      "options": [
+        "A fixed inclined plane with transmission pulleys",
+        "A lever with the load between the fulcrum and the applied effort",
+        "A double wedge for splitting heavy materials"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-02",
+      "type": "true-false",
+      "prompt": "A fixed pulley above a well halves the force needed to lift a bucket.",
+      "explanation": "A fixed pulley does not reduce the ideal lifting force. It changes its direction, allowing us to pull down rather than lift directly upwards.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about ramps.",
+      "explanation": "An inclined plane spreads the effort over a longer distance, reducing the force needed in an ideal comparison.",
+      "lang": "en",
+      "sentence": "Pushing a box up a ramp into a lorry requires ___ force than lifting it directly, but over a longer distance.",
+      "options": [
+        "the same",
+        "more",
+        "less"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-04",
+      "type": "match",
+      "prompt": "Match each everyday object to the simple machine it uses.",
+      "explanation": "Shears use levers with a central fulcrum, a ramp raises objects gradually, an axe uses a wedge, and a flag can be raised with a pulley.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Pruning shears",
+          "right": "First-class lever"
+        },
+        {
+          "left": "A wheelchair access ramp",
+          "right": "Inclined plane"
+        },
+        {
+          "left": "An axe for splitting logs",
+          "right": "Wedge"
+        },
+        {
+          "left": "A rope over a wheel for raising a flag",
+          "right": "Fixed pulley"
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-05",
+      "type": "classify",
+      "prompt": "Classify these levers by the position of their parts.",
+      "explanation": "A lever's class depends on what lies in the middle: the fulcrum in first-class, the load in second-class, or the effort in third-class levers.",
+      "lang": "en",
+      "categories": [
+        "Fulcrum in the middle: first-class",
+        "Load in the middle: second-class",
+        "Effort in the middle: third-class"
+      ],
+      "items": [
+        {
+          "text": "A playground seesaw",
+          "category": 0
+        },
+        {
+          "text": "General-purpose pliers",
+          "category": 0
+        },
+        {
+          "text": "A nutcracker",
+          "category": 1
+        },
+        {
+          "text": "A wheelbarrow",
+          "category": 1
+        },
+        {
+          "text": "One-piece flexible tweezers joined at one end",
+          "category": 2
+        },
+        {
+          "text": "A fishing rod holding a catch",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-06",
+      "type": "choice",
+      "prompt": "Hugo says, 'Simple machines create energy from nothing, so lifting things takes no work!' What is his scientific error?",
+      "explanation": "Machines do not create energy. Without friction, less force over a longer distance gives the same work. Real machines also transfer energy through friction.",
+      "hint": "Remember that energy cannot be created from nothing.",
+      "lang": "en",
+      "options": [
+        "Simple machines only run on electricity or fossil fuels, so always need batteries.",
+        "Levers and pulleys increase gravity to speed up lifting.",
+        "Simple machines do not create energy: they reduce the force needed by increasing the distance over which it acts."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-07",
+      "type": "order",
+      "prompt": "A teacher prepares a model with a small, light block, a rigid ruler and a stable support. Order the steps to lift the block using a lever.",
+      "explanation": "The model shows the benefit of placing the fulcrum near the load and applying effort farther away.",
+      "lang": "en",
+      "items": [
+        "Identify the block as the load",
+        "Place the support near the block",
+        "Put a short end of the ruler beneath the block",
+        "Press gently on the long end",
+        "Observe the block rising"
+      ]
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-08",
+      "type": "choice",
+      "prompt": "Mateo and Sofía lift a 4 kg trolley to a shelf 1 metre high. A force meter measures effort in newtons. Smooth ramp A is 2 metres long and ramp B is 4 metres long. Which prediction is correct?",
+      "explanation": "For the same height, a longer ramp is less steep and requires less lifting force in this comparison.",
+      "hint": "Compare a steep climb with a longer, gentler route.",
+      "lang": "en",
+      "options": [
+        "The meter shows exactly the same force on both ramps because the final height is equal.",
+        "The meter shows less force on A because a shorter ramp makes the trolley rise faster.",
+        "The meter shows less force on B because it is less steep and the distance is longer.",
+        "The meter shows zero force on B because the ramp completely cancels weight."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-09",
+      "type": "true-false",
+      "prompt": "Combining a fixed pulley at the ceiling with a movable pulley attached to books can approximately halve the lifting force compared with lifting directly.",
+      "explanation": "A movable pulley supported by two rope sections shares the load between them. Ideally, half the force requires pulling twice as much rope.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-naturales-las-maquinas-simples-10",
+      "type": "reading",
+      "prompt": "Read this historical text about technology and answer the questions.",
+      "explanation": "Simple-machine principles continue to help solve modern engineering challenges.",
+      "lang": "en",
+      "title": "Mechanical ideas that changed history",
+      "text": "Since ancient times, people have devised ways to move huge loads. Workers in ancient Egypt used ramps and sledges to move limestone blocks while building pyramids.\n\nLater, the Greek thinker Archimedes studied levers and combined pulleys. His famous saying, 'Give me a place to stand, and I will move the world', expressed their mechanical advantage. He is also associated with a helical screw: an inclined plane wrapped around a cylinder, which can raise water for irrigation.\n\nModern machinery still uses these physical principles alongside powerful electric or fuel-driven motors. A crane combines levers and pulley systems, while bicycle gears turn pedalling into useful movement.",
+      "questions": [
+        {
+          "prompt": "Which mechanism associated with Archimedes raises water?",
+          "explanation": "The text describes the helical screw as a way to raise water.",
+          "options": [
+            "A sledge on rollers",
+            "The helical screw",
+            "A movable pulley with a counterweight"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What did Archimedes mean by 'Give me a place to stand, and I will move the world'?",
+          "explanation": "A longer lever arm can let a small effort overcome a much larger load.",
+          "options": [
+            "Simple machines remove Earth's gravity completely.",
+            "Earth could be placed on a platform to stop rotating.",
+            "A lever with a long arm can move a large load using less force."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "How are ancient simple machines related to modern technology?",
+          "explanation": "Cranes and bicycles still combine principles such as levers, pulleys and inclined planes.",
+          "options": [
+            "Modern machines combine simple principles with new energy sources.",
+            "Simple machines are entirely outdated and unused in modern engineering.",
+            "Modern motors ignore the mechanical laws studied in ancient times."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:14:49.594Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:05:50.171Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "1231d8d9d63929ea4ddb9150ce9e608c5b8023e303a3f3ff4a00f64c77e82f92",
+      "validation": "manual-review"
+    }
+  }
+}

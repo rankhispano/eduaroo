@@ -1,0 +1,257 @@
+{
+  "id": "g6-naturales-cadenas-y-redes-troficas",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "cadenas-y-redes-troficas",
+  "temaNombre": "Food chains and food webs",
+  "title": "Food chains and food webs",
+  "summary": "Review how energy flows through ecosystems through producers, consumers and decomposers.",
+  "keyIdeas": [
+    "Producers make their own food through photosynthesis and form the base of a food chain.",
+    "Arrows in a food chain or web point towards the living thing that receives energy by feeding.",
+    "Decomposers turn organic remains into mineral salts that return to the soil."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-01",
+      "type": "choice",
+      "prompt": "Hugo observes plants in the school garden. Why are plants called producers in a food chain?",
+      "explanation": "Plants, algae and certain bacteria are autotrophs. They produce their own organic matter through photosynthesis, starting the flow of energy.",
+      "hint": "Remember the word “autotroph” and how these organisms obtain energy.",
+      "lang": "en",
+      "options": [
+        "They make organic matter from water and carbon dioxide using light energy.",
+        "They produce fruit and vegetables only for humans to eat.",
+        "They absorb microscopic animals from the soil and feed on them."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-02",
+      "type": "true-false",
+      "prompt": "In a food chain diagram, the arrow points towards the organism being eaten to show where it comes from.",
+      "explanation": "The arrow always points towards the organism that eats, because it shows the direction in which matter and energy travel. For example: grass → rabbit.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-03",
+      "type": "classify",
+      "prompt": "Sort these living things from a Mediterranean forest by their feeding role.",
+      "explanation": "Plants are producers, herbivores are primary consumers, and fungi and bacteria break down organic matter.",
+      "lang": "en",
+      "categories": [
+        "Producers",
+        "Primary consumers",
+        "Decomposers"
+      ],
+      "items": [
+        {
+          "text": "Holm oak",
+          "category": 0
+        },
+        {
+          "text": "Wild rabbit",
+          "category": 1
+        },
+        {
+          "text": "Fungi breaking down dead leaves",
+          "category": 2
+        },
+        {
+          "text": "Wild rosemary",
+          "category": 0
+        },
+        {
+          "text": "Grasshopper eating leaves",
+          "category": 1
+        },
+        {
+          "text": "Bacteria breaking down fallen leaves",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about recycling nutrients in soil.",
+      "explanation": "Decomposers complete the matter cycle by turning organic remains into mineral salts that nourish plant roots.",
+      "hint": "Think of the substances that roots absorb from soil along with water.",
+      "lang": "en",
+      "sentence": "Decomposers break down dead organic matter and turn it into ___ that plants can use again.",
+      "options": [
+        "liquid carbon dioxide",
+        "light energy",
+        "mineral salts"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-05",
+      "type": "match",
+      "prompt": "This model shows phytoplankton → water fleas → trout → heron. Match each organism to its role in the model.",
+      "explanation": "Phytoplankton captures light. Zooplankton eats it, trout eat zooplankton, and herons catch trout.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Phytoplankton",
+          "right": "Microscopic aquatic producer"
+        },
+        {
+          "left": "Water flea (Daphnia)",
+          "right": "Primary consumer that filters algae"
+        },
+        {
+          "left": "Brown trout",
+          "right": "Carnivorous secondary consumer"
+        },
+        {
+          "left": "Grey heron",
+          "right": "Tertiary consumer at the top of the web"
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-06",
+      "type": "order",
+      "prompt": "Order these links to form a complete food chain following the flow of energy.",
+      "explanation": "The holm oak is the producer. The arrows show transfers through feeding. Decomposers use remains from every level.",
+      "lang": "en",
+      "items": [
+        "Holm oak producing acorns",
+        "Mouse eating acorns",
+        "Owl hunting the mouse",
+        "Bacteria breaking down their remains"
+      ]
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-07",
+      "type": "choice",
+      "prompt": "The class discusses feeding relationships. Who has an INCORRECT idea about how an ecosystem works?",
+      "explanation": "Mateo is mistaken. Although carnivores do not eat plants directly, they depend on them indirectly because their prey need plants to survive.",
+      "hint": "What do the herbivores hunted by a carnivore eat?",
+      "lang": "en",
+      "options": [
+        "Mateo: “Wolves do not depend on vegetation at all, because they are strict carnivores and only eat other animals.”",
+        "Nerea: “If plants disappeared, carnivores would also die because their herbivore prey would have no food.”",
+        "Aisha: “Only part of the energy is used at each feeding level, because the rest is lost as heat.”"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-08",
+      "type": "choice",
+      "prompt": "In a forest, a pest causes most blackberry bushes to wither. Dormice feed almost entirely on these berries, and barn owls mainly hunt dormice. What is the most reasonable prediction about what will happen first?",
+      "explanation": "Fewer blackberries may lead to fewer dormice and later affect barn owls. This prediction needs to be checked against data.",
+      "hint": "Follow the chain. Which animals are affected immediately by the shortage of fruit?",
+      "lang": "en",
+      "options": [
+        "The dormouse population will fall through lack of food, which will later harm the barn owl population.",
+        "The barn owl population will grow immediately because the dormice will be more tired.",
+        "The bushes will start hunting dormice to make up for their lost leaves."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-09",
+      "type": "reading",
+      "prompt": "Read this text about a Mediterranean forest and answer the questions.",
+      "explanation": "Conservation requires attention to ecological relationships and checking results against data.",
+      "lang": "en",
+      "title": "The Iberian lynx and woodland balance",
+      "text": "The Iberian lynx mainly eats rabbits. Diseases affecting its prey and habitat loss were major threats to its survival. Conserving it also requires care for woodland and rabbit populations.\n\nThe lynx interacts with other carnivores, such as foxes and Egyptian mongooses. Its presence can influence how they use the land and affect their prey populations. These relationships form a web: changing one species can affect others.\n\nConservation programmes combine habitat protection, animal monitoring and reducing risks. Their effects must be checked through observations and data. Bringing back one species does not, on its own, guarantee that every problem in the ecosystem will disappear.",
+      "questions": [
+        {
+          "prompt": "According to the text, which animal is the Iberian lynx’s main prey?",
+          "explanation": "The text identifies rabbits as its main prey.",
+          "options": [
+            "The red-legged partridge.",
+            "The Egyptian mongoose.",
+            "The wild rabbit."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why would protecting only the lynx be insufficient?",
+          "options": [
+            "It also needs prey and a suitable habitat",
+            "It can live without food",
+            "All carnivores only eat plants"
+          ],
+          "answer": 0,
+          "explanation": "Conservation must consider habitat, prey and relationships between species."
+        },
+        {
+          "prompt": "What scientific conclusion about conservation can we draw from this situation?",
+          "explanation": "Species are connected. Data allow us to assess how these relationships change.",
+          "options": [
+            "Conserving a species requires studying its relationships with the rest of the ecosystem.",
+            "It is better to remove carnivores so that only herbivores live in the woodland.",
+            "Food webs work better when meat-eating species disappear."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-cadenas-y-redes-troficas-10",
+      "type": "choice",
+      "prompt": "Why can having different food sources help a food web when one prey species becomes scarce?",
+      "explanation": "Some consumers can use other food sources. This can help the web withstand changes, although it does not guarantee protection against every change.",
+      "hint": "Think about having several choices for a snack instead of just one.",
+      "lang": "en",
+      "options": [
+        "Primary consumers in a web can carry out photosynthesis when plants dry up.",
+        "It offers alternative routes: if one species becomes scarce, predators can feed on different prey.",
+        "Food webs have no decomposers, and their energy never runs out."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:24:47.637Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:04:05.013Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "4c7735d0592d28a7e850e33669849746bc41bce4ce03d821ebe28b7c4d89e509"
+    }
+  }
+}

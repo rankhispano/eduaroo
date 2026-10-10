@@ -9,7 +9,7 @@
   "keyIdeas": [
     "El sector secundario transforma materias primas de la naturaleza en productos elaborados.",
     "Incluye la industria, la artesanía, la construcción y la obtención de energía.",
-    "La industria moderna busca fabricar de manera limpia y sostenible para cuidar el planeta."
+    "Las industrias pueden reducir su impacto ahorrando recursos, tratando sus emisiones y gestionando los residuos."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -163,18 +163,18 @@
       "explanation": "El proceso productivo va desde la obtención de la materia prima hasta la venta final, pasando por la transformación industrial.",
       "lang": "es",
       "items": [
-        "Se recolectan los frutos del cacao en el árbol.",
-        "Las semillas se transportan en barco a la fábrica de chocolate.",
-        "Las máquinas de la fábrica tuestan y muelen las semillas.",
-        "Se añade azúcar, se moldea la tableta y se empaqueta.",
-        "La tableta de chocolate llega a la tienda del barrio."
+        "Se recolectan los frutos del cacao y se obtienen sus semillas.",
+        "Las semillas se fermentan y secan antes de enviarlas a la fábrica.",
+        "En la fábrica se tuestan y muelen las semillas.",
+        "Se elabora el chocolate, se moldea y se empaqueta.",
+        "Las tabletas llegan a las tiendas."
       ]
     },
     {
       "id": "g4-sociales-sector-secundario-08",
       "type": "reading",
       "prompt": "Lee atentamente la visita escolar de Omar y responde a las preguntas:",
-      "explanation": "La lectura muestra cómo funciona una industria conservera y cómo puede aplicar medidas de cuidado ambiental.",
+      "explanation": "Las placas solares y el aprovechamiento de restos ayudan a reducir el consumo de recursos y los residuos.",
       "lang": "es",
       "title": "Visita a la fábrica de conservas",
       "text": "Hoy la clase de Omar ha visitado una fábrica conservera de pescado cerca del puerto. En la nave principal, varias máquinas limpian, cocinan y envasan el atún en latas de metal. La guía, Nerea, les explicó que la fábrica usa paneles solares en el tejado para generar su propia electricidad limpia. Además, todos los restos de pescado que no se envasan se aprovechan para elaborar pienso para animales. Omar aprendió que las fábricas modernas intentan no malgastar recursos y reducir los residuos para no dañar el medioambiente marino.",
@@ -219,7 +219,7 @@
       "id": "g4-sociales-sector-secundario-10",
       "type": "choice",
       "prompt": "El ayuntamiento quiere que el polígono industrial sea más sostenible y contamine menos. ¿Qué propuesta es la más adecuada?",
-      "explanation": "Depurar las aguas y filtrar el humo permite que las industrias fabriquen sin dañar el aire ni los ríos del entorno.",
+      "explanation": "Los filtros y la depuración reducen las sustancias contaminantes que llegan al aire y al agua, aunque no eliminan todo el impacto de una fábrica.",
       "hint": "Busca una acción que limpie las emisiones y proteja la naturaleza.",
       "lang": "es",
       "options": [

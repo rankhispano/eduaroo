@@ -1,0 +1,243 @@
+{
+  "id": "g3-naturales-el-ciclo-del-agua",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "el-ciclo-del-agua",
+  "temaNombre": "The water cycle",
+  "title": "Water's amazing journey",
+  "summary": "Practise how water moves and changes on our planet through fun challenges.",
+  "keyIdeas": [
+    "The water cycle is water's continuous journey around Earth.",
+    "Heat from the Sun causes liquid water to evaporate into water vapour.",
+    "As water vapour cools high in the air, it condenses to form clouds. Water then falls as precipitation."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › Materia, fuerzas y energía"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-01",
+      "type": "true-false",
+      "prompt": "In the water cycle, water keeps changing its state and location.",
+      "explanation": "Water moves between seas, air, soil and living things. It can be liquid, solid or water vapour.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct word.",
+      "explanation": "Evaporation is the change from liquid water to invisible water vapour caused by heat.",
+      "hint": "Think about the change from a liquid to a gas.",
+      "lang": "en",
+      "sentence": "When the Sun warms liquid water in the sea, it moves into the air through ___.",
+      "options": [
+        "filtration",
+        "precipitation",
+        "evaporation"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-03",
+      "type": "match",
+      "prompt": "Match each stage of the water cycle to what happens.",
+      "explanation": "Each stage describes a change as water moves between Earth's surface and the atmosphere.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Evaporation",
+          "right": "Liquid water warms and rises as invisible vapour"
+        },
+        {
+          "left": "Condensation",
+          "right": "Water vapour cools and forms droplets in clouds"
+        },
+        {
+          "left": "Precipitation",
+          "right": "Water falls to the ground as rain or snow"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-04",
+      "type": "choice",
+      "prompt": "Hugo says something about clouds that contains a scientific mistake. Which statement is wrong?",
+      "explanation": "Water vapour is invisible. We can see clouds because they are made of tiny liquid water droplets or ice crystals.",
+      "hint": "Remember that you cannot see water vapour with your eyes.",
+      "lang": "en",
+      "options": [
+        "Clouds are made of invisible water vapour in its gas state",
+        "Clouds form when moist air rises and cools",
+        "Tiny droplets in clouds can join together and fall as rain"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-05",
+      "type": "order",
+      "prompt": "Put a water droplet's journey from the sea and back again in order.",
+      "explanation": "This sequence follows a droplet from the sea and back. The cycle keeps going and has no single start or end.",
+      "lang": "en",
+      "items": [
+        "The Sun warms the sea and liquid water evaporates",
+        "Water vapour rises, cools and forms a cloud",
+        "Water falls as rain onto a mountain",
+        "Water flows down a river and returns to the sea"
+      ]
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-06",
+      "type": "classify",
+      "prompt": "Sort these examples from the water cycle by their state.",
+      "explanation": "Water is liquid in rain and rivers, and solid in ice and snow.",
+      "lang": "en",
+      "categories": [
+        "Liquid water",
+        "Solid water"
+      ],
+      "items": [
+        {
+          "text": "Spring rain",
+          "category": 0
+        },
+        {
+          "text": "A snowflake",
+          "category": 1
+        },
+        {
+          "text": "Morning dew",
+          "category": 0
+        },
+        {
+          "text": "Hail in a storm",
+          "category": 1
+        },
+        {
+          "text": "Water in a stream",
+          "category": 0
+        },
+        {
+          "text": "Ice high in the mountains",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-07",
+      "type": "choice",
+      "prompt": "Aisha and Omar put warm water in a glass jar with a lid. They place ice on the lid. What will happen inside?",
+      "explanation": "Water vapour rises and condenses into small droplets when it meets the lid cooled by the ice.",
+      "hint": "Think about what happens when warm water vapour touches a cold surface.",
+      "lang": "en",
+      "options": [
+        "Droplets will form on the inside of the lid as water vapour condenses",
+        "All the water will disappear through the glass",
+        "The ice will pass through the solid lid and fall into the jar"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-08",
+      "type": "choice",
+      "prompt": "Wei wants to water the school garden at midday, but Martina suggests the evening. Why is Martina right?",
+      "explanation": "Watering when it is cooler reduces evaporation. This saves water and helps the plants.",
+      "hint": "Midday heat makes water turn into vapour more quickly.",
+      "lang": "en",
+      "options": [
+        "At midday, plants do not need water because they are resting from the sun",
+        "In the evening, water turns into snow and protects the leaves",
+        "In the evening, it is cooler and less water evaporates before reaching the roots"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "Groundwater is an important part of the water cycle, and we must protect it from pollution.",
+      "lang": "en",
+      "title": "The journey underground",
+      "text": "Adrián and Nerea visited a cave on a school trip. Their guide explained that rainwater does not only travel through rivers and lakes. Much of it slowly seeps through soil and rocks. This is called infiltration. Beneath our feet, groundwater moves slowly and collects in tiny spaces and cracks in layers of ground called aquifers. Many people in villages and rural areas get water from wells. This water must be checked and treated if necessary before drinking. Over time, much of it comes out through springs or reaches the sea, continuing its journey.",
+      "questions": [
+        {
+          "prompt": "What is the process called when rainwater enters the ground?",
+          "explanation": "Infiltration is water entering the soil.",
+          "options": [
+            "Boiling",
+            "Infiltration",
+            "Evaporation"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why is it important to avoid polluting soil in our fields?",
+          "explanation": "Pollutants in soil can reach water in aquifers. Well water is not always safe to drink.",
+          "options": [
+            "Pollutants can seep through and contaminate water in aquifers",
+            "Rain would stop falling on Earth forever",
+            "Underground rocks need clean air to make more water"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-el-ciclo-del-agua-10",
+      "type": "choice",
+      "prompt": "A puddle on ground that water cannot soak through dries up on a sunny morning. Which process explains this water loss?",
+      "explanation": "Heat from the surroundings changes liquid water into invisible water vapour, continuing its cycle in the air.",
+      "hint": "Remember the change from liquid water to vapour.",
+      "lang": "en",
+      "options": [
+        "It has evaporated because of heat and is now in the air as water vapour",
+        "It has disappeared from the planet forever because heat destroyed it",
+        "It has frozen and the wind has carried away the ice"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T19:33:55.409Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:22:07.046Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "0c66f73fbb020306d76421a879acceb228ab3b9345ef68005a248c828a6eb6e4",
+      "validation": "manual-review"
+    }
+  }
+}

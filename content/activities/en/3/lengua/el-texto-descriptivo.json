@@ -1,0 +1,265 @@
+{
+  "id": "g3-lengua-el-texto-descriptivo",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "el-texto-descriptivo",
+  "temaNombre": "Descriptive texts",
+  "title": "Discovering descriptive texts",
+  "summary": "Practise describing people, animals, objects and places using suitable Spanish words.",
+  "keyIdeas": [
+    "Describing means explaining in detail what a person, animal, object or place is like.",
+    "Adjectives are useful for describing qualities and features.",
+    "Descriptions often follow an order, such as starting with a general picture and moving to details."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "4.2",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-el-texto-descriptivo-01",
+      "type": "choice",
+      "prompt": "What is the main purpose of a descriptive text?",
+      "explanation": "A descriptive text explains what people, animals, objects or places are like, giving their features.",
+      "hint": "Think of what you do when you describe your room or pet.",
+      "lang": "en",
+      "options": [
+        "To tell an imaginary story with characters and dialogue.",
+        "To explain in words what a living thing, object or place is like.",
+        "To give step-by-step instructions for a recipe."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-02",
+      "type": "true-false",
+      "prompt": "Descriptive texts use many adjectives to describe qualities.",
+      "explanation": "True. Descriptive adjectives tell us what things are like or how they are.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-03",
+      "type": "match",
+      "prompt": "Match each Spanish example to its type of description.",
+      "explanation": "We can describe places, animals, objects and people, depending on what we observe.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Plaza Mayor del pueblo",
+          "right": "Description of a place"
+        },
+        {
+          "left": "Gato siamés cariñoso",
+          "right": "Description of an animal"
+        },
+        {
+          "left": "Mochila escolar azul",
+          "right": "Description of an object"
+        },
+        {
+          "left": "Abuela sonriente y ágil",
+          "right": "Description of a person"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-04",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with the most suitable adjective.",
+      "explanation": "«espeso» describes many trees and plants close together, blocking much of the sunlight.",
+      "lang": "en",
+      "sentence": "El bosque era tan ___ que apenas entraban los rayos de sol.",
+      "options": [
+        "ruidoso",
+        "salado",
+        "espeso"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-05",
+      "type": "classify",
+      "prompt": "Sort these Spanish features into appearance or character.",
+      "explanation": "Physical features describe the body. Character describes a person's qualities and behaviour.",
+      "lang": "en",
+      "categories": [
+        "Physical features",
+        "Character traits"
+      ],
+      "items": [
+        {
+          "text": "Pelo rizado",
+          "category": 0
+        },
+        {
+          "text": "Generosa",
+          "category": 1
+        },
+        {
+          "text": "Ojos rasgados",
+          "category": 0
+        },
+        {
+          "text": "Paciente",
+          "category": 1
+        },
+        {
+          "text": "Estatura alta",
+          "category": 0
+        },
+        {
+          "text": "Alegre",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-06",
+      "type": "choice",
+      "prompt": "Find the mistake: which Spanish sentence contains a contradictory description?",
+      "explanation": "The same surface cannot be very dry and also completely covered by a deep lake at the same time. Those details contradict each other.",
+      "hint": "Compare the two descriptions of the same place: very dry and covered by a lake.",
+      "lang": "en",
+      "options": [
+        "El parque tenía bancos de madera limpia y árboles llenos de hojas verdes.",
+        "Aisha llevaba una bufanda de lana suave porque hacía una mañana fresca.",
+        "El desierto era muy seco y estaba cubierto por un profundo lago de agua dulce."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-07",
+      "type": "order",
+      "prompt": "Follow this guide: introduction, appearance, character, likes. Put its steps in order.",
+      "explanation": "This guide begins with an introduction, then appearance and character, and finally likes or hobbies. Other ways of organising descriptions are possible.",
+      "lang": "en",
+      "items": [
+        "Introduce the person and give their name.",
+        "Describe their general and specific physical features.",
+        "Explain their character or personality.",
+        "Mention their likes, hobbies or clothes."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-08",
+      "type": "reading",
+      "prompt": "Read the Spanish description carefully and answer the questions.",
+      "explanation": "Descriptions of places use visual details, smells and sensations to help us imagine the space.",
+      "lang": "en",
+      "title": "El refugio de Lucas",
+      "text": "Lucas tiene una casita de madera construida en las ramas de un viejo roble. Sus paredes son de color castaño y el tejado tiene tejas rojas brillantes. Por fuera cuelgan macetas con geranios olorosos que alegran la entrada. Dentro hay una alfombra redonda y mullida junto a un baúl repleto de cuentos. A través de la ventana circular se contempla todo el huerto de su abuela Martina. Es un rincón silencioso, acogedor y perfecto para leer en las tardes de otoño.",
+      "questions": [
+        {
+          "prompt": "Where is Lucas's little house?",
+          "explanation": "The text says the wooden house is built in the branches of an old oak tree.",
+          "options": [
+            "On the ground in the middle of the garden.",
+            "On the roof of the village house.",
+            "In the branches of an old oak tree."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which sense is used when the geraniums are described as «olorosos»?",
+          "explanation": "«olorosos» refers to the flowers' smell, which we notice with our sense of smell.",
+          "options": [
+            "Hearing.",
+            "Smell.",
+            "Touch."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which Spanish adjectives sum up what it feels like inside the shelter?",
+          "explanation": "The text ends by saying it is «silencioso» and «acogedor», and perfect for reading.",
+          "options": [
+            "Silencioso y acogedor.",
+            "Peligroso y oscuro.",
+            "Frío y aburrido."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-09",
+      "type": "choice",
+      "prompt": "Hugo loses his dog in the park. Which Spanish description would be most useful on a poster to help find it?",
+      "explanation": "Recognising a lost animal needs clear details of its size, colour, physical features and visible accessories.",
+      "hint": "Find the text giving details of the dog's appearance.",
+      "lang": "en",
+      "options": [
+        "Perro muy simpático. Le encanta jugar con la pelota y correr mucho por el césped los domingos.",
+        "Perro mediano, pelo canela rizado, orejas caídas y collar rojo con chapa plateada. Responde al nombre de Choco.",
+        "Ayer se perdió mi perro favorito. Si lo ves avísame pronto porque lo echo mucho de menos en casa."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-texto-descriptivo-10",
+      "type": "choice",
+      "prompt": "Which descriptive device is used in «Las nubes parecían copos de algodón blanco»?",
+      "explanation": "It compares clouds to cotton using «parecían», helping us imagine their appearance.",
+      "hint": "Notice how one thing is compared with something similar.",
+      "lang": "en",
+      "options": [
+        "A question to check the weather.",
+        "An instruction for drawing clouds step by step.",
+        "A comparison highlighting the clouds' shape and softness."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:30:43.260Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:41:16.361Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "c9715ce862cd9aa29a58b2674ad19cbea63f460c56ef5096dc2e06cd1bd06b0c",
+      "validation": "manual-review"
+    }
+  }
+}

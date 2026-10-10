@@ -144,14 +144,14 @@
     {
       "id": "g4-sociales-la-union-europea-06",
       "type": "choice",
-      "prompt": "Aisha y su familia viajan de vacaciones de España a Portugal en coche. ¿Qué ventaja ofrece la Unión Europea en este viaje?",
-      "explanation": "Gracias al espacio común europeo, la ciudadanía puede desplazarse libremente entre los países miembros sin controles de aduanas.",
-      "hint": "Piensa en el derecho a circular libremente por Europa.",
+      "prompt": "Aisha viaja de España a Portugal. Ambos países pertenecen a la UE y utilizan el euro. ¿Qué ventaja tiene compartir la moneda?",
+      "explanation": "España y Portugal utilizan el euro. Esto facilita los pagos sin cambiar de moneda. No todos los países de la UE utilizan el euro.",
+      "hint": "Fíjate en la moneda que utilizan ambos países.",
       "lang": "es",
       "options": [
-        "Pueden cruzar la frontera libremente sin necesidad de visado ni aduanas.",
-        "Tienen que cambiar sus euros por otra moneda distinta en la frontera.",
-        "Deben esperar varias horas para obtener un permiso especial de viaje."
+        "Puede pagar con euros en ambos países",
+        "Debe cambiar los euros por otra moneda en Portugal",
+        "Necesita una moneda diferente en cada tienda"
       ],
       "answer": 0
     },
@@ -164,7 +164,7 @@
       "pairs": [
         {
           "left": "Parlamento Europeo",
-          "right": "Aprueba leyes y presupuestos con representantes elegidos"
+          "right": "Aprueba leyes y presupuestos junto con el Consejo de la UE"
         },
         {
           "left": "Comisión Europea",
@@ -180,13 +180,13 @@
       "id": "g4-sociales-la-union-europea-08",
       "type": "reading",
       "prompt": "Lee el texto sobre la historia de la Unión Europea y contesta a las preguntas.",
-      "explanation": "La Unión Europea nació con el Tratado de Roma de 1957 y creció hasta reunir a 27 democracias que colaboran unidas.",
+      "explanation": "La Comunidad Económica Europea se fundó en 1957. España entró en las Comunidades Europeas en 1986 y la Unión Europea se creó en 1993.",
       "lang": "es",
       "title": "El origen de una gran unión",
-      "text": "Tras la Segunda Guerra Mundial, varios países de Europa decidieron unirse para evitar nuevos conflictos. En 1957, seis países fundaron la Comunidad Económica Europea mediante el Tratado de Roma: Francia, Alemania, Italia, Bélgica, Países Bajos y Luxemburgo. Querían ayudarse en el comercio y colaborar como amigos. Con el paso de los años, muchos otros países se sumaron al proyecto común. España entró a formar parte de esta unión en el año 1986. Hoy en día, la Unión Europea cuenta con 27 países que trabajan juntos por la paz, el progreso económico y la protección de los derechos humanos.",
+      "text": "Tras la Segunda Guerra Mundial, varios países de Europa decidieron unirse para evitar nuevos conflictos. En 1957, seis países fundaron la Comunidad Económica Europea mediante el Tratado de Roma: Francia, Alemania, Italia, Bélgica, Países Bajos y Luxemburgo. Querían ayudarse en el comercio y colaborar como amigos. Con el paso de los años, muchos otros países se sumaron al proyecto común. España entró a formar parte de esta unión en el año 1986. En 1993 se creó la Unión Europea con el Tratado de Maastricht. Actualmente, la Unión Europea cuenta con 27 países que trabajan juntos por la paz, el progreso económico y la protección de los derechos humanos.",
       "questions": [
         {
-          "prompt": "¿En qué año se incorporó España a la unión europea?",
+          "prompt": "¿En qué año se incorporó España a las Comunidades Europeas?",
           "explanation": "El texto explica claramente que España entró a formar parte de la unión en el año 1986.",
           "options": [
             "En 1957",

@@ -1,0 +1,247 @@
+{
+  "id": "g3-sociales-mapas-fisicos-de-espana",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "mapas-fisicos-de-espana",
+  "temaNombre": "Physical maps of Spain",
+  "title": "Exploring Spain's physical maps",
+  "summary": "Practise reading physical maps, their colours and Spain's main landforms.",
+  "keyIdeas": [
+    "A physical map shows landforms, mountains, rivers and coasts using different colours.",
+    "Colours can show height or water. We check the map key to understand them.",
+    "Spain has a large central plateau, important mountain ranges and two main island groups: the Balearic and Canary Islands."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-01",
+      "type": "true-false",
+      "prompt": "On a map whose key uses green for low altitude, green shows the highest peaks.",
+      "explanation": "False: green means low altitude on this map. Always check the map key to understand the colours.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about physical maps.",
+      "explanation": "On this map, water is shown in blue. The key explains what each colour means.",
+      "lang": "en",
+      "sentence": "On this map, the key shows seas and rivers in ___.",
+      "options": [
+        "brown",
+        "blue",
+        "green"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-03",
+      "type": "match",
+      "prompt": "The key uses green for low altitude, yellow for medium altitude, dark brown for high altitude and blue for water. Match colours and areas.",
+      "explanation": "Each colour helps show the land's height and where there is water.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Green",
+          "right": "Low-lying plains and valleys"
+        },
+        {
+          "left": "Dark brown",
+          "right": "Very high mountains"
+        },
+        {
+          "left": "Blue",
+          "right": "Seas, oceans and rivers"
+        },
+        {
+          "left": "Yellow",
+          "right": "Areas at a medium height or plateaus"
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-04",
+      "type": "choice",
+      "prompt": "Lucía looks at the centre of the Iberian Peninsula on a physical map of Spain. Which large landform is there?",
+      "explanation": "The Meseta Central is a large, high plateau in the centre of the Iberian Peninsula.",
+      "hint": "It is a flat but high area inland.",
+      "lang": "en",
+      "options": [
+        "The Mediterranean Sea",
+        "The Pyrenees",
+        "The Meseta Central"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-05",
+      "type": "classify",
+      "prompt": "Sort these map features by the ocean or sea they are beside or within.",
+      "explanation": "The Canary Islands and Galicia's coast face Atlantic waters. The Balearic Islands are in the Mediterranean, and the Ebro's mouth is there too.",
+      "lang": "en",
+      "categories": [
+        "Atlantic Ocean",
+        "Mediterranean Sea"
+      ],
+      "items": [
+        {
+          "text": "Canary Islands",
+          "category": 0
+        },
+        {
+          "text": "Balearic Islands",
+          "category": 1
+        },
+        {
+          "text": "Mouth of the Ebro",
+          "category": 1
+        },
+        {
+          "text": "Galicia's coast",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-06",
+      "type": "choice",
+      "prompt": "Adrián looks for the highest peak in all of Spain on a physical map. Which should he point to?",
+      "explanation": "Teide, on Tenerife in the Canary Islands, is Spain's highest peak.",
+      "hint": "It is on a volcanic island in the Canary Islands.",
+      "lang": "en",
+      "options": [
+        "Teide",
+        "Mulhacén",
+        "Aneto"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-07",
+      "type": "order",
+      "prompt": "In this key, green means the lowest altitude, followed by yellow, light brown and dark brown. Put the colours in order from lowest to highest.",
+      "explanation": "The order follows this map's key. Low altitude does not always mean flat land.",
+      "lang": "en",
+      "items": [
+        "Green (low, flat areas)",
+        "Yellow (medium altitude)",
+        "Light brown (medium-height mountains)",
+        "Dark brown (high mountains)"
+      ]
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-08",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "Physical maps use colour keys to show the height of mountain ranges such as the Pyrenees.",
+      "lang": "en",
+      "title": "Aisha's map journey",
+      "text": "Aisha's class looks at a large physical map of Spain on the classroom screen. The teacher asks them to find natural borders. In the north, they discover the Pyrenees, a great mountain range between Spain and France. Aisha notices the dark brown colour, which shows very high peaks on this map. Looking south, they find the Baetic mountain ranges. Finally, they look east and discover the Balearic Islands, surrounded by the blue Mediterranean Sea. Spain's landforms are very varied!",
+      "questions": [
+        {
+          "prompt": "Which mountain range separates Spain and France in the text?",
+          "explanation": "The text says that the Pyrenees form a natural border with France in the north.",
+          "options": [
+            "The Baetic mountain ranges",
+            "The Pyrenees",
+            "The Sistema Central"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why are the Pyrenees shown in dark brown?",
+          "explanation": "On this map, the darkest brown represents the highest mountains.",
+          "options": [
+            "They are completely surrounded by the sea",
+            "They have very high mountain peaks",
+            "They are covered in many dry forests"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-09",
+      "type": "choice",
+      "prompt": "The map key says green means below 200 metres and brown means above 1.000 metres. Which colour shows the lowest land areas?",
+      "explanation": "According to this key, green areas are below 200 metres. Colour alone does not show how steep a route is.",
+      "hint": "Compare the heights in the key.",
+      "lang": "en",
+      "options": [
+        "Blue",
+        "Green",
+        "Dark brown"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-sociales-mapas-fisicos-de-espana-10",
+      "type": "match",
+      "prompt": "Match each feature on Spain's physical map to its location.",
+      "explanation": "Finding mountain ranges, seas and island groups helps us understand Spain's geography.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Pyrenees",
+          "right": "Northern border with France"
+        },
+        {
+          "left": "Sistema Central",
+          "right": "Divides the Meseta Central in two"
+        },
+        {
+          "left": "Cantabrian Sea",
+          "right": "Water along the peninsula's northern coast"
+        },
+        {
+          "left": "Balearic Islands",
+          "right": "Island group in the Mediterranean Sea"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:52:57.795Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:28:46.928Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "aa248ec55b5e012443de68ca59824ae5f9edf7ce8362d618371d636b64172bbc",
+      "validation": "manual-review"
+    }
+  }
+}

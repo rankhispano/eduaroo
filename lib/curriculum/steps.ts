@@ -11,8 +11,9 @@ export type ReadingStep = {
     answer: number;
     explanation: string;
     lang?: 'es' | 'en';
+    contentLang?: 'es' | 'en';
     hint?: undefined;
-    passage: { title: string; text: string };
+    passage: { title: string; text: string; lang?: 'es' | 'en' };
 };
 
 // setKey: `${cursoId}/${asignaturaId}/${temaId}` del bloque del que sale el paso
@@ -29,7 +30,8 @@ export function toSteps(activities: Activity[], setKey: string): Step[] {
                 answer: q.answer,
                 explanation: q.explanation,
                 lang: activity.lang,
-                passage: { title: activity.title, text: activity.text },
+                contentLang: activity.contentLang,
+                passage: { title: activity.title, text: activity.text, lang: activity.contentLang ?? activity.lang },
                 setKey,
             }))
             : [{ ...activity, setKey }],

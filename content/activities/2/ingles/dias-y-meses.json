@@ -155,7 +155,7 @@
       "type": "fill-blank",
       "prompt": "Completa la frase con el mes correcto:",
       "explanation": "La Navidad se celebra en diciembre (December), el último mes del año.",
-      "hint": "Es el último mes del año y hace frío.",
+      "hint": "Es el último mes del año.",
       "lang": "en",
       "sentence": "Christmas Day is in ___.",
       "options": [
@@ -168,8 +168,8 @@
     {
       "id": "g2-ingles-dias-y-meses-08",
       "type": "choice",
-      "prompt": "Omar has swimming class on the first day of the school week. What day is it?",
-      "explanation": "La semana de colegio empieza el lunes (Monday). Saturday y Sunday forman el fin de semana.",
+      "prompt": "Omar's school week starts on Monday. He has swimming on that day. What day is it?",
+      "explanation": "En el horario de Omar, las clases empiezan el lunes: Monday.",
       "hint": "Es el día que volvemos al cole tras el fin de semana.",
       "lang": "en",
       "options": [

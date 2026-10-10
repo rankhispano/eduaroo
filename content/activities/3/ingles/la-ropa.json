@@ -70,8 +70,8 @@
     {
       "id": "g3-ingles-la-ropa-02",
       "type": "choice",
-      "prompt": "It is a sunny summer day at the park. What does Leo wear?",
-      "explanation": "En un día soleado de verano hace calor, por lo que Leo necesita ropa ligera como una camiseta (T-shirt) y pantalones cortos (shorts).",
+      "prompt": "It is a hot summer day at the park. What does Leo wear?",
+      "explanation": "En este día caluroso, Leo elige ropa ligera: a T-shirt and shorts.",
       "hint": "Piensa en qué ropa te pones cuando hace mucho sol y calor.",
       "lang": "en",
       "options": [
@@ -189,7 +189,7 @@
       "explanation": "¡Buen trabajo de comprensión lectora! Identificar prendas y colores en un texto ayuda a consolidar el vocabulario.",
       "lang": "en",
       "title": "A Rainy Morning for Lucía and Omar",
-      "text": "Today is Tuesday and it is raining outside. Lucía looks out of her bedroom window. She sees big grey clouds and puddles on the street. Lucía opens her wardrobe to get dressed for school. First, she puts on blue jeans and a warm red sweater. Next, she takes her favourite yellow raincoat and waterproof boots. Her brother Omar is also ready. He is wearing a dark jacket and holding a big blue umbrella. 'Don't forget your scarf, Lucía!' says Omar smiling. Lucía takes her green scarf, and they both walk happily to school.",
+      "text": "Today is Tuesday and it is cold and raining outside. Lucía looks out of her bedroom window. She sees big grey clouds and puddles on the street. Lucía opens her wardrobe to get dressed for school. First, she puts on blue jeans and a warm red sweater. Next, she takes her favourite yellow raincoat and waterproof boots. Her brother Omar is also ready. He is wearing a dark jacket and holding a big blue umbrella. 'Don't forget your scarf, Lucía!' says Omar smiling. Lucía takes her green scarf, and they both walk happily to school.",
       "questions": [
         {
           "prompt": "What colour is Lucía's sweater?",
@@ -202,8 +202,8 @@
           "answer": 0
         },
         {
-          "prompt": "Why are Lucía and Omar wearing coats and boots?",
-          "explanation": "La lectura indica que el día es lluvioso y frío ('it is raining outside', 'puddles on the street').",
+          "prompt": "Why is Lucía wearing a raincoat and waterproof boots?",
+          "explanation": "El texto indica explícitamente que hace frío y llueve: «it is cold and raining outside».",
           "options": [
             "Because they are going swimming",
             "Because it is very sunny",

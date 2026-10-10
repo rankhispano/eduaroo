@@ -8,7 +8,7 @@
   "summary": "Practicarás tradiciones, costumbres, monumentos y formas de vida de diferentes países de habla inglesa.",
   "keyIdeas": [
     "El inglés se habla en países diversos como Reino Unido, Estados Unidos, Irlanda, Canadá o Australia.",
-    "Cada país anglófono tiene celebraciones y costumbres únicas (Thanksgiving, Bonfire Night o St. Patrick's Day).",
+    "Distintos países comparten o adaptan celebraciones. Thanksgiving se celebra en Estados Unidos y Canadá en fechas diferentes.",
     "Aprender sobre otras culturas y normas de cortesía nos ayuda a convivir con respeto y empatía."
   ],
   "lomloe": {
@@ -40,7 +40,7 @@
       "id": "g5-ingles-cultura-anglofona-01",
       "type": "true-false",
       "prompt": "In many primary schools across the United Kingdom, children wear a school uniform every day.",
-      "explanation": "Es verdadero. En la gran mayoría de colegios británicos es una tradición muy extendida que el alumnado vista uniforme escolar.",
+      "explanation": "En muchos colegios británicos se usa uniforme. Las normas varían entre centros.",
       "hint": "Piensa en las películas o lecturas sobre escuelas británicas.",
       "lang": "en",
       "answer": true
@@ -63,7 +63,7 @@
       "id": "g5-ingles-cultura-anglofona-03",
       "type": "classify",
       "prompt": "Classify these traditional celebrations according to where they are mainly celebrated:",
-      "explanation": "Bonfire Night y St. Andrew's Day son típicas de Reino Unido, mientras que Thanksgiving y el 4 de julio son fiestas clave en EE. UU.",
+      "explanation": "En noviembre, Thanksgiving es la celebración estadounidense. Canadá también tiene Thanksgiving, pero en octubre. Las otras dos celebraciones del ejercicio se asocian al Reino Unido.",
       "hint": "Bonfire Night conmemora un hecho histórico ocurrido en Londres en 1605.",
       "lang": "en",
       "categories": [
@@ -84,7 +84,7 @@
           "category": 0
         },
         {
-          "text": "Thanksgiving",
+          "text": "Thanksgiving on the fourth Thursday of November",
           "category": 1
         }
       ]
@@ -121,8 +121,8 @@
     {
       "id": "g5-ingles-cultura-anglofona-06",
       "type": "order",
-      "prompt": "Order the steps of a traditional Pancake Day race in a British primary school:",
-      "explanation": "En Pancake Day (Martes de Carnaval), los colegios británicos organizan carreras donde deben correr volteando una tortita sin que caiga al suelo.",
+      "prompt": "A school invents these Pancake Day race rules: prepare, start running, flip three times on the track, then finish. Put the rules in order.",
+      "explanation": "Este ejercicio presenta las reglas de una carrera escolar inventada. Algunas comunidades celebran carreras de tortitas, pero no todos los colegios siguen las mismas reglas.",
       "hint": "Primero te preparas con la sartén y al final cruzas la meta.",
       "lang": "en",
       "items": [
@@ -135,8 +135,8 @@
     {
       "id": "g5-ingles-cultura-anglofona-07",
       "type": "classify",
-      "prompt": "Classify these everyday words into British English or American English:",
-      "explanation": "Aunque ambos países hablan inglés, usan palabras diferentes para referirse a cosas cotidianas como las galletas, el otoño o las vacaciones.",
+      "prompt": "Classify these vocabulary choices by their typical association in this comparison. Both varieties also share words.",
+      "explanation": "Son tendencias de vocabulario: autumn/holiday se asocian aquí al inglés británico y fall/vacation al estadounidense. No son fronteras exclusivas: también se dice cookie en Reino Unido.",
       "hint": "En EE. UU. suelen decir cookie y vacation, mientras en Reino Unido prefieren biscuit y holiday.",
       "lang": "en",
       "categories": [
@@ -161,11 +161,11 @@
           "category": 1
         },
         {
-          "text": "holiday",
+          "text": "holiday (time off work or school)",
           "category": 0
         },
         {
-          "text": "vacation",
+          "text": "vacation (time off work or school)",
           "category": 1
         }
       ]
@@ -173,7 +173,7 @@
     {
       "id": "g5-ingles-cultura-anglofona-08",
       "type": "choice",
-      "prompt": "Lucía is visiting London with her family. They want to use the escalators in the London Underground (the Tube). What is the polite rule everyone follows there?",
+      "prompt": "Lucía sees a «Stand on the right» sign on a Tube escalator. Which action follows the sign?",
       "explanation": "En el metro de Londres es una norma de cortesía muy estricta colocarse a la derecha (stand on the right) para dejar libre el lado izquierdo a quien tiene prisa.",
       "hint": "Fíjate en las señales que indican a qué lado colocarse para dejar pasar.",
       "lang": "en",

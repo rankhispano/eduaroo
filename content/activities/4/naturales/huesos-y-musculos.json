@@ -49,7 +49,7 @@
       "id": "g4-naturales-huesos-y-musculos-02",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre cómo se unen los músculos a los huesos.",
-      "explanation": "Los tendones son cordones elásticos y resistentes. Transmiten la fuerza del músculo al hueso para permitir el movimiento.",
+      "explanation": "Los tendones son tejidos resistentes que unen músculos y huesos y transmiten la fuerza del movimiento.",
       "lang": "es",
       "sentence": "Los músculos se unen firmemente a los huesos mediante unas fibras resistentes llamadas ___.",
       "options": [
@@ -117,7 +117,7 @@
       "id": "g4-naturales-huesos-y-musculos-05",
       "type": "choice",
       "prompt": "Hugo prepara su mochila para ir a clase. ¿Qué hábito protegerá mejor su columna vertebral?",
-      "explanation": "Usar los dos tirantes reparte el peso de manera equilibrada. Así evitamos desviar la columna vertebral y prevenir dolores de espalda.",
+      "explanation": "Los dos tirantes reparten la carga. Llevar solo lo necesario y ajustar la mochila ayuda a reducir molestias de espalda.",
       "hint": "Piensa en cómo equilibrar el peso sobre tu cuerpo.",
       "lang": "es",
       "options": [
@@ -172,28 +172,28 @@
       "id": "g4-naturales-huesos-y-musculos-09",
       "type": "reading",
       "prompt": "Lee el siguiente texto sobre un experimento escolar y responde a las preguntas:",
-      "explanation": "El experimento demuestra que el calcio es fundamental para la firmeza de los huesos. Sin este mineral, pierden su resistencia.",
+      "explanation": "Las sales minerales contribuyen a la dureza del hueso. Esta comparación de laboratorio no permite diagnosticar ni tratar problemas de salud.",
       "lang": "es",
-      "title": "El enigma del hueso flexible",
-      "text": "En clase de Ciencias, Adrián y Lucía hicieron un experimento. Colocaron un hueso de pollo limpio en un tarro con vinagre durante una semana. El vinagre es un líquido ácido que disuelve lentamente el calcio. El calcio es el mineral que aporta dureza y resistencia a los huesos.\n\nA los siete días, sacaron el hueso del tarro y lo lavaron. Al tocarlo, descubrieron con asombro que el hueso se doblaba con facilidad, como si fuera de goma. No se rompió, pero perdió su rigidez porque el ácido eliminó todo el calcio.",
+      "title": "Una muestra de hueso flexible",
+      "text": "En clase de Ciencias, Adrián y Lucía observan un vídeo de laboratorio. Una persona especialista compara dos muestras de hueso: una sin tratar y otra que ha estado en un líquido ácido. Los huesos contienen sales minerales con calcio, que contribuyen a su dureza, y otras sustancias que les dan flexibilidad.\n\nLa muestra tratada ha perdido parte de sus sales minerales y se dobla con más facilidad. La muestra sin tratar conserva mayor rigidez. La docente explica que esto ayuda a entender por qué la composición del hueso es importante. También recuerda que cuidamos el esqueleto con alimentación variada, movimiento y otros hábitos saludables.",
       "questions": [
         {
-          "prompt": "¿Qué mineral disolvió el vinagre durante la semana del experimento?",
-          "explanation": "El vinagre disuelve el calcio, que es el elemento que proporciona dureza al esqueleto.",
+          "prompt": "¿Qué sustancias dan parte de la dureza al hueso?",
+          "explanation": "Las sales minerales, entre ellas las que contienen calcio, contribuyen a la dureza del hueso.",
           "options": [
-            "El sodio.",
-            "El hierro.",
-            "El calcio."
+            "Azúcares.",
+            "Aire.",
+            "Sales minerales que contienen calcio."
           ],
           "answer": 2
         },
         {
-          "prompt": "A partir de este resultado, ¿qué deducimos sobre la importancia del calcio en nuestra dieta?",
-          "explanation": "Sin calcio, los huesos pierden rigidez y se doblan. Una dieta con calcio permite mantener huesos firmes y sanos.",
+          "prompt": "¿Qué conclusión permite esta comparación?",
+          "explanation": "Al perder parte de las sales minerales, la muestra se hace más flexible. Esto relaciona su composición con su rigidez.",
           "options": [
-            "El calcio hace que los huesos se vuelvan blandos como la goma.",
-            "Tomar calcio ayuda a que los huesos crezcan duros y no se deformen.",
-            "El calcio solo sirve para hacer más largos los músculos."
+            "Las sales minerales hacen blandos los huesos.",
+            "Las sales minerales contribuyen a la rigidez de los huesos.",
+            "La rigidez no depende de la composición del hueso."
           ],
           "answer": 1
         }

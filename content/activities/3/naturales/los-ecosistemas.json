@@ -106,7 +106,7 @@
       "id": "g3-naturales-los-ecosistemas-04",
       "type": "match",
       "prompt": "Une cada ser vivo con su papel dentro de la cadena alimentaria.",
-      "explanation": "Las plantas producen alimento, los herbívoros comen plantas, los carnívoros comen otros animales y los descomponedores reciclan los restos orgánicos.",
+      "explanation": "En esta cadena, la hierba produce alimento, el conejo come plantas y el zorro come al conejo. Los descomponedores actúan sobre restos de todos los seres vivos.",
       "lang": "es",
       "pairs": [
         {
@@ -118,7 +118,7 @@
           "right": "Consumidor primario (herbívoro)"
         },
         {
-          "left": "Zorro rojo",
+          "left": "Zorro que come al conejo",
           "right": "Consumidor secundario (carnívoro)"
         },
         {
@@ -131,10 +131,10 @@
       "id": "g3-naturales-los-ecosistemas-05",
       "type": "order",
       "prompt": "Ordena los elementos de esta cadena alimentaria según el paso de la energía, desde el productor.",
-      "explanation": "La bellota alimenta al ratón herbívoro, el búho caza al ratón y, al final, los descomponedores transforman la materia orgánica en nutrientes para la tierra.",
+      "explanation": "En esta cadena, el ratón come una bellota y el búho come al ratón. El ratón puede comer otros alimentos. Los descomponedores aprovechan restos de cualquier eslabón.",
       "lang": "es",
       "items": [
-        "Bellota de encina",
+        "Encina que produce bellotas",
         "Ratón de campo",
         "Búho real",
         "Bacterias descomponedoras"
@@ -144,13 +144,13 @@
       "id": "g3-naturales-los-ecosistemas-06",
       "type": "choice",
       "prompt": "Hugo dice: «Si eliminamos a los lobos del bosque, el ecosistema estará mejor porque no cazarán ciervos». ¿Cuál es el error en su razonamiento?",
-      "explanation": "Los depredadores como el lobo regulan el número de herbívoros. Sin ellos, los ciervos comerían demasiada vegetación y destruirían el bosque.",
-      "hint": "¿Qué ocurre si una población de animales crece sin ningún límite?",
+      "explanation": "Los depredadores influyen en las poblaciones de herbívoros. Quitarlos puede aumentar la presión sobre las plantas; también influyen el alimento, las enfermedades y otros factores.",
+      "hint": "Piensa en cómo se relacionan lobos, ciervos y vegetación.",
       "lang": "es",
       "options": [
         "Los árboles crecerían tanto que taparían toda la luz a los ríos.",
         "Los ciervos se transformarían en carnívoros para sobrevivir sin depredadores.",
-        "Los ciervos se multiplicarían sin control y agotarían la vegetación del bosque."
+        "Podrían aumentar los ciervos y consumir más vegetación."
       ],
       "answer": 2
     },
@@ -202,13 +202,13 @@
     {
       "id": "g3-naturales-los-ecosistemas-09",
       "type": "choice",
-      "prompt": "En una excursión al pinar del pueblo, Martina encuentra varias latas vacías bajo unos árboles. ¿Qué acción es la más responsable con el medio ambiente?",
-      "explanation": "Recoger y reciclar los residuos evita la contaminación del suelo y previene posibles incendios o heridas en los animales silvestres.",
+      "prompt": "Martina encuentra latas vacías en una excursión con su clase. ¿Qué acción cuida el entorno sin hacerse daño?",
+      "explanation": "Avisamos a una persona adulta. La recogida se organiza con protección adecuada y sin tocar residuos peligrosos.",
       "lang": "es",
       "options": [
-        "Dejarlas allí porque los insectos pueden utilizarlas como refugio permanente.",
-        "Enterrarlas bajo la arena del pinar para que nadie las vea.",
-        "Recogerlas con cuidado con unos guantes y depositarlas en el contenedor de reciclaje adecuado."
+        "Dejarlas porque cualquier basura sirve de refugio.",
+        "Enterrarlas para que nadie las vea.",
+        "Avisar a su docente para organizar una recogida segura y reciclarlas."
       ],
       "answer": 2
     },

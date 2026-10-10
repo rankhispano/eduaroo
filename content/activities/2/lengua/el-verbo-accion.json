@@ -5,11 +5,11 @@
   "temaId": "el-verbo-accion",
   "temaNombre": "El verbo: acción",
   "title": "¡Descubrimos los verbos en acción!",
-  "summary": "Reconoce los verbos como palabras que indican acciones que hacemos cada día.",
+  "summary": "Reconoce verbos que indican acciones que hacemos cada día.",
   "keyIdeas": [
-    "Los verbos son palabras que indican acciones, como correr, leer o cantar.",
-    "Para saber si una palabra es un verbo, pregúntate: ¿es algo que se puede hacer?",
-    "En una oración, el verbo nos cuenta qué hace la persona, animal o cosa."
+    "Muchos verbos indican acciones, como correr, leer o cantar. Otros indican estados, como ser o estar.",
+    "Para reconocer un verbo de acción, pregunta qué hace alguien.",
+    "En estos ejemplos, el verbo cuenta qué hace una persona o un animal."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -143,8 +143,8 @@
     {
       "id": "g2-lengua-el-verbo-accion-07",
       "type": "order",
-      "prompt": "Ordena estas acciones desde que te levantas hasta que entras al cole.",
-      "explanation": "Primero despiertas, luego desayunas para tener energía y después caminas hacia el colegio.",
+      "prompt": "Lucía primero se despierta, después desayuna y luego camina al cole. Ordena las acciones de su mañana.",
+      "explanation": "Esta es la rutina de Lucía: despertar, desayunar y caminar al cole.",
       "lang": "es",
       "items": [
         "Despertar",
@@ -186,7 +186,7 @@
     {
       "id": "g2-lengua-el-verbo-accion-09",
       "type": "choice",
-      "prompt": "Encuentra el error: ¿cuál de estas frases NO tiene ningún verbo de acción?",
+      "prompt": "¿Cuál de estos enunciados no contiene ningún verbo?",
       "explanation": "«El perro grande y marrón» no tiene ningún verbo; no dice qué hace el perro. En las otras frases están los verbos «lee» y «nada».",
       "hint": "Fíjate en cuál de las tres frases no dice qué hace nadie.",
       "lang": "es",

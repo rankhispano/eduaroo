@@ -7,7 +7,7 @@
   "title": "¡Descubre la fuerza de la energía!",
   "summary": "Repasa las fuentes de energía renovables y no renovables y aprende a utilizarlas de forma responsable.",
   "keyIdeas": [
-    "Las fuentes renovables proceden de recursos naturales inagotables como el sol, el viento o el agua.",
+    "Las fuentes renovables se reponen mediante procesos naturales, como el viento y el ciclo del agua.",
     "Las fuentes no renovables existen en cantidades limitadas en la naturaleza y pueden llegar a agotarse.",
     "Ahorrar energía en casa y en el colegio ayuda a cuidar el medio ambiente."
   ],
@@ -55,12 +55,12 @@
       "id": "g3-naturales-fuentes-de-energia-02",
       "type": "choice",
       "prompt": "¿Qué cualidad distingue a las fuentes de energía renovables? 🌱",
-      "explanation": "Las energías renovables proceden de recursos naturales que se reponen continuamente, como el viento o el agua.",
+      "explanation": "Las fuentes renovables se reponen por procesos naturales. Esto no significa que estén disponibles en todo momento.",
       "hint": "Piensa en el significado de la palabra renovar.",
       "lang": "es",
       "options": [
         "Se terminan rápidamente cuando las usamos mucho.",
-        "Se regeneran de forma natural y no se gastan.",
+        "Se reponen mediante procesos naturales.",
         "Producen gran cantidad de humo al funcionar."
       ],
       "answer": 1
@@ -90,7 +90,7 @@
       "id": "g3-naturales-fuentes-de-energia-04",
       "type": "classify",
       "prompt": "Clasifica estas fuentes de energía según su disponibilidad en el planeta:",
-      "explanation": "El sol, el viento y los ríos son inagotables. En cambio, el petróleo, el carbón y el gas existen en depósitos limitados bajo tierra.",
+      "explanation": "El viento, la luz solar y el ciclo del agua proporcionan energía renovable. El carbón, el petróleo y el gas se forman mucho más despacio de lo que se consumen.",
       "lang": "es",
       "categories": [
         "Fuentes renovables",
@@ -169,10 +169,10 @@
       "id": "g3-naturales-fuentes-de-energia-08",
       "type": "reading",
       "prompt": "Lee atentamente la noticia escolar y responde a las preguntas:",
-      "explanation": "La energía eólica aprovecha el viento de forma limpia y sostenible para abastecer al pueblo.",
+      "explanation": "Los aerogeneradores aprovechan el viento sin quemar combustible. La energía eólica también tiene impactos que deben estudiarse.",
       "lang": "es",
       "title": "Molinos en la colina",
-      "text": "En el pueblo de Aisha han instalado tres grandes aerogeneradores en la colina más alta. Cuando el viento sopla, sus enormes aspas giran sin parar. Este giro mueve una máquina que produce electricidad limpia para todo el vecindario. Gracias a esta instalación, el ayuntamiento ha dejado de comprar electricidad generada con carbón. Aisha y su clase visitaron las obras con su maestra. Aprendieron que el viento nunca se termina y que no expulsa humos tóxicos al aire. Desde entonces, las farolas del parque se iluminan cada noche con energía limpia.",
+      "text": "En el pueblo de Aisha han instalado tres grandes aerogeneradores en la colina más alta. Cuando el viento sopla, sus enormes aspas giran sin parar. Este giro mueve una máquina que produce electricidad para el vecindario. Gracias a esta instalación, el ayuntamiento ha dejado de comprar electricidad generada con carbón. Aisha y su clase visitaron las obras con su maestra. Aprendieron que el viento se renueva, aunque no sopla siempre, y que los aerogeneradores no queman combustible al producir electricidad. La energía llega a la red eléctrica del pueblo.",
       "questions": [
         {
           "prompt": "¿Qué recurso natural aprovechan los aerogeneradores de la colina?",
@@ -186,7 +186,7 @@
         },
         {
           "prompt": "¿Por qué esta instalación beneficia al pueblo de Aisha?",
-          "explanation": "La energía eólica sustituye al carbón y produce electricidad sin contaminar la atmósfera del pueblo.",
+          "explanation": "Al producir electricidad, los aerogeneradores no queman carbón ni emiten humo. También hay que estudiar su impacto en el paisaje y los seres vivos.",
           "options": [
             "Porque permite almacenar mucho carbón en la colina.",
             "Porque produce electricidad sin expulsar humos tóxicos al aire.",

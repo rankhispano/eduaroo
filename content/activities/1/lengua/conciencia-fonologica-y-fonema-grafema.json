@@ -7,9 +7,9 @@
   "title": "Jugamos con los sonidos y letras",
   "summary": "Practica los sonidos de las palabras y las letras que los representan.",
   "keyIdeas": [
-    "Cada letra tiene su propio sonido al hablar.",
+    "Las letras representan sonidos: algunas pueden sonar de varias maneras y la h no suena.",
     "Las palabras se forman uniendo sonidos en un orden.",
-    "Si cambias un solo sonido, formas una palabra diferente."
+    "Cambiar un sonido puede formar otra palabra: pata y gata."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -141,13 +141,13 @@
     {
       "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-06",
       "type": "order",
-      "prompt": "Ordena los sonidos para formar la palabra «paz».",
-      "explanation": "Para decir «paz» pronunciamos primero /p/, después /a/ y terminamos con /z/.",
+      "prompt": "Ordena los sonidos para formar «pan»:",
+      "explanation": "Pan tiene tres sonidos: /p/, /a/ y /n/.",
       "lang": "es",
       "items": [
         "/p/",
         "/a/",
-        "/z/"
+        "/n/"
       ]
     },
     {

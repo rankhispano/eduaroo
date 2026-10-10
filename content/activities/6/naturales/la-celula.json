@@ -8,8 +8,8 @@
   "summary": "Repasa la estructura de la célula, sus orgánulos y los niveles de organización de los seres vivos.",
   "keyIdeas": [
     "La célula es la unidad básica más pequeña con vida que realiza las tres funciones vitales.",
-    "Las células vegetales tienen pared celular y cloroplastos, estructuras ausentes en las células animales.",
-    "Los seres vivos pluricelulares se organizan en células, tejidos, órganos, aparatos y sistemas."
+    "Las células vegetales tienen pared celular; las de partes fotosintéticas suelen tener cloroplastos. Las células animales no tienen estas estructuras.",
+    "En el cuerpo humano, las células forman tejidos, órganos, aparatos y sistemas."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -47,7 +47,7 @@
       "id": "g6-naturales-la-celula-01",
       "type": "choice",
       "prompt": "En el laboratorio del colegio, Aisha mira por el microscopio una muestra y observa la unidad más pequeña capaz de realizar las tres funciones vitales (nutrición, relación y reproducción). ¿Qué está observando?",
-      "explanation": "La célula es la unidad estructural y funcional básica de todos los seres vivos, capaz de nutrirse, relacionarse y reproducirse por sí misma.",
+      "explanation": "La célula es la unidad básica de los seres vivos. En los organismos pluricelulares, las células se especializan y trabajan juntas.",
       "hint": "Es la parte viva más elemental de cualquier organismo.",
       "lang": "es",
       "options": [
@@ -108,7 +108,7 @@
     {
       "id": "g6-naturales-la-celula-05",
       "type": "order",
-      "prompt": "Ordena los niveles de organización de los seres vivos pluricelulares, desde el nivel más simple hasta el más complejo:",
+      "prompt": "Ordena los niveles de organización del cuerpo humano desde el más simple al más complejo:",
       "explanation": "Las células similares forman tejidos; varios tejidos forman un órgano; varios órganos forman un aparato o sistema; y su conjunto compone el organismo completo.",
       "lang": "es",
       "items": [
@@ -122,12 +122,12 @@
     {
       "id": "g6-naturales-la-celula-06",
       "type": "classify",
-      "prompt": "Clasifica estas estructuras según sean exclusivas de las células vegetales o comunes a células animales y vegetales:",
-      "explanation": "La pared vegetal, los cloroplastos y una gran vacuola central solo existen en vegetales. Ambas comparten membrana, citoplasma, núcleo y mitocondrias.",
+      "prompt": "Compara los modelos de célula animal y vegetal de clase. Clasifica sus estructuras:",
+      "explanation": "El modelo vegetal incluye pared de celulosa, cloroplastos y una gran vacuola. Ambos modelos muestran membrana, núcleo y mitocondrias. No todas las células de una planta tienen cloroplastos.",
       "lang": "es",
       "categories": [
-        "Exclusivas de células vegetales",
-        "Comunes a animales y vegetales"
+        "Características del modelo vegetal",
+        "Presentes en ambos modelos"
       ],
       "items": [
         {
@@ -174,7 +174,7 @@
     {
       "id": "g6-naturales-la-celula-08",
       "type": "choice",
-      "prompt": "Omar y Lucía preparan una gota de agua estancada para mirarla al microscopio óptico. Quieren observar microorganismos vivos moviéndose. Si usan un aumento total de 400x (ocular de 10x y objetivo de 40x), ¿qué ocurrirá?",
+      "prompt": "Omar y Lucía observan una muestra de agua preparada por la docente para mirarla al microscopio óptico. Quieren observar microorganismos vivos moviéndose. Si usan un aumento total de 400x (ocular de 10x y objetivo de 40x), ¿qué ocurrirá?",
       "explanation": "El aumento total del microscopio se calcula multiplicando el aumento del ocular por el del objetivo: 10 x 40 = 400 veces el tamaño real. Los microscopios ópticos escolares no permiten ver átomos.",
       "hint": "Multiplica el valor del ocular por el del objetivo.",
       "lang": "es",
@@ -193,7 +193,7 @@
       "explanation": "La lectura muestra el origen histórico del concepto de célula y la estrecha relación entre avance tecnológico y descubrimiento científico.",
       "lang": "es",
       "title": "La ventana al mundo invisible",
-      "text": "En el siglo XVII, el científico inglés Robert Hooke perfeccionó un instrumento fascinante: el microscopio. Fascinado por explorar la naturaleza oculta a simple vista, cortó una lámina finísima de corcho de la corteza de un alcornoque y la colocó bajo sus lentes.\n\nAl mirar, observó una red de pequeñas cavidades poligonales, muy parecidas a las celdas de un panal de abejas o a las pequeñas habitaciones de los monjes en los monasterios, llamadas celdas o 'cellulae' en latín. Por esta razón, Hooke las bautizó con la palabra 'célula'.\n\nSin embargo, Hooke solo vio las paredes celulares vacías de un tejido vegetal muerto, sin saber qué ocurría en su interior. Tuvieron que pasar casi dos siglos de avances tecnológicos en la óptica para que otros investigadores descubrieran que las células vivas contienen citoplasma, núcleo y orgánulos, confirmando que toda forma de vida en la Tierra nace a partir de una célula.",
+      "text": "En el siglo XVII, el científico inglés Robert Hooke perfeccionó un instrumento fascinante: el microscopio. Fascinado por explorar la naturaleza oculta a simple vista, cortó una lámina finísima de corcho de la corteza de un alcornoque y la colocó bajo sus lentes.\n\nAl mirar, observó una red de pequeñas cavidades poligonales, muy parecidas a las celdas de un panal de abejas o a las pequeñas habitaciones de los monjes en los monasterios, llamadas celdas o 'cellulae' en latín. Por esta razón, Hooke las bautizó con la palabra 'célula'.\n\nSin embargo, Hooke solo vio las paredes celulares vacías de un tejido vegetal muerto, sin saber qué ocurría en su interior. Tuvieron que pasar casi dos siglos de avances tecnológicos en la óptica para que otros investigadores descubrieran la estructura de las células y confirmaran que todos los seres vivos están formados por ellas.",
       "questions": [
         {
           "prompt": "¿Por qué Robert Hooke eligió el término 'célula' para nombrar lo que vio en el microscopio?",

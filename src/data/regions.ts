@@ -42,6 +42,16 @@ export const REGIONS: Record<
   },
 };
 
+const REGIONS_EN: typeof REGIONS = {
+  lengua: { ...REGIONS.lengua, region: 'Forest of Words', mascot: 'Literary Parrot' },
+  mates: { ...REGIONS.mates, region: 'Number Mountains', mascot: 'Roo the Calculator' },
+  naturales: { ...REGIONS.naturales, region: 'Underwater Laboratory', mascot: 'Otto the Scientist' },
+  sociales: { ...REGIONS.sociales, region: 'City of Time', mascot: 'Hugo the Historian' },
+  ingles: { ...REGIONS.ingles, region: 'Island of Languages', mascot: 'Polly the Polyglot' },
+};
+
+export const getRegions = (locale = 'es') => locale === 'en' ? REGIONS_EN : REGIONS;
+
 export const MASCOTS = [
   { id: 'roo', name: 'Roo', image: '/mascots/badges/roo.jpg' },
   { id: 'loro', name: 'Loro', image: '/mascots/badges/loro.jpg' },

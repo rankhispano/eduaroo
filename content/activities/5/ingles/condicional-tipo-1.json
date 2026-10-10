@@ -4,12 +4,12 @@
   "asignaturaId": "ingles",
   "temaId": "condicional-tipo-1",
   "temaNombre": "Condicional tipo 1",
-  "title": "Mastering the First Conditional",
-  "summary": "Practica cómo hablar de situaciones futuras posibles y sus consecuencias con el primer condicional en inglés.",
+  "title": "Primer condicional: práctica guiada",
+  "summary": "Con modelos y ayuda, expresa un plan que depende de una condición.",
   "keyIdeas": [
-    "Usamos 'if + presente simple' para la condición y 'will + verbo' para el resultado futuro.",
-    "Nunca ponemos 'will' directamente detrás de 'if' en la misma parte de la frase.",
-    "El orden puede cambiar: 'If it rains, I will stay' o 'I will stay if it rains' (sin coma en medio)."
+    "Modelo: «If it rains, we will stay inside»: si llueve, nos quedaremos dentro.",
+    "En este modelo, if lleva presente simple y el resultado usa will con la forma base del verbo.",
+    "Podemos cambiar el orden: «We will stay inside if it rains». Practicamos estos ejemplos con ayuda."
   ],
   "lomloe": {
     "area": "lengua-extranjera",
@@ -59,7 +59,7 @@
     {
       "id": "g5-ingles-condicional-tipo-1-02",
       "type": "choice",
-      "prompt": "Choose the correct option: If it is sunny tomorrow, we ___ to the beach.",
+      "prompt": "Choose the result with «will» + base verb for a future plan.",
       "explanation": "La parte del resultado futuro necesita 'will' + el verbo en infinitivo ('will go').",
       "hint": "Buscamos la consecuencia futura después de la coma.",
       "lang": "en",
@@ -125,25 +125,25 @@
     {
       "id": "g5-ingles-condicional-tipo-1-05",
       "type": "match",
-      "prompt": "Match each condition with its logical result:",
-      "explanation": "Cada condición tiene una consecuencia lógica en el futuro: si tiras un vaso de cristal, se romperá; si nieva, haremos un muñeco de nieve.",
+      "prompt": "Match these plans by using the activity clues in each condition.",
+      "explanation": "Los ejemplos expresan planes relacionados con las pistas: picnic, película, partido y libro. No son garantías sobre notas, salud o habilidad.",
       "lang": "en",
       "pairs": [
         {
-          "left": "If you drop that glass,",
-          "right": "it will break."
+          "left": "If the weather is good for our picnic,",
+          "right": "we will eat lunch in the park."
         },
         {
-          "left": "If it snows tonight,",
-          "right": "we will build a snowman."
+          "left": "If the cinema has tickets for our film,",
+          "right": "we will watch it there."
         },
         {
-          "left": "If you practice every day,",
-          "right": "you will play the guitar well."
+          "left": "If we have a ball for the match,",
+          "right": "we will play football."
         },
         {
-          "left": "If we forget our umbrellas,",
-          "right": "we will get wet."
+          "left": "If the library has the book I want,",
+          "right": "I will borrow it."
         }
       ]
     },
@@ -151,8 +151,8 @@
       "id": "g5-ingles-condicional-tipo-1-06",
       "type": "choice",
       "prompt": "Martina and Adrián are planning a race. Martina says: 'If you ___ fast, you will win the trophy.'",
-      "explanation": "Después de 'if' usamos el presente simple, nunca 'will'. Como el sujeto es 'you', usamos la forma base 'run'.",
-      "hint": "Cuidado con la regla de oro: nunca usamos 'will' justo después de 'if'.",
+      "explanation": "En el modelo que practicamos, «if you run» usa presente simple. Con «you» la forma base es «run».",
+      "hint": "Completa la condición con presente simple.",
       "lang": "en",
       "options": [
         "run",
@@ -164,15 +164,15 @@
     {
       "id": "g5-ingles-condicional-tipo-1-07",
       "type": "order",
-      "prompt": "Put the words in order to form a correct First Conditional sentence:",
-      "explanation": "El orden natural comienza con la condición 'If you eat all the cake,' seguida del resultado futuro 'you will have a stomachache.'",
+      "prompt": "Put the condition first and the planned result second.",
+      "explanation": "Primero va «If you help with the posters» y después «we will finish the project today».",
       "lang": "en",
       "items": [
         "If",
-        "you eat",
-        "all the cake,",
-        "you will have",
-        "a stomachache."
+        "you help",
+        "with the posters,",
+        "we will finish",
+        "the project today."
       ]
     },
     {
@@ -211,7 +211,7 @@
         },
         {
           "prompt": "Why does Lucas prepare an alternative indoor activity?",
-          "explanation": "El pronóstico del tiempo anuncia sol pero también nubes, por lo que Lucas prepara un plan B por si llueve.",
+          "explanation": "El pronóstico es incierto y el grupo prepara una actividad bajo techo por si llueve. Tener nubes no garantiza lluvia.",
           "options": [
             "Because the weather is uncertain and it might rain.",
             "Because he doesn't like planting trees outdoors.",

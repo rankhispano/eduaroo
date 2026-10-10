@@ -1,0 +1,252 @@
+{
+  "id": "g3-ingles-las-tiendas",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "las-tiendas",
+  "temaNombre": "Shops",
+  "title": "A Day at the Shops",
+  "summary": "Practise shop words and useful English phrases for shopping.",
+  "keyIdeas": [
+    "Shop names include bakery, pet shop and toy shop.",
+    "To ask the price of an object, you can say 'How much is it?'.",
+    "Polite phrases include 'Can I help you?' and 'Here you are'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "3.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-las-tiendas-01",
+      "type": "match",
+      "prompt": "Match each shop to a product sold there.",
+      "explanation": "You can buy bread at a bakery, toys at a toy shop, animal food at a pet shop and lollipops at a sweet shop.",
+      "hint": "Think about words such as 'bake' and 'pet'.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "bakery",
+          "right": "bread"
+        },
+        {
+          "left": "toy shop",
+          "right": "robot"
+        },
+        {
+          "left": "pet shop",
+          "right": "dog food"
+        },
+        {
+          "left": "sweet shop",
+          "right": "lollipop"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-las-tiendas-02",
+      "type": "choice",
+      "prompt": "Lucía wants to buy a new book for school. Where does she go?",
+      "explanation": "She goes to the bookshop, where books are sold. A bakery sells bread and a pet shop sells things for pets.",
+      "hint": "Find the word containing 'book'.",
+      "lang": "en",
+      "options": [
+        "To the bakery",
+        "To the bookshop",
+        "To the pet shop"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-las-tiendas-03",
+      "type": "true-false",
+      "prompt": "In a shop, the shop assistant often says: 'Can I help you?'",
+      "explanation": "True. 'Can I help you?' is a polite way for a shop assistant to offer help.",
+      "hint": "Think about what 'help' means.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-ingles-las-tiendas-04",
+      "type": "fill-blank",
+      "prompt": "Choose the correct word to ask the price.",
+      "explanation": "Use 'How much is it?' to ask a price. 'How many' asks about a number of things, and 'How old' asks about age.",
+      "hint": "Remember the question used for prices.",
+      "lang": "en",
+      "sentence": "Excuse me, how ___ is this teddy bear?",
+      "options": [
+        "much",
+        "many",
+        "old"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-las-tiendas-05",
+      "type": "classify",
+      "prompt": "Sort each product into its shop.",
+      "explanation": "Croissants, cakes and bread rolls are sold at a bakery. Puzzles, board games and dolls are sold at a toy shop.",
+      "hint": "Separate baked food from toys and games.",
+      "lang": "en",
+      "categories": [
+        "Bakery",
+        "Toy shop"
+      ],
+      "items": [
+        {
+          "text": "croissant",
+          "category": 0
+        },
+        {
+          "text": "puzzle",
+          "category": 1
+        },
+        {
+          "text": "cake",
+          "category": 0
+        },
+        {
+          "text": "board game",
+          "category": 1
+        },
+        {
+          "text": "bread rolls",
+          "category": 0
+        },
+        {
+          "text": "doll",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-las-tiendas-06",
+      "type": "choice",
+      "prompt": "Omar buys an apple for 1 euro and a comic for 2 euros. He pays with 5 euros. How much change does he get?",
+      "explanation": "Omar spends 1 + 2 = 3 euros. He pays with 5 euros, so his change is 5 - 3 = 2 euros.",
+      "hint": "Add what Omar spends, then subtract it from 5.",
+      "lang": "en",
+      "options": [
+        "1 euro",
+        "3 euros",
+        "2 euros"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-las-tiendas-07",
+      "type": "order",
+      "prompt": "Put this shop conversation in order from beginning to end.",
+      "explanation": "The assistant greets the customer and offers help. The customer asks for a comic. The assistant gives it and its price. The customer thanks the assistant and says goodbye.",
+      "hint": "Start with the assistant's greeting.",
+      "lang": "en",
+      "items": [
+        "Shop assistant: Hello! Can I help you?",
+        "Customer: Yes, please. I want a comic.",
+        "Shop assistant: Here you are. It is three euros.",
+        "Customer: Thank you! Goodbye!"
+      ]
+    },
+    {
+      "id": "g3-ingles-las-tiendas-08",
+      "type": "fill-blank",
+      "prompt": "Complete the assistant's polite reply after the customer pays.",
+      "explanation": "A polite reply to 'Thank you' is 'You are welcome'.",
+      "hint": "It is the expression meaning 'De nada' in Spanish.",
+      "lang": "en",
+      "sentence": "Customer: 'Thank you very much!' - Shop assistant: 'You are ___!'",
+      "options": [
+        "welcome",
+        "please",
+        "sorry"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-las-tiendas-09",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "Find what Leo buys for his dog and where they buy the apple pies.",
+      "hint": "Find 'pet shop' and 'bakery' in the text.",
+      "lang": "en",
+      "title": "Saturday Morning Shopping",
+      "text": "On Saturday morning, Leo and Martina go to the town square with their grandfather. First, they visit the bakery to buy fresh bread and four apple pies. Next, they walk to the pet shop. Leo buys a blue ball for his puppy, Toby. Martina wants some pencils, so they go to the stationery shop. Finally, they visit the sweet shop and buy two fruit lollipops. Grandfather pays with ten euros and says: 'Thank you very much!' They are very happy with their shopping day.",
+      "questions": [
+        {
+          "prompt": "What does Leo buy in the pet shop?",
+          "explanation": "The text says, 'Leo buys a blue ball for his puppy, Toby'.",
+          "options": [
+            "Four apple pies",
+            "A blue ball for Toby",
+            "Two fruit lollipops"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Where do they buy the four apple pies?",
+          "explanation": "They first visit the bakery to buy fresh bread and four apple pies.",
+          "options": [
+            "At the bakery",
+            "At the sweet shop",
+            "At the stationery shop"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-las-tiendas-10",
+      "type": "choice",
+      "prompt": "Aisha smells hot bread and sweet biscuits. People are buying muffins. Which shop is she visiting?",
+      "explanation": "The hot bread, biscuits and muffins point to a bakery.",
+      "hint": "Think of a shop that sells bread and biscuits.",
+      "lang": "en",
+      "options": [
+        "The chemist's",
+        "The clothes shop",
+        "The bakery"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:57:46.220Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:36:36.548Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "98346b8068b8a0b1d00606e6be66a89d061e68d5a31b69565350c9d8f20e018a",
+      "validation": "manual-review"
+    }
+  }
+}

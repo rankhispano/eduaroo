@@ -7,7 +7,7 @@
   "title": "Exploradores de ríos: España y Europa",
   "summary": "Practica las características de los ríos, sus vertientes en España y los grandes ríos de Europa.",
   "keyIdeas": [
-    "Un río nace en la montaña, recibe afluentes y desemboca en el mar o en otro río.",
+    "Los ríos pueden recibir afluentes y desembocar en el mar, en un lago o en otro río.",
     "Los ríos de España se reparten en tres vertientes: cantábrica, atlántica y mediterránea.",
     "El Tajo es el río peninsular más largo y el Volga es el más largo de Europa."
   ],
@@ -76,7 +76,7 @@
     {
       "id": "g4-sociales-rios-de-espana-y-europa-04",
       "type": "order",
-      "prompt": "Ordena el camino que sigue el agua de un río desde su origen hasta el final: 🏔️",
+      "prompt": "Ordena el recorrido de este río, que nace en una montaña y desemboca en el mar:",
       "explanation": "El río nace en zonas altas, recorre sus cursos alto, medio y bajo, y finalmente desemboca.",
       "lang": "es",
       "items": [
@@ -129,20 +129,20 @@
       "id": "g4-sociales-rios-de-espana-y-europa-06",
       "type": "match",
       "prompt": "Relaciona cada vertiente española con los rasgos de sus ríos:",
-      "explanation": "El relieve y el clima determinan la longitud y el caudal de los ríos en cada vertiente.",
+      "explanation": "Son tendencias generales. Hay diferencias dentro de cada vertiente: no todos los ríos atlánticos son largos ni todos los mediterráneos llevan poca agua.",
       "lang": "es",
       "pairs": [
         {
           "left": "Vertiente Cantábrica",
-          "right": "Ríos cortos y caudalosos por lluvias continuas"
+          "right": "Muchos ríos cortos, con caudal relativamente regular"
         },
         {
           "left": "Vertiente Atlántica",
-          "right": "Ríos largos que recorren grandes llanuras"
+          "right": "Grandes ríos como el Tajo y el Duero, y otros más cortos"
         },
         {
           "left": "Vertiente Mediterránea",
-          "right": "Ríos de caudal escaso que sufren estiaje en verano"
+          "right": "Muchos ríos con estiaje estival; el Ebro es una excepción destacada"
         }
       ]
     },
@@ -233,7 +233,7 @@
       "id": "g4-sociales-rios-de-espana-y-europa-10",
       "type": "choice",
       "prompt": "Nerea visita un río mediterráneo en agosto y ve que lleva poquísima agua. ¿Cómo se llama este fenómeno? ☀️",
-      "explanation": "El estiaje es la bajada del caudal de los ríos durante los meses calurosos y secos del verano.",
+      "explanation": "El estiaje es el período en que el río lleva menos agua. En muchos ríos mediterráneos ocurre en verano, cuando escasean las lluvias.",
       "hint": "Ocurre cuando llueve muy poco en verano.",
       "lang": "es",
       "options": [

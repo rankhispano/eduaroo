@@ -5,11 +5,11 @@
   "temaId": "el-tiempo-atmosferico",
   "temaNombre": "El tiempo atmosférico",
   "title": "What's the Weather Like?",
-  "summary": "Practica el vocabulario del tiempo atmosférico y cómo hablar del clima en inglés.",
+  "summary": "Practica el vocabulario del tiempo atmosférico y cómo describirlo en inglés.",
   "keyIdeas": [
     "Usamos palabras como sunny (soleado), rainy (lluvioso), windy (ventoso) y snowy (nevoso) para describir el tiempo.",
     "Para preguntar qué tiempo hace decimos: What is the weather like?",
-    "Elegimos la ropa según el clima: coat (abrigo) para el frío y sunglasses (gafas de sol) para el sol."
+    "Elegimos ropa según la temperatura y el tiempo: coat para el frío y sunglasses para proteger los ojos del sol."
   ],
   "lomloe": {
     "area": "lengua-extranjera",
@@ -83,8 +83,8 @@
     {
       "id": "g2-ingles-el-tiempo-atmosferico-03",
       "type": "true-false",
-      "prompt": "When it is snowy, the weather is very cold.",
-      "explanation": "¡Correcto! Cuando nieva (snowy) hace mucho frío (cold).",
+      "prompt": "Snow is cold.",
+      "explanation": "Snow significa nieve, que está formada por cristales de hielo y está fría.",
       "lang": "en",
       "answer": true
     },
@@ -106,12 +106,12 @@
     {
       "id": "g2-ingles-el-tiempo-atmosferico-05",
       "type": "classify",
-      "prompt": "Classify the clothes for each weather:",
-      "explanation": "En un día de sol (sunny) usamos gafas, camiseta o bañador. En un día de nieve (snowy) nos abrigamos con guantes, abrigo y botas de nieve.",
+      "prompt": "Choose clothes for a hot beach day or a cold, snowy day.",
+      "explanation": "Para un día caluroso de playa podemos elegir camiseta, bañador y gafas. Para un día frío con nieve, abrigo, guantes y botas.",
       "lang": "en",
       "categories": [
-        "Sunny Day",
-        "Snowy Day"
+        "Hot, sunny day",
+        "Cold, snowy day"
       ],
       "items": [
         {
@@ -145,7 +145,7 @@
       "type": "choice",
       "prompt": "Omar wants to fly his kite in the park. What weather is best?",
       "explanation": "Para hacer volar una cometa (kite) necesitamos viento (windy).",
-      "hint": "Las cometas necesitan aire que se mueva con fuerza.",
+      "hint": "Las cometas necesitan viento suave; no se usan con tormentas o viento fuerte.",
       "lang": "en",
       "options": [
         "It is windy.",

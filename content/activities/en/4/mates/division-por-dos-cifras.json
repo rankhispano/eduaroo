@@ -1,0 +1,230 @@
+{
+  "id": "g4-mates-division-por-dos-cifras",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "division-por-dos-cifras",
+  "temaNombre": "Division by Two-Digit Numbers",
+  "title": "Mission: Divide by Two-Digit Numbers",
+  "summary": "Solve everyday problems, estimate whole-number quotients and practise division with remainders.",
+  "keyIdeas": [
+    "The remainder must be smaller than the divisor.",
+    "Check a division with: dividend = (divisor × quotient) + remainder.",
+    "Estimating quotient digits helps you choose and check them."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "6.2"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones",
+      "D. Sentido algebraico › Pensamiento computacional"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-division-por-dos-cifras-01",
+      "type": "choice",
+      "prompt": "How many digits will the whole-number quotient have in 748 ÷ 32?",
+      "explanation": "Since 74 is greater than 32, start with the first two dividend digits. The quotient has 2 digits: tens and ones.",
+      "hint": "Compare the first two dividend digits with the divisor.",
+      "lang": "en",
+      "options": [
+        "2 digits",
+        "1 digit",
+        "3 digits"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-02",
+      "type": "match",
+      "prompt": "Match each division term with its meaning when sharing notebooks equally among boxes.",
+      "explanation": "The dividend is the total, the divisor is the number of boxes, the quotient is the number put in each box and the remainder is what is left.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Dividend",
+          "right": "Total notebooks to share"
+        },
+        {
+          "left": "Divisor",
+          "right": "Number of equal boxes available"
+        },
+        {
+          "left": "Quotient",
+          "right": "Notebooks put in each box"
+        },
+        {
+          "left": "Remainder",
+          "right": "Notebooks left outside the boxes"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-03",
+      "type": "order",
+      "prompt": "Put the long-division steps for 852 ÷ 24 in order.",
+      "explanation": "Start with enough digits, find the first quotient digit, subtract, bring down the next digit and repeat.",
+      "lang": "en",
+      "items": [
+        "Select the first two digits of the dividend: 85.",
+        "Find the largest digit whose product with 24 does not exceed 85.",
+        "Subtract that product from 85 and check the remainder.",
+        "Bring down the next digit, 2, beside the remainder.",
+        "Divide the new amount by 24 to find the next quotient digit."
+      ]
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-04",
+      "type": "true-false",
+      "prompt": "In whole-number division by 25, can the remainder be 27?",
+      "explanation": "False. A remainder must be smaller than the divisor. With 27 left, you could make one more group of 25.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-05",
+      "type": "choice",
+      "prompt": "There are 345 pupils at school. Each bus has 45 pupil seats, with extra seats for adults. How many buses are completely filled, and how many pupils travel on the last bus?",
+      "explanation": "45 × 7 = 315, and 345 − 315 = 30. Seven buses are full, with 30 pupils on an eighth bus.",
+      "hint": "Find the quotient and remainder of 345 ÷ 45.",
+      "lang": "en",
+      "options": [
+        "7 buses are full, and 30 pupils travel on the last bus.",
+        "8 buses are completely full, with no pupils left over.",
+        "6 buses are full, and 75 pupils travel on the last bus."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-06",
+      "type": "classify",
+      "prompt": "Sort these divisions by the number of digits in their whole-number quotient.",
+      "explanation": "For these three-digit dividends and two-digit divisors, compare the first two dividend digits with the divisor. If smaller, the quotient has 1 digit; otherwise, it has 2.",
+      "lang": "en",
+      "categories": [
+        "1-digit quotient",
+        "2-digit quotient"
+      ],
+      "items": [
+        {
+          "text": "184 ÷ 23",
+          "category": 0
+        },
+        {
+          "text": "564 ÷ 24",
+          "category": 1
+        },
+        {
+          "text": "210 ÷ 35",
+          "category": 0
+        },
+        {
+          "text": "890 ÷ 41",
+          "category": 1
+        },
+        {
+          "text": "312 ÷ 52",
+          "category": 0
+        },
+        {
+          "text": "735 ÷ 31",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-07",
+      "type": "choice",
+      "prompt": "Hugo calculates 672 ÷ 21 and gets quotient 31, remainder 21. What is his mistake?",
+      "explanation": "The remainder cannot equal the divisor. One more group fits: 21 × 32 = 672, with remainder 0.",
+      "hint": "Compare Hugo's remainder with the divisor, 21.",
+      "lang": "en",
+      "options": [
+        "He made a mistake subtracting the ones.",
+        "He should have put a zero at the start of the quotient.",
+        "The remainder cannot equal the divisor; the quotient should be 32."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-08",
+      "type": "fill-blank",
+      "prompt": "Use the division check to find the missing number.",
+      "explanation": "First multiply 24 × 15 = 360, then add the remainder: 360 + 8 = 368.",
+      "lang": "en",
+      "sentence": "Dividend = (24 × 15) + 8 = ___",
+      "options": [
+        "368",
+        "372",
+        "360"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-09",
+      "type": "choice",
+      "prompt": "Without long division, estimate 598 ÷ 29 mentally. What is the approximate quotient?",
+      "explanation": "Round to 600 ÷ 30 = 20. The exact whole-number result is quotient 20, remainder 18.",
+      "hint": "Round 598 to the nearest hundred and 29 to the nearest ten.",
+      "lang": "en",
+      "options": [
+        "About 30",
+        "About 10",
+        "About 20"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-division-por-dos-cifras-10",
+      "type": "choice",
+      "prompt": "Aisha has €500 and buys as many €24 theatre tickets as possible. With the money left, she buys a €15 book. How much money remains?",
+      "explanation": "She buys 20 tickets: 24 × 20 = €480, leaving €20. After the book, 20 − 15 = €5 remains.",
+      "hint": "Divide 500 by 24 to find the money left before buying the book.",
+      "lang": "en",
+      "options": [
+        "€5",
+        "€20",
+        "€12"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:13:32.872Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:28:30.757Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "e5ec916403f02f1746d78f155fa95c5c29510f1d6010827fa2a323508369891f",
+      "validation": "manual-review"
+    }
+  }
+}

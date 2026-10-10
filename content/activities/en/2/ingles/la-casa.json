@@ -1,0 +1,249 @@
+{
+  "id": "g2-ingles-la-casa",
+  "cursoId": "2",
+  "asignaturaId": "ingles",
+  "temaId": "la-casa",
+  "temaNombre": "The home",
+  "title": "Welcome to My House!",
+  "summary": "Revise rooms and common objects in a home in English.",
+  "keyIdeas": [
+    "Main rooms include the bedroom, kitchen, bathroom and living room.",
+    "Rooms have typical objects, such as a bed, sofa or fridge.",
+    "Use 'in the...' to say which part of the home you are in."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-ingles-la-casa-01",
+      "type": "choice",
+      "prompt": "You sleep here at night. What room is it?",
+      "explanation": "The bedroom is where we sleep at night.",
+      "hint": "Think of the room with a bed.",
+      "lang": "en",
+      "options": [
+        "Bedroom",
+        "Kitchen",
+        "Bathroom"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-la-casa-02",
+      "type": "match",
+      "prompt": "Match each part of the home with its Spanish name.",
+      "explanation": "In Spanish, kitchen is cocina, bathroom is baño, living room is salón and garden is jardín.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "kitchen",
+          "right": "cocina"
+        },
+        {
+          "left": "bathroom",
+          "right": "baño"
+        },
+        {
+          "left": "living room",
+          "right": "salón"
+        },
+        {
+          "left": "garden",
+          "right": "jardín"
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-la-casa-03",
+      "type": "true-false",
+      "prompt": "The bed is in the kitchen.",
+      "explanation": "A bed is usually in the bedroom, rather than the kitchen.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g2-ingles-la-casa-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct room.",
+      "explanation": "We cook in the kitchen.",
+      "hint": "It is the room where we prepare food.",
+      "lang": "en",
+      "sentence": "Mum cooks dinner in the ___.",
+      "options": [
+        "kitchen",
+        "bedroom",
+        "bathroom"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-la-casa-05",
+      "type": "classify",
+      "prompt": "Sort these objects into their usual rooms.",
+      "explanation": "The bed and pillow go in the bedroom. The sofa and television go in the living room.",
+      "lang": "en",
+      "categories": [
+        "Bedroom",
+        "Living room"
+      ],
+      "items": [
+        {
+          "text": "Bed",
+          "category": 0
+        },
+        {
+          "text": "Pillow",
+          "category": 0
+        },
+        {
+          "text": "Sofa",
+          "category": 1
+        },
+        {
+          "text": "Television",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-la-casa-06",
+      "type": "choice",
+      "prompt": "Lucía washes her hands at the sink next to the shower. Which room is she in?",
+      "explanation": "The room with a washbasin and shower is the bathroom.",
+      "hint": "Find the room with a washbasin and shower.",
+      "lang": "en",
+      "options": [
+        "In the bedroom",
+        "In the bathroom",
+        "In the garden"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-ingles-la-casa-07",
+      "type": "match",
+      "prompt": "Match each object with its usual room.",
+      "explanation": "The fridge is in the kitchen, shower in the bathroom, sofa in the living room and wardrobe in the bedroom.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "fridge",
+          "right": "kitchen"
+        },
+        {
+          "left": "shower",
+          "right": "bathroom"
+        },
+        {
+          "left": "sofa",
+          "right": "living room"
+        },
+        {
+          "left": "wardrobe",
+          "right": "bedroom"
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-la-casa-08",
+      "type": "order",
+      "prompt": "Put Aisha's morning routine through the house in order.",
+      "explanation": "First Aisha wakes up in the bedroom, then washes in the bathroom, eats breakfast in the kitchen and leaves through the front door.",
+      "lang": "en",
+      "items": [
+        "Wake up in the bedroom",
+        "Wash face in the bathroom",
+        "Eat toast in the kitchen",
+        "Open the front door to go out"
+      ]
+    },
+    {
+      "id": "g2-ingles-la-casa-09",
+      "type": "fill-blank",
+      "prompt": "Hugo is reading a book on the big sofa.",
+      "explanation": "A big sofa is usually in the living room.",
+      "hint": "It is the room where a family can sit and relax.",
+      "lang": "en",
+      "sentence": "Hugo is in the ___.",
+      "options": [
+        "living room",
+        "bathroom",
+        "garden"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-la-casa-10",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions.",
+      "explanation": "The bedroom is blue and Leo plays with a ball in the garden.",
+      "lang": "en",
+      "title": "Leo's House",
+      "text": "Leo is at home. His house is small. The bedroom is blue. The kitchen is yellow. Leo has a big green garden. He plays with a ball in the garden.",
+      "questions": [
+        {
+          "prompt": "What colour is the bedroom?",
+          "explanation": "The text says, 'The bedroom is blue'.",
+          "options": [
+            "Yellow",
+            "Blue",
+            "Green"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Where does Leo play with the ball?",
+          "explanation": "The text says, 'He plays with a ball in the garden'.",
+          "options": [
+            "In the kitchen",
+            "In the bedroom",
+            "In the garden"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:04:46.383Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:22:32.087Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "6257900752cef335cd7059d3af2dff8f653e9ef56fb2b9e761ee8066ed31ca57",
+      "validation": "manual-review"
+    }
+  }
+}

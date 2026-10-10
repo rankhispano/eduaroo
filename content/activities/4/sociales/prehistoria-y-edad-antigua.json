@@ -69,7 +69,7 @@
       "id": "g4-sociales-prehistoria-y-edad-antigua-03",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre el gran cambio del Neolítico.",
-      "explanation": "El sedentarismo consiste en vivir siempre en un mismo lugar. Comenzó con el nacimiento de la agricultura.",
+      "explanation": "Muchas comunidades neolíticas establecieron poblados permanentes al practicar la agricultura y la ganadería. Ser sedentario significa residir de forma estable en un lugar.",
       "lang": "es",
       "sentence": "Al aprender a cultivar plantas y domesticar animales, las personas se hicieron ___.",
       "options": [
@@ -108,7 +108,7 @@
       "id": "g4-sociales-prehistoria-y-edad-antigua-05",
       "type": "classify",
       "prompt": "Clasifica estos restos arqueológicos según su época histórica.",
-      "explanation": "Los objetos prehistóricos no contienen escritura. Los restos romanos pertenecen a la Edad Antigua.",
+      "explanation": "La procedencia y la datación permiten distinguir los restos prehistóricos de los romanos. Un objeto romano no necesita tener escritura para pertenecer a la Historia.",
       "lang": "es",
       "categories": [
         "Prehistoria",
@@ -124,11 +124,11 @@
           "category": 1
         },
         {
-          "text": "Hacha de bronce afilada",
+          "text": "Hacha de bronce de un poblado prehistórico",
           "category": 0
         },
         {
-          "text": "Acueducto de grandes piedras",
+          "text": "Acueducto romano",
           "category": 1
         },
         {
@@ -136,7 +136,7 @@
           "category": 0
         },
         {
-          "text": "Teatro con gradas de piedra",
+          "text": "Teatro romano con gradas de piedra",
           "category": 1
         }
       ]
@@ -161,13 +161,13 @@
       "explanation": "Los romanos eran grandes ingenieros y urbanistas que mejoraron las comunicaciones y la higiene urbana.",
       "lang": "es",
       "title": "Una visita a la ciudad romana",
-      "text": "Lucía y su clase visitan las ruinas de una antigua ciudad romana llamada Segóbriga. El arqueólogo les enseña el gran teatro de piedra. Allí asistían tanto mujeres como hombres para ver comedias divertidas. Después, caminan por una calzada romana pavimentada con losas enormes. Esas losas permitían a los carruajes viajar sin atascarse con el barro. Cerca de las murallas observan los restos de un acueducto. Esta construcción transportaba agua limpia desde el río hasta las fuentes del pueblo. Los romanos cuidaban mucho el agua para mantener la ciudad limpia y saludable.",
+      "text": "Lucía y su clase visitan las ruinas de una antigua ciudad romana llamada Segóbriga. El arqueólogo les enseña el gran teatro de piedra. Allí asistían tanto mujeres como hombres para ver comedias divertidas. Después, caminan por una calzada romana pavimentada con losas enormes. Esas losas permitían a los carruajes viajar sin atascarse con el barro. Cerca de las murallas observan los restos de un acueducto. Esta construcción transportaba agua limpia desde un manantial hasta las fuentes del pueblo. Los romanos cuidaban mucho el agua para mantener la ciudad limpia y saludable.",
       "questions": [
         {
           "prompt": "¿Para qué servía el acueducto de la ciudad romana?",
-          "explanation": "El texto explica que el acueducto llevaba agua limpia desde el río hasta las fuentes.",
+          "explanation": "El acueducto llevaba agua desde un manantial hasta la ciudad.",
           "options": [
-            "Para transportar agua limpia desde el río",
+            "Para transportar agua desde un manantial",
             "Para defender la muralla de los enemigos",
             "Para representar obras de comedia teatral"
           ],
@@ -216,13 +216,13 @@
       "id": "g4-sociales-prehistoria-y-edad-antigua-10",
       "type": "choice",
       "prompt": "En una cueva prehistórica, una persona quiere tocar una pintura rupestre. ¿Qué conducta correcta debe recordar Nerea? 🎨",
-      "explanation": "El patrimonio rupestre es sumamente delicado. Tocarlo o usar flashes daña los pigmentos de forma irreparable.",
-      "hint": "Cuidar el patrimonio exige admirarlo sin causarle ningún contacto físico.",
+      "explanation": "El contacto puede deteriorar las pinturas. Debemos respetar las normas sobre acceso, iluminación y fotografía.",
+      "hint": "Sigue las indicaciones de conservación del lugar.",
       "lang": "es",
       "options": [
-        "Se pueden tocar libremente si antes nos lavamos las manos con agua",
-        "Nunca se deben tocar las pinturas porque la grasa de los dedos las borra",
-        "Conviene iluminarlas muy cerca con linternas de flash potente"
+        "Se pueden tocar si antes nos lavamos las manos",
+        "Hay que observarlas sin tocarlas y seguir las normas de visita",
+        "Se pueden iluminar con cualquier flash aunque esté prohibido"
       ],
       "answer": 1
     }

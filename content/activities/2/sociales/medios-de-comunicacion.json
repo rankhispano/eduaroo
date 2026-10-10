@@ -140,13 +140,13 @@
       "id": "g2-sociales-medios-de-comunicacion-06",
       "type": "order",
       "prompt": "Ordena los pasos para enviar una carta postal.",
-      "explanation": "Primero escribimos la carta. Luego la preparamos y la enviamos por correo postal.",
+      "explanation": "La dirección indica a dónde debe llegar la carta. Una persona adulta nos ayuda a prepararla y enviarla.",
       "lang": "es",
       "items": [
-        "Escribir el mensaje en el papel",
-        "Meter la carta en el sobre y pegar el sello",
-        "Echar la carta en el buzón amarillo",
-        "El cartero reparte la carta en la casa"
+        "Escribir el mensaje en el papel.",
+        "Escribir la dirección en el sobre, meter la carta y pegar el sello.",
+        "Echar la carta en el buzón postal.",
+        "El servicio de correos lleva la carta a la dirección."
       ]
     },
     {

@@ -1,0 +1,248 @@
+{
+  "id": "g4-sociales-sector-secundario",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "sector-secundario",
+  "temaNombre": "The secondary sector",
+  "title": "Discover the secondary sector",
+  "summary": "Learn how factories and workshops turn raw materials into finished products.",
+  "keyIdeas": [
+    "The secondary sector turns raw materials from nature into finished products.",
+    "It includes industry, crafts, construction and energy production.",
+    "Industries can reduce their impact by saving resources, treating emissions and managing waste."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-sector-secundario-01",
+      "type": "choice",
+      "prompt": "What is the main purpose of work in the secondary sector?",
+      "explanation": "The secondary sector turns natural resources, or raw materials, into objects and goods we use every day.",
+      "hint": "Think about what a factory does with wood or milk.",
+      "lang": "en",
+      "options": [
+        "Providing services such as transport",
+        "Turning raw materials into finished products",
+        "Obtaining food directly from nature"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-sector-secundario-02",
+      "type": "true-false",
+      "prompt": "Bricklaying and building construction are part of the secondary sector.",
+      "explanation": "Construction belongs to the secondary sector because it uses materials such as bricks and cement to create buildings and other structures.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-sector-secundario-03",
+      "type": "classify",
+      "prompt": "Sort each item as a raw material or a finished product.",
+      "explanation": "Raw materials come from nature. Finished products are made by changing these materials.",
+      "lang": "en",
+      "categories": [
+        "Raw material",
+        "Finished product"
+      ],
+      "items": [
+        {
+          "text": "Sheep's wool",
+          "category": 0
+        },
+        {
+          "text": "A knitted jumper",
+          "category": 1
+        },
+        {
+          "text": "Wheat from a field",
+          "category": 0
+        },
+        {
+          "text": "A loaf of bread",
+          "category": 1
+        },
+        {
+          "text": "Pine wood",
+          "category": 0
+        },
+        {
+          "text": "A dining table",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-sector-secundario-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about craft workshops.",
+      "explanation": "Craft workers make individual objects by hand, unlike production in large industrial factories.",
+      "hint": "This body part helps us use traditional tools.",
+      "lang": "en",
+      "sentence": "In craft work, people make small numbers of objects using simple tools and their own ___.",
+      "options": [
+        "hands",
+        "giant machines",
+        "computers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-sector-secundario-05",
+      "type": "match",
+      "prompt": "Match each material to the product made from it.",
+      "explanation": "Factories and workshops turn farming, animal and mineral resources into useful objects.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Fresh tomatoes",
+          "right": "A jar of tomato sauce"
+        },
+        {
+          "left": "Wet clay",
+          "right": "A ceramic vase"
+        },
+        {
+          "left": "Crude oil",
+          "right": "A plastic container"
+        },
+        {
+          "left": "Cow leather",
+          "right": "Smart shoes"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-sector-secundario-06",
+      "type": "choice",
+      "prompt": "Aisha compares a textile factory with her grandfather's pottery workshop. How does industry differ from craft work?",
+      "explanation": "Industry uses machines to make large quantities of products. Craft workers make fewer individual pieces by hand.",
+      "hint": "Look at the number of products and the machines used.",
+      "lang": "en",
+      "options": [
+        "Industry makes every object by hand, each one completely unique",
+        "Craft workers use assembly lines to make thousands of pieces an hour",
+        "Industry makes many identical products using complex machines"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-sociales-sector-secundario-07",
+      "type": "order",
+      "prompt": "Put the steps in order, from cocoa growing in a field to a chocolate bar.",
+      "explanation": "Production goes from obtaining raw materials to processing them in a factory and finally selling the product.",
+      "lang": "en",
+      "items": [
+        "Cocoa fruits are harvested and their seeds are collected",
+        "The seeds are fermented and dried before going to the factory",
+        "At the factory, the seeds are roasted and ground",
+        "Chocolate is made, shaped in moulds and wrapped",
+        "The bars arrive in shops"
+      ]
+    },
+    {
+      "id": "g4-sociales-sector-secundario-08",
+      "type": "reading",
+      "prompt": "Read about Omar's school visit and answer the questions.",
+      "explanation": "Solar panels and using leftover materials help reduce resource use and waste.",
+      "lang": "en",
+      "title": "A visit to a fish-canning factory",
+      "text": "Today, Omar's class visited a fish-canning factory near the port. Inside, machines clean, cook and pack tuna into metal cans. Their guide, Nerea, explained that solar panels on the roof generate clean electricity for the factory. Fish leftovers that are not canned are used to make animal feed. Omar learnt that modern factories try to avoid wasting resources and reduce waste to help protect the marine environment.",
+      "questions": [
+        {
+          "prompt": "What main raw material enters the factory to be processed?",
+          "explanation": "Tuna comes from the sea and is cooked and canned at the factory.",
+          "options": [
+            "Empty metal cans",
+            "Fresh tuna from the sea",
+            "Pet food"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which way of saving resources and protecting the environment does this factory use?",
+          "explanation": "The text says that rooftop solar panels generate clean electricity.",
+          "options": [
+            "Using solar panels to generate electricity",
+            "Throwing fish leftovers into the nearby sea",
+            "Turning off all machines and working only by hand"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-sector-secundario-09",
+      "type": "choice",
+      "prompt": "A juice factory makes 400 litres in the morning and 350 litres in the afternoon. It puts all the juice in 1-litre bottles and sells 500 bottles today. How many bottles are left in storage?",
+      "explanation": "First, add the day's production: 400 + 350 = 750 bottles. Then subtract the bottles sold: 750 - 500 = 250 bottles left.",
+      "hint": "Add all the production first, then subtract the bottles sold.",
+      "lang": "en",
+      "options": [
+        "150 bottles",
+        "750 bottles",
+        "250 bottles"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-sociales-sector-secundario-10",
+      "type": "choice",
+      "prompt": "The council wants the industrial estate to use resources more carefully and cause less pollution. Which idea is best?",
+      "explanation": "Filters and water treatment reduce pollutants entering the air and water, although they do not remove every environmental impact of a factory.",
+      "hint": "Look for an action that cleans emissions and protects nature.",
+      "lang": "en",
+      "options": [
+        "Fit filters to chimneys and treat wastewater before releasing it",
+        "Dump industrial waste into the river at night",
+        "Make twice as many products using more coal and oil"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:07:50.307Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:20:55.470Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "8ccd4f5ae5833c9536d869e305ade23ccc385c024ca30d0fd361b76fadac720c",
+      "validation": "manual-review"
+    }
+  }
+}

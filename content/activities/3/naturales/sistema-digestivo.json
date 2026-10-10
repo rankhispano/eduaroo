@@ -159,7 +159,7 @@
       "explanation": "La digestión química comienza en la boca gracias a las sustancias activas que contiene la saliva.",
       "lang": "es",
       "title": "El experimento de la galleta",
-      "text": "Omar hace un experimento en clase de Ciencias. La maestra le pide masticar un trozo de galleta salada durante dos minutos enteros sin tragarla. Al principio, la galleta sabe salada y crujiente. Poco a poco, la saliva empapa la masa. Omar nota algo curioso: después de masticar mucho tiempo, la galleta empieza a saber un poco dulce. La maestra explica que la saliva tiene unas sustancias especiales llamadas enzimas. Estas sustancias rompen los hidratos de carbono complejos de la galleta y los transforman en azúcares sencillos.",
+      "text": "Omar aprende sobre la digestión en clase de Ciencias. La maestra explica qué sucede al masticar una galleta salada. Al principio, la galleta sabe salada y crujiente. Poco a poco, la saliva empapa la masa. Omar nota algo curioso: después de masticar mucho tiempo, la galleta empieza a saber un poco dulce. La maestra explica que la saliva tiene unas sustancias especiales llamadas enzimas. Estas sustancias rompen los hidratos de carbono complejos de la galleta y los transforman en azúcares sencillos.",
       "questions": [
         {
           "prompt": "¿Qué líquido de la boca transforma la galleta durante el experimento?",
@@ -187,11 +187,11 @@
       "id": "g3-naturales-sistema-digestivo-08",
       "type": "choice",
       "prompt": "Razonamiento científico: Martina mastica muy rápido la comida y apenas usa los dientes. ¿Qué pasará en su estómago? 🧪",
-      "explanation": "Si no trituramos bien con los dientes, los trozos grandes dificultan y retrasan el trabajo de los jugos gástricos.",
+      "explanation": "Masticar bien reduce el tamaño de los trozos y los mezcla con saliva. Esto facilita el trabajo del sistema digestivo.",
       "hint": "Piensa en el trabajo extra que tendrá que hacer el estómago.",
       "lang": "es",
       "options": [
-        "El estómago tardará mucho más tiempo en digerir trozos tan grandes",
+        "Los trozos grandes pueden dificultar la digestión.",
         "Los nutrientes pasarán al instante a la sangre",
         "El estómago digerirá todo más rápido porque no hay saliva"
       ],

@@ -1,0 +1,252 @@
+{
+  "id": "g4-ingles-animales-y-medioambiente",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "animales-y-medioambiente",
+  "temaNombre": "Animals and the environment",
+  "title": "Animals and Caring for Nature",
+  "summary": "Revise English words for animals, habitats and caring for the environment.",
+  "keyIdeas": [
+    "Animals live in different habitats, such as oceans, forests, deserts and mountains.",
+    "Useful actions for protecting the planet include recycling, saving water and planting trees in suitable places.",
+    "Caring for nature helps protect animals and their homes."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-animales-y-medioambiente-01",
+      "type": "choice",
+      "prompt": "Where does a sea dolphin live? 🐬",
+      "explanation": "A sea dolphin lives in the ocean. River dolphins also exist.",
+      "hint": "Think of a place with lots of salt water.",
+      "lang": "en",
+      "options": [
+        "In the desert",
+        "In the ocean",
+        "In the mountains"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-ingles-animales-y-medioambiente-02",
+      "type": "match",
+      "prompt": "Match these animals with a habitat where they can live.",
+      "explanation": "These are habitat examples. Not all bears live in forests, and eagles can live in places other than mountains.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Camel",
+          "right": "Desert"
+        },
+        {
+          "left": "Brown bear",
+          "right": "Forest"
+        },
+        {
+          "left": "Whale",
+          "right": "Ocean"
+        },
+        {
+          "left": "Golden eagle",
+          "right": "Mountains"
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-animales-y-medioambiente-03",
+      "type": "true-false",
+      "prompt": "Wild tigers live in the ocean. 🐅",
+      "explanation": "False. Tigers are land animals living in forests and jungles, rather than the ocean.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-ingles-animales-y-medioambiente-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with an action to care for the planet.",
+      "explanation": "Recycling suitable paper and plastic helps protect nature.",
+      "hint": "It means processing materials so they can be used again.",
+      "lang": "en",
+      "sentence": "To protect nature, we should ___ recyclable paper and plastic.",
+      "options": [
+        "recycle",
+        "destroy",
+        "pollute"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-animales-y-medioambiente-05",
+      "type": "classify",
+      "prompt": "Sort these actions into good for the Earth or bad for the Earth.",
+      "explanation": "Planting trees in suitable places, collecting litter and switching off unused lights help the planet. Littering and wasting water harm it.",
+      "lang": "en",
+      "categories": [
+        "Good for the Earth 🌍",
+        "Bad for the Earth 🚯"
+      ],
+      "items": [
+        {
+          "text": "Planting trees in suitable places",
+          "category": 0
+        },
+        {
+          "text": "Picking up litter",
+          "category": 0
+        },
+        {
+          "text": "Turning off unused lights",
+          "category": 0
+        },
+        {
+          "text": "Throwing rubbish in the river",
+          "category": 1
+        },
+        {
+          "text": "Wasting clean water",
+          "category": 1
+        },
+        {
+          "text": "Leaving plastic on the beach",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-animales-y-medioambiente-06",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about a giant panda's food.",
+      "explanation": "Giant pandas eat bamboo leaves and stems in the forest.",
+      "hint": "It is a green part of a plant.",
+      "lang": "en",
+      "sentence": "Giant pandas eat green bamboo ___ in the misty forest.",
+      "options": [
+        "stones",
+        "plastic",
+        "leaves"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-animales-y-medioambiente-07",
+      "type": "order",
+      "prompt": "Put the steps in order to recycle a plastic water bottle at school.",
+      "explanation": "The empty bottle goes in the packaging bin. With an adult's help, empty the bin into the yellow packaging container used in this example.",
+      "lang": "en",
+      "items": [
+        "Finish drinking your water.",
+        "Put the empty bottle in the classroom packaging bin.",
+        "When the bin is full, ask an adult for help.",
+        "Empty its contents into the yellow packaging container."
+      ]
+    },
+    {
+      "id": "g4-ingles-animales-y-medioambiente-08",
+      "type": "choice",
+      "prompt": "Aisha sees a tap running in the school garden. Nobody is using it. What should she do?",
+      "explanation": "Turning off the tap avoids wasting water, a valuable natural resource.",
+      "hint": "Think about saving water.",
+      "lang": "en",
+      "options": [
+        "Turn off the tap to save water.",
+        "Walk away and leave the tap open.",
+        "Open another tap next to it."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-animales-y-medioambiente-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "The text shows how collecting plastic rubbish helps protect wild animals.",
+      "lang": "en",
+      "title": "A Day at the Nature Reserve",
+      "text": "Hugo and Martina are visiting Green Valley Nature Reserve with their teacher. This park protects wild animals and their natural habitats. Martina spots two red foxes running between the pine trees. Hugo looks up and sees a golden eagle flying over the blue lake. The park ranger explains: 'Animals need clean forests and fresh water to live safely. Plastic rubbish can hurt them.' The children decide to help. They pick up three bags of plastic bottles left by tourists. Hugo says happily: 'Now the animals have a cleaner and safer home!'",
+      "questions": [
+        {
+          "prompt": "Where are Hugo and Martina?",
+          "explanation": "The beginning says they are visiting Green Valley Nature Reserve.",
+          "options": [
+            "At Green Valley Nature Reserve",
+            "At a busy shopping centre",
+            "At an indoor sports centre"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What bird is flying over the lake?",
+          "explanation": "Hugo sees a golden eagle flying over the lake.",
+          "options": [
+            "A green parrot",
+            "A golden eagle",
+            "A white seagull"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why do the children collect plastic bottles?",
+          "explanation": "The ranger explains that plastic rubbish can hurt animals, so the children collect it.",
+          "options": [
+            "Because plastic rubbish can hurt wild animals.",
+            "Because they want to sell the plastic bottles.",
+            "Because their teacher wants to drink more water."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-animales-y-medioambiente-10",
+      "type": "choice",
+      "prompt": "Sea turtles are in danger because there is too much ___ floating in the ocean.",
+      "explanation": "Plastic waste in the sea threatens turtles and other marine animals.",
+      "hint": "It is rubbish made from an artificial material that can stay in the environment for a long time.",
+      "lang": "en",
+      "options": [
+        "clean sand",
+        "plastic waste",
+        "sea salt"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:16:10.689Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:51:33.431Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "3a7c599925d26e1cc4328389f3fb1e5551f8790d37289e73422781ef95b77287",
+      "validation": "manual-review"
+    }
+  }
+}

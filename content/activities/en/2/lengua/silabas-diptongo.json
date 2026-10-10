@@ -1,0 +1,241 @@
+{
+  "id": "g2-lengua-silabas-diptongo",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "silabas-diptongo",
+  "temaNombre": "Syllables: diphthongs",
+  "title": "Adventures with diphthongs and syllables",
+  "summary": "Practise finding Spanish diphthongs and splitting words into syllables correctly.",
+  "keyIdeas": [
+    "A diphthong is two vowels pronounced together in the same syllable.",
+    "The vowels in a diphthong stay together when we clap the syllables.",
+    "Spanish words such as agua, puente and peine have diphthongs."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-silabas-diptongo-01",
+      "type": "true-false",
+      "prompt": "In a Spanish diphthong, two vowels are together in the same syllable.",
+      "explanation": "Correct! The two vowels are pronounced together in one syllable.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-02",
+      "type": "choice",
+      "prompt": "Which Spanish word has a diphthong?",
+      "explanation": "«Fuego» has a diphthong because u and e are together in the syllable «fue».",
+      "hint": "Find two vowels together in the same syllable.",
+      "lang": "en",
+      "options": [
+        "Taza",
+        "Mesa",
+        "Fuego"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-03",
+      "type": "match",
+      "prompt": "Match each Spanish word to its correct syllables.",
+      "explanation": "The diphthongs ai, ue and io stay together when we split these words into syllables.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Aire",
+          "right": "Ai - re"
+        },
+        {
+          "left": "Cueva",
+          "right": "Cue - va"
+        },
+        {
+          "left": "Patio",
+          "right": "Pa - tio"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-04",
+      "type": "choice",
+      "prompt": "Hugo claps the syllables in «baile». How should he split the word?",
+      "explanation": "The vowels a and i make a diphthong and stay together: «bai - le».",
+      "hint": "The diphthong takes one clap.",
+      "lang": "en",
+      "options": [
+        "Bai - le",
+        "Ba - i - le",
+        "B - ai - le"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-05",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by whether they have a diphthong.",
+      "explanation": "«Flauta» has au and «Viento» has ie. «Pelota» and «Camino» have no vowels next to each other.",
+      "lang": "en",
+      "categories": [
+        "Has a diphthong",
+        "Has no diphthong"
+      ],
+      "items": [
+        {
+          "text": "Flauta",
+          "category": 0
+        },
+        {
+          "text": "Pelota",
+          "category": 1
+        },
+        {
+          "text": "Viento",
+          "category": 0
+        },
+        {
+          "text": "Camino",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-06",
+      "type": "reading",
+      "prompt": "Read the Spanish text carefully and answer the questions.",
+      "explanation": "Omar and Aisha play in the playground. «cielo» has the diphthong ie.",
+      "lang": "en",
+      "title": "La merienda en el patio",
+      "text": "Hoy Omar y Aisha juegan en el patio del colegio. El cielo está azul y corre un aire suave. Omar come una manzana dulce y Aisha saca un peine nuevo para su muñeca. Los dos se divierten mucho antes de volver a la clase de música.",
+      "questions": [
+        {
+          "prompt": "Where do Omar and Aisha play?",
+          "explanation": "The text says they play in the school playground.",
+          "options": [
+            "In the school playground.",
+            "In the local park.",
+            "In the school dining room."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which Spanish word from the text has a diphthong?",
+          "explanation": "«Cielo» has ie in its first syllable: «cie - lo».",
+          "options": [
+            "Manzana",
+            "Música",
+            "Cielo"
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-07",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with the word that has a diphthong.",
+      "explanation": "«agua» has ua in its second syllable: «a - gua».",
+      "hint": "Find the word with two vowels together.",
+      "lang": "en",
+      "sentence": "En el recreo, Wei bebe un vaso de ___ fresca.",
+      "options": [
+        "sopa",
+        "leche",
+        "agua"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-08",
+      "type": "order",
+      "prompt": "Put these Spanish syllables in order to make a word with a diphthong.",
+      "explanation": "Joining «cua - der - no» makes «cuaderno», with a diphthong in «cua».",
+      "lang": "en",
+      "items": [
+        "Cua",
+        "der",
+        "no"
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-09",
+      "type": "choice",
+      "prompt": "Which Spanish word is split into syllables incorrectly?",
+      "explanation": "«Re - i - na» is incorrect. The diphthong ei stays together: «rei - na».",
+      "hint": "Remember that a diphthong's vowels stay together.",
+      "lang": "en",
+      "options": [
+        "Rui - do",
+        "Pien - so",
+        "Re - i - na"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-silabas-diptongo-10",
+      "type": "choice",
+      "prompt": "Nerea writes «El pu-en-te es alto». Why is this division into syllables wrong?",
+      "explanation": "In «puente», u and e make a diphthong. Split it as «puen - te».",
+      "hint": "Think about how u and e sound together.",
+      "lang": "en",
+      "options": [
+        "Because ue is a diphthong and must stay together.",
+        "Because the word has missing letters.",
+        "Because the word is split into four parts."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:17:49.155Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:28:30.487Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "0af35afd85af2ca04732bcc5f2445e90fa575e9c322a6bc4a2f3d68e32b8970c",
+      "validation": "manual-review"
+    }
+  }
+}

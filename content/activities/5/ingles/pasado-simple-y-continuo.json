@@ -4,11 +4,11 @@
   "asignaturaId": "ingles",
   "temaId": "pasado-simple-y-continuo",
   "temaNombre": "Pasado simple y continuo",
-  "title": "Misterios en pasado: Simple vs Continuous",
-  "summary": "Practica cómo contar historias y acciones del pasado combinando el Past Simple y el Past Continuous.",
+  "title": "Pasado simple y continuo: práctica guiada",
+  "summary": "Con ejemplos y ayuda, cuenta qué estaba ocurriendo y qué pasó después.",
   "keyIdeas": [
-    "Usamos el Past Continuous (was/were + -ing) para acciones largas que estaban ocurriendo en el pasado.",
-    "Usamos el Past Simple (-ed o verbos irregulares) para acciones cortas o puntuales que ocurrieron.",
+    "Past Continuous (was/were + -ing) presenta una acción en desarrollo en un momento pasado.",
+    "Past Simple presenta hechos terminados. Pueden durar poco o mucho: «I lived there for ten years».",
     "A menudo usamos 'while' con acciones continuas y 'when' antes de una acción corta que interrumpe."
   ],
   "lomloe": {
@@ -124,25 +124,25 @@
     {
       "id": "g5-ingles-pasado-simple-y-continuo-05",
       "type": "match",
-      "prompt": "Une el inicio y el final de cada frase para crear historias con sentido:",
-      "explanation": "Combinamos una acción larga en Past Continuous con una acción breve e interruptora en Past Simple usando 'when' o 'while'.",
+      "prompt": "Match the subject and action with its Past Continuous form.",
+      "explanation": "Usamos was con I/he/she/it y were con you/we/they, seguidos de la forma en -ing.",
       "lang": "en",
       "pairs": [
         {
-          "left": "We were having a picnic in the park...",
-          "right": "...when it started to rain."
+          "left": "I + read",
+          "right": "was reading"
         },
         {
-          "left": "While Aisha was sleeping peacefully,...",
-          "right": "...her cat jumped on the bed."
+          "left": "You + cook",
+          "right": "were cooking"
         },
         {
-          "left": "Hugo dropped his pencil...",
-          "right": "...while he was taking notes."
+          "left": "She + write",
+          "right": "was writing"
         },
         {
-          "left": "The children were playing football...",
-          "right": "...when the school bell rang."
+          "left": "They + play",
+          "right": "were playing"
         }
       ]
     },
@@ -164,7 +164,7 @@
     {
       "id": "g5-ingles-pasado-simple-y-continuo-07",
       "type": "choice",
-      "prompt": "Adrián explica qué ocurrió en la cocina cuando se fue la luz. ¿Qué frase es correcta?",
+      "prompt": "Adrián estaba lavando los platos cuando se fue la luz. ¿Qué frase presenta el lavado como una acción ya en desarrollo?",
       "explanation": "La acción larga en progreso lleva 'was washing' y la acción puntual que la corta lleva Past Simple ('went out').",
       "lang": "en",
       "options": [
@@ -192,10 +192,10 @@
       "id": "g5-ingles-pasado-simple-y-continuo-09",
       "type": "reading",
       "prompt": "Lee el texto sobre una mañana movida en el cole y responde a las preguntas:",
-      "explanation": "El texto combina acciones continuas de fondo (working, drawing, explaining) con sucesos puntuales (jumped, landed, offered).",
+      "explanation": "El relato combina acciones en desarrollo (working, drawing, explaining) con hechos terminados (jumped, landed, moved).",
       "lang": "en",
       "title": "An Unexpected Visitor",
-      "text": "Yesterday was an unusual morning at Oak Tree School. At 9:30, all the fifth-grade students were working quietly in their classroom. Martina was drawing a colourful map of the solar system, and Omar was writing a science project in his notebook. Suddenly, while the teacher, Mr. Green, was explaining a difficult maths problem on the board, a small squirrel jumped through the open window! The squirrel landed right on Martina's desk. Everyone stopped working. Martina did not scream; she stayed calm and slowly offered the squirrel a piece of an apple from her snack box. While the squirrel was eating the apple, Mr. Green opened the classroom door very gently. The little animal finished its food, looked at the happy students, and ran safely back outside into the green garden. It was a morning nobody forgot!",
+      "text": "Yesterday was an unusual morning at Oak Tree School. At 9:30, all the fifth-grade students were working quietly in their classroom. Martina was drawing a colourful map of the solar system, and Omar was writing a science project in his notebook. Suddenly, while the teacher, Mr. Green, was explaining a difficult maths problem on the board, a small squirrel jumped through the open window! The squirrel landed right on Martina's desk. Everyone stopped working. Martina did not scream; she stayed calm and moved away slowly to give the animal space. While the pupils were waiting at a safe distance, Mr. Green opened the door to the garden. The squirrel found the exit and ran outside. It was a morning nobody forgot!",
       "questions": [
         {
           "prompt": "What was Martina doing when the squirrel jumped into the classroom?",
@@ -208,14 +208,14 @@
           "answer": 2
         },
         {
-          "prompt": "Why did Martina give the squirrel a piece of apple?",
-          "explanation": "Martina reaccionó con calma para no asustar al animal y mantener la situación tranquila.",
+          "prompt": "What did Martina do when the squirrel landed on her desk?",
           "options": [
-            "Because she didn't want to finish her breakfast.",
-            "Because Mr. Green told her to feed wild animals.",
-            "To stay calm and help the animal feel safe."
+            "She screamed and chased it.",
+            "She picked it up with her hands.",
+            "She stayed calm and moved away slowly."
           ],
-          "answer": 2
+          "answer": 2,
+          "explanation": "Martina mantuvo la calma y se alejó despacio para dejar espacio al animal."
         },
         {
           "prompt": "What can we learn from how the class reacted to the animal?",
@@ -232,7 +232,7 @@
     {
       "id": "g5-ingles-pasado-simple-y-continuo-10",
       "type": "choice",
-      "prompt": "¿Cuál de estas oraciones describe DOS acciones largas que ocurrían al mismo tiempo en el pasado?",
+      "prompt": "¿Cuál usa Past Continuous en las dos acciones que estaban ocurriendo a la vez?",
       "explanation": "Cuando dos acciones se estaban realizando simultáneamente en el pasado, usamos el Past Continuous en ambas: 'was studying' y 'was playing'.",
       "hint": "Busca la frase donde ambas partes lleven 'was/were' + '-ing'.",
       "lang": "en",

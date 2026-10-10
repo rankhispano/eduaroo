@@ -86,19 +86,19 @@
       ],
       "items": [
         {
-          "text": "___ is your name?",
+          "text": "___ is your name? My name is Leo.",
           "category": 0
         },
         {
-          "text": "___ is my school bag?",
+          "text": "___ is my school bag? Under the desk.",
           "category": 1
         },
         {
-          "text": "___ is this animal?",
+          "text": "___ is this animal? It is a cat.",
           "category": 0
         },
         {
-          "text": "___ is the teacher?",
+          "text": "___ is the teacher? In the classroom.",
           "category": 1
         }
       ]

@@ -1,0 +1,234 @@
+{
+  "id": "g2-naturales-el-aire-y-el-agua",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "el-aire-y-el-agua",
+  "temaNombre": "Air and water",
+  "title": "Air and water",
+  "summary": "Discover what air and water are like, and learn to care for them.",
+  "keyIdeas": [
+    "Air is invisible, but it takes up space. We can feel it moving.",
+    "Water can be liquid, solid like ice, or a gas called water vapour.",
+    "Water and clean air are needed for life."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Materia, fuerzas y energía"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-01",
+      "type": "true-false",
+      "prompt": "We cannot see air, but we can feel it when the wind blows.",
+      "explanation": "Air is invisible. We feel it against our face when it moves.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-02",
+      "type": "match",
+      "prompt": "Match each state of water to an everyday example.",
+      "explanation": "Ice is solid and water in a glass is liquid. Water vapour is an invisible gas. The white cloud above hot soup contains liquid droplets.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Liquid",
+          "right": "Water in a glass"
+        },
+        {
+          "left": "Solid",
+          "right": "An ice cube"
+        },
+        {
+          "left": "Gas",
+          "right": "Invisible water vapour in the air"
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-03",
+      "type": "choice",
+      "prompt": "Hugo blows into a balloon and it gets bigger. Why?",
+      "explanation": "Air is invisible, but it is matter and takes up space in the balloon.",
+      "hint": "Think about what we blow into the balloon.",
+      "lang": "en",
+      "options": [
+        "Air is so heavy that it stretches the rubber",
+        "The balloon eats air to become huge",
+        "Air enters and takes up space in the balloon"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about pure water.",
+      "explanation": "Pure water has no smell. Water that looks clean is not always safe to drink. We use safe drinking water.",
+      "lang": "en",
+      "sentence": "Pure water has no colour or ___.",
+      "options": [
+        "weight",
+        "smell",
+        "coldness"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-05",
+      "type": "choice",
+      "prompt": "Leo says three things about water. Which is his mistake?",
+      "explanation": "Clouds contain tiny water droplets or ice crystals. Water vapour is invisible.",
+      "hint": "Remember which forms of water we can see.",
+      "lang": "en",
+      "options": [
+        "River water can reach the sea",
+        "Ice is solid water",
+        "Clouds are made only of invisible vapour"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-06",
+      "type": "classify",
+      "prompt": "Sort these actions about using water at home.",
+      "explanation": "Turning off taps when we do not need them helps save water.",
+      "lang": "en",
+      "categories": [
+        "Saves water 💧",
+        "Wastes water 🚫"
+      ],
+      "items": [
+        {
+          "text": "Turn off the tap while brushing your teeth",
+          "category": 0
+        },
+        {
+          "text": "Take a short shower instead of filling a bath",
+          "category": 0
+        },
+        {
+          "text": "Leave the hose running in the playground without using it",
+          "category": 1
+        },
+        {
+          "text": "Wash an apple while leaving the tap running all the time",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-07",
+      "type": "order",
+      "prompt": "Put this water droplet's journey through nature in order.",
+      "explanation": "Water evaporates. As vapour cools, droplets form and rain can fall. The cycle keeps going and has no single beginning.",
+      "lang": "en",
+      "items": [
+        "The Sun warms seawater",
+        "Some water evaporates into the air",
+        "The vapour cools and forms cloud droplets",
+        "Rain falls and some water returns to the sea through rivers"
+      ]
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-08",
+      "type": "choice",
+      "prompt": "With an adult, Lucía lowers a clear glass upside down into water. It has dry paper inside, and she does not tilt it. What happens to the paper?",
+      "explanation": "Air in the glass keeps water from reaching the paper when the glass is not tilted.",
+      "hint": "Remember that air takes up space inside the glass.",
+      "lang": "en",
+      "options": [
+        "It breaks because the water crushes it straight away",
+        "It gets wet at once because paper absorbs everything",
+        "It stays dry because trapped air keeps water out"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-09",
+      "type": "choice",
+      "prompt": "Wei wants to care for the air in his neighbourhood. Which action helps most?",
+      "explanation": "Walking and cycling do not release exhaust fumes.",
+      "hint": "Choose the option that does not release smoke into the street.",
+      "lang": "en",
+      "options": [
+        "Walk or cycle to school",
+        "Go to school in a large car with an engine",
+        "Burn dry leaves on the pavement"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-el-aire-y-el-agua-10",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "Wind is moving air. It can push things.",
+      "lang": "en",
+      "title": "Playing with the wind",
+      "text": "Omar takes his paper windmill to the park. It is windy, and the blades turn fast. His grandmother explains that wind is moving air. We cannot catch it with our hands. Wind moves tree leaves and helps sailing boats travel.",
+      "questions": [
+        {
+          "prompt": "What makes Omar's paper windmill turn?",
+          "explanation": "The text says that wind turns the blades quickly.",
+          "options": [
+            "Water from the fountain",
+            "Wind",
+            "An electric motor"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What is wind, according to Omar's grandmother?",
+          "explanation": "She explains that wind is air moving.",
+          "options": [
+            "Water falling from leaves",
+            "A cloud coming down to the ground",
+            "Moving air"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:41:47.443Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:37:45.936Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "161e72c22eed70fcf815f95e85b572cfd9c1d1c13c67dc6717ffff205fc22c29",
+      "validation": "manual-review"
+    }
+  }
+}

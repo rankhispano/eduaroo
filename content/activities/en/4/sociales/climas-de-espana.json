@@ -1,0 +1,246 @@
+{
+  "id": "g4-sociales-climas-de-espana",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "climas-de-espana",
+  "temaNombre": "Spain's climates",
+  "title": "A journey through Spain's climates",
+  "summary": "Discover the temperatures, rainfall and landscapes of Spain's different climates.",
+  "keyIdeas": [
+    "Four main climate types studied in Spain are oceanic, Mediterranean, mountain and subtropical.",
+    "The oceanic climate has frequent rainfall and mild temperatures.",
+    "Mediterranean climates have hot, dry summers, with differences between coastal and inland areas."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-climas-de-espana-01",
+      "type": "true-false",
+      "prompt": "In northern Spain's oceanic climate, rain falls frequently throughout the year.",
+      "explanation": "The Atlantic Ocean and Cantabrian Sea influence this climate, which has regular rainfall.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-02",
+      "type": "choice",
+      "prompt": "Which climate mainly characterises the Canary Islands?",
+      "explanation": "The islands mainly have a subtropical climate. Altitude and slope orientation make some areas colder or wetter than others.",
+      "hint": "They are near the tropics and often have mild temperatures.",
+      "lang": "en",
+      "options": [
+        "Subtropical climate",
+        "Mountain climate",
+        "Inland Mediterranean climate"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-03",
+      "type": "match",
+      "prompt": "Match each climate to a typical feature.",
+      "explanation": "Relief and geographical position influence temperatures and rainfall.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Mountain climate",
+          "right": "Very cold winters with frequent snow"
+        },
+        {
+          "left": "Oceanic climate",
+          "right": "Plentiful rain and very green landscapes"
+        },
+        {
+          "left": "Subtropical climate",
+          "right": "Generally mild temperatures and little rain in many areas"
+        },
+        {
+          "left": "Mediterranean climate",
+          "right": "Hot, dry summers with little rain"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about inland Spain's climate.",
+      "explanation": "Far from the sea, inland Mediterranean areas can have cold winters and hot summers.",
+      "lang": "en",
+      "sentence": "The Meseta Central's inland Mediterranean climate has very ___ winters and hot summers.",
+      "options": [
+        "cold",
+        "rainy",
+        "mild"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-05",
+      "type": "classify",
+      "prompt": "Classify these cities by their main climate.",
+      "explanation": "Santander, A Coruña and Oviedo lie in Spain's Atlantic and Cantabrian north. Valencia, Málaga and Palma face the Mediterranean.",
+      "lang": "en",
+      "categories": [
+        "Oceanic climate",
+        "Mediterranean climate"
+      ],
+      "items": [
+        {
+          "text": "Santander",
+          "category": 0
+        },
+        {
+          "text": "Valencia",
+          "category": 1
+        },
+        {
+          "text": "A Coruña",
+          "category": 0
+        },
+        {
+          "text": "Málaga",
+          "category": 1
+        },
+        {
+          "text": "Oviedo",
+          "category": 0
+        },
+        {
+          "text": "Palma de Mallorca",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-06",
+      "type": "choice",
+      "prompt": "Hugo visits coastal Asturias in July. Which item of clothing is useful if it rains?",
+      "explanation": "Asturias can have rain in summer too. Check the forecast and pack rain protection.",
+      "hint": "Think about northern Spain's frequent weather.",
+      "lang": "en",
+      "options": [
+        "A raincoat",
+        "A high-mountain winter coat",
+        "Special snow clothing"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-07",
+      "type": "order",
+      "prompt": "Order these landscapes from most to least usual winter snow.",
+      "explanation": "High summits often have snow. It is less common on the Meseta and exceptional on Canary Island coasts.",
+      "lang": "en",
+      "items": [
+        "High Pyrenean summits",
+        "The plateau of Castilla y León",
+        "The Canary Islands' coast"
+      ]
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-08",
+      "type": "reading",
+      "prompt": "Read the field notes and answer the questions.",
+      "explanation": "The text compares wet northern landscapes with the dry south-east.",
+      "lang": "en",
+      "title": "Nerea's school journey",
+      "text": "This year, Nerea visited two very different Spanish regions with her school. In autumn, she saw green oak and chestnut woods in Galician valleys, supported by frequent Atlantic rain. In spring, she visited Almería in the south-east. Its dry landscape had plants adapted to limited water, such as agaves and esparto grass. The guide explained that this area has very little rain and many sunny days. Nerea learned that plants are influenced by climate, soil and other conditions.",
+      "questions": [
+        {
+          "prompt": "Why were the Galician woods green and leafy?",
+          "explanation": "Galicia's oceanic climate brings frequent rain that supports lush vegetation.",
+          "options": [
+            "Frequent rain in the oceanic climate",
+            "Almost no rain and constant heat",
+            "Heavy snowfall during summer"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which climate variety fits Almería's dry landscape?",
+          "explanation": "South-eastern areas such as Almería have dry Mediterranean conditions with very little rain.",
+          "options": [
+            "Wet mountain climate",
+            "Dry Mediterranean or semi-desert climate",
+            "Continental oceanic climate"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-09",
+      "type": "choice",
+      "prompt": "Village A received 1.100 mm of rain in one year; village B received 320 mm. Which conclusion is supported?",
+      "explanation": "The data compare that year's rainfall. Identifying a climate also requires temperatures and records over many years.",
+      "hint": "Compare 1.100 mm and 320 mm.",
+      "lang": "en",
+      "options": [
+        "Both villages have exactly the same climate.",
+        "Village A must be in the Canary Islands.",
+        "Village A received more rain than village B."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-sociales-climas-de-espana-10",
+      "type": "match",
+      "prompt": "Match each climate-related situation to a responsible action.",
+      "explanation": "Saving water, reducing emissions and protecting forests help us respond to climate challenges.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Long Mediterranean droughts",
+          "right": "Turn off taps and save water at home"
+        },
+        {
+          "left": "A general rise in temperatures",
+          "right": "Use public transport or cycle"
+        },
+        {
+          "left": "Fire risk during dry summers",
+          "right": "Leave no litter or glass in forests"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:06:03.241Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:12:58.324Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "a8d90799b22b5951da89dc175c9141cfaf8f6c066a0a392b8c740c8808f4e40d",
+      "validation": "manual-review"
+    }
+  }
+}

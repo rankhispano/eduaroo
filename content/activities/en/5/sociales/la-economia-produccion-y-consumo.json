@@ -1,0 +1,259 @@
+{
+  "id": "g5-sociales-la-economia-produccion-y-consumo",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "la-economia-produccion-y-consumo",
+  "temaNombre": "The economy: production and consumption",
+  "title": "Production and responsible consumption",
+  "summary": "Explore how goods reach us, from raw materials to thoughtful consumption and saving.",
+  "keyIdeas": [
+    "Economic activity includes production of goods or services, distribution and final consumption.",
+    "Basic needs are essential for living; other wants can be influenced by advertising.",
+    "Responsible consumption protects the environment through saving resources, reuse and sustainable choices."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-01",
+      "type": "true-false",
+      "prompt": "A basic need is essential for life, such as food or housing. A want is something we would like but can live without.",
+      "explanation": "Basic needs protect survival and health. Wants may add comfort but are not essential.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about economic stages.",
+      "explanation": "Distribution includes transport, storage and selling that take a product from its maker to shops.",
+      "hint": "How does a product get from where it is made to where it is bought?",
+      "lang": "en",
+      "sentence": "Transporting and selling yoghurt from a factory to a neighbourhood supermarket are part of ___.",
+      "options": [
+        "production",
+        "distribution",
+        "extraction"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-03",
+      "type": "classify",
+      "prompt": "Classify these household expenses as basic needs or wants.",
+      "explanation": "Safe water, basic food and housing are essential for life and health. Video games and luxury items are wants.",
+      "lang": "en",
+      "categories": [
+        "Basic need",
+        "Want or non-essential expense"
+      ],
+      "items": [
+        {
+          "text": "Paying the drinking-water bill",
+          "category": 0
+        },
+        {
+          "text": "Buying the newest games console",
+          "category": 1
+        },
+        {
+          "text": "Buying vegetables and pulses for the week",
+          "category": 0
+        },
+        {
+          "text": "Buying expensive fashionable trainers when existing shoes are in good condition",
+          "category": 1
+        },
+        {
+          "text": "Paying rent or a mortgage for a home",
+          "category": 0
+        },
+        {
+          "text": "Eating at a luxury restaurant as a treat",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-04",
+      "type": "order",
+      "prompt": "Order the stages bread follows from a field to Hugo's table.",
+      "explanation": "The process starts with raw materials, continues through processing and distribution, and ends with consumption.",
+      "lang": "en",
+      "items": [
+        "A farmer grows and harvests wheat.",
+        "A mill turns wheat grains into flour.",
+        "A baker mixes dough and bakes bread.",
+        "A van delivers loaves to the neighbourhood shop.",
+        "Hugo buys a loaf for his afternoon snack."
+      ]
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-05",
+      "type": "match",
+      "prompt": "Match each production term to its definition.",
+      "explanation": "Raw materials become finished products bought by consumers. Advertising often encourages purchases.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Raw material",
+          "right": "An unprocessed natural resource, such as wood or cotton."
+        },
+        {
+          "left": "Finished product",
+          "right": "A manufactured item ready to use, such as a table or T-shirt."
+        },
+        {
+          "left": "Consumer",
+          "right": "A person who buys and uses goods to meet needs."
+        },
+        {
+          "left": "Advertising",
+          "right": "A way to publicise a product and encourage people to buy it."
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-06",
+      "type": "choice",
+      "prompt": "Lucía's family makes a monthly budget. Their income is 2.100 €. Essential expenses total 1.600 €, and leisure costs 200 €. How much can they save?",
+      "explanation": "Total expenses are 1.600 € + 200 € = 1.800 €. Income minus expenses is 2.100 € − 1.800 € = 300 €.",
+      "hint": "Add all expenses, then subtract them from income.",
+      "lang": "en",
+      "options": [
+        "500 €",
+        "100 €",
+        "200 €",
+        "300 €"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-07",
+      "type": "choice",
+      "prompt": "Which action shows critical thinking about advertising?",
+      "explanation": "Thoughtful consumers compare information, quality and prices rather than relying only on an advert's emotional promises.",
+      "hint": "Look for thinking and comparing before spending.",
+      "lang": "en",
+      "options": [
+        "Immediately buy a toy because its advert says it will make you popular.",
+        "Compare two products' features and actual prices before deciding whether to buy.",
+        "Always choose the most expensive brand because a high price guarantees no pollution.",
+        "Buy a product only because a favourite sports star advertises it."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-08",
+      "type": "reading",
+      "prompt": "Read about products' life cycles and answer the questions.",
+      "explanation": "The text explores moving from a throwaway model towards a circular economy that respects Earth's limits.",
+      "lang": "en",
+      "title": "Rethinking how we make things",
+      "text": "The traditional linear economy takes raw materials from nature, makes products, uses them and throws them away when they break. This uses up resources and creates waste that may be hard to break down, including plastics and electronics.\n\nA circular economy aims to use materials better and reduce waste. Products are designed to last longer, be easier to repair and be taken apart so that as much material as possible can be recovered. A broken phone can go to a collection centre where some metals are recovered for new devices.\n\nFactories cannot make this change alone. Citizens also help through four actions: reduce unnecessary consumption, reuse objects, repair them before discarding them, and recycle waste correctly.",
+      "questions": [
+        {
+          "prompt": "What mainly distinguishes a circular economy from a linear one?",
+          "explanation": "A linear model uses and throws away. A circular model keeps materials in use through repair, reuse and recycling.",
+          "options": [
+            "It seeks to repair products and reuse or recycle materials instead of throwing everything away.",
+            "The traditional economy makes products last forever without waste.",
+            "It uses only raw materials extracted from nature for the first time."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What environmental harm can linear consumption cause?",
+          "explanation": "The text describes faster resource depletion and accumulating waste.",
+          "options": [
+            "It uses up natural resources faster and creates large amounts of polluting waste.",
+            "It makes all electronics be manufactured only from wood.",
+            "It reduces every product's price in local markets."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which personal choice best supports a circular economy?",
+          "explanation": "Repairing a zip extends the bag's life and avoids unnecessary demand for new resources.",
+          "options": [
+            "Replace a working tablet every year.",
+            "Throw clothing into general rubbish as soon as it goes out of fashion.",
+            "Have a schoolbag's zip repaired instead of buying a new bag."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-09",
+      "type": "choice",
+      "prompt": "Omar compares apples grown 30 km away with apples flown thousands of kilometres from another continent. They were grown similarly and cost almost the same. Why are local apples more sustainable here?",
+      "explanation": "Shorter transport can reduce carbon emissions and support the local economy.",
+      "hint": "Compare the fuel needed for an international flight and a local van journey.",
+      "lang": "en",
+      "options": [
+        "Spanish law completely bans buying foreign food.",
+        "Flying automatically removes every vitamin from food.",
+        "Nearby transport causes fewer emissions and supports local jobs."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-la-economia-produccion-y-consumo-10",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about taxes' social role.",
+      "explanation": "Taxes are compulsory contributions that fund hospitals, schools, roads and parks for shared wellbeing.",
+      "hint": "Choose the public service that protects people's health.",
+      "lang": "en",
+      "sentence": "Families and businesses pay taxes to fund essential public services such as ___ and education.",
+      "options": [
+        "healthcare",
+        "advertising",
+        "exports"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:32:55.674Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:07:35.357Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "265b4deac7191fb6ae93c5321223a5523b7ca353ac0b76216c7632f18f1345db",
+      "validation": "manual-review"
+    }
+  }
+}

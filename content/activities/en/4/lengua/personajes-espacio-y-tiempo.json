@@ -1,0 +1,263 @@
+{
+  "id": "g4-lengua-personajes-espacio-y-tiempo",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "personajes-espacio-y-tiempo",
+  "temaNombre": "Characters, Place and Time",
+  "title": "Adventures: Characters, Place and Time",
+  "summary": "Identify characters, settings and time in Spanish stories.",
+  "keyIdeas": [
+    "Characters carry out the actions in a story. They can be main or supporting characters.",
+    "The setting is the place or surroundings where the story's events happen.",
+    "Time tells us when events happen and how long the story lasts."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "4.1",
+      "8.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "C. Educación literaria"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-01",
+      "type": "choice",
+      "prompt": "Who is the main character, or protagonist, in a story?",
+      "explanation": "The protagonist is the main character whose experiences are central to the story.",
+      "hint": "Think about the character at the centre of the story.",
+      "lang": "en",
+      "options": [
+        "The one who only appears at the end of the story.",
+        "The most important character the story is about.",
+        "The one who tells the story without taking part."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-02",
+      "type": "true-false",
+      "prompt": "A story's setting must always be a real place, such as an existing city.",
+      "explanation": "False. A setting can be real, such as a school, or imaginary, such as an invented planet.",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-03",
+      "type": "match",
+      "prompt": "Match each story element with its question.",
+      "explanation": "Characters take part in the actions, the setting tells us where and time tells us when.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Characters",
+          "right": "Who takes part?"
+        },
+        {
+          "left": "Setting",
+          "right": "Where does it happen?"
+        },
+        {
+          "left": "Time",
+          "right": "When does it happen?"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-04",
+      "type": "classify",
+      "prompt": "Sort these Spanish expressions into Place or Time.",
+      "explanation": "Place describes where events happen. Time describes moments, periods or durations.",
+      "lang": "en",
+      "categories": [
+        "Place",
+        "Time"
+      ],
+      "items": [
+        {
+          "text": "Un bosque encantado",
+          "category": 0
+        },
+        {
+          "text": "Una tarde de tormenta",
+          "category": 1
+        },
+        {
+          "text": "En el siglo pasado",
+          "category": 1
+        },
+        {
+          "text": "La biblioteca del colegio",
+          "category": 0
+        },
+        {
+          "text": "Durante el recreo",
+          "category": 1
+        },
+        {
+          "text": "Una cueva secreta",
+          "category": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-05",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence about types of characters.",
+      "explanation": "Supporting characters take part in the story but are not at the centre of the plot.",
+      "lang": "en",
+      "sentence": "Los personajes que acompañan al protagonista y tienen menos importancia se llaman personajes ___.",
+      "options": [
+        "secundarios",
+        "invisibles",
+        "espaciales"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-06",
+      "type": "reading",
+      "prompt": "Read the Spanish text carefully and answer the questions.",
+      "explanation": "Identify who takes part, where the scene happens and when it takes place.",
+      "lang": "en",
+      "title": "El misterio del desván",
+      "text": "Ayer por la tarde, Aisha y su primo Leo subieron al desván de la abuela. Era un lugar oscuro y lleno de cajas viejas con olor a papel antiguo. Mientras buscaban un tablero de ajedrez, un reloj de cuco empezó a sonar de repente. Detrás del reloj descubrieron una pequeña puerta de madera que nunca antes habían visto. Estaba cerrada con un candado oxidado. Al lado del candado había una nota escrita con tinta azul que decía: La llave duerme en el jardín. Los dos primos se miraron asombrados y decidieron comenzar una gran aventura.",
+      "questions": [
+        {
+          "prompt": "Who are the main characters in this adventure?",
+          "explanation": "Aisha and Leo explore the attic and find the mysterious door.",
+          "options": [
+            "Aisha and her cousin Leo.",
+            "The grandmother and the cuckoo clock.",
+            "A bird in the garden."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Where does the scene take place?",
+          "explanation": "The cousins go up to their grandmother's attic, which is full of boxes.",
+          "options": [
+            "In the grandmother's attic.",
+            "In the house's garden.",
+            "In an antique shop."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "When does the action take place?",
+          "explanation": "The text begins with «Ayer por la tarde»: yesterday afternoon.",
+          "options": [
+            "Many centuries ago.",
+            "Yesterday afternoon.",
+            "Tomorrow morning."
+          ],
+          "answer": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-07",
+      "type": "choice",
+      "prompt": "Find the mistake in Lucas's comment about a story: 🔍\n«En mi cuento de piratas, el barco navegaba por el océano Pacífico durante tres semanas. Por tanto, el océano es el tiempo y las tres semanas son el espacio».",
+      "explanation": "Lucas has mixed up the terms: the ocean is the place, and three weeks is the duration.",
+      "hint": "Which detail answers 'where?' and which answers 'how long?'.",
+      "lang": "en",
+      "options": [
+        "There is no mistake: Lucas has explained it perfectly.",
+        "The ocean is the place, and three weeks is the time that passes.",
+        "The pirates are the place, and the ship is the main character."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-08",
+      "type": "order",
+      "prompt": "Put these events in Martín's morning in chronological order.",
+      "explanation": "In this morning routine, Martín wakes up, has breakfast, arrives at school and starts class.",
+      "lang": "en",
+      "items": [
+        "Martín se despierta temprano con el canto de los pájaros.",
+        "Desayuna una tostada con leche junto a su hermana.",
+        "Llega al colegio y saluda a sus amigos en el patio.",
+        "Comienza la primera clase de Lengua en su aula."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-09",
+      "type": "choice",
+      "prompt": "Omar sets his story before humans existed, when dinosaurs such as Tyrannosaurus lived. When is his story set?",
+      "explanation": "The story is set in the distant past, before humans appeared.",
+      "hint": "Think about when Tyrannosaurus lived on Earth.",
+      "lang": "en",
+      "options": [
+        "In the prehistoric past.",
+        "In a future age with spaceships.",
+        "In the present day."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-personajes-espacio-y-tiempo-10",
+      "type": "choice",
+      "prompt": "Elena reads a story in which a clever fox tricks a crow at the top of a tree. What role does the crow have?",
+      "explanation": "The crow and the fox are characters in the fable. The tree is part of the setting.",
+      "hint": "The crow acts and speaks, so it is a character.",
+      "lang": "en",
+      "options": [
+        "It is a character who takes part in the story, like the fox.",
+        "It is the outdoor setting where the conflict happens.",
+        "It is the narrator who invents the story's time."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:46:56.287Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:25:17.984Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "caf84e788bdd4d029a83e1b8327c64c0096d4b01973165bf9d7d35bf48deaa46",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "id": "g1-mates-resta-sin-llevadas",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "resta-sin-llevadas",
+  "temaNombre": "Subtraction without regrouping",
+  "title": "Enjoying subtraction without regrouping",
+  "summary": "Practise subtraction without regrouping in everyday problems and fun challenges.",
+  "keyIdeas": [
+    "Subtracting can mean taking away, losing, spending or finding the difference between two amounts.",
+    "To subtract two-digit numbers in columns, subtract the ones first, then the tens.",
+    "In these subtractions, the starting number is greater than or equal to the amount we take away."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "6.2"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-resta-sin-llevadas-01",
+      "type": "choice",
+      "prompt": "Lucía has 8 coloured pencils. She lends 3 to Omar. How many pencils does Lucía have left?",
+      "explanation": "8 - 3 = 5. Take 3 pencils away from 8 to leave 5.",
+      "hint": "Start at 8 and count backwards three steps.",
+      "lang": "en",
+      "options": [
+        "4 pencils",
+        "11 pencils",
+        "5 pencils"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-02",
+      "type": "true-false",
+      "prompt": "A basket has 7 apples. If you eat 2, there are 5 apples left.",
+      "explanation": "Correct: 7 - 2 = 5.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct word.",
+      "explanation": "The minus sign (-) stands for subtraction.",
+      "lang": "en",
+      "sentence": "When we use the minus sign (-), we are doing a ___.",
+      "options": [
+        "subtraction",
+        "shape",
+        "addition"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-04",
+      "type": "match",
+      "prompt": "Match each subtraction to its answer.",
+      "explanation": "Take away the ones: 9 - 4 = 5, 7 - 1 = 6, 6 - 3 = 3 and 8 - 6 = 2.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "9 - 4",
+          "right": "5"
+        },
+        {
+          "left": "7 - 1",
+          "right": "6"
+        },
+        {
+          "left": "6 - 3",
+          "right": "3"
+        },
+        {
+          "left": "8 - 6",
+          "right": "2"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-05",
+      "type": "choice",
+      "prompt": "Hugo has 10 trading cards. He gives 4 to his sister. How many does he have now?",
+      "explanation": "10 - 4 = 6. Take 4 away from 10 to get 6.",
+      "hint": "Think of the number that makes 10 when added to 4.",
+      "lang": "en",
+      "options": [
+        "6 cards",
+        "14 cards",
+        "5 cards"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-06",
+      "type": "order",
+      "prompt": "Put the steps in order to calculate 47 - 23 in columns.",
+      "explanation": "First line up the numbers, then subtract the ones, then the tens, and read the answer.",
+      "lang": "en",
+      "items": [
+        "Line up tens with tens and ones with ones.",
+        "Subtract the ones: 7 - 3 = 4.",
+        "Subtract the tens: 4 - 2 = 2.",
+        "Read the final answer: 24."
+      ]
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-07",
+      "type": "choice",
+      "prompt": "Find the mistake! Aisha calculates 39 - 15 and gets 20. What has she done wrong?",
+      "explanation": "39 - 15 = 24. For the ones, 9 - 5 = 4. For the tens, 3 - 1 = 2.",
+      "hint": "Look carefully at the ones: 9 minus 5.",
+      "lang": "en",
+      "options": [
+        "She subtracts the ones incorrectly: 9 - 5 is 4, not 0.",
+        "She adds the tens instead of subtracting them.",
+        "Her calculation is correct."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-08",
+      "type": "classify",
+      "prompt": "Sort the subtractions by whether their answers are greater than 30 or less than 30.",
+      "explanation": "55 - 20 = 35 and 48 - 12 = 36 are greater than 30. 39 - 10 = 29 and 45 - 23 = 22 are less than 30.",
+      "lang": "en",
+      "categories": [
+        "Greater than 30",
+        "Less than 30"
+      ],
+      "items": [
+        {
+          "text": "55 - 20",
+          "category": 0
+        },
+        {
+          "text": "48 - 12",
+          "category": 0
+        },
+        {
+          "text": "39 - 10",
+          "category": 1
+        },
+        {
+          "text": "45 - 23",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-09",
+      "type": "choice",
+      "prompt": "Mental maths: what is 68 - 30?",
+      "explanation": "Take 3 tens away from 6 tens to leave 3 tens. The 8 ones stay the same. The answer is 38.",
+      "hint": "Take 3 tens away from 6 tens.",
+      "lang": "en",
+      "options": [
+        "38",
+        "28",
+        "98"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-resta-sin-llevadas-10",
+      "type": "choice",
+      "prompt": "A bus has 46 people on board. At a stop, 24 people get off and nobody gets on. How many people are left?",
+      "explanation": "46 - 24 = 22. Subtract the ones (6 - 4 = 2) and the tens (4 - 2 = 2). There are 22 people left.",
+      "hint": "Subtract the ones first, then the tens.",
+      "lang": "en",
+      "options": [
+        "22 people",
+        "24 people",
+        "70 people"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:55:20.129Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:19:28.063Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "0dea72782c937d591b3c9d85b4b81b537e4a83b49bc4d7b4c71b5cdf2f06a253",
+      "validation": "manual-review"
+    }
+  }
+}

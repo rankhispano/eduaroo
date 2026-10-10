@@ -7,7 +7,7 @@
   "title": "¡Calcula y gana con la probabilidad!",
   "summary": "Practica la regla de Laplace, deduce probabilidades en situaciones reales y analiza errores comunes al azar.",
   "keyIdeas": [
-    "La regla de Laplace calcula la probabilidad como casos favorables divididos entre casos posibles.",
+    "Si todos los resultados son igual de probables, la regla de Laplace divide los casos favorables entre los posibles.",
     "Un suceso puede ser imposible (probabilidad 0), posible (entre 0 y 1) o seguro (probabilidad 1).",
     "Para comparar probabilidades, debemos tener en cuenta la cantidad total de opciones y no solo las favorables."
   ],
@@ -82,7 +82,7 @@
     {
       "id": "g6-mates-probabilidad-02",
       "type": "choice",
-      "prompt": "Nerea tiene una bolsa opaca con 4 canicas rojas, 3 azules y 3 verdes. ¿Cuál es la probabilidad de sacar una canica azul sin mirar?",
+      "prompt": "Nerea tiene una bolsa opaca con canicas del mismo tamaño, bien mezcladas: 4 rojas, 3 azules y 3 verdes. ¿Cuál es la probabilidad de sacar una canica azul sin mirar?",
       "explanation": "Sumamos todas las canicas para hallar los casos posibles: 4 + 3 + 3 = 10. Como hay 3 canicas azules (casos favorables), la probabilidad es 3/10.",
       "hint": "Recuerda sumar todas las canicas para conocer el total de casos posibles.",
       "lang": "es",
@@ -186,25 +186,25 @@
     {
       "id": "g6-mates-probabilidad-09",
       "type": "choice",
-      "prompt": "Omar y Lucía preparan papeletas para la rifa del viaje de fin de curso. Omar vende 20 papeletas y 5 tienen premio. Lucía vende 50 papeletas y 10 tienen premio. ¿En qué puesto tienes mayor probabilidad de conseguir premio?",
-      "explanation": "En el puesto de Omar la probabilidad es 5/20 = 1/4 = 25 %. En el de Lucía es 10/50 = 1/5 = 20 %. Comprar a Omar da 5 puntos porcentuales más de probabilidad.",
-      "hint": "Calcula el porcentaje de premios en relación con el total de papeletas de cada puesto.",
+      "prompt": "Omar prepara 20 tarjetas, 5 con una estrella. Lucía prepara 50 tarjetas, 10 con una estrella. Cada grupo tiene tarjetas idénticas por detrás y bien mezcladas. ¿En cuál es más probable sacar una estrella al azar?",
+      "explanation": "Comparamos las proporciones respecto al total: 25 % supera 20 %.",
+      "hint": "Calcula la fracción de estrellas en cada grupo.",
       "lang": "es",
       "options": [
-        "En el puesto de Omar, porque 5/20 es un 25 %, mientras que en el de Lucía es 10/50 (20 %).",
-        "En el puesto de Lucía, porque al haber 10 premios hay el doble de oportunidades.",
-        "En ambos puestos existe exactamente la misma probabilidad."
+        "En el grupo de Omar: 5/20 = 25 %, frente a 10/50 = 20 %",
+        "En el de Lucía, porque tiene más estrellas",
+        "En ambos grupos es igual"
       ],
       "answer": 0
     },
     {
       "id": "g6-mates-probabilidad-10",
       "type": "reading",
-      "prompt": "Lee el siguiente texto sobre un juego de azar en el colegio y responde a las preguntas.",
+      "prompt": "Lee este experimento de probabilidad y responde:",
       "explanation": "Para evaluar probabilidades reales debemos comparar los casos favorables respecto al total de casos posibles en cada situación.",
       "lang": "es",
-      "title": "El stand de las urnas en la fiesta del colegio",
-      "text": "En la fiesta de fin de curso del colegio San Gabriel, el grupo de 6º de Primaria ha organizado un stand de juegos de azar para recaudar fondos para su viaje de estudios. El juego consiste en sacar una bola de una urna opaca sin mirar. Hay tres urnas distintas disponibles: la urna A contiene 10 bolas rojas y 10 azules; la urna B contiene 4 bolas rojas y 12 azules; y la urna C contiene 6 bolas rojas y 2 azules. Ganarás un peluche si logras extraer una bola roja. Wei propone jugar siempre en la urna C, mientras que Martina cree que en la urna A hay más bolas rojas en total, así que debería ser mejor. Sin embargo, el maestro les pide que calculen la probabilidad matemática de cada urna usando la regla de Laplace para tomar la mejor decisión de juego de forma razonada.",
+      "title": "Las urnas del aula",
+      "text": "En clase de 6.º, el grupo prepara tres urnas opacas para investigar el azar. Todas las bolas tienen el mismo tamaño y se mezclan antes de extraer una sin mirar. La urna A contiene 10 bolas rojas y 10 azules; la B, 4 rojas y 12 azules; y la C, 6 rojas y 2 azules.\n\nWei cree que es más probable obtener rojo en la urna C. Martina prefiere la A porque tiene más bolas rojas en total. La docente propone comparar la fracción de bolas rojas respecto al total de cada urna. Después realizarán varias extracciones, devolviendo y mezclando la bola cada vez, para comparar sus resultados con las probabilidades calculadas.",
       "questions": [
         {
           "prompt": "¿En cuál de las tres urnas es más probable extraer una bola roja?",

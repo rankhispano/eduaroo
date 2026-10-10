@@ -8,7 +8,7 @@
   "summary": "Aprenderás a cuidar tu cuerpo con buena comida, higiene, deporte y descanso.",
   "keyIdeas": [
     "Comer frutas y verduras nos da energía y salud.",
-    "Lavarse las manos con agua y jabón evita enfermedades.",
+    "Lavarse las manos con agua y jabón ayuda a prevenir enfermedades.",
     "Dormir bien y hacer ejercicio ayudan a crecer fuertes."
   ],
   "lomloe": {
@@ -68,10 +68,10 @@
       "id": "g2-naturales-habitos-saludables-03",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre la higiene bucal.",
-      "explanation": "Cepillarse tras comer elimina los restos y previene las caries.",
+      "explanation": "El cepillado elimina restos y ayuda a prevenir caries. Nos cepillamos dos veces al día con pasta con flúor, una de ellas antes de dormir.",
       "hint": "Piensa en el desayuno, la comida y la cena.",
       "lang": "es",
-      "sentence": "Debemos cepillar los dientes después de cada ___.",
+      "sentence": "Después de una ___, pueden quedar restos de alimentos entre los dientes.",
       "options": [
         "carrera",
         "siesta",
@@ -159,14 +159,14 @@
     {
       "id": "g2-naturales-habitos-saludables-08",
       "type": "choice",
-      "prompt": "En clase tocan dos rebanadas de pan. Una con manos limpias y otra con manos sucias. Las guardan en bolsas cerradas. ¿Qué pasará tras una semana?",
-      "explanation": "Las manos sin lavar llevan microbios que hacen crecer moho en el pan.",
-      "hint": "Piensa qué transportan las manos sucias.",
+      "prompt": "La clase compara lavarse con agua o con agua y jabón. ¿Qué deben mantener igual para comparar bien?",
+      "explanation": "Para comparar los dos lavados, usamos la misma cantidad de suciedad y el mismo tiempo. Así comprobamos qué cambia al usar jabón.",
+      "hint": "Cambia solo lo que quieres comparar.",
       "lang": "es",
       "options": [
-        "El pan con manos limpias se llenará antes de moho.",
-        "El pan tocado con manos sucias tendrá más moho.",
-        "Los dos panes quedarán completamente limpios y nuevos."
+        "Usar cantidades distintas de suciedad.",
+        "La cantidad de suciedad y el tiempo de lavado.",
+        "Lavarse una vez en casa y otra en el patio."
       ],
       "answer": 1
     },

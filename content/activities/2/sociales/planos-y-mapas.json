@@ -75,12 +75,12 @@
     {
       "id": "g2-sociales-planos-y-mapas-04",
       "type": "match",
-      "prompt": "Une cada símbolo del plano con el lugar que representa:",
-      "explanation": "En los planos usamos símbolos sencillos para señalar lugares importantes.",
+      "prompt": "Esta leyenda usa una cruz para hospital, un columpio para parque y un libro para biblioteca. Une cada símbolo con su lugar.",
+      "explanation": "Los símbolos se interpretan con la leyenda de cada plano; no tienen siempre el mismo significado.",
       "lang": "es",
       "pairs": [
         {
-          "left": "Una cruz roja",
+          "left": "Una cruz",
           "right": "Hospital"
         },
         {
@@ -88,7 +88,7 @@
           "right": "Parque infantil"
         },
         {
-          "left": "Un libro abierto",
+          "left": "Un libro",
           "right": "Biblioteca"
         }
       ]
@@ -126,20 +126,20 @@
       "id": "g2-sociales-planos-y-mapas-06",
       "type": "order",
       "prompt": "Ordena estos espacios del más pequeño al más grande:",
-      "explanation": "La habitación está dentro del colegio, el colegio en la ciudad y la ciudad en el país.",
+      "explanation": "El aula está dentro del colegio; el colegio, en la ciudad; y la ciudad, en el país.",
       "lang": "es",
       "items": [
-        "Mi habitación",
-        "Mi colegio",
-        "Mi ciudad",
-        "Mi país"
+        "Un aula",
+        "El colegio que contiene esa aula",
+        "La ciudad donde está el colegio",
+        "El país donde está la ciudad"
       ]
     },
     {
       "id": "g2-sociales-planos-y-mapas-07",
       "type": "choice",
-      "prompt": "Omar mira al frente en la biblioteca. El plano dice que los cuentos están a su derecha. ¿Qué hace?",
-      "explanation": "Si el plano marca la derecha, debe girar hacia ese lado para orientarse.",
+      "prompt": "Omar entra en la biblioteca. Un cartel indica: «Cuentos a tu derecha». ¿Hacia dónde gira?",
+      "explanation": "El cartel indica la derecha respecto a Omar. En un plano también hay que saber cómo está orientado.",
       "hint": "Sigue el lado que indica el plano.",
       "lang": "es",
       "options": [
@@ -197,8 +197,8 @@
     {
       "id": "g2-sociales-planos-y-mapas-10",
       "type": "choice",
-      "prompt": "¿Qué objeto redondo usamos para ver la forma real de la Tierra?",
-      "explanation": "El globo terráqueo es una esfera, igual que nuestro planeta Tierra.",
+      "prompt": "¿Qué modelo redondo representa la Tierra en tres dimensiones?",
+      "explanation": "El globo terráqueo representa la Tierra con forma aproximadamente esférica.",
       "hint": "Tiene forma redonda de esfera.",
       "lang": "es",
       "options": [

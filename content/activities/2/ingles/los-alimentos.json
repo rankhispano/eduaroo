@@ -45,11 +45,11 @@
       "id": "g2-ingles-los-alimentos-01",
       "type": "choice",
       "prompt": "Aisha eats a red fruit in the playground. What is it? 🍎",
-      "explanation": "Apple significa manzana, que es una fruta roja muy rica. Fish es pescado y milk es leche.",
+      "explanation": "Apple significa manzana. En este ejemplo es roja; también hay manzanas verdes o amarillas.",
       "hint": "Es una fruta de color rojo.",
       "lang": "en",
       "options": [
-        "A milk",
+        "Some milk",
         "A fish",
         "An apple"
       ],
@@ -143,7 +143,7 @@
       "id": "g2-ingles-los-alimentos-06",
       "type": "choice",
       "prompt": "Hugo wants a healthy snack for the break. What does he choose?",
-      "explanation": "La leche y la fruta forman un desayuno saludable y nutritivo para el cole.",
+      "explanation": "Entre estas opciones, la leche y la manzana aportan una merienda variada. Hay otras meriendas saludables según las necesidades de cada persona.",
       "hint": "Busca la opción con fruta y leche.",
       "lang": "en",
       "options": [
@@ -171,11 +171,11 @@
       "id": "g2-ingles-los-alimentos-08",
       "type": "order",
       "prompt": "Order the steps to prepare a fruit snack:",
-      "explanation": "Primero lavamos la manzana, luego la cortamos en trocitos y al final nos la comemos.",
+      "explanation": "Primero se lava, después una persona adulta ayuda a cortarla y al final se come.",
       "lang": "en",
       "items": [
         "Wash the apple.",
-        "Cut the apple.",
+        "Ask an adult to help cut it.",
         "Eat the apple."
       ]
     },
@@ -186,7 +186,7 @@
       "explanation": "Martina nos cuenta qué come hoy: pasta y ensalada, con agua fría para beber.",
       "lang": "en",
       "title": "Martina's Lunch",
-      "text": "Hello! I am Martina. Today I have pasta and salad for lunch. Pasta is my favourite food. I drink cold water. I do not like fish today.",
+      "text": "Hello! I am Martina. Today I have pasta and salad for lunch. Pasta is my favourite food. I drink cold water. I do not like fish.",
       "questions": [
         {
           "prompt": "What is Martina's favourite food?",

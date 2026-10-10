@@ -8,8 +8,8 @@
   "summary": "Aprende a separar residuos y a cuidar el planeta con la regla de las tres erres.",
   "keyIdeas": [
     "La regla de las tres erres consiste en reducir nuestro consumo, reutilizar objetos y reciclar los materiales usados.",
-    "Cada tipo de residuo va a un contenedor específico: azul para papel, amarillo para envases y verde para vidrio.",
-    "El cristal no es lo mismo que el vidrio; los vasos rotos deben ir al contenedor de restos."
+    "Seguimos las normas de nuestro municipio: azul para papel y cartón, amarillo para envases y verde para envases de vidrio.",
+    "Los vasos y las ventanas no van al contenedor verde de envases. Consultamos dónde llevarlos y una persona adulta manipula los objetos rotos."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -82,7 +82,7 @@
       "explanation": "Reutilizar significa volver a usar un objeto para darle una segunda vida sin transformarlo industrialmente.",
       "hint": "Significa usar algo otra vez.",
       "lang": "es",
-      "sentence": "Cuando usamos una botella de agua muchas veces en lugar de tirarla, estamos practicando la acción de ___.",
+      "sentence": "Cuando usamos una botella diseñada para rellenarse muchas veces, practicamos la acción de ___.",
       "options": [
         "reparar",
         "reciclar",
@@ -130,8 +130,8 @@
     {
       "id": "g4-naturales-el-reciclaje-05",
       "type": "choice",
-      "prompt": "Martina acaba de merendar en el recreo. ¿Dónde debe tirar la servilleta de papel muy manchada de aceite?",
-      "explanation": "El papel sucio de grasa o comida no se puede reciclar en el azul. Debe ir al marrón o a restos.",
+      "prompt": "En este municipio, el marrón admite servilletas de papel sucias de comida. ¿Dónde tira Martina una servilleta de papel sin plástico manchada de aceite?",
+      "explanation": "Seguimos las instrucciones del municipio. Aquí, esa servilleta va al marrón; el papel muy sucio de comida no va al azul.",
       "hint": "El papel sucio de grasa estropea el reciclaje del papel limpio.",
       "lang": "es",
       "options": [
@@ -145,14 +145,14 @@
       "id": "g4-naturales-el-reciclaje-06",
       "type": "reading",
       "prompt": "Lee este informe de ciencias y responde a las preguntas.",
-      "explanation": "Los residuos orgánicos se descomponen rápidamente, mientras que los plásticos tardan cientos de años en degradarse.",
+      "explanation": "Se comparan los cambios visibles durante cuatro semanas. El tiempo total de degradación depende del material y las condiciones.",
       "lang": "es",
       "title": "El experimento de descomposición de 4º de Primaria",
-      "text": "En la clase de Ciencias, Hugo y Nerea enterraron dos objetos en una maceta grande con tierra húmeda. El primer objeto fue una cáscara de naranja. El segundo objeto fue una bolsa de plástico pequeña.\n\nDurante cuatro semanas mantuvieron la maceta con luz y humedad adecuadas. Pasado un mes, cavaron con cuidado para observar el resultado.\n\nLa cáscara de naranja había desaparecido casi por completo, convertida en nutrientes para el suelo. En cambio, la bolsa de plástico seguía intacta, sin ningún cambio aparente en su forma ni en su color.",
+      "text": "En la clase de Ciencias, la docente preparó una observación con dos objetos en una maceta grande con tierra húmeda. El primer objeto fue una cáscara de naranja. El segundo objeto fue una bolsa de plástico pequeña.\n\nDurante cuatro semanas mantuvieron la maceta con luz y humedad adecuadas. Pasado un mes, la docente recuperó los objetos para observarlos, sin dejar plástico en la tierra.\n\nLa cáscara de naranja había mostrado claros signos de descomposición. En cambio, la bolsa de plástico seguía intacta, sin ningún cambio aparente en su forma ni en su color.",
       "questions": [
         {
-          "prompt": "¿Qué residuo desapareció casi por completo durante el experimento?",
-          "explanation": "La cáscara de naranja es un residuo orgánico y los microorganismos la descomponen rápidamente.",
+          "prompt": "¿Qué residuo mostró signos de descomposición?",
+          "explanation": "En el resultado descrito, la cáscara de naranja había empezado a descomponerse.",
           "options": [
             "La bolsa de plástico.",
             "La cáscara de naranja.",
@@ -162,9 +162,9 @@
         },
         {
           "prompt": "¿Qué conclusión científica se puede extraer sobre el plástico?",
-          "explanation": "El plástico no es biodegradable a corto plazo y permanece en el medio ambiente durante siglos.",
+          "explanation": "Un mes de observación muestra una diferencia entre los materiales. No permite calcular cuánto tarda cada uno en degradarse por completo.",
           "options": [
-            "El plástico tarda muchos años en descomponerse en la naturaleza.",
+            "La bolsa no mostró cambios visibles durante esas cuatro semanas.",
             "El plástico desaparece más rápido con agua y luz.",
             "El plástico se convierte rápidamente en abono para las plantas."
           ],
@@ -175,9 +175,9 @@
     {
       "id": "g4-naturales-el-reciclaje-07",
       "type": "choice",
-      "prompt": "En clase pesaron los residuos del cubo de basura general durante dos semanas. En la primera semana pesó 12 kg. En la segunda semana instalaron papeleras de reciclaje y el cubo general pesó 4 kg. ¿Qué explica esta diferencia?",
-      "explanation": "Al separar el papel y los envases, reducimos la cantidad de basura que va al vertedero común.",
-      "hint": "Resta los kilos de la segunda semana a los de la primera.",
+      "prompt": "La clase genera 12 kg de residuos cada semana. Tras separar para reciclar, quedan 4 kg en el cubo general. ¿Cuántos kilos se separaron?",
+      "explanation": "Si el total es 12 kg y quedan 4 kg en el cubo general, se han separado 12 − 4 = 8 kg.",
+      "hint": "Resta los kilos del cubo general al total de residuos de esa semana.",
       "lang": "es",
       "options": [
         "El alumnado generó mucha más basura durante la segunda semana.",
@@ -190,8 +190,8 @@
       "id": "g4-naturales-el-reciclaje-08",
       "type": "choice",
       "prompt": "Encuentra la afirmación INCORRECTA sobre la separación de residuos en casa:",
-      "explanation": "¡Cuidado! El cristal de los vasos lleva componentes diferentes al vidrio y no debe tirarse al contenedor verde.",
-      "hint": "Recuerda que vidrio y cristal son materiales distintos.",
+      "explanation": "El verde recoge envases de vidrio, como botellas y tarros. Los vasos rotos se gestionan según las instrucciones locales y los recoge una persona adulta.",
+      "hint": "El contenedor verde recoge envases de vidrio, no cualquier objeto de vidrio.",
       "lang": "es",
       "options": [
         "Un vaso de cristal roto debe tirarse al contenedor verde con las botellas.",

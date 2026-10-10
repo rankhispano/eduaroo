@@ -1,0 +1,264 @@
+{
+  "id": "g5-ingles-condicional-tipo-1",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "condicional-tipo-1",
+  "temaNombre": "First Conditional",
+  "title": "First Conditional: Guided Practice",
+  "summary": "Use models and support to express a plan that depends on a condition.",
+  "keyIdeas": [
+    "Model: 'If it rains, we will stay inside'. Staying inside depends on rain.",
+    "In this model, the if-clause uses the present simple and the result uses will + base verb.",
+    "You can reverse the order: 'We will stay inside if it rains'. Practise these examples with help."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-condicional-tipo-1-01",
+      "type": "true-false",
+      "prompt": "In the first conditional model studied here, the if-clause uses the present simple.",
+      "explanation": "True. The model uses 'if' with a present simple verb, as in 'If it rains...'.",
+      "hint": "Think of 'if + present simple' and 'will + base verb'.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-02",
+      "type": "choice",
+      "prompt": "Choose the result with will + base verb for a future plan.",
+      "explanation": "'Will go' combines 'will' with the base verb 'go'.",
+      "hint": "Choose the form that describes the future result.",
+      "lang": "en",
+      "options": [
+        "will go",
+        "go",
+        "went"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-03",
+      "type": "fill-blank",
+      "prompt": "Complete the condition with the correct verb form.",
+      "explanation": "Use the present simple after 'if' in this model. With 'Aisha' (she), 'finish' becomes 'finishes'.",
+      "hint": "Remember the third-person singular ending.",
+      "lang": "en",
+      "sentence": "If Aisha ___ her homework early, she will play video games.",
+      "options": [
+        "finishes",
+        "will finish",
+        "finish"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-04",
+      "type": "classify",
+      "prompt": "Sort each sentence part into Condition (If...) or Result (Will...).",
+      "explanation": "In these examples, the if-clause gives the condition. The will/won't clause gives the predicted result.",
+      "lang": "en",
+      "categories": [
+        "Condition",
+        "Result"
+      ],
+      "items": [
+        {
+          "text": "If Omar studies hard",
+          "category": 0
+        },
+        {
+          "text": "he will pass the test",
+          "category": 1
+        },
+        {
+          "text": "If you don't sleep well",
+          "category": 0
+        },
+        {
+          "text": "you will feel tired",
+          "category": 1
+        },
+        {
+          "text": "we will miss the bus",
+          "category": 1
+        },
+        {
+          "text": "If we don't hurry up",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-05",
+      "type": "match",
+      "prompt": "Match these plans by using the activity clues in each condition.",
+      "explanation": "The clues connect picnic, film, match and book with their plans. These examples describe intentions rather than guarantees.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "If the weather is good for our picnic,",
+          "right": "we will eat lunch in the park."
+        },
+        {
+          "left": "If the cinema has tickets for our film,",
+          "right": "we will watch it there."
+        },
+        {
+          "left": "If we have a ball for the match,",
+          "right": "we will play football."
+        },
+        {
+          "left": "If the library has the book I want,",
+          "right": "I will borrow it."
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-06",
+      "type": "choice",
+      "prompt": "Martina and Adrián are planning a race. Martina says: 'If you ___ fast, you will win the trophy.'",
+      "explanation": "With 'you', the present simple form is 'run'. Martina is making a prediction, not guaranteeing the race result.",
+      "hint": "Use the present simple for the condition in this model.",
+      "lang": "en",
+      "options": [
+        "run",
+        "runs",
+        "will run"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-07",
+      "type": "order",
+      "prompt": "Put the condition first and the planned result second.",
+      "explanation": "Start with 'If you help with the posters', then add 'we will finish the project today'.",
+      "lang": "en",
+      "items": [
+        "If",
+        "you help",
+        "with the posters,",
+        "we will finish",
+        "the project today."
+      ]
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-08",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the result first and the condition second.",
+      "explanation": "Even when the result comes first, this model uses the present simple after 'if'. With 'he', use 'saves'.",
+      "hint": "Check the verb after 'if' and its subject 'he'.",
+      "lang": "en",
+      "sentence": "Wei will buy a new skateboard if he ___ enough money.",
+      "options": [
+        "save",
+        "saves",
+        "will save"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "The text uses conditional sentences to describe alternative Saturday plans depending on the weather.",
+      "lang": "en",
+      "title": "The Green Club's Saturday Plan",
+      "text": "Aisha and Lucas are active members of their school Green Club. They are planning a special activity for this Saturday at the local city park. The weather forecast says it might be sunny, but there are also clouds. Aisha says, 'If the sun shines, we will clean the park and plant six new trees near the pond.' Lucas is also preparing for bad weather. 'If it rains, we will stay in the youth centre and paint recycling posters for the school corridors,' he explains. Their teacher, Mr Davies, is very proud of their dedication. He says that if more students join the Green Club, our town will be much cleaner and healthier for everyone. The members are excited because whatever happens with the weather, they will help the environment and have a fantastic day together.",
+      "questions": [
+        {
+          "prompt": "What will Aisha and Lucas do if it rains on Saturday?",
+          "explanation": "If it rains, they plan to stay in the youth centre and paint recycling posters.",
+          "options": [
+            "They will plant six new trees near the pond.",
+            "They will stay at home and watch television.",
+            "They will paint recycling posters in the youth centre."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why does Lucas prepare an alternative indoor activity?",
+          "explanation": "The weather is uncertain, so the group prepares an indoor plan in case it rains. Clouds do not guarantee rain.",
+          "options": [
+            "Because the weather is uncertain and it might rain.",
+            "Because he doesn't like planting trees outdoors.",
+            "Because the park is closed on Saturdays."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "According to Mr Davies, how can the town become cleaner and healthier?",
+          "explanation": "Mr Davies says that more students joining and taking part in the Green Club can help the town.",
+          "options": [
+            "If schools stop organising outdoor activities.",
+            "If the weather is always sunny at weekends.",
+            "If more students get involved in environmental actions."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-condicional-tipo-1-10",
+      "type": "choice",
+      "prompt": "Challenge! Read the school science fair rule: 'If your project ___ ready on Friday, you won't participate in the exhibition.'",
+      "explanation": "'Your project' is singular. The negative present simple of 'be' is 'isn't'.",
+      "hint": "The subject is singular, and the condition needs a negative present form of 'be'.",
+      "lang": "en",
+      "options": [
+        "aren't",
+        "won't be",
+        "isn't"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:12:06.268Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:55:57.799Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "d728cf59c5ecd0f0107cf6518ec78beca6333c87b4a0c5653d80c06da73916b5",
+      "validation": "manual-review"
+    }
+  }
+}

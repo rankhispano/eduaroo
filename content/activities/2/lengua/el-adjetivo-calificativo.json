@@ -211,7 +211,7 @@
     {
       "id": "g2-lengua-el-adjetivo-calificativo-10",
       "type": "order",
-      "prompt": "Ordena estas palabras para formar una oración correcta:",
+      "prompt": "Ordena la oración: primero quiénes son, con su adjetivo; después qué hacen y cómo.",
       "explanation": "Primero va el artículo, luego el sustantivo con su adjetivo y al final el verbo con el adverbio.",
       "lang": "es",
       "items": [

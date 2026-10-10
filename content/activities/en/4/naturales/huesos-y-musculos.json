@@ -1,0 +1,232 @@
+{
+  "id": "g4-naturales-huesos-y-musculos",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "huesos-y-musculos",
+  "temaNombre": "Bones and muscles",
+  "title": "Bones and muscles: a great team",
+  "summary": "Explore how bones, joints and muscles help move and protect the body.",
+  "keyIdeas": [
+    "Bones form the skeleton, support the body and protect organs such as the brain and heart.",
+    "Skeletal muscles attach to bones through tendons and produce movement by contracting and relaxing.",
+    "A varied diet with calcium, physical activity and comfortable posture help keep the body's movement system healthy."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-huesos-y-musculos-01",
+      "type": "true-false",
+      "prompt": "Bones are rigid organs that support the body and protect delicate organs such as the brain.",
+      "explanation": "Bones form the skeleton and protect important organs as well as supporting us.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about muscles attaching to bones.",
+      "explanation": "Tendons are tough tissues connecting muscles to bones and transmitting pulling forces.",
+      "lang": "en",
+      "sentence": "Muscles attach firmly to bones through tough tissues called ___.",
+      "options": [
+        "tendons",
+        "joints",
+        "nerves"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-03",
+      "type": "match",
+      "prompt": "Match each skeletal part to the organ it protects.",
+      "explanation": "The skull protects the brain, and the ribs protect organs inside the chest.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Skull",
+          "right": "Brain"
+        },
+        {
+          "left": "Rib cage",
+          "right": "Heart and lungs"
+        },
+        {
+          "left": "Spine",
+          "right": "Spinal cord"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-04",
+      "type": "classify",
+      "prompt": "Classify these muscle actions as voluntary or involuntary.",
+      "explanation": "We consciously control these voluntary movements. Involuntary muscles work automatically without us deciding each movement.",
+      "lang": "en",
+      "categories": [
+        "Voluntary muscles",
+        "Involuntary muscles"
+      ],
+      "items": [
+        {
+          "text": "Biceps lifting a schoolbag",
+          "category": 0
+        },
+        {
+          "text": "The heart beating continuously",
+          "category": 1
+        },
+        {
+          "text": "Calf muscles while running",
+          "category": 0
+        },
+        {
+          "text": "Stomach muscles during digestion",
+          "category": 1
+        },
+        {
+          "text": "Thigh muscles when kicking a ball",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-05",
+      "type": "choice",
+      "prompt": "Hugo packs his schoolbag. Which habit best helps protect his back?",
+      "explanation": "Using both straps spreads the load. Carrying only necessary items and adjusting the bag can reduce discomfort.",
+      "hint": "Think about distributing weight evenly.",
+      "lang": "en",
+      "options": [
+        "Use both straps, adjusted comfortably against his back.",
+        "Hang it from one shoulder to walk faster.",
+        "Carry every textbook, even those not needed that day."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-06",
+      "type": "choice",
+      "prompt": "Who makes a scientific error about the skeleton?",
+      "explanation": "Aisha is mistaken. Bones are living organs with blood vessels. They grow and can repair after fractures.",
+      "hint": "Think about a broken bone healing.",
+      "lang": "en",
+      "options": [
+        "Aisha: 'Bones are dry, lifeless structures like stones.'",
+        "Nerea: 'Blood cells are made inside bones.'",
+        "Lucas: 'Bones are living organs that grow and can repair.'"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-07",
+      "type": "order",
+      "prompt": "Order what happens from deciding to bend your arm to the movement.",
+      "explanation": "The nervous and movement systems work together. A brain signal makes the muscle contract and pull on a bone.",
+      "lang": "en",
+      "items": [
+        "The brain sends a nerve signal.",
+        "The signal reaches the biceps.",
+        "The biceps contracts and pulls on its tendon.",
+        "The forearm rises as the elbow bends."
+      ]
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-08",
+      "type": "choice",
+      "prompt": "Martina bends her arm to touch her shoulder. What happens to its opposing muscles?",
+      "explanation": "Biceps and triceps work as an opposing pair. In this movement, the biceps contracts while the triceps relaxes.",
+      "hint": "Feel your upper arm as you bend it. Which muscle becomes firm?",
+      "lang": "en",
+      "options": [
+        "The triceps contracts and the biceps lengthens.",
+        "Both contract strongly at the same time.",
+        "The biceps contracts and the triceps relaxes."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-09",
+      "type": "reading",
+      "prompt": "Read about a classroom observation and answer the questions.",
+      "explanation": "Mineral salts contribute to bone hardness. This laboratory comparison cannot diagnose or treat health conditions.",
+      "lang": "en",
+      "title": "A flexible bone sample",
+      "text": "Adrián and Lucía watch a laboratory video in Science. A specialist compares two bone samples: one untreated and one kept in an acidic liquid. Bones contain calcium-rich mineral salts that contribute to hardness, and other substances that provide flexibility.\n\nThe treated sample has lost some mineral salts and bends more easily. The untreated sample remains more rigid. Their teacher explains that this helps show why bone composition matters. She also reminds them that a varied diet, movement and other healthy habits help care for the skeleton.",
+      "questions": [
+        {
+          "prompt": "Which substances contribute to bone hardness?",
+          "explanation": "Mineral salts, including calcium-containing salts, contribute to hardness.",
+          "options": [
+            "Sugars.",
+            "Air.",
+            "Mineral salts containing calcium."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does the comparison show?",
+          "explanation": "Losing some mineral salts makes the sample more flexible, linking composition with rigidity.",
+          "options": [
+            "Mineral salts make bones soft.",
+            "Mineral salts contribute to bone rigidity.",
+            "Rigidity does not depend on bone composition."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-huesos-y-musculos-10",
+      "type": "choice",
+      "prompt": "Leo twists his ankle after a jump. His bones are unbroken, but ligaments have overstretched. Which injury fits this description, and what do ligaments do?",
+      "explanation": "A sprain affects joint ligaments. Ligaments connect bones at joints and help keep them stable.",
+      "hint": "No bone is broken; joint tissues have overstretched.",
+      "lang": "en",
+      "options": [
+        "A sprain: ligaments connect bone to bone at joints.",
+        "A fracture: ligaments voluntarily contract the feet.",
+        "A broken bone: ligaments carry blood along the leg."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:57:09.743Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:17:13.913Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "b2b3bbc28a24fb27cc687b5e969f446e4d3483262c114eb7d286f28ed9a9649c",
+      "validation": "manual-review"
+    }
+  }
+}

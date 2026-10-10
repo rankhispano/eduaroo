@@ -1,0 +1,274 @@
+{
+  "id": "g5-lengua-uso-del-diccionario",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "uso-del-diccionario",
+  "temaNombre": "Using a Spanish Dictionary",
+  "title": "Dictionary Secrets and Tips",
+  "summary": "Find Spanish words efficiently and understand meanings, abbreviations and guide words.",
+  "keyIdeas": [
+    "Words follow alphabetical order. When initial letters match, compare the next letters.",
+    "Noun headwords are usually singular, keeping their gender. Two-ending adjectives usually use masculine singular headwords; verbs use infinitives.",
+    "A numbered meaning is an «acepción». Guide words show the first and last headwords on a page."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE6",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "6.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC2",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD4",
+      "CE3",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-uso-del-diccionario-01",
+      "type": "order",
+      "prompt": "Hugo sorts vocabulary cards. Put these Spanish words in dictionary order.",
+      "explanation": "All begin with b. Compare their second letters: a, o, r, u.",
+      "lang": "en",
+      "items": [
+        "barco",
+        "botella",
+        "brújula",
+        "buzón"
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-02",
+      "type": "choice",
+      "prompt": "Lucía finds «escribíamos» in a novel. Which headword should she look up?",
+      "explanation": "The infinitive headword for this verb form is «escribir».",
+      "hint": "Spanish infinitives end in -ar, -er or -ir.",
+      "lang": "en",
+      "options": [
+        "escribir",
+        "escribíamos",
+        "escrito",
+        "escribo"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-03",
+      "type": "true-false",
+      "prompt": "A school dictionary page has guide words «farola» and «fiesta». «Felino» belongs in that alphabetical range.",
+      "explanation": "True. «Felino» comes after «farola» (fa...) and before «fiesta» (fi...).",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-04",
+      "type": "match",
+      "prompt": "Match each Spanish dictionary abbreviation with its meaning.",
+      "explanation": "Abbreviations give information about a word's grammar or related meanings.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "sust. m.",
+          "right": "Masculine noun"
+        },
+        {
+          "left": "adj.",
+          "right": "Adjective"
+        },
+        {
+          "left": "v. tr.",
+          "right": "Transitive verb"
+        },
+        {
+          "left": "sin.",
+          "right": "Synonym"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-05",
+      "type": "classify",
+      "prompt": "For this activity, use usual headword forms: singular nouns, masculine singular adjectives and infinitive verbs. Sort by whether the form needs changing.",
+      "explanation": "«Árbol», «dormir» and «sol» already have these forms. Change «cantábamos» to «cantar», «altas» to «alto» and «pequeñitos» to singular «pequeñito». Some digital dictionaries also accept inflected searches.",
+      "lang": "en",
+      "categories": [
+        "Already in headword form",
+        "Form needs changing"
+      ],
+      "items": [
+        {
+          "text": "árbol",
+          "category": 0
+        },
+        {
+          "text": "cantábamos",
+          "category": 1
+        },
+        {
+          "text": "altas",
+          "category": 1
+        },
+        {
+          "text": "dormir",
+          "category": 0
+        },
+        {
+          "text": "pequeñitos",
+          "category": 1
+        },
+        {
+          "text": "sol",
+          "category": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-06",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish definition with the correct term.",
+      "explanation": "An «acepción» is one of a word's meanings in a dictionary entry.",
+      "lang": "en",
+      "sentence": "Cada uno de los significados numerados que tiene una misma palabra dentro del artículo del diccionario se denomina ___.",
+      "options": [
+        "etimología",
+        "entrada",
+        "acepción"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-07",
+      "type": "choice",
+      "prompt": "Adrián explains dictionary headwords. Which statement is INCORRECT?",
+      "explanation": "For the adjective «listas», use the headword «listo», rather than treating the feminine plural as the usual headword.",
+      "hint": "Think about the headword form of a two-ending adjective.",
+      "lang": "en",
+      "options": [
+        "Words with the same first letter are ordered by their next letters.",
+        "For the adjective «listas», the usual dictionary headword is «listas» in the plural.",
+        "To find «canciones», look up «canción».",
+        "To find the meaning of «comiste», look up «comer»."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-08",
+      "type": "choice",
+      "prompt": "Read «El barco pesquero regresó al puerto tras avistar un enorme banco de sardinas». Which meaning of «banco» is used?",
+      "explanation": "The fishing context uses «banco» to mean a large group of fish swimming together.",
+      "hint": "Look at the sea and fishing context.",
+      "lang": "en",
+      "options": [
+        "1. A seat for several people, with or without a back.",
+        "2. A business providing financial services.",
+        "4. A medical facility storing organs or blood.",
+        "3. A large group of fish swimming together."
+      ],
+      "answer": 3,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-09",
+      "type": "reading",
+      "prompt": "Read the Spanish classroom investigation and answer the questions.",
+      "explanation": "The story shows how dictionary editions and their contents can differ as language changes.",
+      "lang": "en",
+      "title": "El misterio del tomo gastado",
+      "text": "Durante la clase de Lengua, Omar y Nerea encontraron un diccionario ilustrado antiguo en la biblioteca. Al abrirlo por la letra C, vieron las palabras guía «Calamar - Calina». Entre ellas descubrieron palabras poco usadas y dibujos de animales marinos.\n\nNerea buscó «videollamada», pero no aparecía en ese ejemplar. Omar recordó que un diccionario no recoge todas las palabras de la lengua y que sus ediciones se actualizan. Consultaron un diccionario digital reciente y encontraron la palabra y su significado. Compararon ambas obras: la antigua conservaba vocabulario de otra época y la actual incorporaba usos nuevos. Comprendieron que la lengua cambia y que conviene elegir un diccionario adecuado para cada consulta.",
+      "questions": [
+        {
+          "prompt": "What did they do when «videollamada» was missing from that copy?",
+          "options": [
+            "They consulted a recent digital dictionary.",
+            "They decided the word did not exist.",
+            "They tore pages out of the old dictionary."
+          ],
+          "answer": 0,
+          "explanation": "The text says they found the word and its meaning in a recent digital dictionary."
+        },
+        {
+          "prompt": "With guide words «Calamar - Calina», which word could be on the same page?",
+          "explanation": "«Calambre» comes between «calamar» and «calina». «Cacao» is earlier and «calor» later.",
+          "options": [
+            "Calor",
+            "Cacao",
+            "Calambre"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What do Omar and Nerea conclude about language?",
+          "explanation": "Language changes with society, and dictionaries are updated to record changing usage.",
+          "options": [
+            "Old dictionaries are better and more accurate than modern ones.",
+            "Language and dictionaries evolve with society.",
+            "There is no need to use a dictionary if we know modern words."
+          ],
+          "answer": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-uso-del-diccionario-10",
+      "type": "choice",
+      "prompt": "Which series is in strict Spanish alphabetical order?",
+      "explanation": "Compare successive letters: «desac...» comes before «desan...», then «desc...» and «desf...». Accent marks do not change this ordering.",
+      "hint": "Compare one letter at a time.",
+      "lang": "en",
+      "options": [
+        "descubrir, desactivar, desánimo, desfile",
+        "desánimo, desactivar, desfile, descubrir",
+        "desactivar, desánimo, descubrir, desfile",
+        "desactivar, descubrir, desánimo, desfile"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T14:48:19.078Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:11:48.332Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "fa67d6132d27e043799aa810c5b36e8bad4e17fa70e64d1f09dbe103d006c652",
+      "validation": "manual-review"
+    }
+  }
+}

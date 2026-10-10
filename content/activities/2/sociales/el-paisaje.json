@@ -139,7 +139,7 @@
     {
       "id": "g2-sociales-el-paisaje-06",
       "type": "choice",
-      "prompt": "Hugo ve un túnel en una gran montaña. ¿Por qué se construyó?",
+      "prompt": "Hugo ve un túnel de carretera que atraviesa una montaña. ¿Para qué sirve?",
       "explanation": "Las personas perforan túneles para viajar más rápido a través de las montañas.",
       "hint": "Sirve para el transporte de personas y mercancías.",
       "lang": "es",

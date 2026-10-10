@@ -1,0 +1,253 @@
+{
+  "id": "g3-sociales-la-poblacion",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "la-poblacion",
+  "temaNombre": "Population",
+  "title": "Discovering how populations change",
+  "summary": "Learn how the population of a place changes and how people live in villages, towns and cities.",
+  "keyIdeas": [
+    "A population is all the people living in a place or territory.",
+    "Births, deaths, emigration and immigration change a population.",
+    "People can be economically active or inactive, depending on whether they work or look for paid work."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE8"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "CP3",
+      "CPSAA3",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-la-poblacion-01",
+      "type": "true-false",
+      "prompt": "The total population is the number of people living in a place.",
+      "explanation": "Total population counts the people living in a territory. It is not always the same as the number listed in an official register.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-sociales-la-poblacion-02",
+      "type": "choice",
+      "prompt": "What is the council's official record of the people living in a municipality called?",
+      "explanation": "The municipal population register records the people living in a municipality.",
+      "hint": "It is an official council record.",
+      "lang": "en",
+      "options": [
+        "The neighbourhood map",
+        "The library card",
+        "The municipal population register"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-la-poblacion-03",
+      "type": "fill-blank",
+      "prompt": "Choose the word that completes the sentence.",
+      "explanation": "An emigrant leaves their place of origin to live somewhere else.",
+      "lang": "en",
+      "sentence": "When someone leaves their home village to live in another country, the term for them from that village's point of view is ___.",
+      "options": [
+        "immigrant",
+        "tourist",
+        "emigrant"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-la-poblacion-04",
+      "type": "match",
+      "prompt": "Match each population term to its meaning.",
+      "explanation": "Births and immigration add to the population. Deaths and emigration reduce it.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Births",
+          "right": "Number of babies born in a year"
+        },
+        {
+          "left": "Deaths",
+          "right": "Number of people who die in a year"
+        },
+        {
+          "left": "Immigration",
+          "right": "People arriving to live in a place"
+        },
+        {
+          "left": "Emigration",
+          "right": "People leaving to live elsewhere"
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-la-poblacion-05",
+      "type": "classify",
+      "prompt": "Sort these people by their work situation.",
+      "explanation": "In these examples, people who work or look for a job are economically active. The child and the retired person who is not looking for work are economically inactive.",
+      "lang": "en",
+      "categories": [
+        "Economically active population",
+        "Economically inactive population"
+      ],
+      "items": [
+        {
+          "text": "Lucía, who works as a municipal firefighter",
+          "category": 0
+        },
+        {
+          "text": "Hugo, who is 8 and attends primary school",
+          "category": 1
+        },
+        {
+          "text": "Aisha, who is looking for a job as a hospital doctor",
+          "category": 0
+        },
+        {
+          "text": "Omar's grandfather, who has retired from his job",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-la-poblacion-06",
+      "type": "choice",
+      "prompt": "In Nerea's village, 15 babies were born and 9 people died this year. What was the natural population change?",
+      "explanation": "Natural population change is births minus deaths: 15 − 9 = 6. To find the total population change, we must also count people arriving and leaving.",
+      "hint": "Subtract deaths from births.",
+      "lang": "en",
+      "options": [
+        "No change at all",
+        "A decrease of 6 people",
+        "An increase of 6 people"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-la-poblacion-07",
+      "type": "classify",
+      "prompt": "Sort these features into rural or urban populations.",
+      "explanation": "Rural populations live in villages and countryside areas. Urban populations live in towns and cities with many services and industries. These examples show common patterns.",
+      "lang": "en",
+      "categories": [
+        "Rural population",
+        "Urban population"
+      ],
+      "items": [
+        {
+          "text": "People living in small, quiet villages",
+          "category": 0
+        },
+        {
+          "text": "Tall buildings and busy avenues",
+          "category": 1
+        },
+        {
+          "text": "Many people working in factories and offices",
+          "category": 1
+        },
+        {
+          "text": "Residents mainly working in farming or keeping livestock",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-la-poblacion-08",
+      "type": "order",
+      "prompt": "Put this village's story in order using the time clues.",
+      "explanation": "This is one possible story of population change. Not every village follows the same steps.",
+      "lang": "en",
+      "items": [
+        "At first, many young families leave for the city",
+        "Then, mainly older people remain and the school closes",
+        "Later, new families with children arrive",
+        "Finally, the school reopens for those pupils"
+      ]
+    },
+    {
+      "id": "g3-sociales-la-poblacion-09",
+      "type": "reading",
+      "prompt": "Read the story of Valle Verde and answer the questions.",
+      "explanation": "Immigration can bring cultural diversity and help small villages keep their communities and services alive.",
+      "lang": "en",
+      "title": "New neighbours arrive in Valle Verde",
+      "text": "Valle Verde was a small village with 120 residents. For many years, few babies were born and young people left to study in the city. The school was about to close because it had too few pupils. Last year, however, three families arrived from other countries to work in the farming cooperative. They brought six cheerful children. The villagers held a welcome party in the square. Thanks to their arrival, the village school stays open and children play in the streets again.",
+      "questions": [
+        {
+          "prompt": "Why was Valle Verde's school about to close?",
+          "explanation": "Few babies were born and young people left, so the school had too few pupils.",
+          "options": [
+            "The teacher went on holiday",
+            "There were too few school-age children",
+            "The building was very old and dangerous"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "The arrival of these families and their children is an example of:",
+          "explanation": "It is immigration because they come from elsewhere to live and work in Valle Verde.",
+          "options": [
+            "Weekend mountain tourism",
+            "Emigration that reduces the local population",
+            "Immigration that helps bring new life to the village"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-la-poblacion-10",
+      "type": "choice",
+      "prompt": "A municipality had 500 residents in January. During the year, 10 babies were born, 4 people died, 20 people moved in and 6 moved away. How many residents are there at the end of the year?",
+      "explanation": "Calculate: 500 + 10 (births) - 4 (deaths) + 20 (arrivals) - 6 (departures) = 520 residents.",
+      "hint": "Add births and arrivals, then subtract deaths and departures.",
+      "lang": "en",
+      "options": [
+        "530 residents",
+        "520 residents",
+        "510 residents"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:44:41.672Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:27:29.748Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "992d51b71e613aae74fb68fffbb3193129c2149603067c9bc4e2545f437a635a",
+      "validation": "manual-review"
+    }
+  }
+}

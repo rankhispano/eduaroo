@@ -83,7 +83,7 @@
       "id": "g5-mates-aproximacion-redondeo-y-estimacion-04",
       "type": "classify",
       "prompt": "Clasifica cada número según a qué centena redondea.",
-      "explanation": "Si la decena es menor que 5 (como en 438, 419 o 392 con respecto a 400), se aproxima a 400. Si es 5 o mayor (como en 450, 481 y 467), se aproxima a 500.",
+      "explanation": "438 y 419 se aproximan a 400 porque sus decenas son menores que 5. 392 también se aproxima a 400, pero subiendo desde 300 porque sus decenas son 9. 450, 481 y 467 se aproximan a 500.",
       "lang": "es",
       "categories": [
         "Redondea a 400",
@@ -177,7 +177,7 @@
       "hint": "Observa la cifra que va justo detrás del 1 de las decenas de millar.",
       "lang": "es",
       "options": [
-        "Miró la centena en lugar de la unidad de millar.",
+        "Debía redondear a las centenas, no a las decenas de millar.",
         "Olvidó cambiar las últimas cifras por ceros.",
         "Sumó uno a las decenas de millar a pesar de que la unidad de millar es 4 (menor que 5).",
         "Se equivocó porque 14.529 redondeado a las decenas de millar es 15.000."
@@ -188,7 +188,7 @@
       "id": "g5-mates-aproximacion-redondeo-y-estimacion-09",
       "type": "choice",
       "prompt": "En una carrera solidaria del colegio, Omar recorre 2.870 metros y Martina 3.140 metros. Si redondeamos ambas distancias a los millares para estimar la diferencia, ¿cuántos metros de diferencia estimada hay?",
-      "explanation": "Redondeamos a los millares: 2.870 m se aproxima a 3.000 m y 3.140 m se aproxima a 3.000 m. La diferencia estimada es 3.000 - 3.000 = 0 m.",
+      "explanation": "Al redondear ambas distancias a 3.000 m, la diferencia estimada es 0 m. Es una estimación demasiado gruesa para comparar estos recorridos: la diferencia exacta es 270 m.",
       "hint": "Redondea primero cada distancia a la unidad de millar.",
       "lang": "es",
       "options": [
@@ -241,7 +241,7 @@
     {
       "id": "g5-mates-aproximacion-redondeo-y-estimacion-12",
       "type": "choice",
-      "prompt": "🎯 Reto final: Un autobús tiene capacidad para 55 pasajeros. Para una excursión de 5.º de Primaria se han apuntado 234 alumnos y profesores. ¿Cuántos autobuses completos o casi completos se deben contratar?",
+      "prompt": "🎯 Reto final: Un autobús tiene capacidad para 55 pasajeros. Para una excursión de 5.º de Primaria se han apuntado 234 alumnos y profesores. ¿Cuántos autobuses se deben contratar?",
       "explanation": "Dividimos 234 entre 55: 55 × 4 = 220 pasajeros. Como quedan 14 personas sin plaza (234 - 220 = 14), se necesita redondear al alza y contratar 5 autobuses para que nadie se quede en tierra.",
       "hint": "Calcula cuántas personas caben en 4 autobuses y piensa qué pasa con los que sobran.",
       "lang": "es",

@@ -7,9 +7,9 @@
   "title": "Mayúsculas y puntos al escribir",
   "summary": "Aprenderás a usar las mayúsculas y los puntos en tus frases.",
   "keyIdeas": [
-    "Siempre empezamos a escribir con letra mayúscula.",
-    "Los nombres de personas y animales se escriben con mayúscula.",
-    "Al terminar una frase completa, ponemos un punto final."
+    "Las oraciones empiezan con mayúscula.",
+    "Los nombres propios, como Lucía, Chispa o Madrid, llevan mayúscula.",
+    "Las oraciones enunciativas de estos ejercicios terminan con un punto."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -52,8 +52,8 @@
     {
       "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-02",
       "type": "choice",
-      "prompt": "¿Qué signo se pone al final de una frase?",
-      "explanation": "Ponemos un punto cuando terminamos de escribir una frase completa.",
+      "prompt": "¿Qué signo termina la oración «Hugo juega en el patio»?",
+      "explanation": "Esta oración afirma algo y termina en punto.",
       "hint": "Es un circulito pequeño que cierra la oración.",
       "lang": "es",
       "options": [
@@ -130,7 +130,7 @@
     {
       "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-06",
       "type": "order",
-      "prompt": "Ordena las palabras para formar una frase bien escrita:",
+      "prompt": "Ordena: primero quién duerme, después la acción y al final dónde duerme.",
       "explanation": "La frase empieza con la mayúscula 'El' y termina con la palabra que lleva punto: 'aquí.'.",
       "lang": "es",
       "items": [
@@ -173,7 +173,7 @@
       "id": "g1-lengua-mayusculas-y-signos-de-puntuacion-09",
       "type": "reading",
       "prompt": "Lee con atención y responde a las preguntas:",
-      "explanation": "Los nombres de personas y animales llevan mayúscula inicial, y cada frase termina en punto.",
+      "explanation": "Chispa es un nombre propio. En este texto todas las oraciones terminan en punto.",
       "lang": "es",
       "title": "La tortuga de Adrián",
       "text": "Adrián tiene una tortuga pequeña. Se llama Chispa. Chispa come hojas de lechuga verde en el jardín. Los dos juegan juntos por la tarde.",

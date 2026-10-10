@@ -1,0 +1,266 @@
+{
+  "id": "g3-naturales-nutricion-en-plantas-y-animales",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "nutricion-en-plantas-y-animales",
+  "temaNombre": "Nutrition in plants and animals",
+  "title": "How plants and animals get nutrients",
+  "summary": "Review how plants make their own food and how animals get energy by eating other living things.",
+  "keyIdeas": [
+    "Plants make their own food using water, air and sunlight.",
+    "Animals do not make their own food; they eat plants, other animals or both.",
+    "Animals are classified by their diet as herbivores, carnivores or omnivores."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-01",
+      "type": "true-false",
+      "prompt": "Animals make their own food using sunlight, just like plants.",
+      "explanation": "Animals cannot make their own food in this way. They get energy by eating plants or other animals.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-02",
+      "type": "classify",
+      "prompt": "Sort these animals by the food they eat in nature.",
+      "explanation": "Herbivores eat plants, carnivores eat other animals, and omnivores eat both plants and animals.",
+      "lang": "en",
+      "categories": [
+        "Herbivores",
+        "Carnivores",
+        "Omnivores"
+      ],
+      "items": [
+        {
+          "text": "Wild rabbit",
+          "category": 0
+        },
+        {
+          "text": "Lion",
+          "category": 1
+        },
+        {
+          "text": "Brown bear",
+          "category": 2
+        },
+        {
+          "text": "Cow",
+          "category": 0
+        },
+        {
+          "text": "Golden eagle",
+          "category": 1
+        },
+        {
+          "text": "Wild boar",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about how plants take in water.",
+      "explanation": "The root holds the plant in the soil and absorbs water containing dissolved minerals.",
+      "hint": "This part of the plant is usually underground.",
+      "lang": "en",
+      "sentence": "Plants absorb water and minerals from the soil through the ___.",
+      "options": [
+        "flower",
+        "leaf",
+        "root"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-04",
+      "type": "match",
+      "prompt": "Match each resource to where or how a plant obtains it.",
+      "explanation": "Plants take in water and minerals through their roots. Leaves take in carbon dioxide and capture sunlight.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Water and minerals",
+          "right": "From the soil through roots"
+        },
+        {
+          "left": "Carbon dioxide",
+          "right": "From the air through leaves"
+        },
+        {
+          "left": "Sunlight",
+          "right": "From the Sun, captured by leaves"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-05",
+      "type": "order",
+      "prompt": "Put the steps of a green plant's nutrition in order.",
+      "explanation": "First, roots absorb water. It travels to the leaves, where food is made. The food is then carried around the plant.",
+      "lang": "en",
+      "items": [
+        "Roots absorb water and minerals from damp soil",
+        "The water and minerals travel up the stem",
+        "Leaves use sunlight and carbon dioxide from the air to make food",
+        "The food is carried around the whole plant"
+      ]
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-06",
+      "type": "choice",
+      "prompt": "Adrián says, 'Plants eat soil to get food and grow.' What is wrong with this idea?",
+      "explanation": "Plants do not eat soil. They take in water from it and make their own food in their leaves.",
+      "hint": "Remember that plants are producers: they make their own food.",
+      "lang": "en",
+      "options": [
+        "Plants use nothing from the soil and only need air to live",
+        "Plants only eat small stones they find in the soil",
+        "Plants do not eat soil; they make food using water, air and light"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-07",
+      "type": "choice",
+      "prompt": "Lucía waters two identical plants. One gets sunlight; the other is shut in a dark cupboard. What will happen?",
+      "explanation": "Without light, green plants cannot make food through photosynthesis and cannot survive indefinitely.",
+      "lang": "en",
+      "options": [
+        "Both plants will grow equally because water is all they need",
+        "The cupboard plant will grow much faster because it rests better",
+        "The cupboard plant will not be able to make food and will eventually wither"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-08",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "Plants make food using light, water and air. Animals get food by eating other living things.",
+      "lang": "en",
+      "title": "Aisha's garden",
+      "text": "Aisha carefully looks after her school garden. She waters the tomatoes every morning. She knows that roots take in water and minerals from the soil. Green leaves receive sunlight and a gas from the air called carbon dioxide. Using these, tomato plants make their own food and release oxygen. A snail and a blackbird visit daily. The snail eats tender lettuce leaves, so it is a herbivore. The blackbird eats worms from the soil and sweet blackberries, so it is an omnivore.",
+      "questions": [
+        {
+          "prompt": "Which gas do tomato leaves take from the air to make food?",
+          "explanation": "The text explains that leaves take in carbon dioxide to make their food.",
+          "options": [
+            "Water vapour",
+            "Pure oxygen",
+            "Carbon dioxide"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why is the blackbird classified as an omnivore?",
+          "explanation": "An omnivore eats food from both plants and animals.",
+          "options": [
+            "It only eats tender lettuce leaves",
+            "It makes its own food using sunlight",
+            "It eats both animals, such as worms, and plants, such as blackberries"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-09",
+      "type": "choice",
+      "prompt": "Hugo reads that rabbits eat hay and lions eat other animals. How are they classified?",
+      "explanation": "Rabbits are herbivores, and lions are carnivores. To classify other species, we need to know their usual diet.",
+      "hint": "Distinguish food from plants and food from animals.",
+      "lang": "en",
+      "options": [
+        "The rabbit is a herbivore and the lion is a carnivore",
+        "Both are herbivores",
+        "The rabbit is an omnivore and the lion is a herbivore"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-nutricion-en-plantas-y-animales-10",
+      "type": "classify",
+      "prompt": "Sort each statement according to whether it describes plant or animal nutrition.",
+      "explanation": "Plants are autotrophs: they make their own food. Animals are heterotrophs: they obtain food from other living things.",
+      "lang": "en",
+      "categories": [
+        "Plant nutrition",
+        "Animal nutrition"
+      ],
+      "items": [
+        {
+          "text": "Make their own food using sunlight",
+          "category": 0
+        },
+        {
+          "text": "Get nutrients by eating other living things",
+          "category": 1
+        },
+        {
+          "text": "Absorb water and minerals through roots",
+          "category": 0
+        },
+        {
+          "text": "Are classified as herbivores, carnivores or omnivores",
+          "category": 1
+        },
+        {
+          "text": "Release oxygen into the air while making food",
+          "category": 0
+        },
+        {
+          "text": "Search for and catch food in their surroundings",
+          "category": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:53:40.468Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:23:17.835Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "9ac7c6f8420d06044f143a5516e6484af968ad318a1faec4f6c4bef198f4bfb1",
+      "validation": "manual-review"
+    }
+  }
+}

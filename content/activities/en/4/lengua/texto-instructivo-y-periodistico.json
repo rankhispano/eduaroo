@@ -1,0 +1,256 @@
+{
+  "id": "g4-lengua-texto-instructivo-y-periodistico",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "texto-instructivo-y-periodistico",
+  "temaNombre": "Instructional and News Texts",
+  "title": "Reporting News and Writing Instructions",
+  "summary": "Identify the parts of a news report and learn to understand and write clear instructions, step by step.",
+  "keyIdeas": [
+    "Instructional texts explain how to do something in a clear order. In Spanish, they often use infinitives or commands.",
+    "News reports describe real, recent events and answer key questions: what, who, when and where.",
+    "A news report usually has a headline, an opening summary and a main body. It should present facts clearly and accurately."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4"
+    ],
+    "criteria": [
+      "4.1",
+      "4.2"
+    ],
+    "descriptors": [
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-01",
+      "type": "choice",
+      "prompt": "In PE, the teacher gives the class a sheet of dodgeball rules. What type of text is it?",
+      "explanation": "Game rules are instructional texts because they explain what to do to play the game.",
+      "hint": "Think about its purpose: does it tell you how to play or report a recent event?",
+      "lang": "en",
+      "options": [
+        "An instructional text, because it explains the steps and rules for playing.",
+        "A news text, because it reports a recent event.",
+        "A poem, because it expresses feelings through rhyme."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-02",
+      "type": "true-false",
+      "prompt": "When writing a news report, the writer should invent fantastic details to make it more exciting.",
+      "explanation": "News reports should describe real events accurately, without making up information or imaginary characters.",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-03",
+      "type": "match",
+      "prompt": "Match each Spanish name for a part of a news report to its main purpose.",
+      "explanation": "The headline attracts attention, the opening summary presents the key facts and the main body gives more detail.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Titular",
+          "right": "Presents the main idea in large, eye-catching letters."
+        },
+        {
+          "left": "Entradilla",
+          "right": "The first paragraph, which summarises the most important facts."
+        },
+        {
+          "left": "Cuerpo",
+          "right": "Paragraphs that explain the details and what happened."
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-04",
+      "type": "order",
+      "prompt": "Hugo and Aisha want to make fruit skewers. Put these Spanish instructions in a logical order.",
+      "explanation": "Instructions need a clear sequence: wash the fruit, cut it with an adult's help, put the pieces on skewers and serve them.",
+      "lang": "en",
+      "items": [
+        "Lavar bien las manzanas, las fresas y las uvas con agua fresca.",
+        "Pedir a una persona adulta ayuda para pelar y cortar la fruta.",
+        "Insertar los trozos de fruta alternando colores en los palillos de madera.",
+        "Servir las brochetas en un plato limpio y disfrutar de la merienda."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-05",
+      "type": "classify",
+      "prompt": "Sort these Spanish text titles by text type.",
+      "explanation": "Recipes and manuals explain how to do something. News reports and journalistic interviews inform readers about events and topics.",
+      "lang": "en",
+      "categories": [
+        "Instructional text",
+        "News or journalistic text"
+      ],
+      "items": [
+        {
+          "text": "Receta de tarta de manzana con canela",
+          "category": 0
+        },
+        {
+          "text": "Inaugurada la nueva biblioteca municipal del barrio",
+          "category": 1
+        },
+        {
+          "text": "Manual para montar una estantería de madera",
+          "category": 0
+        },
+        {
+          "text": "Rescate con éxito de dos excursionistas en la sierra",
+          "category": 1
+        },
+        {
+          "text": "Guía de pasos para plantar semillas de tomate",
+          "category": 0
+        },
+        {
+          "text": "Entrevista a una científica sobre el cambio climático",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-06",
+      "type": "fill-blank",
+      "prompt": "Complete this Spanish laboratory rule with the correct verb form.",
+      "explanation": "Spanish instructions often use infinitives, such as «llevar», «cortar» and «doblar», or commands to explain the actions required.",
+      "lang": "en",
+      "sentence": "Para evitar accidentes, es obligatorio ___ las tijeras con la punta hacia abajo.",
+      "options": [
+        "llevar",
+        "llevaba",
+        "llevaste"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-07",
+      "type": "choice",
+      "prompt": "Find the problem. Lucía writes this Spanish instruction for an experiment: «Echa el agua azul en el vaso y espera». What is missing?",
+      "explanation": "A useful instruction is clear and precise. It should say how much water to use and how long to wait, for example five minutes.",
+      "hint": "Would you know exactly what to do just by reading the sentence?",
+      "lang": "en",
+      "options": [
+        "The verb «espera» belongs in a news report and cannot be used in experiments.",
+        "Instructions can never contain the conjunction «y».",
+        "It is unclear because it does not say how much water to pour or how long to wait."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-08",
+      "type": "reading",
+      "prompt": "Read this fictional school news report in Spanish and answer the questions.",
+      "explanation": "Understanding a news report means identifying the main event, the people involved, and when and where it happened.",
+      "lang": "en",
+      "title": "Éxito total en el estreno del huerto escolar",
+      "text": "Ayer por la mañana, el alumnado de cuarto de primaria inauguró el huerto ecológico del colegio Cervantes. Durante dos semanas, niños y niñas limpiaron el terreno, colocaron bancales de madera y sembraron lechugas, zanahorias y fresas. La actividad contó con el apoyo de las familias y de la asociación ecologista del barrio, que aportó semillas tradicionales. La directora del centro felicitó a todos los participantes por su trabajo en equipo y anunció que la primera cosecha se recolectará en junio.",
+      "questions": [
+        {
+          "prompt": "What is the main event described?",
+          "explanation": "The report mainly describes Year 4 pupils opening their school garden.",
+          "options": [
+            "A botany lesson in the town library.",
+            "A mountain trip organised by families.",
+            "The opening of the garden at Cervantes school."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Who helped by providing traditional seeds?",
+          "explanation": "The text says that the local environmental association provided the seeds.",
+          "options": [
+            "A distant garden centre.",
+            "The local environmental association.",
+            "The local police."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why is this a news report rather than an instructional text?",
+          "explanation": "It reports a recent event and answers basic questions about what happened.",
+          "options": [
+            "It explains step by step how to build a wooden raised bed.",
+            "It contains an ordered list of gardening materials and tools.",
+            "It describes what happened, who took part and when, without giving instructions to follow."
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-09",
+      "type": "choice",
+      "prompt": "Omar writes this Spanish school news report: «El equipo de voleibol ganó la final por tres sets a dos tras un partido muy emocionante». What information is missing to answer «¿Cuándo?»?",
+      "explanation": "The question «¿cuándo?» asks when the event happened, for example «ayer por la tarde».",
+      "hint": "Think about dates and times.",
+      "lang": "en",
+      "options": [
+        "The colour of the players' shirts.",
+        "The name of the company that made the ball.",
+        "The day and time when the match took place."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-texto-instructivo-y-periodistico-10",
+      "type": "choice",
+      "prompt": "In this fictional exercise, volunteers removed 200 kilograms of plastic from Sol beach. Which Spanish headline presents that fact clearly?",
+      "explanation": "«Voluntarios locales retiran doscientos kilos de plástico de la playa del Sol» reports the fact. The headline starting «¡Qué asco!» expresses an opinion, and the other one offers instructions.",
+      "hint": "Look for a headline that says who acted and how much plastic they removed.",
+      "lang": "en",
+      "options": [
+        "¡Qué asco de playa, la gente tira demasiadas botellas de plástico!",
+        "Voluntarios locales retiran doscientos kilos de plástico de la playa del Sol",
+        "Pasos sencillos para no ensuciar la arena cuando vayas a nadar"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:46:00.253Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:36:40.281Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "016241c24d163d7f1b13fa45e8b4f58dc8e07cffc35554b576c13d0aedccbb92",
+      "validation": "manual-review"
+    }
+  }
+}

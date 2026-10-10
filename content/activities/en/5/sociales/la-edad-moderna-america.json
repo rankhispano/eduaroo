@@ -1,0 +1,233 @@
+{
+  "id": "g5-sociales-la-edad-moderna-america",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "la-edad-moderna-america",
+  "temaNombre": "The Early Modern Age: the Americas",
+  "title": "An expedition into the Early Modern Age",
+  "summary": "Explore the arrival in the Americas in 1492, earlier American cultures and exchanges between continents.",
+  "keyIdeas": [
+    "In the historical periods used for Spain, arrival in the Americas in 1492 marks the beginning of the Early Modern Age.",
+    "Before European contact, advanced civilisations such as the Maya, Aztec and Inca flourished in the Americas.",
+    "Exchange changed both continents. Conquest and colonisation also brought violence, exploitation and epidemics to Indigenous peoples."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE7",
+      "CE8"
+    ],
+    "criteria": [
+      "7.1",
+      "7.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CE2",
+      "CP3",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-la-edad-moderna-america-01",
+      "type": "true-false",
+      "prompt": "Christopher Columbus sailed west across the Atlantic believing he would find a direct route to Asia, known to him as the Indies.",
+      "explanation": "Columbus knew Earth was round and thought sailing west would reach Asia faster. He did not know the Americas lay in between.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-02",
+      "type": "choice",
+      "prompt": "Lucía investigates who supported Columbus's first voyage in 1492. Which monarchs backed it?",
+      "explanation": "Queen Isabel of Castile supported the plan through the agreement known as the Capitulations of Santa Fe.",
+      "hint": "They are known for joining the crowns of Castile and Aragon.",
+      "lang": "en",
+      "options": [
+        "Portugal's monarchs, João II and Leonor of Viseu.",
+        "Carlos I of Spain and his mother Juana.",
+        "The Catholic Monarchs: Isabel I of Castile and Fernando II of Aragon."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about 15th-century navigation.",
+      "explanation": "The compass, together with instruments such as the astrolabe and ships such as caravels, helped sailors navigate far from coasts.",
+      "lang": "en",
+      "sentence": "To find their direction at sea, sailors used a magnetic ___ whose needle pointed north.",
+      "options": [
+        "weather vane",
+        "compass",
+        "water clock"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-04",
+      "type": "match",
+      "prompt": "Match each pre-Columbian civilisation to its feature.",
+      "explanation": "Each civilisation developed social and technical systems suited to its surroundings.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Maya",
+          "right": "Developed precise calendars and lived in city-states in Central America."
+        },
+        {
+          "left": "Inca",
+          "right": "Built a large Andean empire connected by a network of roads."
+        },
+        {
+          "left": "Aztec",
+          "right": "Built their capital, Tenochtitlan, on a large lake in what is now Mexico."
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-05",
+      "type": "order",
+      "prompt": "Order the 1492 expedition's steps from its preparation to arrival in the Americas.",
+      "explanation": "The expedition left Palos in August, stopped in the Canary Islands and reached Guanahaní on 12 October 1492.",
+      "lang": "en",
+      "items": [
+        "Columbus and the Catholic Monarchs sign the Capitulations of Santa Fe.",
+        "Ships leave Palos de la Frontera in Huelva.",
+        "The expedition stops in the Canary Islands for repairs and supplies.",
+        "The ships reach Guanahaní after weeks crossing the Atlantic."
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-06",
+      "type": "classify",
+      "prompt": "Classify these products and animals by their origin before contact between Europe and the Americas.",
+      "explanation": "Potatoes, tomatoes and cacao came from the Americas. Wheat, olive trees and horses were taken there from Europe.",
+      "lang": "en",
+      "categories": [
+        "Originated in the Americas",
+        "Taken from Europe to the Americas"
+      ],
+      "items": [
+        {
+          "text": "Potato",
+          "category": 0
+        },
+        {
+          "text": "Wheat",
+          "category": 1
+        },
+        {
+          "text": "Tomato",
+          "category": 0
+        },
+        {
+          "text": "Horse",
+          "category": 1
+        },
+        {
+          "text": "Cacao",
+          "category": 0
+        },
+        {
+          "text": "Olive tree",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-07",
+      "type": "choice",
+      "prompt": "Why did European countries seek new sea routes to Asia in the late 15th century?",
+      "explanation": "Trade in spices and other Asian goods was an important motive. Not all land routes closed after 1453.",
+      "hint": "Think of valuable products they wanted to trade.",
+      "lang": "en",
+      "options": [
+        "They sought direct trade routes to Asia for spices and other valuable goods.",
+        "They wanted to move all European capitals to distant Indian Ocean islands.",
+        "European ships were too large for the Mediterranean."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-08",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "Contact between continents brought complex biological, linguistic and social changes.",
+      "lang": "en",
+      "title": "Two worlds come into contact",
+      "text": "In 1492, Columbus's voyage began sustained contact between Europe and the Americas. The Americas were already home to many peoples with their own cultures. Europeans expanded their routes and accessed gold and silver. For many Indigenous communities, conquest and colonisation brought severe consequences: violence, forced labour, loss of land and epidemics such as smallpox.\n\nFoods, knowledge and words also travelled between continents. Castilian Spanish spread across much of the Americas, while words of Indigenous origin such as canoa, huracán and chocolate reached Europe. The phrase 'discovery of America' describes the European viewpoint. Studying contact between cultures also includes the experiences of American peoples.",
+      "questions": [
+        {
+          "prompt": "What contributed to the large decline in Indigenous populations after 1492?",
+          "explanation": "Epidemics were an important cause, alongside violence and exploitation.",
+          "options": [
+            "A sudden climate change dried every American crop.",
+            "People voluntarily abandoned their homes to sail to Europe.",
+            "European diseases such as smallpox arrived, against which communities lacked immunity."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why also study American peoples' perspectives?",
+          "explanation": "The Americas already had people and their own cultures. Their experiences are essential to understanding events.",
+          "options": [
+            "Columbus used modern satellite maps.",
+            "Millions of people already lived there in rich, organised civilisations.",
+            "Stone bridges physically connected the continents."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-09",
+      "type": "choice",
+      "prompt": "Adrián and Nerea read that ships carrying American gold and silver reached Seville in the 16th century. What economic effect did this have in Spain?",
+      "explanation": "Large precious-metal supplies contributed to rising prices, alongside factors such as growing demand.",
+      "hint": "If the money supply grows faster than available goods, prices may rise.",
+      "lang": "en",
+      "options": [
+        "Food and clothing became free for everyone.",
+        "More money became available, contributing to a large rise in everyday prices.",
+        "Metal coins stopped being used and only barter remained."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-la-edad-moderna-america-10",
+      "type": "true-false",
+      "prompt": "Cultural exchange travelled only one way: Indigenous peoples adopted European customs, but Europe learned no American knowledge or words.",
+      "explanation": "Exchange worked both ways. Europe adopted Indigenous words such as canoa, cacao and tiburón in Spanish, as well as plants, farming knowledge and foods including maize and potatoes.",
+      "lang": "en",
+      "answer": false
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:37:00.156Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:10:39.744Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "1765d9a9bb1077c81de03d398e4f85796f746ae3bdfdac5e70a84947940437a2",
+      "validation": "manual-review"
+    }
+  }
+}

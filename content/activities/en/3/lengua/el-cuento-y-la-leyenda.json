@@ -1,0 +1,268 @@
+{
+  "id": "g3-lengua-el-cuento-y-la-leyenda",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "el-cuento-y-la-leyenda",
+  "temaNombre": "Stories and legends",
+  "title": "Worlds of stories and legends",
+  "summary": "Revise story structure and discover how legends combine tradition and fantasy.",
+  "keyIdeas": [
+    "Many stories have a beginning, a middle and an ending.",
+    "Legends are traditional tales linked to places, characters or events. Some explain origins using fantastic elements.",
+    "The narrator tells the story and the characters perform the actions."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "4.1",
+      "8.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "C. Educación literaria"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-01",
+      "type": "choice",
+      "prompt": "What is a legend?",
+      "explanation": "A legend is a tale from popular tradition. Many explain the origin of a place or natural feature using fantastic elements.",
+      "hint": "Think of traditional tales explaining how a lake or mountain began.",
+      "lang": "en",
+      "options": [
+        "A list naming every character in a book.",
+        "A news report about an event in the city yesterday.",
+        "A traditional tale linked to places, characters or events, which may include fantasy."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-02",
+      "type": "true-false",
+      "prompt": "In a story, the middle is where the characters and their home are first introduced.",
+      "explanation": "The middle develops the conflict or problem. The beginning introduces the characters and setting.",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-03",
+      "type": "match",
+      "prompt": "Match each part of a story to what usually happens there.",
+      "explanation": "A common structure is to introduce a situation, develop a conflict and reach an ending.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Beginning",
+          "right": "Introduces the characters and setting."
+        },
+        {
+          "left": "Middle",
+          "right": "The main problem or adventure develops."
+        },
+        {
+          "left": "Ending",
+          "right": "The conflict is resolved and the story ends."
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-04",
+      "type": "classify",
+      "prompt": "Sort the Spanish extracts: «El gato astronauta» is an invented story. «La roca del pueblo» has the form of a legend explaining the rock's origin.",
+      "explanation": "Match the extracts to the named tales. Stories and legends share features. Tradition and a link to a place help us recognise the legend form here.",
+      "lang": "en",
+      "categories": [
+        "El gato astronauta (story)",
+        "La roca del pueblo (legend)"
+      ],
+      "items": [
+        {
+          "text": "Un gato inventó una nave y despegó hacia Marte.",
+          "category": 0
+        },
+        {
+          "text": "Dicen los vecinos que la roca era antes un gigante.",
+          "category": 1
+        },
+        {
+          "text": "En Marte, el gato conoció a un robot y se hicieron amigos.",
+          "category": 0
+        },
+        {
+          "text": "Según la tradición del relato, una hechicera convirtió al gigante en piedra.",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-05",
+      "type": "order",
+      "prompt": "Put these Spanish story events in order using the narrative structure.",
+      "explanation": "The story starts with a discovery, continues with getting lost in the basement and ends with finding a way out.",
+      "lang": "en",
+      "items": [
+        "Lucas encuentra un mapa misterioso en la biblioteca del colegio.",
+        "Lucas y Aisha se pierden en el sótano buscando el cofre secreto.",
+        "Consiguen abrir la puerta con una llave dorada y celebran su hallazgo."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-06",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence about story elements.",
+      "explanation": "The narrator is the person or voice created by the author to tell the story's events.",
+      "lang": "en",
+      "sentence": "La voz que cuenta la historia y explica lo que hacen los personajes se llama ___.",
+      "options": [
+        "narrador",
+        "protagonista",
+        "lector"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-07",
+      "type": "reading",
+      "prompt": "Read this invented Spanish tale in the form of a legend and answer the questions.",
+      "explanation": "The tale imitates a legend explaining a lake's origin through magic.",
+      "lang": "en",
+      "title": "La leyenda del lago azul",
+      "text": "Cuentan los abuelos del pueblo que hace muchos años el valle no tenía agua. Una tarde calurosa, una cierva dorada bajó de la montaña más alta buscando refugio. Los campesinos, en lugar de cazarla, le ofrecieron sombra y frutos secos. Agradecida por su bondad, la cierva golpeó el suelo rocoso tres veces con sus pezuñas mágicas. De repente, brotó un manantial cristalino que llenó todo el valle y formó el lago azul. Desde entonces, los vecinos cuidan la naturaleza y recuerdan a la misteriosa cierva.",
+      "questions": [
+        {
+          "prompt": "Why does the deer strike the rocky ground?",
+          "explanation": "The deer strikes the ground to thank the farmers for their kindness in caring for her.",
+          "options": [
+            "To thank the farmers for their kindness and help.",
+            "Because the valley's noises frighten her.",
+            "To open a path back to the mountain."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why does this example have the form of a legend?",
+          "explanation": "It imitates a traditional tale passed down in a village, explaining an origin through magic.",
+          "options": [
+            "Because it explains a lake's origin through magic and has the form of a traditional tale.",
+            "Because it scientifically describes how underground water rises.",
+            "Because it is a real news report in the village newspaper."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-08",
+      "type": "choice",
+      "prompt": "Find the mistake. Leo writes three notes about stories. Which note is incorrect?",
+      "explanation": "These stories are fiction, rather than factual reports. Saying they are always real accounts is incorrect.",
+      "hint": "Think about whether a fictional story must report real events.",
+      "lang": "en",
+      "options": [
+        "A story's problem or conflict develops in the middle.",
+        "Stories are always factual accounts of things that really happened.",
+        "The main characters in a story are called protagonists."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-09",
+      "type": "choice",
+      "prompt": "Martina and Omar want to write a tale in the form of a legend for a school competition. Which idea fits?",
+      "explanation": "This idea combines a local feature with a fantastic explanation of its shape, a common device in legends.",
+      "hint": "Find the idea explaining a natural feature through magic.",
+      "lang": "en",
+      "options": [
+        "Writing step-by-step instructions for caring for the school garden.",
+        "Explaining that the river's big rock is shaped like a turtle because of an elf's spell.",
+        "Writing a fun shopping list for a birthday party."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-cuento-y-la-leyenda-10",
+      "type": "classify",
+      "prompt": "Sort each Spanish extract by its part of a story.",
+      "explanation": "The beginning introduces characters and setting, the middle develops an unexpected problem and the ending closes the adventure with a solution.",
+      "lang": "en",
+      "categories": [
+        "Beginning",
+        "Middle",
+        "Ending"
+      ],
+      "items": [
+        {
+          "text": "Había una vez un pequeño erizo que vivía en un bosque tranquilo.",
+          "category": 0
+        },
+        {
+          "text": "De repente, una fuerte tormenta apagó la fogata y quedaron a oscuras.",
+          "category": 1
+        },
+        {
+          "text": "Al final, encontraron el camino de vuelta y celebraron una gran fiesta.",
+          "category": 2
+        },
+        {
+          "text": "En un reino lejano gobernaba una reina sabia y bondadosa.",
+          "category": 0
+        },
+        {
+          "text": "Sin previo aviso, el puente se rompió y nadie podía cruzar el río.",
+          "category": 1
+        },
+        {
+          "text": "Y así fue como todos aprendieron a colaborar y vivieron en paz.",
+          "category": 2
+        }
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:29:53.288Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:41:16.359Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "ec676117a85602989c4ebcb7a3f78c862f2106802ef57ebf1b22b4cd3632746d",
+      "validation": "manual-review"
+    }
+  }
+}

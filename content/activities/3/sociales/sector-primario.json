@@ -94,7 +94,7 @@
       "id": "g3-sociales-sector-primario-04",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre los tipos de cultivo.",
-      "explanation": "Los cultivos de secano, como el olivo o el trigo, no necesitan riego artificial.",
+      "explanation": "Los cultivos de secano se cultivan sin riego artificial y aprovechan el agua de lluvia. El olivo o el trigo también pueden cultivarse con riego.",
       "lang": "es",
       "sentence": "Los cultivos de ___ solo reciben el agua de la lluvia.",
       "options": [
@@ -173,8 +173,8 @@
     {
       "id": "g3-sociales-sector-primario-08",
       "type": "choice",
-      "prompt": "Lucía visita una granja donde las gallinas caminan al aire libre comiendo hierba. ¿Qué tipo de ganadería es?",
-      "explanation": "La ganadería extensiva cría a los animales en espacios abiertos y aprovecha pastos naturales.",
+      "prompt": "Lucía visita una granja de ovejas que pastan en amplios campos. ¿Qué tipo de ganadería describe?",
+      "explanation": "La ganadería extensiva aprovecha amplios terrenos y pastos. Que unas gallinas salgan al aire libre no basta por sí solo para definirla.",
       "hint": "Los animales disponen de grandes terrenos al aire libre.",
       "lang": "es",
       "options": [
@@ -188,10 +188,10 @@
       "id": "g3-sociales-sector-primario-09",
       "type": "reading",
       "prompt": "Lee el texto sobre la huerta escolar de Omar y responde a las preguntas.",
-      "explanation": "La agricultura ecológica cuida el medio ambiente usando abonos naturales y evitando sustancias químicas dañinas.",
+      "explanation": "El compost aporta nutrientes al suelo. Se eligen prácticas y productos que protejan la huerta y sus seres vivos.",
       "lang": "es",
       "title": "La huerta ecológica del colegio",
-      "text": "Omar y su clase cuidan una huerta ecológica en el patio escolar. Este año han plantado tomates, zanahorias y habas. Para regar, recogen el agua de lluvia en dos grandes bidones. Además, usan compost fabricado con los restos de fruta del recreo como abono natural. No usan productos químicos porque quieren proteger las lombrices y abejas. Gracias a su trabajo, recogen verduras frescas y aprenden a respetar el suelo.",
+      "text": "Omar y su clase cuidan una huerta ecológica en el patio escolar. Este año han plantado tomates, zanahorias y habas. Para regar, recogen el agua de lluvia en dos grandes bidones. Además, usan compost fabricado con los restos de fruta del recreo como abono natural. Evitan productos que puedan dañar a las lombrices y abejas. Gracias a su trabajo, recogen verduras frescas y aprenden a respetar el suelo.",
       "questions": [
         {
           "prompt": "¿De dónde consiguen Omar y su clase el abono para la tierra?",
@@ -204,8 +204,8 @@
           "answer": 2
         },
         {
-          "prompt": "¿Por qué deciden no usar productos químicos en la huerta?",
-          "explanation": "Evitan los químicos para cuidar los animales beneficiosos como lombrices y abejas.",
+          "prompt": "¿Por qué evitan productos que puedan dañar a los animales de la huerta?",
+          "explanation": "Quieren proteger a las lombrices y abejas. El agua y el compost también están formados por sustancias químicas.",
           "options": [
             "Para proteger a las abejas y las lombrices del suelo.",
             "Porque el agua de lluvia no se puede mezclar con ellos.",

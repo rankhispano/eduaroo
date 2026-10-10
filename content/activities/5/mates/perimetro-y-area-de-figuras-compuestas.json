@@ -7,7 +7,7 @@
   "title": "Mundo de figuras compuestas",
   "summary": "Practica cómo descomponer figuras, calcular perímetros exteriores y sumar o restar áreas en situaciones reales.",
   "keyIdeas": [
-    "El perímetro es la longitud del contorno exterior; los lados interiores donde se unen las figuras no se suman.",
+    "El perímetro exterior mide el contorno de fuera; las líneas interiores de unión entre piezas no se suman.",
     "Para hallar el área de una figura compuesta, divídela en rectángulos o cuadrados más sencillos y suma sus áreas.",
     "Si una figura tiene un hueco interior, calcula el área total exterior y réstale el área de la parte vacía."
   ],
@@ -61,7 +61,7 @@
       "explanation": "El área del cuadrado es 4 × 4 = 16 m². El área del rectángulo es 3 × 2 = 6 m². Sumamos ambas superficies: 16 + 6 = 22 m².",
       "hint": "Calcula el área de cada pieza por separado y luego súmalas.",
       "lang": "es",
-      "sentence": "Un cartel está formado por un cuadrado de 4 m de lado y un rectángulo pegado de 3 m de base por 2 m de altura. El área total del cartel es de ___ m².",
+      "sentence": "Un cartel está formado por un cuadrado de 4 m de lado y un rectángulo unido por un borde, sin superponerse, de 3 m de base por 2 m de altura. El área total del cartel es de ___ m².",
       "options": [
         "18",
         "22",
@@ -101,7 +101,7 @@
       "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-05",
       "type": "classify",
       "prompt": "Clasifica cada acción según sirva para calcular el perímetro o el área de una figura compuesta:",
-      "explanation": "El perímetro se ocupa exclusivamente de la longitud del contorno exterior, mientras que el área mide el espacio de la superficie que queda encerrada.",
+      "explanation": "Aquí calculamos el perímetro exterior, sin las uniones internas. Si hay un hueco, su borde también forma parte del contorno total, pero se mide aparte del exterior.",
       "lang": "es",
       "categories": [
         "Para calcular el perímetro",
@@ -129,7 +129,7 @@
     {
       "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-06",
       "type": "choice",
-      "prompt": "En el patio del colegio van a pintar una zona de juegos con forma de T. La parte superior es un rectángulo de 6 m de largo y 2 m de ancho. La parte vertical inferior es otro rectángulo de 2 m de ancho y 4 m de largo. ¿Cuántos metros cuadrados de pintura necesitan en total?",
+      "prompt": "En el patio del colegio van a pintar una zona de juegos con forma de T. La parte superior es un rectángulo de 6 m de largo y 2 m de ancho. La parte vertical inferior es otro rectángulo unido al primero por un borde y sin superponerse, de 2 m de ancho y 4 m de largo. ¿Cuántos metros cuadrados de pintura necesitan en total?",
       "explanation": "Área de la parte superior: 6 × 2 = 12 m². Área de la parte inferior: 4 × 2 = 8 m². Área total: 12 + 8 = 20 m².",
       "hint": "Calcula el área de los dos rectángulos y súmalas.",
       "lang": "es",

@@ -113,9 +113,9 @@
       "lang": "en",
       "items": [
         "First, wash your hands and peel the bananas.",
-        "Next, cut the fruit into small slices.",
-        "Then, pour milk and yogurt into the blender.",
-        "Finally, blend everything together and serve the smoothie."
+        "Next, ask an adult to help cut the fruit.",
+        "Then, put the fruit, milk and yogurt into the blender.",
+        "Finally, an adult blends the mixture and serves it."
       ]
     },
     {
@@ -193,7 +193,7 @@
       "explanation": "Identificar los conectores y a qué sustantivos sustituyen los pronombres es fundamental para comprender textos complejos.",
       "lang": "en",
       "title": "The School Garden Project",
-      "text": "Last month, our class decided to build a school vegetable garden. First, we cleaned the backyard because there were many dry leaves. Next, our teacher brought wooden boxes, soil and seeds. We planted tomatoes, carrots and lettuce. Water was very important, so Adrián and Nerea watered the soil every morning before the bell rang. However, hungry birds tried to eat the young seeds during the second week! Fortunately, Aisha and Hugo built a colourful scarecrow using old clothes. After that, the plants grew fast and green. Finally, yesterday we harvested our first red tomatoes and shared them in the canteen. It was hard work, but we felt proud of our project.",
+      "text": "Last spring, our class decided to build a school vegetable garden. First, we cleaned the backyard because there were many dry leaves. Next, our teacher brought wooden boxes, soil and seeds. We planted tomatoes, carrots and lettuce. Water was very important, so Adrián and Nerea watered the soil every morning before the bell rang. However, hungry birds tried to eat the young seeds during the second week! Fortunately, Aisha and Hugo built a colourful scarecrow using old clothes. After that, the plants grew fast and green. Finally, yesterday we harvested our first red tomatoes and shared them in the canteen. It was hard work, but we felt proud of our project.",
       "questions": [
         {
           "prompt": "What did the students do immediately after cleaning the backyard?",

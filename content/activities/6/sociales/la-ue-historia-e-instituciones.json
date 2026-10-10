@@ -7,7 +7,7 @@
   "title": "La aventura de la Unión Europea",
   "summary": "Repasa el origen histórico, los tratados fundamentales y las principales instituciones de la Unión Europea.",
   "keyIdeas": [
-    "La Unión Europea nació tras la Segunda Guerra Mundial para garantizar la paz duradera y la cooperación económica entre los países miembros.",
+    "La integración europea comenzó tras la Segunda Guerra Mundial para fomentar la paz y la cooperación; la Unión Europea se creó en 1993.",
     "Las instituciones principales son el Parlamento Europeo, la Comisión Europea, el Consejo de la UE y el Tribunal de Justicia.",
     "España se incorporó a la Comunidad Económica Europea en 1986, lo que impulsó su modernización democrática y económica."
   ],
@@ -44,7 +44,7 @@
       "id": "g6-sociales-la-ue-historia-e-instituciones-01",
       "type": "choice",
       "prompt": "En el colegio de Lucía van a celebrar el Día de Europa decorando los pasillos con banderas. ¿En qué fecha se conmemora cada año este día tan especial? 🇪🇺",
-      "explanation": "El 9 de mayo se celebra el Día de Europa en recuerdo de la Declaración Schuman de 1950, considerada el inicio de la Unión Europea.",
+      "explanation": "El 9 de mayo recuerda la Declaración Schuman de 1950, un paso clave en el proceso de integración europea.",
       "hint": "Recuerda que coincide con el aniversario de la histórica declaración de Robert Schuman en la primavera de 1950.",
       "lang": "es",
       "options": [
@@ -88,7 +88,7 @@
       "pairs": [
         {
           "left": "Parlamento Europeo",
-          "right": "Representa a la ciudadanía y aprueba leyes y presupuestos"
+          "right": "Representa a la ciudadanía y aprueba leyes y presupuestos con el Consejo de la UE"
         },
         {
           "left": "Comisión Europea",
@@ -108,13 +108,13 @@
       "id": "g6-sociales-la-ue-historia-e-instituciones-05",
       "type": "order",
       "prompt": "Ordena cronológicamente estos hitos fundamentales en la historia de la Unión Europea, desde el más antiguo hasta el más reciente:",
-      "explanation": "La integración europea comenzó con la CECA (1951), siguió con el Tratado de Roma (1957), la adhesión española (1986), el Tratado de Maastricht (1992) y la llegada física del euro a nuestros bolsillos (2002).",
+      "explanation": "El tratado de la CECA se firmó en 1951; Roma, en 1957. España entró en 1986. Maastricht se firmó en 1992 y entró en vigor en 1993, creando la UE. Los billetes y monedas de euro comenzaron a circular en 2002.",
       "lang": "es",
       "items": [
-        "Creación de la Comunidad Europea del Carbón y del Acero (CECA)",
+        "Firma del tratado que crea la Comunidad Europea del Carbón y del Acero",
         "Firma del Tratado de Roma que crea la CEE",
         "Entrada de España y Portugal en la Comunidad Europea",
-        "Firma del Tratado de Maastricht y nacimiento formal de la UE",
+        "Tratado de Maastricht y creación formal de la UE",
         "Entrada en circulación de las monedas y billetes de euro"
       ]
     },
@@ -134,7 +134,7 @@
           "category": 0
         },
         {
-          "text": "Tiene la iniciativa exclusiva de redactar y proponer las leyes europeas",
+          "text": "Propone la mayor parte de las nuevas leyes europeas",
           "category": 1
         },
         {
@@ -159,7 +159,7 @@
       "id": "g6-sociales-la-ue-historia-e-instituciones-07",
       "type": "choice",
       "prompt": "Al terminar la Segunda Guerra Mundial en 1945, los países europeos estaban devastados. ¿Cuál fue la causa principal por la que decidieron poner en común la producción del carbón y del acero en la CECA?",
-      "explanation": "El carbón y el acero eran los materiales indispensables para la industria armamentística. Al compartirlos bajo una autoridad común, una guerra entre Francia y Alemania se volvía materialmente imposible.",
+      "explanation": "Compartir esas industrias buscaba dificultar una nueva guerra y fomentar la cooperación entre los países participantes.",
       "hint": "Piensa en qué materiales se necesitaban para fabricar tanques, puentes y armamento.",
       "lang": "es",
       "options": [
@@ -173,9 +173,9 @@
     {
       "id": "g6-sociales-la-ue-historia-e-instituciones-08",
       "type": "choice",
-      "prompt": "Omar y su familia viajan de vacaciones desde Valencia hasta Múnich (Alemania) en coche, cruzando Francia. No tienen que cambiar de dinero ni parar en puestos de control fronterizo. ¿Qué dos logros comunitarios explican esta situación?",
-      "explanation": "El euro permite usar la misma moneda en los países de la Eurozona, y el acuerdo de Schengen suprimió los controles en las fronteras interiores de la mayoría de países europeos.",
-      "hint": "Uno se refiere a la moneda que usamos a diario y el otro a viajar sin pasaporte entre países europeos socios.",
+      "prompt": "España, Francia y Alemania usan el euro y pertenecen a Schengen, donde normalmente no hay controles rutinarios en las fronteras interiores. ¿Qué dos acuerdos explican estas facilidades?",
+      "explanation": "La eurozona permite compartir moneda. Schengen facilita el paso entre sus países, aunque puede haber controles temporales y es necesario llevar la documentación adecuada.",
+      "hint": "Distingue el acuerdo sobre moneda del acuerdo sobre fronteras.",
       "lang": "es",
       "options": [
         "El Tratado de París y la Política Pesquera Común",

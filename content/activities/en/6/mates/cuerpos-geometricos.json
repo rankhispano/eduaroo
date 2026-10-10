@@ -1,0 +1,234 @@
+{
+  "id": "g6-mates-cuerpos-geometricos",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "cuerpos-geometricos",
+  "temaNombre": "Geometric Solids",
+  "title": "Exploring 3D Solids",
+  "summary": "Explore the properties of polyhedra and solids with curved surfaces using everyday examples.",
+  "keyIdeas": [
+    "Polyhedra have flat polygonal faces. Solids such as cylinders, cones and spheres have curved surfaces.",
+    "For convex polyhedra, Euler's formula is Faces + Vertices = Edges + 2.",
+    "Prisms have two identical parallel bases and parallelogram side faces. Pyramids have one base and triangular side faces meeting at an apex."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.3",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sentido espacial › Figuras geométricas de dos y tres dimensiones",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-cuerpos-geometricos-01",
+      "type": "classify",
+      "prompt": "Sort these objects by the solid shape they resemble: a polyhedron or a solid with a curved surface.",
+      "explanation": "Polyhedra have only flat polygonal faces. The other group includes solids with curved surfaces.",
+      "lang": "en",
+      "categories": [
+        "Polyhedra",
+        "Solids with curved surfaces"
+      ],
+      "items": [
+        {
+          "text": "A rectangular shoebox",
+          "category": 0
+        },
+        {
+          "text": "A cylindrical pencil pot",
+          "category": 1
+        },
+        {
+          "text": "A cubic die for playing parchís",
+          "category": 0
+        },
+        {
+          "text": "A spherical basketball",
+          "category": 1
+        },
+        {
+          "text": "An ice cream cone",
+          "category": 1
+        },
+        {
+          "text": "A pyramid-shaped gift box for sweets",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-02",
+      "type": "true-false",
+      "prompt": "A cylinder is a polyhedron because it has two flat circular bases.",
+      "explanation": "False. A polyhedron has only flat polygonal faces. A cylinder has a curved side surface and circular bases, so it is not a polyhedron.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-03",
+      "type": "match",
+      "prompt": "Match each solid to the listed feature. Count side faces for the prism and pyramid, and all faces for the tetrahedron.",
+      "explanation": "A right prism has rectangular side faces; a pyramid has triangular side faces meeting at the apex. A cylinder has one continuous curved side surface.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Right pentagonal prism",
+          "right": "5 rectangular side faces"
+        },
+        {
+          "left": "Hexagonal pyramid",
+          "right": "6 triangular side faces"
+        },
+        {
+          "left": "Cylinder",
+          "right": "1 curved side surface"
+        },
+        {
+          "left": "Regular tetrahedron",
+          "right": "4 equilateral triangular faces in total"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct geometric term.",
+      "explanation": "The common point where a pyramid's triangular side faces meet is its apex, or top vertex.",
+      "hint": "It is the point where all the sloping faces meet.",
+      "lang": "en",
+      "sentence": "In a square-based pyramid, the point where all the triangular side faces meet is the ___ of the pyramid.",
+      "options": [
+        "base",
+        "apex or top vertex",
+        "edge"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-05",
+      "type": "choice",
+      "prompt": "Find the mistake. Darío says his straw-and-modelling-clay prism has 6 faces, 8 vertices and 14 edges. Which count is wrong?",
+      "explanation": "Using Euler's formula, 6 + 8 = Edges + 2, so the prism has 12 edges, not 14.",
+      "hint": "Apply Faces + Vertices = Edges + 2.",
+      "lang": "en",
+      "options": [
+        "A hexagonal prism has 7 faces rather than 6.",
+        "He counted the edges incorrectly: a quadrangular prism has 6 faces, 8 vertices and 12 edges, since 6 + 8 = 12 + 2.",
+        "Prisms can never have 8 vertices."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-06",
+      "type": "choice",
+      "prompt": "Mental maths: a camp tent has the shape of a hexagonal prism. How many aluminium edges does its frame need, including both bases and the side edges?",
+      "explanation": "Each base has 6 edges and there are 6 connecting side edges: 6 × 3 = 18 altogether.",
+      "hint": "Multiply the number of sides of a base by 3.",
+      "lang": "en",
+      "options": [
+        "24 edges",
+        "18 edges",
+        "12 edges"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-07",
+      "type": "order",
+      "prompt": "Omar makes a triangular prism from card. Put the construction steps in order.",
+      "explanation": "Draw the net, cut it out, fold the edges and glue the tabs to close the solid.",
+      "lang": "en",
+      "items": [
+        "Use a ruler to draw the net: 2 triangular bases and 3 adjoining rectangles, with tabs for gluing.",
+        "Carefully cut around the outside of the net.",
+        "Fold along the marked edges and tabs.",
+        "Put glue on the tabs and join the faces to close the three-dimensional solid."
+      ]
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-08",
+      "type": "choice",
+      "prompt": "Aisha examines a solid with one flat circular base and a curved surface ending in a point. What is it?",
+      "explanation": "A cone has one circular base and a curved side surface meeting at an apex.",
+      "hint": "Think of a wizard's hat or an ice cream cone.",
+      "lang": "en",
+      "options": [
+        "Cylinder",
+        "Cone",
+        "Circular pyramid"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-09",
+      "type": "choice",
+      "prompt": "Adrián has a pyramid with an octagonal base (8 sides). How many faces in total and how many vertices does it have?",
+      "explanation": "There are 8 triangular side faces and 1 base: 9 faces. There are 8 base vertices and 1 apex: 9 vertices.",
+      "hint": "For faces, add the base to the side faces. For vertices, add the apex to the base vertices.",
+      "lang": "en",
+      "options": [
+        "9 faces and 16 vertices",
+        "8 faces and 8 vertices",
+        "9 faces and 9 vertices"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-cuerpos-geometricos-10",
+      "type": "choice",
+      "prompt": "Geometry challenge: a wooden rectangular prism is cut exactly parallel to its rectangular bases. What shape is the cross-section?",
+      "explanation": "A section parallel to a prism's bases has the same shape and dimensions as those bases. Here it is an identical rectangle.",
+      "hint": "Imagine slicing a rectangular block of butter parallel to its base.",
+      "lang": "en",
+      "options": [
+        "A rectangle identical to the bases",
+        "A right-angled triangle",
+        "A scalene trapezium"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:30:01.422Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:32:28.134Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "6d5a2641903816563e5753e84d39bc4f22fa76567fd0eee92bb40af57655e782",
+      "validation": "manual-review"
+    }
+  }
+}

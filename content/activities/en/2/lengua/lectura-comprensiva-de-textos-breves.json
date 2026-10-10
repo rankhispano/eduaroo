@@ -1,0 +1,224 @@
+{
+  "id": "g2-lengua-lectura-comprensiva-de-textos-breves",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "lectura-comprensiva-de-textos-breves",
+  "temaNombre": "Understanding short texts",
+  "title": "Understanding short texts",
+  "summary": "Practise reading Spanish notes, notices and short stories carefully to understand them.",
+  "keyIdeas": [
+    "Reading slowly helps us understand what happens in a story.",
+    "Notice who takes part, where it happens and what they do.",
+    "If you do not understand a word, read the whole sentence again."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE7"
+    ],
+    "criteria": [
+      "4.1",
+      "7.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CD3",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-01",
+      "type": "true-false",
+      "prompt": "Hugo writes: «Mamá, estoy en el parque con el abuelo». Is Hugo in the park?",
+      "explanation": "Hugo's note says he is in the park with his grandfather.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-02",
+      "type": "choice",
+      "prompt": "Read: «Aisha guarda su estuche rojo en la mochila azul». Where does she put her pencil case?",
+      "explanation": "The sentence says Aisha puts her pencil case in her blue school bag.",
+      "hint": "Find «mochila» in the sentence.",
+      "lang": "en",
+      "options": [
+        "On the teacher's desk",
+        "In the classroom drawer",
+        "In the blue school bag"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-03",
+      "type": "match",
+      "prompt": "Read: «Omar riega las plantas, Lucía barre el patio y Leo alimenta al gato». Match each person to their task in Spanish.",
+      "explanation": "Each child does a different task at home.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Omar",
+          "right": "Riega las plantas"
+        },
+        {
+          "left": "Lucía",
+          "right": "Barre el patio"
+        },
+        {
+          "left": "Leo",
+          "right": "Alimenta al gato"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-04",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence so that it makes sense.",
+      "explanation": "It is hot in summer, so the dog jumps into the water to cool down.",
+      "lang": "en",
+      "sentence": "El perro salta a la piscina porque tiene mucho ___ en verano.",
+      "options": [
+        "miedo",
+        "sueño",
+        "calor"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-05",
+      "type": "choice",
+      "prompt": "Read: «Mateo merienda una rica manzana en el parque». Find the Spanish sentence that gives incorrect information.",
+      "explanation": "It is incorrect because Mateo eats an apple, rather than a pear.",
+      "hint": "Check which fruit Mateo eats.",
+      "lang": "en",
+      "options": [
+        "Mateo está merendando en el parque.",
+        "Mateo come una manzana.",
+        "Mateo merienda una pera en el parque."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-06",
+      "type": "classify",
+      "prompt": "Read: «En la granja vimos vacas lecheras y tractores verdes». Sort these Spanish words into animals and vehicles.",
+      "explanation": "Cows and calves are animals. Tractors and lorries are vehicles.",
+      "lang": "en",
+      "categories": [
+        "Animals",
+        "Vehicles"
+      ],
+      "items": [
+        {
+          "text": "Vacas",
+          "category": 0
+        },
+        {
+          "text": "Tractores",
+          "category": 1
+        },
+        {
+          "text": "Terneros",
+          "category": 0
+        },
+        {
+          "text": "Camiones",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-07",
+      "type": "choice",
+      "prompt": "Read the Spanish notice: «¡Atención! Suelo mojado». What should you do when walking past?",
+      "explanation": "If the floor is wet, walk carefully to avoid slipping.",
+      "lang": "en",
+      "options": [
+        "Walk slowly and carefully",
+        "Run very fast to avoid getting wet",
+        "Hop on one foot"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-08",
+      "type": "true-false",
+      "prompt": "Read: «La ardilla tenía cinco nueces y perdió una». Does the squirrel have four nuts left?",
+      "explanation": "Five nuts minus one leaves four.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-lectura-comprensiva-de-textos-breves-09",
+      "type": "reading",
+      "prompt": "Read the Spanish story carefully and answer the questions.",
+      "explanation": "Understanding a text means finding out what it says and why the characters do things.",
+      "lang": "en",
+      "title": "El nido del patio",
+      "text": "Hoy en el recreo hemos visto una sorpresa. En el árbol grande hay un nido con tres pajaritos. Su mamá les trae comida con el pico. Todos miramos en silencio para no asustarlos.",
+      "questions": [
+        {
+          "prompt": "How many little birds are in the nest?",
+          "explanation": "The text says the nest in the tree has three little birds.",
+          "options": [
+            "Three little birds",
+            "Two little birds",
+            "Five little birds"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why do the children watch quietly?",
+          "explanation": "They watch quietly so that the mother bird and her chicks are not frightened.",
+          "options": [
+            "Because the teacher does not let them speak",
+            "To avoid frightening the little birds",
+            "Because they are very sleepy"
+          ],
+          "answer": 1
+        }
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:09:56.576Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:27:23.643Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "13d1344c59d85be5ff856d44ab9bc1ab7047d51898034352f034fe74a98a93ed",
+      "validation": "manual-review"
+    }
+  }
+}

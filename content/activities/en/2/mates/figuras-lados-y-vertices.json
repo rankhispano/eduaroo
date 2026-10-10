@@ -1,0 +1,225 @@
+{
+  "id": "g2-mates-figuras-lados-y-vertices",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "figuras-lados-y-vertices",
+  "temaNombre": "Shapes: sides and vertices",
+  "title": "Adventures with sides and vertices",
+  "summary": "Practise recognising the sides and vertices of flat shapes.",
+  "keyIdeas": [
+    "Sides are the straight lines forming a polygon, a flat shape with straight sides.",
+    "Vertices are the corners where two straight sides meet.",
+    "A circle has no straight sides or vertices because it is round."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sentido espacial › Figuras geométricas de dos y tres dimensiones",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-01",
+      "type": "choice",
+      "prompt": "Lucía counts the corners of her square notebook. What are these corners called?",
+      "explanation": "The corners where two straight sides meet are called vertices. A square has 4 vertices.",
+      "hint": "Think of the mathematical word for corners.",
+      "lang": "en",
+      "options": [
+        "Circles",
+        "Sides",
+        "Vertices"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-02",
+      "type": "true-false",
+      "prompt": "A round coin has three vertices.",
+      "explanation": "The coin's flat face is a circle. Its edge is curved, with no straight sides or vertices.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-03",
+      "type": "match",
+      "prompt": "Match each shape to its number of straight sides.",
+      "explanation": "A triangle has 3 sides, a rectangle has 4, a pentagon has 5 and a circle has no straight sides.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Triangle",
+          "right": "3 sides"
+        },
+        {
+          "left": "Rectangle",
+          "right": "4 sides"
+        },
+        {
+          "left": "Pentagon",
+          "right": "5 sides"
+        },
+        {
+          "left": "Circle",
+          "right": "0 straight sides"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct word.",
+      "explanation": "Polygons have the same number of vertices and sides. A triangle has 3 sides and 3 vertices.",
+      "lang": "en",
+      "sentence": "A triangle always has 3 sides and 3 ___.",
+      "options": [
+        "round shapes",
+        "curves",
+        "vertices"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-05",
+      "type": "classify",
+      "prompt": "Sort these objects by the number of straight sides in their flat shape.",
+      "explanation": "The triangular sign and pizza slice have 3 sides. The rectangular door and envelope, and the square window, have 4 sides.",
+      "lang": "en",
+      "categories": [
+        "3 sides",
+        "4 sides"
+      ],
+      "items": [
+        {
+          "text": "Triangular warning sign ⚠️",
+          "category": 0
+        },
+        {
+          "text": "Triangular pizza slice 🍕",
+          "category": 0
+        },
+        {
+          "text": "Classroom door 🚪",
+          "category": 1
+        },
+        {
+          "text": "Square window 🪟",
+          "category": 1
+        },
+        {
+          "text": "Rectangular envelope ✉️",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-06",
+      "type": "choice",
+      "prompt": "Hugo joins 4 equal straws, making right-angle corners like the corners of a notebook. What shape does he make?",
+      "explanation": "Four equal sides and four right angles make a square. Four equal sides without right angles can form a different rhombus.",
+      "hint": "It has 4 equal sides.",
+      "lang": "en",
+      "options": [
+        "A triangle",
+        "A square",
+        "A circle"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-07",
+      "type": "choice",
+      "prompt": "Find the mistake! Omar says, 'This STOP sign has 8 sides and 4 vertices'. Which part is wrong?",
+      "explanation": "A polygon has the same number of sides and vertices. If it has 8 sides, it has 8 vertices.",
+      "hint": "Remember that a vertex is where two neighbouring sides meet.",
+      "lang": "en",
+      "options": [
+        "The number of vertices: 8 sides means 8 vertices.",
+        "Everything is correct: shapes have half as many corners.",
+        "The number of sides: all signs have only 3 sides."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-08",
+      "type": "order",
+      "prompt": "Put these shapes in order from fewest to most straight sides.",
+      "explanation": "The order is circle (0), triangle (3), rectangle (4), pentagon (5).",
+      "lang": "en",
+      "items": [
+        "Circle",
+        "Triangle",
+        "Rectangle",
+        "Pentagon"
+      ]
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-09",
+      "type": "choice",
+      "prompt": "Aisha has 2 card triangles. She counts all the sides of both triangles. How many does she count?",
+      "explanation": "Each triangle has 3 sides: 3 + 3 = 6 sides altogether.",
+      "hint": "Add the sides of one triangle and the other.",
+      "lang": "en",
+      "options": [
+        "6 sides",
+        "5 sides",
+        "4 sides"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-figuras-lados-y-vertices-10",
+      "type": "choice",
+      "prompt": "Martina draws a mystery polygon. It has more sides than a triangle but fewer than a pentagon. How many vertices does it have?",
+      "explanation": "More than 3 but fewer than 5 means 4 sides. It is a quadrilateral and has 4 vertices.",
+      "hint": "Which number is between 3 and 5?",
+      "lang": "en",
+      "options": [
+        "3 vertices",
+        "5 vertices",
+        "4 vertices"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:04:02.250Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:30:34.960Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "569d53721f3d43691b72e0380016170db14f91aafd96c1e65cd3e91ebab4e6d6",
+      "validation": "manual-review"
+    }
+  }
+}

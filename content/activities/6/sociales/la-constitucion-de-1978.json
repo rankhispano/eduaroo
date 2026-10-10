@@ -96,15 +96,15 @@
       "id": "g6-sociales-la-constitucion-de-1978-05",
       "type": "classify",
       "prompt": "En el colegio, Lucía y Omar preparan un mural sobre ciudadanía. Clasifica estos enunciados según sean derechos o deberes recogidos en la Constitución:",
-      "explanation": "La Constitución garantiza derechos esenciales para asegurar la libertad y el bienestar de las personas, pero también establece deberes para que la convivencia sea justa y solidaria.",
+      "explanation": "La Constitución reconoce derechos y principios sociales, además de deberes. La salud y la vivienda tienen una regulación distinta de derechos fundamentales como la expresión o la educación.",
       "lang": "es",
       "categories": [
-        "Derechos fundamentales",
+        "Derechos y principios reconocidos",
         "Deberes de la ciudadanía"
       ],
       "items": [
         {
-          "text": "Recibir una educación básica obligatoria y gratuita",
+          "text": "Derecho a recibir una educación básica gratuita",
           "category": 0
         },
         {
@@ -150,7 +150,7 @@
       "explanation": "Tras las elecciones libres de 1977, las Cortes elegidas redactaron la Constitución, que después fue votada favorablemente por la ciudadanía y publicada en el Boletín Oficial del Estado.",
       "lang": "es",
       "items": [
-        "Celebración de las primeras elecciones generales democráticas en junio de 1977.",
+        "Celebración de las primeras elecciones generales democráticas de la Transición en junio de 1977.",
         "Redacción y debate del proyecto constitucional por parlamentarios de distintos partidos.",
         "Aprobación de la Constitución por la ciudadanía en referéndum el 6 de diciembre de 1978.",
         "Entrada en vigor del texto tras su publicación oficial en el BOE a finales de diciembre de 1978."
@@ -177,7 +177,7 @@
       "explanation": "El papel de las parlamentarias constituyentes fue decisivo para eliminar barreras discriminatorias y consagrar la igualdad en la Constitución.",
       "lang": "es",
       "title": "Las Madres de la Constitución",
-      "text": "Al estudiar la Constitución de 1978, se suele recordar a los siete hombres que redactaron el borrador inicial. Sin embargo, en las Cortes constituyentes de 1977 participaron 27 mujeres (21 diputadas y 6 senadoras), a las que hoy conocemos como «las Madres de la Constitución». Procedían de formaciones políticas distintas, pero supieron colaborar para defender una meta común: garantizar que la nueva ley fundamental reconociera la igualdad absoluta entre hombres y mujeres. Gracias a su perseverancia durante los debates, se consolidó el artículo 14, que prohíbe cualquier discriminación por motivos de sexo, nacimiento, raza o religión. Además, impulsaron la eliminación de antiguas leyes que impedían a las mujeres trabajar o abrir una cuenta bancaria sin permiso de sus esposos. Su trabajo demostró que la construcción de la democracia requería la participación y la voz de las mujeres.",
+      "text": "Al estudiar la Constitución de 1978, se suele recordar a los siete hombres que redactaron el borrador inicial. Sin embargo, en las Cortes constituyentes de 1977 participaron 27 mujeres (21 diputadas y 6 senadoras), a las que hoy conocemos como «las Madres de la Constitución». Procedían de formaciones políticas distintas, pero supieron colaborar para defender una meta común: garantizar que la nueva ley fundamental reconociera la igualdad absoluta entre hombres y mujeres. Gracias a su perseverancia durante los debates, se consolidó el artículo 14, que prohíbe cualquier discriminación por motivos de sexo, nacimiento, raza o religión. La igualdad constitucional dio impulso a nuevas reformas. El permiso del marido exigido a muchas mujeres casadas para trabajar o firmar contratos ya se había eliminado en mayo de 1975. Su trabajo demostró que la construcción de la democracia requería la participación y la voz de las mujeres.",
       "questions": [
         {
           "prompt": "¿Qué artículo de la Constitución garantiza la igualdad ante la ley sin discriminación por razón de sexo?",

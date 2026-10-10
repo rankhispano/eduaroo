@@ -5,10 +5,10 @@
   "temaId": "dictado",
   "temaNombre": "Dictado",
   "title": "¡Listos para el dictado!",
-  "summary": "Practica cómo escuchar, escribir y revisar tus dictados paso a paso.",
+  "summary": "Prepara dictados con reglas y ejemplos. Pide a una persona adulta que lea las frases para practicar también la escritura.",
   "keyIdeas": [
     "Escucha toda la frase con atención antes de empezar a escribir.",
-    "Empieza siempre con mayúscula, deja un espacio entre palabras y pon un punto al final.",
+    "Empieza las oraciones con mayúscula y deja espacios. Las oraciones que practicamos aquí terminan en punto.",
     "Al terminar el dictado, relee despacio para comprobar que no faltan letras ni palabras."
   ],
   "lomloe": {
@@ -61,7 +61,7 @@
       "id": "g1-lengua-dictado-03",
       "type": "fill-blank",
       "prompt": "¿Qué signo falta al final de la frase que dictó el maestro? ✏️",
-      "explanation": "Al terminar de escribir una frase completa, siempre ponemos un punto final.",
+      "explanation": "Esta oración cuenta algo y termina con un punto. Las preguntas y exclamaciones utilizan otros signos.",
       "lang": "es",
       "sentence": "Hugo juega en el patio con su pelota___",
       "options": [
@@ -131,7 +131,7 @@
       "id": "g1-lengua-dictado-07",
       "type": "match",
       "prompt": "Une cada parte del dictado con su regla:",
-      "explanation": "Estas tres reglas son mágicas para que tus dictados queden perfectos.",
+      "explanation": "La mayúscula, los espacios y el signo final ayudan a que las oraciones se lean con claridad.",
       "lang": "es",
       "pairs": [
         {
@@ -143,7 +143,7 @@
           "right": "Se deja un espacio"
         },
         {
-          "left": "Final de la oración",
+          "left": "Final de una oración como «Hugo juega.»",
           "right": "Se escribe un punto"
         }
       ]

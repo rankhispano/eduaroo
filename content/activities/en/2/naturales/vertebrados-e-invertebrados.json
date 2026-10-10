@@ -1,0 +1,213 @@
+{
+  "id": "g2-naturales-vertebrados-e-invertebrados",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "vertebrados-e-invertebrados",
+  "temaNombre": "Vertebrates and invertebrates",
+  "title": "Discover vertebrates and invertebrates!",
+  "summary": "Practise telling animals with backbones from animals without them.",
+  "keyIdeas": [
+    "Vertebrates have an internal skeleton with a backbone.",
+    "Invertebrates have no backbone. Some have a shell or a hard outer covering.",
+    "Humans are vertebrates because we have backbones."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-vertebrados-e-invertebrados-01",
+      "type": "true-false",
+      "prompt": "Vertebrate animals have a backbone.",
+      "explanation": "Vertebrates have an internal skeleton with a backbone. It can be made of bone or cartilage.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-vertebrados-e-invertebrados-02",
+      "type": "fill-blank",
+      "prompt": "Choose the word that completes the sentence.",
+      "explanation": "Invertebrates have no backbone. A hard outer covering does not make an animal a vertebrate.",
+      "lang": "en",
+      "sentence": "Animals with no backbone are ___.",
+      "options": [
+        "invertebrates",
+        "vertebrates",
+        "plants"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-vertebrados-e-invertebrados-03",
+      "type": "choice",
+      "prompt": "Which animal is a vertebrate? 🐶",
+      "explanation": "A dog has bones and a backbone. Earthworms and jellyfish are invertebrates.",
+      "hint": "Think about which animal has a skeleton inside.",
+      "lang": "en",
+      "options": [
+        "Dog",
+        "Earthworm",
+        "Jellyfish"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-vertebrados-e-invertebrados-04",
+      "type": "classify",
+      "prompt": "Sort each animal into the right group.",
+      "explanation": "Cats, birds and fish are vertebrates. Snails, ants and butterflies have no backbone.",
+      "lang": "en",
+      "categories": [
+        "Vertebrates",
+        "Invertebrates"
+      ],
+      "items": [
+        {
+          "text": "Cat",
+          "category": 0
+        },
+        {
+          "text": "Snail",
+          "category": 1
+        },
+        {
+          "text": "Bird",
+          "category": 0
+        },
+        {
+          "text": "Ant",
+          "category": 1
+        },
+        {
+          "text": "Fish",
+          "category": 0
+        },
+        {
+          "text": "Butterfly",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-vertebrados-e-invertebrados-05",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "A sparrow has an internal skeleton with bones. A ladybird is an insect with no backbone.",
+      "lang": "en",
+      "title": "Lucía and Hugo's walk",
+      "text": "Lucía and Hugo walk through the park. Lucía watches a sparrow on a branch. Hugo finds a ladybird on a leaf. They write in their notebook about each animal's body.",
+      "questions": [
+        {
+          "prompt": "Which vertebrate did Lucía see?",
+          "explanation": "A sparrow is a bird, and birds are vertebrates.",
+          "options": [
+            "An ant",
+            "The ladybird",
+            "The sparrow"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why is the ladybird an invertebrate?",
+          "explanation": "Ladybirds are insects with no bones or backbone.",
+          "options": [
+            "It flies very high",
+            "It has soft bones",
+            "It has no backbone"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-vertebrados-e-invertebrados-06",
+      "type": "choice",
+      "prompt": "Aisha makes a mistake. Which statement is wrong?",
+      "explanation": "A snail's shell protects it on the outside. It is not an internal skeleton with bones.",
+      "hint": "Having a shell does not mean having bones inside.",
+      "lang": "en",
+      "options": [
+        "Snails are vertebrates because they have a hard shell",
+        "Bony fish have bones in their skeleton",
+        "Frogs have a backbone"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-vertebrados-e-invertebrados-07",
+      "type": "true-false",
+      "prompt": "Humans have backbones.",
+      "explanation": "Our backbone is part of our internal skeleton. This makes us vertebrates.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-vertebrados-e-invertebrados-08",
+      "type": "choice",
+      "prompt": "A fossil has a backbone and other bones. Which animal could it have been?",
+      "explanation": "A fish can have a backbone and other bones. Octopuses and jellyfish have no backbone.",
+      "hint": "Think about which animal can have a bony skeleton.",
+      "lang": "en",
+      "options": [
+        "A fish",
+        "An octopus",
+        "A jellyfish"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-vertebrados-e-invertebrados-09",
+      "type": "order",
+      "prompt": "Put Martina's steps for studying a playground animal in order.",
+      "explanation": "Looking soft or hard is not enough to classify an animal. We observe it and check a guide to find out whether it has a backbone.",
+      "lang": "en",
+      "items": [
+        "Watch the animal without touching or disturbing it",
+        "With an adult, check a guide to find out whether it has a backbone",
+        "Write down whether it is a vertebrate or an invertebrate"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:37:33.317Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:40:41.158Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "a3e38002f59d267bd3e6ff6ac7e93f40e537175484b27bb3e64b1f051d046016",
+      "validation": "manual-review"
+    }
+  }
+}

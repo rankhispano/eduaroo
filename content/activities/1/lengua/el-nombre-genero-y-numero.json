@@ -171,7 +171,7 @@
     {
       "id": "g1-lengua-el-nombre-genero-y-numero-08",
       "type": "order",
-      "prompt": "Ordena estas palabras para formar una oración correcta:",
+      "prompt": "Ordena la oración: primero quiénes (artículo y nombre), después qué hacen y al final cómo cantan.",
       "explanation": "Primero va 'Los' en mayúscula, luego el nombre 'pájaros' y la acción 'cantan alto.'.",
       "lang": "es",
       "items": [

@@ -144,7 +144,7 @@
       "id": "g1-sociales-la-casa-06",
       "type": "choice",
       "prompt": "Hugo y Martina viven juntos. ¿Quién debe recoger los platos?",
-      "explanation": "Todas las personas deben repartirse las tareas de casa por igual.",
+      "explanation": "Las tareas se reparten de forma justa según la edad y las posibilidades de cada persona.",
       "hint": "En casa trabajamos en equipo.",
       "lang": "es",
       "options": [
@@ -171,28 +171,28 @@
     {
       "id": "g1-sociales-la-casa-08",
       "type": "classify",
-      "prompt": "Clasifica estas características según el tipo de vivienda.",
-      "explanation": "Hay viviendas en bloques con muchas familias y casas individuales.",
+      "prompt": "Lola vive en un piso con ascensor. Leo, en una casa baja con jardín. ¿A quién corresponde cada dato?",
+      "explanation": "Según el enunciado, Lola vive en un piso con ascensor y Leo en una casa baja con jardín.",
       "lang": "es",
       "categories": [
-        "Piso en un edificio",
-        "Casa baja"
+        "La vivienda de Lola",
+        "La vivienda de Leo"
       ],
       "items": [
         {
-          "text": "Tiene ascensor para subir",
+          "text": "Está en un bloque de pisos.",
           "category": 0
         },
         {
-          "text": "Viven muchos vecinos",
+          "text": "Para subir puede usar el ascensor.",
           "category": 0
         },
         {
-          "text": "Tiene un jardín alrededor",
+          "text": "Tiene un jardín alrededor.",
           "category": 1
         },
         {
-          "text": "Es para una sola familia",
+          "text": "Es una casa baja.",
           "category": 1
         }
       ]

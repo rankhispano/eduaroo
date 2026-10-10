@@ -1,0 +1,253 @@
+{
+  "id": "g4-lengua-sujeto-y-predicado",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "sujeto-y-predicado",
+  "temaNombre": "Spanish Subject and Predicate",
+  "title": "Mission: Find the Subject and Predicate",
+  "summary": "Identify the subject and predicate in Spanish sentences, check agreement and recognise omitted subjects.",
+  "keyIdeas": [
+    "The subject names who acts or who or what the sentence says something about.",
+    "The predicate tells us what the subject does or what is said about it, and contains the main verb.",
+    "In the simple sentences studied here, the subject and verb agree in person and number."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-sujeto-y-predicado-01",
+      "type": "true-false",
+      "prompt": "In a simple sentence such as «El perro corre», the verb «corre» is part of the predicate.",
+      "explanation": "True. In «El perro corre», «corre» is the main word in the predicate and tells us what the subject does.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-02",
+      "type": "choice",
+      "prompt": "In «Los entrenadores del cole prepararon el partido», what is the complete subject?",
+      "explanation": "«Los entrenadores del cole» is the complete subject: it names who prepared the match.",
+      "hint": "Ask who carries out the action.",
+      "lang": "en",
+      "options": [
+        "Prepararon el partido",
+        "El partido",
+        "Los entrenadores del cole"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-03",
+      "type": "match",
+      "prompt": "Match each Spanish subject with a predicate that agrees in person and number.",
+      "explanation": "The subject and verb must agree in person and in singular or plural number.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Aisha y tú",
+          "right": "dibujáis un cartel sobre el reciclaje."
+        },
+        {
+          "left": "Mi hermana pequeña",
+          "right": "lee su cuento favorito antes de dormir."
+        },
+        {
+          "left": "Nuestros compañeros",
+          "right": "organizan los libros de la biblioteca."
+        },
+        {
+          "left": "Yo",
+          "right": "riego las plantas de la clase cada mañana."
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-04",
+      "type": "classify",
+      "prompt": "Sort the quoted parts of these Spanish sentences by their role.",
+      "explanation": "The subject names who or what the sentence is about. The predicate tells us what happens or what the subject does.",
+      "lang": "en",
+      "categories": [
+        "Subject",
+        "Predicate"
+      ],
+      "items": [
+        {
+          "text": "«Las bicis rojas» están en el patio.",
+          "category": 0
+        },
+        {
+          "text": "Omar «comió fruta fresca en el recreo».",
+          "category": 1
+        },
+        {
+          "text": "«Ese perro blanco» corre por la hierba.",
+          "category": 0
+        },
+        {
+          "text": "Nosotras «visitaremos el museo el próximo viernes».",
+          "category": 1
+        },
+        {
+          "text": "«La profesora de música» toca la flauta.",
+          "category": 0
+        },
+        {
+          "text": "Lucía y Marcos «escribieron una carta divertida».",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-05",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish verb form that agrees with the subject.",
+      "explanation": "«Martina y su abuela» can be replaced by «ellas», third-person plural, so the verb is «cocinan».",
+      "lang": "en",
+      "sentence": "Martina y su abuela ___ ricas galletas de limón todos los domingos.",
+      "options": [
+        "cocinan",
+        "cocina",
+        "cocinamos"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-06",
+      "type": "order",
+      "prompt": "Put this agreement guide for a simple Spanish sentence with an explicit subject, such as «El perro corre», in order.",
+      "explanation": "Changing «corre» to «corren» requires changing «el perro» to «los perros». Agreement helps identify the subject in these examples.",
+      "lang": "en",
+      "items": [
+        "Find the main verb in the sentence.",
+        "Change the verb's number from singular to plural or from plural to singular.",
+        "Notice which word or group of words must also change.",
+        "That part which changes to agree with the verb is the subject."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-07",
+      "type": "choice",
+      "prompt": "Adrián writes news for the school magazine. Which Spanish headline has a subject–verb agreement error?",
+      "explanation": "«Los delegados» is plural, so the verb should be «propusieron», not «propuso».",
+      "hint": "Compare the verb's singular or plural form with its subject.",
+      "lang": "en",
+      "options": [
+        "Los delegados de la clase propuso nuevas ideas para el recreo.",
+        "Nuestra clase ganó el concurso de poesía infantil.",
+        "Los árboles del jardín escolar florecen esta primavera."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-08",
+      "type": "choice",
+      "prompt": "In Nerea's diary sentence «Ayer encontramos hojas secas de roble», what is the omitted Spanish subject?",
+      "explanation": "«Encontramos» is first-person plural, so the unwritten subject is «nosotros» or «nosotras».",
+      "hint": "The verb ending shows which pronoun fits.",
+      "lang": "en",
+      "options": [
+        "Ellos o ellas",
+        "Vosotros o vosotras",
+        "Nosotros o nosotras"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-09",
+      "type": "reading",
+      "prompt": "Read the Spanish text and answer the questions about its meaning and structure.",
+      "explanation": "The subject names who carries out an action, while the predicate contains the verb and the information that goes with it.",
+      "lang": "en",
+      "title": "El misterio del huerto escolar",
+      "text": "Esta mañana, las niñas y los niños de cuarto salieron al huerto escolar. Las matas de tomates mostraban frutos rojos y brillantes. De repente, Hugo descubrió unas pequeñas huellas cerca del bancal de lechugas. Aisha y Mateo examinaron la tierra húmeda con una lupa. Minutos después, un simpático conejo marrón apareció entre las hierbas altas. El pequeño animal comía una hoja crujiente con gran tranquilidad. Toda la clase observó al visitante en silencio para no asustarlo. Fue una sorpresa maravillosa que alegró el día a todos.",
+      "questions": [
+        {
+          "prompt": "Why did the pupils stay quiet when they saw the rabbit?",
+          "explanation": "They stayed quiet so they would not frighten the rabbit while it ate.",
+          "options": [
+            "To avoid frightening the rabbit and making it run away from the garden.",
+            "Because the teacher used a whistle to tell them to be quiet.",
+            "Because they wanted to hear the rain."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "In «Aisha y Mateo examinaron la tierra húmeda con una lupa», what is the predicate?",
+          "explanation": "The predicate includes «examinaron» and the information about what they examined and how.",
+          "options": [
+            "Aisha y Mateo",
+            "examinaron la tierra húmeda con una lupa",
+            "la tierra húmeda con una lupa"
+          ],
+          "answer": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sujeto-y-predicado-10",
+      "type": "choice",
+      "prompt": "Final challenge! In «Por el camino de tierra paseaban los caballos», what is the subject?",
+      "explanation": "«Los caballos» is the subject. In Spanish, the subject does not always come at the beginning.",
+      "hint": "If «paseaban» becomes singular «paseaba», which part must also change?",
+      "lang": "en",
+      "options": [
+        "los caballos",
+        "Por el camino de tierra",
+        "paseaban los caballos"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:44:25.495Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:26:37.012Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "69eb525e57fd6d01329622e71d1f25cf74ee96166699626631c7b0dca3f3c780",
+      "validation": "manual-review"
+    }
+  }
+}

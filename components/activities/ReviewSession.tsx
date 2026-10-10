@@ -1,19 +1,24 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import ActivityPlayer from '@/components/activities/ActivityPlayer';
-import { ACTIVITY_LOADERS } from '@/content/activities/registry';
+import { getActivityLoaders } from '@/content/activities/registry';
 import { getDueMistakes, usePracticeStore } from '@/lib/learning/practiceStore';
 import { shuffle, toSteps, type Step } from '@/lib/curriculum/steps';
 import type { ActivitySet } from '@/lib/curriculum/types';
-import { getCurso } from '@/src/data/curriculum';
+import { getCurso } from '@/src/data/localizedCurriculum';
 import RooMascot from '@/components/mascot/RooMascot';
 
 const REVIEW_COLOR = '#EA580C';
 
 export default function ReviewSession() {
+    const locale = useLocale();
+    return <ReviewSessionForLocale key={locale} locale={locale} />;
+}
+
+function ReviewSessionForLocale({ locale }: { locale: string }) {
     const t = useTranslations('KidsMap');
     const hydrated = usePracticeStore((s) => s.hydrated);
     const mistakes = usePracticeStore((s) => s.mistakes);
@@ -27,8 +32,9 @@ export default function ReviewSession() {
         const due = getDueMistakes(mistakes, 10);
         let cancelled = false;
         (async () => {
-            const keys = [...new Set(due.map((m) => m.setKey))].filter((k) => ACTIVITY_LOADERS[k]);
-            const sets = await Promise.all(keys.map((k) => ACTIVITY_LOADERS[k]()));
+            const loaders = getActivityLoaders(locale);
+            const keys = [...new Set(due.map((m) => m.setKey))].filter((k) => loaders[k]);
+            const sets = await Promise.all(keys.map((k) => loaders[k]()));
             const byKey = new Map(sets.map((s, i) => [keys[i], toSteps(s.activities, keys[i])]));
             const steps = due.flatMap((m) => byKey.get(m.setKey)?.find((st) => st.id === m.stepId) ?? []);
             if (cancelled) return;
@@ -47,13 +53,14 @@ export default function ReviewSession() {
                     summary: t('reviewSummary'),
                     keyIdeas: [],
                     activities: [],
+                    meta: { ...sets[0].meta, translation: sets.every(s => s.meta.translation) ? sets[0].meta.translation : undefined },
                 },
             });
         })();
         return () => {
             cancelled = true;
         };
-    }, [hydrated, mistakes, session, empty, t]);
+    }, [hydrated, mistakes, session, empty, t, locale]);
 
     if (session) {
         return (
@@ -63,7 +70,7 @@ export default function ReviewSession() {
                 mode="review"
                 color={REVIEW_COLOR}
                 subjectName={t('reviewTitle')}
-                cursoNombre={getCurso(cursoId ?? '')?.nombre ?? ''}
+                cursoNombre={getCurso(cursoId ?? '', locale)?.nombre ?? ''}
                 backHref="/"
                 backLabel={t('backToMap')}
             />

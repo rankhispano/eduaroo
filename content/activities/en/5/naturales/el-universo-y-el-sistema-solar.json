@@ -1,0 +1,244 @@
+{
+  "id": "g5-naturales-el-universo-y-el-sistema-solar",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "el-universo-y-el-sistema-solar",
+  "temaNombre": "The universe and the solar system",
+  "title": "Space mission: the solar system",
+  "summary": "Explore the universe, the planets and the solar system.",
+  "keyIdeas": [
+    "The solar system contains the Sun, eight planets and their moons, dwarf planets, asteroids and comets.",
+    "The four inner planets are rocky. The four outer planets are giants: two gas giants and two ice giants.",
+    "The Sun is our system's central star, in a spiral galaxy called the Milky Way."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-01",
+      "type": "classify",
+      "prompt": "Classify these planets as rocky inner planets or giant outer planets.",
+      "explanation": "Mercury, Venus, Earth and Mars are rocky. Jupiter and Saturn are gas giants; Uranus and Neptune are ice giants with gaseous atmospheres.",
+      "lang": "en",
+      "categories": [
+        "Inner planets: rocky",
+        "Outer planets: giants"
+      ],
+      "items": [
+        {
+          "text": "Mercury",
+          "category": 0
+        },
+        {
+          "text": "Jupiter",
+          "category": 1
+        },
+        {
+          "text": "Mars",
+          "category": 0
+        },
+        {
+          "text": "Saturn",
+          "category": 1
+        },
+        {
+          "text": "Venus",
+          "category": 0
+        },
+        {
+          "text": "Neptune",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-02",
+      "type": "choice",
+      "prompt": "Aisha and Leo notice the daylight at break time. Which scientific statement correctly describes the Sun? ☀️",
+      "explanation": "The Sun is our solar system's star and produces its own light. Earth and other bodies orbit it.",
+      "hint": "Do planets produce their own light?",
+      "lang": "en",
+      "options": [
+        "It is the largest and warmest planet in our solar system.",
+        "It is a giant moon reflecting light from distant galaxies.",
+        "It is a medium-sized star that produces light and heat through reactions inside it."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about our place in the universe.",
+      "explanation": "The Milky Way is the spiral galaxy containing our solar system and billions of other stars.",
+      "lang": "en",
+      "sentence": "Our solar system is inside a huge spiral galaxy called the ___.",
+      "options": [
+        "Andromeda Galaxy",
+        "Milky Way",
+        "Great Bear constellation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-04",
+      "type": "order",
+      "prompt": "Hugo builds a scale model in Science. Order these four planets from nearest to farthest from the Sun. 🪐",
+      "explanation": "The full order is Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
+      "lang": "en",
+      "items": [
+        "Mercury",
+        "Earth",
+        "Jupiter",
+        "Uranus"
+      ]
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-05",
+      "type": "choice",
+      "prompt": "On a camping trip, Omar says, 'A shooting star! A star has fallen to Earth!' What correct scientific explanation does Lucía give?",
+      "explanation": "A shooting star is a flash called a meteor, produced by a small particle entering the atmosphere at high speed. It is not a falling star.",
+      "hint": "Compare the size of a real star with Earth.",
+      "lang": "en",
+      "options": [
+        "They are communication satellites deliberately switched off and dropped by a space agency.",
+        "They are pieces of the Sun that cool as they fall to Earth at night.",
+        "They are small particles entering the atmosphere at high speed and producing a bright flash."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-06",
+      "type": "match",
+      "prompt": "Match each celestial body to its description.",
+      "explanation": "Celestial bodies differ in size, composition and orbit.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Asteroid",
+          "right": "An irregular rocky body orbiting the Sun; many lie between Mars and Jupiter."
+        },
+        {
+          "left": "Comet",
+          "right": "An icy body that develops a bright tail of gas and dust near the Sun."
+        },
+        {
+          "left": "Dwarf planet",
+          "right": "A round body orbiting the Sun that has not cleared its orbital neighbourhood."
+        },
+        {
+          "left": "Natural satellite",
+          "right": "A body orbiting a planet, such as our Moon."
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-07",
+      "type": "reading",
+      "prompt": "Read about space exploration and answer the questions.",
+      "explanation": "Space telescopes help us study distant galaxies and the atmospheres of planets beyond our solar system.",
+      "lang": "en",
+      "title": "James Webb: our window on the cosmos",
+      "text": "In December 2021, scientists celebrated the launch of the James Webb Space Telescope. Ground-based telescopes are affected by Earth's atmosphere and light pollution. Webb operates in space, about one and a half million kilometres from Earth.\n\nIt detects infrared light, allowing it to look through cosmic dust clouds where stars and planetary systems form. Its large, gold-coated beryllium mirrors collect faint light from early galaxies that formed more than thirteen billion years ago.\n\nWebb also studies the atmospheres of exoplanets: planets orbiting stars other than our Sun. It looks for signs of substances such as water and carbon dioxide. The telescope shows how international scientific cooperation expands our knowledge.",
+      "questions": [
+        {
+          "prompt": "Why place a telescope such as Webb in space rather than on an Earth mountain?",
+          "explanation": "It avoids distortion by Earth's atmosphere and light pollution from towns and cities.",
+          "options": [
+            "To avoid atmospheric distortion and light pollution from cities.",
+            "Stars are so close in space that no mirrors are needed.",
+            "Solar gravity does not exist in space, so no technical maintenance is needed."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "If Webb detects water vapour in an exoplanet's atmosphere, what can scientists reasonably conclude?",
+          "explanation": "Finding water is interesting, but further research is needed before making claims about life.",
+          "options": [
+            "The planet once belonged to our solar system and was thrown out.",
+            "It proves with absolute certainty that complex living things inhabit the planet.",
+            "It is an interesting clue worth investigating, but does not prove that life exists there."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-08",
+      "type": "choice",
+      "prompt": "Martina compares orbital periods:\n- Mercury: 88 Earth days\n- Earth: 365 Earth days\n- Jupiter: 12 Earth years\n\nShe suggests that planets farther from the Sun take longer to orbit it. A newly discovered body has an average distance beyond Neptune, whose orbit takes 165 years. What should she predict?",
+      "explanation": "Following the pattern, a more distant body has a larger orbit and weaker solar gravitational attraction, giving it a longer orbital period.",
+      "hint": "Follow the trend: Mercury < Earth < Jupiter < Neptune.",
+      "lang": "en",
+      "options": [
+        "Exactly 365 Earth days, because all distant bodies synchronise with Earth.",
+        "More than 165 Earth years, because its orbit is larger and the Sun's gravitational pull is weaker.",
+        "Less than 88 Earth days, because outer solar system bodies travel at light speed."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-09",
+      "type": "true-false",
+      "prompt": "True or false? 'Pluto stopped being the ninth planet in 2006 because it had moved away and no longer orbited the Sun.'",
+      "explanation": "Pluto still orbits the Sun. It was reclassified as a dwarf planet because it has not cleared its orbital neighbourhood of other icy Kuiper Belt bodies.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-el-universo-y-el-sistema-solar-10",
+      "type": "fill-blank",
+      "prompt": "Adrián makes a display about the regions between planets.",
+      "explanation": "The main asteroid belt lies between Mars and Jupiter, separating the rocky inner planets from the giant outer planets.",
+      "lang": "en",
+      "sentence": "Between Mars and Jupiter lies the main ___ belt, containing many rocky pieces left from the solar system's formation.",
+      "options": [
+        "asteroid",
+        "satellite",
+        "galaxy"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:06:20.365Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:00:28.287Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "482ccf62d500fda22fced1e8efb3d0289e9f38474dae41da2863cedf1be6d87c",
+      "validation": "manual-review"
+    }
+  }
+}

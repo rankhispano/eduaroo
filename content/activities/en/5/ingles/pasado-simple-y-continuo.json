@@ -1,0 +1,262 @@
+{
+  "id": "g5-ingles-pasado-simple-y-continuo",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "pasado-simple-y-continuo",
+  "temaNombre": "Past Simple and Past Continuous",
+  "title": "Past Simple and Continuous: Guided Practice",
+  "summary": "Use examples and support to describe what was happening and what happened next.",
+  "keyIdeas": [
+    "The past continuous (was/were + -ing) describes an action in progress at a past moment.",
+    "The past simple describes completed events. They can last a short or long time: 'I lived there for ten years'.",
+    "We often use 'while' with ongoing actions and 'when' to introduce an event during another action."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-01",
+      "type": "fill-blank",
+      "prompt": "Complete with the correct past continuous form.",
+      "explanation": "With 'Omar', meaning 'he', use 'was' followed by the -ing form: 'was doing'.",
+      "hint": "Omar can be replaced by 'he'.",
+      "lang": "en",
+      "sentence": "Yesterday at 5:00 PM, Omar ___ his homework in his bedroom.",
+      "options": [
+        "did",
+        "were doing",
+        "was doing"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-02",
+      "type": "true-false",
+      "prompt": "In the past continuous, we use 'were' with 'you', 'we' and 'they'.",
+      "explanation": "True. Use 'was' with 'I', 'he', 'she' and 'it'; use 'were' with 'you', 'we' and 'they'.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-03",
+      "type": "classify",
+      "prompt": "Sort each verb form by tense.",
+      "explanation": "These affirmative past simple examples use one past form. The past continuous examples use was/were + an -ing form.",
+      "lang": "en",
+      "categories": [
+        "Past Simple",
+        "Past Continuous"
+      ],
+      "items": [
+        {
+          "text": "played",
+          "category": 0
+        },
+        {
+          "text": "was watching",
+          "category": 1
+        },
+        {
+          "text": "went",
+          "category": 0
+        },
+        {
+          "text": "were eating",
+          "category": 1
+        },
+        {
+          "text": "wrote",
+          "category": 0
+        },
+        {
+          "text": "was reading",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-04",
+      "type": "choice",
+      "prompt": "Choose the past simple event during the ongoing action: Lucía was riding her bike in the park when she ___ an adorable puppy. 🐶",
+      "explanation": "'Saw' is the past simple event that happens during 'was riding'.",
+      "hint": "Choose the past simple of 'see'.",
+      "lang": "en",
+      "options": [
+        "saw",
+        "was seeing",
+        "sees"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-05",
+      "type": "match",
+      "prompt": "Match each subject and action with its past continuous form.",
+      "explanation": "Use was with I/he/she/it and were with you/we/they, followed by the -ing form.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "I + read",
+          "right": "was reading"
+        },
+        {
+          "left": "You + cook",
+          "right": "were cooking"
+        },
+        {
+          "left": "She + write",
+          "right": "was writing"
+        },
+        {
+          "left": "They + play",
+          "right": "were playing"
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-06",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct past continuous form.",
+      "explanation": "Here, 'was reading' describes the ongoing action. 'My sister' is singular, so use 'was'.",
+      "hint": "'My sister' can be replaced by 'she'.",
+      "lang": "en",
+      "sentence": "While my sister ___ a comic book, our dad cooked dinner.",
+      "options": [
+        "was reading",
+        "were reading",
+        "readed"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-07",
+      "type": "choice",
+      "prompt": "Adrián was washing dishes when the lights went out. Which sentence shows that the washing was already in progress?",
+      "explanation": "'Was washing' shows the action in progress; 'went out' gives the event that interrupted it.",
+      "lang": "en",
+      "options": [
+        "I were washing the dishes when the lights went out.",
+        "I washed the dishes when the lights were going out.",
+        "I was washing the dishes when the lights went out."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-08",
+      "type": "order",
+      "prompt": "Put these words in order to make a correct sentence.",
+      "explanation": "This sentence starts with 'While' and a past continuous action, then gives a past simple event.",
+      "lang": "en",
+      "items": [
+        "While",
+        "Wei",
+        "was cooking,",
+        "the telephone",
+        "rang."
+      ]
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-09",
+      "type": "reading",
+      "prompt": "Read the text about an eventful school morning and answer the questions.",
+      "explanation": "The story combines actions in progress with completed events.",
+      "lang": "en",
+      "title": "An Unexpected Visitor",
+      "text": "Yesterday was an unusual morning at Oak Tree School. At 9:30, all the fifth-grade students were working quietly in their classroom. Martina was drawing a colourful map of the solar system, and Omar was writing a science project in his notebook. Suddenly, while the teacher, Mr Green, was explaining a difficult maths problem on the board, a small squirrel jumped through the open window! The squirrel landed right on Martina's desk. Everyone stopped working. Martina did not scream; she stayed calm and moved away slowly to give the animal space. While the pupils were waiting at a safe distance, Mr Green opened the door to the garden. The squirrel found the exit and ran outside. It was a morning nobody forgot!",
+      "questions": [
+        {
+          "prompt": "What was Martina doing when the squirrel jumped into the classroom?",
+          "explanation": "Martina was drawing a colourful map of the solar system.",
+          "options": [
+            "She was eating an apple with Omar.",
+            "She was writing a science project.",
+            "She was drawing a map of the solar system."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What did Martina do when the squirrel landed on her desk?",
+          "options": [
+            "She screamed and chased it.",
+            "She picked it up with her hands.",
+            "She stayed calm and moved away slowly."
+          ],
+          "answer": 2,
+          "explanation": "Martina stayed calm and moved away slowly to give the animal space."
+        },
+        {
+          "prompt": "What can we learn from how the class reacted to the animal?",
+          "explanation": "The class stayed calm and kept a safe distance while the teacher helped the squirrel leave.",
+          "options": [
+            "Staying calm helps solve unexpected surprises peacefully.",
+            "You should always close all windows in autumn.",
+            "Maths lessons are more interesting with animals."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-pasado-simple-y-continuo-10",
+      "type": "choice",
+      "prompt": "Which sentence uses the past continuous for both actions happening at the same time?",
+      "explanation": "The requested forms are 'was studying' and 'was playing', describing two ongoing actions.",
+      "hint": "Look for was/were + -ing in both parts.",
+      "lang": "en",
+      "options": [
+        "While Nerea was studying, her brother was playing the guitar.",
+        "When Nerea studied, her brother played the guitar.",
+        "Nerea was studying when her brother broke the guitar."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:10:27.948Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:59:41.815Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f199fc4ddbe83094e066fd68009b14eaf80649bcf509e6865fcc9f012e1266ae",
+      "validation": "manual-review"
+    }
+  }
+}

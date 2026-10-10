@@ -7,7 +7,7 @@
   "title": "Mide y rodea: el perímetro",
   "summary": "Aprenderás a calcular el perímetro sumando los lados de diferentes figuras en situaciones cotidianas.",
   "keyIdeas": [
-    "El perímetro es la suma de las longitudes de todos los lados de una figura.",
+    "El perímetro de un polígono es la suma de las longitudes de todos sus lados.",
     "Para calcularlo, debemos medir todos los lados en la misma unidad (metros o centímetros).",
     "En figuras con lados iguales, como el cuadrado, podemos usar la multiplicación."
   ],
@@ -61,7 +61,7 @@
       "explanation": "Un cuadrado tiene 4 lados iguales: 10 + 10 + 10 + 10 = 40 cm (o 4 × 10 = 40 cm).",
       "hint": "Recuerda que un cuadrado tiene cuatro lados iguales.",
       "lang": "es",
-      "sentence": "Un portaretratos cuadrado tiene 10 cm en cada lado. Su contorno mide ___ cm en total.",
+      "sentence": "Un portarretratos cuadrado tiene 10 cm en cada lado. Su contorno mide ___ cm en total.",
       "options": [
         "20",
         "40",
@@ -87,7 +87,7 @@
       "id": "g3-mates-perimetro-04",
       "type": "match",
       "prompt": "Une cada figura con su perímetro correspondiente:",
-      "explanation": "Triángulo: 6 + 6 + 6 = 18 cm. Cuadrado: 4 × 7 = 28 cm. Rectángulo: 10 + 4 + 10 + 4 = 28 cm. Pentágono: 5 × 3 = 15 cm.",
+      "explanation": "Triángulo: 3 × 6 = 18 cm. Cuadrado: 4 × 7 = 28 cm. Rectángulo: 11 + 4 + 11 + 4 = 30 cm. Pentágono: 5 × 3 = 15 cm.",
       "lang": "es",
       "pairs": [
         {
@@ -99,8 +99,8 @@
           "right": "28 cm"
         },
         {
-          "left": "Rectángulo de 10 cm de largo y 4 cm de ancho",
-          "right": "28 cm (rectángulo)"
+          "left": "Rectángulo de 11 cm de largo y 4 cm de ancho",
+          "right": "30 cm"
         },
         {
           "left": "Pentágono regular de 3 cm de lado",
@@ -124,7 +124,7 @@
     {
       "id": "g3-mates-perimetro-06",
       "type": "choice",
-      "prompt": "Cálculo mental: Estima el perímetro de una alfombra cuadrada de 19 cm de lado aproximando al número redondo más cercano.",
+      "prompt": "Cálculo mental: Estima el perímetro de una tarjeta cuadrada de 19 cm de lado aproximando al número redondo más cercano.",
       "explanation": "Aproximamos 19 cm a 20 cm. Al tener 4 lados iguales: 4 × 20 = 80 cm aproximadamente.",
       "hint": "Redondea 19 a la decena más cercana antes de multiplicar por 4.",
       "lang": "es",

@@ -199,14 +199,14 @@
     {
       "id": "g3-naturales-nutricion-en-plantas-y-animales-09",
       "type": "choice",
-      "prompt": "Hugo cuida un conejo que come heno y una tortuga que come pequeños peces e insectos. ¿Cómo se clasifican?",
-      "explanation": "El conejo solo come vegetales, por lo que es herbívoro. La tortuga come animales, así que es carnívora.",
-      "hint": "Fíjate en qué come cada una de las dos mascotas.",
+      "prompt": "Hugo lee que el conejo come heno y el león come otros animales. ¿Cómo se clasifican?",
+      "explanation": "El conejo es herbívoro y el león es carnívoro. Para clasificar otras especies, hay que conocer su dieta habitual.",
+      "hint": "Distingue alimentos de origen vegetal y animal.",
       "lang": "es",
       "options": [
-        "El conejo es herbívoro y la tortuga es carnívora.",
-        "Ambos animales son herbívoros porque viven en una casa.",
-        "El conejo es omnívoro y la tortuga es herbívora."
+        "El conejo es herbívoro y el león es carnívoro.",
+        "Los dos son herbívoros.",
+        "El conejo es omnívoro y el león es herbívoro."
       ],
       "answer": 0
     },

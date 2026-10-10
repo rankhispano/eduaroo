@@ -1,0 +1,263 @@
+{
+  "id": "g5-naturales-la-hidrosfera",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "la-hidrosfera",
+  "temaNombre": "The hydrosphere",
+  "title": "Exploring the hydrosphere",
+  "summary": "Explore Earth's water, the water cycle and why this vital resource needs protection.",
+  "keyIdeas": [
+    "The hydrosphere includes all water on Earth, whether solid, liquid or gas.",
+    "About 97% of Earth's water is salty and 3% is fresh. Most freshwater is frozen in glaciers and ice sheets.",
+    "The continuous water cycle moves water between Earth's surface and atmosphere, powered by sunlight."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1",
+      "5.3"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-la-hidrosfera-01",
+      "type": "true-false",
+      "prompt": "The hydrosphere contains only the liquid water we see in rivers, seas and oceans.",
+      "explanation": "It includes water in all three states: liquid in seas and rivers, solid in glaciers and snow, and gas as atmospheric water vapour.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about where Earth's water is found.",
+      "explanation": "About 69% of Earth's freshwater is frozen in glaciers and the ice sheets of Antarctica and Greenland.",
+      "lang": "en",
+      "sentence": "Most of Earth's freshwater is frozen in ___ and polar ice sheets.",
+      "options": [
+        "reservoirs",
+        "aquifers",
+        "rivers",
+        "glaciers"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-03",
+      "type": "classify",
+      "prompt": "Classify these water sources as surface water or groundwater.",
+      "explanation": "Surface water lies or flows on Earth's surface. Groundwater soaks into the ground and is stored in aquifers.",
+      "lang": "en",
+      "categories": [
+        "Surface water",
+        "Groundwater"
+      ],
+      "items": [
+        {
+          "text": "The River Ebro",
+          "category": 0
+        },
+        {
+          "text": "An aquifer beneath a desert",
+          "category": 1
+        },
+        {
+          "text": "Lake Sanabria",
+          "category": 0
+        },
+        {
+          "text": "A freshwater well",
+          "category": 1
+        },
+        {
+          "text": "A Ruidera lagoon",
+          "category": 0
+        },
+        {
+          "text": "A mountain stream",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-04",
+      "type": "match",
+      "prompt": "Match each water-cycle stage to its physical process.",
+      "explanation": "The cycle involves changes of state and water movement, driven by sunlight and gravity.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Evaporation",
+          "right": "Liquid water becomes vapour as the Sun warms it."
+        },
+        {
+          "left": "Condensation",
+          "right": "Water vapour cools and forms droplets in clouds."
+        },
+        {
+          "left": "Precipitation",
+          "right": "Water falls as rain, snow or hail."
+        },
+        {
+          "left": "Infiltration",
+          "right": "Water soaks down into underground layers."
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-05",
+      "type": "order",
+      "prompt": "Hugo follows a water droplet's journey. Order its stages, starting when the sea warms.",
+      "explanation": "The cycle continues through evaporation, condensation, precipitation and water flowing back to the sea.",
+      "lang": "en",
+      "items": [
+        "Seawater warms and rises as invisible vapour.",
+        "The vapour cools and forms droplets in a cloud.",
+        "Droplets join and become large enough to fall as rain over a mountain.",
+        "Water flows down a stream and returns to the sea."
+      ]
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-06",
+      "type": "choice",
+      "prompt": "Lucía and Mateo make a water-cycle model with a container covered in transparent film in sunlight. They see droplets hanging from the film. Which change of state is this?",
+      "explanation": "Water vapour reaches the cooler film and condenses into liquid droplets, like droplets forming in clouds.",
+      "hint": "Think of gas turning into liquid as it cools.",
+      "lang": "en",
+      "options": [
+        "Filtration: the plastic absorbs moisture from the bottom.",
+        "Melting: ice becomes liquid water inside the container.",
+        "Condensation: warm water vapour reaches cooler plastic and becomes liquid.",
+        "Freezing: liquid water turns into ice on the film."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-07",
+      "type": "choice",
+      "prompt": "The class discusses water. Which statement contains a common scientific error?",
+      "explanation": "The water cycle continues when water reaches the sea: it can evaporate, condense and return as precipitation.",
+      "lang": "en",
+      "options": [
+        "'The water cycle stops forever when water reaches the sea.'",
+        "'Water vapour is a transparent, invisible gas in the air we breathe.'",
+        "'Icebergs float because ice is less dense than liquid water.'",
+        "'Water covers almost three quarters of Earth's surface.'"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-08",
+      "type": "reading",
+      "prompt": "Read about water challenges and answer the questions.",
+      "explanation": "Understanding the limited supply of accessible freshwater helps us make responsible choices.",
+      "lang": "en",
+      "title": "Water's invisible footprint",
+      "text": "When we turn on a tap, we rarely think about water's journey. Although Earth looks blue from space, about 97% of its water is salty and cannot be used directly for drinking or watering crops. Most freshwater is in ice or underground; only a small share is in rivers and lakes.\n\nBeyond drinking and washing, there is 'virtual water': water needed to make a cotton T-shirt, produce a kilogram of meat or manufacture a school notebook. The amount varies with the location and production methods.\n\nSaving water therefore involves more than turning off the tap while brushing our teeth. It also means using goods thoughtfully, avoiding food waste and requiring industries to protect rivers and aquifers from pollution.",
+      "questions": [
+        {
+          "prompt": "Approximately what percentage of Earth's water is fresh?",
+          "explanation": "If about 97% is salty, the remaining 3% is fresh.",
+          "options": [
+            "About 50%",
+            "Less than 0,1%",
+            "About 3%",
+            "About 97%"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "According to the text, what is virtual water?",
+          "explanation": "It is the freshwater used directly and indirectly to produce goods or food.",
+          "options": [
+            "Invisible water vapour in the upper atmosphere.",
+            "Imaginary water in video games and computer simulations.",
+            "Groundwater that is never brought to the surface.",
+            "Water used and polluted during the whole production process."
+          ],
+          "answer": 3
+        },
+        {
+          "prompt": "Why is turning off the tap while brushing our teeth not enough to protect the hydrosphere?",
+          "explanation": "Clothes, food and other goods also have a large, often unseen water footprint.",
+          "options": [
+            "Only major storms affect Earth's water.",
+            "Aquifers have unlimited reserves that cannot run out.",
+            "Household water immediately evaporates without affecting the environment.",
+            "Producing goods and food uses large amounts of water that we should also help reduce."
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-09",
+      "type": "choice",
+      "prompt": "After a hot summer with little rain, Aisha notices less water in her village's river and well. Which explanation fits?",
+      "explanation": "Heat encourages evaporation and little rain reduces replenishment. Water extraction can also matter.",
+      "hint": "Connect temperature with evaporation and the lack of rainfall.",
+      "lang": "en",
+      "options": [
+        "The water cycle stops completely in the hottest months.",
+        "River water becomes salty and flows faster into Earth's core.",
+        "High temperatures increase evaporation, while little rain prevents groundwater being replenished.",
+        "Plants stop taking up water in hot weather, making all soil dry out."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-naturales-la-hidrosfera-10",
+      "type": "choice",
+      "prompt": "Omar's town wants to stop fertiliser nitrates polluting its water. Why is pollution reaching an aquifer especially concerning?",
+      "explanation": "Many aquifers renew slowly. Underground water is difficult to reach and clean, so preventing pollution matters.",
+      "hint": "Think about reaching water inside underground rock layers.",
+      "lang": "en",
+      "options": [
+        "Groundwater often renews very slowly and is extremely difficult to clean underground.",
+        "Fertiliser makes groundwater boil and destroys the ground.",
+        "Aquifers only flow into active volcanoes, causing acidic eruptions.",
+        "Chemicals instantly turn into toxic vapour that destroys the atmosphere."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:10:25.369Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:02:07.666Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "2643cf74242abae5069e3dd93f17044fece56ec724d0d66c1d4737926d60fb85",
+      "validation": "manual-review"
+    }
+  }
+}

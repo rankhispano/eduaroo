@@ -1,0 +1,242 @@
+{
+  "id": "g4-ingles-will-predicciones",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "will-predicciones",
+  "temaNombre": "Will: Predictions",
+  "title": "Predictions: The World Tomorrow",
+  "summary": "Practise making predictions about the future using 'will' and 'won't'.",
+  "keyIdeas": [
+    "Use 'will' followed by a base verb to make a prediction: 'Cars will fly'. A prediction is not a guarantee.",
+    "The negative form is 'won't' (will not). It stays the same with 'he', 'she' and 'it'.",
+    "For a yes-or-no question, put 'Will' before the subject: 'Will robots cook?'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-will-predicciones-01",
+      "type": "choice",
+      "prompt": "Look at those dark clouds! 🌧️ It ___ rain this afternoon.",
+      "explanation": "'Will' can introduce a prediction about the future. It does not take an 's' ending.",
+      "hint": "Choose the future helper word 'will'.",
+      "lang": "en",
+      "options": [
+        "is",
+        "wills",
+        "will"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-will-predicciones-02",
+      "type": "true-false",
+      "prompt": "'People won't live on Mars' means that people are definitely going to live on Mars.",
+      "explanation": "False. 'Won't' means 'will not'. This sentence predicts that people will not live on Mars.",
+      "hint": "'Won't' is the short form of 'will not'.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-ingles-will-predicciones-03",
+      "type": "fill-blank",
+      "prompt": "Complete the future prediction with the correct form.",
+      "explanation": "Use 'will' followed by the base verb, without 'to'.",
+      "hint": "Put 'will' before the main verb.",
+      "lang": "en",
+      "sentence": "In the year 2050, robots ___ help doctors in hospitals.",
+      "options": [
+        "will",
+        "will to",
+        "are"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-will-predicciones-04",
+      "type": "match",
+      "prompt": "Match each plan with the future sentence that describes it. Plans can change.",
+      "explanation": "These sentences describe announced plans. A plan or prediction does not guarantee that something will happen.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Leo has a train ticket for tomorrow.",
+          "right": "He will travel by train tomorrow."
+        },
+        {
+          "left": "The class plans a museum visit on Friday.",
+          "right": "They will visit the museum on Friday."
+        },
+        {
+          "left": "Hugo has arranged to call his cousin tonight.",
+          "right": "He will call his cousin tonight."
+        },
+        {
+          "left": "Martina has booked a swimming lesson for Saturday.",
+          "right": "She will go swimming on Saturday."
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-will-predicciones-05",
+      "type": "classify",
+      "prompt": "Sort these predictions into Affirmative or Negative.",
+      "explanation": "The sentences with 'will' are affirmative. Those with 'won't' are negative.",
+      "lang": "en",
+      "categories": [
+        "Affirmative prediction",
+        "Negative prediction"
+      ],
+      "items": [
+        {
+          "text": "Cars will fly over the cities.",
+          "category": 0
+        },
+        {
+          "text": "People won't use dirty petrol.",
+          "category": 1
+        },
+        {
+          "text": "Houses will produce their own energy.",
+          "category": 0
+        },
+        {
+          "text": "Children won't carry heavy backpacks.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-will-predicciones-06",
+      "type": "fill-blank",
+      "prompt": "Complete the question using 'will' to ask about a future prediction.",
+      "explanation": "In this yes-or-no question, 'Will' comes before the subject 'people'.",
+      "hint": "Start with the helper word used for the future prediction.",
+      "lang": "en",
+      "sentence": "___ people travel to the Moon for holidays?",
+      "options": [
+        "Will",
+        "Do",
+        "Are"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-will-predicciones-07",
+      "type": "order",
+      "prompt": "Put the words in order to make a correct prediction.",
+      "explanation": "Start with the time phrase, then the subject 'we', 'will', the base verb 'travel' and the transport phrase.",
+      "lang": "en",
+      "items": [
+        "In the future,",
+        "we",
+        "will",
+        "travel",
+        "by",
+        "electric train."
+      ]
+    },
+    {
+      "id": "g4-ingles-will-predicciones-08",
+      "type": "choice",
+      "prompt": "Omar and Aisha are talking about school in the future. Omar says: 'Teachers ___ us, but computers will help.'",
+      "explanation": "After 'will', use the base form 'teach', without 's' or 'to'.",
+      "hint": "The main verb needs its base form.",
+      "lang": "en",
+      "options": [
+        "will still teach",
+        "will still teaches",
+        "will to teach"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-will-predicciones-09",
+      "type": "reading",
+      "prompt": "Read Aisha's text about the future and answer the questions.",
+      "explanation": "Aisha uses 'will' and 'will not' to share imagined predictions about school, transport and the environment.",
+      "lang": "en",
+      "title": "Life in the Future by Aisha",
+      "text": "Life in the Future by Aisha.\nI think our world will be very different in fifty years. Students will not carry heavy backpacks because computers will hold all our lessons. Teachers will explain difficult projects, but helpful robots will organise the materials. In the playground, children will play games with interactive holograms. Also, flying buses will carry people to work and school, so traffic jams will disappear. We will use clean energy from the sun and wind. I think the future will be green and fun!",
+      "questions": [
+        {
+          "prompt": "Why won't students carry heavy backpacks in the future?",
+          "explanation": "In Aisha's imagined future, computers will hold all the lessons.",
+          "options": [
+            "Because robots will carry their heavy bags.",
+            "Because students won't go to school.",
+            "Because computers will hold all their lessons."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Where will clean energy come from?",
+          "explanation": "Aisha says that clean energy will come from the sun and wind.",
+          "options": [
+            "From the sun and wind.",
+            "From flying buses.",
+            "From petrol and coal."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-will-predicciones-10",
+      "type": "order",
+      "prompt": "Put the words in order to ask a question about the future.",
+      "explanation": "The order is 'Will' + subject 'robots' + base verb 'cook' + 'our dinner?'.",
+      "lang": "en",
+      "items": [
+        "Will",
+        "robots",
+        "cook",
+        "our",
+        "dinner?"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:17:36.804Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:21:43.628Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f6dc4681c08fc12f3c4824e6bd1ff20897d07c71e6708baf502add8b0e53a87e",
+      "validation": "manual-review"
+    }
+  }
+}

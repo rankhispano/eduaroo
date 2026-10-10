@@ -1,0 +1,237 @@
+{
+  "id": "g1-ingles-saludos-y-despedidas",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "saludos-y-despedidas",
+  "temaNombre": "Greetings and goodbyes",
+  "title": "Hello and Goodbye!",
+  "summary": "Practise common English greetings and goodbyes for each day.",
+  "keyIdeas": [
+    "Use Hello or Hi to greet someone, and Goodbye or Bye when leaving.",
+    "Say Good morning in the morning and Good night when going to bed."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "3.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-saludos-y-despedidas-01",
+      "type": "choice",
+      "prompt": "You arrive at school in the morning. What do you say?",
+      "explanation": "We say Good morning when greeting people in the morning.",
+      "hint": "It is the start of the morning.",
+      "lang": "en",
+      "options": [
+        "Goodbye!",
+        "Good morning!",
+        "Good night!"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-02",
+      "type": "fill-blank",
+      "prompt": "Complete the greeting when you see a friend in the park.",
+      "explanation": "We say Hello when meeting a friend.",
+      "hint": "Look for the greeting that means hola in Spanish.",
+      "lang": "en",
+      "sentence": "___, Leo! Nice to see you.",
+      "options": [
+        "Bye",
+        "Hello",
+        "Night"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-03",
+      "type": "match",
+      "prompt": "Match each greeting or goodbye to a similar reply.",
+      "explanation": "Hello and Hi are similar greetings. Goodbye and Bye-bye are ways to say goodbye.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Hello!",
+          "right": "Hi!"
+        },
+        {
+          "left": "Good morning!",
+          "right": "Good morning, teacher!"
+        },
+        {
+          "left": "Goodbye!",
+          "right": "Bye-bye!"
+        },
+        {
+          "left": "See you later!",
+          "right": "See you!"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-04",
+      "type": "classify",
+      "prompt": "Sort these expressions into greetings and goodbyes.",
+      "explanation": "Hello, Hi and Good morning start a conversation. Goodbye, Bye-bye and See you are used when leaving.",
+      "lang": "en",
+      "categories": [
+        "Greetings",
+        "Goodbyes"
+      ],
+      "items": [
+        {
+          "text": "Hello",
+          "category": 0
+        },
+        {
+          "text": "Goodbye",
+          "category": 1
+        },
+        {
+          "text": "Good morning",
+          "category": 0
+        },
+        {
+          "text": "Bye-bye",
+          "category": 1
+        },
+        {
+          "text": "Hi",
+          "category": 0
+        },
+        {
+          "text": "See you tomorrow",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-05",
+      "type": "choice",
+      "prompt": "Hugo goes to bed at night. What does he say to his family?",
+      "explanation": "We say Good night when going to bed.",
+      "hint": "It is nighttime, and Hugo is going to sleep.",
+      "lang": "en",
+      "options": [
+        "Good night!",
+        "Good morning!",
+        "Hello!"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-06",
+      "type": "order",
+      "prompt": "Put these expressions in order through a day.",
+      "explanation": "First comes Good morning, then Good afternoon, and finally Good night at bedtime.",
+      "lang": "en",
+      "items": [
+        "Good morning",
+        "Good afternoon",
+        "Good night"
+      ]
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-07",
+      "type": "fill-blank",
+      "prompt": "School has finished for today. Complete the goodbye.",
+      "explanation": "We say Goodbye or Bye when leaving school.",
+      "hint": "It is time to go home.",
+      "lang": "en",
+      "sentence": "___, see you tomorrow!",
+      "options": [
+        "Morning",
+        "Hello",
+        "Goodbye"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-08",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "The story shows greetings on arrival and goodbyes when school ends.",
+      "lang": "en",
+      "title": "At the School Gate",
+      "text": "Lucía arrives at school. She sees Omar. Lucía says: 'Good morning, Omar!' Omar smiles: 'Hello, Lucía!' Later, school finishes. Omar waves his hand: 'Goodbye, Lucía!' Lucía answers: 'Bye-bye, see you tomorrow!'",
+      "questions": [
+        {
+          "prompt": "What does Lucía say in the morning?",
+          "explanation": "At the start, Lucía says 'Good morning, Omar!'.",
+          "options": [
+            "Goodbye, Omar!",
+            "Good night, Omar!",
+            "Good morning, Omar!"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Omar say when school finishes?",
+          "explanation": "Omar says 'Goodbye, Lucía!' when leaving.",
+          "options": [
+            "Goodbye, Lucía!",
+            "Good morning, Lucía!",
+            "Hello, Lucía!"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-saludos-y-despedidas-09",
+      "type": "choice",
+      "prompt": "Martina enters the classroom at nine in the morning. What does she say to her teacher?",
+      "explanation": "At nine in the morning, she politely says 'Good morning, teacher!'.",
+      "hint": "It is morning, and Martina is arriving at school.",
+      "lang": "en",
+      "options": [
+        "Good morning, teacher!",
+        "Good night, teacher!",
+        "Goodbye, teacher!"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:51:15.998Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:04:49.797Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "dd88183132a7bd908a245baf39df05e7a782716b9e155470f551bd5b7f5d6ee0",
+      "validation": "manual-review"
+    }
+  }
+}

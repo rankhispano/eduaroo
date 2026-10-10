@@ -1,0 +1,277 @@
+{
+  "id": "g1-lengua-vocales-y-consonantes",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "vocales-y-consonantes",
+  "temaNombre": "Vowels and consonants",
+  "title": "Playing with vowels and consonants",
+  "summary": "Practise telling vowel letters and consonants apart in everyday Spanish words.",
+  "keyIdeas": [
+    "The five vowel letters are A, E, I, O and U.",
+    "The other letters of the Spanish alphabet are consonants.",
+    "We join vowels and consonants to make syllables and words."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-vocales-y-consonantes-01",
+      "type": "choice",
+      "prompt": "Hugo needs a vowel letter for a game. Which letter is a vowel?",
+      "explanation": "E is a vowel letter. M and P are consonants.",
+      "hint": "Remember the five vowel letters: A, E, I, O, U.",
+      "lang": "en",
+      "options": [
+        "P",
+        "M",
+        "E"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-02",
+      "type": "true-false",
+      "prompt": "The letter S is a consonant.",
+      "explanation": "The five vowel letters are A, E, I, O and U. S is a consonant.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-03",
+      "type": "classify",
+      "prompt": "Sort these letters into the correct box.",
+      "explanation": "A, O and U are vowel letters. T, L and P are consonants.",
+      "lang": "en",
+      "categories": [
+        "Vowels",
+        "Consonants"
+      ],
+      "items": [
+        {
+          "text": "A",
+          "category": 0
+        },
+        {
+          "text": "T",
+          "category": 1
+        },
+        {
+          "text": "O",
+          "category": 0
+        },
+        {
+          "text": "L",
+          "category": 1
+        },
+        {
+          "text": "U",
+          "category": 0
+        },
+        {
+          "text": "P",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-04",
+      "type": "match",
+      "prompt": "Match each Spanish word to the vowel letter it begins with.",
+      "explanation": "Each word begins with a different vowel letter: «avión» with A, «elefante» with E, «isla» with I and «oso» with O.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "avión",
+          "right": "A"
+        },
+        {
+          "left": "elefante",
+          "right": "E"
+        },
+        {
+          "left": "isla",
+          "right": "I"
+        },
+        {
+          "left": "oso",
+          "right": "O"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-05",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence about the word «SOL».",
+      "explanation": "In «SOL», O is a vowel letter between two consonants, S and L.",
+      "lang": "en",
+      "sentence": "En la palabra SOL, la letra O es una ___.",
+      "options": [
+        "frase",
+        "vocal",
+        "consonante"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-06",
+      "type": "order",
+      "prompt": "Put the five vowel letters in alphabetical order.",
+      "explanation": "The five vowel letters appear in this order: A, E, I, O, U.",
+      "lang": "en",
+      "items": [
+        "A",
+        "E",
+        "I",
+        "O",
+        "U"
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-07",
+      "type": "reading",
+      "prompt": "Read the short Spanish text and answer the questions.",
+      "explanation": "Read carefully and count the vowel letters in «GATO».",
+      "lang": "en",
+      "title": "El gato de Aisha",
+      "text": "Aisha tiene un gato blanco. Se llama Peluso. A Peluso le gusta jugar con lana y dormir al sol.",
+      "questions": [
+        {
+          "prompt": "What is Aisha's cat called?",
+          "explanation": "The text tells us that the cat is called Peluso.",
+          "options": [
+            "Sol",
+            "Peluso",
+            "Blanco"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "How many vowel letters are in the Spanish word «GATO»?",
+          "explanation": "There are two vowel letters in «GATO»: A and O.",
+          "options": [
+            "One vowel",
+            "Two vowels",
+            "Four vowels"
+          ],
+          "answer": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-08",
+      "type": "choice",
+      "prompt": "Omar lists these vowel letters: A, E, M, U. Which consonant has he included by mistake?",
+      "explanation": "M is a consonant, so it does not belong in a list of vowel letters.",
+      "hint": "Which of the three choices is not a vowel letter?",
+      "lang": "en",
+      "options": [
+        "M",
+        "A",
+        "E"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-09",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by their first letter.",
+      "explanation": "«uva», «estrella» and «iglú» begin with vowels: u, e and i. «barco», «mesa» and «casa» begin with consonants: b, m and c.",
+      "lang": "en",
+      "categories": [
+        "Begins with a vowel",
+        "Begins with a consonant"
+      ],
+      "items": [
+        {
+          "text": "uva",
+          "category": 0
+        },
+        {
+          "text": "barco",
+          "category": 1
+        },
+        {
+          "text": "estrella",
+          "category": 0
+        },
+        {
+          "text": "mesa",
+          "category": 1
+        },
+        {
+          "text": "iglú",
+          "category": 0
+        },
+        {
+          "text": "casa",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-vocales-y-consonantes-10",
+      "type": "choice",
+      "prompt": "Adrián wants a Spanish word with two vowel letters and two consonants. Which word fits?",
+      "explanation": "«LUNA» has two consonants, L and N, and two vowels, U and A. «SOL» has only one vowel. «PLÁTANO» has more letters.",
+      "hint": "Count the letters in «LUNA»: L-U-N-A.",
+      "lang": "en",
+      "options": [
+        "PLÁTANO",
+        "SOL",
+        "LUNA"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:24:16.441Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:13:30.549Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "52bc298e487d75034e55d57a6cd119e5f15097734a5d590aae0c428da0047c5a",
+      "validation": "manual-review"
+    }
+  }
+}

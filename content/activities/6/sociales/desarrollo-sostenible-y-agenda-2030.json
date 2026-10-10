@@ -109,7 +109,7 @@
       "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-05",
       "type": "classify",
       "prompt": "Clasifica estas acciones cotidianas según pertenezcan al modelo de economía lineal («usar y tirar») o al de economía circular («reducir y aprovechar»):",
-      "explanation": "La economía circular busca alargar la vida útil de los materiales y eliminar los residuos, mientras que la economía lineal agota recursos y genera basura constante.",
+      "explanation": "La economía circular busca reducir los residuos y aprovechar mejor los materiales. La economía lineal sigue el modelo de extraer, usar y desechar.",
       "lang": "es",
       "categories": [
         "Economía lineal",
@@ -161,14 +161,13 @@
       "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-07",
       "type": "order",
       "prompt": "Ordena estas estrategias de gestión de residuos según su orden de prioridad para la sostenibilidad (desde la más recomendada hasta la que debe ser el último recurso):",
-      "explanation": "La mejor gestión es evitar generar residuos (reducir). Si ya existen, lo prioritario es reutilizarlos y repararlos; después, reciclarlos, y solo como último remedio depositarlos en el vertedero.",
+      "explanation": "La prioridad es prevenir residuos; después prolongar la vida de los objetos, reciclar y, como último recurso, eliminar los residuos. Reparar y reutilizar forman parte de prolongar su uso.",
       "lang": "es",
       "items": [
-        "Reducir la compra y el consumo de productos innecesarios",
-        "Reutilizar los objetos dándoles una segunda oportunidad",
-        "Reparar los aparatos averiados en lugar de cambiarlos por nuevos",
-        "Reciclar los materiales para transformarlos en materia prima",
-        "Depositar en vertederos los desechos que no han podido aprovecharse"
+        "Reducir compras y consumos innecesarios",
+        "Reutilizar y reparar los objetos para prolongar su vida",
+        "Reciclar los materiales que ya no pueden utilizarse",
+        "Eliminar los residuos que no han podido aprovecharse"
       ]
     },
     {
@@ -189,7 +188,7 @@
     {
       "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-09",
       "type": "reading",
-      "prompt": "Lee atentamente la noticia sobre este proyecto escolar y responde a las preguntas:",
+      "prompt": "Lee este caso ficticio de un proyecto escolar y responde:",
       "explanation": "El proyecto muestra cómo el ahorro de recursos permite reinvertir en energías limpias y hábitos más saludables.",
       "lang": "es",
       "title": "Un colegio con energía propia",
@@ -197,7 +196,7 @@
       "questions": [
         {
           "prompt": "¿Qué porcentaje de ahorro en la factura eléctrica consiguió el colegio tras las medidas aplicadas?",
-          "explanation": "El texto indica expresamente que, tras cinco meses de trabajo, el centro redujo su consumo eléctrico un 24 %.",
+          "explanation": "El caso indica un ahorro del 24 % en la factura. La factura y el consumo de energía no son la misma medida.",
           "options": [
             "Un 50 %.",
             "Un 15 %.",
@@ -230,7 +229,7 @@
     {
       "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-10",
       "type": "classify",
-      "prompt": "El desarrollo sostenible se sostiene sobre tres pilares inseparables. Clasifica cada medida dentro de su dimensión correspondiente:",
+      "prompt": "Las tres dimensiones están relacionadas. Clasifica estas medidas según el aspecto principal que se destaca:",
       "explanation": "La verdadera sostenibilidad solo se alcanza cuando cuidamos la naturaleza (ambiental), garantizamos los derechos de las personas (social) y creamos una economía justa y viable (económica).",
       "lang": "es",
       "categories": [

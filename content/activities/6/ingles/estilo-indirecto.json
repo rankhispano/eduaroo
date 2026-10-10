@@ -4,12 +4,12 @@
   "asignaturaId": "ingles",
   "temaId": "estilo-indirecto",
   "temaNombre": "Estilo indirecto",
-  "title": "Mastering Reported Speech in English",
-  "summary": "Practica cómo contar en inglés lo que otras personas han dicho usando el estilo indirecto.",
+  "title": "Estilo indirecto: ampliación guiada",
+  "summary": "Con ayuda y modelos sencillos, practica cómo contar lo que dijo otra persona.",
   "keyIdeas": [
-    "En estilo indirecto cambiamos los verbos en presente al pasado (am/is a was, like a liked, can a could).",
-    "Los pronombres cambian según quién habla (I pasa a he o she).",
-    "Usamos 'said that' o 'told me that' para introducir lo que alguien dijo."
+    "Ampliación para practicar con ayuda: «Hugo said: I am happy» → «Hugo said that he was happy».",
+    "Con said/told en pasado podemos desplazar el verbo al pasado. Si el mensaje sigue siendo válido, a veces se conserva el presente.",
+    "Los pronombres dependen de quién cuenta el mensaje: si otra persona habla de Hugo, «I» pasa a «he»."
   ],
   "lomloe": {
     "area": "lengua-extranjera",
@@ -51,7 +51,7 @@
       "id": "g6-ingles-estilo-indirecto-01",
       "type": "true-false",
       "prompt": "When we report what someone said in the past, present verbs usually change to past verbs.",
-      "explanation": "Es verdadero. En el estilo indirecto (reported speech), si contamos algo que ocurrió en el pasado, el verbo da un salto hacia atrás en el tiempo (por ejemplo, 'play' pasa a 'played').",
+      "explanation": "En los ejemplos con said/told en pasado practicamos el cambio de presente a pasado. No siempre es obligatorio: depende del contexto.",
       "hint": "Piensa si usamos el presente o el pasado para contar lo que alguien ya dijo.",
       "lang": "en",
       "answer": true
@@ -88,7 +88,7 @@
     {
       "id": "g6-ingles-estilo-indirecto-03",
       "type": "match",
-      "prompt": "Match each present verb in direct speech with its reported past form:",
+      "prompt": "Con este modelo de cambio al pasado, une las formas: «I am happy» → «He said he was happy».",
       "explanation": "Al pasar a estilo indirecto, 'am/is' cambia a 'was', 'are' a 'were', los verbos regulares añaden '-ed' ('liked') y 'can' se convierte en 'could'.",
       "lang": "en",
       "pairs": [
@@ -142,7 +142,7 @@
     {
       "id": "g6-ingles-estilo-indirecto-06",
       "type": "choice",
-      "prompt": "Martina says in class: \"I have a new pencil case.\" How do you report this?",
+      "prompt": "Ayer Martina dijo «I have a new pencil case». Otra persona lo cuenta siguiendo el modelo de cambio al pasado. ¿Qué opción corresponde?",
       "explanation": "El pronombre 'I' pasa a 'she' y el presente 'have' cambia al pasado 'had'.",
       "hint": "Recuerda cambiar tanto el pronombre como el tiempo del verbo.",
       "lang": "en",
@@ -227,13 +227,13 @@
     {
       "id": "g6-ingles-estilo-indirecto-10",
       "type": "choice",
-      "prompt": "David tells the class: \"We want to plant trees tomorrow.\" How do you report his words correctly?",
-      "explanation": "La opción correcta usa 'told the teacher' (sin 'to'), cambia 'we' a 'they' y pasa el verbo 'want' a pasado 'wanted'.",
+      "prompt": "Ayer David dijo a su profesor: «We want to plant trees tomorrow». Una persona ajena al grupo lo cuenta después, usando el modelo de pasado. ¿Qué frase mantiene el mensaje?",
+      "explanation": "Usamos «told the teacher», cambiamos «we» por «they» porque el narrador está fuera del grupo y «tomorrow» por «the next day» al contarlo después.",
       "hint": "Revisa la estructura de 'told someone' y el tiempo pasado del verbo.",
       "lang": "en",
       "options": [
         "David told to the teacher that they want to plant trees.",
-        "David told the teacher that they wanted to plant trees.",
+        "David told the teacher that they wanted to plant trees the next day.",
         "David said the teacher that we want to plant trees."
       ],
       "answer": 1

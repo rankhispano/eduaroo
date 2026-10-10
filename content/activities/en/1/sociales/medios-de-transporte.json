@@ -1,0 +1,252 @@
+{
+  "id": "g1-sociales-medios-de-transporte",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "medios-de-transporte",
+  "temaNombre": "Transport",
+  "title": "Moving around the city!",
+  "summary": "Learn to group types of transport and travel safely.",
+  "keyIdeas": [
+    "Transport travels on land, on water or through the air.",
+    "Shared transport and cycling can help keep city air cleaner.",
+    "In cars, we use a suitable seat and restraint. On bikes, we wear helmets."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "6.1",
+      "9.3"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Alfabetización cívica",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-medios-de-transporte-01",
+      "type": "classify",
+      "prompt": "Sort these vehicles by where they travel.",
+      "explanation": "Buses and bicycles travel on land. Planes and helicopters fly through the air.",
+      "lang": "en",
+      "categories": [
+        "On land",
+        "Through the air"
+      ],
+      "items": [
+        {
+          "text": "Bus",
+          "category": 0
+        },
+        {
+          "text": "Plane",
+          "category": 1
+        },
+        {
+          "text": "Bicycle",
+          "category": 0
+        },
+        {
+          "text": "Helicopter",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-02",
+      "type": "true-false",
+      "prompt": "A boat is a type of transport that travels on water.",
+      "explanation": "Boats travel on seas, rivers and lakes.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-03",
+      "type": "match",
+      "prompt": "Match each vehicle to where it travels.",
+      "explanation": "Different vehicles use different routes.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Train",
+          "right": "Metal railway tracks"
+        },
+        {
+          "left": "Car",
+          "right": "Road"
+        },
+        {
+          "left": "Boat",
+          "right": "Sea"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-04",
+      "type": "choice",
+      "prompt": "Omar travels with many people he does not know in the same vehicle. Which transport is he using?",
+      "explanation": "A bus is shared transport. Many people travel together on it.",
+      "hint": "It is a large vehicle carrying many local people.",
+      "lang": "en",
+      "options": [
+        "A city bus",
+        "His scooter",
+        "His bicycle"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-05",
+      "type": "fill-blank",
+      "prompt": "Complete the road-safety sentence.",
+      "explanation": "An adult checks that our seat is suitable and that we are safely secured.",
+      "lang": "en",
+      "sentence": "In a car, we travel securely fastened in a suitable ___ seat.",
+      "options": [
+        "safety",
+        "dining",
+        "study"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-06",
+      "type": "choice",
+      "prompt": "Lucía lives very close to school. Which is the healthiest and cleanest way to travel?",
+      "explanation": "Walking is good exercise and produces no exhaust fumes.",
+      "hint": "Moving our legs helps keep us healthy.",
+      "lang": "en",
+      "options": [
+        "Walk with her dad",
+        "Travel in a petrol car",
+        "Travel on a noisy motorbike"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-07",
+      "type": "classify",
+      "prompt": "Sort these examples into shared or individual transport.",
+      "explanation": "Underground trains and buses carry many passengers. These bikes and scooters are for one rider.",
+      "lang": "en",
+      "categories": [
+        "Shared transport",
+        "Individual transport"
+      ],
+      "items": [
+        {
+          "text": "Underground train",
+          "category": 0
+        },
+        {
+          "text": "Own bicycle",
+          "category": 1
+        },
+        {
+          "text": "School bus",
+          "category": 0
+        },
+        {
+          "text": "Scooter",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-08",
+      "type": "order",
+      "prompt": "Put Adrián's steps for cycling with an adult in order.",
+      "explanation": "We wear a helmet, choose a safe route and have an adult with us.",
+      "lang": "en",
+      "items": [
+        "Check the bike and fit the helmet properly",
+        "Check that the route is clear and safe",
+        "Pedal carefully beside the adult"
+      ]
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-09",
+      "type": "choice",
+      "prompt": "Many people take the bus instead of a car. What can happen in the city?",
+      "explanation": "Sharing a bus means using fewer cars. This helps care for local air.",
+      "hint": "Fewer cars can mean less noise and fewer fumes.",
+      "lang": "en",
+      "options": [
+        "The air fills with dirty smoke",
+        "There are fewer fumes and traffic jams",
+        "There are more traffic jams"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-sociales-medios-de-transporte-10",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "A train is shared land transport that runs on tracks.",
+      "lang": "en",
+      "title": "A train journey",
+      "text": "Hugo and his grandmother go to the mountains. They buy tickets at the station and take window seats on the train. It moves quickly along the tracks. Hugo happily watches the trees.",
+      "questions": [
+        {
+          "prompt": "Which transport do Hugo and his grandmother use?",
+          "explanation": "They take a train to the mountains.",
+          "options": [
+            "A boat",
+            "A train",
+            "A helicopter"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Where does this vehicle travel?",
+          "explanation": "This train travels on railway tracks.",
+          "options": [
+            "Through the blue sky",
+            "On metal railway tracks",
+            "On seawater"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:24:00.270Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:00:21.036Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "dfe01f6b0d80665cf02716bacfd04f8d3b76a39b50ec76b0f65fb9b1af99ae2c",
+      "validation": "manual-review"
+    }
+  }
+}

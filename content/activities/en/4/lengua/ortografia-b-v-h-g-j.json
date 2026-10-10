@@ -1,0 +1,248 @@
+{
+  "id": "g4-lengua-ortografia-b-v-h-g-j",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "ortografia-b-v-h-g-j",
+  "temaNombre": "Spanish Spelling: B/V, H and G/J",
+  "title": "Spelling Detective Mission",
+  "summary": "Practise Spanish spelling with b, v, h, g and j in everyday words and texts.",
+  "keyIdeas": [
+    "Spanish -aba verb endings and the letter groups bl and br are written with b.",
+    "Spanish words beginning with the sounds hie- and hue-, such as «hielo» and «huevo», start with h.",
+    "Infinitives such as «recoger» and «elegir» use g in -ger and -gir. «Tejer» and «crujir» use j."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-01",
+      "type": "true-false",
+      "prompt": "The groups «bl» and «br», as in «blanco» and «brazo», are written with b.",
+      "explanation": "True. These groups use b. This does not mean b goes before every consonant: «adverbio» uses v.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-02",
+      "type": "fill-blank",
+      "prompt": "Choose the correctly spelt Spanish verb form to complete the sentence.",
+      "explanation": "Spanish past-tense endings in -aba are written with b.",
+      "lang": "en",
+      "sentence": "En la clase de música, Adrián ___ una canción tradicional con su guitarra.",
+      "options": [
+        "cantaha",
+        "cantaba",
+        "cantava"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-03",
+      "type": "choice",
+      "prompt": "Aisha checks her shopping list. Which Spanish word is spelt correctly?",
+      "explanation": "«Huevo» starts with h, following the rule for the initial hue- sound.",
+      "hint": "Remember the spelling of words starting with hue- or hie-.",
+      "lang": "en",
+      "options": [
+        "Uevo",
+        "Huevo",
+        "Guevo"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-04",
+      "type": "match",
+      "prompt": "Match each group of Spanish words with its spelling rule or example.",
+      "explanation": "These rules and examples help with spelling. Some rules have exceptions to learn or check in a dictionary.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Words beginning with hie- or hue-",
+          "right": "Written with h"
+        },
+        {
+          "left": "Infinitives ending in -ger or -gir",
+          "right": "Use g in infinitives such as recoger and elegir"
+        },
+        {
+          "left": "Words ending in -aje or -eje",
+          "right": "Use j in examples such as viaje and eje"
+        },
+        {
+          "left": "Past-tense endings in -aba",
+          "right": "Written with b"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-05",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by whether they use g or j.",
+      "explanation": "«Proteger», «gigante» and «recoger» use g. «Equipaje», «rodaje» and «crujir» use j.",
+      "lang": "en",
+      "categories": [
+        "Written with G",
+        "Written with J"
+      ],
+      "items": [
+        {
+          "text": "proteger",
+          "category": 0
+        },
+        {
+          "text": "equipaje",
+          "category": 1
+        },
+        {
+          "text": "gigante",
+          "category": 0
+        },
+        {
+          "text": "crujir",
+          "category": 1
+        },
+        {
+          "text": "recoger",
+          "category": 0
+        },
+        {
+          "text": "rodaje",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-06",
+      "type": "choice",
+      "prompt": "Lucía reads this school notice: «Aviso: Está proivido correr por el pasillo». Which word has a spelling mistake?",
+      "explanation": "The correct spelling is «prohibido», with an h inside the word and a b.",
+      "hint": "Look for the word with a missing h.",
+      "lang": "en",
+      "options": [
+        "proivido",
+        "correr",
+        "pasillo"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-07",
+      "type": "order",
+      "prompt": "Put Nerea's steps for checking the spelling in her writing in order.",
+      "explanation": "Read carefully, remember the rules, check uncertain words and then correct them.",
+      "lang": "en",
+      "items": [
+        "Read slowly to find words you are unsure about.",
+        "Remember the spelling rules learnt in class.",
+        "Check uncertain spellings in the school dictionary.",
+        "Correct the words before handing in the work."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-08",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence, remembering the exceptions to the -bir spelling pattern.",
+      "explanation": "«Servir», «hervir» and «vivir» use v. Many other verbs with this ending sound use b, such as «escribir».",
+      "lang": "en",
+      "sentence": "En el comedor, Omar ayuda a ___ agua en los vasos.",
+      "options": [
+        "servir",
+        "serbir",
+        "cerbir"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-09",
+      "type": "reading",
+      "prompt": "Read the Spanish text about school and answer the questions.",
+      "explanation": "Careful reading helps us understand events and notice how words are spelt.",
+      "lang": "en",
+      "title": "El huerto escolar de Hugo",
+      "text": "Hugo y Martina cuidan el huerto del colegio cada jueves. Hoy han recogido tomates rojos y hierbabuena fresca. De repente, escucharon un suave crujido entre las hojas de un rosal. Era una pequeña oruga tejiendo un capullo brillante bajo una rama. Martina protegió al animal con unas ramitas para no molestarlo. Hugo anotó el hallazgo en su libreta de campo con un dibujo muy bonito. Los dos amigos sonreían felices por haber descubierto este pequeño secreto de la naturaleza antes de volver a clase.",
+      "questions": [
+        {
+          "prompt": "What animal did Hugo and Martina find among the rose bush leaves?",
+          "explanation": "The text describes a small caterpillar spinning a shining cocoon.",
+          "options": [
+            "A grasshopper eating leaves.",
+            "A snail climbing the stem.",
+            "A caterpillar spinning a cocoon."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What spelling feature do «huerto», «hierbabuena» and «hallazgo» share?",
+          "explanation": "All three words start with h. The first two also illustrate the hue- and hie- spelling patterns.",
+          "options": [
+            "They end with b.",
+            "They start with h.",
+            "They have a j before a vowel."
+          ],
+          "answer": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-ortografia-b-v-h-g-j-10",
+      "type": "choice",
+      "prompt": "The school newspaper wants to publish a news item. Which Spanish sentence is spelt correctly?",
+      "explanation": "«Cogió» uses g; «viajó» uses v and j; «autobús» and «abuelos» use b.",
+      "hint": "Remember the spellings of «coger» and «viajar».",
+      "lang": "en",
+      "options": [
+        "Ayer Hugo cogió su abrigo y biajó en autobús con sus abuelos.",
+        "Ayer Hugo cogió su abrigo y viajó en autobús con sus abuelos.",
+        "Ayer Hugo cojió su abrigo y viajó en autobús con sus abuelos."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:48:56.552Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:23:50.023Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "c7eeca6b5113c51ef4381948cc1665e92a82f97e0985cafdbeea17b9bc182a4e",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -7,9 +7,9 @@
   "title": "Descubrimos a nuestra familia",
   "summary": "Repasa los tipos de familia, el parentesco y la colaboración en casa.",
   "keyIdeas": [
-    "Todas las familias son diferentes y se cuidan con cariño.",
-    "En casa, todas las personas colaboramos en las tareas del hogar.",
-    "Nuestros abuelos y abuelas forman parte de nuestra historia familiar."
+    "Las familias pueden ser diferentes. Todas las personas merecen cuidado y respeto.",
+    "En casa colaboramos según nuestra edad y lo que podemos hacer.",
+    "Los recuerdos de familiares y personas cercanas ayudan a conocer el pasado."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -47,7 +47,7 @@
     {
       "id": "g1-sociales-la-familia-01",
       "type": "true-false",
-      "prompt": "¿Todas las familias son iguales?",
+      "prompt": "Todas las familias son iguales.",
       "explanation": "Hay muchos tipos de familia y todas son especiales y únicas.",
       "lang": "es",
       "answer": false
@@ -64,7 +64,7 @@
           "right": "Mi abuela"
         },
         {
-          "left": "El hijo de mis padres",
+          "left": "Otro hijo de mis padres",
           "right": "Mi hermano"
         },
         {
@@ -147,7 +147,7 @@
       "id": "g1-sociales-la-familia-07",
       "type": "true-false",
       "prompt": "Solo las madres deben lavar los platos y cocinar.",
-      "explanation": "Todas las personas de la casa deben colaborar por igual.",
+      "explanation": "Las tareas no dependen de ser hombre o mujer. Se reparten según la edad y las posibilidades de cada persona.",
       "lang": "es",
       "answer": false
     },
@@ -193,7 +193,7 @@
           "explanation": "El texto explica que el abuelo Luis jugaba con peonzas.",
           "options": [
             "Con bloques de plástico.",
-            "Con peonzas de madera.",
+            "Con peonzas.",
             "Con una tableta digital."
           ],
           "answer": 1

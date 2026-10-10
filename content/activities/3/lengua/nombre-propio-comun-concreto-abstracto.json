@@ -116,25 +116,25 @@
     {
       "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-05",
       "type": "match",
-      "prompt": "Une cada sustantivo con su tipo principal.",
-      "explanation": "Valencia es propio, amistad es un sentimiento abstracto, guitarra es un objeto concreto y ciudad es común.",
+      "prompt": "Relaciona cada ejemplo con su descripción. Un sustantivo puede ser común y concreto a la vez.",
+      "explanation": "Propio/común y concreto/abstracto son clasificaciones diferentes. «Ciudad» y «guitarra» son comunes y concretos.",
       "lang": "es",
       "pairs": [
         {
           "left": "Valencia",
-          "right": "Sustantivo propio"
+          "right": "Nombre propio de una ciudad"
         },
         {
           "left": "amistad",
-          "right": "Sustantivo abstracto"
+          "right": "Nombre de una relación abstracta"
         },
         {
           "left": "guitarra",
-          "right": "Sustantivo concreto"
+          "right": "Nombre de un instrumento concreto"
         },
         {
           "left": "ciudad",
-          "right": "Sustantivo común"
+          "right": "Nombre común para cualquier ciudad"
         }
       ]
     },
@@ -238,14 +238,14 @@
     {
       "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-10",
       "type": "order",
-      "prompt": "Ordena los pasos lógicos para clasificar el sustantivo «esperanza».",
-      "explanation": "Primero revisamos si es propio o común, y después comprobamos si se percibe con los sentidos para saber si es abstracto.",
+      "prompt": "Ordena los pasos de esta guía para clasificar «esperanza» en «Siento esperanza».",
+      "explanation": "El contexto permite distinguir «esperanza», un sentimiento, del nombre propio «Esperanza». Una mayúscula al comienzo de una oración no convierte un nombre común en propio.",
       "lang": "es",
       "items": [
-        "Comprobar si nombra a alguien en particular con mayúscula inicial.",
-        "Identificar que es un sustantivo común porque va en minúscula.",
-        "Pensar si nombra algo que se percibe con los sentidos.",
-        "Concluir que es un sustantivo abstracto porque expresa un sentimiento."
+        "Leer «esperanza» en su oración.",
+        "Comprobar que nombra un sentimiento en general, no a una persona llamada Esperanza.",
+        "Identificarla como sustantivo común en este contexto.",
+        "Reconocer que es abstracto porque nombra un sentimiento."
       ]
     }
   ],

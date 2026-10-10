@@ -1,0 +1,269 @@
+{
+  "id": "g4-naturales-clasificacion-de-seres-vivos",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "clasificacion-de-seres-vivos",
+  "temaNombre": "Classifying living things",
+  "title": "Exploring living kingdoms",
+  "summary": "Practise grouping animals, plants, fungi and microorganisms by their main features.",
+  "keyIdeas": [
+    "This topic uses a school model of five kingdoms to group living things. Other classification systems also exist.",
+    "Animals and fungi do not make their own food. Plants generally make food using sunlight.",
+    "Vertebrates have a backbone. Invertebrates do not."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "2.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-01",
+      "type": "classify",
+      "prompt": "Classify these living things by kingdom.",
+      "explanation": "These plants make their own food and remain rooted in place. These animals feed on other organisms and move around.",
+      "lang": "en",
+      "categories": [
+        "Plant kingdom",
+        "Animal kingdom"
+      ],
+      "items": [
+        {
+          "text": "Oak tree",
+          "category": 0
+        },
+        {
+          "text": "Iberian wolf",
+          "category": 1
+        },
+        {
+          "text": "Wild rosemary",
+          "category": 0
+        },
+        {
+          "text": "Ladybird",
+          "category": 1
+        },
+        {
+          "text": "Fern",
+          "category": 0
+        },
+        {
+          "text": "Dolphin",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-02",
+      "type": "true-false",
+      "prompt": "Mushrooms belong to the plant kingdom because they grow from the ground.",
+      "explanation": "Mushrooms belong to the fungi kingdom. Unlike plants, fungi cannot make food through photosynthesis.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-03",
+      "type": "choice",
+      "prompt": "Aisha examines yoghurt through a microscope and finds tiny living things made of one cell. What are they?",
+      "explanation": "Yoghurt contains helpful bacteria: single-celled microorganisms in the bacteria group of this school model.",
+      "hint": "They are microscopic living things made of a single cell.",
+      "lang": "en",
+      "options": [
+        "Mushrooms with caps",
+        "Bacteria",
+        "Tiny plants",
+        "Vertebrate animals"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-04",
+      "type": "match",
+      "prompt": "Match each vertebrate group to a common feature.",
+      "explanation": "Vertebrate groups have characteristic coverings and ways of breathing suited to their environments.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Birds",
+          "right": "Bodies covered in feathers"
+        },
+        {
+          "left": "Mammals",
+          "right": "Hair or fur, and young fed with milk"
+        },
+        {
+          "left": "Fish",
+          "right": "Fins and breathing through gills"
+        },
+        {
+          "left": "Reptiles",
+          "right": "Dry skin covered in tough scales"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-05",
+      "type": "choice",
+      "prompt": "Adrián says aquarium corals are plants because they stay attached to rocks. What is his mistake?",
+      "explanation": "Corals are animals that capture food from water. Many also live with algae that photosynthesise.",
+      "hint": "How do they obtain food and energy?",
+      "lang": "en",
+      "options": [
+        "They are animals, even though they stay attached and capture food from water.",
+        "They are sea fungi that absorb salt from the seabed.",
+        "They are magical rocks that grow in salt water."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-06",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about fungi's nutrition.",
+      "explanation": "Some fungi break down dead material. Others interact with living organisms in different ways.",
+      "lang": "en",
+      "sentence": "Some soil fungi obtain nutrients from dead leaves through ___.",
+      "options": [
+        "decomposition",
+        "photosynthesis",
+        "respiration"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-07",
+      "type": "choice",
+      "prompt": "Wei sees a fern with roots and green leaves making food using light. Which group does it belong to?",
+      "explanation": "A fern is a plant. Some algae and bacteria also photosynthesise, so photosynthesis alone does not uniquely identify plants.",
+      "hint": "Recall which group ferns belong to.",
+      "lang": "en",
+      "options": [
+        "A green plant-eating animal that does not move.",
+        "A fungus that needs sunlight to warm up.",
+        "A plant that uses sunlight to make its food."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-08",
+      "type": "classify",
+      "prompt": "Classify these animals by whether they have a backbone.",
+      "explanation": "Vertebrates have a backbone. Invertebrates do not, although some have hard protective structures.",
+      "lang": "en",
+      "categories": [
+        "Vertebrates",
+        "Invertebrates"
+      ],
+      "items": [
+        {
+          "text": "House sparrow",
+          "category": 0
+        },
+        {
+          "text": "Garden snail",
+          "category": 1
+        },
+        {
+          "text": "Iberian lizard",
+          "category": 0
+        },
+        {
+          "text": "Earthworm",
+          "category": 1
+        },
+        {
+          "text": "River trout",
+          "category": 0
+        },
+        {
+          "text": "Sea jellyfish",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-09",
+      "type": "reading",
+      "prompt": "Read Omar and Martina's laboratory experience and answer the questions.",
+      "explanation": "The tiny protozoa in this example are single-celled organisms living in water, observed with a microscope.",
+      "lang": "en",
+      "title": "A drop full of life",
+      "text": "Omar and Martina collect a drop of still water from the school pond. With their teacher's help, they place it on a slide and look through a microscope. At first they see only clear water, then tiny swimming creatures appear. Omar spots an amoeba changing shape to catch particles. Martina finds elongated paramecia covered in tiny hair-like structures called cilia. Their teacher explains that these are single-celled microorganisms. In the school classification model, they are protozoa, rather than plants or animals.",
+      "questions": [
+        {
+          "prompt": "Which instrument do they need to see these living things?",
+          "explanation": "The text says they examine the drop with a school microscope.",
+          "options": [
+            "A simple magnifying glass",
+            "A telescope",
+            "A microscope"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why could they not see the amoebas with their unaided eyes?",
+          "explanation": "These microorganisms are so small that magnifying lenses are needed to distinguish them.",
+          "options": [
+            "They are microscopic single-celled organisms, too small to see with unaided eyes.",
+            "They hide inside stones at the pond bottom.",
+            "They swim only when the room is completely dark."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-clasificacion-de-seres-vivos-10",
+      "type": "order",
+      "prompt": "Order the steps for classifying an organism with a guide.",
+      "explanation": "Observe and compare evidence before classifying. Naming a newly discovered species requires specialist work.",
+      "lang": "en",
+      "items": [
+        "Observe its features without harming it.",
+        "Use the guide to learn about its body and how it feeds.",
+        "Compare the evidence with groups in the guide.",
+        "Record the classification and reasons for it."
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:01:21.963Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:15:43.277Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "cf03fb06d178b98e1af26c20aebc84deb3e0532750ce62d300e6c8954db42732",
+      "validation": "manual-review"
+    }
+  }
+}

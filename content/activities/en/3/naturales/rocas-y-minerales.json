@@ -1,0 +1,244 @@
+{
+  "id": "g3-naturales-rocas-y-minerales",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "rocas-y-minerales",
+  "temaNombre": "Rocks and minerals",
+  "title": "The world of rocks and minerals",
+  "summary": "Practise the differences between rocks and minerals, their properties and their everyday uses.",
+  "keyIdeas": [
+    "Rocks are made of one or more minerals.",
+    "Minerals are natural, non-living substances with properties such as shine, colour and hardness.",
+    "We use rocks and minerals in buildings, tools, jewellery and everyday objects."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-rocas-y-minerales-01",
+      "type": "choice",
+      "prompt": "Lucía looks at a sample of granite. What is this rock made of?",
+      "explanation": "Granite is mainly made of the minerals quartz, feldspar and mica.",
+      "hint": "Think about the quartz or mica in granite.",
+      "lang": "en",
+      "options": [
+        "Crushed animal bones",
+        "One or more minerals",
+        "Compressed dry leaves"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-02",
+      "type": "true-false",
+      "prompt": "Rocks and minerals are living things because they form inside Earth.",
+      "explanation": "Rocks and minerals are non-living matter. They do not feed or reproduce.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the property Hugo tests by scratching two minerals.",
+      "explanation": "Hardness tells us whether a mineral scratches easily or resists scratching.",
+      "lang": "en",
+      "sentence": "A mineral's resistance to being scratched is called ___.",
+      "options": [
+        "hardness",
+        "colour",
+        "shine"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-04",
+      "type": "match",
+      "prompt": "Match each natural material to its everyday use.",
+      "explanation": "We use the different properties of rocks and minerals to build structures and make useful objects.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Graphite",
+          "right": "The core of pencils for writing"
+        },
+        {
+          "left": "Slate",
+          "right": "Waterproof roofing for houses"
+        },
+        {
+          "left": "Gold",
+          "right": "Making valuable jewellery"
+        },
+        {
+          "left": "Clay",
+          "right": "Building bricks and roof tiles"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-05",
+      "type": "classify",
+      "prompt": "Sort these geological materials into rocks or minerals.",
+      "explanation": "Granite, basalt and slate are rocks. Quartz, diamond and pyrite are minerals.",
+      "lang": "en",
+      "categories": [
+        "Rocks",
+        "Minerals"
+      ],
+      "items": [
+        {
+          "text": "Granite",
+          "category": 0
+        },
+        {
+          "text": "Quartz",
+          "category": 1
+        },
+        {
+          "text": "Diamond",
+          "category": 1
+        },
+        {
+          "text": "Basalt",
+          "category": 0
+        },
+        {
+          "text": "Pyrite",
+          "category": 1
+        },
+        {
+          "text": "Slate",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-06",
+      "type": "order",
+      "prompt": "Aisha tests the hardness of three samples. Put them in order from softest to hardest.",
+      "explanation": "A mineral that a fingernail can scratch is very soft. One that scratches glass is harder.",
+      "lang": "en",
+      "items": [
+        "A mineral easily scratched with a fingernail",
+        "A mineral scratched with a metal coin, but not a fingernail",
+        "A mineral that can scratch glass"
+      ]
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-07",
+      "type": "choice",
+      "prompt": "With his teacher, Omar puts vinegar on a limestone sample and sees bubbles. What has he observed?",
+      "explanation": "Limestone contains carbonates that can react with vinegar and release gas. The bubbles are a sign of this reaction.",
+      "hint": "Think about what the bubbles show.",
+      "lang": "en",
+      "options": [
+        "A reaction that releases gas",
+        "The rock is alive and breathing",
+        "The whole rock disappears when vinegar touches it"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-08",
+      "type": "choice",
+      "prompt": "Three friends talk about granite. Who makes an incorrect statement?",
+      "explanation": "Adrián is mistaken: granite is a rock made of several minerals, rather than a pure mineral.",
+      "hint": "Look for someone confusing a rock with a mineral.",
+      "lang": "en",
+      "options": [
+        "Martina: Granite is a rock made of several minerals",
+        "Adrián: Granite is a pure mineral made of a single substance",
+        "Nerea: We can see quartz, feldspar and mica in granite"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "The text helps us understand that rocks can be made of a combination of minerals.",
+      "lang": "en",
+      "title": "The secret of granite",
+      "text": "On a mountain walk, Mateo and his grandmother found a large grey rock. She explained that it was granite, a common rock in their area. 'Look closely with this magnifying glass,' she said. Granite is a rock mainly made of three minerals. Mateo looked carefully. He saw whitish quartz, pale feldspar and tiny shiny flakes of mica. He thought of rocks as cakes made from several ingredients. Each mineral was like a separate ingredient.",
+      "questions": [
+        {
+          "prompt": "Which tool did Mateo use to see the minerals clearly?",
+          "explanation": "His grandmother suggested looking closely with a magnifying glass.",
+          "options": [
+            "A handheld magnifying glass",
+            "An astronomical telescope",
+            "An electron microscope"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "In Mateo's comparison, what does a mineral represent?",
+          "explanation": "Mateo compares a rock to a whole cake and each mineral to a separate ingredient.",
+          "options": [
+            "The plate on which food is served",
+            "A single ingredient in the cake",
+            "The whole baked cake"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-rocas-y-minerales-10",
+      "type": "choice",
+      "prompt": "Wei visits a cave with very fragile mineral formations. Which action shows care and respect for the environment?",
+      "explanation": "To protect underground natural heritage, we should avoid touching formations and stay on the authorised path.",
+      "hint": "Think about preserving the cave for other visitors.",
+      "lang": "en",
+      "options": [
+        "Scratch his name into the cave walls with a stone",
+        "Take a broken piece home to show his class",
+        "Walk along the marked path without touching the cave formations"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T19:32:34.731Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:24:14.820Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "a0005eb6372367e64e05d7eeff9e6b99936668ef813d69ba1842b7fdcbe1ec74",
+      "validation": "manual-review"
+    }
+  }
+}

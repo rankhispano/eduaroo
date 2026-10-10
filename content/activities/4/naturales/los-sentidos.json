@@ -62,7 +62,7 @@
           "right": "Presión y temperatura"
         },
         {
-          "left": "Pituitaria de la nariz",
+          "left": "Receptores del olfato en la nariz",
           "right": "Sustancias químicas del aire"
         }
       ]
@@ -129,12 +129,12 @@
       "prompt": "Lee atentamente el texto del experimento y responde a las preguntas:",
       "explanation": "El gusto y el olfato trabajan juntos para reconocer los sabores completos de la comida.",
       "lang": "es",
-      "title": "El misterio de la merienda a ciegas",
-      "text": "En clase de Ciencias, Aisha y Adrián realizan una prueba sensorial muy curiosa. Aisha tiene los ojos tapados con un antifaz y la nariz tapada con una pinza de plástico suave. Adrián le ofrece un trozo pequeño de manzana y, después, un trozo de patata cruda con la misma textura.\n\nAisha mastica despacio cada trozo. Aunque siente que ambos son crujientes y frescos, le cuesta mucho diferenciarlos sin olerlos. Cuando se quita la pinza de la nariz y vuelve a probar, distingue la manzana de inmediato.",
+      "title": "La merienda durante un resfriado",
+      "text": "Aisha está resfriada y tiene la nariz congestionada. Al merendar una manzana que conoce, nota que es crujiente y algo dulce, pero su aroma le parece menos intenso. La docente explica que el gusto reconoce sabores básicos y que el olfato ayuda a percibir los aromas de los alimentos.\n\nAdrián recuerda que la textura también importa: los receptores de la boca permiten notar si algo está crujiente, blando, frío o caliente. Así comprenden que varios sentidos colaboran durante una comida. Pueden seguir aprendiendo con este ejemplo sin hacer pruebas con alimentos desconocidos ni taparse la nariz mientras comen.",
       "questions": [
         {
-          "prompt": "¿Por qué Aisha no pudo diferenciar bien la manzana de la patata al principio?",
-          "explanation": "El aroma de los alimentos llega por vía retronasal y complementa la información del gusto.",
+          "prompt": "¿Por qué a Aisha le cuesta reconocer los aromas cuando está resfriada?",
+          "explanation": "El olfato colabora con el gusto. Si la nariz está congestionada, pueden percibirse peor los aromas.",
           "options": [
             "Porque la piel de las manos no estaba tocando la fruta.",
             "Porque los ojos son indispensables para que las papilas gustativas funcionen.",
@@ -144,7 +144,7 @@
         },
         {
           "prompt": "¿Qué sentido le permitió a Aisha notar que los alimentos eran crujientes?",
-          "explanation": "El tacto dentro de la cavidad bucal permite percibir la textura, la dureza y la temperatura.",
+          "explanation": "Los receptores de la boca permiten notar textura y temperatura.",
           "options": [
             "El tacto, a través de los receptores de la boca.",
             "El olfato, gracias a la pituitaria amarilla.",

@@ -5,11 +5,11 @@
   "temaId": "comprension-de-textos-orales",
   "temaNombre": "Comprensión de textos orales",
   "title": "Escuchamos y comprendemos mensajes",
-  "summary": "Practicarás la escucha atenta de mensajes orales, avisos y pequeños cuentos cotidianos.",
+  "summary": "Practica mensajes y avisos. Para trabajar la escucha, pide a una persona adulta que los lea en voz alta.",
   "keyIdeas": [
     "Escuchar con atención nos ayuda a entender bien los mensajes de los demás.",
     "Para comprender un aviso oral, nos fijamos en qué ocurre, quién habla y dónde pasa.",
-    "Esperar el turno de palabra y mirar a quien habla demuestra respeto y educación."
+    "Escuchar con atención y esperar el turno de palabra ayuda a comunicarnos con respeto."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -52,8 +52,8 @@
     {
       "id": "g1-lengua-comprension-de-textos-orales-01",
       "type": "true-false",
-      "prompt": "Para entender bien lo que nos dicen, debemos mirar y escuchar con atención.",
-      "explanation": "Mirar a la persona que habla y estar atentos nos ayuda a comprender todo el mensaje.",
+      "prompt": "Prestar atención a quien habla nos ayuda a comprender su mensaje.",
+      "explanation": "Escuchamos con atención. Mirar a quien habla puede ayudar, pero no es obligatorio mantener contacto visual para escuchar bien.",
       "lang": "es",
       "answer": true
     },
@@ -166,7 +166,7 @@
     {
       "id": "g1-lengua-comprension-de-textos-orales-08",
       "type": "reading",
-      "prompt": "Lee este aviso que nos leen en clase y responde a las preguntas.",
+      "prompt": "Pide a una persona adulta que lea el aviso en voz alta. Escucha y responde; también puedes consultar el texto.",
       "explanation": "Identificar los datos de un aviso nos permite saber qué debemos preparar.",
       "lang": "es",
       "title": "Aviso de la excursión",

@@ -1,0 +1,233 @@
+{
+  "id": "g2-lengua-el-articulo",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "el-articulo",
+  "temaNombre": "Spanish articles",
+  "title": "Playing with Spanish articles",
+  "summary": "Practise Spanish articles and how they agree with nouns.",
+  "keyIdeas": [
+    "Articles go with nouns: el perro, la mesa, los libros, las flores.",
+    "Spanish has definite articles (el, la, los, las) and indefinite articles (un, una, unos, unas).",
+    "An article agrees with the noun's gender and number. There are special cases such as 'el agua', which is feminine."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-el-articulo-01",
+      "type": "true-false",
+      "prompt": "In «el perro», the article goes with a masculine singular noun.",
+      "explanation": "Use «el» in «el lápiz» and «el perro» because these nouns are masculine and singular.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-articulo-02",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with the correct article.",
+      "explanation": "Use «los» because «libros» is masculine and plural.",
+      "lang": "en",
+      "sentence": "Hugo guarda ___ libros nuevos en la mochila.",
+      "options": [
+        "los",
+        "la",
+        "el"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-articulo-03",
+      "type": "classify",
+      "prompt": "Sort these Spanish articles by number.",
+      "explanation": "Singular articles go with nouns naming one thing or being. Plural articles go with nouns naming more than one.",
+      "lang": "en",
+      "categories": [
+        "Singular (one)",
+        "Plural (more than one)"
+      ],
+      "items": [
+        {
+          "text": "el",
+          "category": 0
+        },
+        {
+          "text": "las",
+          "category": 1
+        },
+        {
+          "text": "un",
+          "category": 0
+        },
+        {
+          "text": "unos",
+          "category": 1
+        },
+        {
+          "text": "la",
+          "category": 0
+        },
+        {
+          "text": "unas",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-articulo-04",
+      "type": "match",
+      "prompt": "Match each Spanish article to the noun it fits.",
+      "explanation": "Each article must agree with the noun's gender and number.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "La",
+          "right": "pelota"
+        },
+        {
+          "left": "Unos",
+          "right": "patines"
+        },
+        {
+          "left": "El",
+          "right": "estuche"
+        },
+        {
+          "left": "Las",
+          "right": "bicicletas"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-articulo-05",
+      "type": "choice",
+      "prompt": "Omar is in art class. Which Spanish question uses the correct article?",
+      "explanation": "Use «unas ceras» because «ceras» is feminine and plural.",
+      "hint": "«ceras» ends in -s and is feminine.",
+      "lang": "en",
+      "options": [
+        "¿Me dejas el ceras?",
+        "¿Me dejas un ceras?",
+        "¿Me dejas unas ceras?"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-articulo-06",
+      "type": "choice",
+      "prompt": "Find the Spanish sentence with an incorrect article.",
+      "explanation": "«la cuadernos» is incorrect because «cuadernos» is masculine and plural. Use «los cuadernos».",
+      "lang": "en",
+      "options": [
+        "Adrián compró la cuadernos.",
+        "Adrián compró los cuadernos.",
+        "Adrián compró un cuaderno."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-articulo-07",
+      "type": "fill-blank",
+      "prompt": "Choose the correct Spanish indefinite article.",
+      "explanation": "Use «una» because «mariposa» is feminine and singular.",
+      "lang": "en",
+      "sentence": "En el jardín vimos ___ mariposa de colores.",
+      "options": [
+        "un",
+        "una",
+        "unas"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-articulo-08",
+      "type": "reading",
+      "prompt": "Read the Spanish text carefully and answer the questions.",
+      "explanation": "The text has definite articles such as «el» and «las», and indefinite articles such as «unos» and «una».",
+      "lang": "en",
+      "title": "El huerto escolar",
+      "text": "Hoy visitamos el huerto. Hugo riega las plantas verdes. Aisha coge unos tomates rojos. En el suelo hay una regadera grande. Todos cuidamos las flores con cariño.",
+      "questions": [
+        {
+          "prompt": "Which article goes with «tomates» in the text?",
+          "explanation": "The text says, «Aisha coge unos tomates rojos».",
+          "options": [
+            "las",
+            "los",
+            "unos"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why do we use «las» before «plantas»?",
+          "explanation": "«plantas» is feminine and plural, so it needs «las».",
+          "options": [
+            "Because it is feminine and plural.",
+            "Because it is masculine and singular.",
+            "Because it names just one thing."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-articulo-09",
+      "type": "order",
+      "prompt": "Put the Spanish sentence in order: who sings, then the action, then where.",
+      "explanation": "The sentence starts with a capital letter in «Los» and ends with the full stop in «árbol.».",
+      "lang": "en",
+      "items": [
+        "Los",
+        "pájaros",
+        "cantan",
+        "en",
+        "el",
+        "árbol."
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:11:45.918Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:26:25.206Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "c220be0370800fd56352e3a0ff016f9fdfd39330f7438e8e71cad99fdc5454cb",
+      "validation": "manual-review"
+    }
+  }
+}

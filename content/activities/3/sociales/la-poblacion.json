@@ -47,7 +47,7 @@
       "id": "g3-sociales-la-poblacion-01",
       "type": "true-false",
       "prompt": "La población absoluta es el número total de habitantes que viven en un lugar.",
-      "explanation": "La población absoluta cuenta a todas las personas empadronadas en una localidad, región o país.",
+      "explanation": "La población absoluta es el número total de personas que viven en un territorio. No equivale siempre a las personas inscritas en un registro.",
       "lang": "es",
       "answer": true
     },
@@ -108,7 +108,7 @@
       "id": "g3-sociales-la-poblacion-05",
       "type": "classify",
       "prompt": "Clasifica a estas personas según su situación laboral:",
-      "explanation": "La población activa trabaja o busca trabajo. Los niños, estudiantes y jubilados son población no activa.",
+      "explanation": "En estos ejemplos, quien trabaja o busca empleo es población activa. El niño y la persona jubilada que no busca empleo son población no activa.",
       "lang": "es",
       "categories": [
         "Población activa",
@@ -137,7 +137,7 @@
       "id": "g3-sociales-la-poblacion-06",
       "type": "choice",
       "prompt": "En el pueblo de Nerea nacieron 15 bebés este año y fallecieron 9 personas. ¿Cómo ha sido el crecimiento natural?",
-      "explanation": "Restamos las muertes a los nacimientos: 15 menos 9 son 6. Por tanto, la población ha crecido.",
+      "explanation": "El crecimiento natural es nacimientos menos defunciones: 15 − 9 = 6. Para calcular el cambio total de población también hay que contar llegadas y salidas.",
       "hint": "Resta los nacimientos menos las defunciones.",
       "lang": "es",
       "options": [
@@ -179,14 +179,14 @@
     {
       "id": "g3-sociales-la-poblacion-08",
       "type": "order",
-      "prompt": "Ordena el proceso de cambio de población en una pequeña aldea:",
-      "explanation": "Primero ocurre la emigración hacia las ciudades y luego la llegada de nuevos habitantes revitaliza el pueblo.",
+      "prompt": "Ordena esta historia de una aldea usando las pistas temporales.",
+      "explanation": "Esta es una historia posible de cambio de población. No todas las aldeas siguen los mismos pasos.",
       "lang": "es",
       "items": [
-        "Muchas familias jóvenes se marchan a la ciudad buscando empleo.",
-        "En la aldea quedan sobre todo personas mayores jubiladas.",
-        "Llegan nuevas familias con niños para trabajar a distancia.",
-        "Abre de nuevo la escuela local con nuevos alumnos."
+        "Al principio, muchas familias jóvenes se marchan a la ciudad.",
+        "Después, quedan sobre todo personas mayores y la escuela cierra.",
+        "Más adelante, llegan nuevas familias con niños.",
+        "Finalmente, vuelve a abrir la escuela para esos alumnos."
       ]
     },
     {

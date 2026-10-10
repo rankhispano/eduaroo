@@ -84,7 +84,7 @@
       "id": "g4-naturales-reproduccion-en-animales-y-plantas-02",
       "type": "fill-blank",
       "prompt": "Completa la frase con la palabra correcta sobre las plantas.",
-      "explanation": "La polinización es el transporte del polen de una flor a otra gracias al viento o a insectos.",
+      "explanation": "La polinización es el transporte de polen hasta la parte receptora del pistilo. Puede ocurrir en la misma flor o entre flores.",
       "hint": "Piensa en el polen.",
       "lang": "es",
       "sentence": "El viaje del polen desde los estambres hasta el pistilo de una flor se llama ___.",
@@ -131,7 +131,7 @@
     {
       "id": "g4-naturales-reproduccion-en-animales-y-plantas-05",
       "type": "choice",
-      "prompt": "Omar planta una fresa en una maceta. Pronto observa un tallo largo que toca la tierra y echa raíces. ¿Qué proceso es?",
+      "prompt": "Omar cuida una planta de fresa. Un tallo largo toca la tierra y echa raíces. ¿Qué proceso observa?",
       "explanation": "Las fresas emiten tallos rastreros llamados estolones. Al tocar el suelo, forman raíces y crean una planta idéntica sin semillas.",
       "hint": "La nueva planta nace directamente de un tallo de la planta madre.",
       "lang": "es",
@@ -146,14 +146,14 @@
       "id": "g4-naturales-reproduccion-en-animales-y-plantas-06",
       "type": "order",
       "prompt": "Ordena los pasos de la reproducción sexual en las plantas con flor, del primero al último.",
-      "explanation": "Primero ocurre la polinización, luego la fecundación, la formación del fruto, la dispersión y, por último, la germinación.",
+      "explanation": "Tras polinización y fecundación, el ovario forma el fruto y se desarrollan semillas. La germinación requiere condiciones adecuadas.",
       "lang": "es",
       "items": [
-        "El polen viaja desde los estambres hasta el pistilo.",
-        "El polen se une con el óvulo dentro del ovario.",
-        "El pistilo se transforma en fruto con semillas dentro.",
-        "Las semillas caen y se dispersan por el suelo.",
-        "La semilla absorbe agua, germina y nace una plántula."
+        "El polen llega a la parte receptora del pistilo.",
+        "Una célula reproductora del polen fecunda una célula del óvulo.",
+        "El ovario forma el fruto y los óvulos se convierten en semillas.",
+        "Las semillas se dispersan.",
+        "Una semilla germina si tiene condiciones adecuadas."
       ]
     },
     {
@@ -204,14 +204,14 @@
     {
       "id": "g4-naturales-reproduccion-en-animales-y-plantas-09",
       "type": "choice",
-      "prompt": "Aisha prepara un experimento con semillas de lenteja. Pone un vaso con tierra húmeda y otro con tierra totalmente seca. Ambos reciben la misma luz. ¿Qué predicción científica es la correcta?",
-      "explanation": "El agua es indispensable para que la cáscara de la semilla se ablande y el embrión empiece a crecer.",
+      "prompt": "Dos grupos de lentejas sanas tienen aire y temperatura adecuada. Uno está húmedo y otro seco. ¿Qué predicción tiene más sentido?",
+      "explanation": "El agua permite iniciar la germinación, junto con aire, temperatura adecuada y semillas viables.",
       "hint": "¿Qué elemento esencial le falta al vaso seco?",
       "lang": "es",
       "options": [
-        "Germinarán ambos vasos a la vez porque la luz solar es lo único imprescindible.",
-        "Germinarán las del vaso seco porque el exceso de agua ahoga a todas las semillas.",
-        "Solo germinarán las lentejas del vaso húmedo porque el agua activa la semilla."
+        "Ambos germinarán igual sin necesitar agua.",
+        "Las semillas secas germinarán primero por no tener agua.",
+        "Las semillas húmedas pueden germinar; las secas necesitan agua."
       ],
       "answer": 2
     },

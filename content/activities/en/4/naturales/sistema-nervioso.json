@@ -1,0 +1,235 @@
+{
+  "id": "g4-naturales-sistema-nervioso",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "sistema-nervioso",
+  "temaNombre": "The nervous system",
+  "title": "Mission: the nervous system",
+  "summary": "Discover how your brain and nerves help coordinate everyday actions.",
+  "keyIdeas": [
+    "The nervous system receives sensory information, processes it and sends responses.",
+    "The brain and spinal cord form the central nervous system.",
+    "Nerves connect the body and carry fast messages through nerve cells called neurons."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-sistema-nervioso-01",
+      "type": "choice",
+      "prompt": "Hugo decides to pass a ball to Martina. Which main organ is responsible for this voluntary decision?",
+      "explanation": "The cerebrum is the part of the brain involved in thinking, remembering and voluntary decisions.",
+      "hint": "It is inside the skull and supports your thoughts.",
+      "lang": "en",
+      "options": [
+        "The heart",
+        "The stomach",
+        "The brain: its cerebrum"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-02",
+      "type": "true-false",
+      "prompt": "Nerves run throughout the body like a network of cables, carrying information in both directions.",
+      "explanation": "Nerves connect organs and senses with the brain and spinal cord.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about nervous-system cells.",
+      "explanation": "Neurons are nerve cells that transmit signals through the nervous system.",
+      "lang": "en",
+      "sentence": "The specialised cells transmitting electrical signals through the nervous system are ___.",
+      "options": [
+        "neurons",
+        "platelets",
+        "bacteria"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-04",
+      "type": "match",
+      "prompt": "Match each nervous-system part to its main role.",
+      "explanation": "The cerebrum supports thought, the cerebellum helps coordinate balance and movement, and the spinal cord carries messages and manages some reflexes.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Cerebrum",
+          "right": "Supports memories and decisions"
+        },
+        {
+          "left": "Cerebellum",
+          "right": "Coordinates balance and movement"
+        },
+        {
+          "left": "Spinal cord",
+          "right": "Carries messages and manages quick reflexes"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-05",
+      "type": "classify",
+      "prompt": "Classify these actions as voluntary or involuntary.",
+      "explanation": "We decide some actions consciously. Others happen automatically. A withdrawal reflex and a heartbeat are different kinds of involuntary processes.",
+      "lang": "en",
+      "categories": [
+        "Voluntary movement",
+        "Involuntary action"
+      ],
+      "items": [
+        {
+          "text": "Writing your name",
+          "category": 0
+        },
+        {
+          "text": "Your heart beating while you sleep",
+          "category": 1
+        },
+        {
+          "text": "Pulling your hand away after a thorn prick",
+          "category": 1
+        },
+        {
+          "text": "Kicking a football towards goal",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-06",
+      "type": "order",
+      "prompt": "Order what happens when an alarm clock rings.",
+      "explanation": "A sense detects the stimulus, information reaches the brain, and the brain sends instructions for a response.",
+      "lang": "en",
+      "items": [
+        "The ear detects the alarm's sound",
+        "Nerves carry sound information to the brain",
+        "The brain processes it and decides to switch off the alarm",
+        "Nerves send instructions to arm muscles",
+        "The hand moves and presses the button"
+      ]
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-07",
+      "type": "choice",
+      "prompt": "Aisha listens to classmates' ideas. Who makes a scientific error?",
+      "explanation": "The heart beats involuntarily. Its own activation system starts beats, while the nervous system helps regulate the rate.",
+      "hint": "Which organs work without a conscious command for each action?",
+      "lang": "en",
+      "options": [
+        "Adrián: 'The nervous system still regulates breathing while we sleep.'",
+        "Lucía: 'We can directly control each heartbeat just by thinking very hard.'",
+        "Omar: 'The skull and spine protect delicate nervous-system structures.'"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-08",
+      "type": "choice",
+      "prompt": "In two tests, Nerea catches a ruler after 10 cm with a visual cue and 22 cm with a sound cue. What do these measurements show?",
+      "explanation": "In these two trials, her response took longer with the sound cue. Repeated trials are needed to see whether the difference continues.",
+      "hint": "Which distance is smaller?",
+      "lang": "en",
+      "options": [
+        "The nervous system stops working when we close our eyes.",
+        "In these trials, Nerea responds more slowly to the sound cue than the visual cue.",
+        "The ruler falls faster when there is noise in the room."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-09",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "Ramón y Cajal's observations supported the idea that neurons are individual cells, transforming neuroscience.",
+      "lang": "en",
+      "title": "An important Spanish scientist",
+      "text": "More than a hundred years ago, Spanish doctor Santiago Ramón y Cajal studied nervous tissue. Many scientists thought the nervous system was one continuous network, like a huge spider's web.\n\nUsing a microscope and special stains, Cajal patiently examined samples. His work showed that nervous tissue contains individual cells rather than one continuous web. These cells are called neurons and communicate across tiny gaps. His discovery helped explain the organisation of nervous tissue and contributed to his Nobel Prize in Medicine.",
+      "questions": [
+        {
+          "prompt": "Which instrument did Ramón y Cajal use to examine cells?",
+          "explanation": "The text describes his use of a microscope and special stains.",
+          "options": [
+            "A hand magnifier",
+            "A telescope",
+            "A microscope"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What important discovery did his work support?",
+          "explanation": "The nervous system consists of individual cells called neurons, rather than one continuous network without separate cells.",
+          "options": [
+            "A way to make bones grow faster",
+            "The brain is one continuous network with no separate cells",
+            "The nervous system contains individual cells called neurons"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-sistema-nervioso-10",
+      "type": "choice",
+      "prompt": "Wei cycles to the park. Why is a helmet important for protecting his nervous system?",
+      "explanation": "A helmet cushions head impacts and reduces the risk of serious injury to the brain.",
+      "hint": "Which vital nervous-system organ is inside the head?",
+      "lang": "en",
+      "options": [
+        "It makes leg nerves pedal more strongly.",
+        "It makes the eyes see traffic signs better.",
+        "It cushions head impacts and reduces injury risk."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:56:00.110Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:48:25.216Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "c3d6ce8ac3e8b8a441d9fa27aa6de54871568e06294c9c8026471cf88cececcb",
+      "validation": "manual-review"
+    }
+  }
+}

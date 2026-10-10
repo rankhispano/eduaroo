@@ -1,0 +1,245 @@
+{
+  "id": "g4-sociales-prehistoria-y-edad-antigua",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "prehistoria-y-edad-antigua",
+  "temaNombre": "Prehistory and the Ancient Age",
+  "title": "A journey through Prehistory and the Ancient Age",
+  "summary": "Review life in the past, from prehistoric caves to large Roman cities.",
+  "keyIdeas": [
+    "Prehistory is divided into the Palaeolithic, the Neolithic and the Metal Ages.",
+    "The invention of writing marks the end of Prehistory and the beginning of the Ancient Age.",
+    "The Romans changed the landscape by building roads, aqueducts and carefully planned cities."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE7"
+    ],
+    "criteria": [
+      "5.3",
+      "7.1",
+      "7.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL3",
+      "CD1",
+      "CE1",
+      "CE2",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-01",
+      "type": "choice",
+      "prompt": "Which major development marks the end of Prehistory and the beginning of the Ancient Age? 📜",
+      "explanation": "Writing allowed people to leave written records of events. This is why it marks the beginning of recorded history.",
+      "hint": "It made it possible to record information using symbols and letters.",
+      "lang": "en",
+      "options": [
+        "The invention of writing",
+        "The discovery of fire",
+        "The invention of the wheel"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-02",
+      "type": "true-false",
+      "prompt": "In the Palaeolithic, people were nomadic: they moved from place to place to find food by hunting and gathering.",
+      "explanation": "Palaeolithic groups moved to find food when local resources became scarce, rather than living in permanent villages.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the great change in the Neolithic.",
+      "explanation": "Many Neolithic communities built permanent villages as they began farming and keeping animals. A settled way of life means living in one place.",
+      "lang": "en",
+      "sentence": "As people learnt to grow plants and keep animals, their way of life became ___.",
+      "options": [
+        "settled",
+        "nomadic",
+        "seafaring"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-04",
+      "type": "match",
+      "prompt": "Match each development to the period in which it appeared.",
+      "explanation": "New skills and inventions in each period changed how people lived.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Learning to control fire",
+          "right": "Palaeolithic"
+        },
+        {
+          "left": "The beginnings of farming",
+          "right": "Neolithic"
+        },
+        {
+          "left": "Working with bronze",
+          "right": "Metal Ages"
+        },
+        {
+          "left": "Building Roman roads",
+          "right": "Ancient Age"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-05",
+      "type": "classify",
+      "prompt": "Sort these archaeological remains by their historical period.",
+      "explanation": "Where remains come from and their age help us distinguish prehistoric remains from Roman ones. A Roman object belongs to recorded history even if it has no writing on it.",
+      "lang": "en",
+      "categories": [
+        "Prehistory",
+        "Ancient Age"
+      ],
+      "items": [
+        {
+          "text": "A cave painting of bison at Altamira",
+          "category": 0
+        },
+        {
+          "text": "A colourful Roman mosaic",
+          "category": 1
+        },
+        {
+          "text": "A bronze axe from a prehistoric village",
+          "category": 0
+        },
+        {
+          "text": "A Roman aqueduct",
+          "category": 1
+        },
+        {
+          "text": "A Neolithic clay pot",
+          "category": 0
+        },
+        {
+          "text": "A Roman theatre with stone seating",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-06",
+      "type": "order",
+      "prompt": "Put these historical periods in order, from earliest to latest.",
+      "explanation": "Prehistory includes the Palaeolithic, the Neolithic and the Metal Ages. The Ancient Age came afterwards.",
+      "lang": "en",
+      "items": [
+        "Palaeolithic",
+        "Neolithic",
+        "Metal Ages",
+        "Ancient Age"
+      ]
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-07",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "Roman engineering and town planning improved travel and cleanliness in cities.",
+      "lang": "en",
+      "title": "A visit to a Roman city",
+      "text": "Lucía's class visits the ruins of Segóbriga, an ancient Roman city. An archaeologist shows them the large stone theatre, where women and men watched comedies. Next, they walk along a Roman road paved with huge stone slabs. These helped carts travel without getting stuck in mud. Near the city walls, they see the remains of an aqueduct. It carried clean water from a spring to the city's fountains. The Romans used water to help keep their cities clean and healthy.",
+      "questions": [
+        {
+          "prompt": "What was the Roman city's aqueduct used for?",
+          "explanation": "The aqueduct carried water from a spring to the city.",
+          "options": [
+            "Carrying water from a spring",
+            "Defending the city walls against enemies",
+            "Performing comedies"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What was the advantage of the Roman road's stone slabs?",
+          "explanation": "The hard slabs made a firm surface that carts could travel along easily.",
+          "options": [
+            "They stopped wheels getting stuck in mud",
+            "They kept the road warm all winter",
+            "They watered nearby fields"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-08",
+      "type": "choice",
+      "prompt": "We now know that women and men cooperated in Prehistory. Which activities did they share?",
+      "explanation": "The whole group helped people survive. Women and men shared tasks such as finding food and protecting the group.",
+      "hint": "Think about finding food in nature.",
+      "lang": "en",
+      "options": [
+        "Driving motor vehicles",
+        "Writing laws on computers",
+        "Hunting small animals and gathering plants"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-09",
+      "type": "choice",
+      "prompt": "Adrián visits Mérida and crosses a Roman bridge that pedestrians still use. What does this show?",
+      "explanation": "Roman stone structures were so well designed that many are still used two thousand years later.",
+      "lang": "en",
+      "options": [
+        "The excellent quality and strength of Roman engineering",
+        "Roman bridges were built last year",
+        "People in the Ancient Age used materials that did not last long"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-prehistoria-y-edad-antigua-10",
+      "type": "choice",
+      "prompt": "Someone wants to touch a painting in a prehistoric cave. What should Nerea remind them to do? 🎨",
+      "explanation": "Touching paintings can damage them. We must follow the rules about access, lighting and photographs.",
+      "hint": "Follow the site's conservation instructions.",
+      "lang": "en",
+      "options": [
+        "You can touch it if you wash your hands first",
+        "Look without touching and follow the visiting rules",
+        "You can use any camera flash, even if it is forbidden"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:09:30.972Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:19:45.701Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "fde0f37d223be60c0ee3df6991bf07545b42d58effa356834e16841a43277ab0",
+      "validation": "manual-review"
+    }
+  }
+}

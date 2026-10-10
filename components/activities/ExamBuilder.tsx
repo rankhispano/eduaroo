@@ -2,11 +2,11 @@
 
 import { useState } from 'react';
 import RooMascot from '@/components/mascot/RooMascot';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { ChevronLeft, Lightbulb, ListChecks, Repeat, Timer } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import ActivityPlayer from '@/components/activities/ActivityPlayer';
-import { ACTIVITY_LOADERS } from '@/content/activities/registry';
+import { getActivityLoaders } from '@/content/activities/registry';
 import { shuffle, toSteps, type Step } from '@/lib/curriculum/steps';
 import type { ActivitySet } from '@/lib/curriculum/types';
 
@@ -29,6 +29,7 @@ export default function ExamBuilder({
     temas: { id: string; nombre: string; key: string; count: number }[];
 }) {
     const t = useTranslations('KidsMap');
+    const locale = useLocale();
     const [selected, setSelected] = useState<string[]>([]);
     const [loading, setLoading] = useState(false);
     const [exam, setExam] = useState<{ set: ActivitySet; steps: Step[] } | null>(null);
@@ -41,7 +42,8 @@ export default function ExamBuilder({
 
     const start = async () => {
         setLoading(true);
-        const sets = await Promise.all(chosen.map((x) => ACTIVITY_LOADERS[x.key]()));
+        const loaders = getActivityLoaders(locale);
+        const sets = await Promise.all(chosen.map((x) => loaders[x.key]()));
         const n = perTopic(sets.length);
         const steps = shuffle(
             sets.flatMap((s) => shuffle(toSteps(s.activities, `${s.cursoId}/${s.asignaturaId}/${s.temaId}`)).slice(0, n)),
@@ -59,6 +61,7 @@ export default function ExamBuilder({
                 // La primera idea clave de cada tema, como repaso rápido antes de empezar
                 keyIdeas: sets.flatMap((s) => s.keyIdeas.slice(0, 1)),
                 activities: [],
+                meta: { ...first.meta, translation: sets.every(s => s.meta.translation) ? first.meta.translation : undefined },
             },
         });
         setLoading(false);

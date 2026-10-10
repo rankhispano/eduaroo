@@ -1,0 +1,226 @@
+{
+  "id": "g1-mates-dias-y-meses",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "dias-y-meses",
+  "temaNombre": "Days and months",
+  "title": "Adventures with days and months",
+  "summary": "Practise the days of the week and the months of the year with fun challenges.",
+  "keyIdeas": [
+    "A week has 7 days, from Monday to Sunday.",
+    "A year has 12 months and begins in January.",
+    "A calendar helps us plan our daily activities."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "B. Sentido de la medida › Medición"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-dias-y-meses-01",
+      "type": "choice",
+      "prompt": "How many days are in a whole week?",
+      "explanation": "A whole week always has 7 days, from Monday to Sunday.",
+      "hint": "Count: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday.",
+      "lang": "en",
+      "options": [
+        "10 days",
+        "5 days",
+        "7 days"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-dias-y-meses-02",
+      "type": "order",
+      "prompt": "Put these days of the week in order, from first to last.",
+      "explanation": "The school week begins on Monday and continues to Friday.",
+      "lang": "en",
+      "items": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "id": "g1-mates-dias-y-meses-03",
+      "type": "match",
+      "prompt": "In a usual week with classes from Monday to Friday, match each group of days to its name.",
+      "explanation": "In this week, school is from Monday to Friday. Saturday and Sunday are the weekend.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Monday to Friday",
+          "right": "School days"
+        },
+        {
+          "left": "Saturday and Sunday",
+          "right": "Weekend"
+        },
+        {
+          "left": "Seven days together",
+          "right": "A week"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-dias-y-meses-04",
+      "type": "fill-blank",
+      "prompt": "Choose the word that completes the sentence.",
+      "explanation": "The year always begins on 1 January.",
+      "hint": "It is the month when Spain celebrates Three Kings' Day.",
+      "lang": "en",
+      "sentence": "The first month of every year is ___.",
+      "options": [
+        "January",
+        "March",
+        "December"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-dias-y-meses-05",
+      "type": "true-false",
+      "prompt": "A year has 10 months in total.",
+      "explanation": "A year has 12 months, from January to December.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-mates-dias-y-meses-06",
+      "type": "classify",
+      "prompt": "Sort each word into its group.",
+      "explanation": "Tuesday, Friday and Sunday are days. May, August and October are months.",
+      "lang": "en",
+      "categories": [
+        "Days of the week",
+        "Months of the year"
+      ],
+      "items": [
+        {
+          "text": "Tuesday",
+          "category": 0
+        },
+        {
+          "text": "May",
+          "category": 1
+        },
+        {
+          "text": "Friday",
+          "category": 0
+        },
+        {
+          "text": "August",
+          "category": 1
+        },
+        {
+          "text": "Sunday",
+          "category": 0
+        },
+        {
+          "text": "October",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-dias-y-meses-07",
+      "type": "choice",
+      "prompt": "Hugo lists these days: Monday, Tuesday, Thursday, Wednesday, Friday. What mistake does he make?",
+      "explanation": "Wednesday comes before Thursday. Hugo has swapped them.",
+      "hint": "Think about the day just after Tuesday.",
+      "lang": "en",
+      "options": [
+        "He swaps Wednesday and Thursday.",
+        "He forgets Tuesday.",
+        "He says a month instead of a day."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-dias-y-meses-08",
+      "type": "choice",
+      "prompt": "Today is Tuesday. Lucía's birthday is in 3 days. Which day will it be?",
+      "explanation": "Count 3 days forwards from Tuesday: Wednesday (1), Thursday (2), Friday (3).",
+      "hint": "Count three days forwards from Tuesday.",
+      "lang": "en",
+      "options": [
+        "Saturday",
+        "Thursday",
+        "Friday"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-dias-y-meses-09",
+      "type": "choice",
+      "prompt": "Aisha goes skating on Saturdays and Sundays. How many days does she skate in two weeks?",
+      "explanation": "She skates on 2 days each week. In two weeks, that is 2 + 2 = 4 days.",
+      "hint": "Add the two days in the first week to the two days in the second week.",
+      "lang": "en",
+      "options": [
+        "7 days",
+        "2 days",
+        "4 days"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-dias-y-meses-10",
+      "type": "order",
+      "prompt": "Put the first four months of the year in order.",
+      "explanation": "The first four months are January, February, March and April.",
+      "lang": "en",
+      "items": [
+        "January",
+        "February",
+        "March",
+        "April"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:58:05.316Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:17:55.057Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "e61a1420d1643a30fc05579dea828794e1a2eff3cd299b5b8fbd0cc0efd213fd",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "id": "g3-lengua-el-verbo-persona-numero-tiempo",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "el-verbo-persona-numero-tiempo",
+  "temaNombre": "Spanish verbs: person, number and tense",
+  "title": "Verbs: person, number and tense",
+  "summary": "Learn to recognise the person, number and tense of Spanish verb forms through fun challenges.",
+  "keyIdeas": [
+    "Verbs express actions or states. Their forms can be in the past, present or future.",
+    "Spanish verb number can be singular (yo, tú, él, ella) or plural (nosotros, vosotros, ellos, ellas).",
+    "Grammatical person shows the relationship to the speaker: first, second or third person."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-01",
+      "type": "choice",
+      "prompt": "What tense is «dibujó» in this Spanish sentence? «Ayer Omar dibujó un gran mural en el patio.»",
+      "explanation": "«dibujó» describes an action that happened yesterday, so it is past tense.",
+      "hint": "«Ayer» means yesterday, a time that has already passed.",
+      "lang": "en",
+      "options": [
+        "Past",
+        "Present",
+        "Future"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-02",
+      "type": "true-false",
+      "prompt": "The Spanish verb «comemos» is plural because it refers to more than one person.",
+      "explanation": "«comemos» refers to «nosotros» or «nosotras», meaning more than one person, so it is plural.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-03",
+      "type": "match",
+      "prompt": "Match each Spanish pronoun to its grammatical person and number.",
+      "explanation": "«Yo» is first person, «Tú» is second person, and «Ella» and «Ellos» are third person.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Yo",
+          "right": "First-person singular"
+        },
+        {
+          "left": "Tú",
+          "right": "Second-person singular"
+        },
+        {
+          "left": "Ella",
+          "right": "Third-person singular"
+        },
+        {
+          "left": "Ellos",
+          "right": "Third-person plural"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-04",
+      "type": "classify",
+      "prompt": "Sort these Spanish verb forms by tense.",
+      "explanation": "«escribo», «saltas» and «escuchan» are present forms. «viajaré», «leeremos» and «abrirán» are future forms.",
+      "lang": "en",
+      "categories": [
+        "Present",
+        "Future"
+      ],
+      "items": [
+        {
+          "text": "escribo",
+          "category": 0
+        },
+        {
+          "text": "viajaré",
+          "category": 1
+        },
+        {
+          "text": "saltas",
+          "category": 0
+        },
+        {
+          "text": "leeremos",
+          "category": 1
+        },
+        {
+          "text": "escuchan",
+          "category": 0
+        },
+        {
+          "text": "abrirán",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-05",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish verb form that agrees with the subject.",
+      "explanation": "«Aisha y Martina» can be replaced by «ellas», third-person plural, so the correct verb is «cocinan».",
+      "lang": "en",
+      "sentence": "Aisha y Martina ___ un pastel de manzana para la fiesta del colegio.",
+      "options": [
+        "cocina",
+        "cocinan",
+        "cocináis"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-06",
+      "type": "order",
+      "prompt": "Put these Spanish sentences in time order, from the earliest action to the latest.",
+      "explanation": "The order is past («El año pasado plantamos»), present («Ahora cuidamos»), then future («Mañana regaremos»).",
+      "lang": "en",
+      "items": [
+        "El año pasado plantamos un roble en el parque.",
+        "Ahora cuidamos las hojas tiernas del árbol.",
+        "Mañana regaremos la tierra con la manguera."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-07",
+      "type": "choice",
+      "prompt": "Find the Spanish sentence where the subject and verb do not agree.",
+      "explanation": "«vosotros» is second-person plural, so the verb must be «corréis», rather than «corren».",
+      "hint": "Think of how to use «correr» with «vosotros».",
+      "lang": "en",
+      "options": [
+        "Nosotros fuimos a la biblioteca del barrio.",
+        "Tú preparaste la mochila para la excursión.",
+        "Vosotros corren muy rápido en la pista de atletismo."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-08",
+      "type": "reading",
+      "prompt": "Read the Spanish text about the school garden and answer the questions.",
+      "explanation": "The text has past actions («limpiaron»), present actions («cuidamos») and future actions («organizaremos»).",
+      "lang": "en",
+      "title": "Un día en el huerto escolar",
+      "text": "El curso pasado, Hugo y Lucía limpiaron el terreno detrás del gimnasio con la ayuda del conserje. Arrancaron malas hierbas y removieron la tierra con azadas pequeñas.\n\nHoy, todos los niños de la clase cuidamos con cariño las lechugas y recogemos tomates maduros en grandes cestas de mimbre.\n\nLa próxima semana, nosotros organizaremos un mercadillo solidario en el porche. Venderemos las verduras a las familias del barrio para recaudar dinero para la protectora de animales.",
+      "questions": [
+        {
+          "prompt": "What tense describes Hugo and Lucía's actions last school year?",
+          "explanation": "«limpiaron», «arrancaron» and «removieron» describe completed past actions.",
+          "options": [
+            "Past",
+            "Present",
+            "Future"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "In «cuidamos con cariño las lechugas», what are the verb's person and number?",
+          "explanation": "The subject is «nosotros», so «cuidamos» is first-person plural.",
+          "options": [
+            "Third-person singular",
+            "First-person plural",
+            "Second-person plural"
+          ],
+          "answer": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-09",
+      "type": "fill-blank",
+      "prompt": "Complete Adrián's Spanish message with the correct future form.",
+      "explanation": "«tú y yo» means «nosotros», so the future verb is «pasearemos», first-person plural.",
+      "lang": "en",
+      "sentence": "Si terminamos pronto los deberes, tú y yo ___ en bicicleta junto al río.",
+      "options": [
+        "pasearemos",
+        "pasearéis",
+        "pasearán"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-el-verbo-persona-numero-tiempo-10",
+      "type": "choice",
+      "prompt": "Which description exactly matches the Spanish verb «escuchabais»?",
+      "explanation": "«escuchabais» agrees with «vosotros», second-person plural, and describes an action in the past.",
+      "hint": "Which pronoun goes with «escuchabais»?",
+      "lang": "en",
+      "options": [
+        "Second-person singular, past tense",
+        "Second-person plural, past tense",
+        "Third-person plural, present tense"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:26:40.115Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:42:25.543Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "828e3e199a32baf9b20ec8609b02a1d7d4f4d770e30ea5316dd6d1127c3f5c81",
+      "validation": "manual-review"
+    }
+  }
+}

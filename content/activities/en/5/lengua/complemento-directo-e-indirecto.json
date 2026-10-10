@@ -1,0 +1,264 @@
+{
+  "id": "g5-lengua-complemento-directo-e-indirecto",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "complemento-directo-e-indirecto",
+  "temaNombre": "Spanish Direct and Indirect Objects",
+  "title": "Objects: Guided Extension",
+  "summary": "With examples and help, distinguish what is given from the person receiving it.",
+  "keyIdeas": [
+    "Extension example: «Hugo entregó el libro a Aisha». «El libro» is the direct object (CD): «Hugo lo entregó».",
+    "«A Aisha» is the indirect object (CI): «Hugo le entregó el libro». In these examples, the CI names the recipient.",
+    "Replacing both gives «Hugo se lo entregó». Use models and context to check."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-01",
+      "type": "choice",
+      "prompt": "In «Hugo preparó una tarta deliciosa para el cumpleaños», what role does «una tarta deliciosa» have?",
+      "explanation": "It is the direct object (CD), replaced by «la»: «Hugo la preparó para el cumpleaños».",
+      "hint": "Try replacing that group with «la».",
+      "lang": "en",
+      "options": [
+        "Subject",
+        "Direct object (CD)",
+        "Indirect object (CI)"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-02",
+      "type": "true-false",
+      "prompt": "In «Hugo preparó una tarta», the direct object «una tarta» is replaced by «le».",
+      "explanation": "False. Use «la»: «Hugo la preparó». «Le» replaces an indirect object. Some accepted uses of «le» for a masculine singular human direct object do not apply to «una tarta».",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-03",
+      "type": "match",
+      "prompt": "Match each Spanish sentence with the pronoun replacing its direct object.",
+      "explanation": "Match gender and number: «los lápices/los», «una postal/la», «el armario/lo», «las plantas/las».",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Adrián recogió los lápices",
+          "right": "Los"
+        },
+        {
+          "left": "Nerea escribió una postal",
+          "right": "La"
+        },
+        {
+          "left": "Omar ordenó el armario",
+          "right": "Lo"
+        },
+        {
+          "left": "Lucía regó las plantas",
+          "right": "Las"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-04",
+      "type": "classify",
+      "prompt": "Sort the parts in CAPITAL LETTERS by their role in these Spanish sentences.",
+      "explanation": "In these examples, direct objects can be replaced by «lo», «la», «los» or «las». Indirect objects name recipients and can be replaced by «le» or «les».",
+      "lang": "en",
+      "categories": [
+        "Direct object (CD)",
+        "Indirect object (CI)"
+      ],
+      "items": [
+        {
+          "text": "Aisha envió un paquete A SU PRIMA",
+          "category": 1
+        },
+        {
+          "text": "Mateo compró ENTRADAS DE CINE para todos",
+          "category": 0
+        },
+        {
+          "text": "El profesor explicó la lección A LOS ALUMNOS",
+          "category": 1
+        },
+        {
+          "text": "Sofía encontró UNAS LLAVES en el patio",
+          "category": 0
+        },
+        {
+          "text": "El médico recetó un jarabe AL PACIENTE",
+          "category": 1
+        },
+        {
+          "text": "David dibujó UN PAISAJE precioso",
+          "category": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-05",
+      "type": "fill-blank",
+      "prompt": "Replace the Spanish indirect object «a su entrenadora» with the correct pronoun.",
+      "explanation": "The singular indirect object «a su entrenadora» becomes «le»: «Wei le entregó una medalla».",
+      "lang": "en",
+      "sentence": "Wei entregó una medalla a su entrenadora. → Wei ___ entregó una medalla.",
+      "options": [
+        "se",
+        "la",
+        "le"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-06",
+      "type": "choice",
+      "prompt": "At a school charity market, Martina says: «Doné mis libros favoritos a la biblioteca del barrio». What roles do the two objects have?",
+      "explanation": "«Mis libros favoritos» is CD: «los doné». «A la biblioteca del barrio» is CI: «le doné mis libros».",
+      "hint": "Try «los doné» and «le doné mis libros».",
+      "lang": "en",
+      "options": [
+        "«Mis libros favoritos» is CI and «a la biblioteca del barrio» is CD.",
+        "«Mis libros favoritos» is CD and «a la biblioteca del barrio» is CI.",
+        "Both groups are direct objects (CD)."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-07",
+      "type": "choice",
+      "prompt": "Find the mistake! 🔍 Three pupils replace an object in «Lucas regaló bombones a su hermana». Who makes a grammar error?",
+      "explanation": "Elena uses «la» for the indirect object. Standard Spanish uses «le» here: «Lucas le regaló bombones».",
+      "hint": "Check the pronoun replacing the feminine indirect object «a su hermana».",
+      "lang": "en",
+      "options": [
+        "Elena: «Lucas la regaló bombones».",
+        "Marcos: «Lucas le regaló bombones».",
+        "Sara: «Lucas los regaló a su hermana»."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-08",
+      "type": "order",
+      "prompt": "Put the steps for checking a direct object in these Spanish examples in order.",
+      "explanation": "Find the verb, identify a possible object, try a pronoun replacement and check the meaning.",
+      "lang": "en",
+      "items": [
+        "Find the verb in the sentence.",
+        "Identify the group that seems to receive the action directly.",
+        "Try replacing it with lo, la, los or las.",
+        "Check that the sentence keeps its meaning with the pronoun before the verb."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-09",
+      "type": "reading",
+      "prompt": "Read the Spanish school news and answer the questions.",
+      "explanation": "Pronoun replacement helps us understand sentence structure and avoid confusing direct and indirect objects.",
+      "lang": "en",
+      "title": "Un huerto lleno de vida",
+      "text": "Esta mañana, el alumnado de quinto curso inauguró el nuevo huerto ecológico del colegio. Durante varias semanas, las niñas y los niños prepararon la tierra con esmero y retiraron las piedras del terreno. Después, una agricultora del pueblo ofreció semillas tradicionales a la clase para comenzar la siembra de primavera.\n\nAl terminar la jornada, Hugo entregó una regadera a sus compañeros de equipo para regar los primeros brotes de lechuga. La directora del centro felicitó a todos los participantes por su gran dedicación y entusiasmo. Gracias a la colaboración de las familias, muy pronto el comedor escolar cocinará verduras frescas y saludables cultivadas por sus propios estudiantes.",
+      "questions": [
+        {
+          "prompt": "What role does «semillas tradicionales» have in «una agricultora del pueblo ofreció semillas tradicionales a la clase»?",
+          "explanation": "It is CD, replaced by «las»: «la agricultora las ofreció a la clase».",
+          "options": [
+            "Direct object (CD), because it can be replaced by «las».",
+            "Indirect object (CI), because it names who receives help.",
+            "Subject, because it carries out the verb's action."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "In «Hugo entregó una regadera a sus compañeros de equipo», what is the indirect object?",
+          "explanation": "«A sus compañeros de equipo» names the recipients and can become «les»: «Hugo les entregó una regadera».",
+          "options": [
+            "A sus compañeros de equipo",
+            "Una regadera",
+            "Hugo"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why should we check objects with pronouns rather than only asking the verb «¿a quién?»?",
+          "explanation": "«¿A quién?» can also identify a human direct object: in «felicitó a los participantes», the replacement is «los felicitó».",
+          "options": [
+            "Because «¿a quién?» can confuse an indirect object with a human direct object introduced by «a».",
+            "Because pronouns change the verb's meaning and create a different story.",
+            "Because Spanish grammar forbids asking questions about verbs in primary school."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-complemento-directo-e-indirecto-10",
+      "type": "choice",
+      "prompt": "Replace both objects in «Nerea entregó el trabajo al maestro». Which Spanish transformation is correct?",
+      "explanation": "When «le» or «les» comes before a direct-object pronoun, it becomes «se»: «Nerea se lo entregó».",
+      "hint": "Spanish uses «se lo», not «le lo».",
+      "lang": "en",
+      "options": [
+        "Nerea se le entregó.",
+        "Nerea le lo entregó.",
+        "Nerea se lo entregó."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:50:45.838Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:01:30.520Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "1ef57d1207ddd73ec2966cdc70621f5c9ca28661cb3e518217c0f9f0ee774539",
+      "validation": "manual-review"
+    }
+  }
+}

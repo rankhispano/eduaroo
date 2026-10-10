@@ -1,0 +1,234 @@
+{
+  "id": "g2-naturales-habitos-saludables",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "habitos-saludables",
+  "temaNombre": "Healthy habits",
+  "title": "Caring for our bodies every day",
+  "summary": "Learn to care for your body with good food, cleanliness, exercise and rest.",
+  "keyIdeas": [
+    "Eating fruit and vegetables helps give us energy and keep us healthy.",
+    "Washing hands with soap and water helps prevent illness.",
+    "Sleeping well and exercising help us grow strong."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE4"
+    ],
+    "criteria": [
+      "4.2",
+      "2.4"
+    ],
+    "descriptors": [
+      "CC3",
+      "CC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CPSAA1",
+      "CPSAA2",
+      "CPSAA3",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-habitos-saludables-01",
+      "type": "true-false",
+      "prompt": "Drinking water during the day is good for our bodies.",
+      "explanation": "Water keeps us hydrated and helps our bodies work well.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-02",
+      "type": "choice",
+      "prompt": "Which food is the best choice for a break-time snack?",
+      "explanation": "Fruit contains vitamins and gives us energy to play.",
+      "hint": "Look for the fresh fruit.",
+      "lang": "en",
+      "options": [
+        "A fresh apple",
+        "A bag of sweets",
+        "A chocolate bun"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about caring for teeth.",
+      "explanation": "Brushing removes food and helps prevent tooth decay. We brush twice a day with fluoride toothpaste, including before bed.",
+      "hint": "Think about breakfast, lunch and dinner.",
+      "lang": "en",
+      "sentence": "After a ___, bits of food may remain between our teeth.",
+      "options": [
+        "race",
+        "nap",
+        "meal"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-04",
+      "type": "order",
+      "prompt": "Put the steps for washing hands with soap in order.",
+      "explanation": "First wet your hands, then rub with soap, rinse and dry.",
+      "lang": "en",
+      "items": [
+        "Wet your hands with water",
+        "Rub well with soap",
+        "Rinse away the soap with water",
+        "Dry your hands with a clean towel"
+      ]
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-05",
+      "type": "classify",
+      "prompt": "Sort these everyday activities.",
+      "explanation": "Rest and exercise help our health. Too much screen time can affect it.",
+      "lang": "en",
+      "categories": [
+        "Healthy habit",
+        "Unhealthy habit"
+      ],
+      "items": [
+        {
+          "text": "Sleep for ten hours at night",
+          "category": 0
+        },
+        {
+          "text": "Play video games for four hours without a break",
+          "category": 1
+        },
+        {
+          "text": "Ride a bike in the park",
+          "category": 0
+        },
+        {
+          "text": "Eat sweets every day",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-06",
+      "type": "match",
+      "prompt": "Match each action to how it helps our health.",
+      "explanation": "Different habits help us feel well in different ways.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Exercise",
+          "right": "Strengthens muscles"
+        },
+        {
+          "left": "Sleep well",
+          "right": "Restores energy"
+        },
+        {
+          "left": "Shower each day",
+          "right": "Keeps skin clean"
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-07",
+      "type": "choice",
+      "prompt": "Find the mistake. Which idea is false?",
+      "explanation": "Microbes are too small to see with our eyes. That is why we need to wash our hands.",
+      "hint": "Some things are too tiny to see without a special tool.",
+      "lang": "en",
+      "options": [
+        "Eating vegetables helps us grow",
+        "Outdoor exercise helps keep bones strong",
+        "If our hands look clean, they never have microbes"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-08",
+      "type": "choice",
+      "prompt": "The class compares washing with water and washing with soap and water. What should they keep the same for a fair comparison?",
+      "explanation": "Use the same amount of dirt and wash for the same time. Then we can compare the effect of soap.",
+      "hint": "Change only the thing you want to compare.",
+      "lang": "en",
+      "options": [
+        "Use different amounts of dirt",
+        "The amount of dirt and the washing time",
+        "Wash once at home and once in the playground"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-09",
+      "type": "reading",
+      "prompt": "Read about Omar's day and answer the questions.",
+      "explanation": "Omar cares for his health with movement, varied food and good rest.",
+      "lang": "en",
+      "title": "Omar's active day",
+      "text": "Omar has milk, oats and banana for breakfast. He walks to school with his mother. At break, he plays tag with Martina. Later, he runs in the park and eats an apple. At home, he showers and has an omelette with salad. By nine at night, he is asleep.",
+      "questions": [
+        {
+          "prompt": "How does Omar get to school?",
+          "explanation": "The text says he walks, which gives him some morning exercise.",
+          "options": [
+            "He walks with his mother",
+            "He takes the school bus",
+            "He sits in a car"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why is Omar's day healthy?",
+          "explanation": "Omar combines varied food, exercise, cleanliness and rest.",
+          "options": [
+            "He eats well, moves a lot and goes to bed early",
+            "He watches television all afternoon",
+            "He only eats sweets and drinks fizzy drinks"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-habitos-saludables-10",
+      "type": "choice",
+      "prompt": "Lucía feels sleepy in class and finds it hard to pay attention. Which change could help her most?",
+      "explanation": "Getting enough sleep and avoiding screens before bed can help her rest.",
+      "hint": "Think about sleeping better at night.",
+      "lang": "en",
+      "options": [
+        "Watch cartoons on a tablet until midnight",
+        "Have a very sugary drink before class",
+        "Go to bed earlier and stop using screens an hour before bed"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:42:44.262Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:39:16.578Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "7fef397ae1436d9557780f0ece680cd0324e23d4cea666b91cf01728642c6b9b",
+      "validation": "manual-review"
+    }
+  }
+}

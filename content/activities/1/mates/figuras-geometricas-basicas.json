@@ -61,7 +61,7 @@
       "id": "g1-mates-figuras-geometricas-basicas-02",
       "type": "true-false",
       "prompt": "El círculo tiene cuatro esquinas.",
-      "explanation": "El círculo es una línea curva cerrada. No tiene lados rectos ni esquinas.",
+      "explanation": "El círculo es una figura plana redonda, limitada por una curva llamada circunferencia. No tiene esquinas.",
       "lang": "es",
       "answer": false
     },
@@ -95,11 +95,11 @@
           "right": "Cuadrado"
         },
         {
-          "left": "Una puerta alta",
+          "left": "El dibujo de una puerta rectangular",
           "right": "Rectángulo"
         },
         {
-          "left": "Un trozo de pizza",
+          "left": "Una pieza de papel triangular",
           "right": "Triángulo"
         }
       ]
@@ -132,11 +132,11 @@
           "category": 0
         },
         {
-          "text": "Libro de clase",
+          "text": "Portada rectangular de un libro",
           "category": 1
         },
         {
-          "text": "Tejado en pico",
+          "text": "Dibujo de un tejado triangular",
           "category": 0
         }
       ]
@@ -183,7 +183,7 @@
     {
       "id": "g1-mates-figuras-geometricas-basicas-09",
       "type": "choice",
-      "prompt": "Omar junta un triángulo y un cuadrado. ¿Cuántos lados suma en total?",
+      "prompt": "Omar dibuja un triángulo y un cuadrado separados. ¿Cuántos lados rectos tienen entre los dos?",
       "explanation": "El triángulo tiene 3 lados y el cuadrado tiene 4 lados. 3 + 4 = 7 lados.",
       "hint": "Suma 3 lados más 4 lados.",
       "lang": "es",

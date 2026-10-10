@@ -2,18 +2,18 @@
 
 import { usePathname } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { ChevronRight, Home } from 'lucide-react';
-import { curriculum, getAsignatura, getCurso } from '@/src/data/curriculum';
+import { getCurriculum, getAsignatura, getCurso } from '@/src/data/localizedCurriculum';
 
 type Crumb = { href: string; name: string };
 
 // Los ejercicios antiguos (/learning/math/grade3/operations) se muestran dentro de
 // su curso, asignatura y tema, buscando el recurso que los enlaza en curriculum.ts
-function legacyExerciseCrumbs(path: string, learningLabel: string): Crumb[] | null {
+function legacyExerciseCrumbs(path: string, learningLabel: string, locale: string): Crumb[] | null {
     if (!/^\/learning\/(math|language)\/grade\d\/./.test(path)) return null;
     let best: { len: number; crumbs: Crumb[] } | null = null;
-    for (const curso of curriculum) {
+    for (const curso of getCurriculum(locale)) {
         for (const asignatura of curso.asignaturas) {
             for (const tema of asignatura.temas) {
                 for (const recurso of tema.recursos) {
@@ -40,6 +40,7 @@ function legacyExerciseCrumbs(path: string, learningLabel: string): Crumb[] | nu
 export default function Breadcrumbs() {
     const pathname = usePathname();
     const t = useTranslations('Navigation');
+    const locale = useLocale();
 
     // Split path into segments
     // /es/learning/math -> ['', 'es', 'learning', 'math']
@@ -109,15 +110,15 @@ export default function Breadcrumbs() {
     const curriculumName = (segment: string, index: number): string | null => {
         if (pathSegments[0] !== 'learning' || index === 0) return null;
         const cursoId = pathSegments[1];
-        if (index === 1) return getCurso(segment)?.nombre ?? null;
-        const asignatura = getAsignatura(cursoId, pathSegments[2]);
+        if (index === 1) return getCurso(segment, locale)?.nombre ?? null;
+        const asignatura = getAsignatura(cursoId, pathSegments[2], locale);
         if (index === 2) return asignatura?.nombre ?? null;
         if (index === 3) return asignatura?.temas.find((tema) => tema.id === segment)?.nombre ?? null;
         return null;
     };
 
     const crumbs: Crumb[] =
-        legacyExerciseCrumbs(`/${pathSegments.join('/')}`, t('learning')) ??
+        legacyExerciseCrumbs(`/${pathSegments.join('/')}`, t('learning'), locale) ??
         pathSegments.map((segment, index) => ({
             href: `/${pathSegments.slice(0, index + 1).join('/')}`,
             name: curriculumName(segment, index) ?? getSegmentName(segment, index),

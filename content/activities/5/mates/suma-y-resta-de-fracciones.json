@@ -112,7 +112,7 @@
       "id": "g5-mates-suma-y-resta-de-fracciones-06",
       "type": "classify",
       "prompt": "Clasifica mentalmente cada operación según si su resultado es menor que 1 o bien mayor o igual que 1:",
-      "explanation": "1/5 + 2/5 = 3/5 (< 1); 7/8 - 2/8 = 5/8 (< 1); 9/10 - 4/10 = 5/10 (< 1). Por otro lado, 3/4 + 2/4 = 5/4 (> 1); 2/3 + 2/3 = 4/3 (> 1); y 5/6 + 1/6 = 6/6 (= 1).",
+      "explanation": "1/5 + 2/5 = 3/5 (< 1); 7/8 - 2/8 = 5/8 (< 1); 9/10 - 4/10 = 5/10 (< 1). Por otro lado, 3/4 + 1/2 = 3/4 + 2/4 = 5/4 (> 1); 2/3 + 2/3 = 4/3 (> 1); y 5/6 + 1/6 = 6/6 (= 1).",
       "lang": "es",
       "categories": [
         "Resultado menor que 1",
@@ -188,7 +188,7 @@
     {
       "id": "g5-mates-suma-y-resta-de-fracciones-09",
       "type": "choice",
-      "prompt": "En la biblioteca de aula, 2/5 de las estanterías tienen libros de aventuras y 3/10 tienen cómics. El resto contiene libros de poesía. ¿Qué fracción representan los libros de poesía?",
+      "prompt": "En la biblioteca de aula, 2/5 de las estanterías tienen libros de aventuras y 3/10 tienen cómics. El resto contiene libros de poesía. ¿Qué fracción representan las estanterías con poesía?",
       "explanation": "Pasamos 2/5 a décimos: 2/5 = 4/10. Sumamos aventuras y cómics: 4/10 + 3/10 = 7/10. El total de la biblioteca es 10/10, por lo que poesía es 10/10 - 7/10 = 3/10.",
       "hint": "Convierte 2/5 a décimos, suma ambas secciones y réstalas del total (10/10).",
       "lang": "es",
@@ -203,7 +203,7 @@
     {
       "id": "g5-mates-suma-y-resta-de-fracciones-10",
       "type": "choice",
-      "prompt": "¡Reto final! Nerea y Leo preparan refresco casero 🍋. Nerea pone 3/5 de litro de agua y Leo añade 1/2 litro de zumo de limón. Al mezclar, derraman por accidente 1/10 de litro. ¿Cuánto líquido tienen exactamente ahora?",
+      "prompt": "¡Reto final! Nerea y Leo preparan refresco casero 🍋. Nerea pone 3/5 de litro de agua y Leo añade 1/2 litro de zumo de naranja. Al mezclar, derraman por accidente 1/10 de litro. ¿Cuánto líquido tienen exactamente ahora?",
       "explanation": "Buscamos denominador común (10): 3/5 = 6/10 y 1/2 = 5/10. Sumamos los líquidos: 6/10 + 5/10 = 11/10. Restamos lo derramado: 11/10 - 1/10 = 10/10, que es exactamente 1 litro.",
       "hint": "Convierte todas las fracciones a denominador 10 antes de operar.",
       "lang": "es",

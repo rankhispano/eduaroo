@@ -7,8 +7,8 @@
   "title": "Pueblos y ciudades de ensueño",
   "summary": "Aprenderás a distinguir la vida en un municipio rural y en uno urbano.",
   "keyIdeas": [
-    "Los pueblos tienen menos población, casas más bajas y naturaleza.",
-    "Las ciudades tienen edificios altos, mucho tráfico y más habitantes.",
+    "Los municipios rurales suelen tener menos habitantes y más campos de cultivo.",
+    "Las ciudades suelen tener más habitantes, edificios y servicios.",
     "El ayuntamiento organiza los servicios públicos de cada municipio."
   ],
   "lomloe": {
@@ -83,8 +83,8 @@
     {
       "id": "g2-sociales-municipio-rural-y-urbano-04",
       "type": "classify",
-      "prompt": "Clasifica estos elementos según el tipo de municipio.",
-      "explanation": "Los pueblos tienen campos y huertos. Las ciudades tienen metro y rascacielos.",
+      "prompt": "Clasifica dónde son más habituales estos elementos.",
+      "explanation": "Los cultivos son más frecuentes en el medio rural; el metro y los rascacielos, en algunas grandes ciudades. No todos los pueblos o ciudades son iguales.",
       "lang": "es",
       "categories": [
         "Municipio rural",
@@ -112,8 +112,8 @@
     {
       "id": "g2-sociales-municipio-rural-y-urbano-05",
       "type": "match",
-      "prompt": "Une cada servicio municipal con su tarea principal.",
-      "explanation": "El ayuntamiento organiza estos servicios para cuidar a todos los vecinos.",
+      "prompt": "Une cada servicio local con su tarea principal.",
+      "explanation": "Estos servicios ayudan a la población. Pueden organizarlos uno o varios ayuntamientos u otras administraciones.",
       "lang": "es",
       "pairs": [
         {
@@ -133,8 +133,8 @@
     {
       "id": "g2-sociales-municipio-rural-y-urbano-06",
       "type": "choice",
-      "prompt": "Omar vive en un pueblo. Nerea vive en una ciudad. ¿Por qué el pueblo de Omar tiene menos ruido?",
-      "explanation": "En el pueblo hay menos vehículos y por eso hay más silencio.",
+      "prompt": "En la calle de Omar pasan pocos coches; en la de Nerea pasan muchos. ¿Por qué suele haber menos ruido en la de Omar?",
+      "explanation": "En esta comparación, menos vehículos producen menos ruido de tráfico. No todos los pueblos y ciudades tienen el mismo ruido.",
       "hint": "Fíjate en la cantidad de coches que pasan.",
       "lang": "es",
       "options": [

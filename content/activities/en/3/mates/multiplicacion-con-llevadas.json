@@ -1,0 +1,222 @@
+{
+  "id": "g3-mates-multiplicacion-con-llevadas",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "multiplicacion-con-llevadas",
+  "temaNombre": "Multiplication with carrying",
+  "title": "The multiplication challenge",
+  "summary": "Practise multiplication with carrying through everyday challenges, estimates and problems.",
+  "keyIdeas": [
+    "Multiply the ones first. If the product is 10 or more, write down what you carry.",
+    "Multiply the tens, then add the amount carried.",
+    "Check the answer by estimating or carefully reviewing each step."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-01",
+      "type": "true-false",
+      "prompt": "In 24 × 3, multiplying 3 × 4 gives 12, so we carry 1 to the tens column.",
+      "explanation": "3 × 4 = 12. Write 2 in the ones column and add the carried 1 after multiplying the tens.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the amount carried.",
+      "explanation": "20 has 0 ones and 2 tens, so carry 2 to the next column.",
+      "lang": "en",
+      "sentence": "To calculate 35 × 4, multiply 4 × 5 = 20, write 0 and carry ___ to the tens column.",
+      "options": [
+        "1",
+        "3",
+        "2"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-03",
+      "type": "order",
+      "prompt": "Put the steps in order to calculate 46 × 3 in columns.",
+      "explanation": "Work from right to left: multiply the ones and carry, then multiply the tens and add the carried amount.",
+      "lang": "en",
+      "items": [
+        "Multiply 3 by 6 ones to get 18",
+        "Write 8 and carry 1 to the tens",
+        "Multiply 3 by 4 tens to get 12 tens",
+        "Add the carry: 12 + 1 = 13 tens",
+        "Write the final answer: 138"
+      ]
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-04",
+      "type": "match",
+      "prompt": "Match each multiplication to the digit carried to the tens column.",
+      "explanation": "Multiply the ones: 2 × 7 = 14 (carry 1), 5 × 5 = 25 (carry 2), 4 × 8 = 32 (carry 3), 5 × 9 = 45 (carry 4).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "37 × 2",
+          "right": "Carry 1"
+        },
+        {
+          "left": "15 × 5",
+          "right": "Carry 2"
+        },
+        {
+          "left": "28 × 4",
+          "right": "Carry 3"
+        },
+        {
+          "left": "19 × 5",
+          "right": "Carry 4"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-05",
+      "type": "choice",
+      "prompt": "Adrián wants 4 board games costing 28 € each. About how much will he pay?",
+      "explanation": "Round 28 € to 30 €. Calculate 4 × 30 = 120 €, so the estimate is 120 €.",
+      "hint": "Round 28 to the nearest ten before multiplying.",
+      "lang": "en",
+      "options": [
+        "About 200 €",
+        "About 120 €",
+        "About 60 €"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-06",
+      "type": "choice",
+      "prompt": "Aisha calculates 36 × 4 and writes 124. What mistake does she make?",
+      "explanation": "4 × 6 = 24: write 4 and carry 2. She calculates 4 × 3 = 12 but forgets the carried 2: 12 + 2 = 14 tens. The correct answer is 144.",
+      "hint": "Calculate 4 × 3 tens and check the carry.",
+      "lang": "en",
+      "options": [
+        "She forgets to add the 2 tens carried.",
+        "She adds the carry before multiplying the tens.",
+        "She calculates 4 × 6 incorrectly."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-07",
+      "type": "classify",
+      "prompt": "Sort these multiplications by whether the ones need carrying.",
+      "explanation": "If the product of the ones is less than 10, there is no carry. If it is 10 or more, carry the tens.",
+      "lang": "en",
+      "categories": [
+        "No carrying",
+        "With carrying"
+      ],
+      "items": [
+        {
+          "text": "21 × 4",
+          "category": 0
+        },
+        {
+          "text": "32 × 3",
+          "category": 0
+        },
+        {
+          "text": "43 × 2",
+          "category": 0
+        },
+        {
+          "text": "24 × 3",
+          "category": 1
+        },
+        {
+          "text": "15 × 4",
+          "category": 1
+        },
+        {
+          "text": "38 × 2",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-08",
+      "type": "choice",
+      "prompt": "Hugo plants 6 rows of 27 tomato plants in the school garden. 🍅 How many plants are there altogether?",
+      "explanation": "27 × 6 = 162. Calculate 6 × 7 = 42 and carry 4. Then 6 × 2 = 12 tens, and 12 + 4 = 16 tens.",
+      "hint": "Multiply 6 × 7 ones, then add the carry after calculating 6 × 2 tens.",
+      "lang": "en",
+      "options": [
+        "142 tomato plants",
+        "122 tomato plants",
+        "162 tomato plants"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-09",
+      "type": "true-false",
+      "prompt": "In a column multiplication, add the carry before multiplying the next digit.",
+      "explanation": "First multiply the next digit, then add the carried amount to that product.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-mates-multiplicacion-con-llevadas-10",
+      "type": "choice",
+      "prompt": "Omar buys 4 boxes with 35 juice cartons in each. If 28 cartons are drunk, how many are left? 🧃",
+      "explanation": "First find the total: 35 × 4 = 140. Calculate 4 × 5 = 20 and carry 2; then 4 × 3 = 12, plus 2 gives 14 tens. Subtract 140 - 28 = 112 cartons left.",
+      "hint": "First multiply to find the total number of cartons.",
+      "lang": "en",
+      "options": [
+        "120 cartons",
+        "140 cartons",
+        "112 cartons"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:06:34.900Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:48:50.391Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "cfa17ae30b50125d5e9c6adde9906b8e33da593ece7c044968d33af9c13408e7",
+      "validation": "manual-review"
+    }
+  }
+}

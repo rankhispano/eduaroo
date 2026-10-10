@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import CursoAsignaturasPage from '@/app/(repasa)/_views/CursoAsignaturasPage';
-import { getCurso } from '@/src/data/curriculum';
+import { getCurso } from '@/src/data/localizedCurriculum';
 
 export async function generateMetadata({
     params,
@@ -10,7 +10,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
     const { locale, curso } = await params;
     const t = await getTranslations({ locale, namespace: 'LearningPage' });
-    const cursoData = getCurso(curso);
+    const cursoData = getCurso(curso, locale);
 
     return {
         title: cursoData ? `${cursoData.nombre} | ${t('title')}` : t('courseNotFound'),
@@ -28,6 +28,7 @@ export default async function Page({
 
     return (
         <CursoAsignaturasPage
+            locale={locale}
             cursoId={curso}
             basePath={`/${locale}/learning`}
             homeHref={`/${locale}`}

@@ -1,0 +1,283 @@
+{
+  "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "desarrollo-sostenible-y-agenda-2030",
+  "temaNombre": "Sustainable development and the 2030 Agenda",
+  "title": "Planet Mission: the 2030 Agenda",
+  "summary": "Learn about sustainable development and the Sustainable Development Goals, and explore practical ways to care for our world.",
+  "keyIdeas": [
+    "Sustainable development meets today's needs while protecting resources for future generations.",
+    "The United Nations' 2030 Agenda includes 17 Sustainable Development Goals (SDGs) for a fair, healthy and peaceful planet.",
+    "Sustainability balances three pillars: environmental care, social justice and a responsible economy."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.3",
+      "6.1",
+      "6.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-01",
+      "type": "choice",
+      "prompt": "In Social Sciences, Lucía and Hugo discuss the planet's future. Which definition best describes sustainable development?",
+      "explanation": "Sustainable development balances living well today with protecting resources for people in the future.",
+      "hint": "Consider today's needs and the needs of future generations.",
+      "lang": "en",
+      "options": [
+        "Use as many natural resources as possible now to make the most money before they run out.",
+        "Meet the needs of people today without preventing future generations from meeting their own needs.",
+        "Ban all human economic activity so nature returns to a wild state.",
+        "Increase plastic consumption as long as everything goes into Spain's yellow recycling bin."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-02",
+      "type": "true-false",
+      "prompt": "The 2030 Agenda is an international action plan adopted in 2015 by United Nations member countries, with 17 Sustainable Development Goals (SDGs).",
+      "explanation": "True. In 2015, the United Nations promoted this global agreement to end poverty, tackle climate change and reduce inequality by 2030.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct environmental term.",
+      "explanation": "An ecological footprint measures the impact of our way of life and helps show whether we use resources faster than Earth can renew them.",
+      "lang": "en",
+      "sentence": "The ___ indicates the productive land and water area needed to provide a person's resources and absorb the waste they produce.",
+      "options": [
+        "ecological footprint",
+        "life expectancy",
+        "hotel capacity",
+        "recycling rate"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-04",
+      "type": "match",
+      "prompt": "Match each Sustainable Development Goal (SDG) to its main aim.",
+      "explanation": "Each of the 17 SDGs addresses a challenge to improve people's lives and protect ecosystems.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "SDG 5: Gender Equality",
+          "right": "Ensure equal rights and opportunities for women and men"
+        },
+        {
+          "left": "SDG 7: Affordable and Clean Energy",
+          "right": "Encourage renewable sources such as solar and wind energy"
+        },
+        {
+          "left": "SDG 12: Responsible Consumption and Production",
+          "right": "Reduce food waste and avoid single-use plastics"
+        },
+        {
+          "left": "SDG 14: Life Below Water",
+          "right": "Protect oceans from pollution and overfishing"
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-05",
+      "type": "classify",
+      "prompt": "Classify these actions as part of a linear economy ('use and throw away') or a circular economy ('reduce and keep resources in use').",
+      "explanation": "A circular economy reduces waste and makes better use of materials. A linear economy follows a take, use and throw away model.",
+      "lang": "en",
+      "categories": [
+        "Linear economy",
+        "Circular economy"
+      ],
+      "items": [
+        {
+          "text": "Buy a disposable plastic water bottle and put it in the general rubbish when empty",
+          "category": 0
+        },
+        {
+          "text": "Take shoes with worn soles to a local shoe repairer",
+          "category": 1
+        },
+        {
+          "text": "Make pencil cases from recycled plastic collected from the sea",
+          "category": 1
+        },
+        {
+          "text": "Throw away a jacket with a missing button without trying to sew one on",
+          "category": 0
+        },
+        {
+          "text": "Swap books at the school library so others can read them",
+          "category": 1
+        },
+        {
+          "text": "Throw away a broken phone whose parts could still be reused",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-06",
+      "type": "choice",
+      "prompt": "Aisha and her grandfather shop for the week. They want to reduce their food's transport-related carbon footprint. Which choice is most sustainable?",
+      "explanation": "Local, seasonal food can travel shorter distances, saving fuel and reducing transport emissions.",
+      "hint": "Compare the distance travelled and the type of transport.",
+      "lang": "en",
+      "options": [
+        "Buy out-of-season fruit from distant, intensively heated greenhouses.",
+        "Always choose food in polystyrene trays wrapped in plastic film.",
+        "Drive 30 kilometres to a supermarket just to buy a bunch of grapes.",
+        "Buy apples grown nearby rather than apples flown in from another continent."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-07",
+      "type": "order",
+      "prompt": "Order these waste-management strategies from the highest priority to the last resort.",
+      "explanation": "First prevent waste, then extend an object's life, recycle, and finally dispose of waste that cannot be recovered. Repairing and reusing extend an object's life.",
+      "lang": "en",
+      "items": [
+        "Reduce unnecessary purchases and consumption",
+        "Reuse and repair objects to extend their life",
+        "Recycle materials that can no longer be used",
+        "Dispose of waste that cannot be put to further use"
+      ]
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-08",
+      "type": "choice",
+      "prompt": "Nerea and Adrián suggest improvements through their town's Children's Council for SDG 11: Sustainable Cities and Communities. Which proposal improves air quality and neighbourhood life?",
+      "explanation": "Walking, cycling and public transport can reduce traffic, noise and pollution, making towns healthier.",
+      "hint": "A sustainable town makes space for people and cleaner transport.",
+      "lang": "en",
+      "options": [
+        "Remove pavements to create more parking spaces outside schools.",
+        "Create safe walking routes to school, encourage cycle lanes and add green spaces with trees.",
+        "Add more private-car lanes in the historic centre so cars travel faster.",
+        "Replace public buses by encouraging individual car journeys."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-09",
+      "type": "reading",
+      "prompt": "Read this fictional school project and answer the questions.",
+      "explanation": "Saving resources can allow a school to invest in cleaner energy and healthier habits.",
+      "lang": "en",
+      "title": "A school with its own energy",
+      "text": "At CEIP Los Olivos, a Spanish primary school, Year 6 pupils carried out an environmental audit. They found that electricity was wasted when lights and computers stayed on during breaks. They created a weekly eco-patrol to check classrooms, installed smart thermostats and encouraged washable lunch boxes.\n\nAfter five months of teamwork, the school's electricity bill fell by 24%, and aluminium foil disappeared from playground lunches. The school used the money saved to install solar panels on the gym roof and create an organic vegetable garden. Its fresh lettuce and tomatoes now supply the school dining hall. The headteacher congratulated the pupils, explaining that sustainability means using community creativity to live better while respecting the environment.",
+      "questions": [
+        {
+          "prompt": "By what percentage did the school's electricity bill fall?",
+          "explanation": "The story states a 24% saving on the bill. The bill and energy consumption are different measures.",
+          "options": [
+            "50%.",
+            "15%.",
+            "24%."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why does replacing aluminium foil with washable lunch boxes support SDG 12?",
+          "explanation": "Reusable lunch boxes avoid daily disposable wrapping and greatly reduce rubbish.",
+          "options": [
+            "The lunch boxes use electricity from the gym roof to heat themselves.",
+            "Aluminium foil contains toxic minerals that stop solar panels working.",
+            "Reusable lunch boxes avoid producing large amounts of single-use waste every day."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What conclusion about active citizenship follows from this project's success?",
+          "explanation": "The shared efforts of pupils and teachers can improve their local community and care for the planet.",
+          "options": [
+            "Only large international organisations can achieve meaningful environmental change.",
+            "An involved local community can organise small changes that have a measurable positive effect.",
+            "Protecting the planet requires removing every electronic device from schools."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-desarrollo-sostenible-y-agenda-2030-10",
+      "type": "classify",
+      "prompt": "These three dimensions are connected. Classify each measure by the main aspect highlighted.",
+      "explanation": "Sustainability involves protecting nature, respecting people's rights and building a fair economy that can last.",
+      "lang": "en",
+      "categories": [
+        "Environmental dimension",
+        "Social dimension",
+        "Economic dimension"
+      ],
+      "items": [
+        {
+          "text": "Replant a burnt forest with native species to protect biodiversity",
+          "category": 0
+        },
+        {
+          "text": "Ensure all children can access free, good-quality education",
+          "category": 1
+        },
+        {
+          "text": "Support solar-panel businesses that create stable jobs with fair conditions",
+          "category": 2
+        },
+        {
+          "text": "Treat towns' wastewater before returning it to rivers",
+          "category": 0
+        },
+        {
+          "text": "Ensure equal access to public healthcare for everyone",
+          "category": 1
+        },
+        {
+          "text": "Encourage fair trade that pays farmers a fair price for their crops",
+          "category": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:48:30.652Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:55:24.152Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "1ec1c04537d505edcc3119e5d329b747625b1c6cd01eb55f8087498f78aa58a2",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -9,7 +9,7 @@
   "keyIdeas": [
     "El denominador indica las partes iguales en que dividimos la unidad.",
     "El numerador indica cuántas de esas partes seleccionamos o tomamos.",
-    "Si dividimos algo en más trozos iguales, cada trozo se hace más pequeño."
+    "Si dividimos la misma unidad en más partes iguales, cada parte es más pequeña."
   ],
   "lomloe": {
     "area": "matematicas",
@@ -93,7 +93,7 @@
       "id": "g3-mates-fracciones-03",
       "type": "true-false",
       "prompt": "Para poder representar una fracción, todas las partes en las que se divide el objeto deben ser de igual tamaño.",
-      "explanation": "Una fracción solo existe cuando la unidad se reparte en partes exactamente iguales.",
+      "explanation": "En este modelo de fracciones, dividimos la unidad en partes iguales para poder contar medios, tercios o cuartos.",
       "hint": "Fíjate si puedes repartir una tarta en trozos desiguales y llamarlos cuartos.",
       "lang": "es",
       "answer": true
@@ -153,7 +153,7 @@
     {
       "id": "g3-mates-fracciones-06",
       "type": "choice",
-      "prompt": "¡Encuentra el error! Omar dice: «1/6 de tarta es más grande que 1/2 de tarta porque 6 es mayor que 2». ¿Qué error comete Omar?",
+      "prompt": "Omar compara un sexto y la mitad de la misma tarta. Dice que 1/6 es mayor porque 6 es mayor que 2. ¿Qué error comete?",
       "explanation": "Al dividir la tarta en 6 partes, cada trozo es mucho más pequeño que si solo la dividimos en 2 partes.",
       "hint": "Piensa si prefieres media tarta o un sexto de tarta.",
       "lang": "es",

@@ -1,0 +1,232 @@
+{
+  "id": "g2-mates-tablas-del-2-5-y-10",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "tablas-del-2-5-y-10",
+  "temaNombre": "The 2, 5 and 10 times tables",
+  "title": "A times-table adventure",
+  "summary": "Practise the 2, 5 and 10 times tables in fun everyday challenges.",
+  "keyIdeas": [
+    "Multiplying by 2 means adding the same number twice, or doubling it.",
+    "Results in the 5 times table always end in 0 or 5.",
+    "When multiplying a whole number by 10, each digit becomes worth ten times as much. Write a zero on the right."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE3",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "3.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones",
+      "D. Sentido algebraico › Patrones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-01",
+      "type": "match",
+      "prompt": "Match each multiplication to its repeated addition.",
+      "explanation": "Multiplying by 2 means adding the same number twice.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "2 × 3",
+          "right": "3 + 3"
+        },
+        {
+          "left": "2 × 4",
+          "right": "4 + 4"
+        },
+        {
+          "left": "2 × 5",
+          "right": "5 + 5"
+        },
+        {
+          "left": "2 × 6",
+          "right": "6 + 6"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-02",
+      "type": "fill-blank",
+      "prompt": "Calculate the total number of pencils.",
+      "explanation": "4 × 10 = 40. Four groups of 10 make 40 pencils.",
+      "lang": "en",
+      "sentence": "Aisha has 4 boxes with 10 pencils in each. She has ___ pencils altogether.",
+      "options": [
+        "40",
+        "44",
+        "14"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-03",
+      "type": "choice",
+      "prompt": "Hugo buys 3 packets with 5 stickers in each. How many stickers does he have altogether?",
+      "explanation": "Multiply 3 packets by 5 stickers: 3 × 5 = 15 stickers.",
+      "hint": "Count in fives three times: 5, 10, 15.",
+      "lang": "en",
+      "options": [
+        "8 stickers",
+        "15 stickers",
+        "20 stickers"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-04",
+      "type": "classify",
+      "prompt": "Sort these results from the 5 times table by their last digit.",
+      "explanation": "The results in the 5 times table alternate between endings of 0 and 5.",
+      "lang": "en",
+      "categories": [
+        "Ends in 0",
+        "Ends in 5"
+      ],
+      "items": [
+        {
+          "text": "5 × 2 = 10",
+          "category": 0
+        },
+        {
+          "text": "5 × 3 = 15",
+          "category": 1
+        },
+        {
+          "text": "5 × 6 = 30",
+          "category": 0
+        },
+        {
+          "text": "5 × 7 = 35",
+          "category": 1
+        },
+        {
+          "text": "5 × 8 = 40",
+          "category": 0
+        },
+        {
+          "text": "5 × 9 = 45",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-05",
+      "type": "true-false",
+      "prompt": "All the results in the 2 times table are even.",
+      "explanation": "Correct. Counting in twos gives numbers ending in 0, 2, 4, 6 or 8.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-06",
+      "type": "order",
+      "prompt": "A frog jumps in fives. Put its numbers in order from smallest to largest.",
+      "explanation": "The sequence adds 5 each time: 5, 10, 15, 20, 25.",
+      "lang": "en",
+      "items": [
+        "5",
+        "10",
+        "15",
+        "20",
+        "25"
+      ]
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-07",
+      "type": "choice",
+      "prompt": "Leo counts the wheels of 6 bicycles: '6 × 2 = 14'. What is his mistake?",
+      "explanation": "6 × 2 = 12 because 6 + 6 = 12. Leo counts 2 too many.",
+      "hint": "Double 6 by adding 6 + 6.",
+      "lang": "en",
+      "options": [
+        "He counts too many: 6 × 2 is 12.",
+        "He counts too few: 6 × 2 is 8.",
+        "The 2 times table only goes up to 10."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-08",
+      "type": "choice",
+      "prompt": "Think quickly. If 10 × 3 = 30, what is 10 × 4?",
+      "explanation": "Add 10 to the previous result: 30 + 10 = 40.",
+      "hint": "Add one more ten to 30.",
+      "lang": "en",
+      "options": [
+        "34",
+        "40",
+        "50"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-09",
+      "type": "fill-blank",
+      "prompt": "Calculate the total cost.",
+      "explanation": "7 × 2 = 14 €. Double 7 is 14.",
+      "lang": "en",
+      "sentence": "Adrián buys 7 train tickets for 2 € each. He pays ___ €.",
+      "options": [
+        "9",
+        "16",
+        "14"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-tablas-del-2-5-y-10-10",
+      "type": "choice",
+      "prompt": "Martina has 3 boxes of 10 crayons. Wei has 6 boxes of 5 crayons. Who has more crayons?",
+      "explanation": "Martina has 3 × 10 = 30 crayons. Wei has 6 × 5 = 30 crayons. They have the same number.",
+      "hint": "Work out each person's total separately.",
+      "lang": "en",
+      "options": [
+        "They both have the same number.",
+        "Wei has more crayons.",
+        "Martina has more crayons."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:02:13.387Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:32:22.936Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "204b24906c289eb6035ec68d0304f2f64444da8060dcc69a45a930483efd05cd",
+      "validation": "manual-review"
+    }
+  }
+}

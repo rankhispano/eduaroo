@@ -56,8 +56,8 @@
     {
       "id": "g5-sociales-derechos-humanos-02",
       "type": "true-false",
-      "prompt": "Los derechos humanos son inalienables, lo que significa que ninguna persona ni gobierno te los puede arrebatar jamás.",
-      "explanation": "Son inalienables porque forman parte intrínseca de la dignidad humana: no se pueden vender, quitar ni renunciar a ellos.",
+      "prompt": "Los derechos humanos son inalienables: pertenecen a toda persona y no se pueden vender ni renunciar a ellos.",
+      "explanation": "No perdemos nuestra dignidad ni nuestros derechos. Pueden sufrir vulneraciones y debemos defenderlos; algunos admiten límites legales para proteger los derechos de otras personas.",
       "lang": "es",
       "answer": true
     },
@@ -79,7 +79,7 @@
       "id": "g5-sociales-derechos-humanos-04",
       "type": "classify",
       "prompt": "En el aula de 5.º debaten sobre la convivencia democrática. Clasifica cada situación según corresponda:",
-      "explanation": "Los derechos nos garantizan condiciones dignas de vida, mientras que los deberes aseguran que respetemos los derechos de los demás.",
+      "explanation": "Los derechos protegen nuestra dignidad. Las responsabilidades ayudan a respetar los derechos de los demás; tener derechos no depende de cumplir primero nuestros deberes.",
       "lang": "es",
       "categories": [
         "Es un derecho",
@@ -103,7 +103,7 @@
           "category": 1
         },
         {
-          "text": "Poder expresar tus ideas libremente sin sufrir censura ni castigo",
+          "text": "Expresar tus ideas respetando los derechos de las demás personas",
           "category": 0
         },
         {

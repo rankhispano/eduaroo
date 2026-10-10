@@ -1,0 +1,240 @@
+{
+  "id": "g2-ingles-el-tiempo-atmosferico",
+  "cursoId": "2",
+  "asignaturaId": "ingles",
+  "temaId": "el-tiempo-atmosferico",
+  "temaNombre": "The weather",
+  "title": "What's the Weather Like?",
+  "summary": "Practise weather words and how to describe the weather in English.",
+  "keyIdeas": [
+    "We use sunny, rainy, windy and snowy to describe the weather.",
+    "To ask about the weather, say: What is the weather like?",
+    "Choose clothes for the temperature and weather: a coat for the cold and sunglasses to protect your eyes from the sun."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-ingles-el-tiempo-atmosferico-01",
+      "type": "match",
+      "prompt": "Match each type of weather to an object or activity.",
+      "explanation": "Use an umbrella for rain, sunglasses for sunshine and a warm coat for cold weather. A gentle wind helps a kite fly.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "It is rainy.",
+          "right": "I need an umbrella."
+        },
+        {
+          "left": "It is sunny.",
+          "right": "I wear sunglasses."
+        },
+        {
+          "left": "It is cold.",
+          "right": "I wear a warm coat."
+        },
+        {
+          "left": "It is windy.",
+          "right": "I fly my kite."
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-el-tiempo-atmosferico-02",
+      "type": "choice",
+      "prompt": "Look at the sky! The sun is shining. It is...",
+      "explanation": "When the sun shines, we say it is sunny.",
+      "hint": "The word comes from 'sun'.",
+      "lang": "en",
+      "options": [
+        "rainy",
+        "snowy",
+        "sunny"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-el-tiempo-atmosferico-03",
+      "type": "true-false",
+      "prompt": "Snow is cold.",
+      "explanation": "Snow is made of ice crystals and is cold.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-ingles-el-tiempo-atmosferico-04",
+      "type": "fill-blank",
+      "prompt": "Choose the correct word to complete the sentence.",
+      "explanation": "We need an umbrella when it is rainy.",
+      "hint": "Think about what an umbrella is for.",
+      "lang": "en",
+      "sentence": "Take your umbrella! It is ___ today.",
+      "options": [
+        "sunny",
+        "hot",
+        "rainy"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-el-tiempo-atmosferico-05",
+      "type": "classify",
+      "prompt": "Choose clothes for a hot beach day or a cold, snowy day.",
+      "explanation": "For a hot beach day, choose a T-shirt, swimsuit and sunglasses. For a cold, snowy day, choose a coat, gloves and boots.",
+      "lang": "en",
+      "categories": [
+        "Hot, sunny day",
+        "Cold, snowy day"
+      ],
+      "items": [
+        {
+          "text": "Sunglasses",
+          "category": 0
+        },
+        {
+          "text": "T-shirt",
+          "category": 0
+        },
+        {
+          "text": "Swimsuit",
+          "category": 0
+        },
+        {
+          "text": "Warm gloves",
+          "category": 1
+        },
+        {
+          "text": "Heavy coat",
+          "category": 1
+        },
+        {
+          "text": "Snow boots",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-el-tiempo-atmosferico-06",
+      "type": "choice",
+      "prompt": "Omar wants to fly his kite in the park. What weather is best?",
+      "explanation": "A kite needs wind to fly.",
+      "hint": "Kites need a gentle wind. Do not fly them in storms or strong winds.",
+      "lang": "en",
+      "options": [
+        "It is windy.",
+        "It is rainy.",
+        "It is snowy."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-el-tiempo-atmosferico-07",
+      "type": "order",
+      "prompt": "Put the words in order to ask about the weather.",
+      "explanation": "We can ask, 'What is the weather like today?'.",
+      "lang": "en",
+      "items": [
+        "What",
+        "is the",
+        "weather",
+        "like today?"
+      ]
+    },
+    {
+      "id": "g2-ingles-el-tiempo-atmosferico-08",
+      "type": "true-false",
+      "prompt": "On a cloudy day, the sky is full of clouds.",
+      "explanation": "Correct! On a cloudy day, clouds cover the sky.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-ingles-el-tiempo-atmosferico-09",
+      "type": "fill-blank",
+      "prompt": "Choose the correct word.",
+      "explanation": "We wear a warm scarf when it is cold.",
+      "hint": "A scarf protects us from low temperatures.",
+      "lang": "en",
+      "sentence": "Adrián wears a warm scarf because it is very ___.",
+      "options": [
+        "hot",
+        "sunny",
+        "cold"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-el-tiempo-atmosferico-10",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "Aisha and Hugo cannot play in the park because it is raining. They can have fun indoors.",
+      "lang": "en",
+      "title": "A Saturday Morning",
+      "text": "Today is Saturday. Aisha and Hugo look out of the window. It is dark and rainy. Water falls from the sky. Hugo says: We cannot play football in the park today. Aisha smiles: No, but we can play board games at home!",
+      "questions": [
+        {
+          "prompt": "What is the weather like today?",
+          "explanation": "The text says it is rainy and water falls from the sky.",
+          "options": [
+            "It is sunny.",
+            "It is rainy.",
+            "It is snowy."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Where do Aisha and Hugo play today?",
+          "explanation": "Because it is raining, Aisha suggests playing at home.",
+          "options": [
+            "At home",
+            "In the park",
+            "At school"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:07:02.896Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:21:10.328Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "66d62a508d57fcc02add7973cfc0b94c4bd4190e01fdb00c654e7875b450c2df",
+      "validation": "manual-review"
+    }
+  }
+}

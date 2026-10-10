@@ -1,0 +1,235 @@
+{
+  "id": "g4-sociales-patrimonio-cultural",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "patrimonio-cultural",
+  "temaNombre": "Cultural heritage",
+  "title": "Discovering our cultural heritage",
+  "summary": "Review tangible and intangible cultural heritage, and learn to value and care for it.",
+  "keyIdeas": [
+    "Tangible cultural heritage includes physical things such as monuments, historic buildings, paintings and archaeological remains.",
+    "Intangible heritage includes traditions, legends, music, dances and festivals passed down through generations.",
+    "Everyone can help care for and respect our heritage so that future generations can enjoy it."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.3"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-patrimonio-cultural-01",
+      "type": "true-false",
+      "prompt": "A medieval castle in your region is part of our cultural heritage.",
+      "explanation": "Castles and old buildings are valuable cultural treasures built by people in the past.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-02",
+      "type": "choice",
+      "prompt": "Which of these is an example of intangible cultural heritage? 🎶",
+      "explanation": "Traditional songs are not physical objects. People pass them down by singing them to later generations.",
+      "hint": "Think of something you listen to and learn, rather than an object you can touch.",
+      "lang": "en",
+      "options": [
+        "An ancient clay pot",
+        "A traditional folk song",
+        "A Gothic cathedral"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-03",
+      "type": "classify",
+      "prompt": "Sort these examples into tangible or intangible heritage.",
+      "explanation": "Tangible heritage includes physical objects and buildings. Intangible heritage includes knowledge, festivals and traditions.",
+      "lang": "en",
+      "categories": [
+        "Tangible heritage",
+        "Intangible heritage"
+      ],
+      "items": [
+        {
+          "text": "A Roman aqueduct",
+          "category": 0
+        },
+        {
+          "text": "A painting in a museum",
+          "category": 0
+        },
+        {
+          "text": "A grandmother's traditional recipe",
+          "category": 1
+        },
+        {
+          "text": "A regional folk dance",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-04",
+      "type": "fill-blank",
+      "prompt": "Choose the word that completes the sentence.",
+      "explanation": "UNESCO recognises World Heritage sites and promotes their conservation. Countries and communities also have a responsibility to protect them.",
+      "lang": "en",
+      "sentence": "The United Nations organisation that helps protect world heritage is called ___.",
+      "options": [
+        "UNESCO",
+        "The Red Cross",
+        "UNICEF"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-05",
+      "type": "match",
+      "prompt": "Match each example to its type of heritage.",
+      "explanation": "Paintings are physical remains, festivals are intangible heritage, and protected natural areas are natural heritage.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Altamira's cave paintings",
+          "right": "Tangible heritage"
+        },
+        {
+          "left": "The Fallas festival",
+          "right": "Intangible heritage"
+        },
+        {
+          "left": "Doñana National Park",
+          "right": "Natural heritage"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-06",
+      "type": "choice",
+      "prompt": "Omar and Lucía visit an archaeological site. What should they do? 🏛️",
+      "explanation": "To protect historical remains, we must follow the rules and avoid touching or changing anything at the site.",
+      "hint": "We need to preserve the ruins so that other people can enjoy them too.",
+      "lang": "en",
+      "options": [
+        "Take a small ancient stone home as a souvenir",
+        "Use only the marked walkways and do not touch anything",
+        "Stand on the ancient walls to take a photo"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-07",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "The mill is tangible heritage, and the villagers' spoken stories are intangible heritage.",
+      "lang": "en",
+      "title": "The mystery of the old mill",
+      "text": "In Aisha's village, an eighteenth-century flour mill stands beside the river. For decades, it was abandoned and overgrown. Last year, the neighbourhood association restored it with help from local historians. They cleaned the wooden wheels, repaired the water channel and added information panels. Schools now visit to learn how water power was used to make flour in the past. Older villagers proudly tell stories about their great-grandparents working there day and night.",
+      "questions": [
+        {
+          "prompt": "Why was restoring the mill important?",
+          "explanation": "Restoring old buildings helps preserve the memory of local jobs and traditions.",
+          "options": [
+            "It now makes free bread for the whole village",
+            "It helps people learn about jobs and ways of life in the past",
+            "It can now be sold to foreign tourists"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What type of heritage are the stories told by the older villagers?",
+          "explanation": "Stories passed down by word of mouth are part of intangible cultural heritage.",
+          "options": [
+            "Only natural heritage",
+            "Intangible heritage passed down by word of mouth",
+            "Written tangible heritage"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-08",
+      "type": "order",
+      "prompt": "A museum describes this process: excavate, clean and restore, study, then display. Put the steps in order for this case.",
+      "explanation": "This is the process described by the museum. In real research, study also takes place during excavation and restoration.",
+      "lang": "en",
+      "items": [
+        "Carefully excavate the archaeological site",
+        "Clean and restore the pieces found",
+        "Study the object and work out its age",
+        "Display it in a case with information for visitors"
+      ]
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-09",
+      "type": "choice",
+      "prompt": "Adrián's school is celebrating Heritage Day. Which idea best supports intangible heritage? 🎭",
+      "explanation": "Learning older people's games and songs keeps the community's intangible traditions alive.",
+      "hint": "People pass on intangible heritage by teaching and practising it.",
+      "lang": "en",
+      "options": [
+        "Paint graffiti on the public library's front wall",
+        "Invite grandparents to teach traditional games and folk songs",
+        "Buy plastic figures in a shop"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-patrimonio-cultural-10",
+      "type": "match",
+      "prompt": "Match each threat to heritage with the right way to protect it.",
+      "explanation": "Different types of heritage need different actions to prevent physical damage or traditions being forgotten.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Graffiti on monuments",
+          "right": "Monitoring and public campaigns encouraging respect"
+        },
+        {
+          "left": "Legends and traditional crafts being forgotten",
+          "right": "Recording people's stories and running school workshops"
+        },
+        {
+          "left": "Damage to caves with rock art",
+          "right": "Strict limits on the number of daily visitors"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:09:56.136Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:19:45.690Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "61c2b04ca33c9262208c15ca6fdd267429380505ff3439f4566e8765e227f0e5",
+      "validation": "manual-review"
+    }
+  }
+}

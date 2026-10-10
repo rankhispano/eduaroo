@@ -1,0 +1,245 @@
+{
+  "id": "g1-lengua-lectura-de-silabas",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "lectura-de-silabas",
+  "temaNombre": "Reading Spanish syllables",
+  "title": "Playing with syllables",
+  "summary": "Practise reading and joining Spanish syllables to make words.",
+  "keyIdeas": [
+    "A syllable groups sounds into one spoken beat.",
+    "Joining syllables makes whole words, such as lu-na and pe-lo-ta.",
+    "Reading each syllable slowly can help you understand a text."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE7",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "7.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CD3",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-lectura-de-silabas-01",
+      "type": "choice",
+      "prompt": "Which Spanish word do «ca» and «sa» make together? 🏠",
+      "explanation": "Ca followed by sa makes casa.",
+      "hint": "Read the two parts in order.",
+      "lang": "en",
+      "options": [
+        "casa",
+        "saca",
+        "cosa"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-02",
+      "type": "true-false",
+      "prompt": "The Spanish word «sol» has two syllables.",
+      "explanation": "Sol is said in one spoken beat, so it has one syllable.",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-03",
+      "type": "fill-blank",
+      "prompt": "Choose the missing syllable to complete the Spanish animal name. 🐸",
+      "explanation": "Po completes sapo, the Spanish word for a toad.",
+      "lang": "en",
+      "sentence": "El animal del charco es un sa___.",
+      "options": [
+        "pa",
+        "pe",
+        "po"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-04",
+      "type": "match",
+      "prompt": "Join the syllables to make «mesa», «libro», «lápiz» and «goma».",
+      "explanation": "The matched syllables form mesa, libro, lápiz and goma.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "me-",
+          "right": "-sa"
+        },
+        {
+          "left": "li-",
+          "right": "-bro"
+        },
+        {
+          "left": "lá-",
+          "right": "-piz"
+        },
+        {
+          "left": "go-",
+          "right": "-ma"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-05",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by their number of syllables.",
+      "explanation": "Clap each syllable: lu-na, bar-co and pe-rro have two; pe-lo-ta, co-mi-da and to-ma-te have three.",
+      "lang": "en",
+      "categories": [
+        "Two syllables",
+        "Three syllables"
+      ],
+      "items": [
+        {
+          "text": "lu-na",
+          "category": 0
+        },
+        {
+          "text": "pe-lo-ta",
+          "category": 1
+        },
+        {
+          "text": "bar-co",
+          "category": 0
+        },
+        {
+          "text": "co-mi-da",
+          "category": 1
+        },
+        {
+          "text": "to-ma-te",
+          "category": 1
+        },
+        {
+          "text": "pe-rro",
+          "category": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-06",
+      "type": "order",
+      "prompt": "Put the syllables in order to write a fruit's Spanish name. 🍌",
+      "explanation": "The correct order is plá-ta-no.",
+      "lang": "en",
+      "items": [
+        "plá-",
+        "ta-",
+        "no"
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-07",
+      "type": "choice",
+      "prompt": "Aisha wants a fruit whose Spanish name starts with «man-». Which does she ask for? 🍎",
+      "explanation": "Manzana starts with man-. Pera starts with pe-, and plátano with plá-.",
+      "hint": "Look for the word starting with m.",
+      "lang": "en",
+      "options": [
+        "man-za-na",
+        "pe-ra",
+        "plá-ta-no"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-08",
+      "type": "fill-blank",
+      "prompt": "Choose the syllable that completes the Spanish sentence.",
+      "explanation": "The correct word is maleta: ma-le-ta.",
+      "lang": "en",
+      "sentence": "Nerea guarda su ropa en la ma___ta.",
+      "options": [
+        "le",
+        "lu",
+        "lo"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-lectura-de-silabas-09",
+      "type": "reading",
+      "prompt": "Read the Spanish text carefully and answer the questions.",
+      "explanation": "Reading each syllable helps us understand Tito's story.",
+      "lang": "en",
+      "title": "El gato Tito",
+      "text": "El gato Tito sube a la te-ja. Mira una ma-ri-po-sa a-zul. La ma-ri-po-sa vuela alto. Tito baja a su cu-na y se duerme fe-liz.",
+      "questions": [
+        {
+          "prompt": "Where does Tito the cat climb?",
+          "explanation": "The text says El gato Tito sube a la te-ja.",
+          "options": [
+            "A la cuna.",
+            "A la teja.",
+            "Al árbol."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which Spanish colour word describes the butterfly Tito sees?",
+          "explanation": "The text says the butterfly is azul, meaning blue.",
+          "options": [
+            "Azul.",
+            "Verde.",
+            "Roja."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:27:36.232Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:09:34.440Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "abeb1ed37fad4222ad555cd9ccff7de90c489d764a36462d2fcf81eb66ca6656",
+      "validation": "manual-review"
+    }
+  }
+}

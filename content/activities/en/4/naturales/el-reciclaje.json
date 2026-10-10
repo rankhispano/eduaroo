@@ -1,0 +1,246 @@
+{
+  "id": "g4-naturales-el-reciclaje",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "el-reciclaje",
+  "temaNombre": "Recycling",
+  "title": "Planet Mission: recycling",
+  "summary": "Learn to sort waste and care for the planet using the three Rs.",
+  "keyIdeas": [
+    "The three Rs are reduce consumption, reuse objects and recycle used materials.",
+    "In Spain, follow your municipality's rules: blue for paper and cardboard, yellow for packaging, and green for glass containers.",
+    "Drinking glasses and windows do not go in the green packaging bin. Check local collection rules, and let an adult handle broken objects."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-el-reciclaje-01",
+      "type": "true-false",
+      "prompt": "Clean cardboard boxes and used notebook paper belong in the blue recycling bin.",
+      "explanation": "Under these Spanish collection rules, blue bins collect suitable paper and clean cardboard.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-02",
+      "type": "match",
+      "prompt": "Match each waste item to its bin under these collection rules.",
+      "explanation": "Drink cartons go in yellow, glass jars in green, food scraps in brown and cardboard in blue.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "An empty milk carton",
+          "right": "Yellow bin"
+        },
+        {
+          "left": "A glass jam jar without its lid",
+          "right": "Green bin"
+        },
+        {
+          "left": "Banana peel and apple scraps",
+          "right": "Brown bin"
+        },
+        {
+          "left": "A flattened shoe box",
+          "right": "Blue bin"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct R.",
+      "explanation": "Reusing means using an object again without turning it into a new material through industrial processing.",
+      "hint": "It means using something again.",
+      "lang": "en",
+      "sentence": "Using a bottle designed to be refilled many times is an example of ___.",
+      "options": [
+        "repairing",
+        "recycling",
+        "reusing"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-04",
+      "type": "classify",
+      "prompt": "Classify these objects as belonging in the yellow packaging bin or at a recycling collection centre.",
+      "explanation": "Yellow bins collect packaging, not every plastic or metal object. Toys, pans and batteries need suitable collection points.",
+      "lang": "en",
+      "categories": [
+        "Yellow packaging bin",
+        "Recycling collection centre"
+      ],
+      "items": [
+        {
+          "text": "A drinks can",
+          "category": 0
+        },
+        {
+          "text": "A plastic bag",
+          "category": 0
+        },
+        {
+          "text": "A broken plastic toy",
+          "category": 1
+        },
+        {
+          "text": "An old metal frying pan",
+          "category": 1
+        },
+        {
+          "text": "A plastic yoghurt pot",
+          "category": 0
+        },
+        {
+          "text": "Used batteries",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-05",
+      "type": "choice",
+      "prompt": "This municipality's brown bin accepts paper napkins stained with food. Where should Martina put a plastic-free paper napkin stained with oil?",
+      "explanation": "Follow local guidance. Here the napkin goes in brown. Paper heavily soiled with food does not go with clean paper in blue.",
+      "hint": "Greasy paper can spoil clean paper recycling.",
+      "lang": "en",
+      "options": [
+        "Blue, because it is paper.",
+        "Brown, because it contains food residue and grease.",
+        "Yellow, because grease is packaging."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-06",
+      "type": "reading",
+      "prompt": "Read this science report and answer the questions.",
+      "explanation": "The observations compare visible changes over four weeks. Complete breakdown times depend on the material and conditions.",
+      "lang": "en",
+      "title": "A Grade 4 decomposition observation",
+      "text": "In Science, the teacher placed two objects in a large pot of damp soil: an orange peel and a small plastic bag.\n\nThe class maintained suitable light and moisture for four weeks. After a month, the teacher recovered both objects to examine them, leaving no plastic in the soil.\n\nThe orange peel showed clear signs of decomposition. The plastic bag still looked unchanged in shape and colour.",
+      "questions": [
+        {
+          "prompt": "Which waste item showed signs of decomposition?",
+          "explanation": "In the reported observation, the orange peel had begun to break down.",
+          "options": [
+            "The plastic bag.",
+            "The orange peel.",
+            "Both objects disappeared."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What scientific conclusion can be drawn about the plastic?",
+          "explanation": "A month's observation shows a difference, but cannot establish the full breakdown time of either material.",
+          "options": [
+            "The bag showed no visible change during those four weeks.",
+            "Plastic disappears faster with water and light.",
+            "Plastic quickly becomes plant fertiliser."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-07",
+      "type": "choice",
+      "prompt": "A class produces 12 kg of waste each week. After sorting for recycling, 4 kg remains in general rubbish. How much was separated?",
+      "explanation": "The total is 12 kg and 4 kg remains: 12 − 4 = 8 kg was separated.",
+      "hint": "Subtract the general-bin mass from that week's total waste.",
+      "lang": "en",
+      "options": [
+        "The class produced much more rubbish during the second week.",
+        "8 kg of materials was separated for recycling.",
+        "The rubbish naturally lost weight because the classroom was warm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-08",
+      "type": "choice",
+      "prompt": "Find the incorrect statement about sorting household waste.",
+      "explanation": "Green bins collect glass packaging such as bottles and jars. Follow local rules for broken drinking glasses, and let an adult handle them.",
+      "hint": "Green bins collect glass containers, not every object made from glass.",
+      "lang": "en",
+      "options": [
+        "A broken drinking glass goes in the green bin with bottles.",
+        "Flatten cardboard boxes before putting them in the blue bin.",
+        "Clean tuna tins go in the yellow bin."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-09",
+      "type": "order",
+      "prompt": "Order the recycling stages for an aluminium drinks can.",
+      "explanation": "A can is used and sorted, collected and transported, then its metal is melted to make new products.",
+      "lang": "en",
+      "items": [
+        "Drink the contents and put the empty can in the yellow bin.",
+        "A collection lorry takes packaging to the sorting plant.",
+        "Cans are cleaned and melted at high temperature.",
+        "The metal is used to make new cans or parts."
+      ]
+    },
+    {
+      "id": "g4-naturales-el-reciclaje-10",
+      "type": "choice",
+      "prompt": "Aisha plans a sustainable birthday. Following the three Rs' priority, which option is best?",
+      "explanation": "Reducing waste comes first. Avoiding waste is better than needing to recycle it afterwards.",
+      "hint": "The first R is reduce: the best waste is waste that is never produced.",
+      "lang": "en",
+      "options": [
+        "Use disposable paper plates and then put them in the blue bin.",
+        "Use single-use plastic plates and put them in the yellow bin.",
+        "Use washable plates and cups from home to avoid disposable waste."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:04:10.903Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:15:43.279Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "62e92418c6d9634e06155d4c21018712eb9481d588041e98c17fbf0e8fbe24ee",
+      "validation": "manual-review"
+    }
+  }
+}

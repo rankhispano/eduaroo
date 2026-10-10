@@ -1,0 +1,263 @@
+{
+  "id": "g5-ingles-conectores-discursivos",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "conectores-discursivos",
+  "temaNombre": "Connectors",
+  "title": "Mastering English Connectors and Linkers",
+  "summary": "Practise English connectors to join ideas and tell stories.",
+  "keyIdeas": [
+    "Use 'and' to add ideas and 'but' to contrast them.",
+    "Use 'because' to explain a reason and 'so' to show a result.",
+    "Sequence events with 'first', 'then', 'after that' and 'finally'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-conectores-discursivos-01",
+      "type": "fill-blank",
+      "prompt": "Choose the connector that adds a second hobby.",
+      "explanation": "'And' adds another thing Lucía likes: basketball and swimming.",
+      "hint": "We are adding two things Lucía enjoys.",
+      "lang": "en",
+      "sentence": "Lucía likes playing basketball ___ she also loves swimming.",
+      "options": [
+        "and",
+        "but",
+        "because"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence to express a contrast.",
+      "explanation": "'But' connects contrasting ideas.",
+      "hint": "Hugo wanted to go out, but the rain prevented it.",
+      "lang": "en",
+      "sentence": "Hugo wanted to ride his bicycle, ___ it was raining heavily.",
+      "options": [
+        "and",
+        "but",
+        "so"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-03",
+      "type": "choice",
+      "prompt": "Aisha explains why she is happy. Which word fits best?\n'I am very happy today ___ I got a good mark in Science.'",
+      "explanation": "'Because' introduces the reason for something.",
+      "hint": "Choose the word that introduces why Aisha is happy.",
+      "lang": "en",
+      "options": [
+        "because",
+        "so",
+        "but"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-04",
+      "type": "match",
+      "prompt": "Match each connector with its meaning in Spanish.",
+      "explanation": "Matching English connectors to Spanish meanings helps us understand how they link ideas.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "because",
+          "right": "porque"
+        },
+        {
+          "left": "so",
+          "right": "así que / por lo tanto"
+        },
+        {
+          "left": "however",
+          "right": "sin embargo"
+        },
+        {
+          "left": "finally",
+          "right": "finalmente"
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-05",
+      "type": "true-false",
+      "prompt": "Omar missed the bus and walked to school as a result. Does 'because' express that result in 'Omar missed the bus, because he walked to school'?",
+      "explanation": "False. Use 'Omar missed the bus, so he walked to school'. 'Because' would make walking the reason for missing the bus.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-06",
+      "type": "order",
+      "prompt": "Put Adrián's morning routine in chronological order.",
+      "explanation": "Follow the time connectors: 'First', 'Then', 'After that' and 'Finally'.",
+      "lang": "en",
+      "items": [
+        "First, I wake up at seven o'clock and wash my face.",
+        "Then, I eat cereal and fruit for breakfast.",
+        "After that, I brush my teeth and pack my school bag.",
+        "Finally, I leave home and walk to school with my friends."
+      ]
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-07",
+      "type": "classify",
+      "prompt": "Sort these English connectors by their function.",
+      "explanation": "'And' adds ideas; 'but' and 'however' contrast them. 'Because', 'so' and 'as a result' express reasons or results.",
+      "lang": "en",
+      "categories": [
+        "Contrast and Addition",
+        "Cause and Result"
+      ],
+      "items": [
+        {
+          "text": "but",
+          "category": 0
+        },
+        {
+          "text": "because",
+          "category": 1
+        },
+        {
+          "text": "and",
+          "category": 0
+        },
+        {
+          "text": "so",
+          "category": 1
+        },
+        {
+          "text": "however",
+          "category": 0
+        },
+        {
+          "text": "as a result",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-08",
+      "type": "choice",
+      "prompt": "Nerea writes: 'The museum was closed, ___ we decided to visit the local library instead.' Choose the connector that shows the result.",
+      "explanation": "'So' introduces the decision made because the museum was closed.",
+      "hint": "The library visit is the result of the museum being closed.",
+      "lang": "en",
+      "options": [
+        "so",
+        "although",
+        "because"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-09",
+      "type": "fill-blank",
+      "prompt": "Complete with the connector that shows contrast at the beginning of a sentence.",
+      "explanation": "'However' can begin a sentence, followed by a comma, to contrast with the previous idea.",
+      "hint": "Choose a contrast connector followed by a comma.",
+      "lang": "en",
+      "sentence": "Wei trained very hard for the race. ___, he didn't win a medal.",
+      "options": [
+        "However",
+        "Because",
+        "First"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-conectores-discursivos-10",
+      "type": "reading",
+      "prompt": "Read the school blog post and answer the questions.",
+      "explanation": "The connectors sequence events and link reasons, results and contrasting ideas.",
+      "lang": "en",
+      "title": "A Day in the Green Forest",
+      "text": "Last Saturday, Martina and her class went on an excursion to the Green Forest Nature Park. First, the guide showed them an ancient oak tree and explained why forests are important for our planet. Then, the students explored the riverbank to identify animal footprints. They wanted to see the famous river otters, but the animals were hiding because it was a warm and noisy afternoon. After that, the class stopped for a picnic lunch under the trees. Martina dropped some apple skin on the grass, so her classmate Omar reminded her to keep nature clean. Martina immediately picked it up and put it in her compost bag. Finally, the group returned to the bus before five o'clock. It was an exhausting trip; however, everyone agreed that they learned a lot about protecting wildlife.",
+      "questions": [
+        {
+          "prompt": "Why did the students NOT see the river otters?",
+          "explanation": "In the story, the otters were hiding because the afternoon was warm and noisy.",
+          "options": [
+            "Because the guide told them to stay away from the water.",
+            "Because the river was completely dry.",
+            "Because the afternoon was warm and noisy, so they were hiding."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What happened as a result of Martina dropping apple skin on the grass?",
+          "explanation": "'So' introduces the result: Omar reminded Martina to keep nature clean, and she picked up the skin.",
+          "options": [
+            "The guide punished the whole class immediately.",
+            "A river otter came out to eat the fruit.",
+            "Omar reminded her to keep nature clean, so she picked it up."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does 'It was an exhausting trip; however, everyone agreed that they learned a lot' suggest?",
+          "explanation": "'However' contrasts being tired with the positive experience of learning about wildlife.",
+          "options": [
+            "Despite being tired, the students found the excursion valuable and worthwhile.",
+            "The students did not like the trip because they were too tired.",
+            "The teacher was upset because nobody learned anything."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:13:05.503Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:57:05.765Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "b27d34fb49a1c737d6db1ed0fec00481aa43f65de89be04adb4ea3084c0beaea",
+      "validation": "manual-review"
+    }
+  }
+}

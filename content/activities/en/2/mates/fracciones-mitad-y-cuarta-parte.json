@@ -1,0 +1,223 @@
+{
+  "id": "g2-mates-fracciones-mitad-y-cuarta-parte",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "fracciones-mitad-y-cuarta-parte",
+  "temaNombre": "Fractions: halves and quarters",
+  "title": "Fun with halves and quarters",
+  "summary": "Practise finding halves and quarters in everyday situations.",
+  "keyIdeas": [
+    "A half is one of 2 equal parts of a whole.",
+    "A quarter is one of 4 equal parts of a whole.",
+    "To find half of an amount, divide by 2. To find a quarter, divide by 4."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-01",
+      "type": "true-false",
+      "prompt": "To make halves, the two parts must be equal in size.",
+      "explanation": "Halving an amount or shape means dividing it into two equal parts.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-02",
+      "type": "choice",
+      "prompt": "Lucía has 6 strawberries 🍓. She eats half of them. How many does she eat?",
+      "explanation": "Half of 6 is 3 because 3 + 3 = 6, or 6 ÷ 2 = 3.",
+      "hint": "Share the 6 strawberries equally between two plates.",
+      "lang": "en",
+      "options": [
+        "2 strawberries",
+        "3 strawberries",
+        "4 strawberries"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about quarters.",
+      "explanation": "To make quarters, divide a whole or group into 4 equal parts.",
+      "lang": "en",
+      "sentence": "To find a quarter, we divide into ___ equal parts.",
+      "options": [
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-04",
+      "type": "match",
+      "prompt": "Match each amount to its half.",
+      "explanation": "Find two equal numbers that add to the amount: 2 + 2 = 4, 4 + 4 = 8, 5 + 5 = 10 and 6 + 6 = 12.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Half of 4",
+          "right": "2"
+        },
+        {
+          "left": "Half of 8",
+          "right": "4"
+        },
+        {
+          "left": "Half of 10",
+          "right": "5"
+        },
+        {
+          "left": "Half of 12",
+          "right": "6"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-05",
+      "type": "classify",
+      "prompt": "Sort each situation by the parts it makes.",
+      "explanation": "Dividing into 2 equal parts makes halves. Dividing into 4 equal parts makes quarters.",
+      "lang": "en",
+      "categories": [
+        "Halves",
+        "Quarters"
+      ],
+      "items": [
+        {
+          "text": "Sharing a cake into two equal portions",
+          "category": 0
+        },
+        {
+          "text": "Folding paper into 4 equal parts",
+          "category": 1
+        },
+        {
+          "text": "Cutting a pizza into 2 equal pieces",
+          "category": 0
+        },
+        {
+          "text": "Sharing 8 sweets into 4 equal groups",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-06",
+      "type": "choice",
+      "prompt": "Omar has 8 coloured pencils ✏️. He gives a quarter to Wei. How many does he give?",
+      "explanation": "A quarter of 8 is 2 because 8 ÷ 4 = 2, or 2 + 2 + 2 + 2 = 8.",
+      "hint": "Make 4 equal groups from the 8 pencils.",
+      "lang": "en",
+      "options": [
+        "4 pencils",
+        "2 pencils",
+        "1 pencil"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-07",
+      "type": "choice",
+      "prompt": "Hugo says half of 10 is 6. What mistake does he make?",
+      "explanation": "Half of 10 is 5 because 5 + 5 = 10. Adding 6 + 6 gives 12.",
+      "hint": "Check whether two groups of 6 make 10.",
+      "lang": "en",
+      "options": [
+        "6 + 6 is 12, not 10",
+        "10 has no half",
+        "He should subtract 2 from 10"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-08",
+      "type": "order",
+      "prompt": "Put the steps in order to fold paper into four equal parts.",
+      "explanation": "Folding in half makes two parts. Folding in half again makes four equal parts.",
+      "lang": "en",
+      "items": [
+        "Start with the whole sheet",
+        "Fold the paper in half",
+        "Fold it in half again",
+        "Open it to see four equal parts"
+      ]
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-09",
+      "type": "choice",
+      "prompt": "Nerea has 12 stickers. She gives half to her brother. How many does she give?",
+      "explanation": "Half of 12 is 6 because 12 ÷ 2 = 6, or 6 + 6 = 12.",
+      "hint": "Find a number that makes 12 when added to itself.",
+      "lang": "en",
+      "options": [
+        "3 stickers",
+        "4 stickers",
+        "6 stickers"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-fracciones-mitad-y-cuarta-parte-10",
+      "type": "choice",
+      "prompt": "There are 16 biscuits 🍪. Martina eats a quarter. How many biscuits are left?",
+      "explanation": "A quarter of 16 is 4: 16 ÷ 4 = 4. After she eats 4 biscuits, 16 - 4 = 12 biscuits are left.",
+      "hint": "First find a quarter, then subtract that amount.",
+      "lang": "en",
+      "options": [
+        "12 biscuits",
+        "4 biscuits",
+        "8 biscuits"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:04:51.905Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:30:35.343Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "b0404d30f7b6da21ec69dda1667c204577b5ad5e3f24df07960ad10f955a6c9c",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "id": "g6-naturales-ciencia-y-tecnologia",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "ciencia-y-tecnologia",
+  "temaNombre": "Science and technology",
+  "title": "Exploring science and technology",
+  "summary": "Discover how science investigates and how technology designs practical solutions to improve everyday life.",
+  "keyIdeas": [
+    "Science seeks to understand nature through the scientific method. Technology applies knowledge to meet human needs.",
+    "Reliable experiments require controlled variables. Evidence that disproves an earlier hypothesis also provides valuable scientific knowledge.",
+    "Design projects involve identifying a problem, sketching ideas, building a prototype, testing it and evaluating improvements."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "2.4",
+      "3.2",
+      "3.3"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "B. Tecnología y digitalización › Proyectos de diseño y pensamiento computacional"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-01",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the purpose of science and technology.",
+      "explanation": "Science produces knowledge to understand the world. Technology applies that knowledge to create useful objects, systems and tools.",
+      "hint": "Think of inventions that solve everyday problems.",
+      "lang": "en",
+      "sentence": "Science explains natural phenomena, while technology uses this knowledge to design ___ that meet human needs.",
+      "options": [
+        "theoretical hypotheses",
+        "practical solutions",
+        "universal laws"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-02",
+      "type": "order",
+      "prompt": "Put the usual steps of a scientific investigation in order from beginning to end.",
+      "explanation": "The scientific method begins with curiosity about an observation. It proposes a possible answer (a hypothesis), tests it carefully and finally shares the findings.",
+      "lang": "en",
+      "items": [
+        "Observe a phenomenon and ask a question",
+        "Propose a reasoned hypothesis",
+        "Design and carry out a controlled experiment",
+        "Record and analyse the data collected",
+        "Draw conclusions and communicate the results"
+      ]
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-03",
+      "type": "classify",
+      "prompt": "Sort each item as a scientific discovery or a technological invention.",
+      "explanation": "Discoveries reveal laws or things that already existed in nature. Inventions are objects and systems created by humans.",
+      "lang": "en",
+      "categories": [
+        "Scientific discovery",
+        "Technological invention"
+      ],
+      "items": [
+        {
+          "text": "Penicillin naturally produced by fungi",
+          "category": 0
+        },
+        {
+          "text": "The electron microscope",
+          "category": 1
+        },
+        {
+          "text": "The law of universal gravitation",
+          "category": 0
+        },
+        {
+          "text": "The photovoltaic solar panel",
+          "category": 1
+        },
+        {
+          "text": "The structure of the DNA molecule",
+          "category": 0
+        },
+        {
+          "text": "The robotic arm used in surgery",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-04",
+      "type": "match",
+      "prompt": "Match each technological tool or concept to its role in a school project.",
+      "explanation": "Each digital or technical tool has a specific role in imagining, programming and building prototypes.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Ultrasonic sensor",
+          "right": "Measures distances and detects nearby obstacles"
+        },
+        {
+          "left": "3D printer",
+          "right": "Makes physical parts and prototypes layer by layer"
+        },
+        {
+          "left": "Algorithm",
+          "right": "An ordered sequence of steps to solve a challenge"
+        },
+        {
+          "left": "Technical sketch",
+          "right": "An initial hand-drawn picture for planning a design"
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-05",
+      "type": "true-false",
+      "prompt": "If experimental data show that your original hypothesis was wrong, the investigation has failed and contributes nothing to science.",
+      "explanation": "Showing that a hypothesis is false is an important scientific advance. It rules out mistaken ideas and guides scientists towards new questions.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-06",
+      "type": "choice",
+      "prompt": "Aisha and Hugo want to program a small mobile robot to travel through a classroom maze. Using computational thinking, what should they do first?",
+      "explanation": "Problem decomposition means dividing a large challenge into simpler, ordered tasks. This is a foundation of computational thinking.",
+      "hint": "Remember that computers and robots need step-by-step instructions.",
+      "lang": "en",
+      "options": [
+        "Fit larger wheels without analysing the route",
+        "Write very complex random code until the robot succeeds by chance",
+        "Break the whole route into simple forward and turning instructions"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-07",
+      "type": "choice",
+      "prompt": "Martina and Omar investigate which material reduces noise best. They put a ringing bell in three identical boxes lined with cork, cardboard or cotton. Which variable must stay constant for a fair test?",
+      "explanation": "We compare materials while keeping the bell’s sound level, the meter’s distance, and the size and thickness of the layers the same. This helps us interpret differences.",
+      "hint": "If the meter is at different distances, you cannot tell whether differences come from the material or the distance.",
+      "lang": "en",
+      "options": [
+        "The exact mass of the insulating material, regardless of the meter’s position",
+        "The insulating material inside each box",
+        "The bell’s sound level and the meter’s distance from the box"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-08",
+      "type": "order",
+      "prompt": "Order the stages of a technological design project from identifying a need to solving it.",
+      "explanation": "The technological process moves from identifying a need to making a prototype, testing it carefully and communicating conclusions.",
+      "lang": "en",
+      "items": [
+        "Identify a problem or need in the surroundings",
+        "Draw sketches and plan the resources needed",
+        "Build a first working prototype",
+        "Test the prototype and assess possible faults",
+        "Communicate the final solution and suggest future improvements"
+      ]
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-09",
+      "type": "reading",
+      "prompt": "Read how nature inspires engineering and answer the questions.",
+      "explanation": "Biomimicry shows how scientific observation of nature can provide direct solutions to engineering challenges.",
+      "lang": "en",
+      "title": "The train inspired by a bird",
+      "text": "In Japan, the Shinkansen high-speed train travelled at more than three hundred kilometres per hour, but had a serious problem. On leaving tunnels, it pushed out compressed air, producing a deafening boom that disturbed nearby communities. Engineer Eiji Nakatsu, a keen birdwatcher, carefully observed the kingfisher. This small bird dives from the air into water at high speed with hardly a splash or loss of momentum. The key was its long, pointed beak. Nakatsu and his team redesigned the train’s nose using this natural shape as inspiration. The result exceeded expectations: the train produced less noise in tunnels, had less air resistance, used less electrical energy and travelled faster. This field, which connects science and technology by taking inspiration from living things, is called biomimicry.",
+      "questions": [
+        {
+          "prompt": "Which feature of the kingfisher inspired the engineers’ redesign?",
+          "explanation": "The text explains that the kingfisher’s long beak allows it to enter a dense substance, such as water, without sudden resistance or splashing.",
+          "options": [
+            "The curve of its legs when landing",
+            "The position of its feathers when gliding",
+            "The long, streamlined shape of its beak"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why can a more streamlined shape reduce the train’s energy use?",
+          "explanation": "Less air resistance means less energy is needed to travel at the same speed.",
+          "options": [
+            "The streamlined shape reduced friction against the air",
+            "They replaced electric motors with natural biofuels",
+            "The train began travelling more slowly inside tunnels"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What conclusion about biomimicry can we draw from the text?",
+          "explanation": "Biomimicry shows how millions of years of biological evolution can offer clever, sustainable solutions to complex mechanical problems.",
+          "options": [
+            "Any human-made machine easily outperforms animals’ adaptations",
+            "Engineering should replace mathematical calculations with training wild animals",
+            "Observing and conserving ecosystems provides useful ideas for more efficient, sustainable technologies"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-ciencia-y-tecnologia-10",
+      "type": "choice",
+      "prompt": "Lucía’s school wants to tell families about lunch menus while using less paper. The robotics team suggests a school website section or three giant screens kept on day and night outside. Why is the website the better technological and sustainable solution?",
+      "explanation": "The website also uses energy and needs maintenance, but avoids keeping those screens on all the time. We must offer an alternative for families without digital access.",
+      "hint": "Consider which proposal meets the need while using fewer resources.",
+      "lang": "en",
+      "options": [
+        "The website’s computers run continuously without any energy or maintenance",
+        "It informs families without keeping large screens on day and night.",
+        "Giant illuminated outdoor screens are banned at every school"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:18:35.523Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:04:05.020Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "447ece3da25da37d55b42884f1c7e6f2c1923e7e999861f31eb48b103d6bae94"
+    }
+  }
+}

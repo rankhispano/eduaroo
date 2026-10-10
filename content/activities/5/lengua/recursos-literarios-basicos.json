@@ -163,7 +163,7 @@
       "explanation": "El texto combina metáforas, comparaciones, personificaciones e hipérboles para ambientar una tarde otoñal.",
       "lang": "es",
       "title": "Una tarde en el parque viejo",
-      "text": "Al llegar noviembre, el parque del barrio parecía haberse transformado en un lienzo dorado. Los viejos robles se desnudaban despacio, dejando caer sus hojas secas como confeti de fiesta. Omar y Aisha caminaban sobre una alfombra crujiente que protestaba a cada paso con murmullos apagados.\n\nDe repente, el viento del norte despertó con furia. Sopló con tanta fuerza que casi arrancó las farolas del suelo. Era un gigante invisible que rugía y despeinaba a los transeúntes distraídos.\n\n—¡Mira las nubes, Omar! —exclamó Aisha señalando al cielo plomizo—. Son enormes ovejas negras tapando el sol.\n\nLos dos amigos se abrocharon los abrigos y corrieron hacia casa riendo, esquivando los charcos que brillaban como pequeños espejos en la acera mojada.",
+      "text": "Al llegar noviembre, el parque del barrio parecía haberse transformado en un lienzo dorado. Los viejos robles se desnudaban despacio, dejando caer sus hojas secas como confeti de fiesta. Omar y Aisha caminaban sobre una alfombra crujiente que protestaba a cada paso con murmullos apagados.\n\nDe repente, el viento del norte despertó con furia. Sopló con tanta fuerza que habría enviado cien ciudades volando hasta Marte. Era un gigante invisible que rugía y despeinaba a los transeúntes distraídos.\n\n—¡Mira las nubes, Omar! —exclamó Aisha señalando al cielo plomizo—. Son enormes ovejas negras tapando el sol.\n\nLos dos amigos se abrocharon los abrigos y corrieron hacia casa riendo, esquivando los charcos que brillaban como pequeños espejos en la acera mojada.",
       "questions": [
         {
           "prompt": "¿Qué elemento del parque se describe mediante una personificación diciendo que «protestaba a cada paso»?",
@@ -176,8 +176,8 @@
           "answer": 2
         },
         {
-          "prompt": "Cuando el narrador afirma que el viento «casi arrancó las farolas del suelo», ¿qué recurso utiliza para transmitir la intensidad del temporal?",
-          "explanation": "Es una hipérbole, ya que exagera desmesuradamente la fuerza del viento para remarcar lo fuerte que soplaba.",
+          "prompt": "Cuando el narrador dice que el viento «habría enviado cien ciudades volando hasta Marte», ¿qué recurso usa?",
+          "explanation": "Es una hipérbole: exagera de forma imposible la fuerza del viento.",
           "options": [
             "Hipérbole",
             "Comparación",
@@ -227,7 +227,7 @@
       "id": "g5-lengua-recursos-literarios-basicos-10",
       "type": "choice",
       "prompt": "Analiza esta frase poética: «La luna es una moneda de plata olvidada en el estanque». ¿Por qué podemos afirmar con seguridad que contiene una metáfora y no una comparación?",
-      "explanation": "Es una metáfora pura: establece una relación de identidad directa entre dos realidades («la luna es una moneda») sin partículas comparativas.",
+      "explanation": "Es una metáfora: identifica la luna con una moneda sin utilizar un nexo de comparación.",
       "hint": "Observa si existe alguna palabra que enlace los dos términos comparándolos expresamente.",
       "lang": "es",
       "options": [

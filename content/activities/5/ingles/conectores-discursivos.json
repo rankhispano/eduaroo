@@ -119,8 +119,8 @@
     {
       "id": "g5-ingles-conectores-discursivos-05",
       "type": "true-false",
-      "prompt": "In the sentence 'Omar missed the school bus, because he walked to school', the connector 'because' is used correctly.",
-      "explanation": "Es falso. Caminar a la escuela fue la consecuencia de perder el autobús, por lo que deberíamos usar 'so' (Omar missed the school bus, so he walked to school).",
+      "prompt": "Omar perdió el autobús y, como consecuencia, fue andando. ¿«Because» expresa esa consecuencia en «Omar missed the bus, because he walked to school»?",
+      "explanation": "Para expresar la consecuencia descrita usamos «so»: «Omar missed the bus, so he walked to school». «Because» presentaría caminar como la causa.",
       "lang": "en",
       "answer": false
     },

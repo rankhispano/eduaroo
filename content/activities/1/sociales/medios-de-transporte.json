@@ -9,7 +9,7 @@
   "keyIdeas": [
     "Los medios de transporte viajan por tierra, mar o aire.",
     "El transporte colectivo y la bicicleta cuidan el aire de la ciudad.",
-    "El cinturón de seguridad y el casco nos protegen siempre."
+    "En el coche usamos el sistema de retención adecuado. En bici usamos casco."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -123,13 +123,13 @@
       "id": "g1-sociales-medios-de-transporte-05",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre seguridad vial.",
-      "explanation": "El cinturón de seguridad nos protege y nos sujeta bien en el coche.",
+      "explanation": "Una persona adulta comprueba que usemos la silla o el asiento adecuados y estemos bien sujetos.",
       "lang": "es",
-      "sentence": "Al subir al coche, siempre nos abrochamos el ___ de seguridad.",
+      "sentence": "Cuando vamos en coche, viajamos bien sujetos en nuestro asiento o silla de ___.",
       "options": [
-        "cinturón",
-        "sombrero",
-        "zapato"
+        "seguridad",
+        "comedor",
+        "estudio"
       ],
       "answer": 0
     },
@@ -179,13 +179,13 @@
     {
       "id": "g1-sociales-medios-de-transporte-08",
       "type": "order",
-      "prompt": "Ordena los pasos de Adrián para montar en bici de forma segura.",
-      "explanation": "Primero nos ponemos el casco para protegernos. Luego miramos bien y pedaleamos con cuidado.",
+      "prompt": "Ordena cómo se prepara Adrián para ir en bici con una persona adulta.",
+      "explanation": "Usamos casco y un recorrido seguro. Una persona adulta nos acompaña.",
       "lang": "es",
       "items": [
-        "Ponerse el casco en la cabeza",
-        "Mirar que no vengan coches",
-        "Pedalear por el carril bici"
+        "Comprobar la bici y ajustarse el casco.",
+        "Mirar si el camino está libre y es seguro.",
+        "Pedalear con cuidado junto a la persona adulta."
       ]
     },
     {

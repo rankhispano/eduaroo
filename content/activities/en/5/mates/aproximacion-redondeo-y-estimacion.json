@@ -1,0 +1,272 @@
+{
+  "id": "g5-mates-aproximacion-redondeo-y-estimacion",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "aproximacion-redondeo-y-estimacion",
+  "temaNombre": "Approximation, Rounding and Estimation",
+  "title": "Everyday Rounding and Estimation",
+  "summary": "Round whole numbers and decimals and estimate everyday results. These exercises use decimal commas and dots for thousands: 3.482 means three thousand four hundred and eighty-two.",
+  "keyIdeas": [
+    "To round to a position, check the next digit: 5 or more rounds up; less than 5 rounds down.",
+    "For tenths or hundredths, apply the same rule to the following decimal digit.",
+    "Estimate by rounding amounts before calculating a quick approximate result."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.1",
+      "2.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-01",
+      "type": "choice",
+      "prompt": "The school library has 3.482 books. What is this number rounded to the nearest hundred?",
+      "explanation": "The tens digit is 8, so round up: 3.482 becomes 3.500.",
+      "hint": "Check the tens digit when rounding to hundreds.",
+      "lang": "en",
+      "options": [
+        "3.400",
+        "3.480",
+        "3.500",
+        "3.000"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-02",
+      "type": "true-false",
+      "prompt": "6,73 rounded to the nearest tenth is 6,7.",
+      "explanation": "True. The hundredths digit is 3, below 5, so the tenths digit stays 7.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-03",
+      "type": "fill-blank",
+      "prompt": "Complete with the nearest thousand.",
+      "explanation": "The hundreds digit is 6, so round up from 8 thousands to 9 thousands: 9.000.",
+      "lang": "en",
+      "sentence": "8.614 rounded to the nearest thousand is ___.",
+      "options": [
+        "8.600",
+        "9.000",
+        "8.000"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-04",
+      "type": "classify",
+      "prompt": "Sort these numbers by their nearest hundred.",
+      "explanation": "438 and 419 round down to 400; 392 rounds up to 400. 450, 481 and 467 round to 500.",
+      "lang": "en",
+      "categories": [
+        "Rounds to 400",
+        "Rounds to 500"
+      ],
+      "items": [
+        {
+          "text": "438",
+          "category": 0
+        },
+        {
+          "text": "481",
+          "category": 1
+        },
+        {
+          "text": "450",
+          "category": 1
+        },
+        {
+          "text": "419",
+          "category": 0
+        },
+        {
+          "text": "467",
+          "category": 1
+        },
+        {
+          "text": "392",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-05",
+      "type": "match",
+      "prompt": "Match each decimal with its rounding to the nearest tenth.",
+      "explanation": "Check hundredths: 4,28 → 4,3; 4,23 → 4,2; 4,96 → 5,0; 4,05 → 4,1.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "4,28",
+          "right": "4,3"
+        },
+        {
+          "left": "4,23",
+          "right": "4,2"
+        },
+        {
+          "left": "4,96",
+          "right": "5,0"
+        },
+        {
+          "left": "4,05",
+          "right": "4,1"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-06",
+      "type": "choice",
+      "prompt": "🧠 Aisha estimates €495 + €312 by rounding both amounts to the nearest hundred. What estimate does she get?",
+      "explanation": "Round to €500 and €300, then add: €800.",
+      "hint": "Round each amount to the nearest hundred before adding.",
+      "lang": "en",
+      "options": [
+        "€810",
+        "€800",
+        "€900",
+        "€700"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-07",
+      "type": "order",
+      "prompt": "Put the steps for estimating the cost of 6 T-shirts at €19,80 each in order.",
+      "explanation": "Identify the exact price, round it, multiply and state the estimate.",
+      "lang": "en",
+      "items": [
+        "Identify the exact unit price: €19,80.",
+        "Round the price to the nearest euro or ten euros: €20.",
+        "Multiply the rounded amount by 6: 20 × 6.",
+        "State the estimated total: about €120."
+      ]
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-08",
+      "type": "choice",
+      "prompt": "🕵️ Hugo rounds 14.529 to the nearest ten thousand and writes 14.529 ≈ 20.000. What is wrong?",
+      "explanation": "The thousands digit is 4, below 5. The ten-thousands digit stays 1, giving 10.000.",
+      "hint": "Check the digit just after the ten-thousands digit 1.",
+      "lang": "en",
+      "options": [
+        "He should round to hundreds instead of ten-thousands.",
+        "He forgot to replace the final digits with zeros.",
+        "He increased the ten-thousands digit even though the thousands digit is 4, below 5.",
+        "His mistake is that 14.529 rounds to 15.000 to the nearest ten thousand."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-09",
+      "type": "choice",
+      "prompt": "Omar runs 2.870 m and Martina 3.140 m. Round both distances to the nearest thousand, then estimate the difference. What is it?",
+      "explanation": "Both round to 3.000 m, giving an estimated difference of 0 m. This estimate is too rough for comparing the runs: the exact difference is 270 m.",
+      "hint": "Round each distance before subtracting.",
+      "lang": "en",
+      "options": [
+        "1.000 m",
+        "0 m",
+        "200 m",
+        "500 m"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-10",
+      "type": "fill-blank",
+      "prompt": "Complete with the best rounding choice for checking the money available.",
+      "explanation": "Rounding upwards gives €13 + €7 = €20. Since this upper estimate is affordable, the exact total is also affordable.",
+      "lang": "en",
+      "sentence": "Adrián has €20 and buys a €12,95 book and a €6,80 pencil case. To check safely that he has enough, he should round the prices ___.",
+      "options": [
+        "to zero",
+        "upwards",
+        "downwards"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-11",
+      "type": "match",
+      "prompt": "Match each decimal with its rounding to the nearest hundredth.",
+      "explanation": "Check thousandths: 7,346 → 7,35; 7,342 → 7,34; 7,398 → 7,40; 7,305 → 7,31.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "7,346",
+          "right": "7,35"
+        },
+        {
+          "left": "7,342",
+          "right": "7,34"
+        },
+        {
+          "left": "7,398",
+          "right": "7,40"
+        },
+        {
+          "left": "7,305",
+          "right": "7,31"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-aproximacion-redondeo-y-estimacion-12",
+      "type": "choice",
+      "prompt": "🎯 A bus holds 55 passengers. A fifth-grade trip has 234 pupils and teachers. How many buses are needed?",
+      "explanation": "Four buses hold 55 × 4 = 220 passengers, leaving 14 without seats. Round up to 5 buses.",
+      "hint": "How many passengers fit in 4 buses, and what happens to the rest?",
+      "lang": "en",
+      "options": [
+        "6 buses",
+        "5 buses",
+        "4 buses",
+        "3 buses"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:31:42.128Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:13:28.478Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "237bfea1823b9dcd95c577b4016b19f201105cbcb4d2ebdb84116bf6c896e238",
+      "validation": "manual-review"
+    }
+  }
+}

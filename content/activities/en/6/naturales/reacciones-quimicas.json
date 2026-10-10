@@ -1,0 +1,254 @@
+{
+  "id": "g6-naturales-reacciones-quimicas",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "reacciones-quimicas",
+  "temaNombre": "Chemical reactions",
+  "title": "The mystery of chemical reactions",
+  "summary": "Practise how matter changes, identify reactants and products, and discover clues that a chemical reaction is happening.",
+  "keyIdeas": [
+    "A chemical change produces new substances. In a physical change, the substance remains the same.",
+    "Substances that react are called reactants. The substances produced are called products.",
+    "In a closed system, total mass is conserved during a chemical reaction if we count every substance, including gases."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2"
+    ],
+    "criteria": [
+      "2.1",
+      "2.3",
+      "2.4"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-reacciones-quimicas-01",
+      "type": "true-false",
+      "prompt": "When liquid water boils and becomes water vapour, a chemical reaction occurs because its appearance changes completely.",
+      "explanation": "This is a physical change, not a chemical change. Water changes from liquid to gas but is still made of the same water molecules.",
+      "hint": "Think about whether cooled water vapour becomes liquid water again without forming a new substance.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-02",
+      "type": "classify",
+      "prompt": "Sort these everyday transformations as physical changes or chemical reactions.",
+      "explanation": "In a physical change, the substance stays the same even if its shape or state changes. Chemical reactions form new substances.",
+      "lang": "en",
+      "categories": [
+        "Physical change",
+        "Chemical reaction"
+      ],
+      "items": [
+        {
+          "text": "An ice cube melting in the sun",
+          "category": 0
+        },
+        {
+          "text": "An iron nail rusting",
+          "category": 1
+        },
+        {
+          "text": "Crumpling a sheet of notebook paper",
+          "category": 0
+        },
+        {
+          "text": "Baking biscuit dough",
+          "category": 1
+        },
+        {
+          "text": "Dissolving a teaspoon of salt in water",
+          "category": 0
+        },
+        {
+          "text": "Lighting a wooden match",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct scientific term for parts of a reaction.",
+      "explanation": "Reactants are the starting substances that interact and change to form the final products.",
+      "hint": "Their name tells you that these substances react.",
+      "lang": "en",
+      "sentence": "In a chemical reaction, the starting substances that react with each other are called ___.",
+      "options": [
+        "reactants",
+        "solvents",
+        "products"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-04",
+      "type": "match",
+      "prompt": "Match each everyday event to the visible clue that a chemical reaction is happening.",
+      "explanation": "Gas release, colour changes, heat release and solid formation are important clues to chemical changes.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Mixing bicarbonate of soda with vinegar",
+          "right": "Gas is released"
+        },
+        {
+          "left": "Leaving a piece of apple exposed to air",
+          "right": "Colour changes"
+        },
+        {
+          "left": "A campfire’s flame",
+          "right": "Light and heat are released"
+        },
+        {
+          "left": "Adding lemon juice to warm milk",
+          "right": "A solid precipitate forms in the liquid"
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-05",
+      "type": "choice",
+      "prompt": "In a chemical reaction model, a closed system has a total mass of 185 g. No substance enters or leaves. What will its total mass be after the reaction?",
+      "explanation": "In a closed system, total mass is conserved. We must also count any gases produced.",
+      "hint": "Check whether matter enters or leaves the system.",
+      "lang": "en",
+      "options": [
+        "185 g, because total mass is conserved",
+        "Less than 185 g, because gases have no mass",
+        "More than 185 g, because every reaction creates matter"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-06",
+      "type": "order",
+      "prompt": "Hugo wants to test whether cold slows an apple’s oxidation. Order the scientific method steps he should follow.",
+      "explanation": "A scientific investigation begins with observation, continues with a hypothesis and controlled testing, and ends with analysis and conclusions.",
+      "lang": "en",
+      "items": [
+        "Observe that apple slices exposed to air turn brown over time.",
+        "Propose the hypothesis that low fridge temperatures slow oxidation.",
+        "Put one slice in the fridge and an identical slice at room temperature for three hours.",
+        "Record the colour changes in each slice and the data collected.",
+        "Draw a conclusion and tell the class whether the original hypothesis was supported."
+      ]
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-07",
+      "type": "choice",
+      "prompt": "Omar says, “When a 3 kg log burns in a fireplace, almost all its matter disappears forever because the ashes left behind weigh only 150 grams.” What scientific mistake has he made?",
+      "explanation": "During combustion, much of the carbon and other elements in wood combine with oxygen and enter the atmosphere as invisible gases. The matter does not disappear.",
+      "hint": "Think about what leaves through the chimney.",
+      "lang": "en",
+      "options": [
+        "Matter does not disappear. The remaining material has entered the air as smoke and invisible gases such as water vapour and carbon dioxide.",
+        "Omar’s calculation is wrong because ashes always weigh twice as much as the burnt wood.",
+        "Fire does not change matter; it only shrinks it until it is almost invisible."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-08",
+      "type": "choice",
+      "prompt": "Lighting a candle and leaving an iron gate outdoors involve chemical reactions: combustion and slow oxidation. Which gas in air is needed for both?",
+      "explanation": "Oxygen supports combustion and reacts with metals during oxidation. Neither of these reactions can happen without it.",
+      "hint": "It is the same essential gas we take from the air when breathing.",
+      "lang": "en",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-09",
+      "type": "reading",
+      "prompt": "Read the text about a scientific milestone and answer the questions.",
+      "explanation": "The Lavoisiers’ work helped establish conservation of mass through careful measurements.",
+      "lang": "en",
+      "title": "The Lavoisiers’ balance",
+      "text": "In the eighteenth century, Marie-Anne Paulze and her husband Antoine Lavoisier transformed the study of matter in their Paris laboratory. Many people then believed that combustion mysteriously destroyed matter.\n\nThe Lavoisiers tested this idea carefully. They designed tightly sealed glass containers to prevent any substance entering or leaving. Inside, they placed metals or charcoal, heated them to cause a chemical reaction, and measured mass before and afterwards using very precise balances (weighing scales). They found that total mass remained unchanged within the precision of their measurements: reactants and products had the same mass.\n\nMarie-Anne spoke several languages, translated foreign scientific works and carefully drew all the laboratory instruments so other researchers could repeat their experiments. This careful, shared work showed that mass is conserved during a chemical reaction when every substance is included.",
+      "questions": [
+        {
+          "prompt": "Which instrument allowed the Lavoisiers to check that mass stayed the same?",
+          "explanation": "The text says they used very precise balances to weigh the container before and after the reaction.",
+          "options": [
+            "Mercury thermometers",
+            "Very precise balances",
+            "High-magnification microscopes"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why did they need to seal the glass containers tightly?",
+          "explanation": "If gases escaped, they could not be weighed. It would then wrongly appear that mass had decreased.",
+          "options": [
+            "To stop produced gases escaping and making the final mass measurement misleading.",
+            "To stop the reactants releasing unpleasant smells in the laboratory.",
+            "To stop sunlight entering and cooling the materials."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why was Marie-Anne Paulze’s work essential to scientific progress?",
+          "explanation": "Careful records, clear communication and teamwork help science advance. Marie-Anne led these important tasks.",
+          "options": [
+            "She single-handedly invented the fastest electronic balances of her time.",
+            "She documented, illustrated and translated the research, helping scientists cooperate and check results.",
+            "She showed that experiments never need to be repeated to reach valid conclusions."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-reacciones-quimicas-10",
+      "type": "choice",
+      "prompt": "Aisha and Adrián investigate how to make an effervescent tablet react faster with water. Cup A has cold water and a whole tablet. Cup B has warm water and a powdered tablet. Cup B reacts immediately, but their teacher says the experiment cannot establish the cause. Why?",
+      "explanation": "To test a cause, change only one variable at a time, such as water temperature or the tablet’s form, while keeping everything else the same.",
+      "hint": "A fair experiment changes only one factor at a time.",
+      "lang": "en",
+      "options": [
+        "They changed two variables at once, temperature and crushing, so cannot tell which caused the faster reaction.",
+        "Crushing a tablet changes its chemical composition and stops the reaction.",
+        "Warm water must never be used in science experiments because it destroys bubbles."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:16:00.750Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:44:20.958Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "ff0ffb3e2833d0fd355fd8e52610caaddd703ff3208265d1ce65e824da76110c",
+      "validation": "manual-review"
+    }
+  }
+}

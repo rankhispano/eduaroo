@@ -7,9 +7,9 @@
   "title": "Exploramos los reinos vivos",
   "summary": "Practica cómo clasificar animales, plantas, hongos y microorganismos según sus características principales.",
   "keyIdeas": [
-    "Los seres vivos se clasifican en cinco grandes reinos según sus características comunes.",
+    "En este tema usamos un modelo escolar de cinco reinos para agrupar seres vivos. Existen otros sistemas de clasificación.",
     "Los animales y los hongos no fabrican su propio alimento, mientras que las plantas sí.",
-    "Los animales se dividen en vertebrados, con esqueleto interno, e invertebrados, sin columna vertebral."
+    "Los vertebrados tienen columna vertebral; los invertebrados no la tienen."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -105,7 +105,7 @@
     {
       "id": "g4-naturales-clasificacion-de-seres-vivos-04",
       "type": "match",
-      "prompt": "Une cada grupo de vertebrados con una característica exclusiva de su cuerpo:",
+      "prompt": "Une cada grupo de vertebrados con una característica habitual.",
       "explanation": "Cada grupo de vertebrados cuenta con adaptaciones únicas en su piel y respiración para vivir en su entorno.",
       "lang": "es",
       "pairs": [
@@ -131,11 +131,11 @@
       "id": "g4-naturales-clasificacion-de-seres-vivos-05",
       "type": "choice",
       "prompt": "En el acuario, Adrián dice: «Los corales son plantas porque viven fijos en las rocas». ¿Cuál es su error?",
-      "explanation": "Aunque vivan fijos a las rocas, los corales capturan nutrientes y no hacen fotosíntesis. Son animales marinos.",
+      "explanation": "Los corales son animales que capturan alimento del agua. Muchos viven asociados con algas que hacen fotosíntesis.",
       "hint": "Piensa en cómo consiguen su energía y alimento.",
       "lang": "es",
       "options": [
-        "Son animales, ya que capturan alimento del agua y no hacen la fotosíntesis.",
+        "Son animales, aunque vivan fijos y capturen alimento del agua.",
         "Son hongos marinos que absorben la sal del fondo del mar.",
         "Son rocas mágicas que crecen con el agua salada."
       ],
@@ -145,9 +145,9 @@
       "id": "g4-naturales-clasificacion-de-seres-vivos-06",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre la alimentación de los hongos:",
-      "explanation": "Los hongos son descomponedores. Transforman restos de plantas y animales caídos en nutrientes para el suelo.",
+      "explanation": "Algunos hongos descomponen restos. Otros se relacionan con seres vivos de formas distintas.",
       "lang": "es",
-      "sentence": "Los hongos obtienen energía a partir de restos de otros seres vivos mediante la ___.",
+      "sentence": "Algunos hongos del suelo obtienen nutrientes de hojas muertas mediante la ___.",
       "options": [
         "descomposición",
         "fotosíntesis",
@@ -158,9 +158,9 @@
     {
       "id": "g4-naturales-clasificacion-de-seres-vivos-07",
       "type": "choice",
-      "prompt": "Wei encuentra un organismo verde en el bosque. Tiene muchas células y absorbe luz solar. ¿Qué deduces?",
-      "explanation": "Tener clorofila para hacer la fotosíntesis con luz solar es el rasgo definitorio del reino de las plantas.",
-      "hint": "Solo un reino produce su propio alimento usando la energía del sol.",
+      "prompt": "Wei observa un helecho, con raíces y hojas verdes que fabrican alimento con luz. ¿A qué grupo pertenece?",
+      "explanation": "El helecho es una planta. Algunas algas y bacterias también hacen fotosíntesis, por lo que esta capacidad no distingue por sí sola a todas las plantas.",
+      "hint": "Recuerda el grupo del helecho.",
       "lang": "es",
       "options": [
         "Es un animal herbívoro de color verde que no se mueve.",
@@ -173,7 +173,7 @@
       "id": "g4-naturales-clasificacion-de-seres-vivos-08",
       "type": "classify",
       "prompt": "Separa estos animales en vertebrados o invertebrados según tengan o no columna vertebral:",
-      "explanation": "Los vertebrados tienen esqueleto interno con columna vertebral. Los invertebrados no poseen esqueleto óseo interno.",
+      "explanation": "Los vertebrados tienen columna vertebral. Los invertebrados no la tienen, aunque algunos poseen estructuras duras de protección.",
       "lang": "es",
       "categories": [
         "Animales vertebrados",
@@ -240,14 +240,14 @@
     {
       "id": "g4-naturales-clasificacion-de-seres-vivos-10",
       "type": "order",
-      "prompt": "Ordena los pasos que sigue una científica para clasificar un ser vivo recién descubierto:",
-      "explanation": "Primero observamos las características, luego analizamos su nutrición, determinamos su reino y registramos el hallazgo.",
+      "prompt": "Ordena los pasos para clasificar un organismo con ayuda de una guía.",
+      "explanation": "Observamos y contrastamos datos antes de clasificar. Asignar un nombre científico a una especie nueva requiere un trabajo especializado.",
       "lang": "es",
       "items": [
-        "Observar con atención sus partes y su forma de desplazarse.",
-        "Comprobar si fabrica su propio alimento o si come otros seres.",
-        "Identificar el reino al que pertenece según sus características.",
-        "Registrar los datos y darle un nombre científico en su cuaderno."
+        "Observar sus características sin dañarlo.",
+        "Consultar en la guía cómo se alimenta y cómo es su cuerpo.",
+        "Comparar los datos con los grupos de la guía.",
+        "Registrar la clasificación y sus razones."
       ]
     }
   ],

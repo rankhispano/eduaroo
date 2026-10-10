@@ -13,7 +13,7 @@ La valoración editorial es que ambos temas pueden trabajarse en 6.º (habitualm
 
 La pubertad, la educación afectivo-sexual, la memoria democrática y el reconocimiento de las víctimas de la violencia figuran en los saberes del tercer ciclo del [Real Decreto 157/2022, anexo II, Conocimiento del Medio](https://www.boe.es/buscar/act.php?id=BOE-A-2022-3296). Esta correspondencia de contenidos no constituye una certificación de la adecuación individual para cada niño.
 
-También se ha realizado una comprobación automática de los **238 JSON y 2.351 actividades** existentes. Antes de las modificaciones no había errores de estructura ni lecturas por encima de los máximos de extensión establecidos por el generador. Esa comprobación no acredita la corrección pedagógica, científica o lingüística de los otros 236 archivos.
+También se realizó una comprobación automática de los **238 JSON y 2.351 actividades** existentes. La revisión editorial posterior de los otros 236 archivos ya está terminada y se documenta en [el informe completo](revision-pedagogica-actividades.md), con su anexo de trazabilidad y validación final.
 
 ## Sociales: Guerra Civil y franquismo
 
@@ -62,12 +62,12 @@ La variación en el inicio de la pubertad se contrastó con [NHS Wales](https://
 - Se regeneró `content/activities/registry.ts` para actualizar los resúmenes usados por la web.
 - Se comprobó en el navegador local la carga de ambas lecciones, sus microlecciones y la primera pregunta de Sociales. El reproductor convierte cada lectura de tres preguntas en tres pasos, por lo que cada bloque de 10 actividades muestra 12 pasos en pantalla.
 - `meta.reviewed` permanece en `false`: el tipo del proyecto reserva ese campo para revisión docente. Este informe registra una revisión editorial asistida, sin cambiar el significado de esa marca.
-- La revisión pedagógica de los otros 236 JSON y la traducción al inglés siguen pendientes. No se han creado traducciones en esta revisión previa.
+- La revisión pedagógica de los otros 236 JSON está terminada; véase [el informe completo](revision-pedagogica-actividades.md). La traducción al inglés sigue pendiente.
 
 ## Criterios para la futura versión en inglés
 
 El contenido histórico debe seguir refiriéndose a España y explicar «Spanish Civil War», «Second Spanish Republic» y «Franco's dictatorship» cuando aparezcan. El idioma de la interfaz no convierte estas actividades en un currículo británico o estadounidense; tampoco cambia automáticamente euros, sistema métrico o niveles escolares.
 
-Debe decidirse antes de traducir Lengua si el objetivo sigue siendo aprender español con instrucciones en inglés o si se quiere enseñar lengua inglesa. Traducir literalmente ejemplos de tildes, género, sílabas o grafías españolas puede invalidar las respuestas. En la asignatura Inglés habrá que traducir las instrucciones y explicaciones que sigan en español, conservando el inglés que constituye el objeto del ejercicio.
+El objetivo confirmado es preparar las asignaturas en inglés en un contexto de colegio bilingüe, conservando el currículo español LOMLOE de Sociales y Naturales. Lengua Castellana debe seguir enseñando español: traducir literalmente ejemplos de tildes, género, sílabas o grafías puede invalidar las respuestas. En la asignatura Inglés habrá que traducir las instrucciones y explicaciones que sigan en español, conservando el inglés que constituye el objeto del ejercicio.
 
 La aplicación ya dispone de rutas `es` y `en`, pero el registro y los cargadores de estas actividades no seleccionan una variante por idioma. La traducción completa requerirá resolver esa carga tanto en las lecciones como en los exámenes, el repaso y las fichas de temas.

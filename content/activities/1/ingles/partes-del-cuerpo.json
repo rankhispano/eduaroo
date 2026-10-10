@@ -9,7 +9,7 @@
   "keyIdeas": [
     "Usamos palabras como head, arms o legs para nombrar nuestro cuerpo.",
     "En la cara tenemos eyes, ears, nose y mouth.",
-    "Para decir dos partes añadimos una -s al final, como two hands."
+    "Muchos plurales añaden -s, como hand → hands. Algunos cambian de otra forma: foot → feet."
   ],
   "lomloe": {
     "area": "lengua-extranjera",
@@ -107,7 +107,7 @@
       "id": "g1-ingles-partes-del-cuerpo-05",
       "type": "fill-blank",
       "prompt": "Completa la frase para aplaudir:",
-      "explanation": "Aplaadimos con las manos: Clap your hands!",
+      "explanation": "Aplaudimos con las manos: Clap your hands!",
       "hint": "Tienen cinco dedos en cada una.",
       "lang": "en",
       "sentence": "Clap your ___! 👏",

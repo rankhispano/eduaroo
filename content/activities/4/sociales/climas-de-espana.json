@@ -49,7 +49,7 @@
       "id": "g4-sociales-climas-de-espana-02",
       "type": "choice",
       "prompt": "¿Qué clima predomina en las islas Canarias?",
-      "explanation": "Las islas Canarias tienen un clima subtropical, con temperaturas suaves y cálidas durante todo el año y pocas lluvias.",
+      "explanation": "En Canarias predomina el clima subtropical. La altura y la orientación de cada isla hacen que algunas zonas sean más frías o húmedas que otras.",
       "hint": "Están cerca del trópico y tienen temperaturas agradables casi siempre.",
       "lang": "es",
       "options": [
@@ -76,7 +76,7 @@
         },
         {
           "left": "Clima subtropical",
-          "right": "Temperaturas cálidas todo el año y pocas lluvias"
+          "right": "Temperaturas generalmente suaves y lluvias escasas en muchas zonas"
         },
         {
           "left": "Clima mediterráneo",
@@ -138,8 +138,8 @@
     {
       "id": "g4-sociales-climas-de-espana-06",
       "type": "choice",
-      "prompt": "Hugo prepara su maleta para ir de excursión en julio a Asturias. ¿Qué objeto no debería olvidar nunca?",
-      "explanation": "En Asturias el clima oceánico hace que pueda llover incluso en verano, por lo que un chubasquero es imprescindible.",
+      "prompt": "Hugo prepara su maleta para visitar una zona costera de Asturias en julio. ¿Qué prenda resulta útil si llueve?",
+      "explanation": "En Asturias puede llover también en verano. Conviene consultar la previsión y llevar una prenda para la lluvia.",
       "hint": "Piensa en el fenómeno atmosférico más habitual del norte peninsular.",
       "lang": "es",
       "options": [
@@ -153,7 +153,7 @@
       "id": "g4-sociales-climas-de-espana-07",
       "type": "order",
       "prompt": "Ordena estos paisajes de mayor a menor presencia habitual de nieve en invierno:",
-      "explanation": "En las altas cumbres de montaña nieva con frecuencia, en la meseta solo de forma puntual y en la costa canaria nunca.",
+      "explanation": "Las cumbres altas reciben nieve con frecuencia; en la Meseta es menos habitual y en la costa canaria es excepcional.",
       "lang": "es",
       "items": [
         "Cumbres de los Pirineos",
@@ -168,7 +168,7 @@
       "explanation": "La lectura muestra cómo el clima modela el paisaje vegetal: mucha lluvia en el norte y gran aridez en el sureste.",
       "lang": "es",
       "title": "El viaje escolar de Nerea",
-      "text": "Nerea ha viajado este curso con su colegio por dos zonas muy distintas de España. En otoño visitó los valles de Galicia. Allí contempló bosques verdes de robles y castaños gracias a las constantes lluvias atlánticas. En primavera viajó a Almería, en el sureste peninsular. El paisaje parecía un desierto con plantas adaptadas a la sequedad, como las pitas y los espartos. El guía les explicó que en esa comarca apenas llueve durante el año y el sol brilla casi todos los días. Nerea aprendió que las plantas de cada lugar dependen directamente del clima.",
+      "text": "Nerea ha viajado este curso con su colegio por dos zonas muy distintas de España. En otoño visitó los valles de Galicia. Allí contempló bosques verdes de robles y castaños gracias a las constantes lluvias atlánticas. En primavera viajó a Almería, en el sureste peninsular. El paisaje parecía un desierto con plantas adaptadas a la sequedad, como las pitas y los espartos. El guía les explicó que en esa comarca apenas llueve durante el año y el sol brilla casi todos los días. Nerea aprendió que las plantas de cada lugar están influidas por el clima, el suelo y otros factores.",
       "questions": [
         {
           "prompt": "¿Por qué los bosques de Galicia estaban verdes y frondosos?",
@@ -196,13 +196,13 @@
       "id": "g4-sociales-climas-de-espana-09",
       "type": "choice",
       "prompt": "Aisha compara los datos de dos pueblos: el pueblo A sumó 1.100 mm de lluvia al año; el pueblo B sumó solo 320 mm. ¿Qué conclusión es correcta?",
-      "explanation": "Más de 1.000 mm anuales indica precipitaciones abundantes propias del clima oceánico, mientras que 320 mm refleja la escasez del clima mediterráneo.",
-      "hint": "En el norte llueve mucho más del triple que en el sur o levante.",
+      "explanation": "Los datos permiten comparar la lluvia de ese año. Para identificar un clima necesitamos también temperaturas y registros de muchos años.",
+      "hint": "Compara 1.100 mm con 320 mm.",
       "lang": "es",
       "options": [
-        "Ambos pueblos tienen exactamente el mismo clima subtropical",
-        "El pueblo A está en Canarias y el pueblo B en Galicia",
-        "El pueblo A tiene clima oceánico y el pueblo B clima mediterráneo"
+        "Ambos pueblos tienen exactamente el mismo clima",
+        "El pueblo A está necesariamente en Canarias",
+        "El pueblo A recibió más lluvia que el pueblo B"
       ],
       "answer": 2
     },

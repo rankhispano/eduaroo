@@ -9,7 +9,7 @@
   "keyIdeas": [
     "Usamos el centímetro (cm) para objetos pequeños y el metro (m) para cosas grandes.",
     "Un metro equivale exactamente a 100 centímetros (1 m = 100 cm).",
-    "Al medir con la regla, siempre debemos colocar el inicio del objeto en el número 0."
+    "Para medir fácilmente con la regla, coloca el inicio del objeto en la marca 0."
   ],
   "lomloe": {
     "area": "matematicas",
@@ -124,8 +124,8 @@
     {
       "id": "g2-mates-longitud-cm-y-m-05",
       "type": "match",
-      "prompt": "Une cada objeto con la medida que mejor encaja en la realidad:",
-      "explanation": "Cada objeto tiene un tamaño lógico: un lápiz mide unos 15 cm y una persona más de 1 metro.",
+      "prompt": "Une cada ejemplo con una estimación razonable de su medida:",
+      "explanation": "Son estimaciones, no medidas exactas: los lápices, las personas y los animales pueden tener tamaños diferentes.",
       "lang": "es",
       "pairs": [
         {
@@ -150,13 +150,13 @@
       "id": "g2-mates-longitud-cm-y-m-06",
       "type": "choice",
       "prompt": "Lucas mide su lápiz. Pone la punta en el 1 de la regla y termina en el 9. Dice: «¡Mide 9 cm!». ¿Qué error ha cometido?",
-      "explanation": "Para medir bien hay que empezar en el 0. Como empezó en el 1, el lápiz mide 8 cm y no 9 cm.",
-      "hint": "¿Desde qué número debemos empezar a medir siempre con la regla?",
+      "explanation": "La longitud es la diferencia entre las marcas: 9 − 1 = 8 cm. Empezar en 0 facilita leer directamente el resultado.",
+      "hint": "Cuenta los centímetros entre las marcas 1 y 9.",
       "lang": "es",
       "options": [
-        "Ha colocado la regla del revés.",
-        "El lápiz siempre se mide en metros.",
-        "Debía empezar a medir desde el 0 de la regla."
+        "Ha colocado la regla del revés",
+        "El lápiz siempre se mide en metros",
+        "Debía restar 9 − 1, o empezar desde el 0"
       ],
       "answer": 2
     },
@@ -190,7 +190,7 @@
     {
       "id": "g2-mates-longitud-cm-y-m-09",
       "type": "choice",
-      "prompt": "Martina une dos tiras de papel: una de 30 cm y otra de 25 cm. ¿Cuánto mide la tira larga?",
+      "prompt": "Martina coloca dos tiras de papel una a continuación de otra, sin superponerlas: una mide 30 cm y otra 25 cm. ¿Qué longitud suman?",
       "explanation": "Sumamos las dos tiras: 30 + 25 = 55 cm en total.",
       "hint": "Junta las dos partes haciendo una suma.",
       "lang": "es",

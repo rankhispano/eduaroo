@@ -1,0 +1,222 @@
+{
+  "id": "g4-lengua-conjugacion-presente-pasado-futuro",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "conjugacion-presente-pasado-futuro",
+  "temaNombre": "Spanish Conjugation: Present, Past and Future",
+  "title": "Travelling Through Verb Tenses",
+  "summary": "Practise Spanish present, past and future verb forms by recognising when actions happen.",
+  "keyIdeas": [
+    "Past forms describe earlier actions; present forms can describe actions happening now or regularly; future forms describe what will happen later.",
+    "Time words such as «ayer», «hoy» and «mañana» help us understand when an action happens.",
+    "The verb agrees with its subject in person and number. Context helps us understand the time of an action."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-01",
+      "type": "choice",
+      "prompt": "In «Hugo come una manzana en el recreo», which tense is the verb?",
+      "explanation": "«Come» is a present form. It can describe what Hugo does now or what he does regularly.",
+      "hint": "Consider the form of «come»: is it present, past or future?",
+      "lang": "en",
+      "options": [
+        "Present",
+        "Past",
+        "Future"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-02",
+      "type": "true-false",
+      "prompt": "In «Ayer visitaremos el museo de ciencias», the verb form correctly matches «ayer».",
+      "explanation": "False. «Ayer» refers to the past. Use «visitamos», not the future form «visitaremos».",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-03",
+      "type": "classify",
+      "prompt": "Sort these Spanish verb forms by tense.",
+      "explanation": "«Escribí» and «escucharon» are past forms; «salto» and «lees» are present forms; «viajaremos» and «abrirá» are future forms.",
+      "lang": "en",
+      "categories": [
+        "Past",
+        "Present",
+        "Future"
+      ],
+      "items": [
+        {
+          "text": "escribí",
+          "category": 0
+        },
+        {
+          "text": "salto",
+          "category": 1
+        },
+        {
+          "text": "viajaremos",
+          "category": 2
+        },
+        {
+          "text": "escucharon",
+          "category": 0
+        },
+        {
+          "text": "lees",
+          "category": 1
+        },
+        {
+          "text": "abrirá",
+          "category": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-04",
+      "type": "match",
+      "prompt": "Match each Spanish time expression with the action that fits it best.",
+      "explanation": "Match past expressions with past actions, the current moment with a present action and a future expression with a future action.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "El año pasado",
+          "right": "viví en Valencia"
+        },
+        {
+          "left": "En este momento",
+          "right": "hago los deberes"
+        },
+        {
+          "left": "El próximo sábado",
+          "right": "nadaremos en la piscina"
+        },
+        {
+          "left": "Hace dos días",
+          "right": "perdiste el lápiz"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-05",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with a future verb form.",
+      "explanation": "«Jugarán» is a future form that agrees with Lucía and Wei. Spanish can also use present forms to talk about the future, but here we are practising the future form.",
+      "lang": "en",
+      "sentence": "Mañana por la tarde, Lucía y Wei ___ en el parque del barrio.",
+      "options": [
+        "jugaron",
+        "jugarán",
+        "jugaban"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-06",
+      "type": "order",
+      "prompt": "Put these Spanish actions in order from earliest to latest.",
+      "explanation": "The order moves from past «terminé» to present «guardo» and then future «entregaré».",
+      "lang": "en",
+      "items": [
+        "Ayer terminé el dibujo de Plástica.",
+        "Ahora guardo las pinturas en el estuche.",
+        "Mañana entregaré la lámina al maestro."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-07",
+      "type": "choice",
+      "prompt": "Aisha checks her school diary. Which Spanish sentence has a verb tense that does not fit the time expression?",
+      "explanation": "«La semana que viene» refers to the future, so the past form «recogisteis» does not fit. A future form would be «recogeréis».",
+      "hint": "Find a future time expression used with a past verb form.",
+      "lang": "en",
+      "options": [
+        "El lunes pasado regamos los tomates con cuidado.",
+        "La semana que viene recogisteis las zanahorias grandes.",
+        "Hoy plantamos las semillas de lechuga en el huerto."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-08",
+      "type": "choice",
+      "prompt": "Omar wants to describe his plans using future forms for both actions. Which Spanish sentence should he choose?",
+      "explanation": "«Iré» and «pediré» are both future forms describing Omar's plans.",
+      "hint": "Choose the sentence with two future verb forms.",
+      "lang": "en",
+      "options": [
+        "Fui en bicicleta a la biblioteca y pedí dos cómics prestados.",
+        "Voy en bicicleta a la biblioteca y pedí dos cómics prestados.",
+        "Iré en bicicleta a la biblioteca y pediré dos cómics prestados."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-conjugacion-presente-pasado-futuro-09",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish verb form that fits the time of the action.",
+      "explanation": "«El domingo pasado» refers to the past. With «nosotros», the correct past form here is «cocinamos».",
+      "lang": "en",
+      "sentence": "Nosotros ___ un pastel delicioso el domingo pasado con la tía Nerea.",
+      "options": [
+        "cocinan",
+        "cocinaremos",
+        "cocinamos"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:41:25.446Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:22:46.306Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f0dc48b8a55e1df05541ef85b9a3abc36655e3710c77c5ebf8cd968e9a58ddd4",
+      "validation": "manual-review"
+    }
+  }
+}

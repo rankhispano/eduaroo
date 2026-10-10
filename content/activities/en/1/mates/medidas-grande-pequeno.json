@@ -1,0 +1,207 @@
+{
+  "id": "g1-mates-medidas-grande-pequeno",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "medidas-grande-pequeno",
+  "temaNombre": "Comparing size: big and small",
+  "title": "Comparing sizes: big and small",
+  "summary": "Learn to compare and order objects by size.",
+  "keyIdeas": [
+    "Compare two things together to find out which is bigger.",
+    "An object can be big compared with one thing and small compared with another.",
+    "We can put objects in order from smallest to biggest."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "B. Sentido de la medida › Estimación y relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-medidas-grande-pequeno-01",
+      "type": "choice",
+      "prompt": "Which animal is bigger than a cat? 🐱",
+      "explanation": "An elephant is much bigger than a cat. An ant and a ladybird are smaller.",
+      "hint": "Think of a very heavy, tall animal.",
+      "lang": "en",
+      "options": [
+        "An ant 🐜",
+        "An elephant 🐘",
+        "A ladybird 🐞"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-02",
+      "type": "true-false",
+      "prompt": "A rubber is bigger than a school bag.",
+      "explanation": "A rubber fits inside a pencil case and a school bag. The rubber is smaller.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-03",
+      "type": "classify",
+      "prompt": "Sort these school objects by their usual size.",
+      "explanation": "The board, cupboard and desk take up a lot of space. The sharpener, paper clip and button are small.",
+      "lang": "en",
+      "categories": [
+        "Big objects",
+        "Small objects"
+      ],
+      "items": [
+        {
+          "text": "The classroom board",
+          "category": 0
+        },
+        {
+          "text": "A pencil sharpener",
+          "category": 1
+        },
+        {
+          "text": "The book cupboard",
+          "category": 0
+        },
+        {
+          "text": "A paper clip",
+          "category": 1
+        },
+        {
+          "text": "The teacher's desk",
+          "category": 0
+        },
+        {
+          "text": "A button on a school smock",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct choice.",
+      "explanation": "A school bus carries many children. It is bigger than a bicycle.",
+      "lang": "en",
+      "sentence": "A school bus is ___ than a bicycle.",
+      "options": [
+        "no faster",
+        "smaller",
+        "bigger"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-05",
+      "type": "order",
+      "prompt": "Put the balls in order from smallest to biggest.",
+      "explanation": "The table tennis ball is smallest, followed by the tennis ball. The basketball is biggest.",
+      "lang": "en",
+      "items": [
+        "Table tennis ball 🏓",
+        "Tennis ball 🎾",
+        "Basketball 🏀"
+      ]
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-06",
+      "type": "choice",
+      "prompt": "Adrián wants to put an object in his shoebox. Which one fits?",
+      "explanation": "The pencil is smaller than the shoebox. The bicycle and bed are too big.",
+      "hint": "Choose the object that is smaller than the box.",
+      "lang": "en",
+      "options": [
+        "A pencil ✏️",
+        "A bicycle 🚲",
+        "A bed 🛏️"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-07",
+      "type": "choice",
+      "prompt": "Mateo compares an adult mouse with a medium-sized adult dog. He says the mouse is bigger. What is his mistake?",
+      "explanation": "A medium-sized adult dog is bigger than an adult mouse.",
+      "hint": "Think of each animal's actual size.",
+      "lang": "en",
+      "options": [
+        "He makes no mistake.",
+        "The mouse and dog are the same size.",
+        "The dog is bigger than the mouse."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-08",
+      "type": "fill-blank",
+      "prompt": "Choose the words to compare the boxes.",
+      "explanation": "Medium is between big and small. The medium box is bigger than the small box.",
+      "lang": "en",
+      "sentence": "The medium box is ___ than the small box.",
+      "options": [
+        "no lighter",
+        "smaller",
+        "bigger"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-medidas-grande-pequeno-09",
+      "type": "order",
+      "prompt": "Put the animals in order from biggest to smallest.",
+      "explanation": "The cow is biggest, followed by the sheep and rabbit. The chick is smallest.",
+      "lang": "en",
+      "items": [
+        "Cow 🐄",
+        "Sheep 🐑",
+        "Rabbit 🐇",
+        "Chick 🐥"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:57:25.653Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:18:41.399Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "dcb18f9f57fb27289e74a3a0e9ac6bef3971b30e3422bf4991f0980e620e0aff",
+      "validation": "manual-review"
+    }
+  }
+}

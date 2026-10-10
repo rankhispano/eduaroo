@@ -48,7 +48,7 @@
       "type": "choice",
       "prompt": "¿Qué gas del aire necesita nuestro cuerpo para vivir cuando respiramos?",
       "explanation": "El cuerpo necesita el oxígeno del aire para conseguir energía. El dióxido de carbono es un gas de desecho.",
-      "hint": "Es el gas limpio que pasa a la sangre en los pulmones.",
+      "hint": "Es el gas que pasa del aire a la sangre en los pulmones.",
       "lang": "es",
       "options": [
         "Oxígeno",
@@ -95,7 +95,7 @@
       "id": "g3-naturales-sistema-respiratorio-04",
       "type": "true-false",
       "prompt": "Al expulsar el aire durante la espiración, la caja torácica se relaja y se hace más pequeña.",
-      "explanation": "Es verdadero. Durante la espiración los pulmones se vacían y el pecho desciende y reduce su tamaño.",
+      "explanation": "Durante una espiración tranquila, el pecho reduce su volumen y sale parte del aire. Los pulmones no se vacían por completo.",
       "lang": "es",
       "answer": true
     },
@@ -148,7 +148,7 @@
       "type": "choice",
       "prompt": "En clase debaten sobre la respiración. ¿Qué afirmación contiene un ERROR?",
       "explanation": "La idea de Omar es incorrecta. El aire que expulsamos contiene más dióxido de carbono que al entrar, pero todavía conserva una parte de oxígeno.",
-      "hint": "Piensa en el boca a boca: si no quedara oxígeno en el aire que sale, no serviría para reanimar.",
+      "hint": "El aire que entra y el que sale son mezclas de varios gases.",
       "lang": "es",
       "options": [
         "Martina dice que el aire expulsado contiene dióxido de carbono.",
@@ -178,7 +178,7 @@
       "explanation": "Respirar aire limpio y ventilar nuestras casas protege las vías respiratorias y nos mantiene sanos.",
       "lang": "es",
       "title": "Un paseo saludable por el pinar",
-      "text": "Hoy la clase de 3º ha salido de excursión al pinar del pueblo. La maestra Laura ha pedido a todos que respiren hondo por la nariz. En la naturaleza, el aire suele estar más limpio que en las calles con mucho tráfico. Los árboles absorben dióxido de carbono y liberan oxígeno durante el día. Lucía ha notado que el aire fresco le despeja la cabeza. Laura les explica que ventilar la habitación cada mañana y evitar el humo son dos hábitos estupendos para cuidar los pulmones.",
+      "text": "Hoy la clase de 3º ha salido de excursión al pinar del pueblo. La maestra Laura explica que la nariz filtra y calienta el aire antes de que llegue a los pulmones. En la naturaleza, el aire suele estar más limpio que en las calles con mucho tráfico. Los árboles absorben dióxido de carbono y liberan oxígeno durante el día. Lucía ha notado que el aire fresco le despeja la cabeza. Laura les explica que ventilar la habitación cada mañana y evitar el humo son dos hábitos estupendos para cuidar los pulmones.",
       "questions": [
         {
           "prompt": "¿Por qué es mejor respirar por la nariz en vez de por la boca según aprendieron?",

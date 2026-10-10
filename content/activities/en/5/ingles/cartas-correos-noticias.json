@@ -1,0 +1,263 @@
+{
+  "id": "g5-ingles-cartas-correos-noticias",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "cartas-correos-noticias",
+  "temaNombre": "Letters, Emails and News",
+  "title": "Letters, Emails and School News",
+  "summary": "Understand and write letters, emails and school news in English.",
+  "keyIdeas": [
+    "An email usually starts with a greeting such as 'Dear' or 'Hi', and ends with a sign-off such as 'Best wishes' or 'Bye'.",
+    "News reports answer basic questions such as what happened, when and where.",
+    "An email's subject line briefly explains what the message is about."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "3.1"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-cartas-correos-noticias-01",
+      "type": "match",
+      "prompt": "Match each email section with its purpose.",
+      "explanation": "The subject gives the topic, the greeting says hello, the body contains the message and the sign-off says goodbye.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Subject line",
+          "right": "The topic of the message"
+        },
+        {
+          "left": "Greeting",
+          "right": "Saying hello to the person"
+        },
+        {
+          "left": "Body",
+          "right": "The main message of the text"
+        },
+        {
+          "left": "Sign-off",
+          "right": "Saying goodbye at the end"
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-02",
+      "type": "true-false",
+      "prompt": "In a formal or friendly letter, 'Dear Omar,' is used at the very end of the text.",
+      "explanation": "False. 'Dear Omar,' is an opening greeting, not a sign-off.",
+      "hint": "Is 'Dear' used to say hello or goodbye?",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-03",
+      "type": "choice",
+      "prompt": "Aisha wants to write an email to invite her friend to a birthday party. What is the best subject line?",
+      "explanation": "A subject line should clearly summarise the main topic of the message.",
+      "lang": "en",
+      "options": [
+        "Mathematics homework page 42",
+        "My dog is very brown and big",
+        "Invitation: Birthday party this Saturday! 🎂"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-04",
+      "type": "classify",
+      "prompt": "Sort these expressions into Greetings or Farewells.",
+      "explanation": "'Dear' and 'Hi' open a message. 'Best regards' and 'Talk to you soon' close it.",
+      "lang": "en",
+      "categories": [
+        "Greetings",
+        "Farewells"
+      ],
+      "items": [
+        {
+          "text": "Dear Ms Smith,",
+          "category": 0
+        },
+        {
+          "text": "Best regards,",
+          "category": 1
+        },
+        {
+          "text": "Hello everyone!",
+          "category": 0
+        },
+        {
+          "text": "Yours sincerely,",
+          "category": 1
+        },
+        {
+          "text": "Hi Lucas,",
+          "category": 0
+        },
+        {
+          "text": "Talk to you soon!",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-05",
+      "type": "fill-blank",
+      "prompt": "Choose the correct word to complete this formal email.",
+      "explanation": "Use 'ask for information' when requesting information.",
+      "hint": "Think of the expression 'ask for something'.",
+      "lang": "en",
+      "sentence": "Dear Mr Davies, I am writing to ask ___ information about the science trip.",
+      "options": [
+        "for",
+        "from",
+        "at"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-06",
+      "type": "order",
+      "prompt": "Put the parts of a friendly email in order from top to bottom.",
+      "explanation": "The usual order is subject, greeting, body, sign-off and name.",
+      "lang": "en",
+      "items": [
+        "Subject: Weekend bike trip 🚲",
+        "Hi Martina,",
+        "Are you free this Sunday? We are riding bikes in the park.",
+        "Write back soon,",
+        "Hugo"
+      ]
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-07",
+      "type": "choice",
+      "prompt": "Read this school newspaper headline: 'GREEN TEAM COLLECTS 200 KILOS OF PLASTIC'. Which question does '200 kilos of plastic' answer?",
+      "explanation": "It tells us what material and quantity the team collected.",
+      "lang": "en",
+      "options": [
+        "Where did they go?",
+        "When did they start?",
+        "What did they collect?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-08",
+      "type": "reading",
+      "prompt": "Read this invented school news article and answer the questions.",
+      "explanation": "A news report gives information about events, often answering who, what, when, where and why.",
+      "lang": "en",
+      "title": "Sunny Hills Eco-Garden Opening",
+      "text": "Yesterday morning, students at Sunny Hills Primary opened their new Eco-Garden behind the gym. The fifth-grade class worked for three weeks planting tomatoes, carrots and sunflowers. Headteacher Mrs Robinson cut a green ribbon to welcome everyone. 'This garden teaches us to protect nature and eat healthy food,' said Lucía, one of the student coordinators. Local neighbours also visited the school and donated gardening tools, seeds and recycled pots. The garden club plans to hold a vegetable market next month to collect funds for a community bird shelter.",
+      "questions": [
+        {
+          "prompt": "Where is the new Eco-Garden located?",
+          "explanation": "The opening sentence places the garden behind the gym.",
+          "options": [
+            "Inside the school library.",
+            "Next to the main entrance.",
+            "Behind the school gym."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why did the local neighbours bring tools and seeds?",
+          "explanation": "Their donations suggest that they wanted to support the school project. This is an inference from their actions.",
+          "options": [
+            "Because they wanted to support the school project.",
+            "Because the school gym was closed.",
+            "Because they wanted to sell vegetables to the students."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What value does this school news report promote?",
+          "explanation": "The report describes pupils and neighbours working together to care for the environment.",
+          "options": [
+            "Teamwork and environmental responsibility.",
+            "Individual sports competition.",
+            "Learning to design digital websites."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-09",
+      "type": "choice",
+      "prompt": "Wei receives a letter from his pen pal in London. It ends with 'P.S. Don't forget to send pictures of your city!'. What does 'P.S.' mean?",
+      "explanation": "'P.S.' means 'postscript': an extra note added after the main letter and signature.",
+      "hint": "It comes after the signature.",
+      "lang": "en",
+      "options": [
+        "The postal code of the sender.",
+        "The secret password of the school.",
+        "An extra note added after the signature."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-cartas-correos-noticias-10",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about yesterday's event using the past simple.",
+      "explanation": "'Yesterday' places this event in the past, so use 'won', the past form of 'win'.",
+      "hint": "Notice the word 'yesterday'.",
+      "lang": "en",
+      "sentence": "Fifth graders ___ first prize in the national recycling contest yesterday!",
+      "options": [
+        "winning",
+        "won",
+        "win"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:14:53.421Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:55:57.797Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "3f9111f658112a242c779d44fdd95e2d669f0be08d6349f0f98860e35c00da22",
+      "validation": "manual-review"
+    }
+  }
+}

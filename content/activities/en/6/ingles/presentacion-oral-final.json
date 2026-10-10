@@ -1,0 +1,245 @@
+{
+  "id": "g6-ingles-presentacion-oral-final",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "presentacion-oral-final",
+  "temaNombre": "Final Oral Presentation",
+  "title": "Prepare Your Final Oral Presentation",
+  "summary": "Practise useful phrases and a structure for presenting in English, then rehearse a short talk with an adult.",
+  "keyIdeas": [
+    "A useful structure is an introduction, main points linked with connectors, and a conclusion with time for questions.",
+    "Guide your audience with phrases such as Today I will talk about... and To sum up...",
+    "Use an audible voice and pauses. Notes or cue cards can help. Face the group in a way that feels comfortable."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "2.1",
+      "2.3",
+      "3.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC4",
+      "CCL1",
+      "CCL5",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-presentacion-oral-final-01",
+      "type": "fill-blank",
+      "prompt": "Complete the opening of your presentation.",
+      "explanation": "Talk about introduces the topic of a presentation.",
+      "hint": "Choose the action verb that tells the audience you will explain a topic.",
+      "lang": "en",
+      "sentence": "Good morning everyone, today I am going to ___ about our trip to the science museum.",
+      "options": [
+        "talk",
+        "listen",
+        "hear"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-02",
+      "type": "true-false",
+      "prompt": "During an oral presentation, looking at the floor and speaking in a very quiet whisper helps the audience understand you.",
+      "explanation": "False. An audible voice helps people understand you. You can face the group or look at a nearby point without forcing eye contact.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-03",
+      "type": "match",
+      "prompt": "Match each presentation phrase to its section.",
+      "explanation": "Greetings belong in the introduction, transitions connect main points, and thanks and questions usually come at the end.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Hello everyone, my name is Adrián.",
+          "right": "Introduction"
+        },
+        {
+          "left": "Moving on to our next key point...",
+          "right": "Body"
+        },
+        {
+          "left": "Thank you for listening! Any questions?",
+          "right": "Conclusion"
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-04",
+      "type": "order",
+      "prompt": "Follow this presentation guide: welcome, explanation, summary and questions. Put its steps in order.",
+      "explanation": "This is a useful structure to practise. Other presentations can be organised differently.",
+      "lang": "en",
+      "items": [
+        "Welcome the audience and introduce the topic.",
+        "Explain the main points using clear examples.",
+        "Summarise the most important ideas.",
+        "Thank the audience and invite questions."
+      ]
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-05",
+      "type": "choice",
+      "prompt": "Omar is moving from wind energy to his next slide about solar energy. Which phrase makes the transition most naturally?",
+      "explanation": "Let's move on to introduces the next part of a presentation.",
+      "hint": "Look for a phrase that links one point to the next.",
+      "lang": "en",
+      "options": [
+        "Good morning, my topic is solar energy.",
+        "Now, let's move on to solar energy.",
+        "That is the end of my presentation about energy."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-06",
+      "type": "classify",
+      "prompt": "Sort these habits into helpful presentation practice or practice to avoid.",
+      "explanation": "Cue cards and a steady pace help the audience follow. Reading whole slides or rushing can make this harder.",
+      "lang": "en",
+      "categories": [
+        "Good presentation practice",
+        "Practice to avoid"
+      ],
+      "items": [
+        {
+          "text": "Using cue cards with short keywords",
+          "category": 0
+        },
+        {
+          "text": "Reading entire paragraphs from the screen",
+          "category": 1
+        },
+        {
+          "text": "Speaking at a steady, natural pace",
+          "category": 0
+        },
+        {
+          "text": "Rushing through slides without pausing",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-07",
+      "type": "fill-blank",
+      "prompt": "Choose the word that completes this phrase for your conclusion.",
+      "explanation": "To sum up means to summarise and is useful for introducing a conclusion.",
+      "hint": "The word belongs to the phrase meaning to summarise.",
+      "lang": "en",
+      "sentence": "To ___ up, protecting our local forests is everyone's responsibility.",
+      "options": [
+        "sum",
+        "make",
+        "count"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-08",
+      "type": "choice",
+      "prompt": "Lucía feels nervous five minutes before her English presentation about renewable energy. Which strategy is most helpful here?",
+      "explanation": "Breathing slowly and checking her notes may help Lucía feel prepared. Different people find different supports useful.",
+      "hint": "Look for a way to relax and focus on her main points.",
+      "lang": "en",
+      "options": [
+        "Decide to skip the introduction and read straight from the poster.",
+        "Try to memorise every single sentence word for word in her head.",
+        "Take three slow, deep breaths and review her keyword prompt cards calmly."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-09",
+      "type": "reading",
+      "prompt": "Read about Aisha's presentation and answer the questions.",
+      "explanation": "Rehearsing, using notes and organising ideas can help communication, although they do not guarantee how a presentation will go.",
+      "lang": "en",
+      "title": "Aisha's Presentation Day",
+      "text": "Last week, Aisha prepared her final English presentation about the Great Barrier Reef. First, she made colourful slides with short bullet points instead of long paragraphs, so her classmates would not get bored. Next, she wrote small index cards with keywords to help her remember facts without reading directly from the screen. Aisha also practised in front of a mirror to check her posture, eye contact and voice projection. She timed her speech to make sure it lasted exactly four minutes. When presentation day arrived, she felt nervous at first, but taking a deep breath helped her relax. She smiled, greeted her classmates and spoke clearly. At the end, Aisha invited the class to ask questions. Her teacher praised her for using signposting phrases like 'first of all' and 'in conclusion'.",
+      "questions": [
+        {
+          "prompt": "Why did Aisha write small index cards before presenting?",
+          "explanation": "She used keyword cards to remember facts without reading from the screen.",
+          "options": [
+            "To read long sentences directly to her teacher.",
+            "To give them to her classmates as a souvenir.",
+            "To remember facts using keywords without reading the screen."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why did Aisha choose bullet points instead of long paragraphs?",
+          "explanation": "The text says she used short points so her classmates would not get bored.",
+          "options": [
+            "Because her computer could only write three words per page.",
+            "Because she forgot to write the rest of the information.",
+            "To keep her audience interested and avoid boring them with too much text."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Aisha's preparation show about public speaking?",
+          "explanation": "Aisha still felt nervous, but rehearsing and preparing visual aids helped her present clearly.",
+          "options": [
+            "The best way to present is to memorise every word without any cards.",
+            "Good speakers never feel nervous before presenting.",
+            "Rehearsing and organising visual aids can build confidence and clarity."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-presentacion-oral-final-10",
+      "type": "choice",
+      "prompt": "At the end of David's presentation, a classmate asks a question he cannot answer. Which reply is most polite and helpful?",
+      "explanation": "Politely admitting that you do not know and offering to find out shows respect and honesty.",
+      "hint": "Choose the reply that respects the question and shows willingness to learn.",
+      "lang": "en",
+      "options": [
+        "I already explained everything, so you did not listen to my presentation.",
+        "That is a great question! I am not sure right now, but I will check and find out.",
+        "Nobody knows that answer, so please ask something much easier."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T18:22:57.722Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:39:44.233Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "b273ed8220772eb4fa834798019da679cfb9c56e48de63279b4b46ecdf633953",
+      "validation": "manual-review"
+    }
+  }
+}

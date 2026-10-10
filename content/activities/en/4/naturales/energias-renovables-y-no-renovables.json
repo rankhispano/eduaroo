@@ -1,0 +1,240 @@
+{
+  "id": "g4-naturales-energias-renovables-y-no-renovables",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "energias-renovables-y-no-renovables",
+  "temaNombre": "Renewable and non-renewable energy",
+  "title": "Discovering Earth's energy",
+  "summary": "Explore renewable and non-renewable energy and responsible use.",
+  "keyIdeas": [
+    "Renewable sources are replenished by natural processes, such as sunlight and wind.",
+    "Non-renewable sources can run out. Fossil fuels take millions of years to form.",
+    "Saving energy and using cleaner sources help protect the environment."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-01",
+      "type": "classify",
+      "prompt": "Classify these energy sources by how they are replenished in nature.",
+      "explanation": "Wind, sunlight and the water cycle supply renewable energy. Fossil fuels form much more slowly than we consume them.",
+      "lang": "en",
+      "categories": [
+        "Renewable sources",
+        "Non-renewable sources"
+      ],
+      "items": [
+        {
+          "text": "Sunlight and heat",
+          "category": 0
+        },
+        {
+          "text": "Oil",
+          "category": 1
+        },
+        {
+          "text": "Wind",
+          "category": 0
+        },
+        {
+          "text": "Coal",
+          "category": 1
+        },
+        {
+          "text": "Moving water",
+          "category": 0
+        },
+        {
+          "text": "Natural gas",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-02",
+      "type": "true-false",
+      "prompt": "Sunlight is a renewable source we can use with solar panels.",
+      "explanation": "Using sunlight does not use up its source. Solar panels receive sunlight during the day, but not at night.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-03",
+      "type": "match",
+      "prompt": "Match each renewable energy type to its natural resource.",
+      "explanation": "Different renewable technologies use natural sources of movement, heat or stored energy.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Wind energy",
+          "right": "Wind"
+        },
+        {
+          "left": "Solar energy",
+          "right": "Sunlight"
+        },
+        {
+          "left": "Hydroelectric energy",
+          "right": "Moving water"
+        },
+        {
+          "left": "Biomass",
+          "right": "Organic material"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence.",
+      "explanation": "Fossil fuels formed over millions of years from buried organic remains.",
+      "lang": "en",
+      "sentence": "Coal, oil and natural gas are ___ fuels formed from ancient remains.",
+      "options": [
+        "fossil",
+        "renewable",
+        "unlimited"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-05",
+      "type": "choice",
+      "prompt": "Lucía and Hugo test two toy cars: one has a small solar panel and the other a used-up battery. What happens in midday sunshine? ☀️",
+      "explanation": "The solar panel changes sunlight into electricity for its motor. A used-up ordinary battery is not recharged by sunlight.",
+      "hint": "Which toy can turn sunlight into movement?",
+      "lang": "en",
+      "options": [
+        "Both move equally fast because the ground is warm.",
+        "The solar car moves, but the car with the used-up battery does not.",
+        "Neither works because sunlight cannot be used to generate electricity."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-06",
+      "type": "order",
+      "prompt": "Order the steps in a hydroelectric station with a reservoir.",
+      "explanation": "Water turns a turbine connected to a generator. Building reservoirs also affects ecosystems.",
+      "lang": "en",
+      "items": [
+        "River water collects in a reservoir.",
+        "Water flows down through gates.",
+        "The flow turns a turbine's blades.",
+        "A generator changes the turbine's movement into electricity."
+      ]
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-07",
+      "type": "choice",
+      "prompt": "Find the statement containing a scientific error.",
+      "explanation": "Fossil fuels take millions of years to form, so we consume them far faster than they are replenished.",
+      "hint": "How long does nature take to form fossil fuels?",
+      "lang": "en",
+      "options": [
+        "Burning coal and oil releases gases that pollute the air.",
+        "Non-renewable energy sources are quickly replenished and never run out.",
+        "Wind turbines turn wind movement into electric current."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-08",
+      "type": "reading",
+      "prompt": "Read the story about Aldeasol and answer the questions.",
+      "explanation": "Replacing fossil fuels with cleaner energy can reduce air pollution and protect ecosystems.",
+      "lang": "en",
+      "title": "A village with sunlight and cleaner air",
+      "text": "Aldeasol used to heat most homes with oil boilers, and its council paid large electricity bills for street lights. Last year, the village installed solar panels on the sports centre and a wind turbine on a nearby hill. Some oil boilers were replaced by electric heating systems.\n\nSun and wind now generate sixty percent of the electricity the village uses. Residents are pleased that their valley's air is cleaner and their shared bill is lower.",
+      "questions": [
+        {
+          "prompt": "Which two renewable sources did Aldeasol start using?",
+          "explanation": "The village installed solar panels and a wind turbine.",
+          "options": [
+            "Solar and wind",
+            "Hydroelectric and biomass",
+            "Heating oil and coal"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What direct environmental benefit did residents notice?",
+          "explanation": "Replacing some oil boilers means less heating oil is burned locally.",
+          "options": [
+            "Winter nights are hotter in the valley.",
+            "The valley's air is cleaner because less heating oil is burned.",
+            "Much more rain now falls on the hill."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-09",
+      "type": "choice",
+      "prompt": "Martina's school wants a more sustainable way to heat changing-room water. Which option is best? 🏫",
+      "explanation": "Solar thermal panels use sunlight's heat without burning fuel during operation.",
+      "hint": "Choose the option that uses solar energy to heat water.",
+      "lang": "en",
+      "options": [
+        "Install a powerful boiler burning coal every day.",
+        "Buy a large heating-oil tank for an old heater.",
+        "Put solar thermal panels on the roof to heat water."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-energias-renovables-y-no-renovables-10",
+      "type": "true-false",
+      "prompt": "Some renewable energy sources depend on weather conditions to produce electricity.",
+      "explanation": "Wind turbines need wind. Solar panels do not receive sunlight at night.",
+      "lang": "en",
+      "answer": true
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:02:32.240Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:17:13.911Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "8a42905f46c307014bf1440ff45688c69ec74906928f28cc5d417ff2ddb6cbc3",
+      "validation": "manual-review"
+    }
+  }
+}

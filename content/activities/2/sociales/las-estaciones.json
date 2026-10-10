@@ -7,7 +7,7 @@
   "title": "El viaje de las cuatro estaciones",
   "summary": "Practica los cambios que ocurren en la naturaleza y en nuestras vidas durante las estaciones del año.",
   "keyIdeas": [
-    "El año tiene cuatro estaciones: primavera, verano, otoño e invierno.",
+    "En España distinguimos cuatro estaciones: primavera, verano, otoño e invierno.",
     "El tiempo atmosférico cambia en cada estación.",
     "Las personas y los animales adaptamos nuestras costumbres a cada época."
   ],
@@ -95,8 +95,8 @@
     {
       "id": "g2-sociales-las-estaciones-05",
       "type": "match",
-      "prompt": "Une cada estación con lo que ocurre en la naturaleza: 🍂",
-      "explanation": "Cada estación trae cambios importantes en las plantas y en los paisajes.",
+      "prompt": "Une cada estación con un cambio que suele ocurrir en España.",
+      "explanation": "Estos cambios son habituales en España, pero varían según el lugar, el año y la especie de planta.",
       "lang": "es",
       "pairs": [
         {
@@ -120,7 +120,7 @@
     {
       "id": "g2-sociales-las-estaciones-06",
       "type": "classify",
-      "prompt": "Clasifica estas prendas y objetos según la estación en la que se usan: 🧦",
+      "prompt": "Clasifica la ropa para un día caluroso de verano o frío de invierno.",
       "explanation": "Usamos ropa fresca y ligera en verano y prendas gruesas en invierno.",
       "lang": "es",
       "categories": [
@@ -145,7 +145,7 @@
           "category": 1
         },
         {
-          "text": "Gafas de sol",
+          "text": "Pantalón corto para un día caluroso",
           "category": 0
         },
         {
@@ -216,8 +216,8 @@
     {
       "id": "g2-sociales-las-estaciones-10",
       "type": "choice",
-      "prompt": "Terminan las vacaciones y vuelves al colegio en septiembre. ¿Qué cambio de estación ocurre? 🎒",
-      "explanation": "En septiembre nos despedimos del verano y damos la bienvenida al otoño.",
+      "prompt": "En España, ¿qué estación empieza durante el mes de septiembre?",
+      "explanation": "En España, el otoño empieza en septiembre. El regreso al colegio suele ocurrir antes de que termine el verano.",
       "hint": "El verano acaba en septiembre y los días empiezan a ser más frescos.",
       "lang": "es",
       "options": [

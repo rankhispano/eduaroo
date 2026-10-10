@@ -1,0 +1,255 @@
+{
+  "id": "g2-sociales-el-paisaje",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "el-paisaje",
+  "temaNombre": "Landscapes",
+  "title": "Discovering landscapes",
+  "summary": "Recognise natural features and features made by people, and learn to care for landscapes.",
+  "keyIdeas": [
+    "A natural landscape has few changes made by people.",
+    "A landscape changed by people can have houses, bridges, crops or roads.",
+    "We care for nature by taking our rubbish away."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-el-paisaje-01",
+      "type": "true-false",
+      "prompt": "A natural landscape with no human building work has no roads or buildings.",
+      "explanation": "An unchanged natural landscape keeps its natural features without structures built by people.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-el-paisaje-02",
+      "type": "choice",
+      "prompt": "Lucía walks in the countryside. Which feature is natural?",
+      "explanation": "Rivers and fish are part of nature.",
+      "hint": "Think of something people have not built.",
+      "lang": "en",
+      "options": [
+        "A surfaced road",
+        "A stone bridge",
+        "A river with fish"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-el-paisaje-03",
+      "type": "classify",
+      "prompt": "Sort these landscape features by their origin.",
+      "explanation": "Mountains, rivers and natural forests are natural features. People build roads, bridges and buildings.",
+      "lang": "en",
+      "categories": [
+        "Natural feature",
+        "Feature made by people"
+      ],
+      "items": [
+        {
+          "text": "Mountain",
+          "category": 0
+        },
+        {
+          "text": "Road",
+          "category": 1
+        },
+        {
+          "text": "Forest",
+          "category": 0
+        },
+        {
+          "text": "Bridge",
+          "category": 1
+        },
+        {
+          "text": "River",
+          "category": 0
+        },
+        {
+          "text": "Building",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-el-paisaje-04",
+      "type": "match",
+      "prompt": "Match each landscape to a typical feature.",
+      "explanation": "Mountains are high, coasts are beside the sea, and plains are flat.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Mountain landscape",
+          "right": "High, rocky peaks"
+        },
+        {
+          "left": "Coastal landscape",
+          "right": "A sandy beach and the sea"
+        },
+        {
+          "left": "Plain landscape",
+          "right": "A large area of flat land"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-el-paisaje-05",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the coast.",
+      "explanation": "A beach is an area of sand or stones beside the sea.",
+      "lang": "en",
+      "sentence": "A flat sandy area beside the sea is a ___.",
+      "options": [
+        "beach",
+        "summit",
+        "plateau"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-el-paisaje-06",
+      "type": "choice",
+      "prompt": "Hugo sees a road tunnel through a mountain. What is it used for?",
+      "explanation": "People build tunnels to make travelling through mountains easier.",
+      "hint": "It helps transport people and goods.",
+      "lang": "en",
+      "options": [
+        "Planting more trees on the summit",
+        "Crossing the mountain by car or train",
+        "Diverting rainwater"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-sociales-el-paisaje-07",
+      "type": "order",
+      "prompt": "Put the parts of a mountain in order from bottom to top.",
+      "explanation": "The foot is the bottom, the slope is the side, and the summit is the top.",
+      "lang": "en",
+      "items": [
+        "Foot",
+        "Slope",
+        "Summit"
+      ]
+    },
+    {
+      "id": "g2-sociales-el-paisaje-08",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "Taking our rubbish away keeps landscapes clean and protects animals.",
+      "lang": "en",
+      "title": "A mountain trip",
+      "text": "Aisha and Omar went walking in the mountains. They found a beautiful path among oak trees. After their snack, they put every wrapper in their backpack. Aisha said, 'Leaving rubbish here harms the forest and animals.' They left the place clean and went home happily.",
+      "questions": [
+        {
+          "prompt": "Where did Aisha and Omar go walking?",
+          "explanation": "The text says they went to the mountains.",
+          "options": [
+            "The beach",
+            "The city",
+            "The mountains"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why did they put the wrappers in their backpack?",
+          "explanation": "They took their rubbish away to protect nature and keep the landscape clean.",
+          "options": [
+            "To avoid harming the forest and animals",
+            "They wanted to eat again at home",
+            "They wanted a much heavier backpack"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-el-paisaje-09",
+      "type": "choice",
+      "prompt": "What happens if people cut down a whole forest?",
+      "explanation": "Cutting down all the trees takes away shelter and food for many forest animals.",
+      "hint": "Think about where birds and other forest animals live.",
+      "lang": "en",
+      "options": [
+        "Many animals lose shelter and food",
+        "New rivers of salt water appear",
+        "Giant flowers grow in a few days"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-el-paisaje-10",
+      "type": "classify",
+      "prompt": "Sort these actions by their effect on the landscape.",
+      "explanation": "Planting trees and staying on marked paths help care for the environment. Rubbish and graffiti damage it.",
+      "lang": "en",
+      "categories": [
+        "Cares for the landscape",
+        "Harms the landscape"
+      ],
+      "items": [
+        {
+          "text": "Throw plastic bottles into a river",
+          "category": 1
+        },
+        {
+          "text": "Plant trees with the school",
+          "category": 0
+        },
+        {
+          "text": "Paint on rocks in the hills",
+          "category": 1
+        },
+        {
+          "text": "Walk only on marked paths",
+          "category": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:27:23.223Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:42:19.081Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "5d1a110110043b67d05ce3d496ebde2a6e48e6a5569472da4c50c329f57dee67",
+      "validation": "manual-review"
+    }
+  }
+}

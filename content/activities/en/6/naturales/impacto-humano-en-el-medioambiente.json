@@ -1,0 +1,270 @@
+{
+  "id": "g6-naturales-impacto-humano-en-el-medioambiente",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "impacto-humano-en-el-medioambiente",
+  "temaNombre": "Human impact on the environment",
+  "title": "Caring for planet Earth",
+  "summary": "Explore how human activities affect ecosystems and discover sustainable ways to protect our natural surroundings.",
+  "keyIdeas": [
+    "The natural greenhouse effect keeps Earth warm. Increasing the concentration of greenhouse gases increases warming.",
+    "Water pollution, uncontrolled tree cutting and overuse of resources destroy habitats and threaten biodiversity.",
+    "Sustainable habits and a circular economy help reduce our ecological footprint and restore nature."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.3",
+      "6.1",
+      "6.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Materia, fuerzas y energía"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-01",
+      "type": "true-false",
+      "prompt": "Earth’s natural greenhouse effect is harmful, and humans should try to remove it completely.",
+      "explanation": "The natural greenhouse effect retains some heat energy. Increasing gases such as CO₂ strengthens this effect and contributes to current warming.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the loss of vegetation on Earth.",
+      "explanation": "Trees absorb carbon dioxide from the atmosphere to make organic matter through photosynthesis. Deforestation reduces this natural ability to capture carbon.",
+      "hint": "Think of the process plants use to make their own food with sunlight.",
+      "lang": "en",
+      "sentence": "Cutting down large areas of forest reduces carbon dioxide capture through ___, increasing global warming.",
+      "options": [
+        "cellular respiration",
+        "evaporation",
+        "photosynthesis"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-03",
+      "type": "classify",
+      "prompt": "Sort these everyday actions by whether they increase or reduce a person’s ecological footprint.",
+      "explanation": "Our ecological footprint reflects the natural resources we use and the waste we produce. Walking, reusing containers and saving energy reduce it.",
+      "lang": "en",
+      "categories": [
+        "Increases the ecological footprint",
+        "Reduces the ecological footprint"
+      ],
+      "items": [
+        {
+          "text": "Buy out-of-season fruit flown from another continent",
+          "category": 0
+        },
+        {
+          "text": "Walk, ride a non-motorised scooter or cycle to school",
+          "category": 1
+        },
+        {
+          "text": "Leave device chargers plugged in when not in use",
+          "category": 0
+        },
+        {
+          "text": "Carry a snack in a reusable lunchbox instead of single-use plastic wrapping",
+          "category": 1
+        },
+        {
+          "text": "Clean surfaces with disposable wipes instead of reusable cloths",
+          "category": 0
+        },
+        {
+          "text": "Use daylight by opening blinds before switching on lights",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-04",
+      "type": "match",
+      "prompt": "Match each environmental impact to its direct cause.",
+      "explanation": "Different human activities create particular waste or pressures on water, land and air ecosystems.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Lake eutrophication (excess nutrients)",
+          "right": "Farm fertilisers containing nitrogen and phosphorus enter the water"
+        },
+        {
+          "left": "Acid rain",
+          "right": "Burning fuels in factories and vehicles releases sulphur and nitrogen gases"
+        },
+        {
+          "left": "Biodiversity loss",
+          "right": "Natural habitats are broken up or destroyed for building or farming"
+        },
+        {
+          "left": "Aquifer salinisation (salt entering groundwater)",
+          "right": "Too much fresh groundwater is pumped out near the coast"
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-05",
+      "type": "choice",
+      "prompt": "The class discusses climate change and the atmosphere. Which pupil makes a scientific MISTAKE?",
+      "explanation": "Current warming is linked to increases in gases that absorb heat radiation, such as CO₂. The ozone hole mainly affects protection from ultraviolet radiation.",
+      "hint": "Think about whether outer space contains hot air.",
+      "lang": "en",
+      "options": [
+        "Hugo: “Global warming happens because the hole in the ozone layer lets very hot air from outer space enter.”",
+        "Lucía: “Melting Arctic ice means the ocean reflects less sunlight and absorbs more heat, speeding up climate change.”",
+        "Mateo: “The ozone hole lets more harmful ultraviolet radiation through, but is not the main cause of current global warming.”"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-06",
+      "type": "order",
+      "prompt": "Order the steps explaining eutrophication in a lagoon.",
+      "explanation": "Excess nutrients cause a chain reaction: algae multiply, sunlight is blocked, bacteria break down remains faster and oxygen runs out, killing aquatic animals.",
+      "lang": "en",
+      "items": [
+        "Rain washes chemical fertilisers from nearby fields into the lagoon.",
+        "Surface algae multiply rapidly because of the excess nutrients.",
+        "The thick green surface layer stops sunlight reaching plants below.",
+        "Bacteria break down dead plants, using almost all the water’s oxygen.",
+        "Fish and other aquatic animals suffocate when dissolved oxygen runs out."
+      ]
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-07",
+      "type": "choice",
+      "prompt": "An animation shows greenhouse gases absorbing some heat radiation emitted by Earth. What could happen if their concentration increases while other factors stay the same?",
+      "explanation": "Increasing these gases changes the balance of energy entering and leaving the planet. The animation is a model: it helps explain the process without reproducing every detail.",
+      "hint": "Think about what happens if less energy escapes into space.",
+      "lang": "en",
+      "options": [
+        "The average temperature may rise as more energy is retained",
+        "Sunlight disappears completely",
+        "Earth loses its entire atmosphere"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-08",
+      "type": "reading",
+      "prompt": "Read this fictional environmental restoration case and answer.",
+      "explanation": "Successful ecological restoration combines scientific knowledge, solutions based on nature and participation by the whole community.",
+      "lang": "en",
+      "title": "Laguna del Carrizal comes back to life",
+      "text": "This fictional case helps us study wetland restoration. For decades, Laguna del Carrizal suffered serious environmental damage. Untreated town wastewater and chemical fertilisers from nearby farms entered its basin. Around 2012, the water was cloudy and greenish, shoreline rushes had disappeared and migratory birds stopped nesting there.\n\nIn 2018, the local community began a restoration plan. They built an ecological treatment system using gravel and bulrush filters to clean water biologically. Farmers also adjusted their fertiliser use to reduce excess nutrients. Four years later, tests showed nitrate levels had fallen by 85 %. Native vegetation grew along the banks again, and more than forty species of waterbirds returned. This showed that damaged ecosystems can recover when society takes an active part.",
+      "questions": [
+        {
+          "prompt": "Which technical solution helped clean wastewater entering the lagoon?",
+          "explanation": "The text describes a biological treatment system using natural filters made of gravel and bulrushes.",
+          "options": [
+            "Building a concrete dam to stop all water entering.",
+            "Draining the lagoon completely and replacing the muddy bottom with dry sand.",
+            "Installing an ecological treatment system with gravel and bulrush filters."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why did returning shoreline vegetation help birds return to the lagoon?",
+          "explanation": "Plants along the banks are an important part of the wetland habitat, providing shelter from predators and food.",
+          "options": [
+            "Migratory birds only navigate using the smell of aquatic flowers.",
+            "Plants provide safe nesting places, shelter and food.",
+            "Rush roots raise the water temperature by several degrees in winter."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What general conclusion about environmental management follows from this experience?",
+          "explanation": "The case shows that community commitment and ecological technologies can help restore damaged habitats.",
+          "options": [
+            "Polluted aquatic ecosystems can never become suitable for birds again.",
+            "Caring for a wetland always requires removing everyone who lives nearby.",
+            "Community cooperation and sustainable solutions can reverse serious environmental damage."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-09",
+      "type": "choice",
+      "prompt": "Omar’s school wants to reduce greenhouse gas emissions from its canteen. It compares two fruits for dessert in May:\n\n• Option A: Seasonal cherries harvested 30 km from the school.\n• Option B: Pineapples grown in greenhouses 7.000 km away and transported by refrigerated aircraft.\n\nWhy is Option A more environmentally sustainable?",
+      "explanation": "Choosing local, seasonal produce avoids the large CO2 emissions linked to air transport and greenhouse climate control.",
+      "hint": "Compare the distances travelled and the transport used.",
+      "lang": "en",
+      "options": [
+        "It reduces fossil fuel use for transport and follows the natural seasonal cycle without artificial heating.",
+        "Local cherries use no water while growing because native plants never need irrigation.",
+        "Food transported by aircraft loses all nutritional value during the flight and cannot nourish pupils."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-impacto-humano-en-el-medioambiente-10",
+      "type": "match",
+      "prompt": "Match each circular economy principle to its practical example.",
+      "explanation": "A circular economy aims to keep materials useful for as long as possible before discarding them, turning waste into new resources.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Reduce",
+          "right": "Take cloth shopping bags to avoid disposable plastic bags"
+        },
+        {
+          "left": "Reuse",
+          "right": "Clean glass jam jars to store nuts or pencils"
+        },
+        {
+          "left": "Repair",
+          "right": "Patch a bicycle’s punctured inner tube instead of throwing it away"
+        },
+        {
+          "left": "Recycle",
+          "right": "Put aluminium cans in Spain’s yellow recycling bin so they can be melted into new containers"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:26:14.087Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:44:20.957Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "e4f5a4a8bc5a667be4e59a74ae9e1b13b51d29fe133e1ff4f670d74a666f42ea",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -9,21 +9,24 @@ const isSupported = () => 'speechSynthesis' in window;
 
 // Lectura en voz alta (DUA): ayuda a quien todavía no lee con soltura.
 // Con autoPlay lee el texto al aparecer (Peques de 1º-2º).
-export default function SpeakButton({ text, lang = 'es', autoPlay = false }: { text: string; lang?: 'es' | 'en'; autoPlay?: boolean }) {
+export default function SpeakButton({ text, lang = 'es', segments, autoPlay = false }: { text: string; lang?: 'es' | 'en'; segments?: { text: string; lang?: 'es' | 'en' }[]; autoPlay?: boolean }) {
     const t = useTranslations('Activities');
     const supported = useSyncExternalStore(subscribe, isSupported, () => false);
     const [speaking, setSpeaking] = useState(false);
 
     const speak = () => {
         const synth = window.speechSynthesis;
-        const utterance = new SpeechSynthesisUtterance(text.replace(/_{2,}/g, '...'));
-        utterance.lang = lang === 'en' ? 'en-GB' : 'es-ES';
-        utterance.rate = 0.9;
-        utterance.onstart = () => setSpeaking(true);
-        utterance.onend = () => setSpeaking(false);
-        utterance.onerror = () => setSpeaking(false);
         synth.cancel();
-        synth.speak(utterance);
+        const parts = segments ?? [{ text, lang }];
+        parts.forEach((part, index) => {
+            const utterance = new SpeechSynthesisUtterance(part.text.replace(/_{2,}/g, '...'));
+            utterance.lang = (part.lang ?? lang) === 'en' ? 'en-GB' : 'es-ES';
+            utterance.rate = 0.9;
+            utterance.onstart = () => setSpeaking(true);
+            if (index === parts.length - 1) utterance.onend = () => setSpeaking(false);
+            utterance.onerror = () => setSpeaking(false);
+            synth.speak(utterance);
+        });
     };
 
     useEffect(() => {

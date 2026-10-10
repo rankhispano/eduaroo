@@ -144,14 +144,14 @@
     {
       "id": "g4-ingles-la-ciudad-y-los-edificios-06",
       "type": "choice",
-      "prompt": "Omar sees smoke coming from a window in his street. Which building should he call immediately? 🚒",
-      "explanation": "Ante una emergencia con fuego o humo debemos avisar a la estación de bomberos (fire station).",
-      "hint": "En este lugar trabajan los bomberos.",
+      "prompt": "Omar sees smoke coming from a window. He tells an adult. Which emergency workers put out fires? 🚒",
+      "explanation": "Los bomberos se llaman «firefighters». Ante una emergencia en España se llama al 112 y se sigue la ayuda de una persona adulta.",
+      "hint": "Recuerda el nombre en inglés de los bomberos.",
       "lang": "en",
       "options": [
-        "The library",
-        "The fire station",
-        "The museum"
+        "Librarians",
+        "Firefighters",
+        "Museum guides"
       ],
       "answer": 1
     },

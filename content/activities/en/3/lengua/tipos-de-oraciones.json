@@ -1,0 +1,243 @@
+{
+  "id": "g3-lengua-tipos-de-oraciones",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "tipos-de-oraciones",
+  "temaNombre": "Types of sentences",
+  "title": "Discovering sentence types",
+  "summary": "Recognise and use Spanish statements, questions, exclamations and commands or requests in everyday situations.",
+  "keyIdeas": [
+    "Statements affirm or deny something. The written statements in these exercises end with a full stop.",
+    "Direct Spanish questions use ¿? and exclamations use ¡! to express emotion or surprise.",
+    "Imperative sentences can give commands, make requests or give instructions."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-tipos-de-oraciones-01",
+      "type": "choice",
+      "prompt": "Hugo says «Hoy tenemos Educación Física en el patio». What type of Spanish sentence is this?",
+      "explanation": "Hugo gives information in a positive statement. The Spanish type is «enunciativa afirmativa».",
+      "hint": "Is he giving information or asking a question?",
+      "lang": "en",
+      "options": [
+        "Positive statement",
+        "Question",
+        "Imperative sentence"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-02",
+      "type": "true-false",
+      "prompt": "In Spanish, direct written questions use both an opening mark (¿) and a closing mark (?).",
+      "explanation": "Direct questions need both marks. In «No sé cuándo viene», the question is indirect and does not use them.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-03",
+      "type": "match",
+      "prompt": "Match each Spanish sentence to Aisha's purpose.",
+      "explanation": "Exclamation marks express emotion, question marks frame questions, and imperative sentences ask for or command something.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "¡Qué golazo acabas de marcar!",
+          "right": "Express emotion or joy"
+        },
+        {
+          "left": "¿A qué hora empieza el partido?",
+          "right": "Ask a question"
+        },
+        {
+          "left": "Pásame el balón, por favor.",
+          "right": "Make a request or give a command"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-04",
+      "type": "classify",
+      "prompt": "Sort these Spanish sentences into positive or negative statements.",
+      "explanation": "Positive statements affirm something. Negative statements use words such as «no» or «nunca» to deny it.",
+      "lang": "en",
+      "categories": [
+        "Positive statements",
+        "Negative statements"
+      ],
+      "items": [
+        {
+          "text": "El autobús escolar ya ha llegado.",
+          "category": 0
+        },
+        {
+          "text": "Lucía no encuentra su estuche.",
+          "category": 1
+        },
+        {
+          "text": "Mañana visitaremos el museo de ciencias.",
+          "category": 0
+        },
+        {
+          "text": "Nunca dejamos la mochila abierta.",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-05",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish word to turn this positive statement into a negative statement.",
+      "explanation": "«no» denies the action and makes the sentence a negative statement.",
+      "lang": "en",
+      "sentence": "Mateo ___ quiere llegar tarde al entrenamiento de baloncesto.",
+      "options": [
+        "sí",
+        "no",
+        "siempre"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-06",
+      "type": "choice",
+      "prompt": "Find the Spanish sentence with a punctuation mistake.",
+      "explanation": "The opening question mark is missing. Write «¿Cuándo termina la película de animación?».",
+      "hint": "Direct Spanish questions need opening and closing marks.",
+      "lang": "en",
+      "options": [
+        "¿Quieres venir a merendar a mi casa?",
+        "¡Menuda sorpresa nos ha dado el abuelo!",
+        "Cuándo termina la película de animación?"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-07",
+      "type": "reading",
+      "prompt": "Read the Spanish conversation between Leo and Martina in the library.",
+      "explanation": "Each character's purpose helps us recognise the type of sentence used.",
+      "lang": "en",
+      "title": "Tarde en la biblioteca",
+      "text": "Leo y Martina entraron en la biblioteca del barrio después de merendar. La sala estaba muy tranquila. Martina vio un libro sobre dinosaurios en una estantería alta. Con voz suave le preguntó a su amigo: «¿Me ayudas a alcanzar ese libro verde?». Leo sonrió, se estiró y lo cogió con cuidado. Al abrirlo, Martina exclamó entusiasmada: «¡Tiene unas ilustraciones increíbles!». El bibliotecario se acercó despacio y les susurró amablemente: «Por favor, guardad silencio para no molestar a los demás lectores». Los dos asintieron y se sentaron juntos a leer.",
+      "questions": [
+        {
+          "prompt": "What is Martina's purpose when she says «¿Me ayudas a alcanzar ese libro verde?»?",
+          "explanation": "It is a question that Martina uses to ask Leo for help.",
+          "options": [
+            "Warn that the book is broken.",
+            "Give an angry command to the librarian.",
+            "Ask Leo a question to request his help."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What type of sentence does the librarian use in «Por favor, guardad silencio»?",
+          "explanation": "The librarian makes a polite request using an imperative sentence.",
+          "options": [
+            "Negative statement",
+            "Question",
+            "Imperative sentence or request"
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-08",
+      "type": "choice",
+      "prompt": "The teacher needs to begin the lesson. Which Spanish imperative sentence is suitable and respectful?",
+      "explanation": "It gives a clear instruction politely, using «por favor».",
+      "hint": "Find a sentence giving an instruction or request to the class.",
+      "lang": "en",
+      "options": [
+        "Abrid el cuaderno por la página diez, por favor.",
+        "¿Quién ha abierto el cuaderno por la página diez?",
+        "¡Qué bonito es este cuaderno de rayas!"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-09",
+      "type": "order",
+      "prompt": "Put these Spanish words in order to make a correct direct question.",
+      "explanation": "The question begins with ¿ and a capital letter, and ends with ?: «¿Has visto a mi perro Tobi?».",
+      "lang": "en",
+      "items": [
+        "¿Has",
+        "visto",
+        "a mi",
+        "perro",
+        "Tobi?"
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-tipos-de-oraciones-10",
+      "type": "choice",
+      "prompt": "Adrián watches heavy rain through the window and feels surprised. Which Spanish exclamation expresses this?",
+      "explanation": "«¡Cómo llueve esta tarde!» uses exclamation marks and expresses Adrián's surprise strongly.",
+      "hint": "Find the choice showing emotion with exclamation marks.",
+      "lang": "en",
+      "options": [
+        "Esta tarde apenas caen cuatro gotas.",
+        "¿Está lloviendo esta tarde?",
+        "¡Cómo llueve esta tarde!"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:27:31.244Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:43:54.851Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "9006d3c72cca365fe3279c608aa140237e7a5bd6c5884e277418d366b41d51b3",
+      "validation": "manual-review"
+    }
+  }
+}

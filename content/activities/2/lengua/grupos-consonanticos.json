@@ -238,7 +238,7 @@
     {
       "id": "g2-lengua-grupos-consonanticos-10",
       "type": "order",
-      "prompt": "Ordena las palabras para formar una frase con sentido.",
+      "prompt": "Ordena la oración: primero quién prepara algo, después la acción y al final qué prepara. Coloca el adjetivo detrás de «crema».",
       "explanation": "La oración ordenada es: 'La bruja prepara una crema mágica.' Fíjate en los grupos 'br' de bruja, 'pr' de prepara y 'cr' de crema.",
       "lang": "es",
       "items": [

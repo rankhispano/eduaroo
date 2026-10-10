@@ -61,7 +61,7 @@
       "id": "g2-mates-figuras-lados-y-vertices-02",
       "type": "true-false",
       "prompt": "Una moneda redonda tiene tres vértices.",
-      "explanation": "El círculo es una línea curva cerrada. No tiene lados rectos ni esquinas, así que tiene 0 vértices.",
+      "explanation": "La forma plana de la moneda es un círculo. Su borde es curvo, sin lados rectos ni vértices.",
       "lang": "es",
       "answer": false
     },
@@ -140,8 +140,8 @@
     {
       "id": "g2-mates-figuras-lados-y-vertices-06",
       "type": "choice",
-      "prompt": "Hugo construye una figura usando 4 pajitas iguales y 4 bolitas de plastilina en las esquinas. ¿Qué figura ha formado?",
-      "explanation": "Las 4 pajitas son los 4 lados iguales y las 4 bolitas son los 4 vértices del cuadrado.",
+      "prompt": "Hugo une 4 pajitas iguales y coloca las esquinas como las de un cuaderno, en ángulo recto. ¿Qué figura ha formado?",
+      "explanation": "Cuatro lados iguales y cuatro ángulos rectos forman un cuadrado. Cuatro lados iguales por sí solos también pueden formar un rombo.",
       "hint": "Tiene 4 lados iguales.",
       "lang": "es",
       "options": [
@@ -154,7 +154,7 @@
     {
       "id": "g2-mates-figuras-lados-y-vertices-07",
       "type": "choice",
-      "prompt": "¿Encuentra el error! Omar dice: «Esta señal de STOP tiene 8 lados y 4 vértices». ¿Qué parte está mal?",
+      "prompt": "¡Encuentra el error! Omar dice: «Esta señal de STOP tiene 8 lados y 4 vértices». ¿Qué parte está mal?",
       "explanation": "En un polígono siempre hay el mismo número de lados que de vértices. Si tiene 8 lados, tiene 8 vértices.",
       "hint": "Recuerda que cada par de lados se junta en un vértice.",
       "lang": "es",

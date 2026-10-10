@@ -1,0 +1,260 @@
+{
+  "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "sistemas-del-cuerpo-humano-integrados",
+  "temaNombre": "How human body systems work together",
+  "title": "The human body works as a team",
+  "summary": "Practise how organs and systems work together to carry out nutrition and keep you alive.",
+  "keyIdeas": [
+    "Nutrition requires four systems working together: digestive, respiratory, circulatory and excretory.",
+    "Blood is a transport network. It delivers nutrients and oxygen and collects waste from cells.",
+    "During exercise, breathing and pulse usually speed up together to supply muscle cells."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE5"
+    ],
+    "criteria": [
+      "4.2",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "CPSAA2",
+      "CPSAA3",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-01",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about nutrition.",
+      "explanation": "The circulatory system connects the other systems by carrying blood with oxygen and nutrients throughout the body.",
+      "hint": "Think of the system made up of the heart, blood vessels and blood.",
+      "lang": "en",
+      "sentence": "The ___ system carries nutrients from the digestive system and oxygen from the respiratory system to all the body’s cells.",
+      "options": [
+        "circulatory",
+        "nervous",
+        "musculoskeletal"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-02",
+      "type": "match",
+      "prompt": "Match each system to its main role in nutrition.",
+      "explanation": "These systems work together to obtain and transport nutrients and oxygen, and remove waste substances.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Digestive system",
+          "right": "Breaks down food into usable nutrients and removes faeces."
+        },
+        {
+          "left": "Respiratory system",
+          "right": "Takes oxygen from air and removes carbon dioxide produced by cells."
+        },
+        {
+          "left": "Circulatory system",
+          "right": "Distributes nutrients and oxygen and collects waste substances."
+        },
+        {
+          "left": "Excretory system (urinary system)",
+          "right": "Filters blood to remove cell waste through urine."
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-03",
+      "type": "true-false",
+      "prompt": "The digestive system is the only system involved in helping our cells obtain energy from food.",
+      "explanation": "This idea is incorrect. The digestive system obtains nutrients, but cells also need oxygen from the respiratory system to release energy, and the circulatory system to transport these substances.",
+      "hint": "Remember which essential gas cells need as well as food.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-04",
+      "type": "choice",
+      "prompt": "In PE, Hugo runs a sprint. Afterwards, his heart beats very fast and his breathing speeds up. Why do these responses happen together? 🏃‍♂️",
+      "explanation": "During exercise, muscles need more nutrients and oxygen to release energy. Breathing and pulse usually speed up.",
+      "hint": "Think about what muscles need when working hard.",
+      "lang": "en",
+      "options": [
+        "The lungs need to cool the body by pushing blood outside through the skin.",
+        "Muscles need more oxygen and nutrients to release energy, and blood must carry these faster.",
+        "The digestive system needs to empty food quickly into the legs while he runs."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-05",
+      "type": "classify",
+      "prompt": "Sort these organs into the systems they belong to.",
+      "explanation": "The intestine and liver take part in digestion, the trachea and alveoli in respiration, and the kidneys and bladder in removing waste through urine.",
+      "lang": "en",
+      "categories": [
+        "Digestive system",
+        "Respiratory system",
+        "Excretory system (urinary system)"
+      ],
+      "items": [
+        {
+          "text": "Small intestine",
+          "category": 0
+        },
+        {
+          "text": "Lung alveoli (air sacs)",
+          "category": 1
+        },
+        {
+          "text": "Kidneys",
+          "category": 2
+        },
+        {
+          "text": "Trachea (windpipe)",
+          "category": 1
+        },
+        {
+          "text": "Urinary bladder",
+          "category": 2
+        },
+        {
+          "text": "Liver",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-06",
+      "type": "order",
+      "prompt": "Order the path of an oxygen molecule from entering Nerea’s body to reaching a cell in her leg.",
+      "explanation": "Oxygen travels through the airways, crosses into blood in the alveoli, passes through the heart and travels through the circulatory system to its target cell.",
+      "hint": "The starting point is breathing in. The final point is the cell that uses the oxygen.",
+      "lang": "en",
+      "items": [
+        "Enters through the nose and travels down the trachea and bronchi",
+        "Passes into blood through the lung alveoli",
+        "Reaches the heart through the pulmonary veins",
+        "Is pumped by the heart into arteries supplying the body",
+        "Reaches leg muscle cells through the capillaries"
+      ]
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-07",
+      "type": "reading",
+      "prompt": "Read how our organs cooperate and answer the questions.",
+      "explanation": "The text shows that the systems involved in nutrition depend on one another for the body to function properly.",
+      "lang": "en",
+      "title": "Invisible teamwork",
+      "text": "Imagine eating an apple for a snack, then going to the park to play basketball. As you chew, your digestive system starts breaking down the fruit into glucose and other nutrients. These cross the small intestine’s wall and enter blood capillaries. Almost at the same time, as you run after the ball, your breathing becomes stronger. In the alveoli, oxygen from air also enters the blood. Your heart pumps strongly to deliver glucose and oxygen to muscle cells. Inside the cells, these combine to release energy for jumping and scoring baskets.\n\nYour body also produces waste. Cellular respiration produces carbon dioxide, and processing proteins produces urea. Blood collects these waste substances and takes them to the lungs and kidneys to be removed. Your body works like a perfectly coordinated orchestra!",
+      "questions": [
+        {
+          "prompt": "Through which structure do the apple’s nutrients enter the blood?",
+          "explanation": "Absorption takes place in the small intestine. Nutrients cross its walls and enter blood capillaries.",
+          "options": [
+            "Through the lung alveoli towards the heart.",
+            "Through the small intestine’s wall into blood capillaries.",
+            "Through the kidneys directly into the muscles."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would happen if muscles received less oxygen and fewer nutrients during the match?",
+          "explanation": "Without effective blood pumping, muscle cells lack the continuous supply of oxygen and nutrients they need to perform well.",
+          "options": [
+            "The digestive system would absorb food twice as fast to compensate.",
+            "Muscles would make their own oxygen using reserves in the skin.",
+            "Muscles would receive less oxygen and glucose, so would have less energy and tire quickly."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why is it scientifically incorrect to say that nutrition means only eating?",
+          "explanation": "Eating is just the first step. Nutrition includes digestion, respiration, circulation and removal of waste from cells.",
+          "options": [
+            "Nutrition only involves kidneys and lungs, with no connection to food.",
+            "Nutrition is a whole-body process involving digestion, taking in oxygen, transporting substances and removing waste.",
+            "Eating only stops hunger and has no effect on muscles."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-08",
+      "type": "choice",
+      "prompt": "At school, Omar records a resting pulse of 72 beats per minute. After skipping for 2 minutes, it rises to 130. If he also measured his breathing rate before and after exercise, which scientific prediction is correct?",
+      "explanation": "The heart and lungs work together during exercise. When the heart beats faster to supply oxygen, breathing must also increase to take in more oxygen.",
+      "hint": "Remember how your breathing changes during intense exercise.",
+      "lang": "en",
+      "options": [
+        "His breathing rate will also rise because the body needs more oxygen to meet its cells’ needs.",
+        "His breathing rate will fall because the heart does all the work and the lungs can rest.",
+        "His breathing rate will stay the same because heart rate and breathing are completely independent."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-09",
+      "type": "choice",
+      "prompt": "The body produces waste substances such as urea. How do the circulatory and excretory systems work together to remove them?",
+      "explanation": "Blood collects waste substances throughout the body and carries them to the kidneys. Blood is continually filtered there, and waste leaves in urine.",
+      "hint": "Think of blood as a waste collection vehicle and kidneys as the filtering station.",
+      "lang": "en",
+      "options": [
+        "Blood carries waste from cells to the kidneys, which filter the blood and produce urine to remove it.",
+        "Kidneys travel through blood vessels to catch waste directly inside organs.",
+        "The circulatory system pushes waste through the skin as air, and kidneys only store clean water."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-10",
+      "type": "choice",
+      "prompt": "Aisha and Mateo discuss how human cells get energy so we can think, run and grow. Which explanation correctly describes these systems working together?",
+      "explanation": "This process is cellular respiration. It happens inside cells when nutrients and oxygen combine to release energy, water and carbon dioxide.",
+      "hint": "Find the option that connects food, air and blood transport.",
+      "lang": "en",
+      "options": [
+        "Energy is produced only in the stomach by breaking down food, and nerves send it throughout the body.",
+        "Lungs absorb solar energy and air directly, while food only supplies water for joints.",
+        "Cells obtain energy by combining nutrients from the digestive system with oxygen from the respiratory system, delivered by blood."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:17:55.246Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:44:20.959Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "283598a1b9d584150b4f19349a7f9a889fd1120dada274cf4b7a4cd06b9741c0",
+      "validation": "manual-review"
+    }
+  }
+}

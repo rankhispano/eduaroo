@@ -1,0 +1,229 @@
+{
+  "id": "g4-sociales-instituciones-del-estado",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "instituciones-del-estado",
+  "temaNombre": "Spain's state institutions",
+  "title": "Discovering Spain's institutions",
+  "summary": "Explore Spain's organisation, its institutions' roles and how democratic laws are made.",
+  "keyIdeas": [
+    "The 1978 Constitution is Spain's supreme law and protects our rights.",
+    "The Cortes Generales makes laws, the Government applies them, and courts administer justice.",
+    "The king is head of state and represents Spain internationally."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-instituciones-del-estado-01",
+      "type": "choice",
+      "prompt": "Lucía and Hugo read about Spain. What is the country's supreme law? 📖",
+      "explanation": "The 1978 Spanish Constitution is the state's fundamental law. Other laws must respect it.",
+      "hint": "It was approved in 1978 and recognises fundamental rights.",
+      "lang": "en",
+      "options": [
+        "The Highway Code",
+        "The neighbourhood newspaper",
+        "The Spanish Constitution",
+        "The school rules"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-02",
+      "type": "true-false",
+      "prompt": "Spain's king is head of state and represents the country, but does not make its laws.",
+      "explanation": "Spain is a parliamentary monarchy. The king represents the state, while the Cortes Generales approves laws.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about democratic institutions.",
+      "explanation": "The Cortes Generales has two chambers: the Congress of Deputies and the Senate.",
+      "hint": "It is the chamber representing territories.",
+      "lang": "en",
+      "sentence": "The Cortes Generales comprises the Congress of Deputies and the ___.",
+      "options": [
+        "municipal council",
+        "Senate",
+        "Supreme Court"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-04",
+      "type": "match",
+      "prompt": "Match each state power to its main role.",
+      "explanation": "Separating powers helps maintain justice and balance in a democracy.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Legislative power: the Cortes",
+          "right": "Makes and approves laws"
+        },
+        {
+          "left": "Executive power: the Government",
+          "right": "Applies laws and directs national policy"
+        },
+        {
+          "left": "Judicial power: courts",
+          "right": "Resolves disputes by applying laws"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-05",
+      "type": "classify",
+      "prompt": "Classify each role by its institution.",
+      "explanation": "The Cortes makes laws and approves the budget. The Government manages public services and national policy.",
+      "lang": "en",
+      "categories": [
+        "Cortes Generales",
+        "Government of Spain"
+      ],
+      "items": [
+        {
+          "text": "Debate and vote on a new education law",
+          "category": 0
+        },
+        {
+          "text": "Direct foreign policy and defence",
+          "category": 1
+        },
+        {
+          "text": "Approve the national budget",
+          "category": 0
+        },
+        {
+          "text": "Administer national public services",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-06",
+      "type": "order",
+      "prompt": "Order the main stages from proposing a law to it taking effect.",
+      "explanation": "The Cortes debates and approves a proposal. The king then signs the law and it is published. Its entry into force may be set for a later date.",
+      "lang": "en",
+      "items": [
+        "The Government or another authorised group proposes a law",
+        "Congress and Senate debate and vote on it",
+        "The king signs the approved law",
+        "The law is published and takes effect on its established date"
+      ]
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-07",
+      "type": "reading",
+      "prompt": "Read the school report and answer the questions.",
+      "explanation": "The visit shows democratic participation and the roles of public institutions.",
+      "lang": "en",
+      "title": "Grade 4 visits Congress",
+      "text": "Yesterday, Grade 4 visited the Congress of Deputies in Madrid. Aisha and Omar sat in seats used by representatives elected by citizens. Their guide explained that eligible Spanish citizens may vote in general elections from age 18. The normal parliamentary term lasts four years, but elections may be held earlier. They also learned that independent judges work in courts to resolve disputes.",
+      "questions": [
+        {
+          "prompt": "From what age may eligible Spanish citizens vote?",
+          "explanation": "The voting age is 18.",
+          "options": [
+            "16",
+            "18",
+            "21"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "According to the text, who independently resolves legal disputes?",
+          "explanation": "Judges exercise judicial power and apply the law independently.",
+          "options": [
+            "Deputies and senators",
+            "Judges",
+            "The school police"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-08",
+      "type": "choice",
+      "prompt": "Nerea's neighbours want a playground with swings. Which institution should they approach? 🛝",
+      "explanation": "The municipal council manages local parks, street lighting and cleaning.",
+      "hint": "It is the local institution led by the mayor.",
+      "lang": "en",
+      "options": [
+        "The municipal council",
+        "The Supreme Court",
+        "The Congress of Deputies"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-09",
+      "type": "true-false",
+      "prompt": "Spain's head of government can change laws alone without consulting the Cortes Generales.",
+      "explanation": "Democratic lawmaking requires parliamentary debate and approval by citizens' representatives; the head of government cannot simply change laws at will.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-sociales-instituciones-del-estado-10",
+      "type": "choice",
+      "prompt": "Two businesses disagree over a contract. Which institution can resolve the dispute by applying the law? ⚖️",
+      "explanation": "Courts and judges decide legal disputes impartially and ensure judgments are carried out.",
+      "hint": "It belongs to judicial power.",
+      "lang": "en",
+      "options": [
+        "The Government of Spain",
+        "The courts",
+        "The Senate"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:08:13.655Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:14:30.561Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "64754769c607be51db13ef41b16139fb6643127f48e370c529877cc2f99dc875",
+      "validation": "manual-review"
+    }
+  }
+}

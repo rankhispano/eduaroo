@@ -83,7 +83,7 @@
       "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-03",
       "type": "classify",
       "prompt": "Clasifica estos enunciados según sean hechos objetivos comprobables u opiniones que necesitan argumentos:",
-      "explanation": "Los hechos son datos comprobables de la realidad que no admiten discusión. Las opiniones expresan valoraciones personales y requieren argumentos para convencer a los demás.",
+      "explanation": "Los hechos se pueden contrastar con pruebas, y las afirmaciones sobre ellos pueden revisarse. Las opiniones expresan valoraciones; pueden defenderse con argumentos, pero no se comprueban del mismo modo.",
       "lang": "es",
       "categories": [
         "Hecho objetivo",
@@ -107,7 +107,7 @@
           "category": 1
         },
         {
-          "text": "Los teléfonos móviles causan demasiada distracción en clase.",
+          "text": "En mi opinión, distraerse con el móvil es peor que distraerse hablando.",
           "category": 1
         },
         {
@@ -161,12 +161,12 @@
       "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-07",
       "type": "choice",
       "prompt": "¡Detecta el error! 🔍 Omar quiere convencer a su clase de que hay que usar casco al montar en bicicleta. ¿Cuál de estas opciones NO es un argumento válido, sino un razonamiento erróneo?",
-      "explanation": "Atacar a una persona o justificar algo por antipatía no demuestra que el casco sea necesario. Los otros dos enunciados sí aportan datos científicos o el respaldo de una autoridad vial.",
+      "explanation": "La antipatía hacia una persona no demuestra la utilidad del casco. Proteger la cabeza es una razón pertinente, y la recomendación de la DGT aporta una fuente especializada.",
       "hint": "Busca la opción que se base en una manía personal en vez de en razones o datos objetivos.",
       "lang": "es",
       "options": [
         "La Dirección General de Tráfico aconseja su uso para proteger la vida.",
-        "El casco reduce hasta un 70 % el riesgo de lesiones graves en la cabeza.",
+        "El casco ayuda a proteger la cabeza en caso de caída.",
         "Debes ponerte el casco porque mi primo nunca se lo pone y a mí me cae mal."
       ],
       "answer": 2
@@ -174,8 +174,8 @@
     {
       "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-08",
       "type": "classify",
-      "prompt": "Clasifica cada argumento según su tipología:",
-      "explanation": "Los datos aportan porcentajes o cifras comprobables; la autoridad se basa en personas o instituciones expertas; la experiencia personal surge de vivencias individuales.",
+      "prompt": "Clasifica estos argumentos por su forma. Las cifras indicadas como inventadas solo sirven para practicar; una afirmación real exige verificar su fuente.",
+      "explanation": "Un argumento puede basarse en una fuente experta, en datos o en experiencias. Su forma no garantiza que sea verdadero: hay que verificar fuentes y cifras.",
       "lang": "es",
       "categories": [
         "Argumento de datos o hechos",
@@ -184,11 +184,11 @@
       ],
       "items": [
         {
-          "text": "La Organización Mundial de la Salud recomienda hacer 60 minutos de ejercicio al día.",
+          "text": "La OMS recomienda para los 5 a 17 años un promedio de al menos 60 minutos diarios de actividad física moderada o intensa a lo largo de la semana.",
           "category": 1
         },
         {
-          "text": "El 85 % de los estudiantes aprueba cuando repasa las lecciones a diario.",
+          "text": "En una encuesta inventada de clase, 17 de 20 estudiantes dicen repasar a diario.",
           "category": 0
         },
         {
@@ -200,7 +200,7 @@
           "category": 1
         },
         {
-          "text": "En mi barrio el tráfico disminuyó un 30 % tras abrir el nuevo carril bici.",
+          "text": "En un ejemplo inventado, el tráfico disminuyó un 30 % después de abrir un carril bici.",
           "category": 0
         },
         {
@@ -213,20 +213,20 @@
       "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-09",
       "type": "reading",
       "prompt": "Lee este artículo de opinión escolar y responde a las preguntas:",
-      "explanation": "El texto defiende con claridad una tesis ecológica y pedagógica mediante argumentos de bienestar térmico, salud médica y convivencia escolar.",
+      "explanation": "El artículo defiende una propuesta con argumentos de sombra, convivencia y cuidado del entorno. Son argumentos para valorar, no una demostración de que todos los patios deban ser iguales.",
       "lang": "es",
       "title": "Patios más verdes para aprender mejor",
-      "text": "¿Deberían los colegios tener patios más verdes y con menos cemento? En mi opinión, transformar los patios escolares en espacios naturales con árboles, plantas y zonas de tierra es imprescindible para el bienestar y el aprendizaje del alumnado.\nEn primer lugar, los árboles proporcionan sombra natural y regulan la temperatura, lo que reduce el calor durante los meses de primavera y verano. Según varios estudios pediátricos, jugar en contacto directo con la naturaleza disminuye los niveles de estrés infantil y mejora la concentración en las clases posteriores. Además, los espacios verdes fomentan juegos más cooperativos y diversos, evitando que las pistas deportivas monopolicen todo el espacio disponible.\nEs verdad que el mantenimiento de un jardín requiere esfuerzo y cuidados compartidos, pero ese trabajo enseña responsabilidad ambiental a toda la comunidad educativa. Por todas estas razones, rediseñar los patios escolares no es un capricho estético, sino una necesidad urgente para nuestra salud física y emocional.",
+      "text": "¿Deberían los colegios tener patios más verdes y con menos cemento? En mi opinión, transformar los patios escolares en espacios naturales con árboles, plantas y zonas de tierra es imprescindible para el bienestar y el aprendizaje del alumnado.\nEn primer lugar, los árboles proporcionan sombra natural y regulan la temperatura, lo que reduce el calor durante los meses de primavera y verano. Podríamos disponer de un rincón tranquilo para leer y descansar entre las plantas. Además, los espacios verdes fomentan juegos más cooperativos y diversos, evitando que las pistas deportivas monopolicen todo el espacio disponible.\nEs verdad que el mantenimiento de un jardín requiere esfuerzo y cuidados compartidos, pero ese trabajo enseña responsabilidad ambiental a toda la comunidad educativa. Por todas estas razones, rediseñar los patios escolares no es un capricho estético, sino una necesidad urgente para nuestra salud física y emocional.",
       "questions": [
         {
-          "prompt": "Según los estudios pediátricos citados en el texto, ¿qué beneficio directo aporta el contacto con la naturaleza?",
-          "explanation": "El texto señala literalmente que jugar en la naturaleza disminuye los niveles de estrés infantil y mejora la concentración.",
+          "prompt": "¿Qué uso propone el autor para un rincón entre las plantas?",
           "options": [
-            "Elimina por completo la necesidad de estudiar.",
-            "Aumenta la fuerza en los partidos de fútbol.",
-            "Disminuye el estrés y mejora la concentración."
+            "Dejar de estudiar durante todo el curso.",
+            "Convertirlo en un aparcamiento.",
+            "Leer y descansar en un lugar tranquilo."
           ],
-          "answer": 2
+          "answer": 2,
+          "explanation": "El autor propone un rincón tranquilo para leer y descansar."
         },
         {
           "prompt": "¿Qué objeción o contraargumento anticipa el autor para luego rebatirlo?",
@@ -254,7 +254,7 @@
       "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-10",
       "type": "choice",
       "prompt": "En un debate sobre el uso de uniformes escolares, Adrián dice: «El uniforme escolar es perjudicial porque anula la personalidad y la libre expresión de cada estudiante». ¿Qué argumento serviría de contraargumento sólido frente a la postura de Adrián?",
-      "explanation": "Defender que el uniforme reduce las desigualdades socioeconómicas es un contraargumento razonado y de peso frente a la idea de que limita la libre expresión.",
+      "explanation": "La opción sobre las comparaciones por marcas presenta una posible ventaja para debatir. Es un contraargumento pertinente, aunque por sí solo no demuestra que el uniforme resuelva la desigualdad.",
       "hint": "Busca una razón social sólida que justifique una ventaja real del uniforme.",
       "lang": "es",
       "options": [

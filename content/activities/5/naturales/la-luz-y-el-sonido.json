@@ -7,7 +7,7 @@
   "title": "Misterios de la luz y el sonido",
   "summary": "Investiga cómo viajan las ondas sonoras y los rayos de luz en nuestro entorno.",
   "keyIdeas": [
-    "La luz viaja en línea recta y mucho más rápido que el sonido.",
+    "En un medio uniforme, la luz viaja en línea recta y mucho más rápido que el sonido.",
     "El sonido se produce por vibraciones y necesita materia para propagarse.",
     "La reflexión hace rebotar la luz y el sonido; la refracción desvía la luz al cambiar de medio."
   ],
@@ -84,7 +84,7 @@
           "category": 0
         },
         {
-          "text": "Cortina fina de la ducha",
+          "text": "Cortina de plástico translúcido de la ducha",
           "category": 1
         }
       ]
@@ -113,16 +113,17 @@
     {
       "id": "g5-naturales-la-luz-y-el-sonido-04",
       "type": "fill-blank",
-      "prompt": "Completa la frase sobre la velocidad del sonido en distintos medios:",
-      "explanation": "En los sólidos las partículas están muy unidas, lo que permite transmitir las vibraciones de unas a otras a mayor velocidad que en los gases.",
+      "prompt": "Completa la frase sobre la transmisión del sonido:",
+      "explanation": "El sonido se transmite mediante vibraciones en sólidos, líquidos o gases. Su velocidad depende de las propiedades del material.",
       "lang": "es",
-      "sentence": "El sonido viaja más rápido en los sólidos que en el aire porque sus partículas están más ___ entre sí.",
+      "sentence": "El sonido necesita un medio material cuyas partículas puedan ___.",
       "options": [
-        "separadas",
-        "juntas",
-        "frías"
+        "vibrar",
+        "desaparecer",
+        "emitir luz"
       ],
-      "answer": 1
+      "answer": 0,
+      "hint": "Piensa en qué hace una cuerda de guitarra al sonar."
     },
     {
       "id": "g5-naturales-la-luz-y-el-sonido-05",
@@ -143,7 +144,7 @@
       "id": "g5-naturales-la-luz-y-el-sonido-06",
       "type": "choice",
       "prompt": "Lucía mete un lápiz recto dentro de un vaso con agua. Al mirarlo desde el lateral, observa con sorpresa que el lápiz parece doblado o partido en dos. ¿Qué fenómeno físico explica esta observación?",
-      "explanation": "La refracción es el cambio de dirección que experimentan los rayos de luz cuando pasan de un medio a otro con diferente densidad, como del aire al agua.",
+      "explanation": "Al pasar entre aire y agua, la luz cambia de velocidad y puede cambiar de dirección. Esa refracción hace que el lápiz parezca doblado.",
       "hint": "Fíjate en cómo la luz cambia de medio transparente.",
       "lang": "es",
       "options": [
@@ -158,13 +159,13 @@
       "id": "g5-naturales-la-luz-y-el-sonido-07",
       "type": "order",
       "prompt": "Durante una tormenta lejana de verano, Hugo observa un rayo y después escucha el trueno. Ordena cronológicamente los sucesos desde que se origina la descarga:",
-      "explanation": "Luz y sonido nacen a la vez, pero la luz viaja casi un millón de veces más rápido en el aire, por lo que vemos el relámpago mucho antes de oír el trueno.",
+      "explanation": "La luz y el sonido empiezan a propagarse a la vez. La diferencia de velocidad hace que veamos primero el relámpago.",
       "lang": "es",
       "items": [
-        "Se produce la descarga eléctrica en la nube que genera luz y sonido a la vez",
-        "La luz del relámpago viaja a 300.000 km/s y llega casi al instante a los ojos de Hugo",
-        "La onda sonora del trueno viaja por el aire a unos 340 metros por segundo",
-        "El sonido llega a los oídos de Hugo con varios segundos de retraso respecto a la luz"
+        "La descarga eléctrica produce luz y sonido",
+        "Ambos se propagan; la luz viaja mucho más rápido",
+        "La luz llega a los ojos de Hugo",
+        "Después llega el sonido a sus oídos"
       ]
     },
     {
@@ -189,17 +190,17 @@
       "explanation": "El texto muestra la relación entre salud y nivel acústico, así como soluciones sencillas para reducir el exceso de ruido en el entorno escolar.",
       "lang": "es",
       "title": "Vivir con menos decibelios",
-      "text": "La Organización Mundial de la Salud (OMS) advierte de que el ruido excesivo constante, conocido como contaminación acústica, es perjudicial para la salud física y mental. En muchas ciudades, el tráfico rodado, las obras y la maquinaria superan con frecuencia los 65 decibelios (dB), el límite diurno recomendado.\n\nEstar expuestos de manera prolongada a niveles elevados no solo causa pérdida gradual de audición, sino también dolor de cabeza, estrés continuado, dificultad de concentración e insomnio. Para combatir este problema invisible, varias escuelas españolas han puesto en marcha 'semáforos de ruido' en comedores escolares y han colocado almohadillas de fieltro en las patas de mesas y sillas.\n\nReducir el volumen con el que hablamos y elegir medios de transporte activos y silenciosos, como la bicicleta o el desplazamiento a pie, mejora la convivencia y cuida nuestro bienestar general.",
+      "text": "La Organización Mundial de la Salud (OMS) advierte de que el ruido excesivo constante, conocido como contaminación acústica, es perjudicial para la salud física y mental. El tráfico, las obras y la maquinaria son fuentes frecuentes de ruido en las ciudades. El riesgo depende de su intensidad y del tiempo de exposición.\n\nEstar expuestos de manera prolongada a niveles elevados puede provocar daños auditivos y otros problemas, como dolor de cabeza, estrés continuado, dificultad de concentración e insomnio. Para combatir este problema invisible, varias escuelas españolas han puesto en marcha 'semáforos de ruido' en comedores escolares y han colocado almohadillas de fieltro en las patas de mesas y sillas.\n\nReducir el volumen con el que hablamos y elegir medios de transporte activos y silenciosos, como la bicicleta o el desplazamiento a pie, mejora la convivencia y cuida nuestro bienestar general.",
       "questions": [
         {
-          "prompt": "¿Qué nivel de sonido diurno recomienda no sobrepasar la Organización Mundial de la Salud en las ciudades?",
-          "explanation": "El texto indica expresamente que el límite diurno recomendado por la OMS se sitúa en los 65 decibelios.",
+          "prompt": "¿De qué depende el riesgo del ruido para la salud, según el texto?",
           "options": [
-            "65 decibelios.",
-            "50 decibelios.",
-            "85 decibelios."
+            "De su intensidad y del tiempo de exposición",
+            "Solo del color de la fuente sonora",
+            "Solo de si ocurre dentro o fuera de casa"
           ],
-          "answer": 0
+          "answer": 0,
+          "explanation": "El texto señala tanto la intensidad del ruido como el tiempo durante el que se escucha."
         },
         {
           "prompt": "A partir del texto, ¿por qué colocar almohadillas de fieltro en las sillas del colegio ayuda a reducir la contaminación acústica?",
@@ -233,7 +234,7 @@
       "options": [
         "Acercar la marioneta a la linterna y alejarla de la pantalla blanca.",
         "Pegar la marioneta directamente a la pantalla blanca junto a la linterna.",
-        "Alejar la marioneta de la linterna y situarla pegada al foco de luz.",
+        "Alejar la marioneta de la linterna y acercarla a la pantalla blanca.",
         "Poner un filtro de agua entre la linterna y la marioneta para doblar los rayos."
       ],
       "answer": 0

@@ -8,7 +8,7 @@
   "summary": "Repasa cómo se organiza el territorio español en comunidades autónomas, provincias y ciudades autónomas.",
   "keyIdeas": [
     "España está organizada en 17 comunidades autónomas y 2 ciudades autónomas (Ceuta y Melilla).",
-    "Cada comunidad autónoma está formada por una o varias provincias y tiene su propia capital.",
+    "Cada comunidad autónoma tiene una o varias provincias y sus propias instituciones de gobierno.",
     "Cada comunidad autónoma cuenta con su propio Estatuto de Autonomía y sus instituciones de gobierno."
   ],
   "lomloe": {
@@ -120,7 +120,7 @@
       "id": "g3-sociales-comunidades-autonomas-05",
       "type": "match",
       "prompt": "Une cada comunidad autónoma con su capital autonómica correspondiente:",
-      "explanation": "Cada comunidad autónoma tiene una ciudad designada como sede de sus instituciones principales de gobierno, que es su capital.",
+      "explanation": "En estas cuatro comunidades, las ciudades indicadas son sus capitales. La organización de las sedes institucionales puede variar entre comunidades.",
       "lang": "es",
       "pairs": [
         {
@@ -190,10 +190,10 @@
       "id": "g3-sociales-comunidades-autonomas-08",
       "type": "order",
       "prompt": "Ordena estos niveles territoriales desde el espacio más pequeño hasta el más grande: 🗺️",
-      "explanation": "Un municipio forma parte de una provincia, una o varias provincias forman una comunidad autónoma, y todas juntas componen el Estado español.",
+      "explanation": "En este esquema, un municipio pertenece a una provincia y esta a una comunidad autónoma. Municipio y localidad no siempre significan lo mismo.",
       "lang": "es",
       "items": [
-        "Municipio (localidad)",
+        "Municipio",
         "Provincia",
         "Comunidad autónoma",
         "Estado español"
@@ -202,8 +202,8 @@
     {
       "id": "g3-sociales-comunidades-autonomas-09",
       "type": "choice",
-      "prompt": "Nerea viaja en tren desde Toledo hasta Santander. ¿Por qué comunidades autónomas pasa, en orden? 🚆",
-      "explanation": "Toledo está en Castilla-La Mancha. El tren sube hacia el norte por la Comunidad de Madrid y Castilla y León hasta llegar a Santander, la capital de Cantabria.",
+      "prompt": "Nerea planea una ruta por Toledo, Madrid, Valladolid y Santander, en ese orden. ¿Por qué comunidades autónomas pasa?",
+      "explanation": "Toledo está en Castilla-La Mancha; Madrid, en la Comunidad de Madrid; Valladolid, en Castilla y León; y Santander, en Cantabria.",
       "hint": "Toledo está en el centro-sur y Santander en la costa norte.",
       "lang": "es",
       "options": [

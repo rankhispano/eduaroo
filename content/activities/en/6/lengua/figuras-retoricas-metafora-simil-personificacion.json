@@ -1,0 +1,267 @@
+{
+  "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "figuras-retoricas-metafora-simil-personificacion",
+  "temaNombre": "Figures of Speech: Metaphor, Simile and Personification",
+  "title": "Exploring Figures of Speech",
+  "summary": "Identify metaphors, similes and personification in Spanish poetry and everyday language.",
+  "keyIdeas": [
+    "A simile compares things explicitly, using words such as «como», «parece» or «igual que» in Spanish.",
+    "A metaphor presents one thing as another without an explicit comparison link.",
+    "Personification gives human qualities, actions or feelings to objects, animals or ideas."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE8",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "8.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "C. Educación literaria",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-01",
+      "type": "choice",
+      "prompt": "Lucía writes this Spanish line: «El río corre como una serpiente plateada». Which figure of speech does she use?",
+      "explanation": "It is a simile because it compares the river's movement to a snake using «como».",
+      "hint": "Notice the word linking the two things being compared.",
+      "lang": "en",
+      "options": [
+        "Simile or comparison",
+        "Metaphor",
+        "Personification"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-02",
+      "type": "true-false",
+      "prompt": "The Spanish sentence «Las estrellas nos guiñaban los ojos desde el cielo» contains personification.",
+      "explanation": "True. It gives stars the human action of winking.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-03",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish definition with the correct term.",
+      "explanation": "A metaphor presents one thing as another directly, while a simile uses an explicit comparison link.",
+      "lang": "en",
+      "sentence": "La ___ consiste en identificar un elemento real con otro imaginario sin usar nexos de comparación.",
+      "options": [
+        "metáfora",
+        "personificación",
+        "aliteración"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-04",
+      "type": "match",
+      "prompt": "Match each Spanish example to its main figure of speech.",
+      "explanation": "Whispering secrets gives the wind a human action. «Como» introduces a simile. Calling streetlights golden sentries is a metaphor.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "El viento susurraba secretos entre las hojas.",
+          "right": "Personification"
+        },
+        {
+          "left": "Sus manos son suaves como el terciopelo.",
+          "right": "Simile"
+        },
+        {
+          "left": "Las farolas del parque son centinelas dorados.",
+          "right": "Metaphor"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-05",
+      "type": "classify",
+      "prompt": "Sort these Spanish lines by their main figure of speech.",
+      "explanation": "Metaphors identify things directly; similes use explicit links such as «igual que» and «como»; personification gives human qualities to non-human things.",
+      "lang": "en",
+      "categories": [
+        "Metaphor",
+        "Simile",
+        "Personification"
+      ],
+      "items": [
+        {
+          "text": "El sol doraba el campo igual que una moneda de oro.",
+          "category": 1
+        },
+        {
+          "text": "El reloj del pasillo no para de quejarse.",
+          "category": 2
+        },
+        {
+          "text": "Las nubes son copos de algodón flotantes.",
+          "category": 0
+        },
+        {
+          "text": "Aisha es rápida como una gacela en la pista.",
+          "category": 1
+        },
+        {
+          "text": "La noche abrazó al pueblo en silencio.",
+          "category": 2
+        },
+        {
+          "text": "Sus ojos son dos luceros brillantes.",
+          "category": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-06",
+      "type": "choice",
+      "prompt": "Which Spanish sentence contains a metaphor rather than a simile?",
+      "explanation": "«El lago es un espejo de plata» identifies the lake directly with a mirror, without «tal como» or «parece».",
+      "hint": "In these examples, the similes use words explicitly expressing resemblance.",
+      "lang": "en",
+      "options": [
+        "El lago parece un espejo brillante.",
+        "El lago brilla tal como un espejo.",
+        "El lago es un espejo de plata."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-07",
+      "type": "choice",
+      "prompt": "Omar writes: «Mi perro Omar es tan veloz como un guepardo; por eso he usado una personificación muy bonita». What is his mistake?",
+      "explanation": "The pattern «tan... como» makes an explicit comparison, so this is a simile.",
+      "hint": "Find the comparison pattern in the sentence.",
+      "lang": "en",
+      "options": [
+        "It is a metaphor without a comparison link, rather than personification.",
+        "It is a simile because it compares speed using «tan... como».",
+        "There is no mistake: comparing animals is always personification."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-08",
+      "type": "order",
+      "prompt": "Hugo transforms a description into poetry. Order these Spanish examples from literal language to a metaphor with only the imagined image.",
+      "explanation": "The sequence moves from a literal description to a simile, then a metaphor naming both things, and finally a metaphor using only the imagined image.",
+      "lang": "en",
+      "items": [
+        "Descripción literal: El cielo nocturno está lleno de estrellas.",
+        "Símil: El cielo parece un manto oscuro con estrellas como diamantes.",
+        "Metáfora impura: El cielo de la noche es un manto de terciopelo azul.",
+        "Metáfora pura: Aquel manto bordado de diamantes cubrió el valle."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-09",
+      "type": "reading",
+      "prompt": "Read the Spanish literary text and answer the questions.",
+      "explanation": "The text combines personification, metaphors and similes to describe the dawn vividly.",
+      "lang": "en",
+      "title": "El despertar del bosque",
+      "text": "Aquel amanecer de mayo, la niebla bostezó sobre la colina y decidió retirarse lentamente hacia el valle. Los árboles ancianos estiraron sus ramas tras la larga noche y murmuraron entre ellos antiguas canciones de savia y viento. En el centro del prado, las gotas de rocío eran pequeñas perlas transparentes que adornaban la hierba recién nacida. Martina caminaba despacio por el sendero, fascinada por la calma. El aire fresco le acariciaba las mejillas con ternura mientras un arroyo, cantarín y juguetón como un niño en el recreo, saltaba entre las piedras pulidas. La naturaleza entera celebraba el comienzo de un nuevo día lleno de luz y esperanza.",
+      "questions": [
+        {
+          "prompt": "Which figure appears in «la niebla bostezó sobre la colina»?",
+          "explanation": "It is personification: the mist is given the human action of yawning.",
+          "options": [
+            "Metaphor, because it replaces the word cloud with yawn.",
+            "Personification, because a natural phenomenon is given the human action of yawning.",
+            "Simile, because it compares the mist with the night's tiredness."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "The text says «las gotas de rocío eran pequeñas perlas transparentes». Which figure is this?",
+          "explanation": "It directly identifies the dewdrops with transparent pearls, without a comparison link, so it is a metaphor.",
+          "options": [
+            "Simile",
+            "Metaphor",
+            "Personification"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why does the writer compare the stream to «un niño en el recreo»?",
+          "explanation": "The simile links the lively movement and cheerful sound of the water with a child playing.",
+          "options": [
+            "Because the stream was noisy and annoyed the woodland animals.",
+            "To suggest the water's joyful movement and energy as it jumps.",
+            "To show that the stream was beside a rural school's playground."
+          ],
+          "answer": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-figuras-retoricas-metafora-simil-personificacion-10",
+      "type": "choice",
+      "prompt": "Adrián wants a striking personification encouraging classmates to care for books. Which Spanish sentence achieves this?",
+      "explanation": "The correct option gives books human feelings and actions: crying and waiting.",
+      "hint": "Look for a sentence giving objects human feelings and actions.",
+      "lang": "en",
+      "options": [
+        "«Debemos colocar los libros ordenados en las estanterías de la biblioteca».",
+        "«Los libros son como tesoros llenos de conocimiento valioso».",
+        "«Cada libro olvidado en un rincón llora en silencio esperando que alguien lo abra»."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:22:25.767Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:27:19.705Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "5ad1aa1dcbf23b7634f9fa35b8dc8f9136861f0e39230606cb6bfe919e26debe",
+      "validation": "manual-review"
+    }
+  }
+}

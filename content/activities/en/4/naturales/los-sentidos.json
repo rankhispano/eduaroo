@@ -1,0 +1,223 @@
+{
+  "id": "g4-naturales-los-sentidos",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "los-sentidos",
+  "temaNombre": "The senses",
+  "title": "Exploring the world through our senses",
+  "summary": "Explore how sensory organs connect us with our surroundings.",
+  "keyIdeas": [
+    "Sensory organs detect outside stimuli through receptor cells.",
+    "Taste buds across the tongue can detect the basic tastes; each taste is not limited to one separate zone.",
+    "Sensory receptors send information through nerves for the brain to interpret."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-los-sentidos-01",
+      "type": "match",
+      "prompt": "Match each sensory organ to the stimulus it detects.",
+      "explanation": "Each organ has receptors suited to particular kinds of stimuli.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Eye",
+          "right": "Light and colours"
+        },
+        {
+          "left": "Ear",
+          "right": "Sound vibrations"
+        },
+        {
+          "left": "Skin",
+          "right": "Pressure and temperature"
+        },
+        {
+          "left": "Smell receptors in the nose",
+          "right": "Chemicals in the air"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-los-sentidos-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the eye.",
+      "explanation": "The retina has light-sensitive cells that turn visual information into nerve signals.",
+      "lang": "en",
+      "sentence": "Light enters the eye and forms an image on the inner layer called the ___.",
+      "options": [
+        "cornea",
+        "iris",
+        "retina"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-los-sentidos-03",
+      "type": "classify",
+      "prompt": "Classify each body part by its sensory organ.",
+      "explanation": "The lens and pupil belong to the eye. The eardrum and cochlea belong to the ear.",
+      "lang": "en",
+      "categories": [
+        "Eye: sight",
+        "Ear: hearing"
+      ],
+      "items": [
+        {
+          "text": "Lens",
+          "category": 0
+        },
+        {
+          "text": "Eardrum",
+          "category": 1
+        },
+        {
+          "text": "Cochlea",
+          "category": 1
+        },
+        {
+          "text": "Pupil",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-los-sentidos-04",
+      "type": "order",
+      "prompt": "Order the pathway from a sound reaching us to the brain receiving its signal.",
+      "explanation": "Sound enters the ear canal, vibrates the eardrum and is converted into signals carried by a nerve to the brain.",
+      "lang": "en",
+      "items": [
+        "Sound vibrations reach the outer ear",
+        "The eardrum vibrates and moves tiny bones",
+        "The cochlea converts vibrations into nerve signals",
+        "The auditory nerve carries signals to the brain"
+      ]
+    },
+    {
+      "id": "g4-naturales-los-sentidos-05",
+      "type": "reading",
+      "prompt": "Read the classroom example and answer the questions.",
+      "explanation": "Taste and smell work together to recognise food's full flavour.",
+      "lang": "en",
+      "title": "A snack during a cold",
+      "text": "Aisha has a cold and a blocked nose. Eating a familiar apple, she notices its crunch and sweetness, but its aroma seems weaker. Her teacher explains that taste detects basic tastes, while smell helps us sense food aromas.\n\nAdrián adds that texture matters too: receptors in the mouth detect crunchiness, softness, cold and warmth. Several senses work together while eating. The class can learn from this example without tasting unfamiliar food or blocking their noses while they eat.",
+      "questions": [
+        {
+          "prompt": "Why does Aisha find aromas harder to recognise during her cold?",
+          "explanation": "A blocked nose can reduce aroma detection, and smell contributes to flavour.",
+          "options": [
+            "Her hands were not touching the fruit.",
+            "Eyes are essential for taste buds to work.",
+            "Smell works with taste to help us perceive flavours."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which sense lets Aisha notice that food is crunchy?",
+          "explanation": "Mouth receptors detect texture and temperature.",
+          "options": [
+            "Touch, through receptors in the mouth.",
+            "Smell, through the nose's smell receptors.",
+            "Sight, because she remembers the food's appearance."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-los-sentidos-06",
+      "type": "choice",
+      "prompt": "Lucía enters a sunny playground and notices the dark centres of her eyes becoming smaller. Why?",
+      "explanation": "Pupils become smaller in bright light and larger in darkness, controlling incoming light.",
+      "hint": "What controls how much light enters the eye?",
+      "lang": "en",
+      "options": [
+        "The retina closes to rest during daylight.",
+        "The iris permanently changes colour because of the Sun's heat.",
+        "The pupil becomes smaller to reduce the amount of light entering."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-los-sentidos-07",
+      "type": "true-false",
+      "prompt": "Human skin has the same density of touch receptors on the back as on the fingertips.",
+      "explanation": "Fingertips have many more closely packed touch receptors than the back.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-naturales-los-sentidos-08",
+      "type": "choice",
+      "prompt": "Hugo touches a table and feels that it is smooth and cold. Which path does this information follow?",
+      "explanation": "Skin receptors detect the stimulus and nerves carry signals to the brain.",
+      "hint": "Who detects it first and interprets it last?",
+      "lang": "en",
+      "options": [
+        "Arm muscles › brain › skin receptors.",
+        "Skin receptors › sensory nerves › brain.",
+        "Skin receptors › tendons › spinal cord, without reaching the brain."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-los-sentidos-09",
+      "type": "choice",
+      "prompt": "Wei and Omar learn about hearing. Listening through headphones at very high volume for hours can damage which structures?",
+      "explanation": "Very intense sound can permanently damage the cochlea's tiny hair cells.",
+      "hint": "The main damage affects inner-ear receptor cells.",
+      "lang": "en",
+      "options": [
+        "A tube directly linking the nose and mouth.",
+        "The jawbone supporting the outer ear.",
+        "Tiny receptor cells in the inner ear's cochlea."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:58:13.060Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:46:54.975Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f45070aacafe671982d2718d4d8daf2e454bf7c8c9b539d6bba544fc77bbc6b0",
+      "validation": "manual-review"
+    }
+  }
+}

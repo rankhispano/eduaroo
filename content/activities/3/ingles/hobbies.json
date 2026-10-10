@@ -9,7 +9,7 @@
   "keyIdeas": [
     "Los hobbies son actividades que hacemos en nuestro tiempo libre para divertirnos.",
     "Usamos verbos de acción como 'play', 'read', 'paint', 'swim' o 'ride' para hablar de aficiones.",
-    "Podemos decir lo que nos gusta con la estructura 'I like' seguida de la actividad."
+    "Podemos decir 'I like' seguido de una actividad en -ing: 'I like reading'. También se puede usar 'I like to read'."
   ],
   "lomloe": {
     "area": "lengua-extranjera",
@@ -110,7 +110,7 @@
       "id": "g3-ingles-hobbies-05",
       "type": "classify",
       "prompt": "Classify these hobbies into outdoor (al aire libre) or indoor (en casa):",
-      "explanation": "Patinar y jugar al fútbol son al aire libre (outdoor), mientras que leer en la cama o jugar a videojuegos son de interior (indoor).",
+      "explanation": "Clasificamos los lugares indicados: el parque y el patio son outdoor; la cama y el salón, indoor. Leer y jugar a videojuegos también pueden hacerse fuera.",
       "hint": "Piensa si necesitas salir a la calle o al parque para hacer esa actividad.",
       "lang": "en",
       "categories": [
@@ -127,7 +127,7 @@
           "category": 1
         },
         {
-          "text": "Playing video games",
+          "text": "Playing video games in the living room",
           "category": 1
         },
         {

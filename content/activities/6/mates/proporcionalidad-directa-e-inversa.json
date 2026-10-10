@@ -54,11 +54,11 @@
       ],
       "items": [
         {
-          "text": "Kilos de manzanas compradas y precio total pagado",
+          "text": "Kilos de manzanas y precio total, manteniendo fijo el precio por kilo",
           "category": 0
         },
         {
-          "text": "Velocidad constante de un tren y tiempo en llegar al destino",
+          "text": "Velocidad constante y tiempo para recorrer la misma distancia",
           "category": 1
         },
         {
@@ -66,11 +66,11 @@
           "category": 2
         },
         {
-          "text": "Número de pintores trabajando al mismo ritmo y horas para pintar un muro",
+          "text": "Pintores y horas para el mismo muro, con igual rendimiento y trabajo repartible",
           "category": 1
         },
         {
-          "text": "Número de libretas iguales y su coste total",
+          "text": "Número de libretas y coste, con el mismo precio por libreta",
           "category": 0
         },
         {
@@ -136,8 +136,8 @@
     {
       "id": "g6-mates-proporcionalidad-directa-e-inversa-06",
       "type": "choice",
-      "prompt": "¡Encuentra el error! Lucas resuelve este problema: '4 albañiles tardan 9 días en levantar una valla. ¿Cuánto tardarán 6 albañiles?'. Lucas escribe: 'Como 4 albañiles son 9 días, 6 albañiles harán más días: (6 × 9) ÷ 4 = 13,5 días'. ¿Dónde está su fallo?",
-      "explanation": "El error es de razonamiento: a más trabajadores, menos tiempo tardan. En proporcionalidad inversa el producto es constante: 4 × 9 = 36 días de trabajo total. Entre 6 albañiles tardarán 36 ÷ 6 = 6 días.",
+      "prompt": "¡Encuentra el error! Suponiendo igual rendimiento y trabajo repartible, Lucas resuelve este problema: '4 albañiles tardan 9 días en levantar una valla. ¿Cuánto tardarán 6 albañiles?'. Lucas escribe: 'Como 4 albañiles son 9 días, 6 albañiles harán más días: (6 × 9) ÷ 4 = 13,5 días'. ¿Dónde está su fallo?",
+      "explanation": "En este modelo, el trabajo total es 4 × 9 = 36 jornadas de una persona. Con 6 personas al mismo ritmo: 36 ÷ 6 = 6 días. En una obra real pueden intervenir otras condiciones.",
       "hint": "¿Tiene sentido que más personas tarden más tiempo en hacer el mismo trabajo?",
       "lang": "es",
       "options": [

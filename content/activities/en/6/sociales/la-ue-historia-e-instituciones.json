@@ -1,0 +1,260 @@
+{
+  "id": "g6-sociales-la-ue-historia-e-instituciones",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "la-ue-historia-e-instituciones",
+  "temaNombre": "The EU: history and institutions",
+  "title": "The European Union adventure",
+  "summary": "Explore the European Union's historical origins, main treaties and institutions.",
+  "keyIdeas": [
+    "European integration began after the Second World War to encourage peace and cooperation. The European Union was created in 1993.",
+    "Key institutions include the European Parliament, European Commission, Council of the EU and Court of Justice.",
+    "Spain joined the European Economic Community in 1986, helping its democratic and economic development."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE7",
+      "CE9"
+    ],
+    "criteria": [
+      "7.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CCL5",
+      "CE2",
+      "CPSAA1",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-01",
+      "type": "choice",
+      "prompt": "Lucía's school decorates its corridors with flags for Europe Day. On which date is it celebrated each year? 🇪🇺",
+      "explanation": "9 May marks the 1950 Schuman Declaration, a key step in European integration.",
+      "hint": "Think of Robert Schuman's historic declaration in spring 1950.",
+      "lang": "en",
+      "options": [
+        "9 May",
+        "6 December",
+        "12 October",
+        "1 January"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-02",
+      "type": "true-false",
+      "prompt": "European Union citizens directly elect members of the European Parliament every five years.",
+      "explanation": "True. The European Parliament is the EU institution whose members are directly elected by citizens of its member countries.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct year.",
+      "explanation": "Spain signed its accession treaty in 1985 and became a full member on 1 January 1986, together with Portugal.",
+      "hint": "It happened eight years after Spain approved its Constitution.",
+      "lang": "en",
+      "sentence": "Spain became an official member of the European Economic Community in ___.",
+      "options": [
+        "1986",
+        "2002",
+        "1978",
+        "1992"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-04",
+      "type": "match",
+      "prompt": "Match each EU institution to its main role.",
+      "explanation": "Different institutions balance shared interests, national governments and citizens' voices.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "European Parliament",
+          "right": "Represents citizens and approves laws and budgets with the Council of the EU"
+        },
+        {
+          "left": "European Commission",
+          "right": "Proposes new laws and checks that treaties are followed"
+        },
+        {
+          "left": "Court of Justice of the EU",
+          "right": "Ensures EU law is applied consistently across member countries"
+        },
+        {
+          "left": "European Council",
+          "right": "Brings together heads of state or government to set political priorities"
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-05",
+      "type": "order",
+      "prompt": "Put these milestones in European integration in chronological order, from earliest to latest.",
+      "explanation": "The ECSC treaty was signed in 1951 and the Treaty of Rome in 1957. Spain joined in 1986. Maastricht was signed in 1992 and entered into force in 1993, creating the EU. Euro notes and coins began circulating in 2002.",
+      "lang": "en",
+      "items": [
+        "Signing of the treaty creating the European Coal and Steel Community (ECSC)",
+        "Signing of the Treaty of Rome creating the EEC",
+        "Spain and Portugal join the European Community",
+        "The Maastricht Treaty and formal creation of the EU",
+        "Euro coins and banknotes enter circulation"
+      ]
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-06",
+      "type": "classify",
+      "prompt": "Classify these roles and features as belonging to the European Parliament or European Commission.",
+      "explanation": "The Parliament represents citizens through elections. The Commission acts as an executive body in the EU's shared interests.",
+      "lang": "en",
+      "categories": [
+        "European Parliament",
+        "European Commission"
+      ],
+      "items": [
+        {
+          "text": "Its members are directly elected by European citizens every five years",
+          "category": 0
+        },
+        {
+          "text": "Proposes most new EU laws",
+          "category": 1
+        },
+        {
+          "text": "Debates and votes on EU laws with the Council of the EU",
+          "category": 0
+        },
+        {
+          "text": "Manages and implements the EU budget day to day",
+          "category": 1
+        },
+        {
+          "text": "Holds other institutions politically accountable and approves the appointment of the Commission",
+          "category": 0
+        },
+        {
+          "text": "Acts as guardian of the treaties and represents the EU in trade negotiations",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-07",
+      "type": "choice",
+      "prompt": "After the Second World War ended in 1945, European countries were devastated. Why did participating countries decide to pool coal and steel production through the ECSC?",
+      "explanation": "Sharing these industries aimed to make another war harder and encourage cooperation.",
+      "hint": "Think about the materials needed for tanks, bridges and weapons.",
+      "lang": "en",
+      "options": [
+        "To make another war between them harder by sharing the basic industries used to make weapons",
+        "To find mineral deposits on other continents and create a worldwide private company",
+        "To force every European country to have identical education and healthcare laws",
+        "To replace all national currencies immediately with one currency"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-08",
+      "type": "choice",
+      "prompt": "Spain, France and Germany use the euro and belong to Schengen, where there are normally no routine checks at internal borders. Which two arrangements explain these features?",
+      "explanation": "The euro area shares a currency. Schengen makes travel between its countries easier, although temporary border checks are possible and travellers need appropriate documents.",
+      "hint": "Separate the currency arrangement from the border arrangement.",
+      "lang": "en",
+      "options": [
+        "The Treaty of Paris and the Common Fisheries Policy",
+        "The European Central Bank and the United Nations Charter",
+        "The euro area: shared currency, and the Schengen area: easier movement of people",
+        "The Schuman Declaration and funds from the European Court of Auditors"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-09",
+      "type": "reading",
+      "prompt": "Read about an important figure in European history and answer the questions.",
+      "explanation": "Simone Veil's life illustrates the democratic values and commitment to peace behind European integration.",
+      "lang": "en",
+      "title": "Simone Veil: building European peace",
+      "text": "After the devastation of the Second World War, European countries began working together for peaceful coexistence. A milestone came in 1979: the first direct elections to the European Parliament. The French lawyer Simone Veil was elected its president, becoming the first woman to lead the institution.\n\nAs a young person, she had survived Nazi concentration camps. She devoted her public work to reconciliation between peoples and the protection of human rights. As president, she supported the Parliament's role as citizens' direct democratic voice and encouraged discussion of solidarity and equality between women and men.\n\nHer life reminds us that European integration involved more than trade. It also represented a commitment to help prevent the horrors of war from returning to the continent.",
+      "questions": [
+        {
+          "prompt": "What historic role did Simone Veil take on in 1979?",
+          "explanation": "She was elected president of the European Parliament, the first woman to hold the position.",
+          "options": [
+            "She designed the EU's blue flag with twelve yellow stars and its anthem.",
+            "She wrote the Treaty of Rome on her own.",
+            "She became the first woman elected president of the European Parliament."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Following her experience as a war survivor, what did Simone Veil seek through European integration?",
+          "explanation": "Her past inspired her commitment to reconciliation, human rights and preventing war.",
+          "options": [
+            "Limit people's entry from other countries to avoid political arguments.",
+            "Put one European country in charge of all the others.",
+            "Reconciliation between European nations to prevent the horrors of war from happening again."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why does the text describe European integration as more than a trade agreement?",
+          "explanation": "It combines economic cooperation with freedom, social justice, peace and fundamental rights.",
+          "options": [
+            "It is based on values such as peace, equality and citizens' rights, as well as trade.",
+            "It bans trade between EU member countries.",
+            "Its only purpose was to organise European sporting competitions."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-la-ue-historia-e-instituciones-10",
+      "type": "choice",
+      "prompt": "The European Parliament and Council of the EU approve a directive to reduce single-use plastics. How does this affect your town or city in Spain?",
+      "explanation": "EU directives require member countries to incorporate their goals into national law. This can affect everyday life and sustainable habits.",
+      "hint": "EU rules bind member countries, including Spain.",
+      "lang": "en",
+      "options": [
+        "Spain must adapt its laws to restrict or replace these plastics, affecting local shops.",
+        "Only shops in Brussels and Strasbourg are affected because EU rules do not apply in Spain.",
+        "Nothing changes because EU laws are voluntary suggestions that towns may ignore.",
+        "The local council must invent a different currency to charge for plastic packaging."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:46:12.821Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:58:16.354Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "ba3dcfeeba48299f57d8302f5d277793455a8e68452b8af8aba13758cb4db3a7",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "id": "g2-sociales-antes-y-ahora",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "antes-y-ahora",
+  "temaNombre": "Then and now",
+  "title": "Time passes: then and now",
+  "summary": "Practise how everyday life, objects and people change over time.",
+  "keyIdeas": [
+    "People and things change as time passes.",
+    "Grandparents and older people can tell us about life in the past.",
+    "We care for old objects because they are part of our history."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE7"
+    ],
+    "criteria": [
+      "7.1",
+      "7.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CE2",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-antes-y-ahora-01",
+      "type": "choice",
+      "prompt": "In an old photo, Hugo sees his great-grandfather in a horse-drawn cart. Which transport was he using?",
+      "explanation": "In this photo, he is in a horse-drawn cart. Transport in the past varied by time and place.",
+      "hint": "Think of transport that does not use electricity.",
+      "lang": "en",
+      "options": [
+        "A horse-drawn cart",
+        "A high-speed train",
+        "An electric scooter"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-02",
+      "type": "true-false",
+      "prompt": "Before they had washing machines, many people washed clothes by hand.",
+      "explanation": "Many people washed clothes by hand at home or in shared washhouses. Not everyone washed them in a river.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-03",
+      "type": "match",
+      "prompt": "Match each object from the past to a modern object with a similar use.",
+      "explanation": "Modern inventions can make these tasks easier and quicker.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "A lit candle",
+          "right": "A light bulb"
+        },
+        {
+          "left": "An ink pen with a nib",
+          "right": "A modern ballpoint pen"
+        },
+        {
+          "left": "A paper letter",
+          "right": "A mobile phone message"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about time passing.",
+      "explanation": "As time passes, we grow and change from babies into adults.",
+      "lang": "en",
+      "sentence": "Over the years, babies grow into ___.",
+      "options": [
+        "adults",
+        "smaller people",
+        "ancient people"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-05",
+      "type": "classify",
+      "prompt": "Sort these methods by whether they need electricity.",
+      "explanation": "Wood fires and salting are traditional methods still used today. Electric fridges and microwaves need electricity.",
+      "lang": "en",
+      "categories": [
+        "Without electricity",
+        "With electricity"
+      ],
+      "items": [
+        {
+          "text": "Cook over a wood fire",
+          "category": 0
+        },
+        {
+          "text": "Keep food in an electric fridge",
+          "category": 1
+        },
+        {
+          "text": "Salt fish to preserve it",
+          "category": 0
+        },
+        {
+          "text": "Use a microwave",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-06",
+      "type": "order",
+      "prompt": "Put these life stages in order, starting at birth.",
+      "explanation": "We start as babies, then become children and adults, and can grow into older people.",
+      "lang": "en",
+      "items": [
+        "Baby",
+        "Childhood",
+        "Adult",
+        "Older person"
+      ]
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-07",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions.",
+      "explanation": "The text compares Rosa's school in the past with the same school today. Not all schools change in the same way.",
+      "lang": "en",
+      "title": "Grandma's school",
+      "text": "Aisha visits her grandmother Rosa's old school. Rosa says they had no computers. They wrote with chalk on small slates. There was no heating in winter. Now the school has digital screens, colourful books and plenty of light.",
+      "questions": [
+        {
+          "prompt": "What did Grandma Rosa write with at school?",
+          "explanation": "Rosa says they used chalk on small slates.",
+          "options": [
+            "Chalk on small slates",
+            "Laptop computers",
+            "Coloured felt-tip pens"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What important change does the school have now?",
+          "explanation": "This school now has digital screens and newer technology.",
+          "options": [
+            "It only uses stone slates",
+            "It has no heating",
+            "It has digital screens"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-08",
+      "type": "choice",
+      "prompt": "Letters once took days to arrive. Why can we now send messages almost instantly?",
+      "explanation": "Phones and the internet can send messages in seconds.",
+      "hint": "Think about the technology we use at home today.",
+      "lang": "en",
+      "options": [
+        "Letters travel in horse-drawn carts",
+        "Carrier pigeons fly faster",
+        "We use mobile phones and the internet"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-antes-y-ahora-09",
+      "type": "choice",
+      "prompt": "Lucía's village wants to restore an old fountain. Why is it important to care for it?",
+      "explanation": "Old monuments are part of our history. Protecting them helps us learn about the past.",
+      "hint": "Objects from the past hold memories of our village.",
+      "lang": "en",
+      "options": [
+        "Old objects have no use at all",
+        "It teaches us how people lived in the past",
+        "Old things must always be replaced"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:29:29.403Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:41:26.728Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "60a874defa3d90e400ec2212f02b365bfc20333afe20193512ceb400d15386c9",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "id": "g5-naturales-la-atmosfera",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "la-atmosfera",
+  "temaNombre": "The atmosphere",
+  "title": "The atmosphere: our protective layer",
+  "summary": "Explore air's composition, atmospheric layers and weather.",
+  "keyIdeas": [
+    "Air is mainly nitrogen, about 78%, and oxygen, about 21%, with other gases and varying amounts of water vapour.",
+    "The main layers are the troposphere, stratosphere, mesosphere, thermosphere and exosphere. Weather occurs in the troposphere.",
+    "Air has mass, occupies space and exerts pressure on Earth's surface."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1",
+      "5.3"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › Materia, fuerzas y energía"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-la-atmosfera-01",
+      "type": "true-false",
+      "prompt": "Oxygen is the most abundant gas in Earth's atmosphere.",
+      "explanation": "Nitrogen is the most abundant, making up about 78% of air. Oxygen accounts for about 21%.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-02",
+      "type": "choice",
+      "prompt": "Lucía and Wei watch clouds form and rain begin at break time. In which atmospheric layer does this weather occur? 🌧️",
+      "explanation": "The troposphere is closest to Earth's surface and contains most atmospheric water vapour. Clouds, rain and winds occur there.",
+      "hint": "It is the layer next to Earth's surface.",
+      "lang": "en",
+      "options": [
+        "The troposphere",
+        "The stratosphere",
+        "The thermosphere"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-03",
+      "type": "match",
+      "prompt": "Match each atmospheric layer to its feature.",
+      "explanation": "We live and experience weather in the troposphere. Stratospheric ozone protects us from ultraviolet radiation, and solar particles interact with gases in the thermosphere.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Troposphere",
+          "right": "The layer where we live and clouds and rain form"
+        },
+        {
+          "left": "Stratosphere",
+          "right": "Contains the ozone layer that filters ultraviolet rays"
+        },
+        {
+          "left": "Thermosphere",
+          "right": "A very high-temperature layer where some satellites orbit and auroras occur"
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-04",
+      "type": "order",
+      "prompt": "Order the atmospheric layers from Earth's surface towards space.",
+      "explanation": "From the ground upwards: troposphere, stratosphere, mesosphere, thermosphere and exosphere.",
+      "lang": "en",
+      "items": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere",
+        "Exosphere"
+      ]
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-05",
+      "type": "choice",
+      "prompt": "A teacher weighs a closed, rigid container: 80 g. She pumps in more air, closes it and weighs it again: 82 g. Its volume stays the same. What do the results show?",
+      "explanation": "Adding air increases its measured mass. Air is matter: it has mass and occupies space.",
+      "hint": "Compare the two measurements of the same container.",
+      "lang": "en",
+      "options": [
+        "Air has no mass.",
+        "The added air has mass.",
+        "Air has turned into water."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-06",
+      "type": "classify",
+      "prompt": "Classify these weather instruments by what they measure.",
+      "explanation": "Thermometers measure temperature; hygrometers measure humidity. Barometers measure pressure, wind vanes measure wind direction, and anemometers measure wind speed.",
+      "lang": "en",
+      "categories": [
+        "Temperature and humidity",
+        "Wind and atmospheric pressure"
+      ],
+      "items": [
+        {
+          "text": "Thermometer",
+          "category": 0
+        },
+        {
+          "text": "Hygrometer",
+          "category": 0
+        },
+        {
+          "text": "Barometer",
+          "category": 1
+        },
+        {
+          "text": "Anemometer",
+          "category": 1
+        },
+        {
+          "text": "Wind vane",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-07",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct option.",
+      "explanation": "Ozone absorbs harmful ultraviolet radiation from the Sun, helping protect living things from sunburn and skin disease.",
+      "lang": "en",
+      "sentence": "The stratosphere's ozone layer acts as a natural shield by absorbing most harmful ___ rays from the Sun.",
+      "options": [
+        "ultraviolet",
+        "infrared",
+        "visible light"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-08",
+      "type": "choice",
+      "prompt": "Adrián says, 'The greenhouse effect is completely harmful, invented by people, and should disappear.' What is wrong with his statement?",
+      "explanation": "Without the natural greenhouse effect, Earth's average temperature would be about −18°C. It helps make life as we know it possible. Human activities such as burning fossil fuels strengthen it too much.",
+      "hint": "Think about Earth's heat if no atmospheric gases retained it.",
+      "lang": "en",
+      "options": [
+        "The greenhouse effect affects only oceans, not air or planetary temperature.",
+        "The natural greenhouse effect is essential for life; its human-caused increase is the current danger.",
+        "The natural greenhouse effect cools Earth to stop polar ice melting in summer."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-09",
+      "type": "choice",
+      "prompt": "Martina's city has a pollution alert after several days of settled weather with no rain or wind. Which everyday action directly reduces emissions?",
+      "explanation": "Walking, cycling and shared or public transport can reduce pollution from motor-vehicle exhausts.",
+      "hint": "Choose the action that reduces the source of city pollution.",
+      "lang": "en",
+      "options": [
+        "Water pavements at night so the water absorbs gases.",
+        "Walk, cycle or use public transport instead of private fossil-fuel vehicles.",
+        "Open windows at midday to ventilate the street with indoor air."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-atmosfera-10",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions.",
+      "explanation": "In the troposphere, temperature generally falls and atmospheric pressure decreases as altitude rises, changing conditions for living things.",
+      "lang": "en",
+      "title": "Climbing towards the summit",
+      "text": "Nerea and her family went hiking in Sierra Nevada. They started at a village 1.200 metres above sea level, where the air felt mild and walking was comfortable. After four hours of climbing, they reached a mountain pass at almost 3.000 metres, still in the troposphere.\n\nThe temperature was much lower. Keeping the same pace, Nerea tired sooner and breathed faster. Her father explained that at greater altitude there is less air above us, so atmospheric pressure falls. Gas molecules are farther apart, meaning each breath provides less oxygen. The body has to work harder to obtain the oxygen its muscles need.",
+      "questions": [
+        {
+          "prompt": "What happens to atmospheric pressure as we climb higher?",
+          "explanation": "There is less air above us, so it exerts less pressure.",
+          "options": [
+            "It rises because cold summit air becomes compressed.",
+            "It falls because there is less air above us.",
+            "It stays constant because the atmosphere's weight never changes."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why does Nerea tire and breathe faster at 3.000 metres?",
+          "explanation": "Lower pressure means less oxygen in each litre of air breathed in.",
+          "options": [
+            "Summit winds prevent air entering her nose.",
+            "There is no oxygen at that altitude.",
+            "Lower pressure spreads gas molecules out, so each breath provides less oxygen."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why is checking the weather forecast essential before a mountain walk?",
+          "explanation": "Mountain weather can change quickly, and cold, storms or fog can become dangerous.",
+          "options": [
+            "To find out whether gravity will decrease at the summit.",
+            "Temperature, wind and other weather conditions can quickly become difficult or dangerous.",
+            "The ozone layer suddenly disappears above 2.000 metres."
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:09:15.535Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:00:28.288Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "4b1836ce21eb3efcec3070921a559283d5f5b579e0f66cee0d8d109c0290ae8f",
+      "validation": "manual-review"
+    }
+  }
+}

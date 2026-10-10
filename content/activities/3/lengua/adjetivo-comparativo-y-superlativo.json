@@ -176,21 +176,20 @@
     {
       "id": "g3-lengua-adjetivo-comparativo-y-superlativo-08",
       "type": "order",
-      "prompt": "Ordena estas oraciones de menor a mayor intensidad de la cualidad 'limpio'.",
-      "explanation": "El orden de menor a mayor intensidad es: inferioridad (menos... que), igualdad (tan... como), superioridad (más... que) y superlativo (-ísimo).",
+      "prompt": "Ordena solo las comparaciones de limpieza de hoy respecto al mismo patio de ayer, de menor a mayor.",
+      "explanation": "Con la misma referencia, «menos limpio» queda por debajo, «tan limpio» indica igualdad y «más limpio» queda por encima.",
       "lang": "es",
       "items": [
         "El patio está menos limpio que ayer.",
         "El patio está tan limpio como ayer.",
-        "El patio está más limpio que ayer.",
-        "El patio está limpísimo."
+        "El patio está más limpio que ayer."
       ]
     },
     {
       "id": "g3-lengua-adjetivo-comparativo-y-superlativo-09",
       "type": "fill-blank",
       "prompt": "Completa la oración con el superlativo adecuado.",
-      "explanation": "Para expresar la cualidad en su grado máximo usamos el superlativo 'simpatiquísimo'. Las otras opciones son comparativos.",
+      "explanation": "«Simpatiquísimo» intensifica la cualidad con el sufijo «-ísimo». «Tan simpático» y «más simpático» sirven para construir comparaciones.",
       "lang": "es",
       "sentence": "Hugo ayudó a ordenar la biblioteca porque es un compañero ___.",
       "options": [

@@ -1,17 +1,17 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import ActivityPlayer from '@/components/activities/ActivityPlayer';
-import { ACTIVITY_LOADERS, ACTIVITY_SETS } from '@/content/activities/registry';
+import { getActivityLoaders, getActivitySets } from '@/content/activities/registry';
 import { getCriterion } from '@/lib/curriculum/lomloe';
-import { getAsignatura, getCurso } from '@/src/data/curriculum';
+import { getAsignatura, getCurso } from '@/src/data/localizedCurriculum';
 
 type Params = Promise<{ locale: string; curso: string; asignatura: string; tema: string }>;
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
-    const { curso, asignatura, tema } = await params;
-    const summary = ACTIVITY_SETS.find((s) => s.key === `${curso}/${asignatura}/${tema}`);
-    const cursoData = getCurso(curso);
-    const asignaturaData = getAsignatura(curso, asignatura);
+    const { locale, curso, asignatura, tema } = await params;
+    const summary = getActivitySets(locale).find((s) => s.key === `${curso}/${asignatura}/${tema}`);
+    const cursoData = getCurso(curso, locale);
+    const asignaturaData = getAsignatura(curso, asignatura, locale);
     if (!summary || !cursoData || !asignaturaData) return {};
 
     return {
@@ -21,10 +21,10 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 }
 
 export default async function Page({ params }: { params: Params }) {
-    const { curso, asignatura, tema } = await params;
-    const loader = ACTIVITY_LOADERS[`${curso}/${asignatura}/${tema}`];
-    const cursoData = getCurso(curso);
-    const asignaturaData = getAsignatura(curso, asignatura);
+    const { locale, curso, asignatura, tema } = await params;
+    const loader = getActivityLoaders(locale)[`${curso}/${asignatura}/${tema}`];
+    const cursoData = getCurso(curso, locale);
+    const asignaturaData = getAsignatura(curso, asignatura, locale);
 
     if (!loader || !cursoData || !asignaturaData) {
         notFound();
@@ -38,6 +38,7 @@ export default async function Page({ params }: { params: Params }) {
 
     return (
         <ActivityPlayer
+            key={`${locale}/${set.id}`}
             set={set}
             color={asignaturaData.color}
             subjectName={asignaturaData.nombre}

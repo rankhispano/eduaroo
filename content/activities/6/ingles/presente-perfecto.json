@@ -4,12 +4,12 @@
   "asignaturaId": "ingles",
   "temaId": "presente-perfecto",
   "temaNombre": "Presente perfecto",
-  "title": "Adventures in Present Perfect",
-  "summary": "Practica el presente perfecto en inglés para hablar de experiencias y acciones recientes de la vida diaria.",
+  "title": "Presente perfecto: práctica guiada",
+  "summary": "Con ejemplos y ayuda, practica frases sobre experiencias y acciones conectadas con el presente.",
   "keyIdeas": [
-    "Usamos 'have' o 'has' con el participio del verbo para hablar de experiencias pasadas conectadas con el presente.",
-    "Usamos 'has' con he, she e it, y 'have' con I, you, we y they.",
-    "Palabras como 'ever', 'never', 'already' y 'yet' nos ayudan a situar la acción en el tiempo."
+    "Modelo: «I have visited London» / «She has visited London». Usamos have/has y un participio.",
+    "Usamos has con he/she/it, y have con I/you/we/they. Consulta el modelo antes de elegir.",
+    "Ever pregunta por experiencias; never expresa nunca; already significa ya y yet, todavía en estos ejemplos."
   ],
   "lomloe": {
     "area": "lengua-extranjera",
@@ -91,7 +91,7 @@
       "id": "g6-ingles-presente-perfecto-03",
       "type": "true-false",
       "prompt": "In the sentence 'We have already finished our science project', the action is completely finished.",
-      "explanation": "Usamos 'already' para indicar que una acción ya se ha completado antes de lo esperado.",
+      "explanation": "«We have already finished» significa que ya hemos terminado. En esta frase el verbo «finished» indica una acción completada; «already» no exige siempre que haya ocurrido antes de lo esperado.",
       "lang": "en",
       "answer": true
     },

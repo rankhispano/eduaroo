@@ -1,0 +1,239 @@
+{
+  "id": "g3-mates-division-exacta-e-inexacta",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "division-exacta-e-inexacta",
+  "temaNombre": "Division with and without a remainder",
+  "title": "Sharing: is anything left over?",
+  "summary": "Practise sharing equally to find whether divisions have a remainder.",
+  "keyIdeas": [
+    "An exact division has nothing left over: the remainder is 0.",
+    "A whole-number division with a remainder has something left over: the remainder is greater than 0.",
+    "When dividing by a positive whole number, the remainder must be less than the divisor."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-01",
+      "type": "true-false",
+      "prompt": "In an exact division, the remainder is always 0.",
+      "explanation": "An exact division shares everything equally with nothing left over, so the remainder is 0.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-02",
+      "type": "match",
+      "prompt": "Match each division term to its meaning in equal sharing.",
+      "explanation": "Divide the dividend by the divisor. The quotient is the amount in each group and the remainder is what is left over.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Dividend",
+          "right": "Total amount to share"
+        },
+        {
+          "left": "Divisor",
+          "right": "Number of equal groups to share between"
+        },
+        {
+          "left": "Quotient",
+          "right": "Amount in each group"
+        },
+        {
+          "left": "Remainder",
+          "right": "Amount left over at the end"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-03",
+      "type": "classify",
+      "prompt": "Sort these whole-number divisions by whether anything is left over.",
+      "explanation": "24 ÷ 6 = 4, 35 ÷ 5 = 7 and 18 ÷ 3 = 6 have no remainder. The other divisions leave something over.",
+      "lang": "en",
+      "categories": [
+        "No remainder (exact)",
+        "With a remainder"
+      ],
+      "items": [
+        {
+          "text": "24 ÷ 6",
+          "category": 0
+        },
+        {
+          "text": "15 ÷ 2",
+          "category": 1
+        },
+        {
+          "text": "35 ÷ 5",
+          "category": 0
+        },
+        {
+          "text": "22 ÷ 4",
+          "category": 1
+        },
+        {
+          "text": "18 ÷ 3",
+          "category": 0
+        },
+        {
+          "text": "31 ÷ 5",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-04",
+      "type": "choice",
+      "prompt": "Aisha shares 27 felt-tip pens equally among 4 pots, putting as many as possible in each pot. How many does she put in each?",
+      "explanation": "27 ÷ 4 gives 6 in each pot because 4 × 6 = 24. There are 27 - 24 = 3 pens left over.",
+      "hint": "Find the multiple of 4 closest to 27 without going over.",
+      "lang": "en",
+      "options": [
+        "5 pens, with 7 left over",
+        "6 pens, with none left over",
+        "7 pens, with 1 left over",
+        "6 pens, with 3 left over"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-05",
+      "type": "fill-blank",
+      "prompt": "Complete the key rule for whole-number division.",
+      "explanation": "The remainder must be less than the divisor. If it were equal or greater, we could share out more.",
+      "lang": "en",
+      "sentence": "The remainder in a correctly completed division must be ___ than the positive divisor.",
+      "options": [
+        "less",
+        "greater",
+        "equal"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-06",
+      "type": "choice",
+      "prompt": "Hugo calculates 29 ÷ 5 and says, '4 each, with 9 left over'. What mistake does he make?",
+      "explanation": "The remainder cannot be greater than the divisor. Hugo should use 5 each: 5 × 5 = 25, with 4 left over.",
+      "hint": "Compare the remainder with the divisor.",
+      "lang": "en",
+      "options": [
+        "The remainder is 9, greater than 5: he can share out more.",
+        "The division is correct.",
+        "He multiplies incorrectly: 5 × 4 is not 20."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-07",
+      "type": "order",
+      "prompt": "Put the steps in order to check a division with a remainder.",
+      "explanation": "Check: dividend = (divisor × quotient) + remainder.",
+      "lang": "en",
+      "items": [
+        "Multiply the divisor by the quotient.",
+        "Add the remainder to that result.",
+        "Check that the final total equals the dividend."
+      ]
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-08",
+      "type": "choice",
+      "prompt": "Omar has 33 trading cards and envelopes holding 5 cards each. After filling as many envelopes as possible, how many more cards does he need to fill another envelope?",
+      "explanation": "33 ÷ 5 gives 6 full envelopes and 3 cards left over. Another full envelope needs 5 cards, so he needs 5 - 3 = 2 more.",
+      "hint": "Find how many cards are left over and how many fill an envelope.",
+      "lang": "en",
+      "options": [
+        "5 cards",
+        "3 cards",
+        "2 cards"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-09",
+      "type": "choice",
+      "prompt": "A trip has 38 pupils. Each minibus has 8 pupil seats, as well as seats for the adults. How many minibuses are needed?",
+      "explanation": "38 ÷ 8 gives 4 full minibuses (32 pupils), with 6 pupils left. They need one more minibus: 4 + 1 = 5.",
+      "hint": "Remember the 6 pupils left over: they need seats too.",
+      "lang": "en",
+      "options": [
+        "6 minibuses, because 6 seats are left over",
+        "4 minibuses, because 38 ÷ 8 gives 4",
+        "5 minibuses, so everyone has a seat"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-division-exacta-e-inexacta-10",
+      "type": "match",
+      "prompt": "Calculate mentally and match each division to its remainder.",
+      "explanation": "4 × 6 = 24 (1 left over); 5 × 7 = 35 (3 left over); 6 × 7 = 42 (0 left over); 7 × 3 = 21 (2 left over).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "25 ÷ 4",
+          "right": "Remainder 1"
+        },
+        {
+          "left": "38 ÷ 5",
+          "right": "Remainder 3"
+        },
+        {
+          "left": "42 ÷ 6",
+          "right": "Remainder 0"
+        },
+        {
+          "left": "23 ÷ 7",
+          "right": "Remainder 2"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:07:35.925Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:45:41.456Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "c4f49f74f4f589bd8a771268a555b67e9b8203e6a0a920aacacc3b382674bbf7",
+      "validation": "manual-review"
+    }
+  }
+}

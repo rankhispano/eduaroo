@@ -1,0 +1,258 @@
+{
+  "id": "g6-naturales-electricidad-y-magnetismo",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "electricidad-y-magnetismo",
+  "temaNombre": "Electricity and magnetism",
+  "title": "Exploring electricity and magnetism",
+  "summary": "Review electric charges, circuits, magnets and their connection through electromagnetism.",
+  "keyIdeas": [
+    "Electric charges with the same sign repel each other. Charges with opposite signs attract each other.",
+    "An electric circuit needs a power source, conductors and electrical devices connected in a closed path for current to flow.",
+    "Electric current creates a magnetic field. A changing magnetic field can generate current in a circuit."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.3",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-01",
+      "type": "classify",
+      "prompt": "Sort these materials by whether they allow electric current to flow or prevent it.",
+      "explanation": "Metals usually conduct current well. Plastic, rubber and dry wood make it difficult for current to flow in a low-voltage school circuit.",
+      "lang": "en",
+      "categories": [
+        "Conductors",
+        "Insulators"
+      ],
+      "items": [
+        {
+          "text": "Copper wire",
+          "category": 0
+        },
+        {
+          "text": "Iron paper clip",
+          "category": 0
+        },
+        {
+          "text": "Plastic strip",
+          "category": 1
+        },
+        {
+          "text": "Rubber eraser",
+          "category": 1
+        },
+        {
+          "text": "Aluminium coin",
+          "category": 0
+        },
+        {
+          "text": "Dry wood from a pencil",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-02",
+      "type": "true-false",
+      "prompt": "If you rub a latex balloon against a wool jumper, both objects stay neutral because the charges are destroyed.",
+      "explanation": "Electric charges are not destroyed. Friction transfers electrons from one material to the other, leaving one object negatively charged and the other positively charged.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-03",
+      "type": "match",
+      "prompt": "Match each part of a school electric circuit to its function.",
+      "explanation": "Each part has a role. The power source supplies energy, wires carry it, the electrical device uses it and the switch controls the flow.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Flat rectangular battery",
+          "right": "Supplies electrical energy to make charges move."
+        },
+        {
+          "left": "Switch",
+          "right": "Opens or closes the path for electric current."
+        },
+        {
+          "left": "Small light bulb",
+          "right": "Changes electrical energy into light and heat."
+        },
+        {
+          "left": "Copper wires",
+          "right": "Carry electrons from one part of the circuit to another."
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about magnetic forces between magnets.",
+      "explanation": "Like magnetic poles, north with north or south with south, repel each other. Opposite poles attract each other.",
+      "hint": "Remember the rule for two magnetic poles of the same type.",
+      "lang": "en",
+      "sentence": "When we bring the north poles of two different magnets together, they strongly ___ each other.",
+      "options": [
+        "repel",
+        "attract",
+        "switch off"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-05",
+      "type": "order",
+      "prompt": "The teacher prepares a school battery, an iron core and insulated wire with its ends ready. Order this brief electromagnet demonstration.",
+      "explanation": "The coil creates a magnetic field while current flows. The connection must be brief and supervised to prevent the wire and battery from heating up.",
+      "lang": "en",
+      "items": [
+        "Check the prepared materials with the teacher",
+        "Wind the insulated wire around the iron core",
+        "The teacher connects the battery for a few seconds and checks whether it attracts paper clips",
+        "Disconnect the battery when the test ends"
+      ]
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-06",
+      "type": "choice",
+      "prompt": "Scientific reasoning 🔬: Nerea makes a closed circuit with a battery and two bulbs, one after the other (in series). Both light up. She then unscrews one bulb. Which prediction is correct, and why?",
+      "explanation": "A series circuit has only one path for current. Unscrewing a bulb opens the circuit, so current can no longer flow.",
+      "hint": "Think about how many paths current has in a series circuit.",
+      "lang": "en",
+      "options": [
+        "The other bulb will shine twice as brightly because it now receives all the battery’s energy.",
+        "The other bulb will go out immediately because the circuit is open and current cannot flow.",
+        "The other bulb will shine exactly as before because the battery is still connected."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-07",
+      "type": "choice",
+      "prompt": "Find the mistake 🔎: Four pupils explain compasses and Earth’s magnetism. Who makes a scientific mistake?",
+      "explanation": "Omar’s statement is an old myth. Earth’s magnetism does not come from a mountain on its surface. It comes from the movement of molten iron and nickel inside its core.",
+      "hint": "Look for a statement that confuses an old legend with the real source of the magnetic field.",
+      "lang": "en",
+      "options": [
+        "Omar: “Earth’s magnetic north pole attracts compasses because a huge iron mountain at the geographic North Pole attracts all kinds of metal.”",
+        "Lucía: “The north end of a compass needle points towards Earth’s magnetic north because it is attracted by a pole of the opposite magnetic type.”",
+        "Martina: “A compass’s magnetised needle lines up with our planet’s magnetic field.”",
+        "Adrián: “Earth acts like a giant magnet because of metal movements in its core.”"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-08",
+      "type": "reading",
+      "prompt": "Read the text about the discovery of electromagnetism and answer the questions.",
+      "explanation": "Oersted’s discovery in 1820 showed the connection between electricity and magnetism, known as electromagnetism.",
+      "lang": "en",
+      "title": "Oersted’s spark",
+      "text": "In spring 1820, Danish physicist Hans Christian Oersted was preparing a lesson at the University of Copenhagen. A compass lay on his desk near wires used to demonstrate electric current. When he closed the circuit by connecting the battery, he was surprised to see the magnetic needle turn sharply, pointing at right angles to the wire.\n\nElectricity and magnetism had generally been treated as separate phenomena. Curious about what happened, Oersted repeated the test, reversing the current. The needle then turned in the opposite direction.\n\nThis unexpected observation showed that moving electric charges create a magnetic field around them. The discovery opened the way to electric motors, generators and modern telecommunications, transforming everyday life.",
+      "questions": [
+        {
+          "prompt": "What exactly did Oersted observe when current flowed through the wire?",
+          "explanation": "The text says that closing the circuit made the magnetic needle turn sharply until it was at right angles to the wire.",
+          "options": [
+            "The compass needle moved until it was at right angles to the wire.",
+            "The battery became so hot that it switched off the compass.",
+            "The copper wire attracted small pieces of paper like a rubbed balloon."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What important scientific conclusion follows from the experiment?",
+          "explanation": "The experiment showed that electric current creates a magnetic field, connecting two areas previously considered separate.",
+          "options": [
+            "Compasses only work when connected directly to an electric battery.",
+            "Electricity and magnetism are connected phenomena.",
+            "Natural magnets lose their strength near metals such as copper."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why did Oersted’s discovery have such an important effect on later society?",
+          "explanation": "Understanding the link between current and magnetism made electric motors, dynamos and technologies used in today’s electricity network possible.",
+          "options": [
+            "It provided a scientific basis for designing electric motors and generators.",
+            "It showed that using metal wires in universities was dangerous.",
+            "It made wooden compasses for river navigation possible."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-09",
+      "type": "choice",
+      "prompt": "Practical problem 💡: Wei is building a model lighthouse for a school project. Its light uses a 4,5 V battery and a homemade switch. If the bulb does not light up, what should he check first?",
+      "explanation": "For an electrical device to work, the circuit must be fully closed with good metal contacts. A poor connection or loose wire prevents electrons from flowing.",
+      "hint": "Remember what a circuit needs for current to flow.",
+      "lang": "en",
+      "options": [
+        "Paint the plastic-covered wires to make more current flow.",
+        "Check for an open part of the circuit or poor contact between the wire ends and the battery.",
+        "Replace the bulb with a candle because batteries cannot power model lighthouses."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-naturales-electricidad-y-magnetismo-10",
+      "type": "choice",
+      "prompt": "Experimental challenge ⚡: Imagine rubbing a plastic ruler firmly with a wool cloth, then bringing it near a very thin stream of tap water without touching it. Which reasoned prediction explains what will happen?",
+      "explanation": "The electrically charged ruler attracts water molecules, which have a positive side and a negative side. The thin stream bends towards the ruler without direct contact.",
+      "hint": "Think about attraction between electric charges at a short distance.",
+      "lang": "en",
+      "options": [
+        "The water will freeze immediately because electric charges cool it down.",
+        "The water will not change at all because tap water cannot be affected by any force.",
+        "The water will bend towards the ruler because the ruler’s charges attract the polar water molecules."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:27:01.790Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:44:20.954Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f043117ffaab5318fac54fbef551edea29fce4ab8e681cfee0d6c8d89a4e03d2",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "id": "g5-sociales-sector-terciario",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "sector-terciario",
+  "temaNombre": "The tertiary sector",
+  "title": "The tertiary sector: services",
+  "summary": "Explore services, trade, transport and sustainable tourism in Spain.",
+  "keyIdeas": [
+    "The tertiary sector mainly provides services to people and businesses rather than manufacturing physical goods.",
+    "Trade can be domestic, including wholesale and retail, or international, involving exports and imports.",
+    "Taxes fund public services that help provide basic rights such as healthcare and education."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-sector-terciario-01",
+      "type": "true-false",
+      "prompt": "The tertiary sector transforms raw materials into finished products in factories.",
+      "explanation": "Manufacturing belongs to the secondary sector. The tertiary sector provides services such as transport, education and trade.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-sociales-sector-terciario-02",
+      "type": "classify",
+      "prompt": "Classify these examples by public or private ownership.",
+      "explanation": "Public services are supported by public funding, including taxes. Private services belong to individuals or businesses and generally charge customers.",
+      "lang": "en",
+      "categories": [
+        "Public service",
+        "Private service"
+      ],
+      "items": [
+        {
+          "text": "A public hospital run by the autonomous community's health service",
+          "category": 0
+        },
+        {
+          "text": "A private dance school",
+          "category": 1
+        },
+        {
+          "text": "A state school in your municipality",
+          "category": 0
+        },
+        {
+          "text": "A neighbourhood hairdresser",
+          "category": 1
+        },
+        {
+          "text": "The municipal fire service",
+          "category": 0
+        },
+        {
+          "text": "A clothes shop in a shopping centre",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-sector-terciario-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct trade term.",
+      "explanation": "Exporting means selling a country's goods or services abroad. Importing means buying them from other countries.",
+      "hint": "Is the product leaving the country or entering it?",
+      "lang": "en",
+      "sentence": "When an olive-oil cooperative in Jaén sells thousands of bottles to German shops, it is making an ___.",
+      "options": [
+        "official subsidy",
+        "export",
+        "import"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-sector-terciario-04",
+      "type": "match",
+      "prompt": "Match each transport type to a representative example.",
+      "explanation": "Transport uses land routes, waterways or air routes.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Land transport",
+          "right": "Local trains and delivery vans"
+        },
+        {
+          "left": "Sea transport",
+          "right": "Large cargo ships and ferries"
+        },
+        {
+          "left": "Air transport",
+          "right": "Passenger aircraft for long distances"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-sector-terciario-05",
+      "type": "order",
+      "prompt": "Order the journey of oranges from a field to a consumer's home.",
+      "explanation": "Distribution links primary-sector harvesting with transport, wholesale and retail services.",
+      "lang": "en",
+      "items": [
+        "Primary-sector workers harvest oranges in the fields.",
+        "Lorries take the fruit to a large wholesale distribution centre.",
+        "Oranges are distributed and sold to a neighbourhood fruit shop.",
+        "A family buys a kilogram to eat at home."
+      ]
+    },
+    {
+      "id": "g5-sociales-sector-terciario-06",
+      "type": "choice",
+      "prompt": "A mountain village attracts many visitors. Private cars cause traffic and noise that disturbs wildlife. Which service supports sustainable tourism?",
+      "explanation": "Sustainable tourism combines local economic activity with environmental care, including cleaner shared transport.",
+      "hint": "Combine visitors' access with protecting nature.",
+      "lang": "en",
+      "options": [
+        "Ban everyone from entering and close all local accommodation.",
+        "Clear forest to build a large multi-storey car park.",
+        "Provide electric shuttle buses and limit cars entering the protected area."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-sector-terciario-07",
+      "type": "classify",
+      "prompt": "Classify each tourist activity by its main type.",
+      "explanation": "Cultural tourism focuses on heritage and art, beach tourism on the coast, and rural or nature tourism on the countryside and natural areas.",
+      "lang": "en",
+      "categories": [
+        "Cultural tourism",
+        "Sun-and-beach tourism",
+        "Rural or nature tourism"
+      ],
+      "items": [
+        {
+          "text": "Visit Córdoba's Mosque–Cathedral and the Prado Museum",
+          "category": 0
+        },
+        {
+          "text": "Relax and swim in Menorca's coves",
+          "category": 1
+        },
+        {
+          "text": "Walk through Ordesa National Park",
+          "category": 2
+        },
+        {
+          "text": "Attend the classical theatre festival in Mérida's Roman theatre",
+          "category": 0
+        },
+        {
+          "text": "Stay in a rural house near Doñana and watch birds",
+          "category": 2
+        },
+        {
+          "text": "Sunbathe and enjoy water sports on the Costa del Sol",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-sector-terciario-08",
+      "type": "choice",
+      "prompt": "Hugo's city wants to reduce daily transport emissions. Which option best supports sustainable travel for residents?",
+      "explanation": "Low-emission public transport and active travel can reduce air pollution and noise.",
+      "lang": "en",
+      "options": [
+        "Increase short flights between cities already linked by rail.",
+        "Remove bus stops so private cars move faster.",
+        "Encourage electric public transport and a connected network of cycle lanes."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-sector-terciario-09",
+      "type": "reading",
+      "prompt": "Read about services in society and answer the questions.",
+      "explanation": "Services are important to Spain's economy and need socially and environmentally responsible management.",
+      "lang": "en",
+      "title": "Services in Spain",
+      "text": "Most employed people in Spain work in the tertiary sector. Trade and tourism are important, supported by historic heritage, natural landscapes and favourable weather. Public healthcare and education, funded through taxes, also support wellbeing and equal opportunities.\n\nGrowth brings challenges. Large seasonal crowds of tourists can increase water demand, produce waste and make housing more expensive for local residents. A more responsible model encourages respectful tourism, neighbourhood shops and cleaner transport networks while protecting the environment.",
+      "questions": [
+        {
+          "prompt": "What does the text say about tertiary-sector employment in Spain?",
+          "explanation": "It states that the services sector employs most working people.",
+          "options": [
+            "Exactly half of working people.",
+            "It employs most working people.",
+            "Fewer than one quarter of workers."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why do public healthcare and education support equal opportunities?",
+          "explanation": "Shared tax funding helps make healthcare and education available regardless of people's income.",
+          "options": [
+            "They are private companies competing for customers.",
+            "Society funds them through taxes to serve the population.",
+            "Only people who buy an entrance ticket can use them."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which effect of mass tourism supports the need for a more sustainable model?",
+          "explanation": "Large crowds can strain water supplies, create waste and affect residents' housing.",
+          "options": [
+            "Every museum and monument closes permanently.",
+            "Large cities have no modern transport.",
+            "Increased pressure on water use and large amounts of waste."
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:34:24.096Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:13:44.906Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "0d920d51efcbdc9d0db8a76d5cf8ae7fb32c36fe0f542f8e50391e3619e9b9b3",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "el-texto-argumentativo-tesis-y-argumentos",
+  "temaNombre": "Argumentative Texts: Claims and Reasons",
+  "title": "Build a Clear Argument",
+  "summary": "Learn to defend opinions by identifying the main claim, giving sound reasons and organising your ideas.",
+  "keyIdeas": [
+    "The thesis, or main claim, is the position or opinion the writer defends.",
+    "Arguments are reasons, evidence or examples used to support the claim. Their sources and relevance need checking.",
+    "A common structure is an introduction with the claim, a main body of arguments and a conclusion."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE10"
+    ],
+    "criteria": [
+      "4.1",
+      "4.2",
+      "10.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD3",
+      "CP2",
+      "CP3",
+      "CPSAA3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-01",
+      "type": "true-false",
+      "prompt": "In an argumentative text, the thesis is the main opinion or position the writer defends.",
+      "explanation": "True. The thesis is the central claim the writer supports with arguments.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-02",
+      "type": "match",
+      "prompt": "Match each part of an argumentative text to its purpose.",
+      "explanation": "The thesis states the claim, arguments support it, counterarguments raise objections or different views, and the conclusion closes the reasoning.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Thesis",
+          "right": "The main opinion or position being defended"
+        },
+        {
+          "left": "Argument",
+          "right": "A reason or piece of evidence supporting a position"
+        },
+        {
+          "left": "Counterargument",
+          "right": "An objection or opposing idea that the writer tries to answer"
+        },
+        {
+          "left": "Conclusion",
+          "right": "A final summary that restates the position defended"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-03",
+      "type": "classify",
+      "prompt": "Sort these statements into checkable facts or opinions that can be argued for.",
+      "explanation": "Factual claims can be checked against evidence and revised. Opinions express judgements; they can be supported by reasons but are not checked in exactly the same way.",
+      "lang": "en",
+      "categories": [
+        "Checkable fact",
+        "Opinion that can be argued for"
+      ],
+      "items": [
+        {
+          "text": "Water boils at 100 ºC at sea level.",
+          "category": 0
+        },
+        {
+          "text": "Basketball is the most enjoyable sport to play.",
+          "category": 1
+        },
+        {
+          "text": "Spain is in south-western Europe.",
+          "category": 0
+        },
+        {
+          "text": "We should have an hour of reading at school every day.",
+          "category": 1
+        },
+        {
+          "text": "In my opinion, being distracted by a mobile is worse than being distracted by talking.",
+          "category": 1
+        },
+        {
+          "text": "Earth takes about 365 days and six hours to orbit the Sun.",
+          "category": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-04",
+      "type": "choice",
+      "prompt": "Lucía says, 'I propose a school garden because caring for it will teach environmental responsibility and encourage teamwork.' What is her main claim? 🌱",
+      "explanation": "Her proposal is to create a school garden. Responsibility and teamwork are the reasons supporting it.",
+      "hint": "Which specific change does Lucía propose?",
+      "lang": "en",
+      "options": [
+        "We should create a school garden.",
+        "Caring for plants teaches environmental responsibility.",
+        "Teamwork is very important for pupils."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-05",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with the most suitable connector giving a reason.",
+      "explanation": "The connector «ya que» introduces a reason supporting the proposal to reduce disposable plastics.",
+      "lang": "en",
+      "sentence": "Es necesario reducir el uso de plásticos desechables ___ tardan cientos de años en descomponerse en el mar.",
+      "options": [
+        "ya que",
+        "sin embargo",
+        "por lo tanto"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-06",
+      "type": "order",
+      "prompt": "Put the sections of this common argumentative-text structure in order.",
+      "explanation": "This structure introduces the topic and claim, develops supporting reasons and answers an objection, then closes with a conclusion.",
+      "lang": "en",
+      "items": [
+        "Introduce the topic and state the thesis.",
+        "Present the first supporting argument.",
+        "Present a counterargument and respond to it.",
+        "Finish with a conclusion."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-07",
+      "type": "choice",
+      "prompt": "Find the faulty reasoning! 🔍 Omar wants his class to wear cycle helmets. Which option is not a relevant argument?",
+      "explanation": "Disliking a person does not show whether a helmet is useful. Protecting the head is relevant, and the DGT recommendation draws on a specialist source.",
+      "hint": "Look for a personal dislike rather than a relevant reason or evidence.",
+      "lang": "en",
+      "options": [
+        "Spain's traffic authority, the DGT, recommends helmets for protection.",
+        "A helmet helps protect your head if you fall.",
+        "You must wear a helmet because my cousin never wears one and I dislike him."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-08",
+      "type": "classify",
+      "prompt": "Sort the arguments by how they support a claim. Figures labelled fictional are only for practice; real claims need their sources checked.",
+      "explanation": "Arguments may use expert sources, data or personal experience. Their form alone does not prove they are true: check the sources and figures.",
+      "lang": "en",
+      "categories": [
+        "Data or factual argument",
+        "Expert-source argument",
+        "Personal-experience argument"
+      ],
+      "items": [
+        {
+          "text": "The WHO recommends that 5- to 17-year-olds average at least 60 minutes of moderate or vigorous physical activity per day across the week.",
+          "category": 1
+        },
+        {
+          "text": "In a fictional class survey, 17 out of 20 pupils say they revise daily.",
+          "category": 0
+        },
+        {
+          "text": "Organising my school bag the night before helped me avoid being late.",
+          "category": 2
+        },
+        {
+          "text": "According to Spain's National Geographic Institute, Teide is 3715 metres high.",
+          "category": 1
+        },
+        {
+          "text": "In a fictional example, traffic fell by 30 % after a cycle lane opened.",
+          "category": 0
+        },
+        {
+          "text": "Last year I joined the debate club and learnt to speak in public more confidently.",
+          "category": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-09",
+      "type": "reading",
+      "prompt": "Read this Spanish school opinion article and answer the questions.",
+      "explanation": "The article supports a proposal with reasons about shade, shared spaces and care for the environment. These are reasons to consider, not proof that every playground must be identical.",
+      "lang": "en",
+      "title": "Patios más verdes para aprender mejor",
+      "text": "¿Deberían los colegios tener patios más verdes y con menos cemento? En mi opinión, transformar los patios escolares en espacios naturales con árboles, plantas y zonas de tierra es imprescindible para el bienestar y el aprendizaje del alumnado.\nEn primer lugar, los árboles proporcionan sombra natural y regulan la temperatura, lo que reduce el calor durante los meses de primavera y verano. Podríamos disponer de un rincón tranquilo para leer y descansar entre las plantas. Además, los espacios verdes fomentan juegos más cooperativos y diversos, evitando que las pistas deportivas monopolicen todo el espacio disponible.\nEs verdad que el mantenimiento de un jardín requiere esfuerzo y cuidados compartidos, pero ese trabajo enseña responsabilidad ambiental a toda la comunidad educativa. Por todas estas razones, rediseñar los patios escolares no es un capricho estético, sino una necesidad urgente para nuestra salud física y emocional.",
+      "questions": [
+        {
+          "prompt": "What use does the writer propose for a corner among the plants?",
+          "options": [
+            "Stopping studying for the whole school year.",
+            "Turning it into a car park.",
+            "Reading and resting in a quiet place."
+          ],
+          "answer": 2,
+          "explanation": "The writer proposes a quiet corner for reading and resting."
+        },
+        {
+          "prompt": "Which objection does the writer anticipate and then answer?",
+          "explanation": "The writer accepts that a garden needs effort but argues that shared care teaches environmental responsibility.",
+          "options": [
+            "Concrete playgrounds are safer than soil.",
+            "Caring for a garden takes effort and dedication.",
+            "Children dislike trees."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What conclusion does the writer defend?",
+          "explanation": "The final paragraph presents greener playgrounds as a need for wellbeing rather than merely a decorative choice. This is the writer's position.",
+          "options": [
+            "Green areas in playgrounds are a need for health, not just a decorative whim.",
+            "All ball games must be banned during breaks.",
+            "Pupils must water the plants alone without adult help."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-texto-argumentativo-tesis-y-argumentos-10",
+      "type": "choice",
+      "prompt": "Adrián argues that uniforms limit pupils' personality and expression. Which option gives a relevant counterargument?",
+      "explanation": "The point about comparisons between brands raises a possible benefit for discussion. It is relevant but does not by itself prove that uniforms solve inequality.",
+      "hint": "Look for a social reason supporting a possible advantage of uniforms.",
+      "lang": "en",
+      "options": [
+        "Ordinary clothes are always prettier than school uniforms.",
+        "Uniforms are navy blue because it is the headteacher's favourite colour.",
+        "Uniforms can encourage equality by reducing comparisons about expensive clothes or brands."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:21:48.904Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:27:19.704Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f5965aa7018f823878d96099cb3f712ff503edaffa861f94f45947f8c8523feb",
+      "validation": "manual-review"
+    }
+  }
+}

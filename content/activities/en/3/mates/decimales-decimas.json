@@ -1,0 +1,251 @@
+{
+  "id": "g3-mates-decimales-decimas",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "decimales-decimas",
+  "temaNombre": "Decimals: tenths",
+  "title": "Discovering tenths",
+  "summary": "Practise reading, comparing and using tenths in everyday situations. These Spanish-curriculum exercises use decimal commas.",
+  "keyIdeas": [
+    "A whole can be divided into 10 equal parts called tenths.",
+    "One tenth is written 0,1 using a decimal comma.",
+    "In these numbers, the comma separates the whole-number part from the tenths."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-decimales-decimas-01",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about parts of a whole.",
+      "explanation": "One tenth is one of 10 equal parts of a whole. It is written 0,1.",
+      "lang": "en",
+      "sentence": "If we divide a whole into 10 equal parts, each part is one ___.",
+      "options": [
+        "tenth",
+        "hundred",
+        "ten"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-decimales-decimas-02",
+      "type": "match",
+      "prompt": "Match each amount in words to its decimal number.",
+      "explanation": "The digit before the comma shows the ones. The digit after it shows the tenths.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Four tenths",
+          "right": "0,4"
+        },
+        {
+          "left": "One whole and two tenths",
+          "right": "1,2"
+        },
+        {
+          "left": "Seven tenths",
+          "right": "0,7"
+        },
+        {
+          "left": "Three wholes and five tenths",
+          "right": "3,5"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-decimales-decimas-03",
+      "type": "true-false",
+      "prompt": "In a snail race, Babitas travels 0,9 metres and Rayo travels 1,1 metres. Does Babitas travel further than Rayo?",
+      "explanation": "Rayo travels further. Rayo's distance has 1 whole metre, while Babitas's has 0 whole metres.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-mates-decimales-decimas-04",
+      "type": "classify",
+      "prompt": "Sort these decimal numbers by their value.",
+      "explanation": "These numbers with a whole-number part of 0 are less than 1. Those with a whole-number part of 1 and positive tenths, or a larger whole-number part, are greater than 1.",
+      "lang": "en",
+      "categories": [
+        "Less than 1",
+        "Greater than 1"
+      ],
+      "items": [
+        {
+          "text": "0,3",
+          "category": 0
+        },
+        {
+          "text": "1,5",
+          "category": 1
+        },
+        {
+          "text": "0,8",
+          "category": 0
+        },
+        {
+          "text": "2,1",
+          "category": 1
+        },
+        {
+          "text": "0,6",
+          "category": 0
+        },
+        {
+          "text": "1,2",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-decimales-decimas-05",
+      "type": "choice",
+      "prompt": "Aisha and Omar share a chocolate bar with 10 equal squares. Aisha eats 3 squares and Omar eats 4. Which decimal shows the part they eat altogether?",
+      "explanation": "They eat 3 + 4 = 7 out of 10 squares. Seven tenths is written 0,7.",
+      "hint": "Add the squares and think how many tenths they make.",
+      "lang": "en",
+      "options": [
+        "0,7",
+        "7,0",
+        "0,34"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-decimales-decimas-06",
+      "type": "choice",
+      "prompt": "Mateo wants to write 'five wholes and six tenths', but writes 56. What mistake does he make?",
+      "explanation": "He should write 5,6. Without the comma, 56 means fifty-six whole units.",
+      "hint": "Look for the mark separating wholes and tenths.",
+      "lang": "en",
+      "options": [
+        "He forgets the decimal comma between 5 and 6.",
+        "He adds the wholes and tenths.",
+        "He writes the tenths before the wholes."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-decimales-decimas-07",
+      "type": "order",
+      "prompt": "Put these lengths in order from shortest to longest.",
+      "explanation": "Compare the whole-number parts first, then the tenths: 0,5 < 0,9 < 1,2 < 1,8 < 2,1.",
+      "lang": "en",
+      "items": [
+        "0,5 m",
+        "0,9 m",
+        "1,2 m",
+        "1,8 m",
+        "2,1 m"
+      ]
+    },
+    {
+      "id": "g3-mates-decimales-decimas-08",
+      "type": "choice",
+      "prompt": "Mental maths: a container holds 2,4 litres of water. We use 0,3 litres for watering. How much is left?",
+      "explanation": "Subtract the tenths: 4 tenths minus 3 tenths is 1 tenth. 2,4 - 0,3 = 2,1 litres.",
+      "hint": "Subtract the tenths and keep the whole-number part.",
+      "lang": "en",
+      "options": [
+        "2,7 litres",
+        "2,1 litres",
+        "1,9 litres"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-decimales-decimas-09",
+      "type": "choice",
+      "prompt": "A sunflower in the school garden is 3,1 dm tall. It grows 0,4 dm on Monday and 0,3 dm on Tuesday. How tall is it now?",
+      "explanation": "It grows 0,4 + 0,3 = 0,7 dm altogether. Add this to its starting height: 3,1 + 0,7 = 3,8 dm.",
+      "hint": "First find how much it grows in the two days.",
+      "lang": "en",
+      "options": [
+        "4,1 dm",
+        "3,7 dm",
+        "3,8 dm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-decimales-decimas-10",
+      "type": "reading",
+      "prompt": "Read about the school competition and answer the questions.",
+      "explanation": "Compare tenths to find who throws furthest and how much is needed to reach the next whole metre.",
+      "lang": "en",
+      "title": "Paper Aeroplanes",
+      "text": "Today, the Grade 3 class holds a paper-aeroplane competition in the playground. Each participant throws an aeroplane along a track marked in tenths of a metre. Martina's aeroplane reaches 3,4 metres. Hugo's flies 2,9 metres. Aisha throws hers strongly and reaches 3,7 metres. The teacher congratulates the group. Everyone measures the distances carefully with a tape measure.",
+      "questions": [
+        {
+          "prompt": "Whose aeroplane travels furthest?",
+          "explanation": "3,7 metres is greatest: 3 wholes and 7 tenths is greater than 3,4 and 2,9.",
+          "options": [
+            "Martina's aeroplane: 3,4 metres",
+            "Hugo's aeroplane: 2,9 metres",
+            "Aisha's aeroplane: 3,7 metres"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "How many tenths of a metre does Hugo need to reach 3 metres?",
+          "explanation": "Hugo reaches 2,9 metres. One more tenth (0,1 m) makes 3 whole metres.",
+          "options": [
+            "1 tenth",
+            "2 tenths",
+            "9 tenths"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:10:00.004Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:45:41.454Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "2085ac456a5398ffd9a5d7dcbec3451738641aff436021b46e0816d8b793d086",
+      "validation": "manual-review"
+    }
+  }
+}

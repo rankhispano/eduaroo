@@ -1,0 +1,233 @@
+{
+  "id": "g2-sociales-medios-de-comunicacion",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "medios-de-comunicacion",
+  "temaNombre": "Ways to communicate",
+  "title": "Communicating with the world!",
+  "summary": "Review ways to communicate, how they have changed and how to use them well.",
+  "keyIdeas": [
+    "Personal communication connects people directly. Mass communication reaches many people.",
+    "Radio, newspapers, television and the internet share information.",
+    "The internet connects us quickly, but children should use it with an adult's help."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE5",
+      "CE7"
+    ],
+    "criteria": [
+      "1.1",
+      "5.1",
+      "7.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD4",
+      "CD5",
+      "CE1",
+      "CE2",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-medios-de-comunicacion-01",
+      "type": "choice",
+      "prompt": "Aisha wants to talk to her aunt, who lives far away. What does she use?",
+      "explanation": "A phone lets us talk to people far away.",
+      "hint": "We use it to make calls and hear someone's voice.",
+      "lang": "en",
+      "options": [
+        "A bicycle",
+        "A microwave",
+        "A mobile phone"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-02",
+      "type": "true-false",
+      "prompt": "Radio can inform many people at once.",
+      "explanation": "Radio is a form of mass communication.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about printed news.",
+      "explanation": "A newspaper contains written news. Many newspapers are published daily.",
+      "lang": "en",
+      "sentence": "Hugo's grandfather reads printed news in the ___.",
+      "options": [
+        "clock",
+        "traffic light",
+        "newspaper"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-04",
+      "type": "classify",
+      "prompt": "Sort these examples by the type of communication.",
+      "explanation": "In these examples, personal communication connects two people. Mass communication reaches many people.",
+      "lang": "en",
+      "categories": [
+        "Personal communication",
+        "Mass communication"
+      ],
+      "items": [
+        {
+          "text": "A letter to a friend",
+          "category": 0
+        },
+        {
+          "text": "Television in the living room",
+          "category": 1
+        },
+        {
+          "text": "A phone call",
+          "category": 0
+        },
+        {
+          "text": "A radio programme",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-05",
+      "type": "match",
+      "prompt": "Match each medium to how it shares its message.",
+      "explanation": "Some forms of communication use sight, some use hearing, and some use both.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Radio",
+          "right": "Sound and voices only"
+        },
+        {
+          "left": "Newspaper",
+          "right": "Text and pictures on paper"
+        },
+        {
+          "left": "Television",
+          "right": "Moving pictures and sound"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-06",
+      "type": "order",
+      "prompt": "Put the steps for sending a letter in order.",
+      "explanation": "The address shows where the letter must go. An adult helps us prepare and post it.",
+      "lang": "en",
+      "items": [
+        "Write the message on paper",
+        "Write the address on the envelope, put the letter inside and add a stamp",
+        "Put the letter in a postbox",
+        "The postal service delivers it to the address"
+      ]
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-07",
+      "type": "choice",
+      "prompt": "Why can news arrive faster today than a hundred years ago?",
+      "explanation": "The internet and modern technology let information travel very quickly.",
+      "hint": "Think about the technology we use today.",
+      "lang": "en",
+      "options": [
+        "Letters weigh less than before",
+        "People run faster",
+        "We use the internet and modern satellites"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-08",
+      "type": "true-false",
+      "prompt": "When children use the internet, they should ask an adult for help or permission.",
+      "explanation": "Adults help children learn to use the internet safely.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-09",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions.",
+      "explanation": "School radio shares news with the whole school community.",
+      "lang": "en",
+      "title": "Omar's school radio",
+      "text": "Omar's school has a radio programme. Every Friday, pupils read news about the garden and break time. The whole school listens through loudspeakers during breakfast.",
+      "questions": [
+        {
+          "prompt": "On which day is the radio programme broadcast?",
+          "explanation": "The pupils make their programme every Friday.",
+          "options": [
+            "Fridays",
+            "Tuesdays",
+            "Sundays"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How does the school listen?",
+          "explanation": "The programme is heard through the school's loudspeakers.",
+          "options": [
+            "Through a landline phone",
+            "Through paper letters",
+            "Through loudspeakers"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-medios-de-comunicacion-10",
+      "type": "order",
+      "prompt": "Put these ways of communicating in order from oldest to newest.",
+      "explanation": "Letters travelled by carriage first. Landline phones were invented later, followed much later by digital tablets.",
+      "lang": "en",
+      "items": [
+        "A letter carried by carriage",
+        "A wired landline phone",
+        "A video call on a tablet"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:30:22.846Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:43:10.943Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "cf4ae49ba71769c9af08f1afa8c640f75499bfb496f28f79b309213c55cd5801",
+      "validation": "manual-review"
+    }
+  }
+}

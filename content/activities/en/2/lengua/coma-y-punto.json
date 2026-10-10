@@ -1,0 +1,227 @@
+{
+  "id": "g2-lengua-coma-y-punto",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "coma-y-punto",
+  "temaNombre": "Commas and full stops",
+  "title": "Full stops and commas",
+  "summary": "Learn to use full stops and commas to write clear Spanish texts.",
+  "keyIdeas": [
+    "A full stop (.) ends a statement. The next sentence begins with a capital letter.",
+    "A comma (,) separates items in a list and can mark a short pause.",
+    "Before the last item in a Spanish list, we usually write 'y' (and) instead of a comma."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.2",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-coma-y-punto-01",
+      "type": "choice",
+      "prompt": "Which mark ends the Spanish sentence «Hoy llueve»?",
+      "explanation": "A full stop ends this statement.",
+      "hint": "It is a small round mark at the end of the sentence.",
+      "lang": "en",
+      "options": [
+        "A comma",
+        "A full stop",
+        "A question mark"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-02",
+      "type": "true-false",
+      "prompt": "We use commas to separate things in a list.",
+      "explanation": "Correct! Commas separate words or items in a list.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-03",
+      "type": "fill-blank",
+      "prompt": "Choose the word to complete this Spanish rule.",
+      "explanation": "The first word of a new sentence begins with a capital letter.",
+      "lang": "en",
+      "sentence": "Después del punto que cierra una oración, la siguiente comienza con ___.",
+      "options": [
+        "minúscula",
+        "mayúscula",
+        "cursiva"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-04",
+      "type": "match",
+      "prompt": "Match each mark or capital letter to its main job.",
+      "explanation": "Full stops end statements, commas separate list items and capital letters begin new sentences.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Full stop",
+          "right": "Ends a statement"
+        },
+        {
+          "left": "Comma",
+          "right": "Separates items in a list"
+        },
+        {
+          "left": "Capital letter",
+          "right": "Begins the next sentence"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-05",
+      "type": "choice",
+      "prompt": "Hugo packs his pencil case. Which Spanish sentence has correct punctuation?",
+      "explanation": "Commas separate the items in the list. The last item is joined with «y».",
+      "hint": "Look at the marks between the objects in the pencil case.",
+      "lang": "en",
+      "options": [
+        "Tengo lápiz goma sacapuntas y tijeras.",
+        "Tengo lápiz. goma. sacapuntas. y tijeras.",
+        "Tengo lápiz, goma, sacapuntas y tijeras."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-06",
+      "type": "classify",
+      "prompt": "Sort the Spanish sentences by whether a comma or full stop is missing at [?].",
+      "explanation": "Use a comma between items in a list and a full stop between two complete statements.",
+      "lang": "en",
+      "categories": [
+        "Missing a comma (,)",
+        "Missing a full stop (.)"
+      ],
+      "items": [
+        {
+          "text": "Compré manzanas [?] peras y plátanos.",
+          "category": 0
+        },
+        {
+          "text": "El perro corre [?] Luego bebe agua.",
+          "category": 1
+        },
+        {
+          "text": "Aisha tiene cromos [?] muñecas y peonzas.",
+          "category": 0
+        },
+        {
+          "text": "Hoy sale el sol [?] El cielo está azul.",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-07",
+      "type": "choice",
+      "prompt": "Find the Spanish sentence with a punctuation mistake.",
+      "explanation": "After the full stop in «fruta.», «luego» needs a capital letter: «Luego».",
+      "hint": "Check the letter after the full stop.",
+      "lang": "en",
+      "options": [
+        "Lucía juega, salta y ríe en el patio.",
+        "Omar come fruta. luego lee su libro favorito.",
+        "El gato duerme en el sofá."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-08",
+      "type": "order",
+      "prompt": "Put these parts in order to make a correctly punctuated Spanish sentence.",
+      "explanation": "Begin with where we keep the objects, then list the notebook, pencils and ruler.",
+      "lang": "en",
+      "items": [
+        "En la mochila llevo",
+        "mi cuaderno,",
+        "los lápices",
+        "y la regla."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-coma-y-punto-09",
+      "type": "reading",
+      "prompt": "Read the Spanish text carefully and answer the questions.",
+      "explanation": "The text uses commas to list vegetables and full stops to separate four statements.",
+      "lang": "en",
+      "title": "La huerta del colegio",
+      "text": "En el huerto del cole plantamos tomates, lechugas, zanahorias y cebollas. Cada día regamos la tierra con cuidado. Las plantas crecen muy rápido bajo el sol brillante. Pronto prepararemos una ensalada rica y sana con la cosecha.",
+      "questions": [
+        {
+          "prompt": "Why are there commas in the first sentence?",
+          "explanation": "The commas separate the vegetables in the list.",
+          "options": [
+            "Because the whole sentence has ended.",
+            "Because they separate the vegetables planted in the garden.",
+            "Because each vegetable is followed by a capital letter."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "How many complete sentences end with a full stop?",
+          "explanation": "There are 4 sentences, each ending with a full stop.",
+          "options": [
+            "6 sentences",
+            "2 sentences",
+            "4 sentences"
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:19:13.301Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:25:38.603Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "94c60f1580d94ae38632fcd8216fc56960abff84e0eb6a22cb317102e869e78a",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -38,8 +38,8 @@
     {
       "id": "g2-sociales-antes-y-ahora-01",
       "type": "choice",
-      "prompt": "Hugo mira fotos antiguas. ¿Qué transporte usaba su bisabuelo para viajar?",
-      "explanation": "Antiguamente no había coches ni patinetes con motor. Se usaban caballos para desplazarse.",
+      "prompt": "En una foto antigua, Hugo ve a su bisabuelo en un carro tirado por caballos. ¿Qué transporte usaba en esa foto?",
+      "explanation": "En esa foto, el bisabuelo va en un carro tirado por caballos. Los transportes del pasado variaban según la época y el lugar.",
       "hint": "Piensa en un transporte que no usa electricidad.",
       "lang": "es",
       "options": [
@@ -52,8 +52,8 @@
     {
       "id": "g2-sociales-antes-y-ahora-02",
       "type": "true-false",
-      "prompt": "Antes las personas lavaban la ropa a mano en el río.",
-      "explanation": "En el pasado no existían las lavadoras. La gente lavaba la ropa a mano.",
+      "prompt": "Antes de tener lavadora, muchas personas lavaban la ropa a mano.",
+      "explanation": "Muchas personas lavaban la ropa a mano en casa o en lavaderos. No todas lo hacían en el río.",
       "lang": "es",
       "answer": true
     },
@@ -95,12 +95,12 @@
     {
       "id": "g2-sociales-antes-y-ahora-05",
       "type": "classify",
-      "prompt": "Clasifica estas formas de cocinar y conservar alimentos.",
-      "explanation": "Hoy usamos electrodomésticos modernos para cocinar y enfriar la comida.",
+      "prompt": "Clasifica estas técnicas según necesiten electricidad o no.",
+      "explanation": "La leña y la salazón son técnicas tradicionales que aún se usan. Las neveras eléctricas y los microondas necesitan electricidad.",
       "lang": "es",
       "categories": [
-        "En el pasado",
-        "En la actualidad"
+        "Sin electricidad",
+        "Con electricidad"
       ],
       "items": [
         {
@@ -138,7 +138,7 @@
       "id": "g2-sociales-antes-y-ahora-07",
       "type": "reading",
       "prompt": "Lee el texto y responde a las preguntas.",
-      "explanation": "Las escuelas han cambiado mucho y ahora tienen mejores comodidades.",
+      "explanation": "El texto compara el colegio de Rosa en el pasado con ese mismo colegio en la actualidad. No todos los colegios cambian de la misma manera.",
       "lang": "es",
       "title": "El cole de la abuela",
       "text": "Aisha visita el colegio de su abuela Rosa. Rosa le cuenta que no había ordenadores. Escribían con tiza en pizarras pequeñas. Tampoco tenían calefacción en invierno. Ahora el colegio tiene pantallas digitales, libros de colores y mucha luz.",

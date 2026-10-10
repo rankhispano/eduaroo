@@ -1,0 +1,260 @@
+{
+  "id": "g6-naturales-la-celula",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "la-celula",
+  "temaNombre": "The cell",
+  "title": "Exploring the world of cells",
+  "summary": "Review cell structure, organelles and the levels of organisation in living things.",
+  "keyIdeas": [
+    "The cell is the smallest basic living unit that carries out the three life processes.",
+    "Plant cells have a cell wall. Cells in photosynthetic parts usually have chloroplasts. Animal cells do not have these structures.",
+    "In the human body, cells form tissues, organs and organ systems."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-la-celula-01",
+      "type": "choice",
+      "prompt": "In the school laboratory, Aisha looks at a sample through a microscope. She sees the smallest unit that can carry out the three life processes: nutrition, interaction and reproduction. What is she observing?",
+      "explanation": "The cell is the basic unit of living things. In multicellular organisms, cells specialise and work together.",
+      "hint": "It is the most basic living part of any organism.",
+      "lang": "en",
+      "options": [
+        "A molecule",
+        "A tissue",
+        "A cell",
+        "An organ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-la-celula-02",
+      "type": "true-false",
+      "prompt": "Both single-celled organisms, such as bacteria, and multicellular organisms, such as plants and animals, are made of cells.",
+      "explanation": "All living things are made of cells. Some have just one cell (single-celled), while others have millions working together (multicellular).",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-naturales-la-celula-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about cell structure.",
+      "explanation": "The plasma membrane, or cell membrane, surrounds every cell and controls which substances enter and leave.",
+      "lang": "en",
+      "sentence": "The thin layer surrounding a cell, protecting it and controlling exchanges with its surroundings is the plasma ___.",
+      "options": [
+        "wall",
+        "membrane",
+        "vacuole"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-naturales-la-celula-04",
+      "type": "match",
+      "prompt": "Match each main part of the cell to its function or description.",
+      "explanation": "The nucleus coordinates the cell, the cytoplasm contains organelles, mitochondria provide energy and chloroplasts capture sunlight in plants.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Nucleus",
+          "right": "Contains genetic material and directs cell functions"
+        },
+        {
+          "left": "Cytoplasm",
+          "right": "Thick fluid containing the cell’s organelles"
+        },
+        {
+          "left": "Mitochondrion",
+          "right": "Organelle that releases energy through cellular respiration"
+        },
+        {
+          "left": "Chloroplast",
+          "right": "Plant organelle that carries out photosynthesis using chlorophyll"
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-la-celula-05",
+      "type": "order",
+      "prompt": "Order the levels of organisation in the human body, from simplest to most complex.",
+      "explanation": "Similar cells form tissues. Several tissues form an organ. Several organs form an organ system. Together, these make the complete organism.",
+      "lang": "en",
+      "items": [
+        "Cell",
+        "Tissue",
+        "Organ",
+        "Organ system",
+        "Complete organism"
+      ]
+    },
+    {
+      "id": "g6-naturales-la-celula-06",
+      "type": "classify",
+      "prompt": "Compare the animal and plant cell models used in class. Sort their structures.",
+      "explanation": "The plant model includes a cellulose wall, chloroplasts and a large vacuole. Both models show a membrane, nucleus and mitochondria. Not every cell in a plant has chloroplasts.",
+      "lang": "en",
+      "categories": [
+        "Features of the plant model",
+        "Present in both models"
+      ],
+      "items": [
+        {
+          "text": "Cellulose cell wall",
+          "category": 0
+        },
+        {
+          "text": "Chloroplasts",
+          "category": 0
+        },
+        {
+          "text": "Plasma membrane",
+          "category": 1
+        },
+        {
+          "text": "Nucleus",
+          "category": 1
+        },
+        {
+          "text": "Mitochondria",
+          "category": 1
+        },
+        {
+          "text": "One large central vacuole",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-la-celula-07",
+      "type": "choice",
+      "prompt": "Hugo says, “A blue whale’s cells are huge, the size of tennis balls, because the whale is enormous.” What scientific mistake has he made?",
+      "explanation": "Cells are microscopic in almost all living things. A huge animal like a whale has trillions more cells than a mouse, but its cells are a similar size.",
+      "hint": "Think about whether a large building has giant bricks or simply more bricks.",
+      "lang": "en",
+      "options": [
+        "Whale cells are large, but only the size of marbles.",
+        "A whale is large because its organs are made of air, not because it has more cells.",
+        "Cells are microscopic in almost all living things. A whale is larger because it has many more cells, not giant cells.",
+        "Marine animals’ cells have no membrane, so they cannot be measured."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-la-celula-08",
+      "type": "choice",
+      "prompt": "Omar and Lucía use a light microscope to observe a water sample prepared by their teacher. They want to see living microorganisms moving. What will happen with 400x total magnification (a 10x eyepiece and 40x objective lens)?",
+      "explanation": "Total microscope magnification is the eyepiece magnification multiplied by the objective magnification: 10 x 40 = 400 times actual size. School light microscopes cannot show atoms.",
+      "hint": "Multiply the eyepiece value by the objective value.",
+      "lang": "en",
+      "options": [
+        "They will see individual atoms in water molecules.",
+        "The microorganisms will burn immediately because of the powerful lenses.",
+        "The sample will look 40 times larger because only the objective counts.",
+        "The image will look 400 times larger than the microorganism’s actual size."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-naturales-la-celula-09",
+      "type": "reading",
+      "prompt": "Read the text about the discovery of cells and answer the questions.",
+      "explanation": "The text describes the historical origin of the cell concept and the close link between technological advances and scientific discovery.",
+      "lang": "en",
+      "title": "A window into an invisible world",
+      "text": "In the seventeenth century, English scientist Robert Hooke improved a fascinating instrument: the microscope. Curious about nature hidden from the naked eye, he cut a very thin slice of cork from a cork oak’s bark and placed it under the lenses.\n\nHe saw a network of small polygon-shaped spaces, rather like honeycomb cells or monks’ small rooms in monasteries, called cells or “cellulae” in Latin. This is why Hooke named them “cells”.\n\nHowever, Hooke saw only empty cell walls in dead plant tissue. He did not know what happened inside living cells. Almost two centuries of advances in optics were needed before other researchers discovered cell structure and confirmed that all living things are made of cells.",
+      "questions": [
+        {
+          "prompt": "Why did Robert Hooke choose the word “cell” for what he saw through the microscope?",
+          "explanation": "The text explains that the empty spaces looked like honeycomb cells or monks’ rooms (“cellulae”).",
+          "options": [
+            "They reminded him of honeycomb cells or monastery rooms.",
+            "He discovered small living seeds inside them.",
+            "It was the old name for sheets of cork."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why could Hooke not observe organelles, such as mitochondria or a nucleus, inside the cork?",
+          "explanation": "Cork consists of the cell walls of dead plant cells, so it has no active organelles. Seventeenth-century technology was also very limited.",
+          "options": [
+            "Cork is dead plant tissue, and his microscope was not powerful enough to show microscopic organelles.",
+            "He forgot to stain the sample with modern chemical dyes.",
+            "Cork is animal tissue with no nucleus."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What can we conclude from the text about scientific progress?",
+          "explanation": "Science builds on shared knowledge. Inventing and improving tools, such as microscopes, helps us investigate further and revise earlier ideas using new evidence.",
+          "options": [
+            "Scientific discoveries depend only on one person’s luck.",
+            "Scientific knowledge grows gradually through human curiosity and improvements in technology over time.",
+            "Early scientific observations are never useful because they always contain mistakes."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-la-celula-10",
+      "type": "choice",
+      "prompt": "Adrián examines two plant samples: a green geranium leaf and the inside of a potato growing underground without light. He predicts many chloroplasts in the leaf, but hardly any in the potato. Is his prediction correct, and why?",
+      "explanation": "Chloroplasts capture solar energy for photosynthesis. In underground parts without light, such as potatoes, cells do not need photosynthetic chloroplasts and specialise in storing starch.",
+      "hint": "Think about the role of chlorophyll in chloroplasts and whether sunlight reaches underground.",
+      "lang": "en",
+      "options": [
+        "No, because roots and tubers need twice as many chloroplasts to make fertile soil.",
+        "Yes, because chloroplasts contain chlorophyll to capture sunlight. Underground tubers receive no light, and the plant stores nutrients in other organelles.",
+        "No, because every cell in the same plant has exactly the same organelles in equal numbers.",
+        "Yes, because potatoes are fungi and have no plant cells."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:22:36.948Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:01:57.037Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "6cec6c60f117294748c65ee1061bb05911f4be1210cf2883bd36f6ee3dcf4171"
+    }
+  }
+}

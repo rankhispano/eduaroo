@@ -1,0 +1,243 @@
+{
+  "id": "g1-naturales-habitos-de-higiene",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "habitos-de-higiene",
+  "temaNombre": "Hygiene habits",
+  "title": "Good habits for staying clean",
+  "summary": "Practise keeping your body clean and saving water every day.",
+  "keyIdeas": [
+    "Washing hands with soap and water helps remove dirt and microbes.",
+    "Brushing twice a day with fluoride toothpaste, including before bed, helps prevent tooth decay.",
+    "Turning off the tap while soaping helps save water."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE6"
+    ],
+    "criteria": [
+      "4.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCL5",
+      "CE1",
+      "CPSAA1",
+      "CPSAA2",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM2",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-habitos-de-higiene-01",
+      "type": "choice",
+      "prompt": "Aisha comes back from the playground for a snack. What should she do before touching food?",
+      "explanation": "Soap and water help remove dirt and microbes before eating.",
+      "hint": "You need water and soap.",
+      "lang": "en",
+      "options": [
+        "Wash her hands with soap and water",
+        "Wipe her hands on her trousers",
+        "Comb her hair with perfume"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-02",
+      "type": "true-false",
+      "prompt": "Washing hands with only water removes every microbe.",
+      "explanation": "Water alone does not remove all dirt and grease. Soap helps remove microbes when we rinse.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-03",
+      "type": "match",
+      "prompt": "Match each item to its correct use.",
+      "explanation": "We use different items to keep our bodies clean and dry.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Toothbrush and toothpaste",
+          "right": "Clean teeth"
+        },
+        {
+          "left": "Comb",
+          "right": "Untangle hair"
+        },
+        {
+          "left": "Sponge and soap",
+          "right": "Wash the body"
+        },
+        {
+          "left": "Clean towel",
+          "right": "Dry skin"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-04",
+      "type": "order",
+      "prompt": "Put the handwashing steps in order.",
+      "explanation": "First wet your hands, then rub with soap, rinse and dry well.",
+      "lang": "en",
+      "items": [
+        "Wet hands with water",
+        "Rub with soap to make a lather",
+        "Rinse with clean water",
+        "Dry well with a clean towel"
+      ]
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-05",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about caring for our mouths.",
+      "explanation": "Brushing with fluoride toothpaste helps prevent tooth decay.",
+      "lang": "en",
+      "sentence": "Hugo brushes his teeth to help prevent ___.",
+      "options": [
+        "tickles",
+        "tooth decay",
+        "freckles"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-06",
+      "type": "classify",
+      "prompt": "Sort these actions into healthy and unhealthy habits.",
+      "explanation": "Keeping clean and not sharing personal items help prevent illness.",
+      "lang": "en",
+      "categories": [
+        "Healthy habit",
+        "Unhealthy habit"
+      ],
+      "items": [
+        {
+          "text": "Wash hands before eating",
+          "category": 0
+        },
+        {
+          "text": "Eat with muddy hands",
+          "category": 1
+        },
+        {
+          "text": "Use a clean tissue when sneezing",
+          "category": 0
+        },
+        {
+          "text": "Share a toothbrush",
+          "category": 1
+        },
+        {
+          "text": "Shower after sport",
+          "category": 0
+        },
+        {
+          "text": "Wear sweaty clothes for several days",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-07",
+      "type": "choice",
+      "prompt": "Omar washes his hands with soap and water. Why does he use soap?",
+      "explanation": "Soap helps remove dirt when we rinse our hands.",
+      "hint": "Think about what gets on your hands when you play.",
+      "lang": "en",
+      "options": [
+        "To wet his hands faster",
+        "So he does not have to rinse",
+        "To help remove dirt"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-08",
+      "type": "choice",
+      "prompt": "Lucía hears three tips in class. Which tip is wrong?",
+      "explanation": "Leaving the tap running wastes water. Turn it off while rubbing with soap.",
+      "hint": "Look for the action that wastes water.",
+      "lang": "en",
+      "options": [
+        "Leave the tap running while soaping your hands",
+        "Turn off the tap while brushing your teeth",
+        "Take a short shower to use less water"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-09",
+      "type": "choice",
+      "prompt": "Leo needs to sneeze but has no tissue. How should he cover his nose and mouth?",
+      "explanation": "Using the inside of the elbow keeps microbes off our hands, which touch other things.",
+      "hint": "If you use your hand, you then touch objects.",
+      "lang": "en",
+      "options": [
+        "With the inside of his elbow",
+        "Without covering them, towards his classmates",
+        "With his palm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-habitos-de-higiene-10",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions.",
+      "explanation": "Keeping clean and saving water help care for our health and nature.",
+      "lang": "en",
+      "title": "Nerea's routine",
+      "text": "Nerea and her brother care for their bodies each day. In the morning, they wash their faces. After a meal, they brush their teeth for two minutes. After the park, they shower with soap. They turn off the tap while soaping to save water.",
+      "questions": [
+        {
+          "prompt": "How long do they brush their teeth?",
+          "explanation": "The text says they brush for two minutes after a meal.",
+          "options": [
+            "Two seconds",
+            "Two minutes",
+            "Ten minutes"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why do they turn off the tap while soaping?",
+          "explanation": "Turning off the tap saves water and helps care for our planet.",
+          "options": [
+            "To save the planet's water",
+            "They feel very cold",
+            "To avoid making noise at home"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:34:10.075Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:45:45.592Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "e4305153e1dc877e1779574e2c7774db76c45aadca04ff76dd78f7b82f94f876",
+      "validation": "manual-review"
+    }
+  }
+}

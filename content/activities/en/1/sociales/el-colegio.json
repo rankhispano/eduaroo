@@ -1,0 +1,227 @@
+{
+  "id": "g1-sociales-el-colegio",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "el-colegio",
+  "temaNombre": "School",
+  "title": "Exploring our school",
+  "summary": "Practise school places, people's jobs and rules for getting along.",
+  "keyIdeas": [
+    "School is a place to learn, spend time together and make friends.",
+    "Many people work at school to care for and help us.",
+    "Following rules and caring for materials help us get along."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-el-colegio-01",
+      "type": "choice",
+      "prompt": "Where at school do we read and borrow books?",
+      "explanation": "The library is a quiet place where school books are kept and read.",
+      "hint": "It is a quiet place full of stories and shelves.",
+      "lang": "en",
+      "options": [
+        "In the library",
+        "In the gym",
+        "In the dining room"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-el-colegio-02",
+      "type": "true-false",
+      "prompt": "In class, we raise our hands to ask for a turn to speak.",
+      "explanation": "Raising a hand helps us listen respectfully without interrupting others.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-el-colegio-03",
+      "type": "match",
+      "prompt": "Match each school worker to their job.",
+      "explanation": "Everyone at school has an important job that helps it run well.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Teacher",
+          "right": "Teaches and helps us learn"
+        },
+        {
+          "left": "Caretaker",
+          "right": "Opens doors and looks after the building"
+        },
+        {
+          "left": "Cook",
+          "right": "Prepares food for the dining room"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-el-colegio-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about a school morning.",
+      "explanation": "Break time is a pause to rest and play.",
+      "lang": "en",
+      "sentence": "The pause for rest and play at school is called ___.",
+      "options": [
+        "break time",
+        "the dining room",
+        "the library"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-el-colegio-05",
+      "type": "classify",
+      "prompt": "Sort these school spaces by their main use.",
+      "explanation": "In this exercise, classrooms and libraries are for studying, while playgrounds and gyms are for movement.",
+      "lang": "en",
+      "categories": [
+        "Learning and working",
+        "Playing and doing sport"
+      ],
+      "items": [
+        {
+          "text": "Classroom",
+          "category": 0
+        },
+        {
+          "text": "Library",
+          "category": 0
+        },
+        {
+          "text": "Playground",
+          "category": 1
+        },
+        {
+          "text": "Gym",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-el-colegio-06",
+      "type": "order",
+      "prompt": "Put these parts of Hugo's school day in order.",
+      "explanation": "Hugo arrives, works in class, plays at break and goes home at the end.",
+      "lang": "en",
+      "items": [
+        "He arrives at school in the morning",
+        "He learns and works in class",
+        "He plays with friends at break",
+        "He goes home when school finishes"
+      ]
+    },
+    {
+      "id": "g1-sociales-el-colegio-07",
+      "type": "choice",
+      "prompt": "Aisha and Leo want the same ball. What should they do?",
+      "explanation": "Talking and sharing help everyone enjoy playing together.",
+      "hint": "Find a way for both children to play.",
+      "lang": "en",
+      "options": [
+        "Share the ball and take turns",
+        "Grab the ball and run away",
+        "Get angry and never speak again"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-el-colegio-08",
+      "type": "true-false",
+      "prompt": "Caring for classroom materials helps them last longer.",
+      "explanation": "Looking after books, crayons and games keeps them ready to use.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-el-colegio-09",
+      "type": "choice",
+      "prompt": "Marcos has paper scraps on his desk. What should he do?",
+      "explanation": "We help keep our workspaces clean and tidy.",
+      "hint": "Everyone can help keep the classroom tidy.",
+      "lang": "en",
+      "options": [
+        "Put the paper in the recycling bin",
+        "Leave the paper on the classroom floor",
+        "Wait for someone else to clean his space"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-el-colegio-10",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "Martín cares for his things, greets his teacher and shares with a classmate.",
+      "lang": "en",
+      "title": "A day at Martín's school",
+      "text": "Martín arrives at school smiling. He greets his teacher Elena at the door. In class, he learns numbers and draws with crayons. At break, he shares his apple with Sofía. At the end, he puts away his pencils and packs his bag.",
+      "questions": [
+        {
+          "prompt": "Who does Martín greet when he arrives?",
+          "explanation": "Martín greets his teacher Elena at the door.",
+          "options": [
+            "His teacher Elena",
+            "The school cook",
+            "His little brother"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why does Martín put away his pencils?",
+          "explanation": "Tidying materials helps care for classroom things and prepare for the next day.",
+          "options": [
+            "To give them to Sofía",
+            "He does not want to return to school",
+            "To leave the classroom clean and tidy"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:21:49.361Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:58:34.380Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "812e997b4d01a2c13f3a91192f60c172a8508c7b18cad6ef8ccce3f9b6e50d99",
+      "validation": "manual-review"
+    }
+  }
+}

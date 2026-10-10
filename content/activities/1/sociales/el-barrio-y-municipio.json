@@ -70,7 +70,7 @@
       "id": "g1-sociales-el-barrio-y-municipio-03",
       "type": "match",
       "prompt": "Une cada necesidad del barrio con su lugar adecuado:",
-      "explanation": "Cada servicio municipal ayuda a los vecinos en una tarea importante del día a día.",
+      "explanation": "La biblioteca, el centro de salud y el parque son servicios y espacios del barrio. No todos dependen del ayuntamiento.",
       "lang": "es",
       "pairs": [
         {
@@ -91,7 +91,7 @@
       "id": "g1-sociales-el-barrio-y-municipio-04",
       "type": "fill-blank",
       "prompt": "Elige la palabra que completa la norma vial.",
-      "explanation": "Los peatones cruzan por las rayas blancas pintadas en el suelo de la calzada.",
+      "explanation": "Cruzamos por el paso de peatones, con una persona adulta. Antes miramos y esperamos a que sea seguro.",
       "lang": "es",
       "sentence": "Para cruzar la calle seguros, usamos el paso de ___.",
       "options": [
@@ -155,13 +155,14 @@
     {
       "id": "g1-sociales-el-barrio-y-municipio-08",
       "type": "order",
-      "prompt": "Ordena los pasos que sigue Lucas para cruzar la calle de forma segura:",
-      "explanation": "Primero nos detenemos, luego comprobamos que no hay peligro y por último cruzamos con calma.",
+      "prompt": "Ordena cómo cruza Lucas con una persona adulta por un paso de peatones.",
+      "explanation": "Cruzamos por el paso de peatones con una persona adulta, respetamos el semáforo y comprobamos que sea seguro.",
       "lang": "es",
       "items": [
-        "Parar en el bordillo de la acera",
-        "Mirar bien a la izquierda y a la derecha",
-        "Cruzar caminando sin correr cuando no vengan coches"
+        "Parar antes de bajar de la acera.",
+        "Mirar a ambos lados y comprobar el semáforo, si lo hay.",
+        "Esperar a que los vehículos se detengan o no venga ninguno.",
+        "Cruzar caminando cuando sea seguro."
       ]
     },
     {

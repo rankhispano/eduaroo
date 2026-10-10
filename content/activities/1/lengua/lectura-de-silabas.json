@@ -87,7 +87,7 @@
     {
       "id": "g1-lengua-lectura-de-silabas-04",
       "type": "match",
-      "prompt": "Une cada inicio con su final para formar palabras del cole 🎒.",
+      "prompt": "Une las sílabas para formar mesa, libro, lápiz y goma.",
       "explanation": "Al unir las sílabas formamos las palabras mesa, libro, lápiz y goma.",
       "lang": "es",
       "pairs": [
@@ -100,7 +100,7 @@
           "right": "-bro"
         },
         {
-          "left": "la-",
+          "left": "lá-",
           "right": "-piz"
         },
         {

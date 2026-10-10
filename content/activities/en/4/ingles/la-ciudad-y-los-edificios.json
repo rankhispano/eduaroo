@@ -1,0 +1,249 @@
+{
+  "id": "g4-ingles-la-ciudad-y-los-edificios",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "la-ciudad-y-los-edificios",
+  "temaNombre": "The Town and Its Buildings",
+  "title": "Exploring Our Town and Buildings",
+  "summary": "Practise words for town buildings and describe them in English.",
+  "keyIdeas": [
+    "Use 'there is' for one place and 'there are' for several places.",
+    "Buildings have different uses: read books in a library and buy bread in a bakery.",
+    "Use 'next to', 'opposite' and 'between' to describe where buildings are."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-01",
+      "type": "match",
+      "prompt": "Match each building with what you can do there.",
+      "explanation": "You can read and borrow books at a library, watch films at a cinema, see a doctor at a hospital and buy bread at a bakery.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Library",
+          "right": "Read and borrow books"
+        },
+        {
+          "left": "Cinema",
+          "right": "Watch new films"
+        },
+        {
+          "left": "Hospital",
+          "right": "See a doctor"
+        },
+        {
+          "left": "Bakery",
+          "right": "Buy fresh bread"
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-02",
+      "type": "choice",
+      "prompt": "Aisha needs to buy apples, milk and rice for dinner. Where does she go? 🍎",
+      "explanation": "A supermarket sells food and things for the home.",
+      "hint": "Think of a large shop that sells food.",
+      "lang": "en",
+      "options": [
+        "To the supermarket",
+        "To the cinema",
+        "To the police station"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-03",
+      "type": "true-false",
+      "prompt": "You can borrow storybooks and study quietly at the fire station.",
+      "explanation": "False. A library is the place to borrow books and study quietly. A fire station is where firefighters work.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-04",
+      "type": "fill-blank",
+      "prompt": "Choose the correct word to complete the sentence.",
+      "explanation": "Use 'There is' with one thing: 'a big park'. For several parks, use 'There are'.",
+      "hint": "The sentence describes one park.",
+      "lang": "en",
+      "sentence": "There ___ a big park with swings near my school.",
+      "options": [
+        "is",
+        "are",
+        "have"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-05",
+      "type": "classify",
+      "prompt": "Sort these places by their main use in this activity.",
+      "explanation": "A cinema, park and museum are places to enjoy activities. A supermarket, bakery and bookshop are shops where you buy things.",
+      "lang": "en",
+      "categories": [
+        "Places to have fun",
+        "Places to buy things"
+      ],
+      "items": [
+        {
+          "text": "Cinema",
+          "category": 0
+        },
+        {
+          "text": "Supermarket",
+          "category": 1
+        },
+        {
+          "text": "Park",
+          "category": 0
+        },
+        {
+          "text": "Bakery",
+          "category": 1
+        },
+        {
+          "text": "Museum",
+          "category": 0
+        },
+        {
+          "text": "Bookshop",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-06",
+      "type": "choice",
+      "prompt": "Omar sees smoke coming from a window. He tells an adult. Which emergency workers put out fires? 🚒",
+      "explanation": "Firefighters put out fires. In an emergency in Spain, call 112 and follow an adult's help.",
+      "hint": "Choose the English word for 'bomberos'.",
+      "lang": "en",
+      "options": [
+        "Librarians",
+        "Firefighters",
+        "Museum guides"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-07",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the preposition meaning 'in the middle of two places'.",
+      "explanation": "Use 'between' for something in the middle of two places, such as the school and the library.",
+      "hint": "There is a building on each side of the bakery.",
+      "lang": "en",
+      "sentence": "The bakery is ___ the school and the library.",
+      "options": [
+        "behind",
+        "between",
+        "under"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-08",
+      "type": "order",
+      "prompt": "Put the words in order to make a correct sentence.",
+      "explanation": "For the plural, start with 'There are', followed by the number, adjective, building and place: 'There are two modern museums here.'",
+      "lang": "en",
+      "items": [
+        "There",
+        "are",
+        "two",
+        "modern",
+        "museums",
+        "here."
+      ]
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-09",
+      "type": "reading",
+      "prompt": "Read the text about Lucía's town and answer the questions.",
+      "explanation": "Find the buildings and the activities Lucía describes in her town.",
+      "lang": "en",
+      "title": "My Town: Greenhill",
+      "text": "Hello! My name is Lucía and I live in Greenhill. Greenhill is a small and quiet town. In my town, there is a big school with a colourful playground. Next to the school, there is a bakery. The baker makes delicious cakes and warm bread every morning. Opposite the bakery, you can find a quiet library. I often go there on Fridays to read adventure books. We also have a lovely park with green trees and flowers. In the centre, there is a hospital and a police station. I love my town because everything is close and people are friendly.",
+      "questions": [
+        {
+          "prompt": "What building is directly opposite the bakery?",
+          "explanation": "The text places the quiet library opposite the bakery.",
+          "options": [
+            "The hospital",
+            "The police station",
+            "The quiet library"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why does Lucía visit the library on Fridays?",
+          "explanation": "Lucía goes there on Fridays to read adventure books.",
+          "options": [
+            "To read adventure books",
+            "To buy warm bread",
+            "To play with friends"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-la-ciudad-y-los-edificios-10",
+      "type": "choice",
+      "prompt": "Hugo leaves the cinema. He walks past the park and stops to take a train to visit his cousins. Where is he? 🚆",
+      "explanation": "To take a train, go to the train station.",
+      "hint": "This is the place where trains leave from.",
+      "lang": "en",
+      "options": [
+        "At the museum",
+        "At the swimming pool",
+        "At the train station"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:10:44.467Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:20:49.430Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "849d7c4db400c849a10dc880e4bddc607398896c18c61998084df289b53991a0",
+      "validation": "manual-review"
+    }
+  }
+}

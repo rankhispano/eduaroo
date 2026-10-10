@@ -1,0 +1,258 @@
+{
+  "id": "g4-lengua-la-obra-de-teatro",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "la-obra-de-teatro",
+  "temaNombre": "The Play",
+  "title": "Raise the Theatre Curtain!",
+  "summary": "Practise the parts of a Spanish play script, including dialogue and stage directions.",
+  "keyIdeas": [
+    "In plays, characters communicate through dialogue and actions.",
+    "Stage directions guide gestures and movements. In these scripts, they appear in brackets.",
+    "Plays can be organised into acts and scenes."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "4.1",
+      "4.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "C. Educación literaria"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-la-obra-de-teatro-01",
+      "type": "choice",
+      "prompt": "What are the stage directions in brackets in a play script used for?",
+      "explanation": "Stage directions tell actors how to move or express themselves on stage.",
+      "hint": "Look at the notes in brackets in the script.",
+      "lang": "en",
+      "options": [
+        "They describe actors' gestures, movements or tone of voice.",
+        "They are lines the actors must shout very loudly.",
+        "They contain the names of the audience members."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-02",
+      "type": "true-false",
+      "prompt": "In a play, a narrator always tells us everything the characters do.",
+      "explanation": "False. A play can show its story through characters' dialogue and actions without a narrator.",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-03",
+      "type": "fill-blank",
+      "prompt": "This script divides scenes when characters enter or leave. Complete the Spanish sentence.",
+      "explanation": "In this common way of organising a script, entrances and exits mark the scene divisions.",
+      "lang": "en",
+      "sentence": "En este guion, cada entrada o salida de un personaje inicia una nueva ___.",
+      "options": [
+        "canción",
+        "escena",
+        "butaca"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-04",
+      "type": "match",
+      "prompt": "Match each theatre term with its main role.",
+      "explanation": "People and resources have different roles in preparing a theatre performance.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Playwright",
+          "right": "Writes the text of the play."
+        },
+        {
+          "left": "Director",
+          "right": "Guides the actors and organises the production."
+        },
+        {
+          "left": "Scenery",
+          "right": "Decorates the stage and creates its setting."
+        },
+        {
+          "left": "Dialogue",
+          "right": "Conversation between two or more characters."
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-05",
+      "type": "classify",
+      "prompt": "Sort each Spanish fragment into Dialogue or Stage Direction.",
+      "explanation": "Dialogue contains the words actors say. The stage directions here describe actions in brackets.",
+      "lang": "en",
+      "categories": [
+        "Dialogue",
+        "Stage Direction"
+      ],
+      "items": [
+        {
+          "text": "¡Rápido, esconde la llave en el cofre!",
+          "category": 0
+        },
+        {
+          "text": "(Señala hacia la ventana con ojos asustados)",
+          "category": 1
+        },
+        {
+          "text": "¿Quién ha encendido la luz del pasillo?",
+          "category": 0
+        },
+        {
+          "text": "(Sale de puntillas por la puerta izquierda)",
+          "category": 1
+        },
+        {
+          "text": "Buenos días a todos los viajeros.",
+          "category": 0
+        },
+        {
+          "text": "(Baja la voz y mira fijamente el reloj)",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-06",
+      "type": "reading",
+      "prompt": "Read this Spanish school play extract and answer the questions.",
+      "explanation": "A play script gives information through both spoken words and stage directions.",
+      "lang": "en",
+      "title": "El mapa del desván",
+      "text": "(Entran Lucía y Omar al desván a oscuras. Omar lleva una linterna parpadeante).\nLUCÍA: (Temblando) Hace mucho frío aquí arriba, Omar. ¿Seguro que el abuelo guardó el mapa en este baúl?\nOMAR: (Abriendo la tapa con esfuerzo) ¡Completamente seguro! Mira, entre estos periódicos viejos... ¡aquí está!\nLUCÍA: (Da un salto de alegría) ¡Lo encontramos! Pero espera... ¿qué significa esa cruz roja junto al molino?\nOMAR: (Mira el dibujo muy pensativo) Es el escondite secreto. ¡Rápido, vamos al jardín antes de que anochezca!\n(Los dos niños salen corriendo mientras baja lentamente el telón).",
+      "questions": [
+        {
+          "prompt": "What does Omar carry to light up the attic?",
+          "explanation": "The first stage direction says Omar carries a flickering torch.",
+          "options": [
+            "A flickering torch.",
+            "A scented candle.",
+            "An oil lamp."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How do we know Lucía feels cold at the start of the scene?",
+          "explanation": "The stage direction «(Temblando)» tells us that she is shivering.",
+          "options": [
+            "Because Omar offers her a thick blanket.",
+            "Because a narrator says so through a microphone.",
+            "From the stage direction saying she is shivering."
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-07",
+      "type": "order",
+      "prompt": "Put the class's steps for preparing their play in order.",
+      "explanation": "First assign the parts, then rehearse, prepare the stage and costumes, and finally perform.",
+      "lang": "en",
+      "items": [
+        "Assign the characters' parts in the script.",
+        "Rehearse the dialogue and movements on stage.",
+        "Set up the scenery and put on the costumes.",
+        "Perform the play in front of the audience."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-08",
+      "type": "choice",
+      "prompt": "During rehearsal, Wei says this aloud: «Abriendo los brazos, ¡qué alegría verte!». What mistake did he make?",
+      "explanation": "«Abriendo los brazos» is a stage direction describing an action. The actor should perform it rather than say it to the audience.",
+      "hint": "Which part of the script should be acted rather than spoken?",
+      "lang": "en",
+      "options": [
+        "He spoke too quickly during the scene.",
+        "He forgot to say his character's dialogue.",
+        "He read aloud the stage direction he should have acted."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-09",
+      "type": "choice",
+      "prompt": "During a performance, the curtain falls and the scenery changes from a forest to a royal palace. Which main part of the play has ended?",
+      "explanation": "Acts are major divisions of a play. They are often separated by the curtain falling.",
+      "hint": "Choose the major division of a play.",
+      "lang": "en",
+      "options": [
+        "An act.",
+        "A rhyme.",
+        "A stanza."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-la-obra-de-teatro-10",
+      "type": "fill-blank",
+      "prompt": "The detective looks for a clue without attracting attention. Choose the suitable Spanish stage direction.",
+      "explanation": "Whispering and looking around fit a detective trying not to attract attention.",
+      "lang": "en",
+      "sentence": "DETECTIVE: ___ ¡He encontrado la huella misteriosa detrás del cuadro!",
+      "options": [
+        "(Bailando una jota muy alegre)",
+        "(Susurrando y mirando a los lados)",
+        "(Gritando a pleno pulmón)"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:47:56.869Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:23:50.021Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f23613d63b434e79c03cad0e98f0a0e7cfa073f60ed9d2cabf4923e2c3f94557",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "id": "g5-mates-porcentajes",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "porcentajes",
+  "temaNombre": "Percentages",
+  "title": "Exploring Percentages",
+  "summary": "Calculate simple percentages, connect them with fractions and use them in everyday situations. These exercises use decimal commas and dots for thousands.",
+  "keyIdeas": [
+    "A percentage expresses a number of parts out of every 100 equal parts of a total.",
+    "50% equals one half; 25% equals one quarter; 10% equals one tenth.",
+    "To find a percentage of an amount, multiply the amount by the percentage number and divide by 100."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Relaciones",
+      "A. Sentido numérico › Razonamiento proporcional",
+      "A. Sentido numérico › Educación financiera"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-porcentajes-01",
+      "type": "match",
+      "prompt": "Match each percentage with its fraction or part of a total.",
+      "explanation": "50/100 = 1/2; 25/100 = 1/4; 10/100 = 1/10; 100% is the whole.",
+      "hint": "Think of dividing 100 by 2, 4 and 10.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "50 %",
+          "right": "One half (1/2)"
+        },
+        {
+          "left": "25 %",
+          "right": "One quarter (1/4)"
+        },
+        {
+          "left": "10 %",
+          "right": "One tenth (1/10)"
+        },
+        {
+          "left": "100 %",
+          "right": "The whole total"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-porcentajes-02",
+      "type": "true-false",
+      "prompt": "25% of an amount is exactly one quarter of that amount.",
+      "explanation": "True. 25/100 simplifies to 1/4.",
+      "hint": "How many times does 25 fit into 100?",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-mates-porcentajes-03",
+      "type": "choice",
+      "prompt": "Omar wants to calculate 10% of €180 mentally. Which strategy and result are correct?",
+      "explanation": "10% = 1/10, so divide by 10: 180 ÷ 10 = €18.",
+      "hint": "10% is one part out of ten.",
+      "lang": "en",
+      "options": [
+        "Multiply 180 by 10 to get €1.800.",
+        "Subtract 10 from 180 to get €170.",
+        "Divide 180 by 10 to get €18."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-porcentajes-04",
+      "type": "fill-blank",
+      "prompt": "Complete the link between decimal, fraction and percentage.",
+      "explanation": "75/100 means 75 parts out of 100: decimal 0,75 and percentage 75%.",
+      "hint": "Look at the numerator of the fraction with denominator 100.",
+      "lang": "en",
+      "sentence": "The decimal 0,75 equals 75/100 and represents ___ of the total.",
+      "options": [
+        "75 %",
+        "7,5 %",
+        "0,75 %"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-porcentajes-05",
+      "type": "classify",
+      "prompt": "Sort these expressions by whether they equal 50% or 25%.",
+      "explanation": "50% equals 0,5 or 50/100. 25% equals 0,25, 1/4 or 25/100.",
+      "lang": "en",
+      "categories": [
+        "Equals 50%",
+        "Equals 25%"
+      ],
+      "items": [
+        {
+          "text": "Half of a group of people",
+          "category": 0
+        },
+        {
+          "text": "Fraction 1/4",
+          "category": 1
+        },
+        {
+          "text": "Decimal 0,5",
+          "category": 0
+        },
+        {
+          "text": "Fraction 25/100",
+          "category": 1
+        },
+        {
+          "text": "Decimal 0,25",
+          "category": 1
+        },
+        {
+          "text": "Fraction 50/100",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-porcentajes-06",
+      "type": "order",
+      "prompt": "Put the fraction-method steps for calculating 30% of €60 in order.",
+      "explanation": "Write the percentage over 100, multiply by its numerator and divide by 100.",
+      "hint": "Start by writing the percentage as a fraction.",
+      "lang": "en",
+      "items": [
+        "Write 30% as 30/100.",
+        "Multiply the starting amount by the numerator: 60 × 30 = 1.800.",
+        "Divide by the denominator: 1.800 ÷ 100 = €18."
+      ]
+    },
+    {
+      "id": "g5-mates-porcentajes-07",
+      "type": "choice",
+      "prompt": "Hugo wants 20% of €150 but writes '150 − 20 = €130'. What is wrong?",
+      "explanation": "A percentage is a proportion, not a fixed number of euros. 20% of €150 is (150 × 20) ÷ 100 = €30.",
+      "hint": "% means 'out of every hundred', not euros.",
+      "lang": "en",
+      "options": [
+        "Hugo's method is correct and the answer is €130.",
+        "He should add €20 rather than subtract it.",
+        "He subtracted 20 as euros instead of finding 20 parts out of every 100 of €150."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-porcentajes-08",
+      "type": "choice",
+      "prompt": "A €40 backpack has a 15% discount. What are the discount and final price?",
+      "explanation": "Discount: (40 × 15) ÷ 100 = €6. Final price: 40 − 6 = €34.",
+      "hint": "Find 15% of 40, then subtract the discount.",
+      "lang": "en",
+      "options": [
+        "Discount €15; final price €25.",
+        "Discount €4; final price €36.",
+        "Discount €6; final price €34."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-porcentajes-09",
+      "type": "choice",
+      "prompt": "Aisha's school has 200 pupils in the third cycle of Spanish Primary Education (grades 5 and 6). 60% join a chess tournament. How many take part?",
+      "explanation": "(200 × 60) ÷ 100 = 12.000 ÷ 100 = 120 pupils.",
+      "hint": "Multiply 200 by 60, then divide by 100.",
+      "lang": "en",
+      "options": [
+        "140 pupils.",
+        "60 pupils.",
+        "120 pupils."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-porcentajes-10",
+      "type": "choice",
+      "prompt": "Lucía wants a €20 adventure book. Shop A gives 25% off; shop B gives €6 off. Which offer has the lower final price?",
+      "explanation": "A gives €5 off, so the book costs €15. B gives €6 off, so it costs €14. B is cheaper.",
+      "hint": "Calculate and compare both final prices.",
+      "lang": "en",
+      "options": [
+        "Both offers give exactly the same price.",
+        "Offer A, because 25% always discounts more than a fixed amount.",
+        "Offer B: €14 compared with €15 under offer A."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:20:33.789Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:16:42.744Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "c6f15ce23cbd7a5c700f8815f4ead2566980a41048e087f23adf8a63cc570751",
+      "validation": "manual-review"
+    }
+  }
+}

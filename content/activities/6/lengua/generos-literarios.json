@@ -47,8 +47,8 @@
     {
       "id": "g6-lengua-generos-literarios-01",
       "type": "true-false",
-      "prompt": "En las obras de teatro o género dramático, la historia avanza mediante los diálogos de los personajes y no existe una figura de narrador que cuente los hechos.",
-      "explanation": "El género dramático se caracteriza por la ausencia de narrador. La acción se desarrolla a través de las intervenciones directas de los personajes y las acotaciones.",
+      "prompt": "Una obra teatral puede mostrar la historia mediante diálogos y acciones, sin necesitar un narrador.",
+      "explanation": "Es una forma habitual del teatro. Algunas obras también incorporan un narrador como recurso.",
       "lang": "es",
       "answer": true
     },
@@ -118,11 +118,11 @@
         },
         {
           "left": "Género lírico",
-          "right": "Versos, estrofas, ritmo y rima"
+          "right": "Expresión poética; puede usar versos, estrofas, ritmo y rima"
         },
         {
           "left": "Género dramático",
-          "right": "Actos, escenas, diálogos y acotaciones"
+          "right": "Diálogos y acotaciones para representar acciones"
         }
       ]
     },
@@ -230,7 +230,7 @@
       "id": "g6-lengua-generos-literarios-10",
       "type": "choice",
       "prompt": "Adrián quiere transformar este fragmento narrativo en un texto dramático: «La capitana miró fijamente el mapa, suspiró con cansancio y le ordenó al grumete que izara las velas de inmediato». ¿Cuál es la adaptación teatral correcta?",
-      "explanation": "En el género dramático se suprime el narrador: el nombre del personaje da paso a su parlamento directo y las acciones físicas o estados de ánimo se integran como acotaciones entre paréntesis.",
+      "explanation": "La adaptación convierte la orden en diálogo directo y las acciones de la capitana en acotaciones.",
       "lang": "es",
       "options": [
         "CAPITANA: (Mirando fijamente el mapa y suspirando con cansancio). ¡Iza las velas de inmediato, grumete!",

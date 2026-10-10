@@ -1,0 +1,248 @@
+{
+  "id": "g3-sociales-sector-primario",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "sector-primario",
+  "temaNombre": "The primary sector",
+  "title": "Discovering the primary sector",
+  "summary": "Review primary-sector activities that obtain resources from nature.",
+  "keyIdeas": [
+    "The primary sector includes jobs that obtain raw materials from nature.",
+    "It includes crop farming, livestock farming, fishing, forestry and mining.",
+    "Caring for soil, water and animals is essential for a sustainable planet."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-sector-primario-01",
+      "type": "true-false",
+      "prompt": "The primary sector includes jobs that obtain resources directly from nature.",
+      "explanation": "The primary sector uses natural resources to obtain food and raw materials.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-sociales-sector-primario-02",
+      "type": "choice",
+      "prompt": "Which job belongs to the primary sector?",
+      "explanation": "Crop farming is part of the primary sector because it grows plants on the land.",
+      "hint": "Think about who obtains products directly from the land.",
+      "lang": "en",
+      "options": [
+        "Schoolteacher",
+        "Car mechanic",
+        "Crop farmer"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-sector-primario-03",
+      "type": "match",
+      "prompt": "Match each primary-sector activity to what it produces.",
+      "explanation": "Each part of the primary sector obtains different products from nature.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Livestock farming",
+          "right": "Milk and wool"
+        },
+        {
+          "left": "Fishing",
+          "right": "Sardines and octopus"
+        },
+        {
+          "left": "Crop farming",
+          "right": "Wheat and apples"
+        },
+        {
+          "left": "Forestry",
+          "right": "Wood from forests"
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-sector-primario-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about types of crop farming.",
+      "explanation": "Rain-fed crops receive no artificial irrigation and use rainwater. Olives and wheat can also be grown with irrigation.",
+      "lang": "en",
+      "sentence": "___ crops receive water only from rain.",
+      "options": [
+        "Irrigated",
+        "Greenhouse-grown",
+        "Rain-fed"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-sector-primario-05",
+      "type": "classify",
+      "prompt": "Sort these animals by their livestock group.",
+      "explanation": "Sheep include ewes and lambs. Pigs include adult pigs and piglets. Cattle include cows and bulls.",
+      "lang": "en",
+      "categories": [
+        "Sheep",
+        "Pigs",
+        "Cattle"
+      ],
+      "items": [
+        {
+          "text": "Ewe",
+          "category": 0
+        },
+        {
+          "text": "Adult pig",
+          "category": 1
+        },
+        {
+          "text": "Cow",
+          "category": 2
+        },
+        {
+          "text": "Lamb",
+          "category": 0
+        },
+        {
+          "text": "Bull",
+          "category": 2
+        },
+        {
+          "text": "Piglet",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-sector-primario-06",
+      "type": "choice",
+      "prompt": "At the port's fish market, Hugo sees small boats working near the coast. What type of fishing is this?",
+      "explanation": "Inshore fishing takes place near the coast using small or medium-sized boats.",
+      "hint": "The boats work close to shore and usually return the same day.",
+      "lang": "en",
+      "options": [
+        "Deep-sea fishing",
+        "Underwater fishing",
+        "Inshore fishing"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-sector-primario-07",
+      "type": "order",
+      "prompt": "Put the steps in order, from planting a lettuce to bringing it to your table.",
+      "explanation": "First, the plant is grown and cared for. Then it is harvested, transported and bought to eat.",
+      "lang": "en",
+      "items": [
+        "The farmer sows the seed in the field",
+        "The plant grows using water and nutrients from the soil",
+        "Mature lettuces are harvested",
+        "A lorry takes the lettuces to the greengrocer's",
+        "Your family buys the lettuce for a salad"
+      ]
+    },
+    {
+      "id": "g3-sociales-sector-primario-08",
+      "type": "choice",
+      "prompt": "Lucía visits a farm where sheep graze across large fields. Which type of livestock farming is this?",
+      "explanation": "Extensive farming uses large areas of land and pasture. Simply letting hens outdoors is not enough to define a farm as extensive.",
+      "hint": "The animals have large areas outdoors.",
+      "lang": "en",
+      "options": [
+        "Extensive livestock farming",
+        "Intensive livestock farming",
+        "Industrial livestock farming"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-sociales-sector-primario-09",
+      "type": "reading",
+      "prompt": "Read about Omar's school garden and answer the questions.",
+      "explanation": "Compost adds nutrients to soil. Gardeners choose methods and products that protect the garden and its living things.",
+      "lang": "en",
+      "title": "The school's organic garden",
+      "text": "Omar's class cares for an organic garden in the playground. This year, they planted tomatoes, carrots and broad beans. They collect rainwater in two large barrels for watering. They also make compost from leftover break-time fruit and use it as natural fertiliser. They avoid products that could harm earthworms and bees. Their work gives them fresh vegetables and teaches them to care for the soil.",
+      "questions": [
+        {
+          "prompt": "Where does Omar's class get fertiliser for the soil?",
+          "explanation": "They make compost from leftover break-time fruit.",
+          "options": [
+            "From dry leaves in a nearby park",
+            "From a shop selling chemical fertilisers",
+            "From leftover break-time fruit made into compost"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why do they avoid products that could harm animals in the garden?",
+          "explanation": "They want to protect earthworms and bees. Water and compost are also made of chemical substances, so chemical does not automatically mean harmful.",
+          "options": [
+            "To protect bees and soil earthworms",
+            "Rainwater cannot be mixed with those products",
+            "Broad beans grow more slowly with fertiliser"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-sector-primario-10",
+      "type": "choice",
+      "prompt": "A farming cooperative uses less water with drip irrigation than by flooding fields. Why is this helpful?",
+      "explanation": "Drip irrigation delivers water near the roots and helps reduce waste.",
+      "hint": "Think about caring for water as a valuable resource.",
+      "lang": "en",
+      "options": [
+        "It makes plants grow without sunlight",
+        "It lets farmers flood nearby roads",
+        "It saves water and protects a limited natural resource"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:55:32.464Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:28:46.930Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "0aac5c9a460a2ad8ea50619daa9c12487369d4aa88aaf6db1da9f154a0244aca",
+      "validation": "manual-review"
+    }
+  }
+}

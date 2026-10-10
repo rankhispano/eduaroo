@@ -49,8 +49,8 @@
     {
       "id": "g6-sociales-problemas-actuales-del-mundo-01",
       "type": "true-false",
-      "prompt": "El acceso al agua potable y al saneamiento es un derecho universal garantizado hoy para todos los habitantes del planeta.",
-      "explanation": "Por desgracia, miles de millones de personas en el mundo todavía carecen de acceso seguro a agua potable y saneamiento básico en sus hogares.",
+      "prompt": "Todas las personas del planeta disponen ya de agua potable y saneamiento seguro en sus hogares.",
+      "explanation": "El agua potable y el saneamiento son derechos humanos reconocidos, pero el acceso efectivo aún no llega a todas las personas.",
       "lang": "es",
       "answer": false
     },
@@ -126,9 +126,9 @@
       "id": "g6-sociales-problemas-actuales-del-mundo-05",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre la desigualdad laboral en el mundo:",
-      "explanation": "La brecha salarial de género es una muestra de desigualdad económica persistente que la comunidad internacional busca erradicar.",
+      "explanation": "La brecha salarial compara ingresos medios. Puede reflejar varios factores, como los puestos ocupados, las jornadas o la discriminación; no mide solo el pago por un mismo trabajo.",
       "lang": "es",
-      "sentence": "La diferencia media entre los ingresos que reciben hombres y mujeres por realizar trabajos de igual valor se conoce como ___ salarial.",
+      "sentence": "La diferencia entre los ingresos medios de mujeres y hombres en el trabajo se conoce como ___ salarial.",
       "options": [
         "frontera",
         "tasa",
@@ -140,28 +140,28 @@
       "id": "g6-sociales-problemas-actuales-del-mundo-06",
       "type": "reading",
       "prompt": "Lee el siguiente informe sobre los retos del agua y responde a las preguntas:",
-      "explanation": "Los problemas medioambientales y sociales están estrechamente unidos: cuidar el planeta es imprescindible para mantener la paz y la justicia social.",
+      "explanation": "La escasez de agua puede afectar al entorno y a la vida de las personas. Sus consecuencias dependen también de cómo se gestiona y se comparte.",
       "lang": "es",
-      "title": "La batalla invisible por el agua dulce",
-      "text": "En muchas regiones del mundo, el agua dulce se ha convertido en un recurso tan valioso como escaso. El lago Chad, en África, ha reducido su superficie más de un noventa por ciento en las últimas décadas debido a la sobreexplotación agrícola y al descenso continuado de las precipitaciones provocado por el cambio climático. Alrededor de este lago viven más de treinta millones de personas pertenecientes a cuatro países diferentes que dependen directamente de su pesca y de su riego. La paulatina desaparición del agua no solo destruye el ecosistema, sino que ha desatado disputas entre comunidades de agricultores y pastores nómadas por acceder a los pozos existentes. Muchos jóvenes se ven forzados a emigrar a ciudades superpobladas sin servicios suficientes. Para los expertos, este caso demuestra que el deterioro ambiental no es únicamente un asunto de naturaleza, sino el origen de tensiones sociales, pobreza y migraciones involuntarias que exigen pactos de cooperación internacional.",
+      "title": "Agua, convivencia y cooperación",
+      "text": "El acceso al agua potable y al saneamiento es un derecho humano, pero muchas comunidades aún carecen de estos servicios. En regiones con sequías, las cosechas, el ganado y la salud pueden verse afectados. La extracción excesiva y la contaminación agravan la escasez.\n\nCuando diferentes comunidades dependen de los mismos pozos o ríos, la falta de acuerdos puede crear tensiones. Algunas familias tienen que desplazarse para encontrar medios de vida. Sin embargo, una sequía no provoca necesariamente un conflicto: las decisiones políticas, la cooperación y las desigualdades también influyen.\n\nProteger las fuentes, mejorar el suministro y acordar un reparto justo ayuda a afrontar el problema. Este ejemplo muestra que los retos ambientales y sociales están relacionados y necesitan soluciones compartidas.",
       "questions": [
         {
-          "prompt": "¿Qué factor principal ha reducido la superficie del lago Chad según el texto?",
-          "explanation": "El texto señala que el lago se redujo más de un noventa por ciento por la sobreexplotación agrícola y la bajada de lluvias ligada al clima.",
+          "prompt": "¿Qué factores pueden agravar la escasez de agua, según el texto?",
           "options": [
-            "La sobreexplotación agrícola y el cambio climático",
-            "La llegada masiva de turistas internacionales",
-            "La construcción masiva de embalses hidroeléctricos"
+            "Las sequías, la extracción excesiva y la contaminación",
+            "La lectura de noticias en el colegio",
+            "La cooperación para proteger las fuentes"
           ],
-          "answer": 0
+          "answer": 0,
+          "explanation": "El texto menciona esos tres factores como dificultades para disponer de agua."
         },
         {
-          "prompt": "De la lectura se deduce que los conflictos locales por el agua surgen principalmente porque...",
-          "explanation": "Al reducirse un recurso vital como el agua, los diferentes grupos compiten por los pocos pozos disponibles para sobrevivir.",
+          "prompt": "¿Qué puede ayudar a evitar tensiones cuando varias comunidades comparten el agua?",
+          "explanation": "La cooperación y el reparto justo ayudan a afrontar la escasez.",
           "options": [
-            "las comunidades prefieren comerciar con agua en lugar de alimentos",
-            "los recursos básicos escasean y son insuficientes para todos los grupos",
-            "los países decidieron cerrar totalmente las fronteras fluviales"
+            "Impedir cualquier diálogo entre las comunidades",
+            "Llegar a acuerdos para proteger y repartir el recurso",
+            "Extraer toda el agua antes que las demás"
           ],
           "answer": 1
         },
@@ -181,11 +181,11 @@
       "id": "g6-sociales-problemas-actuales-del-mundo-07",
       "type": "choice",
       "prompt": "Aisha y Hugo descubren en clase que en el mundo se desperdician millones de toneladas de comida al año mientras millones de personas sufren desnutrición. ¿Qué refleja este dato sobre la alimentación global? 🍞",
-      "explanation": "Actualmente se produce alimento suficiente para toda la población mundial, pero la pobreza, la mala logística comercial y el desperdicio impiden que llegue a quienes más lo necesitan.",
-      "hint": "Fíjate en el contraste entre comida tirada a la basura y personas sin recursos para comprarla.",
+      "explanation": "Desperdiciar alimentos mientras otras personas tienen dificultades para acceder a ellos muestra un problema. La pobreza, los conflictos y la distribución pueden influir.",
+      "hint": "El dato muestra dos situaciones que ocurren al mismo tiempo.",
       "lang": "es",
       "options": [
-        "El problema principal no es la falta absoluta de comida, sino su desigual distribución y el desperdicio",
+        "Que el desperdicio y las dificultades de acceso a los alimentos pueden coexistir.",
         "El planeta ya no tiene tierra suficiente para producir alimentos para toda la humanidad",
         "Los países con hambre rechazan la ayuda y los alimentos producidos por otros continentes"
       ],
@@ -195,13 +195,12 @@
       "id": "g6-sociales-problemas-actuales-del-mundo-08",
       "type": "order",
       "prompt": "Ordena cronológicamente los pasos que suelen darse ante una crisis humanitaria provocada por una catástrofe natural:",
-      "explanation": "Primero ocurre la emergencia imprevista, luego se envía socorro vital urgente, después se asegura el refugio y finalmente se trabaja en la reconstrucción.",
+      "explanation": "La evaluación orienta la ayuda inmediata. El alojamiento y el suministro pueden organizarse a la vez; la reconstrucción suele requerir más tiempo.",
       "lang": "es",
       "items": [
-        "Ocurre un fenómeno extremo que destruye viviendas y servicios básicos",
-        "Organizaciones humanitarias envían ayuda de emergencia con agua, comida y medicinas",
-        "Se abren campos de acogida temporal para proteger a las familias damnificadas",
-        "Se inician planes de reconstrucción a largo plazo de escuelas, hospitales y viviendas"
+        "Evaluar los daños y las necesidades inmediatas de las personas",
+        "Organizar agua, alimentos, atención médica y alojamiento de emergencia",
+        "Reconstruir servicios y viviendas y preparar medidas para futuras emergencias"
       ]
     },
     {
@@ -216,7 +215,7 @@
       ],
       "items": [
         {
-          "text": "Elegir productos de comercio justo que garanticen salarios dignos",
+          "text": "Elegir comercio justo que promueva pagos y condiciones dignas",
           "category": 0
         },
         {

@@ -1,0 +1,268 @@
+{
+  "id": "g6-lengua-el-quijote",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "el-quijote",
+  "temaNombre": "Don Quijote",
+  "title": "Adventures with Don Quijote",
+  "summary": "Review the characters, adventures and main themes of Miguel de Cervantes's famous novel.",
+  "keyIdeas": [
+    "Don Quijote de la Mancha is a famous novel by Miguel de Cervantes that parodies tales of chivalry.",
+    "Don Quijote often represents ideals and justice, while Sancho Panza offers practical thinking, common sense and popular wisdom.",
+    "The novel combines humour with ideas about friendship, freedom and the contrast between imagination and everyday reality."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "8.1",
+      "4.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "C. Educación literaria",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-el-quijote-01",
+      "type": "choice",
+      "prompt": "Aisha organises the classics section of the school library. Who wrote Don Quijote de la Mancha, and when was its first part published?",
+      "explanation": "Miguel de Cervantes published the first part, El ingenioso hidalgo don Quijote de la Mancha, in 1605, during Spain's Golden Age.",
+      "hint": "He is one of the best-known Spanish writers of the Golden Age.",
+      "lang": "en",
+      "options": [
+        "Miguel de Cervantes Saavedra, in the early 17th century (1605)",
+        "Federico García Lorca, in the early 20th century",
+        "Félix Lope de Vega, in the late 18th century"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-quijote-02",
+      "type": "true-false",
+      "prompt": "In the novel, Alonso Quijano loses touch with reality and decides to become a knight-errant because of his passion for tales of chivalry.",
+      "explanation": "True within the story: Alonso Quijano confuses chivalric fiction with reality. This is a fictional device, not a real consequence of reading a lot.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-quijote-03",
+      "type": "match",
+      "prompt": "Match each character or element to its description.",
+      "explanation": "These figures accompany or inspire Don Quijote on his journeys through La Mancha.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Rocinante",
+          "right": "Don Quijote's thin, loyal horse"
+        },
+        {
+          "left": "Sancho Panza",
+          "right": "The loyal farmer and squire who travels on a donkey"
+        },
+        {
+          "left": "Dulcinea del Toboso",
+          "right": "The idealised lady to whom the knight dedicates his achievements"
+        },
+        {
+          "left": "Rucio",
+          "right": "The donkey ridden by Sancho Panza"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-quijote-04",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence about a famous adventure in the novel.",
+      "explanation": "Don Quijote sees giants where there are windmills and mistakes their sails for arms. The chapter does not identify a specific town as the location.",
+      "lang": "en",
+      "sentence": "Don Quijote confunde los molinos de viento con temibles ___ de largos brazos a los que decide desafiar en combate.",
+      "options": [
+        "hechiceros",
+        "dragones",
+        "gigantes"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-quijote-05",
+      "type": "classify",
+      "prompt": "Sort these traits and story details by whether they describe Don Quijote or Sancho Panza.",
+      "explanation": "Their outlooks complement each other: Don Quijote's dreaming idealism contrasts with Sancho's practical thinking.",
+      "lang": "en",
+      "categories": [
+        "Don Quijote",
+        "Sancho Panza"
+      ],
+      "items": [
+        {
+          "text": "Follows noble ideals, honour and fantasy",
+          "category": 0
+        },
+        {
+          "text": "Uses popular sayings and hopes for practical rewards, such as an island to govern",
+          "category": 1
+        },
+        {
+          "text": "Mistakes humble roadside inns for grand castles",
+          "category": 0
+        },
+        {
+          "text": "Warns his master about reality using common sense",
+          "category": 1
+        },
+        {
+          "text": "Rides a thin, old horse called Rocinante",
+          "category": 0
+        },
+        {
+          "text": "Travels on a donkey he cares for affectionately",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-quijote-06",
+      "type": "order",
+      "prompt": "Adrián summarises the windmill episode in Spanish. Put the events in order.",
+      "explanation": "Don Quijote sees the windmills, ignores Sancho's warning, attacks, falls and then blames an enemy enchanter.",
+      "lang": "en",
+      "items": [
+        "Don Quijote divisa los molinos de viento en el campo y cree que son gigantes malvados.",
+        "Sancho Panza le advierte de que solo son molinos con aspas que mueve el viento.",
+        "Don Quijote se encomienda a su amada Dulcinea y embiste al primer molino a galope.",
+        "El viento mueve el aspa con fuerza, rompe la lanza y derriba al caballero y a Rocinante.",
+        "Don Quijote afirma que el sabio Frestón ha transformado los gigantes en molinos para quitarle la victoria."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-quijote-07",
+      "type": "choice",
+      "prompt": "Hugo writes three statements about Don Quijote for a display. Which one contains a mistake about the story?",
+      "explanation": "An innkeeper at a humble inn makes Don Quijote a knight in a comic ceremony. Don Quijote imagines that the inn is a castle.",
+      "hint": "Who makes him a knight, and where does it happen?",
+      "lang": "en",
+      "options": [
+        "Don Quijote mistakes flocks of sheep for two powerful armies fighting a battle.",
+        "Sancho Panza joins Don Quijote hoping to become governor of an island.",
+        "The king of Spain formally makes Don Quijote a knight in a grand royal palace."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-quijote-08",
+      "type": "reading",
+      "prompt": "Read the Spanish text about Don Quijote's journey and answer the questions.",
+      "explanation": "The text describes Don Quijote's aims and the beginnings of his friendship with Sancho Panza.",
+      "lang": "en",
+      "title": "El ideal de Don Quijote",
+      "text": "En un rincón de La Mancha, Alonso Quijano pasaba los días y las noches sumergido en relatos de caballeros andantes, princesas encantadas y batallas heroicas. Tanto leyó que su imaginación transformó su modesta realidad. Decidió limpiar unas viejas armas oxidadas de sus bisabuelos, montar a su flaco rocín y salir a los caminos bajo el nombre de Don Quijote de la Mancha. Su propósito no era enriquecerse con dinero ni conquistar tierras para sí mismo, sino defender a los indefensos, enderezar entuertos y lograr que el mundo fuera un lugar más noble y justo. Aunque en su aldea pensaban que había perdido la cabeza, Don Quijote emprendió su viaje guiado por un ideal inquebrantable. A su lado marchaba Sancho, un vecino bondadoso que, pese a dudar de sus visiones, aprendió a admirar la generosidad y el gran corazón de su señor.",
+      "questions": [
+        {
+          "prompt": "What is Don Quijote's main aim when he sets out as a knight-errant?",
+          "explanation": "The text says he wants to protect those in need and make the world more just, rather than become rich.",
+          "options": [
+            "To protect the defenceless and seek justice.",
+            "To gain riches and collect gold for his family.",
+            "To buy new land in La Mancha."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What can we infer about Sancho's relationship with Don Quijote?",
+          "explanation": "Although Sancho doubts his master's fantasies, he comes to admire his generosity and kindness.",
+          "options": [
+            "Sancho only follows him to laugh at him.",
+            "Despite Don Quijote's confused view of reality, Sancho values his kindness and noble spirit.",
+            "Sancho believes the inns are castles with drawbridges."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which value does this portrayal of Don Quijote offer readers today?",
+          "explanation": "This portrayal values noble dreams and the pursuit of justice despite difficulties.",
+          "options": [
+            "Working towards noble and just ideals can be valuable even when reality makes it difficult.",
+            "People should not read books because books confuse them.",
+            "The only important thing in life is collecting possessions."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-quijote-09",
+      "type": "choice",
+      "prompt": "Martina and Omar discuss Cervantes's purpose in their reading club. Which literary approach is central to the novel?",
+      "explanation": "Cervantes uses parody and irony to make a humorous criticism of the exaggerations in tales of chivalry.",
+      "hint": "Think about humorous imitation of medieval heroes.",
+      "lang": "en",
+      "options": [
+        "Humorous parody of the exaggerated tales of chivalry of the time.",
+        "Tragic drama to frighten readers about travelling on roads.",
+        "A medieval fairy tale praising the magical powers of enchanters."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-el-quijote-10",
+      "type": "fill-blank",
+      "prompt": "Complete the meaning of this Spanish expression inspired by the novel.",
+      "explanation": "The expression refers to Don Quijote's mistake and can describe futile struggles against imaginary opponents or problems.",
+      "lang": "en",
+      "sentence": "Cuando decimos que alguien 'lucha contra molinos de viento', significa que se enfrenta a ___ que no existen en la realidad o que no puede vencer.",
+      "options": [
+        "dificultades muy sencillas",
+        "enemigos o problemas imaginarios",
+        "personas justas y amables"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:25:08.172Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:42:06.233Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "627f7388f651b4ceb21434855da003f15ab3c7a1b55e1467e8c905721f88efe2",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -8,7 +8,7 @@
   "summary": "Practica cómo reconocer, crear y comprobar fracciones equivalentes en divertidas situaciones cotidianas.",
   "keyIdeas": [
     "Dos fracciones son equivalentes cuando representan la misma parte de la unidad.",
-    "Para obtener fracciones equivalentes, multiplica o divide el numerador y el denominador por el mismo número.",
+    "Multiplicar o dividir numerador y denominador por el mismo número distinto de cero conserva el valor de la fracción.",
     "Al multiplicar en cruz los términos de dos fracciones equivalentes, obtienes el mismo resultado."
   ],
   "lomloe": {
@@ -149,7 +149,7 @@
       "id": "g4-mates-fracciones-equivalentes-06",
       "type": "choice",
       "prompt": "Hugo intentó buscar una fracción equivalente a 3/5 y escribió 4/6. ¿Qué error cometió?",
-      "explanation": "Hugo sumó 1 arriba y abajo (3 + 1 = 4 y 5 + 1 = 6). Para conseguir fracciones equivalentes se debe multiplicar, nunca sumar.",
+      "explanation": "Sumar 1 arriba y abajo no conserva el valor en este caso: 3/5 y 4/6 no son equivalentes. Multiplicar ambos términos por el mismo número distinto de cero sí conserva el valor.",
       "hint": "Fíjate en qué operación hizo Hugo con el 3 y el 5.",
       "lang": "es",
       "options": [
@@ -163,12 +163,12 @@
       "id": "g4-mates-fracciones-equivalentes-07",
       "type": "order",
       "prompt": "Ordena los pasos para comprobar con productos cruzados si 2/3 y 4/6 son equivalentes:",
-      "explanation": "Primero multiplicamos en cruz ambos términos y después comparamos si dan el mismo resultado.",
+      "explanation": "Calculamos los dos productos y comparamos. El orden en que hagamos las dos multiplicaciones no cambia la comprobación.",
       "lang": "es",
       "items": [
-        "Multiplicar 2 × 6 para hallar el primer producto.",
-        "Multiplicar 3 × 4 para hallar el segundo producto.",
-        "Comprobar que ambos resultados son iguales (12 = 12)."
+        "Identificar los términos de las fracciones 2/3 y 4/6",
+        "Calcular los dos productos cruzados: 2 × 6 y 3 × 4",
+        "Comparar los resultados: ambos valen 12"
       ]
     },
     {
@@ -192,7 +192,7 @@
       "explanation": "Dividimos 4 ÷ 4 = 1 y 12 ÷ 4 = 3. La fracción simplificada equivalente es 1/3.",
       "hint": "Divide numerador y denominador entre 4.",
       "lang": "es",
-      "sentence": "En el huerto escolar, 4/12 de los bancales tienen lechugas. Si dividimos entre 4, equivale a ___ del huerto.",
+      "sentence": "En un huerto con 12 bancales iguales, 4/12 tienen lechugas. Al dividir numerador y denominador entre 4, equivalen a ___ del huerto.",
       "options": [
         "2/6",
         "1/4",

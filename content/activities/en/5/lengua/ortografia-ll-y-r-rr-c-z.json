@@ -1,0 +1,292 @@
+{
+  "id": "g5-lengua-ortografia-ll-y-r-rr-c-z",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "ortografia-ll-y-r-rr-c-z",
+  "temaNombre": "Spanish Spelling: LL/Y, R/RR and C/Z",
+  "title": "Spelling Masters",
+  "summary": "Practise Spanish ll/y, r/rr and c/z spellings in everyday words and texts.",
+  "keyIdeas": [
+    "The endings -illo and -illa use ll. Forms such as «leyó» and «cayó» use y even though their infinitives do not.",
+    "The strong r sound uses rr between vowels, but a single r at the start of a word or after l, n or s in these examples.",
+    "Examples include c in «cena/cine» and z in «zapato/zorro/zumo». Exceptions include «zeta». Nouns ending in -z usually form plurals in -ces."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC2",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD2",
+      "CD3",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-01",
+      "type": "choice",
+      "prompt": "Aisha prepares for art class. Which pair correctly completes «Tengo un ___ afilado y tres ___ de colores»? ✏️",
+      "explanation": "«Lápiz» becomes «lápices», changing z to c before e. Some other words use z before e, such as «zeta».",
+      "hint": "Remember how the singular ending changes in the plural.",
+      "lang": "en",
+      "options": [
+        "lápiz / lápizes",
+        "lápiz / lápices",
+        "lápis / lápises",
+        "lápice / lápizes"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-02",
+      "type": "true-false",
+      "prompt": "After l, n and s, the strong r sound must be written rr, as in «alrrededor» and «enrredo».",
+      "explanation": "False. These examples use one r: «alrededor», «enredo», «sonrisa» and «Israel».",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-03",
+      "type": "fill-blank",
+      "prompt": "Choose the correctly spelt Spanish word.",
+      "explanation": "The diminutive suffixes -illo and -illa use ll.",
+      "lang": "en",
+      "sentence": "Lucía guardó las llaves de la bicicleta en el ___ delantero de su mochila.",
+      "options": [
+        "bolsillo",
+        "bolsiyo",
+        "bolzillo"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-04",
+      "type": "classify",
+      "prompt": "Sort these words by whether their strong r sound uses r or rr.",
+      "explanation": "The strong sound uses r in «ratón», «alrededor» and «sonrisa». Between vowels, «carrera», «pelirrojo» and «pararrayos» use rr.",
+      "lang": "en",
+      "categories": [
+        "Strong sound with r",
+        "Strong sound with rr"
+      ],
+      "items": [
+        {
+          "text": "alrededor",
+          "category": 0
+        },
+        {
+          "text": "sonrisa",
+          "category": 0
+        },
+        {
+          "text": "ratón",
+          "category": 0
+        },
+        {
+          "text": "pelirrojo",
+          "category": 1
+        },
+        {
+          "text": "carrera",
+          "category": 1
+        },
+        {
+          "text": "pararrayos",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-05",
+      "type": "match",
+      "prompt": "Match each Spanish singular noun with its correct plural.",
+      "explanation": "In these words, the singular -z changes to plural -ces.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "antifaz",
+          "right": "antifaces"
+        },
+        {
+          "left": "luz",
+          "right": "luces"
+        },
+        {
+          "left": "cicatriz",
+          "right": "cicatrices"
+        },
+        {
+          "left": "avestruz",
+          "right": "avestruces"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-06",
+      "type": "choice",
+      "prompt": "Hugo writes four sentences in his trip diary. Which has a Spanish spelling error?",
+      "explanation": "The verb «caer» gives «cayó», meaning fell. «Calló» comes from «callar», meaning became silent.",
+      "hint": "Compare the meanings of «caer» and «callar».",
+      "lang": "en",
+      "options": [
+        "Adrián organizó un partido de baloncesto en el recreo.",
+        "Ayer el payaso se calló de la silla durante la función.",
+        "Mi tío Enrique coció unas ricas verduras en la cazuela.",
+        "El perro corrió veloz por la orilla del río."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-07",
+      "type": "fill-blank",
+      "prompt": "Complete with the correctly spelt past form of «leer».",
+      "explanation": "The form is «leyó», with y. It is stressed on the last syllable and ends in a vowel, so it also needs an accent mark.",
+      "lang": "en",
+      "sentence": "Ayer Martina ___ un cómic enterito antes de merendar.",
+      "options": [
+        "leyó",
+        "lelló",
+        "leyo"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-08",
+      "type": "reading",
+      "prompt": "Read the Spanish trip text and answer the questions.",
+      "explanation": "Notice the spellings while understanding the story.",
+      "lang": "en",
+      "title": "Aventura en el jardín botánico",
+      "text": "El pasado martes, el grupo de quinto visitó el jardín botánico con su maestra Nerea. Nada más cruzar la cancela de hierro, un suave olor a azahar y tierra mojada llenó el ambiente. Omar observó con atención un cartel de madera que señalaba el sendero de los helechos. Mientras caminaban en fila, un pájaro de plumaje brillante y pico rojizo se posó en una rama cercana.\n\nLucía sacó su libreta para anotar los detalles: descubrieron un estanque con diminutos peces de colores y una zona llena de calabacines y cebollas gigantes. De repente, una ráfaga de viento movió las hojas secas del suelo y todos oyeron un crujido misterioso. Al acercarse con cuidado entre los matorrales, descubrieron a un erizo enrollado junto a un castaño centenario. El jardinero Enrique les explicó que el animalillo buscaba refugio antes de que cayera la lluvia de la tarde.",
+      "questions": [
+        {
+          "prompt": "What animal did they discover among the bushes?",
+          "explanation": "The text describes a curled-up hedgehog among the bushes.",
+          "options": [
+            "A bird with a reddish beak.",
+            "A curled-up hedgehog.",
+            "Some colourful fish."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why did Enrique think the hedgehog was seeking shelter?",
+          "explanation": "Enrique suggests it was sheltering before rain. This is his explanation in the story; the observation does not prove that the animal predicted the weather.",
+          "options": [
+            "Because it was hungry and wanted chestnuts.",
+            "Because rain or a storm was approaching.",
+            "Because it was escaping the pupils' noise."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which spelling statement about «peces», «oyeron», «Enrique» and «animalillo» is correct?",
+          "explanation": "«Peces» is the plural of «pez», changing z to c. «Oyeron» is a form of «oír» with y. «Enrique» has a strong r after n.",
+          "options": [
+            "«Peces» uses c in the plural of «pez»; «oyeron» is a form of «oír» written with y.",
+            "«Enrique» has one r because its sound is weak.",
+            "«Animalillo» uses ll because it starts with a vowel."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-09",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by whether they use ll or y.",
+      "explanation": "«Folleto», «mantequilla» and «castillo» use ll. «Proyectil», «bueyes» and «desayuno» use y. Starting with fo- does not automatically require ll: compare «foto».",
+      "lang": "en",
+      "categories": [
+        "Written with ll",
+        "Written with y"
+      ],
+      "items": [
+        {
+          "text": "folleto",
+          "category": 0
+        },
+        {
+          "text": "mantequilla",
+          "category": 0
+        },
+        {
+          "text": "castillo",
+          "category": 0
+        },
+        {
+          "text": "proyectil",
+          "category": 1
+        },
+        {
+          "text": "bueyes",
+          "category": 1
+        },
+        {
+          "text": "desayuno",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-ortografia-ll-y-r-rr-c-z-10",
+      "type": "choice",
+      "prompt": "Which Spanish compound word is spelt correctly? 🧠",
+      "explanation": "When «rayos» follows «para», its initial strong r falls between vowels and is doubled: «pararrayos».",
+      "hint": "A strong r between vowels is written rr.",
+      "lang": "en",
+      "options": [
+        "para + rayos = pararroyos",
+        "para + rayos = pararayos",
+        "para + rayos = pararallos",
+        "para + rayos = pararrayos"
+      ],
+      "answer": 3,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T14:57:12.903Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:10:06.052Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "090dd7242da3c1f66eb06701d25396255bea311509ba80268d71b96799135532",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "id": "g6-sociales-la-guerra-civil-y-el-franquismo",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "la-guerra-civil-y-el-franquismo",
+  "temaNombre": "The Spanish Civil War and Franco’s dictatorship",
+  "title": "The Civil War and Franco’s dictatorship",
+  "summary": "Understand what happened between 1936 and 1975, how it affected people, and why peace and rights matter.",
+  "keyIdeas": [
+    "The Spanish Civil War began in July 1936 after a coup against the Second Republic. It ended on 1 April 1939.",
+    "The war caused deaths, destruction and family separations. Many people had to go into exile to find safety.",
+    "After the rebels won, Franco’s dictatorship spread across all of Spain. There were no free elections, and people opposing the regime were persecuted.",
+    "Food was scarce in the early post-war years. Women’s rights were also restricted, especially those of married women.",
+    "Franco died in 1975. During the Transition that followed, freedoms were restored and democratic elections were held in 1977."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE7",
+      "CE9"
+    ],
+    "criteria": [
+      "7.1",
+      "7.2",
+      "9.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CCL5",
+      "CE2",
+      "CPSAA1",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-la-guerra-civil-y-el-franquismo-01",
+      "type": "choice",
+      "prompt": "Which event started the Spanish Civil War in July 1936?",
+      "explanation": "Part of the army launched a coup against the Second Republic. The coup failed to take control of the whole country and led to war.",
+      "hint": "Think about what it means to try to seize power by force.",
+      "lang": "en",
+      "options": [
+        "A coup against the government of the Second Republic.",
+        "The proclamation of the Second Republic.",
+        "The death of Francisco Franco.",
+        "The first elections of the Transition."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-la-guerra-civil-y-el-franquismo-02",
+      "type": "true-false",
+      "prompt": "The Spanish Civil War lasted almost three years: from July 1936 to April 1939.",
+      "explanation": "True. It began in July 1936 and ended on 1 April 1939 with victory for the rebels, the group that had launched the coup.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-sociales-la-guerra-civil-y-el-franquismo-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about food distribution after the war.",
+      "explanation": "Ration cards showed how much food each person could receive. They were used in Spain between 1939 and 1952, when food was scarce.",
+      "lang": "en",
+      "sentence": "During food shortages, ration ___ were used to organise distribution.",
+      "options": [
+        "cards",
+        "ballot papers",
+        "work permits"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-la-guerra-civil-y-el-franquismo-04",
+      "type": "order",
+      "prompt": "Put these events in order, from earliest to latest.",
+      "explanation": "The Republic was proclaimed in 1931. The war began in 1936 and ended in 1939. The Republic continued in part of Spain during the war. Franco died in 1975, and democratic elections followed in 1977.",
+      "lang": "en",
+      "items": [
+        "Proclamation of the Second Republic",
+        "Coup and beginning of the Civil War",
+        "End of the war and spread of Franco’s dictatorship across all Spain",
+        "Death of Franco and beginning of the Transition",
+        "First democratic elections of the Transition"
+      ]
+    },
+    {
+      "id": "g6-sociales-la-guerra-civil-y-el-franquismo-05",
+      "type": "match",
+      "prompt": "Match each word to its meaning in this topic.",
+      "explanation": "These words help us understand how the war and dictatorship affected daily life and freedoms.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Exile",
+          "right": "Leaving for another country to escape persecution."
+        },
+        {
+          "left": "Censorship",
+          "right": "Controlling or banning news, books and opinions."
+        },
+        {
+          "left": "Rationing",
+          "right": "Limiting the amount of scarce products each person receives."
+        },
+        {
+          "left": "Dictatorship",
+          "right": "A government that concentrates power and does not allow free elections."
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-la-guerra-civil-y-el-franquismo-06",
+      "type": "classify",
+      "prompt": "Sort these features of Franco’s dictatorship and a democracy.",
+      "explanation": "Under Franco, power was concentrated and freedoms were limited. In a democracy, citizens can choose their representatives and express opinions while respecting other people’s rights.",
+      "lang": "en",
+      "categories": [
+        "Franco’s dictatorship",
+        "Democracy"
+      ],
+      "items": [
+        {
+          "text": "Ban opposition parties.",
+          "category": 0
+        },
+        {
+          "text": "Choose representatives in free elections.",
+          "category": 1
+        },
+        {
+          "text": "Censor news that criticises the government.",
+          "category": 0
+        },
+        {
+          "text": "Allow peaceful criticism of the government.",
+          "category": 1
+        },
+        {
+          "text": "Concentrate power in Franco’s hands.",
+          "category": 0
+        },
+        {
+          "text": "Separate the roles of making laws, governing and judging.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-la-guerra-civil-y-el-franquismo-07",
+      "type": "choice",
+      "prompt": "Martina studies women’s lives under Franco. Which statement is correct?",
+      "explanation": "Franco’s regime abolished divorce and restricted women’s independence. For much of the dictatorship, many married women needed their husband’s permission to work or sign contracts. This permission requirement was removed in May 1975.",
+      "hint": "Think about whether everyone could make the same decisions independently.",
+      "lang": "en",
+      "options": [
+        "All women kept the same legal independence as men.",
+        "The restrictions only affected voting in elections.",
+        "All restrictions disappeared when the war ended in 1939.",
+        "Their rights were limited; many married women needed their husband’s permission to work or sign contracts."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-sociales-la-guerra-civil-y-el-franquismo-08",
+      "type": "reading",
+      "prompt": "Read this fictional story, based on experiences of exile in 1939, and answer.",
+      "explanation": "The story is fictional. Many people’s exile to France and Mexico is a historical fact. To study real cases, we need documents and accounts from people who experienced them.",
+      "lang": "en",
+      "title": "Ramón’s letters",
+      "text": "Aisha and her grandfather Manuel found old letters in a suitcase. Manuel explained that Ramón, a relative who was a teacher, had written them. In February 1939, before the Civil War had ended, Ramón crossed the border into France. He feared persecution for his political ideas.\n\nIn France, he spent some time in a refugee camp. Later, he travelled to Mexico, where he could work as a teacher again. His letters described how he missed his village and family.\n\nAisha understood that war also affects people who do not fight: many lose their homes or must live far from loved ones. Her grandfather explained that keeping letters and listening to people’s accounts helps us learn about the past. Comparing these sources with other documents also helps us understand what happened.",
+      "questions": [
+        {
+          "prompt": "According to the story, why did Ramón leave for France?",
+          "explanation": "The text says he feared persecution for his political ideas. He left in February 1939, before the war ended in April.",
+          "options": [
+            "To visit relatives during the holidays.",
+            "To find safety from possible persecution.",
+            "Because he had already found a job before leaving."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What do the letters show about the effects of war?",
+          "explanation": "Ramón rebuilt his life, but missed his family and village. The war also had lasting effects on civilians.",
+          "options": [
+            "It only affected destroyed buildings.",
+            "People who left the country stopped remembering home.",
+            "It separated families and forced many people to live far from home."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What would be most useful when investigating a real case of exile?",
+          "explanation": "Letters and accounts describe personal experiences. Comparing them with documents from the time helps us check facts and understand the context.",
+          "options": [
+            "Compare real letters and accounts with other documents from the time.",
+            "Use this fictional story as proof of a real person’s life.",
+            "Draw conclusions about every family from just one letter."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-la-guerra-civil-y-el-franquismo-09",
+      "type": "choice",
+      "prompt": "People have different opinions at a school assembly. Which way of resolving the disagreement respects democratic life?",
+      "explanation": "Listening, talking and seeking agreements help resolve conflicts peacefully. Even when people vote, everyone’s rights must be respected.",
+      "hint": "A shared decision must also consider people who think differently.",
+      "lang": "en",
+      "options": [
+        "Vote and allow the majority to take away other people’s rights.",
+        "Always let just one person decide.",
+        "Stop people with different opinions from speaking.",
+        "Listen to opinions and seek an agreement that respects everyone’s rights."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-sociales-la-guerra-civil-y-el-franquismo-10",
+      "type": "choice",
+      "prompt": "A news report from 1965 says new factories opened in Spain. Does this prove the country was already a democracy?",
+      "explanation": "Economic growth in the 1960s did not end the dictatorship. To recognise a democracy, we must also look for free elections, rights and freedoms.",
+      "lang": "en",
+      "options": [
+        "Yes: opening factories means there are free elections.",
+        "No: an economy can grow while a dictatorship continues.",
+        "Yes: all economic changes end censorship."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:44:00.955Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T09:46:03.727Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "1d9401d06a8524c8dc151f0e11972a39d3a27d52dabd91c6a4b7d867a2c9ea7e"
+    }
+  }
+}

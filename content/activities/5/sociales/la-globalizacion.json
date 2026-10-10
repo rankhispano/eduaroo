@@ -167,7 +167,7 @@
       "explanation": "La lectura muestra cómo nuestras elecciones diarias de consumo se relacionan con el transporte mundial, la ecología y los derechos de las personas.",
       "lang": "es",
       "title": "La merienda global de Omar y Martina",
-      "text": "Durante una merienda en el colegio, Omar y Martina revisaron las etiquetas de sus alimentos. La manzana de Omar procedía de un valle cercano, a unos 40 kilómetros del colegio. Sin embargo, el plátano de Martina venía de una cooperativa con sello de comercio justo en Costa Rica, y la barrita de cereales indicaba ingredientes elaborados en tres países distintos. Intrigados, le preguntaron a su maestra por qué viajaba tanto la comida. Ella les explicó que la globalización nos permite acceder a productos de cualquier rincón de la Tierra, pero que los traslados a larga distancia consumen mucha energía y generan contaminación. Martina reflexionó entonces sobre la importancia de combinar el consumo de proximidad para proteger el entorno natural con el apoyo al comercio justo, que garantiza un salario digno a familias agricultoras de países lejanos.",
+      "text": "Durante una merienda en el colegio, Omar y Martina revisaron las etiquetas de sus alimentos. La manzana de Omar procedía de un valle cercano, a unos 40 kilómetros del colegio. Sin embargo, el plátano de Martina venía de una cooperativa con sello de comercio justo en Costa Rica, y la barrita de cereales indicaba ingredientes elaborados en tres países distintos. Intrigados, le preguntaron a su maestra por qué viajaba tanto la comida. Ella les explicó que la globalización nos permite acceder a productos de cualquier rincón de la Tierra, pero que los traslados a larga distancia consumen mucha energía y generan contaminación. Martina reflexionó entonces sobre la importancia de combinar el consumo de proximidad para proteger el entorno natural con el apoyo al comercio justo, que promueve condiciones y pagos más justos a familias agricultoras de países lejanos.",
       "questions": [
         {
           "prompt": "¿A qué distancia aproximada del colegio se cultivó la manzana de Omar?",
@@ -191,7 +191,7 @@
         },
         {
           "prompt": "A partir de la reflexión final de Martina, ¿cuál es una actitud responsable frente a la globalización alimentaria?",
-          "explanation": "Consumir alimentos de proximidad reduce la contaminación y elegir comercio justo asegura condiciones laborales dignas para quienes producen lejos de nuestro país.",
+          "explanation": "Los productos de proximidad pueden reducir el transporte. El comercio justo promueve condiciones laborales y pagos más justos.",
           "options": [
             "Comprar únicamente productos de importación sin tener en cuenta su procedencia ni su impacto",
             "Priorizar los productos locales y elegir comercio justo cuando compremos bienes de lugares lejanos",
@@ -206,7 +206,7 @@
       "type": "choice",
       "prompt": "Adrián quiere merendar fruta y busca reducir la contaminación producida por el transporte. En el mercado encuentra peras cultivadas en su comunidad y otras traídas en avión desde otro continente. ¿Qué opción es más coherente con un estilo de vida sostenible?",
       "explanation": "El consumo de proximidad reduce la quema de combustibles fósiles en el transporte y apoya la economía local.",
-      "hint": "Menor distancia de viaje implica menos contaminación por transporte.",
+      "hint": "Compara el transporte local con el vuelo entre continentes.",
       "lang": "es",
       "options": [
         "Elegir las peras locales de su comunidad para evitar las emisiones del transporte lejano",
@@ -226,7 +226,7 @@
     {
       "id": "g5-sociales-la-globalizacion-10",
       "type": "choice",
-      "prompt": "En la economía global, algunas personas trabajan muchas horas por salarios muy bajos y sin medidas de seguridad. ¿Qué iniciativa busca garantizar precios dignos a los productores y respeto por los derechos humanos y el medioambiente?",
+      "prompt": "En la economía global, algunas personas trabajan muchas horas por salarios muy bajos y sin medidas de seguridad. ¿Qué iniciativa busca promover precios dignos a los productores y respeto por los derechos humanos y el medioambiente?",
       "explanation": "El comercio justo es un modelo comercial solidario que promueve salarios dignos, igualdad de género, erradicación del trabajo infantil y cuidado ambiental.",
       "hint": "Busca que las condiciones sean equitativas y respetuosas para los trabajadores.",
       "lang": "es",

@@ -1,0 +1,233 @@
+{
+  "id": "g5-mates-volumen-introduccion",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "volumen-introduccion",
+  "temaNombre": "Introducing Volume",
+  "title": "Exploring Volume with Cubes",
+  "summary": "Measure the space that objects take up by counting unit cubes and calculating simple volumes.",
+  "keyIdeas": [
+    "Volume is the amount of space taken up by a three-dimensional object.",
+    "We can measure volume with unit cubes, such as a cubic centimetre (cm³).",
+    "The volume of a rectangular prism, or cuboid, is length × width × height."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.2",
+      "2.1",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "C. Sentido espacial › Figuras geométricas de dos y tres dimensiones",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-volumen-introduccion-01",
+      "type": "choice",
+      "prompt": "Which measurement tells us how much space a shoebox takes up in a cupboard?",
+      "explanation": "Volume measures the three-dimensional space an object takes up. Length measures one dimension, and area measures a flat surface.",
+      "hint": "The box has three dimensions: length, width and height.",
+      "lang": "en",
+      "options": [
+        "Volume",
+        "Perimeter",
+        "Length",
+        "The area of its base"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-02",
+      "type": "true-false",
+      "prompt": "A cube measuring 1 cm long, 1 cm wide and 1 cm high has a volume of 1 cm³ (one cubic centimetre).",
+      "explanation": "True. A cubic centimetre is the volume of a cube with edges of 1 cm: 1 cm × 1 cm × 1 cm = 1 cm³.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-03",
+      "type": "match",
+      "prompt": "Match each measurement to the unit we would use in class.",
+      "explanation": "Length has one dimension (cm), area has two (cm²) and volume has three (cm³).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Length of a pencil",
+          "right": "Centimetres (cm)"
+        },
+        {
+          "left": "Area of a sheet of card",
+          "right": "Square centimetres (cm²)"
+        },
+        {
+          "left": "Volume of a die",
+          "right": "Cubic centimetres (cm³)"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about a rectangular prism built from unit cubes.",
+      "explanation": "Multiply the cubes in one layer by the number of layers: 6 cubes × 3 layers = 18 unit cubes.",
+      "lang": "en",
+      "sentence": "A block tower has 6 cubes in its base layer and 3 identical layers in total. Its volume is ___ unit cubes.",
+      "options": [
+        "18",
+        "9",
+        "15",
+        "12"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-05",
+      "type": "choice",
+      "prompt": "Mental maths! 🧠 Lucía builds a cuboid that is 4 cubes long, 2 cubes wide and 3 cubes high. What is its volume?",
+      "explanation": "Multiply the three dimensions: 4 × 2 × 3. First 4 × 2 = 8, then 8 × 3 = 24 unit cubes.",
+      "hint": "Multiply length by width, then multiply the result by height.",
+      "lang": "en",
+      "options": [
+        "18 unit cubes",
+        "9 unit cubes",
+        "20 unit cubes",
+        "24 unit cubes"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-06",
+      "type": "classify",
+      "prompt": "Sort these cuboids by their volume, measured using 1 cm³ unit cubes.",
+      "explanation": "3 × 2 × 2, 4 × 3 × 1 and 6 × 2 × 1 each give 12 cm³. Also, 4 × 4 × 1, 2 × 2 × 4 and 8 × 2 × 1 each give 16 cm³.",
+      "lang": "en",
+      "categories": [
+        "Volume of 12 cm³",
+        "Volume of 16 cm³"
+      ],
+      "items": [
+        {
+          "text": "Box measuring 3 cm × 2 cm × 2 cm",
+          "category": 0
+        },
+        {
+          "text": "Box measuring 4 cm × 4 cm × 1 cm",
+          "category": 1
+        },
+        {
+          "text": "Box measuring 4 cm × 3 cm × 1 cm",
+          "category": 0
+        },
+        {
+          "text": "Box measuring 2 cm × 2 cm × 4 cm",
+          "category": 1
+        },
+        {
+          "text": "Box measuring 6 cm × 2 cm × 1 cm",
+          "category": 0
+        },
+        {
+          "text": "Box measuring 8 cm × 2 cm × 1 cm",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-07",
+      "type": "choice",
+      "prompt": "🔎 Find the mistake. Adrián wants the volume of a cuboid that is 5 cm long, 3 cm wide and 2 cm high. He says, 'I add the three measurements: 5 + 3 + 2 = 10 cm³.' What is wrong?",
+      "explanation": "To find volume, multiply the dimensions. There are 5 × 3 = 15 unit cubes in each layer and 2 layers, so the volume is 30 cm³.",
+      "hint": "Think about how the cubes form layers.",
+      "lang": "en",
+      "options": [
+        "The addition is right, but the unit should be square centimetres (10 cm²).",
+        "He should multiply only length and width: 5 × 3 = 15 cm³.",
+        "He added the dimensions instead of multiplying them: the correct volume is 5 × 3 × 2 = 30 cm³.",
+        "The calculation is correct: adding dimensions always gives volume."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-08",
+      "type": "order",
+      "prompt": "Put the steps for finding the inside volume of a shoebox using 1 cm³ cubes in order.",
+      "explanation": "You can measure the dimensions in any order. Then find the number of cubes in one layer and multiply by the number of layers.",
+      "lang": "en",
+      "items": [
+        "Count how many cubes fit along the inside length, width and height.",
+        "Multiply length by width to find the number of cubes in one layer.",
+        "Multiply the cubes in one layer by the number of layers."
+      ]
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-09",
+      "type": "choice",
+      "prompt": "📦 Aisha fills a case with wooden dice of 1 cm³ each. Inside, it measures 6 cm long, 4 cm wide and 2 cm high. How many dice fit if she fills it completely?",
+      "explanation": "The inside volume is 6 × 4 × 2 = 48 cm³. Each die takes up 1 cm³, so 48 dice fit.",
+      "hint": "Multiply the three inside measurements to find the volume.",
+      "lang": "en",
+      "options": [
+        "48 dice",
+        "24 dice",
+        "12 dice",
+        "50 dice"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-volumen-introduccion-10",
+      "type": "choice",
+      "prompt": "🧩 Final challenge: Omar and Martina build a cube with edges of 3 cm using 1 cm³ cubes. They have already placed 17 small cubes. How many more do they need?",
+      "explanation": "The complete cube needs 3 × 3 × 3 = 27 small cubes. They need 27 - 17 = 10 more.",
+      "hint": "Find the volume of the complete 3 × 3 × 3 cube, then subtract the cubes already placed.",
+      "lang": "en",
+      "options": [
+        "27 small cubes",
+        "9 small cubes",
+        "8 small cubes",
+        "10 small cubes"
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:23:33.820Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:36:40.284Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "d14d23c0e4f920fe3a51795fbaa1af953619ad571902cccd3d4c4a49bf0ac397",
+      "validation": "manual-review"
+    }
+  }
+}

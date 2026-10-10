@@ -1,0 +1,227 @@
+{
+  "id": "g2-sociales-planos-y-mapas",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "planos-y-mapas",
+  "temaNombre": "Plans and maps",
+  "title": "Finding our way with plans and maps",
+  "summary": "Learn to read plans and maps to find your way around.",
+  "keyIdeas": [
+    "A plan shows a small place from above.",
+    "A map shows larger areas, such as countries or the world.",
+    "The key explains what each symbol means."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-planos-y-mapas-01",
+      "type": "true-false",
+      "prompt": "A plan shows a place from above.",
+      "explanation": "Plans show spaces as if we were looking down from the air.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-02",
+      "type": "choice",
+      "prompt": "Lucía draws her bedroom from above. What is she drawing?",
+      "explanation": "We use a plan to show a small space such as a room.",
+      "hint": "It shows a small place.",
+      "lang": "en",
+      "options": [
+        "A world map",
+        "A plan",
+        "A globe"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about showing Earth.",
+      "explanation": "A world map shows all the continents and oceans on a flat surface.",
+      "lang": "en",
+      "sentence": "A flat map showing the whole Earth is a ___.",
+      "options": [
+        "building",
+        "street map",
+        "world map"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-04",
+      "type": "match",
+      "prompt": "This key uses a cross for a hospital, a swing for a playground and a book for a library. Match each symbol to its place.",
+      "explanation": "Check each plan's key to understand its symbols. A symbol does not always have the same meaning.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "A cross",
+          "right": "Hospital"
+        },
+        {
+          "left": "A swing",
+          "right": "Playground"
+        },
+        {
+          "left": "A book",
+          "right": "Library"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-05",
+      "type": "classify",
+      "prompt": "Sort each place by how you would show it.",
+      "explanation": "A plan shows a small space. A map shows a larger territory.",
+      "lang": "en",
+      "categories": [
+        "With a plan",
+        "With a map"
+      ],
+      "items": [
+        {
+          "text": "The classroom",
+          "category": 0
+        },
+        {
+          "text": "All of Spain",
+          "category": 1
+        },
+        {
+          "text": "The school playground",
+          "category": 0
+        },
+        {
+          "text": "The continent of Europe",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-06",
+      "type": "order",
+      "prompt": "Put these spaces in order from smallest to largest.",
+      "explanation": "The classroom is inside the school, the school is in the city, and the city is in the country.",
+      "lang": "en",
+      "items": [
+        "A classroom",
+        "The school containing that classroom",
+        "The city containing that school",
+        "The country containing that city"
+      ]
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-07",
+      "type": "choice",
+      "prompt": "Omar enters the library. A sign says, 'Storybooks to your right.' Which way does he turn?",
+      "explanation": "The sign means Omar's right. On a plan, we also need to know which way we are facing.",
+      "hint": "Follow the side named on the sign.",
+      "lang": "en",
+      "options": [
+        "He walks backwards",
+        "He turns to his left",
+        "He turns to his right"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-08",
+      "type": "choice",
+      "prompt": "Aisha looks at a plan of her neighbourhood. What tells her what each symbol means?",
+      "explanation": "The key explains the symbols and colours on the plan.",
+      "hint": "It has small pictures with explanations.",
+      "lang": "en",
+      "options": [
+        "Her pencil case's colour",
+        "The key with its symbols",
+        "The paper's size"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-09",
+      "type": "reading",
+      "prompt": "Read about a search in the park and answer the questions.",
+      "explanation": "Reading a plan's clues carefully helps us find places.",
+      "lang": "en",
+      "title": "The park plan",
+      "text": "Nerea and Hugo play in the park. Their plan has a red cross marking a hidden box. First, they leave the wooden bench. Next, they walk ten steps straight ahead. Finally, they turn left. The treasure is under the big pine tree!",
+      "questions": [
+        {
+          "prompt": "Which symbol marks the hidden box?",
+          "explanation": "The text says a red cross marks the box.",
+          "options": [
+            "A green flower",
+            "A blue circle",
+            "A red cross"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Where is the treasure box?",
+          "explanation": "The text says the treasure is under the big pine tree.",
+          "options": [
+            "Under the big pine tree",
+            "In the fountain",
+            "Inside the litter bin"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-planos-y-mapas-10",
+      "type": "choice",
+      "prompt": "Which round model shows Earth in three dimensions?",
+      "explanation": "A globe shows Earth's roughly spherical shape.",
+      "hint": "It is shaped like a ball.",
+      "lang": "en",
+      "options": [
+        "A globe",
+        "An underground railway plan",
+        "A plastic ruler"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:26:28.133Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:43:47.629Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f5248309146a8d9c3edee99977e46d0892d2abb075b647ee1d3e2f2257806eb4",
+      "validation": "manual-review"
+    }
+  }
+}

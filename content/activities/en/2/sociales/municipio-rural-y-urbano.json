@@ -1,0 +1,249 @@
+{
+  "id": "g2-sociales-municipio-rural-y-urbano",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "municipio-rural-y-urbano",
+  "temaNombre": "Rural and urban municipalities",
+  "title": "Exploring villages and cities",
+  "summary": "Learn to tell rural and urban places apart.",
+  "keyIdeas": [
+    "Rural municipalities usually have fewer residents and more farmland.",
+    "Cities usually have more residents, buildings and services.",
+    "The council organises public services in each municipality."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-01",
+      "type": "choice",
+      "prompt": "Where are we most likely to find skyscrapers and heavy traffic?",
+      "explanation": "Large cities often have very tall buildings and many vehicles.",
+      "hint": "Think of a place where many people live.",
+      "lang": "en",
+      "options": [
+        "In a large city",
+        "In a tiny village",
+        "In a mountain village"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-02",
+      "type": "true-false",
+      "prompt": "Villages usually have fewer residents than cities.",
+      "explanation": "Villages usually have smaller populations, while cities have many more residents.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about municipal government.",
+      "explanation": "The mayor leads the council together with councillors.",
+      "lang": "en",
+      "sentence": "The person who leads the council is the ___.",
+      "options": [
+        "shepherd",
+        "mayor",
+        "doctor"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-04",
+      "type": "classify",
+      "prompt": "Sort these features by where they are more common.",
+      "explanation": "Farmland is more common in rural areas. Underground trains and skyscrapers are found in some large cities. Not all places are alike.",
+      "lang": "en",
+      "categories": [
+        "Rural municipality",
+        "Urban municipality"
+      ],
+      "items": [
+        {
+          "text": "Skyscrapers with many offices",
+          "category": 1
+        },
+        {
+          "text": "Farms and crop fields",
+          "category": 0
+        },
+        {
+          "text": "Underground railway lines",
+          "category": 1
+        },
+        {
+          "text": "Low family houses with vegetable gardens",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-05",
+      "type": "match",
+      "prompt": "Match each local service to its main job.",
+      "explanation": "These services help residents. One or more councils, or other public authorities, may organise them.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Local police",
+          "right": "Looking after municipal traffic"
+        },
+        {
+          "left": "Cleaning service",
+          "right": "Sweeping streets and emptying litter bins"
+        },
+        {
+          "left": "Fire service",
+          "right": "Putting out fires and rescuing people"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-06",
+      "type": "choice",
+      "prompt": "Few cars pass along Omar's street, but many pass along Nerea's. Why is Omar's street usually quieter?",
+      "explanation": "In this comparison, fewer vehicles make less traffic noise. Not all villages and cities have the same noise levels.",
+      "hint": "Look at how many cars pass.",
+      "lang": "en",
+      "options": [
+        "Nobody goes outside in villages",
+        "Villages have no paths or people",
+        "Fewer cars and lorries pass along it"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-07",
+      "type": "order",
+      "prompt": "Put these places in order from fewest to most residents.",
+      "explanation": "In these examples, a tiny village has few residents, a medium-sized town has more, and a large city has many more.",
+      "lang": "en",
+      "items": [
+        "Tiny village",
+        "Medium-sized town",
+        "Large city"
+      ]
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-08",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "Villages and cities can offer different ways to travel each day.",
+      "lang": "en",
+      "title": "Two close cousins",
+      "text": "Aisha lives in a quiet village. She cycles to school every day. Her cousin Hugo lives in a large city. He takes the underground train to school. They visit each other during the holidays and play together.",
+      "questions": [
+        {
+          "prompt": "How does Aisha get to school?",
+          "explanation": "Aisha cycles to school every day.",
+          "options": [
+            "By private car",
+            "By underground train",
+            "By bicycle"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which public transport does Hugo use?",
+          "explanation": "Hugo uses an underground train, found in some large cities.",
+          "options": [
+            "A tractor",
+            "A sailing boat",
+            "The underground train"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-09",
+      "type": "choice",
+      "prompt": "Many cars together produce exhaust fumes. How can we improve city air?",
+      "explanation": "Cycling produces no exhaust fumes, and buses can carry many people using fewer vehicles.",
+      "hint": "Look for an option that uses fewer petrol engines.",
+      "lang": "en",
+      "options": [
+        "Use bicycles and public buses",
+        "Travel alone in our own cars",
+        "Remove all the trees from pavements"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-municipio-rural-y-urbano-10",
+      "type": "classify",
+      "prompt": "Sort these jobs by where they are more common.",
+      "explanation": "Farming and livestock work are common in rural areas. Many services are concentrated in cities.",
+      "lang": "en",
+      "categories": [
+        "Rural area",
+        "Urban area"
+      ],
+      "items": [
+        {
+          "text": "Herd sheep in the mountains",
+          "category": 0
+        },
+        {
+          "text": "Drive a tram along an avenue",
+          "category": 1
+        },
+        {
+          "text": "Harvest olives in an olive grove",
+          "category": 0
+        },
+        {
+          "text": "Work in a large department store",
+          "category": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:25:37.801Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:43:10.944Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "ed7440ba2eaedb358bed3edae110364f50cec2db7f4cf989328231d29fd64aaf",
+      "validation": "manual-review"
+    }
+  }
+}

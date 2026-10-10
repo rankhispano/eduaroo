@@ -7,9 +7,9 @@
   "title": "El verbo: persona, número y tiempo",
   "summary": "Aprende a reconocer la persona, el número y el tiempo de las formas verbales con divertidos retos.",
   "keyIdeas": [
-    "Los verbos indican acciones y pueden estar en pasado, presente o futuro.",
-    "El número puede ser singular (una persona) o plural (varias personas).",
-    "La persona indica quién hace la acción: primera (yo, nosotros), segunda (tú, vosotros) o tercera (él, ellos)."
+    "Los verbos expresan acciones o estados y sus formas pueden estar en pasado, presente o futuro.",
+    "El número verbal puede ser singular (yo, tú, él o ella) o plural (nosotros, vosotros, ellos o ellas).",
+    "La persona gramatical indica la relación con quien habla: primera, segunda o tercera."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -37,7 +37,7 @@
     {
       "id": "g3-lengua-el-verbo-persona-numero-tiempo-01",
       "type": "choice",
-      "prompt": "¿En qué tiempo verbal está la palabra destacada? Ayer Omar <b>dibujó</b> un gran mural en el patio.",
+      "prompt": "¿En qué tiempo verbal está «dibujó»? Ayer Omar dibujó un gran mural en el patio.",
       "explanation": "La palabra 'dibujó' expresa una acción que ya ocurrió ayer, por eso está en pasado.",
       "hint": "Fíjate en la palabra 'Ayer', indica un momento que ya ha pasado.",
       "lang": "es",
@@ -195,7 +195,7 @@
       "prompt": "Completa el mensaje de Adrián con la forma correcta en futuro:",
       "explanation": "'Tú y yo' equivale a 'nosotros', por lo que el verbo en futuro debe ser 'pasearemos' (primera persona del plural).",
       "lang": "es",
-      "sentence": "Si terminamos pronto los deberes, tú y yo ___ en bicicleta por el río.",
+      "sentence": "Si terminamos pronto los deberes, tú y yo ___ en bicicleta junto al río.",
       "options": [
         "pasearemos",
         "pasearéis",

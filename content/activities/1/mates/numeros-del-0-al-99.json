@@ -8,7 +8,7 @@
   "summary": "Practica la lectura, descomposición y comparación de números hasta el 99 con retos cotidianos.",
   "keyIdeas": [
     "Una decena vale 10 unidades.",
-    "El número de la izquierda indica las decenas y el de la derecha las unidades.",
+    "En un número de dos cifras, la cifra de la izquierda indica las decenas y la de la derecha las unidades.",
     "Para comparar números de dos cifras, mira primero las decenas."
   ],
   "lomloe": {
@@ -109,7 +109,7 @@
       "id": "g1-mates-numeros-del-0-al-99-05",
       "type": "classify",
       "prompt": "Clasifica los números según sean mayores o menores que 50.",
-      "explanation": "Los números con menos de 5 decenas son menores que 50. Los que tienen más de 5 decenas son mayores.",
+      "explanation": "Para comparar con 50 miramos las decenas. Si son 5, comparamos las unidades: 56 es mayor que 50 porque tiene 6 unidades más.",
       "lang": "es",
       "categories": [
         "Menores que 50",

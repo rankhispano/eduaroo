@@ -150,8 +150,8 @@
     {
       "id": "g1-mates-medidas-grande-pequeno-07",
       "type": "choice",
-      "prompt": "Mateo dice: «El ratón es más grande que el perro». ¿Qué error comete?",
-      "explanation": "Mateo ha confundido los tamaños. Un perro siempre es más grande que un ratón.",
+      "prompt": "Mateo compara un ratón adulto con un perro adulto de tamaño mediano. Dice que el ratón es más grande. ¿Qué error comete?",
+      "explanation": "Un perro adulto de tamaño mediano es más grande que un ratón adulto.",
       "hint": "Piensa en el tamaño real de cada animal.",
       "lang": "es",
       "options": [

@@ -1,0 +1,224 @@
+{
+  "id": "g2-mates-resta-con-llevadas",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "resta-con-llevadas",
+  "temaNombre": "Subtraction with regrouping",
+  "title": "Subtraction with regrouping made clear",
+  "summary": "Practise subtraction with regrouping in challenges and everyday problems.",
+  "keyIdeas": [
+    "If there are not enough ones to subtract in the ones column, exchange a ten.",
+    "One ten can be exchanged for 10 ones.",
+    "In this column method, subtract the ones first, then the tens."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.1",
+      "2.2",
+      "6.2"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-resta-con-llevadas-01",
+      "type": "true-false",
+      "prompt": "To calculate 43 - 17 in columns, 3 ones are not enough to take away 7 ones. I need to exchange one ten.",
+      "explanation": "3 is less than 7, so exchange 1 ten for 10 ones.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-mates-resta-con-llevadas-02",
+      "type": "match",
+      "prompt": "Match each number to its form after exchanging one ten for ones.",
+      "explanation": "Reduce the tens by one and add 10 to the ones.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "5 tens and 2 ones",
+          "right": "4 tens and 12 ones"
+        },
+        {
+          "left": "7 tens and 4 ones",
+          "right": "6 tens and 14 ones"
+        },
+        {
+          "left": "3 tens and 1 one",
+          "right": "2 tens and 11 ones"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-resta-con-llevadas-03",
+      "type": "order",
+      "prompt": "Put the steps in order to calculate 52 - 28 in columns.",
+      "explanation": "First check the ones, exchange a ten and subtract in order.",
+      "lang": "en",
+      "items": [
+        "Check the ones: 2 ones are not enough to take away 8.",
+        "Exchange 1 ten for 10 ones, giving 12 ones.",
+        "Subtract the ones: 12 minus 8 is 4.",
+        "Subtract the remaining tens: 4 minus 2 is 2."
+      ]
+    },
+    {
+      "id": "g2-mates-resta-con-llevadas-04",
+      "type": "choice",
+      "prompt": "Aisha has 42 stickers. She gives 15 to her friend Omar. How many are left?",
+      "explanation": "42 - 15 = 27. Exchange a ten: 12 - 5 = 7 ones and 3 - 1 = 2 tens.",
+      "hint": "Remember that 4 tens becomes 3 tens.",
+      "lang": "en",
+      "options": [
+        "27 stickers",
+        "37 stickers",
+        "33 stickers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-resta-con-llevadas-05",
+      "type": "choice",
+      "prompt": "Estimate without finding the exact answer. Is 63 - 28 closer to 30 or 50?",
+      "explanation": "63 is close to 60 and 28 is close to 30. Subtract mentally: 60 - 30 = 30.",
+      "hint": "Round 63 to 60 and 28 to 30.",
+      "lang": "en",
+      "options": [
+        "Closer to 30",
+        "Closer to 50",
+        "Closer to 10"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-resta-con-llevadas-06",
+      "type": "classify",
+      "prompt": "Sort these column subtractions by whether they need regrouping.",
+      "explanation": "These subtractions need regrouping when the top ones digit is smaller than the bottom ones digit.",
+      "lang": "en",
+      "categories": [
+        "With regrouping",
+        "Without regrouping"
+      ],
+      "items": [
+        {
+          "text": "54 - 28",
+          "category": 0
+        },
+        {
+          "text": "76 - 32",
+          "category": 1
+        },
+        {
+          "text": "41 - 15",
+          "category": 0
+        },
+        {
+          "text": "89 - 43",
+          "category": 1
+        },
+        {
+          "text": "63 - 27",
+          "category": 0
+        },
+        {
+          "text": "95 - 61",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-resta-con-llevadas-07",
+      "type": "choice",
+      "prompt": "Hugo calculates 51 - 24 and writes 33. What mistake does he make?",
+      "explanation": "Hugo reverses the subtraction in the ones column: 4 - 1 = 3. He should exchange a ten, then calculate 11 - 4 = 7 and 4 - 2 = 2. The answer is 27.",
+      "hint": "Check the ones: 1 one is not enough to take away 4 ones.",
+      "lang": "en",
+      "options": [
+        "He forgets to subtract the tens.",
+        "He adds the ones instead of subtracting them.",
+        "He calculates 4 minus 1 in the ones column instead of exchanging a ten."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-resta-con-llevadas-08",
+      "type": "choice",
+      "prompt": "Lucía has 75 € in her money box. She buys a school bag for 38 €. How much money is left?",
+      "explanation": "75 - 38 = 37 €. Exchange a ten, then calculate 15 - 8 = 7 ones and 6 - 3 = 3 tens.",
+      "hint": "Watch the tens: 7 tens becomes 6 tens.",
+      "lang": "en",
+      "options": [
+        "47 €",
+        "37 €",
+        "43 €"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-resta-con-llevadas-09",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence to check a subtraction.",
+      "explanation": "Add the answer (37) to the amount taken away (16) to get back to 53.",
+      "lang": "en",
+      "sentence": "To check that 53 - 16 = 37 is correct, add 37 + ___ to get 53.",
+      "options": [
+        "16",
+        "53",
+        "20"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-resta-con-llevadas-10",
+      "type": "choice",
+      "prompt": "The library has 152 storybooks. Children borrow 36. How many storybooks are left?",
+      "explanation": "152 - 36 = 116. Calculate 12 - 6 = 6 ones and 4 - 3 = 1 ten. There is still 1 hundred.",
+      "hint": "2 ones are not enough to take away 6. Exchange one of the 5 tens.",
+      "lang": "en",
+      "options": [
+        "124 storybooks",
+        "126 storybooks",
+        "116 storybooks"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:01:17.961Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:32:22.596Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "5fb1a897f2f0f5b972b2fd43d60b0af0b0e7a89758818c8ede36378042f2520d",
+      "validation": "manual-review"
+    }
+  }
+}

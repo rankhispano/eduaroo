@@ -1,0 +1,242 @@
+{
+  "id": "g6-mates-algebra-la-incognita",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "algebra-la-incognita",
+  "temaNombre": "Algebra: the Unknown",
+  "title": "Solve the Mystery of the Unknown",
+  "summary": "Find missing values and express everyday problems using simple algebra.",
+  "keyIdeas": [
+    "An unknown is a value we do not yet know, often represented by a letter such as x.",
+    "To solve these equations, apply the inverse operation to both sides of the equality.",
+    "Always check your answer by putting the value back into the original equation."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.2",
+      "2.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "D. Sentido algebraico › Relaciones y funciones",
+      "D. Sentido algebraico › Modelo matemático"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-algebra-la-incognita-01",
+      "type": "true-false",
+      "prompt": "In maths, an unknown is a number we can represent with a letter or symbol.",
+      "explanation": "True. Letters such as x or y, or symbols, can represent quantities we want to find.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-02",
+      "type": "match",
+      "prompt": "Match each everyday phrase to its algebraic expression, where x is the number.",
+      "explanation": "Twice means 2 × x; increasing by 7 means x + 7; half means x ÷ 2; and decreasing by 5 means x - 5.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Twice a number",
+          "right": "2 × x"
+        },
+        {
+          "left": "A number increased by 7",
+          "right": "x + 7"
+        },
+        {
+          "left": "Half a number",
+          "right": "x ÷ 2"
+        },
+        {
+          "left": "A number decreased by 5",
+          "right": "x - 5"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-03",
+      "type": "choice",
+      "prompt": "Quick mental maths: in x + 16 = 40, what is x?",
+      "explanation": "Subtract 16 from both sides: x = 40 - 16 = 24. Check: 24 + 16 = 40.",
+      "hint": "What number added to 16 makes 40?",
+      "lang": "en",
+      "options": [
+        "24",
+        "26",
+        "56"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-04",
+      "type": "fill-blank",
+      "prompt": "Find the unknown value in this problem.",
+      "explanation": "The equation is x + 15 = 42. Subtract 15 from both sides: x = 42 - 15 = 27 cards.",
+      "lang": "en",
+      "sentence": "Aisha had x trading cards. Her grandmother gave her 15 more, and now she has 42. Her original number of cards was x = ___ cards.",
+      "options": [
+        "37",
+        "57",
+        "27"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-05",
+      "type": "classify",
+      "prompt": "Sort the equations by the value of x that makes them true.",
+      "explanation": "Check each answer: 3 × 6 = 18, 9 - 4 = 5, 6 + 12 = 18, 2 × 9 = 18, 24 ÷ 6 = 4 and 45 ÷ 9 = 5.",
+      "lang": "en",
+      "categories": [
+        "x equals 6",
+        "x equals 9"
+      ],
+      "items": [
+        {
+          "text": "3 × x = 18",
+          "category": 0
+        },
+        {
+          "text": "x - 4 = 5",
+          "category": 1
+        },
+        {
+          "text": "x + 12 = 18",
+          "category": 0
+        },
+        {
+          "text": "2 × x = 18",
+          "category": 1
+        },
+        {
+          "text": "24 ÷ x = 4",
+          "category": 0
+        },
+        {
+          "text": "45 ÷ x = 5",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-06",
+      "type": "choice",
+      "prompt": "Find the mistake! Hugo solves 4 × x = 28 by writing x = 28 - 4 = 24. What went wrong?",
+      "explanation": "The inverse of multiplying by 4 is dividing by 4: x = 28 ÷ 4 = 7. Hugo subtracted instead.",
+      "hint": "Which operation connects 4 and x?",
+      "lang": "en",
+      "options": [
+        "His answer is correct: the solution is 24.",
+        "He added 4 instead of multiplying by 4.",
+        "He subtracted 4 instead of dividing 28 by 4."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-07",
+      "type": "match",
+      "prompt": "Match each situation to the equation that represents it.",
+      "explanation": "Multiply to find a total price, subtract for spending, divide for sharing equally, and add when more people join.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Adrián buys 3 identical notebooks for 12 € altogether; x is the price of one.",
+          "right": "3 × x = 12"
+        },
+        {
+          "left": "Lucía has x euros, spends 3 € and has 12 € left.",
+          "right": "x - 3 = 12"
+        },
+        {
+          "left": "We share x sweets equally among 3 friends, giving each friend 12.",
+          "right": "x ÷ 3 = 12"
+        },
+        {
+          "left": "A group of x people welcomes 3 more and now has 12.",
+          "right": "x + 3 = 12"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-08",
+      "type": "order",
+      "prompt": "Put the steps for solving and checking 2 × x + 5 = 17 in order.",
+      "explanation": "Subtract 5 from both sides, calculate 12, divide both sides by 2 and check x = 6 in the original equation.",
+      "lang": "en",
+      "items": [
+        "Subtract 5 from both sides: 2 × x = 17 - 5.",
+        "Calculate the subtraction: 2 × x = 12.",
+        "Divide both sides by 2: x = 12 ÷ 2 = 6.",
+        "Check with x = 6: 2 × 6 + 5 = 12 + 5 = 17."
+      ]
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-09",
+      "type": "choice",
+      "prompt": "At the school charity fair, Wei buys 4 identical bookmarks and a book costing 6 €. He pays 14 € altogether. If m is the price of one bookmark, what is m?",
+      "explanation": "The equation is 4 × m + 6 = 14. The bookmarks cost 14 - 6 = 8 € altogether, so each costs 8 ÷ 4 = 2 €.",
+      "hint": "First subtract the book's price from the total.",
+      "lang": "en",
+      "options": [
+        "2 €",
+        "3 €",
+        "4 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-algebra-la-incognita-10",
+      "type": "choice",
+      "prompt": "Final challenge: a balanced scale has 3 identical mystery boxes (x) and a 4 kg weight on the left, and a 19 kg weight on the right. What is the mass of each box?",
+      "explanation": "3 × x + 4 = 19. Remove 4 kg from both sides: the boxes have a total mass of 15 kg. Each box has mass 15 ÷ 3 = 5 kg.",
+      "hint": "Imagine removing 4 kg from both sides of the balanced scale.",
+      "lang": "en",
+      "options": [
+        "15 kg",
+        "7 kg",
+        "5 kg"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:28:49.427Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:31:09.524Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "a6c31a91e725ed16d791beb5aa74eca0f6c7e5656ccdb9892d97566ffccbd688",
+      "validation": "manual-review"
+    }
+  }
+}

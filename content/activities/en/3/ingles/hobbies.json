@@ -1,0 +1,255 @@
+{
+  "id": "g3-ingles-hobbies",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "hobbies",
+  "temaNombre": "Hobbies",
+  "title": "Fun Hobbies and Free Time",
+  "summary": "Practise English words for hobbies and free-time activities.",
+  "keyIdeas": [
+    "Hobbies are activities we do in our free time for fun.",
+    "Use action verbs such as play, read, paint, swim and ride to talk about hobbies.",
+    "You can use 'I like' with an -ing activity: 'I like reading'. You can also say 'I like to read'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-hobbies-01",
+      "type": "match",
+      "prompt": "Match each hobby with its object or place.",
+      "explanation": "Match each hobby to an object or place used for it.",
+      "hint": "Think about what you need to paint or swim.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Reading",
+          "right": "Books"
+        },
+        {
+          "left": "Swimming",
+          "right": "Pool"
+        },
+        {
+          "left": "Painting",
+          "right": "Brushes"
+        },
+        {
+          "left": "Playing football",
+          "right": "Ball"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-hobbies-02",
+      "type": "choice",
+      "prompt": "Aisha has a bicycle and a helmet. What is her hobby?",
+      "explanation": "A bicycle and helmet are used for riding a bike.",
+      "hint": "Notice the word 'bicycle'.",
+      "lang": "en",
+      "options": [
+        "Riding a bike",
+        "Listening to music",
+        "Dancing"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-hobbies-03",
+      "type": "true-false",
+      "prompt": "You need water to practise swimming.",
+      "explanation": "Swimming needs water, such as in a pool or the sea.",
+      "hint": "Think about what swimming means.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-ingles-hobbies-04",
+      "type": "fill-blank",
+      "prompt": "Choose the correct word to complete the sentence.",
+      "explanation": "Say 'listen to music' when talking about hearing and enjoying music.",
+      "hint": "Find the action for enjoying songs through headphones.",
+      "lang": "en",
+      "sentence": "I love music. I like ___ to songs with my headphones.",
+      "options": [
+        "eating",
+        "listening",
+        "running"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-hobbies-05",
+      "type": "classify",
+      "prompt": "Sort these hobbies by whether the place described is outdoors or indoors.",
+      "explanation": "The park and playground are outdoors. The bed and living room are indoors. Reading and playing video games can also happen outside.",
+      "hint": "Look at the place named in each activity.",
+      "lang": "en",
+      "categories": [
+        "Outdoor hobbies",
+        "Indoor hobbies"
+      ],
+      "items": [
+        {
+          "text": "Riding a scooter in the park",
+          "category": 0
+        },
+        {
+          "text": "Reading a book in bed",
+          "category": 1
+        },
+        {
+          "text": "Playing video games in the living room",
+          "category": 1
+        },
+        {
+          "text": "Playing football in the playground",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-hobbies-06",
+      "type": "choice",
+      "prompt": "Hugo loves sports with water, but he does not like running. What is his favourite hobby?",
+      "explanation": "Swimming is a water sport where we move through water rather than run on a track.",
+      "hint": "Find the activity done in water.",
+      "lang": "en",
+      "options": [
+        "Basketball",
+        "Swimming",
+        "Drawing"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-hobbies-07",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct hobby.",
+      "explanation": "Painting is the activity that fits using colours and paper.",
+      "hint": "What can you do with colours and paper?",
+      "lang": "en",
+      "sentence": "Lucía has colours and paper. Her hobby is ___ pictures.",
+      "options": [
+        "sleeping",
+        "painting",
+        "cooking"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-hobbies-08",
+      "type": "order",
+      "prompt": "Put the words in order to make a correct sentence.",
+      "explanation": "The usual order is subject (I), verb (like), hobby (playing basketball) and extra information (with friends).",
+      "hint": "Start with the person doing the action.",
+      "lang": "en",
+      "items": [
+        "I",
+        "like",
+        "playing",
+        "basketball",
+        "with",
+        "friends."
+      ]
+    },
+    {
+      "id": "g3-ingles-hobbies-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "Find the key information from each question in the text.",
+      "lang": "en",
+      "title": "Fun Weekend Hobbies",
+      "text": "Hello! My friends have fun hobbies. Wei loves playing football every Saturday. He plays in the park with his brother Leo. Martina likes painting colourful pictures. She paints cute animals and green trees in her art club. Omar enjoys reading exciting books before going to bed. On Sunday mornings, all three friends meet at the park. They ride their bikes and laugh together. Hobbies are great to learn new things, stay active, and enjoy time with good friends!",
+      "questions": [
+        {
+          "prompt": "When does Wei play football?",
+          "explanation": "The text says, 'Wei loves playing football every Saturday'.",
+          "options": [
+            "Every Friday",
+            "Every Monday",
+            "Every Saturday"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Martina like painting?",
+          "explanation": "The text says she paints cute animals and green trees.",
+          "options": [
+            "Cute animals and green trees",
+            "Fast cars and big planes",
+            "Houses and yellow stars"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What do the three friends do together on Sunday mornings?",
+          "explanation": "They meet in the park on Sunday mornings and ride their bikes.",
+          "options": [
+            "They ride their bikes.",
+            "They paint pictures.",
+            "They read exciting books."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-hobbies-10",
+      "type": "choice",
+      "prompt": "Nerea wants a quiet, creative hobby that she can do alone at her desk. Which hobby is best?",
+      "explanation": "Drawing is a quiet, creative activity she can do sitting at a desk.",
+      "hint": "Find a quiet, artistic activity that can be done at a desk.",
+      "lang": "en",
+      "options": [
+        "Drawing and sketching",
+        "Playing the drums",
+        "Playing basketball"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:01:32.121Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:35:31.880Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "b79b1788fbd402f766a5167ee95601f312dfb48445cdd47cd7919c7c1492aa08",
+      "validation": "manual-review"
+    }
+  }
+}

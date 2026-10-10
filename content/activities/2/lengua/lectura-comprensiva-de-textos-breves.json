@@ -47,8 +47,8 @@
     {
       "id": "g2-lengua-lectura-comprensiva-de-textos-breves-01",
       "type": "true-false",
-      "prompt": "Hugo escribe: 'Mamá, he ido al parque con el abuelo'. ¿Hugo está en el parque?",
-      "explanation": "La nota dice que Hugo ha ido al parque con su abuelo.",
+      "prompt": "Hugo escribe: 'Mamá, estoy en el parque con el abuelo'. ¿Hugo está en el parque?",
+      "explanation": "Hugo dice en la nota que está en el parque con su abuelo.",
       "lang": "es",
       "answer": true
     },
@@ -69,7 +69,7 @@
     {
       "id": "g2-lengua-lectura-comprensiva-de-textos-breves-03",
       "type": "match",
-      "prompt": "Lee: 'Omar riega, Lucía barre y Leo alimenta al gato'. Une cada persona con su tarea:",
+      "prompt": "Lee: 'Omar riega las plantas, Lucía barre el patio y Leo alimenta al gato'. Une cada persona con su tarea:",
       "explanation": "Cada niño realiza una tarea distinta en la casa.",
       "lang": "es",
       "pairs": [

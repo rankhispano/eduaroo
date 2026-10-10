@@ -88,7 +88,7 @@
       "lang": "es",
       "items": [
         "Lavar bien las manzanas, las fresas y las uvas con agua fresca.",
-        "Pelar las manzanas y cortar toda la fruta en trozos medianos con cuidado.",
+        "Pedir a una persona adulta ayuda para pelar y cortar la fruta.",
         "Insertar los trozos de fruta alternando colores en los palillos de madera.",
         "Servir las brochetas en un plato limpio y disfrutar de la merienda."
       ]
@@ -161,7 +161,7 @@
     {
       "id": "g4-lengua-texto-instructivo-y-periodistico-08",
       "type": "reading",
-      "prompt": "Lee esta noticia del periódico escolar y responde a las preguntas:",
+      "prompt": "Lee este ejemplo inventado de noticia escolar y responde.",
       "explanation": "Comprender una noticia exige identificar el acontecimiento central, los participantes y las circunstancias temporales y espaciales.",
       "lang": "es",
       "title": "Éxito total en el estreno del huerto escolar",
@@ -193,7 +193,7 @@
           "options": [
             "Porque enseña paso a paso cómo construir un bancal de madera casero.",
             "Porque contiene una lista ordenada de materiales y herramientas de jardinería.",
-            "Porque relata un suceso real y responde a qué ocurrió, quién participó y cuándo, sin dar pasos a seguir."
+            "Porque tiene forma de noticia: cuenta qué ocurrió, quién participó y cuándo, sin dar pasos a seguir."
           ],
           "answer": 2
         }
@@ -216,9 +216,9 @@
     {
       "id": "g4-lengua-texto-instructivo-y-periodistico-10",
       "type": "choice",
-      "prompt": "Nerea tiene que elegir el mejor titular para una noticia sobre la recogida de plásticos en la playa local. ¿Cuál es el más adecuado para un periódico?",
-      "explanation": "El primer titular es informativo, claro y objetivo. El segundo expresa una opinión personal y el tercero parece el título de una guía de instrucciones.",
-      "hint": "Busca el titular que informe de un hecho concreto con datos reales y tono neutral.",
+      "prompt": "En un ejercicio inventado, se informa de que voluntarios retiraron 200 kilos de plástico de la playa del Sol. ¿Qué titular presenta ese dato con claridad?",
+      "explanation": "«Voluntarios locales retiran doscientos kilos de plástico de la playa del Sol» informa del dato del ejercicio. La frase de «¡Qué asco!» expresa una opinión y la otra propone instrucciones.",
+      "hint": "Busca el titular que indique quién actuó y cuánto plástico retiró.",
       "lang": "es",
       "options": [
         "¡Qué asco de playa, la gente tira demasiadas botellas de plástico!",

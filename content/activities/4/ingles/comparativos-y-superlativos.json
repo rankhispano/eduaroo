@@ -222,8 +222,8 @@
     {
       "id": "g4-ingles-comparativos-y-superlativos-10",
       "type": "choice",
-      "prompt": "Mount Everest is 8,849 metres high. No mountain on Earth is taller. Mount Everest is the ___ mountain in the world.",
-      "explanation": "Como es el número uno de todas las montañas del mundo, usamos el superlativo: 'the highest'.",
+      "prompt": "Mount Everest has the highest summit above sea level on Earth. Complete: Mount Everest is the ___ mountain above sea level.",
+      "explanation": "Usamos «highest» para comparar la altura de su cumbre sobre el nivel del mar con las demás. Medir desde la base de una montaña es otra comparación.",
       "hint": "Buscamos la forma superlativa para la montaña número uno del planeta.",
       "lang": "en",
       "options": [

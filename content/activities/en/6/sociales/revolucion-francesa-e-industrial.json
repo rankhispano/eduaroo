@@ -1,0 +1,254 @@
+{
+  "id": "g6-sociales-revolucion-francesa-e-industrial",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "revolucion-francesa-e-industrial",
+  "temaNombre": "The French and Industrial Revolutions",
+  "title": "Two revolutions that changed the world",
+  "summary": "Explore the causes and effects of the French and Industrial Revolutions on modern society.",
+  "keyIdeas": [
+    "The French Revolution of 1789 promoted citizenship and rights and helped challenge absolute monarchy.",
+    "The Industrial Revolution expanded the use of steam engines and coal, changing farming economies into factory-based, urban economies.",
+    "New social classes grew, including the bourgeoisie and proletariat, alongside campaigns for workers' and women's rights."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE7",
+      "CE8"
+    ],
+    "criteria": [
+      "7.1",
+      "7.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CE2",
+      "CP3",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-01",
+      "type": "choice",
+      "prompt": "In the historical periods used in the Spanish curriculum, which event in 1789 marks the end of the Early Modern Age and the start of the Contemporary Age?",
+      "explanation": "The French Revolution of 1789 marks the start of the Contemporary Age in this periodisation because it challenged the Old Regime and spread ideas of freedom and equality.",
+      "hint": "It began in Paris, where people stormed the Bastille prison.",
+      "lang": "en",
+      "options": [
+        "The invention of the modern printing press",
+        "The outbreak of the French Revolution",
+        "The start of the First World War",
+        "Columbus's arrival in the Americas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-02",
+      "type": "match",
+      "prompt": "Match each key element of the Industrial Revolution to its role.",
+      "explanation": "Steam engines and coal helped mechanise textile production and create faster transport such as railways.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Steam engine",
+          "right": "Engine improved by James Watt that powered factories and transport"
+        },
+        {
+          "left": "Coal",
+          "right": "Fossil fuel used to heat steam boilers"
+        },
+        {
+          "left": "Railway",
+          "right": "Transport that made moving goods faster"
+        },
+        {
+          "left": "Power loom",
+          "right": "Machine that transformed textile production"
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-03",
+      "type": "true-false",
+      "prompt": "With industrialisation, a society of estates based on birth gave way to social classes based on wealth and ownership.",
+      "explanation": "True. Industrial society included the bourgeoisie, who owned factories and capital, and the proletariat, or wage-earning working class.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-04",
+      "type": "classify",
+      "prompt": "Classify each idea as belonging to the French Revolution or Industrial Revolution.",
+      "explanation": "The French Revolution changed politics and citizens' rights. The Industrial Revolution changed the economy and working life.",
+      "lang": "en",
+      "categories": [
+        "French Revolution",
+        "Industrial Revolution"
+      ],
+      "items": [
+        {
+          "text": "The storming of the Bastille",
+          "category": 0
+        },
+        {
+          "text": "Migration from the countryside to cities",
+          "category": 1
+        },
+        {
+          "text": "The end of Louis XVI's absolute monarchy",
+          "category": 0
+        },
+        {
+          "text": "Factories powered by steam engines",
+          "category": 1
+        },
+        {
+          "text": "The Declaration of the Rights of Man and of the Citizen",
+          "category": 0
+        },
+        {
+          "text": "The growth of the workers' movement",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-05",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about an important campaigner for equality.",
+      "explanation": "Olympe de Gouges criticised women's exclusion from political rights during the French Revolution and wrote a pioneering declaration demanding equality.",
+      "lang": "en",
+      "sentence": "In 1791, French writer ___ wrote the Declaration of the Rights of Woman and of the Female Citizen to demand the same rights as men.",
+      "options": [
+        "Clara Campoamor",
+        "Olympe de Gouges",
+        "Marie Curie"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-06",
+      "type": "order",
+      "prompt": "Put these events in chronological order, from earliest to latest.",
+      "explanation": "Watt's 1769 steam-engine patent helped industrial development. The French Revolution began in 1789, women's equality was debated in 1791, and steam rail transport developed further in 1825.",
+      "lang": "en",
+      "items": [
+        "James Watt patents improvements to the steam engine (1769)",
+        "People in Paris storm the Bastille fortress (1789)",
+        "Olympe de Gouges publishes her declaration of women's rights (1791)",
+        "The Stockton–Darlington Railway opens with steam locomotives (1825)"
+      ]
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-07",
+      "type": "choice",
+      "prompt": "During the Industrial Revolution, many people left the countryside to live in cities. What mainly caused this rural exodus?",
+      "explanation": "Farm machinery reduced the need for some agricultural labour, while urban factories needed many workers.",
+      "hint": "Think about how machinery affected farming and factory jobs.",
+      "lang": "en",
+      "options": [
+        "Absolute monarchs forced everyone by law to live in factory neighbourhoods.",
+        "Farm machinery reduced rural work, while new city factories needed workers.",
+        "Train travel was free and people travelled only to visit other cities."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-08",
+      "type": "reading",
+      "prompt": "Read about life in 19th-century industrial cities and answer the questions.",
+      "explanation": "The text shows difficult working conditions and the growth of campaigns for workers' and children's rights.",
+      "lang": "en",
+      "title": "Lives among smoke and looms",
+      "text": "In the early 19th century, Manchester changed dramatically. Thick smoke from coal-fired chimneys filled the sky. Families arriving from the countryside crowded into workers' neighbourhoods with narrow streets, no sewers and no running water. These conditions helped diseases such as cholera spread.\n\nCotton factories employed men, women and children, some as young as seven. Working days lasted fourteen or sixteen hours, six days a week, in dimly lit buildings with intense heat and deafening noise. Women and children earned much less than men for similar tasks. Over time, these harsh conditions encouraged workers to join trade unions and demand shorter working days, better pay and compulsory schooling for children.",
+      "questions": [
+        {
+          "prompt": "Why did working families often suffer illness in the new neighbourhoods?",
+          "explanation": "Overcrowding and a lack of sewers and running water helped diseases such as cholera spread.",
+          "options": [
+            "Doctors forbade them from leaving home.",
+            "Poor hygiene and a lack of sewers and running water in overcrowded homes.",
+            "They ate only food imported by ship from other continents."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What can we infer about women's factory work in the 19th century?",
+          "explanation": "Women worked long hours but received lower pay than men, showing unequal treatment.",
+          "options": [
+            "Women were banned from factories because they were required to study.",
+            "Women held the most senior positions and ran textile companies.",
+            "Women faced pay discrimination, receiving less than men for similar work."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "From today's understanding of children's rights, how should we judge this child labour?",
+          "explanation": "Children have rights to education, play and safety, and must be protected from exploitation.",
+          "options": [
+            "It seriously violated their rights by harming health, education and personal development.",
+            "It was beneficial because children learned a trade instead of wasting time playing.",
+            "It was acceptable because factories needed small hands to unblock looms."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-09",
+      "type": "choice",
+      "prompt": "Hugo and Nerea compare transport. Before 1789, a 300-kilometre horse-drawn journey took several days. By 1850, a similar railway journey could take hours. What effect did this have?",
+      "explanation": "Trains increased transport speed and capacity. They improved supplies and trade, but did not eliminate famines on their own.",
+      "hint": "Consider the benefits of transporting many tonnes of food or raw materials quickly.",
+      "lang": "en",
+      "options": [
+        "Countries closed borders to stop people travelling so quickly.",
+        "Cities emptied because everyone moved to forests.",
+        "Large quantities of perishable food could be transported, and distant regions could trade more easily."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-sociales-revolucion-francesa-e-industrial-10",
+      "type": "choice",
+      "prompt": "Widespread coal use during the Industrial Revolution boosted the economy but also contributed to an environmental problem we face today. Which one?",
+      "explanation": "Burning coal and other fossil fuels since the 18th century greatly increased carbon dioxide (CO2) emissions, a major cause of today's global warming.",
+      "hint": "Connect smoke from steam boilers with today's climate challenges.",
+      "lang": "en",
+      "options": [
+        "All ocean water disappearing because of steam engines.",
+        "A continuing rise in greenhouse gases that drive climate change.",
+        "Wind disappearing from mountains because of chimney smoke."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:42:00.423Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:59:10.668Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "ade6ba66aa91d6116cc02bf310abd6c0358efce78c97f9144b25848a261d60f3",
+      "validation": "manual-review"
+    }
+  }
+}

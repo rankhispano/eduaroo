@@ -55,7 +55,7 @@
       "id": "g2-naturales-el-aire-y-el-agua-02",
       "type": "match",
       "prompt": "Une cada estado del agua con su ejemplo cotidiano:",
-      "explanation": "El agua cambia de estado. Puede ser líquida, sólida o vapor.",
+      "explanation": "El hielo es sólido y el agua del vaso es líquida. El vapor de agua es un gas invisible; la nube blanca sobre una sopa contiene gotitas líquidas.",
       "lang": "es",
       "pairs": [
         {
@@ -64,11 +64,11 @@
         },
         {
           "left": "Sólido",
-          "right": "Cúbito de hielo"
+          "right": "Cubito de hielo"
         },
         {
           "left": "Gas",
-          "right": "Vapor de sopa caliente"
+          "right": "Vapor de agua invisible que hay en el aire"
         }
       ]
     },
@@ -89,10 +89,10 @@
     {
       "id": "g2-naturales-el-aire-y-el-agua-04",
       "type": "fill-blank",
-      "prompt": "Elige la palabra adecuada sobre el agua limpia para beber:",
-      "explanation": "El agua pura es inodora, es decir, no huele a nada.",
+      "prompt": "Completa una propiedad del agua pura.",
+      "explanation": "El agua pura no tiene olor. Que un agua parezca limpia no significa que se pueda beber: usamos agua potable.",
       "lang": "es",
-      "sentence": "El agua limpia no tiene sabor, color ni ___.",
+      "sentence": "El agua pura no tiene color ni ___.",
       "options": [
         "peso",
         "olor",
@@ -104,13 +104,13 @@
       "id": "g2-naturales-el-aire-y-el-agua-05",
       "type": "choice",
       "prompt": "Leo dice tres frases sobre el agua. ¿Cuál es su error?",
-      "explanation": "Las nubes no son de algodón dulce. Están formadas por gotitas de agua.",
-      "hint": "Fíjate en qué cosas no pueden estar en el cielo.",
+      "explanation": "Las nubes contienen pequeñas gotas de agua o cristales de hielo. El vapor de agua es invisible.",
+      "hint": "Recuerda qué estados del agua podemos ver.",
       "lang": "es",
       "options": [
-        "El agua de los ríos viaja hasta llegar al mar.",
-        "El hielo sigue siendo agua, pero en estado sólido.",
-        "Las nubes del cielo están hechas de algodón dulce blanco."
+        "El agua del río puede llegar al mar.",
+        "El hielo es agua en estado sólido.",
+        "Las nubes están hechas solo de vapor invisible."
       ],
       "answer": 2
     },
@@ -147,19 +147,19 @@
       "id": "g2-naturales-el-aire-y-el-agua-07",
       "type": "order",
       "prompt": "Ordena cómo viaja una gota de agua en la naturaleza:",
-      "explanation": "El ciclo del agua empieza con la evaporación, forma nubes y llueve.",
+      "explanation": "El agua se evapora. Al enfriarse el vapor, se forman gotas; después puede llover. El ciclo continúa y no tiene un único comienzo.",
       "lang": "es",
       "items": [
         "El sol calienta el agua del mar.",
-        "El vapor sube y forma las nubes.",
-        "El agua cae en forma de lluvia.",
-        "El agua viaja por el río al mar."
+        "Parte del agua se evapora y pasa al aire.",
+        "Al enfriarse, el vapor forma gotitas de las nubes.",
+        "Cae lluvia y parte del agua vuelve al mar por los ríos."
       ]
     },
     {
       "id": "g2-naturales-el-aire-y-el-agua-08",
       "type": "choice",
-      "prompt": "Lucía mete un vaso boca abajo y recto en agua. La servilleta del fondo:",
+      "prompt": "Con una persona adulta, Lucía mete un vaso transparente boca abajo en agua. Lleva papel seco dentro y no lo inclina. ¿Qué pasará?",
       "explanation": "El aire dentro del vaso no deja sitio al agua si no lo inclinas.",
       "hint": "Recuerda que el aire ocupa un lugar dentro del vaso.",
       "lang": "es",
@@ -198,7 +198,7 @@
           "explanation": "El texto dice que el viento hace girar rápido las aspas.",
           "options": [
             "El agua de la fuente.",
-            "El viento suave.",
+            "El viento.",
             "Un motor eléctrico."
           ],
           "answer": 1

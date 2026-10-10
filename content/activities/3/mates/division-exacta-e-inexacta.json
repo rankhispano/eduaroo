@@ -8,7 +8,7 @@
   "summary": "Practica cómo repartir en partes iguales descubriendo si las divisiones son exactas o tienen resto.",
   "keyIdeas": [
     "En una división exacta no sobra nada: el resto es 0.",
-    "En una división inexacta o entera siempre sobra algo: el resto es mayor que 0.",
+    "En una división inexacta con números naturales sobra algo: el resto es mayor que 0.",
     "El resto siempre tiene que ser menor que el divisor."
   ],
   "lomloe": {
@@ -63,7 +63,7 @@
         },
         {
           "left": "Divisor",
-          "right": "Partes iguales en las que se reparte"
+          "right": "Número de grupos iguales entre los que se reparte"
         },
         {
           "left": "Cociente",
@@ -184,7 +184,7 @@
     {
       "id": "g3-mates-division-exacta-e-inexacta-09",
       "type": "choice",
-      "prompt": "En una excursión van 38 alumnos en furgonetas de 8 plazas. ¿Cuántas furgonetas completas o parciales se necesitan?",
+      "prompt": "En una excursión van 38 alumnos. Cada furgoneta tiene 8 plazas para alumnos, además de las de los adultos. ¿Cuántas furgonetas se necesitan?",
       "explanation": "38 ÷ 8 da 4 furgonetas llenas (32 plazas) y sobran 6 alumnos. Hace falta 1 furgoneta más para ellos: 4 + 1 = 5.",
       "hint": "Cuidado con los 6 alumnos que sobran: ¡no pueden quedarse en el colegio!",
       "lang": "es",

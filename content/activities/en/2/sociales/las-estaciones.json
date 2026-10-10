@@ -1,0 +1,246 @@
+{
+  "id": "g2-sociales-las-estaciones",
+  "cursoId": "2",
+  "asignaturaId": "sociales",
+  "temaId": "las-estaciones",
+  "temaNombre": "The seasons",
+  "title": "A journey through the four seasons",
+  "summary": "Practise how nature and our lives change during the seasons.",
+  "keyIdeas": [
+    "In Spain, we name four seasons: spring, summer, autumn and winter.",
+    "Weather changes from season to season.",
+    "People and animals adapt their habits to different times of year."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE7"
+    ],
+    "criteria": [
+      "5.2",
+      "7.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL3",
+      "CD1",
+      "CE1",
+      "CE2",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Sociedades en el tiempo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-sociales-las-estaciones-01",
+      "type": "choice",
+      "prompt": "Aisha looks at the classroom calendar. How many seasons do we name in a whole year in Spain? 📅",
+      "explanation": "The four seasons are spring, summer, autumn and winter.",
+      "hint": "These times of year repeat every year.",
+      "lang": "en",
+      "options": [
+        "12 seasons",
+        "2 seasons",
+        "4 seasons"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-las-estaciones-02",
+      "type": "true-false",
+      "prompt": "In Spain, summer is usually hot and the days are longer. ☀️",
+      "explanation": "Summer is usually the warmest season, with many hours of daylight.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-sociales-las-estaciones-03",
+      "type": "order",
+      "prompt": "Put the seasons in order, starting with spring. 🌱",
+      "explanation": "Spring is followed by summer, then autumn and winter.",
+      "lang": "en",
+      "items": [
+        "Spring",
+        "Summer",
+        "Autumn",
+        "Winter"
+      ]
+    },
+    {
+      "id": "g2-sociales-las-estaciones-04",
+      "type": "fill-blank",
+      "prompt": "Choose the season that completes the sentence.",
+      "explanation": "Winter is usually the coldest season, so we need warm clothes.",
+      "lang": "en",
+      "sentence": "In ___, we wear coats, scarves and gloves to keep warm.",
+      "options": [
+        "summer",
+        "winter",
+        "spring"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-sociales-las-estaciones-05",
+      "type": "match",
+      "prompt": "Match each season to a change that often happens in Spain.",
+      "explanation": "These changes are common in Spain, but vary by place, year and type of plant.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Spring",
+          "right": "Many flowers bloom"
+        },
+        {
+          "left": "Summer",
+          "right": "Many fruits ripen"
+        },
+        {
+          "left": "Autumn",
+          "right": "Dry leaves fall"
+        },
+        {
+          "left": "Winter",
+          "right": "Snow falls in the mountains"
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-las-estaciones-06",
+      "type": "classify",
+      "prompt": "Sort these clothes for a hot summer day or a cold winter day.",
+      "explanation": "We use light clothing in hot weather and thick clothing in cold weather.",
+      "lang": "en",
+      "categories": [
+        "Summer",
+        "Winter"
+      ],
+      "items": [
+        {
+          "text": "Swimming costume for the pool",
+          "category": 0
+        },
+        {
+          "text": "Warm woolly hat",
+          "category": 1
+        },
+        {
+          "text": "Light flip-flops",
+          "category": 0
+        },
+        {
+          "text": "Thick snow gloves",
+          "category": 1
+        },
+        {
+          "text": "Shorts for a hot day",
+          "category": 0
+        },
+        {
+          "text": "Warm scarf",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-las-estaciones-07",
+      "type": "choice",
+      "prompt": "Temperatures fall in autumn. What do some birds do to avoid the cold? 🐦",
+      "explanation": "Many birds migrate to warmer places when autumn brings colder weather.",
+      "hint": "They make a long journey, flying in flocks.",
+      "lang": "en",
+      "options": [
+        "Travel to warmer places",
+        "Lose all their feathers",
+        "Live underwater in a river"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-sociales-las-estaciones-08",
+      "type": "choice",
+      "prompt": "It is winter, and Lucía's home is cold. Which action saves energy? 🧣",
+      "explanation": "A jumper keeps her warm, so less heating may be needed.",
+      "hint": "Think about keeping yourself warm while using less electricity or gas.",
+      "lang": "en",
+      "options": [
+        "Leave the windows open all day",
+        "Turn the heating up to maximum while wearing a short-sleeved top",
+        "Wear a comfortable jumper at home"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-sociales-las-estaciones-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "In autumn, many trees that lose their leaves change colour as temperatures fall.",
+      "lang": "en",
+      "title": "Martina's afternoon",
+      "text": "Autumn arrives in Martina's park. A gentle wind blows, and the chestnut trees' leaves turn yellow and fall. Martina collects chestnuts with her grandfather Omar. They no longer wear summer clothes because the weather is getting cooler.",
+      "questions": [
+        {
+          "prompt": "What colour do the trees' leaves turn?",
+          "explanation": "The text says the chestnut leaves turn yellow.",
+          "options": [
+            "Yellow",
+            "Blue",
+            "Dark green"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why are Martina and her grandfather not wearing summer clothes?",
+          "explanation": "The autumn weather is getting cooler, so they wear warmer clothes.",
+          "options": [
+            "It is snowing in the park",
+            "It is very hot",
+            "The weather is getting cooler"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-sociales-las-estaciones-10",
+      "type": "choice",
+      "prompt": "In Spain, which season begins during September?",
+      "explanation": "Autumn begins in September in Spain. School usually starts again before summer ends.",
+      "hint": "Summer ends in September, and the days start getting cooler.",
+      "lang": "en",
+      "options": [
+        "Winter ends and spring begins",
+        "Summer ends and autumn begins",
+        "Spring ends and summer begins"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:28:21.897Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:42:19.083Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "062138da0d001c42115d0b40761d2448f8493488834aa574b4ff92abd0e23af3",
+      "validation": "manual-review"
+    }
+  }
+}

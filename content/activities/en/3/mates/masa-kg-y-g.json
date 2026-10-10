@@ -1,0 +1,233 @@
+{
+  "id": "g3-mates-masa-kg-y-g",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "masa-kg-y-g",
+  "temaNombre": "Mass: kg and g",
+  "title": "Mass in action: kilograms and grams",
+  "summary": "Practise converting kilograms and grams in everyday challenges. These exercises use dots to group thousands: 1.000 means one thousand.",
+  "keyIdeas": [
+    "One kilogram is exactly 1.000 grams: 1 kg = 1.000 g.",
+    "Half a kilogram is 500 grams and a quarter is 250 grams.",
+    "Before comparing or adding masses, convert them to the same unit."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "B. Sentido de la medida › Estimación y relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-masa-kg-y-g-01",
+      "type": "true-false",
+      "prompt": "1 kg of macaroni has exactly the same mass as 1.000 g of rice.",
+      "explanation": "True. 1 kg is exactly 1.000 g, whatever the food.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-02",
+      "type": "match",
+      "prompt": "Match each mass to its equivalent.",
+      "explanation": "1 kg is 1.000 g. Half is 500 g and a quarter is 250 g. 3 kg is 3.000 g.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "1 kg",
+          "right": "1.000 g"
+        },
+        {
+          "left": "Half a kilogram",
+          "right": "500 g"
+        },
+        {
+          "left": "A quarter of a kilogram",
+          "right": "250 g"
+        },
+        {
+          "left": "3 kg",
+          "right": "3.000 g"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-03",
+      "type": "classify",
+      "prompt": "Sort the objects by the most useful unit for measuring their mass.",
+      "explanation": "Grams are useful for light objects such as a paper clip or grape. Kilograms are useful for heavier objects.",
+      "lang": "en",
+      "categories": [
+        "Best measured in grams (g)",
+        "Best measured in kilograms (kg)"
+      ],
+      "items": [
+        {
+          "text": "A metal paper clip",
+          "category": 0
+        },
+        {
+          "text": "A mountain bike",
+          "category": 1
+        },
+        {
+          "text": "A grape",
+          "category": 0
+        },
+        {
+          "text": "A sack of potatoes",
+          "category": 1
+        },
+        {
+          "text": "A rubber",
+          "category": 0
+        },
+        {
+          "text": "A classmate",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct number.",
+      "explanation": "1 kg is 1.000 g. Add 250 + 250 + 250 + 250 = 1.000 g. We need 4 packets of 250 g.",
+      "lang": "en",
+      "sentence": "To make 1 kg of flour, I need ___ packets of 250 g.",
+      "options": [
+        "4",
+        "2",
+        "10"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-05",
+      "type": "choice",
+      "prompt": "Omar estimates the mass of a medium-sized apple. Which choice is most reasonable?",
+      "explanation": "180 g is a reasonable estimate for a medium-sized apple. 15 kg is much too heavy and 2 g is much too light.",
+      "hint": "Compare an apple with something weighing about 1 kilogram.",
+      "lang": "en",
+      "options": [
+        "About 2 g",
+        "About 15 kg",
+        "About 180 g"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-06",
+      "type": "order",
+      "prompt": "Put these masses in order from smallest to largest.",
+      "explanation": "Convert to grams: 350 g < 500 g (half a kilogram) < 850 g < 1.200 g (1 kg and 200 g) < 2.000 g (2 kg).",
+      "lang": "en",
+      "items": [
+        "350 g",
+        "Half a kilogram",
+        "850 g",
+        "1 kg and 200 g",
+        "2 kg"
+      ]
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-07",
+      "type": "choice",
+      "prompt": "Lucía says, '2 kg and 40 g is 2.400 g'. What is her mistake?",
+      "explanation": "2 kg is 2.000 g. Add 40 g to get 2.000 + 40 = 2.040 g. 2.400 g would be 2 kg and 400 g.",
+      "hint": "Check the place value of 40 grams.",
+      "lang": "en",
+      "options": [
+        "There is no mistake: 2 kg and 40 g is exactly 2.400 g.",
+        "She adds incorrectly because 2 kg is 200 g, making 240 g.",
+        "She treats 40 g as 400 g. The correct answer is 2.040 g."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-08",
+      "type": "choice",
+      "prompt": "Martina needs 1 kg of fruit for a cake. She has 450 g of strawberries and 350 g of banana. How many more grams does she need?",
+      "explanation": "Add the fruit: 450 + 350 = 800 g. 1 kg is 1.000 g, so subtract 1.000 - 800 = 200 g.",
+      "hint": "Convert the kilogram to grams before subtracting.",
+      "lang": "en",
+      "options": [
+        "300 g",
+        "100 g",
+        "200 g"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-09",
+      "type": "choice",
+      "prompt": "A balance has a 3 kg pumpkin on its left pan and a 1.800 g melon on its right. How much mass must be added to the right pan to balance it?",
+      "explanation": "3 kg is 3.000 g. Subtract 3.000 - 1.800 = 1.200 g, or 1 kg and 200 g.",
+      "hint": "Find the difference up to 3.000 g.",
+      "lang": "en",
+      "options": [
+        "1.200 g",
+        "2.200 g",
+        "1.800 g"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-masa-kg-y-g-10",
+      "type": "choice",
+      "prompt": "Hugo's empty school bag has a mass of 600 g. He adds 3 books of 500 g each and a 400 g pencil case. What does the scale show for the full bag?",
+      "explanation": "The books have a mass of 3 × 500 = 1.500 g. Add everything: 600 + 1.500 + 400 = 2.500 g, or 2 kg and 500 g.",
+      "hint": "First find the total mass of the three books.",
+      "lang": "en",
+      "options": [
+        "2 kg",
+        "1 kg and 500 g",
+        "2 kg and 500 g"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:10:39.480Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:47:28.216Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "3e770c910127e1a38f51b315eaebd18cde111405aa1a374d0d4d70b75ed798f2",
+      "validation": "manual-review"
+    }
+  }
+}

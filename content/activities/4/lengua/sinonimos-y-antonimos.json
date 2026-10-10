@@ -145,8 +145,8 @@
           "answer": 0
         },
         {
-          "prompt": "¿Cuál es el antónimo de 'aliviado' según el estado de ánimo del gato al principio?",
-          "explanation": "Al principio el gato estaba asustado, que es lo contrario de sentirse tranquilo o aliviado al final.",
+          "prompt": "¿Qué palabra del texto describe el estado de ánimo inicial que contrasta con «aliviado» al final?",
+          "explanation": "En este relato, «asustado» contrasta con «aliviado»: el gato pasa del miedo a la calma.",
           "options": [
             "Asustado",
             "Tranquilo",
@@ -175,7 +175,7 @@
       "type": "choice",
       "prompt": "Nerea ha escrito parejas de antónimos en su libreta, pero ha cometido un error. ¿Qué pareja NO son antónimos?",
       "explanation": "Antiguo y viejo significan lo mismo, por lo que son sinónimos y no antónimos.",
-      "hint": "Busca la pareja que tenga el mismo significado en vez de signficados contrarios.",
+      "hint": "Busca la pareja que tenga el mismo significado en vez de significados contrarios.",
       "lang": "es",
       "options": [
         "Fácil / difícil",
@@ -191,7 +191,7 @@
       "prompt": "Completa la frase con el antónimo adecuado formado con prefijo:",
       "explanation": "Injusto es el antónimo de justo y se forma añadiendo el prefijo in-.",
       "lang": "es",
-      "sentence": "La maestra explicó que romper las normas del recreo es un acto ___.",
+      "sentence": "Tratar a una compañera peor que a los demás sin motivo es ___.",
       "options": [
         "correcto",
         "descalzo",

@@ -94,7 +94,7 @@
       "type": "fill-blank",
       "prompt": "Completa la frase con la palabra correcta:",
       "explanation": "El número 60 en inglés se escribe sixty. Sixteen es 16 y six es 6.",
-      "hint": "Las decenas terminan en -ty.",
+      "hint": "Las decenas de 20 a 90 terminan en -ty.",
       "lang": "en",
       "sentence": "The bus number is ___ (60).",
       "options": [
@@ -121,7 +121,7 @@
       "id": "g2-ingles-numeros-hasta-100-06",
       "type": "classify",
       "prompt": "Clasifica los números según su terminación:",
-      "explanation": "Los números del 13 al 19 terminan en -teen, mientras que las decenas terminan en -ty.",
+      "explanation": "Los números del 13 al 19 terminan en -teen, mientras que las decenas de 20 a 90 terminan en -ty.",
       "lang": "en",
       "categories": [
         "Terminan en -teen (13-19)",

@@ -1,0 +1,256 @@
+{
+  "id": "g6-ingles-variedades-del-ingles",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "variedades-del-ingles",
+  "temaNombre": "Varieties of English",
+  "title": "Exploring Varieties of English",
+  "summary": "Discover common vocabulary and spelling differences between British and American English, and appreciate language diversity.",
+  "keyIdeas": [
+    "English is spoken in many countries and naturally varies between places and communities.",
+    "British English (UK) and American English (US) sometimes use different words for everyday things.",
+    "Different varieties of English are valid and enrich communication between cultures."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "6.2"
+    ],
+    "descriptors": [
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL5",
+      "CD2",
+      "CE3",
+      "CP2",
+      "CP3",
+      "CPSAA1",
+      "CPSAA3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Plurilingüismo",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-variedades-del-ingles-01",
+      "type": "match",
+      "prompt": "Match each British English word to its usual American English equivalent.",
+      "explanation": "Common British words include biscuit, flat, sweets and lorry. Their usual American equivalents here are cookie, apartment, candy and truck.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "biscuit",
+          "right": "cookie"
+        },
+        {
+          "left": "flat",
+          "right": "apartment"
+        },
+        {
+          "left": "sweets",
+          "right": "candy"
+        },
+        {
+          "left": "lorry",
+          "right": "truck"
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-variedades-del-ingles-02",
+      "type": "true-false",
+      "prompt": "In the UK, people say football for the game with eleven players, but in the USA, people usually call it soccer.",
+      "explanation": "True. In the USA, football usually refers to American football, while soccer refers to association football.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-ingles-variedades-del-ingles-03",
+      "type": "choice",
+      "prompt": "Aisha orders food in New York. She wants fried potato strips. What should she ask for in American English?",
+      "explanation": "French fries is the American term. In British English they are chips, while crisps means the thin, crunchy potato snacks sold in bags.",
+      "hint": "The word fries often appears on American menus.",
+      "lang": "en",
+      "options": [
+        "French fries",
+        "Crisps",
+        "Chips"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-variedades-del-ingles-04",
+      "type": "fill-blank",
+      "prompt": "Hugo writes to his teacher in London. Choose the British spelling.",
+      "explanation": "The usual British spelling is favourite, with ou. The American spelling is favorite.",
+      "lang": "en",
+      "sentence": "Blue is my ___ colour.",
+      "options": [
+        "favourite",
+        "favorite",
+        "favorit"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-variedades-del-ingles-05",
+      "type": "classify",
+      "prompt": "Sort these choices by their usual association in this comparison. Some words are shared.",
+      "explanation": "Here, autumn, trousers and holiday are associated with British usage; fall, pants and vacation with American usage. These words are not exclusive to one country.",
+      "lang": "en",
+      "categories": [
+        "British English",
+        "American English"
+      ],
+      "items": [
+        {
+          "text": "autumn",
+          "category": 0
+        },
+        {
+          "text": "fall",
+          "category": 1
+        },
+        {
+          "text": "trousers",
+          "category": 0
+        },
+        {
+          "text": "pants",
+          "category": 1
+        },
+        {
+          "text": "holiday (time off work or school)",
+          "category": 0
+        },
+        {
+          "text": "vacation (time off work or school)",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-variedades-del-ingles-06",
+      "type": "choice",
+      "prompt": "Lucía needs long jeans in a London clothes shop. Why could asking for pants cause confusion?",
+      "explanation": "In common British usage, pants means underwear. Trousers is the usual word for the outer garment.",
+      "hint": "The same word can have different meanings in different places.",
+      "lang": "en",
+      "options": [
+        "Because in British English, pants means underwear.",
+        "Because shop assistants in London do not sell clothes.",
+        "Because pants is not an English word."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-variedades-del-ingles-07",
+      "type": "fill-blank",
+      "prompt": "Choose the usual American word meaning a flat, or a Spanish «piso».",
+      "explanation": "Apartment is the usual American word for a flat.",
+      "lang": "en",
+      "sentence": "My pen pal lives in a modern ___ in Chicago.",
+      "options": [
+        "apartment building",
+        "apartment",
+        "attic"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-ingles-variedades-del-ingles-08",
+      "type": "order",
+      "prompt": "Put the dialogue between Liam (USA) and Harry (UK) in order.",
+      "explanation": "The friends explain biscuit/cookie and sweets/candy. Cookie is also used in British English: these differences are common patterns of usage.",
+      "lang": "en",
+      "items": [
+        "Liam: 'Hi Harry! This packet says biscuits. What does that mean?'",
+        "Harry: 'It means small sweet baked treats. We use biscuit for many of them.'",
+        "Liam: 'In my family, we call those cookies. What do you call candy?'",
+        "Harry: 'We call candy sweets. We also use cookie, especially for some kinds.'"
+      ]
+    },
+    {
+      "id": "g6-ingles-variedades-del-ingles-09",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions.",
+      "explanation": "Learning about cultural exchanges helps us understand and appreciate different varieties of English.",
+      "lang": "en",
+      "title": "Friends Across the Atlantic",
+      "text": "Oliver lives in Manchester, England, and Maya lives in Seattle, USA. They are digital pen pals and exchange emails every month. Last week, Maya wrote: 'It is chilly here because fall has started! On the weekend, we baked cookies and watched a movie in our warm apartment.' Oliver smiled when he read the message. In England, he would say 'autumn' instead of 'fall', 'biscuits' instead of 'cookies', and 'flat' instead of 'apartment'. He replied: 'I love your email, Maya! Here in Manchester, I am wearing warm trousers and drinking hot chocolate with biscuits. Isn't it great how we speak the same language in different, colourful ways?' Both friends enjoy discovering these vocabulary differences. They understand that every variety of English has its own charm and history.",
+      "questions": [
+        {
+          "prompt": "Which season word did Maya use in her American English email?",
+          "explanation": "Maya wrote fall, the usual American word for autumn.",
+          "options": [
+            "Spring",
+            "Autumn",
+            "Fall"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Oliver conclude about their vocabulary differences?",
+          "explanation": "He happily recognises that they speak the same language in different ways.",
+          "options": [
+            "They speak the same language in different, colourful ways.",
+            "Maya should stop using American words.",
+            "English from Manchester is the only correct version."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why is learning about varieties of English useful?",
+          "explanation": "It helps us understand people from different places and communicate without prejudice.",
+          "options": [
+            "It makes grammar rules unnecessary.",
+            "It helps us decide which country speaks the only true language.",
+            "It helps us communicate better and respect people from different countries."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-variedades-del-ingles-10",
+      "type": "choice",
+      "prompt": "Wei presents a project about world Englishes. Which statement is most respectful and accurate?",
+      "explanation": "English varieties reflect the cultures of their communities. British, American, Australian and other varieties are valid.",
+      "hint": "Think about respecting cultural diversity.",
+      "lang": "en",
+      "options": [
+        "Only American English should be studied because it is more modern.",
+        "All varieties of English (British, American, Australian, etc.) are correct and valuable.",
+        "British English is the only correct English, and others are just errors."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T18:22:12.078Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:40:47.793Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "7c0f0a0008d261cc32e82f0b9b0c3cdd17bfc6ee6abbab1c51ef61766c40262e",
+      "validation": "manual-review"
+    }
+  }
+}

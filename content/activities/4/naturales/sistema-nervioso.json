@@ -104,11 +104,11 @@
       "id": "g4-naturales-sistema-nervioso-05",
       "type": "classify",
       "prompt": "Clasifica cada una de estas acciones según el tipo de movimiento que realiza el sistema nervioso.",
-      "explanation": "Los movimientos voluntarios los decidimos nosotros. Los involuntarios o reflejos ocurren automáticamente para protegernos o mantenernos con vida.",
+      "explanation": "Algunas acciones las decidimos; otras ocurren sin una orden consciente. Retirar la mano por un reflejo y el latido son procesos involuntarios diferentes.",
       "lang": "es",
       "categories": [
         "Movimiento voluntario",
-        "Movimiento involuntario o reflejo"
+        "Acción involuntaria"
       ],
       "items": [
         {
@@ -147,7 +147,7 @@
       "id": "g4-naturales-sistema-nervioso-07",
       "type": "choice",
       "prompt": "Aisha escucha varias opiniones de sus compañeros en clase de Ciencias. ¿Quién está diciendo un ERROR?",
-      "explanation": "Lucía se equivoca. El latido del corazón es una función involuntaria controlada automáticamente por el sistema nervioso.",
+      "explanation": "El corazón late de forma involuntaria. Tiene su propio sistema de activación y el sistema nervioso ayuda a regular su ritmo.",
       "hint": "Piensa en qué órganos funcionan sin que tengamos que ordenarles nada.",
       "lang": "es",
       "options": [
@@ -160,8 +160,8 @@
     {
       "id": "g4-naturales-sistema-nervioso-08",
       "type": "choice",
-      "prompt": "En clase sueltan una regla vertical entre los dedos de Nerea para medir su tiempo de reacción. Con luz la atrapa a los 10 cm. Con los ojos cerrados y guiada por un sonido, la atrapa a los 22 cm. ¿Qué conclusión científica explica este resultado?",
-      "explanation": "Cuanto mayor es la distancia en centímetros de la regla, más tiempo ha tardado en reaccionar. Su respuesta fue más rápida con la vista.",
+      "prompt": "En dos pruebas, Nerea atrapa una regla a 10 cm con señal visual y a 22 cm con señal sonora. ¿Qué muestran esas dos mediciones?",
+      "explanation": "En estas dos pruebas, necesitó más tiempo con la señal sonora. Hay que repetirlas para comprobar si esa diferencia se mantiene.",
       "hint": "Fíjate en qué número de centímetros es más pequeño.",
       "lang": "es",
       "options": [
@@ -178,7 +178,7 @@
       "explanation": "Ramón y Cajal demostró con pruebas visuales que las neuronas son células individuales, transformando la ciencia para siempre.",
       "lang": "es",
       "title": "Un gran científico español",
-      "text": "Hace más de cien años, el médico español Santiago Ramón y Cajal investigaba el cerebro humano en su laboratorio. En aquella época, muchos científicos creían que el sistema nervioso era una red continua y pegada, como una tela de araña gigante.\n\nCajal utilizó un microscopio y tintes especiales para observar muestras con enorme paciencia. Así descubrió que el tejido nervioso está formado por células individuales que no están pegadas del todo, sino separadas por diminutos espacios. Las llamó neuronas. Gracias a este gran hallazgo, demostró cómo viajan los mensajes por el cuerpo y ganó el Premio Nobel de Medicina.",
+      "text": "Hace más de cien años, el médico español Santiago Ramón y Cajal investigaba el cerebro humano en su laboratorio. En aquella época, muchos científicos creían que el sistema nervioso era una red continua y pegada, como una tela de araña gigante.\n\nCajal utilizó un microscopio y tintes especiales para observar muestras con enorme paciencia. Así descubrió que el tejido nervioso está formado por células individuales que no están pegadas del todo, sino separadas por diminutos espacios. Estas células se llaman neuronas. Gracias a este gran hallazgo, ayudó a explicar cómo se organiza el tejido nervioso y ganó el Premio Nobel de Medicina.",
       "questions": [
         {
           "prompt": "¿Qué instrumento utilizó Ramón y Cajal para observar las células del cerebro?",
@@ -212,7 +212,7 @@
       "options": [
         "Porque el casco ayuda a que los nervios de las piernas pedaleen con más fuerza",
         "Porque el casco permite que los ojos vean mejor las señales de tráfico",
-        "Porque el casco protege el cráneo y evita lesiones graves en el encéfalo"
+        "Porque amortigua golpes en la cabeza y reduce el riesgo de lesiones."
       ],
       "answer": 2
     }

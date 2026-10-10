@@ -1,0 +1,260 @@
+{
+  "id": "g4-ingles-indicaciones-directions",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "indicaciones-directions",
+  "temaNombre": "Directions",
+  "title": "Asking and Giving Directions!",
+  "summary": "Practise asking for and giving directions around a town in English.",
+  "keyIdeas": [
+    "Use 'turn left' and 'turn right' to describe a change of direction.",
+    "'Go straight on' means to keep going without turning.",
+    "Begin with 'Excuse me' to ask for help politely."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "3.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-indicaciones-directions-01",
+      "type": "match",
+      "prompt": "Match each direction with its meaning in Spanish.",
+      "explanation": "'Left' means 'izquierda', 'right' means 'derecha', 'straight on' means 'todo recto' and 'cross' means 'cruzar'.",
+      "hint": "Remember which hand is your left hand and which is your right hand.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Turn left",
+          "right": "Gira a la izquierda"
+        },
+        {
+          "left": "Turn right",
+          "right": "Gira a la derecha"
+        },
+        {
+          "left": "Go straight on",
+          "right": "Sigue todo recto"
+        },
+        {
+          "left": "Cross the street",
+          "right": "Cruza la calle"
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-indicaciones-directions-02",
+      "type": "choice",
+      "prompt": "Aisha sees this road sign: ➡️. What must she do?",
+      "explanation": "The arrow points right, so the correct direction is 'turn right'.",
+      "hint": "Look at the direction of the arrow.",
+      "lang": "en",
+      "options": [
+        "Go straight on",
+        "Turn left",
+        "Turn right"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-indicaciones-directions-03",
+      "type": "fill-blank",
+      "prompt": "Complete the polite question to ask for help.",
+      "explanation": "'Excuse me' is a polite way to get someone's attention.",
+      "hint": "Choose the expression used to get someone's attention politely.",
+      "lang": "en",
+      "sentence": "Excuse ___, where is the library?",
+      "options": [
+        "you",
+        "my",
+        "me"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-indicaciones-directions-04",
+      "type": "true-false",
+      "prompt": "The supermarket is opposite the school, on the other side of the road. You must cross the road at a safe crossing to get there.",
+      "explanation": "Here, the sentence says that the supermarket is across the road. 'Opposite' means facing something, but there is not always a road between the two places.",
+      "hint": "In this example, the supermarket is on the other side of the road.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-ingles-indicaciones-directions-05",
+      "type": "classify",
+      "prompt": "Sort these expressions into Movement or Position.",
+      "explanation": "'Turn', 'go' and 'cross' describe movement. 'Next to', 'opposite' and 'between' describe where something is.",
+      "lang": "en",
+      "categories": [
+        "Movement (directions)",
+        "Position (where it is)"
+      ],
+      "items": [
+        {
+          "text": "Turn left",
+          "category": 0
+        },
+        {
+          "text": "Go straight on",
+          "category": 0
+        },
+        {
+          "text": "Cross the street",
+          "category": 0
+        },
+        {
+          "text": "Next to",
+          "category": 1
+        },
+        {
+          "text": "Opposite",
+          "category": 1
+        },
+        {
+          "text": "Between",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-indicaciones-directions-06",
+      "type": "choice",
+      "prompt": "Adrián gives this direction: 'Go straight on, turn left at the bakery, and stop'. What is at the turn?",
+      "explanation": "The direction says 'turn left at the bakery', so the bakery is where you turn.",
+      "hint": "Look for the building mentioned after 'turn left'.",
+      "lang": "en",
+      "options": [
+        "The cinema",
+        "The bus station",
+        "The bakery"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-indicaciones-directions-07",
+      "type": "fill-blank",
+      "prompt": "Complete the direction to tell Omar how to continue.",
+      "explanation": "The expression is 'go straight on'.",
+      "hint": "Which word completes 'straight on'?",
+      "lang": "en",
+      "sentence": "Go straight ___ and the park is on your right.",
+      "options": [
+        "to",
+        "on",
+        "in"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-ingles-indicaciones-directions-08",
+      "type": "order",
+      "prompt": "Put Martina's route from school to the museum in order.",
+      "explanation": "First leave school, then walk along the street, turn at the bank and find the museum.",
+      "lang": "en",
+      "items": [
+        "Leave the school gates.",
+        "Go straight on High Street.",
+        "Turn right at the bank.",
+        "The museum is on your left."
+      ]
+    },
+    {
+      "id": "g4-ingles-indicaciones-directions-09",
+      "type": "choice",
+      "prompt": "A visitor asks Wei: 'Excuse me, where is the train station?' What is the best answer?",
+      "explanation": "'Go straight on and turn right at the traffic lights' gives a route. The other answers do not explain how to get there.",
+      "hint": "Choose the answer that tells the visitor where to walk.",
+      "lang": "en",
+      "options": [
+        "I like travelling by train with my family.",
+        "Go straight on and turn right at the traffic lights.",
+        "Trains are very long and fast."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-ingles-indicaciones-directions-10",
+      "type": "reading",
+      "prompt": "Read the directions to Leo's party and answer the questions.",
+      "explanation": "Follow the directions in the text to find Leo's house.",
+      "lang": "en",
+      "title": "Finding Leo's House",
+      "text": "Hello! Welcome to our town. Here are the directions to Leo's house for the party. Start at the town square. Go straight on Park Road. Walk past the big fountain and the pet shop. When you see the post office, turn right onto Lake Street. Cross the street at the zebra crossing. Leo's house is number 14. It has a blue front door. It is between the bakery and the green bookshop. Don't forget to bring your fun party hat!",
+      "questions": [
+        {
+          "prompt": "Where do you start your walk?",
+          "explanation": "The text says to start at the town square.",
+          "options": [
+            "At the town square",
+            "At the pet shop",
+            "At the post office"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What do you do when you see the post office?",
+          "explanation": "At the post office, turn right onto Lake Street.",
+          "options": [
+            "Turn left into the park",
+            "Turn right onto Lake Street",
+            "Stop and buy a postcard"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Where is Leo's house?",
+          "explanation": "Leo's house is between the bakery and the green bookshop.",
+          "options": [
+            "Next to the big fountain",
+            "Opposite the town square",
+            "Between the bakery and the bookshop"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:11:20.821Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:20:49.429Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "2464995f5e8db75562bb3fabdc8f9d6d68a462a63d9b6075687f2d4c1de3f64c",
+      "validation": "manual-review"
+    }
+  }
+}

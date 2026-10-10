@@ -1,0 +1,277 @@
+{
+  "id": "g3-lengua-nombre-propio-comun-concreto-abstracto",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "nombre-propio-comun-concreto-abstracto",
+  "temaNombre": "Proper, common, concrete and abstract nouns",
+  "title": "A great journey with nouns",
+  "summary": "Practise recognising proper, common, concrete and abstract nouns in Spanish.",
+  "keyIdeas": [
+    "Proper nouns name particular people, beings or places and begin with a capital letter.",
+    "Common nouns name people, animals or things of the same kind.",
+    "Concrete nouns name things we can perceive with our senses. Abstract nouns name ideas or feelings."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-01",
+      "type": "choice",
+      "prompt": "In «Hugo llevó su balón al parque», which Spanish word is a proper noun?",
+      "explanation": "Hugo is a proper noun because it names a particular person and begins with a capital letter.",
+      "hint": "Find the word naming a particular person.",
+      "lang": "en",
+      "options": [
+        "Hugo",
+        "parque",
+        "balón"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-02",
+      "type": "true-false",
+      "prompt": "The Spanish word «alegría» is an abstract noun because it names an emotion rather than a physical object.",
+      "explanation": "Abstract nouns name feelings, emotions or ideas rather than physical things we can perceive with our senses.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-03",
+      "type": "classify",
+      "prompt": "Sort these Spanish nouns into proper or common nouns.",
+      "explanation": "Names of particular people and places are proper nouns with capital letters. General words for objects and places are common nouns.",
+      "lang": "en",
+      "categories": [
+        "Proper nouns",
+        "Common nouns"
+      ],
+      "items": [
+        {
+          "text": "Martina",
+          "category": 0
+        },
+        {
+          "text": "río",
+          "category": 1
+        },
+        {
+          "text": "Pirineos",
+          "category": 0
+        },
+        {
+          "text": "colegio",
+          "category": 1
+        },
+        {
+          "text": "Sevilla",
+          "category": 0
+        },
+        {
+          "text": "pizarra",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-04",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish abstract noun that fits the sentence.",
+      "explanation": "«felicidad» is an abstract noun naming an emotion. «mochila» and «manzana» are concrete nouns.",
+      "lang": "en",
+      "sentence": "Durante el recreo, Martina sintió mucha ___ al compartir su merienda con Omar.",
+      "options": [
+        "mochila",
+        "felicidad",
+        "manzana"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-05",
+      "type": "match",
+      "prompt": "Match each Spanish example to its description. A noun can be common and concrete at the same time.",
+      "explanation": "Proper/common and concrete/abstract are different classifications. «ciudad» and «guitarra» are both common and concrete.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Valencia",
+          "right": "Proper name of a city"
+        },
+        {
+          "left": "amistad",
+          "right": "Name of an abstract relationship"
+        },
+        {
+          "left": "guitarra",
+          "right": "Name of a concrete instrument"
+        },
+        {
+          "left": "ciudad",
+          "right": "Common noun for any city"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-06",
+      "type": "choice",
+      "prompt": "Which Spanish sentence has a mistake in the spelling of a proper noun?",
+      "explanation": "Córdoba is a city's name. As a proper noun, it must begin with a capital letter.",
+      "hint": "Find a place name written with a lower-case first letter.",
+      "lang": "en",
+      "options": [
+        "El perro Tobi corretea por el jardín.",
+        "Aisha y Lucas visitaron el museo el martes.",
+        "Mi prima Lucía viajó en tren hasta córdoba."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-07",
+      "type": "classify",
+      "prompt": "Sort these Spanish words into concrete or abstract nouns.",
+      "explanation": "Concrete nouns name things we can see, hear or touch, such as «campana», «cuaderno» and «árbol». Abstract nouns name ideas or feelings, such as «tristeza», «valentía» and «paz».",
+      "lang": "en",
+      "categories": [
+        "Concrete nouns",
+        "Abstract nouns"
+      ],
+      "items": [
+        {
+          "text": "campana",
+          "category": 0
+        },
+        {
+          "text": "tristeza",
+          "category": 1
+        },
+        {
+          "text": "cuaderno",
+          "category": 0
+        },
+        {
+          "text": "valentía",
+          "category": 1
+        },
+        {
+          "text": "árbol",
+          "category": 0
+        },
+        {
+          "text": "paz",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-08",
+      "type": "reading",
+      "prompt": "Read the Spanish story carefully and answer the questions.",
+      "explanation": "Stories combine proper nouns to name characters and places with abstract nouns to name their emotions.",
+      "lang": "en",
+      "title": "Una tarde en el parque",
+      "text": "Aisha y su perro Golfo pasean cada tarde por el parque del Retiro, en la ciudad de Madrid. Hoy han encontrado una pequeña tortuga de tierra cerca del gran estanque. Al verla tan asustada entre la hierba, sintieron una profunda compasión. La niña decidió avisar a Mateo, el jardinero del parque. Con mucha paciencia y cuidado, Mateo recogió al animal para avisar al centro de rescate de fauna. Aisha regresó a su casa llena de orgullo y alegría por haber protegido a un ser vivo. ¡Fue una tarde inolvidable para todos!",
+      "questions": [
+        {
+          "prompt": "Which Spanish word from the text is an abstract noun?",
+          "explanation": "«compasión» names a feeling, rather than something we can physically touch or see.",
+          "options": [
+            "tortuga",
+            "estanque",
+            "compasión"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which Spanish words in the text are proper nouns?",
+          "explanation": "Aisha and Madrid name a particular person and city.",
+          "options": [
+            "Aisha y Madrid",
+            "parque y estanque",
+            "jardinero y animal"
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-09",
+      "type": "choice",
+      "prompt": "Lucas sorts materials for art class. Which Spanish abstract noun is included by mistake?",
+      "explanation": "«ilusión» names an emotion. The other words name physical objects we can touch.",
+      "hint": "Which word cannot name something stored in a box here?",
+      "lang": "en",
+      "options": [
+        "rotulador",
+        "tijeras",
+        "ilusión",
+        "cartulina"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-nombre-propio-comun-concreto-abstracto-10",
+      "type": "order",
+      "prompt": "Put this guide in order to classify «esperanza» in «Siento esperanza».",
+      "explanation": "The context distinguishes «esperanza», a feeling, from the name Esperanza. A capital letter at the beginning of a sentence does not make a common noun proper.",
+      "lang": "en",
+      "items": [
+        "Read «esperanza» in its sentence.",
+        "Check that it names a feeling in general, rather than a person named Esperanza.",
+        "Identify it as a common noun in this context.",
+        "Recognise that it is abstract because it names a feeling."
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:25:00.280Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:42:25.545Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f633a91ddeca970f98331d5370570b765723c2efa8d052ebc832da15e53c07ca",
+      "validation": "manual-review"
+    }
+  }
+}

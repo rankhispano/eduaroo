@@ -63,7 +63,7 @@
       "id": "g2-mates-numeros-hasta-999-02",
       "type": "classify",
       "prompt": "Clasifica estos números según sean mayores o menores que 500.",
-      "explanation": "Comparamos la cifra de las centenas con el 5 para saber si es mayor o menor.",
+      "explanation": "Primero miramos las centenas. Si son 5, miramos decenas y unidades: 512 supera 500 porque tiene 12 unidades más.",
       "lang": "es",
       "categories": [
         "Menor que 500",
@@ -191,7 +191,7 @@
       "type": "choice",
       "prompt": "En el teatro hay 489 personas sentadas. ¿A qué centena completa está más cerca?",
       "explanation": "489 está muy cerca de 500: solo le faltan 11 para llegar.",
-      "hint": "Piensa si 89 decenas y unidades están más cerca de 100 o de 0.",
+      "hint": "Compara cuánto falta para 500 con la distancia hasta 400.",
       "lang": "es",
       "options": [
         "A 500 personas",

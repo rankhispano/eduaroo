@@ -1,0 +1,254 @@
+{
+  "id": "g5-ingles-medioambiente-global",
+  "cursoId": "5",
+  "asignaturaId": "ingles",
+  "temaId": "medioambiente-global",
+  "temaNombre": "The Global Environment",
+  "title": "Protecting Our Global Environment",
+  "summary": "Practise English words and expressions for caring for the planet.",
+  "keyIdeas": [
+    "The three Rs are reduce, reuse and recycle: ways to reduce waste.",
+    "Global warming and deforestation affect habitats around the world.",
+    "We can save resources by using public transport, switching off unused lights and turning off taps."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-ingles-medioambiente-global-01",
+      "type": "choice",
+      "prompt": "Which action helps reduce air pollution in our cities?",
+      "explanation": "Riding a bicycle produces no exhaust fumes while travelling and can reduce car journeys.",
+      "hint": "Choose transport that does not burn fuel while you ride.",
+      "lang": "en",
+      "options": [
+        "Riding a bicycle to school",
+        "Leaving lights on all night",
+        "Driving a big car every day"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-02",
+      "type": "true-false",
+      "prompt": "Turning off the tap while brushing your teeth helps save water.",
+      "explanation": "True. Closing the tap while brushing avoids wasting clean water.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the word about recycling.",
+      "explanation": "'Recycling bin' names a bin used to collect materials for recycling. In Spain, empty drinks cans go in the yellow packaging bin.",
+      "hint": "Choose the word related to recycling.",
+      "lang": "en",
+      "sentence": "In Spain, you should put empty soft-drink cans into the yellow ___ bin.",
+      "options": [
+        "burning",
+        "destroying",
+        "recycling"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-04",
+      "type": "match",
+      "prompt": "Match each environmental action with its definition.",
+      "explanation": "Reduce means use less; reuse means use something again; recycle means turn waste materials into new products.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Reduce",
+          "right": "Use less energy and buy fewer things"
+        },
+        {
+          "left": "Reuse",
+          "right": "Use something again instead of throwing it away"
+        },
+        {
+          "left": "Recycle",
+          "right": "Transform waste into new products"
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-05",
+      "type": "classify",
+      "prompt": "Sort these actions into Green Habits or Harmful Habits.",
+      "explanation": "Suitable tree planting, reusing bags and switching off unused screens help conserve resources. Littering and wasting paper or electricity harm the environment.",
+      "lang": "en",
+      "categories": [
+        "Green Habits",
+        "Harmful Habits"
+      ],
+      "items": [
+        {
+          "text": "Planting suitable trees in the park with permission",
+          "category": 0
+        },
+        {
+          "text": "Dropping plastic bottles on the beach",
+          "category": 1
+        },
+        {
+          "text": "Using cloth shopping bags",
+          "category": 0
+        },
+        {
+          "text": "Wasting paper in the classroom",
+          "category": 1
+        },
+        {
+          "text": "Switching off unused computer screens",
+          "category": 0
+        },
+        {
+          "text": "Leaving unused electronic devices on standby unnecessarily",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-06",
+      "type": "choice",
+      "prompt": "Lucía and Omar are organising an Eco-Club. What can they say to invite classmates to pick up litter in the playground?",
+      "explanation": "The first option invites everyone to care for the playground together.",
+      "hint": "Choose a positive invitation to care for school surroundings.",
+      "lang": "en",
+      "options": [
+        "Let's clean our playground together to protect wildlife!",
+        "Don't worry about the rubbish, someone else will clean it.",
+        "We need to buy more plastic wrappers for our snacks."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-07",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct renewable energy source.",
+      "explanation": "Wind turbines use wind energy to produce electricity without burning fuel during operation. Making them also uses materials and energy.",
+      "hint": "Look at the name of the turbines.",
+      "lang": "en",
+      "sentence": "Wind turbines produce clean electricity using ___ energy.",
+      "options": [
+        "wind",
+        "coal",
+        "oil"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-08",
+      "type": "order",
+      "prompt": "Put the school compost project's steps in order.",
+      "explanation": "Compost combines plant scraps with dry material and needs air, moisture and time. Mature compost improves soil; it is not the same as soil.",
+      "lang": "en",
+      "items": [
+        "Collect suitable fruit and vegetable scraps with an adult.",
+        "Mix them with dry leaves in the garden compost bin.",
+        "Let the mixture decompose, checking it with the teacher.",
+        "Use the mature compost to improve the soil."
+      ]
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-09",
+      "type": "reading",
+      "prompt": "Read this invented report and answer the questions.",
+      "explanation": "Forests support living things, and collective action can help protect them.",
+      "lang": "en",
+      "title": "Saving the World's Forests",
+      "text": "Forests provide food and natural habitats for many animals. Trees absorb carbon dioxide as they grow and store carbon in wood. Cutting or burning forests can release stored carbon and destroy habitats. Protecting forests also means caring for soils, water and the people who live there.\n\nIn this invented report, a school in Valencia starts a campaign called “One Child, One Seed”. Students learn about local forests. With teachers and park staff, they plant suitable native trees in an approved place. They also write letters asking local representatives to protect forests. Trees need care after planting. Present choices, made together, can help build a greener future.",
+      "questions": [
+        {
+          "prompt": "Why do forests help many animals survive?",
+          "options": [
+            "Because forests cover every desert.",
+            "Because they provide food and natural habitats.",
+            "Because they make plastic for birds."
+          ],
+          "answer": 1,
+          "explanation": "The text says that forests provide food and habitats for many animals."
+        },
+        {
+          "prompt": "What do the students in Valencia do in their 'One Child, One Seed' campaign?",
+          "explanation": "They plant suitable native trees with teachers and park staff, and write to local representatives. The text does not name a season.",
+          "options": [
+            "They travel to the Amazon rainforest every month.",
+            "They sell tropical wood to make paper.",
+            "They plant native trees and contact politicians."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does the author suggest in the final sentence?",
+          "explanation": "The final sentence suggests that present choices made together can help build a greener future.",
+          "options": [
+            "Only grown-ups can make important environmental choices.",
+            "Individual and collective actions right now can create a better environment.",
+            "It is impossible to solve global environmental problems."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-ingles-medioambiente-global-10",
+      "type": "choice",
+      "prompt": "Aisha wants to reduce her family's holiday carbon footprint. Which choice generally helps most among these options?",
+      "explanation": "For comparable European journeys, high-speed rail generally has lower emissions per passenger than a domestic flight. The exact impact depends on the journey.",
+      "hint": "Compare travelling by train with flying over a short distance.",
+      "lang": "en",
+      "options": [
+        "Taking a high-speed train instead of a domestic flight",
+        "Renting two large petrol cars for short journeys",
+        "Buying single-use plastic bottles every afternoon"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:15:54.764Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:58:40.028Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "fe44bad5797c696ee2ea9b72a8a3ab7c3a3e6c1e8aef73df8ecbf051f493695d",
+      "validation": "manual-review"
+    }
+  }
+}

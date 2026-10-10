@@ -1,0 +1,229 @@
+{
+  "id": "g4-mates-numeros-hasta-999-999",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "numeros-hasta-999-999",
+  "temaNombre": "Numbers up to 999.999",
+  "title": "Adventures with Numbers up to 999.999",
+  "summary": "Read, partition, compare and round numbers with up to six digits. These Spanish curriculum exercises use dots to group thousands: 1.000 means one thousand.",
+  "keyIdeas": [
+    "A six-digit number has a hundred-thousands position.",
+    "Each digit's value depends on its position.",
+    "To compare numbers, start with the position having the greatest value."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-numeros-hasta-999-999-01",
+      "type": "match",
+      "prompt": "Match each number with the value of its digit 7.",
+      "explanation": "The digit 7 can represent 700.000, 70.000, 7.000 or 700 depending on its position.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "742.105",
+          "right": "700.000 ones"
+        },
+        {
+          "left": "173.420",
+          "right": "70.000 ones"
+        },
+        {
+          "left": "527.310",
+          "right": "7.000 ones"
+        },
+        {
+          "left": "304.750",
+          "right": "700 ones"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-02",
+      "type": "choice",
+      "prompt": "How do you write 'four hundred and five thousand and thirty-two' in digits?",
+      "explanation": "The positions contain 4 hundred-thousands, 0 ten-thousands, 5 thousands, 0 hundreds, 3 tens and 2 ones: 405.032.",
+      "hint": "Keep the zeros in the ten-thousands and hundreds positions.",
+      "lang": "en",
+      "options": [
+        "45.032",
+        "450.032",
+        "405.032",
+        "405.320"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-03",
+      "type": "true-false",
+      "prompt": "89.999 is greater than 102.300 because its first digit, 8, is larger.",
+      "explanation": "False. 89.999 has five digits and 102.300 has six, so 102.300 is greater.",
+      "hint": "Count the digits in each number first.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-04",
+      "type": "fill-blank",
+      "prompt": "Fill the gap to complete the partition correctly.",
+      "explanation": "The 3 is in the ten-thousands position: 3 × 10.000 = 30.000.",
+      "hint": "The digit 3 represents ten-thousands.",
+      "lang": "en",
+      "sentence": "538.204 = 500.000 + ___ + 8.000 + 200 + 4",
+      "options": [
+        "30.000",
+        "300.000",
+        "3.000"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-05",
+      "type": "classify",
+      "prompt": "Sort these numbers by their nearest thousand.",
+      "explanation": "For these numbers, a hundreds digit below 5 rounds down to 125.000; a digit of 5 or more rounds up to 126.000.",
+      "lang": "en",
+      "categories": [
+        "Rounds to 125.000",
+        "Rounds to 126.000"
+      ],
+      "items": [
+        {
+          "text": "125.210",
+          "category": 0
+        },
+        {
+          "text": "125.499",
+          "category": 0
+        },
+        {
+          "text": "125.620",
+          "category": 1
+        },
+        {
+          "text": "125.805",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-06",
+      "type": "choice",
+      "prompt": "Lucas partitions 604.050 as '6 hundred-thousands + 4 thousands + 5 ones'. What is his mistake?",
+      "explanation": "The 5 is in the tens position, worth 50, rather than in the ones position, which contains 0.",
+      "hint": "Look at the position of 5 in 604.050.",
+      "lang": "en",
+      "options": [
+        "He confused 5 tens with 5 ones.",
+        "He forgot to include the hundred-thousands.",
+        "The number has 4 hundreds rather than 4 thousands."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-07",
+      "type": "order",
+      "prompt": "Put these visitor totals for nature parks in order from smallest to largest.",
+      "explanation": "The five-digit totals come first: 89.450 < 98.100. Then the six-digit totals: 104.200 < 140.050.",
+      "lang": "en",
+      "items": [
+        "89.450 visitors",
+        "98.100 visitors",
+        "104.200 visitors",
+        "140.050 visitors"
+      ]
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-08",
+      "type": "choice",
+      "prompt": "The central library has 124.500 children's books and 310.200 books for teenagers. How many books are in these two sections altogether?",
+      "explanation": "124.500 + 310.200 = 434.700 books.",
+      "hint": "Add by place value, starting with the ones.",
+      "lang": "en",
+      "options": [
+        "334.700 books",
+        "430.700 books",
+        "434.500 books",
+        "434.700 books"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-09",
+      "type": "choice",
+      "prompt": "Aisha estimates 218.400 + 379.100 by rounding each number to the nearest hundred thousand. What estimate does she get?",
+      "explanation": "218.400 rounds to 200.000 and 379.100 rounds to 400.000. Their sum is 600.000.",
+      "hint": "Round both numbers to the nearest hundred thousand before adding.",
+      "lang": "en",
+      "options": [
+        "590.000",
+        "700.000",
+        "500.000",
+        "600.000"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g4-mates-numeros-hasta-999-999-10",
+      "type": "choice",
+      "prompt": "I have 6 digits. My hundred-thousands digit is 7, my tens digit is 8, and every other digit is 0. What number am I?",
+      "explanation": "Put 7 in the hundred-thousands position, 8 in the tens position and zeros elsewhere: 700.080.",
+      "hint": "Use the positions: hundred-thousands, ten-thousands, thousands, hundreds, tens, ones.",
+      "lang": "en",
+      "options": [
+        "700.080",
+        "700.800",
+        "70.080",
+        "708.000"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:11:51.138Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:54:37.946Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "9f7e0023cb128e31b6a8c36181ec84037e1f57f8fd0c5d308c90b7870a22bad5",
+      "validation": "manual-review"
+    }
+  }
+}

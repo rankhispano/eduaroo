@@ -7,7 +7,7 @@
   "title": "¡Aprendo a escribir palabras!",
   "summary": "Practica cómo juntar letras y sílabas para escribir palabras geniales.",
   "keyIdeas": [
-    "Cada letra tiene su sonido y juntas forman palabras.",
+    "Combinamos letras para escribir palabras y representar sus sonidos.",
     "Escribimos las palabras separadas por un espacio.",
     "Revisar lo que escribimos nos ayuda a mejorar."
   ],
@@ -53,7 +53,7 @@
     {
       "id": "g1-lengua-escritura-de-palabras-02",
       "type": "match",
-      "prompt": "Une las sílabas para formar tres palabras:",
+      "prompt": "Une las sílabas para formar estas palabras: casa, pelo y luna.",
       "explanation": "Al unir ca con sa sale casa, pe con lo forma pelo y lu con na forma luna.",
       "lang": "es",
       "pairs": [
@@ -190,7 +190,7 @@
     {
       "id": "g1-lengua-escritura-de-palabras-09",
       "type": "order",
-      "prompt": "Ordena las palabras para formar una frase que tenga sentido:",
+      "prompt": "Ordena: primero el animal, después lo que hace y al final lo que come.",
       "explanation": "Primero decimos de quién hablamos (El león) y luego qué hace (come carne).",
       "lang": "es",
       "items": [

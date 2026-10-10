@@ -1,0 +1,262 @@
+{
+  "id": "g5-naturales-las-fuerzas-y-el-movimiento",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "las-fuerzas-y-el-movimiento",
+  "temaNombre": "Forces and motion",
+  "title": "Forces and motion",
+  "summary": "Explore forces, movement, friction and gravity through everyday examples.",
+  "keyIdeas": [
+    "A force is an interaction that can change an object's movement or shape.",
+    "Contact forces include pushes and friction. Gravity and magnetism can act without direct contact.",
+    "Friction opposes sliding between surfaces, but also enables walking, starting and braking."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-01",
+      "type": "classify",
+      "prompt": "Classify these actions as involving contact forces or forces acting at a distance.",
+      "explanation": "Contact forces involve touching objects. Gravity, magnetism and electrostatic attraction can act without direct contact.",
+      "lang": "en",
+      "categories": [
+        "Contact forces",
+        "Forces at a distance"
+      ],
+      "items": [
+        {
+          "text": "Pushing a shopping trolley with your hands",
+          "category": 0
+        },
+        {
+          "text": "A magnet attracting a metal paperclip",
+          "category": 1
+        },
+        {
+          "text": "A ripe apple falling from a tree",
+          "category": 1
+        },
+        {
+          "text": "Stopping a bicycle with rubber brake pads",
+          "category": 0
+        },
+        {
+          "text": "A balloon attracting paper pieces after being rubbed with wool",
+          "category": 1
+        },
+        {
+          "text": "Kicking a football in the playground",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about how forces affect materials.",
+      "explanation": "Forces can move or stop objects and change their shape. Elastic changes reverse; permanent changes, such as reshaping modelling clay, do not.",
+      "hint": "Think about the material's change of shape.",
+      "lang": "en",
+      "sentence": "When a ball of modelling clay is squashed and does not return to its original shape, it has undergone permanent ___.",
+      "options": [
+        "deformation",
+        "attraction",
+        "speed"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-03",
+      "type": "true-false",
+      "prompt": "When a box slides across the floor, friction pushes it in the same direction as its sliding motion.",
+      "explanation": "Here, friction opposes sliding. In other situations, such as walking, friction can help push us forwards.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-04",
+      "type": "match",
+      "prompt": "Match each action to the main effect of the force.",
+      "explanation": "Forces can slow, speed up or redirect objects, or change their shape temporarily or permanently.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Applying a scooter's brake",
+          "right": "Reducing an object's speed"
+        },
+        {
+          "left": "Stretching an elastic band",
+          "right": "A reversible, temporary change of shape"
+        },
+        {
+          "left": "Redirecting a tennis ball with a racket",
+          "right": "Changing the direction of movement"
+        },
+        {
+          "left": "Crushing a can in a press operated by the teacher",
+          "right": "A permanent change of shape"
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-05",
+      "type": "choice",
+      "prompt": "Four pupils discuss a person's mass and weight on the Moon. Who has the correct scientific idea?",
+      "explanation": "Mass measures the amount of matter and does not change simply by moving to another place. Weight is gravitational force; the Moon's surface gravity is weaker than Earth's.",
+      "hint": "Which measure describes the amount of matter in your body?",
+      "lang": "en",
+      "options": [
+        "Lucía: 'Our mass stays the same, but our weight changes because the Moon pulls less strongly.'",
+        "Hugo: 'Our mass becomes one sixth as large because we float on the Moon.'",
+        "Aisha: 'Mass and weight are identical, so both become zero.'",
+        "Adrián: 'Mass increases to compensate for weaker lunar gravity.'"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-06",
+      "type": "choice",
+      "prompt": "Nerea releases the same toy car down a ramp onto smooth ice, a fluffy towel and polished wood. On which surface will it travel the shortest distance, and why?",
+      "explanation": "In this comparison, the towel resists the car's movement more. Motion energy is transferred to heat and other forms, so the car stops sooner.",
+      "hint": "Which surface offers more resistance to movement?",
+      "lang": "en",
+      "options": [
+        "The towel, because its rough surface creates more resistance and slows the car.",
+        "Exactly the same distance on all three because the ramp height is unchanged.",
+        "Smooth ice, because slipping quickly removes its inertia.",
+        "Polished wood, because it absorbs the car's weight and prevents movement."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-07",
+      "type": "order",
+      "prompt": "Omar investigates how a box's weight affects the force needed to drag it. Order the scientific-method steps.",
+      "explanation": "Start with a question and prediction, design a test, collect measurements, analyse results and share a conclusion.",
+      "lang": "en",
+      "items": [
+        "Ask a question and predict what happens when more weight is added",
+        "Design a test using a force meter and boxes with different loads",
+        "Measure the force needed to move each box and record the results",
+        "Analyse the results and compare them with the prediction",
+        "Write a conclusion and share it with classmates"
+      ]
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-08",
+      "type": "choice",
+      "prompt": "In a school orienteering activity, Martina travels 200 metres in 40 seconds and Mateo travels 300 metres in 50 seconds. Who has the greater average speed?",
+      "explanation": "Average speed is distance divided by time. Martina: 200 / 40 = 5 m/s. Mateo: 300 / 50 = 6 m/s.",
+      "hint": "Divide each distance by the time in seconds.",
+      "lang": "en",
+      "options": [
+        "Mateo: 6 m/s compared with Martina's 5 m/s.",
+        "Martina, because she takes fewer seconds to finish her section.",
+        "Both, because the ratios are equal.",
+        "Martina: 5 metres each second, while Mateo travels only 4."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-09",
+      "type": "reading",
+      "prompt": "Read about friction and road safety, then answer the questions.",
+      "explanation": "Friction is essential for road vehicles to start, steer and brake.",
+      "lang": "en",
+      "title": "Tyres' invisible grip",
+      "text": "When we cycle or travel by bus, friction between tyres and the road is essential for safety. It helps wheels grip the road when turning and lets braking forces slow the vehicle.\n\nRain can leave a layer of water on the road. Tyre grooves help channel it aside. If water builds up and tyres lose contact with the road, they can ride on the water instead. This dangerous effect is called aquaplaning, and worn tyres increase the risk.\n\nWith direct road grip lost, steering and braking control are greatly reduced. Science and technology therefore support better tyre designs and regular vehicle maintenance.",
+      "questions": [
+        {
+          "prompt": "What is the main function of tyre grooves in the text?",
+          "explanation": "They channel water aside to help tyres maintain road contact.",
+          "options": [
+            "Cool the bus's brakes so they release no heat.",
+            "Increase the vehicle's weight so wind cannot move it.",
+            "Remove and channel water to maintain contact with the road."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why does a car often need a longer stopping distance in rain?",
+          "explanation": "A wet road can provide less friction, making slipping more likely and increasing stopping distance.",
+          "options": [
+            "Water reduces friction between tyres and the road.",
+            "Earth's gravity weakens when clouds and rain appear.",
+            "Mechanical brakes become heavier when wet."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What would happen if friction disappeared from all city roads?",
+          "explanation": "Tyre-road friction is needed to brake, transmit driving force and turn safely.",
+          "options": [
+            "A road-safety disaster: vehicles could not brake or steer in a controlled way.",
+            "An ideal improvement: vehicles would travel infinitely fast without energy.",
+            "Nothing would change because gravity completely replaces friction when braking."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-las-fuerzas-y-el-movimiento-10",
+      "type": "choice",
+      "prompt": "A tug-of-war rope starts at rest. The blue team pulls left with 150 newtons (N) and the red team pulls right with 150 newtons (N). What happens to the scarf tied at its centre?",
+      "explanation": "Equal forces in opposite directions balance. The total horizontal force is zero, so the rope's state of rest does not change.",
+      "hint": "Compare both forces' sizes and directions.",
+      "lang": "en",
+      "options": [
+        "It swings endlessly because the forces double.",
+        "It moves slowly right because forward motion always wins.",
+        "It suddenly drops because equal forces cancel gravity.",
+        "It stays still because equal pulls in opposite directions balance."
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:12:27.134Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:05:50.169Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "37e9d2d391ddd1e494b8ab710d0d77e555502e303175c464a27b9b2a4ad24fef",
+      "validation": "manual-review"
+    }
+  }
+}

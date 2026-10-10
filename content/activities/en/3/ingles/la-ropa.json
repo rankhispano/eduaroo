@@ -1,0 +1,257 @@
+{
+  "id": "g3-ingles-la-ropa",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "la-ropa",
+  "temaNombre": "Clothes",
+  "title": "Let's Talk About Clothes!",
+  "summary": "Practise English clothes words and describe what you are wearing.",
+  "keyIdeas": [
+    "Use 'I am wearing...' to say which clothes you have on.",
+    "In English, the colour comes before the item of clothing: a blue jumper.",
+    "Choose clothes for the weather: light clothes for heat and warm clothes for cold."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-la-ropa-01",
+      "type": "match",
+      "prompt": "Match each piece of clothing with the part of the body where you wear it.",
+      "explanation": "Wear a hat on your head, socks on your feet, gloves on your hands and a scarf around your neck.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "A warm hat",
+          "right": "On your head"
+        },
+        {
+          "left": "Socks",
+          "right": "On your feet"
+        },
+        {
+          "left": "Gloves",
+          "right": "On your hands"
+        },
+        {
+          "left": "A scarf",
+          "right": "Around your neck"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-la-ropa-02",
+      "type": "choice",
+      "prompt": "It is a hot summer day at the park. What does Leo wear?",
+      "explanation": "On this hot day, Leo chooses light clothes: a T-shirt and shorts.",
+      "hint": "Think of clothes for sunshine and heat.",
+      "lang": "en",
+      "options": [
+        "A heavy coat and gloves",
+        "A T-shirt and shorts",
+        "A woolly jumper and boots"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-la-ropa-03",
+      "type": "true-false",
+      "prompt": "You wear a swimsuit and sandals when it snows in the mountains.",
+      "explanation": "Snowy mountain weather is cold, so choose a warm coat, boots and gloves rather than a swimsuit and sandals.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-ingles-la-ropa-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct item for a rainy day.",
+      "explanation": "A raincoat helps keep you dry on rainy days.",
+      "hint": "Look for 'rain' in the word.",
+      "lang": "en",
+      "sentence": "When it rains, Aisha puts on her yellow ___ to stay dry.",
+      "options": [
+        "raincoat",
+        "sunglasses",
+        "sandals"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-la-ropa-05",
+      "type": "classify",
+      "prompt": "Sort the clothes into summer clothes or winter clothes.",
+      "explanation": "A swimsuit, shorts and sun hat suit summer weather. A warm coat, woolly hat and gloves protect us from winter cold.",
+      "lang": "en",
+      "categories": [
+        "Summer clothes ☀️",
+        "Winter clothes ❄️"
+      ],
+      "items": [
+        {
+          "text": "Swimsuit",
+          "category": 0
+        },
+        {
+          "text": "Warm coat",
+          "category": 1
+        },
+        {
+          "text": "Shorts",
+          "category": 0
+        },
+        {
+          "text": "Woolly hat",
+          "category": 1
+        },
+        {
+          "text": "Sun hat",
+          "category": 0
+        },
+        {
+          "text": "Gloves",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-la-ropa-06",
+      "type": "choice",
+      "prompt": "Nerea is getting ready for physical education class. Her teacher says, 'Put on sports shoes!' What does she wear?",
+      "explanation": "Trainers are sports shoes for running and exercising in physical education.",
+      "hint": "Find shoes suitable for sport.",
+      "lang": "en",
+      "options": [
+        "Slippers",
+        "Rain boots",
+        "Trainers"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-la-ropa-07",
+      "type": "fill-blank",
+      "prompt": "Choose the correct verb form to describe what Adrián is wearing.",
+      "explanation": "Use 'is' with 'he' in the present: 'He is wearing'.",
+      "hint": "Remember: I am, you are, he/she is.",
+      "lang": "en",
+      "sentence": "Look at Adrián! He ___ wearing a green jumper.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-la-ropa-08",
+      "type": "order",
+      "prompt": "Put the steps in order to get your feet ready before school.",
+      "explanation": "First put on socks, then shoes, then tie the laces.",
+      "lang": "en",
+      "items": [
+        "Put on your clean socks",
+        "Put your feet into your shoes",
+        "Tie your shoelaces securely"
+      ]
+    },
+    {
+      "id": "g3-ingles-la-ropa-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "Finding clothes and colours in a text helps you practise the vocabulary.",
+      "lang": "en",
+      "title": "A Rainy Morning for Lucía and Omar",
+      "text": "Today is Tuesday and it is cold and raining outside. Lucía looks out of her bedroom window. She sees big grey clouds and puddles on the street. Lucía opens her wardrobe to get dressed for school. First, she puts on blue jeans and a warm red jumper. Next, she takes her favourite yellow raincoat and waterproof boots. Her brother Omar is also ready. He is wearing a dark jacket and holding a big blue umbrella. 'Don't forget your scarf, Lucía!' says Omar smiling. Lucía takes her green scarf, and they both walk happily to school.",
+      "questions": [
+        {
+          "prompt": "What colour is Lucía's jumper?",
+          "explanation": "The text says she puts on blue jeans and a warm red jumper.",
+          "options": [
+            "Red",
+            "Green",
+            "Blue"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why is Lucía wearing a raincoat and waterproof boots?",
+          "explanation": "The text says it is cold and raining outside.",
+          "options": [
+            "Because they are going swimming",
+            "Because it is very sunny",
+            "Because it is cold and raining"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Omar remind Lucía to take before leaving?",
+          "explanation": "Omar says, 'Don't forget your scarf, Lucía!' before they leave.",
+          "options": [
+            "Her scarf",
+            "Her umbrella",
+            "Her school bag"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-la-ropa-10",
+      "type": "choice",
+      "prompt": "Riddle time: 'I keep your neck warm when the cold wind blows. I am long, soft and woolly. What am I?'",
+      "explanation": "A scarf is a long, soft item worn around your neck to keep you warm.",
+      "hint": "It is worn around your neck.",
+      "lang": "en",
+      "options": [
+        "A scarf",
+        "A belt",
+        "A pair of socks",
+        "A T-shirt"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:45:33.508Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:35:31.881Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "4aee0099e5611e79da087ce9b699b092ae8001b6b0670a130346e7543b87583a",
+      "validation": "manual-review"
+    }
+  }
+}

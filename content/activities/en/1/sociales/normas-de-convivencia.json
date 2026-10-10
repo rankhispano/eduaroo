@@ -1,0 +1,218 @@
+{
+  "id": "g1-sociales-normas-de-convivencia",
+  "cursoId": "1",
+  "asignaturaId": "sociales",
+  "temaId": "normas-de-convivencia",
+  "temaNombre": "Rules for getting along",
+  "title": "Living together and caring for each other",
+  "summary": "Practise simple rules for getting along peacefully.",
+  "keyIdeas": [
+    "Rules help us respect each other and live together well.",
+    "Listening and talking help us solve problems without fighting.",
+    "Sharing and caring for our spaces help everyone enjoy them."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.3"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL5",
+      "CPSAA1"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-sociales-normas-de-convivencia-01",
+      "type": "true-false",
+      "prompt": "In class, we raise our hands to ask for a turn to speak.",
+      "explanation": "Raising a hand helps us take turns and listen to everyone.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-02",
+      "type": "choice",
+      "prompt": "Which polite word do we use when asking a classmate for help?",
+      "explanation": "Saying please shows respect and kindness.",
+      "hint": "It is a kind word used when asking for things.",
+      "lang": "en",
+      "options": [
+        "Give it to me",
+        "Hurry",
+        "Please"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-03",
+      "type": "match",
+      "prompt": "Match each action to the right place.",
+      "explanation": "Different places have rules for safety and respect.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Speak quietly",
+          "right": "Library"
+        },
+        {
+          "left": "Run and play tag",
+          "right": "Playground"
+        },
+        {
+          "left": "Use a pedestrian crossing",
+          "right": "Street"
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence.",
+      "explanation": "Walking calmly in corridors helps prevent bumps and falls.",
+      "lang": "en",
+      "sentence": "To avoid accidents, we walk in corridors without ___.",
+      "options": [
+        "looking",
+        "thinking",
+        "running"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-05",
+      "type": "classify",
+      "prompt": "Sort these actions by whether they help or harm how we get along.",
+      "explanation": "Kind words help us get along. Pushing and making fun of others hurt them.",
+      "lang": "en",
+      "categories": [
+        "Helps us get along",
+        "Harms how we get along"
+      ],
+      "items": [
+        {
+          "text": "Share crayons",
+          "category": 0
+        },
+        {
+          "text": "Push in the queue",
+          "category": 1
+        },
+        {
+          "text": "Say thank you",
+          "category": 0
+        },
+        {
+          "text": "Make fun of a friend",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-06",
+      "type": "choice",
+      "prompt": "Hugo and Aisha want the same swing. What should they do?",
+      "explanation": "Taking turns lets both enjoy playing fairly.",
+      "hint": "Find a fair solution for both.",
+      "lang": "en",
+      "options": [
+        "Wait and take turns",
+        "Shout to get it first",
+        "Get angry and never speak again"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-07",
+      "type": "order",
+      "prompt": "Put the steps for solving a problem by talking in order.",
+      "explanation": "First calm down, then talk and agree on a solution.",
+      "lang": "en",
+      "items": [
+        "Stop and breathe calmly",
+        "Explain how we feel",
+        "Agree on a solution together"
+      ]
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-08",
+      "type": "true-false",
+      "prompt": "Throwing paper on the ground keeps the park clean.",
+      "explanation": "Dropping rubbish makes shared places dirty.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-09",
+      "type": "choice",
+      "prompt": "A new classmate is alone. What should you do?",
+      "explanation": "Welcoming new classmates helps them feel happy and safe.",
+      "hint": "Think about how you would like to be treated.",
+      "lang": "en",
+      "options": [
+        "Tell them to play somewhere else",
+        "Look at them without speaking",
+        "Invite them to play at break"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-sociales-normas-de-convivencia-10",
+      "type": "reading",
+      "prompt": "Read this short story and answer the questions.",
+      "explanation": "Admitting mistakes and helping put things right help us get along.",
+      "lang": "en",
+      "title": "Mateo's ball",
+      "text": "Mateo and Lucas play football. Mateo kicks the ball and knocks over Irene's block tower. Irene feels sad. Mateo comes over, says sorry and helps rebuild it. Lucas helps too. Now all three enjoy playing together.",
+      "questions": [
+        {
+          "prompt": "What did Mateo do after accidentally knocking down the tower?",
+          "explanation": "Saying sorry and helping repair the damage show respect.",
+          "options": [
+            "He said sorry and helped Irene",
+            "He ran away quickly",
+            "He laughed at the fallen blocks"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why were all three friends happy at the end?",
+          "explanation": "Working together to put things right helped them feel better.",
+          "options": [
+            "Each played in a separate corner",
+            "They solved the problem by helping each other",
+            "The teacher gave them a prize"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:23:11.198Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:00:21.037Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "6ce34bed3ec3e3500f4d7a1e17e50de04ff4bb287bec06febaacd4536e6e5b83",
+      "validation": "manual-review"
+    }
+  }
+}

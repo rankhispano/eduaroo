@@ -1,0 +1,243 @@
+{
+  "id": "g4-naturales-la-contaminacion",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "la-contaminacion",
+  "temaNombre": "Pollution",
+  "title": "Protecting our planet from pollution",
+  "summary": "Identify pollution types, their effects on ecosystems and ways to care for our surroundings.",
+  "keyIdeas": [
+    "Pollution introduces harmful substances or effects into the environment and can harm living things.",
+    "Types include air, water, soil, noise and light pollution.",
+    "Daily choices can reduce waste and help protect nature."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.3",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-la-contaminacion-01",
+      "type": "choice",
+      "prompt": "Aisha observes her neighbourhood. What is pollution?",
+      "explanation": "Harmful substances in air, water or soil can affect health and the natural environment.",
+      "hint": "Think of something that makes nature dirty or harms it.",
+      "lang": "en",
+      "options": [
+        "Harmful substances or effects in the environment that damage living things.",
+        "Natural seasonal changes that make leaves fall.",
+        "River water evaporating as summer temperatures rise."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-02",
+      "type": "true-false",
+      "prompt": "Excessive noise from cars, aircraft and building work is a type of pollution called noise pollution.",
+      "explanation": "Too much noise disrupts people's rest and can disturb animals.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about transport.",
+      "explanation": "Vehicles burning petrol or diesel release harmful gases into the atmosphere.",
+      "lang": "en",
+      "sentence": "Vehicle exhausts release gases that pollute the ___ in cities.",
+      "options": [
+        "air",
+        "ground beneath the surface",
+        "soil"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-04",
+      "type": "classify",
+      "prompt": "Classify each example by the pollution type mainly highlighted.",
+      "explanation": "Smoke and gases affect air, waste in rivers affects water, and discarded batteries or pesticides can affect soil.",
+      "lang": "en",
+      "categories": [
+        "Air pollution",
+        "Water pollution",
+        "Soil pollution"
+      ],
+      "items": [
+        {
+          "text": "Smoke from factory chimneys",
+          "category": 0
+        },
+        {
+          "text": "Plastic bags floating in a river",
+          "category": 1
+        },
+        {
+          "text": "Used batteries thrown onto farmland",
+          "category": 2
+        },
+        {
+          "text": "Harmful gases from lorry traffic",
+          "category": 0
+        },
+        {
+          "text": "Detergents and oils poured down a drain",
+          "category": 1
+        },
+        {
+          "text": "Chemical pesticides building up in the soil",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-05",
+      "type": "match",
+      "prompt": "Match each problem to the most suitable everyday response.",
+      "explanation": "Changes in travel, consumption and energy use can help care for nature.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Heavy emissions from private cars",
+          "right": "Walk or take a city bus to school"
+        },
+        {
+          "left": "Plastic packaging abandoned in a forest",
+          "right": "Use refillable bottles and collect waste"
+        },
+        {
+          "left": "Artificial lights disturbing nocturnal birds",
+          "right": "Switch off unnecessary lights and direct street lighting downwards"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-06",
+      "type": "choice",
+      "prompt": "Who makes a scientific error about rubbish in nature?",
+      "explanation": "Ordinary plastic does not break down like fruit scraps. It can persist for a very long time, sometimes hundreds of years.",
+      "hint": "Compare plastic with fruit remains.",
+      "lang": "en",
+      "options": [
+        "Mateo: 'A buried plastic bottle rots in days like apple peel.'",
+        "Carla: 'Microplastics can enter food chains through fish.'",
+        "Hugo: 'Used cooking oil poured down a sink can pollute large amounts of water.'"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-07",
+      "type": "reading",
+      "prompt": "Read about two pupils' investigation and answer the questions.",
+      "explanation": "Describe observations before looking for causes. More comparisons are needed to test vegetation's effects.",
+      "lang": "en",
+      "title": "Particle-catching cards",
+      "text": "Lucía and Omar coated two white cards with a thin layer of petroleum jelly. They placed one near the school gate beside a busy road, and the other in the tree-lined school garden. After three days, they collected the cards and examined them with a magnifying glass. The roadside card had many dark soot-like spots. The garden card had very little visible dirt.",
+      "questions": [
+        {
+          "prompt": "What did they observe on the roadside card?",
+          "explanation": "More dark particles were present. Their appearance alone cannot identify the source of every particle.",
+          "options": [
+            "More tree leaves.",
+            "Fewer dark spots than on the garden card.",
+            "More dark particles stuck to it."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What conclusion do the observations support?",
+          "explanation": "Two places were compared for three days. This does not prove vegetation caused the difference.",
+          "options": [
+            "Petroleum-jelly cards remove all city smoke.",
+            "The garden was more polluted than the busy street.",
+            "More particles settled on the roadside card during those three days."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-08",
+      "type": "choice",
+      "prompt": "Fish die downstream from a factory releasing untreated waste. Which hypothesis should investigators test?",
+      "explanation": "Wastewater may poison organisms or reduce available oxygen. Water tests are needed before claiming a cause.",
+      "hint": "A hypothesis needs evidence to test it.",
+      "lang": "en",
+      "options": [
+        "The waste may have harmed water quality.",
+        "Fish may have started breathing outside the water.",
+        "Factory waste always cools rivers until they freeze."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-09",
+      "type": "order",
+      "prompt": "Order one possible journey of plastic from a street to the sea.",
+      "explanation": "This is a possible route, not one followed by every item. Preventing litter protects streets, rivers and seas.",
+      "lang": "en",
+      "items": [
+        "Someone drops a plastic wrapper on the pavement.",
+        "Wind and rain carry it into a street drain.",
+        "It travels through the drain into a nearby river.",
+        "The river carries it to the sea.",
+        "A fish or sea turtle mistakes it for food and becomes ill."
+      ]
+    },
+    {
+      "id": "g4-naturales-la-contaminacion-10",
+      "type": "choice",
+      "prompt": "At Nerea's school, 60 families each drive one child. They propose car-sharing with 3 pupils per car. How many cars are needed, and what is the benefit?",
+      "explanation": "60 divided by 3 is 20 cars. Fewer cars can reduce emissions and noise.",
+      "hint": "Divide the number of pupils by 3.",
+      "lang": "en",
+      "options": [
+        "20 cars, reducing congestion and emissions.",
+        "40 cars, increasing noise and fuel use.",
+        "180 cars, making the air dirtier."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:05:17.821Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:46:54.973Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "7d6910e88bcddd2d9c290c96735691fa54ada1963a176ed003566fd46ba83f8c",
+      "validation": "manual-review"
+    }
+  }
+}

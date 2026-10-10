@@ -98,8 +98,8 @@
     {
       "id": "g3-sociales-siglos-y-decadas-05",
       "type": "classify",
-      "prompt": "Clasifica cada acontecimiento según la unidad de tiempo más adecuada para medirlo.",
-      "explanation": "Los acontecimientos de 10 a 90 años se miden bien en décadas; la historia antigua se cuenta en siglos.",
+      "prompt": "Clasifica estas duraciones según estén expresadas como grupos de décadas o de siglos.",
+      "explanation": "Una década son 10 años y un siglo son 100. Ambas unidades pueden usarse para expresar duraciones.",
       "lang": "es",
       "categories": [
         "Se mide en décadas",
@@ -107,19 +107,19 @@
       ],
       "items": [
         {
-          "text": "La edad de tu tía favorita (30 años)",
+          "text": "30 años: tres grupos de diez.",
           "category": 0
         },
         {
-          "text": "La construcción de las pirámides de Egipto",
+          "text": "300 años: tres grupos de cien.",
           "category": 1
         },
         {
-          "text": "El tiempo que lleva abierto tu colegio (20 años)",
+          "text": "20 años: dos grupos de diez.",
           "category": 0
         },
         {
-          "text": "La vida de un castillo medieval muy antiguo",
+          "text": "500 años: cinco grupos de cien.",
           "category": 1
         }
       ]

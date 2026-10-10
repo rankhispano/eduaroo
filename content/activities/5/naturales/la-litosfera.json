@@ -8,7 +8,7 @@
   "summary": "Repasa las capas de la Tierra, las rocas, los minerales y los procesos geológicos que modelan nuestro relieve.",
   "keyIdeas": [
     "La litosfera es la capa sólida exterior de la Tierra, formada por la corteza y la parte superior del manto.",
-    "Las rocas están compuestas por uno o más minerales y se clasifican en sedimentarias, ígneas y metamórficas según su origen.",
+    "La mayoría de las rocas contienen minerales; según su origen pueden ser sedimentarias, ígneas o metamórficas.",
     "El relieve terrestre cambia continuamente por procesos internos, como terremotos y volcanes, y externos, como la erosión y la sedimentación."
   ],
   "lomloe": {
@@ -141,7 +141,7 @@
       "id": "g5-naturales-la-litosfera-06",
       "type": "choice",
       "prompt": "En clase de Ciencias, Hugo afirma: «Todas las rocas son exactamente lo mismo que los minerales, solo que más grandes». ¿Cuál es el error en la afirmación de Hugo?",
-      "explanation": "Un mineral es una sustancia natural pura con composición fija, mientras que una roca es un agregado compuesto por uno o más tipos de minerales.",
+      "explanation": "Las rocas y los minerales no son lo mismo. La mayoría de las rocas están formadas por minerales; por ejemplo, el granito contiene cuarzo, feldespato y mica.",
       "hint": "Piensa en el granito: está compuesto por cuarzo, feldespato y mica.",
       "lang": "es",
       "options": [
@@ -197,7 +197,7 @@
       "id": "g5-naturales-la-litosfera-08",
       "type": "choice",
       "prompt": "Aisha encuentra en el campo una roca formada por capas horizontales visibles con pequeños restos de conchas fósiles incrustadas. ¿Qué tipo de roca ha encontrado con mayor probabilidad y cómo se originó?",
-      "explanation": "Las rocas sedimentarias suelen presentar estratos o capas horizontales y son las únicas que pueden conservar fósiles, pues no han sufrido el calor destructor del magma.",
+      "explanation": "Las capas y los fósiles son pistas de un origen sedimentario. El calor intenso suele destruir los fósiles, aunque algunos pueden conservarse tras una transformación leve.",
       "hint": "Fíjate en las capas horizontales y en la presencia de fósiles.",
       "lang": "es",
       "options": [
@@ -210,9 +210,9 @@
     {
       "id": "g5-naturales-la-litosfera-09",
       "type": "choice",
-      "prompt": "Omar y Lucía realizan un experimento sobre meteorización: llenan una botella de plástico rígido hasta el borde con agua, cierran el tapón herméticamente y la meten en el congelador toda la noche. Al día siguiente, la botella se ha agrietado y deformado. ¿Qué fenómeno geológico acaban de comprobar de forma experimental?",
-      "explanation": "El agua aumenta de volumen al congelarse. En las montañas, el agua entra en las grietas de las rocas y, al helarse, actúa como una cuña que rompe la roca (gelifracción).",
-      "hint": "Recuerda que el hielo ocupa más espacio que el agua líquida.",
+      "prompt": "La docente muestra que el nivel de agua sube al congelarse en un recipiente de plástico abierto. También enseña una imagen de una roca agrietada por el hielo. ¿Qué proceso ayuda a explicar esta observación?",
+      "explanation": "El agua ocupa más volumen al congelarse. Dentro de una grieta puede ejercer presión y contribuir a romper la roca: se llama gelifracción.",
+      "hint": "Relaciona el aumento de volumen del hielo con las grietas de la roca.",
       "lang": "es",
       "options": [
         "La sedimentación química: el hielo atrae minerales disueltos y los transforma en granito.",

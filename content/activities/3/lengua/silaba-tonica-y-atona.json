@@ -7,9 +7,9 @@
   "title": "El ritmo de las sílabas",
   "summary": "Aprende a distinguir la sílaba tónica de las sílabas átonas en diferentes palabras.",
   "keyIdeas": [
-    "La sílaba tónica se pronuncia con más fuerza de voz y solo hay una por palabra.",
-    "Las sílabas átonas son las demás sílabas de la palabra y se pronuncian más suave.",
-    "Un buen truco es llamar a la palabra como si estuviera lejos para oír su golpe de voz."
+    "En las palabras de estos ejemplos, la sílaba tónica se pronuncia con más fuerza de voz.",
+    "Las demás sílabas de esos ejemplos son átonas y se pronuncian con menos fuerza.",
+    "Pronunciar la palabra con naturalidad ayuda a reconocer su golpe de voz."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -51,8 +51,8 @@
     {
       "id": "g3-lengua-silaba-tonica-y-atona-02",
       "type": "true-false",
-      "prompt": "Una misma palabra puede tener dos sílabas tónicas.",
-      "explanation": "Cada palabra tiene solo una sílaba tónica; todas las demás sílabas son átonas.",
+      "prompt": "La palabra «cartera» tiene dos sílabas tónicas.",
+      "explanation": "En «car-te-ra», solo «te» es tónica. «Car» y «ra» son átonas.",
       "lang": "es",
       "answer": false
     },
@@ -208,7 +208,7 @@
     {
       "id": "g3-lengua-silaba-tonica-y-atona-10",
       "type": "choice",
-      "prompt": "Nerea crea un pareado para el periódico escolar. Busca dos palabras cuya sílaba tónica esté en la última sílaba. ¿Qué pareja debe elegir?",
+      "prompt": "Nerea crea una lista de palabras para el periódico escolar. Busca dos palabras cuya sílaba tónica esté en la última sílaba. ¿Qué pareja debe elegir?",
       "explanation": "En «le-ón» y «pa-red», la sílaba tónica es la última. En «casa» es la penúltima y en «plátano» la antepenúltima.",
       "hint": "Comprueba dónde recae el golpe de voz en las dos palabras de cada opción.",
       "lang": "es",

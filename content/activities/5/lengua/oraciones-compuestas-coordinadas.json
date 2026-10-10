@@ -4,10 +4,10 @@
   "asignaturaId": "lengua",
   "temaId": "oraciones-compuestas-coordinadas",
   "temaNombre": "Oraciones compuestas coordinadas",
-  "title": "Descubre las oraciones compuestas coordinadas",
-  "summary": "Practica la identificación y el uso de oraciones compuestas coordinadas y sus nexos.",
+  "title": "Oraciones coordinadas: ampliación guiada",
+  "summary": "Con modelos y ayuda, practica cómo unir dos oraciones para sumar ideas, elegir o contrastar.",
   "keyIdeas": [
-    "Una oración compuesta tiene dos o más verbos conjugados.",
+    "Una oración compuesta reúne dos o más oraciones, cada una con su núcleo verbal. Un tiempo compuesto, como «ha llegado», forma un solo núcleo.",
     "Las oraciones coordinadas se unen mediante nexos sin que una dependa de la otra.",
     "Los nexos pueden ser copulativos (y, e, ni), disyuntivos (o, u) o adversativos (pero, sino)."
   ],
@@ -45,8 +45,8 @@
     {
       "id": "g5-lengua-oraciones-compuestas-coordinadas-01",
       "type": "true-false",
-      "prompt": "Una oración compuesta se diferencia de una simple en que tiene más de una forma verbal con significado completo.",
-      "explanation": "Las oraciones compuestas tienen dos o más verbos, lo que significa que están formadas por dos o más proposiciones u oraciones simples enlazadas.",
+      "prompt": "«Hugo lee y Aisha dibuja» es una oración compuesta: reúne dos oraciones con sus propios verbos.",
+      "explanation": "«Hugo lee» y «Aisha dibuja» tienen cada una su núcleo verbal y están unidas por «y».",
       "hint": "Cuenta cuántos verbos conjugados necesita una oración para ser compuesta.",
       "lang": "es",
       "answer": true
@@ -146,7 +146,7 @@
       "explanation": "El texto combina oraciones coordinadas copulativas, adversativas y disyuntivas para narrar la experiencia del equipo escolar.",
       "lang": "es",
       "title": "El reto de los pequeños inventores",
-      "text": "La clase de quinto participaba en el torneo escolar de robótica. Wei programó los sensores de movimiento y Omar ajustó las ruedas del prototipo con precisión. Habían ensayado durante semanas, pero el robot se detuvo inesperadamente ante la primera rampa del circuito. El público contuvo la respiración y los jueces observaron atentamente la pantalla de control. ¿Reiniciarían el circuito o intentarían calibrar el sensor a distancia? Wei mantuvo la calma, pulsó dos comandos rápidos en la tableta y el robot reanudó la marcha hacia la meta. Finalmente, el equipo no consiguió el primer premio, pero todos aprendieron que cooperar bajo presión resuelve cualquier problema técnico.",
+      "text": "La clase de quinto participaba en el torneo escolar de robótica. Wei programó los sensores de movimiento y Omar ajustó las ruedas del prototipo con precisión. Habían ensayado durante semanas, pero el robot se detuvo inesperadamente ante la primera rampa del circuito. El público contuvo la respiración y los jueces observaron atentamente la pantalla de control. ¿Reiniciarían el circuito o intentarían calibrar el sensor a distancia? Wei mantuvo la calma, pulsó dos comandos rápidos en la tableta y el robot reanudó la marcha hacia la meta. Finalmente, el equipo no consiguió el primer premio, pero todos aprendieron que cooperar bajo presión puede ayudar a resolver problemas técnicos.",
       "questions": [
         {
           "prompt": "¿Qué tarea concreta realizó Wei al inicio de la preparación del robot?",
@@ -226,8 +226,8 @@
       "id": "g5-lengua-oraciones-compuestas-coordinadas-10",
       "type": "choice",
       "prompt": "Cuidado con las trampas: ¿cuál de las siguientes oraciones es realmente una ORACIÓN COMPUESTA coordinada y NO una simple con sujeto o complemento compuesto?",
-      "explanation": "Para que sea una oración compuesta debe tener al menos dos verbos conjugados: aquí tenemos 'preparó' y 'encendió', unidos por la conjunción 'y'. Las otras frases solo tienen un verbo ('compró', 'bailaron').",
-      "hint": "Localiza los verbos en cada opción: una oración compuesta siempre tiene más de un verbo conjugado.",
+      "explanation": "«Sofía preparó la masa» y «su hermano encendió el horno» forman dos oraciones unidas por «y». Las otras opciones tienen un solo núcleo verbal.",
+      "hint": "Busca dos oraciones que puedan reconocerse por separado, cada una con su verbo.",
       "lang": "es",
       "options": [
         "Nerea y su prima bailaron toda la tarde en el festival escolar.",

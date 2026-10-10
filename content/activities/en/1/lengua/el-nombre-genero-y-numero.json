@@ -1,0 +1,255 @@
+{
+  "id": "g1-lengua-el-nombre-genero-y-numero",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "el-nombre-genero-y-numero",
+  "temaNombre": "Spanish nouns: gender and number",
+  "title": "Playing with nouns and their forms",
+  "summary": "Practise masculine and feminine gender, and singular and plural forms, in Spanish.",
+  "keyIdeas": [
+    "Spanish nouns can be masculine, as in el gato, or feminine, as in la gata.",
+    "Singular names one thing, as in perro. Plural names more than one, as in perros.",
+    "Nouns agree with words such as el, la, los and las."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "4.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-01",
+      "type": "choice",
+      "prompt": "Which Spanish noun is feminine?",
+      "explanation": "We say la mesa, so mesa is feminine.",
+      "hint": "Try putting el or la before the word.",
+      "lang": "en",
+      "options": [
+        "Libro",
+        "Lápiz",
+        "Mesa"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-02",
+      "type": "true-false",
+      "prompt": "The Spanish word «pelotas» is plural.",
+      "explanation": "Pelotas ends in -s and refers to more than one ball, so it is plural.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-03",
+      "type": "match",
+      "prompt": "Match each singular Spanish noun to its plural.",
+      "explanation": "These plurals add -s or -es. In pez → peces, z also changes to c.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "gato",
+          "right": "gatos"
+        },
+        {
+          "left": "flor",
+          "right": "flores"
+        },
+        {
+          "left": "pez",
+          "right": "peces"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-04",
+      "type": "classify",
+      "prompt": "Sort these Spanish nouns by their grammatical gender.",
+      "explanation": "We say el barco and el árbol (masculine), and la silla and la manzana (feminine).",
+      "lang": "en",
+      "categories": [
+        "Masculine",
+        "Feminine"
+      ],
+      "items": [
+        {
+          "text": "barco",
+          "category": 0
+        },
+        {
+          "text": "silla",
+          "category": 1
+        },
+        {
+          "text": "árbol",
+          "category": 0
+        },
+        {
+          "text": "manzana",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-05",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish word that completes the sentence.",
+      "explanation": "Unas is feminine and plural, so we need fresas.",
+      "lang": "en",
+      "sentence": "Hugo y Aisha comen unas ___ rojas.",
+      "options": [
+        "fresa",
+        "fresas",
+        "manzano"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-06",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by their number.",
+      "explanation": "Mochila and estuche name one object. Cuadernos and gomas name more than one.",
+      "lang": "en",
+      "categories": [
+        "Singular (one)",
+        "Plural (more than one)"
+      ],
+      "items": [
+        {
+          "text": "mochila",
+          "category": 0
+        },
+        {
+          "text": "cuadernos",
+          "category": 1
+        },
+        {
+          "text": "estuche",
+          "category": 0
+        },
+        {
+          "text": "gomas",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-07",
+      "type": "choice",
+      "prompt": "Which Spanish sentence contains an agreement mistake?",
+      "explanation": "Las is plural, but niña is singular. The correct phrase is las niñas.",
+      "hint": "Check whether the words that go together agree.",
+      "lang": "en",
+      "options": [
+        "Las niña juegan en el parque.",
+        "El perro corre rápido.",
+        "Los gatos beben leche."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-08",
+      "type": "order",
+      "prompt": "Order the Spanish sentence: first who (article and noun), then what they do, then how they sing.",
+      "explanation": "Start with capitalised Los, followed by pájaros and then cantan alto.",
+      "lang": "en",
+      "items": [
+        "Los",
+        "pájaros",
+        "cantan",
+        "alto."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-09",
+      "type": "reading",
+      "prompt": "Read the short Spanish story about the school garden and answer.",
+      "explanation": "The garden story has masculine and feminine nouns, in singular and plural forms.",
+      "lang": "en",
+      "title": "El huerto de 1º",
+      "text": "Omar y Lucía cuidan el huerto del colegio. Hoy riegan las plantas verdes. También recogen un tomate rojo y unas fresas dulces. Los niños están muy contentos con la cosecha.",
+      "questions": [
+        {
+          "prompt": "Which fruit or vegetable word is singular in the text?",
+          "explanation": "Un tomate names one tomato, so it is singular.",
+          "options": [
+            "Tomate",
+            "Fresas",
+            "Plantas"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which word in the text is feminine and plural?",
+          "explanation": "We say las plantas. It is feminine and its -s marks the plural.",
+          "options": [
+            "tomate",
+            "huerto",
+            "plantas"
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-el-nombre-genero-y-numero-10",
+      "type": "choice",
+      "prompt": "Martina changes «el león fiero» to feminine and plural. Which is correct?",
+      "explanation": "The feminine of león is leona. In the plural, the phrase becomes las leonas fieras.",
+      "hint": "Change both the gender and the number.",
+      "lang": "en",
+      "options": [
+        "Las leonas fieras",
+        "Los leones fieros",
+        "La leona fiera"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:31:02.120Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:08:33.336Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "879dcc8cfa12a4bc01619853da32641c0c032d2ee20d7a96dfc39f14f0c80f89",
+      "validation": "manual-review"
+    }
+  }
+}

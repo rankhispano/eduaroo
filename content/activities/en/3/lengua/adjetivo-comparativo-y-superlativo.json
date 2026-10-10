@@ -1,0 +1,242 @@
+{
+  "id": "g3-lengua-adjetivo-comparativo-y-superlativo",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "adjetivo-comparativo-y-superlativo",
+  "temaNombre": "Spanish adjectives: comparative and superlative",
+  "title": "Exploring degrees of Spanish adjectives",
+  "summary": "Practise comparing qualities and expressing a very high degree of a quality in Spanish.",
+  "keyIdeas": [
+    "Spanish comparatives compare two things: más... que (more), tan... como (equal) or menos... que (less).",
+    "A Spanish absolute superlative expresses a very high degree using 'muy' or the ending '-ísimo'/'-ísima'.",
+    "In standard Spanish, say 'mejor' or 'peor', rather than 'más mejor' or 'más peor'."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-01",
+      "type": "true-false",
+      "prompt": "In «El guepardo es más rápido que la tortuga», the Spanish adjective is comparative.",
+      "explanation": "True. It compares the speed of two animals using «más... que».",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-02",
+      "type": "choice",
+      "prompt": "Which Spanish word describes Aisha's cake using an absolute superlative?",
+      "explanation": "«Riquísima» ends in -ísima and expresses a very high degree of deliciousness.",
+      "hint": "Find the ending that expresses a very high degree.",
+      "lang": "en",
+      "options": [
+        "Tan rica como",
+        "Más rica que",
+        "Riquísima"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-03",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence to make a comparison of equality.",
+      "explanation": "Use «tan... como» for equality, so the phrase is «tan ligera como».",
+      "lang": "en",
+      "sentence": "Mi mochila nueva es tan ligera ___ la tuya.",
+      "options": [
+        "que",
+        "como",
+        "de"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-04",
+      "type": "classify",
+      "prompt": "Sort these Spanish expressions by their adjective degree.",
+      "explanation": "Comparatives use «más... que», «menos... que» or «tan... como». These Spanish superlatives use «muy» or -ísimo.",
+      "lang": "en",
+      "categories": [
+        "Comparative",
+        "Spanish absolute superlative"
+      ],
+      "items": [
+        {
+          "text": "menos ruidoso que",
+          "category": 0
+        },
+        {
+          "text": "altísimo",
+          "category": 1
+        },
+        {
+          "text": "más dulce que",
+          "category": 0
+        },
+        {
+          "text": "muy limpio",
+          "category": 1
+        },
+        {
+          "text": "tan veloz como",
+          "category": 0
+        },
+        {
+          "text": "rapidísima",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-05",
+      "type": "match",
+      "prompt": "Match each Spanish example to its type of comparison.",
+      "explanation": "«más... que» means a greater degree, «tan... como» means an equal degree and «menos... que» means a lesser degree.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "más fuerte que",
+          "right": "Greater degree (superiority)"
+        },
+        {
+          "left": "tan alegre como",
+          "right": "Equal degree (equality)"
+        },
+        {
+          "left": "menos pesado que",
+          "right": "Lesser degree (inferiority)"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-06",
+      "type": "reading",
+      "prompt": "Read the Spanish text about the garden and answer the questions.",
+      "explanation": "The text uses Spanish comparatives and superlatives to describe the vegetables.",
+      "lang": "en",
+      "title": "Cosecha en el colegio",
+      "text": "Hoy en el huerto escolar, Lucía y Leo comparan sus verduras favoritas. La calabaza de Lucía es grande y tiene un color naranja brillantísimo. Leo dice sonriendo: 'Tu calabaza es más redonda que la mía, pero mi calabacín es larguísimo'. La maestra Aisha se acerca con una balanza para comprobar el peso de los dos vegetales. Al medirlos con cuidado, descubren que el calabacín es menos pesado que la calabaza. Al final de la tarde, todos los niños y niñas del grupo están contentísimos con la rica cosecha de este trimestre.",
+      "questions": [
+        {
+          "prompt": "According to the text, which vegetable is lighter than the other?",
+          "explanation": "The text says the courgette is lighter than the pumpkin.",
+          "options": [
+            "They both weigh the same.",
+            "Lucía's pumpkin.",
+            "Leo's courgette."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which Spanish superlative describes the pumpkin's colour?",
+          "explanation": "«Brillantísimo» adds -ísimo to express a very high degree.",
+          "options": [
+            "Grande",
+            "Más redonda",
+            "Brillantísimo"
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-07",
+      "type": "choice",
+      "prompt": "Omar writes «Mi perro Tobi es más mejor que los otros» for a class display. What is the mistake?",
+      "explanation": "«mejor» already means better. In standard Spanish, use «es mejor que» without adding «más».",
+      "hint": "«mejor» already includes a comparison.",
+      "lang": "en",
+      "options": [
+        "He should write «el más mejor de».",
+        "He needs «tan» before «mejor».",
+        "He writes «más mejor» but should use just «mejor»."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-08",
+      "type": "order",
+      "prompt": "Put today's cleanliness comparisons in order from lowest to highest, all compared with the same playground yesterday.",
+      "explanation": "With the same reference, «menos limpio» is below it, «tan limpio» is equal and «más limpio» is above it.",
+      "lang": "en",
+      "items": [
+        "El patio está menos limpio que ayer.",
+        "El patio está tan limpio como ayer.",
+        "El patio está más limpio que ayer."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-09",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with an absolute superlative.",
+      "explanation": "«simpatiquísimo» strengthens the quality with -ísimo. «tan simpático» and «más simpático» are used for comparisons.",
+      "lang": "en",
+      "sentence": "Hugo ayudó a ordenar la biblioteca porque es un compañero ___.",
+      "options": [
+        "simpatiquísimo",
+        "tan simpático",
+        "más simpático"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-adjetivo-comparativo-y-superlativo-10",
+      "type": "choice",
+      "prompt": "Martina and Wei want to say their buildings have exactly the same height. Which Spanish sentence should they use?",
+      "explanation": "Use the comparison of equality, «tan... como», when a quality is equal in two things.",
+      "hint": "Find the structure expressing equality.",
+      "lang": "en",
+      "options": [
+        "Mi edificio es altísimo que el tuyo.",
+        "Mi edificio es más alto que el tuyo.",
+        "Mi edificio es tan alto como el tuyo."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:25:51.232Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:39:27.300Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f68c33b2e99df54eb3a79cdb742d50419ae477483e8db77b5ba0bc4fe4b14f9c",
+      "validation": "manual-review"
+    }
+  }
+}

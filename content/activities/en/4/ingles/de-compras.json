@@ -1,0 +1,263 @@
+{
+  "id": "g4-ingles-de-compras",
+  "cursoId": "4",
+  "asignaturaId": "ingles",
+  "temaId": "de-compras",
+  "temaNombre": "Shopping",
+  "title": "Let's Go Shopping!",
+  "summary": "Practise shop names, prices, shopping and conversations in English.",
+  "keyIdeas": [
+    "Use 'How much is...?' for singular items and 'How much are...?' for plural items.",
+    "Ask politely with 'Can I have..., please?' and hand something over with 'Here you are'.",
+    "The UK's currency is the pound (£), divided into pence (p). One penny is written as 1p."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "3.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CCEC2",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA3",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "C. Interculturalidad"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-ingles-de-compras-01",
+      "type": "match",
+      "prompt": "Match each shop with the item you can buy there.",
+      "explanation": "You can buy bread at a bakery, teddy bears at a toy shop, comics at a bookshop and boots at a shoe shop.",
+      "hint": "Think about the words 'bake' and 'book'.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Bakery",
+          "right": "Fresh bread"
+        },
+        {
+          "left": "Toy shop",
+          "right": "Teddy bear"
+        },
+        {
+          "left": "Bookshop",
+          "right": "Comic book"
+        },
+        {
+          "left": "Shoe shop",
+          "right": "Winter boots"
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-de-compras-02",
+      "type": "choice",
+      "prompt": "Choose the word for this price question: '___ much is this red scarf?'",
+      "explanation": "You can ask about a price with 'How much...?'.",
+      "hint": "Which word goes with 'much' in a price question?",
+      "lang": "en",
+      "options": [
+        "How",
+        "Who",
+        "Where"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-de-compras-03",
+      "type": "fill-blank",
+      "prompt": "Complete the polite request in the shop.",
+      "explanation": "After 'can', use the base form of the verb: 'Can I have...?'.",
+      "hint": "Use the simple form without 's' or '-ing'.",
+      "lang": "en",
+      "sentence": "Can I ___ two apples, please?",
+      "options": [
+        "have",
+        "has",
+        "having"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-de-compras-04",
+      "type": "true-false",
+      "prompt": "In the United Kingdom, people use pounds (£) and pence (p) to pay in shops.",
+      "explanation": "True. The UK's currency is the pound sterling (£), divided into pence (p).",
+      "hint": "The £ sign is a clue to the currency.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-ingles-de-compras-05",
+      "type": "classify",
+      "prompt": "Sort each item by the question you would use to ask its price.",
+      "explanation": "Use 'How much is...?' with singular items: T-shirt, pencil case and cap. Use 'How much are...?' with plural items: socks, shoes and sunglasses.",
+      "hint": "Check whether each noun is singular or plural.",
+      "lang": "en",
+      "categories": [
+        "How much is...?",
+        "How much are...?"
+      ],
+      "items": [
+        {
+          "text": "this blue T-shirt",
+          "category": 0
+        },
+        {
+          "text": "these yellow socks",
+          "category": 1
+        },
+        {
+          "text": "that big pencil case",
+          "category": 0
+        },
+        {
+          "text": "those black shoes",
+          "category": 1
+        },
+        {
+          "text": "these cool sunglasses",
+          "category": 1
+        },
+        {
+          "text": "the green cap",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-de-compras-06",
+      "type": "order",
+      "prompt": "Put this conversation in Aisha's shop in order.",
+      "explanation": "The shop assistant greets the customer and offers help. The customer asks the price, hears the answer, pays and says goodbye.",
+      "hint": "Start with the greeting and finish with the goodbye.",
+      "lang": "en",
+      "items": [
+        "Hello! Can I help you?",
+        "Yes, please. How much is that mug?",
+        "It is four pounds.",
+        "Here you are. Thank you!",
+        "You are welcome. Have a nice day!"
+      ]
+    },
+    {
+      "id": "g4-ingles-de-compras-07",
+      "type": "choice",
+      "prompt": "Omar buys a notebook for €4 and a pen for €2. He pays with €10. How much change does he get?",
+      "explanation": "The items cost 4 + 2 = 6 euros. His change is 10 − 6 = 4 euros.",
+      "hint": "Add the prices, then subtract the total from 10 euros.",
+      "lang": "en",
+      "options": [
+        "€2",
+        "€6",
+        "€4"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-ingles-de-compras-08",
+      "type": "fill-blank",
+      "prompt": "Complete what the cashier says when returning the money left after payment.",
+      "explanation": "'Change' is the money returned when you pay more than the price.",
+      "hint": "Choose the word for money returned after payment.",
+      "lang": "en",
+      "sentence": "Here is your ___, thank you!",
+      "options": [
+        "change",
+        "shopping",
+        "price"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-ingles-de-compras-09",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "Look for the details of the purchases at the market.",
+      "lang": "en",
+      "title": "A Morning at Camden Market",
+      "text": "Lucía and her brother Hugo are at the street market on Saturday morning. Lucía wants to buy a present for her friend Aisha. They stop at a colourful stall with toys and stationery. Lucía asks the seller, 'Excuse me, how much is the green notebook?' The seller smiles and says, 'It is four pounds, but today it has a discount: it is only three pounds!' Hugo finds a funny pen shaped like a cat for two pounds. Lucía pays five pounds in total for the notebook and the pen. 'Here is your bag. Have a wonderful day!' says the seller.",
+      "questions": [
+        {
+          "prompt": "Who is the present for?",
+          "explanation": "Lucía wants to buy a present for her friend Aisha.",
+          "options": [
+            "Aisha",
+            "Hugo",
+            "The seller"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How much is the discount on the notebook?",
+          "explanation": "The price goes down from £4 to £3. The discount is 4 − 3 = 1 pound.",
+          "options": [
+            "£4",
+            "£1",
+            "£2"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "How much money does Lucía pay altogether for the notebook and the cat pen?",
+          "explanation": "The notebook costs £3 and the pen costs £2. Lucía pays 3 + 2 = 5 pounds.",
+          "options": [
+            "£3",
+            "£6",
+            "£5"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g4-ingles-de-compras-10",
+      "type": "choice",
+      "prompt": "Hugo wants to buy a comic for £6 and a badge for £3. He only has £7. How much more money does he need?",
+      "explanation": "The items cost 6 + 3 = 9 pounds. Hugo needs 9 − 7 = 2 more pounds.",
+      "hint": "Add the prices and subtract the money Hugo has.",
+      "lang": "en",
+      "options": [
+        "£3",
+        "£2",
+        "£1"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:16:51.971Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:19:49.928Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "82124f0abfc5922906837f0b4dcc227eaa7dae4d1d49d9ab7d05928ee2df4bbd",
+      "validation": "manual-review"
+    }
+  }
+}

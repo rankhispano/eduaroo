@@ -1,0 +1,203 @@
+{
+  "id": "g1-mates-numeros-del-0-al-99",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "numeros-del-0-al-99",
+  "temaNombre": "Numbers from 0 to 99",
+  "title": "Number adventures up to 99",
+  "summary": "Practise reading, splitting and comparing numbers up to 99 in everyday challenges.",
+  "keyIdeas": [
+    "One ten is worth 10 ones.",
+    "In a two-digit number, the left digit shows the tens and the right digit shows the ones.",
+    "To compare two-digit numbers, look at the tens first."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-numeros-del-0-al-99-01",
+      "type": "choice",
+      "prompt": "Hugo has 4 packets of 10 biscuits and 3 loose biscuits. How many biscuits does he have?",
+      "explanation": "4 packets of 10 make 4 tens (40). The 3 loose biscuits make 3 ones: 40 + 3 = 43 biscuits.",
+      "hint": "Count the packets in tens, then add the loose biscuits.",
+      "lang": "en",
+      "options": [
+        "40 biscuits",
+        "34 biscuits",
+        "43 biscuits"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-02",
+      "type": "match",
+      "prompt": "Match each number to its tens (T) and ones (O).",
+      "explanation": "The first digit shows the tens and the second shows the ones.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "25",
+          "right": "2 T and 5 O"
+        },
+        {
+          "left": "52",
+          "right": "5 T and 2 O"
+        },
+        {
+          "left": "70",
+          "right": "7 T and 0 O"
+        },
+        {
+          "left": "19",
+          "right": "1 T and 9 O"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-03",
+      "type": "true-false",
+      "prompt": "The number 68 has 8 tens and 6 ones.",
+      "explanation": "False. 68 has 6 tens and 8 ones.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-04",
+      "type": "order",
+      "prompt": "Put these race numbers in order from smallest to largest.",
+      "explanation": "Compare the tens: 1 ten is less than 3 tens, 3 tens is less than 4 tens, and 4 tens is less than 8 tens.",
+      "lang": "en",
+      "items": [
+        "15",
+        "32",
+        "47",
+        "84"
+      ]
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-05",
+      "type": "classify",
+      "prompt": "Sort the numbers into less than 50 or greater than 50.",
+      "explanation": "Compare the tens first. If there are 5 tens, compare the ones: 56 is greater than 50 because it has 6 more ones.",
+      "lang": "en",
+      "categories": [
+        "Less than 50",
+        "Greater than 50"
+      ],
+      "items": [
+        {
+          "text": "23",
+          "category": 0
+        },
+        {
+          "text": "49",
+          "category": 0
+        },
+        {
+          "text": "12",
+          "category": 0
+        },
+        {
+          "text": "56",
+          "category": 1
+        },
+        {
+          "text": "81",
+          "category": 1
+        },
+        {
+          "text": "95",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-06",
+      "type": "choice",
+      "prompt": "Which number is greater than 72 and less than 80?",
+      "explanation": "76 has 7 tens. It is greater than 72 and less than 80.",
+      "hint": "Look for a number in the seventies.",
+      "lang": "en",
+      "options": [
+        "82",
+        "67",
+        "76"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-07",
+      "type": "choice",
+      "prompt": "Find the mistake: Lucas says 39 is greater than 51 because 9 is greater than 1. What is his mistake?",
+      "explanation": "Compare the tens first: 5 tens (50) is greater than 3 tens (30).",
+      "hint": "Think about the value of each digit.",
+      "lang": "en",
+      "options": [
+        "He adds 3 and 9 incorrectly.",
+        "He is right: 39 is greater than 51.",
+        "He should compare the tens first: 5 tens is greater than 3 tens."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-numeros-del-0-al-99-08",
+      "type": "choice",
+      "prompt": "Lucía has 8 tens of stickers. She gives 1 ten to her brother. How many stickers does she have left?",
+      "explanation": "8 tens minus 1 ten makes 7 tens. That is 70 stickers.",
+      "hint": "8 minus 1 makes 7 tens.",
+      "lang": "en",
+      "options": [
+        "90 stickers",
+        "7 stickers",
+        "70 stickers"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:54:12.836Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:19:28.062Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "a3915b74aaff5a25977e1d9866cbb651dc4207a61a877c8fe71ed597ec74a986",
+      "validation": "manual-review"
+    }
+  }
+}

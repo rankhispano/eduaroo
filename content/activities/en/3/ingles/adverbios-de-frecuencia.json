@@ -1,0 +1,246 @@
+{
+  "id": "g3-ingles-adverbios-de-frecuencia",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "adverbios-de-frecuencia",
+  "temaNombre": "Adverbs of frequency",
+  "title": "Discovering adverbs of frequency",
+  "summary": "Practise always, usually, sometimes and never to describe daily routines.",
+  "keyIdeas": [
+    "Adverbs of frequency tell us how often an action or routine happens.",
+    "Always means every time; usually, most of the time; sometimes, on some occasions; never, at no time. Usually and sometimes do not give exact percentages.",
+    "A frequency adverb usually goes before the action verb: I always walk."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-01",
+      "type": "match",
+      "prompt": "Match each frequency adverb to its Spanish meaning.",
+      "explanation": "Always means siempre, sometimes means a veces, and never means nunca in Spanish.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Always",
+          "right": "Siempre"
+        },
+        {
+          "left": "Sometimes",
+          "right": "A veces"
+        },
+        {
+          "left": "Never",
+          "right": "Nunca"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-02",
+      "type": "true-false",
+      "prompt": "'Never' means that you do an activity every day.",
+      "explanation": "Never means at no time. In a daily routine, 'always' can describe something you do every day.",
+      "hint": "Never means zero times.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-03",
+      "type": "fill-blank",
+      "prompt": "Aisha drinks water every single day. Choose the correct word.",
+      "explanation": "Because she drinks water every day without missing a day, say 'Aisha always drinks water'.",
+      "hint": "It happens every day.",
+      "lang": "en",
+      "sentence": "Aisha ___ drinks water.",
+      "options": [
+        "always",
+        "never",
+        "rarely"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-04",
+      "type": "choice",
+      "prompt": "Hugo hates broccoli. He eats zero broccoli. Which sentence is correct?",
+      "explanation": "If he does not eat broccoli at all, use 'never'.",
+      "hint": "Zero times means never.",
+      "lang": "en",
+      "options": [
+        "Hugo usually eats broccoli.",
+        "Hugo always eats broccoli.",
+        "Hugo never eats broccoli."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-05",
+      "type": "order",
+      "prompt": "Put the adverbs in order from most frequent (always) to least frequent (never).",
+      "explanation": "Always means every time, usually means most of the time, sometimes means on some occasions, and never means at no time. This is a general scale, without fixed percentages for the middle words.",
+      "lang": "en",
+      "items": [
+        "Always",
+        "Usually",
+        "Sometimes",
+        "Never"
+      ]
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-06",
+      "type": "classify",
+      "prompt": "Sort the sentences by their frequency words.",
+      "explanation": "Always and never describe every occasion or no occasions. Sometimes and usually describe intermediate frequencies.",
+      "lang": "en",
+      "categories": [
+        "Always or never",
+        "Sometimes or usually"
+      ],
+      "items": [
+        {
+          "text": "I always do my homework.",
+          "category": 0
+        },
+        {
+          "text": "I never drink coffee.",
+          "category": 0
+        },
+        {
+          "text": "Lucas sometimes rides his bike.",
+          "category": 1
+        },
+        {
+          "text": "We usually walk to school.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-07",
+      "type": "choice",
+      "prompt": "Choose the usual neutral order, with the adverb between the subject and the action verb.",
+      "explanation": "In this usual order, 'always' goes before 'listens'. Other orders are possible in special contexts.",
+      "hint": "The adverb goes between the subject and action.",
+      "lang": "en",
+      "options": [
+        "Lucía always listens to music.",
+        "Always Lucía listens to music.",
+        "Lucía listens always to music."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-08",
+      "type": "fill-blank",
+      "prompt": "Omar plays basketball on Tuesdays and Thursdays only. Complete the sentence.",
+      "explanation": "Omar plays on only two days each week, so he sometimes plays, rather than always or never.",
+      "hint": "He only does it on some days of the week.",
+      "lang": "en",
+      "sentence": "Omar ___ plays basketball after school.",
+      "options": [
+        "sometimes",
+        "always",
+        "never"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-09",
+      "type": "choice",
+      "prompt": "Look at Wei's week: He brushes his teeth on Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday. What can we say?",
+      "explanation": "Wei brushes his teeth on all seven days, so use 'always' for this daily routine.",
+      "hint": "Count the days when he does the activity.",
+      "lang": "en",
+      "options": [
+        "Wei sometimes brushes his teeth.",
+        "Wei always brushes his teeth.",
+        "Wei never brushes his teeth."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-adverbios-de-frecuencia-10",
+      "type": "reading",
+      "prompt": "Read about Mateo's routine and answer the questions.",
+      "explanation": "Mateo uses frequency adverbs to describe what he does every day, on some occasions and at no time.",
+      "lang": "en",
+      "title": "Mateo's Busy Week",
+      "text": "Mateo is eight years old. Every morning, he wakes up early. He always eats toast and fruit for breakfast. He walks to school from Monday to Friday, so he always walks to school on weekdays. In the afternoon, Mateo loves sports. He sometimes plays football with his friends in the park, usually on Wednesdays. He never watches TV before finishing his homework because his mother checks his notebook. At night, Mateo is tired. He always reads a story in bed before sleeping.",
+      "questions": [
+        {
+          "prompt": "How often does Mateo eat toast and fruit for breakfast?",
+          "explanation": "The text says, 'He always eats toast and fruit for breakfast'.",
+          "options": [
+            "He never eats toast and fruit.",
+            "He sometimes eats toast and fruit.",
+            "He always eats toast and fruit."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Does Mateo watch TV before his homework?",
+          "explanation": "The text says, 'He never watches TV before finishing his homework'.",
+          "options": [
+            "No, he never watches TV before his homework.",
+            "Yes, he always watches TV before his homework.",
+            "Yes, he usually watches TV before his homework."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "When does Mateo play football?",
+          "explanation": "The text says he sometimes plays with his friends in the park, usually on Wednesdays.",
+          "options": [
+            "He sometimes plays football, usually on Wednesdays.",
+            "He always plays football every day.",
+            "He never plays football with friends."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:58:49.361Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:34:29.484Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "3f04bbb4cf24ec4176761b435598a87e5a6eda24794a05c08877626a0642bf47",
+      "validation": "manual-review"
+    }
+  }
+}

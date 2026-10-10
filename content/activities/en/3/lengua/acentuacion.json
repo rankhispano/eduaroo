@@ -1,0 +1,246 @@
+{
+  "id": "g3-lengua-acentuacion",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "acentuacion",
+  "temaNombre": "Spanish accent marks",
+  "title": "The mystery of Spanish accent marks",
+  "summary": "Practise the basic Spanish accent rules for agudas, llanas and esdrújulas in these exercises.",
+  "keyIdeas": [
+    "Agudas have stress on the last syllable. They take an accent mark when they end in a vowel, -n or -s.",
+    "Llanas have stress on the second-last syllable. They take an accent mark when they do not end in a vowel, -n or -s.",
+    "Esdrújulas have stress on the third-last syllable and always take an accent mark."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-acentuacion-01",
+      "type": "choice",
+      "prompt": "What is a Spanish written accent mark, called a «tilde»?",
+      "explanation": "A Spanish accent mark is written over some vowels according to spelling rules.",
+      "hint": "Think of the short sloping mark written over some vowels.",
+      "lang": "en",
+      "options": [
+        "Any capital letter at the beginning of a sentence.",
+        "The sloping mark above the vowel in the stressed syllable.",
+        "The full stop showing that a sentence has ended."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-acentuacion-02",
+      "type": "true-false",
+      "prompt": "Spanish words called «esdrújulas» always have an accent mark on their stressed syllable.",
+      "explanation": "Correct! Esdrújulas always have an accent mark, whatever their last letter.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-acentuacion-03",
+      "type": "match",
+      "prompt": "Match each Spanish word type to the position of its stressed syllable.",
+      "explanation": "Agudas have stress on the last syllable, llanas on the second-last and esdrújulas on the third-last.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Aguda",
+          "right": "Stress on the last syllable."
+        },
+        {
+          "left": "Llana",
+          "right": "Stress on the second-last syllable."
+        },
+        {
+          "left": "Esdrújula",
+          "right": "Stress on the third-last syllable."
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-acentuacion-04",
+      "type": "fill-blank",
+      "prompt": "Choose the correctly spelt Spanish word to complete the sentence.",
+      "explanation": "«plátano» is an esdrújula. Like all esdrújulas, it has an accent mark on the third-last syllable.",
+      "lang": "en",
+      "sentence": "Omar fue a la frutería del barrio y compró un ___ muy dulce.",
+      "options": [
+        "platanó",
+        "platano",
+        "plátano"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-acentuacion-05",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by their stressed syllable.",
+      "explanation": "«balón» and «compás» are agudas. «árbol» and «lápiz» are llanas with accent marks. «música» and «médico» are esdrújulas.",
+      "lang": "en",
+      "categories": [
+        "Agudas",
+        "Llanas",
+        "Esdrújulas"
+      ],
+      "items": [
+        {
+          "text": "balón",
+          "category": 0
+        },
+        {
+          "text": "árbol",
+          "category": 1
+        },
+        {
+          "text": "música",
+          "category": 2
+        },
+        {
+          "text": "compás",
+          "category": 0
+        },
+        {
+          "text": "lápiz",
+          "category": 1
+        },
+        {
+          "text": "médico",
+          "category": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-acentuacion-06",
+      "type": "choice",
+      "prompt": "Aisha prepares a list for a school trip. Which word is an «aguda» that needs an accent mark?",
+      "explanation": "«Colibrí» is an aguda ending in a vowel, so it needs an accent mark on the last syllable.",
+      "hint": "Agudas take accent marks when they end in a vowel, -n or -s.",
+      "lang": "en",
+      "options": [
+        "Cuaderno",
+        "Cantimplora",
+        "Colibrí",
+        "Mochila"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-acentuacion-07",
+      "type": "choice",
+      "prompt": "The library notice says «Por favor, mantén silencio en el salon». Which word has a mistake?",
+      "explanation": "«salón» is an aguda ending in n, so it needs an accent mark.",
+      "hint": "Find an aguda ending in -n with a missing accent mark.",
+      "lang": "en",
+      "options": [
+        "silencio",
+        "salon",
+        "Por"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-acentuacion-08",
+      "type": "order",
+      "prompt": "Put the steps in order to decide whether a Spanish word needs an accent mark.",
+      "explanation": "First split it into syllables, find the stressed syllable, identify the word type and apply the spelling rule.",
+      "lang": "en",
+      "items": [
+        "Split the word into syllables.",
+        "Find the stressed syllable.",
+        "Decide whether it is aguda, llana or esdrújula.",
+        "Check the rule for adding an accent mark."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-acentuacion-09",
+      "type": "reading",
+      "prompt": "Read the Spanish story about Mateo's invention and answer the questions.",
+      "explanation": "Reading helps us discover the agudas, llanas and esdrújulas used in Spanish writing.",
+      "lang": "en",
+      "title": "El invento de Mateo",
+      "text": "Mateo ha construido un robot con cajas de cartón y tapones. En la feria de ciencias, su invento llamó mucho la atención. El robot tiene una bombilla roja en la cabeza y una pequeña hélice en la espalda. Cuando Mateo pulsa el botón amarillo, el robot da tres pasos firmes. Su amiga Nerea le ayudó a pintar un cartel explicativo. En el cartel escribieron las normas de uso para evitar que tocaran los cables. Mateo estaba muy feliz porque su invento funcionó genial y todos aplaudieron entusiasmados.",
+      "questions": [
+        {
+          "prompt": "Why do Mateo and Nerea write an explanatory sign?",
+          "explanation": "They write rules to stop people touching the robot's wires.",
+          "options": [
+            "To sell cardboard boxes to their classmates.",
+            "To give rules for using the robot and protect its wires.",
+            "To borrow a red light bulb from the teacher."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why does «hélice» have an accent mark?",
+          "explanation": "«hé-li-ce» has stress on the third-last syllable. It is an esdrújula, so it always has an accent mark.",
+          "options": [
+            "Because it is an esdrújula, which always takes an accent mark.",
+            "Because it is an aguda ending in a vowel.",
+            "Because it is a llana ending in a consonant other than -n or -s."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-acentuacion-10",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with the verb form for the time of the action.",
+      "explanation": "«marcó» describes a past action. It is an aguda ending in a vowel, so it has an accent mark on the last syllable.",
+      "lang": "en",
+      "sentence": "En el recreo de ayer, Hugo ___ un gol increíble desde el centro del patio.",
+      "options": [
+        "marco",
+        "marcó",
+        "márco"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:23:14.856Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:39:27.298Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "e0d40cc05cf86ce3bfaedd5a32b8bc3f1d217915b8437adf348315df9eba5e98",
+      "validation": "manual-review"
+    }
+  }
+}

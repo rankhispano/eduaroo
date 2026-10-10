@@ -1,0 +1,278 @@
+{
+  "id": "g5-naturales-la-litosfera",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "la-litosfera",
+  "temaNombre": "The lithosphere",
+  "title": "Exploring the lithosphere",
+  "summary": "Explore Earth's layers, rocks, minerals and the geological processes that shape landscapes.",
+  "keyIdeas": [
+    "The lithosphere is Earth's rigid outer layer, comprising the crust and the rigid uppermost mantle.",
+    "Most rocks contain minerals. By origin, rocks can be sedimentary, igneous or metamorphic.",
+    "Landscapes change through internal processes such as earthquakes and volcanoes, and external processes such as erosion and deposition."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-la-litosfera-01",
+      "type": "true-false",
+      "prompt": "The lithosphere covers only the ocean floor; continents form a different layer.",
+      "explanation": "The lithosphere includes continental and oceanic crust, together with the rigid uppermost mantle.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-la-litosfera-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct mineral property.",
+      "explanation": "Hardness measures resistance to scratching. The Mohs scale provides a reference for comparing it.",
+      "hint": "Diamond has the highest value on this scale.",
+      "lang": "en",
+      "sentence": "A mineral's resistance to being scratched by another object or mineral is called ___.",
+      "options": [
+        "hardness",
+        "lustre",
+        "cleavage",
+        "density"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-la-litosfera-03",
+      "type": "match",
+      "prompt": "Match each main Earth layer to its feature.",
+      "explanation": "Earth has three main nested layers: the outer crust, the mantle and the central core.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Crust",
+          "right": "The thin outermost layer, where living things live."
+        },
+        {
+          "left": "Mantle",
+          "right": "A very thick middle layer of hot rock."
+        },
+        {
+          "left": "Core",
+          "right": "The deepest and hottest layer, mainly iron and nickel."
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-litosfera-04",
+      "type": "classify",
+      "prompt": "Classify these examples as internal or external geological processes.",
+      "explanation": "Internal processes are driven by Earth's internal energy. External processes involve air, water, wind and other surface conditions.",
+      "lang": "en",
+      "categories": [
+        "Internal geological process",
+        "External geological process"
+      ],
+      "items": [
+        {
+          "text": "A volcano erupting lava",
+          "category": 0
+        },
+        {
+          "text": "Desert wind wearing away rock",
+          "category": 1
+        },
+        {
+          "text": "An earthquake caused by movement along tectonic plate boundaries",
+          "category": 0
+        },
+        {
+          "text": "Sand building up at a river mouth",
+          "category": 1
+        },
+        {
+          "text": "Ice breaking mountain rocks",
+          "category": 1
+        },
+        {
+          "text": "Mountain ranges forming as plates collide",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-litosfera-05",
+      "type": "order",
+      "prompt": "Order the stages by which a river reshapes a landscape, from removing material to depositing it.",
+      "explanation": "Water first wears away and removes material through erosion, then transports it and finally deposits it as sediment.",
+      "lang": "en",
+      "items": [
+        "Erosion removes rock fragments in the upper river",
+        "The river transports sediment along its channel",
+        "Sediment is deposited at the river mouth"
+      ]
+    },
+    {
+      "id": "g5-naturales-la-litosfera-06",
+      "type": "choice",
+      "prompt": "Hugo says, 'All rocks are exactly the same as minerals, just bigger.' What is wrong with this idea?",
+      "explanation": "Rocks and minerals are different. Most rocks contain minerals; granite, for example, contains quartz, feldspar and mica.",
+      "hint": "Think of granite's quartz, feldspar and mica.",
+      "lang": "en",
+      "options": [
+        "Minerals never occur naturally in pure form.",
+        "Rocks are generally made from one or more minerals.",
+        "There is no error: a rock is simply a large mineral.",
+        "Rocks are liquid, while minerals are always solid."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-litosfera-07",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "Understanding where everyday materials come from helps us value responsible consumption and recycling.",
+      "lang": "en",
+      "title": "Our phones' hidden footprint",
+      "text": "On a visit to a geology centre, Nerea and Adrián learned that everyday technology depends on the lithosphere. Making a mobile phone requires more than thirty different minerals and metals. Silicon is used in microchips, lithium in batteries and copper to conduct electricity.\n\nThe guide explained that mining and quarrying can seriously affect the environment. They can damage habitats, use large amounts of water and produce polluting waste. Many resources are non-renewable and could run out without responsible management.\n\nThe group discussed what consumers could do. They concluded that keeping devices in use longer and taking them to proper recycling centres can reduce the need for new mines.",
+      "questions": [
+        {
+          "prompt": "Which material mentioned is used in batteries to store energy?",
+          "explanation": "The text states that lithium is used in phone batteries.",
+          "options": [
+            "Lithium",
+            "Silicon",
+            "Copper"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How does recycling electronics help protect the lithosphere?",
+          "explanation": "Recycling recovers existing metals and reduces the need to extract new resources.",
+          "options": [
+            "It recovers materials already extracted, reducing the need for more mines.",
+            "It makes minerals reproduce naturally in the soil.",
+            "Old phones spontaneously turn into sedimentary rocks."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which individual action is most responsible?",
+          "explanation": "Repairing extends a device's life and reduces demand for resources. Proper collection centres allow safe recycling when it can no longer be used.",
+          "options": [
+            "Replace a working phone every year to get the newest model.",
+            "Put broken electronics in the household food-waste bin.",
+            "Repair a faulty device, and take it to a recycling centre when it can no longer be used."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-litosfera-08",
+      "type": "choice",
+      "prompt": "Aisha finds a rock with visible horizontal layers and small fossil shells. What type is it most likely to be, and how did it form?",
+      "explanation": "Layers and fossils suggest a sedimentary origin. Intense heat usually destroys fossils, although some may survive mild transformation.",
+      "hint": "Look at the layers and fossil remains.",
+      "lang": "en",
+      "options": [
+        "Metamorphic rock, formed by completely melting minerals at very high temperature.",
+        "Sedimentary rock, formed as material built up and was compacted over time.",
+        "Igneous rock, formed when volcanic magma cooled."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-litosfera-09",
+      "type": "choice",
+      "prompt": "A teacher shows water rising as it freezes in an open plastic container, then a photograph of ice-cracked rock. Which process helps explain this?",
+      "explanation": "Water expands when it freezes. Inside a crack, it can exert pressure and help split rock. This is frost wedging.",
+      "hint": "Connect ice expansion with cracks in rock.",
+      "lang": "en",
+      "options": [
+        "Chemical deposition: ice attracts dissolved minerals and turns them into granite.",
+        "Frost wedging: water freezes and expands inside rock cracks, helping break the rock.",
+        "Volcanic activity: freezer temperatures create pressure from underground magmatic gases."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-litosfera-10",
+      "type": "classify",
+      "prompt": "Classify these rocks by their geological origin.",
+      "explanation": "Igneous rocks form from magma. Sedimentary rocks form from accumulated material. Metamorphic rocks form when existing rock changes under heat and pressure without melting.",
+      "lang": "en",
+      "categories": [
+        "Sedimentary",
+        "Igneous",
+        "Metamorphic"
+      ],
+      "items": [
+        {
+          "text": "Basalt: rapidly cooled lava",
+          "category": 1
+        },
+        {
+          "text": "Clay: accumulated, compacted mud",
+          "category": 0
+        },
+        {
+          "text": "Marble: limestone changed by heat and pressure",
+          "category": 2
+        },
+        {
+          "text": "Granite: magma slowly cooled underground",
+          "category": 1
+        },
+        {
+          "text": "Coal: plant remains compacted over millions of years",
+          "category": 0
+        },
+        {
+          "text": "Slate: clay-rich rock changed under pressure",
+          "category": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:11:20.736Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:02:07.669Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "9de2f631f845068fe7f236a8c8889df7fb82f7716f697259cdc6a829bef60c1b",
+      "validation": "manual-review"
+    }
+  }
+}

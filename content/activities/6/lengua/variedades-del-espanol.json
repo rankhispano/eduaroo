@@ -81,8 +81,8 @@
     {
       "id": "g6-lengua-variedades-del-espanol-03",
       "type": "choice",
-      "prompt": "¿Cómo se llama el fenómeno lingüístico habitual en Canarias, Andalucía y toda Hispanoamérica por el que las letras 'c' (ante 'e', 'i') y 'z' se pronuncian con el sonido de la 's' (como decir 'sersiador' por cercador o 'sapato' por zapato)?",
-      "explanation": "El seseo consiste en pronunciar el sonido 's' en lugar de la distinción entre 's' y 'z/c'. Es un rasgo completamente natural y correcto de millones de hispanohablantes.",
+      "prompt": "¿Cómo se llama pronunciar c ante e/i y z con el mismo sonido que s, como ocurre en «zapato» en muchas variedades de América, Canarias y zonas de Andalucía?",
+      "explanation": "El seseo es la pronunciación de c ante e/i y z con el mismo sonido que s. Es un rasgo aceptado de muchas variedades del español.",
       "hint": "Fíjate en la letra con la que empieza el sonido que se utiliza al hablar.",
       "lang": "es",
       "options": [
@@ -147,14 +147,14 @@
     {
       "id": "g6-lengua-variedades-del-espanol-06",
       "type": "choice",
-      "prompt": "En clase de Lengua, cuatro estudiantes opinan sobre la forma de hablar de un compañero recién llegado de Colombia. ¿Quién demuestra un prejuicio lingüístico que debemos evitar?",
+      "prompt": "Tres estudiantes opinan sobre cómo habla un compañero recién llegado de Colombia. ¿Quién muestra un prejuicio lingüístico?",
       "explanation": "Calificar de 'raro' o 'malo' el dialecto de otra persona es un prejuicio lingüístico. Todas las variedades del español tienen sus propias normas y son igualmente correctas.",
       "hint": "Busca la afirmación que juzga negativamente la variedad lingüística de otra persona.",
       "lang": "es",
       "options": [
         "Adrián: 'Habla muy raro y mal porque usa palabras que aquí no usamos'.",
-        "Lucía: 'Usa palabras distintas como alberca para decir piscina, ¡qué interesante!'",
-        "Mateo: 'Me gusta su acento melódico y cómo pronuncia algunas palabras'."
+        "Lucía: 'Dice celular para teléfono móvil, ¡qué interesante!'.",
+        "Mateo: 'Me gusta su acento y quiero conocer las palabras que usa'."
       ],
       "answer": 0
     },
@@ -192,7 +192,7 @@
       "explanation": "La lectura muestra cómo conviven de manera natural y respetuosa distintas variedades dialectales y léxicas del español.",
       "lang": "es",
       "title": "Un taller con mucho sabor",
-      "text": "En el colegio Las Palmeras, el alumnado de sexto organizó un taller de cocina internacional. Nerea, que nació en Tenerife, trajo papas arrugadas con mojo picón. Al ver las papas, Carlos, que es de Madrid, exclamó: '¡Qué ricas estas patatas!'. Nerea sonrió y le explicó que en Canarias siempre se utiliza la palabra 'papa', igual que en toda Hispanoamérica, una herencia del quechua que llegó a las islas hace siglos.\n\nMás tarde, Valeria, procedente de Colombia, preparó un postre con plátano maduro al que ella llamaba 'plátano' y en otras regiones de su país conocen como 'maduro' o 'guineo'. Todo el grupo coincidió en que probar platos de distintos lugares y aprender cómo se nombran los ingredientes en cada país hace que las clases sean mucho más divertidas y enriquecedoras. Al terminar, elaboraron un recetario conjunto con las distintas formas de nombrar cada alimento.",
+      "text": "En el colegio Las Palmeras, el alumnado de sexto organizó un taller de cocina internacional. Nerea, que nació en Tenerife, trajo papas arrugadas con mojo picón. Al ver las papas, Carlos, que es de Madrid, exclamó: '¡Qué ricas estas patatas!'. Nerea sonrió y le explicó que en Canarias es habitual usar la palabra 'papa', igual que en muchos lugares de Hispanoamérica, una herencia del quechua que llegó a las islas hace siglos.\n\nMás tarde, Valeria, procedente de Perú, preparó una ensalada con aguacate. Ella lo llamaba «palta», otra palabra usada en su región. Todo el grupo coincidió en que probar platos de distintos lugares y aprender cómo se nombran los ingredientes en cada país hace que las clases sean mucho más divertidas y enriquecedoras. Al terminar, elaboraron un recetario conjunto con las distintas formas de nombrar cada alimento.",
       "questions": [
         {
           "prompt": "¿De qué lengua indígena procede originalmente la palabra 'papa' según el texto?",
@@ -206,7 +206,7 @@
         },
         {
           "prompt": "¿Por qué Nerea y Carlos usan palabras distintas para referirse al mismo alimento?",
-          "explanation": "Se trata de una diferencia de vocabulario geográfico: en el español peninsular se suele decir 'patata' y en Canarias y América se dice 'papa'.",
+          "explanation": "Es una diferencia de vocabulario geográfico: Nerea, de Tenerife, dice «papas»; Carlos, de Madrid, dice «patatas». Ambas palabras nombran el mismo alimento.",
           "options": [
             "Porque cada uno utiliza la variedad léxica propia de su región geográfica.",
             "Porque las patatas y las papas son alimentos completamente diferentes.",

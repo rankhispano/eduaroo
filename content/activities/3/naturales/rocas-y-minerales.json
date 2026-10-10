@@ -45,8 +45,8 @@
     {
       "id": "g3-naturales-rocas-y-minerales-01",
       "type": "choice",
-      "prompt": "Lucía examina una piedra en el parque con una lupa. ¿De qué están compuestas todas las rocas?",
-      "explanation": "Las rocas son mezclas naturales formadas por uno o varios minerales unidos.",
+      "prompt": "Lucía observa una muestra de granito. ¿De qué está formada esta roca?",
+      "explanation": "El granito está formado principalmente por cuarzo, feldespato y mica, que son minerales.",
       "hint": "Piensa en el cuarzo o la mica que forman el granito.",
       "lang": "es",
       "options": [
@@ -107,7 +107,7 @@
       "id": "g3-naturales-rocas-y-minerales-05",
       "type": "classify",
       "prompt": "Clasifica estos elementos geológicos según sean rocas o minerales.",
-      "explanation": "El granito, el basalto y la arcilla son rocas. El cuarzo, el diamante y la pirita son minerales puros.",
+      "explanation": "Granito, basalto y pizarra son rocas. Cuarzo, diamante y pirita son minerales.",
       "lang": "es",
       "categories": [
         "Rocas",
@@ -135,7 +135,7 @@
           "category": 1
         },
         {
-          "text": "Arcilla",
+          "text": "Pizarra",
           "category": 0
         }
       ]
@@ -155,14 +155,14 @@
     {
       "id": "g3-naturales-rocas-y-minerales-07",
       "type": "choice",
-      "prompt": "Omar echa unas gotas de vinagre sobre una roca y salen burbujas. ¿Qué conclusión puede sacar?",
-      "explanation": "El vinagre es un ácido suave que reacciona con el mineral calcita produciendo burbujas de gas.",
-      "hint": "Recuerda qué mineral reacciona con los ácidos suaves.",
+      "prompt": "Con su docente, Omar pone vinagre en una muestra de caliza y aparecen burbujas. ¿Qué ha observado?",
+      "explanation": "La caliza contiene carbonatos que pueden reaccionar con el vinagre y liberar gas. Las burbujas son una señal de esa reacción.",
+      "hint": "Fíjate en qué indica la aparición de burbujas.",
       "lang": "es",
       "options": [
-        "La roca contiene calcita, que reacciona desprendiendo gas.",
-        "La roca está viva y respira dentro del líquido.",
-        "El vinagre ha derretido la roca por completo."
+        "Una reacción que libera gas.",
+        "Que la roca está viva y respira.",
+        "Que toda la roca desaparece al tocar el vinagre."
       ],
       "answer": 0
     },

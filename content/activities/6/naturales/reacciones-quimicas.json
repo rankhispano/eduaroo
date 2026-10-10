@@ -9,7 +9,7 @@
   "keyIdeas": [
     "En un cambio químico se forman sustancias nuevas diferentes a las iniciales; en un cambio físico, la sustancia sigue siendo la misma.",
     "Las sustancias que reaccionan se llaman reactivos y las que se obtienen son los productos.",
-    "En una reacción química la materia no desaparece: la masa total se conserva siempre."
+    "En una reacción química, la masa total se conserva si contamos todas las sustancias, incluidos los gases, en un sistema cerrado."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -127,14 +127,14 @@
     {
       "id": "g6-naturales-reacciones-quimicas-05",
       "type": "choice",
-      "prompt": "Lucía coloca una botella con vinagre y encaja en su boca un globo con bicarbonato. La báscula marca 185 g. Luego levanta el globo, el bicarbonato cae, burbujea intensamente y el globo se hincha. Como no ha escapado nada de gas, ¿cuánto marcará la báscula al terminar?",
-      "explanation": "Al ser un sistema cerrado del que no escapa nada, la masa de los reactivos es exactamente igual a la de los productos. Los gases también tienen masa.",
-      "hint": "Recuerda la ley de conservación de la masa en recipientes cerrados.",
+      "prompt": "En un modelo de reacción química, un sistema cerrado contiene una masa total de 185 g. No entra ni sale ninguna sustancia. ¿Qué masa total tendrá después de la reacción?",
+      "explanation": "En un sistema cerrado la masa total se conserva: hay que contar también los gases producidos.",
+      "hint": "Comprueba si entra o sale materia del sistema.",
       "lang": "es",
       "options": [
-        "Exactamente 185 g, porque la materia no se destruye, solo se transforma.",
-        "Menos de 185 g, porque el gas que llena el globo no tiene peso.",
-        "Más de 185 g, porque el globo inflado ocupa mucho más volumen."
+        "185 g, porque la masa total se conserva",
+        "Menos de 185 g, porque los gases no tienen masa",
+        "Más de 185 g, porque toda reacción crea materia"
       ],
       "answer": 0
     },
@@ -184,10 +184,10 @@
       "id": "g6-naturales-reacciones-quimicas-09",
       "type": "reading",
       "prompt": "Lee atentamente el siguiente texto sobre un hito de la ciencia y responde a las preguntas:",
-      "explanation": "El trabajo en equipo de los Lavoisier sentó las bases de la química moderna al demostrar la ley de conservación de la materia con mediciones exactas.",
+      "explanation": "El trabajo de los Lavoisier ayudó a establecer la conservación de la masa mediante mediciones cuidadosas.",
       "lang": "es",
       "title": "La balanza de los Lavoisier",
-      "text": "En el siglo XVIII, Marie-Anne Paulze y su esposo Antoine Lavoisier transformaron el estudio de la materia en su laboratorio de París. Hasta entonces, muchas personas creían que durante una combustión la materia se destruía misteriosamente.\n\nLos Lavoisier decidieron someter esta idea a rigurosas pruebas. Diseñaron recipientes de vidrio herméticamente sellados para impedir que cualquier sustancia saliera o entrara. Dentro colocaban metales o carbón, los calentaban hasta provocar la reacción química y medían la masa antes y después con balanzas de máxima precisión. Descubrieron que la masa total no variaba ni un miligramo: la masa de los reactivos era idéntica a la de los productos.\n\nMarie-Anne dominaba varios idiomas, tradujo tratados científicos extranjeros y dibujó con minuciosidad todos los instrumentos del laboratorio para que otros investigadores pudieran repetir sus experimentos. Gracias a este trabajo riguroso y compartido, demostraron al mundo que en la naturaleza nada se destruye, solo se transforma.",
+      "text": "En el siglo XVIII, Marie-Anne Paulze y su esposo Antoine Lavoisier transformaron el estudio de la materia en su laboratorio de París. Hasta entonces, muchas personas creían que durante una combustión la materia se destruía misteriosamente.\n\nLos Lavoisier decidieron someter esta idea a rigurosas pruebas. Diseñaron recipientes de vidrio herméticamente sellados para impedir que cualquier sustancia saliera o entrara. Dentro colocaban metales o carbón, los calentaban hasta provocar la reacción química y medían la masa antes y después con balanzas de máxima precisión. Descubrieron que la masa total no variaba dentro de la precisión de sus medidas: la masa de los reactivos era idéntica a la de los productos.\n\nMarie-Anne dominaba varios idiomas, tradujo tratados científicos extranjeros y dibujó con minuciosidad todos los instrumentos del laboratorio para que otros investigadores pudieran repetir sus experimentos. Gracias a este trabajo riguroso y compartido, demostraron al mundo que en una reacción química la masa se conserva cuando se tienen en cuenta todas las sustancias.",
       "questions": [
         {
           "prompt": "¿Qué instrumento fue determinante para que los Lavoisier comprobasen que la masa no variaba?",
@@ -224,7 +224,7 @@
     {
       "id": "g6-naturales-reacciones-quimicas-10",
       "type": "choice",
-      "prompt": "Aisha y Adrián investigan qué hace que una pastilla efervescente reaccione más rápido con agua. En el Vaso A ponen agua fría con una pastilla entera. En el Vaso B ponen agua muy caliente con una pastilla triturada en polvo. El Vaso B reacciona de inmediato, pero su maestro les dice que el experimento no es científicamente válido. ¿Por qué?",
+      "prompt": "Aisha y Adrián investigan qué hace que una pastilla efervescente reaccione más rápido con agua. En el Vaso A ponen agua fría con una pastilla entera. En el Vaso B ponen agua templada con una pastilla triturada en polvo. El Vaso B reacciona de inmediato, pero su maestro les dice que el experimento no es científicamente válido. ¿Por qué?",
       "explanation": "Para que un experimento demuestre una causa, solo se debe cambiar una variable cada vez (por ejemplo, solo la temperatura o solo el estado de la pastilla), manteniendo todo lo demás igual.",
       "hint": "En un experimento riguroso, solo se modifica un factor a la vez para comparar con justicia.",
       "lang": "es",

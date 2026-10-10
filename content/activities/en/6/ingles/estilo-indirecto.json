@@ -1,0 +1,257 @@
+{
+  "id": "g6-ingles-estilo-indirecto",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "estilo-indirecto",
+  "temaNombre": "Reported Speech",
+  "title": "Reported Speech: Guided Extension",
+  "summary": "With support and simple models, practise telling someone what another person said.",
+  "keyIdeas": [
+    "Guided extension model: Hugo said, 'I am happy.' → Hugo said that he was happy.",
+    "After said or told in the past, we can shift a verb to the past. If the message is still true, the present is sometimes kept.",
+    "Pronouns depend on who is retelling the message. When another person talks about Hugo, I changes to he."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-estilo-indirecto-01",
+      "type": "true-false",
+      "prompt": "When we report what someone said in the past, present verbs usually change to past verbs.",
+      "explanation": "In these examples with said or told, we practise shifting the present to the past. This shift is not always required: it depends on the context.",
+      "hint": "Think about how we can retell a message after someone has said it.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-02",
+      "type": "classify",
+      "prompt": "Sort these sentences into direct speech or reported speech.",
+      "explanation": "Direct speech gives the exact words in quotation marks. Reported speech retells the message, for example with said that or told me that.",
+      "lang": "en",
+      "categories": [
+        "Direct speech",
+        "Reported speech"
+      ],
+      "items": [
+        {
+          "text": "'I love football,' said Hugo.",
+          "category": 0
+        },
+        {
+          "text": "Hugo said that he loved football.",
+          "category": 1
+        },
+        {
+          "text": "'We are ready,' shouted the children.",
+          "category": 0
+        },
+        {
+          "text": "Aisha told me that she was tired.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-03",
+      "type": "match",
+      "prompt": "Use this past-shift model to match the forms: 'I am happy.' → 'He said he was happy.'",
+      "explanation": "In this model, am and is become was, are becomes were, like becomes liked and can becomes could.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "am / is",
+          "right": "was"
+        },
+        {
+          "left": "are",
+          "right": "were"
+        },
+        {
+          "left": "like",
+          "right": "liked"
+        },
+        {
+          "left": "can",
+          "right": "could"
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-04",
+      "type": "fill-blank",
+      "prompt": "Choose the pronoun when another person reports what Hugo said.",
+      "explanation": "The narrator is talking about Hugo, so I changes to he.",
+      "hint": "Hugo is no longer the speaker: someone else is reporting his words.",
+      "lang": "en",
+      "sentence": "Hugo said: 'I am very hungry.' → Hugo said that ___ was very hungry.",
+      "options": [
+        "I",
+        "you",
+        "he"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-05",
+      "type": "choice",
+      "prompt": "Choose the reporting verb: Aisha ___ me that she loved painting.",
+      "explanation": "Use told directly before the listener: told me. With said, we would need said to me or simply said that.",
+      "hint": "Notice the word me immediately after the gap.",
+      "lang": "en",
+      "options": [
+        "said",
+        "told",
+        "spoke"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-06",
+      "type": "choice",
+      "prompt": "Yesterday Martina said, 'I have a new pencil case.' Another person reports it using the past-shift model. Which sentence fits?",
+      "explanation": "I changes to she because the narrator is talking about Martina. Have changes to had in this model.",
+      "hint": "Change both the pronoun and the verb tense.",
+      "lang": "en",
+      "options": [
+        "Martina said that I had a new pencil case.",
+        "Martina said that she have a new pencil case.",
+        "Martina said that she had a new pencil case."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-07",
+      "type": "order",
+      "prompt": "Put the words in order to make a reported-speech sentence.",
+      "explanation": "The order here is Omar + said + that + he + was + happy.",
+      "lang": "en",
+      "items": [
+        "Omar",
+        "said",
+        "that",
+        "he",
+        "was",
+        "happy."
+      ]
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-08",
+      "type": "fill-blank",
+      "prompt": "Complete the reported sentence with the past form of can.",
+      "explanation": "The past form of can is could. In this model we write she could run.",
+      "hint": "This irregular form begins with c and ends with d.",
+      "lang": "en",
+      "sentence": "Lucía told the coach that she ___ run very fast.",
+      "options": [
+        "could",
+        "can",
+        "canned"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-09",
+      "type": "reading",
+      "prompt": "Read about the school club and answer the questions.",
+      "explanation": "The text uses reported speech to summarise the ideas shared at the Green Club meeting.",
+      "lang": "en",
+      "title": "The Green Club Meeting",
+      "text": "Yesterday, our school Green Club had an important meeting. Aisha said that our school needed more recycling bins in the playground. Then, Wei explained that his class collected paper every Friday to help the planet. Leo arrived a bit late and told the teacher that he had three big boxes for plastic bottles. Our teacher, Mr Davies, was very proud. He said that small actions made a huge difference for nature. Lucía suggested a clean-up day for next Saturday. She told everyone that her parents wanted to help in the school garden too. At the end of the meeting, Aisha took notes so we could share the ideas with our families. We are very excited because our project is helping our school community become greener and cleaner!",
+      "questions": [
+        {
+          "prompt": "What did Wei explain about his class?",
+          "explanation": "The text states that Wei's class collected paper every Friday.",
+          "options": [
+            "That his class planted flowers yesterday.",
+            "That his class bought new plastic bottles.",
+            "That his class collected paper every Friday."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why was Mr Davies proud of his students?",
+          "explanation": "We can infer that he was proud because the pupils suggested useful ways to care for nature, such as recycling and cleaning up.",
+          "options": [
+            "Because nobody arrived late to the meeting.",
+            "Because they finished their homework very quickly.",
+            "Because they brought creative solutions to care for the environment."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "How does Lucía's proposal involve people beyond the school?",
+          "explanation": "Lucía says her parents also wanted to help in the school garden.",
+          "options": [
+            "She said that her parents wanted to help in the garden.",
+            "She invited children from another city to visit.",
+            "She asked the supermarket for cardboard boxes."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-estilo-indirecto-10",
+      "type": "choice",
+      "prompt": "Yesterday David told his teacher, 'We want to plant trees tomorrow.' Later, someone outside the group reports this using the past-shift model. Which sentence keeps the meaning?",
+      "explanation": "Use told the teacher. We becomes they because the narrator is outside the group, want becomes wanted, and tomorrow becomes the next day when retelling it later.",
+      "hint": "Check told someone and the past form of the verb.",
+      "lang": "en",
+      "options": [
+        "David told to the teacher that they want to plant trees.",
+        "David told the teacher that they wanted to plant trees the next day.",
+        "David said the teacher that we want to plant trees."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:21:39.098Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:38:39.352Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "eb2fd98588d49fe8cd1256ae030693efbf7b42261ea812e42279658b5a169124",
+      "validation": "manual-review"
+    }
+  }
+}

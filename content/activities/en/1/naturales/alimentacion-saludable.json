@@ -1,0 +1,220 @@
+{
+  "id": "g1-naturales-alimentacion-saludable",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "alimentacion-saludable",
+  "temaNombre": "Healthy eating",
+  "title": "Eating well every day",
+  "summary": "Learn to choose foods that help you grow and give you energy.",
+  "keyIdeas": [
+    "Fruit and vegetables give us vitamins, minerals and fibre.",
+    "Water is the best everyday drink to keep us hydrated.",
+    "Sweets and cakes are occasional treats."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE4"
+    ],
+    "criteria": [
+      "2.4",
+      "4.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CPSAA1",
+      "CPSAA2",
+      "CPSAA3",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-alimentacion-saludable-01",
+      "type": "choice",
+      "prompt": "Lucía feels thirsty after playing tag. Which drink is the healthiest choice?",
+      "explanation": "Water quenches thirst and is a healthy everyday drink.",
+      "hint": "It has no sugar or added colours.",
+      "lang": "en",
+      "options": [
+        "A glass of cool water",
+        "A fizzy drink",
+        "A chocolate milkshake"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-02",
+      "type": "true-false",
+      "prompt": "Fruit and vegetables help us care for our health.",
+      "explanation": "They give us vitamins, minerals and fibre. A varied diet helps keep us healthy.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-03",
+      "type": "fill-blank",
+      "prompt": "Choose the word that completes the sentence.",
+      "explanation": "We can eat fruit every day, at break time or for dessert.",
+      "lang": "en",
+      "sentence": "To help us grow strong, we eat fresh fruit every ___.",
+      "options": [
+        "day",
+        "month",
+        "year"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-04",
+      "type": "classify",
+      "prompt": "Sort these foods into their groups.",
+      "explanation": "Bananas and apples are fruits. Spinach and carrots are nutritious vegetables.",
+      "lang": "en",
+      "categories": [
+        "Fruit",
+        "Vegetables"
+      ],
+      "items": [
+        {
+          "text": "Banana",
+          "category": 0
+        },
+        {
+          "text": "Spinach",
+          "category": 1
+        },
+        {
+          "text": "Apple",
+          "category": 0
+        },
+        {
+          "text": "Carrot",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-05",
+      "type": "match",
+      "prompt": "Match each food to its group.",
+      "explanation": "An apple is a fruit. Lentils are pulses, and cheese is a dairy food.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Apple",
+          "right": "Fruit"
+        },
+        {
+          "left": "Lentils",
+          "right": "Pulses"
+        },
+        {
+          "left": "Cheese",
+          "right": "Dairy foods"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-06",
+      "type": "choice",
+      "prompt": "Which is the most balanced snack for Aisha?",
+      "explanation": "Bread with cheese and tomato, plus fruit, provides energy and different nutrients.",
+      "hint": "Look for fresh foods and variety.",
+      "lang": "en",
+      "options": [
+        "Two chocolate-chip muffins",
+        "A bag of crisps and packaged juice",
+        "A cheese and tomato sandwich with a mandarin"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-07",
+      "type": "choice",
+      "prompt": "Which statement about food contains a mistake?",
+      "explanation": "Whole fruit keeps more fibre than juice. Even juice with no added sugar contains the fruit's sugars.",
+      "hint": "Think about the fibre in whole fruit.",
+      "lang": "en",
+      "options": [
+        "Packaged juice replaces eating whole fruit",
+        "Fish and eggs give us protein for muscles",
+        "Vegetables help our digestion"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-08",
+      "type": "choice",
+      "prompt": "Two apples are grown in the same way. One travels less and uses less plastic. Which saves transport and packaging?",
+      "explanation": "In this case, the nearby apple saves transport and packaging. A food's impact also depends on how it is grown.",
+      "hint": "Compare the apples' journeys and packaging.",
+      "lang": "en",
+      "options": [
+        "The apple that travelled far in a plastic box",
+        "The local apple, because it needs less transport",
+        "Both harm the environment equally"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-alimentacion-saludable-09",
+      "type": "reading",
+      "prompt": "Read Nerea's story and answer the questions.",
+      "explanation": "Fresh garden vegetables provide useful nutrients for our bodies.",
+      "lang": "en",
+      "title": "Grandma's garden",
+      "text": "Nerea visits her grandmother in the countryside. They pick red tomatoes and green lettuces. Grandma makes a fresh salad with olive oil. Nerea tastes the green leaves and smiles. The freshly picked vegetables taste delicious!",
+      "questions": [
+        {
+          "prompt": "What do Nerea and her grandmother pick?",
+          "explanation": "The text says they pick tomatoes and lettuces.",
+          "options": [
+            "Oranges and yellow bananas",
+            "Biscuits and strawberry sweets",
+            "Red tomatoes and green lettuces"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why is their meal healthy?",
+          "explanation": "Vegetables provide nutrients and fibre. They are part of a varied diet.",
+          "options": [
+            "It has lots of sugar and chocolate",
+            "It comes in plastic bags",
+            "Vegetables provide vitamins, minerals and fibre"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:33:19.196Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:44:32.197Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "63c8877bd17b8ddfcf66c297b8bb8e96bbb59d3772997f1ed743de0ddd1750cf",
+      "validation": "manual-review"
+    }
+  }
+}

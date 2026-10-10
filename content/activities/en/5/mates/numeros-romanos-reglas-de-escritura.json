@@ -1,0 +1,268 @@
+{
+  "id": "g5-mates-numeros-romanos-reglas-de-escritura",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "numeros-romanos-reglas-de-escritura",
+  "temaNombre": "Roman Numerals: Writing Rules",
+  "title": "Decode Roman Numerals",
+  "summary": "Practise the modern conventional rules for Roman numerals. These exercises use dots to group thousands: 1.000 means one thousand.",
+  "keyIdeas": [
+    "Under these rules, I, X, C and M can repeat at most three times in a row; V, L and D do not repeat.",
+    "A smaller or equal symbol after a larger one adds its value. Certain smaller symbols before larger ones subtract: IX = 9.",
+    "Only I before V/X, X before L/C, and C before D/M subtract. A bar above a group multiplies its value by one thousand."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-01",
+      "type": "match",
+      "prompt": "Match each Roman symbol with its decimal value.",
+      "explanation": "The basic values are I = 1, V = 5, X = 10, L = 50, C = 100, D = 500 and M = 1.000.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "V",
+          "right": "5"
+        },
+        {
+          "left": "L",
+          "right": "50"
+        },
+        {
+          "left": "D",
+          "right": "500"
+        },
+        {
+          "left": "M",
+          "right": "1.000"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-02",
+      "type": "true-false",
+      "prompt": "Under the conventional rules studied here, V, L and D can repeat to double their value, so VV is used for 10.",
+      "explanation": "False. V, L and D do not repeat under these rules. Write 10 as X.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-03",
+      "type": "choice",
+      "prompt": "Aisha sees MDCCXXIV as her town hall's construction year. Which year is it?",
+      "explanation": "M + DCC + XX + IV = 1.000 + 700 + 20 + 4 = 1.724.",
+      "hint": "Split it into M, DCC, XX and IV.",
+      "lang": "en",
+      "options": [
+        "1.724",
+        "1.524",
+        "1.719",
+        "1.824"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-04",
+      "type": "classify",
+      "prompt": "Sort these Roman symbols by whether they can subtract before an allowed larger symbol.",
+      "explanation": "Only I, X and C can subtract, using the permitted pairs. V, L and D cannot subtract.",
+      "lang": "en",
+      "categories": [
+        "Can subtract",
+        "Cannot subtract"
+      ],
+      "items": [
+        {
+          "text": "I",
+          "category": 0
+        },
+        {
+          "text": "X",
+          "category": 0
+        },
+        {
+          "text": "C",
+          "category": 0
+        },
+        {
+          "text": "V",
+          "category": 1
+        },
+        {
+          "text": "L",
+          "category": 1
+        },
+        {
+          "text": "D",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-05",
+      "type": "fill-blank",
+      "prompt": "Complete with the conventional Roman numeral for 49.",
+      "explanation": "49 = 40 + 9 = XL + IX = XLIX. I cannot subtract directly from L.",
+      "lang": "en",
+      "sentence": "To write 49 as 40 + 9, use ___.",
+      "options": [
+        "XXXXIX",
+        "XLIX",
+        "IL"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-06",
+      "type": "choice",
+      "prompt": "Find the mistake! 🔍 Mateo writes 95 as VC. What is wrong?",
+      "explanation": "V cannot subtract. 95 = 90 + 5 = XC + V = XCV.",
+      "hint": "Which symbols can subtract?",
+      "lang": "en",
+      "options": [
+        "He should repeat V: VVC.",
+        "V cannot subtract before C; 95 is XCV.",
+        "There is no mistake: VC correctly means 100 minus 5.",
+        "He needs I at the end: VCI."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-07",
+      "type": "order",
+      "prompt": "Put these Roman numerals in order from smallest to largest.",
+      "explanation": "Their values are 18, 44, 66, 92 and 115.",
+      "lang": "en",
+      "items": [
+        "XVIII",
+        "XLIV",
+        "LXVI",
+        "XCII",
+        "CXV"
+      ]
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-08",
+      "type": "choice",
+      "prompt": "Mental maths ⚡: Lucía reads a story set in the XIV century; Omar reads one set in the XIX century. What is the difference between the century numbers?",
+      "explanation": "XIV = 14 and XIX = 19, so 19 − 14 = 5 centuries.",
+      "hint": "Convert both century numbers, then subtract.",
+      "lang": "en",
+      "options": [
+        "4 centuries",
+        "6 centuries",
+        "5 centuries",
+        "3 centuries"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-09",
+      "type": "true-false",
+      "prompt": "A horizontal bar above a Roman symbol or group multiplies its value by ten.",
+      "explanation": "False. The bar multiplies the value by 1.000, not 10.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-10",
+      "type": "choice",
+      "prompt": "Nerea sees CCLXXXIX on a museum sign. What number is it?",
+      "explanation": "CC = 200, LXXX = 80 and IX = 9, giving 289.",
+      "hint": "Split it into hundreds, tens and ones.",
+      "lang": "en",
+      "options": [
+        "289",
+        "339",
+        "279",
+        "299"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-11",
+      "type": "match",
+      "prompt": "Match each decimal number with its Roman numeral.",
+      "explanation": "444 = CD + XL + IV; 690 = DC + XC; 949 = CM + XL + IX; 1.492 = M + CD + XC + II.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "444",
+          "right": "CDXLIV"
+        },
+        {
+          "left": "690",
+          "right": "DCXC"
+        },
+        {
+          "left": "949",
+          "right": "CMXLIX"
+        },
+        {
+          "left": "1.492",
+          "right": "MCDXCII"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-numeros-romanos-reglas-de-escritura-12",
+      "type": "choice",
+      "prompt": "Final challenge 🏆: Adrián's school was founded in MCMXCVIII. If the anniversary is being celebrated in 2024, how old is the school?",
+      "explanation": "MCMXCVIII = 1.998. In the stated year 2024, its anniversary is 2.024 − 1.998 = 26 years.",
+      "hint": "Convert the founding year, then subtract it from 2024.",
+      "lang": "en",
+      "options": [
+        "16 years",
+        "36 years",
+        "24 years",
+        "26 years"
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:31:04.388Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:15:37.494Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "583924cb43a7a408b925435b46fc443471ca9387c87b31995ac97e19ee23b3ac",
+      "validation": "manual-review"
+    }
+  }
+}

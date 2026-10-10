@@ -1,0 +1,239 @@
+{
+  "id": "g1-ingles-vocabulario-del-aula",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "vocabulario-del-aula",
+  "temaNombre": "Classroom words",
+  "title": "My Classroom Objects",
+  "summary": "Review English words for classroom objects.",
+  "keyIdeas": [
+    "Use a before a consonant sound, as in a pencil. Use an before a vowel sound, as in an apple.",
+    "Remember these words and their Spanish meanings: pencil (lápiz), rubber (goma), book (libro) and desk (mesa).",
+    "We can say what we have using 'I have a ...'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-vocabulario-del-aula-01",
+      "type": "choice",
+      "prompt": "Which object do you use to write? ✏️",
+      "explanation": "A pencil is used for writing and drawing.",
+      "hint": "You use it to write in a notebook.",
+      "lang": "en",
+      "options": [
+        "A pencil",
+        "A chair",
+        "A door"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-02",
+      "type": "true-false",
+      "prompt": "A rubber is for erasing pencil marks.",
+      "explanation": "A rubber removes pencil marks. In Spanish, it is a goma de borrar.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-03",
+      "type": "match",
+      "prompt": "Match each English object word to its Spanish meaning.",
+      "explanation": "Book means libro, ruler means regla, chair means silla, and schoolbag means mochila.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Book",
+          "right": "Libro"
+        },
+        {
+          "left": "Ruler",
+          "right": "Regla"
+        },
+        {
+          "left": "Chair",
+          "right": "Silla"
+        },
+        {
+          "left": "Schoolbag",
+          "right": "Mochila"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct word.",
+      "explanation": "We read a book. Read means leer in Spanish.",
+      "hint": "It has pages with words and pictures.",
+      "lang": "en",
+      "sentence": "I read a ___ in class.",
+      "options": [
+        "rubber",
+        "book",
+        "desk"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-05",
+      "type": "choice",
+      "prompt": "Hugo wants to draw a straight line. What does he need? 📏",
+      "explanation": "A ruler helps us draw straight lines.",
+      "hint": "It has numbers for measuring.",
+      "lang": "en",
+      "options": [
+        "A sharpener",
+        "A chair",
+        "A ruler"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-06",
+      "type": "classify",
+      "prompt": "Sort these objects into pencil-case items or classroom furniture.",
+      "explanation": "A rubber and pencil fit in a pencil case. A desk and chair are classroom furniture.",
+      "lang": "en",
+      "categories": [
+        "In my pencil case",
+        "In the classroom"
+      ],
+      "items": [
+        {
+          "text": "A rubber",
+          "category": 0
+        },
+        {
+          "text": "A pencil",
+          "category": 0
+        },
+        {
+          "text": "A big desk",
+          "category": 1
+        },
+        {
+          "text": "A teacher's chair",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-07",
+      "type": "fill-blank",
+      "prompt": "Aisha opens her bag. Complete the sentence.",
+      "explanation": "A pencil case holds pencils and other small writing tools.",
+      "hint": "It is where you keep your colouring pencils.",
+      "lang": "en",
+      "sentence": "Aisha puts the pencil in the ___.",
+      "options": [
+        "door",
+        "window",
+        "pencil case"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-08",
+      "type": "order",
+      "prompt": "Put the words in order to make a sentence.",
+      "explanation": "The sentence starts with I, then have, followed by the object: a blue pen.",
+      "lang": "en",
+      "items": [
+        "I",
+        "have",
+        "a",
+        "blue",
+        "pen."
+      ]
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-09",
+      "type": "choice",
+      "prompt": "Omar breaks his pencil tip. Which tool does he use? ✏️",
+      "explanation": "A sharpener makes a new point on a pencil.",
+      "hint": "It sharpens pencils.",
+      "lang": "en",
+      "options": [
+        "A chair",
+        "A notebook",
+        "A sharpener"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-vocabulario-del-aula-10",
+      "type": "reading",
+      "prompt": "Read about Martina's schoolbag and answer the questions.",
+      "explanation": "Martina tells us which school objects she carries in her red bag.",
+      "lang": "en",
+      "title": "Martina's Schoolbag",
+      "text": "Hello! I am Martina. Look at my red schoolbag! Inside my schoolbag, I have a big book. I also have a small pencil case with two pencils and a pink rubber. I love my school!",
+      "questions": [
+        {
+          "prompt": "What colour is Martina's schoolbag?",
+          "explanation": "Martina says 'Look at my red schoolbag!'.",
+          "options": [
+            "Green",
+            "Blue",
+            "Red"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does Martina have in her pencil case?",
+          "explanation": "She says it contains two pencils and a pink rubber.",
+          "options": [
+            "A big ruler and scissors",
+            "Two pencils and a pink rubber",
+            "Three books and a desk"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:54:26.710Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:04:49.799Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "ae52262fe57ab3253e2b85122681bee13980f341cecdd7ff75fe8bb699e5c287",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "id": "g5-sociales-la-globalizacion",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "la-globalizacion",
+  "temaNombre": "Globalisation",
+  "title": "An interconnected world: globalisation",
+  "summary": "Explore how globalisation connects people, economies and cultures worldwide.",
+  "keyIdeas": [
+    "Globalisation increases economic, cultural and technological connections and exchanges between countries.",
+    "It brings benefits such as sharing knowledge, and challenges such as pollution from international transport.",
+    "Responsible consumption and fair trade can support a fairer, more sustainable world."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE5",
+      "CE6",
+      "CE8"
+    ],
+    "criteria": [
+      "5.2",
+      "6.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CP3",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Conciencia ecosocial"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-la-globalizacion-01",
+      "type": "choice",
+      "prompt": "Lucía instantly video-calls her cousin in Japan and tries food from other continents in her neighbourhood. Which process mainly explains these worldwide connections?",
+      "explanation": "Globalisation makes countries increasingly connected through communication and exchange.",
+      "hint": "Think of a word related to the globe.",
+      "lang": "en",
+      "options": [
+        "Rural depopulation",
+        "Globalisation",
+        "Geographical isolation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-02",
+      "type": "true-false",
+      "prompt": "The internet and faster transport, including cargo aircraft and large trading ships, have accelerated globalisation.",
+      "explanation": "Information technology and improved transport move data, people and goods quickly around the world.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-03",
+      "type": "classify",
+      "prompt": "Classify these aspects of globalisation as benefits or challenges to address.",
+      "explanation": "Globalisation offers opportunities to communicate and learn, while requiring care for the environment and local cultures.",
+      "lang": "en",
+      "categories": [
+        "Benefit of globalisation",
+        "Challenge to address"
+      ],
+      "items": [
+        {
+          "text": "Quick access to scientific discoveries and news from other countries",
+          "category": 0
+        },
+        {
+          "text": "More emissions from transporting goods thousands of kilometres",
+          "category": 1
+        },
+        {
+          "text": "Sharing cultures through music, art and food",
+          "category": 0
+        },
+        {
+          "text": "Possible loss of local traditions as worldwide fashions spread",
+          "category": 1
+        },
+        {
+          "text": "International cooperation to deliver disaster relief",
+          "category": 0
+        },
+        {
+          "text": "Inequality when some regions lack access to technology",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-04",
+      "type": "match",
+      "prompt": "Match each area of globalisation to its everyday example.",
+      "explanation": "Globalisation affects culture, shopping, technology and shared efforts to protect the planet.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Cultural globalisation",
+          "right": "Listening to songs and watching films made on other continents"
+        },
+        {
+          "left": "Economic globalisation",
+          "right": "Buying a schoolbag made with materials from three countries"
+        },
+        {
+          "left": "Technological globalisation",
+          "right": "Sending an instant message to someone across the world"
+        },
+        {
+          "left": "Global environmental cooperation",
+          "right": "Making worldwide agreements to protect oceans and tackle climate change"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-05",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about international trade's environmental impact.",
+      "explanation": "An ecological footprint reflects the demands our choices place on Earth's resources.",
+      "hint": "It is the mark our consumption habits leave on the environment.",
+      "lang": "en",
+      "sentence": "Choosing food flown from across the world rather than local seasonal food can increase our ecological ___.",
+      "options": [
+        "footprint",
+        "border",
+        "currency"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-06",
+      "type": "order",
+      "prompt": "Order the journey a globally traded product, such as a T-shirt, may take to your home.",
+      "explanation": "Global production often involves several stages in different places before the product reaches consumers.",
+      "lang": "en",
+      "items": [
+        "Cotton is grown in fields.",
+        "Fabric is made and the garment is sewn in a factory.",
+        "The shipment travels by container ship.",
+        "It reaches local shops and distribution centres.",
+        "A consumer buys and uses the garment."
+      ]
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-07",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "Daily choices connect us to global transport, environmental care and people's rights.",
+      "lang": "en",
+      "title": "Omar and Martina's global snack",
+      "text": "At school snack time, Omar and Martina checked their food labels. Omar's apple came from a nearby valley, about 40 kilometres away. Martina's banana came from a fair-trade cooperative in Costa Rica, while her cereal bar had ingredients produced in three countries.\n\nThey asked their teacher why food travelled so far. She explained that globalisation gives access to products from across Earth, but long journeys use energy and cause pollution. Martina thought about combining nearby food choices, which can reduce transport, with fair trade, which promotes fairer pay and working conditions for farming families in distant countries.",
+      "questions": [
+        {
+          "prompt": "About how far from school was Omar's apple grown?",
+          "explanation": "The text says it came from a nearby valley about 40 kilometres away.",
+          "options": [
+            "About 40 kilometres",
+            "On another continent",
+            "More than 5000 kilometres"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why can transporting food over long distances harm the environment?",
+          "explanation": "Ships and aircraft use fuel and produce emissions during long journeys.",
+          "options": [
+            "Food loses its labels on ships.",
+            "Long-distance transport uses energy and produces polluting gases.",
+            "It prevents children learning languages at school."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which choice follows Martina's final reflection?",
+          "explanation": "Nearby products can reduce transport; fair trade promotes fairer pay and working conditions.",
+          "options": [
+            "Buy only imported goods without considering origins or impacts.",
+            "Prioritise local products and choose fair trade when buying goods from farther away.",
+            "Stop eating fresh fruit and vegetables to save transport."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-08",
+      "type": "choice",
+      "prompt": "Adrián wants fruit with fewer transport emissions. He compares locally grown pears with pears flown from another continent. Which choice fits a sustainable lifestyle?",
+      "explanation": "Nearby food can reduce transport emissions and support the local economy.",
+      "hint": "Compare a local journey with an intercontinental flight.",
+      "lang": "en",
+      "options": [
+        "Choose local pears to avoid long-distance transport emissions.",
+        "Choose heavily processed food in single-use plastic packaging.",
+        "Choose the imported pears because they flew thousands of kilometres."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-09",
+      "type": "true-false",
+      "prompt": "Cultural globalisation requires all peoples to give up their languages and traditions and adopt identical customs.",
+      "explanation": "Sharing cultures should go alongside respecting, preserving and valuing local languages, traditions and cultural diversity.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-sociales-la-globalizacion-10",
+      "type": "choice",
+      "prompt": "Some workers in the global economy face long hours, low pay and unsafe conditions. Which initiative promotes fair prices, human rights and environmental care?",
+      "explanation": "Fair trade promotes decent pay, gender equality, prevention of child exploitation and environmental protection.",
+      "hint": "Look for fair, respectful conditions for workers.",
+      "lang": "en",
+      "options": [
+        "Excessive consumption",
+        "Misleading advertising",
+        "Fair trade"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:40:38.594Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:12:02.448Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "03457afa72767849a450e7bc49d948e713e890abf04225b604b5d8c178ebc3b3",
+      "validation": "manual-review"
+    }
+  }
+}

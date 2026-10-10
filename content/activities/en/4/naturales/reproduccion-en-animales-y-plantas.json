@@ -1,0 +1,271 @@
+{
+  "id": "g4-naturales-reproduccion-en-animales-y-plantas",
+  "cursoId": "4",
+  "asignaturaId": "naturales",
+  "temaId": "reproduccion-en-animales-y-plantas",
+  "temaNombre": "Reproduction in animals and plants",
+  "title": "How plants and animals reproduce",
+  "summary": "Explore how animals are born and how flowering and non-flowering plants reproduce.",
+  "keyIdeas": [
+    "Egg-laying animals are oviparous. Viviparous animals develop inside their mother's body and are born alive.",
+    "Flowers can have male reproductive parts called stamens and a female part called the pistil.",
+    "Many plants reproduce through seeds. Others also reproduce asexually using stems, tubers or bulbs."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-01",
+      "type": "classify",
+      "prompt": "Classify these animals by how their young are born.",
+      "explanation": "Oviparous animals lay eggs in which young develop. These viviparous animals develop inside their mother's body.",
+      "lang": "en",
+      "categories": [
+        "Oviparous: egg-laying",
+        "Viviparous: born alive"
+      ],
+      "items": [
+        {
+          "text": "Imperial eagle",
+          "category": 0
+        },
+        {
+          "text": "Bottlenose dolphin",
+          "category": 1
+        },
+        {
+          "text": "Common frog",
+          "category": 0
+        },
+        {
+          "text": "Sheep",
+          "category": 1
+        },
+        {
+          "text": "Butterfly",
+          "category": 0
+        },
+        {
+          "text": "Iberian wolf",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about plants.",
+      "explanation": "Pollination transfers pollen to the receptive part of a pistil. This may happen within one flower or between flowers.",
+      "hint": "Think of pollen.",
+      "lang": "en",
+      "sentence": "The transfer of pollen from stamens to a flower's pistil is called ___.",
+      "options": [
+        "pollination",
+        "germination",
+        "photosynthesis"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-03",
+      "type": "true-false",
+      "prompt": "Every plant on Earth must use seeds to reproduce.",
+      "explanation": "False. Some plants can reproduce asexually through tubers, bulbs or runners without using seeds.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-04",
+      "type": "match",
+      "prompt": "Match each flower part to its main role.",
+      "explanation": "Different flower parts help reproduction in different ways.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Pistil",
+          "right": "Female part whose ovary contains ovules"
+        },
+        {
+          "left": "Stamens",
+          "right": "Male parts producing pollen grains"
+        },
+        {
+          "left": "Petals",
+          "right": "Often colourful parts that attract insects"
+        },
+        {
+          "left": "Sepals",
+          "right": "Usually green parts protecting the unopened flower"
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-05",
+      "type": "choice",
+      "prompt": "A long stem from Omar's strawberry plant touches the soil and grows roots. Which process is this?",
+      "explanation": "Strawberries produce runners. When they root, they form new plants asexually without seeds.",
+      "hint": "The new plant grows directly from the parent plant's stem.",
+      "lang": "en",
+      "options": [
+        "Wind pollination",
+        "Asexual reproduction through runners",
+        "Sexual reproduction through seeds"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-06",
+      "type": "order",
+      "prompt": "Order the steps in sexual reproduction in flowering plants.",
+      "explanation": "After pollination and fertilisation, the ovary develops into fruit and ovules into seeds. Germination needs suitable conditions.",
+      "lang": "en",
+      "items": [
+        "Pollen reaches the receptive part of the pistil.",
+        "A reproductive cell from pollen fertilises an egg cell in an ovule.",
+        "The ovary develops into fruit and ovules become seeds.",
+        "Seeds are dispersed.",
+        "A seed germinates if conditions are suitable."
+      ]
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-07",
+      "type": "choice",
+      "prompt": "Adrián says whales lay eggs because they live in the sea like fish. What is his error?",
+      "explanation": "Whales are mammals. Their young are born alive and feed on their mothers' milk.",
+      "hint": "Which vertebrate group do whales belong to?",
+      "lang": "en",
+      "options": [
+        "Whales are viviparous mammals whose young are born from the mother.",
+        "Whales lay hard-shelled eggs on sandy beaches.",
+        "Whales do not lay eggs because they are amphibians."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-08",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "Pollinators help many plants reproduce and produce crops.",
+      "lang": "en",
+      "title": "Martina and Hugo's school garden",
+      "text": "Martina and Hugo grow courgettes and tomatoes in the school garden. One morning, Martina sees bumblebees visiting yellow courgette flowers. Pollen sticks to the insects as they look for nectar. When they visit another flower, some pollen reaches its pistil. Pollination allows fertilisation to take place. The ovary at the flower's base begins to grow. In a few weeks, the fading flower gives way to a courgette containing seeds.",
+      "questions": [
+        {
+          "prompt": "Which part grows into the fruit after fertilisation?",
+          "explanation": "The ovary at the pistil's base grows into a fruit containing seeds.",
+          "options": [
+            "Pollen grains falling onto soil",
+            "The outer yellow petals",
+            "The flower's base containing the ovules"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What could happen if bumblebees and other pollinators disappeared from the garden?",
+          "explanation": "Without pollinators, many flowers would not receive the pollen needed for fertilisation and fruit formation.",
+          "options": [
+            "Many flowers would not be fertilised and very few fruits would develop.",
+            "Plants would produce twice as many courgettes because insects could not sting them.",
+            "Flowers would turn into courgettes much faster."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-09",
+      "type": "choice",
+      "prompt": "Two groups of healthy lentil seeds have air and suitable temperature. One group is moist and the other dry. Which prediction makes sense?",
+      "explanation": "Water helps start germination, alongside air, suitable temperature and viable seeds.",
+      "hint": "Which essential condition is missing from the dry group?",
+      "lang": "en",
+      "options": [
+        "Both germinate equally without water.",
+        "Dry seeds germinate first because they lack water.",
+        "Moist seeds can germinate; dry seeds need water."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-naturales-reproduccion-en-animales-y-plantas-10",
+      "type": "classify",
+      "prompt": "Classify how each plant is grown in these farming examples.",
+      "explanation": "Seeds result from sexual reproduction. Plant parts such as tubers and bulbs can produce new plants asexually.",
+      "lang": "en",
+      "categories": [
+        "Sexual reproduction: seeds",
+        "Asexual reproduction: stems, bulbs or tubers"
+      ],
+      "items": [
+        {
+          "text": "Wheat grown from grains sown in a field",
+          "category": 0
+        },
+        {
+          "text": "A potato plant growing from a tuber's buds",
+          "category": 1
+        },
+        {
+          "text": "Garlic grown from a planted bulb clove",
+          "category": 1
+        },
+        {
+          "text": "A sunflower growing from a seed",
+          "category": 0
+        },
+        {
+          "text": "An onion grown from a planted bulb",
+          "category": 1
+        },
+        {
+          "text": "A tomato plant grown from a tomato seed",
+          "category": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:59:29.099Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:48:25.190Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "4e1474acf3c345d231985e3de4de77b730c7241a0ac2b68bcb7a6ff9f83d3141",
+      "validation": "manual-review"
+    }
+  }
+}

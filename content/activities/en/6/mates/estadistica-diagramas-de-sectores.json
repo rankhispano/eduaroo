@@ -1,0 +1,257 @@
+{
+  "id": "g6-mates-estadistica-diagramas-de-sectores",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "estadistica-diagramas-de-sectores",
+  "temaNombre": "Statistics: Pie Charts",
+  "title": "Understanding Pie Charts",
+  "summary": "Read pie charts, calculate sector angles and analyse the data they show.",
+  "keyIdeas": [
+    "A pie chart represents all the data as a full circle of 360° (100 %).",
+    "A sector's angle is its fraction of the total multiplied by 360°. For a percentage, multiply by 360 and divide by 100.",
+    "50 % is half a circle (180°), and 25 % is a quarter (90°)."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "1.2",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "E. Sentido estocástico › Organización y análisis de datos",
+      "A. Sentido numérico › Razonamiento proporcional"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-01",
+      "type": "choice",
+      "prompt": "In a pie chart, how many degrees make the full circle, and what percentage of the data does it represent?",
+      "explanation": "A full turn is 360°, and the whole pie chart represents 100 % of the data.",
+      "hint": "Think about a full turn of a clock hand or compass.",
+      "lang": "en",
+      "options": [
+        "360°, representing 100 %",
+        "180°, representing 50 %",
+        "360°, representing 50 %",
+        "100°, representing 100 %"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-02",
+      "type": "match",
+      "prompt": "Match each percentage to its sector angle in a pie chart.",
+      "explanation": "Multiply the percentage by 360 and divide by 100. For example, 25 % of 360° is 90°.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "50 % of the data",
+          "right": "180° (half a circle)"
+        },
+        {
+          "left": "25 % of the data",
+          "right": "90° (a quarter circle)"
+        },
+        {
+          "left": "75 % of the data",
+          "right": "270° (three quarters of a circle)"
+        },
+        {
+          "left": "10 % of the data",
+          "right": "36° (one tenth of a circle)"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-03",
+      "type": "choice",
+      "prompt": "Nerea's sports club has 200 members. A pie chart shows that 25 % swim. How many members swim?",
+      "explanation": "25 % is one quarter, so 200 ÷ 4 = 50 people.",
+      "hint": "Find a quarter of 200 by dividing by 4.",
+      "lang": "en",
+      "options": [
+        "40 people",
+        "100 people",
+        "25 people",
+        "50 people"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-04",
+      "type": "order",
+      "prompt": "Put the steps for making a pie chart from a survey in order.",
+      "explanation": "Find the total, calculate each part's proportion, convert it to degrees and draw the chart.",
+      "lang": "en",
+      "items": [
+        "Collect the data and add the frequencies to find the total number of answers.",
+        "Find each option's percentage or fraction of the total.",
+        "Multiply the fraction by 360°, or multiply the percentage by 360 and divide by 100.",
+        "Draw the sector angles in a circle using a protractor."
+      ]
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-05",
+      "type": "choice",
+      "prompt": "Hugo surveys 30 classmates about pets. Fifteen choose dogs (50 %). He says, 'There are 15 pupils, so the angle is 15°.' What is his mistake?",
+      "explanation": "Degrees measure the sector angle, not the number of people. Half of 360° is 180°.",
+      "hint": "Half a circle represents 50 % of the total.",
+      "lang": "en",
+      "options": [
+        "He confused the number of people with degrees: 50 % is half a circle, or 180°.",
+        "He should add 15° to 360° to make a 375° sector.",
+        "There is no mistake: degrees always equal the number of people surveyed.",
+        "He should multiply 15 by 30 to find the angle."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-06",
+      "type": "classify",
+      "prompt": "Sort these statements about pie charts into true or false.",
+      "explanation": "All sector angles total 360°. A higher frequency gives a larger sector in the same chart.",
+      "lang": "en",
+      "categories": [
+        "True",
+        "False"
+      ],
+      "items": [
+        {
+          "text": "The angles of all sectors in a pie chart total 360°.",
+          "category": 0
+        },
+        {
+          "text": "A sector representing 25 % has a right angle of 90°.",
+          "category": 0
+        },
+        {
+          "text": "The largest sector always represents the least popular option.",
+          "category": 1
+        },
+        {
+          "text": "A 90° sector represents one third of the total.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-07",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct number of degrees.",
+      "explanation": "10 out of 40 is 10/40 = 1/4, or 25 %. A quarter of 360° is 90°.",
+      "lang": "en",
+      "sentence": "Aisha asks 40 classmates about their favourite fruit. If 10 choose apples, the apple sector should measure ___ degrees.",
+      "options": [
+        "100",
+        "45",
+        "90",
+        "36"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-08",
+      "type": "choice",
+      "prompt": "The school library has 400 books. A pie chart shows that 40 % are adventure books and 20 % are science fiction. How many more adventure books are there?",
+      "explanation": "40 % of 400 is 160, and 20 % is 80. The difference is 160 - 80 = 80 books.",
+      "hint": "Calculate the number in each group, then subtract.",
+      "lang": "en",
+      "options": [
+        "20 books",
+        "160 books",
+        "40 books",
+        "80 books"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-09",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions.",
+      "explanation": "The cycling share is 25 %, or 90°. Walking and cycling together make 50 % + 25 % = 75 %, or 3/4 of the total.",
+      "lang": "en",
+      "title": "Mateo's Travel Survey",
+      "text": "Mateo's Year 6 team surveyed how the 120 families at their school travel around the neighbourhood. They collected the answers and made a pie chart for the school council.\n\nThe chart showed that 50 % walk, 25 % cycle, 15 % take a public bus and the remaining 10 % travel by private car. Mateo was excited that three quarters of the families walk or cycle, using active and sustainable transport.\n\nAt the council meeting, a family representative said that, although most people walk or cycle, the private-car group of 12 families caused the biggest traffic problems at the school gate at 9:00 in the morning. The council therefore suggested gradually replacing car journeys with accompanied walking routes.",
+      "questions": [
+        {
+          "prompt": "What angle represents the families who cycle?",
+          "explanation": "Cycling represents 25 % of the total, so the angle is 360° ÷ 4 = 90°.",
+          "options": [
+            "36°",
+            "54°",
+            "180°",
+            "90°"
+          ],
+          "answer": 3
+        },
+        {
+          "prompt": "Why is Mateo's statement that three quarters walk or cycle mathematically correct?",
+          "explanation": "50 % + 25 % = 75 %, and 75/100 simplifies to 3/4.",
+          "options": [
+            "Because the 50 % who walk already make three quarters of the total.",
+            "Because three quarters of a pie chart make a straight angle of 180°.",
+            "Because walking (50 %) plus cycling (25 %) gives 75 %, equivalent to 3/4.",
+            "Because 90 of the 120 families travel only by public bus."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-estadistica-diagramas-de-sectores-10",
+      "type": "choice",
+      "prompt": "Sixty pupils vote for their favourite animal: 30 choose the Iberian lynx, 15 the imperial eagle and 15 the wolf. What is the combined angle of the eagle and wolf sectors?",
+      "explanation": "Each group is 15/60 = 1/4, or 90°. Together they make 180°, half the chart.",
+      "hint": "What fraction of 60 answers is 15?",
+      "lang": "en",
+      "options": [
+        "180°",
+        "90°",
+        "120°",
+        "270°"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.6-flash",
+    "generatedAt": "2026-10-08T11:36:48.627Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:32:28.136Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "c0534c6c0cf47eb07dfe2aa5ca9f299f9b6f65e471b901729506fd79ede32562",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "id": "g1-ingles-animales-domesticos",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "animales-domesticos",
+  "temaNombre": "Pets",
+  "title": "My Lovely Pets",
+  "summary": "Practise English words for pets through fun activities.",
+  "keyIdeas": [
+    "Pets are animals kept for company. Some domestic animals, such as farm horses, are not pets.",
+    "Remember these words and their Spanish meanings: dog (perro), cat (gato), bird (pájaro), fish (pez) and rabbit (conejo).",
+    "We can say 'I have a pet' to talk about having a pet at home."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-animales-domesticos-01",
+      "type": "choice",
+      "prompt": "Which pet says 'woof woof'?",
+      "explanation": "A dog barks. In English, we write its sound as 'woof'.",
+      "hint": "This pet barks.",
+      "lang": "en",
+      "options": [
+        "A dog",
+        "A cat",
+        "A fish"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-02",
+      "type": "match",
+      "prompt": "Match each pet to its sound.",
+      "explanation": "In English, a dog goes 'woof', a cat goes 'meow', and a bird goes 'tweet'.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Dog",
+          "right": "Woof"
+        },
+        {
+          "left": "Cat",
+          "right": "Meow"
+        },
+        {
+          "left": "Bird",
+          "right": "Tweet"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-03",
+      "type": "true-false",
+      "prompt": "A fish can swim in water.",
+      "explanation": "Fish live and swim in water.",
+      "hint": "Think about where fish live.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-04",
+      "type": "fill-blank",
+      "prompt": "Choose the correct word.",
+      "explanation": "The animal that says 'meow' is a cat.",
+      "hint": "This pet meows.",
+      "lang": "en",
+      "sentence": "Lucía has a pet ___ that says meow.",
+      "options": [
+        "cat",
+        "dog",
+        "bird"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-05",
+      "type": "classify",
+      "prompt": "In this picture, a dog, cat and rabbit live with a family. A lion and elephant live in the wild. Sort these animals.",
+      "explanation": "In this example, the dog, cat and rabbit are pets. The lion and elephant are wild animals.",
+      "lang": "en",
+      "categories": [
+        "Pets",
+        "Wild animals"
+      ],
+      "items": [
+        {
+          "text": "Dog",
+          "category": 0
+        },
+        {
+          "text": "Cat",
+          "category": 0
+        },
+        {
+          "text": "Rabbit",
+          "category": 0
+        },
+        {
+          "text": "Lion",
+          "category": 1
+        },
+        {
+          "text": "Elephant",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-06",
+      "type": "choice",
+      "prompt": "Aisha feeds her pet in the water. Her pet is a...",
+      "explanation": "Aisha has a fish, which lives and eats in water.",
+      "hint": "It swims in a fish tank.",
+      "lang": "en",
+      "options": [
+        "fish",
+        "hamster",
+        "cat"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-07",
+      "type": "fill-blank",
+      "prompt": "Choose the word that completes the sentence.",
+      "explanation": "Rabbits have long ears. Books and pencils are school objects.",
+      "hint": "It uses these to hear.",
+      "lang": "en",
+      "sentence": "The white rabbit has long ___.",
+      "options": [
+        "books",
+        "pencils",
+        "ears"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-08",
+      "type": "order",
+      "prompt": "Put the words in order to make a sentence.",
+      "explanation": "The correct sentence is 'I love my pet'.",
+      "lang": "en",
+      "items": [
+        "I",
+        "love",
+        "my",
+        "pet"
+      ]
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-09",
+      "type": "true-false",
+      "prompt": "A dog and a cat can live in a house.",
+      "explanation": "Dogs and cats are domestic animals that can live happily with people.",
+      "hint": "Can dogs and cats live with a family?",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-ingles-animales-domesticos-10",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions.",
+      "explanation": "Emma has a dog called Max, who likes running in the park.",
+      "lang": "en",
+      "title": "Emma and Max",
+      "text": "Emma has a pet dog. His name is Max. Max is brown and happy. Max likes to run in the park.",
+      "questions": [
+        {
+          "prompt": "Who is Max?",
+          "explanation": "The text says Emma has a pet dog named Max.",
+          "options": [
+            "A bird",
+            "A dog",
+            "A cat"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Where does Max like to run?",
+          "explanation": "The text says Max likes running in the park.",
+          "options": [
+            "In the park",
+            "In the classroom",
+            "In the bedroom"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:57:06.927Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:02:11.868Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "b4b5787055b2a9d8a74dde4b1fa404808e2e8e1404add3dcd82554055e833977",
+      "validation": "manual-review"
+    }
+  }
+}

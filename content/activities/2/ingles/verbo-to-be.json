@@ -8,7 +8,7 @@
   "summary": "Practica las formas am, is y are para presentarte y describir personas o cosas.",
   "keyIdeas": [
     "Usamos 'am' con 'I' (yo): I am happy.",
-    "Usamos 'is' con una sola persona o cosa: He is, She is, It is.",
+    "En presente, usamos 'is' con he, she, it y nombres singulares: Hugo is, the school is. Con I usamos am y con you, are.",
     "Usamos 'are' con varias personas o con 'you': You are, We are, They are."
   ],
   "lomloe": {
@@ -133,7 +133,7 @@
       "id": "g2-ingles-verbo-to-be-06",
       "type": "fill-blank",
       "prompt": "En el recreo, Aisha señala a su amigo Hugo. Completa:",
-      "explanation": "Hugo es un chico (he), por eso usamos is.",
+      "explanation": "Hugo es un nombre singular y, con este sujeto, la forma de to be en presente es «is».",
       "hint": "Hugo es una sola persona.",
       "lang": "en",
       "sentence": "Hugo ___ my friend.",

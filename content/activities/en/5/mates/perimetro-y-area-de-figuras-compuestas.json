@@ -1,0 +1,205 @@
+{
+  "id": "g5-mates-perimetro-y-area-de-figuras-compuestas",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "perimetro-y-area-de-figuras-compuestas",
+  "temaNombre": "Perimeter and Area of Composite Shapes",
+  "title": "A World of Composite Shapes",
+  "summary": "Split shapes into simpler parts, measure outer perimeters and add or subtract areas.",
+  "keyIdeas": [
+    "The outer perimeter follows the outside boundary. Internal lines where pieces join do not count towards it.",
+    "Split a composite shape into rectangles or squares without overlaps, then add their areas.",
+    "For a shape with an internal hole, subtract the hole's area from the surrounding shape's area."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.2",
+      "2.2",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-01",
+      "type": "true-false",
+      "prompt": "Joining two rectangles along an edge to make an L-shape gives a perimeter equal to the sum of both original perimeters.",
+      "explanation": "False. The joined edge becomes internal, so its two copies are not part of the outside boundary.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-02",
+      "type": "fill-blank",
+      "prompt": "Calculate the total area mentally by splitting the shape.",
+      "explanation": "The square has area 4 × 4 = 16 m². The rectangle has area 3 × 2 = 6 m². Total: 22 m².",
+      "hint": "Find each piece's area and add them.",
+      "lang": "en",
+      "sentence": "A large sign consists of a square with 4 m sides and a rectangle 3 m by 2 m, joined along an edge without overlapping. Its total area is ___ m².",
+      "options": [
+        "18",
+        "22",
+        "14"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-03",
+      "type": "order",
+      "prompt": "Put the steps for finding a composite shape's area in order.",
+      "explanation": "Identify simpler shapes, split them, find missing lengths, calculate areas and add them.",
+      "lang": "en",
+      "items": [
+        "Look for familiar shapes such as squares and rectangles.",
+        "Draw dashed lines to divide the shape into simpler parts.",
+        "Find missing side lengths using the given measurements.",
+        "Calculate each simpler shape's area.",
+        "Add the areas to find the total."
+      ]
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-04",
+      "type": "choice",
+      "prompt": "Find the mistake! 🔍 Omar fences a pen made from two joined rectangles. He adds both rectangles' separate perimeters and gets 38 m. What is wrong?",
+      "explanation": "The shared edge is internal. The outside fence follows only the outer boundary.",
+      "hint": "Does the outside fence follow the internal join?",
+      "lang": "en",
+      "options": [
+        "He included the internal join, which is not part of the outer boundary.",
+        "He should multiply the areas instead of adding lengths.",
+        "He forgot to subtract the corners where the shapes meet."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-05",
+      "type": "classify",
+      "prompt": "Sort each method by whether it finds the outer perimeter or the area.",
+      "explanation": "Here, perimeter means the outside boundary. A hole's boundary can also count in the total boundary length, but is measured separately from the outside.",
+      "lang": "en",
+      "categories": [
+        "Outer Perimeter",
+        "Area"
+      ],
+      "items": [
+        {
+          "text": "Add only the lengths of the outside edges.",
+          "category": 0
+        },
+        {
+          "text": "Split into rectangles and add their areas.",
+          "category": 1
+        },
+        {
+          "text": "Measure all the way around the outside with a tape measure.",
+          "category": 0
+        },
+        {
+          "text": "Find the enclosing rectangle's area and subtract the hole's area.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-06",
+      "type": "choice",
+      "prompt": "A T-shaped playground consists of a top rectangle 6 m by 2 m and a lower rectangle 2 m by 4 m, joined along an edge without overlapping. What area needs painting?",
+      "explanation": "Top: 6 × 2 = 12 m². Lower part: 2 × 4 = 8 m². Total: 20 m².",
+      "hint": "Add the two rectangles' areas.",
+      "lang": "en",
+      "options": [
+        "20 m²",
+        "14 m²",
+        "24 m²",
+        "18 m²"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-07",
+      "type": "choice",
+      "prompt": "An L-shaped pool has consecutive outer side lengths of 8 m, 6 m, 3 m, 2 m, 5 m and 4 m. What perimeter must be edged with non-slip tiles?",
+      "explanation": "Add all six outer sides: 8 + 6 + 3 + 2 + 5 + 4 = 28 m.",
+      "hint": "Follow the outside and add its six lengths.",
+      "lang": "en",
+      "options": [
+        "32 m",
+        "24 m",
+        "18 m",
+        "28 m"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-08",
+      "type": "choice",
+      "prompt": "Aisha designs a rectangular garden 10 m by 6 m with a square pond of side 2 m in the centre. What area is left for grass?",
+      "explanation": "Garden: 60 m². Pond: 4 m². Grass: 60 − 4 = 56 m².",
+      "hint": "Subtract the pond's area from the garden's area.",
+      "lang": "en",
+      "options": [
+        "56 m²",
+        "60 m²",
+        "64 m²",
+        "52 m²"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-mates-perimetro-y-area-de-figuras-compuestas-09",
+      "type": "choice",
+      "prompt": "An L-shaped stage has a total base width of 9 m and a left height of 7 m. Its two upper horizontal sections together span that 9 m width. One is 4 m long. How long is the other?",
+      "explanation": "The horizontal sections total 9 m, so the missing length is 9 − 4 = 5 m.",
+      "hint": "Both upper horizontal sections together equal the base width.",
+      "lang": "en",
+      "options": [
+        "2 m",
+        "13 m",
+        "3 m",
+        "5 m"
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:22:16.364Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:16:42.742Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "d1b12215819fba0d01e7a00bc3ea21d6ea2ea6d9115a2e2726d4029bf4f39a45",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
 import { useRef, useState } from 'react';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { ArrowRight, Brain, Flame, Pencil, Plus, Sticker, Target, Trash2, Users } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import TemaSearch from '@/components/map/TemaSearch';
@@ -10,15 +10,16 @@ import WorldMap, { type MapRegion } from '@/components/map/WorldMap';
 import RooMascot from '@/components/mascot/RooMascot';
 import { useGamificationStore } from '@/lib/gamification/store';
 import { getDueMistakes, listProfiles, usePracticeStore } from '@/lib/learning/practiceStore';
-import { curriculum, getCurso } from '@/src/data/curriculum';
+import { getCurriculum, getCurso } from '@/src/data/localizedCurriculum';
 import { getPracticeSet, practiceKey, temaHref } from '@/src/data/activityResources';
-import { MASCOTS, REGIONS, mascotImage } from '@/src/data/regions';
+import { MASCOTS, getRegions, mascotImage } from '@/src/data/regions';
 import type { AsignaturaId, CursoId } from '@/src/types';
 
 // Fondo algo más oscuro que el color de la asignatura para que el texto blanco se lea bien
 const deep = (color: string) => `color-mix(in srgb, ${color} 78%, black)`;
 
 const SHORT: Record<AsignaturaId, string> = { lengua: 'Lengua', mates: 'Mates', naturales: 'Ciencias', sociales: 'Sociales', ingles: 'Inglés' };
+const SHORT_EN: Record<AsignaturaId, string> = { lengua: 'Spanish', mates: 'Maths', naturales: 'Science', sociales: 'Social Studies', ingles: 'English' };
 
 function Avatar({ mascot, size = 64, wave = false }: { mascot: string; size?: number; wave?: boolean }) {
     if (mascot === 'roo' && wave) return <RooMascot pose="wave" size={size} className="-my-2 shrink-0" />;
@@ -30,9 +31,10 @@ function Avatar({ mascot, size = 64, wave = false }: { mascot: string; size?: nu
 }
 
 function CourseChips({ value, onChange, highlight = false }: { value: CursoId | null; onChange: (c: CursoId) => void; highlight?: boolean }) {
+    const locale = useLocale();
     return (
         <div className={`flex flex-wrap gap-2 rounded-2xl ${highlight ? 'animate-pulse-soft' : ''}`} role="group">
-            {curriculum.map((c) => (
+            {getCurriculum(locale).map((c) => (
                 <button
                     key={c.id}
                     type="button"
@@ -40,7 +42,7 @@ function CourseChips({ value, onChange, highlight = false }: { value: CursoId | 
                     aria-pressed={value === c.id}
                     className={`h-12 min-w-12 rounded-2xl px-3 text-lg font-black transition ${value === c.id ? 'bg-orange-500 text-white shadow-[0_4px_0_#C2410C]' : 'bg-slate-100 text-slate-700 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-200'}`}
                 >
-                    {c.id}º
+                    {locale === 'en' ? c.nombre : `${c.id}º`}
                 </button>
             ))}
         </div>
@@ -67,6 +69,8 @@ function MascotPicker({ value, onChange }: { value: string; onChange: (m: string
 
 export default function MiMapa() {
     const t = useTranslations('KidsMap');
+    const locale = useLocale();
+    const regionsData = getRegions(locale);
     const store = usePracticeStore();
     const { name, mascot, cursoId, topics, lastTopicKey, mistakes, setName, setMascot, setCurso, switchProfile, addProfile, removeProfile, activeProfileId } = store;
     const profiles = listProfiles(store);
@@ -78,7 +82,7 @@ export default function MiMapa() {
     const [highlightCourse, setHighlightCourse] = useState(false);
     const courseRef = useRef<HTMLDivElement>(null);
 
-    const curso = cursoId ? getCurso(cursoId) : undefined;
+    const curso = cursoId ? getCurso(cursoId, locale) : undefined;
     const starsOf = (asignaturaId: string, temaId: string): number => (cursoId ? topics[practiceKey(cursoId, asignaturaId, temaId)]?.stars ?? 0 : 0);
 
     // Sin curso elegido, tocar una región lleva al selector de curso
@@ -99,7 +103,7 @@ export default function MiMapa() {
             if (asignatura && tema) return { asignatura, tema, isNew: false };
         }
         for (const asignatura of curso.asignaturas) {
-            const tema = asignatura.temas.find((x) => getPracticeSet(cursoId, asignatura.id, x.id));
+            const tema = asignatura.temas.find((x) => getPracticeSet(cursoId, asignatura.id, x.id, locale));
             if (tema) return { asignatura, tema, isNew: true };
         }
         return null;
@@ -109,15 +113,15 @@ export default function MiMapa() {
     const stickers = cursoId ? Object.entries(topics).filter(([key, p]) => key.startsWith(`${cursoId}/`) && p.stars === 3).length : 0;
 
     // Datos de las regiones del mapa (con o sin curso)
-    const asignaturas = (curso ?? curriculum[0]).asignaturas;
+    const asignaturas = (curso ?? getCurriculum(locale)[0]).asignaturas;
     const regions: MapRegion[] = asignaturas.map((a) => {
-        const withPractice = cursoId ? a.temas.filter((x) => getPracticeSet(cursoId, a.id, x.id)) : [];
+        const withPractice = cursoId ? a.temas.filter((x) => getPracticeSet(cursoId, a.id, x.id, locale)) : [];
         return {
             id: a.id,
-            region: REGIONS[a.id].region,
-            shortName: SHORT[a.id],
+            region: regionsData[a.id].region,
+            shortName: (locale === 'en' ? SHORT_EN : SHORT)[a.id],
             color: a.color,
-            image: REGIONS[a.id].image,
+            image: regionsData[a.id].image,
             earned: withPractice.reduce((sum, x) => sum + starsOf(a.id, x.id), 0),
             possible: withPractice.length * 3,
             href: cursoId ? `/learning/${cursoId}/${a.id}` : null,
@@ -316,7 +320,7 @@ export default function MiMapa() {
                             {/* Seguir por donde ibas */}
                             {continueTarget ? (
                                 <Link
-                                    href={temaHref(cursoId, continueTarget.asignatura.id, continueTarget.tema) ?? `/learning/${cursoId}/${continueTarget.asignatura.id}`}
+                                    href={temaHref(cursoId, continueTarget.asignatura.id, continueTarget.tema, locale) ?? `/learning/${cursoId}/${continueTarget.asignatura.id}`}
                                     className="group flex flex-col gap-2 rounded-3xl p-5 text-white shadow-[0_6px_0_rgba(15,23,42,0.25)] transition active:translate-y-1 active:shadow-none"
                                     style={{ backgroundColor: deep(continueTarget.asignatura.color) }}
                                 >

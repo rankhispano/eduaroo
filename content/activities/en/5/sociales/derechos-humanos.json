@@ -1,0 +1,255 @@
+{
+  "id": "g5-sociales-derechos-humanos",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "derechos-humanos",
+  "temaNombre": "Human rights",
+  "title": "Discovering human rights",
+  "summary": "Explore the principles, history and importance of human rights in daily life.",
+  "keyIdeas": [
+    "Human rights are universal and inalienable: they belong to everyone from birth, without discrimination.",
+    "The Universal Declaration of 1948 set a worldwide foundation for dignity, freedom and peace.",
+    "Our rights go alongside a responsibility to respect other people in everyday life."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE8",
+      "CE9"
+    ],
+    "criteria": [
+      "8.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL5",
+      "CP3",
+      "CPSAA1",
+      "CPSAA3"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica",
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-derechos-humanos-01",
+      "type": "choice",
+      "prompt": "Hugo and Aisha read Article 1 of the Universal Declaration of Human Rights. What does 'universal' mean? 🌍",
+      "explanation": "Everyone is born free and equal in dignity and rights, wherever they live.",
+      "hint": "Universal includes everyone, without exceptions.",
+      "lang": "en",
+      "options": [
+        "Each government freely chooses who receives human rights.",
+        "Rights apply only to adults with paid jobs.",
+        "Rights belong to everyone from birth, regardless of origin or circumstances.",
+        "Rights exist only in European Union member countries."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-02",
+      "type": "true-false",
+      "prompt": "Human rights are inalienable: they belong to everyone and cannot be sold or given up.",
+      "explanation": "We do not lose our dignity or rights. Rights can be violated and need defending; some may have lawful limits to protect other people's rights.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-03",
+      "type": "fill-blank",
+      "prompt": "Complete the historical fact about human rights.",
+      "explanation": "The United Nations proclaimed this historic document in Paris on 10 December 1948.",
+      "lang": "en",
+      "sentence": "In 1948, the ___ proclaimed the Universal Declaration of Human Rights to protect peace and dignity worldwide.",
+      "options": [
+        "United Nations",
+        "Allied Forces",
+        "Solidarity Cities"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-04",
+      "type": "classify",
+      "prompt": "A Grade 5 class discusses democratic life. Classify each situation.",
+      "explanation": "Rights protect our dignity. Responsibilities help us respect others' rights. Having rights does not depend on first fulfilling our duties.",
+      "lang": "en",
+      "categories": [
+        "A right",
+        "A duty or responsibility"
+      ],
+      "items": [
+        {
+          "text": "Receiving appropriate medical care when ill or injured",
+          "category": 0
+        },
+        {
+          "text": "Respecting classmates' peaceful views and freedom of expression",
+          "category": 1
+        },
+        {
+          "text": "Accessing free, good-quality education",
+          "category": 0
+        },
+        {
+          "text": "Caring for school facilities and public furniture in the neighbourhood",
+          "category": 1
+        },
+        {
+          "text": "Expressing your ideas while respecting others' rights",
+          "category": 0
+        },
+        {
+          "text": "Following agreed rules that protect the community",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-05",
+      "type": "match",
+      "prompt": "Match each fundamental right to an everyday example.",
+      "explanation": "Human rights appear in daily life, including attending school, receiving healthcare and having a recognised identity.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Right to education",
+          "right": "Aisha attends her state school every day"
+        },
+        {
+          "left": "Right to health",
+          "right": "Mateo visits the health centre for a preventive vaccination"
+        },
+        {
+          "left": "Right to identity",
+          "right": "Nerea has a recognised name, surnames and nationality"
+        },
+        {
+          "left": "Right to non-discrimination",
+          "right": "Everyone plays together regardless of cultural background"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-06",
+      "type": "choice",
+      "prompt": "Grade 5 pupils investigate child labour. Which international treaty specifically protects children and their rights to play and learn?",
+      "explanation": "The UN Convention on the Rights of the Child, adopted in 1989, specifically addresses children's protection, education and wellbeing.",
+      "hint": "Choose the treaty dedicated to children.",
+      "lang": "en",
+      "options": [
+        "The Medieval Charter of Cities.",
+        "The International Traffic Regulations.",
+        "The North Atlantic Trade Treaty.",
+        "The Convention on the Rights of the Child of 1989."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-07",
+      "type": "choice",
+      "prompt": "Which historical event strongly motivated countries to adopt the Universal Declaration of Human Rights in 1948?",
+      "explanation": "The horrors and millions of deaths of the Second World War encouraged international efforts to prevent such atrocities happening again.",
+      "hint": "Think of the worldwide war that ended in 1945.",
+      "lang": "en",
+      "options": [
+        "The Second World War's destruction showed the urgent need to prevent new atrocities.",
+        "The arrival of early computers and digital communications.",
+        "The discovery of new Pacific shipping routes.",
+        "The need to set a single worldwide price for farm products."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-08",
+      "type": "order",
+      "prompt": "Order these human-rights milestones from earliest to latest.",
+      "explanation": "Progress developed over time: France in 1789, the UN in 1948, Spain's Constitution in 1978 and children's rights in 1989.",
+      "lang": "en",
+      "items": [
+        "Declaration of the Rights of Man and of the Citizen during the French Revolution (1789)",
+        "The UN proclaims the Universal Declaration of Human Rights (1948)",
+        "Spain approves its Constitution recognising fundamental rights (1978)",
+        "Adoption of the Convention on the Rights of the Child (1989)"
+      ]
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-09",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "The text shows the shared effort behind the Declaration and why rights matter in everyday life.",
+      "lang": "en",
+      "title": "Eleanor Roosevelt and an agreement for peace",
+      "text": "After the Second World War ended in 1945, the world faced painful rebuilding and immense human losses. Representatives of more than fifty nations recognised that lasting peace required protecting everyone's dignity.\n\nActivist and diplomat Eleanor Roosevelt chaired the commission working on a shared declaration. It was difficult: the team represented different cultures, religions and political systems. Despite disagreements, they found shared principles of justice, equality and freedom.\n\nOn 10 December 1948 in Paris, the UN General Assembly adopted the Universal Declaration of Human Rights. Later, Eleanor explained that rights begin in 'small places, close to home': classrooms, neighbourhoods and everyday relationships. Rights matter when we put them into practice.",
+      "questions": [
+        {
+          "prompt": "Who chaired the commission working on the Declaration?",
+          "explanation": "The text names Eleanor Roosevelt as chair of the international commission.",
+          "options": [
+            "Eleanor Roosevelt.",
+            "Clara Campoamor.",
+            "Marie Curie."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why was agreeing on a common text difficult?",
+          "explanation": "Representatives had to reconcile different political, cultural and religious views.",
+          "options": [
+            "They had no suitable meeting rooms in Paris.",
+            "There were no translators to help them understand one another.",
+            "They came from many different cultures, religions and political systems."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does 'small places, close to home' suggest about defending rights?",
+          "explanation": "Rights become real through how we act at school, at home and with neighbours.",
+          "options": [
+            "It happens only in televised speeches by heads of state.",
+            "It happens only when international judges act.",
+            "It starts in daily actions, treating others with respect, fairness and empathy."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-derechos-humanos-10",
+      "type": "choice",
+      "prompt": "Two pupils exclude Lucas from basketball because he is new to the neighbourhood and does not speak the language well. How should the group respond? 🤝",
+      "explanation": "Respectful dialogue, non-discrimination and inclusion help defend everyone's rights.",
+      "hint": "Choose dialogue, respect and inclusion without violence or isolation.",
+      "lang": "en",
+      "options": [
+        "Discuss it calmly, explain that everyone should be included without discrimination, and invite Lucas to play.",
+        "Create a separate team only for newcomers so players do not mix.",
+        "Ignore it and tell Lucas to wait months until his language improves.",
+        "Grab the ball aggressively to punish the other pupils and remove them from the playground."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:39:42.015Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:07:35.355Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "0e6bb3442c1e33b42d97765ad29fac15d3906ea6c574b8427c44fdcb05d0b283",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -548,50 +548,75 @@ function estimateMinutes(set) {
 }
 
 function writeRegistry() {
-    const sets = [];
-    if (fs.existsSync(CONTENT_DIR)) {
-        for (const cursoId of fs.readdirSync(CONTENT_DIR).sort()) {
-            const cursoDir = path.join(CONTENT_DIR, cursoId);
-            if (!fs.statSync(cursoDir).isDirectory()) continue;
+    const setsByLocale = { es: [], en: [] };
+    for (const locale of ['es', 'en']) {
+        const localeDir = locale === 'es' ? CONTENT_DIR : path.join(CONTENT_DIR, locale);
+        if (!fs.existsSync(localeDir)) continue;
+        for (const cursoId of fs.readdirSync(localeDir).filter(id => /^[1-6]$/.test(id)).sort()) {
+            const cursoDir = path.join(localeDir, cursoId);
             for (const asignaturaId of fs.readdirSync(cursoDir).sort()) {
                 const asigDir = path.join(cursoDir, asignaturaId);
                 if (!fs.statSync(asigDir).isDirectory()) continue;
                 for (const file of fs.readdirSync(asigDir).filter((f) => f.endsWith('.json')).sort()) {
                     const set = readJson(path.join(asigDir, file));
-                    sets.push({ set, rel: `./${cursoId}/${asignaturaId}/${file}` });
+                    setsByLocale[locale].push({ set, rel: `./${locale === 'es' ? '' : `${locale}/`}${cursoId}/${asignaturaId}/${file}` });
                 }
             }
         }
     }
 
-    const summaries = sets.map(({ set }) => ({
+    const summaries = (sets) => sets.map(({ set }) => ({
         key: `${set.cursoId}/${set.asignaturaId}/${set.temaId}`,
         cursoId: set.cursoId,
         asignaturaId: set.asignaturaId,
         temaId: set.temaId,
+        temaNombre: set.temaNombre,
         title: set.title,
         summary: set.summary,
         activityCount: set.activities.length,
         estimatedMinutes: estimateMinutes(set),
     }));
-    const loaders = sets
+    const loaders = (sets) => sets
         .map(({ set, rel }) => `    '${set.cursoId}/${set.asignaturaId}/${set.temaId}': () =>\n        import('${rel}').then((m) => m.default as unknown as ActivitySet),`)
         .join('\n');
 
     const source = `// Archivo generado por scripts/generate-activities.mjs. No editar a mano.
 // Regenerar con: node scripts/generate-activities.mjs --registry
 
-import type { ActivitySet, ActivitySetSummary } from '@/lib/curriculum/types';
+import type { ActivityLocale, ActivitySet, ActivitySetSummary } from '@/lib/curriculum/types';
 
-export const ACTIVITY_SETS: ActivitySetSummary[] = ${JSON.stringify(summaries, null, 4)};
-
-export const ACTIVITY_LOADERS: Record<string, () => Promise<ActivitySet>> = {
-${loaders}
+export const ACTIVITY_SETS_BY_LOCALE: Record<ActivityLocale, ActivitySetSummary[]> = {
+    es: ${JSON.stringify(summaries(setsByLocale.es), null, 4)},
+    en: ${JSON.stringify(summaries(setsByLocale.en), null, 4)}
 };
+
+export const ACTIVITY_LOADERS_BY_LOCALE: Record<ActivityLocale, Record<string, () => Promise<ActivitySet>>> = {
+    es: {
+${loaders(setsByLocale.es)}
+    },
+    en: {
+${loaders(setsByLocale.en)}
+    }
+};
+
+// Keep topics reachable while translations are being added. The player identifies
+// Spanish fallback content explicitly; translated sets always take precedence.
+export function getActivitySets(locale = 'es'): ActivitySetSummary[] {
+    if (locale !== 'en') return ACTIVITY_SETS_BY_LOCALE.es;
+    const translated = new Map(ACTIVITY_SETS_BY_LOCALE.en.map(set => [set.key, set]));
+    return ACTIVITY_SETS_BY_LOCALE.es.map(set => translated.get(set.key) ?? set);
+}
+export const getActivityLoaders = (locale = 'es') => locale === 'en'
+    ? { ...ACTIVITY_LOADERS_BY_LOCALE.es, ...ACTIVITY_LOADERS_BY_LOCALE.en }
+    : ACTIVITY_LOADERS_BY_LOCALE.es;
+
+// Compatibility for the Spanish-only repaso routes and generation tooling.
+export const ACTIVITY_SETS = ACTIVITY_SETS_BY_LOCALE.es;
+export const ACTIVITY_LOADERS = ACTIVITY_LOADERS_BY_LOCALE.es;
 `;
     fs.mkdirSync(CONTENT_DIR, { recursive: true });
     fs.writeFileSync(path.join(CONTENT_DIR, 'registry.ts'), source);
-    return summaries.length;
+    return setsByLocale.es.length;
 }
 
 // -----------------------------------------------------------------------------

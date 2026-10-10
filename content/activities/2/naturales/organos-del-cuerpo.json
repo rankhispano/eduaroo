@@ -94,9 +94,9 @@
       "id": "g2-naturales-organos-del-cuerpo-04",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre la respiración:",
-      "explanation": "Los pulmones se inflan de aire cuando respiramos y toman el oxígeno que necesitamos.",
+      "explanation": "El aire llega a los pulmones. Allí, el oxígeno del aire pasa a la sangre.",
       "lang": "es",
-      "sentence": "Al tomar aire por la nariz, los ___ se llenan de oxígeno.",
+      "sentence": "Al tomar aire por la nariz, el aire llega a los ___.",
       "options": [
         "estómagos",
         "pulmones",
@@ -151,13 +151,13 @@
       "id": "g2-naturales-organos-del-cuerpo-07",
       "type": "choice",
       "prompt": "Encuentra la frase con un ERROR sobre los órganos:",
-      "explanation": "El corazón nunca se detiene. Incluso mientras dormimos, sigue latiendo sin parar.",
+      "explanation": "El corazón sigue latiendo mientras dormimos. Los pulmones permiten renovar el aire al respirar.",
       "hint": "Uno de estos órganos trabaja día y noche sin descanso.",
       "lang": "es",
       "options": [
-        "El corazón se detiene cuando dormimos por la noche.",
-        "El estómago ayuda a digerir la comida.",
-        "Los pulmones expulsan el aire que ya no sirve."
+        "El corazón se detiene cuando dormimos.",
+        "El estómago ayuda a digerir los alimentos.",
+        "Los pulmones permiten tomar y expulsar aire."
       ],
       "answer": 0
     },
@@ -191,7 +191,7 @@
       "id": "g2-naturales-organos-del-cuerpo-10",
       "type": "reading",
       "prompt": "Lee atentamente la historia y responde a las preguntas:",
-      "explanation": "El corazón y los pulmones colaboran para llevar aire y sangre por todo el cuerpo.",
+      "explanation": "El corazón mueve la sangre. En los pulmones, la sangre recibe oxígeno del aire. Ambos trabajan en equipo.",
       "lang": "es",
       "title": "La visita médica de Hugo",
       "text": "Hugo visita a la médica Laura en el centro de salud. Laura usa un aparato para escuchar el pecho de Hugo. Su corazón late con fuerza y ritmo. Después, le pide respirar hondo. Laura escucha cómo el aire entra y sale de sus pulmones. ¡Los órganos de Hugo trabajan en equipo!",

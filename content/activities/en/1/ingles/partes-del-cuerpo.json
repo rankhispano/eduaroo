@@ -1,0 +1,239 @@
+{
+  "id": "g1-ingles-partes-del-cuerpo",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "partes-del-cuerpo",
+  "temaNombre": "Body parts",
+  "title": "My Body: English Practice",
+  "summary": "Practise English words for body and face parts.",
+  "keyIdeas": [
+    "Words such as head, arms and legs name body parts.",
+    "On our face, we have eyes, ears, a nose and a mouth.",
+    "Many plurals add -s, as in hand → hands. Some change differently, as in foot → feet."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-partes-del-cuerpo-01",
+      "type": "choice",
+      "prompt": "What do you use to see? 👀",
+      "explanation": "We use our eyes to see.",
+      "hint": "They are on your face.",
+      "lang": "en",
+      "options": [
+        "Nose",
+        "Eyes",
+        "Ears"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-02",
+      "type": "choice",
+      "prompt": "Touch your head! 🙆‍♂️ Which Spanish word names this body part?",
+      "explanation": "Head means cabeza in Spanish.",
+      "hint": "It is at the top of your body.",
+      "lang": "en",
+      "options": [
+        "Brazo",
+        "Cabeza",
+        "Pie"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-03",
+      "type": "true-false",
+      "prompt": "A person has got two mouths. 👄",
+      "explanation": "A person normally has one mouth, rather than two.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-04",
+      "type": "match",
+      "prompt": "Match each English body word to its Spanish meaning.",
+      "explanation": "Nose means nariz, hand means mano, foot means pie, and ear means oreja.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Nose",
+          "right": "Nariz"
+        },
+        {
+          "left": "Hand",
+          "right": "Mano"
+        },
+        {
+          "left": "Foot",
+          "right": "Pie"
+        },
+        {
+          "left": "Ear",
+          "right": "Oreja"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-05",
+      "type": "fill-blank",
+      "prompt": "Complete the command for clapping.",
+      "explanation": "We clap with our hands: 'Clap your hands!'.",
+      "hint": "Each normally has five digits.",
+      "lang": "en",
+      "sentence": "Clap your ___! 👏",
+      "options": [
+        "eyes",
+        "hands",
+        "legs"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-06",
+      "type": "classify",
+      "prompt": "Sort these parts into face parts or the rest of the body.",
+      "explanation": "The mouth and nose are on the face. Legs and arms belong to the rest of the body.",
+      "lang": "en",
+      "categories": [
+        "Face",
+        "Body"
+      ],
+      "items": [
+        {
+          "text": "Mouth",
+          "category": 0
+        },
+        {
+          "text": "Leg",
+          "category": 1
+        },
+        {
+          "text": "Nose",
+          "category": 0
+        },
+        {
+          "text": "Arm",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-07",
+      "type": "order",
+      "prompt": "Put these body parts in order from top to bottom.",
+      "explanation": "From top to bottom: head, shoulders, knees and toes.",
+      "lang": "en",
+      "items": [
+        "Head",
+        "Shoulders",
+        "Knees",
+        "Toes"
+      ]
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-08",
+      "type": "choice",
+      "prompt": "Hugo kicks the ball with his... ⚽",
+      "explanation": "We use a foot to kick a football.",
+      "hint": "It is at the end of a leg.",
+      "lang": "en",
+      "options": [
+        "nose",
+        "foot",
+        "ear"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-09",
+      "type": "fill-blank",
+      "prompt": "Aisha listens to music through headphones. Complete the sentence.",
+      "explanation": "We hear sounds with our ears.",
+      "hint": "We use them to hear.",
+      "lang": "en",
+      "sentence": "She listens with her ___.",
+      "options": [
+        "ears",
+        "toes",
+        "fingers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-partes-del-cuerpo-10",
+      "type": "reading",
+      "prompt": "Read about Toby the friendly monster and answer the questions.",
+      "explanation": "Toby has one green eye and four blue arms.",
+      "lang": "en",
+      "title": "Toby the Monster",
+      "text": "Hello! I am Toby. I am a monster. I have got one big green eye. I have got two big ears. I have got four blue arms! Can you clap with me?",
+      "questions": [
+        {
+          "prompt": "How many eyes has Toby got?",
+          "explanation": "Toby says he has one big green eye.",
+          "options": [
+            "Four eyes",
+            "Two eyes",
+            "One eye"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What colour are Toby's arms?",
+          "explanation": "Toby says he has four blue arms.",
+          "options": [
+            "Blue",
+            "Red",
+            "Green"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:56:22.180Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:03:57.193Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "77aa0f9f5c945c51c15a1f942a3f2c5fd368a537b7b273adced6e078295107d5",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "id": "g1-ingles-numeros-1-20",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "numeros-1-20",
+  "temaNombre": "Numbers 1–20",
+  "title": "Numbers from 1 to 20!",
+  "summary": "Practise counting and writing English numbers from 1 to 20.",
+  "keyIdeas": [
+    "Start with 1 to 10: one, two, three, four, five, six, seven, eight, nine, ten.",
+    "Numbers from 13 to 19 end in -teen, as in fourteen and sixteen.",
+    "We write 20 as twenty."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-numeros-1-20-01",
+      "type": "match",
+      "prompt": "Match each number to its word.",
+      "explanation": "1 is one, 2 is two, 3 is three, 4 is four, and 5 is five.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "1",
+          "right": "one"
+        },
+        {
+          "left": "2",
+          "right": "two"
+        },
+        {
+          "left": "3",
+          "right": "three"
+        },
+        {
+          "left": "4",
+          "right": "four"
+        },
+        {
+          "left": "5",
+          "right": "five"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-02",
+      "type": "choice",
+      "prompt": "Hugo has 7 pencils. How do you write 7?",
+      "explanation": "7 is seven. Six is 6, and eight is 8.",
+      "hint": "It comes just after six.",
+      "lang": "en",
+      "options": [
+        "seven",
+        "six",
+        "eight"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-03",
+      "type": "true-false",
+      "prompt": "The number after nine is ten.",
+      "explanation": "We count eight, nine, ten. Ten comes after nine.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-04",
+      "type": "order",
+      "prompt": "Put these numbers in order from smallest to largest.",
+      "explanation": "The order from 6 to 10 is six, seven, eight, nine, ten.",
+      "lang": "en",
+      "items": [
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten"
+      ]
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-05",
+      "type": "fill-blank",
+      "prompt": "Choose the number that finishes the sequence.",
+      "explanation": "Thirteen (13) comes after twelve (12). Three is 3, and thirty is 30.",
+      "hint": "It ends in -teen and means 13.",
+      "lang": "en",
+      "sentence": "Ten, eleven, twelve, ___.",
+      "options": [
+        "thirteen",
+        "three",
+        "thirty"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-06",
+      "type": "classify",
+      "prompt": "Sort these number words into the right group.",
+      "explanation": "Two (2), four (4) and eight (8) are from 1 to 10. Fifteen (15), sixteen (16) and twenty (20) are from 11 to 20.",
+      "lang": "en",
+      "categories": [
+        "From 1 to 10",
+        "From 11 to 20"
+      ],
+      "items": [
+        {
+          "text": "two",
+          "category": 0
+        },
+        {
+          "text": "eight",
+          "category": 0
+        },
+        {
+          "text": "fifteen",
+          "category": 1
+        },
+        {
+          "text": "sixteen",
+          "category": 1
+        },
+        {
+          "text": "twenty",
+          "category": 1
+        },
+        {
+          "text": "four",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-07",
+      "type": "choice",
+      "prompt": "Aisha has eight blue stickers and two red stickers. How many stickers does she have?",
+      "explanation": "Eight (8) plus two (2) equals ten (10). Aisha has ten stickers.",
+      "hint": "Add 8 + 2.",
+      "lang": "en",
+      "options": [
+        "ten",
+        "twelve",
+        "nine"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-08",
+      "type": "fill-blank",
+      "prompt": "Choose the correct word for 14.",
+      "explanation": "14 is fourteen. Four is 4, and forty is 40.",
+      "hint": "It begins with four- and ends with -teen.",
+      "lang": "en",
+      "sentence": "Omar is 14 today. He has ___ candles.",
+      "options": [
+        "forty",
+        "fourteen",
+        "four"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-09",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "The English number words tell us exactly how many marbles each child has.",
+      "lang": "en",
+      "title": "Marbles at Break Time",
+      "text": "Leo and Mia play a game. Leo has eleven green marbles. Mia has fifteen yellow marbles. They count their own marbles.",
+      "questions": [
+        {
+          "prompt": "How many green marbles does Leo have?",
+          "explanation": "Leo has eleven green marbles. Eleven means 11.",
+          "options": [
+            "eleven",
+            "twenty",
+            "fifteen"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How many yellow marbles does Mia have?",
+          "explanation": "Mia has fifteen yellow marbles. Fifteen means 15.",
+          "options": [
+            "fifteen",
+            "twelve",
+            "eleven"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-numeros-1-20-10",
+      "type": "order",
+      "prompt": "Put the numbers from 16 to 20 in order.",
+      "explanation": "The sequence is sixteen (16), seventeen (17), eighteen (18), nineteen (19), twenty (20).",
+      "lang": "en",
+      "items": [
+        "sixteen",
+        "seventeen",
+        "eighteen",
+        "nineteen",
+        "twenty"
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:53:59.759Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:03:06.432Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "61b31221a001948679596258bcc4ddfef56ba9d1c92e890d19b9cb7c1d840980",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "id": "g3-mates-perimetro",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "perimetro",
+  "temaNombre": "Perimeter",
+  "title": "Measuring around: perimeter",
+  "summary": "Learn to calculate perimeter by adding side lengths in everyday situations.",
+  "keyIdeas": [
+    "A polygon's perimeter is the sum of all its side lengths.",
+    "Measure all the sides in the same unit, such as metres or centimetres.",
+    "For shapes with equal sides, such as squares, we can use multiplication."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "6.2"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica",
+      "B. Sentido de la medida › Medición",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-perimetro-01",
+      "type": "true-false",
+      "prompt": "A polygon's perimeter is the sum of all its side lengths.",
+      "explanation": "The perimeter is the total length around the flat polygon, found by adding every side.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-perimetro-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about a square photo frame.",
+      "explanation": "A square has 4 equal sides: 10 + 10 + 10 + 10 = 40 cm, or 4 × 10 = 40 cm.",
+      "hint": "Remember that a square has four equal sides.",
+      "lang": "en",
+      "sentence": "A square photo frame has sides of 10 cm. Its total distance around the edge is ___ cm.",
+      "options": [
+        "20",
+        "40",
+        "100"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-perimetro-03",
+      "type": "choice",
+      "prompt": "Aisha wants ribbon around a rectangular card 8 cm long and 5 cm wide. How much ribbon is needed for one complete loop around its edge?",
+      "explanation": "Opposite sides of a rectangle are equal: 8 + 5 + 8 + 5 = 26 cm of ribbon.",
+      "hint": "Remember all four sides of the rectangle.",
+      "lang": "en",
+      "options": [
+        "40 cm",
+        "13 cm",
+        "26 cm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-perimetro-04",
+      "type": "match",
+      "prompt": "Match each shape to its perimeter.",
+      "explanation": "Triangle: 3 × 6 = 18 cm. Square: 4 × 7 = 28 cm. Rectangle: 11 + 4 + 11 + 4 = 30 cm. Pentagon: 5 × 3 = 15 cm.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Triangle with sides of 6 cm, 6 cm and 6 cm",
+          "right": "18 cm"
+        },
+        {
+          "left": "Square with sides of 7 cm",
+          "right": "28 cm"
+        },
+        {
+          "left": "Rectangle 11 cm long and 4 cm wide",
+          "right": "30 cm"
+        },
+        {
+          "left": "Regular pentagon with sides of 3 cm",
+          "right": "15 cm"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-perimetro-05",
+      "type": "order",
+      "prompt": "Put the steps in order to find the perimeter of a classroom table with straight sides.",
+      "explanation": "First identify the sides, measure each one, record the lengths and add them all.",
+      "lang": "en",
+      "items": [
+        "Identify the table's shape and number of sides.",
+        "Measure each side with a ruler or tape measure.",
+        "Record all the measurements in the same unit.",
+        "Add all the side lengths to find the perimeter."
+      ]
+    },
+    {
+      "id": "g3-mates-perimetro-06",
+      "type": "choice",
+      "prompt": "Mental maths: estimate the perimeter of a square card with sides of 19 cm by rounding each side to the nearest ten.",
+      "explanation": "Round 19 cm to 20 cm. With 4 equal sides, 4 × 20 = 80 cm approximately.",
+      "hint": "Round 19 to the nearest ten, then multiply by 4.",
+      "lang": "en",
+      "options": [
+        "80 cm",
+        "60 cm",
+        "40 cm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-perimetro-07",
+      "type": "choice",
+      "prompt": "Find the mistake! 🔍 Omar calculates the perimeter of a rectangular field 30 m long and 15 m wide as '30 + 15 = 45 m'. What is wrong?",
+      "explanation": "A rectangle has 4 sides. Omar adds only two. The correct calculation is 30 + 15 + 30 + 15 = 90 m.",
+      "hint": "How many sides does a rectangular field have?",
+      "lang": "en",
+      "options": [
+        "He adds only two sides and forgets the other two.",
+        "He should multiply 30 × 15 instead of adding.",
+        "30 + 15 does not equal 45."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-perimetro-08",
+      "type": "classify",
+      "prompt": "Sort these shapes by whether their perimeter is less than or greater than 20 cm.",
+      "explanation": "Calculate: 4×4=16 cm (<20), 3×6=18 cm (<20), 4×6=24 cm (>20), 7+4+7+4=22 cm (>20), 4×3=12 cm (<20), 6×5=30 cm (>20).",
+      "lang": "en",
+      "categories": [
+        "Perimeter less than 20 cm",
+        "Perimeter greater than 20 cm"
+      ],
+      "items": [
+        {
+          "text": "Square with sides of 4 cm",
+          "category": 0
+        },
+        {
+          "text": "Equilateral triangle with sides of 6 cm",
+          "category": 0
+        },
+        {
+          "text": "Square with sides of 6 cm",
+          "category": 1
+        },
+        {
+          "text": "Rectangle 7 cm long and 4 cm wide",
+          "category": 1
+        },
+        {
+          "text": "Rhombus with sides of 3 cm",
+          "category": 0
+        },
+        {
+          "text": "Regular hexagon with sides of 5 cm",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-perimetro-09",
+      "type": "choice",
+      "prompt": "The triangular school garden has sides of 12 m, 15 m and 18 m. The school buys 50 m of fencing. How much fencing is left after fencing all three sides?",
+      "explanation": "Add the sides: 12 + 15 + 18 = 45 m. Subtract from the fencing bought: 50 - 45 = 5 m left.",
+      "hint": "Use two steps: find the perimeter, then subtract.",
+      "lang": "en",
+      "options": [
+        "5 m",
+        "45 m",
+        "15 m"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-perimetro-10",
+      "type": "fill-blank",
+      "prompt": "Find the unknown side length.",
+      "explanation": "The long sides total 8 + 8 = 16 cm. That leaves 24 - 16 = 8 cm for the two short sides: 8 ÷ 2 = 4 cm each.",
+      "hint": "Subtract the two known sides from the perimeter, then divide the rest by two.",
+      "lang": "en",
+      "sentence": "A rectangle's perimeter is 24 cm. Its two long sides are 8 cm each. Each short side is ___ cm.",
+      "options": [
+        "6",
+        "8",
+        "4"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:11:09.076Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:49:59.696Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "b3904304fd2455879efd4e41903ca678586b11f5bced2f4a03fbce2d9a88658f",
+      "validation": "manual-review"
+    }
+  }
+}

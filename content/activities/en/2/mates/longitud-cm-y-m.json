@@ -1,0 +1,234 @@
+{
+  "id": "g2-mates-longitud-cm-y-m",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "longitud-cm-y-m",
+  "temaNombre": "Length: cm and m",
+  "title": "Measuring in centimetres and metres",
+  "summary": "Practise measuring with a ruler and tape measure in fun everyday challenges.",
+  "keyIdeas": [
+    "Centimetres (cm) are useful for small objects. Metres (m) are useful for larger things.",
+    "One metre is exactly 100 centimetres: 1 m = 100 cm.",
+    "To make ruler measurements easy, line up the start of the object with the 0 mark."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "B. Sentido de la medida › Medición",
+      "B. Sentido de la medida › Estimación y relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-longitud-cm-y-m-01",
+      "type": "choice",
+      "prompt": "Which unit is useful for measuring the length of a rubber?",
+      "explanation": "A rubber is small, so centimetres are a useful unit.",
+      "hint": "Think about whether a rubber fits in your hand.",
+      "lang": "en",
+      "options": [
+        "A step",
+        "A centimetre (cm)",
+        "A metre (m)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-02",
+      "type": "true-false",
+      "prompt": "One metre is exactly 100 centimetres.",
+      "explanation": "Exactly! One centimetre is one hundredth of a metre, so 1 m is 100 cm.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-03",
+      "type": "classify",
+      "prompt": "Which unit is useful for measuring each length?",
+      "explanation": "Centimetres are useful for small objects. Metres are useful for larger things and distances.",
+      "lang": "en",
+      "categories": [
+        "Centimetres (cm)",
+        "Metres (m)"
+      ],
+      "items": [
+        {
+          "text": "A school pencil sharpener",
+          "category": 0
+        },
+        {
+          "text": "The classroom board",
+          "category": 1
+        },
+        {
+          "text": "A paper clip",
+          "category": 0
+        },
+        {
+          "text": "The height of a door",
+          "category": 1
+        },
+        {
+          "text": "The playground's length",
+          "category": 1
+        },
+        {
+          "text": "A coloured pencil",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence to compare the two lengths.",
+      "explanation": "2 metres is 200 centimetres, much longer than 50 centimetres.",
+      "lang": "en",
+      "sentence": "A 2-metre rope is ___ a 50-centimetre ribbon.",
+      "options": [
+        "the same length as",
+        "shorter than",
+        "longer than"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-05",
+      "type": "match",
+      "prompt": "Match each example to a reasonable estimate of its length or height.",
+      "explanation": "These are estimates, rather than exact measurements. Pencils, people and animals can have different sizes.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "A new pencil",
+          "right": "15 cm"
+        },
+        {
+          "left": "An adult's long step",
+          "right": "1 m"
+        },
+        {
+          "left": "The height of a 7-year-old child",
+          "right": "1 m and 20 cm"
+        },
+        {
+          "left": "A small ant",
+          "right": "1 cm"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-06",
+      "type": "choice",
+      "prompt": "Lucas measures his pencil. It starts at the ruler's 1 mark and ends at 9. He says, 'It is 9 cm long!' What mistake does he make?",
+      "explanation": "The length is the difference between the marks: 9 − 1 = 8 cm. Starting at 0 makes the length easier to read directly.",
+      "hint": "Count the centimetres between 1 and 9.",
+      "lang": "en",
+      "options": [
+        "He holds the ruler the wrong way round",
+        "Pencils must always be measured in metres",
+        "He should subtract 9 − 1, or start at 0"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-07",
+      "type": "choice",
+      "prompt": "Without using a ruler, which is a reasonable estimate for the width of a school desk?",
+      "explanation": "60 cm is a little more than half a metre, a reasonable width for a school desk.",
+      "hint": "Think of a desk whose width is less than 1 metre.",
+      "lang": "en",
+      "options": [
+        "About 60 cm",
+        "About 60 m",
+        "About 2 cm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-08",
+      "type": "order",
+      "prompt": "Put these lengths in order from shortest to longest.",
+      "explanation": "12 cm is shortest, followed by 80 cm, then 1 m (100 cm). 1 m and 40 cm (140 cm) is longest.",
+      "lang": "en",
+      "items": [
+        "12 cm",
+        "80 cm",
+        "1 m",
+        "1 m and 40 cm"
+      ]
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-09",
+      "type": "choice",
+      "prompt": "Martina places two paper strips end to end, without overlapping them. One is 30 cm and the other is 25 cm. What is their total length?",
+      "explanation": "Add the two strips: 30 + 25 = 55 cm altogether.",
+      "hint": "Add the two lengths.",
+      "lang": "en",
+      "options": [
+        "65 cm",
+        "45 cm",
+        "55 cm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-mates-longitud-cm-y-m-10",
+      "type": "choice",
+      "prompt": "Omar has a ribbon 1 m long. He cuts off 40 cm for a parcel. How many centimetres are left?",
+      "explanation": "1 metre is 100 cm. Subtract the cut piece: 100 - 40 = 60 cm left.",
+      "hint": "Remember that 1 metre is 100 centimetres.",
+      "lang": "en",
+      "options": [
+        "60 cm",
+        "50 cm",
+        "140 cm"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:03:07.864Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:30:35.345Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "b94d231669b4b05a7000e1e8d8d89ccd3503d7343ef7e37ab17d51177b887d54",
+      "validation": "manual-review"
+    }
+  }
+}

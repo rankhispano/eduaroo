@@ -1,0 +1,269 @@
+{
+  "id": "g6-lengua-generos-literarios",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "generos-literarios",
+  "temaNombre": "Literary Genres",
+  "title": "Exploring the Main Literary Genres",
+  "summary": "Review the features and differences of narrative, lyric poetry and drama.",
+  "keyIdeas": [
+    "Lyric writing expresses feelings and reflections, often in verse with rhythm. Rhyme is common but not required.",
+    "Narrative tells stories through a narrator, with characters and a setting in place and time.",
+    "Drama uses dialogue and stage directions intended for performance."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "4.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "C. Educación literaria"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-generos-literarios-01",
+      "type": "true-false",
+      "prompt": "A play can show its story through dialogue and action without needing a narrator.",
+      "explanation": "True. This is common in drama, although some plays also use a narrator.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-generos-literarios-02",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish definition with the correct theatrical term.",
+      "explanation": "Stage directions, called «acotaciones», guide the performance. In these examples they appear in brackets.",
+      "lang": "en",
+      "sentence": "En un guion teatral, las indicaciones del autor sobre los gestos, movimientos o decorado que van entre paréntesis se llaman ___.",
+      "options": [
+        "estrofas",
+        "acotaciones",
+        "capítulos",
+        "moralejas"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-generos-literarios-03",
+      "type": "classify",
+      "prompt": "Sort these works or texts by their literary genre.",
+      "explanation": "Novels and legends tell stories. The poems listed here express feelings, while comedies and theatrical pieces are intended for performance.",
+      "lang": "en",
+      "categories": [
+        "Narrative",
+        "Lyric poetry",
+        "Drama"
+      ],
+      "items": [
+        {
+          "text": "A mystery novel divided into ten chapters",
+          "category": 0
+        },
+        {
+          "text": "A three-stanza poem celebrating the arrival of autumn",
+          "category": 1
+        },
+        {
+          "text": "A comedy in two acts intended for performance",
+          "category": 2
+        },
+        {
+          "text": "A popular legend about the origin of an enchanted lake",
+          "category": 0
+        },
+        {
+          "text": "An ode expressing love and admiration for the sea",
+          "category": 1
+        },
+        {
+          "text": "A short comic play with dialogue and stage directions",
+          "category": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-generos-literarios-04",
+      "type": "match",
+      "prompt": "Match each literary genre to its characteristic elements.",
+      "explanation": "Narrative tells events, lyric poetry explores feelings and poetic expression, and drama presents actions through dialogue and performance.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Narrative",
+          "right": "Narrator, plot, characters and setting"
+        },
+        {
+          "left": "Lyric poetry",
+          "right": "Poetic expression; it may use lines, stanzas, rhythm and rhyme"
+        },
+        {
+          "left": "Drama",
+          "right": "Dialogue and stage directions for performing actions"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-generos-literarios-05",
+      "type": "choice",
+      "prompt": "Four pupils discuss literature in the library. Whose statement contains a mistake?",
+      "explanation": "Hugo is mistaken. Lyric poetry does not require consonant rhyme: it can use assonant rhyme or free verse without rhyme.",
+      "hint": "Think about whether poems always have to rhyme.",
+      "lang": "en",
+      "options": [
+        "Omar: Stage directions indicate movements, tone of voice or details of the scenery.",
+        "Lucía: Lyric writing mainly expresses emotions and personal reflections.",
+        "Aisha: Novels and short stories are narrative because a narrator tells a story.",
+        "Hugo: A poem only belongs to lyric poetry if every line has compulsory consonant rhyme."
+      ],
+      "answer": 3,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-generos-literarios-06",
+      "type": "choice",
+      "prompt": "Marcos writes: «Caminé despacio hacia la vieja buhardilla y abrí el baúl con temor. Jamás imaginé lo que encontraría allí dentro». Which narrator and genre appear here?",
+      "explanation": "The prose tells events and the narrator describes their own actions in the first person: «caminé», «abrí» and «imaginé».",
+      "lang": "en",
+      "options": [
+        "A poetic voice in free verse, in lyric poetry.",
+        "An all-knowing third-person narrator, in lyric poetry.",
+        "Theatrical dialogue with stage directions, in drama.",
+        "A first-person narrator taking part as the protagonist, in narrative."
+      ],
+      "answer": 3,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-generos-literarios-07",
+      "type": "order",
+      "prompt": "Put the parts of a traditional narrative structure in order.",
+      "explanation": "The traditional structure has an opening situation, a complication and a resolution.",
+      "lang": "en",
+      "items": [
+        "Opening: introduce the characters, place and starting situation.",
+        "Complication: a conflict or problem changes the situation.",
+        "Resolution: resolve the conflict and close the story."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-generos-literarios-08",
+      "type": "reading",
+      "prompt": "Read the Spanish story about a school rehearsal and answer the questions.",
+      "explanation": "Distinguishing a narrated story from a dramatic script helps us identify each genre's purpose and structure.",
+      "lang": "en",
+      "title": "El misterio entre bambalinas",
+      "text": "El grupo de sexto preparaba la obra de fin de curso en el salón de actos. Sofía sostenía el libreto con fuerza y recitaba su intervención:\n—VALENTINA: (Dando un paso al frente y mirando al cielo con inquietud). No podemos cruzar el río antes del anochecer. La corriente arrastra secretos muy antiguos.\nDe pronto, el profesor detuvo el ensayo. Sofía había olvidado la acotación y sonreía mientras hablaba en lugar de mostrar preocupación.\n—Recuerda, Sofía —explicó el maestro con amabilidad—, en el teatro no solo importan las palabras del diálogo, sino cómo transmites las emociones del personaje con tus gestos y tu postura corporal.\nSofía asintió, respiró hondo y repitió la escena. Esta vez, su voz temblaba y su mirada transmitía una auténtica zozobra. Todo el auditorio quedó en silencio, conteniendo la respiración ante la magia del escenario.",
+      "questions": [
+        {
+          "prompt": "Which stage direction did Sofía miss on her first attempt?",
+          "explanation": "The script says «Dando un paso al frente y mirando al cielo con inquietud».",
+          "options": [
+            "Swimming across the river before nightfall.",
+            "Smiling and speaking very loudly to the audience.",
+            "Stepping forward and looking anxiously at the sky.",
+            "Standing silently in the centre of the stage."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why did Sofía's smile not fit this scene?",
+          "explanation": "Valentina's words suggest danger from the river. The intended performance calls for worry rather than a smile.",
+          "options": [
+            "Because Valentina's words express danger and fear about the river.",
+            "Because the director wanted a shorter play.",
+            "Because the script was a comedy with constant laughter.",
+            "Because theatre characters can never smile on stage."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What shows that the whole text is a narrative rather than a play?",
+          "explanation": "A narrator describes what happened at the rehearsal, even though the story quotes a short piece of theatrical dialogue.",
+          "options": [
+            "It is written in verse with regular consonant rhyme.",
+            "It has no dialogue between characters.",
+            "It has no characters or defined setting.",
+            "A third-person narrator describes what Sofía and the teacher do."
+          ],
+          "answer": 3
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-generos-literarios-09",
+      "type": "choice",
+      "prompt": "Read Nerea's Spanish lines: «Vuela el viento entre las ramas / susurrando su cantar, / mientras brillan las mañanas / junto a la orilla del mar.» Which genre is this, and what rhyme do the even-numbered lines use («cantar» / «mar»)?",
+      "explanation": "This is lyric poetry. In «cantar» and «mar», both the vowel and consonant sounds match from the last stressed vowel: -ar. This is consonant rhyme.",
+      "hint": "Check whether only the vowel sounds match, or the consonant sounds too.",
+      "lang": "en",
+      "options": [
+        "Lyric poetry, with assonant rhyme in the even-numbered lines.",
+        "Drama, in free verse without rhyme.",
+        "Narrative, with assonant rhyme in every line.",
+        "Lyric poetry, with consonant rhyme in the even-numbered lines."
+      ],
+      "answer": 3,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-generos-literarios-10",
+      "type": "choice",
+      "prompt": "Adrián adapts this narrative into drama: «La capitana miró fijamente el mapa, suspiró con cansancio y le ordenó al grumete que izara las velas de inmediato». Which Spanish adaptation fits?",
+      "explanation": "The correct adaptation makes the order direct dialogue and turns the captain's actions into stage directions.",
+      "lang": "en",
+      "options": [
+        "CAPITANA: (Mirando fijamente el mapa y suspirando con cansancio). ¡Iza las velas de inmediato, grumete!",
+        "La capitana: miraba el mapa mientras el narrador explicaba que estaba muy cansada.",
+        "Érase una vez una capitana que suspiró y le dijo al grumete que izara las velas.",
+        "CAPITANA: (Gritando muy alegre). El mapa es bonito y no quiero navegar hoy."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:24:13.281Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:28:37.175Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "b2b8a97dd8d4f9a210159cead9b32274d2b7c6509a2f296d757011e48017c388",
+      "validation": "manual-review"
+    }
+  }
+}

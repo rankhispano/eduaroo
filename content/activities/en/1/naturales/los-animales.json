@@ -1,0 +1,267 @@
+{
+  "id": "g1-naturales-los-animales",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "los-animales",
+  "temaNombre": "Animals",
+  "title": "The fascinating animal world",
+  "summary": "Practise how animals are born, what they eat and how they live.",
+  "keyIdeas": [
+    "Animals may hatch from eggs or be born from their mother's body.",
+    "By their food, we group animals as carnivores, herbivores or omnivores.",
+    "We should care for and respect all animals."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA4",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-los-animales-01",
+      "type": "classify",
+      "prompt": "Sort these animals by whether they have fur or feathers.",
+      "explanation": "These mammals have fur. Birds have feathers.",
+      "lang": "en",
+      "categories": [
+        "Have fur",
+        "Have feathers"
+      ],
+      "items": [
+        {
+          "text": "Dog",
+          "category": 0
+        },
+        {
+          "text": "Canary",
+          "category": 1
+        },
+        {
+          "text": "Cat",
+          "category": 0
+        },
+        {
+          "text": "Parrot",
+          "category": 1
+        },
+        {
+          "text": "Rabbit",
+          "category": 0
+        },
+        {
+          "text": "Eagle",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-los-animales-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about how some animals are born.",
+      "explanation": "Egg-laying animals, such as hens and many fish, hatch from eggs. They are called oviparous.",
+      "lang": "en",
+      "sentence": "Oviparous animals hatch from an ___.",
+      "options": [
+        "tree",
+        "egg",
+        "river"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-los-animales-03",
+      "type": "match",
+      "prompt": "Match each animal to how it moves.",
+      "explanation": "Animals' bodies help them swim, fly, walk or slither.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Dolphin",
+          "right": "Swims in water"
+        },
+        {
+          "left": "Swallow",
+          "right": "Flies through the air"
+        },
+        {
+          "left": "Horse",
+          "right": "Walks on land"
+        },
+        {
+          "left": "Snake",
+          "right": "Slithers along the ground"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-los-animales-04",
+      "type": "choice",
+      "prompt": "Omar watches his rabbit eat lettuce leaves and carrots. Which food group does the rabbit belong to?",
+      "explanation": "Rabbits eat plants, so they are herbivores.",
+      "hint": "Look at whether it eats plants or meat.",
+      "lang": "en",
+      "options": [
+        "Carnivore",
+        "Omnivore",
+        "Herbivore"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-los-animales-05",
+      "type": "true-false",
+      "prompt": "All animals living in water are fish.",
+      "explanation": "Some sea animals are mammals, such as dolphins and whales. They breathe air with lungs.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-naturales-los-animales-06",
+      "type": "classify",
+      "prompt": "Sort these animals into domestic or wild animals.",
+      "explanation": "Domestic animals are kept and cared for by people. Wild animals live in nature.",
+      "lang": "en",
+      "categories": [
+        "Domestic animals",
+        "Wild animals"
+      ],
+      "items": [
+        {
+          "text": "Cow",
+          "category": 0
+        },
+        {
+          "text": "Wolf",
+          "category": 1
+        },
+        {
+          "text": "Sheep",
+          "category": 0
+        },
+        {
+          "text": "Lion",
+          "category": 1
+        },
+        {
+          "text": "Cat",
+          "category": 0
+        },
+        {
+          "text": "Wild boar",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-los-animales-07",
+      "type": "order",
+      "prompt": "Put a hen's life stages in order.",
+      "explanation": "A hen lays an egg. A chick hatches and grows into an adult.",
+      "lang": "en",
+      "items": [
+        "Egg in the nest",
+        "Chick hatches",
+        "Chick grows into an adult hen"
+      ]
+    },
+    {
+      "id": "g1-naturales-los-animales-08",
+      "type": "choice",
+      "prompt": "Lucía cares for her dog Toby. What does he need each day to stay healthy and happy?",
+      "explanation": "Pets need suitable food, clean water, walks and care.",
+      "hint": "Think about a dog's basic needs.",
+      "lang": "en",
+      "options": [
+        "Sweets and strawberry candies",
+        "Walks and clean, fresh water",
+        "Many hours alone at home"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-los-animales-09",
+      "type": "choice",
+      "prompt": "Aisha finds nibbled acorns and pine cones in the woods. What does the mystery animal eat?",
+      "explanation": "Acorns are fruits, and pine cones hold seeds. The marks show that the animal has eaten plant parts.",
+      "hint": "Acorns and pine cones come from trees.",
+      "lang": "en",
+      "options": [
+        "Only fresh meat",
+        "Fruits and seeds from plants",
+        "Only seawater"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-los-animales-10",
+      "type": "reading",
+      "prompt": "Read about this small animal and answer the questions.",
+      "explanation": "Hedgehogs are wild animals. They eat small animals on the ground.",
+      "lang": "en",
+      "title": "A hedgehog in the garden",
+      "text": "Last night, Martín saw a hedgehog in his garden. Its body is covered in spines. It eats small insects, earthworms and snails. During the day, it sleeps under dry leaves. Martín did not touch it, so he would not frighten it.",
+      "questions": [
+        {
+          "prompt": "What covers the hedgehog's body?",
+          "explanation": "The hedgehog has spines that help protect it.",
+          "options": [
+            "Shiny scales",
+            "Sharp spines",
+            "Soft feathers"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What did Martín do to respect the hedgehog?",
+          "explanation": "We watch wild animals without touching them, so we do not disturb or frighten them.",
+          "options": [
+            "Bathe it with soap",
+            "Avoid touching it so he would not frighten it",
+            "Take it into his bed"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:30:29.727Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:46:38.798Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "126dd6e48852155905b8dbbae873047f186616b4d1bbef98e33ef7b980253f6a",
+      "validation": "manual-review"
+    }
+  }
+}

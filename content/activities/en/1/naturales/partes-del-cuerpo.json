@@ -1,0 +1,238 @@
+{
+  "id": "g1-naturales-partes-del-cuerpo",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "partes-del-cuerpo",
+  "temaNombre": "Body parts",
+  "title": "Discovering body parts!",
+  "summary": "Practise naming body parts and joints.",
+  "keyIdeas": [
+    "We group body parts into the head, trunk and limbs. The trunk is the main part of the body.",
+    "Arms are upper limbs, and legs are lower limbs.",
+    "Joints, such as elbows and knees, help our bodies bend."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-partes-del-cuerpo-01",
+      "type": "choice",
+      "prompt": "We group body parts into the head, trunk and...",
+      "explanation": "The three main groups are head, trunk and limbs.",
+      "hint": "These are arms and legs.",
+      "lang": "en",
+      "options": [
+        "limbs",
+        "hats",
+        "toys"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-02",
+      "type": "true-false",
+      "prompt": "The back and tummy are parts of the trunk.",
+      "explanation": "The trunk includes the chest, tummy and back.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-03",
+      "type": "fill-blank",
+      "prompt": "Choose the word that completes the sentence.",
+      "explanation": "The knee is the joint between the thigh and lower leg.",
+      "hint": "We use it when we bend down.",
+      "lang": "en",
+      "sentence": "The elbow is in the arm, and the knee is in the ___.",
+      "options": [
+        "back",
+        "head",
+        "leg"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-04",
+      "type": "match",
+      "prompt": "Match each part to its body area.",
+      "explanation": "The forehead is on the head, the tummy is in the trunk, the hand belongs to the arm, and the foot belongs to the leg.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Forehead",
+          "right": "Head"
+        },
+        {
+          "left": "Tummy",
+          "right": "Trunk"
+        },
+        {
+          "left": "Hand",
+          "right": "Arm"
+        },
+        {
+          "left": "Foot",
+          "right": "Leg"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-05",
+      "type": "classify",
+      "prompt": "Sort each part by the limb it belongs to.",
+      "explanation": "Arms are upper limbs, and legs are lower limbs.",
+      "lang": "en",
+      "categories": [
+        "Upper limb",
+        "Lower limb"
+      ],
+      "items": [
+        {
+          "text": "Hand",
+          "category": 0
+        },
+        {
+          "text": "Elbow",
+          "category": 0
+        },
+        {
+          "text": "Foot",
+          "category": 1
+        },
+        {
+          "text": "Knee",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-06",
+      "type": "choice",
+      "prompt": "Aisha bends her leg to kick a ball. Which joint bends?",
+      "explanation": "The knee lets her bend her leg when preparing to kick.",
+      "hint": "It is in the middle of the leg.",
+      "lang": "en",
+      "options": [
+        "Wrist",
+        "Neck",
+        "Knee"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-07",
+      "type": "order",
+      "prompt": "Put these body parts in order from top to bottom.",
+      "explanation": "Eyes are on the head, the chest is in the trunk, and knees and toes are lower down.",
+      "lang": "en",
+      "items": [
+        "Eyes",
+        "Chest",
+        "Knee",
+        "Toes"
+      ]
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-08",
+      "type": "choice",
+      "prompt": "Three friends talk about the body. Who makes a mistake?",
+      "explanation": "Omar is wrong. The knee is in the leg, and the elbow is in the arm.",
+      "hint": "Think about which joint is in the arm and which is in the leg.",
+      "lang": "en",
+      "options": [
+        "Nerea: Fingers are on our hands",
+        "Hugo: The neck joins the head to the trunk",
+        "Omar: The knee is in the arm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-09",
+      "type": "choice",
+      "prompt": "What if our arms were stiff and had no elbows?",
+      "explanation": "Elbows let arms bend and bring hands towards the face.",
+      "hint": "Think about why bending an arm is useful.",
+      "lang": "en",
+      "options": [
+        "We could not bend our arms to bring food to our mouths",
+        "We could run much faster in the playground",
+        "Our hands would fall onto the ground"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-partes-del-cuerpo-10",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "Dancing helps us move body parts and joints.",
+      "lang": "en",
+      "title": "Leo's dance",
+      "text": "Leo dances with his friends at break time. He moves his head from side to side. Then he raises and lowers his arms. His joints let him bend his elbows and knees. Moving his body is fun!",
+      "questions": [
+        {
+          "prompt": "Which parts does Leo raise and lower?",
+          "explanation": "The text says Leo raises and lowers his arms.",
+          "options": [
+            "Feet",
+            "Nose",
+            "Arms"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What lets Leo bend his elbows and knees?",
+          "explanation": "Joints are places where bones meet and can allow movement.",
+          "options": [
+            "Shoes",
+            "Joints",
+            "Hair"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:27:53.084Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:57:33.640Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "04c3303d1dbeef0d523244a09d6c1f9db3db72abf65050955d391c17c6953eef",
+      "validation": "manual-review"
+    }
+  }
+}

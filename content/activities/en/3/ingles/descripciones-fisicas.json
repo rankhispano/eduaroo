@@ -1,0 +1,257 @@
+{
+  "id": "g3-ingles-descripciones-fisicas",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "descripciones-fisicas",
+  "temaNombre": "Physical descriptions",
+  "title": "Describing People",
+  "summary": "Revise how to describe people's appearance in English using adjectives and have got.",
+  "keyIdeas": [
+    "Use 'is' with height adjectives such as tall and short.",
+    "Use 'has got' to talk about hair and eyes: She has got curly hair.",
+    "To describe hair, put adjectives before the noun: long blond hair."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-descripciones-fisicas-01",
+      "type": "match",
+      "prompt": "Match each description to a contrasting description.",
+      "explanation": "Tall and short contrast in height; long hair and short hair contrast in length. Straight and curly describe different hair shapes; dark and blond describe different colours. Other hair shapes and colours exist too.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "tall",
+          "right": "short"
+        },
+        {
+          "left": "long hair",
+          "right": "short hair"
+        },
+        {
+          "left": "straight hair",
+          "right": "curly hair"
+        },
+        {
+          "left": "dark hair",
+          "right": "blond hair"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-02",
+      "type": "true-false",
+      "prompt": "Read: 'Lucas is tall and he has got curly hair.' Lucas has got straight hair.",
+      "explanation": "The sentence says Lucas has curly hair, rather than straight hair.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-03",
+      "type": "choice",
+      "prompt": "Choose the correct word: 'My friend Martina ___ very tall.'",
+      "explanation": "Use 'to be', here 'is', with a height adjective. Use 'has got' for features such as hair or eyes.",
+      "hint": "Are we describing what she is like or what she has?",
+      "lang": "en",
+      "options": [
+        "has got",
+        "is",
+        "have got"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-04",
+      "type": "classify",
+      "prompt": "Sort these descriptions into hair or eyes.",
+      "explanation": "Curly hair, straight hair and blond hair describe hair. Blue eyes, green eyes and brown eyes describe eyes.",
+      "lang": "en",
+      "categories": [
+        "Hair",
+        "Eyes"
+      ],
+      "items": [
+        {
+          "text": "curly hair",
+          "category": 0
+        },
+        {
+          "text": "blue eyes",
+          "category": 1
+        },
+        {
+          "text": "straight hair",
+          "category": 0
+        },
+        {
+          "text": "green eyes",
+          "category": 1
+        },
+        {
+          "text": "blond hair",
+          "category": 0
+        },
+        {
+          "text": "brown eyes",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-05",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct form of have got.",
+      "explanation": "Use 'has got' with 'he', here my brother. Use 'have got' with I, you, we and they.",
+      "hint": "In this example, 'my brother' uses the same form as 'he'.",
+      "lang": "en",
+      "sentence": "My brother ___ brown eyes and glasses.",
+      "options": [
+        "is",
+        "have got",
+        "has got"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-06",
+      "type": "choice",
+      "prompt": "At break time, you look for Omar: 'Omar is short, has got curly black hair and wears red glasses.' Who is Omar?",
+      "explanation": "Omar is the short boy with curly black hair and red glasses.",
+      "lang": "en",
+      "options": [
+        "The short boy with curly black hair and red glasses.",
+        "The tall girl with straight blond hair.",
+        "The boy with long brown hair and blue eyes."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-07",
+      "type": "order",
+      "prompt": "Put the words in order to describe Aisha.",
+      "explanation": "The order is subject (She), verb (has got), adjectives (long curly), noun (hair).",
+      "lang": "en",
+      "items": [
+        "She",
+        "has got",
+        "long",
+        "curly",
+        "hair."
+      ]
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-08",
+      "type": "choice",
+      "prompt": "Adrián describes his cousin: 'She hasn't got straight hair. Her hair is ___.'",
+      "explanation": "Wavy describes a hair shape. Tall describes height, and square is not a hair type here.",
+      "hint": "Find a word describing hair shape.",
+      "lang": "en",
+      "options": [
+        "square",
+        "tall",
+        "wavy"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "Find the details of Aisha's appearance and location in the text.",
+      "lang": "en",
+      "title": "Meeting at the School Library",
+      "text": "Today is School Club Day. Leo is looking for his friend Aisha. Aisha is tall and cheerful. She has got long wavy hair. Her hair is dark brown. Aisha has got big green eyes and she wears purple glasses. Leo looks near the library and sees three students. Then Leo spots Aisha sitting by the window. She is reading a comic book and smiling.",
+      "questions": [
+        {
+          "prompt": "What kind of hair has Aisha got?",
+          "explanation": "The text says, 'She has got long wavy hair. Her hair is dark brown'.",
+          "options": [
+            "Long wavy dark brown hair.",
+            "Short straight blond hair.",
+            "Curly red hair."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What colour are Aisha's glasses?",
+          "explanation": "The text says she wears purple glasses.",
+          "options": [
+            "Purple",
+            "Green",
+            "Red"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Where is Aisha sitting?",
+          "explanation": "Leo finds her sitting by the window near the library.",
+          "options": [
+            "In the school canteen.",
+            "On the football pitch.",
+            "By the window near the library."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-descripciones-fisicas-10",
+      "type": "fill-blank",
+      "prompt": "Complete the height riddle using the opposite of tall.",
+      "explanation": "The opposite of tall is short. Curly and straight describe hair, rather than height.",
+      "hint": "It is the opposite of tall.",
+      "lang": "en",
+      "sentence": "I am not tall. I am ___. I have got green eyes and short hair.",
+      "options": [
+        "curly",
+        "short",
+        "straight"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:59:33.307Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:34:29.484Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "53164ba8dfef46b57d605f6e6a60366b88671f2c7dae143491ebbedb7739e82e",
+      "validation": "manual-review"
+    }
+  }
+}

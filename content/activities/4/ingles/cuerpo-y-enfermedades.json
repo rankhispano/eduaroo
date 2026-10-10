@@ -70,8 +70,8 @@
     {
       "id": "g4-ingles-cuerpo-y-enfermedades-02",
       "type": "choice",
-      "prompt": "Aisha feels very hot and her temperature is 38 degrees. What is the matter?",
-      "explanation": "Cuando la temperatura corporal es alta y sentimos mucho calor, decimos 'have got a fever' (tener fiebre).",
+      "prompt": "A thermometer shows that Aisha has a temperature of 38 °C. What is the matter?",
+      "explanation": "Una temperatura corporal de 38 °C o más se considera fiebre: «a fever». Aisha debe avisar a una persona adulta.",
       "hint": "Piensa en qué palabra usamos cuando la temperatura del cuerpo sube mucho.",
       "lang": "en",
       "options": [
@@ -84,19 +84,19 @@
     {
       "id": "g4-ingles-cuerpo-y-enfermedades-03",
       "type": "true-false",
-      "prompt": "Eating cold ice cream is the best idea when you have a bad cough.",
-      "explanation": "Falso. Si tienes tos ('cough'), tomar cosas muy frías puede irritar más la garganta; es mejor descansar y beber agua templada.",
+      "prompt": "«I have got a cough» means «Tengo tos».",
+      "explanation": "«A cough» significa tos. En este ejercicio practicamos cómo expresar un síntoma, sin indicar tratamientos.",
       "lang": "en",
-      "answer": false
+      "answer": true
     },
     {
       "id": "g4-ingles-cuerpo-y-enfermedades-04",
       "type": "fill-blank",
       "prompt": "Choose the correct illness to complete the sentence:",
-      "explanation": "Comer demasiados dulces suele provocar dolor de barriga, que en inglés se dice 'stomach ache'.",
+      "explanation": "«My stomach hurts» significa «Me duele la barriga»: «a stomach ache».",
       "hint": "¿Qué parte del cuerpo procesa la comida y los dulces?",
       "lang": "en",
-      "sentence": "Hugo ate ten big candies and now he has got a ___.",
+      "sentence": "Hugo says, «My stomach hurts». He has got a ___.",
       "options": [
         "broken finger",
         "headache",
@@ -204,25 +204,25 @@
     {
       "id": "g4-ingles-cuerpo-y-enfermedades-09",
       "type": "order",
-      "prompt": "Put the steps in order when you feel sick at school:",
-      "explanation": "Primero avisas al profe, luego vas a la enfermería, la enfermera te revisa y finalmente descansas.",
+      "prompt": "In this school, a teacher takes a sick pupil to the nurse. Put this example in order.",
+      "explanation": "En este ejemplo, el alumno avisa al profesor y recibe ayuda adulta. No todos los colegios tienen enfermería.",
       "lang": "en",
       "items": [
         "You tell your teacher that you feel sick.",
-        "You walk to the school nurse room.",
-        "The nurse checks your temperature.",
-        "You rest on the bed until you feel better."
+        "Your teacher takes you to the school nurse’s room.",
+        "The nurse asks what is wrong and checks you.",
+        "You follow the nurse’s instructions."
       ]
     },
     {
       "id": "g4-ingles-cuerpo-y-enfermedades-10",
       "type": "choice",
       "prompt": "Omar has got a terrible toothache after lunch. What is the best advice for him?",
-      "explanation": "Para un dolor de muelas ('toothache'), el mejor consejo de salud es acudir al dentista ('visit the dentist').",
+      "explanation": "Omar debe contarle el dolor a una persona adulta para que le ayude a recibir atención dental.",
       "hint": "¿Qué especialista cuida de nuestros dientes?",
       "lang": "en",
       "options": [
-        "He should visit the dentist.",
+        "He should tell an adult and get help from a dentist.",
         "He should eat hard candies.",
         "He should shout very loudly."
       ],

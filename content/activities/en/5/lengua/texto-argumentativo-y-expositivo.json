@@ -1,0 +1,263 @@
+{
+  "id": "g5-lengua-texto-argumentativo-y-expositivo",
+  "cursoId": "5",
+  "asignaturaId": "lengua",
+  "temaId": "texto-argumentativo-y-expositivo",
+  "temaNombre": "Expository and Argumentative Texts",
+  "title": "Texts That Inform and Persuade",
+  "summary": "Distinguish and organise Spanish expository and argumentative texts clearly.",
+  "keyIdeas": [
+    "An expository text mainly explains a topic with clear, organised information rather than personal opinions.",
+    "An argumentative text defends a position, or thesis, using reasons and evidence to persuade the reader.",
+    "Recognising a text's purpose helps us understand it and think critically."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE5"
+    ],
+    "criteria": [
+      "4.1",
+      "4.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC2",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-01",
+      "type": "true-false",
+      "prompt": "Is the main purpose of an expository text to express the author's feelings and opinions?",
+      "explanation": "False. Its main purpose is to explain and inform clearly, rather than express feelings or personal opinions.",
+      "hint": "Think about whether an encyclopedia gives information or personal feelings.",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-02",
+      "type": "choice",
+      "prompt": "What is the main purpose of an argumentative text? 🗣️",
+      "explanation": "It defends a position using reasons and evidence to persuade its audience.",
+      "hint": "Arguing for an idea means supporting it with reasons.",
+      "lang": "en",
+      "options": [
+        "To persuade someone by supporting a position with reasons.",
+        "To explain how an electronic device works without evaluating it.",
+        "To tell an adventure story about fictional characters."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-03",
+      "type": "classify",
+      "prompt": "Sort these Spanish text descriptions into Expository or Argumentative.",
+      "explanation": "Expository texts mainly explain. Argumentative texts defend a view or proposal with reasons.",
+      "lang": "en",
+      "categories": [
+        "Expository Text",
+        "Argumentative Text"
+      ],
+      "items": [
+        {
+          "text": "Un artículo de enciclopedia sobre el ciclo del agua.",
+          "category": 0
+        },
+        {
+          "text": "Una carta al director del periódico pidiendo más zonas peatonales.",
+          "category": 1
+        },
+        {
+          "text": "El folleto del museo que explica las partes de un castillo medieval.",
+          "category": 0
+        },
+        {
+          "text": "Un discurso escolar para explicar por qué debemos reciclar en el patio.",
+          "category": 1
+        },
+        {
+          "text": "La entrada de un diccionario definiendo qué es un ecosistema.",
+          "category": 0
+        },
+        {
+          "text": "Una reseña en la que una alumna explica por qué recomienda un libro.",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-04",
+      "type": "match",
+      "prompt": "Match each part of an argumentative text with its role.",
+      "explanation": "A common structure presents a thesis, supports it with arguments and ends with a conclusion.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Thesis",
+          "right": "The main position or opinion being defended."
+        },
+        {
+          "left": "Arguments",
+          "right": "Reasons, evidence or data supporting the position."
+        },
+        {
+          "left": "Conclusion",
+          "right": "A final summary reinforcing the position."
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-05",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish cause connector that justifies this argument.",
+      "explanation": "«Porque» introduces the reason for reducing single-use plastics.",
+      "hint": "Choose the word meaning «ya que» or «dado que».",
+      "lang": "en",
+      "sentence": "Es necesario reducir el uso de plásticos de un solo uso ___ contaminan nuestros mares y dañan a los animales marinos.",
+      "options": [
+        "mientras",
+        "aunque",
+        "porque"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-06",
+      "type": "order",
+      "prompt": "Put the usual parts of an expository text in order.",
+      "explanation": "Introduce the topic, develop the information and finish by summarising the main ideas.",
+      "lang": "en",
+      "items": [
+        "Introduction: clearly present the topic.",
+        "Main section: explain information, ideas and facts in order.",
+        "Conclusion: summarise the main ideas."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-07",
+      "type": "choice",
+      "prompt": "Omar and Aisha want to ask the town council to repair their park. Which Spanish sentence gives the strongest reason?",
+      "explanation": "Repairing broken swings can help prevent accidents, giving a practical reason that benefits the community.",
+      "hint": "Choose a useful reason supporting the request.",
+      "lang": "en",
+      "options": [
+        "A mí me parece que los parques de otras ciudades son mucho más bonitos que este.",
+        "Los columpios están rotos y repararlos evitará accidentes infantiles en el barrio.",
+        "El parque no nos gusta nada porque es aburrido y preferimos quedarnos en casa."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-08",
+      "type": "choice",
+      "prompt": "Find the sentence expressing a personal judgement rather than objective information about the Iberian lynx. 🔍",
+      "explanation": "Calling it the friendliest animal and saying everyone should stroke one are subjective opinions. A wild lynx should not be approached for stroking.",
+      "hint": "Find a personal judgement or preference.",
+      "lang": "en",
+      "options": [
+        "Su pelaje presenta manchas oscuras que le permiten camuflarse en el matorral.",
+        "El lince ibérico es un felino carnívoro endémico de la península ibérica.",
+        "Es el animal más simpático del bosque y todo el mundo debería acariciar uno."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-09",
+      "type": "reading",
+      "prompt": "Read the Spanish text and answer the questions.",
+      "explanation": "The text combines explanatory information with reasons supporting school gardens.",
+      "lang": "en",
+      "title": "Los huertos escolares: naturaleza en el colegio",
+      "text": "En los últimos años, muchos colegios han creado huertos escolares en sus patios. Estos espacios son pequeñas zonas de cultivo donde el alumnado siembra hortalizas, cuida las plantas y aprende el ciclo vital de los vegetales. En ellos se cultivan habitualmente tomates, lechugas y plantas aromáticas como el romero.\n\nSin embargo, los huertos no son solo lugares para aprender Ciencias Naturales de manera práctica. También son una herramienta fundamental para fomentar el trabajo en equipo, la paciencia y el respeto hacia el medioambiente. Cuando los estudiantes observan el esfuerzo necesario para obtener una simple zanahoria, comprenden mejor el valor de la comida y reducen el desperdicio en el comedor escolar. Por todo ello, consideramos indispensable que cada escuela reserve un rincón para cultivar su propio huerto, pues transforma positivamente la convivencia y los hábitos de toda la comunidad educativa.",
+      "questions": [
+        {
+          "prompt": "Which crops and plants are mentioned?",
+          "explanation": "It names tomatoes, lettuces and aromatic plants such as rosemary.",
+          "options": [
+            "Tomatoes, lettuces and aromatic plants such as rosemary.",
+            "Strawberries, courgettes and fruit trees.",
+            "Potatoes, wheat and different pulses."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "According to the text, why can a garden help reduce food waste at school lunch?",
+          "explanation": "The author argues that seeing the work needed to grow food helps pupils value it.",
+          "options": [
+            "Because all uneaten lunch food is used as garden fertiliser.",
+            "Because pupils value food more after seeing the effort needed to grow it.",
+            "Because the garden produces so much that no supermarket shopping is needed."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Considering its structure and final purpose, what type of text is it?",
+          "explanation": "Although it includes exposition, the ending defends the position that schools should have gardens, supported by reasons.",
+          "options": [
+            "Argumentative: it presents information but mainly defends the need for school gardens.",
+            "Strictly expository: it only gives scientific facts without a proposal or opinion.",
+            "Narrative: it tells the story of pupils during one planting day."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g5-lengua-texto-argumentativo-y-expositivo-10",
+      "type": "choice",
+      "prompt": "Which Spanish statement is suitable as an objective fact in an expository text about volcanoes?",
+      "explanation": "A volcano's definition can be checked scientifically. Beauty and fear express personal judgements.",
+      "hint": "Choose a statement that can be checked rather than a preference.",
+      "lang": "en",
+      "options": [
+        "Las erupciones volcánicas son los espectáculos más bonitos que existen en la Tierra.",
+        "Un volcán es una abertura en la corteza terrestre por la que emerge magma y gases.",
+        "Los volcanes dan muchísimo miedo y nadie debería visitarlos jamás."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T14:47:23.916Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:11:48.330Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "c8cb7d7845cd4329dc403e9adbc0923955736b9649949ce4ee0af1227f8de6bc",
+      "validation": "manual-review"
+    }
+  }
+}

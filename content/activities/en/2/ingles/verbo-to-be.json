@@ -1,0 +1,237 @@
+{
+  "id": "g2-ingles-verbo-to-be",
+  "cursoId": "2",
+  "asignaturaId": "ingles",
+  "temaId": "verbo-to-be",
+  "temaNombre": "The verb to be",
+  "title": "Learning the verb to be",
+  "summary": "Practise am, is and are to introduce yourself and describe people or things.",
+  "keyIdeas": [
+    "Use 'am' with 'I' in the present: I am happy.",
+    "In the present, use 'is' with he, she, it and singular names: Hugo is, the school is. Use am with I and are with you.",
+    "Use 'are' with you, we and they: You are, We are, They are."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-ingles-verbo-to-be-01",
+      "type": "fill-blank",
+      "prompt": "Choose the correct word to complete the sentence.",
+      "explanation": "In the present, use 'am' with the pronoun 'I'.",
+      "hint": "Remember the form that goes with I.",
+      "lang": "en",
+      "sentence": "I ___ a student.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-02",
+      "type": "choice",
+      "prompt": "She ___ happy today.",
+      "explanation": "In the present, use 'is' with 'she'.",
+      "hint": "Remember the form that goes with she.",
+      "lang": "en",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-03",
+      "type": "match",
+      "prompt": "Match each pronoun to its present form of to be.",
+      "explanation": "Say 'I am', 'He is' and 'They are'.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "am"
+        },
+        {
+          "left": "He",
+          "right": "is"
+        },
+        {
+          "left": "They",
+          "right": "are"
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-04",
+      "type": "true-false",
+      "prompt": "Is this sentence correct? 'They is my friends.'",
+      "explanation": "It is incorrect. Use 'are' with 'they': 'They are my friends'.",
+      "hint": "They refers to several people here.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-05",
+      "type": "classify",
+      "prompt": "Sort each pronoun by its present form of to be.",
+      "explanation": "Use 'is' with he, she and it. Use 'are' with you, we and they.",
+      "lang": "en",
+      "categories": [
+        "is",
+        "are"
+      ],
+      "items": [
+        {
+          "text": "She",
+          "category": 0
+        },
+        {
+          "text": "It",
+          "category": 0
+        },
+        {
+          "text": "We",
+          "category": 1
+        },
+        {
+          "text": "You",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-06",
+      "type": "fill-blank",
+      "prompt": "At break time, Aisha points to her friend Hugo. Complete the sentence.",
+      "explanation": "Hugo is a singular name. With this subject, the present form of to be is 'is'.",
+      "hint": "Hugo names one person.",
+      "lang": "en",
+      "sentence": "Hugo ___ my friend.",
+      "options": [
+        "am",
+        "are",
+        "is"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-07",
+      "type": "order",
+      "prompt": "Put the words in order to make a correct sentence.",
+      "explanation": "The order is the subject (We), verb (are) and place (in the park).",
+      "lang": "en",
+      "items": [
+        "We",
+        "are",
+        "in",
+        "the",
+        "park."
+      ]
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-08",
+      "type": "choice",
+      "prompt": "Omar and Lucía are in class. Omar says, 'We ___ ready!'",
+      "explanation": "Use 'are' with 'we'.",
+      "hint": "We refers to more than one person.",
+      "lang": "en",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-09",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions.",
+      "explanation": "Leo talks about himself and his friend Martina using to be.",
+      "lang": "en",
+      "title": "In the School Playground",
+      "text": "Hello! I am Leo. I am seven years old. Martina is my friend. She is funny. We are at school today. The school is big.",
+      "questions": [
+        {
+          "prompt": "Who is Leo's friend?",
+          "explanation": "The text says, 'Martina is my friend'.",
+          "options": [
+            "Lucía",
+            "Aisha",
+            "Martina"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Complete the sentence from the text: The school ___ big.",
+          "explanation": "'The school' is a singular thing (it), so the text uses 'is'.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-verbo-to-be-10",
+      "type": "fill-blank",
+      "prompt": "Choose the correct form to complete the question.",
+      "explanation": "Use 'are' with 'you' in the present, including questions: 'Are you happy today?'.",
+      "hint": "The pronoun is you.",
+      "lang": "en",
+      "sentence": "___ you happy today?",
+      "options": [
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:08:26.284Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:24:34.950Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "d3b6124949a56932767e52a766011b4ecbaebeed14c1003aa08c5889ae077003",
+      "validation": "manual-review"
+    }
+  }
+}

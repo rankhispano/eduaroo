@@ -1,0 +1,254 @@
+{
+  "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "tipos-de-textos-cuento-poema-noticia",
+  "temaNombre": "Text types: stories, poems and news reports",
+  "title": "Discovering stories, poems and news reports",
+  "summary": "Learn to tell Spanish stories, poems and news reports apart with fun activities.",
+  "keyIdeas": [
+    "A story tells an imaginary tale with characters.",
+    "Many poems are written in lines and may rhyme.",
+    "A news report gives information about events that must be checked. The examples in this activity are made up."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE8"
+    ],
+    "criteria": [
+      "4.1",
+      "4.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CCEC1",
+      "CCEC2",
+      "CCEC3",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Géneros discursivos",
+      "C. Educación literaria"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-01",
+      "type": "choice",
+      "prompt": "Which Spanish sentence has the form of a news headline? These examples are made up.",
+      "explanation": "This sentence reports an opening, giving a place and time. A published news report must check that the event happened.",
+      "hint": "Find the sentence reporting an opening.",
+      "lang": "en",
+      "options": [
+        "La luna sonríe vestida de seda blanca.",
+        "Ayer abrió la nueva biblioteca del barrio.",
+        "Un dragón vuela sobre el castillo encantado."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-02",
+      "type": "true-false",
+      "prompt": "Poems often have words that rhyme.",
+      "explanation": "Many poems play with sounds and rhythm by using rhyme.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-03",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with the correct text type.",
+      "explanation": "News reports tell us about real, recent events in a place.",
+      "lang": "en",
+      "sentence": "Para saber qué pasó ayer en mi ciudad leo una ___.",
+      "options": [
+        "poesía",
+        "adivinanza",
+        "noticia"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-04",
+      "type": "match",
+      "prompt": "Match each Spanish opening to its text type.",
+      "explanation": "«Érase una vez» begins a story, the verse forms part of a poem, and the museum sentence has the form of a news report.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Érase una vez en un bosque lejano...",
+          "right": "Story"
+        },
+        {
+          "left": "Verde que te quiero verde, verde viento...",
+          "right": "Poem"
+        },
+        {
+          "left": "El museo de la ciudad abre mañana sus puertas.",
+          "right": "News report"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-05",
+      "type": "classify",
+      "prompt": "Sort these made-up Spanish examples by their form: story, poem or news report.",
+      "explanation": "The examples include fantasy, rhyming lines and informative sentences in the form of news reports.",
+      "lang": "en",
+      "categories": [
+        "Story",
+        "Poem",
+        "News report"
+      ],
+      "items": [
+        {
+          "text": "La princesa hablaba con un unicornio mágico.",
+          "category": 0
+        },
+        {
+          "text": "El gato chiquito duerme en su saquito.",
+          "category": 1
+        },
+        {
+          "text": "Los bomberos rescatan a un perro en el parque.",
+          "category": 2
+        },
+        {
+          "text": "Había una vez un duende juguetón.",
+          "category": 0
+        },
+        {
+          "text": "Estrellita de la noche, brillas en mi coche.",
+          "category": 1
+        },
+        {
+          "text": "El colegio estrena un patio con huerto.",
+          "category": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-06",
+      "type": "reading",
+      "prompt": "Read this made-up Spanish example in the form of a news report and answer the questions.",
+      "explanation": "This example has the form of a news report, but it was made up for practice.",
+      "lang": "en",
+      "title": "Adopción de mascotas",
+      "text": "El refugio de animales del pueblo celebra hoy una fiesta. Muchas familias han acudido para adoptar perros y gatos sin hogar. Los organizadores afirman que ya han encontrado casa para diez cachorros.",
+      "questions": [
+        {
+          "prompt": "What type of text is this example?",
+          "explanation": "It has the form of a news report: it describes an event with a place, time and details.",
+          "options": [
+            "A news report",
+            "A poem",
+            "A story"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What have the organisers achieved?",
+          "explanation": "The text says they have found homes for ten puppies.",
+          "options": [
+            "A castle with dragons",
+            "Homes for ten puppies",
+            "A poetry prize"
+          ],
+          "answer": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-07",
+      "type": "order",
+      "prompt": "Put the usual parts of a story in order.",
+      "explanation": "A story begins with an introduction, continues with a problem and ends with a resolution.",
+      "lang": "en",
+      "items": [
+        "Beginning: we meet the characters",
+        "Middle: a problem happens",
+        "Ending: the story is resolved"
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-08",
+      "type": "choice",
+      "prompt": "Aisha wants to write a Spanish poem about the sun. Which line uses rhyme?",
+      "explanation": "«brillante» and «gigante» rhyme because their endings sound alike. This gives the poem rhythm.",
+      "hint": "Look for words whose endings sound alike.",
+      "lang": "en",
+      "options": [
+        "El sol brillante calienta al gigante.",
+        "El sol está en el cielo azul.",
+        "El sol sale a las siete de la mañana."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-09",
+      "type": "choice",
+      "prompt": "Find the mistake: which Spanish example has the wrong text type?",
+      "explanation": "Little Red Riding Hood is a traditional fictional story, rather than a newspaper report.",
+      "hint": "Little Red Riding Hood is a well-known fictional character.",
+      "lang": "en",
+      "options": [
+        "«Caperucita roja visitó a su abuela»: News report",
+        "«La mariposa rosa se posa»: Poem",
+        "«El rey construyó una torre mágica»: Story"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-10",
+      "type": "choice",
+      "prompt": "Hugo wants to tell the whole school about a charity match. What should he write?",
+      "explanation": "An informative notice or news report is suitable for giving information about a real event.",
+      "hint": "Hugo needs to give real information about when and where the match will be.",
+      "lang": "en",
+      "options": [
+        "An informative notice with the match's date and location.",
+        "A story about fairies and fast elves.",
+        "A rhyming poem about dragons."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:20:40.162Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:28:30.489Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "99451bee2134820e9ab87727602925e898dd38371ed0dc7a45448ea04ac4551a",
+      "validation": "manual-review"
+    }
+  }
+}

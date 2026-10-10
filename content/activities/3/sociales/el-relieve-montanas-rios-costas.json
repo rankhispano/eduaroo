@@ -9,7 +9,7 @@
   "keyIdeas": [
     "El relieve es el conjunto de formas que tiene la superficie de la Tierra.",
     "Las montañas tienen tres partes principales: pie, ladera y cumbre o cima.",
-    "Los ríos nacen en las montañas y recorren tres cursos hasta su desembocadura en el mar."
+    "En un río distinguimos nacimiento, curso y desembocadura, que puede estar en el mar, un lago u otro río."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -138,8 +138,8 @@
     {
       "id": "g3-sociales-el-relieve-montanas-rios-costas-06",
       "type": "order",
-      "prompt": "Ordena el recorrido del agua de un río desde su inicio hasta el final.",
-      "explanation": "El río nace arriba en la montaña, recorre sus tres cursos y desemboca en el mar.",
+      "prompt": "Ordena el recorrido de un río que nace en una montaña y desemboca en el mar.",
+      "explanation": "Este río va de la montaña al mar. Otros ríos desembocan en lagos o en otro río, y sus cursos pueden tener características diferentes.",
       "lang": "es",
       "items": [
         "Nacimiento en la montaña",
@@ -205,8 +205,8 @@
     {
       "id": "g3-sociales-el-relieve-montanas-rios-costas-10",
       "type": "choice",
-      "prompt": "Nerea observa en un mapa que varios pueblos costeros se sitúan junto a una bahía. ¿Por qué es un buen lugar para un puerto? ⛵",
-      "explanation": "Las bahías ofrecen aguas tranquilas y protegidas del viento, ideales para construir puertos seguros.",
+      "prompt": "Una bahía está protegida del oleaje por la forma de su costa. ¿Por qué puede ser un buen lugar para un puerto?",
+      "explanation": "En esta bahía, la costa protege del oleaje. Para construir un puerto también se estudian la profundidad y otras condiciones.",
       "hint": "Piensa en la protección que ofrecen las curvas de la costa.",
       "lang": "es",
       "options": [

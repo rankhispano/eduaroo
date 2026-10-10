@@ -1,0 +1,231 @@
+{
+  "id": "g3-mates-tablas-completas",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "tablas-completas",
+  "temaNombre": "All the times tables",
+  "title": "Mission: Times-table experts",
+  "summary": "Practise times tables through challenges, patterns and useful strategies in everyday situations.",
+  "keyIdeas": [
+    "For these whole numbers, multiplication is a quick way to add the same number repeatedly.",
+    "Changing the order of the factors does not change the product: 6 × 7 equals 7 × 6.",
+    "Patterns help you remember tricky products using facts you already know."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE3",
+      "CE5"
+    ],
+    "criteria": [
+      "2.2",
+      "3.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Sentido de las operaciones",
+      "D. Sentido algebraico › Patrones",
+      "D. Sentido algebraico › Relaciones y funciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-tablas-completas-01",
+      "type": "choice",
+      "prompt": "Aisha has 4 pencil cases with 6 felt-tip pens in each. How many pens does she have altogether?",
+      "explanation": "4 × 6 = 24 pens. Adding 4 + 6 gives 10, but here we need four groups of 6.",
+      "hint": "Think of 4 groups of 6 pens.",
+      "lang": "en",
+      "options": [
+        "10 pens",
+        "24 pens",
+        "20 pens",
+        "28 pens"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-tablas-completas-02",
+      "type": "true-false",
+      "prompt": "7 × 8 gives exactly the same answer as 8 × 7.",
+      "explanation": "True. This is the commutative property: swapping the factors does not change the product. Both products are 56.",
+      "hint": "Does the order matter in multiplication?",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-tablas-completas-03",
+      "type": "match",
+      "prompt": "Match each multiplication to its product.",
+      "explanation": "Check each one: 6 × 7 = 42, 8 × 8 = 64, 9 × 4 = 36 and 7 × 5 = 35.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "6 × 7",
+          "right": "42"
+        },
+        {
+          "left": "8 × 8",
+          "right": "64"
+        },
+        {
+          "left": "9 × 4",
+          "right": "36"
+        },
+        {
+          "left": "7 × 5",
+          "right": "35"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-tablas-completas-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the missing number.",
+      "explanation": "Use the 10 times table: 10 × 6 = 60. Subtract one group of 6: 60 - 6 = 54.",
+      "hint": "Subtract 6 from 60.",
+      "lang": "en",
+      "sentence": "To calculate 9 × 6, remember that 10 × 6 is 60 and subtract 6 to get ___.",
+      "options": [
+        "54",
+        "48",
+        "56"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-tablas-completas-05",
+      "type": "classify",
+      "prompt": "Sort each multiplication by whether its answer is even or odd.",
+      "explanation": "A whole number multiplied by an even number gives an even product: 4 × 7 = 28, 6 × 6 = 36, 8 × 5 = 40. Two odd numbers give an odd product: 3 × 5 = 15, 7 × 7 = 49, 9 × 3 = 27.",
+      "lang": "en",
+      "categories": [
+        "Even product",
+        "Odd product"
+      ],
+      "items": [
+        {
+          "text": "3 × 5",
+          "category": 1
+        },
+        {
+          "text": "4 × 7",
+          "category": 0
+        },
+        {
+          "text": "7 × 7",
+          "category": 1
+        },
+        {
+          "text": "6 × 6",
+          "category": 0
+        },
+        {
+          "text": "9 × 3",
+          "category": 1
+        },
+        {
+          "text": "8 × 5",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-tablas-completas-06",
+      "type": "choice",
+      "prompt": "Hugo says 7 × 8 is 54. What is his mistake?",
+      "explanation": "7 × 8 = 56, so Hugo's answer is 2 less than the correct product.",
+      "hint": "Use the 7 times table: 7 × 7 = 49. What is 49 + 7?",
+      "lang": "en",
+      "options": [
+        "His answer is 2 too small because 7 × 8 = 56.",
+        "His answer is 2 too large because 7 × 8 = 52.",
+        "He multiplies by 6 instead of 8."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-tablas-completas-07",
+      "type": "order",
+      "prompt": "The garden has 5 rows of 8 lettuces. 12 lettuces are picked. Put the steps in order to find how many are left.",
+      "explanation": "First multiply rows by lettuces: 5 × 8 = 40. Then subtract those picked: 40 - 12 = 28.",
+      "lang": "en",
+      "items": [
+        "Identify 5 rows of 8 lettuces each.",
+        "Multiply 5 × 8 to find the total planted (40).",
+        "Subtract the 12 picked from the total (40 - 12).",
+        "Give the final answer: 28 lettuces are left."
+      ]
+    },
+    {
+      "id": "g3-mates-tablas-completas-08",
+      "type": "choice",
+      "prompt": "Omar buys 3 packets of 6 trading cards. His grandmother gives him 5 more cards. How many does he have altogether?",
+      "explanation": "First multiply the packet cards: 3 × 6 = 18. Then add the gift: 18 + 5 = 23 cards.",
+      "hint": "Use two steps: multiply, then add.",
+      "lang": "en",
+      "options": [
+        "28 cards",
+        "23 cards",
+        "14 cards",
+        "18 cards"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-tablas-completas-09",
+      "type": "true-false",
+      "prompt": "All the results in the 6 times table end in an even digit: 0, 2, 4, 6 or 8.",
+      "explanation": "True. A whole number multiplied by an even number such as 6 gives an even product: 6, 12, 18, 24, 30, 36, 42, 48, 54, 60.",
+      "hint": "Check the endings: 6 × 1 = 6, 6 × 2 = 12, 6 × 3 = 18...",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-tablas-completas-10",
+      "type": "choice",
+      "prompt": "Martina wants a number that is in both the 3 and 4 times tables and is less than 20. Which choice fits?",
+      "explanation": "12 is in both tables: 3 × 4 = 12 and 4 × 3 = 12. 15 and 18 are not in the 4 times table, and 16 is not in the 3 times table.",
+      "hint": "Find a number made by multiplying by 3 and also by 4.",
+      "lang": "en",
+      "options": [
+        "15",
+        "12",
+        "16",
+        "18"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:08:22.136Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:49:59.697Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "6edc251e2bccb34a9b9b4bae2815e28fc8a631f9ea99ef3593020b7077b0bbc3",
+      "validation": "manual-review"
+    }
+  }
+}

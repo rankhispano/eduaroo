@@ -7,7 +7,7 @@
   "title": "Viaje por la España contemporánea",
   "summary": "Repasa los grandes cambios políticos, sociales y culturales de España durante los siglos XIX y XX.",
   "keyIdeas": [
-    "El siglo XIX comenzó con la Guerra de la Independencia y la Constitución de Cádiz de 1812.",
+    "En las primeras décadas del siglo XIX tuvieron lugar la Guerra de la Independencia y la Constitución de Cádiz de 1812.",
     "La sociedad pasó de estamentos a clases sociales con el auge de la industria y el ferrocarril.",
     "Las mujeres lucharon activamente por acceder a la educación superior y conseguir el derecho al voto."
   ],
@@ -39,8 +39,8 @@
     {
       "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-01",
       "type": "true-false",
-      "prompt": "La Constitución de 1812, aprobada en Cádiz y apodada popularmente «la Pepa», fue el primer texto constitucional de la historia de España.",
-      "explanation": "Se promulgó el 19 de marzo de 1812, día de San José (por eso la llamaron «la Pepa»), y limitaba por primera vez el poder absoluto del rey.",
+      "prompt": "La Constitución de Cádiz de 1812, conocida como «la Pepa», fue la primera Constitución española elaborada por unas Cortes.",
+      "explanation": "Las Cortes de Cádiz la aprobaron el 19 de marzo de 1812. Reconocía la soberanía nacional y limitaba el poder del rey.",
       "lang": "es",
       "answer": true
     },
@@ -143,7 +143,7 @@
       "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-07",
       "type": "choice",
       "prompt": "Durante las últimas décadas del siglo XIX y principios del XX, miles de familias campesinas abandonaron sus pueblos para trasladarse a ciudades como Barcelona o Bilbao. ¿Cuál fue la causa principal de este «éxodo rural»?",
-      "explanation": "La pobreza en el campo y la escasa mecanización empujaron a la población a emigrar a las ciudades industriales, donde surgían talleres y fábricas que demandaban mano de obra.",
+      "explanation": "Las dificultades económicas del campo y la demanda de trabajadores en ciudades industriales favorecieron la emigración rural.",
       "hint": "Piensa en qué ofrecían las grandes urbes industriales frente a las dificultades del campo.",
       "lang": "es",
       "options": [
@@ -197,7 +197,7 @@
     {
       "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-09",
       "type": "choice",
-      "prompt": "En 1898, España perdió sus últimas posesiones de ultramar (Cuba, Puerto Rico y Filipinas). Este hecho, conocido como «el Desastre del 98», provocó principalmente:",
+      "prompt": "En 1898, España perdió Cuba, Puerto Rico y Filipinas como posesiones de ultramar . Este hecho, conocido como «el Desastre del 98», provocó principalmente:",
       "explanation": "La pérdida de las colonias supuso un fuerte golpe anímico para el país, impulsando a la 'Generación del 98' a reflexionar sobre los problemas de España y la necesidad de regenerar sus instituciones.",
       "hint": "Provocó desánimo social e inspiró a autores como Unamuno o Machado a reflexionar sobre el país.",
       "lang": "es",

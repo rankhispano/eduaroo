@@ -64,6 +64,8 @@ export type ActivityType =
     | 'order'
     | 'reading';
 
+export type ActivityLocale = 'es' | 'en';
+
 interface ActivityBase {
     id: string;
     type: ActivityType;
@@ -71,6 +73,7 @@ interface ActivityBase {
     explanation: string; // Feedback formativo tras responder
     hint?: string;
     lang?: 'es' | 'en'; // Idioma del contenido (para la lectura en voz alta)
+    contentLang?: ActivityLocale; // Ejemplos y lecturas en español dentro de instrucciones en inglés
 }
 
 export interface ChoiceActivity extends ActivityBase {
@@ -148,6 +151,15 @@ export interface ActivitySet {
         model: string;
         generatedAt: string;
         reviewed: boolean; // Pasa a true cuando un docente lo revisa
+        translation?: {
+            generator: string;
+            model: string;
+            translatedAt: string;
+            sourceLocale: 'es';
+            targetLocale: 'en';
+            sourceHash: string;
+            validation?: 'manual-review' | 'blind-solutions';
+        };
     };
 }
 
@@ -156,6 +168,7 @@ export interface ActivitySetSummary {
     cursoId: CursoId;
     asignaturaId: AsignaturaId;
     temaId: string;
+    temaNombre: string;
     title: string;
     summary: string;
     activityCount: number;

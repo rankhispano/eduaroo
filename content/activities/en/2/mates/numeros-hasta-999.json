@@ -1,0 +1,233 @@
+{
+  "id": "g2-mates-numeros-hasta-999",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "numeros-hasta-999",
+  "temaNombre": "Numbers up to 999",
+  "title": "Mission: Numbers up to 999",
+  "summary": "Practise reading, ordering and understanding the value of numbers up to 999 with fun challenges.",
+  "keyIdeas": [
+    "A three-digit number has hundreds, tens and ones.",
+    "1 hundred is worth 10 tens or 100 ones.",
+    "To compare three-digit numbers, look at the hundreds first."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "3.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-numeros-hasta-999-01",
+      "type": "choice",
+      "prompt": "Hugo has 3 packets of 100 trading cards and 4 loose cards. How many cards does he have altogether?",
+      "explanation": "3 hundreds make 300 and 4 ones make 4. He has 304 cards altogether.",
+      "hint": "There are no packets of 10 cards.",
+      "lang": "en",
+      "options": [
+        "304 cards",
+        "340 cards",
+        "34 cards"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-02",
+      "type": "classify",
+      "prompt": "Sort these numbers into less than 500 or greater than 500.",
+      "explanation": "Look at the hundreds first. If there are 5 hundreds, check the tens and ones: 512 is greater than 500 because it has 12 more ones.",
+      "lang": "en",
+      "categories": [
+        "Less than 500",
+        "Greater than 500"
+      ],
+      "items": [
+        {
+          "text": "489",
+          "category": 0
+        },
+        {
+          "text": "512",
+          "category": 1
+        },
+        {
+          "text": "399",
+          "category": 0
+        },
+        {
+          "text": "701",
+          "category": 1
+        },
+        {
+          "text": "250",
+          "category": 0
+        },
+        {
+          "text": "630",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-03",
+      "type": "match",
+      "prompt": "Match each number to its expanded addition.",
+      "explanation": "Each number is the sum of its hundreds, tens and ones.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "624",
+          "right": "600 + 20 + 4"
+        },
+        {
+          "left": "805",
+          "right": "800 + 5"
+        },
+        {
+          "left": "470",
+          "right": "400 + 70"
+        },
+        {
+          "left": "159",
+          "right": "100 + 50 + 9"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-04",
+      "type": "order",
+      "prompt": "Put these race numbers in order from smallest to largest.",
+      "explanation": "Compare the hundreds first: 100 < 200 < 400 < 600 < 800.",
+      "lang": "en",
+      "items": [
+        "198",
+        "205",
+        "410",
+        "632",
+        "890"
+      ]
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-05",
+      "type": "fill-blank",
+      "prompt": "Find the next page number.",
+      "explanation": "700 comes after 699. Add one to move to the next hundred.",
+      "hint": "Add 1 to 699.",
+      "lang": "en",
+      "sentence": "Aisha finishes page 699 of her storybook. The next page is ___.",
+      "options": [
+        "690",
+        "700",
+        "800"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-06",
+      "type": "choice",
+      "prompt": "Omar wants to write 'five hundred and eight'. He writes 580. What is his mistake?",
+      "explanation": "Five hundred and eight has 5 hundreds, 0 tens and 8 ones: 508. Omar writes 8 tens.",
+      "hint": "Look at where he puts the 8.",
+      "lang": "en",
+      "options": [
+        "He puts 8 hundreds instead of 5.",
+        "He puts 8 tens instead of 8 ones.",
+        "He forgets the 5 at the beginning."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-07",
+      "type": "true-false",
+      "prompt": "In 742, the digit 4 is worth 40 ones.",
+      "explanation": "True. The 4 is in the tens place, so it is worth 40.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-08",
+      "type": "choice",
+      "prompt": "In a game, you add 10 points with each jump: 320, 330, 340... What comes next?",
+      "explanation": "The sequence increases by 10 each time. 340 + 10 = 350.",
+      "hint": "Add one ten to 340.",
+      "lang": "en",
+      "options": [
+        "350",
+        "440",
+        "341"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-09",
+      "type": "choice",
+      "prompt": "A theatre has 489 people seated. Which whole hundred is this number closest to?",
+      "explanation": "489 is close to 500. It needs only 11 more to reach 500.",
+      "hint": "Compare the distance to 500 with the distance to 400.",
+      "lang": "en",
+      "options": [
+        "500 people",
+        "400 people",
+        "600 people"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-numeros-hasta-999-10",
+      "type": "choice",
+      "prompt": "Martina looks for her locker. Its number has more than 6 hundreds and ends in 5. Which locker is it?",
+      "explanation": "725 has 7 hundreds, more than 6, and ends in 5 ones. It fits both clues.",
+      "hint": "Look at the first and last digits.",
+      "lang": "en",
+      "options": [
+        "Locker 725",
+        "Locker 565",
+        "Locker 602"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:59:31.812Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:32:22.594Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "013ff256ec99fa095ec8a19ccee82fca3f21fce5bbb3940ec23f903aadc9b09e",
+      "validation": "manual-review"
+    }
+  }
+}

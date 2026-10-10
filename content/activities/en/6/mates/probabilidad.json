@@ -1,0 +1,247 @@
+{
+  "id": "g6-mates-probabilidad",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "probabilidad",
+  "temaNombre": "Probability",
+  "title": "Exploring Chance",
+  "summary": "Practise calculating probabilities, comparing chances and spotting common mistakes about randomness. These exercises use Spanish decimal commas.",
+  "keyIdeas": [
+    "When all outcomes are equally likely, Laplace's rule divides the number of favourable outcomes by the number of possible outcomes.",
+    "An event can be impossible (probability 0), possible but not certain (between 0 and 1), or certain (probability 1).",
+    "Compare favourable outcomes with the total number of possible outcomes, rather than just counting favourable ones."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "2.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "E. Sentido estocástico › Incertidumbre",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-probabilidad-01",
+      "type": "classify",
+      "prompt": "Sort these events when rolling a fair six-sided die numbered 1 to 6.",
+      "explanation": "An event that always happens is certain (probability 1). One that cannot happen is impossible (0). The remaining events here are possible but not certain.",
+      "lang": "en",
+      "categories": [
+        "Impossible",
+        "Possible but not certain",
+        "Certain"
+      ],
+      "items": [
+        {
+          "text": "Rolling a number less than 7",
+          "category": 2
+        },
+        {
+          "text": "Rolling a number greater than 6",
+          "category": 0
+        },
+        {
+          "text": "Rolling an even number (2, 4 or 6)",
+          "category": 1
+        },
+        {
+          "text": "Rolling an odd number (1, 3 or 5)",
+          "category": 1
+        },
+        {
+          "text": "Rolling 0",
+          "category": 0
+        },
+        {
+          "text": "Rolling a number from 1 to 6 inclusive",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-probabilidad-02",
+      "type": "choice",
+      "prompt": "Nerea has a bag containing well-mixed marbles of the same size: 4 red, 3 blue and 3 green. What is the probability of picking a blue marble without looking?",
+      "explanation": "There are 4 + 3 + 3 = 10 marbles, and 3 are blue. The probability is 3/10.",
+      "hint": "Add all the marbles to find the total number of possible outcomes.",
+      "lang": "en",
+      "options": [
+        "7/10",
+        "3/7",
+        "3/10",
+        "4/10"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-probabilidad-03",
+      "type": "match",
+      "prompt": "A bag holds ten balls numbered 1 to 10, each equally likely to be picked. Match each event to its probability.",
+      "explanation": "Count how many numbers satisfy the condition, then divide by the total of 10 balls.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Picking an odd number",
+          "right": "5/10"
+        },
+        {
+          "left": "Picking a number greater than 8 (9 or 10)",
+          "right": "2/10"
+        },
+        {
+          "left": "Picking exactly 5",
+          "right": "1/10"
+        },
+        {
+          "left": "Picking a number less than 11",
+          "right": "10/10"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-probabilidad-04",
+      "type": "fill-blank",
+      "prompt": "Calculate the probability, assuming each crayon is equally likely to be picked.",
+      "explanation": "The non-red crayons are 4 blue plus 2 yellow: 6 out of 12. The probability is 6/12.",
+      "lang": "en",
+      "sentence": "Aisha has 12 crayons: 6 red, 4 blue and 2 yellow. The probability of picking a crayon that is NOT red without looking is ___.",
+      "options": [
+        "4/12",
+        "2/12",
+        "6/12",
+        "8/12"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-probabilidad-05",
+      "type": "choice",
+      "prompt": "Hugo tosses a fair coin 100 times and says, 'I will get EXACTLY 50 heads and 50 tails because the probability is 50 %.' Is his reasoning correct?",
+      "explanation": "No. A 50 % probability does not guarantee equal counts in 100 tosses. For example, 48 heads and 52 tails are possible.",
+      "hint": "Does randomness always give exact counts, or can they vary?",
+      "lang": "en",
+      "options": [
+        "Yes: Laplace's rule guarantees exactly half of each outcome in 100 tosses.",
+        "No: probability gives the theoretical chance, but the actual results can vary.",
+        "No: heads is always more likely than tails."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-probabilidad-06",
+      "type": "order",
+      "prompt": "Put these events in order from least to most likely when rolling a fair six-sided die.",
+      "explanation": "Their probabilities are 1/6 < 3/6 < 5/6 < 6/6.",
+      "lang": "en",
+      "items": [
+        "Rolling a 6",
+        "Rolling an even number",
+        "Rolling a number greater than 1",
+        "Rolling a number less than 7"
+      ]
+    },
+    {
+      "id": "g6-mates-probabilidad-07",
+      "type": "choice",
+      "prompt": "At the school fair, two spinners have equal-sized sectors. Spinner A has 2 red sectors out of 4; spinner B has 3 out of 8. Which gives a greater chance of red?",
+      "explanation": "2/4 = 0,50 (50 %), while 3/8 = 0,375 (37,5 %). Spinner A gives the greater chance.",
+      "hint": "Compare the red sectors as a fraction of each spinner's total.",
+      "lang": "en",
+      "options": [
+        "Spinner A, because 2/4 (50 %) is greater than 3/8 (37,5 %).",
+        "Spinner B, because 3 red sectors are more than 2.",
+        "Both spinners give the same chance."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-probabilidad-08",
+      "type": "true-false",
+      "prompt": "With a fair six-sided die, the probability of a prime number (2, 3 or 5) is 0,5, or 50 %.",
+      "explanation": "True. There are 3 prime-number outcomes out of 6, so 3/6 = 0,5 = 50 %.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-mates-probabilidad-09",
+      "type": "choice",
+      "prompt": "Omar makes 20 cards, including 5 with a star. Lucía makes 50, including 10 with a star. Each set is well mixed and looks identical from the back. Which set gives a greater chance of a star?",
+      "explanation": "Compare the proportions: 5/20 = 25 %, which is greater than 10/50 = 20 %.",
+      "hint": "Find the fraction of star cards in each set.",
+      "lang": "en",
+      "options": [
+        "Omar's set: 5/20 = 25 %, compared with 10/50 = 20 %.",
+        "Lucía's set, because it has more stars.",
+        "Both sets give the same chance."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-probabilidad-10",
+      "type": "reading",
+      "prompt": "Read about the probability experiment and answer the questions.",
+      "explanation": "Compare favourable outcomes with all possible outcomes in each situation.",
+      "lang": "en",
+      "title": "The Classroom Containers",
+      "text": "In Year 6, the class prepares three opaque containers to investigate chance. All the balls have the same size and are mixed before one is picked without looking. Container A has 10 red and 10 blue balls; B has 4 red and 12 blue; C has 6 red and 2 blue.\n\nWei thinks red is most likely in C. Martina prefers A because it has more red balls altogether. The teacher suggests comparing the fraction of red balls in each container. The class will then make several picks, replacing and mixing the ball each time, to compare their results with the calculated probabilities.",
+      "questions": [
+        {
+          "prompt": "Which container gives the greatest chance of picking red?",
+          "explanation": "Container C has 6 red balls out of 8: 6/8 = 3/4 = 75 %, the highest chance.",
+          "options": [
+            "Container B: 25 % (4 out of 16).",
+            "Container A: 50 % (10 out of 20).",
+            "Container C: 75 % (6 out of 8)."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What was wrong with Martina's first reasoning about A?",
+          "explanation": "She counted only the 10 red balls without comparing them with the total of 20.",
+          "options": [
+            "She considered only the number of red balls and ignored the total number of balls.",
+            "She confused the number of red balls in A with the number in B.",
+            "She thought blue balls were not part of the game."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.6-flash",
+    "generatedAt": "2026-10-08T11:35:50.745Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:34:40.552Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f1039fb3162aab337da9463edeca73d48512cc5f53e758b80534f5a173f60326",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad",
+  "cursoId": "6",
+  "asignaturaId": "naturales",
+  "temaId": "la-reproduccion-humana-y-la-pubertad",
+  "temaNombre": "Human reproduction and puberty",
+  "title": "Human reproduction and puberty",
+  "summary": "Learn how the body changes during puberty, the basics of reproduction, and how to care for yourself while respecting everyone’s privacy.",
+  "keyIdeas": [
+    "Puberty is a stage of body changes controlled by hormones. It starts at different ages and develops at different speeds for each person.",
+    "Egg cells mature in the ovaries, and sperm cells are produced in the testes. Their joining is called fertilisation.",
+    "If the embryo implants in the lining of the uterus, a pregnancy can begin. The placenta allows oxygen, nutrients and waste to be exchanged.",
+    "Menstruation, or a period, is when blood and part of the uterus lining leave through the vagina. It is a natural process.",
+    "Your body and privacy deserve respect. You can ask a trusted adult for help. You do not have to share private experiences in class."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE4",
+      "CE5"
+    ],
+    "criteria": [
+      "4.1",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "CPSAA2",
+      "CPSAA3",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-01",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about reproductive cells.",
+      "explanation": "Reproductive cells are called gametes. Egg cells mature in the ovaries, and sperm cells are produced in the testes.",
+      "hint": "Think of the reproductive cell that matures in the ovaries.",
+      "lang": "en",
+      "sentence": "Sperm cells and ___ are human reproductive cells.",
+      "options": [
+        "egg cells",
+        "zygotes",
+        "embryos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-02",
+      "type": "match",
+      "prompt": "Match each organ to its role in reproduction.",
+      "explanation": "Egg cells mature in the ovaries, and sperm cells are produced in the testes. Fertilisation usually happens in a fallopian tube. The embryo can then implant and develop in the uterus.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Ovaries",
+          "right": "Contain reproductive cells that mature into egg cells."
+        },
+        {
+          "left": "Uterus",
+          "right": "Organ where the embryo, and later the foetus, develops during pregnancy."
+        },
+        {
+          "left": "Testes",
+          "right": "Produce sperm cells from puberty onwards."
+        },
+        {
+          "left": "Fallopian tubes",
+          "right": "Collect the released egg cell and carry it towards the uterus."
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-03",
+      "type": "classify",
+      "prompt": "Sort these processes into puberty or pregnancy.",
+      "explanation": "Puberty includes body changes and the maturing of reproductive functions. During pregnancy, the embryo, and later the foetus, develops in the uterus. Not everyone experiences all these processes.",
+      "lang": "en",
+      "categories": [
+        "Puberty",
+        "Pregnancy"
+      ],
+      "items": [
+        {
+          "text": "Periods begin.",
+          "category": 0
+        },
+        {
+          "text": "Sperm production begins.",
+          "category": 0
+        },
+        {
+          "text": "A growth spurt between childhood and adolescence.",
+          "category": 0
+        },
+        {
+          "text": "The embryo develops inside the uterus.",
+          "category": 1
+        },
+        {
+          "text": "The placenta forms.",
+          "category": 1
+        },
+        {
+          "text": "Nutrients are exchanged with the foetus through the placenta.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-04",
+      "type": "true-false",
+      "prompt": "During puberty, only the body changes; emotions always stay the same.",
+      "explanation": "False. Emotions, interests and relationships can also change at this stage. Talking to a trusted adult can help if something worries you.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-05",
+      "type": "order",
+      "prompt": "Put these steps in order for a pregnancy beginning with fertilisation in a fallopian tube.",
+      "explanation": "Ovulation releases an egg cell. If it joins with a sperm cell, a zygote forms and divides. Days later, the embryo can implant in the uterus lining and continue developing until birth.",
+      "lang": "en",
+      "items": [
+        "The ovary releases an egg cell: ovulation.",
+        "A sperm cell joins with the egg cell to form a zygote: fertilisation.",
+        "The zygote divides as it moves towards the uterus.",
+        "The embryo implants in the lining of the uterus.",
+        "The embryo, and later the foetus, grows during pregnancy.",
+        "The baby is born."
+      ]
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-06",
+      "type": "choice",
+      "prompt": "Find the mistake: which statement about puberty is incorrect?",
+      "explanation": "Puberty does not begin on a particular birthday. The timing and speed of changes vary between people. Anyone with questions about their development can talk to a trusted adult or a health professional.",
+      "hint": "Think about whether all bodies change on the same timetable.",
+      "lang": "en",
+      "options": [
+        "Puberty starts on everyone’s eleventh birthday.",
+        "Spots may appear and sweating may increase during puberty.",
+        "Daily hygiene and rest help us care for our bodies.",
+        "Two people of the same age may develop at different speeds."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-07",
+      "type": "choice",
+      "prompt": "The foetus grows in the uterus and needs oxygen and nutrients. Which organ allows it to receive these from the mother’s blood?",
+      "explanation": "The placenta allows oxygen, nutrients and waste to be exchanged between the mother and foetus. The umbilical cord connects the foetus to the placenta. The placenta does not block all harmful substances.",
+      "hint": "This organ forms during pregnancy.",
+      "lang": "en",
+      "options": [
+        "The foetus’s stomach.",
+        "The placenta.",
+        "The foetus’s lungs."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-08",
+      "type": "reading",
+      "prompt": "Read the text and answer without sharing personal experiences.",
+      "explanation": "Hormones are involved in the changes of puberty. Respecting different rates of development and everyone’s privacy helps each person feel supported.",
+      "lang": "en",
+      "title": "Every body has its own pace",
+      "text": "In science class, Grade 6 pupils learn that hormones are the body’s chemical messengers. They are involved in changes during puberty, such as growth spurts, body hair and the maturing of reproductive organs. Girls usually develop breasts and begin having periods. Boys’ voices usually become deeper and sperm production begins. The timing and extent of changes can vary.\n\nThe teacher reminds everyone that being the same age does not mean changing at the same speed. We cannot tell how someone feels just by looking at them. Nobody has to share private details about their body in class.\n\nThe group suggests listening respectfully, avoiding comparisons and not making jokes about bodies. If something worries them, they can ask a trusted adult for help. Caring for ourselves also means respecting our own privacy and other people’s.",
+      "questions": [
+        {
+          "prompt": "Which substances act as chemical messengers during these changes?",
+          "explanation": "The text explains that hormones are chemical messengers involved in the changes of puberty.",
+          "options": [
+            "Vitamins.",
+            "Hormones.",
+            "Red blood cells."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Two classmates of the same age have different heights. What conclusion does the text support?",
+          "explanation": "Age and height alone cannot tell us about health or predict development. The text explains that the speed of changes can vary.",
+          "options": [
+            "We can tell who is healthier just from their height.",
+            "They may grow at different speeds.",
+            "Whoever is taller now will always be taller as an adult."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Someone does not want to share details about body changes. How should the group respond?",
+          "explanation": "Everyone has a right to privacy. We can learn about puberty without sharing private experiences or commenting on other people’s bodies.",
+          "options": [
+            "Ask them to explain so everyone can compare themselves.",
+            "Respect their decision and keep learning with general examples.",
+            "Try to guess the changes from their appearance."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-09",
+      "type": "choice",
+      "prompt": "Adrián feels unsure about changes in his body and asks Nerea for advice. Which advice could help him?",
+      "explanation": "New emotions may appear during puberty. Listening and seeking support can help. If worries last or make daily life difficult, telling a trusted adult can help someone get support.",
+      "hint": "Think about seeking support without sharing private details with the whole group.",
+      "lang": "en",
+      "options": [
+        "Compare himself with others every day to see if he is changing fast enough.",
+        "Always keep his worries to himself, even if they stop him enjoying the day.",
+        "Talk to a trusted adult about what worries him."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-naturales-la-reproduccion-humana-y-la-pubertad-10",
+      "type": "match",
+      "prompt": "Match each process to its meaning.",
+      "explanation": "Ovulation and menstruation are different processes in the menstrual cycle. Fertilisation is the joining of reproductive cells. Development during pregnancy is called gestation.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Ovulation",
+          "right": "The release of an egg cell from an ovary."
+        },
+        {
+          "left": "Menstruation",
+          "right": "Blood and part of the uterus lining leave through the vagina."
+        },
+        {
+          "left": "Fertilisation",
+          "right": "An egg cell and a sperm cell join."
+        },
+        {
+          "left": "Gestation",
+          "right": "The embryo, and later the foetus, develops in the uterus during pregnancy."
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T14:21:06.602Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T09:46:03.700Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "ba5f915509f68d94d4857ba02297e41d43a16d12a8ebbe89c64e1729313f9e01"
+    }
+  }
+}

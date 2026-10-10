@@ -1,0 +1,248 @@
+{
+  "id": "g3-lengua-silaba-tonica-y-atona",
+  "cursoId": "3",
+  "asignaturaId": "lengua",
+  "temaId": "silaba-tonica-y-atona",
+  "temaNombre": "Stressed and unstressed syllables",
+  "title": "The rhythm of syllables",
+  "summary": "Learn to tell stressed and unstressed syllables apart in Spanish words.",
+  "keyIdeas": [
+    "In these example words, the stressed syllable is pronounced more strongly.",
+    "The other syllables in these examples are unstressed and pronounced less strongly.",
+    "Saying a word naturally helps you recognise its stress."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-01",
+      "type": "choice",
+      "prompt": "Aisha explains a stressed syllable to her brother. Which explanation is correct?",
+      "explanation": "A stressed syllable is the syllable given the strongest emphasis in a word.",
+      "hint": "Think of which syllable sounds strongest when you speak.",
+      "lang": "en",
+      "options": [
+        "Any syllable without a written accent mark.",
+        "Always the first syllable of a word.",
+        "The syllable pronounced most strongly in a word."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-02",
+      "type": "true-false",
+      "prompt": "The Spanish word «cartera» has two stressed syllables.",
+      "explanation": "In «car-te-ra», only «te» is stressed. «car» and «ra» are unstressed.",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-03",
+      "type": "choice",
+      "prompt": "Hugo says the Spanish word «cartera» («car-te-ra») aloud. 🎒 Which syllable is stressed?",
+      "explanation": "The strongest emphasis in «car-te-ra» falls on «te».",
+      "hint": "Imagine calling the word from far away: «¡car-TEE-ra!».",
+      "lang": "en",
+      "options": [
+        "te",
+        "car",
+        "ra"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-04",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with the correct word.",
+      "explanation": "Unstressed syllables are pronounced less strongly, without the word's main stress.",
+      "lang": "en",
+      "sentence": "Las sílabas de una palabra que se pronuncian con menos fuerza se llaman sílabas ___.",
+      "options": [
+        "tónicas",
+        "átonas",
+        "fuertes"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-05",
+      "type": "match",
+      "prompt": "Match each Spanish word to its stressed syllable.",
+      "explanation": "The stress falls on these syllables: «plá» in «plá-ta-no», «loj» in «re-loj», «ta» in «ven-ta-na» and «mú» in «mú-si-ca».",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "plátano",
+          "right": "plá"
+        },
+        {
+          "left": "reloj",
+          "right": "loj"
+        },
+        {
+          "left": "ventana",
+          "right": "ta"
+        },
+        {
+          "left": "música",
+          "right": "mú"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-06",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by the position of their stressed syllable.",
+      "explanation": "«balón», «papel» and «ratón» have final stress. «mesa», «árbol» and «mochila» have stress on the second-last syllable.",
+      "lang": "en",
+      "categories": [
+        "Stress on the last syllable",
+        "Stress on the second-last syllable"
+      ],
+      "items": [
+        {
+          "text": "balón",
+          "category": 0
+        },
+        {
+          "text": "mesa",
+          "category": 1
+        },
+        {
+          "text": "papel",
+          "category": 0
+        },
+        {
+          "text": "árbol",
+          "category": 1
+        },
+        {
+          "text": "ratón",
+          "category": 0
+        },
+        {
+          "text": "mochila",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-07",
+      "type": "choice",
+      "prompt": "Lucía marks the stressed syllable in capitals in four Spanish words. Which one has a mistake?",
+      "explanation": "«PA-pel» is incorrect. Say «pa-PEL», so «pel» is stressed, rather than «pa».",
+      "hint": "Say «papel» naturally to hear where the stress falls.",
+      "lang": "en",
+      "options": [
+        "ca-MI-sa",
+        "or-de-na-DOR",
+        "PA-pel",
+        "es-CUE-la"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-08",
+      "type": "reading",
+      "prompt": "Read the Spanish text and answer the questions.",
+      "explanation": "The story uses a calling trick to stretch the stressed syllable and tell it apart from the unstressed syllables.",
+      "lang": "en",
+      "title": "El juego del caza-sílabas",
+      "text": "Hoy en clase de tercero hemos jugado al «caza-sílabas». La maestra Clara nos ha enseñado un truco muy divertido: para encontrar la sílaba tónica de cualquier palabra, debemos imaginar que llamamos a alguien desde la otra punta del patio. Martina lo probó primero con la palabra «manzana»: gritó «¡man-ZAAA-na!» y todos escuchamos enseguida que la sílaba «za» sonaba con más fuerza y duración. Después, Omar probó con «tambor»: gritó «¡tam-BOOOR!» y descubrió que la sílaba tónica era «bor». ¡Nadie falló en toda la tarde!",
+      "questions": [
+        {
+          "prompt": "What trick does teacher Clara suggest for finding the stressed syllable?",
+          "explanation": "The text suggests imagining that you are calling someone from the other end of the playground.",
+          "options": [
+            "Write the word with a green pen.",
+            "Count the word's letters on your fingers.",
+            "Pretend to call someone from far away."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "How many unstressed syllables are in the Spanish word «manzana»?",
+          "explanation": "«manzana» has three syllables: «man-za-na». «za» is stressed, so «man» and «na» are unstressed.",
+          "options": [
+            "Two unstressed syllables.",
+            "One unstressed syllable.",
+            "Three unstressed syllables."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-09",
+      "type": "order",
+      "prompt": "Put Adrián's steps in order to find the unstressed syllables in one of these example words.",
+      "explanation": "First split into syllables, find the stressed syllable and identify the remaining syllables as unstressed.",
+      "lang": "en",
+      "items": [
+        "Split the word into syllables.",
+        "Say the word to find the strongest emphasis.",
+        "Identify its single stressed syllable.",
+        "Identify the remaining syllables as unstressed."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g3-lengua-silaba-tonica-y-atona-10",
+      "type": "choice",
+      "prompt": "Nerea makes a word list for the school newspaper. She wants two Spanish words with stress on the last syllable. Which pair should she choose?",
+      "explanation": "«le-ón» and «pa-red» have final stress. «casa» has stress on the second-last syllable, and «plátano» on the third-last.",
+      "hint": "Check the stress in both words of each pair.",
+      "lang": "en",
+      "options": [
+        "plátano y tambor",
+        "casa y camión",
+        "león y pared"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:21:54.070Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:43:54.849Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "53076e2720ce6b675cb9faa3edb242ae80aa6d401ae9f590718965c246ec2d05",
+      "validation": "manual-review"
+    }
+  }
+}

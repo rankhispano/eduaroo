@@ -1,0 +1,236 @@
+{
+  "id": "g1-lengua-comprension-de-textos-orales",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "comprension-de-textos-orales",
+  "temaNombre": "Understanding spoken Spanish",
+  "title": "Listening to and understanding messages",
+  "summary": "Practise Spanish messages and announcements. Ask an adult to read them aloud to practise listening.",
+  "keyIdeas": [
+    "Listening carefully helps us understand other people's messages.",
+    "To understand an announcement, notice what happens, who speaks and where it happens.",
+    "Listening carefully and waiting for our turn help us communicate respectfully."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE3",
+      "CE4",
+      "CE10"
+    ],
+    "criteria": [
+      "3.2",
+      "4.1",
+      "10.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CE1",
+      "CP2",
+      "CP3",
+      "CPSAA3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "B. Comunicación › Contexto"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-01",
+      "type": "true-false",
+      "prompt": "Paying attention to the speaker helps us understand their message.",
+      "explanation": "Listen carefully. Looking at the speaker can help, but eye contact is not required for good listening.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-02",
+      "type": "choice",
+      "prompt": "The teacher announces: «Hoy jugamos dentro porque llueve». What is happening outside?",
+      "explanation": "The announcement says they are playing indoors because it is raining.",
+      "hint": "Notice why they are not going outside.",
+      "lang": "en",
+      "options": [
+        "It is sunny",
+        "It is raining",
+        "It is very windy"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-03",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish word that completes the listening tip.",
+      "explanation": "Being quiet helps us hear explanations clearly.",
+      "lang": "en",
+      "sentence": "Cuando otra persona habla en clase, debemos guardar ___.",
+      "options": [
+        "silencio",
+        "juguetes",
+        "dibujos"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-04",
+      "type": "match",
+      "prompt": "Match each Spanish spoken message to where it is heard.",
+      "explanation": "Different spoken messages belong to different everyday situations.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "«Guardad los lápices en el estuche».",
+          "right": "In the classroom"
+        },
+        {
+          "left": "«Abróchense los cinturones antes de arrancar».",
+          "right": "On the bus"
+        },
+        {
+          "left": "«La cena ya está servida en la mesa».",
+          "right": "At home"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-05",
+      "type": "choice",
+      "prompt": "Aisha tells Hugo: «Mi gata blanca saltó al tejado». Find the mistake in Hugo's reply.",
+      "explanation": "Hugo changes the animal. Aisha spoke about her cat, not a dog.",
+      "hint": "Look for the sentence that changes the animal.",
+      "lang": "en",
+      "options": [
+        "«Tu perra blanca saltó al tejado».",
+        "«Tu gata saltó al tejado».",
+        "«Tu gata es de color blanco»."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-06",
+      "type": "classify",
+      "prompt": "Sort these actions by whether they help or disturb listening to a story.",
+      "explanation": "Quiet attention helps listening. Talking and making noise disturb others.",
+      "lang": "en",
+      "categories": [
+        "Helps listening",
+        "Makes listening harder"
+      ],
+      "items": [
+        {
+          "text": "Look towards the storyteller",
+          "category": 0
+        },
+        {
+          "text": "Talk loudly to a classmate",
+          "category": 1
+        },
+        {
+          "text": "Stay quiet and pay attention",
+          "category": 0
+        },
+        {
+          "text": "Make noise with the pencil case",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-07",
+      "type": "choice",
+      "prompt": "The group leader says: «Poneos la gorra verde para subir al autobús». What should they put on?",
+      "explanation": "The message asks for a green cap.",
+      "hint": "Remember the item and colour in the message.",
+      "lang": "en",
+      "options": [
+        "A green scarf",
+        "A green cap",
+        "A red cap"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-08",
+      "type": "reading",
+      "prompt": "Ask an adult to read the Spanish announcement aloud. Listen and answer; you can also check the text.",
+      "explanation": "Finding the details in an announcement tells us what to prepare.",
+      "lang": "en",
+      "title": "Aviso de la excursión",
+      "text": "Atención, clase de primero. Mañana visitamos la granja de animales. Tenéis que traer una botella de agua pequeña y una fruta para almorzar. Llevad zapatillas cómodas para caminar por el campo.",
+      "questions": [
+        {
+          "prompt": "Where is the class going on its trip?",
+          "explanation": "The announcement says they are visiting an animal farm.",
+          "options": [
+            "The museum",
+            "The swimming pool",
+            "The farm"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which food should they bring for their snack?",
+          "explanation": "The announcement asks them to bring a piece of fruit.",
+          "options": [
+            "A sandwich",
+            "A cake",
+            "A piece of fruit"
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-comprension-de-textos-orales-09",
+      "type": "choice",
+      "prompt": "Omar hears: «Lávate las manos antes de merendar». What should he do first?",
+      "explanation": "The Spanish word antes means before. Washing his hands is the first action.",
+      "hint": "Find what the instruction says to do first.",
+      "lang": "en",
+      "options": [
+        "Eat his snack quickly",
+        "Wash his hands with soap",
+        "Start playing with a ball"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:39:46.347Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:07:37.016Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "a342a68ad9ec2949831b8fbfbef7c009790b2a79de24f16909aa4d94e4b049ec",
+      "validation": "manual-review"
+    }
+  }
+}

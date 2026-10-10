@@ -1,0 +1,264 @@
+{
+  "id": "g6-sociales-espana-en-el-siglo-xix-y-xx",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "espana-en-el-siglo-xix-y-xx",
+  "temaNombre": "Spain in the 19th and 20th centuries",
+  "title": "A journey through modern Spain",
+  "summary": "Explore Spain's major political, social and cultural changes during the 19th and 20th centuries.",
+  "keyIdeas": [
+    "The early 19th century saw Spain's War of Independence and the Cádiz Constitution of 1812.",
+    "As industry and railways grew, a society divided into estates gave way to social classes.",
+    "Women actively campaigned for access to higher education and the right to vote."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE7"
+    ],
+    "criteria": [
+      "7.1",
+      "7.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC3",
+      "CCEC1",
+      "CCL3",
+      "CE2",
+      "CPSAA4",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-01",
+      "type": "true-false",
+      "prompt": "The Cádiz Constitution of 1812, known as 'la Pepa', was the first Spanish constitution drawn up by the Cortes, a parliamentary assembly.",
+      "explanation": "The Cortes of Cádiz approved it on 19 March 1812. It recognised national sovereignty and limited the king's power.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-02",
+      "type": "choice",
+      "prompt": "Lucía and Mateo investigate daily life in the 19th century. Which form of transport transformed trade and passenger travel by connecting cities much faster?",
+      "explanation": "Steam railways greatly shortened journeys and helped Spain's economy and industry grow from the mid-19th century.",
+      "hint": "It burned coal to heat water and make steam, and travelled on rails.",
+      "lang": "en",
+      "options": [
+        "A fast horse-drawn carriage",
+        "The steam railway",
+        "Commercial passenger aircraft"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about gaining democratic rights.",
+      "explanation": "Clara Campoamor argued in the Cortes that women and men should have equal political rights. She helped secure women's right to vote.",
+      "lang": "en",
+      "sentence": "In 1931, during the Second Republic, the parliamentary representative ___ helped win recognition of women's voting rights in Spain.",
+      "options": [
+        "Rosalía de Castro",
+        "Isabel II",
+        "Clara Campoamor"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-04",
+      "type": "order",
+      "prompt": "Put these periods and events in Spanish history in chronological order.",
+      "explanation": "The War of Independence began in 1808, Isabel II's reign in 1833, and the Bourbon Restoration in 1874. The Second Republic was proclaimed in 1931.",
+      "lang": "en",
+      "items": [
+        "Spain's War of Independence",
+        "The reign of Isabel II",
+        "The Bourbon Restoration",
+        "The proclamation of the Second Republic"
+      ]
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-05",
+      "type": "match",
+      "prompt": "Match each 19th-century figure to their historical role or contribution.",
+      "explanation": "These figures illustrate conflict between supporters of absolute monarchy and liberal ideas, and the century's rich literature and culture.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Fernando VII",
+          "right": "King who abolished the 1812 Constitution and restored absolute rule."
+        },
+        {
+          "left": "Rosalía de Castro",
+          "right": "Important poet who helped revive literature in the Galician language."
+        },
+        {
+          "left": "Amadeo I of Savoy",
+          "right": "Italian-born elected king who abdicated amid severe political instability."
+        },
+        {
+          "left": "María Cristina de Borbón",
+          "right": "Regent who supported the liberals to defend her daughter Isabel's throne."
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-06",
+      "type": "classify",
+      "prompt": "After the Industrial Revolution, a society of estates gave way to social classes. Classify these situations by social group.",
+      "explanation": "The bourgeoisie owned businesses and the means of production. Workers sold their labour, often in poor conditions.",
+      "lang": "en",
+      "categories": [
+        "Bourgeoisie: business-owning middle class",
+        "Working class: proletariat"
+      ],
+      "items": [
+        {
+          "text": "Owned factories, banks and large shops",
+          "category": 0
+        },
+        {
+          "text": "Worked long hours for very low wages",
+          "category": 1
+        },
+        {
+          "text": "Lived in spacious, comfortable homes in new urban districts",
+          "category": 0
+        },
+        {
+          "text": "Joined trade unions to demand better working conditions",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-07",
+      "type": "choice",
+      "prompt": "In the late 19th and early 20th centuries, thousands of farming families moved to cities such as Barcelona and Bilbao. What was the main cause of this rural exodus?",
+      "explanation": "Economic difficulties in the countryside and demand for factory workers encouraged rural migration.",
+      "hint": "Compare difficulties in the countryside with opportunities in industrial cities.",
+      "lang": "en",
+      "options": [
+        "Everyone wanted to attend university because it was compulsory.",
+        "A shortage of farming jobs linked to outdated methods, and the attraction of factory jobs.",
+        "The law banned owning farmland in rural areas."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-08",
+      "type": "reading",
+      "prompt": "Read the historical text and answer the questions.",
+      "explanation": "The text shows the barriers women faced in the 19th century and the importance of education for equality.",
+      "lang": "en",
+      "title": "A pioneer in the classroom",
+      "text": "In the mid-19th century, Spanish society was changing slowly. Laws and customs kept women out of university. Facing this injustice, Concepción Arenal wore men's clothing to attend law lectures in Madrid as a listener. Later, she devoted her life to writing about social problems, improving prisons and defending equal access to education. Her famous motto, 'hate the crime and have compassion for the offender', reflected her concern for others. Alongside writers such as Emilia Pardo Bazán, she demonstrated women's intellectual abilities and helped open a path for future generations to study at university and enter professions.",
+      "questions": [
+        {
+          "prompt": "Why did Concepción Arenal wear men's clothing to attend university?",
+          "explanation": "In the 19th century, women were barred from formal university education.",
+          "options": [
+            "She wanted to hide her studies from her friends.",
+            "The laws and customs of the time kept women out of university classrooms.",
+            "All law students were required to dress that way."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What lasting effect did pioneers such as Concepción Arenal and Emilia Pardo Bazán have?",
+          "explanation": "Their courage and writing showed women's abilities and helped pave the way for equal access to education.",
+          "options": [
+            "They caused law faculties to close permanently.",
+            "They helped begin the path towards equal opportunities and higher education for women.",
+            "They immediately secured women's admission to the Spanish army."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "How did Concepción Arenal respond critically to an unjust rule?",
+          "explanation": "She took personal risks to learn and worked to defend disadvantaged people and improve society.",
+          "options": [
+            "She left Spain to ignore its problems.",
+            "She found a clever way around the barrier to study and work for a better society.",
+            "She gave up and waited for laws to change by themselves."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-09",
+      "type": "choice",
+      "prompt": "In 1898, Spain lost Cuba, Puerto Rico and the Philippines as overseas possessions. What was the main effect of the event known in Spain as the 'Disaster of 1898'?",
+      "explanation": "The loss caused national disappointment. Writers of the Generation of '98 reflected on Spain's problems and the need to improve its institutions.",
+      "hint": "It led writers such as Unamuno and Machado to reflect on the country.",
+      "lang": "en",
+      "options": [
+        "A deep moral and social crisis that led writers and thinkers to call for urgent modernisation.",
+        "The immediate start of imperial expansion into northern Europe.",
+        "The immediate replacement of the national currency by the euro."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-espana-en-el-siglo-xix-y-xx-10",
+      "type": "classify",
+      "prompt": "Classify these events as belonging to the 19th century or the first third of the 20th century, up to 1936.",
+      "explanation": "The Carlist Wars, Cádiz Constitution and first railway on mainland Spain belong to the 19th century. The listed labour reforms and women's voting rights belong to the early 20th century.",
+      "lang": "en",
+      "categories": [
+        "19th century",
+        "20th century, up to 1936"
+      ],
+      "items": [
+        {
+          "text": "Approval of the Cádiz Constitution (1812)",
+          "category": 0
+        },
+        {
+          "text": "The first nationwide revolutionary general strike (1917)",
+          "category": 1
+        },
+        {
+          "text": "Construction of the first railway on mainland Spain, Barcelona–Mataró (1848)",
+          "category": 0
+        },
+        {
+          "text": "Approval of compulsory Sunday rest legislation (1904)",
+          "category": 1
+        },
+        {
+          "text": "Recognition and exercise of women's voting rights (1931–1933)",
+          "category": 1
+        },
+        {
+          "text": "The three Carlist Wars over succession to the throne",
+          "category": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:43:09.584Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:56:53.226Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "e9def31f40292d1154d87e59b0831692283d8d7b7884cabbb9cbed7bb1f8299f",
+      "validation": "manual-review"
+    }
+  }
+}

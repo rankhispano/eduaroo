@@ -7,9 +7,9 @@
   "title": "El punto y la coma",
   "summary": "Aprenderás a usar el punto y la coma para escribir textos claros y ordenados.",
   "keyIdeas": [
-    "El punto (.) se escribe al final de una oración completa y después se empieza con mayúscula.",
+    "El punto (.) cierra una oración que cuenta algo. La siguiente oración comienza con mayúscula.",
     "La coma (,) sirve para separar elementos en una lista y hacer una pequeña pausa.",
-    "Antes de la última palabra de una lista solemos poner 'y' en lugar de coma."
+    "Antes del último elemento de una lista solemos poner 'y' en lugar de coma."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -44,8 +44,8 @@
     {
       "id": "g2-lengua-coma-y-punto-01",
       "type": "choice",
-      "prompt": "¿Qué signo de puntuación se escribe al terminar una oración?",
-      "explanation": "El punto se coloca siempre al final de una oración para indicar que ha terminado.",
+      "prompt": "¿Qué signo cierra la oración «Hoy llueve»?",
+      "explanation": "El punto cierra esta oración, que cuenta algo.",
       "hint": "Es una pequeña marca redonda que cierra la idea.",
       "lang": "es",
       "options": [
@@ -67,9 +67,9 @@
       "id": "g2-lengua-coma-y-punto-03",
       "type": "fill-blank",
       "prompt": "Elige la palabra adecuada para completar la regla.",
-      "explanation": "Tras un punto, la siguiente palabra siempre debe comenzar con letra mayúscula.",
+      "explanation": "La primera palabra de una nueva oración comienza con mayúscula.",
       "lang": "es",
-      "sentence": "Después de un punto siempre escribimos la primera letra en ___.",
+      "sentence": "Después del punto que cierra una oración, la siguiente comienza con ___.",
       "options": [
         "minúscula",
         "mayúscula",
@@ -85,16 +85,16 @@
       "lang": "es",
       "pairs": [
         {
-          "left": "Punto final",
-          "right": "Termina una oración o texto"
+          "left": "Punto",
+          "right": "Cierra una oración que cuenta algo"
         },
         {
           "left": "Coma",
-          "right": "Separa palabras de una lista"
+          "right": "Separa elementos de una lista"
         },
         {
           "left": "Letra mayúscula",
-          "right": "Va justo después de un punto"
+          "right": "Inicia la siguiente oración"
         }
       ]
     },
@@ -159,7 +159,7 @@
       "id": "g2-lengua-coma-y-punto-08",
       "type": "order",
       "prompt": "Ordena estas partes para formar una oración bien puntuada.",
-      "explanation": "La oración empieza con el sujeto o acción, separa los elementos con coma y termina con punto final.",
+      "explanation": "Empezamos diciendo dónde guardamos los objetos; después enumeramos el cuaderno, los lápices y la regla.",
       "lang": "es",
       "items": [
         "En la mochila llevo",

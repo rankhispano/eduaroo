@@ -8,7 +8,7 @@
   "summary": "Practica cómo usar always, usually, sometimes y never para describir tus rutinas diarias.",
   "keyIdeas": [
     "Usamos los adverbios de frecuencia para indicar cuántas veces hacemos una acción o rutina.",
-    "Always significa siempre (100%), sometimes a veces (50%) y never nunca (0%).",
+    "Always significa siempre; usually, normalmente; sometimes, a veces; y never, nunca. Usually y sometimes no indican porcentajes exactos.",
     "El adverbio de frecuencia se coloca normalmente delante del verbo de acción: I always walk."
   ],
   "lomloe": {
@@ -51,15 +51,15 @@
       "pairs": [
         {
           "left": "Always",
-          "right": "100% of the time (Todos los días)"
+          "right": "Siempre"
         },
         {
           "left": "Sometimes",
-          "right": "50% of the time (Algunos días)"
+          "right": "A veces"
         },
         {
           "left": "Never",
-          "right": "0% of the time (Ningún día)"
+          "right": "Nunca"
         }
       ]
     },
@@ -105,7 +105,7 @@
       "id": "g3-ingles-adverbios-de-frecuencia-05",
       "type": "order",
       "prompt": "Order the frequency adverbs from most frequent (100%) to least frequent (0%):",
-      "explanation": "El orden de mayor a menor frecuencia es: Always (100%), Usually (casi siempre, 80%), Sometimes (a veces, 50%) y Never (nunca, 0%).",
+      "explanation": "Always expresa siempre; usually, normalmente; sometimes, a veces; never, nunca. Es una escala orientativa de uso, no porcentajes fijos.",
       "lang": "en",
       "items": [
         "Always",
@@ -146,8 +146,8 @@
     {
       "id": "g3-ingles-adverbios-de-frecuencia-07",
       "type": "choice",
-      "prompt": "Where do we place the adverb? Choose the sentence with the correct order:",
-      "explanation": "En inglés colocamos el adverbio de frecuencia justo delante del verbo principal: Lucía always listens.",
+      "prompt": "Choose the usual neutral order, with the adverb between the subject and the action verb.",
+      "explanation": "En el orden neutro que practicamos, «always» va antes de «listens». Hay otros órdenes posibles en contextos especiales.",
       "hint": "El adverbio va entre el sujeto y la acción.",
       "lang": "en",
       "options": [

@@ -176,13 +176,12 @@
       "id": "g5-mates-volumen-introduccion-08",
       "type": "order",
       "prompt": "Ordena los pasos necesarios para calcular el volumen de una caja de zapatos contando cubitos de 1 cm³:",
-      "explanation": "Primero determinamos las dimensiones de la base (largo y ancho), hallamos el total de cubos de esa primera capa multiplicándolos, y finalmente multiplicamos por la altura (el número de capas).",
+      "explanation": "Podemos medir las dimensiones en cualquier orden. Después hallamos una capa y multiplicamos por el número de capas.",
       "lang": "es",
       "items": [
-        "Contar cuántos cubitos caben a lo largo de la base",
-        "Contar cuántos cubitos caben a lo ancho para saber los cubos de una capa",
-        "Multiplicar el largo por el ancho para saber el total de cubos de la base",
-        "Multiplicar los cubos de la base por la altura de la caja"
+        "Contar los cubitos que caben a lo largo, ancho y alto del interior",
+        "Multiplicar largo por ancho para obtener los cubitos de una capa",
+        "Multiplicar los cubitos de una capa por el número de capas"
       ]
     },
     {

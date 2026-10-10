@@ -7,9 +7,9 @@
   "title": "¡Jugamos con los artículos!",
   "summary": "Practica el uso de los artículos y su concordancia con las palabras.",
   "keyIdeas": [
-    "Los artículos van delante de los sustantivos y nos dicen su género y número.",
+    "Los artículos acompañan a los sustantivos: el perro, la mesa, los libros, las flores.",
     "Son determinados (el, la, los, las) o indeterminados (un, una, unos, unas).",
-    "El artículo y el sustantivo siempre deben coincidir en género y número."
+    "El artículo concuerda con el género y el número del sustantivo. Hay casos especiales, como «el agua», que es femenino."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -37,7 +37,7 @@
     {
       "id": "g2-lengua-el-articulo-01",
       "type": "true-false",
-      "prompt": "El artículo 'el' se usa con palabras masculinas y en singular.",
+      "prompt": "En «el perro», el artículo acompaña a un nombre masculino y singular.",
       "explanation": "Decimos 'el lápiz' o 'el perro' porque son palabras masculinas y solo hay una.",
       "lang": "es",
       "answer": true
@@ -193,7 +193,7 @@
     {
       "id": "g2-lengua-el-articulo-09",
       "type": "order",
-      "prompt": "Ordena las palabras para formar una oración correcta:",
+      "prompt": "Ordena la oración: primero quiénes cantan, después la acción y al final dónde.",
       "explanation": "La oración empieza con el artículo 'Los' en mayúscula y termina con el punto en 'árbol.'.",
       "lang": "es",
       "items": [

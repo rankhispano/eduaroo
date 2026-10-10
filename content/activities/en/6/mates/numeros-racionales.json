@@ -1,0 +1,233 @@
+{
+  "id": "g6-mates-numeros-racionales",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "numeros-racionales",
+  "temaNombre": "Rational Numbers",
+  "title": "Exploring Rational Numbers",
+  "summary": "Connect fractions and decimals, compare quantities and solve everyday problems. These Spanish-curriculum exercises use decimal commas and dots to group thousands: 1.000 means one thousand.",
+  "keyIdeas": [
+    "To write a fraction as a decimal, divide its numerator by its denominator.",
+    "To compare or add fractions with different denominators, use a common denominator. Exact decimal forms can also help when available.",
+    "Between any two different rational numbers, there are infinitely many other rational numbers."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.3",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Sentido de las operaciones",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-numeros-racionales-01",
+      "type": "match",
+      "prompt": "Match each fraction to its decimal form.",
+      "explanation": "Divide the numerator by the denominator: 1 ÷ 2 = 0,5; 3 ÷ 4 = 0,75; 1 ÷ 5 = 0,2; and 7 ÷ 10 = 0,7.",
+      "hint": "Dividing by 10 moves the decimal comma one place to the left.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "1/2",
+          "right": "0,5"
+        },
+        {
+          "left": "3/4",
+          "right": "0,75"
+        },
+        {
+          "left": "1/5",
+          "right": "0,2"
+        },
+        {
+          "left": "7/10",
+          "right": "0,7"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-numeros-racionales-02",
+      "type": "true-false",
+      "prompt": "The decimal 0,6 is exactly equivalent to 3/5.",
+      "explanation": "True: 3 ÷ 5 = 0,6. You can also use an equivalent fraction: 3/5 = 6/10 = 0,6.",
+      "hint": "Divide 3 by 5, or find an equivalent fraction with denominator 10.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-mates-numeros-racionales-03",
+      "type": "classify",
+      "prompt": "Sort these rational numbers into less than 1 or greater than 1.",
+      "explanation": "The denominators here are positive. A numerator smaller than its denominator gives a fraction below 1; a larger numerator gives a fraction above 1. Compare each decimal's full value with 1.",
+      "hint": "Compare numerator and denominator, or check the decimal's whole-number part.",
+      "lang": "en",
+      "categories": [
+        "Less than 1",
+        "Greater than 1"
+      ],
+      "items": [
+        {
+          "text": "3/4",
+          "category": 0
+        },
+        {
+          "text": "0,85",
+          "category": 0
+        },
+        {
+          "text": "2/5",
+          "category": 0
+        },
+        {
+          "text": "5/4",
+          "category": 1
+        },
+        {
+          "text": "1,6",
+          "category": 1
+        },
+        {
+          "text": "7/5",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-numeros-racionales-04",
+      "type": "choice",
+      "prompt": "Aisha bakes a cake 🥣. The recipe needs 3/4 kg of flour, but her scales show decimals. What should the display show?",
+      "explanation": "3 ÷ 4 = 0,75, so the scales should show 0,75 kg, equivalent to 750 g.",
+      "hint": "Divide 3 by 4.",
+      "lang": "en",
+      "options": [
+        "0,43 kg",
+        "0,34 kg",
+        "0,75 kg",
+        "3,4 kg"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-numeros-racionales-05",
+      "type": "fill-blank",
+      "prompt": "Work out the total mass mentally.",
+      "explanation": "1/2 kg = 0,5 kg. Then 0,5 + 0,75 = 1,25 kg.",
+      "hint": "Write 1/2 kg as a decimal before adding.",
+      "lang": "en",
+      "sentence": "Lucía buys 1/2 kg of strawberries and 0,75 kg of bananas. Altogether, she carries ___ kg of fruit.",
+      "options": [
+        "0,80",
+        "1,25",
+        "1,50"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-numeros-racionales-06",
+      "type": "order",
+      "prompt": "Put these rational numbers in order from smallest to largest.",
+      "explanation": "Use decimals to compare: 0,2; 1/4 = 0,25; 0,5; 3/4 = 0,75; and 1,1. So 0,2 < 1/4 < 0,5 < 3/4 < 1,1.",
+      "hint": "Remember: 1/4 = 0,25 and 3/4 = 0,75.",
+      "lang": "en",
+      "items": [
+        "0,2",
+        "1/4",
+        "0,5",
+        "3/4",
+        "1,1"
+      ]
+    },
+    {
+      "id": "g6-mates-numeros-racionales-07",
+      "type": "choice",
+      "prompt": "Find the mistake! 🔍 Hugo writes 1/3 + 1/2 = (1+1)/(3+2) = 2/5. What went wrong?",
+      "explanation": "Use a common denominator before adding: 1/3 = 2/6 and 1/2 = 3/6. Then 2/6 + 3/6 = 5/6. Adding the denominators directly is not the rule for adding fractions.",
+      "hint": "Think about adding fractions with different denominators.",
+      "lang": "en",
+      "options": [
+        "He added numerators and denominators directly without finding a common denominator.",
+        "He multiplied the fractions instead of adding them.",
+        "He should have subtracted the denominators.",
+        "His method is correct; there is no mistake."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-numeros-racionales-08",
+      "type": "choice",
+      "prompt": "The school library has 120 adventure books 📚. Year 6 pupils borrow 2/5 of them. How many remain on the shelves?",
+      "explanation": "(120 ÷ 5) × 2 = 48 books are borrowed. That leaves 120 - 48 = 72 books.",
+      "hint": "Find how many were borrowed, then subtract from 120.",
+      "lang": "en",
+      "options": [
+        "72 books",
+        "48 books",
+        "60 books",
+        "96 books"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-numeros-racionales-09",
+      "type": "true-false",
+      "prompt": "There is no rational number between the decimals 0,4 and 0,5.",
+      "explanation": "False. There are infinitely many rational numbers between them, including 0,41 and 0,45.",
+      "hint": "Think of 0,40 and 0,50. Can you find two-decimal-place numbers between them?",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-mates-numeros-racionales-10",
+      "type": "choice",
+      "prompt": "In a 1.000-metre relay 🏃‍♀️, Marcos runs 1/4 of the route and Nerea runs 0,4 of it. Omar runs the final section. How many metres does Omar run?",
+      "explanation": "Marcos runs 250 m and Nerea runs 400 m. Together they run 650 m, leaving 1.000 - 650 = 350 m for Omar.",
+      "hint": "Find Marcos's and Nerea's distances, add them and subtract from 1.000 metres.",
+      "lang": "en",
+      "options": [
+        "350 metres",
+        "450 metres",
+        "650 metres",
+        "250 metres"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:25:37.534Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:33:28.413Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "1b768c1e8a459cd5b68d3e3444dc26a18e960d88a8a579f19151ef870710bdf6",
+      "validation": "manual-review"
+    }
+  }
+}

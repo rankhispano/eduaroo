@@ -1,0 +1,283 @@
+{
+  "id": "g6-lengua-oraciones-subordinadas",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "oraciones-subordinadas",
+  "temaNombre": "Subordinate Clauses",
+  "title": "Subordinate Clauses: Guided Extension",
+  "summary": "Use support and models to recognise how one clause adds information within another.",
+  "keyIdeas": [
+    "Guided model: «Omar espera que gane su equipo». The clause «que gane su equipo» completes «espera».",
+    "Models: «Salimos cuando termina la clase» adds time; «No salimos porque llueve» adds a cause.",
+    "Recognising these links helps you understand and write Spanish sentences. Check the models before sorting examples."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-oraciones-subordinadas-01",
+      "type": "true-false",
+      "prompt": "True or false? 📝 A subordinate clause depends on a main clause and has a function within it.",
+      "explanation": "True. A subordinate clause depends syntactically on another clause. It can add information such as time or cause, or function as a complement.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-02",
+      "type": "classify",
+      "prompt": "Sort these Spanish examples into single-clause sentences or sentences containing a subordinate clause.",
+      "explanation": "In the second group, one clause is integrated into another using «que» or «cuando». A compound verb tense or a verbal phrase does not by itself make a sentence multi-clause.",
+      "lang": "en",
+      "categories": [
+        "Single-clause sentence",
+        "Sentence with a subordinate clause"
+      ],
+      "items": [
+        {
+          "text": "Lucía compró fruta fresca en el mercado del barrio.",
+          "category": 0
+        },
+        {
+          "text": "Omar espera que su equipo gane el partido del sábado.",
+          "category": 1
+        },
+        {
+          "text": "Los alumnos prepararon un mural precioso para la entrada.",
+          "category": 0
+        },
+        {
+          "text": "Iremos al parque cuando termine de llover.",
+          "category": 1
+        },
+        {
+          "text": "El tren de cercanías llegó puntual a la estación.",
+          "category": 0
+        },
+        {
+          "text": "Nerea busca la mochila que le regaló su abuela.",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-03",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish connector that gives the reason in Adrián's explanation.",
+      "explanation": "The causal conjunction «porque» is written as one word without an accent mark.",
+      "hint": "It introduces a cause and is written as one word.",
+      "lang": "en",
+      "sentence": "Adrián no pudo ir al entrenamiento de baloncesto ___ tenía una cita con el dentista.",
+      "options": [
+        "porque",
+        "por qué",
+        "aunque",
+        "pero"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-04",
+      "type": "match",
+      "prompt": "Recover these Spanish ideas by matching the halves: the teacher explains with a purpose, Aisha puts the paints in a specified place, Martina gives a warning when the bell rings, and the actor plays the dragon.",
+      "explanation": "«Para que» introduces purpose, «donde» place, «cuando» time, and «que» identifies the actor in the final example.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "El maestro explicó la actividad",
+          "right": "para que todos supiéramos qué hacer."
+        },
+        {
+          "left": "Aisha guardó las témperas",
+          "right": "donde le indicó la conserje."
+        },
+        {
+          "left": "Martina avisó a sus compañeros",
+          "right": "cuando sonó la sirena del recreo."
+        },
+        {
+          "left": "Todos aplaudieron al actor",
+          "right": "que interpretó al dragón en la obra."
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-05",
+      "type": "choice",
+      "prompt": "Read «Hugo nos confirmó que vendría a la fiesta de fin de curso». Which part is the subordinate clause?",
+      "explanation": "It begins with «que» and contains the verb «vendría». The clause completes the meaning of «confirmó» as its direct object.",
+      "hint": "Find the word that begins the subordinate clause.",
+      "lang": "en",
+      "options": [
+        "Hugo nos confirmó",
+        "que vendría a la fiesta de fin de curso",
+        "a la fiesta de fin de curso"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-06",
+      "type": "choice",
+      "prompt": "The intended purpose was to study during yesterday's library visit. Which Spanish sentence expresses that past purpose incorrectly?",
+      "explanation": "For the purpose of that visit yesterday, use «para que estudiáramos» or «para estudiar». With more context, «estudiemos» could refer to another time, but it does not express the past purpose requested here.",
+      "hint": "Check whether the tenses express the intended past purpose.",
+      "lang": "en",
+      "options": [
+        "Iremos a merendar cuando termines tus tareas escolares.",
+        "Ayer llamé a Martina porque necesitaba los apuntes de Ciencias.",
+        "Ayer fuimos a la biblioteca para que estudiemos en silencio."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-07",
+      "type": "classify",
+      "prompt": "Sort the Spanish sentences by whether their subordinate clause adds time, cause or place.",
+      "explanation": "«Cuando» and «mientras» add time, «porque» adds a cause, and «donde» adds place.",
+      "lang": "en",
+      "categories": [
+        "Time clause",
+        "Cause clause",
+        "Place clause"
+      ],
+      "items": [
+        {
+          "text": "Saldremos al patio cuando el árbitro pite el inicio.",
+          "category": 0
+        },
+        {
+          "text": "No fuimos a la piscina porque el agua estaba helada.",
+          "category": 1
+        },
+        {
+          "text": "Guardaremos las bicicletas donde nadie las estropee.",
+          "category": 2
+        },
+        {
+          "text": "Llegamos a la sala de cine mientras ponían los anuncios.",
+          "category": 0
+        },
+        {
+          "text": "Wei apagó la lámpara porque quería dormir.",
+          "category": 1
+        },
+        {
+          "text": "Merendamos justo donde nos sentamos la semana pasada.",
+          "category": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-08",
+      "type": "order",
+      "prompt": "Put the Spanish fragments in order to make a coherent sentence.",
+      "explanation": "This model starts with «Nerea prometió a sus padres», followed by «que recogería su habitación» and the remaining details.",
+      "lang": "en",
+      "items": [
+        "Nerea prometió a sus padres",
+        "que recogería su habitación",
+        "antes de salir al parque",
+        "con sus amigos del colegio."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-09",
+      "type": "reading",
+      "prompt": "Read the Spanish text about a school project and answer the questions.",
+      "explanation": "The text uses subordinate clauses adding description, purpose, cause and time to connect its ideas.",
+      "lang": "en",
+      "title": "El huerto ecológico de sexto",
+      "text": "El pasado martes, los alumnos de sexto curso inauguramos con gran entusiasmo el nuevo huerto ecológico escolar que construimos en el patio trasero. Aunque el terreno estaba lleno de piedras y malas hierbas al principio, trabajamos en equipo durante varias semanas para que la tierra quedara completamente lista y fértil. Nuestro tutor, que sabe mucho sobre agricultura y botánica, nos enseñó a plantar tomates, zanahorias y lechugas frescas. Decidimos instalar un sistema automático de riego por goteo porque queríamos ahorrar agua y proteger el medioambiente de forma responsable. Ahora, los alumnos nos turnamos cada día durante el recreo cuando suena el timbre del mediodía para revisar la humedad de los bancales. Aisha y Hugo anotan el crecimiento de las plantas en un cuaderno especial. Estamos muy orgullosos de este proyecto cooperativo y esperamos que la primera cosecha sea muy abundante.",
+      "questions": [
+        {
+          "prompt": "Why did the pupils install drip irrigation?",
+          "explanation": "The text explains the cause with «porque queríamos ahorrar agua y proteger el medioambiente».",
+          "options": [
+            "To save water and protect the environment responsibly.",
+            "Because they had no time to water by hand during lessons.",
+            "Because the tutor made them buy that particular system."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "In «Nos turnamos cada día durante el recreo cuando suena el timbre del mediodía», what does the part beginning with «cuando» add?",
+          "explanation": "The clause with «cuando» tells us when they check the garden.",
+          "options": [
+            "The physical location of the raised beds.",
+            "The reason why they care for the garden.",
+            "The time when they perform the action."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which social value is most prominent in the pupils' behaviour?",
+          "explanation": "The project highlights teamwork, shared responsibility and care for the environment.",
+          "options": [
+            "Cooperation, shared responsibility and environmental care.",
+            "Trying to get better individual marks than other classes.",
+            "Selling vegetables for their own financial profit."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-oraciones-subordinadas-10",
+      "type": "choice",
+      "prompt": "🎯 Combine these Spanish ideas using a subordinate clause of purpose: «Lucía y Omar diseñaron unos carteles llamativos» and «Querían concienciar sobre el reciclaje en el colegio». Which option keeps the intended purpose?",
+      "explanation": "«Para que» introduces the aim of the posters while keeping the original meaning.",
+      "hint": "Look for the connector that expresses a goal.",
+      "lang": "en",
+      "options": [
+        "Lucía y Omar diseñaron unos carteles llamativos para que todos se concienciaran sobre el reciclaje en el colegio.",
+        "Lucía y Omar diseñaron unos carteles llamativos porque nadie reciclaba nunca en el colegio.",
+        "Lucía y Omar diseñaron unos carteles llamativos cuando sonó la sirena del recreo en el colegio."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:19:26.969Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:28:37.180Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f4842eb609f1e8e08c5a75dc8818a7f176797b60770dd02d91b72bdda9f082c4",
+      "validation": "manual-review"
+    }
+  }
+}

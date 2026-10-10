@@ -118,7 +118,7 @@
       ],
       "items": [
         {
-          "text": "Repartir un bizcocho entre 2 amigos",
+          "text": "Repartir un bizcocho en dos porciones iguales",
           "category": 0
         },
         {
@@ -130,7 +130,7 @@
           "category": 0
         },
         {
-          "text": "Repartir 8 caramelos entre 4 niños",
+          "text": "Repartir 8 caramelos en 4 grupos iguales",
           "category": 1
         }
       ]

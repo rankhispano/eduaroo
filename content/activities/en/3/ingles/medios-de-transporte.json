@@ -1,0 +1,248 @@
+{
+  "id": "g3-ingles-medios-de-transporte",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "medios-de-transporte",
+  "temaNombre": "Transport",
+  "title": "On the Move! Means of Transport",
+  "summary": "Revise transport words and how we travel each day.",
+  "keyIdeas": [
+    "Use 'by' with vehicles (by bus, by car) and 'on foot' for walking.",
+    "Transport travels on land, on water or in the air.",
+    "A bicycle is an environmentally friendly way to travel, with two wheels and pedals."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-medios-de-transporte-01",
+      "type": "match",
+      "prompt": "Match each type of transport to its picture.",
+      "explanation": "Bus, bike, plane and boat match the pictures of a bus, bicycle, aeroplane and boat.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "bus",
+          "right": "🚌"
+        },
+        {
+          "left": "bike",
+          "right": "🚲"
+        },
+        {
+          "left": "plane",
+          "right": "✈️"
+        },
+        {
+          "left": "boat",
+          "right": "⛵"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-medios-de-transporte-02",
+      "type": "choice",
+      "prompt": "Lucía rides her two-wheeled transport with a helmet. What is it?",
+      "explanation": "A bike has two wheels. A helmet helps protect us while cycling.",
+      "hint": "It has two wheels and pedals.",
+      "lang": "en",
+      "options": [
+        "A car",
+        "A train",
+        "A bike"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-medios-de-transporte-03",
+      "type": "true-false",
+      "prompt": "Helicopters and planes fly in the sky.",
+      "explanation": "Correct! Helicopters and planes are types of air transport.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-ingles-medios-de-transporte-04",
+      "type": "classify",
+      "prompt": "Sort the types of transport by where they travel.",
+      "explanation": "Trains and cars travel on land, boats and ships on water, and planes in the air.",
+      "lang": "en",
+      "categories": [
+        "Land",
+        "Water",
+        "Air"
+      ],
+      "items": [
+        {
+          "text": "Train",
+          "category": 0
+        },
+        {
+          "text": "Car",
+          "category": 0
+        },
+        {
+          "text": "Boat",
+          "category": 1
+        },
+        {
+          "text": "Ship",
+          "category": 1
+        },
+        {
+          "text": "Helicopter",
+          "category": 2
+        },
+        {
+          "text": "Plane",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-medios-de-transporte-05",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct word.",
+      "explanation": "Say 'by bus', 'by car' or 'by train' to name the type of transport.",
+      "hint": "Use this preposition with a vehicle name in this phrase.",
+      "lang": "en",
+      "sentence": "Aisha goes to school ___ bus every morning.",
+      "options": [
+        "in",
+        "by",
+        "on"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-medios-de-transporte-06",
+      "type": "fill-blank",
+      "prompt": "Hugo lives near school. Complete the sentence.",
+      "explanation": "'On foot' means walking. To name a type of transport without an article, say 'by bus', 'by car' or 'by train'. Phrases such as 'on the bus' and 'in a car' are also possible.",
+      "hint": "Remember this special phrase for walking.",
+      "lang": "en",
+      "sentence": "Hugo lives near school, so he goes ___ foot.",
+      "options": [
+        "on",
+        "by",
+        "at"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-medios-de-transporte-07",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "Find how each child travels in the story.",
+      "lang": "en",
+      "title": "How We Go to School",
+      "text": "Every morning, four friends travel to school in different ways. Wei takes the big yellow school bus because his house is far away. Aisha loves the fresh air, so she rides her green bike with her dad. Omar lives right next to the school park, so he walks on foot every day with his sister. Today is special for Martina. She takes the fast train with her mum to visit the city museum. The three friends arrive at school on time. Martina learns about history at the museum.",
+      "questions": [
+        {
+          "prompt": "Who travels to school by bike?",
+          "explanation": "The text says Aisha rides her green bike.",
+          "options": [
+            "Omar",
+            "Aisha",
+            "Wei"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why does Omar walk on foot?",
+          "explanation": "Omar walks because he lives right next to the school park.",
+          "options": [
+            "Because he takes the train.",
+            "Because he lives next to the school park.",
+            "Because his house is far away."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-medios-de-transporte-08",
+      "type": "order",
+      "prompt": "Put Lucía's train journey in order.",
+      "explanation": "First she buys a ticket, gets on the train and travels along the tracks. Finally, she gets off at the beach.",
+      "lang": "en",
+      "items": [
+        "Lucía buys a ticket at the station.",
+        "She gets on the train.",
+        "The train travels on the tracks.",
+        "She gets off the train at the beach."
+      ]
+    },
+    {
+      "id": "g3-ingles-medios-de-transporte-09",
+      "type": "choice",
+      "prompt": "It has wheels, carries many passengers and stops at bus stops. What is it?",
+      "explanation": "A bus carries many passengers and stops at designated bus stops.",
+      "hint": "It stops at bus shelters in town.",
+      "lang": "en",
+      "options": [
+        "A bus",
+        "A plane",
+        "A boat"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-medios-de-transporte-10",
+      "type": "choice",
+      "prompt": "Which vehicle in this list has pedals and produces no exhaust fumes while you ride?",
+      "explanation": "A bicycle without a motor produces no exhaust fumes when pedalled. Making it still uses materials and energy.",
+      "hint": "Think of a vehicle you pedal.",
+      "lang": "en",
+      "options": [
+        "A motorbike",
+        "A bicycle",
+        "A lorry"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:00:37.244Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:37:38.967Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "fe38cccab717de878495cf07077d4d293f2c10eebba39f36ccaa37bdfc8f756c",
+      "validation": "manual-review"
+    }
+  }
+}

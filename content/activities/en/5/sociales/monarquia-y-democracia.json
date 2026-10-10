@@ -1,0 +1,248 @@
+{
+  "id": "g5-sociales-monarquia-y-democracia",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "monarquia-y-democracia",
+  "temaNombre": "Monarchy and democracy",
+  "title": "Parliamentary monarchy and democracy in Spain",
+  "summary": "Explore Spain's democratic institutions and the separation of powers.",
+  "keyIdeas": [
+    "Spain is a parliamentary monarchy. Sovereignty belongs to the people, and the king is head of state.",
+    "The 1978 Constitution is the supreme law, recognising fundamental rights, freedoms and duties.",
+    "State powers are legislative: the Cortes Generales; executive: the Government; and judicial: judges and courts."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL5",
+      "CPSAA1"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-monarquia-y-democracia-01",
+      "type": "true-false",
+      "prompt": "In Spain's parliamentary monarchy, the king personally makes political decisions and writes the country's laws.",
+      "explanation": "The king represents Spain as head of state but does not govern or write laws. Those tasks belong to the Government and Cortes Generales.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-02",
+      "type": "choice",
+      "prompt": "Hugo and Aisha make a display about shared rules. Which supreme Spanish law, approved in 1978, must other rules respect?",
+      "explanation": "The 1978 Spanish Constitution is the country's supreme law. Other laws cannot contradict it.",
+      "hint": "Citizens voted on it on 6 December.",
+      "lang": "en",
+      "options": [
+        "The Highway Code",
+        "The Spanish Constitution",
+        "A Statute of Autonomy"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about democratic participation.",
+      "explanation": "Voting lets citizens choose representatives who govern and make laws on their behalf.",
+      "hint": "Think of placing a ballot paper in a ballot box.",
+      "lang": "en",
+      "sentence": "In a democracy, citizens choose political representatives through a free and secret ___ in elections.",
+      "options": [
+        "decree",
+        "lottery",
+        "vote"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-04",
+      "type": "match",
+      "prompt": "Match each state power to the institution or people exercising it.",
+      "explanation": "Separating powers prevents one institution from controlling everything: some make laws, others apply them, and independent courts administer justice.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Legislative power",
+          "right": "The Cortes Generales: Congress and Senate"
+        },
+        {
+          "left": "Executive power",
+          "right": "The head of government and ministers"
+        },
+        {
+          "left": "Judicial power",
+          "right": "Judges in the courts"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-05",
+      "type": "classify",
+      "prompt": "Classify these roles as belonging to the Cortes Generales or Spain's Government.",
+      "explanation": "The Cortes makes laws and holds the Government accountable. The Government directs policy and applies laws.",
+      "lang": "en",
+      "categories": [
+        "Cortes Generales",
+        "Government of Spain"
+      ],
+      "items": [
+        {
+          "text": "Debate and approve national laws",
+          "category": 0
+        },
+        {
+          "text": "Approve the national budget",
+          "category": 0
+        },
+        {
+          "text": "Direct domestic and foreign policy",
+          "category": 1
+        },
+        {
+          "text": "Administer public services and apply laws",
+          "category": 1
+        },
+        {
+          "text": "Scrutinise the head of government and ministers",
+          "category": 0
+        },
+        {
+          "text": "Manage government departments and everyday economic policy",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-06",
+      "type": "choice",
+      "prompt": "Omar and Lucía propose a safe cycle lane near school. Which democratic body is closest to residents and directly manages municipal streets and services?",
+      "explanation": "The municipal council, or Ayuntamiento, manages local services in a town or city.",
+      "hint": "The mayor and councillors work there.",
+      "lang": "en",
+      "options": [
+        "The Constitutional Court",
+        "The Congress of Deputies",
+        "The municipal council, with its mayor and councillors",
+        "The national Senate"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-07",
+      "type": "choice",
+      "prompt": "Many Early Modern rulers had absolute monarchies. What mainly distinguishes this system from Spain's parliamentary monarchy today?",
+      "explanation": "Absolute monarchs held great power without democratic parliamentary control. In Spain, the monarch's role is limited by the Constitution and laws.",
+      "hint": "Who has governing power in a democracy?",
+      "lang": "en",
+      "options": [
+        "In a parliamentary monarchy, the king holds all three state powers.",
+        "Absolute monarchies had democratic constitutions protecting human rights.",
+        "In a parliamentary monarchy, the king does not govern and his duties are limited by the Constitution and laws.",
+        "In absolute monarchies, people regularly elected ministers in free elections."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-08",
+      "type": "order",
+      "prompt": "Order these main stages in forming a new Government after general elections.",
+      "explanation": "Citizens vote, the new Congress is formed, deputies vote on the candidate for head of government, and the new leader forms a government team.",
+      "lang": "en",
+      "items": [
+        "Eligible citizens vote in general elections.",
+        "The newly elected Congress of Deputies is formed.",
+        "Deputies debate and vote on the candidate's investiture as head of government.",
+        "The new head of government takes office and appoints ministers."
+      ]
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-09",
+      "type": "reading",
+      "prompt": "Read about Spain's democratic origins and answer the questions.",
+      "explanation": "Dialogue and respect for different views were important in the Transition and the agreement on the 1978 Constitution.",
+      "lang": "en",
+      "title": "An agreement for living together",
+      "text": "After almost forty years of Francisco Franco's dictatorship, Spain began the Transition towards democracy in 1975. Representatives of parties with very different ideas worked together through dialogue. They aimed to build a free, peaceful country where different opinions could be expressed.\n\nTheir agreement helped create the 1978 Constitution. On 6 December 1978, Spanish citizens approved it by a large majority in a referendum. It established a democratic state with a parliamentary monarchy and recognised rights including freedom of expression, equality before the law and education.",
+      "questions": [
+        {
+          "prompt": "When did citizens approve the Constitution in a referendum?",
+          "explanation": "The text gives 6 December 1978, celebrated as Constitution Day.",
+          "options": [
+            "6 December 1978",
+            "12 October 1992",
+            "20 November 1975"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why was agreement between different parties important during the Transition?",
+          "explanation": "Consensus helped replace dictatorship with a shared framework for peaceful democratic life.",
+          "options": [
+            "They wanted the king to govern without Parliament.",
+            "International rules banned a single party from writing laws.",
+            "Shared rules were needed to support peace and coexistence across society."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why is living under the rule of law valuable?",
+          "explanation": "Law protects equality, freedom and justice and limits abuses of power.",
+          "options": [
+            "Only people who agree with us are allowed to govern.",
+            "We may change school rules without respecting anyone else's decisions.",
+            "Laws protect our basic rights and prevent anyone holding absolute power above justice."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-monarquia-y-democracia-10",
+      "type": "choice",
+      "prompt": "Martina asks what would happen if the head of government could decide court verdicts and dismiss judges at will. Which answer reflects democratic principles?",
+      "explanation": "Independent judges are essential. Political control of verdicts would weaken protection against injustice and abuses of power.",
+      "hint": "Why did democratic thinkers such as Montesquieu defend separating powers?",
+      "lang": "en",
+      "options": [
+        "Judicial independence and separation of powers would be broken, seriously threatening people's freedoms.",
+        "It would help because one person could settle court cases faster.",
+        "Democracy would be unaffected because the head of government is chosen through elections.",
+        "It would be normal because executive power should outrank every other state power."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:38:24.392Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:12:02.450Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "10fde3afd5722fb9ea76ce458b59d72c98dcba3d8743c7135aee3b209bc1feeb",
+      "validation": "manual-review"
+    }
+  }
+}

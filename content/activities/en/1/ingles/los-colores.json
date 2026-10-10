@@ -1,0 +1,229 @@
+{
+  "id": "g1-ingles-los-colores",
+  "cursoId": "1",
+  "asignaturaId": "ingles",
+  "temaId": "los-colores",
+  "temaNombre": "Colours",
+  "title": "A World of Colours",
+  "summary": "Practise English colour words with fun sentences and everyday situations.",
+  "keyIdeas": [
+    "Colour words help us describe things around us.",
+    "In English, the colour usually comes before the object, as in 'red apple'.",
+    "We can use 'The ... is ...' to describe a colour, as in 'The sun is yellow'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-ingles-los-colores-01",
+      "type": "choice",
+      "prompt": "What colour is a ripe banana? 🍌",
+      "explanation": "A ripe yellow banana is yellow.",
+      "hint": "Think about the Sun's colour in a drawing.",
+      "lang": "en",
+      "options": [
+        "Blue",
+        "Black",
+        "Yellow"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-los-colores-02",
+      "type": "match",
+      "prompt": "In a drawing, the Sun is yellow, the grass is green and the sky is blue. Match each thing to its English colour word.",
+      "explanation": "In this drawing, the Sun is yellow, the grass is green and the sky is blue. Colours in nature can vary.",
+      "hint": "Think about a sunny day in the park.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "The Sun ☀️",
+          "right": "Yellow"
+        },
+        {
+          "left": "Grass 🌿",
+          "right": "Green"
+        },
+        {
+          "left": "The sky ☁️",
+          "right": "Blue"
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-los-colores-03",
+      "type": "true-false",
+      "prompt": "Strawberries are red. 🍓",
+      "explanation": "Ripe strawberries are usually red.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-ingles-los-colores-04",
+      "type": "fill-blank",
+      "prompt": "Choose the word that completes the sentence.",
+      "explanation": "Snow is white.",
+      "hint": "Think of the colour of blank paper.",
+      "lang": "en",
+      "sentence": "Snow is cold and ___.",
+      "options": [
+        "orange",
+        "green",
+        "white"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-los-colores-05",
+      "type": "choice",
+      "prompt": "Hugo draws a tree with a brown trunk. What colour is the trunk?",
+      "explanation": "Hugo draws the trunk brown.",
+      "hint": "Think of chocolate and wood.",
+      "lang": "en",
+      "options": [
+        "purple",
+        "pink",
+        "brown"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-ingles-los-colores-06",
+      "type": "classify",
+      "prompt": "Sort these things by the English colour given.",
+      "explanation": "The sky and sea in these examples are blue. The lemon and drawn Sun are yellow.",
+      "lang": "en",
+      "categories": [
+        "Blue",
+        "Yellow"
+      ],
+      "items": [
+        {
+          "text": "Blue sky",
+          "category": 0
+        },
+        {
+          "text": "Yellow lemon 🍋",
+          "category": 1
+        },
+        {
+          "text": "Blue sea 🌊",
+          "category": 0
+        },
+        {
+          "text": "Yellow sun ☀️",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-ingles-los-colores-07",
+      "type": "true-false",
+      "prompt": "Milk is purple. 🥛",
+      "explanation": "False. Ordinary milk is white, not purple.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-ingles-los-colores-08",
+      "type": "order",
+      "prompt": "Put the words in order to make the correct sentence.",
+      "explanation": "The correct sentence is 'The frog is green'.",
+      "lang": "en",
+      "items": [
+        "The",
+        "frog",
+        "is",
+        "green."
+      ]
+    },
+    {
+      "id": "g1-ingles-los-colores-09",
+      "type": "fill-blank",
+      "prompt": "Aisha mixes red and yellow paint. What colour does she get?",
+      "explanation": "Mixing red and yellow paint makes orange.",
+      "hint": "Think of a carrot's colour.",
+      "lang": "en",
+      "sentence": "Red and yellow make ___.",
+      "options": [
+        "blue",
+        "orange",
+        "black"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-ingles-los-colores-10",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "The story gives the colours of things in Leo's picture.",
+      "lang": "en",
+      "title": "Leo's Painting",
+      "text": "Leo paints a picture. The big sun is yellow. The sea is blue. Leo has a small red boat. His dog is brown. Leo loves colours!",
+      "questions": [
+        {
+          "prompt": "What colour is the boat?",
+          "explanation": "The text says Leo has a small red boat.",
+          "options": [
+            "Red",
+            "Yellow",
+            "Blue"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What colour is the dog?",
+          "explanation": "The text says his dog is brown.",
+          "options": [
+            "Brown",
+            "Green",
+            "White"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:53:20.509Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:02:11.869Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "900f4948f04b6b798a245a9cf98775c4ae0305a89aa7b8737e8ab88fb7f74482",
+      "validation": "manual-review"
+    }
+  }
+}

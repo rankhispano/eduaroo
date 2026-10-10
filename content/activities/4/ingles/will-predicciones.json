@@ -83,25 +83,25 @@
     {
       "id": "g4-ingles-will-predicciones-04",
       "type": "match",
-      "prompt": "Une cada causa con su predicción lógica de futuro:",
-      "explanation": "Relacionamos cada situación presente con lo que predecimos que pasará en el futuro con 'will'.",
+      "prompt": "Match each plan with the future sentence that describes it. Plans can change.",
+      "explanation": "Relacionamos planes anunciados con frases en futuro. Una predicción o un plan no garantiza que algo vaya a ocurrir.",
       "lang": "en",
       "pairs": [
         {
-          "left": "Leo studies a lot for the exam.",
-          "right": "He will get a good mark."
+          "left": "Leo has a train ticket for tomorrow.",
+          "right": "He will travel by train tomorrow."
         },
         {
-          "left": "It is freezing outside.",
-          "right": "It will snow tonight."
+          "left": "The class plans a museum visit on Friday.",
+          "right": "They will visit the museum on Friday."
         },
         {
-          "left": "The smartphone has 1% battery.",
-          "right": "It will turn off soon."
+          "left": "Hugo has arranged to call his cousin tonight.",
+          "right": "He will call his cousin tonight."
         },
         {
-          "left": "Martina eats fruits and vegetables.",
-          "right": "She will be healthy and strong."
+          "left": "Martina has booked a swimming lesson for Saturday.",
+          "right": "She will go swimming on Saturday."
         }
       ]
     },

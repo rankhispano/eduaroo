@@ -74,7 +74,7 @@
         },
         {
           "left": "Capilares",
-          "right": "Vasos diminutos que conectan con cada célula"
+          "right": "Vasos muy finos donde se intercambian sustancias con los tejidos."
         }
       ]
     },
@@ -96,8 +96,8 @@
     {
       "id": "g3-naturales-sistema-circulatorio-04",
       "type": "classify",
-      "prompt": "Clasifica cada célula de la sangre según su función:",
-      "explanation": "Los glóbulos rojos llevan oxígeno por todo el cuerpo. Los glóbulos blancos defienden nuestro cuerpo de las infecciones.",
+      "prompt": "Clasifica estos componentes de la sangre según su función.",
+      "explanation": "Los glóbulos rojos, también llamados hematíes, contienen hemoglobina y transportan oxígeno. Los glóbulos blancos, o leucocitos, ayudan a defender el cuerpo.",
       "lang": "es",
       "categories": [
         "Transportar oxígeno",
@@ -176,7 +176,7 @@
       "options": [
         "El corazón dejará de latir por completo al sentarse",
         "Sus pulsaciones seguirán subiendo sin parar aunque se siente en el sofá",
-        "Tras descansar diez minutos, sus pulsaciones bajarán de nuevo cerca de 70"
+        "Lo más probable es que, al descansar, sus pulsaciones bajen progresivamente."
       ],
       "answer": 2
     },
@@ -184,7 +184,7 @@
       "id": "g3-naturales-sistema-circulatorio-08",
       "type": "true-false",
       "prompt": "Hacer ejercicio habitualmente y comer frutas y verduras ayuda a mantener sano nuestro corazón.",
-      "explanation": "El deporte fortalece el músculo del corazón y una dieta sana mantiene limpias las arterias.",
+      "explanation": "Moverse de forma habitual y comer de manera variada ayuda a cuidar el corazón y los vasos sanguíneos.",
       "lang": "es",
       "answer": true
     },

@@ -1,0 +1,248 @@
+{
+  "id": "g4-lengua-prefijos-y-sufijos",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "prefijos-y-sufijos",
+  "temaNombre": "Spanish Prefixes and Suffixes",
+  "title": "The World of Prefixes and Suffixes",
+  "summary": "Discover how Spanish words change when prefixes are added at the beginning or suffixes at the end.",
+  "keyIdeas": [
+    "Prefixes go before a base word or root to form a new word with a different meaning.",
+    "Suffixes go after a base or root and can form words for jobs, places or qualities.",
+    "Recognising a root or base word can help you understand unfamiliar words."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-01",
+      "type": "true-false",
+      "prompt": "In «submarino», «sub-» is a prefix because it comes before the base.",
+      "explanation": "True. Prefixes go before the base or root to change its meaning. Here, «sub-» means 'under'.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-02",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by the part studied here: prefixes des-, im-, re- or suffixes -ería, -ario, -ista.",
+      "explanation": "Focus on «des-», «im-» and «re-» in «deshacer», «imposible» and «recolocar». Focus on «-ería», «-ario» and «-ista» in «panadería», «campanario» and «violinista». A word can contain more than one added part.",
+      "lang": "en",
+      "categories": [
+        "Prefix studied",
+        "Suffix studied"
+      ],
+      "items": [
+        {
+          "text": "deshacer",
+          "category": 0
+        },
+        {
+          "text": "panadería",
+          "category": 1
+        },
+        {
+          "text": "imposible",
+          "category": 0
+        },
+        {
+          "text": "campanario",
+          "category": 1
+        },
+        {
+          "text": "recolocar",
+          "category": 0
+        },
+        {
+          "text": "violinista",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-03",
+      "type": "match",
+      "prompt": "Match each Spanish prefix with the meaning it adds in the example.",
+      "explanation": "In these examples, «des-» reverses an action, «re-» repeats it, «pre-» means 'before' and «sub-» means 'under'.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "des- (despeinar)",
+          "right": "Opposite action"
+        },
+        {
+          "left": "re- (releer)",
+          "right": "Repetition"
+        },
+        {
+          "left": "pre- (prehistoria)",
+          "right": "Before"
+        },
+        {
+          "left": "sub- (subsuelo)",
+          "right": "Under"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-04",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with the word naming a job.",
+      "explanation": "The suffix «-ero» can form words for jobs, such as «jardinero».",
+      "hint": "Choose the word that names a person.",
+      "lang": "en",
+      "sentence": "La persona que diseña y construye jardines con plantas preciosas es un gran ___.",
+      "options": [
+        "jardincito",
+        "jardinero",
+        "jardinería"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-05",
+      "type": "choice",
+      "prompt": "Aisha says «pescado» has the prefix «pes-». Is she right?",
+      "explanation": "Not every initial group of letters is a prefix. «Pescado» comes from «pescar» and has no prefix.",
+      "hint": "Think about the base verb «pescar».",
+      "lang": "en",
+      "options": [
+        "Yes, because all aquatic animals have a prefix.",
+        "No, because «pescado» comes from «pescar» and has no prefix.",
+        "Yes, because «pes-» is at the beginning of the word."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-06",
+      "type": "reading",
+      "prompt": "Read the Spanish text about the school workshop and answer the questions.",
+      "explanation": "«Ultrarrápido» has the prefix «ultra-», and «jardinera» has the suffix «-era».",
+      "lang": "en",
+      "title": "El invento de Mateo",
+      "text": "En el taller de ciencias, Mateo presentó su invento: un monopatín ultrarrápido con ruedas recargables. Su amiga Martina, que sueña con ser jardinera, lo examinó con curiosidad. Mateo explicó que el motor era completamente silencioso para no molestar a los vecinos. Toda la clase aplaudió entusiasmada al ver que el vehículo se movía con suavidad por el patio.",
+      "questions": [
+        {
+          "prompt": "Which word in the text has a prefix meaning 'very' or 'to an extreme degree'?",
+          "explanation": "«Ultra-» can mean 'very' or 'to a degree beyond the usual'.",
+          "options": [
+            "silencioso",
+            "recargables",
+            "ultrarrápido"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "In «jardinera», what does the suffix «-era» add?",
+          "options": [
+            "The idea of undoing an action.",
+            "The name of a person who works caring for gardens.",
+            "The name of a planet."
+          ],
+          "answer": 1,
+          "explanation": "In «jardinera», «-era» helps form a job name from «jardín»."
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-07",
+      "type": "choice",
+      "prompt": "Find the mistake. In which Spanish sentence is the prefixed word used incorrectly?",
+      "explanation": "To make a desk tidy, use «ordenar», not «desordenar». Here, «des-» reverses the action.",
+      "hint": "Find the action that does not fit the intended result.",
+      "lang": "en",
+      "options": [
+        "Martina intentó desordenar su mesa para que quedase limpia y recogida.",
+        "Hugo metió la tarta en el horno para descongelarla antes de comer.",
+        "El árbitro consideró que la jugada era legal y continuó el partido."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-08",
+      "type": "order",
+      "prompt": "Put this guide to forming a Spanish word meaning 'read again' in order.",
+      "explanation": "Adding «re-» to «leer» forms «releer», which means 'read again'.",
+      "lang": "en",
+      "items": [
+        "Identify the base word: «leer».",
+        "Choose the prefix «re-» to show repetition.",
+        "Join the parts to make «releer»."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-09",
+      "type": "fill-blank",
+      "prompt": "Choose the correctly formed Spanish word to complete the sentence.",
+      "explanation": "«Increíble» combines «in-» and «creíble». The prefix becomes «im-» before b or p, as in «imposible».",
+      "hint": "Think of «creíble» and the prefix that gives it a negative meaning.",
+      "lang": "en",
+      "sentence": "La noticia era tan extraña que a todos les pareció algo completamente ___.",
+      "options": [
+        "descreíble",
+        "imcreíble",
+        "increíble"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-prefijos-y-sufijos-10",
+      "type": "choice",
+      "prompt": "Omar invents a name for a shop selling notebooks. Which Spanish suffix for a place should he use?",
+      "explanation": "«-ería» can name a shop or business, as in «pastelería» or «frutería».",
+      "hint": "Think of «zapatería», «panadería» or «pescadería».",
+      "lang": "en",
+      "options": [
+        "The suffix «-ero», to form «libretero».",
+        "The suffix «-oso», to form «libretoso».",
+        "The suffix «-ería», to form «libretería»."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:40:22.220Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:25:17.986Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "0920c9a87103047246ab70a5d7c5964926d86bdd2b9f8fd5f048364728a993e8",
+      "validation": "manual-review"
+    }
+  }
+}

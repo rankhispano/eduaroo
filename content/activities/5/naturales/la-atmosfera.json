@@ -103,14 +103,14 @@
     {
       "id": "g5-naturales-la-atmosfera-05",
       "type": "choice",
-      "prompt": "Omar cuelga de los extremos de una regla dos globos idénticos desinflados y la sostiene por el centro: la regla queda equilibrada. Luego infla uno de ellos y vuelve a colgarlo. ¿Qué observará y qué demuestra este experimento?",
-      "explanation": "El aire es materia y por tanto tiene masa. Al inflar el globo, este contiene más aire y pesa más, inclinando la balanza hacia su lado.",
-      "hint": "Recuerda que los gases son materia y ocupan un volumen.",
+      "prompt": "La docente pesa un recipiente rígido cerrado: marca 80 g. Introduce más aire con una bomba, lo cierra y vuelve a pesarlo: marca 82 g. El volumen del recipiente no cambia. ¿Qué muestran estos datos?",
+      "explanation": "Al introducir aire aumenta la masa medida. El aire es materia: tiene masa y ocupa espacio.",
+      "hint": "Compara las dos medidas del mismo recipiente.",
       "lang": "es",
       "options": [
-        "La regla seguirá completamente horizontal, porque los gases no pesan nada.",
-        "La regla se inclinará hacia el globo inflado, demostrando que el aire tiene masa.",
-        "La regla se inclinará hacia el globo desinflado, porque el aire hace flotar al globo inflado."
+        "El aire no tiene masa",
+        "El aire añadido tiene masa",
+        "El aire se ha convertido en agua"
       ],
       "answer": 1
     },

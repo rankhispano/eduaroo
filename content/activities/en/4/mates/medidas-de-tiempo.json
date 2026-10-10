@@ -1,0 +1,243 @@
+{
+  "id": "g4-mates-medidas-de-tiempo",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "medidas-de-tiempo",
+  "temaNombre": "Units of Time",
+  "title": "An Adventure with Time",
+  "summary": "Calculate hours, minutes and durations to organise everyday activities.",
+  "keyIdeas": [
+    "An hour has 60 minutes, and a minute has 60 seconds. These units do not change in groups of 100.",
+    "One way to find a duration is to count to the next full hour, then add the remaining time.",
+    "A 24-hour clock shows afternoon and evening times with hours above 12."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Magnitud",
+      "B. Sentido de la medida › Medición",
+      "B. Sentido de la medida › Estimación y relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-medidas-de-tiempo-01",
+      "type": "match",
+      "prompt": "Match each time unit with its equivalent.",
+      "explanation": "Hours and minutes use groups of 60; a day has 24 hours and a week has 7 days.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "1 hour",
+          "right": "60 minutes"
+        },
+        {
+          "left": "1 day",
+          "right": "24 hours"
+        },
+        {
+          "left": "1 minute",
+          "right": "60 seconds"
+        },
+        {
+          "left": "1 week",
+          "right": "7 days"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-02",
+      "type": "true-false",
+      "prompt": "A film lasts 1 hour and 40 minutes. This means it lasts exactly 140 minutes.",
+      "explanation": "False. One hour is 60 minutes, so 60 + 40 = 100 minutes.",
+      "hint": "How many minutes are in one hour?",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-03",
+      "type": "order",
+      "prompt": "Put these durations in order from shortest to longest.",
+      "explanation": "45 seconds is less than a minute. Two minutes is 120 seconds; an hour and a half is 90 minutes; a day is 24 hours; a week is 7 days.",
+      "lang": "en",
+      "items": [
+        "45 seconds",
+        "2 minutes",
+        "1 hour and a half",
+        "1 day",
+        "1 week"
+      ]
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-04",
+      "type": "choice",
+      "prompt": "Hugo goes to the park at 17:15 and gets home at 18:30. How long is he out playing?",
+      "explanation": "17:15 to 18:15 is 1 hour, then another 15 minutes reaches 18:30: 1 hour 15 minutes.",
+      "hint": "First count from 17:15 to 18:15.",
+      "lang": "en",
+      "options": [
+        "1 hour 15 minutes",
+        "1 hour 25 minutes",
+        "1 hour 45 minutes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-05",
+      "type": "classify",
+      "prompt": "Sort these time units by whether one unit is shorter or longer than a whole day.",
+      "explanation": "A second, minute and hour are shorter than a day. A week, month, decade and century are longer.",
+      "lang": "en",
+      "categories": [
+        "Shorter than a day",
+        "Longer than a day"
+      ],
+      "items": [
+        {
+          "text": "Minute",
+          "category": 0
+        },
+        {
+          "text": "Week",
+          "category": 1
+        },
+        {
+          "text": "Hour",
+          "category": 0
+        },
+        {
+          "text": "Century",
+          "category": 1
+        },
+        {
+          "text": "Second",
+          "category": 0
+        },
+        {
+          "text": "Decade",
+          "category": 1
+        },
+        {
+          "text": "Month",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-06",
+      "type": "fill-blank",
+      "prompt": "Work out the total duration of Aisha's training mentally.",
+      "explanation": "Swimming takes 15 + 15 = 30 minutes. Add the 10-minute break: 40 minutes in total.",
+      "hint": "Add both swimming sessions and the break.",
+      "lang": "en",
+      "sentence": "Aisha swims for two 15-minute sessions with a 10-minute break between them. Her training lasts ___ minutes.",
+      "options": [
+        "30",
+        "40",
+        "50"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-07",
+      "type": "choice",
+      "prompt": "Omar converts 2 hours 15 minutes to minutes. He says, 'It is 215 minutes because each hour has 100'. What is his mistake?",
+      "explanation": "An hour has 60 minutes: (2 × 60) + 15 = 135 minutes.",
+      "hint": "How many minutes are really in an hour?",
+      "lang": "en",
+      "options": [
+        "He should have multiplied the hours by 24.",
+        "He added 15 minutes instead of subtracting them.",
+        "He thought an hour had 100 minutes instead of 60."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-08",
+      "type": "choice",
+      "prompt": "A play starts at 16:40 and lasts 1 hour 35 minutes. When does it finish?",
+      "explanation": "Add 1 hour to reach 17:40. Another 20 minutes reaches 18:00, with 15 minutes still to add: 18:15.",
+      "hint": "Every 60 minutes makes another hour.",
+      "lang": "en",
+      "options": [
+        "At 17:15",
+        "At 18:05",
+        "At 18:15",
+        "At 17:75"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-09",
+      "type": "fill-blank",
+      "prompt": "Complete the way we say this clock time in English.",
+      "explanation": "19:45 is 15 minutes before 20:00, or eight in the evening. We say 'quarter to eight'.",
+      "hint": "How many minutes are left before the next full hour?",
+      "lang": "en",
+      "sentence": "A digital clock shows 19:45. We say it is ___ eight in the evening.",
+      "options": [
+        "quarter past",
+        "quarter to",
+        "half past"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-medidas-de-tiempo-10",
+      "type": "choice",
+      "prompt": "A train leaves at 09:20 and arrives at 11:05. It stops once for 10 minutes. How long is it moving?",
+      "explanation": "The journey lasts 1 hour 45 minutes, or 105 minutes. Subtract the 10-minute stop: 95 minutes, or 1 hour 35 minutes.",
+      "hint": "Find the total journey time, then subtract the stop.",
+      "lang": "en",
+      "options": [
+        "1 hour 35 minutes",
+        "1 hour 55 minutes",
+        "1 hour 25 minutes",
+        "1 hour 45 minutes"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:16:47.769Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:53:39.807Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "c5ffcefc67544f400b692ffd2fe414ca45337e9332369937656f3a4428e63e10",
+      "validation": "manual-review"
+    }
+  }
+}

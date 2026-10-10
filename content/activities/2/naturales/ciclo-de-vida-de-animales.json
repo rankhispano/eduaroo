@@ -45,8 +45,8 @@
     {
       "id": "g2-naturales-ciclo-de-vida-de-animales-01",
       "type": "true-false",
-      "prompt": "Los animales nacen, crecen, se reproducen y mueren.",
-      "explanation": "Este es el ciclo de vida de los seres vivos.",
+      "prompt": "Los animales nacen, crecen y pueden reproducirse.",
+      "explanation": "El ciclo de vida incluye nacimiento, crecimiento, posible reproducción y muerte. No todos los individuos llegan a reproducirse.",
       "lang": "es",
       "answer": true
     },
@@ -130,7 +130,7 @@
           "category": 1
         },
         {
-          "text": "Pez",
+          "text": "Sardina",
           "category": 0
         },
         {
@@ -156,7 +156,7 @@
     {
       "id": "g2-naturales-ciclo-de-vida-de-animales-07",
       "type": "choice",
-      "prompt": "Hugo cuida un renacuajo en clase. ¿Qué cambio observará primero?",
+      "prompt": "Hugo observa un vídeo de un renacuajo. ¿Qué cambio verá antes de que sea una rana adulta?",
       "explanation": "Al renacuajo le crecen patitas. Luego perderá la cola.",
       "hint": "Fíjate en cómo nada y salta una rana.",
       "lang": "es",
@@ -185,14 +185,14 @@
       "id": "g2-naturales-ciclo-de-vida-de-animales-09",
       "type": "reading",
       "prompt": "Lee el texto y responde a las preguntas.",
-      "explanation": "La oruga cambia mucho para convertirse en mariposa.",
+      "explanation": "La oruga pasa por la etapa de crisálida antes de ser mariposa. Observamos los animales sin dañarlos.",
       "lang": "es",
       "title": "La oruga de Aisha",
-      "text": "Aisha cuida una oruga verde en un frasco con agujeros. Le pone hojas frescas cada día. Pronto, la oruga forma un capullo duro llamado crisálida. Días después, sale una mariposa brillante y vuela.",
+      "text": "Aisha observa una oruga verde en el huerto, sin tocarla. La oruga come hojas frescas. Más adelante se convierte en una crisálida. En esta etapa cambia su cuerpo. Después sale una mariposa y vuela. Aisha sigue observando con su maestra.",
       "questions": [
         {
           "prompt": "¿Qué come la oruga de Aisha?",
-          "explanation": "El texto dice que Aisha le pone hojas frescas.",
+          "explanation": "El texto dice que la oruga come hojas frescas.",
           "options": [
             "Hojas frescas",
             "Frutas secas",
@@ -202,7 +202,7 @@
         },
         {
           "prompt": "¿En qué se transforma la oruga al final?",
-          "explanation": "De la crisálida sale una mariposa brillante.",
+          "explanation": "De la crisálida sale una mariposa.",
           "options": [
             "En una abeja",
             "En una mariposa",

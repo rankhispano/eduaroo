@@ -1,0 +1,249 @@
+{
+  "id": "g5-mates-angulos-y-tipos",
+  "cursoId": "5",
+  "asignaturaId": "mates",
+  "temaId": "angulos-y-tipos",
+  "temaNombre": "Angles and Their Types",
+  "title": "Exploring Everyday Angles",
+  "summary": "Identify, classify and estimate angles in everyday situations.",
+  "keyIdeas": [
+    "A right angle is 90°. An acute angle is greater than 0° and less than 90°. An obtuse angle is greater than 90° and less than 180°.",
+    "A straight angle is 180°, half a turn. A full turn is 360°.",
+    "Complementary angles total 90°; supplementary angles total 180°. They need not be next to each other."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.3",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "B. Sentido de la medida › Estimación y relaciones",
+      "C. Sentido espacial › Figuras geométricas de dos y tres dimensiones",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-mates-angulos-y-tipos-01",
+      "type": "match",
+      "prompt": "Match each angle type with its measure.",
+      "explanation": "Use 90° as the right-angle reference. Acute angles are smaller; obtuse angles are strictly between 90° and 180°; a straight angle is 180°.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Acute angle",
+          "right": "Greater than 0° and less than 90°"
+        },
+        {
+          "left": "Right angle",
+          "right": "Exactly 90°"
+        },
+        {
+          "left": "Obtuse angle",
+          "right": "Greater than 90° and less than 180°"
+        },
+        {
+          "left": "Straight angle",
+          "right": "Exactly 180°"
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-02",
+      "type": "classify",
+      "prompt": "Sort these everyday angles by type.",
+      "explanation": "25°, 35° and 40° are acute. 115°, 130° and 140° are obtuse.",
+      "lang": "en",
+      "categories": [
+        "Acute angle (< 90°)",
+        "Obtuse angle (> 90° and < 180°)"
+      ],
+      "items": [
+        {
+          "text": "Partly open scissors at 35°",
+          "category": 0
+        },
+        {
+          "text": "A fan opened to 130°",
+          "category": 1
+        },
+        {
+          "text": "A sharp pencil tip at 25°",
+          "category": 0
+        },
+        {
+          "text": "A reclined seat back at 115°",
+          "category": 1
+        },
+        {
+          "text": "A skating ramp at 40°",
+          "category": 0
+        },
+        {
+          "text": "A broad roof angle at 140°",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-03",
+      "type": "true-false",
+      "prompt": "The smaller angle between clock hands at 15:00 is a right angle.",
+      "explanation": "True. The hour hand is at 3 and the minute hand at 12. They are a quarter-turn apart: 360° ÷ 4 = 90°.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the relationship between two playground angles.",
+      "explanation": "Complementary angles total 90°. Supplementary angles total 180°.",
+      "lang": "en",
+      "sentence": "Two angles sharing a side and adding up to 90° are ___ angles.",
+      "options": [
+        "straight",
+        "complementary",
+        "supplementary",
+        "vertically opposite"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-05",
+      "type": "choice",
+      "prompt": "Omar opens a notebook more than a right angle (90°), but not completely flat (180°). Which estimate could describe its opening?",
+      "explanation": "It must be strictly between 90° and 180°. Only 125° fits.",
+      "hint": "Choose an obtuse angle between 90° and 180°.",
+      "lang": "en",
+      "options": [
+        "210°",
+        "125°",
+        "90°",
+        "45°"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-06",
+      "type": "order",
+      "prompt": "Put these angles in order from smallest to largest.",
+      "explanation": "30° < 75° < 90° < 135° < 180° < 360°.",
+      "lang": "en",
+      "items": [
+        "Acute angle of 30°",
+        "Acute angle of 75°",
+        "Right angle of 90°",
+        "Obtuse angle of 135°",
+        "Straight angle of 180°",
+        "Full turn of 360°"
+      ]
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-07",
+      "type": "choice",
+      "prompt": "Hugo divides a 90° corner of rectangular card into two neighbouring angles. One measures 38°. What does the other measure?",
+      "explanation": "The two angles total 90°, so 90° − 38° = 52°.",
+      "hint": "Subtract 38° from 90°.",
+      "lang": "en",
+      "options": [
+        "142°",
+        "62°",
+        "42°",
+        "52°"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-08",
+      "type": "classify",
+      "prompt": "Sort each angle pair by its total.",
+      "explanation": "50° + 40°, 65° + 25° and 15° + 75° total 90°. The other pairs total 180°.",
+      "lang": "en",
+      "categories": [
+        "Complementary (total 90°)",
+        "Supplementary (total 180°)"
+      ],
+      "items": [
+        {
+          "text": "50° and 40°",
+          "category": 0
+        },
+        {
+          "text": "110° and 70°",
+          "category": 1
+        },
+        {
+          "text": "65° and 25°",
+          "category": 0
+        },
+        {
+          "text": "145° and 35°",
+          "category": 1
+        },
+        {
+          "text": "15° and 75°",
+          "category": 0
+        },
+        {
+          "text": "90° and 90°",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-mates-angulos-y-tipos-09",
+      "type": "choice",
+      "prompt": "Aisha's robot moves straight ahead, then turns 45° right and another 45° right. What type of angle is its total turn from its original direction?",
+      "explanation": "The turns are in the same direction: 45° + 45° = 90°, a right angle.",
+      "hint": "Add the two turns: 45° + 45°.",
+      "lang": "en",
+      "options": [
+        "A right angle",
+        "An acute angle",
+        "An obtuse angle",
+        "A straight angle"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:21:33.100Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:13:28.476Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "e47c76894cc920904d09954109503b57ffcd8d39fb7ac63286e89c4d8c6bf69e",
+      "validation": "manual-review"
+    }
+  }
+}

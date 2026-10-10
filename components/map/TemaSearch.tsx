@@ -1,10 +1,10 @@
 'use client';
 
 import { useId, useMemo, useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Search } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
-import { curriculum } from '@/src/data/curriculum';
+import { getCurriculum } from '@/src/data/localizedCurriculum';
 import { temaHref } from '@/src/data/activityResources';
 
 const normalize = (text: string) =>
@@ -18,16 +18,17 @@ type Result = { key: string; href: string; tema: string; asignatura: string; cur
 // "¿Qué estás dando en clase?": busca entre todos los temas, primero los del curso del niño
 export default function TemaSearch({ cursoId }: { cursoId?: string | null }) {
     const t = useTranslations('KidsMap');
+    const locale = useLocale();
     const inputId = useId();
     const [query, setQuery] = useState('');
 
     const index = useMemo<Result[]>(
         () =>
-            curriculum.flatMap((curso) =>
+            getCurriculum(locale).flatMap((curso) =>
                 curso.asignaturas.flatMap((asignatura) =>
                     asignatura.temas.map((tema) => ({
                         key: `${curso.id}/${asignatura.id}/${tema.id}`,
-                        href: temaHref(curso.id, asignatura.id, tema) ?? `/learning/${curso.id}/${asignatura.id}`,
+                        href: temaHref(curso.id, asignatura.id, tema, locale) ?? `/learning/${curso.id}/${asignatura.id}`,
                         tema: tema.nombre,
                         asignatura: asignatura.nombre,
                         curso: curso.nombre,
@@ -36,7 +37,7 @@ export default function TemaSearch({ cursoId }: { cursoId?: string | null }) {
                     })),
                 ),
             ),
-        [cursoId],
+        [cursoId, locale],
     );
 
     const words = normalize(query).split(/\s+/).filter((w) => w.length > 1);

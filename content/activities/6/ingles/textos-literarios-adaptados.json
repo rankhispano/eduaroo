@@ -8,7 +8,7 @@
   "summary": "Explora y comprende historias clásicas de la literatura adaptadas al inglés.",
   "keyIdeas": [
     "Un texto adaptado simplifica el lenguaje de un clásico sin perder su emoción ni su mensaje.",
-    "Los elementos clave de un relato son los personajes (characters), el lugar (setting), la trama (plot) y la moraleja (moral).",
+    "Los relatos tienen personajes (characters), escenario (setting) y trama (plot). Algunos incluyen una moraleja (moral), pero no todos.",
     "Los conectores narrativos como 'suddenly' o 'finally' ayudan a entender el orden y las sorpresas del argumento."
   ],
   "lomloe": {
@@ -194,7 +194,7 @@
       "explanation": "Esta lectura adaptada de Frances Hodgson Burnett muestra cómo la curiosidad y la naturaleza guían el inicio de una gran aventura.",
       "lang": "en",
       "title": "The Mysterious Key",
-      "text": "Mary Lennox walked alone across the quiet gardens of Misselthwaite Manor. The morning was windy and cold, but Mary enjoyed exploring the open grounds. She stopped near a high stone wall covered with thick green ivy. Suddenly, a small robin hopped onto a pile of brown earth and began to sing a cheerful melody. Mary smiled because she felt a special connection with this little bird. As she watched the robin scratch the dirt, she noticed something bright shining under the dry leaves. She knelt down and picked up a heavy, rusty metal object. It was an old key! Mary held it with trembling hands. Could this key unlock the mysterious door that nobody had opened in ten years? Her heart beat fast as she looked at the ivy-covered wall. She knew her adventure was just beginning.",
+      "text": "Mary Lennox walked alone across the quiet gardens of Misselthwaite Manor. The morning was windy and cold, but Mary enjoyed exploring the open grounds. She stopped near a high stone wall covered with thick green ivy. Suddenly, a small robin hopped onto a pile of brown earth and began to sing a cheerful melody. Mary smiled because she felt a special connection with this little bird. As she watched the robin scratch the dirt, she noticed something bright shining under the dry leaves. She knelt down and picked up a heavy, rusty metal object. It was an old key! Mary felt excited about her discovery and held the key with trembling hands. Could this key unlock the mysterious door that nobody had opened in ten years? Her heart beat fast as she looked at the ivy-covered wall. She knew her adventure was just beginning.",
       "questions": [
         {
           "prompt": "What helped Mary discover the old key in the garden?",
@@ -207,8 +207,8 @@
           "answer": 0
         },
         {
-          "prompt": "Why were Mary's hands 'trembling' when she picked up the key?",
-          "explanation": "Tener las manos temblorosas y el corazón latiendo rápido indica emoción e intriga ante un gran descubrimiento misterioso.",
+          "prompt": "Why did Mary feel excited when she found the key?",
+          "explanation": "La lectura dice que Mary se emocionó con el hallazgo y se preguntó si la llave abriría la puerta misteriosa.",
           "options": [
             "Because she was freezing and wanted to go home.",
             "Because she was excited and nervous about solving a mystery.",

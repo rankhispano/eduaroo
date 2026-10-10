@@ -1,0 +1,236 @@
+{
+  "id": "g4-sociales-demografia-espanola",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "demografia-espanola",
+  "temaNombre": "Spain's population",
+  "title": "Discovering Spain's population",
+  "summary": "Explore population change, migration and where people live in Spain.",
+  "keyIdeas": [
+    "Births and deaths are counted in a place during a period of time.",
+    "People arriving to live somewhere are immigrants; people leaving their place of origin are emigrants.",
+    "Much of Spain's population lives near coasts and in large cities such as Madrid."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE8"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2",
+      "8.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "CP3",
+      "CPSAA3",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-demografia-espanola-01",
+      "type": "true-false",
+      "prompt": "The padrón municipal is the official register of residents living in a municipality.",
+      "explanation": "This local register records how many people live in a Spanish town or city.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-02",
+      "type": "choice",
+      "prompt": "Which term describes babies born in a place during a year?",
+      "explanation": "The birth count records how many people are born in an area during that year.",
+      "hint": "Think of babies being born.",
+      "lang": "en",
+      "options": [
+        "Births",
+        "Deaths",
+        "Immigration"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence.",
+      "explanation": "From the place they leave, a person is an emigrant. From the place they move to, they are an immigrant.",
+      "lang": "en",
+      "sentence": "A person leaving their country to live in another is an ___ from their country of origin.",
+      "options": [
+        "international tourist",
+        "immigrant",
+        "emigrant"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-04",
+      "type": "match",
+      "prompt": "Match each population term to its meaning.",
+      "explanation": "These terms help explain changes in an area's population.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Births",
+          "right": "The number of babies born"
+        },
+        {
+          "left": "Deaths",
+          "right": "The number of people who die"
+        },
+        {
+          "left": "Immigrant",
+          "right": "A person arriving to live in a new place"
+        },
+        {
+          "left": "Emigrant",
+          "right": "A person leaving their place of origin"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-05",
+      "type": "classify",
+      "prompt": "Classify each event by whether it increases or decreases a town's population.",
+      "explanation": "Births and arrivals add residents. Deaths and departures reduce the number.",
+      "lang": "en",
+      "categories": [
+        "Increases population",
+        "Decreases population"
+      ],
+      "items": [
+        {
+          "text": "Babies being born",
+          "category": 0
+        },
+        {
+          "text": "Immigrant families arriving",
+          "category": 0
+        },
+        {
+          "text": "Older residents dying",
+          "category": 1
+        },
+        {
+          "text": "Young residents moving away to a city",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-06",
+      "type": "choice",
+      "prompt": "In Omar's village, 15 babies were born and 8 people died. What happened to natural population growth?",
+      "explanation": "Natural growth was 7 people: 15 − 8. Arrivals and departures are also needed to calculate the total population change.",
+      "hint": "Compare births with deaths.",
+      "lang": "en",
+      "options": [
+        "It was positive because births exceeded deaths.",
+        "It was negative because fewer people died.",
+        "There was no change because population stays the same."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-07",
+      "type": "choice",
+      "prompt": "Where is much of Spain's population concentrated?",
+      "explanation": "Coasts and large cities have many residents, supported by jobs and services.",
+      "lang": "en",
+      "options": [
+        "Equally across every province.",
+        "Near coasts and in large cities such as Madrid.",
+        "In small mountain villages inland."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-08",
+      "type": "order",
+      "prompt": "Order the steps for calculating whether a municipality gains or loses residents in a year.",
+      "explanation": "Gather the figures, calculate natural and migration changes, then add both results.",
+      "lang": "en",
+      "items": [
+        "Gather births, deaths, arrivals and departures",
+        "Calculate natural growth and net migration",
+        "Add both results to find total population change"
+      ]
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-09",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "New families can help slow rural depopulation and keep essential services open.",
+      "lang": "en",
+      "title": "Life in Aldeavieja",
+      "text": "Aldeavieja is a small mountain village. Fifty years ago it had five hundred residents, but many young people left for cities to study and work. Now it has only sixty inhabitants, mostly older people. Last year, Lucía and David arrived with their two daughters to start a small traditional cheesemaking business and work online. Their daughters' arrival helped the village school stay open with two more pupils. Residents feel hopeful about their community's future.",
+      "questions": [
+        {
+          "prompt": "Why did many young residents move to cities?",
+          "explanation": "They moved to find work and study opportunities.",
+          "options": [
+            "The village was too hot.",
+            "To find jobs and study opportunities.",
+            "To start a new car factory."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What benefit came from the new family's arrival?",
+          "explanation": "Their school-age daughters helped provide enough pupils to keep the school open.",
+          "options": [
+            "The local school could stay open.",
+            "A motorway to the beach was built.",
+            "The area's shops closed."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-demografia-espanola-10",
+      "type": "choice",
+      "prompt": "Aisha's region has 4.000 residents across 100 square kilometres. What is its population density?",
+      "explanation": "Divide residents by area: 4.000 ÷ 100 = 40 inhabitants/km².",
+      "hint": "Divide the number of residents by the area in square kilometres.",
+      "lang": "en",
+      "options": [
+        "400 inhabitants per square kilometre",
+        "40 inhabitants per square kilometre",
+        "4 inhabitants per square kilometre"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:07:10.460Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:12:58.327Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "84e050adcc8751502730eb46fce3bd2ae9a9140c2e8747ede0a14bcc33d80c42",
+      "validation": "manual-review"
+    }
+  }
+}

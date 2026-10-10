@@ -1,0 +1,233 @@
+{
+  "id": "g2-mates-el-euro",
+  "cursoId": "2",
+  "asignaturaId": "mates",
+  "temaId": "el-euro",
+  "temaNombre": "The euro",
+  "title": "Learning to use euros",
+  "summary": "Practise the values of euro coins and banknotes in everyday situations.",
+  "keyIdeas": [
+    "One euro is worth 100 cents. We use 1 € and 2 € coins.",
+    "Euro banknotes include 5 €, 10 €, 20 € and 50 €.",
+    "We can make the same amount with different combinations of coins and banknotes."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Educación financiera",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-mates-el-euro-01",
+      "type": "classify",
+      "prompt": "Sort this money into coins or banknotes.",
+      "explanation": "Metal money is coins (1 €, 2 € and cents). Paper money is banknotes (5 €, 10 € and 20 €).",
+      "lang": "en",
+      "categories": [
+        "Coins",
+        "Banknotes"
+      ],
+      "items": [
+        {
+          "text": "1 euro",
+          "category": 0
+        },
+        {
+          "text": "5 euros",
+          "category": 1
+        },
+        {
+          "text": "2 euros",
+          "category": 0
+        },
+        {
+          "text": "10 euros",
+          "category": 1
+        },
+        {
+          "text": "20 euros",
+          "category": 1
+        },
+        {
+          "text": "50 cents",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-el-euro-02",
+      "type": "match",
+      "prompt": "Match each price to the exact money needed to pay.",
+      "explanation": "Add the values: 2 + 2 = 4 €. Match each object to its exact price.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Notebook: 4 €",
+          "right": "Two 2 € coins"
+        },
+        {
+          "left": "Box of crayons: 5 €",
+          "right": "One 5 € banknote"
+        },
+        {
+          "left": "Rubber: 1 €",
+          "right": "One 1 € coin"
+        },
+        {
+          "left": "Pencil case: 10 €",
+          "right": "One 10 € banknote"
+        }
+      ]
+    },
+    {
+      "id": "g2-mates-el-euro-03",
+      "type": "order",
+      "prompt": "Put this money in order from lowest to highest value.",
+      "explanation": "The order of values is 1 €, 2 €, 5 €, 10 € and 20 €.",
+      "lang": "en",
+      "items": [
+        "1 € coin",
+        "2 € coin",
+        "5 € banknote",
+        "10 € banknote",
+        "20 € banknote"
+      ]
+    },
+    {
+      "id": "g2-mates-el-euro-04",
+      "type": "choice",
+      "prompt": "How many 1 € coins do you need to make 5 €?",
+      "explanation": "Each coin is worth 1 €. Add 1 + 1 + 1 + 1 + 1 = 5 €. We need 5 coins.",
+      "hint": "Count in ones until you reach five.",
+      "lang": "en",
+      "options": [
+        "5 coins",
+        "2 coins",
+        "10 coins"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-el-euro-05",
+      "type": "true-false",
+      "prompt": "Two 2 € coins are worth the same as a 5 € banknote.",
+      "explanation": "Two 2 € coins make 4 €: 2 + 2 = 4. Four euros is less than five euros.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g2-mates-el-euro-06",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the extra money needed.",
+      "explanation": "Subtract the money you have from the price: 10 - 7 = 3 €. You need 3 € more.",
+      "lang": "en",
+      "sentence": "I have 7 € and the book costs 10 €. I need ___ more to buy it.",
+      "options": [
+        "3 €",
+        "2 €",
+        "4 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-el-euro-07",
+      "type": "choice",
+      "prompt": "Aisha buys an apple for 2 € and pays with a 5 € banknote. How much change does she get?",
+      "explanation": "Subtract the price from the money paid: 5 - 2 = 3 € change.",
+      "hint": "Subtract the apple's price from five euros.",
+      "lang": "en",
+      "options": [
+        "3 €",
+        "4 €",
+        "2 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-el-euro-08",
+      "type": "choice",
+      "prompt": "Find the mistake: Hugo says three 2 € coins make 5 €. Why is he wrong?",
+      "explanation": "Count in twos three times: 2, 4, 6. Hugo has 6 €, rather than 5 €.",
+      "hint": "Add two three times.",
+      "lang": "en",
+      "options": [
+        "Because 2 + 2 + 2 = 6 €, so he has 6 €.",
+        "Because you cannot add coins.",
+        "Because three 2 € coins are worth 3 €."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-el-euro-09",
+      "type": "choice",
+      "prompt": "Mental maths: Omar has a 10 € banknote and two 2 € coins. How much money does he have altogether?",
+      "explanation": "The two coins make 4 €: 2 + 2 = 4. Add the banknote: 10 + 4 = 14 €.",
+      "hint": "First add the two coins, then add ten.",
+      "lang": "en",
+      "options": [
+        "14 €",
+        "12 €",
+        "16 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-mates-el-euro-10",
+      "type": "choice",
+      "prompt": "Lucía wants to buy a game for 18 €. She has a 10 € banknote and a 5 € banknote. Can she buy it?",
+      "explanation": "Lucía has 10 + 5 = 15 €. That is less than 18 €. She needs 18 - 15 = 3 € more.",
+      "hint": "Add Lucía's two banknotes and compare the total with 18.",
+      "lang": "en",
+      "options": [
+        "Yes, because she has exactly 18 €.",
+        "No, because 10 + 5 = 15 €, so she needs 3 € more.",
+        "Yes, with 1 € left over."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:03:36.589Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:30:34.958Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "592257ed4dee4f23d96192893763fae53b3bccf783cdcb8be685f046597e2e3a",
+      "validation": "manual-review"
+    }
+  }
+}

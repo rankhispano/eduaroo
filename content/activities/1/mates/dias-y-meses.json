@@ -74,8 +74,8 @@
     {
       "id": "g1-mates-dias-y-meses-03",
       "type": "match",
-      "prompt": "Une cada grupo de días con su nombre:",
-      "explanation": "De lunes a viernes vamos al cole y el sábado y domingo descansamos.",
+      "prompt": "En una semana habitual con clases de lunes a viernes, une cada grupo de días con su nombre:",
+      "explanation": "En esta semana hay colegio de lunes a viernes. El sábado y domingo forman el fin de semana.",
       "lang": "es",
       "pairs": [
         {

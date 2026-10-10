@@ -1,0 +1,228 @@
+{
+  "id": "g2-naturales-los-materiales",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "los-materiales",
+  "temaNombre": "Materials",
+  "title": "Exploring materials and their properties",
+  "summary": "Learn where everyday materials come from and what they are like.",
+  "keyIdeas": [
+    "Materials can be natural, like wool, or made by people, like plastic.",
+    "Materials have different properties: see-through, waterproof, flexible, hard or easy to break.",
+    "Recycling materials such as plastic and paper helps care for our planet."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Materia, fuerzas y energía",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-los-materiales-01",
+      "type": "choice",
+      "prompt": "Aisha wears a soft wool scarf. Where does wool come from?",
+      "explanation": "Wool is a natural animal material. It comes from sheep's fleece.",
+      "hint": "Think of a farm animal that gives us wool.",
+      "lang": "en",
+      "options": [
+        "Trees",
+        "Sheep",
+        "Rocks"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-los-materiales-02",
+      "type": "true-false",
+      "prompt": "Clear glass is transparent because light passes through it.",
+      "explanation": "Transparent materials, such as clear glass, let us see through them.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-los-materiales-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about Lucía's umbrella.",
+      "explanation": "Waterproof material does not let water pass through it.",
+      "lang": "en",
+      "sentence": "The umbrella keeps water out because it is ___.",
+      "options": [
+        "soft",
+        "transparent",
+        "waterproof"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-los-materiales-04",
+      "type": "match",
+      "prompt": "Match each object to an important property of its material.",
+      "explanation": "Objects are made from materials with properties that suit their job.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Wellington boot",
+          "right": "Waterproof"
+        },
+        {
+          "left": "Elastic band",
+          "right": "Flexible"
+        },
+        {
+          "left": "Glass window",
+          "right": "Transparent"
+        },
+        {
+          "left": "Wooden table",
+          "right": "Rigid"
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-los-materiales-05",
+      "type": "classify",
+      "prompt": "Sort these materials by where they come from.",
+      "explanation": "Natural materials come from nature. Manufactured materials are made by people.",
+      "lang": "en",
+      "categories": [
+        "Natural material",
+        "Manufactured material"
+      ],
+      "items": [
+        {
+          "text": "Pine wood",
+          "category": 0
+        },
+        {
+          "text": "Plastic bottle",
+          "category": 1
+        },
+        {
+          "text": "Cotton from a plant",
+          "category": 0
+        },
+        {
+          "text": "Sheet of paper",
+          "category": 1
+        },
+        {
+          "text": "River stone",
+          "category": 0
+        },
+        {
+          "text": "Plastic bag",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-los-materiales-06",
+      "type": "choice",
+      "prompt": "Omar puts three objects in water. Which will float?",
+      "explanation": "Cork is light and contains tiny air spaces, so it floats. The coin and glass marble sink.",
+      "hint": "It is a very light material from a tree.",
+      "lang": "en",
+      "options": [
+        "A cork stopper",
+        "A metal coin",
+        "A glass marble"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-los-materiales-07",
+      "type": "choice",
+      "prompt": "Which statement about materials contains a mistake?",
+      "explanation": "Plastic does not grow directly on plants. People make it by processing materials.",
+      "hint": "Think about how plastic is made.",
+      "lang": "en",
+      "options": [
+        "Plastic comes straight from forest plants",
+        "Metal is hard and resists knocks",
+        "Modelling clay is soft and changes shape when we press it"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-los-materiales-08",
+      "type": "order",
+      "prompt": "Put the steps for recycling a plastic bottle in order.",
+      "explanation": "First, we finish using the product. Then we sort the bottle into the right bin, and a factory makes something new from it.",
+      "lang": "en",
+      "items": [
+        "Finish drinking the bottled water",
+        "Put the empty bottle in the yellow recycling bin",
+        "Take the plastic to the recycling factory",
+        "Make a new object from the recycled plastic"
+      ]
+    },
+    {
+      "id": "g2-naturales-los-materiales-09",
+      "type": "choice",
+      "prompt": "Mateo builds a roof for his playhouse. Which material will keep rain out?",
+      "explanation": "Waterproof plastic keeps water out and the inside dry.",
+      "hint": "Choose a material that does not let water through.",
+      "lang": "en",
+      "options": [
+        "Waterproof plastic",
+        "Newspaper",
+        "T-shirt fabric"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-los-materiales-10",
+      "type": "choice",
+      "prompt": "Aisha wants to see her pencils without opening the pencil case. Which material should it be made of?",
+      "explanation": "Transparent plastic lets light through, so we can see what is inside.",
+      "hint": "You need to see through the sides of the case.",
+      "lang": "en",
+      "options": [
+        "Opaque wood",
+        "Transparent plastic",
+        "Dark metal"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:40:20.679Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:40:09.266Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "02c330dae04a346879f68d7acd2cf4cc83cc51f8c143815a0832efb6452c2454",
+      "validation": "manual-review"
+    }
+  }
+}

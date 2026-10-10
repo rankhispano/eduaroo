@@ -9,7 +9,7 @@
   "keyIdeas": [
     "Una fuerza es cualquier interacción capaz de cambiar el movimiento o la forma de un cuerpo.",
     "Las fuerzas pueden actuar por contacto (rozamiento, empuje) o a distancia (gravedad, magnetismo).",
-    "La fuerza de rozamiento se opone siempre al movimiento de los objetos en contacto con una superficie."
+    "El rozamiento se opone al deslizamiento entre superficies y también permite caminar, arrancar y frenar."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -98,8 +98,8 @@
     {
       "id": "g5-naturales-las-fuerzas-y-el-movimiento-03",
       "type": "true-false",
-      "prompt": "La fuerza de rozamiento siempre actúa en el mismo sentido hacia el que se desplaza un objeto.",
-      "explanation": "La fuerza de rozamiento siempre se opone al movimiento, por lo que actúa exactamente en el sentido contrario a la dirección en la que avanza el objeto.",
+      "prompt": "Cuando una caja se desliza sobre el suelo, el rozamiento del suelo la empuja en el mismo sentido que su deslizamiento.",
+      "explanation": "En este caso, el rozamiento se opone al deslizamiento de la caja. Otras fuerzas de rozamiento, como la que permite caminar, pueden impulsarnos hacia delante.",
       "lang": "es",
       "answer": false
     },
@@ -123,7 +123,7 @@
           "right": "Cambiar la dirección del movimiento"
         },
         {
-          "left": "Pisar con fuerza una lata vacía de refresco",
+          "left": "Aplastar una lata con una prensa manejada por la docente",
           "right": "Deformación permanente o plástica"
         }
       ]
@@ -231,7 +231,7 @@
     {
       "id": "g5-naturales-las-fuerzas-y-el-movimiento-10",
       "type": "choice",
-      "prompt": "En el recreo, dos grupos juegan al juego de la soga. El equipo azul tira hacia la izquierda con una fuerza de 150 newtons (N) y el equipo rojo tira hacia la derecha con una fuerza de 150 newtons (N). ¿Qué le ocurrirá al pañuelo situado en el centro de la cuerda?",
+      "prompt": "La cuerda está inicialmente quieta. En el recreo, dos grupos juegan al juego de la soga. El equipo azul tira hacia la izquierda con una fuerza de 150 newtons (N) y el equipo rojo tira hacia la derecha con una fuerza de 150 newtons (N). ¿Qué le ocurrirá al pañuelo situado en el centro de la cuerda?",
       "explanation": "Cuando dos fuerzas de la misma magnitud actúan sobre un mismo cuerpo en la misma dirección pero en sentidos contrarios, su resultado total es cero (fuerzas equilibradas) y el cuerpo no varía su estado de reposo.",
       "hint": "Compara la intensidad y el sentido de las dos fuerzas aplicadas.",
       "lang": "es",

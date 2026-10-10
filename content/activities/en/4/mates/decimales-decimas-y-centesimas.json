@@ -1,0 +1,220 @@
+{
+  "id": "g4-mates-decimales-decimas-y-centesimas",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "decimales-decimas-y-centesimas",
+  "temaNombre": "Decimals: Tenths and Hundredths",
+  "title": "Adventures with Tenths and Hundredths",
+  "summary": "Understand, compare and use decimals. These Spanish curriculum exercises use a decimal comma: 0,5 means five tenths.",
+  "keyIdeas": [
+    "One whole can be divided into 10 equal tenths or 100 equal hundredths.",
+    "The first digit after the decimal comma shows tenths; the second shows hundredths.",
+    "Compare whole-number parts first, then tenths, then hundredths if needed."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "2.3",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones",
+      "A. Sentido numérico › Educación financiera"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-01",
+      "type": "match",
+      "prompt": "Match each expression with its decimal number.",
+      "explanation": "Tenths are in the first position after the decimal comma; hundredths are in the second.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "5 tenths",
+          "right": "0,5"
+        },
+        {
+          "left": "5 hundredths",
+          "right": "0,05"
+        },
+        {
+          "left": "1 whole and 5 tenths",
+          "right": "1,5"
+        },
+        {
+          "left": "1 whole and 5 hundredths",
+          "right": "1,05"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the fruit's mass.",
+      "explanation": "The first decimal digit shows tenths, so 0,4 kg is 4 tenths of a kilogram.",
+      "lang": "en",
+      "sentence": "An apple with a mass of 0,4 kg has a mass of exactly ___ of a kilogram.",
+      "options": [
+        "4 hundredths",
+        "4 tenths",
+        "40 wholes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-03",
+      "type": "true-false",
+      "prompt": "0,5 is less than 0,48 because 5 is less than 48.",
+      "explanation": "False. 0,5 = 0,50. Five tenths is greater than four tenths, so 0,5 is greater than 0,48.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-04",
+      "type": "classify",
+      "prompt": "Sort these decimals by their value compared with 1,5.",
+      "explanation": "Compare with 1,50. If the tenths match, check the hundredths: 1,52 is 2 hundredths more than 1,50.",
+      "lang": "en",
+      "categories": [
+        "Less than 1,5",
+        "Greater than 1,5"
+      ],
+      "items": [
+        {
+          "text": "1,35",
+          "category": 0
+        },
+        {
+          "text": "1,09",
+          "category": 0
+        },
+        {
+          "text": "1,48",
+          "category": 0
+        },
+        {
+          "text": "1,52",
+          "category": 1
+        },
+        {
+          "text": "1,6",
+          "category": 1
+        },
+        {
+          "text": "1,71",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-05",
+      "type": "choice",
+      "prompt": "Hugo writes '3 wholes and 4 hundredths' as 3,4. What is his mistake?",
+      "explanation": "3,4 means 3 wholes and 4 tenths. Hundredths go in the second decimal place: 3,04.",
+      "hint": "Which position after the decimal comma shows hundredths?",
+      "lang": "en",
+      "options": [
+        "He mixed up hundredths and tenths; the correct number is 3,04.",
+        "He forgot to add the digits; the correct number is 7.",
+        "He put the comma in the wrong place; the correct number is 0,34."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-06",
+      "type": "choice",
+      "prompt": "Omar has one €1 coin and three 10-cent coins. How much money does he have?",
+      "explanation": "Three 10-cent coins make 30 cents, or 3 tenths of a euro. Adding €1 gives €1,30.",
+      "hint": "Each 10-cent coin is worth €0,10.",
+      "lang": "en",
+      "options": [
+        "€13,0",
+        "€1,03",
+        "€1,30"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-07",
+      "type": "fill-blank",
+      "prompt": "Work out mentally how much more is needed to make 1 whole metre.",
+      "explanation": "One metre is 10 tenths. From 0,7 metres, another 0,3 metres makes 1 metre: 0,7 + 0,3 = 1.",
+      "lang": "en",
+      "sentence": "If a ribbon is 0,7 metres long, another ___ is needed to make 1 metre.",
+      "options": [
+        "0,03 metres",
+        "0,3 metres",
+        "3 metres"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-08",
+      "type": "order",
+      "prompt": "Put these race times in order from fastest (shortest time) to slowest.",
+      "explanation": "The times increase from 8,05 s to 8,20 s, then 8,45 s and finally 9,10 s.",
+      "lang": "en",
+      "items": [
+        "8,05 s",
+        "8,2 s",
+        "8,45 s",
+        "9,1 s"
+      ]
+    },
+    {
+      "id": "g4-mates-decimales-decimas-y-centesimas-09",
+      "type": "choice",
+      "prompt": "Aisha buys a notebook for €0,45 and a pencil for €0,35. She pays with €1. How much change does she get?",
+      "explanation": "Cost: 0,45 + 0,35 = €0,80. Change: 1,00 − 0,80 = €0,20.",
+      "hint": "Add the prices, then subtract the total from €1.",
+      "lang": "en",
+      "options": [
+        "€0,80",
+        "€0,20",
+        "€0,10"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:14:39.232Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:27:36.054Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "1ea8cc1d7c34c362c57ef634d43434bdf194a697583b908b2ab5eaf5ef400f23",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -87,24 +87,24 @@
     {
       "id": "g3-ingles-presente-simple-04",
       "type": "match",
-      "prompt": "Match each subject with the correct routine action:",
+      "prompt": "Match each subject and action with the correct present simple phrase:",
       "explanation": "Con 'he' y 'she' añadimos -s al verbo (drinks, reads), mientras que con 'we' y 'they' el verbo no cambia (drink, read).",
       "lang": "en",
       "pairs": [
         {
-          "left": "She",
+          "left": "She + drink milk",
           "right": "drinks milk"
         },
         {
-          "left": "We",
+          "left": "We + drink water",
           "right": "drink water"
         },
         {
-          "left": "He",
+          "left": "He + read stories",
           "right": "reads stories"
         },
         {
-          "left": "They",
+          "left": "They + read comics",
           "right": "read comics"
         }
       ]
@@ -112,8 +112,8 @@
     {
       "id": "g3-ingles-presente-simple-05",
       "type": "classify",
-      "prompt": "Classify these verbs depending on the subject pronoun:",
-      "explanation": "Los verbos que terminan en -s o -es se usan exclusivamente con la tercera persona del singular: he, she, it.",
+      "prompt": "Classify these forms for affirmative present simple sentences.",
+      "explanation": "En estas frases afirmativas, la tercera persona singular usa likes, watches o runs. Tras does/doesn’t se usa la forma base.",
       "lang": "en",
       "categories": [
         "Use with 'I / You / We / They'",
@@ -163,7 +163,7 @@
     {
       "id": "g3-ingles-presente-simple-07",
       "type": "order",
-      "prompt": "Put the words in order to make a daily routine sentence:",
+      "prompt": "Put the subject first, then the action and place, and finish with «together».",
       "explanation": "En inglés, el orden habitual es sujeto (We) + verbo (have) + complemento (lunch) + lugar (at school) + modo (together).",
       "lang": "en",
       "items": [

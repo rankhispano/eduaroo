@@ -40,8 +40,8 @@
     {
       "id": "g4-ingles-animales-y-medioambiente-01",
       "type": "choice",
-      "prompt": "Where does a dolphin live? 🐬",
-      "explanation": "Los delfines son animales marinos y viven en el océano (ocean).",
+      "prompt": "Where does a sea dolphin live? 🐬",
+      "explanation": "Un delfín marino vive en el océano. También existen delfines de río.",
       "hint": "Piensa en un lugar con mucha agua salada.",
       "lang": "en",
       "options": [
@@ -54,8 +54,8 @@
     {
       "id": "g4-ingles-animales-y-medioambiente-02",
       "type": "match",
-      "prompt": "Match each animal with its natural habitat:",
-      "explanation": "Cada animal está adaptado a su hábitat: el camello al desierto, el oso al bosque, la ballena al océano y el águila a las montañas.",
+      "prompt": "Match these animals with a habitat where they can live:",
+      "explanation": "Son ejemplos de hábitats: no todos los osos viven en bosques ni todas las águilas solo en montañas.",
       "lang": "en",
       "pairs": [
         {
@@ -63,7 +63,7 @@
           "right": "Desert"
         },
         {
-          "left": "Bear",
+          "left": "Brown bear",
           "right": "Forest"
         },
         {
@@ -71,7 +71,7 @@
           "right": "Ocean"
         },
         {
-          "left": "Eagle",
+          "left": "Golden eagle",
           "right": "Mountains"
         }
       ]
@@ -155,13 +155,13 @@
       "id": "g4-ingles-animales-y-medioambiente-07",
       "type": "order",
       "prompt": "Put the steps in order to recycle a plastic water bottle at school:",
-      "explanation": "Primero terminamos el agua, aplastamos la botella para ahorrar espacio, la echamos al contenedor amarillo y luego la llevamos a reciclar.",
+      "explanation": "La botella vacía se separa como envase y se vacía el contenido del cubo, con ayuda adulta, en el contenedor de envases del ejemplo.",
       "lang": "en",
       "items": [
         "Finish drinking your water.",
-        "Crush the empty plastic bottle.",
-        "Throw the bottle into the yellow bin.",
-        "Take the yellow bin to the recycling container."
+        "Put the empty bottle in the classroom packaging bin.",
+        "When the bin is full, ask an adult for help.",
+        "Empty its contents into the yellow packaging container."
       ]
     },
     {

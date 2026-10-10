@@ -5,11 +5,11 @@
   "temaId": "presentacion-oral-final",
   "temaNombre": "Presentación oral final",
   "title": "Domina tu presentación oral final",
-  "summary": "Aprende a estructurar tu exposición oral en inglés, usar conectores clave y comunicar con confianza.",
+  "summary": "Practica frases y una estructura para exponer en inglés; después ensaya una charla breve con una persona adulta.",
   "keyIdeas": [
     "Estructura tu charla en tres partes: introducción, desarrollo con conectores y conclusión con ronda de preguntas.",
     "Utiliza frases fijas para guiar al público, como 'Today I will talk about...' o 'To sum up...'.",
-    "Mira a tus compañeros, habla con calma y usa notas breves en lugar de leer diapositivas completas."
+    "Habla con un volumen audible y pausas. Puedes apoyarte en notas o tarjetas; mira al grupo de la forma que te resulte cómoda."
   ],
   "lomloe": {
     "area": "lengua-extranjera",
@@ -61,7 +61,7 @@
       "id": "g6-ingles-presentacion-oral-final-02",
       "type": "true-false",
       "prompt": "During an oral presentation, looking at the floor and speaking in a very quiet whisper helps the audience understand you.",
-      "explanation": "Para comunicar bien debemos mantener contacto visual con el público y proyectar la voz con un volumen claro y adecuado.",
+      "explanation": "Hablar con un volumen audible ayuda a que el público te entienda. Puedes orientar la mirada al grupo o a un punto cercano sin forzar el contacto visual.",
       "lang": "en",
       "answer": false
     },
@@ -89,8 +89,8 @@
     {
       "id": "g6-ingles-presentacion-oral-final-04",
       "type": "order",
-      "prompt": "Put the steps of an oral presentation in the correct chronological order:",
-      "explanation": "Toda buena presentación sigue este orden lógico: bienvenida y tema, desarrollo con ejemplos, resumen final y cierre con preguntas.",
+      "prompt": "Sigue esta guía de presentación: bienvenida, explicación, resumen y preguntas. Ordena sus pasos.",
+      "explanation": "Es un esquema útil para practicar; otras presentaciones pueden organizarse de otra manera.",
       "lang": "en",
       "items": [
         "Welcome the audience and introduce the topic.",
@@ -161,7 +161,7 @@
       "id": "g6-ingles-presentacion-oral-final-08",
       "type": "choice",
       "prompt": "Lucía feels very nervous five minutes before her English presentation about renewable energy. What is the best strategy for her?",
-      "explanation": "Respirar hondo para calmar los nervios y apoyarse en notas breves da seguridad, mientras que memorizar al pie de la letra aumenta la ansiedad.",
+      "explanation": "Respirar despacio y revisar notas puede ayudar a Lucía a sentirse preparada. Cada persona puede encontrar apoyos distintos para sus nervios.",
       "hint": "¿Qué técnica ayuda al cuerpo a relajarse y a la mente a centrarse?",
       "lang": "en",
       "options": [
@@ -175,7 +175,7 @@
       "id": "g6-ingles-presentacion-oral-final-09",
       "type": "reading",
       "prompt": "Read the text about Aisha's presentation and answer the questions:",
-      "explanation": "La lectura muestra cómo una buena preparación previa (diapositivas visuales, fichas breves y ensayo de voz) garantiza el éxito al hablar en público.",
+      "explanation": "Ensayar, usar notas y organizar el contenido ayuda a comunicar con claridad, aunque no garantiza el resultado de una presentación.",
       "lang": "en",
       "title": "Aisha's Presentation Day",
       "text": "Last week, Aisha prepared her final English presentation about the Great Barrier Reef. First, she made colourful slides with short bullet points instead of long paragraphs, so her classmates would not get bored. Next, she wrote small index cards with keywords to help her remember facts without reading directly from the screen. Aisha also practised in front of a mirror to check her posture, eye contact, and voice projection. She timed her speech to make sure it lasted exactly four minutes. When presentation day arrived, she felt nervous at first, but taking a deep breath helped her relax. She smiled, greeted her classmates, and spoke clearly. At the end, Aisha invited the class to ask questions. Her teacher praised her for using signposting phrases like 'first of all' and 'in conclusion'.",

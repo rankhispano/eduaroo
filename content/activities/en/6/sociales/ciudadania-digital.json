@@ -1,0 +1,248 @@
+{
+  "id": "g6-sociales-ciudadania-digital",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "ciudadania-digital",
+  "temaNombre": "Digital citizenship",
+  "title": "Active and safe digital citizenship",
+  "summary": "Learn to use the internet safely, respect others online and protect your digital footprint.",
+  "keyIdeas": [
+    "Your digital footprint is the trail you leave when using the internet. Some of it can be kept or copied for a long time.",
+    "Netiquette means communicating with empathy, politeness and respect online.",
+    "Before sharing news or personal information, check reliable sources and protect your privacy."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD4",
+      "CD5",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-ciudadania-digital-01",
+      "type": "true-false",
+      "prompt": "Your digital footprint consists only of photographs you choose to upload to the internet.",
+      "explanation": "It also includes comments you write, searches you make and information other people post about you.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-02",
+      "type": "choice",
+      "prompt": "Compare these fictional password examples. Which is harder to guess?",
+      "explanation": "A password should be long, unique and hard to guess. A long phrase can help. Avoid personal details and follow your school's guidance. Never use published examples as real passwords.",
+      "hint": "Avoid obvious personal details.",
+      "lang": "en",
+      "options": [
+        "12345678, because it has eight consecutive numbers that are easy to remember.",
+        "MyDog#Eats8Biscuits, because it combines upper-case and lower-case letters, numbers and symbols.",
+        "Lucia2012, because it includes her name and birth year."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-03",
+      "type": "match",
+      "prompt": "Match each term about online respect and safety to its definition.",
+      "explanation": "Understanding these ideas helps us use the internet responsibly and respect everyone in our community.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Netiquette",
+          "right": "Rules for polite and respectful communication online."
+        },
+        {
+          "left": "Digital footprint",
+          "right": "The trail of information left when we use internet services."
+        },
+        {
+          "left": "Cyberbullying",
+          "right": "Repeated use of digital tools to intimidate or upset someone."
+        },
+        {
+          "left": "Disinformation",
+          "right": "Deliberately spreading false or manipulated information to deceive people."
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about checking information online.",
+      "explanation": "Cross-checking means comparing information with reliable, authoritative sources before sharing it.",
+      "lang": "en",
+      "sentence": "When we find a striking headline on social media, we should ___ the information using official sources before sharing it.",
+      "options": [
+        "ignore",
+        "cross-check",
+        "forward"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-05",
+      "type": "classify",
+      "prompt": "These school projects contain no personal names, photographs or locations. Classify private information and schoolwork that could be shared under the school's rules.",
+      "explanation": "Before posting, check for personal information and follow school rules. A text or drawing can also reveal private details.",
+      "lang": "en",
+      "categories": [
+        "Private information to protect",
+        "Schoolwork without personal information"
+      ],
+      "items": [
+        {
+          "text": "Your home address and your family's telephone number",
+          "category": 0
+        },
+        {
+          "text": "A review of your favourite library book",
+          "category": 1
+        },
+        {
+          "text": "Your email password",
+          "category": 0
+        },
+        {
+          "text": "An essay about plants in your autonomous community",
+          "category": 1
+        },
+        {
+          "text": "The exact place and time where you train alone each afternoon",
+          "category": 0
+        },
+        {
+          "text": "A drawing you made for the school's cultural week",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-06",
+      "type": "order",
+      "prompt": "Order the steps Omar should follow to check whether suspicious online news is a hoax.",
+      "explanation": "Critical thinking involves reading the whole story, checking its author and date, comparing sources and acting carefully.",
+      "lang": "en",
+      "items": [
+        "Read the full story carefully, beyond its striking headline.",
+        "Check the author, the publisher and the article's date.",
+        "Look for the same event in other established, reliable news sources.",
+        "Decide, with reasons, whether the story is true before forwarding it."
+      ]
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-07",
+      "type": "choice",
+      "prompt": "Someone in the class chat shares an embarrassing photograph of Hugo to mock him. What should a responsible digital citizen do?",
+      "explanation": "Do not spread the image. Tell an adult so Hugo can get help. The group should stop the mocking and support him.",
+      "hint": "Think about how to support the person affected.",
+      "lang": "en",
+      "options": [
+        "Forward the photograph to other friends to ask what they think.",
+        "Keep quiet to avoid problems with classmates.",
+        "Do not share the image, ask the group to show respect and tell an adult."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-08",
+      "type": "true-false",
+      "prompt": "Any image or text on the internet can be copied and presented as your own schoolwork without naming its source.",
+      "explanation": "Digital content has creators and intellectual property rights. Credit its source and use material with suitable permissions or licences.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-09",
+      "type": "choice",
+      "prompt": "A stranger sends Aisha a private message in an online game, offering free virtual coins for a photograph of her school ID card. Why is this risky?",
+      "explanation": "Gifts offered in exchange for personal details or document photographs can be a trick. Never give strangers personal information.",
+      "hint": "Think about information that identifies you.",
+      "lang": "en",
+      "options": [
+        "The virtual coins will lose their value the next day.",
+        "The card contains personal information that could identify and locate her outside the game.",
+        "Online games do not allow conversations with people from other cities."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-sociales-ciudadania-digital-10",
+      "type": "reading",
+      "prompt": "Read the text about online respect and digital footprints, then answer the questions.",
+      "explanation": "Our actions online can have lasting consequences for ourselves and others.",
+      "lang": "en",
+      "title": "Our second life online",
+      "text": "We spend time using digital devices to learn, play and communicate. This makes us digital citizens, with rights that protect us and responsibilities we must meet. Just as we care about getting along in the school playground, we should show empathy and politeness online. This is called netiquette.\n\nEvery search, video we watch and photograph we post can leave a trail called a digital footprint. Some of this trail may last a long time or be copied by others. Not all our activity is public, but we should take care with what we share. Before pressing 'publish', ask three simple questions: is it true, is it respectful, and is it really necessary? Caring about our behaviour online protects us and helps build a safer, more peaceful and more helpful internet for everyone.",
+      "questions": [
+        {
+          "prompt": "Which three questions does the text suggest asking before posting online?",
+          "explanation": "The text explicitly asks whether a post is true, respectful and necessary.",
+          "options": [
+            "Is it free, is it modern, and have my friends seen it?",
+            "Is it true, is it respectful, and is it really necessary?",
+            "Is it funny, is it long, and will it get many likes?"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why does the text compare the internet to the school playground?",
+          "explanation": "People on the other side of a screen have rights and deserve the same respect as people we meet in person.",
+          "options": [
+            "We only interact online during school hours.",
+            "Both places involve real people whose feelings and rights we should respect.",
+            "Schoolteachers decide all the rules of the internet."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What lasting consequence could neglecting our digital footprint have?",
+          "explanation": "Posts can be kept or copied. Careless sharing can affect privacy and relationships.",
+          "options": [
+            "Devices could break because they store too many messages.",
+            "Carelessly shared information could harm our reputation or future relationships.",
+            "We would be legally required to delete our profile every year."
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:49:49.979Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:55:24.148Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "68bdf8905d827ea57ed9fcf9d20e07de0b553bb2af14d5074ee3d430d9cba4e3",
+      "validation": "manual-review"
+    }
+  }
+}

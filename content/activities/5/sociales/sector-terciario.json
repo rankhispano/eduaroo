@@ -53,7 +53,7 @@
     {
       "id": "g5-sociales-sector-terciario-02",
       "type": "classify",
-      "prompt": "Clasifica estos servicios según sean públicos (financiados por el Estado con impuestos) o privados (gestionados por empresas particulares):",
+      "prompt": "Clasifica estos ejemplos según sean servicios de titularidad pública o privada:",
       "explanation": "Los servicios públicos atienden necesidades básicas de toda la ciudadanía mediante impuestos, mientras que los privados pertenecen a personas o empresas que cobran por sus servicios.",
       "lang": "es",
       "categories": [
@@ -62,7 +62,7 @@
       ],
       "items": [
         {
-          "text": "Un hospital de la Seguridad Social",
+          "text": "Hospital público del servicio autonómico de salud",
           "category": 0
         },
         {
@@ -179,7 +179,7 @@
           "category": 0
         },
         {
-          "text": "Alojarte en una masía tradicional y observar aves en Doñana",
+          "text": "Alojarte en una casa rural de la comarca de Doñana y observar aves",
           "category": 2
         },
         {
@@ -208,14 +208,14 @@
       "explanation": "El sector terciario es clave en la economía española, pero debe gestionarse con responsabilidad social y ambiental para no agotar los recursos locales.",
       "lang": "es",
       "title": "El motor de los servicios en España",
-      "text": "En España, más de tres de cada cuatro personas ocupadas trabajan en el sector terciario, lo que lo convierte en el principal motor económico del país. Dentro de este sector, el comercio y el turismo destacan notablemente gracias a nuestro patrimonio histórico, parajes naturales y clima favorable. Asimismo, servicios esenciales como la sanidad y la educación públicas garantizan el bienestar social y la igualdad de oportunidades al financiarse mediante los impuestos de todos los ciudadanos.\n\nSin embargo, este gran desarrollo presenta retos ecosociales urgentes. Por ejemplo, la concentración masiva de turistas en ciertas temporadas puede sobrecargar el consumo de agua, generar toneladas de residuos y encarecer la vivienda para los vecinos locales. Por esta razón, hoy se promueve una transición hacia un modelo más responsable: impulsar el turismo respetuoso, apoyar el pequeño comercio de proximidad y modernizar las redes de transporte limpio para proteger el medioambiente.",
+      "text": "En España, la mayor parte de las personas ocupadas trabajan en el sector terciario, lo que lo convierte en el principal motor económico del país. Dentro de este sector, el comercio y el turismo destacan notablemente gracias a nuestro patrimonio histórico, parajes naturales y clima favorable. Asimismo, servicios esenciales como la sanidad y la educación públicas garantizan el bienestar social y la igualdad de oportunidades al financiarse mediante los impuestos de todos los ciudadanos.\n\nSin embargo, este gran desarrollo presenta retos ecosociales urgentes. Por ejemplo, la concentración masiva de turistas en ciertas temporadas puede sobrecargar el consumo de agua, generar toneladas de residuos y encarecer la vivienda para los vecinos locales. Por esta razón, hoy se promueve una transición hacia un modelo más responsable: impulsar el turismo respetuoso, apoyar el pequeño comercio de proximidad y modernizar las redes de transporte limpio para proteger el medioambiente.",
       "questions": [
         {
-          "prompt": "¿Qué proporción de personas trabaja aproximadamente en el sector terciario en España según el texto?",
-          "explanation": "El texto señala expresamente que 'más de tres de cada cuatro personas ocupadas trabajan en el sector terciario'.",
+          "prompt": "¿Qué indica el texto sobre el empleo en el sector terciario en España?",
+          "explanation": "El texto señala que el sector servicios concentra la mayor parte del empleo.",
           "options": [
             "Exactamente la mitad de la población trabajadora.",
-            "Más de tres de cada cuatro personas ocupadas.",
+            "Emplea a la mayor parte de las personas ocupadas.",
             "Menos de la cuarta parte de los trabajadores."
           ],
           "answer": 1

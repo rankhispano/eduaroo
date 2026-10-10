@@ -38,8 +38,8 @@
     {
       "id": "g4-lengua-ortografia-b-v-h-g-j-01",
       "type": "true-false",
-      "prompt": "Delante de otra consonante, como en 'blanco' o 'brazo', siempre se escribe la letra 'b'.",
-      "explanation": "Siempre escribimos 'b' antes de otra consonante, formando grupos como bl o br.",
+      "prompt": "Los grupos «bl» y «br», como en «blanco» y «brazo», se escriben con b.",
+      "explanation": "Estos grupos se escriben con b. No significa que cualquier consonante deba ir precedida de b: «adverbio» lleva v.",
       "lang": "es",
       "answer": true
     },
@@ -75,7 +75,7 @@
       "id": "g4-lengua-ortografia-b-v-h-g-j-04",
       "type": "match",
       "prompt": "Une cada grupo de palabras con su regla ortográfica.",
-      "explanation": "Cada grupo de letras sigue una norma fija que te ayuda a no dudar al escribir.",
+      "explanation": "Estas reglas y ejemplos ayudan a escribir. Algunas reglas tienen excepciones que debemos aprender o consultar.",
       "lang": "es",
       "pairs": [
         {
@@ -84,11 +84,11 @@
         },
         {
           "left": "Verbos terminados en -ger o -gir",
-          "right": "Se escriben con g"
+          "right": "Conservan g en el infinitivo: recoger, elegir"
         },
         {
           "left": "Palabras terminadas en -aje o -eje",
-          "right": "Se escriben con j"
+          "right": "Usan j en ejemplos como viaje y eje"
         },
         {
           "left": "Terminaciones del pasado en -aba",
@@ -164,9 +164,9 @@
       "id": "g4-lengua-ortografia-b-v-h-g-j-08",
       "type": "fill-blank",
       "prompt": "Completa la frase recordando las excepciones de los verbos en -bir.",
-      "explanation": "Los verbos terminados en -bir van con 'b', pero servir, hervir y vivir son excepciones con 'v'.",
+      "explanation": "«Servir», «hervir» y «vivir» se escriben con v. Muchos otros verbos con ese sonido final se escriben con b, como «escribir».",
       "lang": "es",
-      "sentence": "En el comedor escolar, a Omar le gusta ___ la sopa bien caliente a sus compañeros.",
+      "sentence": "En el comedor, Omar ayuda a ___ agua en los vasos.",
       "options": [
         "servir",
         "serbir",

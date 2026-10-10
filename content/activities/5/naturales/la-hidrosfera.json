@@ -160,10 +160,10 @@
       "id": "g5-naturales-la-hidrosfera-07",
       "type": "choice",
       "prompt": "En clase debaten sobre afirmaciones científicas del agua. Solo una persona ha detectado una idea FALSA muy común. ¿Cuál de estas afirmaciones contiene un error?",
-      "explanation": "¡Ese es el error! La Tierra contiene prácticamente la misma cantidad de agua desde hace millones de años. El agua no se crea continuamente de la nada, sino que se recicla sin cesar a través del ciclo hidrológico.",
+      "explanation": "El ciclo del agua continúa: el agua del mar puede evaporarse, condensarse y regresar como precipitación.",
       "lang": "es",
       "options": [
-        "«El agua que bebemos hoy es completamente nueva y acaba de ser creada en la atmósfera.»",
+        "«El ciclo del agua se detiene para siempre cuando el agua llega al mar.»",
         "«El vapor de agua es un gas transparente e invisible presente en el aire que respiramos.»",
         "«Los icebergs flotan en el mar porque el hielo es menos denso que el agua líquida.»",
         "«Casi tres cuartas partes de la superficie del planeta están cubiertas por agua.»"
@@ -177,7 +177,7 @@
       "explanation": "Comprender la escasez de agua dulce accesible nos ayuda a tomar decisiones de consumo responsable.",
       "lang": "es",
       "title": "La huella invisible del agua",
-      "text": "Cuando abrimos el grifo para beber un vaso de agua fresca, rara vez pensamos en el asombroso viaje que ha realizado. Aunque nuestro planeta parece azul desde el espacio, el 97 % del agua es salada y no es apta para el consumo humano ni para regar los cultivos agrícolas. Del 3 % restante, casi toda se halla atrapada en los hielos polares o en acuíferos muy profundos, dejando menos del 1 % disponible fácilmente en ríos y lagos.\n\nAdemás del agua que bebemos o usamos para ducharnos, existe la llamada «agua virtual»: la cantidad de agua necesaria para fabricar una camiseta de algodón, producir un kilogramo de carne o elaborar un cuaderno escolar. Una sola camiseta puede requerir más de 2.000 litros durante el cultivo y procesado de su fibra.\n\nPor este motivo, ahorrar agua no consiste únicamente en cerrar el grifo mientras nos lavamos los dientes. También implica cuidar el consumo de bienes materiales, evitar el desperdicio de comida y exigir que las industrias no contaminen los ríos y acuíferos.",
+      "text": "Cuando abrimos el grifo para beber un vaso de agua fresca, rara vez pensamos en el asombroso viaje que ha realizado. Aunque nuestro planeta parece azul desde el espacio, el 97 % del agua es salada y no es apta para el consumo humano ni para regar los cultivos agrícolas. La mayor parte del agua dulce está en hielos y aguas subterráneas. Solo una pequeña parte se encuentra en ríos y lagos.\n\nAdemás del agua que bebemos o usamos para ducharnos, existe la llamada «agua virtual»: la cantidad de agua necesaria para fabricar una camiseta de algodón, producir un kilogramo de carne o elaborar un cuaderno escolar. Su cantidad varía según el lugar y la forma de producción.\n\nPor este motivo, ahorrar agua no consiste únicamente en cerrar el grifo mientras nos lavamos los dientes. También implica cuidar el consumo de bienes materiales, evitar el desperdicio de comida y exigir que las industrias no contaminen los ríos y acuíferos.",
       "questions": [
         {
           "prompt": "¿Qué porcentaje aproximado del agua del planeta es dulce?",
@@ -217,8 +217,8 @@
     {
       "id": "g5-naturales-la-hidrosfera-09",
       "type": "choice",
-      "prompt": "Aisha observa que el río que pasa cerca de su pueblo lleva mucho menos caudal en verano y que el pozo de su abuelo ha bajado de nivel. ¿Cuál es la explicación científica más coherente para este descenso?",
-      "explanation": "En verano, el aumento térmico acelera la evaporación y la transpiración vegetal, mientras que la falta de precipitaciones impide recargar tanto el cauce como el nivel freático del acuífero.",
+      "prompt": "Aisha observa que en su pueblo ha llovido muy poco durante un verano caluroso. El río y el pozo llevan menos agua. ¿Qué explicación es coherente con esos datos?",
+      "explanation": "El calor favorece la evaporación y la falta de lluvia reduce la recarga. Las extracciones de agua también pueden influir.",
       "hint": "Relaciona la temperatura con la evaporación y la falta de precipitaciones.",
       "lang": "es",
       "options": [
@@ -233,7 +233,7 @@
       "id": "g5-naturales-la-hidrosfera-10",
       "type": "choice",
       "prompt": "El ayuntamiento del pueblo de Omar quiere evitar que los nitratos de los abonos agrícolas contaminen el agua del pueblo. ¿Por qué es especialmente peligroso que los contaminantes alcancen un acuífero subterráneo?",
-      "explanation": "Los acuíferos tienen una tasa de renovación lenta y el agua filtrada no recibe luz solar directa ni corrientes rápidas, por lo que descontaminar un acuífero subterráneo requiere décadas y un coste enorme.",
+      "explanation": "La renovación de muchos acuíferos es lenta. Es difícil acceder al agua bajo tierra y eliminar su contaminación, por lo que conviene prevenirla.",
       "hint": "Piensa en lo difícil que es acceder a capas de roca bajo tierra.",
       "lang": "es",
       "options": [

@@ -1,0 +1,265 @@
+{
+  "id": "g6-lengua-comunicacion-verbal-y-no-verbal",
+  "cursoId": "6",
+  "asignaturaId": "lengua",
+  "temaId": "comunicacion-verbal-y-no-verbal",
+  "temaNombre": "Verbal and Non-verbal Communication",
+  "title": "The Power of Communication",
+  "summary": "Discover how words, gestures and voice work together in everyday communication.",
+  "keyIdeas": [
+    "Verbal communication uses spoken or written words. Non-verbal communication includes gestures, facial expressions, posture and sounds without words.",
+    "Body language and tone can support words and help make a message clear. Their meaning depends on the person and the context.",
+    "Active listening means paying attention, letting others speak and responding to their message. Not everyone needs eye contact to listen."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 3,
+    "competencies": [
+      "CE3",
+      "CE4"
+    ],
+    "criteria": [
+      "3.1",
+      "3.2",
+      "4.1"
+    ],
+    "descriptors": [
+      "CC2",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CE1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Contexto",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-01",
+      "type": "true-false",
+      "prompt": "Is this statement correct? 'Verbal communication only includes words spoken aloud; written texts are non-verbal communication.'",
+      "explanation": "False. Verbal communication uses words, whether spoken or written.",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-02",
+      "type": "classify",
+      "prompt": "Sort these actions by the main type of communication they use.",
+      "explanation": "Emails, spoken podcasts and phone conversations use words. Gestures, facial expressions and sounds without words are non-verbal.",
+      "lang": "en",
+      "categories": [
+        "Verbal communication",
+        "Non-verbal communication"
+      ],
+      "items": [
+        {
+          "text": "An email to organise a group project",
+          "category": 0
+        },
+        {
+          "text": "Raising a thumb to show that something went well",
+          "category": 1
+        },
+        {
+          "text": "A spoken podcast episode about inventions from history",
+          "category": 0
+        },
+        {
+          "text": "The sound of an ambulance siren in the street",
+          "category": 1
+        },
+        {
+          "text": "Frowning when an explanation is unclear",
+          "category": 1
+        },
+        {
+          "text": "A phone conversation with your grandmother",
+          "category": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-03",
+      "type": "match",
+      "prompt": "Match each action to its main non-verbal feature.",
+      "explanation": "Non-verbal communication includes facial expressions, voice qualities beyond the words (paralanguage), posture and physical distance (proxemics).",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Smiling kindly when greeting someone",
+          "right": "Facial expression"
+        },
+        {
+          "left": "Lowering your voice and slowing its pace",
+          "right": "Paralanguage (tone and voice)"
+        },
+        {
+          "left": "Crossing your arms and turning your back",
+          "right": "Body posture"
+        },
+        {
+          "left": "Respecting personal space during a conversation",
+          "right": "Proxemics (distance)"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-04",
+      "type": "choice",
+      "prompt": "Hugo gives a science presentation with clear words, but looks down and speaks very quietly. Which change would help his audience?",
+      "explanation": "An audible voice helps people follow. Hugo can face the group or look at a nearby point if that is more comfortable; direct eye contact is not essential.",
+      "hint": "Think about what helps the audience hear and follow his explanation.",
+      "lang": "en",
+      "options": [
+        "Speaking as quickly as possible to finish sooner.",
+        "Memorising the text so he never uses his notes.",
+        "Speaking at an audible volume and directing his explanation towards the audience."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-05",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with the most precise word.",
+      "explanation": "Coherence means that the words, gestures and tone support the same message rather than contradicting one another.",
+      "lang": "en",
+      "sentence": "Cuando las palabras que decimos coinciden con lo que transmiten nuestros gestos, existe una clara ___ entre el mensaje verbal y el no verbal.",
+      "options": [
+        "coherencia",
+        "contradicción",
+        "separación"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-06",
+      "type": "choice",
+      "prompt": "In which situation might the gestures make us wonder whether the words reflect the person's feelings?",
+      "explanation": "A shaking voice and a frown might seem at odds with saying everything is fine. Gestures cannot tell us someone's feelings for certain: ask respectfully.",
+      "lang": "en",
+      "options": [
+        "Adrián says he is absolutely fine while looking down, frowning and speaking with a shaking voice.",
+        "Lucía says she is delighted to see someone, with a big smile and open arms.",
+        "Aisha quietly raises her hand and waits for the teacher to let her speak."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-07",
+      "type": "order",
+      "prompt": "Put these steps for a respectful contribution to a formal debate in order.",
+      "explanation": "Ask for a turn and wait for it, then explain your reasons and listen to the response.",
+      "lang": "en",
+      "items": [
+        "Ask for a turn to speak.",
+        "Wait for your turn and prepare your contribution.",
+        "Explain your reasons calmly, with suitable pauses.",
+        "Listen to the response without interrupting."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-08",
+      "type": "reading",
+      "prompt": "Read the Spanish text about the school debate and answer the questions.",
+      "explanation": "The story shows how words and non-verbal features can work together in clear and respectful communication.",
+      "lang": "en",
+      "title": "Más allá de las palabras",
+      "text": "En el colegio Los Olivos, Martina y Leo preparaban la final del torneo de debate. Martina dominaba los datos y los argumentos, pero en los ensayos solía cruzarse de brazos y mirar al techo cada vez que su oponente intervenía. Su tutora, Elena, le explicó que la comunicación no termina cuando dejamos de hablar: la postura de escucha transmite tanto respeto como las palabras.\n\nPor su parte, Leo hablaba con entusiasmo, pero gesticulaba de forma tan exagerada y rápida que distraía al tribunal. Ambos decidieron corregir estos detalles. En el debate definitivo, Martina escuchó a su rival manteniendo la mirada atenta y asintiendo con la cabeza, mientras que Leo moderó sus gestos para enfatizar solo las ideas clave. Gracias a esa armonía entre su discurso verbal y su lenguaje corporal, el equipo transmitió seguridad y logró convencer al jurado.",
+      "questions": [
+        {
+          "prompt": "Which habit did Martina need to work on during rehearsals?",
+          "explanation": "The text says she crossed her arms and looked at the ceiling whenever her opponent spoke.",
+          "options": [
+            "She crossed her arms and looked at the ceiling while her opponent spoke.",
+            "She spoke so quietly that nobody could hear her reasons.",
+            "She kept her eyes closed throughout her contribution."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "According to the text, why can posture matter while listening?",
+          "explanation": "The text presents listening posture as one way to communicate attention and respect. People can show active listening in different ways.",
+          "options": [
+            "It can show respect for the speaker and active listening.",
+            "It automatically makes us remember everything the speaker says.",
+            "Debate rules forbid moving any part of the body."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What can we conclude from Martina and Leo's experience?",
+          "explanation": "Clear reasons and non-verbal communication suited to the situation can work together to help the audience follow.",
+          "options": [
+            "Knowledge of the topic can be supported by body language suited to the context.",
+            "It is better never to use gestures, to avoid any mistakes.",
+            "Only words matter; gestures never influence how a message is understood."
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-09",
+      "type": "choice",
+      "prompt": "During a school exchange, Nerea wants to ask a classmate to wait without interrupting the teacher. Which non-verbal signal is most polite here?",
+      "explanation": "A gentle open-palm gesture can ask someone to wait without disturbing the lesson.",
+      "hint": "Choose the option that respects both the teacher and the classmate.",
+      "lang": "en",
+      "options": [
+        "Suddenly standing up and repeatedly pointing at the classroom clock.",
+        "Making a loud hissing sound in front of the whole class.",
+        "Gently showing an open palm and giving a friendly look."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g6-lengua-comunicacion-verbal-y-no-verbal-10",
+      "type": "choice",
+      "prompt": "What role do emojis and emoticons play in digital chat messages?",
+      "explanation": "They can complement written words with feelings and intentions, much as gestures and tone do in spoken conversation.",
+      "lang": "en",
+      "options": [
+        "They are compulsory decorations that decide whether a sentence is simple or compound.",
+        "They are foreign words that replace spelling rules.",
+        "They are non-verbal graphics that add emotion, tone and shades of meaning to written text."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.7-flash",
+    "generatedAt": "2026-10-08T15:23:19.206Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:42:06.232Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "ab0c48e37817d5308d50b62b817562553ea88fd968f69aa3c33bf939b32dde73",
+      "validation": "manual-review"
+    }
+  }
+}

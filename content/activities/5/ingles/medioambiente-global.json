@@ -156,7 +156,7 @@
       "id": "g5-ingles-medioambiente-global-07",
       "type": "fill-blank",
       "prompt": "Completa la frase con la fuente de energía renovable correcta:",
-      "explanation": "Los aerogeneradores aprovechan la energía del viento ('wind energy') para generar electricidad limpia sin emitir gases contaminantes.",
+      "explanation": "Los aerogeneradores aprovechan wind energy para producir electricidad sin quemar combustible durante su funcionamiento. Su fabricación también requiere materiales y energía.",
       "hint": "Observa el nombre de las turbinas.",
       "lang": "en",
       "sentence": "Wind turbines produce clean electricity using ___ energy.",
@@ -171,37 +171,37 @@
       "id": "g5-ingles-medioambiente-global-08",
       "type": "order",
       "prompt": "Order the steps of a school compost project from start to finish:",
-      "explanation": "El compostaje empieza reuniendo restos de fruta, depositándolos en la compostera, esperando a que se descompongan y usando la tierra rica resultante para nutrir las plantas.",
+      "explanation": "El compost combina restos vegetales y material seco; necesita aire, humedad y tiempo. El compost maduro mejora el suelo, pero no es lo mismo que tierra.",
       "lang": "en",
       "items": [
-        "Collect fruit peels and food scraps from the canteen",
-        "Put the organic waste into the garden compost bin",
-        "Wait a few months for the waste to decompose",
-        "Use the rich compost soil to nourish the school plants"
+        "Collect suitable fruit and vegetable scraps with an adult.",
+        "Mix them with dry leaves in the garden compost bin.",
+        "Let the mixture decompose, checking it with the teacher.",
+        "Use the mature compost to improve the soil."
       ]
     },
     {
       "id": "g5-ingles-medioambiente-global-09",
       "type": "reading",
-      "prompt": "Read the report from the global school news and answer the questions:",
+      "prompt": "Read this invented report and answer.",
       "explanation": "Los bosques son esenciales para la vida en la Tierra y las acciones colectivas de niños y jóvenes ayudan a conservarlos.",
       "lang": "en",
       "title": "Saving the World's Forests",
-      "text": "Forests are the lungs of planet Earth. The Amazon rainforest, for example, produces huge amounts of oxygen and is home to millions of animal species. However, human activities like illegal logging and clearing land for big farms are causing serious deforestation. When trees are cut down, animals lose their natural habitats, and global temperatures rise because trees absorb carbon dioxide. Fortunately, children across the globe are taking action. In a primary school in Valencia, students started a campaign called 'One Child, One Seed'. They plant native trees every spring and write digital letters to local politicians asking for forest protection. We cannot change the past, but our choices today can build a greener future.",
+      "text": "Forests provide food and natural habitats for many animals. Trees absorb carbon dioxide as they grow and store carbon in wood. Cutting or burning forests can release stored carbon and destroy habitats. Protecting forests also means caring for soils, water and the people who live there.\n\nIn this invented report, a school in Valencia starts a campaign called “One Child, One Seed”. Students learn about local forests. With teachers and park staff, they plant suitable native trees in an approved place. They also write letters asking local representatives to protect forests. Trees need care after planting. Present choices, made together, can help build a greener future.",
       "questions": [
         {
-          "prompt": "Why are forests often called the 'lungs' of planet Earth?",
-          "explanation": "El texto explica que los bosques producen grandes cantidades de oxígeno y absorben dióxido de carbono, funcionando como pulmones.",
+          "prompt": "Why do forests help many animals survive?",
           "options": [
-            "Because they cover all the deserts in the world.",
-            "Because they produce oxygen and absorb carbon dioxide.",
-            "Because they provide wood to construct tall buildings."
+            "Because forests cover every desert.",
+            "Because they provide food and natural habitats.",
+            "Because they make plastic for birds."
           ],
-          "answer": 1
+          "answer": 1,
+          "explanation": "El texto dice que los bosques proporcionan alimento y hábitats a muchos animales."
         },
         {
           "prompt": "What do the students in Valencia do in their 'One Child, One Seed' campaign?",
-          "explanation": "El texto menciona explícitamente que plantan árboles autóctonos en primavera y escriben a representantes políticos locales.",
+          "explanation": "El texto dice que plantan árboles autóctonos adecuados con docentes y personal del parque, y escriben a representantes locales. No indica una estación del año.",
           "options": [
             "They travel to the Amazon rainforest every month.",
             "They sell tropical wood to make paper.",
@@ -211,7 +211,7 @@
         },
         {
           "prompt": "What does the author suggest in the final sentence of the text?",
-          "explanation": "La frase 'our choices today can build a greener future' transmite la idea de que nuestras acciones presentes tienen impacto positivo en el futuro.",
+          "explanation": "La última frase explica que las decisiones presentes, tomadas en conjunto, pueden ayudar a construir un futuro más verde.",
           "options": [
             "Only grown-ups can make important environmental choices.",
             "Individual and collective actions right now can create a better environment.",

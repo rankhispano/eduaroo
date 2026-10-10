@@ -1,0 +1,252 @@
+{
+  "id": "g3-ingles-las-profesiones",
+  "cursoId": "3",
+  "asignaturaId": "ingles",
+  "temaId": "las-profesiones",
+  "temaNombre": "Jobs and professions",
+  "title": "Jobs and Professions in Town",
+  "summary": "Practise English job words and places of work.",
+  "keyIdeas": [
+    "Use 'a' or 'an' before a singular job name: a teacher or an artist.",
+    "Jobs often have typical workplaces, such as a hospital or school.",
+    "To describe someone's job, use 'He is a...' or 'She is a...'."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "1.2",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-ingles-las-profesiones-01",
+      "type": "match",
+      "prompt": "Match each job to a typical workplace.",
+      "explanation": "Teachers can work in schools, doctors in hospitals, chefs in restaurants and firefighters at fire stations.",
+      "hint": "Think of a place where each person does their job.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Teacher",
+          "right": "School"
+        },
+        {
+          "left": "Doctor",
+          "right": "Hospital"
+        },
+        {
+          "left": "Chef",
+          "right": "Restaurant"
+        },
+        {
+          "left": "Firefighter",
+          "right": "Fire station"
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-las-profesiones-02",
+      "type": "choice",
+      "prompt": "She works in a school and teaches English to children. Who is she?",
+      "explanation": "She is a teacher because she works in a school and teaches children.",
+      "hint": "Notice 'school' and 'teaches'.",
+      "lang": "en",
+      "options": [
+        "A firefighter",
+        "A doctor",
+        "A teacher"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-ingles-las-profesiones-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct job.",
+      "explanation": "A vet cares for sick animals and helps them get better.",
+      "hint": "Find the job of treating animals.",
+      "lang": "en",
+      "sentence": "Aisha loves animals and helps them when they are sick. She is a ___.",
+      "options": [
+        "vet",
+        "pilot",
+        "driver"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-las-profesiones-04",
+      "type": "true-false",
+      "prompt": "A firefighter puts out fires and helps people in emergencies.",
+      "explanation": "Correct! Firefighters put out fires and help people.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-ingles-las-profesiones-05",
+      "type": "classify",
+      "prompt": "Sort these workers by the workplace in these examples.",
+      "explanation": "In these examples, the doctor and nurse work in a hospital. The chef and waiter work in a restaurant.",
+      "lang": "en",
+      "categories": [
+        "In a hospital",
+        "In a restaurant"
+      ],
+      "items": [
+        {
+          "text": "Doctor",
+          "category": 0
+        },
+        {
+          "text": "Chef",
+          "category": 1
+        },
+        {
+          "text": "Nurse",
+          "category": 0
+        },
+        {
+          "text": "Waiter",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-las-profesiones-06",
+      "type": "choice",
+      "prompt": "Hugo flies big planes and travels to many countries. What is his job?",
+      "explanation": "A person who flies planes is a pilot.",
+      "hint": "Notice the verb 'flies' and the noun 'planes'.",
+      "lang": "en",
+      "options": [
+        "He is a pilot.",
+        "He is a dentist.",
+        "He is a mechanic."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-ingles-las-profesiones-07",
+      "type": "order",
+      "prompt": "Put the words in order to make a sentence.",
+      "explanation": "The order is subject (My sister), verb (is) and job (a doctor).",
+      "lang": "en",
+      "items": [
+        "My",
+        "sister",
+        "is",
+        "a",
+        "doctor."
+      ]
+    },
+    {
+      "id": "g3-ingles-las-profesiones-08",
+      "type": "fill-blank",
+      "prompt": "Choose the verb that describes the job.",
+      "explanation": "A baker bakes bread and cakes.",
+      "hint": "'Baker' looks similar to the verb you need.",
+      "lang": "en",
+      "sentence": "A baker ___ fresh bread and cakes in the morning.",
+      "options": [
+        "sings",
+        "bakes",
+        "draws"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-ingles-las-profesiones-09",
+      "type": "reading",
+      "prompt": "Read the text and answer the questions.",
+      "explanation": "Find each person's job and tasks in the text.",
+      "lang": "en",
+      "title": "A Busy Town",
+      "text": "Welcome to our busy town! Many people work here every day to help us. Lucía is a police officer. She protects people and keeps the streets safe. Her brother, Adrián, is a baker. He wakes up early and bakes fresh bread every morning. Martina is a kind dentist. She checks children's teeth in her bright clinic. Finally, Wei is a bus driver. He drives a big green bus and takes students to school with a smile. Everyone has an important job in our town!",
+      "questions": [
+        {
+          "prompt": "What does Adrián bake every morning?",
+          "explanation": "The text says he bakes fresh bread every morning.",
+          "options": [
+            "Fresh bread",
+            "Pizzas",
+            "Fruit salad"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Where does Martina check children's teeth?",
+          "explanation": "Martina is a dentist and checks teeth in her clinic.",
+          "options": [
+            "On a green bus",
+            "In her clinic",
+            "In a bakery"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Who helps students travel to school?",
+          "explanation": "Wei is the bus driver who takes students to school.",
+          "options": [
+            "Adrián",
+            "Lucía",
+            "Wei"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-ingles-las-profesiones-10",
+      "type": "choice",
+      "prompt": "Your bicycle has a broken wheel. Who can repair it?",
+      "explanation": "A mechanic repairs vehicles and machines, such as bicycles.",
+      "hint": "Think of someone who repairs wheels and engines.",
+      "lang": "en",
+      "options": [
+        "A mechanic",
+        "An actor",
+        "A dentist"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:56:58.247Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:36:36.547Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "520dd04d7f13d6d3db05c06ff6835aac4471af0a9abac8c420f531c58d5722da",
+      "validation": "manual-review"
+    }
+  }
+}

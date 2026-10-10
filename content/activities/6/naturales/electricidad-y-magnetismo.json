@@ -9,7 +9,7 @@
   "keyIdeas": [
     "Las cargas eléctricas del mismo signo se repelen y las de distinto signo se atraen.",
     "Un circuito eléctrico necesita un generador, conductores y receptores en un camino cerrado para que fluya la corriente.",
-    "La electricidad y el magnetismo están estrechamente unidos: la corriente eléctrica genera campos magnéticos y viceversa."
+    "La corriente genera un campo magnético; un campo magnético que cambia puede generar corriente en un circuito."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -47,7 +47,7 @@
       "id": "g6-naturales-electricidad-y-magnetismo-01",
       "type": "classify",
       "prompt": "Clasifica estos materiales según permitan o impidan el paso de la corriente eléctrica:",
-      "explanation": "Los metales como el cobre, el hierro y el aluminio permiten el flujo de electrones (conductores), mientras que el plástico, la goma y la madera no lo permiten (aislantes).",
+      "explanation": "Los metales suelen conducir bien la corriente. El plástico, la goma y la madera seca dificultan su paso en las condiciones de un circuito escolar de baja tensión.",
       "lang": "es",
       "categories": [
         "Conductores",
@@ -131,15 +131,14 @@
     {
       "id": "g6-naturales-electricidad-y-magnetismo-05",
       "type": "order",
-      "prompt": "Hugo y Aisha quieren construir un electroimán en el taller de ciencias. Ordena los pasos lógicos que deben seguir:",
-      "explanation": "Primero se reúnen los materiales, se prepara la bobina enrollando el cable, se asegura el contacto eléctrico retirando el aislante de las puntas y, finalmente, se conecta a la pila para probar la atracción magnética.",
+      "prompt": "La docente prepara una pila escolar, un núcleo de hierro y cable aislado con los extremos listos. Ordena esta demostración breve del electroimán:",
+      "explanation": "La bobina crea un campo magnético mientras pasa corriente. La conexión debe ser breve y supervisada para evitar que se calienten el cable y la pila.",
       "lang": "es",
       "items": [
-        "Conseguir un clavo largo de hierro, hilo de cobre esmaltado y una pila.",
-        "Enrollar el hilo de cobre de forma apretada alrededor del clavo de hierro.",
-        "Pelar los extremos del hilo de cobre para retirar el esmalte aislante.",
-        "Conectar cada extremo pelado a un polo de la pila para que circule corriente.",
-        "Acercar el clavo a varios clips pequeños para comprobar que se comporta como un imán."
+        "Revisar con la docente los materiales preparados",
+        "Enrollar el cable aislado alrededor del núcleo de hierro",
+        "La docente conecta unos segundos la pila y comprueba la atracción de clips",
+        "Desconectar la pila al terminar la prueba"
       ]
     },
     {

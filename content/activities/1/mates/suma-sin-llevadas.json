@@ -153,7 +153,7 @@
       "id": "g1-mates-suma-sin-llevadas-07",
       "type": "order",
       "prompt": "Ordena los pasos para resolver en papel la suma 23 + 14:",
-      "explanation": "Siempre ordenamos los números y sumamos primero las unidades y luego las decenas.",
+      "explanation": "Con este método colocamos cada cifra en su columna y empezamos por las unidades. También podemos sumar mentalmente descomponiendo los números.",
       "lang": "es",
       "items": [
         "Colocar las unidades con unidades y decenas con decenas.",

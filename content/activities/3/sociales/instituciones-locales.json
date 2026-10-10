@@ -94,9 +94,9 @@
       "type": "fill-blank",
       "prompt": "Completa la frase sobre las elecciones en tu localidad:",
       "explanation": "En España, las elecciones municipales se celebran cada cuatro años para renovar el gobierno local.",
-      "hint": "Es el mismo número de años que dura un ciclo bisiesto.",
+      "hint": "Piensa en la duración habitual de un mandato municipal.",
       "lang": "es",
-      "sentence": "Los vecinos y vecinas mayores de edad eligen a sus concejales cada ___ años en las elecciones municipales.",
+      "sentence": "En las elecciones municipales ordinarias se eligen los concejales cada ___ años.",
       "options": [
         "diez",
         "dos",
@@ -211,7 +211,7 @@
       "id": "g3-sociales-instituciones-locales-10",
       "type": "choice",
       "prompt": "En el pueblo de Aisha quieren crear un carril bici seguro hacia el colegio. ¿Quiénes deben debatir y aprobar esta obra pública? 🚲",
-      "explanation": "Las obras públicas en las calles del municipio las debate y aprueba el equipo de concejales y el alcalde en el pleno.",
+      "explanation": "El ayuntamiento decide sobre las mejoras de las calles municipales. El pleno aprueba asuntos como presupuestos; las competencias concretas se reparten entre sus órganos.",
       "hint": "Se trata del órgano de gobierno local.",
       "lang": "es",
       "options": [

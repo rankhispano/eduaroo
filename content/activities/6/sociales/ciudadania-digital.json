@@ -7,7 +7,7 @@
   "title": "Ciudadanía digital activa y segura",
   "summary": "Aprende a navegar con seguridad, respetar a los demás en la red y proteger tu huella digital.",
   "keyIdeas": [
-    "La huella digital es el rastro permanente que dejamos al usar internet y debemos gestionarla con cuidado.",
+    "La huella digital es el rastro que dejamos al usar internet; parte puede conservarse o copiarse durante mucho tiempo.",
     "La netiqueta nos enseña a comunicarnos con empatía, cortesía y respeto en cualquier entorno digital.",
     "Antes de compartir noticias o datos personales, es imprescindible contrastar las fuentes y proteger nuestra privacidad."
   ],
@@ -52,8 +52,8 @@
     {
       "id": "g6-sociales-ciudadania-digital-02",
       "type": "choice",
-      "prompt": "Lucía necesita crear una contraseña para su espacio virtual escolar. ¿Cuál de las siguientes opciones sigue las mejores recomendaciones de seguridad?",
-      "explanation": "Una contraseña robusta debe combinar letras mayúsculas, minúsculas, números y símbolos, evitando datos personales fáciles de averiguar.",
+      "prompt": "Compara estos ejemplos ficticios de contraseñas. ¿Cuál es más difícil de adivinar?",
+      "explanation": "Una contraseña debe ser larga, única y difícil de adivinar. Una frase larga puede ayudar; conviene evitar datos personales y seguir las indicaciones del centro. Los ejemplos publicados no deben usarse como claves reales.",
       "hint": "Evita poner datos obvios sobre ti.",
       "lang": "es",
       "options": [
@@ -84,7 +84,7 @@
         },
         {
           "left": "Desinformación",
-          "right": "Difusión de noticias falsas o datos no contrastados."
+          "right": "Difusión intencionada de información falsa o manipulada para engañar"
         }
       ]
     },
@@ -105,12 +105,12 @@
     {
       "id": "g6-sociales-ciudadania-digital-05",
       "type": "classify",
-      "prompt": "Clasifica cada información según si es un dato privado que debes proteger o un contenido seguro para compartir públicamente.",
-      "explanation": "Nunca debemos publicar datos privados que revelen nuestra ubicación, identidad o claves de acceso para mantener siempre nuestra seguridad.",
+      "prompt": "Estas producciones escolares no incluyen nombres, fotos ni ubicaciones personales. Clasifica qué datos debes proteger y qué contenidos podrían compartirse siguiendo las normas del centro:",
+      "explanation": "Antes de publicar revisamos que no haya datos personales y seguimos las normas del centro. Un texto o dibujo también puede revelar información privada si la incluye.",
       "lang": "es",
       "categories": [
         "Dato privado que proteger",
-        "Contenido seguro para compartir"
+        "Contenido escolar sin datos personales"
       ],
       "items": [
         {
@@ -156,7 +156,7 @@
       "id": "g6-sociales-ciudadania-digital-07",
       "type": "choice",
       "prompt": "En el chat de la clase, alguien comparte una foto de Hugo en una situación vergonzosa para burlarse de él. ¿Cuál es la respuesta correcta como ciudadana digital?",
-      "explanation": "Frenar la cadena de burlas, defender el respeto mutuo y acudir a un adulto responsable detiene las situaciones de ciberacoso de raíz.",
+      "explanation": "No difundir la imagen y avisar a una persona adulta permite buscar ayuda y proteger a Hugo. El grupo debe frenar las burlas y acompañar a quien las sufre.",
       "hint": "Piensa en cómo apoyar a la persona afectada.",
       "lang": "es",
       "options": [
@@ -195,7 +195,7 @@
       "explanation": "Ser un buen ciudadano digital implica entender que nuestras acciones presentes en la red tienen consecuencias duraderas tanto para nosotros como para los demás.",
       "lang": "es",
       "title": "Nuestra segunda vida en la red",
-      "text": "Hoy en día pasamos mucho tiempo conectados a dispositivos digitales para aprender, jugar y comunicarnos. Esta presencia virtual nos convierte en ciudadanos digitales, con derechos que nos protegen y deberes que debemos cumplir con responsabilidad. Al igual que cuidamos la convivencia en el patio del colegio, en internet debemos practicar la empatía y la cortesía, lo que conocemos como netiqueta.\n\nAdemás, cada búsqueda que realizamos, cada vídeo que vemos y cada foto que publicamos deja un rastro imborrable llamado huella digital. Este rastro permanece con el paso del tiempo y transmite una imagen sobre nosotros a futuras amistades, profesores o compañeros de trabajo. Por eso, antes de pulsar el botón de publicar, conviene plantearse tres preguntas sencillas: ¿es verdad?, ¿es respetuoso? y ¿es realmente necesario? Cuidar nuestro comportamiento digital no solo nos protege a título individual, sino que ayuda a construir una red más segura, pacífica y enriquecedora para todas las personas.",
+      "text": "Hoy en día pasamos mucho tiempo conectados a dispositivos digitales para aprender, jugar y comunicarnos. Esta presencia virtual nos convierte en ciudadanos digitales, con derechos que nos protegen y deberes que debemos cumplir con responsabilidad. Al igual que cuidamos la convivencia en el patio del colegio, en internet debemos practicar la empatía y la cortesía, lo que conocemos como netiqueta.\n\nAdemás, cada búsqueda que realizamos, cada vídeo que vemos y cada foto que publicamos puede dejar un rastro llamado huella digital. Parte de ese rastro puede durar mucho tiempo o ser copiado por otras personas. No toda nuestra actividad es pública, pero conviene cuidar lo que compartimos. Por eso, antes de pulsar el botón de publicar, conviene plantearse tres preguntas sencillas: ¿es verdad?, ¿es respetuoso? y ¿es realmente necesario? Cuidar nuestro comportamiento digital no solo nos protege a título individual, sino que ayuda a construir una red más segura, pacífica y enriquecedora para todas las personas.",
       "questions": [
         {
           "prompt": "¿Qué tres preguntas recomienda hacerse el texto antes de publicar un contenido en internet?",
@@ -219,7 +219,7 @@
         },
         {
           "prompt": "¿Qué consecuencia a largo plazo puede tener desatender nuestra huella digital?",
-          "explanation": "La huella digital permanece a lo largo del tiempo, por lo que publicaciones irresponsables pueden perjudicar nuestra imagen en el futuro personal o laboral.",
+          "explanation": "Las publicaciones pueden conservarse o copiarse. Compartir información imprudente puede afectar a nuestra privacidad y relaciones.",
           "options": [
             "Que los dispositivos electrónicos se estropeen por acumular demasiados mensajes.",
             "Que la información imprudente que dejamos accesible dañe nuestra reputación o relaciones futuras.",

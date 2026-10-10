@@ -137,15 +137,15 @@
     {
       "id": "g6-mates-porcentajes-calculo-y-aplicaciones-07",
       "type": "choice",
-      "prompt": "Aisha y Hugo van a comprar una mochila de 50 €. La tienda aplica un 10 % de descuento, pero al pagar en caja hay que añadir un 10 % de IVA al precio rebajado. Aisha dice que pagarán 50 € exactos. ¿Tiene razón Aisha?",
-      "explanation": "Con el 10 % de descuento, la mochila cuesta 50 - 5 = 45 €. Luego, el 10 % de IVA sobre 45 € es 4,50 €. El precio final es 45 + 4,50 = 49,50 €.",
+      "prompt": "En este ejercicio, una mochila tiene un precio inicial de 50 €. Se aplica un descuento del 10 % y después un recargo de envío del 10 % sobre el precio rebajado. Aisha dice que el total será 50 €. ¿Tiene razón?",
+      "explanation": "El descuento deja 45 €. El recargo se calcula sobre esa nueva cantidad: 10 % de 45 € = 4,50 €. El total es 49,50 €.",
       "hint": "Calcula primero el precio tras la rebaja y luego halla el 10 % de ese nuevo valor.",
       "lang": "es",
       "options": [
         "Sí, porque sumar un 10 % y restar un 10 % siempre deja la misma cantidad.",
-        "No, pagarán 49,50 € porque el 10 % de IVA se aplica sobre 45 €, no sobre 50 €.",
-        "No, pagarán 51 € porque el IVA siempre es mayor que el descuento.",
-        "Sí, porque el descuento y el IVA se anulan automáticamente."
+        "No, pagarán 49,50 € porque el 10 % de recargo se aplica sobre 45 €, no sobre 50 €.",
+        "No, pagarán 51 € porque el recargo siempre es mayor que el descuento.",
+        "Sí, porque el descuento y el recargo se anulan automáticamente."
       ],
       "answer": 1
     },

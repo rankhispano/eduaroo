@@ -62,7 +62,7 @@
       "id": "g6-lengua-el-quijote-02",
       "type": "true-false",
       "prompt": "Alonso Quijano pierde el juicio y decide armarse caballero andante debido a su gran afición a leer novelas de caballerías.",
-      "explanation": "Alonso Quijano leía tantos libros de caballerías día y noche que se le secó el cerebro y decidió salir a buscar aventuras con armadura y caballo.",
+      "explanation": "Así lo presenta la novela: Alonso Quijano confunde la ficción caballeresca con la realidad. Es un recurso del relato, no una consecuencia real de leer mucho.",
       "lang": "es",
       "answer": true
     },
@@ -95,7 +95,7 @@
       "id": "g6-lengua-el-quijote-04",
       "type": "fill-blank",
       "prompt": "Completa la oración sobre una de las aventuras más famosas de la novela.",
-      "explanation": "En el Campo de Criptana, Don Quijote confunde las aspas de los molinos con los brazos descomunales de una treintena de gigantes.",
+      "explanation": "En este episodio, don Quijote ve gigantes donde hay molinos y confunde sus aspas con brazos. El capítulo no identifica el campo con una localidad concreta.",
       "lang": "es",
       "sentence": "Don Quijote confunde los molinos de viento con temibles ___ de largos brazos a los que decide desafiar en combate.",
       "options": [

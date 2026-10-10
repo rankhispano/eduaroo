@@ -84,8 +84,8 @@
     {
       "id": "g2-ingles-la-familia-03",
       "type": "true-false",
-      "prompt": "A brother is a boy.",
-      "explanation": "Verdadero. En inglés, un 'brother' (hermano) es un chico (boy). Para una chica decimos 'sister'.",
+      "prompt": "A brother is a boy or a man.",
+      "explanation": "Verdadero. Brother significa hermano y puede referirse a un chico o a un hombre adulto.",
       "lang": "en",
       "answer": true
     },

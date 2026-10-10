@@ -5,11 +5,11 @@
   "temaId": "vertebrados-e-invertebrados",
   "temaNombre": "Vertebrados e invertebrados",
   "title": "¡Descubrimos vertebrados e invertebrados!",
-  "summary": "Practica cómo diferenciar animales con esqueleto interno de animales sin huesos.",
+  "summary": "Practica cómo diferenciar animales con columna vertebral de animales sin ella.",
   "keyIdeas": [
-    "Los animales vertebrados tienen un esqueleto interno con columna vertebral.",
-    "Los animales invertebrados no tienen esqueleto interno ni huesos.",
-    "Las personas también somos animales vertebrados porque tenemos columna vertebral."
+    "Los vertebrados tienen un esqueleto interno con columna vertebral.",
+    "Los invertebrados no tienen columna vertebral. Algunos tienen concha o una cubierta dura.",
+    "Las personas somos vertebrados porque tenemos columna vertebral."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -45,8 +45,8 @@
     {
       "id": "g2-naturales-vertebrados-e-invertebrados-01",
       "type": "true-false",
-      "prompt": "Los animales vertebrados tienen huesos y columna vertebral.",
-      "explanation": "Los animales vertebrados se caracterizan por tener un esqueleto interno con columna vertebral.",
+      "prompt": "Los animales vertebrados tienen columna vertebral.",
+      "explanation": "Los vertebrados tienen un esqueleto interno con columna vertebral. Puede ser de hueso o de cartílago.",
       "lang": "es",
       "answer": true
     },
@@ -54,9 +54,9 @@
       "id": "g2-naturales-vertebrados-e-invertebrados-02",
       "type": "fill-blank",
       "prompt": "Elige la palabra que completa la frase.",
-      "explanation": "Los animales invertebrados son aquellos que no poseen esqueleto interno con huesos.",
+      "explanation": "Los invertebrados no tienen columna vertebral. Tener una cubierta dura no los convierte en vertebrados.",
       "lang": "es",
-      "sentence": "Los animales que no tienen huesos son ___.",
+      "sentence": "Los animales que no tienen columna vertebral son ___.",
       "options": [
         "invertebrados",
         "vertebrados",
@@ -82,7 +82,7 @@
       "id": "g2-naturales-vertebrados-e-invertebrados-04",
       "type": "classify",
       "prompt": "Clasifica cada animal en su grupo correcto.",
-      "explanation": "El gato, el pájaro y el pez tienen huesos. El caracol, la hormiga y la mariposa no tienen esqueleto interno.",
+      "explanation": "El gato, el pájaro y el pez son vertebrados. El caracol, la hormiga y la mariposa no tienen columna vertebral.",
       "lang": "es",
       "categories": [
         "Vertebrados",
@@ -163,16 +163,16 @@
     {
       "id": "g2-naturales-vertebrados-e-invertebrados-07",
       "type": "true-false",
-      "prompt": "Tócate la espalda. Si sientes una fila de bultitos, ¡es tu columna vertebral!",
-      "explanation": "Esa fila de huesos es la columna vertebral. Por eso las personas somos animales vertebrados.",
+      "prompt": "Las personas tenemos columna vertebral.",
+      "explanation": "La columna forma parte de nuestro esqueleto interno. Por eso somos vertebrados.",
       "lang": "es",
       "answer": true
     },
     {
       "id": "g2-naturales-vertebrados-e-invertebrados-08",
       "type": "choice",
-      "prompt": "Omar encuentra un fósil con muchas espinas finas. ¿Qué animal predice que fue? 🐟",
-      "explanation": "Las espinas forman el esqueleto de un pez. Los pulpos y las medusas no dejan restos de huesos.",
+      "prompt": "Un fósil conserva una columna vertebral y espinas de hueso. ¿Cuál de estos animales pudo ser?",
+      "explanation": "El pez puede tener columna vertebral y espinas de hueso. El pulpo y la medusa no tienen columna vertebral.",
       "hint": "Piensa cuál de ellos tiene espinas como esqueleto.",
       "lang": "es",
       "options": [
@@ -186,12 +186,12 @@
       "id": "g2-naturales-vertebrados-e-invertebrados-09",
       "type": "order",
       "prompt": "Ordena los pasos que sigue Martina para investigar un animal en el patio.",
-      "explanation": "Primero observamos con atención, luego analizamos sus partes del cuerpo y al final anotamos la conclusión.",
+      "explanation": "El aspecto blando o duro no basta para clasificar un animal. Observamos y consultamos una guía para comprobar si tiene columna vertebral.",
       "lang": "es",
       "items": [
-        "Mira el animal de cerca con una lupa",
-        "Comprueba si tiene cuerpo blando o esqueleto",
-        "Apunta en su libreta si es vertebrado o invertebrado"
+        "Observar al animal sin tocarlo ni molestarlo.",
+        "Consultar una guía con una persona adulta para saber si tiene columna vertebral.",
+        "Anotar si es vertebrado o invertebrado."
       ]
     }
   ],

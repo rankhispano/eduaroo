@@ -1,0 +1,262 @@
+{
+  "id": "g5-naturales-la-tierra-movimientos",
+  "cursoId": "5",
+  "asignaturaId": "naturales",
+  "temaId": "la-tierra-movimientos",
+  "temaNombre": "Earth's movements",
+  "title": "Earth is always moving",
+  "summary": "Explore Earth's rotation and orbit around the Sun and their effects.",
+  "keyIdeas": [
+    "Earth rotates around its tilted axis in about 24 hours, producing day and night.",
+    "Earth orbits the Sun in about 365 days and six hours. This movement, together with the axis's tilt, causes the seasons.",
+    "The seasons mainly result from Earth's tilted axis, rather than its distance from the Sun."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-naturales-la-tierra-movimientos-01",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about Earth spinning.",
+      "explanation": "Rotation is Earth spinning around its imaginary axis. It takes about 24 hours and produces day and night.",
+      "hint": "Think of a spinning top turning around itself.",
+      "lang": "en",
+      "sentence": "Earth's ___ around its own axis causes day and night to follow one another.",
+      "options": [
+        "revolution",
+        "rotation",
+        "orbit"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-02",
+      "type": "true-false",
+      "prompt": "Earth takes exactly 365 days to complete one orbit around the Sun.",
+      "explanation": "It takes approximately 365 days and almost six hours. Leap years adjust the calendar, usually every four years, with some exceptions.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-03",
+      "type": "match",
+      "prompt": "Match each movement or feature to its main effect.",
+      "explanation": "Rotation produces day and night. An orbit takes a year; combined with Earth's tilt, it produces the seasons.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Rotation",
+          "right": "Day and night follow each other in about 24 hours"
+        },
+        {
+          "left": "Revolution around the Sun",
+          "right": "Travelling around the orbit during a year"
+        },
+        {
+          "left": "Tilted axis",
+          "right": "Unequal sunlight across the year and the seasons"
+        },
+        {
+          "left": "Leap year",
+          "right": "An extra day in February adjusts the calendar, usually every four years"
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-04",
+      "type": "classify",
+      "prompt": "Classify these effects as mainly caused by rotation or by orbiting the Sun with a tilted axis.",
+      "explanation": "Rotation explains daily cycles and time differences. Orbiting with a tilted axis explains changes across the year.",
+      "lang": "en",
+      "categories": [
+        "Effect of rotation",
+        "Effect of revolution with a tilted axis"
+      ],
+      "items": [
+        {
+          "text": "Daily sunrises and sunsets",
+          "category": 0
+        },
+        {
+          "text": "The four seasons",
+          "category": 1
+        },
+        {
+          "text": "Changing day and night length through the year",
+          "category": 1
+        },
+        {
+          "text": "The Sun's apparent daily movement from east to west",
+          "category": 0
+        },
+        {
+          "text": "Changes in vegetation over the months",
+          "category": 1
+        },
+        {
+          "text": "Time differences between distant countries",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-05",
+      "type": "choice",
+      "prompt": "Martín says, 'Spain is hotter in July because Earth is much closer to the Sun than in January.' Why is this wrong? ☀️",
+      "explanation": "Earth's orbit is nearly circular. In July, the northern hemisphere tilts towards the Sun and receives more direct sunlight, although Earth is slightly farther from the Sun.",
+      "hint": "When Spain has summer, Argentina has winter.",
+      "lang": "en",
+      "options": [
+        "Earth does not orbit the Sun; the Sun orbits Earth.",
+        "The distance changes so much that Earth would freeze completely in winter.",
+        "The Sun reduces its heat in winter and shines more strongly in summer.",
+        "Earth is actually slightly farther from the Sun in July; warmth depends mainly on the angle of sunlight."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-06",
+      "type": "order",
+      "prompt": "Order the northern hemisphere's seasons, starting at the beginning of the calendar year.",
+      "explanation": "January begins in winter, followed by spring in March, summer in June and autumn in September.",
+      "lang": "en",
+      "items": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Autumn"
+      ]
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-07",
+      "type": "choice",
+      "prompt": "On 24 December, Aisha in Madrid video-calls her cousin in Sydney. Aisha wears a wool jumper while her cousin wears a swimsuit at the beach. What explains this? 🏖️",
+      "explanation": "The hemispheres have opposite seasons. When one tilts towards the Sun, the other tilts away.",
+      "hint": "Identify each city's hemisphere and the direction of sunlight.",
+      "lang": "en",
+      "options": [
+        "In Australia, the Sun rises in the west and heats oceans faster in December.",
+        "Earth's tilt makes the southern hemisphere face towards the Sun in December, receiving more sunlight.",
+        "The Moon reflects solar heat directly onto Australia late in the year.",
+        "Rotation is faster in the southern hemisphere, producing heat through friction."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-08",
+      "type": "choice",
+      "prompt": "Hugo places a vertical pencil in the playground on a sunny autumn day. He checks its shadow in the morning, at solar noon when the Sun is highest, and in the afternoon. What will he observe? ✏️",
+      "explanation": "The shadow is shortest when the Sun is highest at solar noon. Lower morning and afternoon sunlight makes longer shadows.",
+      "hint": "Think about the Sun's changing height during the day.",
+      "lang": "en",
+      "options": [
+        "The shadow changes length and direction: longer in the morning and afternoon, shorter at solar noon.",
+        "The shadow stays the same length and always points south.",
+        "It completely disappears at 12:00 and returns at the same size at 15:00.",
+        "It grows continuously from sunrise to night without shortening."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-09",
+      "type": "reading",
+      "prompt": "Read Lucía's science diary and answer the questions.",
+      "explanation": "The model shows how the axis's steady tilt during an orbit helps explain seasons and polar nights.",
+      "lang": "en",
+      "title": "A torch-and-orange experiment",
+      "text": "Today we investigated why polar regions can spend months in darkness. Our teacher Nerea gave us an orange with a slightly tilted skewer through it and a fixed torch. The torch represented the Sun, and the orange represented Earth.\n\nSpinning the orange around the skewer showed day and night as different parts entered the light. Then we moved it around the torch, keeping the skewer pointing towards the same classroom wall.\n\nDuring one part of the orbit, the upper end, representing the North Pole, stayed lit through complete rotations: northern summer solstice. The South Pole stayed dark. I understood that Earth need not move closer to the Sun to experience seasonal warming. Less direct rays spread their energy over a larger area.",
+      "questions": [
+        {
+          "prompt": "Which object represented Earth's rotation axis?",
+          "explanation": "The skewer passing through the orange represented the axis.",
+          "options": [
+            "The tilted skewer",
+            "The classroom wall",
+            "The torch bulb",
+            "The orange peel"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which polar effect in the model results from the tilted axis?",
+          "options": [
+            "Long periods of continuous light or darkness",
+            "Earth stopping its rotation in winter",
+            "The Sun doubling its strength in summer"
+          ],
+          "answer": 0,
+          "explanation": "The tilt makes one pole face towards the Sun for part of the year and away for another part."
+        },
+        {
+          "prompt": "Why keep the axis pointing in the same direction while moving the orange around the torch?",
+          "explanation": "Over a year, Earth's axis keeps approximately the same orientation in space, with its northern end pointing near the Pole Star.",
+          "options": [
+            "To stop the orange falling off the table.",
+            "The Moon forces Earth to change its axis four times a year.",
+            "Changing direction makes the torch overheat and lose brightness.",
+            "Earth's real axis keeps approximately the same orientation relative to distant stars during an orbit."
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "g5-naturales-la-tierra-movimientos-10",
+      "type": "choice",
+      "prompt": "Imagine an otherwise Earth-like exoplanet whose axis is not tilted, but perpendicular to its orbital plane. Which statement is scientifically sound? 🪐",
+      "explanation": "It would lack the seasonal changes in sunlight caused by Earth's tilted axis. This would not mean that its weather could never change.",
+      "hint": "What causes Earth's spring, summer, autumn and winter?",
+      "lang": "en",
+      "options": [
+        "One half would burn forever and the other would remain frozen without sunlight.",
+        "It would have six seasons because it rotated much faster.",
+        "It would lack seasons caused by axial tilt, although its weather could still change.",
+        "Its year would double because orbiting would become twice as slow."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:08:07.932Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:04:14.238Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "07d649402a5ed8f6281ff8291fd37c024ac9e1135bdbd0df71ac3835bf0844b4",
+      "validation": "manual-review"
+    }
+  }
+}

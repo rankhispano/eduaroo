@@ -8,8 +8,8 @@
   "summary": "Aprende a diferenciar un cuento, un poema y una noticia con actividades divertidas.",
   "keyIdeas": [
     "El cuento narra una historia imaginaria con personajes.",
-    "El poema se escribe en versos y suele tener rima.",
-    "La noticia cuenta un hecho real que ha ocurrido."
+    "Muchos poemas se escriben en versos y pueden tener rima.",
+    "La noticia informa sobre hechos que deben comprobarse. Los ejemplos de esta actividad son inventados."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -48,9 +48,9 @@
     {
       "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-01",
       "type": "choice",
-      "prompt": "¿Qué texto cuenta una noticia real?",
-      "explanation": "La apertura de una biblioteca es un hecho real. Las noticias informan sobre sucesos verdaderos.",
-      "hint": "Busca el suceso que pasa de verdad en un barrio.",
+      "prompt": "¿Cuál de estas frases tiene forma de titular de noticia? Son ejemplos inventados.",
+      "explanation": "La frase informa de una apertura con un lugar y un momento. Una noticia publicada debe comprobar que el hecho ocurrió.",
+      "hint": "Busca la frase que informa sobre una apertura.",
       "lang": "es",
       "options": [
         "La luna sonríe vestida de seda blanca.",
@@ -85,7 +85,7 @@
       "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-04",
       "type": "match",
       "prompt": "Une cada inicio con el tipo de texto que le corresponde:",
-      "explanation": "Érase una vez inicia un cuento, los versos forman un poema y la información real es una noticia.",
+      "explanation": "«Érase una vez» inicia un cuento, los versos forman un poema y el anuncio del museo tiene forma de noticia.",
       "lang": "es",
       "pairs": [
         {
@@ -105,8 +105,8 @@
     {
       "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-05",
       "type": "classify",
-      "prompt": "Clasifica cada frase según el texto al que pertenece:",
-      "explanation": "Los cuentos narran fantasía, los poemas tienen rima y las noticias cuentan sucesos reales.",
+      "prompt": "Clasifica estos ejemplos inventados según su forma: cuento, poema o noticia.",
+      "explanation": "Hay ejemplos de fantasía, versos con rima y frases informativas con forma de noticia.",
       "lang": "es",
       "categories": [
         "Cuento",
@@ -115,7 +115,7 @@
       ],
       "items": [
         {
-          "text": "La princesa vivía en un gran palacio.",
+          "text": "La princesa hablaba con un unicornio mágico.",
           "category": 0
         },
         {
@@ -143,15 +143,15 @@
     {
       "id": "g2-lengua-tipos-de-textos-cuento-poema-noticia-06",
       "type": "reading",
-      "prompt": "Lee el texto y contesta a las preguntas:",
-      "explanation": "El texto informa de un suceso real y actual, por eso es una noticia.",
+      "prompt": "Lee este ejemplo inventado con forma de noticia y contesta.",
+      "explanation": "El ejemplo tiene forma de noticia, aunque se ha inventado para practicar.",
       "lang": "es",
       "title": "Adopción de mascotas",
       "text": "El refugio de animales del pueblo celebra hoy una fiesta. Muchas familias han acudido para adoptar perros y gatos sin hogar. Los organizadores afirman que ya han encontrado casa para diez cachorros.",
       "questions": [
         {
           "prompt": "¿Qué tipo de texto es?",
-          "explanation": "Informa sobre un hecho real que ocurre hoy en el refugio del pueblo.",
+          "explanation": "El ejemplo tiene forma de noticia: informa sobre un suceso con lugar, momento y datos.",
           "options": [
             "Una noticia",
             "Un poema",
@@ -219,7 +219,7 @@
       "hint": "Hugo necesita dar información real sobre cuándo y dónde será el partido.",
       "lang": "es",
       "options": [
-        "Una noticia con la fecha y el lugar del partido.",
+        "Una nota informativa con la fecha y el lugar del partido.",
         "Un cuento de hadas y duendes veloces.",
         "Un poema con rimas sobre dragones."
       ],

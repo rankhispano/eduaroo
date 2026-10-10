@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Star, Target } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { usePracticeStore } from '@/lib/learning/practiceStore';
@@ -15,8 +15,9 @@ const STEP_Y = 132;
 const WIDTH = 340;
 
 function Stars({ value, className = '' }: { value: number; className?: string }) {
+    const t = useTranslations('KidsMap');
     return (
-        <span className={`inline-flex gap-0.5 ${className}`} aria-label={`${value} de 3 estrellas`}>
+        <span className={`inline-flex gap-0.5 ${className}`} aria-label={t('starsProgress', { earned: value, possible: 3 })}>
             {[1, 2, 3].map((n) => (
                 <Star key={n} className={`h-4 w-4 ${n <= value ? 'fill-yellow-400 text-yellow-400' : 'text-slate-300 dark:text-slate-600'}`} />
             ))}
@@ -46,6 +47,7 @@ export default function TemaPath({
     practiceTemaIds: string[];
 }) {
     const t = useTranslations('KidsMap');
+    const locale = useLocale();
     const topics = usePracticeStore((s) => s.topics);
     const lastTopicKey = usePracticeStore((s) => s.lastTopicKey);
     const hydrated = usePracticeStore((s) => s.hydrated);
@@ -112,10 +114,10 @@ export default function TemaPath({
                     const stars = starsOf(tema.id);
                     const isRecommended = tema.id === recommended;
                     const { x, y } = points[i];
-                    const href = temaHref(cursoId, asignaturaId, tema);
+                    const href = temaHref(cursoId, asignaturaId, tema, locale);
                     const nodeClass = `group absolute flex w-28 -translate-x-1/2 -translate-y-9 flex-col items-center gap-1 ${href ? '' : 'cursor-default opacity-60'}`;
                     const nodeStyle = { left: `${(x / WIDTH) * 100}%`, top: y };
-                    const label = href ? `${tema.nombre}: ${stars} de 3 estrellas` : `${tema.nombre}: ${t('comingSoon')}`;
+                    const label = href ? `${tema.nombre}: ${t('starsProgress', { earned: stars, possible: 3 })}` : `${tema.nombre}: ${t('comingSoon')}`;
                     const content = (
                         <>
                             <span

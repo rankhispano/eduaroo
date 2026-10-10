@@ -9,7 +9,7 @@
   "keyIdeas": [
     "Las palabras variables (sustantivos, adjetivos, determinantes, pronombres y verbos) cambian de género, número o tiempo.",
     "Las palabras invariables (adverbios, preposiciones y conjunciones) nunca cambian de forma.",
-    "Cada clase de palabra cumple una función única para que nuestras oraciones tengan sentido completo."
+    "Una misma palabra puede pertenecer a clases diferentes según su uso: «mucho» en «corre mucho» y «mucho pan»."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -107,10 +107,10 @@
       "id": "g5-lengua-las-clases-de-palabras-05",
       "type": "reading",
       "prompt": "Lee atentamente la crónica de Aisha para la revista escolar y contesta a las preguntas.",
-      "explanation": "Identificar palabras en un texto real te ayuda a comprender mejor el mensaje global y la función de cada elemento lingüístico.",
+      "explanation": "Identificar palabras en contexto ayuda a comprender el texto y sus relaciones gramaticales.",
       "lang": "es",
       "title": "Un huerto lleno de vida",
-      "text": "El pasado viernes, la clase de quinto inauguró el huerto escolar detrás del gimnasio. Llevábamos semanas preparando la tierra con esmero y retirando piedras molestas. Hugo y Martina colocaron pequeños carteles de madera para identificar los tomates, las lechugas y las espinacas recién plantadas. De repente, una mariquita roja aterrizó sobre una hoja tierna. Todos guardamos un respetuoso silencio para observarla sin asustarla. El conserje, Antonio, nos explicó pacientemente que estos simpáticos insectos protegen los cultivos contra los pulgones dañinos. Gracias a esta experiencia, hemos comprendido que la naturaleza funciona en perfecto equilibrio y que cuidar el huerto exige constancia, compañerismo y mucha ilusión comunitaria.",
+      "text": "El pasado viernes, la clase de quinto inauguró el huerto escolar detrás del gimnasio. Llevábamos semanas preparando la tierra con esmero y retirando piedras molestas. Hugo y Martina colocaron pequeños carteles de madera para identificar los tomates, las lechugas y las espinacas recién plantadas. De repente, una mariquita roja aterrizó sobre una hoja tierna. Todos guardamos un respetuoso silencio para observarla sin asustarla. El conserje, Antonio, nos explicó pacientemente que muchas mariquitas se alimentan de pulgones y pueden ayudar a proteger los cultivos. Gracias a esta experiencia, hemos comprendido que los seres vivos se relacionan entre sí y que cuidar el huerto exige constancia, compañerismo y mucha ilusión comunitaria.",
       "questions": [
         {
           "prompt": "¿Por qué guardaron silencio los estudiantes al ver a la mariquita?",
@@ -123,7 +123,7 @@
           "answer": 0
         },
         {
-          "prompt": "En la frase «Antonio nos explicó pacientemente que estos simpáticos insectos protegen los cultivos», ¿qué clase de palabra es «pacientemente»?",
+          "prompt": "En «Antonio nos explicó pacientemente», ¿qué clase de palabra es «pacientemente»?",
           "explanation": "'Pacientemente' es un adverbio de modo terminado en '-mente' que describe la manera en que Antonio explicó la lección.",
           "options": [
             "Un sustantivo abstracto.",
@@ -172,11 +172,11 @@
         },
         {
           "left": "Conjunción",
-          "right": "Une palabras u oraciones entre sí"
+          "right": "Une palabras u oraciones, por ejemplo con y o pero"
         },
         {
           "left": "Preposición",
-          "right": "Relaciona palabras sirviendo de enlace"
+          "right": "Introduce un grupo y lo relaciona con otro elemento: a, con, de"
         },
         {
           "left": "Determinante",

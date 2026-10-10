@@ -1,0 +1,233 @@
+{
+  "id": "g1-naturales-el-tiempo-atmosferico",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "el-tiempo-atmosferico",
+  "temaNombre": "Weather",
+  "title": "Watching the weather",
+  "summary": "Learn to recognise the weather and how it changes each day.",
+  "keyIdeas": [
+    "Weather tells us what the air and sky are like.",
+    "Sunshine, rain, wind and snow are parts of the weather.",
+    "We check the weather to choose suitable clothes."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › Materia, fuerzas y energía"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-01",
+      "type": "choice",
+      "prompt": "The Sun is shining and there are no clouds. What is the weather like?",
+      "explanation": "A clear sky with sunshine means it is a sunny day.",
+      "hint": "Look for the sunshine.",
+      "lang": "en",
+      "options": [
+        "It is sunny",
+        "It is snowing",
+        "It is raining heavily"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-02",
+      "type": "true-false",
+      "prompt": "Wind is moving air.",
+      "explanation": "We cannot see air, but we can feel wind as it moves.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence.",
+      "explanation": "Rain is water droplets falling from clouds.",
+      "lang": "en",
+      "sentence": "When water droplets fall from clouds, we say ___.",
+      "options": [
+        "it is foggy",
+        "it is raining",
+        "it is sunny"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-04",
+      "type": "match",
+      "prompt": "Match each type of weather to its clue.",
+      "explanation": "We can observe different signs of the weather with our senses.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Rain",
+          "right": "Water droplets falling"
+        },
+        {
+          "left": "Wind",
+          "right": "Tree branches moving"
+        },
+        {
+          "left": "Snow",
+          "right": "Cold, white flakes"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-05",
+      "type": "classify",
+      "prompt": "Sort the clothes by the weather outside.",
+      "explanation": "We wear scarves in cold weather and light clothes in hot weather.",
+      "lang": "en",
+      "categories": [
+        "Very cold day",
+        "Very hot day"
+      ],
+      "items": [
+        {
+          "text": "Woolly hat",
+          "category": 0
+        },
+        {
+          "text": "Short-sleeved T-shirt",
+          "category": 1
+        },
+        {
+          "text": "Thick scarf",
+          "category": 0
+        },
+        {
+          "text": "Swimming costume",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-06",
+      "type": "choice",
+      "prompt": "Which tool measures temperature to tell us how cold it is?",
+      "explanation": "A thermometer measures air temperature in degrees.",
+      "hint": "It tells us how hot or cold it is.",
+      "lang": "en",
+      "options": [
+        "A ruler",
+        "A thermometer",
+        "A clock"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-07",
+      "type": "choice",
+      "prompt": "Which statement about snow contains a mistake?",
+      "explanation": "Snow is frozen water in flakes. It is cold, rather than hot water.",
+      "hint": "Think about whether snow is hot or cold.",
+      "lang": "en",
+      "options": [
+        "Snow melts when it gets warm enough",
+        "Snow falls in very cold weather",
+        "Snow is hot water falling from clouds"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-08",
+      "type": "choice",
+      "prompt": "Aisha looks outside. The sky is dark, and raindrops are falling. What will happen?",
+      "explanation": "Rain makes the playground ground wet.",
+      "hint": "Think about what rain does when it reaches the ground.",
+      "lang": "en",
+      "options": [
+        "The playground will stay completely dry",
+        "Snow will appear on the beach straight away",
+        "Rain will make the ground wet"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-09",
+      "type": "order",
+      "prompt": "Put the steps for measuring rainfall with a jar in order.",
+      "explanation": "First, put out an empty jar. Wait for rain, then check the water collected.",
+      "lang": "en",
+      "items": [
+        "Put an empty jar in the playground",
+        "Wait while the rain falls",
+        "Look at how much water has collected"
+      ]
+    },
+    {
+      "id": "g1-naturales-el-tiempo-atmosferico-10",
+      "type": "reading",
+      "prompt": "Read carefully and answer the questions.",
+      "explanation": "Checking the weather helps us choose what to wear.",
+      "lang": "en",
+      "title": "Hugo's diary",
+      "text": "Hugo records the school weather. Monday was hot and sunny, so he wore no jacket. On Tuesday, strong wind moved the leaves. On Wednesday, it rained heavily, and he opened his red umbrella.",
+      "questions": [
+        {
+          "prompt": "On which day did Hugo use his red umbrella?",
+          "explanation": "On Wednesday, it rained heavily and Hugo opened his umbrella.",
+          "options": [
+            "Wednesday",
+            "Tuesday",
+            "Monday"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why did Hugo wear no jacket on Monday?",
+          "explanation": "Monday was warm and sunny, so he did not need a jacket.",
+          "options": [
+            "It was snowing heavily",
+            "It was sunny and hot",
+            "It was cold"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:32:27.427Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:44:32.199Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "badabc1154c9e3567365208ec60d34cd631d70b808de5c9370becff4b7917f15",
+      "validation": "manual-review"
+    }
+  }
+}

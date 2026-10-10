@@ -58,8 +58,8 @@
     {
       "id": "g1-ingles-los-colores-02",
       "type": "match",
-      "prompt": "Match each thing with its natural color:",
-      "explanation": "El sol es amarillo (yellow), la hierba es verde (green) y el cielo despejado es azul (blue).",
+      "prompt": "En un dibujo, el sol es amarillo, la hierba verde y el cielo azul. Une cada elemento con su color en inglés.",
+      "explanation": "En este dibujo, el sol es yellow, la hierba green y el cielo blue. Los colores observados en la naturaleza pueden variar.",
       "hint": "Mira a tu alrededor en un día de parque.",
       "lang": "en",
       "pairs": [
@@ -103,8 +103,8 @@
     {
       "id": "g1-ingles-los-colores-05",
       "type": "choice",
-      "prompt": "Hugo paints a tree. The trunk is ___.",
-      "explanation": "El tronco de los árboles es de color marrón, que en inglés se dice 'brown'.",
+      "prompt": "Hugo draws a tree with a brown trunk. What colour is the trunk?",
+      "explanation": "Hugo dibuja el tronco marrón: brown.",
       "hint": "Es el color del chocolate y la madera.",
       "lang": "en",
       "options": [
@@ -117,7 +117,7 @@
     {
       "id": "g1-ingles-los-colores-06",
       "type": "classify",
-      "prompt": "Classify these things by their color:",
+      "prompt": "Clasifica estos elementos según el color indicado en inglés.",
       "explanation": "El cielo y el mar son azules (blue), mientras que los limones y el sol son amarillos (yellow).",
       "lang": "en",
       "categories": [
@@ -126,19 +126,19 @@
       ],
       "items": [
         {
-          "text": "The sky",
+          "text": "Blue sky",
           "category": 0
         },
         {
-          "text": "A lemon 🍋",
+          "text": "Yellow lemon 🍋",
           "category": 1
         },
         {
-          "text": "The sea 🌊",
+          "text": "Blue sea 🌊",
           "category": 0
         },
         {
-          "text": "The sun ☀️",
+          "text": "Yellow sun ☀️",
           "category": 1
         }
       ]
@@ -167,7 +167,7 @@
     {
       "id": "g1-ingles-los-colores-09",
       "type": "fill-blank",
-      "prompt": "Aisha mixes colors in art class. What color does she get?",
+      "prompt": "Aisha mixes red and yellow paint. What colour does she get?",
       "explanation": "Al mezclar rojo ('red') y amarillo ('yellow') obtenemos naranja ('orange').",
       "hint": "Es el color de una zanahoria.",
       "lang": "en",

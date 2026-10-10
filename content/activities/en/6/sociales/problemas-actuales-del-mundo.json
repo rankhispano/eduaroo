@@ -1,0 +1,265 @@
+{
+  "id": "g6-sociales-problemas-actuales-del-mundo",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "problemas-actuales-del-mundo",
+  "temaNombre": "Challenges in today's world",
+  "title": "Today's global challenges",
+  "summary": "Explore the causes, effects and possible solutions to major challenges facing humanity.",
+  "keyIdeas": [
+    "Global problems such as poverty, war and climate change are connected and affect millions of people.",
+    "Social and economic inequality prevents everyone from enjoying basic rights such as health, food and education.",
+    "International cooperation, peaceful dialogue and citizen action are essential to a fairer, more sustainable world."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE6",
+      "CE8",
+      "CE9"
+    ],
+    "criteria": [
+      "6.2",
+      "8.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CE1",
+      "CP3",
+      "CPSAA1",
+      "CPSAA3",
+      "CPSAA4",
+      "STEM2",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Conciencia ecosocial",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-problemas-actuales-del-mundo-01",
+      "type": "true-false",
+      "prompt": "Everyone on Earth already has safe drinking water and sanitation at home.",
+      "explanation": "Safe drinking water and sanitation are recognised human rights, but not everyone can access them.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-sociales-problemas-actuales-del-mundo-02",
+      "type": "choice",
+      "prompt": "What do we call a person forced to flee their country to escape war, violence or persecution? 🌍",
+      "explanation": "A refugee flees their country because of persecution, armed conflict or serious threats to their human rights.",
+      "hint": "This status provides special protection under international law.",
+      "lang": "en",
+      "options": [
+        "A refugee",
+        "An international tourist",
+        "The local population"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-problemas-actuales-del-mundo-03",
+      "type": "match",
+      "prompt": "Match each global problem to the area it mainly affects.",
+      "explanation": "These challenges affect different areas, but they are connected and all influence people's wellbeing.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "A gender gap in decision-making roles",
+          "right": "Social equality"
+        },
+        {
+          "left": "Rising sea levels linked to melting polar ice",
+          "right": "Environmental crisis"
+        },
+        {
+          "left": "Difficulty accessing vaccines and medicines",
+          "right": "Global public health"
+        },
+        {
+          "left": "People forced to move by armed conflict",
+          "right": "Peace and human rights"
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-problemas-actuales-del-mundo-04",
+      "type": "classify",
+      "prompt": "Classify these factors as human causes of global warming or global consequences.",
+      "explanation": "Industry and excessive consumption release gases that change the climate and contribute to droughts and loss of species.",
+      "lang": "en",
+      "categories": [
+        "Human cause",
+        "Global consequence"
+      ],
+      "items": [
+        {
+          "text": "Greenhouse gas emissions from fossil fuels",
+          "category": 0
+        },
+        {
+          "text": "Clearing tropical forests to grow a single crop",
+          "category": 0
+        },
+        {
+          "text": "More heatwaves and prolonged droughts",
+          "category": 1
+        },
+        {
+          "text": "Faster loss of biodiversity and marine species",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-problemas-actuales-del-mundo-05",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about inequality at work.",
+      "explanation": "The pay gap compares average earnings. Jobs, working hours and discrimination can all affect it. It does not measure only pay for identical work.",
+      "lang": "en",
+      "sentence": "The difference between women's and men's average earnings is called the gender pay ___.",
+      "options": [
+        "border",
+        "rate",
+        "gap"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-sociales-problemas-actuales-del-mundo-06",
+      "type": "reading",
+      "prompt": "Read the report about water challenges and answer the questions.",
+      "explanation": "Water shortages can affect nature and people's lives. Their effects also depend on how water is managed and shared.",
+      "lang": "en",
+      "title": "Water, community and cooperation",
+      "text": "Access to safe drinking water and sanitation is a human right, but many communities still lack these services. Droughts can affect crops, livestock and health. Excessive water extraction and pollution make shortages worse.\n\nWhen communities rely on the same wells or rivers, a lack of agreements can create tensions. Some families have to move to find ways to earn a living. However, drought does not necessarily lead to conflict: political decisions, cooperation and inequality also matter.\n\nProtecting water sources, improving supplies and agreeing on fair sharing help address the problem. Environmental and social challenges are connected and need shared solutions.",
+      "questions": [
+        {
+          "prompt": "According to the text, what can worsen water shortages?",
+          "options": [
+            "Droughts, excessive extraction and pollution",
+            "Reading news at school",
+            "Cooperation to protect water sources"
+          ],
+          "answer": 0,
+          "explanation": "The text names these three factors as obstacles to having enough water."
+        },
+        {
+          "prompt": "What can help avoid tension when communities share water?",
+          "explanation": "Cooperation and fair sharing help communities deal with shortages.",
+          "options": [
+            "Preventing all dialogue between communities",
+            "Making agreements to protect and share the resource",
+            "Taking all the water before others can use it"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What conclusion does the text suggest about environmental problems?",
+          "explanation": "Environmental problems can affect people, contributing to tensions, poverty and the need to move.",
+          "options": [
+            "Environmental damage can cause social problems, poverty and forced displacement.",
+            "Environmental problems affect only local plants and animals.",
+            "Modern irrigation technology immediately solves every water shortage."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-problemas-actuales-del-mundo-07",
+      "type": "choice",
+      "prompt": "Aisha and Hugo learn that millions of tonnes of food are wasted each year while millions of people lack adequate nutrition. What does this show? 🍞",
+      "explanation": "Food waste alongside difficulty accessing food reveals a problem. Poverty, conflict and distribution can all play a part.",
+      "hint": "The information describes two situations happening at the same time.",
+      "lang": "en",
+      "options": [
+        "Food waste and difficulty accessing food can exist at the same time.",
+        "Earth no longer has enough land to produce food for everyone.",
+        "Countries facing hunger reject aid and food from other continents."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-problemas-actuales-del-mundo-08",
+      "type": "order",
+      "prompt": "Put these usual steps in responding to a humanitarian crisis after a natural disaster in order.",
+      "explanation": "Assessing needs guides immediate help. Shelter and supplies can be organised together; rebuilding usually takes longer.",
+      "lang": "en",
+      "items": [
+        "Assess damage and people's immediate needs",
+        "Organise emergency water, food, medical care and shelter",
+        "Rebuild services and homes and prepare for future emergencies"
+      ]
+    },
+    {
+      "id": "g6-sociales-problemas-actuales-del-mundo-09",
+      "type": "classify",
+      "prompt": "Classify each measure against poverty and inequality by its level of action.",
+      "explanation": "Personal choices matter, but laws and binding international agreements are also needed to tackle deeper inequalities.",
+      "lang": "en",
+      "categories": [
+        "Individual citizen action",
+        "International political agreement"
+      ],
+      "items": [
+        {
+          "text": "Choose fair trade that promotes fair pay and decent conditions",
+          "category": 0
+        },
+        {
+          "text": "A treaty between countries to cancel the debt of nations in extreme poverty",
+          "category": 1
+        },
+        {
+          "text": "Help collect donations for the neighbourhood food bank",
+          "category": 0
+        },
+        {
+          "text": "Global agreements to regulate and reduce the use of tax havens",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-problemas-actuales-del-mundo-10",
+      "type": "choice",
+      "prompt": "Many armed conflicts have several causes at once. Which combination best explains tensions in various regions? 🕊️",
+      "explanation": "Wars rarely have just one cause. Competition for resources, corrupt or authoritarian governments and longstanding discrimination against minorities can interact.",
+      "hint": "Look for economic rivalry and a lack of protection for people's rights.",
+      "lang": "en",
+      "options": [
+        "More international tourism and better understanding between cultures",
+        "Competition for valuable natural resources, weak democratic institutions and violations of rights",
+        "Agreement between all countries to respect borders and protect minorities"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:47:07.664Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:58:16.356Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "4c1be0f8154b5bd4698eef6c29344755c6020cb66e0f393b22ca417de5362a87",
+      "validation": "manual-review"
+    }
+  }
+}

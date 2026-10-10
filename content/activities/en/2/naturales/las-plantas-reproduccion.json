@@ -1,0 +1,234 @@
+{
+  "id": "g2-naturales-las-plantas-reproduccion",
+  "cursoId": "2",
+  "asignaturaId": "naturales",
+  "temaId": "las-plantas-reproduccion",
+  "temaNombre": "Plants: reproduction",
+  "title": "How do new plants begin?",
+  "summary": "Practise how plants reproduce using flowers, fruits and seeds.",
+  "keyIdeas": [
+    "In flowering plants, parts of flowers develop into fruits with seeds.",
+    "A seed needs water, air and a suitable temperature to germinate, or start growing.",
+    "Insects and wind help carry pollen."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.4",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-01",
+      "type": "choice",
+      "prompt": "Where do a tomato plant's seeds begin to form?",
+      "explanation": "Tomato seeds develop from parts of the flowers.",
+      "hint": "These parts have pretty coloured petals.",
+      "lang": "en",
+      "options": [
+        "In the flowers",
+        "In the roots",
+        "In the stem"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-02",
+      "type": "true-false",
+      "prompt": "A fruit protects the seeds inside it.",
+      "explanation": "A fruit protects its seeds as they develop.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-03",
+      "type": "match",
+      "prompt": "Match each part to its job in reproduction.",
+      "explanation": "Each part helps new plants begin.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Flower",
+          "right": "Produces seeds"
+        },
+        {
+          "left": "Fruit",
+          "right": "Protects seeds"
+        },
+        {
+          "left": "Seed",
+          "right": "Can grow into a new plant"
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-04",
+      "type": "order",
+      "prompt": "Put a tomato plant's life cycle in order.",
+      "explanation": "First the seed germinates. Then the plant grows, flowers and produces fruit.",
+      "lang": "en",
+      "items": [
+        "A seed falls into damp soil",
+        "The seed germinates and a stem appears",
+        "The plant grows and has yellow flowers",
+        "Parts of the flowers become tomatoes with seeds"
+      ]
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-05",
+      "type": "choice",
+      "prompt": "Lucía puts a healthy bean seed in damp cotton wool, with air and a suitable temperature. What could happen?",
+      "explanation": "A healthy seed with water, air and a suitable temperature can germinate.",
+      "hint": "Water helps the seed start growing.",
+      "lang": "en",
+      "options": [
+        "The seed will become a stone",
+        "The seed will never change",
+        "The seed will germinate and a root will appear"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-06",
+      "type": "classify",
+      "prompt": "Sort these seeds by how they travel to new places.",
+      "explanation": "Wind and animals help spread seeds in nature.",
+      "lang": "en",
+      "categories": [
+        "Travel with wind",
+        "Travel with animals"
+      ],
+      "items": [
+        {
+          "text": "A fluffy dandelion seed",
+          "category": 0
+        },
+        {
+          "text": "An acorn hidden by a squirrel",
+          "category": 1
+        },
+        {
+          "text": "A light, wing-shaped seed",
+          "category": 0
+        },
+        {
+          "text": "A sweet fruit eaten by a bird",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-07",
+      "type": "choice",
+      "prompt": "Hugo thinks flowers are only decorations. Why is he wrong?",
+      "explanation": "Flowers help flowering plants produce fruits and seeds.",
+      "hint": "Think about the job of flowers on a tomato plant.",
+      "lang": "en",
+      "options": [
+        "They hold the plant in the soil",
+        "They drink water from the soil",
+        "They allow the plant to reproduce"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-08",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about pollination.",
+      "explanation": "Insects carry pollen on their bodies from one flower to another.",
+      "lang": "en",
+      "sentence": "Bees carry ___ from one flower to another.",
+      "options": [
+        "mud",
+        "water",
+        "pollen"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-09",
+      "type": "choice",
+      "prompt": "Two healthy seeds have air and a suitable temperature. Omar wets his seed; Aisha's stays dry. Which can germinate?",
+      "explanation": "Seeds need water to germinate. In this comparison, Omar's seed has the water it needs.",
+      "hint": "Look for the seed that is damp.",
+      "lang": "en",
+      "options": [
+        "Both, even though one has no water",
+        "Omar's, because it has water",
+        "Aisha's, because it is dry"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g2-naturales-las-plantas-reproduccion-10",
+      "type": "reading",
+      "prompt": "Read the story and answer the questions.",
+      "explanation": "Fruits protect seeds that can grow into new plants.",
+      "lang": "en",
+      "title": "The apple's secret",
+      "text": "Aisha walks through the school garden. She finds a fallen red apple. Her teacher shows her the pips inside. They are the apple tree's seeds. Healthy seeds with water, air and a suitable temperature can germinate and grow into a new apple tree.",
+      "questions": [
+        {
+          "prompt": "What did Aisha find inside the apple?",
+          "explanation": "The pips inside an apple are its seeds.",
+          "options": [
+            "Seeds, or pips",
+            "Small stones",
+            "Green leaves"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "If these seeds germinate, what plant will grow?",
+          "explanation": "Apple tree seeds can grow into new apple trees.",
+          "options": [
+            "A rose bush",
+            "A wheat plant",
+            "A new apple tree"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:38:30.875Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:39:16.580Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "3833f4877f39309a4449ec976a89caad1abc3a6eeaf88d08b2d7e0907eb08f3c",
+      "validation": "manual-review"
+    }
+  }
+}

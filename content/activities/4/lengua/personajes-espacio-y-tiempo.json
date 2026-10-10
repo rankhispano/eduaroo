@@ -182,7 +182,7 @@
     {
       "id": "g4-lengua-personajes-espacio-y-tiempo-07",
       "type": "choice",
-      "prompt": "Encuentra el error en este comentario de Lucas sobre un cuento: 🔍\n«En mi cuento de piratas, el barco navegaba por el océano pacífico durante tres semanas. Por tanto, el océano es el tiempo y las tres semanas son el espacio».",
+      "prompt": "Encuentra el error en este comentario de Lucas sobre un cuento: 🔍\n«En mi cuento de piratas, el barco navegaba por el océano Pacífico durante tres semanas. Por tanto, el océano es el tiempo y las tres semanas son el espacio».",
       "explanation": "Lucas ha confundido los términos: el océano es el lugar (espacio) y las tres semanas la duración (tiempo).",
       "hint": "Pregúntate qué responde a '¿dónde?' y qué responde a '¿cuánto duró?'.",
       "lang": "es",
@@ -209,8 +209,8 @@
     {
       "id": "g4-lengua-personajes-espacio-y-tiempo-09",
       "type": "choice",
-      "prompt": "Omar escribe una historia sobre dinosaurios y un volcán gigante. ¿En qué tiempo está situada su historia?",
-      "explanation": "Los dinosaurios vivieron en la prehistoria, por lo que el tiempo de la narración es el pasado remoto.",
+      "prompt": "Omar sitúa su historia antes de que existieran los seres humanos, cuando vivían dinosaurios como el tiranosaurio. ¿En qué tiempo la sitúa?",
+      "explanation": "El relato está situado en un pasado muy remoto, anterior a la aparición humana.",
       "hint": "¿Cuándo existieron los dinosaurios en la Tierra?",
       "lang": "es",
       "options": [
@@ -224,11 +224,11 @@
       "id": "g4-lengua-personajes-espacio-y-tiempo-10",
       "type": "choice",
       "prompt": "Elena lee un cuento donde un zorro astuto engaña a un cuervo en lo alto de un árbol. ¿Qué papel cumple el cuervo?",
-      "explanation": "El cuervo es un personaje secundario de la fábula, mientras que el árbol representa el espacio.",
+      "explanation": "El cuervo y el zorro son personajes de la fábula. El árbol es parte del espacio.",
       "hint": "El cuervo realiza acciones y habla, por lo que no es un objeto ni un lugar.",
       "lang": "es",
       "options": [
-        "Es un personaje secundario que interactúa con el protagonista.",
+        "Es un personaje que participa en la historia, como el zorro.",
         "Es el espacio exterior donde ocurre el conflicto.",
         "Es el narrador que inventa el tiempo del relato."
       ],

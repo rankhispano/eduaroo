@@ -1,0 +1,279 @@
+{
+  "id": "g2-lengua-grupos-consonanticos",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "grupos-consonanticos",
+  "temaNombre": "Consonant groups",
+  "title": "Adventures with consonant groups",
+  "summary": "Recognise and write Spanish words with consonant groups such as bl, br, pr and tr.",
+  "keyIdeas": [
+    "A consonant group joins two consonants in the same syllable, as in 'plato' or 'tren'.",
+    "Some consonants combine with l or r, forming groups such as bl, br, cl, cr, dr, fl, gr, pr and tr.",
+    "Say each sound slowly to help you write all the letters without leaving any out."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-grupos-consonanticos-01",
+      "type": "choice",
+      "prompt": "Which consonant group is in the Spanish word «brazo»?",
+      "explanation": "«brazo» begins with b followed by r, making the group br.",
+      "hint": "Look at the first two letters.",
+      "lang": "en",
+      "options": [
+        "br",
+        "bl",
+        "pr"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-02",
+      "type": "true-false",
+      "prompt": "The Spanish word «globo» has the consonant group gl.",
+      "explanation": "Correct! In the first syllable of «globo», g and l combine to make «glo».",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-03",
+      "type": "fill-blank",
+      "prompt": "Choose the correctly spelt Spanish word to complete the sentence.",
+      "explanation": "The correct spelling is «plátano», with pl at the beginning.",
+      "lang": "en",
+      "sentence": "Aisha merienda un dulce ___ en el recreo.",
+      "options": [
+        "plátano",
+        "pátano",
+        "palátano"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-04",
+      "type": "match",
+      "prompt": "Match each Spanish word to its consonant group.",
+      "explanation": "Each word has two consonants together in the same syllable.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "dragón",
+          "right": "dr"
+        },
+        {
+          "left": "flecha",
+          "right": "fl"
+        },
+        {
+          "left": "tren",
+          "right": "tr"
+        },
+        {
+          "left": "clase",
+          "right": "cl"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-05",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by whether their consonant group has R or L.",
+      "explanation": "«primo», «grillo» and «fruta» have groups with R. «blanco», «pluma» and «clavel» have groups with L.",
+      "lang": "en",
+      "categories": [
+        "Groups with R",
+        "Groups with L"
+      ],
+      "items": [
+        {
+          "text": "primo",
+          "category": 0
+        },
+        {
+          "text": "blanco",
+          "category": 1
+        },
+        {
+          "text": "grillo",
+          "category": 0
+        },
+        {
+          "text": "pluma",
+          "category": 1
+        },
+        {
+          "text": "fruta",
+          "category": 0
+        },
+        {
+          "text": "clavel",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-06",
+      "type": "choice",
+      "prompt": "Find the mistake. Which word is spelt incorrectly in «Hugo lee un libor divertido en la biblioteca.»?",
+      "explanation": "The correct word is «libro». The letters b and r must be together to make br.",
+      "hint": "Find the word with letters in the wrong order.",
+      "lang": "en",
+      "options": [
+        "biblioteca",
+        "libor",
+        "Hugo"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-07",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with the correct word.",
+      "explanation": "The word is «prado», which has pr. «pardo» means brown.",
+      "lang": "en",
+      "sentence": "Nerea vio una mariposa en el verde ___ del parque.",
+      "options": [
+        "pardo",
+        "prado",
+        "padro"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-08",
+      "type": "reading",
+      "prompt": "Read the Spanish text carefully and answer the questions.",
+      "explanation": "Reading carefully helps us find information and consonant groups, such as bl in «blanco».",
+      "lang": "en",
+      "title": "La excursión de Clara",
+      "text": "Clara y Bruno van de excursión al campo. Llevan una cesta con fruta fresca y pan blanco. De pronto, Clara ve un grillo saltando entre las piedras. Bruno le saca una foto con su cámara. ¡Qué día tan alegre!",
+      "questions": [
+        {
+          "prompt": "Which animal does Clara see in the countryside?",
+          "explanation": "The text says Clara sees a cricket jumping among the stones.",
+          "options": [
+            "A fast fish.",
+            "A jumping cricket.",
+            "A singing bird."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which Spanish word in the text has the group bl?",
+          "explanation": "«blanco» begins with bl. «Bruno» begins with br and «piedras» contains dr.",
+          "options": [
+            "blanco",
+            "Bruno",
+            "piedras"
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-09",
+      "type": "classify",
+      "prompt": "Sort the Spanish words into those with TR or DR.",
+      "explanation": "«trompeta», «estrella» and «tractor» have tr. «cuadro», «cocodrilo» and «piedra» have dr.",
+      "lang": "en",
+      "categories": [
+        "Group TR",
+        "Group DR"
+      ],
+      "items": [
+        {
+          "text": "trompeta",
+          "category": 0
+        },
+        {
+          "text": "cuadro",
+          "category": 1
+        },
+        {
+          "text": "estrella",
+          "category": 0
+        },
+        {
+          "text": "cocodrilo",
+          "category": 1
+        },
+        {
+          "text": "tractor",
+          "category": 0
+        },
+        {
+          "text": "piedra",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-grupos-consonanticos-10",
+      "type": "order",
+      "prompt": "Put the Spanish sentence in order: who prepares something, then the action, then what is prepared. Place the adjective after «crema».",
+      "explanation": "The sentence is «La bruja prepara una crema mágica.». Notice br in «bruja», pr in «prepara» and cr in «crema».",
+      "lang": "en",
+      "items": [
+        "La",
+        "bruja",
+        "prepara",
+        "una",
+        "crema",
+        "mágica."
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:08:07.708Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:27:23.642Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "91c601b1a30d5266137c694c932b59fb6af0f51b41c48c463bc078971af41844",
+      "validation": "manual-review"
+    }
+  }
+}

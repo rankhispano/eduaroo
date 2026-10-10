@@ -1,0 +1,232 @@
+{
+  "id": "g3-mates-numeros-hasta-9-999",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "numeros-hasta-9-999",
+  "temaNombre": "Numbers up to 9.999",
+  "title": "Mission: Numbers up to 9.999",
+  "summary": "Practise place value, expanded form, rounding and comparing four-digit numbers. These exercises use dots to group thousands: 9.999 means nine thousand nine hundred and ninety-nine.",
+  "keyIdeas": [
+    "A four-digit number has thousands (Th), hundreds (H), tens (T) and ones (O).",
+    "One thousand is worth 10 hundreds, 100 tens or 1.000 ones.",
+    "To compare four-digit numbers, look at the thousands first."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-numeros-hasta-9-999-01",
+      "type": "match",
+      "prompt": "Match each place-value sum to its number.",
+      "explanation": "Each place has its position: Th for thousands, H for hundreds, T for tens and O for ones.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "4 Th + 3 H + 2 T + 5 O",
+          "right": "4.325"
+        },
+        {
+          "left": "7 Th + 0 H + 8 T + 4 O",
+          "right": "7.084"
+        },
+        {
+          "left": "5 Th + 6 H + 0 T + 9 O",
+          "right": "5.609"
+        },
+        {
+          "left": "9 Th + 4 H + 5 T + 0 O",
+          "right": "9.450"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-02",
+      "type": "choice",
+      "prompt": "The school library has 3.482 books. What is the value of the digit 4?",
+      "explanation": "4 is in the hundreds place. Four hundreds is 400 ones.",
+      "hint": "Check the 4's position: ones, tens, hundreds or thousands.",
+      "lang": "en",
+      "options": [
+        "40 ones",
+        "400 ones",
+        "4.000 ones"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-03",
+      "type": "true-false",
+      "prompt": "Hugo's race number is 6.209 and Aisha's is 6.092. Hugo's number is greater.",
+      "explanation": "Both have 6 thousands, but Hugo's number has 2 hundreds and Aisha's has 0. So 6.209 > 6.092.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-04",
+      "type": "order",
+      "prompt": "Put these numbers in order from smallest to largest.",
+      "explanation": "Compare the thousands first, then the hundreds: 1.099 < 1.900 < 2.015 < 2.105 < 2.501.",
+      "lang": "en",
+      "items": [
+        "1.099",
+        "1.900",
+        "2.015",
+        "2.105",
+        "2.501"
+      ]
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-05",
+      "type": "choice",
+      "prompt": "Aisha rounds 3.784 to the nearest hundred. What does she get?",
+      "explanation": "The tens digit is 8, which is at least 5. Round up to the next hundred: 3.800.",
+      "hint": "Look at the tens digit to decide whether to round up or down.",
+      "lang": "en",
+      "options": [
+        "3.700",
+        "3.800",
+        "4.000"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-06",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct number.",
+      "explanation": "8 thousands is 8.000 and 15 tens is 150. Add 8.000 + 150 = 8.150.",
+      "lang": "en",
+      "sentence": "The number made of 8 thousands and 15 tens is ___.",
+      "options": [
+        "8.510",
+        "8.150",
+        "8.015"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-07",
+      "type": "classify",
+      "prompt": "Sort the numbers by their nearest hundred.",
+      "explanation": "5.350–5.449 round to 5.400, and 5.450–5.549 round to 5.500. At the midpoint, these exercises use the rule of rounding up.",
+      "lang": "en",
+      "categories": [
+        "Closer to 5.400",
+        "Closer to 5.500"
+      ],
+      "items": [
+        {
+          "text": "5.412",
+          "category": 0
+        },
+        {
+          "text": "5.380",
+          "category": 0
+        },
+        {
+          "text": "5.440",
+          "category": 0
+        },
+        {
+          "text": "5.470",
+          "category": 1
+        },
+        {
+          "text": "5.495",
+          "category": 1
+        },
+        {
+          "text": "5.520",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-08",
+      "type": "choice",
+      "prompt": "Adrián writes 6.047 as 6.000 + 400 + 7. What is his mistake?",
+      "explanation": "4 is in the tens place, so it is worth 40 ones, rather than 400. The correct sum is 6.000 + 40 + 7.",
+      "hint": "Check the position of 4 in 6.047.",
+      "lang": "en",
+      "options": [
+        "He writes 400 ones instead of 40.",
+        "He forgets the thousands.",
+        "He writes 7 ones instead of 70."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-09",
+      "type": "choice",
+      "prompt": "On Saturday, 4.250 people visit the sports centre. On Sunday, 300 more people visit. How many visit on Sunday?",
+      "explanation": "Add 3 hundreds: 4.250 + 300 = 4.550 people.",
+      "hint": "Add 300 to 4.250, watching the hundreds place.",
+      "lang": "en",
+      "options": [
+        "4.550 people",
+        "4.280 people",
+        "7.250 people"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-numeros-hasta-9-999-10",
+      "type": "choice",
+      "prompt": "Guess the number: it has 9 thousands, its ones digit is double 3, and it has no hundreds or tens.",
+      "explanation": "It has 9 thousands (9.000), 0 hundreds, 0 tens and 2 × 3 = 6 ones. It is 9.006.",
+      "hint": "Double 3 first, then put that digit in the ones place.",
+      "lang": "en",
+      "options": [
+        "9.600",
+        "9.060",
+        "9.006"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:05:39.556Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:48:50.393Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "ae5775b26845fc861f8fa62dc5346837cdcffa91d7a66c215daa2cf0080f4dd1",
+      "validation": "manual-review"
+    }
+  }
+}

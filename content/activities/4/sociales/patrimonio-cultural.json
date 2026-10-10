@@ -7,7 +7,7 @@
   "title": "Descubrimos nuestro patrimonio cultural",
   "summary": "Repasa qué es el patrimonio cultural material e inmaterial y aprende a cuidarlo y valorarlo.",
   "keyIdeas": [
-    "El patrimonio cultural material incluye monumentos, edificios históricos, cuadros y restos arqueológicos que podemos tocar.",
+    "El patrimonio cultural material incluye monumentos, edificios históricos, cuadros y restos arqueológicos que tienen una presencia física.",
     "El patrimonio inmaterial son las tradiciones, leyendas, músicas, bailes y fiestas que se transmiten entre generaciones.",
     "Cuidar y respetar el patrimonio es tarea de todas las personas para que dure en el futuro."
   ],
@@ -92,7 +92,7 @@
       "id": "g4-sociales-patrimonio-cultural-04",
       "type": "fill-blank",
       "prompt": "Elige la palabra adecuada para completar la frase.",
-      "explanation": "La Unesco es la organización encargada de declarar y proteger el Patrimonio de la Humanidad.",
+      "explanation": "La Unesco reconoce bienes del Patrimonio Mundial y promueve su conservación. Los países y las comunidades también tienen la responsabilidad de protegerlos.",
       "lang": "es",
       "sentence": "El organismo internacional de la ONU que protege el patrimonio mundial se llama ___.",
       "options": [
@@ -111,11 +111,11 @@
       "pairs": [
         {
           "left": "Pinturas rupestres de Altamira",
-          "right": "Patrimonio material mueble o inmueble"
+          "right": "Patrimonio material"
         },
         {
           "left": "La fiesta de las Fallas",
-          "right": "Patrimonio inmaterial o fiesta tradicional"
+          "right": "Patrimonio inmaterial"
         },
         {
           "left": "Parque Nacional de Doñana",
@@ -171,8 +171,8 @@
     {
       "id": "g4-sociales-patrimonio-cultural-08",
       "type": "order",
-      "prompt": "Ordena los pasos que sigue un museo para exponer una vasija antigua encontrada bajo tierra.",
-      "explanation": "Primero se extrae con cuidado la pieza, luego se limpia y restaura, después se investiga su origen y finalmente se expone.",
+      "prompt": "Un museo describe este proceso: excavar, limpiar y restaurar, estudiar y exponer. Ordena los pasos de este caso.",
+      "explanation": "Este es el proceso descrito por el museo. En una investigación real, el estudio acompaña también a la excavación y a la restauración.",
       "lang": "es",
       "items": [
         "Excavación arqueológica cuidadosa del terreno",

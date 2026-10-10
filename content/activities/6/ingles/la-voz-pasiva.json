@@ -4,12 +4,12 @@
   "asignaturaId": "ingles",
   "temaId": "la-voz-pasiva",
   "temaNombre": "La voz pasiva",
-  "title": "Mastering the Passive Voice",
-  "summary": "Practica cómo reconocer y usar la voz pasiva en presente y pasado en inglés a través de situaciones cotidianas y proyectos del cole.",
+  "title": "Voz pasiva: ampliación guiada",
+  "summary": "Con modelos y ayuda, reconoce frases que destacan qué ocurre a un objeto.",
   "keyIdeas": [
-    "La voz pasiva se forma con el verbo 'to be' (am, is, are, was, were) y el participio pasado del verbo principal.",
-    "Usamos la preposición 'by' cuando queremos mencionar quién realiza la acción (por ejemplo: 'painted by Lucía').",
-    "Se utiliza la voz pasiva para destacar la acción o el objeto que la recibe, en lugar de la persona que la hace."
+    "Ampliación guiada: «Martina paints the mural» → «The mural is painted by Martina».",
+    "Usamos to be y participio: «is painted» en presente, «was painted» en pasado. Consulta los modelos antes de responder.",
+    "En estos ejemplos, by introduce a quien hace la acción: «by Martina»."
   ],
   "lomloe": {
     "area": "lengua-extranjera",
@@ -50,15 +50,15 @@
     {
       "id": "g6-ingles-la-voz-pasiva-01",
       "type": "choice",
-      "prompt": "Choose the correct verb form to complete the sentence: In our school, plastic bottles ___ in yellow containers.",
-      "explanation": "Como el sujeto 'plastic bottles' está en plural y hablamos de una rutina en presente, usamos 'are' seguido del participio 'recycled'.",
+      "prompt": "Follow the model «Paper is collected». Complete: Plastic bottles ___ in our school packaging bins.",
+      "explanation": "Las botellas están en plural: «are collected». Se recogen en los cubos; el reciclaje del material ocurre después en una instalación.",
       "hint": "Fíjate si el sujeto es singular o plural.",
       "lang": "en",
       "options": [
-        "recycles",
-        "are recycled",
-        "is recycled",
-        "are recycling"
+        "collects",
+        "are collected",
+        "is collected",
+        "are collecting"
       ],
       "answer": 1
     },
@@ -196,10 +196,10 @@
       "id": "g6-ingles-la-voz-pasiva-09",
       "type": "reading",
       "prompt": "Read the text carefully and answer the questions:",
-      "explanation": "El texto muestra varios ejemplos reales de cómo usar la voz pasiva para describir proyectos y procesos de cooperación.",
+      "explanation": "El relato inventado contiene modelos de pasiva como «was designed» y «are harvested».",
       "lang": "en",
       "title": "The Eco-Garden Project",
-      "text": "Last term, an exciting project was started at Greenfield Primary School. A new community garden was designed by students and teachers in an empty area behind the school gym. First, the old rubbish was cleaned up by family volunteers on a sunny Saturday. Then, wooden plant beds were built by the 6th-grade pupils using recycled wood from old desks. Organic seeds of tomatoes, carrots, and strawberries were planted carefully in the rich soil. Every morning, the young plants are watered by the eco-team monitors before classes begin. Last week, small solar lights were also installed to keep the garden bright at night. Now, fresh vegetables and fruits are harvested every Friday, and they are prepared in delicious salads for the school canteen. The headteacher explained that when nature is protected, our whole community becomes happier and healthier.",
+      "text": "Last term, an exciting project was started at Greenfield Primary School. A new community garden was designed by students and teachers in an empty area behind the school gym. First, the old rubbish was cleaned up by family volunteers on a sunny Saturday. Then, wooden plant beds were built by the 6th-grade pupils with adult help, using reused wood from old desks. Organic seeds of tomatoes, carrots, and strawberries were planted carefully in the rich soil. Every morning, the young plants are watered by the eco-team monitors before classes begin. Last week, small solar lights were also installed to keep the garden bright at night. Now, fresh vegetables and fruits are harvested every Friday, and they are prepared in delicious salads for the school canteen. The headteacher explained that when nature is protected, our whole community becomes happier and healthier.",
       "questions": [
         {
           "prompt": "Who built the wooden plant beds for the garden?",
@@ -212,7 +212,7 @@
           "answer": 0
         },
         {
-          "prompt": "Why did the students use recycled wood from old desks to build the plant beds?",
+          "prompt": "Why did the pupils reuse wood from old desks?",
           "explanation": "Se infiere que al ser un proyecto ecológico, reutilizar materiales antiguos reduce los residuos y cuida el planeta.",
           "options": [
             "To help the environment by giving old furniture a new life.",

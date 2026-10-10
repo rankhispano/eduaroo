@@ -9,7 +9,7 @@
   "keyIdeas": [
     "La llegada a América en 1492 señala el comienzo de la Edad Moderna en la historia de España.",
     "Antes del contacto con los europeos, en América florecían civilizaciones avanzadas como mayas, aztecas e incas.",
-    "El intercambio comercial transformó la dieta y economía de ambos mundos con nuevos alimentos y recursos."
+    "El intercambio transformó ambos continentes; la conquista y la colonización también causaron violencia, explotación y epidemias entre los pueblos indígenas."
   ],
   "lomloe": {
     "area": "conocimiento-medio",
@@ -101,7 +101,7 @@
       "id": "g5-sociales-la-edad-moderna-america-05",
       "type": "order",
       "prompt": "Ordena los pasos de la expedición de 1492 desde su inicio hasta la llegada a América:",
-      "explanation": "La expedición partió de Huelva en agosto, descansó en Canarias y avistó tierra firme americana el 12 de octubre de 1492.",
+      "explanation": "La expedición salió de Palos en agosto, hizo escala en Canarias y llegó a la isla de Guanahaní el 12 de octubre de 1492.",
       "lang": "es",
       "items": [
         "Firma de las Capitulaciones de Santa Fe entre Colón y los Reyes Católicos.",
@@ -151,11 +151,11 @@
       "id": "g5-sociales-la-edad-moderna-america-07",
       "type": "choice",
       "prompt": "¿Cuál fue una de las principales razones por las que los países europeos buscaban nuevas rutas marítimas hacia Asia a finales del siglo XV?",
-      "explanation": "La caída de Constantinopla en 1453 cortó el paso terrestre hacia Oriente, obligando a buscar rutas alternativas por mar para conseguir productos valiosos como las especias.",
-      "hint": "Piensa en el comercio de la seda y las especias y los problemas para cruzar por tierra.",
+      "explanation": "Acceder al comercio de especias y otros productos de Asia fue una motivación importante. No todas las rutas terrestres quedaron cerradas tras 1453.",
+      "hint": "Piensa en los productos valiosos que querían comerciar.",
       "lang": "es",
       "options": [
-        "Los turcos otomanos bloquearon las rutas comerciales tradicionales por tierra hacia las especias y la seda.",
+        "Buscaban rutas para comerciar directamente con Asia y obtener especias y otros productos valiosos.",
         "Querían trasladar todas las capitales europeas a islas lejanas del océano Índico.",
         "Los barcos europeos eran demasiado grandes para navegar por el mar Mediterráneo."
       ],
@@ -168,11 +168,11 @@
       "explanation": "El contacto entre continentes generó cambios biológicos, lingüísticos y sociales muy complejos para ambas partes.",
       "lang": "es",
       "title": "El encuentro de dos mundos",
-      "text": "En 1492, dos mundos que habían vivido aislados entraron en contacto por primera vez. Para los reinos europeos supuso acceder a territorios inexplorados, nuevas rutas de navegación y grandes reservas de metales como el oro y la plata. Sin embargo, para la población indígena este hecho tuvo consecuencias muy duras: sufrieron enfermedades desconocidas hasta entonces en América, como la viruela y el sarampión, que diezmaron a sus comunidades al no tener defensas naturales contra ellas. Al mismo tiempo se inició un proceso de mestizaje y un profundo intercambio cultural. El idioma castellano se extendió por gran parte de América, mientras que palabras de origen taíno o náhuatl como canoa, huracán o chocolate se incorporaron al vocabulario europeo. Por este motivo, hoy se prefiere hablar de un encuentro de culturas y no de un descubrimiento.",
+      "text": "En 1492, el viaje de Colón inició un contacto continuado entre Europa y América. América ya estaba habitada por numerosos pueblos con culturas propias. Los europeos ampliaron sus rutas y accedieron a recursos como el oro y la plata. Para muchas comunidades indígenas, la conquista y la colonización tuvieron consecuencias muy duras: violencia, trabajos forzados, pérdida de tierras y epidemias de enfermedades como la viruela.\n\nTambién se intercambiaron alimentos, conocimientos y palabras. El castellano se extendió por gran parte de América, mientras que palabras de origen indígena como canoa, huracán o chocolate llegaron a Europa. La expresión «descubrimiento de América» describe la perspectiva europea; estudiar el contacto entre culturas permite reconocer también la experiencia de los pueblos americanos.",
       "questions": [
         {
           "prompt": "¿Cuál fue una de las causas del gran descenso demográfico de la población indígena tras 1492?",
-          "explanation": "Las enfermedades infecciosas traídas desde Europa fueron la principal causa del grave descenso de la población originaria americana.",
+          "explanation": "Las epidemias fueron una causa importante del descenso, junto con la violencia y la explotación.",
           "options": [
             "Un cambio climático repentino que secó todos los cultivos en América.",
             "El abandono voluntario de sus tierras para viajar a Europa en barco.",
@@ -181,8 +181,8 @@
           "answer": 2
         },
         {
-          "prompt": "¿Por qué el texto indica que hoy se prefiere hablar de 'encuentro' en lugar de 'descubrimiento'?",
-          "explanation": "No se puede descubrir un territorio donde ya vivían pueblos con culturas milenarias; fue un contacto mutuo entre dos sociedades diferentes.",
+          "prompt": "¿Por qué conviene estudiar también la perspectiva de los pueblos americanos?",
+          "explanation": "América ya tenía población y culturas propias. La perspectiva de sus habitantes es necesaria para comprender el proceso.",
           "options": [
             "Porque Colón utilizó mapas modernos creados por satélite para viajar.",
             "Porque en América ya habitaban millones de personas con civilizaciones ricas y organizadas.",
@@ -196,7 +196,7 @@
       "id": "g5-sociales-la-edad-moderna-america-09",
       "type": "choice",
       "prompt": "Adrián y Nerea leen en su libro de Sociales que en el siglo XVI llegaban a Sevilla barcos cargados de plata y oro desde América. ¿Qué consecuencia económica tuvo esto en España?",
-      "explanation": "La gran cantidad de plata que entró disparó la inflación (subida general de precios), encareciendo la vida de la mayoría de la población trabajadora.",
+      "explanation": "La llegada de grandes cantidades de metales preciosos contribuyó a la subida de precios, junto con otros factores como el aumento de la demanda.",
       "hint": "Cuando hay mucho dinero en circulación y los bienes no aumentan al mismo ritmo, los precios suben.",
       "lang": "es",
       "options": [

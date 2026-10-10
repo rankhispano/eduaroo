@@ -1,0 +1,244 @@
+{
+  "id": "g6-sociales-la-constitucion-de-1978",
+  "cursoId": "6",
+  "asignaturaId": "sociales",
+  "temaId": "la-constitucion-de-1978",
+  "temaNombre": "The Constitution of 1978",
+  "title": "The Spanish Constitution of 1978",
+  "summary": "Explore the origins, values, rights and democratic organisation established by Spain's Constitution.",
+  "keyIdeas": [
+    "The 1978 Constitution is Spain's supreme law. Voters approved it in a referendum on 6 December.",
+    "It establishes a parliamentary monarchy with legislative, executive and judicial powers.",
+    "It protects citizens' fundamental rights and freedoms and sets out shared civic duties."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CCEC1",
+      "CCL5",
+      "CPSAA1"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Sociedades en el tiempo",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-sociales-la-constitucion-de-1978-01",
+      "type": "true-false",
+      "prompt": "The 1978 Constitution is Spain's supreme law, and no other law may contradict it.",
+      "explanation": "The Constitution is the country's fundamental law. Other laws and regulations must follow its principles.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-sociales-la-constitucion-de-1978-02",
+      "type": "choice",
+      "prompt": "On which date did Spanish citizens vote in a referendum to approve the Constitution?",
+      "explanation": "Voters approved it on 6 December 1978. Spain celebrates Constitution Day on that date each year.",
+      "hint": "The holiday falls early in the last month of the year.",
+      "lang": "en",
+      "options": [
+        "6 December 1978",
+        "23 April 1975",
+        "12 October 1982"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-la-constitucion-de-1978-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about Spain's political system under the Constitution.",
+      "explanation": "Spain is a parliamentary monarchy. The king is head of state and represents the country; democratic power rests with the people and their representatives.",
+      "lang": "en",
+      "sentence": "The 1978 Constitution establishes Spain as a parliamentary ___.",
+      "options": [
+        "monarchy",
+        "republic",
+        "confederation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-la-constitucion-de-1978-04",
+      "type": "match",
+      "prompt": "Match each democratic state power to its constitutional role.",
+      "explanation": "Separating powers helps prevent one person or institution from holding all power and protects people's rights.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Legislative power",
+          "right": "Makes and approves laws in the Cortes Generales, Spain's parliament."
+        },
+        {
+          "left": "Executive power",
+          "right": "Applies laws and directs national policy through the Government."
+        },
+        {
+          "left": "Judicial power",
+          "right": "Administers justice and ensures laws are upheld in the courts."
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-la-constitucion-de-1978-05",
+      "type": "classify",
+      "prompt": "Lucía and Omar make a citizenship display. Classify these statements as rights and principles or duties in the Constitution.",
+      "explanation": "The Constitution recognises rights and social principles, as well as duties. Health and housing have a different legal status from fundamental rights such as expression and education.",
+      "lang": "en",
+      "categories": [
+        "Recognised rights and principles",
+        "Citizens' duties"
+      ],
+      "items": [
+        {
+          "text": "Receiving free basic education",
+          "category": 0
+        },
+        {
+          "text": "Contributing to public spending by paying taxes",
+          "category": 1
+        },
+        {
+          "text": "Freely expressing and sharing thoughts and ideas",
+          "category": 0
+        },
+        {
+          "text": "Preserving and protecting the environment",
+          "category": 1
+        },
+        {
+          "text": "Protection of health and access to decent housing",
+          "category": 0
+        },
+        {
+          "text": "Respecting the Constitution and other laws",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-la-constitucion-de-1978-06",
+      "type": "choice",
+      "prompt": "A Grade 6 class discusses institutions during a city visit. Which body represents Spain's legislative power?",
+      "explanation": "The Cortes Generales comprises the Congress of Deputies and the Senate. It represents citizens and debates and approves laws.",
+      "hint": "It has two chambers where deputies and senators meet.",
+      "lang": "en",
+      "options": [
+        "The Cortes Generales, comprising the Congress and Senate",
+        "The Council of Ministers, led by the head of government",
+        "The Supreme Court and investigating courts"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-sociales-la-constitucion-de-1978-07",
+      "type": "order",
+      "prompt": "Put the events leading to the 1978 Constitution in chronological order.",
+      "explanation": "After the free elections of 1977, the elected Cortes drafted the Constitution. Citizens then approved it, and it was published in the official state gazette.",
+      "lang": "en",
+      "items": [
+        "The Transition's first democratic general elections take place in June 1977.",
+        "Representatives from different parties draft and debate the Constitution.",
+        "Citizens approve the Constitution in a referendum on 6 December 1978.",
+        "The text enters into force after publication in the BOE, Spain's official state gazette, in late December 1978."
+      ]
+    },
+    {
+      "id": "g6-sociales-la-constitucion-de-1978-08",
+      "type": "choice",
+      "prompt": "The Social Sciences book says the 1978 Constitution resulted from 'consensus'. What does this mean in the history of Spain's Transition to democracy?",
+      "explanation": "Different political groups used dialogue and agreement to create a fundamental law for Spanish society.",
+      "hint": "Consensus involves negotiation, agreement and compromise.",
+      "lang": "en",
+      "options": [
+        "Citizens accepted dictatorship-era laws without making any changes.",
+        "A single party wrote the entire text and imposed its decisions without consulting others.",
+        "People with very different political ideas discussed and compromised to agree on shared rules."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-sociales-la-constitucion-de-1978-09",
+      "type": "reading",
+      "prompt": "Read the text about Spain's constitutional history and answer the questions.",
+      "explanation": "The women in the constituent parliament helped remove discrimination and establish constitutional equality.",
+      "lang": "en",
+      "title": "The Mothers of the Constitution",
+      "text": "When studying the 1978 Constitution, people often remember the seven men who wrote its first draft. However, the constituent Cortes of 1977 also included 27 women: 21 deputies and six senators. They are now known as the 'Mothers of the Constitution'.\n\nThey belonged to different parties but worked together for a shared aim: equal rights for women and men in the new fundamental law. Their efforts during debates helped establish Article 14, which prohibits discrimination based on sex, birth, race or religion. Constitutional equality encouraged further reforms. The requirement for many married women to obtain their husband's permission to work or sign contracts had already been removed in May 1975. Their work showed that building democracy required women's participation and voices.",
+      "questions": [
+        {
+          "prompt": "Which article guarantees equality before the law without discrimination based on sex?",
+          "explanation": "Article 14 establishes equality before the law for Spanish citizens and prohibits discrimination based on birth, race, sex or religion.",
+          "options": [
+            "Article 14",
+            "Article 1",
+            "Article 50"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why was the women parliamentarians' joint work in 1977 particularly valuable?",
+          "explanation": "Despite their different political ideas, they worked together for progress in legal and gender equality.",
+          "options": [
+            "They put defending equal rights ahead of party differences.",
+            "They all belonged to the same party and needed no negotiations.",
+            "They wrote the entire text alone without taking part in parliamentary debates."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What can we conclude about building democracy?",
+          "explanation": "Recognising women's rights and active participation was essential to Spain's democratic development.",
+          "options": [
+            "Before 1978, women already had complete legal and economic independence in Spain.",
+            "A fully democratic society must recognise and include contributions from women and men.",
+            "Fundamental laws should be written only by experts, without parliamentary debate."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-sociales-la-constitucion-de-1978-10",
+      "type": "choice",
+      "prompt": "Residents wonder whether a new law violates a constitutional right. Which independent body decides whether a law respects the Constitution?",
+      "explanation": "The Constitutional Court is the highest interpreter of the Constitution and checks whether laws and certain actions comply with it.",
+      "hint": "Its name refers directly to the Constitution.",
+      "lang": "en",
+      "options": [
+        "The Ombudsman (Defensor del Pueblo)",
+        "The General Council of the Judiciary",
+        "The Constitutional Court"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:45:06.021Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T10:56:53.228Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "c752daa618f1fd9284914e0daf24e28c292d8e4ba7b465cf20246eb01fd6349f",
+      "validation": "manual-review"
+    }
+  }
+}

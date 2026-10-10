@@ -58,8 +58,8 @@
     {
       "id": "g3-lengua-tipos-de-oraciones-02",
       "type": "true-false",
-      "prompt": "En español, las oraciones interrogativas se escriben siempre con dos signos de interrogación: uno al principio (¿) y otro al final (?).",
-      "explanation": "En nuestra lengua es obligatorio escribir el signo de apertura (¿) y el de cierre (?).",
+      "prompt": "En español, las preguntas directas se escriben con signo de apertura (¿) y de cierre (?).",
+      "explanation": "Las preguntas directas llevan los dos signos. En «No sé cuándo viene», la pregunta es indirecta y no los lleva.",
       "lang": "es",
       "answer": true
     },

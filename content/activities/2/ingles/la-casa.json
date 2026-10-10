@@ -58,7 +58,7 @@
     {
       "id": "g2-ingles-la-casa-02",
       "type": "match",
-      "prompt": "Match each room with its Spanish name:",
+      "prompt": "Match each part of the home with its Spanish name:",
       "explanation": "Kitchen es cocina, bathroom es baño, living room es salón y garden es jardín.",
       "lang": "en",
       "pairs": [
@@ -135,8 +135,8 @@
     {
       "id": "g2-ingles-la-casa-06",
       "type": "choice",
-      "prompt": "Lucía washes her hands with water and soap. Where is Lucía?",
-      "explanation": "Nos lavamos las manos en el cuarto de baño (bathroom).",
+      "prompt": "Lucía washes her hands at the sink next to the shower. Which room is she in?",
+      "explanation": "La habitación con lavabo y ducha se llama bathroom.",
       "hint": "Busca la habitación con lavabo y ducha.",
       "lang": "en",
       "options": [

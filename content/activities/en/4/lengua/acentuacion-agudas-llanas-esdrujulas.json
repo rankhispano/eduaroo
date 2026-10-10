@@ -1,0 +1,244 @@
+{
+  "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "acentuacion-agudas-llanas-esdrujulas",
+  "temaNombre": "Spanish Accent Marks: Agudas, Llanas and Esdrújulas",
+  "title": "The Mystery of Spanish Accent Marks",
+  "summary": "Classify Spanish words by their stressed syllable and practise their basic accent-mark rules.",
+  "keyIdeas": [
+    "The stressed syllable is the syllable we say most strongly in a word.",
+    "In the examples here, agudas take an accent mark when ending in a vowel, -n or -s; llanas take one when ending in another consonant.",
+    "Esdrújulas are stressed on the third-to-last syllable and always take an accent mark."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE9"
+    ],
+    "criteria": [
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CP2",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales",
+      "B. Comunicación › Procesos"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-01",
+      "type": "choice",
+      "prompt": "Which syllable is stressed in «camaleón»?",
+      "explanation": "The last syllable, «-ón», is stressed. This makes «camaleón» an aguda.",
+      "hint": "Say the word slowly and clap on the strongest syllable.",
+      "lang": "en",
+      "options": [
+        "On the third-to-last syllable (-ma-)",
+        "On the second-to-last syllable (-le-)",
+        "On the last syllable (-ón)"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-02",
+      "type": "true-false",
+      "prompt": "All Spanish esdrújulas take an accent mark.",
+      "explanation": "True. Esdrújulas always have an accent mark on their stressed syllable.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-03",
+      "type": "match",
+      "prompt": "Match each Spanish word type with the position of its stressed syllable.",
+      "explanation": "Agudas are stressed on the last syllable, llanas on the second-to-last and esdrújulas on the third-to-last.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Aguda",
+          "right": "Last syllable"
+        },
+        {
+          "left": "Llana",
+          "right": "Second-to-last syllable"
+        },
+        {
+          "left": "Esdrújula",
+          "right": "Third-to-last syllable"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-04",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by the position of their stressed syllable.",
+      "explanation": "«Tambor» and «compás» are agudas; «mochila» and «árbol» are llanas; «brújula» and «lámpara» are esdrújulas.",
+      "lang": "en",
+      "categories": [
+        "Agudas",
+        "Llanas",
+        "Esdrújulas"
+      ],
+      "items": [
+        {
+          "text": "Tambor",
+          "category": 0
+        },
+        {
+          "text": "Compás",
+          "category": 0
+        },
+        {
+          "text": "Mochila",
+          "category": 1
+        },
+        {
+          "text": "Árbol",
+          "category": 1
+        },
+        {
+          "text": "Brújula",
+          "category": 2
+        },
+        {
+          "text": "Lámpara",
+          "category": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-05",
+      "type": "fill-blank",
+      "prompt": "Choose the correctly spelt Spanish word to complete the sentence.",
+      "explanation": "«Pincel» is an aguda ending in «l», so it does not take an accent mark.",
+      "lang": "en",
+      "sentence": "Aisha metió el ___ en la mochila antes de ir a clase de Plástica.",
+      "options": [
+        "pincél",
+        "pincel",
+        "píncel"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-06",
+      "type": "choice",
+      "prompt": "Hugo and Martina read this library notice: «El club de lectura es muy util». Which word has an accent-mark error?",
+      "explanation": "«Útil» is a llana ending in «l», so it needs an accent mark on «u».",
+      "hint": "Look for a llana ending in a consonant other than -n or -s.",
+      "lang": "en",
+      "options": [
+        "util",
+        "club",
+        "lectura"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-07",
+      "type": "order",
+      "prompt": "Put the steps for deciding whether a Spanish word needs an accent mark in order.",
+      "explanation": "Find the stressed syllable, classify the word, check its ending and apply the rule.",
+      "lang": "en",
+      "items": [
+        "Say the word and find its stressed syllable.",
+        "Decide whether it is an aguda, llana or esdrújula.",
+        "Check the letter at the end of the word.",
+        "Apply the spelling rule and add an accent mark if needed."
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-08",
+      "type": "choice",
+      "prompt": "Why does «azúcar» take an accent mark while «cuchara» does not, although both are llanas?",
+      "explanation": "For these llanas, the ending decides the rule: «azúcar» ends in «r», whereas «cuchara» ends in a vowel.",
+      "lang": "en",
+      "options": [
+        "Because «cuchara» has more syllables than «azúcar» and does not need an accent mark.",
+        "Because words starting with «a» always need an accent mark.",
+        "Because «azúcar» ends in a consonant other than -n or -s, while «cuchara» ends in a vowel."
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-09",
+      "type": "reading",
+      "prompt": "Read the Spanish school news and answer the questions.",
+      "explanation": "The text includes agudas with accent marks, such as «calabacín» and «ilusión», and esdrújulas, such as «ecológico» and «automático».",
+      "lang": "en",
+      "title": "Gran éxito del huerto escolar",
+      "text": "El alumnado de cuarto de primaria inauguró ayer el nuevo huerto ecológico del colegio. Durante semanas, niños y niñas plantaron semillas de calabacín, tomate y perejil con gran ilusión. Omar y Nerea explicaron a las familias cómo funciona el sistema de riego automático que construyeron con tubos reciclados. Además, colocaron pequeños carteles de madera para identificar cada hortaliza. La directora del centro felicitó a toda la clase por su esfuerzo, dedicación y trabajo en equipo. ¡Pronto recogerán su primera cosecha!",
+      "questions": [
+        {
+          "prompt": "Which word from the text is an aguda with an accent mark?",
+          "explanation": "«Calabacín» is stressed on the last syllable and takes an accent mark because it ends in «n».",
+          "options": [
+            "huerto",
+            "automático",
+            "calabacín"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which word from the text is an esdrújula?",
+          "explanation": "«Ecológico» is stressed on the third-to-last syllable: «e-co-ló-gi-co».",
+          "options": [
+            "ecológico",
+            "ilusión",
+            "madera"
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-acentuacion-agudas-llanas-esdrujulas-10",
+      "type": "choice",
+      "prompt": "Lucía checks this packing list for a trip: «melocoton, lapiz, cantimplora y platano». How many words need an accent mark?",
+      "explanation": "«Melocotón» is an aguda ending in -n; «lápiz» is a llana ending in -z; «plátano» is an esdrújula. «Cantimplora» is a llana ending in a vowel and needs no accent mark.",
+      "hint": "Look for an aguda, a llana ending in «z» and an esdrújula.",
+      "lang": "en",
+      "options": [
+        "2 words: melocotón and plátano",
+        "3 words: melocotón, lápiz and plátano",
+        "4 words: every word in the list"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:31:22.953Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:22:46.305Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "80b7208ace5114fdbb8c2289d723d84718068e01ed8f6597ae8addabda319dca",
+      "validation": "manual-review"
+    }
+  }
+}

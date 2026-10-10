@@ -5,10 +5,10 @@
   "temaId": "el-cuento-y-la-leyenda",
   "temaNombre": "El cuento y la leyenda",
   "title": "Mundos de cuento y leyenda",
-  "summary": "Repasa la estructura de los cuentos y descubre las características mágicas de las leyendas.",
+  "summary": "Repasa la estructura de los cuentos y descubre cómo las leyendas mezclan tradición y fantasía.",
   "keyIdeas": [
-    "El cuento es una narración breve con inicio, nudo y desenlace.",
-    "La leyenda explica el origen de algo real mezclando fantasía y tradición.",
+    "Muchos cuentos se organizan en inicio, nudo y desenlace.",
+    "Las leyendas son relatos tradicionales ligados a lugares, personajes o sucesos; algunas explican orígenes con elementos fantásticos.",
     "El narrador cuenta la historia y los personajes realizan las acciones."
   ],
   "lomloe": {
@@ -48,13 +48,13 @@
       "id": "g3-lengua-el-cuento-y-la-leyenda-01",
       "type": "choice",
       "prompt": "¿Qué es una leyenda?",
-      "explanation": "Las leyendas son relatos tradicionales que mezclan hechos reales y mágicos para explicar el origen de un elemento de la naturaleza o de un lugar.",
+      "explanation": "Una leyenda es un relato de tradición popular. Muchas explican el origen de un lugar o fenómeno mediante elementos fantásticos.",
       "hint": "Piensa en historias populares que explican cómo nació un lago o una montaña.",
       "lang": "es",
       "options": [
         "Una lista con los nombres de todos los personajes de un libro.",
         "Una noticia informativa sobre un suceso ocurrido ayer en la ciudad.",
-        "Un relato tradicional que explica con fantasía el origen de algo real."
+        "Un relato tradicional ligado a lugares, personajes o sucesos, que puede incluir fantasía."
       ],
       "answer": 2
     },
@@ -70,7 +70,7 @@
       "id": "g3-lengua-el-cuento-y-la-leyenda-03",
       "type": "match",
       "prompt": "Une cada parte de una narración con lo que ocurre en ella.",
-      "explanation": "Toda narración sigue un orden claro: primero presenta la situación, luego plantea el conflicto y al final lo soluciona.",
+      "explanation": "Esta es una estructura habitual: presentar una situación, desarrollar un conflicto y llegar a un desenlace.",
       "lang": "es",
       "pairs": [
         {
@@ -90,36 +90,28 @@
     {
       "id": "g3-lengua-el-cuento-y-la-leyenda-04",
       "type": "classify",
-      "prompt": "Clasifica estas características según pertenezcan al cuento o a la leyenda.",
-      "explanation": "Los cuentos son relatos de ficción con inicio típico y moraleja, mientras que las leyendas forman parte de la tradición popular y explican orígenes reales.",
+      "prompt": "Clasifica los fragmentos: «El gato astronauta» es un cuento inventado; «La roca del pueblo» tiene forma de leyenda que explica el origen de esa roca.",
+      "explanation": "Los fragmentos se asignan a los relatos nombrados. Cuentos y leyendas comparten rasgos; la tradición y el vínculo con un lugar ayudan a reconocer esta leyenda.",
       "lang": "es",
       "categories": [
-        "Cuento",
-        "Leyenda"
+        "El gato astronauta (cuento)",
+        "La roca del pueblo (leyenda)"
       ],
       "items": [
         {
-          "text": "Suele empezar con fórmulas como 'Érase una vez'.",
+          "text": "Un gato inventó una nave y despegó hacia Marte.",
           "category": 0
         },
         {
-          "text": "Intenta explicar el origen de un lugar real o un fenómeno natural.",
+          "text": "Dicen los vecinos que la roca era antes un gigante.",
           "category": 1
         },
         {
-          "text": "Es una historia de ficción creada principalmente para entretener.",
+          "text": "En Marte, el gato conoció a un robot y se hicieron amigos.",
           "category": 0
         },
         {
-          "text": "Se transmite de generación en generación en una comunidad.",
-          "category": 1
-        },
-        {
-          "text": "Suele tener un final feliz o una enseñanza clara.",
-          "category": 0
-        },
-        {
-          "text": "Combina elementos reales con hechos mágicos o sobrenaturales.",
+          "text": "Según la tradición del relato, una hechicera convirtió al gigante en piedra.",
           "category": 1
         }
       ]
@@ -153,8 +145,8 @@
     {
       "id": "g3-lengua-el-cuento-y-la-leyenda-07",
       "type": "reading",
-      "prompt": "Lee con atención este texto tradicional y responde a las preguntas.",
-      "explanation": "Las leyendas unen lugares conocidos con historias mágicas que se cuentan de abuelos a nietos.",
+      "prompt": "Lee este relato inventado con forma de leyenda y responde.",
+      "explanation": "El relato imita la forma de una leyenda que explica el origen de un lago con magia.",
       "lang": "es",
       "title": "La leyenda del lago azul",
       "text": "Cuentan los abuelos del pueblo que hace muchos años el valle no tenía agua. Una tarde calurosa, una cierva dorada bajó de la montaña más alta buscando refugio. Los campesinos, en lugar de cazarla, le ofrecieron sombra y frutos secos. Agradecida por su bondad, la cierva golpeó el suelo rocoso tres veces con sus pezuñas mágicas. De repente, brotó un manantial cristalino que llenó todo el valle y formó el lago azul. Desde entonces, los vecinos cuidan la naturaleza y recuerdan a la misteriosa cierva.",
@@ -171,9 +163,9 @@
         },
         {
           "prompt": "¿Por qué podemos decir que este texto es una leyenda?",
-          "explanation": "Es una leyenda porque parte de un lugar del entorno (el lago) y explica su origen mediante un suceso fantástico y tradicional.",
+          "explanation": "Imita la forma de una leyenda: un relato transmitido en el pueblo explica un origen mediante magia.",
           "options": [
-            "Porque explica el origen de un lago real mezclando hechos cotidianos con magia.",
+            "Porque cuenta con magia el origen de un lago y tiene forma de relato tradicional.",
             "Porque describe con datos científicos cómo brota el agua subterránea.",
             "Porque es una noticia real publicada en el periódico del pueblo."
           ],
@@ -199,7 +191,7 @@
       "id": "g3-lengua-el-cuento-y-la-leyenda-09",
       "type": "choice",
       "prompt": "Martina y Omar quieren escribir una leyenda para el certamen del colegio. ¿Cuál de estas ideas es la adecuada?",
-      "explanation": "Una leyenda siempre intenta explicar el origen o forma de un elemento real de la naturaleza recurriendo a la fantasía.",
+      "explanation": "Esta idea combina un elemento del entorno con una explicación fantástica de su forma, un recurso habitual en las leyendas.",
       "hint": "Busca la opción que explique un elemento natural mediante la magia.",
       "lang": "es",
       "options": [

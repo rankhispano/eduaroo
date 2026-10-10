@@ -1,0 +1,252 @@
+{
+  "id": "g4-sociales-la-union-europea",
+  "cursoId": "4",
+  "asignaturaId": "sociales",
+  "temaId": "la-union-europea",
+  "temaNombre": "The European Union",
+  "title": "Discovering the European Union",
+  "summary": "Explore the EU's members, shared symbols and main democratic institutions.",
+  "keyIdeas": [
+    "The European Union brings European countries together for peace and cooperation.",
+    "Shared features include the blue flag with twelve stars, the Ode to Joy anthem and the euro used by many members.",
+    "Institutions such as the European Parliament and Commission help organise cooperation and improve people's lives."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-sociales-la-union-europea-01",
+      "type": "true-false",
+      "prompt": "Every country in Europe belongs to the European Union.",
+      "explanation": "Not all European countries are EU members. Switzerland and Norway, for example, are not.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g4-sociales-la-union-europea-02",
+      "type": "choice",
+      "prompt": "Hugo's class looks at the European Union flag. What does it show?",
+      "explanation": "It has a blue background and twelve gold stars in a circle, representing unity and solidarity.",
+      "hint": "The number of stars does not change with membership.",
+      "lang": "en",
+      "options": [
+        "A circle of twelve gold stars on a blue background.",
+        "One large star for every member country.",
+        "Red, white and blue stripes with a coat of arms."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-la-union-europea-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the shared currency.",
+      "explanation": "The euro is used by most EU countries, including Spain.",
+      "lang": "en",
+      "sentence": "The official currency shared by many EU countries is the ___.",
+      "options": [
+        "pound",
+        "euro",
+        "dollar"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-sociales-la-union-europea-04",
+      "type": "match",
+      "prompt": "Match each EU symbol to its description.",
+      "explanation": "The symbols express shared ideas such as peace, unity, culture and diversity.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Flag",
+          "right": "Twelve gold stars in a circle"
+        },
+        {
+          "left": "Anthem",
+          "right": "Beethoven's Ode to Joy"
+        },
+        {
+          "left": "Motto",
+          "right": "United in diversity"
+        },
+        {
+          "left": "Europe Day",
+          "right": "9 May"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-la-union-europea-05",
+      "type": "classify",
+      "prompt": "Classify these countries by EU membership.",
+      "explanation": "Spain, France, Italy and Germany are members. The United Kingdom and Switzerland are not.",
+      "lang": "en",
+      "categories": [
+        "EU member countries",
+        "Countries outside the EU"
+      ],
+      "items": [
+        {
+          "text": "Spain",
+          "category": 0
+        },
+        {
+          "text": "France",
+          "category": 0
+        },
+        {
+          "text": "Italy",
+          "category": 0
+        },
+        {
+          "text": "United Kingdom",
+          "category": 1
+        },
+        {
+          "text": "Switzerland",
+          "category": 1
+        },
+        {
+          "text": "Germany",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-la-union-europea-06",
+      "type": "choice",
+      "prompt": "Aisha travels from Spain to Portugal. Both are EU members and use the euro. What advantage does their shared currency offer?",
+      "explanation": "She can pay in euros without changing currency. Not all EU members use the euro.",
+      "hint": "Focus on the currency used in both countries.",
+      "lang": "en",
+      "options": [
+        "She can pay in euros in both countries.",
+        "She must exchange euros for another currency in Portugal.",
+        "Every shop requires a different currency."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-sociales-la-union-europea-07",
+      "type": "match",
+      "prompt": "Match each European institution to its main role.",
+      "explanation": "EU institutions share different roles in democratic cooperation and justice.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "European Parliament",
+          "right": "Approves laws and budgets with the Council of the EU"
+        },
+        {
+          "left": "European Commission",
+          "right": "Proposes laws and checks that EU rules are followed"
+        },
+        {
+          "left": "Court of Justice of the EU",
+          "right": "Ensures EU law is respected and applied consistently"
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-la-union-europea-08",
+      "type": "reading",
+      "prompt": "Read about European integration and answer the questions.",
+      "explanation": "The EEC was founded in 1957, Spain joined the European Communities in 1986, and the EU was created in 1993.",
+      "lang": "en",
+      "title": "The beginnings of a union",
+      "text": "After the Second World War, European countries sought cooperation to prevent further conflict. In 1957, France, Germany, Italy, Belgium, the Netherlands and Luxembourg founded the European Economic Community through the Treaty of Rome. They wanted to cooperate in trade and live peacefully. More countries joined over time, including Spain in 1986. The Maastricht Treaty created the European Union in 1993. Today, its 27 countries cooperate on peace, economic progress and human rights.",
+      "questions": [
+        {
+          "prompt": "In which year did Spain join the European Communities?",
+          "explanation": "The text gives 1986.",
+          "options": [
+            "1957",
+            "1945",
+            "1986"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why did countries seek cooperation after the war?",
+          "explanation": "They wanted lasting peace and to avoid further wars between them.",
+          "options": [
+            "To prevent new conflicts and cooperate peacefully.",
+            "To have a single European football team.",
+            "To force all countries to speak one language."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g4-sociales-la-union-europea-09",
+      "type": "order",
+      "prompt": "Order these milestones from earliest to latest.",
+      "explanation": "The Treaty of Rome was signed in 1957, Spain joined in 1986, and euro notes and coins began circulating in 2002.",
+      "lang": "en",
+      "items": [
+        "Six countries sign the Treaty of Rome to cooperate peacefully.",
+        "Spain joins the European Community in 1986.",
+        "Euro notes and coins enter circulation in many countries."
+      ]
+    },
+    {
+      "id": "g4-sociales-la-union-europea-10",
+      "type": "choice",
+      "prompt": "Nerea learns that European Parliament elections take place every five years. Why does this vote matter?",
+      "explanation": "The Parliament represents citizens, giving them a democratic voice in shared lawmaking.",
+      "hint": "The EU is based on democratic participation.",
+      "lang": "en",
+      "options": [
+        "It lets citizens participate democratically in decisions affecting them.",
+        "It only chooses which flags schools display.",
+        "It selects the country hosting the next Summer Olympics."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:06:38.005Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:14:30.562Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "2a1d9a68b40ca13da00371c63f5469a8d0f5cd0af77021c4d5f58f3bc96838c0",
+      "validation": "manual-review"
+    }
+  }
+}

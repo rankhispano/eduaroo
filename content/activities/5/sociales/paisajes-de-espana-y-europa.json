@@ -47,8 +47,8 @@
     {
       "id": "g5-sociales-paisajes-de-espana-y-europa-02",
       "type": "choice",
-      "prompt": "¿En qué archipiélago y paisaje se encuentra el pico más alto de España, el Teide (3.715 metros)?",
-      "explanation": "El Teide está en la isla de Tenerife (Islas Canarias) y forma parte del singular paisaje volcánico y subtropical canario.",
+      "prompt": "¿En qué archipiélago se encuentra el Teide, el pico más alto de España?",
+      "explanation": "El Teide es un volcán de Tenerife, en Canarias. El archipiélago tiene paisajes diversos y en las cumbres el clima es más frío que en la costa.",
       "hint": "Se trata de un volcán situado en una isla atlántica frente a las costas africanas.",
       "lang": "es",
       "options": [
@@ -149,8 +149,8 @@
     {
       "id": "g5-sociales-paisajes-de-espana-y-europa-07",
       "type": "order",
-      "prompt": "Ordena los pisos de vegetación de una montaña europea desde la base (menor altitud) hasta la cumbre (mayor altitud):",
-      "explanation": "A medida que se sube en altitud bajan las temperaturas: primero crecen árboles de hoja caduca, luego coníferas adaptadas al frío, más arriba pastos y en la cumbre apenas hay roca y hielo.",
+      "prompt": "En el modelo de montaña alpina de clase aparecen estos pisos de vegetación. Ordénalos desde la base hasta la cumbre:",
+      "explanation": "Este modelo muestra una distribución frecuente en los Alpes. Los pisos concretos dependen de la montaña, su clima y su orientación.",
       "lang": "es",
       "items": [
         "Bosque de robles o hayas (hoja caduca)",

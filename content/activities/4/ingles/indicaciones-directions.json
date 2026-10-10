@@ -101,8 +101,8 @@
     {
       "id": "g4-ingles-indicaciones-directions-04",
       "type": "true-false",
-      "prompt": "If the supermarket is 'opposite' the school, you need to cross the street to get there.",
-      "explanation": "'Opposite' significa enfrente, al otro lado de la calle, por lo que debes cruzar.",
+      "prompt": "The supermarket is opposite the school, on the other side of the road. You must cross the road at a safe crossing to get there.",
+      "explanation": "Aquí el texto indica que está al otro lado de la carretera. «Opposite» significa enfrente, pero no implica siempre que haya una calle entre ambos lugares.",
       "hint": "Piensa si algo que está enfrente está en tu misma acera o en la otra.",
       "lang": "en",
       "answer": true
@@ -190,7 +190,7 @@
       "id": "g4-ingles-indicaciones-directions-09",
       "type": "choice",
       "prompt": "A visitor asks Wei: 'Excuse me, where is the train station?' What is the best answer?",
-      "explanation": "La primera opción da una indicación clara de dirección ('go straight on and turn right'). Las otras solo expresan gustos u opiniones.",
+      "explanation": "«Go straight on and turn right at the traffic lights» responde indicando el camino. Las otras frases no dicen cómo llegar.",
       "hint": "Busca la opción que le ayude a saber hacia dónde caminar.",
       "lang": "en",
       "options": [

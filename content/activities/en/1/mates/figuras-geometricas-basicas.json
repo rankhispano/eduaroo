@@ -1,0 +1,213 @@
+{
+  "id": "g1-mates-figuras-geometricas-basicas",
+  "cursoId": "1",
+  "asignaturaId": "mates",
+  "temaId": "figuras-geometricas-basicas",
+  "temaNombre": "Basic shapes",
+  "title": "Discovering basic shapes",
+  "summary": "Recognise circles, triangles, squares and rectangles in everyday objects.",
+  "keyIdeas": [
+    "A circle is round and has no straight sides or corners.",
+    "A triangle has three straight sides and three corners.",
+    "Squares and rectangles have four straight sides and four corners."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 1,
+    "competencies": [
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sentido espacial › Figuras geométricas de dos y tres dimensiones",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-01",
+      "type": "choice",
+      "prompt": "Hugo sees a sign with three straight sides. What shape is it?",
+      "explanation": "A triangle has 3 straight sides and 3 corners.",
+      "hint": "Count the sides of the sign.",
+      "lang": "en",
+      "options": [
+        "Square",
+        "Triangle",
+        "Circle"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-02",
+      "type": "true-false",
+      "prompt": "A circle has four corners.",
+      "explanation": "A circle is a round, flat shape. Its curved edge is called the circumference. It has no corners.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about a square.",
+      "explanation": "A square always has four sides, all exactly the same length.",
+      "lang": "en",
+      "sentence": "A square has ___ equal sides.",
+      "options": [
+        "two",
+        "three",
+        "four"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-04",
+      "type": "match",
+      "prompt": "Match each object to its shape.",
+      "explanation": "Each object resembles a flat shape.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "A round coin",
+          "right": "Circle"
+        },
+        {
+          "left": "A square slice of bread",
+          "right": "Square"
+        },
+        {
+          "left": "A drawing of a rectangular door",
+          "right": "Rectangle"
+        },
+        {
+          "left": "A triangular piece of paper",
+          "right": "Triangle"
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-05",
+      "type": "classify",
+      "prompt": "Sort these shapes by their number of straight sides.",
+      "explanation": "Triangles have 3 sides. Squares and rectangles have 4 sides.",
+      "lang": "en",
+      "categories": [
+        "Has 3 sides",
+        "Has 4 sides"
+      ],
+      "items": [
+        {
+          "text": "Triangle",
+          "category": 0
+        },
+        {
+          "text": "Square",
+          "category": 1
+        },
+        {
+          "text": "Rectangle",
+          "category": 1
+        },
+        {
+          "text": "Triangular sign",
+          "category": 0
+        },
+        {
+          "text": "Rectangular book cover",
+          "category": 1
+        },
+        {
+          "text": "Drawing of a triangular roof",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-06",
+      "type": "choice",
+      "prompt": "Aisha draws two triangles. How many sides does she draw altogether?",
+      "explanation": "Each triangle has 3 sides. Add 3 + 3 = 6 sides altogether.",
+      "hint": "Add the 3 sides of each shape.",
+      "lang": "en",
+      "options": [
+        "5 sides",
+        "6 sides",
+        "8 sides"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-07",
+      "type": "choice",
+      "prompt": "Leo says that a circle has corners. What is his mistake?",
+      "explanation": "Circles are round and have no corners.",
+      "lang": "en",
+      "options": [
+        "A circle has three corners.",
+        "A circle has straight sides.",
+        "A circle has no corners."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-08",
+      "type": "order",
+      "prompt": "Put the shapes in order from fewest to most straight sides.",
+      "explanation": "A circle has 0 straight sides, a triangle has 3 and a square has 4.",
+      "lang": "en",
+      "items": [
+        "Circle",
+        "Triangle",
+        "Square"
+      ]
+    },
+    {
+      "id": "g1-mates-figuras-geometricas-basicas-09",
+      "type": "choice",
+      "prompt": "Omar draws a triangle and a square separately. How many straight sides do they have altogether?",
+      "explanation": "The triangle has 3 sides and the square has 4. That makes 3 + 4 = 7 sides.",
+      "hint": "Add 3 sides and 4 sides.",
+      "lang": "en",
+      "options": [
+        "8 sides",
+        "7 sides",
+        "6 sides"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T10:56:31.846Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:17:55.058Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "6e6c3e5cb0bdb527e20e61ed5ec62addc1b4ee06f6811f3ca0e89e40842f9a68",
+      "validation": "manual-review"
+    }
+  }
+}

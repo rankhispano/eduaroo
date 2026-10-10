@@ -1,0 +1,246 @@
+{
+  "id": "g3-sociales-comunidades-autonomas",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "comunidades-autonomas",
+  "temaNombre": "Autonomous communities",
+  "title": "Travelling through Spain's autonomous communities",
+  "summary": "Review how Spain is organised into autonomous communities, provinces and autonomous cities.",
+  "keyIdeas": [
+    "Spain has 17 autonomous communities and 2 autonomous cities: Ceuta and Melilla.",
+    "Each autonomous community has one or more provinces and its own governing institutions.",
+    "Each autonomous community has its own Statute of Autonomy, which sets out its basic rules, and governing institutions."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "5.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual",
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-comunidades-autonomas-01",
+      "type": "true-false",
+      "prompt": "Spain has 17 autonomous communities and 2 autonomous cities.",
+      "explanation": "Spain has 17 autonomous communities across the peninsula and islands, plus Ceuta and Melilla in North Africa.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-02",
+      "type": "choice",
+      "prompt": "Which are Spain's two autonomous cities in North Africa? 🌍",
+      "explanation": "Ceuta and Melilla are Spain's two cities in North Africa with their own statutes of autonomy.",
+      "hint": "Their names begin with C and M.",
+      "lang": "en",
+      "options": [
+        "Palma and Menorca",
+        "Santa Cruz and Ibiza",
+        "Ceuta and Melilla"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about each community's basic law.",
+      "explanation": "The Statute of Autonomy is an autonomous community's basic law, approved by Spain's national parliament, the Cortes Generales.",
+      "lang": "en",
+      "sentence": "An autonomous community's basic law is its ___ of Autonomy.",
+      "options": [
+        "Regulation",
+        "Statute",
+        "Treaty"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-04",
+      "type": "classify",
+      "prompt": "Sort these autonomous communities by whether they have one province or several.",
+      "explanation": "Some autonomous communities have just one province, such as Madrid or Asturias. Others have several, such as Andalucía with 8 or Galicia with 4.",
+      "lang": "en",
+      "categories": [
+        "Community with one province",
+        "Community with several provinces"
+      ],
+      "items": [
+        {
+          "text": "Community of Madrid",
+          "category": 0
+        },
+        {
+          "text": "Andalucía",
+          "category": 1
+        },
+        {
+          "text": "Principality of Asturias",
+          "category": 0
+        },
+        {
+          "text": "Galicia",
+          "category": 1
+        },
+        {
+          "text": "Region of Murcia",
+          "category": 0
+        },
+        {
+          "text": "Castilla y León",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-05",
+      "type": "match",
+      "prompt": "Match each autonomous community to its capital city.",
+      "explanation": "These cities are the capitals of the four communities shown. The locations of institutions can be organised differently in other communities.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Galicia",
+          "right": "Santiago de Compostela"
+        },
+        {
+          "left": "Andalucía",
+          "right": "Sevilla"
+        },
+        {
+          "left": "Catalonia",
+          "right": "Barcelona"
+        },
+        {
+          "left": "Aragón",
+          "right": "Zaragoza"
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-06",
+      "type": "choice",
+      "prompt": "In Social Sciences, Hugo and Aisha point to Spain's two main island groups on a map. Which are they? 🏝️",
+      "explanation": "Two Spanish autonomous communities are island groups: the Balearic Islands in the Mediterranean Sea and the Canary Islands in the Atlantic Ocean.",
+      "hint": "One is in the Mediterranean Sea and the other in the Atlantic Ocean.",
+      "lang": "en",
+      "options": [
+        "The Cíes Islands and the Medes Islands",
+        "The Balearic Islands and the Canary Islands",
+        "The Columbretes Islands and the Cíes Islands"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-07",
+      "type": "reading",
+      "prompt": "Read about Lucía's trip and answer the questions.",
+      "explanation": "Autonomous communities have different landscapes and numbers of provinces, but similar institutions for governing themselves.",
+      "lang": "en",
+      "title": "Lucía's exchange visit",
+      "text": "Lucía lives in Logroño, the capital of La Rioja, a small autonomous community with one province. Her school arranges a cultural exchange with a school in Mérida, the capital of Extremadura. Extremadura is in western Spain and has two large provinces: Cáceres and Badajoz. Lucía's grandfather explains that, although their landscapes differ, both communities are organised similarly. Each has its own parliament, regional president and Statute of Autonomy, and manages services such as schools and healthcare.",
+      "questions": [
+        {
+          "prompt": "How do La Rioja and Extremadura differ, according to the text?",
+          "explanation": "La Rioja has one province. Extremadura has two: Cáceres and Badajoz.",
+          "options": [
+            "La Rioja has one province and Extremadura has two",
+            "One has a Statute of Autonomy and the other does not",
+            "Only Extremadura has a regional president"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which governing institutions does each community have, according to the text?",
+          "explanation": "Lucía's grandfather explains that each community has its own parliament and president to govern its territory.",
+          "options": [
+            "They share the same schools and hospitals",
+            "Both cities have the same mayor",
+            "Each has its own parliament and regional president"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-08",
+      "type": "order",
+      "prompt": "Put these territorial levels in order from smallest to largest. 🗺️",
+      "explanation": "In this model, a municipality belongs to a province, and the province belongs to an autonomous community. A municipality and a town are not always the same thing.",
+      "lang": "en",
+      "items": [
+        "Municipality",
+        "Province",
+        "Autonomous community",
+        "Spanish state"
+      ]
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-09",
+      "type": "choice",
+      "prompt": "Nerea plans a route through Toledo, Madrid, Valladolid and Santander, in that order. Which autonomous communities does she visit?",
+      "explanation": "Toledo is in Castilla-La Mancha; Madrid is in the Community of Madrid; Valladolid is in Castilla y León; and Santander is in Cantabria.",
+      "hint": "Toledo is in central-southern Spain, and Santander is on the northern coast.",
+      "lang": "en",
+      "options": [
+        "Castilla-La Mancha, Community of Madrid, Castilla y León and Cantabria",
+        "Extremadura, Galicia and Asturias",
+        "Castilla-La Mancha, Cantabria and Andalucía"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-sociales-comunidades-autonomas-10",
+      "type": "choice",
+      "prompt": "Omar reads that the regional government will build a health centre in his neighbourhood. Which institution manages this service in his autonomous community? 🏥",
+      "explanation": "Autonomous communities manage important public services such as hospitals, health centres and schools.",
+      "hint": "This institution leads and manages the autonomous community.",
+      "lang": "en",
+      "options": [
+        "The regional government",
+        "Only the European Union",
+        "The neighbourhood court"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:55:02.946Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:26:24.408Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "419cc397e9eeba9d131085c015a4a94f6b8d116f59749de21f2da19ab6616ccc",
+      "validation": "manual-review"
+    }
+  }
+}

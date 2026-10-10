@@ -90,7 +90,7 @@
       "lang": "es",
       "items": [
         "Seleccionar las dos primeras cifras del dividendo (85).",
-        "Buscar qué número multiplicado por 24 se acerca a 85.",
+        "Buscar el mayor dígito cuyo producto por 24 no supere 85",
         "Restar el producto obtenido a 85 y comprobar el resto.",
         "Bajar la siguiente cifra (2) junto al resto.",
         "Dividir la nueva cantidad entre 24 para hallar la siguiente cifra."
@@ -107,7 +107,7 @@
     {
       "id": "g4-mates-division-por-dos-cifras-05",
       "type": "choice",
-      "prompt": "En el colegio hay 345 estudiantes. Viajan en autobuses de 45 plazas cada uno. ¿Cuántos autobuses completos se llenan y cuántos estudiantes van en el último?",
+      "prompt": "En el colegio hay 345 estudiantes. Viajan en autobuses de 45 plazas para estudiantes, además de las de los adultos. ¿Cuántos autobuses completos se llenan y cuántos estudiantes van en el último?",
       "explanation": "Hacemos 345 ÷ 45: 45 × 7 = 315. Restamos 345 - 315 = 30. Se llenan 7 autobuses y quedan 30 estudiantes para otro autobús.",
       "hint": "Calcula 345 ÷ 45 hallando cociente y resto.",
       "lang": "es",
@@ -200,7 +200,7 @@
     {
       "id": "g4-mates-division-por-dos-cifras-10",
       "type": "choice",
-      "prompt": "Aisha tiene 500 € para comprar entradas de teatro a 24 € cada una. Con el dinero que le sobra, compra un libro de 15 €. ¿Cuánto dinero le queda al final?",
+      "prompt": "Aisha tiene 500 € y compra el máximo número posible de entradas de teatro a 24 € cada una. Con el dinero que le sobra, compra un libro de 15 €. ¿Cuánto dinero le queda al final?",
       "explanation": "Dividimos 500 ÷ 24 = 20 entradas y sobran 20 € (24 × 20 = 480). Después, restamos el precio del libro: 20 - 15 = 5 €.",
       "hint": "Divide 500 entre 24 para saber cuánto dinero sobra antes de comprar el libro.",
       "lang": "es",

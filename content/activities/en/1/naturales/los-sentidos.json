@@ -1,0 +1,236 @@
+{
+  "id": "g1-naturales-los-sentidos",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "los-sentidos",
+  "temaNombre": "The senses",
+  "title": "Exploring with five senses",
+  "summary": "Review five senses, their body parts and how they help us learn about the world.",
+  "keyIdeas": [
+    "We study five senses: sight, hearing, smell, taste and touch.",
+    "Eyes, ears, nose, tongue and skin help gather information.",
+    "We feel touch through skin all over our body."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta",
+      "A. Cultura científica › Iniciación en la actividad científica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-los-sentidos-01",
+      "type": "match",
+      "prompt": "Match each sense to its body part.",
+      "explanation": "Eyes, ears, nose, tongue and skin gather different kinds of information.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Sight",
+          "right": "Eyes"
+        },
+        {
+          "left": "Hearing",
+          "right": "Ears"
+        },
+        {
+          "left": "Smell",
+          "right": "Nose"
+        },
+        {
+          "left": "Taste",
+          "right": "Tongue"
+        },
+        {
+          "left": "Touch",
+          "right": "Skin"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-los-sentidos-02",
+      "type": "true-false",
+      "prompt": "We feel touch through skin all over our body.",
+      "explanation": "Skin on different body parts can feel cold, warmth and gentle touch, not just our hands.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-naturales-los-sentidos-03",
+      "type": "choice",
+      "prompt": "Hugo hears the school bell. Which sense does he use?",
+      "explanation": "Hearing lets us notice sounds around us, such as the school bell.",
+      "hint": "We use it to listen to sounds.",
+      "lang": "en",
+      "options": [
+        "Smell",
+        "Sight",
+        "Hearing"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-los-sentidos-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct sense.",
+      "explanation": "Our nose helps us notice smells.",
+      "lang": "en",
+      "sentence": "Aisha smells a garden flower using her sense of ___.",
+      "options": [
+        "taste",
+        "smell",
+        "touch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-los-sentidos-05",
+      "type": "classify",
+      "prompt": "Sort these examples by the main sense used.",
+      "explanation": "We hear sounds with our ears and notice smells with our nose.",
+      "lang": "en",
+      "categories": [
+        "Noticed by hearing",
+        "Noticed by smell"
+      ],
+      "items": [
+        {
+          "text": "A referee's whistle",
+          "category": 0
+        },
+        {
+          "text": "A cake's aroma",
+          "category": 1
+        },
+        {
+          "text": "A cat's meow",
+          "category": 0
+        },
+        {
+          "text": "The smell of wet soil",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-los-sentidos-06",
+      "type": "choice",
+      "prompt": "Three friends talk about senses. Who makes a mistake?",
+      "explanation": "Omar is wrong. We feel touch through all our skin, not just our hands.",
+      "hint": "Think about which body parts have skin.",
+      "lang": "en",
+      "options": [
+        "Lucía: Our tongue helps us taste",
+        "Omar: We can only feel touch with our hands",
+        "Mateo: Our eyes help us see colours"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g1-naturales-los-sentidos-07",
+      "type": "choice",
+      "prompt": "Lucía eats an apple with her nose blocked. What will happen?",
+      "explanation": "Smell works with taste. With a blocked nose, flavours are harder to recognise.",
+      "hint": "Smell and taste work together.",
+      "lang": "en",
+      "options": [
+        "The apple's flavour will seem much weaker",
+        "The apple will suddenly change colour",
+        "Chewing will sound much louder"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-los-sentidos-08",
+      "type": "choice",
+      "prompt": "In the dark, Adrián feels two towels to find the dry one. Which sense does he use?",
+      "explanation": "Touch helps us notice whether something is dry, wet, smooth or rough.",
+      "lang": "en",
+      "options": [
+        "Touch",
+        "Sight",
+        "Taste"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-los-sentidos-09",
+      "type": "true-false",
+      "prompt": "Listening to very loud music helps care for our ears.",
+      "explanation": "Very loud sounds can damage hearing. Use a comfortable, low volume.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-naturales-los-sentidos-10",
+      "type": "reading",
+      "prompt": "Read about the walk and answer the questions.",
+      "explanation": "We can use our senses to explore and enjoy nature.",
+      "lang": "en",
+      "title": "A countryside walk",
+      "text": "Nerea and Wei walk in the countryside. Nerea hears birds singing. Wei smells flowers beside the path. Then Nerea strokes a soft dog. Wei tastes a delicious, sweet plum.",
+      "questions": [
+        {
+          "prompt": "Which sense does Nerea use to hear the birds?",
+          "explanation": "Nerea hears the birdsong with her sense of hearing.",
+          "options": [
+            "Taste",
+            "Sight",
+            "Hearing"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which sense tells Wei that the plum is sweet?",
+          "explanation": "Taste, using the tongue, helps us notice sweet, salty and sour flavours.",
+          "options": [
+            "Smell",
+            "Touch",
+            "Taste"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:29:15.579Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:46:38.799Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "8f8e7ebfbc568f59ec8f694eebbbb78ef2b6791420ae43f9512baba862735707",
+      "validation": "manual-review"
+    }
+  }
+}

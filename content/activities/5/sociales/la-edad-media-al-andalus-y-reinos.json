@@ -45,7 +45,7 @@
       "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-01",
       "type": "true-false",
       "prompt": "¿Es verdadera o falsa esta afirmación sobre la historia de la península ibérica? 🏰\n«La Edad Media comenzó en la península con la llegada de las tropas musulmanas en el año 711».",
-      "explanation": "La Edad Media comenzó en el año 476 con la caída del Imperio romano y la formación del reino visigodo. El año 711 marca el inicio de Al-Ándalus, pero la etapa medieval ya llevaba más de dos siglos desarrollándose.",
+      "explanation": "En la periodización habitual de la historia europea, se toma 476, caída del Imperio romano de Occidente, como inicio de la Edad Media. La llegada musulmana de 711 fue posterior.",
       "hint": "Piensa en qué pueblo gobernaba en la península antes del año 711.",
       "lang": "es",
       "answer": false
@@ -55,7 +55,7 @@
       "type": "fill-blank",
       "prompt": "Completa la frase con el término correcto sobre los grupos sociales medievales:",
       "explanation": "Los mozárabes conservaron su religión cristiana y sus leyes pagando un tributo especial a las autoridades musulmanas de Al-Ándalus.",
-      "hint": "Su nombre empieza por 'moz-' y convivieron pacíficamente durante siglos en ciudades como Córdoba y Toledo.",
+      "hint": "Su nombre empieza por «moz-»: eran comunidades cristianas bajo gobierno musulmán.",
       "lang": "es",
       "sentence": "Los ___ eran las personas cristianas que mantuvieron su fe y sus costumbres mientras vivían en territorio andalusí bajo gobierno musulmán.",
       "options": [
@@ -83,7 +83,7 @@
       "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-04",
       "type": "classify",
       "prompt": "Clasifica cada elemento según fuera representativo de la vida en Al-Ándalus o en los reinos cristianos medievales:",
-      "explanation": "Las ciudades andalusíes destacaban por su vibrante vida urbana con zocos, mezquitas y baños públicos, mientras que en los reinos cristianos la vida rural y defensiva se organizaba en torno a castillos feudales, monasterios y más tarde catedrales.",
+      "explanation": "Estos ejemplos muestran lugares representativos de ambos ámbitos. También existían ciudades y fortalezas tanto en Al-Ándalus como en los reinos cristianos.",
       "lang": "es",
       "categories": [
         "Al-Ándalus",
@@ -103,7 +103,7 @@
           "category": 0
         },
         {
-          "text": "Castillo feudal de un noble con muralla y torre del homenaje",
+          "text": "Catedral románica en el Camino de Santiago",
           "category": 1
         },
         {
@@ -120,7 +120,7 @@
       "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-05",
       "type": "order",
       "prompt": "Ordena cronológicamente estas etapas políticas de Al-Ándalus, desde la más antigua (arriba) hasta la más reciente (abajo):",
-      "explanation": "Al-Ándalus comenzó siendo una provincia dependiente de Damasco, luego se convirtió en un califato poderoso, más tarde se fragmentó en reinos de taifas y finalmente sobrevivió únicamente el Reino Nazarí de Granada hasta su rendición en 1492.",
+      "explanation": "Estas son algunas etapas seleccionadas: hubo además un emirato independiente y períodos almorávides y almohades. Las etapas se sucedieron hasta el final del reino nazarí en 1492.",
       "lang": "es",
       "items": [
         "Emirato dependiente del califa de Damasco",
@@ -138,7 +138,7 @@
       "pairs": [
         {
           "left": "Lubna de Córdoba",
-          "right": "Sabia andalusí, matemática y responsable de la gran biblioteca califal"
+          "right": "Mujer instruida vinculada a la corte del califato de Córdoba"
         },
         {
           "left": "Alfonso X el Sabio",
@@ -234,7 +234,7 @@
       "id": "g5-sociales-la-edad-media-al-andalus-y-reinos-10",
       "type": "choice",
       "prompt": "Hugo y Martina preparan en el colegio un cartel sobre las palabras que usamos a diario. Al buscar en el diccionario, comprueban que términos como alcachofa, aceite, zanahoria, noria, álgebra y almacén proceden del árabe andalusí. 🌿\n¿Qué nos demuestra este hecho sobre la historia de nuestro país?",
-      "explanation": "El castellano contiene más de cuatro mil palabras de origen árabe debido a los casi ochocientos años de convivencia e intercambio cultural, agrícola y comercial en la península ibérica.",
+      "explanation": "Muchas palabras del castellano tienen origen árabe y muestran la huella de siglos de presencia andalusí e intercambios culturales.",
       "hint": "Reflexiona sobre cómo influyen tantos siglos de convivencia en la lengua que hablamos hoy.",
       "lang": "es",
       "options": [

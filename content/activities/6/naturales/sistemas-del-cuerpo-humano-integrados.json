@@ -61,7 +61,7 @@
       "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-02",
       "type": "match",
       "prompt": "Relaciona cada sistema con su papel fundamental en la nutrición:",
-      "explanation": "Cada sistema tiene una tarea especializada que encaja con las demás para que el cuerpo obtenga energía y se mantenga limpio de toxinas.",
+      "explanation": "Los aparatos colaboran para obtener y transportar nutrientes y oxígeno, y eliminar sustancias de desecho.",
       "lang": "es",
       "pairs": [
         {
@@ -95,7 +95,7 @@
       "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-04",
       "type": "choice",
       "prompt": "Durante la clase de Educación Física, Hugo hace una carrera de velocidad. Al terminar, nota que su corazón late muy deprisa y su respiración se acelera. ¿Por qué ocurre esta respuesta coordinada? 🏃‍♂️",
-      "explanation": "Al aumentar el esfuerzo muscular, las células demandan más combustible (oxígeno y glucosa). Por eso, el corazón y los pulmones aceleran su ritmo a la vez.",
+      "explanation": "Durante el esfuerzo, los músculos necesitan más nutrientes y oxígeno para obtener energía. La respiración y el pulso suelen acelerarse.",
       "hint": "Piensa en qué necesitan los músculos cuando trabajan intensamente.",
       "lang": "es",
       "options": [
@@ -165,7 +165,7 @@
       "explanation": "La lectura demuestra que todos los sistemas de la nutrición dependen unos de otros para que el cuerpo funcione correctamente.",
       "lang": "es",
       "title": "Un trabajo en equipo invisible",
-      "text": "Imagina que acabas de merendar una manzana y sales al parque a jugar al baloncesto. Mientras masticas, tu aparato digestivo empieza a descomponer la fruta en glucosa y otros nutrientes. Estos nutrientes atraviesan la pared del intestino delgado y pasan a los capilares sanguíneos. Casi al mismo tiempo, al correr tras el balón, tus pulmones inspiran con más intensidad. En los alvéolos, el oxígeno del aire pasa también a la sangre. El corazón bombea con fuerza para repartir la glucosa y el oxígeno a las células de tus músculos. En el interior de las células, ambos elementos se combinan para liberar la energía que te permite saltar y encestar. Como resultado de esta actividad, se producen desechos como dióxido de carbono y urea. La sangre recoge estos residuos y los lleva a los pulmones y a los riñones para expulsarlos. ¡Tu cuerpo funciona como una orquesta perfectamente afinada!",
+      "text": "Imagina que acabas de merendar una manzana y sales al parque a jugar al baloncesto. Mientras masticas, tu aparato digestivo empieza a descomponer la fruta en glucosa y otros nutrientes. Estos nutrientes atraviesan la pared del intestino delgado y pasan a los capilares sanguíneos. Casi al mismo tiempo, al correr tras el balón, tus pulmones inspiran con más intensidad. En los alvéolos, el oxígeno del aire pasa también a la sangre. El corazón bombea con fuerza para repartir la glucosa y el oxígeno a las células de tus músculos. En el interior de las células, ambos elementos se combinan para liberar la energía que te permite saltar y encestar. El funcionamiento del organismo también genera desechos: la respiración celular produce dióxido de carbono y el procesamiento de proteínas genera urea. La sangre recoge estos residuos y los lleva a los pulmones y a los riñones para expulsarlos. ¡Tu cuerpo funciona como una orquesta perfectamente afinada!",
       "questions": [
         {
           "prompt": "¿A través de qué estructura pasan los nutrientes de la manzana a la sangre?",
@@ -178,7 +178,7 @@
           "answer": 1
         },
         {
-          "prompt": "¿Qué consecuencia inmediata tendría para los músculos que el corazón dejara de bombear con la fuerza adecuada durante el partido?",
+          "prompt": "¿Qué ocurriría si los músculos recibieran menos oxígeno y nutrientes durante el partido?",
           "explanation": "Sin un bombeo sanguíneo eficaz, las células musculares se quedan sin el suministro continuo de oxígeno y nutrientes que necesitan para rendir.",
           "options": [
             "El aparato digestivo absorbería la comida el doble de rápido para compensar.",
@@ -216,7 +216,7 @@
     {
       "id": "g6-naturales-sistemas-del-cuerpo-humano-integrados-09",
       "type": "choice",
-      "prompt": "Las células generan sustancias tóxicas como la urea al realizar sus funciones. ¿Cómo colaboran el aparato circulatorio y el aparato excretor para proteger el cuerpo?",
+      "prompt": "El organismo produce sustancias de desecho como la urea. ¿Cómo colaboran los aparatos circulatorio y excretor para eliminarlas?",
       "explanation": "La sangre recoge las sustancias de desecho de todo el cuerpo y las conduce a los riñones; allí la sangre se filtra continuamente y los desechos se eliminan con la orina.",
       "hint": "Piensa en la sangre como un camión de limpieza y en los riñones como la planta de reciclaje y filtrado.",
       "lang": "es",

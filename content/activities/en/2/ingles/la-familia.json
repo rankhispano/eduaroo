@@ -1,0 +1,247 @@
+{
+  "id": "g2-ingles-la-familia",
+  "cursoId": "2",
+  "asignaturaId": "ingles",
+  "temaId": "la-familia",
+  "temaNombre": "The family",
+  "title": "My Family: Meet the Family!",
+  "summary": "Practise family words in English and learn to introduce family members.",
+  "keyIdeas": [
+    "Use 'This is my...' to introduce someone: 'This is my mum'.",
+    "In these examples, use 'he' for brother, dad and grandpa, and 'she' for sister, mum and grandma.",
+    "'Dad' and 'father' mean papá/padre in Spanish. 'Mum' and 'mother' mean mamá/madre."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 1,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-ingles-la-familia-01",
+      "type": "match",
+      "prompt": "Match each English word to its Spanish meaning.",
+      "explanation": "Mum means mamá, dad means papá, brother means hermano and sister means hermana in Spanish.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Mum",
+          "right": "Mamá"
+        },
+        {
+          "left": "Dad",
+          "right": "Papá"
+        },
+        {
+          "left": "Brother",
+          "right": "Hermano"
+        },
+        {
+          "left": "Sister",
+          "right": "Hermana"
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-la-familia-02",
+      "type": "choice",
+      "prompt": "Hugo introduces his mother at school. Which word is missing? 'This is my ___.'",
+      "explanation": "Hugo calls his mother 'mum'. 'Brother' is a sibling and 'dad' is a father.",
+      "hint": "Think of another word for mother.",
+      "lang": "en",
+      "options": [
+        "dad",
+        "brother",
+        "mum"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-la-familia-03",
+      "type": "true-false",
+      "prompt": "A brother is a boy or a man.",
+      "explanation": "True. A brother can be a boy or an adult man.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g2-ingles-la-familia-04",
+      "type": "fill-blank",
+      "prompt": "Aisha shows a photo of her father. Complete the sentence.",
+      "explanation": "Aisha introduces her father by saying, 'This is my dad'. A sister is a sibling and a grandma is a grandmother.",
+      "hint": "Find the word for father.",
+      "lang": "en",
+      "sentence": "This is my ___.",
+      "options": [
+        "grandma",
+        "sister",
+        "dad"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g2-ingles-la-familia-05",
+      "type": "classify",
+      "prompt": "Sort these family words by the pronoun used in these examples: he or she.",
+      "explanation": "These examples use 'he' for brother, dad and grandpa, and 'she' for sister, grandma and mum.",
+      "lang": "en",
+      "categories": [
+        "He (Boy or Man)",
+        "She (Girl or Woman)"
+      ],
+      "items": [
+        {
+          "text": "Brother",
+          "category": 0
+        },
+        {
+          "text": "Sister",
+          "category": 1
+        },
+        {
+          "text": "Dad",
+          "category": 0
+        },
+        {
+          "text": "Grandma",
+          "category": 1
+        },
+        {
+          "text": "Grandpa",
+          "category": 0
+        },
+        {
+          "text": "Mum",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-la-familia-06",
+      "type": "choice",
+      "prompt": "Wei says, 'Meet my baby sister!' Who is Wei talking about?",
+      "explanation": "A baby sister is a very young sister.",
+      "hint": "'Baby' tells us she is very young; 'sister' tells us the family relationship.",
+      "lang": "en",
+      "options": [
+        "His little sister.",
+        "His grandfather.",
+        "His older brother."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-la-familia-07",
+      "type": "fill-blank",
+      "prompt": "Choose the correct word to introduce Adrián.",
+      "explanation": "In this example, we use 'he' for Adrián, who is a boy.",
+      "hint": "Adrián is a boy in this example.",
+      "lang": "en",
+      "sentence": "Look at Adrián! ___ is my brother.",
+      "options": [
+        "He",
+        "She",
+        "I"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g2-ingles-la-familia-08",
+      "type": "order",
+      "prompt": "Put the words in order to make a correct sentence.",
+      "explanation": "The sentence is, 'This is my grandma'.",
+      "lang": "en",
+      "items": [
+        "This",
+        "is",
+        "my",
+        "grandma."
+      ]
+    },
+    {
+      "id": "g2-ingles-la-familia-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "Martina introduces her family: her dad Leo, mum Sara and brother Lucas.",
+      "lang": "en",
+      "title": "Martina's Family",
+      "text": "Hello! I am Martina. This is my family. My dad is Leo. My mum is Sara. I have one brother. His name is Lucas. I love my family!",
+      "questions": [
+        {
+          "prompt": "Who is Lucas?",
+          "explanation": "Martina says, 'I have one brother. His name is Lucas'.",
+          "options": [
+            "Martina's brother",
+            "Martina's dad",
+            "Martina's grandpa"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Who is Sara?",
+          "explanation": "The text says, 'My mum is Sara'.",
+          "options": [
+            "Martina's brother",
+            "Martina's sister",
+            "Martina's mum"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g2-ingles-la-familia-10",
+      "type": "choice",
+      "prompt": "Omar draws his family tree and points to his father's father. Who is this?",
+      "explanation": "Your father's father, or your mother's father, is your grandfather. You can also say 'grandpa'.",
+      "hint": "Your father's father is your...",
+      "lang": "en",
+      "options": [
+        "His mother",
+        "His brother",
+        "His grandfather"
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:59:43.510Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:22:32.088Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "206f817554783d68ee9660d56269d6adc47e97e8d1d380480a95b22cb0c6ffcf",
+      "validation": "manual-review"
+    }
+  }
+}

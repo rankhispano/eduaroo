@@ -46,8 +46,8 @@
     {
       "id": "g3-naturales-el-ciclo-del-agua-01",
       "type": "true-false",
-      "prompt": "El agua de nuestro planeta siempre es la misma y se mueve en un ciclo continuo sin fin.",
-      "explanation": "El agua nunca se destruye. Cambia continuamente de estado y de lugar viajando por todo el planeta.",
+      "prompt": "En el ciclo del agua, el agua cambia de estado y de lugar continuamente.",
+      "explanation": "El agua circula entre mares, aire, suelo y seres vivos. Puede estar líquida, sólida o como vapor.",
       "lang": "es",
       "answer": true
     },
@@ -105,7 +105,7 @@
       "id": "g3-naturales-el-ciclo-del-agua-05",
       "type": "order",
       "prompt": "Ordena el viaje de una gota de agua desde el mar hasta su regreso.",
-      "explanation": "El ciclo comienza con la evaporación, continúa con la condensación y la precipitación, y termina volviendo al mar.",
+      "explanation": "Esta secuencia sigue una gota desde el mar y de vuelta a él. El ciclo es continuo y no tiene un único principio o final.",
       "lang": "es",
       "items": [
         "El Sol calienta el mar y el agua líquida se evapora.",
@@ -186,21 +186,21 @@
       "explanation": "El agua subterránea es una parte esencial del ciclo del agua y debemos protegerla de la contaminación.",
       "lang": "es",
       "title": "El viaje bajo tierra",
-      "text": "Adrián y Nerea visitaron una cueva durante una excursión con el colegio. El guía les explicó que el agua de lluvia no solo viaja por ríos y lagos. Una gran parte de la lluvia se cuela lentamente a través de la tierra y las rocas. Este proceso se llama filtración. Bajo nuestros pies, el agua subterránea viaja despacio y llena depósitos naturales llamados acuíferos. Muchas personas de pueblos y campos obtienen agua potable limpia de estos pozos subterráneos. Con el tiempo, gran parte de esta agua vuelve a brotar en manantiales o llega al mar, continuando su viaje sin descanso.",
+      "text": "Adrián y Nerea visitaron una cueva durante una excursión con el colegio. El guía les explicó que el agua de lluvia no solo viaja por ríos y lagos. Una gran parte de la lluvia se cuela lentamente a través de la tierra y las rocas. Este proceso se llama infiltración. Bajo nuestros pies, el agua subterránea viaja despacio y se almacena en los poros y grietas de capas de terreno llamadas acuíferos. Muchas personas de pueblos y campos obtienen agua de pozos, que debe comprobarse y tratarse si hace falta antes de beberla. Con el tiempo, gran parte de esta agua vuelve a brotar en manantiales o llega al mar, continuando su viaje sin descanso.",
       "questions": [
         {
           "prompt": "¿Cómo se llama el proceso por el que el agua de lluvia penetra en la tierra?",
-          "explanation": "El texto explica claramente que cuando el agua se cuela entre la tierra y las rocas ocurre la filtración.",
+          "explanation": "La infiltración es la entrada de agua en el suelo.",
           "options": [
             "Ebullición",
-            "Filtración",
+            "Infiltración",
             "Evaporación"
           ],
           "answer": 1
         },
         {
           "prompt": "¿Por qué es importante evitar contaminar el suelo de nuestros campos?",
-          "explanation": "El agua se filtra hasta los acuíferos subterráneos. Si el suelo está contaminado, esa agua potable también se ensuciará.",
+          "explanation": "Los contaminantes del suelo pueden llegar al agua de los acuíferos. El agua de un pozo no es siempre potable.",
           "options": [
             "Porque las sustancias contaminantes pueden filtrarse y ensuciar el agua de los acuíferos.",
             "Porque la lluvia dejaría de caer para siempre sobre la tierra.",
@@ -213,9 +213,9 @@
     {
       "id": "g3-naturales-el-ciclo-del-agua-10",
       "type": "choice",
-      "prompt": "Lucía observa un charco en el recreo de las nueve. A las dos de la tarde el charco se ha secado. ¿Qué le ha ocurrido al agua?",
+      "prompt": "Un charco sobre un suelo impermeable se seca durante una mañana soleada. ¿Qué proceso explica esa pérdida de agua?",
       "explanation": "El calor del ambiente hace que el agua líquida pase a vapor de agua invisible, continuando su ciclo en el aire.",
-      "hint": "El agua nunca desaparece, solo cambia de estado o lugar.",
+      "hint": "Recuerda el paso de agua líquida a vapor.",
       "lang": "es",
       "options": [
         "Se ha evaporado por el calor y ahora flota en el aire en forma de vapor.",

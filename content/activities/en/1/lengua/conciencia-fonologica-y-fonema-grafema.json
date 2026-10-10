@@ -1,0 +1,252 @@
+{
+  "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema",
+  "cursoId": "1",
+  "asignaturaId": "lengua",
+  "temaId": "conciencia-fonologica-y-fonema-grafema",
+  "temaNombre": "Spanish sounds and letters",
+  "title": "Playing with sounds and letters",
+  "summary": "Practise the sounds in Spanish words and the letters that represent them.",
+  "keyIdeas": [
+    "Spanish letters represent sounds. Some letters can represent different sounds, and h is silent.",
+    "Words are made by joining sounds in an order.",
+    "Changing a sound can make another Spanish word: pata and gata."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-01",
+      "type": "choice",
+      "prompt": "Lucía plays at break time. Which Spanish word starts with the sound /p/?",
+      "explanation": "Pelota begins with p, representing /p/. Mesa begins with /m/, and gato with /g/.",
+      "hint": "Put your lips together before saying the first sound.",
+      "lang": "en",
+      "options": [
+        "Pelota",
+        "Gato",
+        "Mesa"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-02",
+      "type": "true-false",
+      "prompt": "The Spanish word «sol» has three sounds: /s/, /o/, /l/.",
+      "explanation": "True. We say /s/, then /o/, then /l/.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-03",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish word with its first sound's letter.",
+      "explanation": "The word is gato. It starts with g, representing /g/.",
+      "lang": "en",
+      "sentence": "El animal que dice miau es el ___ato.",
+      "options": [
+        "r",
+        "p",
+        "g"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-04",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by their final sound.",
+      "explanation": "Casa, luna and pera end in /a/. Sapo, pato and barco end in /o/.",
+      "lang": "en",
+      "categories": [
+        "Ends in /a/",
+        "Ends in /o/"
+      ],
+      "items": [
+        {
+          "text": "casa",
+          "category": 0
+        },
+        {
+          "text": "sapo",
+          "category": 1
+        },
+        {
+          "text": "luna",
+          "category": 0
+        },
+        {
+          "text": "pato",
+          "category": 1
+        },
+        {
+          "text": "pera",
+          "category": 0
+        },
+        {
+          "text": "barco",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-05",
+      "type": "match",
+      "prompt": "Match each Spanish word to its first letter.",
+      "explanation": "Sopa starts with S, Luna with L, Mano with M, and Tomate with T.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Sopa",
+          "right": "S"
+        },
+        {
+          "left": "Luna",
+          "right": "L"
+        },
+        {
+          "left": "Mano",
+          "right": "M"
+        },
+        {
+          "left": "Tomate",
+          "right": "T"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-06",
+      "type": "order",
+      "prompt": "Put the sounds in order to form the Spanish word «pan».",
+      "explanation": "Pan has three sounds: /p/, /a/ and /n/.",
+      "lang": "en",
+      "items": [
+        "/p/",
+        "/a/",
+        "/n/"
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-07",
+      "type": "choice",
+      "prompt": "Find the Spanish sentence with a word misspelt by changing a sound.",
+      "explanation": "The fruit is called pera and starts with /p/. Writing bera with b changes the sound and is a spelling mistake.",
+      "hint": "Look at the word for the juicy green fruit.",
+      "lang": "en",
+      "options": [
+        "Hugo come una bera dulce.",
+        "Hugo come una pera dulce.",
+        "Hugo come una manzana dulce."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-08",
+      "type": "choice",
+      "prompt": "Aisha slowly counts the sounds in the Spanish word «mesa». How many are there?",
+      "explanation": "Mesa has 4 sounds: /m/, /e/, /s/ and /a/.",
+      "hint": "Separate each sound: m-e-s-a.",
+      "lang": "en",
+      "options": [
+        "Three sounds",
+        "Four sounds",
+        "Two sounds"
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-09",
+      "type": "reading",
+      "prompt": "Read the Spanish text carefully and answer the questions.",
+      "explanation": "Noticing sounds at the start and end of words helps us read.",
+      "lang": "en",
+      "title": "El perro de Mateo",
+      "text": "El perro de Mateo se llama Tobi.\nTobi corre por el jardín.\nLe gusta jugar con una pelota.\nMateo silba y Tobi viene.",
+      "questions": [
+        {
+          "prompt": "Which word in the text starts with /p/?",
+          "explanation": "Pelota and perro start with p, representing /p/.",
+          "options": [
+            "Pelota",
+            "Tobi",
+            "Jardín"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which word in the text ends in /o/?",
+          "explanation": "Mateo ends in o, representing /o/. Jardín ends in /n/, and viene in /e/.",
+          "options": [
+            "Mateo",
+            "Jardín",
+            "Viene"
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g1-lengua-conciencia-fonologica-y-fonema-grafema-10",
+      "type": "fill-blank",
+      "prompt": "Change the first sound of «pata» to form the Spanish name for another animal.",
+      "explanation": "Changing /p/ to /g/ makes gata, the Spanish word for a female cat.",
+      "lang": "en",
+      "sentence": "La ___ata maúlla en el tejado.",
+      "options": [
+        "g",
+        "m",
+        "b"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T12:22:29.049Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:07:37.017Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "fc444da26eb13a55aa58371fb21d0e3bfa605bc35bb510e6846e9e5461a5da8c",
+      "validation": "manual-review"
+    }
+  }
+}

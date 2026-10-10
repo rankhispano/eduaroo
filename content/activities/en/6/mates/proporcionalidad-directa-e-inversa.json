@@ -1,0 +1,210 @@
+{
+  "id": "g6-mates-proporcionalidad-directa-e-inversa",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "proporcionalidad-directa-e-inversa",
+  "temaNombre": "Direct and Inverse Proportion",
+  "title": "Proportion in Everyday Life",
+  "summary": "Identify and solve problems involving direct and inverse proportion. These Spanish-curriculum exercises use decimal commas and dots for thousands: 1.500 means fifteen hundred.",
+  "keyIdeas": [
+    "In direct proportion, multiplying one quantity by a positive factor multiplies the other by the same factor.",
+    "In inverse proportion, multiplying one quantity by a positive factor divides the other by that factor.",
+    "Some everyday relationships are not proportional, such as age and height."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.2",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Razonamiento proporcional",
+      "A. Sentido numérico › Sentido de las operaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-01",
+      "type": "classify",
+      "prompt": "Sort each pair of quantities by its relationship.",
+      "explanation": "Direct proportion uses the same multiplicative factor for both quantities. In inverse proportion, multiplying one divides the other by that factor. Without a constant ratio or product, the relationship is not proportional.",
+      "lang": "en",
+      "categories": [
+        "Direct proportion",
+        "Inverse proportion",
+        "Not proportional"
+      ],
+      "items": [
+        {
+          "text": "Kilograms of apples and total price, at a fixed price per kilogram",
+          "category": 0
+        },
+        {
+          "text": "Constant speed and time to cover the same distance",
+          "category": 1
+        },
+        {
+          "text": "A person's age and height in centimetres",
+          "category": 2
+        },
+        {
+          "text": "Number of painters and hours for the same wall, with equal productivity and work that can be shared",
+          "category": 1
+        },
+        {
+          "text": "Number of notebooks and total cost, at a fixed price per notebook",
+          "category": 0
+        },
+        {
+          "text": "Shoe size and an exam mark",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-02",
+      "type": "true-false",
+      "prompt": "If 3 identical taps fill a tank in 6 hours, 6 taps will take 12 hours, assuming the same constant flow per tap.",
+      "explanation": "False. This model is inverse proportion. Twice as many taps take half as long: 6 ÷ 2 = 3 hours.",
+      "hint": "Would more taps make filling the tank take longer or less time?",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-03",
+      "type": "choice",
+      "prompt": "At a fixed price per kilogram, 4 kg of oranges cost 6 €. What do 10 kg cost?",
+      "explanation": "One kilogram costs 6 ÷ 4 = 1,50 €. Then 10 kg cost 1,50 × 10 = 15 €.",
+      "hint": "Find the price of one kilogram first.",
+      "lang": "en",
+      "options": [
+        "15 €",
+        "12 €",
+        "14 €",
+        "24 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about inverse proportion.",
+      "explanation": "In inverse proportion, the product stays constant: for example, 2 workers × 6 hours = 12 worker-hours, and 4 workers × 3 hours = 12 worker-hours. In direct proportion, the ratio stays constant.",
+      "hint": "Which operation keeps the same result: multiplying or dividing the paired values?",
+      "lang": "en",
+      "sentence": "In an inverse proportion relationship, the ___ of the two quantities stays constant.",
+      "options": [
+        "sum",
+        "quotient",
+        "product"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-05",
+      "type": "choice",
+      "prompt": "Mental maths: a machine bottles 120 juices in 2 minutes. How many does it bottle in 5 minutes at the same rate?",
+      "explanation": "It bottles 120 ÷ 2 = 60 per minute, so in 5 minutes it bottles 60 × 5 = 300.",
+      "hint": "Find the output in one minute.",
+      "lang": "en",
+      "options": [
+        "240 juices",
+        "300 juices",
+        "250 juices",
+        "360 juices"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-06",
+      "type": "choice",
+      "prompt": "Find the mistake! With equal productivity and work that can be shared, 4 builders take 9 days to build a fence. Lucas says 6 builders take (6 × 9) ÷ 4 = 13,5 days. What went wrong?",
+      "explanation": "In this model, the work takes 4 × 9 = 36 worker-days. Six builders take 36 ÷ 6 = 6 days. Real building work may involve other conditions.",
+      "hint": "Would more people take longer to do the same shared work under these assumptions?",
+      "lang": "en",
+      "options": [
+        "He should add 4 + 6 before finding the average days.",
+        "Builders always take three times as long on any project.",
+        "His multiplication is wrong: 6 × 9 is not 54.",
+        "He used direct proportion instead of inverse proportion: more builders take fewer days in this model."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-07",
+      "type": "order",
+      "prompt": "Put the unitary-method steps for direct proportion in order, for example finding the price of 7 notebooks from the price of 3.",
+      "explanation": "Check the relationship, divide to find one unit's value, multiply for the required quantity and check the result.",
+      "lang": "en",
+      "items": [
+        "Identify the quantities and check that the relationship is direct proportion.",
+        "Divide the known total by its number of units to find one unit's value.",
+        "Multiply that value by the new number of units required.",
+        "Check that the answer is in a sensible proportion to the starting value."
+      ]
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-08",
+      "type": "choice",
+      "prompt": "For a Year 6 trip, hiring a bus costs 12 € each if 30 pupils share it. Only 20 pupils join, and they must share the same whole hire cost. What does each pay?",
+      "explanation": "The hire costs 30 × 12 = 360 €. Shared by 20 pupils, it costs 360 ÷ 20 = 18 € each. Fewer pupils pay more each: inverse proportion.",
+      "hint": "Find the total hire cost first.",
+      "lang": "en",
+      "options": [
+        "18 €",
+        "15 €",
+        "8 €",
+        "24 €"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-proporcionalidad-directa-e-inversa-09",
+      "type": "choice",
+      "prompt": "Aisha and Mateo make lemonade. For 8 glasses, the recipe uses 600 ml of water and 150 ml of lemon juice. What amounts make 20 glasses with the same mixture?",
+      "explanation": "For one glass, use 75 ml of water and 18,75 ml of lemon juice. Multiply by 20: 1.500 ml and 375 ml. Alternatively, multiply both original amounts by 20 ÷ 8 = 2,5.",
+      "hint": "Find the amounts for one glass, or the factor that scales 8 glasses to 20.",
+      "lang": "en",
+      "options": [
+        "1.500 ml of water and 375 ml of lemon juice",
+        "1.200 ml of water and 300 ml of lemon juice",
+        "1.800 ml of water and 450 ml of lemon juice",
+        "1.500 ml of water and 300 ml of lemon juice"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:26:56.245Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:34:40.553Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "138b35c509e161f6be9844e197ca64d2e9b3fc198423fcf683ca752424abef53",
+      "validation": "manual-review"
+    }
+  }
+}

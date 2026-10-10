@@ -1,0 +1,267 @@
+{
+  "id": "g6-ingles-la-voz-pasiva",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "la-voz-pasiva",
+  "temaNombre": "The Passive Voice",
+  "title": "Passive Voice: Guided Extension",
+  "summary": "Use models and support to recognise sentences that focus on what happens to an object.",
+  "keyIdeas": [
+    "Guided extension model: Martina paints the mural. → The mural is painted by Martina.",
+    "Use to be and a past participle: is painted in the present and was painted in the past. Check the models before answering.",
+    "In these examples, by introduces the person doing the action: by Martina."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE3",
+      "CP1",
+      "CP2",
+      "CPSAA1",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación",
+      "B. Plurilingüismo"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-la-voz-pasiva-01",
+      "type": "choice",
+      "prompt": "Follow the model 'Paper is collected'. Complete: Plastic bottles ___ in our school packaging bins.",
+      "explanation": "Bottles is plural, so use are collected. Bottles are collected in the bins; the material is recycled later at a recycling facility.",
+      "hint": "Is the subject singular or plural?",
+      "lang": "en",
+      "options": [
+        "collects",
+        "are collected",
+        "is collected",
+        "are collecting"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-02",
+      "type": "true-false",
+      "prompt": "Read the sentence: 'The museum was opened in 1995.' This sentence is written in the passive voice.",
+      "explanation": "True. Was is a past form of to be and opened is a past participle. The sentence focuses on the museum rather than who opened it.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct auxiliary verb in the past passive.",
+      "explanation": "This science project is singular, so use was. Yesterday tells us the action happened in the past.",
+      "hint": "Project is singular and the action happened in the past.",
+      "lang": "en",
+      "sentence": "This science project ___ finished yesterday by Aisha and Wei.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-04",
+      "type": "match",
+      "prompt": "Match each base verb to the past participle used in the passive voice.",
+      "explanation": "The passive uses a past participle. Written, built and made are irregular; painted is regular.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "write",
+          "right": "written"
+        },
+        {
+          "left": "build",
+          "right": "built"
+        },
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "paint",
+          "right": "painted"
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-05",
+      "type": "classify",
+      "prompt": "Sort these sentences into active or passive voice.",
+      "explanation": "In these active sentences, the subject does the action. In the passive sentences, the subject receives the action, with to be and a past participle.",
+      "lang": "en",
+      "categories": [
+        "Active voice",
+        "Passive voice"
+      ],
+      "items": [
+        {
+          "text": "Martina paints a colourful mural.",
+          "category": 0
+        },
+        {
+          "text": "The mural is painted by Martina.",
+          "category": 1
+        },
+        {
+          "text": "Omar repaired the broken bicycle.",
+          "category": 0
+        },
+        {
+          "text": "The bicycle was repaired by Omar.",
+          "category": 1
+        },
+        {
+          "text": "The students collected the rubbish.",
+          "category": 0
+        },
+        {
+          "text": "The rubbish was collected by the students.",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-06",
+      "type": "choice",
+      "prompt": "Which preposition introduces the writer in this passive sentence? 'Harry Potter was written ___ J.K. Rowling.'",
+      "explanation": "By introduces the person who did the action: written by J.K. Rowling.",
+      "hint": "Here it has the same meaning as the Spanish word «por».",
+      "lang": "en",
+      "options": [
+        "from",
+        "with",
+        "for",
+        "by"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-07",
+      "type": "order",
+      "prompt": "Put the words in order to make a sentence in the past passive.",
+      "explanation": "The order is the subject (the new computers), a past form of to be (were), the participle (installed), then the time word (today).",
+      "lang": "en",
+      "items": [
+        "The",
+        "new",
+        "computers",
+        "were",
+        "installed",
+        "today."
+      ]
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-08",
+      "type": "fill-blank",
+      "prompt": "Choose the correct past passive form for this environmental action.",
+      "explanation": "Hundreds of young trees is plural and last spring refers to the past, so use were.",
+      "hint": "Trees is plural.",
+      "lang": "en",
+      "sentence": "Hundreds of young trees ___ planted in the municipal park last spring.",
+      "options": [
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-09",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "This fictional story includes passive models such as was designed and are harvested.",
+      "lang": "en",
+      "title": "The Eco-Garden Project",
+      "text": "Last term, an exciting project was started at Greenfield Primary School. A new community garden was designed by students and teachers in an empty area behind the school gym. First, the old rubbish was cleaned up by family volunteers on a sunny Saturday. Then, wooden plant beds were built by the Year 6 pupils with adult help, using reused wood from old desks. Organic seeds of tomatoes, carrots and strawberries were planted carefully in the rich soil. Every morning, the young plants are watered by the eco-team monitors before classes begin. Last week, small solar lights were also installed to keep the garden bright at night. Now, fresh vegetables and fruits are harvested every Friday, and they are prepared in delicious salads for the school canteen. The headteacher explained that when nature is protected, our whole community becomes happier and healthier.",
+      "questions": [
+        {
+          "prompt": "Who built the wooden plant beds for the garden?",
+          "explanation": "The text says that the Year 6 pupils built the beds with adult help.",
+          "options": [
+            "The Year 6 pupils.",
+            "The family volunteers.",
+            "The canteen cooks."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why did the pupils reuse wood from old desks?",
+          "explanation": "We can infer that reusing old materials supports the project's environmental aims by reducing waste.",
+          "options": [
+            "To help the environment by giving old furniture a new life.",
+            "Because the school gym was completely destroyed.",
+            "Because new wood is illegal in primary schools."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which sentence is an example of the passive voice?",
+          "explanation": "Are harvested combines to be with a past participle and describes what happens to the fruit and vegetables.",
+          "options": [
+            "Fresh vegetables and fruits are harvested every Friday.",
+            "Family volunteers arrived on a sunny Saturday.",
+            "Classes begin early in the morning."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-la-voz-pasiva-10",
+      "type": "choice",
+      "prompt": "Change this active sentence into the passive: 'Adrián cleans the classroom whiteboard every afternoon.'",
+      "explanation": "Cleans is present simple and the classroom whiteboard is singular, so use is cleaned.",
+      "hint": "Check the original tense (present) and whether the new subject is singular or plural.",
+      "lang": "en",
+      "options": [
+        "The classroom whiteboard was cleaned by Adrián every afternoon.",
+        "The classroom whiteboard are cleaned by Adrián every afternoon.",
+        "The classroom whiteboard cleans by Adrián every afternoon.",
+        "The classroom whiteboard is cleaned by Adrián every afternoon."
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:20:36.953Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:38:39.353Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "137b7b3f3bcdbd5f1ea63e73c37b56e87b09e3e64b4adbbd36fbd60b2a37aa1a",
+      "validation": "manual-review"
+    }
+  }
+}

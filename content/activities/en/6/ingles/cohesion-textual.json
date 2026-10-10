@@ -1,0 +1,260 @@
+{
+  "id": "g6-ingles-cohesion-textual",
+  "cursoId": "6",
+  "asignaturaId": "ingles",
+  "temaId": "cohesion-textual",
+  "temaNombre": "Text Cohesion",
+  "title": "Connecting Your Ideas in English",
+  "summary": "Link sentences using connectors, sequencing words and pronouns to make your English texts easier to follow.",
+  "keyIdeas": [
+    "And, but, because and so can add ideas, show contrast, give reasons and introduce results.",
+    "First, next, then and finally show the order of events.",
+    "Personal and demonstrative pronouns can avoid repetition when it is clear what they refer to."
+  ],
+  "lomloe": {
+    "area": "lengua-extranjera",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE2"
+    ],
+    "criteria": [
+      "1.1",
+      "2.2"
+    ],
+    "descriptors": [
+      "CCEC2",
+      "CCEC4",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CP1",
+      "CP2",
+      "CPSAA5",
+      "STEM1"
+    ],
+    "basicKnowledge": [
+      "A. Comunicación"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-ingles-cohesion-textual-01",
+      "type": "fill-blank",
+      "prompt": "Choose the connector that shows a contrast.",
+      "explanation": "But contrasts Hugo's love of football with the problem of heavy rain.",
+      "hint": "Look for a word that introduces a contrasting idea.",
+      "lang": "en",
+      "sentence": "Hugo loves playing football in the playground, ___ today it is raining heavily.",
+      "options": [
+        "so",
+        "but",
+        "because"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-02",
+      "type": "choice",
+      "prompt": "Choose the linking word that explains the reason: 'Omar stayed in bed yesterday ___ he had a high fever.'",
+      "explanation": "Because introduces the reason why Omar stayed in bed.",
+      "hint": "Which word introduces a reason?",
+      "lang": "en",
+      "options": [
+        "so",
+        "finally",
+        "although",
+        "because"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-03",
+      "type": "match",
+      "prompt": "Match each connector or group of connectors to its function.",
+      "explanation": "Connectors can show sequence, give reasons, contrast ideas or add information.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "First / Finally",
+          "right": "Put actions in time order."
+        },
+        {
+          "left": "Because",
+          "right": "Explain a reason."
+        },
+        {
+          "left": "However / But",
+          "right": "Show a contrast."
+        },
+        {
+          "left": "In addition / And",
+          "right": "Add extra information."
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-04",
+      "type": "true-false",
+      "prompt": "In 'Lucía bought a new notebook and she wrote her first story in it', the pronoun 'it' refers to 'her first story'.",
+      "explanation": "False. It refers to the notebook, where Lucía wrote her story.",
+      "hint": "Where did Lucía write the story?",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-05",
+      "type": "order",
+      "prompt": "Put the recipe steps in order using the sequencing words.",
+      "explanation": "First, next, then and finally help us follow the order of a recipe.",
+      "lang": "en",
+      "items": [
+        "First, wash your hands and peel the bananas.",
+        "Next, ask an adult to cut the fruit.",
+        "Then, put the fruit, milk and yoghurt in the blender.",
+        "Finally, an adult blends the mixture and serves it."
+      ]
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-06",
+      "type": "classify",
+      "prompt": "Sort the connectors by their function.",
+      "explanation": "However and although show contrast. After that and afterwards show time sequence. Because introduces a cause and therefore introduces a result.",
+      "lang": "en",
+      "categories": [
+        "Contrast",
+        "Time sequence",
+        "Cause and result"
+      ],
+      "items": [
+        {
+          "text": "However",
+          "category": 0
+        },
+        {
+          "text": "Although",
+          "category": 0
+        },
+        {
+          "text": "After that",
+          "category": 1
+        },
+        {
+          "text": "Afterwards",
+          "category": 1
+        },
+        {
+          "text": "Because",
+          "category": 2
+        },
+        {
+          "text": "Therefore",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-07",
+      "type": "fill-blank",
+      "prompt": "Choose the pronoun that avoids repeating the two names.",
+      "explanation": "Martina and Wei are two people, so the subject pronoun is they.",
+      "hint": "The pronoun needs to refer to two people.",
+      "lang": "en",
+      "sentence": "Martina and Wei designed a science poster about oceans. ___ showed the project to the headteacher.",
+      "options": [
+        "She",
+        "They",
+        "He"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-08",
+      "type": "choice",
+      "prompt": "Choose the connector that introduces a consequence: 'Aisha forgot her keys at school, ___ she had to wait for her brother outside.'",
+      "explanation": "So introduces the result of forgetting her keys: Aisha had to wait outside.",
+      "hint": "Look for a word that introduces a result.",
+      "lang": "en",
+      "options": [
+        "first",
+        "although",
+        "because",
+        "so"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-09",
+      "type": "reading",
+      "prompt": "Read the school garden story and answer the questions.",
+      "explanation": "Connectors show how events fit together, and pronouns refer back to people or things already mentioned.",
+      "lang": "en",
+      "title": "The School Garden Project",
+      "text": "Last spring, our class decided to build a school vegetable garden. First, we cleaned the backyard because there were many dry leaves. Next, our teacher brought wooden boxes, soil and seeds. We planted tomatoes, carrots and lettuce. Water was very important, so Adrián and Nerea watered the soil every morning before the bell rang. However, hungry birds tried to eat the young seeds during the second week! Fortunately, Aisha and Hugo built a colourful scarecrow using old clothes. After that, the plants grew fast and green. Finally, yesterday we harvested our first red tomatoes and shared them in the canteen. It was hard work, but we felt proud of our project.",
+      "questions": [
+        {
+          "prompt": "What did the students do after cleaning the backyard?",
+          "explanation": "Next, the teacher brought boxes, soil and seeds, and the pupils planted them.",
+          "options": [
+            "They received boxes and soil, then planted seeds.",
+            "They harvested the red tomatoes.",
+            "They built a scarecrow."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "In 'shared them in the canteen', what does 'them' refer to?",
+          "explanation": "Them refers to the red tomatoes they had harvested.",
+          "options": [
+            "The hungry birds.",
+            "The old clothes.",
+            "The red tomatoes."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Why did the class need a scarecrow?",
+          "explanation": "The text says that hungry birds tried to eat the seeds.",
+          "options": [
+            "To decorate the canteen.",
+            "To keep the plants warm.",
+            "Because birds were trying to eat the seeds."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-ingles-cohesion-textual-10",
+      "type": "order",
+      "prompt": "Put the sentences in order to make a coherent paragraph.",
+      "explanation": "Start with the situation, then the preparation. However introduces the problem, so introduces the response, and in the end introduces the ending.",
+      "lang": "en",
+      "items": [
+        "Last Saturday, Leo planned a picnic in the park with his family.",
+        "First, they prepared sandwiches, orange juice and sliced apples.",
+        "However, dark clouds suddenly appeared in the sky.",
+        "So, they quickly moved the picnic to the living room carpet.",
+        "In the end, they watched a film together and had a wonderful afternoon."
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T17:24:18.388Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T18:37:41.418Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "67e616d9591f004b03ccbf6446a9b4e035b7a928287a6b6d7baa3175e07fdde2",
+      "validation": "manual-review"
+    }
+  }
+}

@@ -4,12 +4,12 @@
   "asignaturaId": "lengua",
   "temaId": "oraciones-subordinadas",
   "temaNombre": "Oraciones subordinadas",
-  "title": "Descubre las oraciones subordinadas",
-  "summary": "Aprende a reconocer, analizar y utilizar las oraciones subordinadas para mejorar tus textos.",
+  "title": "Oraciones subordinadas: ampliación guiada",
+  "summary": "Con ayuda y modelos, reconoce cómo una oración añade información dentro de otra.",
   "keyIdeas": [
-    "Una oración subordinada depende de una oración principal y no tiene sentido completo por sí sola.",
-    "Las oraciones subordinadas se unen a la principal mediante nexos como que, porque, cuando, donde o para que.",
-    "Según su significado, pueden indicar causa, tiempo, lugar, finalidad o complementar a un sustantivo o verbo."
+    "Ampliación guiada: «Omar espera que gane su equipo». La parte «que gane su equipo» completa «espera».",
+    "Modelos: «Salimos cuando termina la clase» (tiempo); «No salimos porque llueve» (causa).",
+    "Reconocer estos enlaces ayuda a comprender y escribir. Consulta los modelos antes de clasificar."
   ],
   "lomloe": {
     "area": "lengua-castellana",
@@ -45,8 +45,8 @@
     {
       "id": "g6-lengua-oraciones-subordinadas-02",
       "type": "classify",
-      "prompt": "Clasifica cada enunciado según sea una oración simple (un solo verbo) o una oración compuesta con subordinada (más de un verbo relacionado).",
-      "explanation": "Las oraciones simples tienen un único verbo conjugado, mientras que las compuestas tienen dos o más verbos unidos mediante nexos subordinantes.",
+      "prompt": "Clasifica estos ejemplos según tengan una sola oración o incluyan otra subordinada.",
+      "explanation": "En los ejemplos compuestos, una oración se integra en otra mediante «que» o «cuando». Un tiempo compuesto o una perífrasis no convierte por sí solo una oración en compuesta.",
       "lang": "es",
       "categories": [
         "Oración simple",
@@ -98,7 +98,7 @@
     {
       "id": "g6-lengua-oraciones-subordinadas-04",
       "type": "match",
-      "prompt": "Une cada oración principal con la proposición subordinada que completa su sentido de forma lógica.",
+      "prompt": "En el texto, el maestro explica la actividad con una finalidad; Aisha guarda las témperas en un lugar indicado; Martina avisa al sonar la sirena; el actor interpreta al dragón. Une las partes para recuperar esas ideas.",
       "explanation": "Cada nexo introduce un tipo de circunstancia: 'para que' indica finalidad, 'donde' lugar, 'cuando' tiempo y 'que' especifica a la persona.",
       "lang": "es",
       "pairs": [
@@ -137,8 +137,8 @@
     {
       "id": "g6-lengua-oraciones-subordinadas-06",
       "type": "choice",
-      "prompt": "🔍 ¡Encuentra el error! Una de estas oraciones contiene un fallo de concordancia temporal en la proposición subordinada. ¿Cuál es?",
-      "explanation": "Como la acción principal ocurrió en el pasado ('Ayer fuimos'), la subordinada de finalidad debe concordar en pasado: 'para que estudiáramos' (o 'para estudiar').",
+      "prompt": "El propósito era estudiar ayer durante la visita. ¿Qué frase expresa mal ese propósito pasado?",
+      "explanation": "Para un propósito referido a aquella visita de ayer, usamos «para que estudiáramos» o «para estudiar». «Estudiemos» podría referirse a otro momento con más contexto, pero no expresa aquí el propósito pasado solicitado.",
       "hint": "Comprueba que los tiempos verbales del pasado concuerden entre sí.",
       "lang": "es",
       "options": [

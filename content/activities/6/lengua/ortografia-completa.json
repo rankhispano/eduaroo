@@ -44,8 +44,8 @@
     {
       "id": "g6-lengua-ortografia-completa-01",
       "type": "classify",
-      "prompt": "Clasifica estas palabras según se escriban con b o con v siguiendo sus reglas ortográficas.",
-      "explanation": "Se escriben con B las terminaciones del pretérito imperfecto en -aba, los verbos terminados en -bir y el sufijo -bundo. Se escriben con V las palabras con el prefijo ad-, las terminaciones en -ívoro y detrás de n.",
+      "prompt": "Clasifica cada palabra según la letra que falta en el hueco: b o v.",
+      "explanation": "Falta b en «cantábamos», «vagabundo» y «escribir»; v en «adverbio», «carnívoro» e «invento». Algunas palabras completas contienen ambas letras.",
       "lang": "es",
       "categories": [
         "Se escriben con B",
@@ -53,27 +53,27 @@
       ],
       "items": [
         {
-          "text": "cantábamos",
+          "text": "cantá_amos",
           "category": 0
         },
         {
-          "text": "adverbio",
+          "text": "ad_erbio",
           "category": 1
         },
         {
-          "text": "vagabundo",
+          "text": "vaga_undo",
           "category": 0
         },
         {
-          "text": "carnívoro",
+          "text": "carní_oro",
           "category": 1
         },
         {
-          "text": "escribir",
+          "text": "escri_ir",
           "category": 0
         },
         {
-          "text": "invento",
+          "text": "in_ento",
           "category": 1
         }
       ]
@@ -81,8 +81,8 @@
     {
       "id": "g6-lengua-ortografia-completa-02",
       "type": "true-false",
-      "prompt": "Todas las palabras esdrújulas y sobresdrújulas llevan tilde siempre, independientemente de la letra en la que terminen.",
-      "explanation": "Es una regla general fija: las palabras esdrújulas y sobresdrújulas siempre llevan tilde en la sílaba tónica (antepenúltima o anterior a la antepenúltima).",
+      "prompt": "Las palabras esdrújulas y sobresdrújulas, sin contar los adverbios terminados en -mente, llevan tilde independientemente de la letra en la que terminen.",
+      "explanation": "Las esdrújulas y sobresdrújulas llevan tilde en la sílaba tónica. Los adverbios en -mente siguen otra regla: conservan la tilde del adjetivo del que proceden, como fácilmente o claramente.",
       "lang": "es",
       "answer": true
     },
@@ -90,7 +90,7 @@
       "id": "g6-lengua-ortografia-completa-03",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre la excursión de Aisha y Omar con la palabra correcta.",
-      "explanation": "Las palabras que empiezan por los diptongos ue-, ui-, ia- e ie- se escriben siempre con hache inicial.",
+      "explanation": "«Huella» se escribe con h inicial. Podemos comprobarlo en el diccionario; compartir sonidos no garantiza compartir todas las letras.",
       "lang": "es",
       "sentence": "Aisha y Omar encontraron una extraña ___ de dinosaurio en el barro del sendero.",
       "options": [
@@ -196,8 +196,8 @@
       "id": "g6-lengua-ortografia-completa-08",
       "type": "choice",
       "prompt": "En el club de lectura leen esta frase: «El conser___e nos advirtió de que el carrua___e requería un via___e muy proli___o». ¿Qué letras completan los huecos?",
-      "explanation": "Todas se escriben con «j»: conserje (acabada en -je), carruaje y viaje (acabadas en -aje) y prolijo (acabada en -jo).",
-      "hint": "Recuerda las reglas de las palabras terminadas en -aje, -eje y -jería.",
+      "explanation": "Las cuatro palabras llevan j: «conserje», «carruaje», «viaje» y «prolijo». «Carruaje» y «viaje» comparten -aje; las demás se pueden comprobar en el diccionario.",
+      "hint": "Carruaje y viaje terminan en -aje; comprueba conserje y prolijo en el diccionario.",
       "lang": "es",
       "options": [
         "j - g - g - j",
@@ -214,14 +214,14 @@
       "explanation": "La comprensión del texto destaca el valor comunicativo de la ortografía y la importancia de la revisión textual reflexiva.",
       "lang": "es",
       "title": "El taller de redacción de sexto",
-      "text": "En el colegio El Olivar, la clase de sexto ha inaugurado un taller de periodismo digital. La maestra Elena explicó que, en la era de internet, escribir con corrección ortográfica es un acto de respeto hacia los lectores y una garantía indispensable de claridad. Durante la primera sesión, Aisha y Nerea debatieron sobre cómo los errores de acentuación pueden alterar por completo el sentido de un mensaje: no es lo mismo escribir «canto», «cantó» o «canto». Además, descubrieron que los signos de puntuación estructuran el razonamiento e impiden confusiones en los titulares informativos.\n\nAl finalizar la jornada, todo el grupo consensuó un decálogo de buenas prácticas para su revista. Su primer compromiso fue revisar cada borrador dos veces antes de publicarlo: una para comprobar la veracidad de los datos y otra para verificar las tildes, las mayúsculas y las grafías dudosas como la b, la v, la g y la j.",
+      "text": "En el colegio El Olivar, la clase de sexto ha inaugurado un taller de periodismo digital. La maestra Elena explicó que, en la era de internet, escribir con corrección ortográfica es un acto de respeto hacia los lectores y una ayuda para comunicarse con claridad. Durante la primera sesión, Aisha y Nerea debatieron sobre cómo los errores de acentuación pueden alterar por completo el sentido de un mensaje: no es lo mismo escribir «canto» y «cantó». Además, descubrieron que los signos de puntuación estructuran el razonamiento e impiden confusiones en los titulares informativos.\n\nAl finalizar la jornada, todo el grupo consensuó un decálogo de buenas prácticas para su revista. Su primer compromiso fue revisar cada borrador dos veces antes de publicarlo: una para comprobar la veracidad de los datos y otra para verificar las tildes, las mayúsculas y las grafías dudosas como la b, la v, la g y la j.",
       "questions": [
         {
           "prompt": "Según el texto, ¿por qué es fundamental escribir con corrección ortográfica en internet?",
-          "explanation": "El texto indica expresamente que escribir bien es un acto de respeto hacia el lector y asegura la claridad del texto.",
+          "explanation": "La maestra explica que la corrección ortográfica ayuda a comprender el texto y muestra cuidado hacia sus lectores.",
           "options": [
             "Porque es un requisito informático para que los buscadores reconozcan el texto.",
-            "Porque demuestra respeto hacia los lectores y garantiza la claridad del mensaje.",
+            "Porque respeta a los lectores y facilita la comprensión.",
             "Porque permite escribir oraciones excesivamente largas sin usar comas."
           ],
           "answer": 1

@@ -149,7 +149,7 @@
         "James Watt patenta y perfecciona la máquina de vapor moderna (1769)",
         "El pueblo de París asalta la fortaleza de la Bastilla (1789)",
         "Olympe de Gouges publica los derechos de la mujer y la ciudadana (1791)",
-        "Se inaugura la primera línea comercial de ferrocarril con locomotora de vapor (1825)"
+        "Se inaugura el ferrocarril Stockton-Darlington con locomotoras de vapor (1825)"
       ]
     },
     {
@@ -211,7 +211,7 @@
       "id": "g6-sociales-revolucion-francesa-e-industrial-09",
       "type": "choice",
       "prompt": "En clase de Ciencias Sociales, Hugo y Nerea analizan cómo cambió el transporte. Antes de 1789, un viaje de 300 kilómetros en diligencia de caballos tardaba varios días. En 1850, ese mismo trayecto en ferrocarril se hacía en pocas horas. ¿Qué impacto tuvo este cambio en la sociedad?",
-      "explanation": "La velocidad y capacidad de carga del tren abarató los productos, evitó hambrunas locales y conectó mercados nacionales e internacionales.",
+      "explanation": "El tren aumentó la capacidad y la rapidez del transporte. Facilitó el abastecimiento y los intercambios comerciales, aunque no eliminó por sí solo las hambrunas.",
       "hint": "Piensa en qué ventajas tiene llevar muchas toneladas de comida o materias primas rápidamente.",
       "lang": "es",
       "options": [

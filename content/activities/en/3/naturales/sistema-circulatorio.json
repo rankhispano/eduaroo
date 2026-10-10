@@ -1,0 +1,221 @@
+{
+  "id": "g3-naturales-sistema-circulatorio",
+  "cursoId": "3",
+  "asignaturaId": "naturales",
+  "temaId": "sistema-circulatorio",
+  "temaNombre": "The circulatory system",
+  "title": "The journey of blood",
+  "summary": "Review how the heart, blood vessels and blood work.",
+  "keyIdeas": [
+    "The heart is a muscle that keeps pumping blood around the body.",
+    "Blood travels through blood vessels: arteries, veins and tiny capillaries.",
+    "Blood carries oxygen and nutrients to the cells in our body."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.1",
+      "2.4",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › Iniciación en la actividad científica",
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-naturales-sistema-circulatorio-01",
+      "type": "choice",
+      "prompt": "Which organ works like a pump to push blood around the body?",
+      "explanation": "The heart is a hollow muscular organ. Its main job is to pump blood around the body.",
+      "hint": "It beats inside your chest.",
+      "lang": "en",
+      "options": [
+        "The heart",
+        "The stomach",
+        "The lungs"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-02",
+      "type": "match",
+      "prompt": "Match each blood vessel to its main job.",
+      "explanation": "Arteries carry blood away from the heart, veins bring it back, and capillaries connect them within tissues.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Arteries",
+          "right": "Carry blood away from the heart towards the body's organs"
+        },
+        {
+          "left": "Veins",
+          "right": "Return blood from organs to the heart"
+        },
+        {
+          "left": "Capillaries",
+          "right": "Tiny vessels where substances pass between blood and tissues"
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the parts of blood.",
+      "explanation": "Platelets are tiny cell fragments that help plug damaged blood vessels to stop bleeding.",
+      "hint": "They help form a barrier when you graze your skin.",
+      "lang": "en",
+      "sentence": "___ help close wounds by forming a clot that can become a scab, preventing blood loss.",
+      "options": [
+        "Fats",
+        "Platelets",
+        "Neurons"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-04",
+      "type": "classify",
+      "prompt": "Sort these blood components by their job.",
+      "explanation": "Red blood cells contain haemoglobin and carry oxygen. White blood cells, also called leucocytes, help defend the body.",
+      "lang": "en",
+      "categories": [
+        "Carrying oxygen",
+        "Defending against microbes"
+      ],
+      "items": [
+        {
+          "text": "Red blood cells",
+          "category": 0
+        },
+        {
+          "text": "White blood cells",
+          "category": 1
+        },
+        {
+          "text": "Haemoglobin in red blood cells",
+          "category": 0
+        },
+        {
+          "text": "Protective leucocytes",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-05",
+      "type": "reading",
+      "prompt": "Read the text carefully and answer the questions.",
+      "explanation": "The heart changes how fast it beats according to the body's activity.",
+      "lang": "en",
+      "title": "Aisha's pulse",
+      "text": "In PE, Aisha and Hugo investigate heart rate. First, they sit quietly for two minutes. Aisha places two fingers on her wrist and counts 75 beats in one minute. Then she runs around the school track for five minutes. Afterwards, she counts again: her heart is now beating 130 times per minute! Hugo records the results in a notebook to compare them.",
+      "questions": [
+        {
+          "prompt": "How many beats per minute did Aisha count at rest?",
+          "explanation": "The text says that Aisha counted 75 beats in one minute at rest.",
+          "options": [
+            "5 beats",
+            "75 beats",
+            "130 beats"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why does Aisha's heart beat faster after running?",
+          "explanation": "During exercise, muscles work harder and need blood to bring oxygen more quickly.",
+          "options": [
+            "Her muscles need oxygen and nutrients more quickly",
+            "Blood stops moving in her legs",
+            "Air enters her heart directly"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-06",
+      "type": "order",
+      "prompt": "Put the journey of oxygen-rich blood in order, starting as it leaves the heart.",
+      "explanation": "Blood leaves the heart through large arteries, flows through capillaries and returns through veins.",
+      "lang": "en",
+      "items": [
+        "It leaves the heart through the main arteries",
+        "It reaches smaller arteries around the body",
+        "It passes through capillaries and delivers oxygen to muscles",
+        "It returns to the heart through veins"
+      ]
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-07",
+      "type": "choice",
+      "prompt": "Omar counts 70 heartbeats at rest and 115 after climbing stairs. Which scientific prediction is correct?",
+      "explanation": "As the body rests again, the muscles need less energy and heart rate gradually falls.",
+      "hint": "Think about what happens when you rest after playing.",
+      "lang": "en",
+      "options": [
+        "His heart will stop beating completely when he sits down",
+        "His pulse will keep rising without stopping even if he sits on the sofa",
+        "His pulse will most likely fall gradually as he rests"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-08",
+      "type": "true-false",
+      "prompt": "Regular exercise and eating fruit and vegetables help keep our hearts healthy.",
+      "explanation": "Moving regularly and eating a varied diet help care for the heart and blood vessels.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-naturales-sistema-circulatorio-09",
+      "type": "choice",
+      "prompt": "Lucía gets a small cut on her finger. Why does it bleed even though she has not cut a major artery?",
+      "explanation": "Tiny blood vessels reach almost every part of our skin, so a small cut can release a drop of blood.",
+      "hint": "Very thin blood vessels run throughout the body.",
+      "lang": "en",
+      "options": [
+        "There is a huge network of tiny capillaries in the skin",
+        "The heart sends all the body's blood to the cut finger",
+        "The finger's veins are completely open to the air"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:46:50.709Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:24:14.821Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "1d185a64c6e77a3bee987051c67f6460adb60be2aba812a895a074d1d718e700",
+      "validation": "manual-review"
+    }
+  }
+}

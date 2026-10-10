@@ -89,13 +89,13 @@
       "id": "g1-sociales-el-colegio-04",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre la mañana en el colegio.",
-      "explanation": "En el recreo descansamos, jugamos con las amistades y tomamos un almuerzo o desayuno saludable.",
+      "explanation": "El recreo es una pausa para descansar y jugar.",
       "lang": "es",
-      "sentence": "Al salir al patio para jugar tomamos el ___.",
+      "sentence": "La pausa para descansar y jugar en el colegio se llama ___.",
       "options": [
-        "desayuno",
-        "abrigo",
-        "cuaderno"
+        "recreo",
+        "comedor",
+        "biblioteca"
       ],
       "answer": 0
     },
@@ -158,8 +158,8 @@
     {
       "id": "g1-sociales-el-colegio-08",
       "type": "true-false",
-      "prompt": "Si cuidamos el material de clase, durará todo el curso.",
-      "explanation": "Cuidar las ceras, tijeras y libros permite que toda la clase pueda usarlos siempre que los necesite.",
+      "prompt": "Si cuidamos el material de clase, ayudamos a que dure más.",
+      "explanation": "Cuidar los libros, las ceras y los juegos ayuda a conservarlos para que podamos usarlos.",
       "lang": "es",
       "answer": true
     },

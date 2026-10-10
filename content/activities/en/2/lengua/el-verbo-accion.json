@@ -1,0 +1,240 @@
+{
+  "id": "g2-lengua-el-verbo-accion",
+  "cursoId": "2",
+  "asignaturaId": "lengua",
+  "temaId": "el-verbo-accion",
+  "temaNombre": "Verbs: actions",
+  "title": "Discovering action verbs",
+  "summary": "Recognise Spanish verbs for everyday actions.",
+  "keyIdeas": [
+    "Many verbs describe actions, such as correr, leer and cantar. Others describe states, such as ser and estar.",
+    "To recognise an action verb, ask what someone does.",
+    "In these examples, the verb tells us what a person or animal does."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 1,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas la producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g2-lengua-el-verbo-accion-01",
+      "type": "choice",
+      "prompt": "Which Spanish word names an action you can do?",
+      "explanation": "«Saltar» is an action you can do with your body. «Mesa» names an object and «azul» names a colour.",
+      "hint": "Think of something you can do at break time.",
+      "lang": "en",
+      "options": [
+        "Azul",
+        "Mesa",
+        "Saltar"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-02",
+      "type": "true-false",
+      "prompt": "In the Spanish sentence «Omar come una manzana», «come» is a verb.",
+      "explanation": "True. «come» names Omar's action.",
+      "lang": "en",
+      "answer": true,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-03",
+      "type": "classify",
+      "prompt": "Sort these Spanish words by whether they name an action or an object.",
+      "explanation": "«Escribir» and «Dormir» name things we can do. «Lápiz» and «Balón» name objects we can touch.",
+      "lang": "en",
+      "categories": [
+        "Action (verb)",
+        "Object (thing)"
+      ],
+      "items": [
+        {
+          "text": "Escribir",
+          "category": 0
+        },
+        {
+          "text": "Lápiz",
+          "category": 1
+        },
+        {
+          "text": "Dormir",
+          "category": 0
+        },
+        {
+          "text": "Balón",
+          "category": 1
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-04",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish verb to complete the sentence.",
+      "explanation": "«pinta» is the verb naming Aisha's action.",
+      "lang": "en",
+      "sentence": "Aisha ___ un dibujo muy bonito para su abuela.",
+      "options": [
+        "pinta",
+        "papel",
+        "alegre"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-05",
+      "type": "match",
+      "prompt": "Match each Spanish person or animal phrase to its action.",
+      "explanation": "«vuela», «prepara» and «juegan» are verbs that tell us what each subject does.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "El pájaro",
+          "right": "vuela alto"
+        },
+        {
+          "left": "La cocinera",
+          "right": "prepara la sopa"
+        },
+        {
+          "left": "Los niños",
+          "right": "juegan al escondite"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-06",
+      "type": "choice",
+      "prompt": "Which word is the verb in «Hugo corre por el patio»?",
+      "explanation": "«corre» is the verb because it tells us what Hugo does.",
+      "hint": "Find the word naming Hugo's action.",
+      "lang": "en",
+      "options": [
+        "corre",
+        "patio",
+        "Hugo"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-07",
+      "type": "order",
+      "prompt": "Lucía wakes up first, then has breakfast, then walks to school. Put her morning actions in order using the Spanish phrases.",
+      "explanation": "Lucía's routine is waking up, having breakfast and walking to school.",
+      "lang": "en",
+      "items": [
+        "Despertar",
+        "Desayunar",
+        "Caminar al cole"
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-08",
+      "type": "reading",
+      "prompt": "Read the Spanish text carefully and answer the questions.",
+      "explanation": "«montar», «saltar», «lanzar» and «reír» are action verbs used in this text in different forms.",
+      "lang": "en",
+      "title": "Tarde en el parque",
+      "text": "Martina y Wei van al parque de su barrio. Martina monta en patinete con cuidado. Wei lanza la pelota a su perra Chispas. Chispas salta muy alto y atrapa el balón. Los dos amigos ríen contentos.",
+      "questions": [
+        {
+          "prompt": "Which Spanish phrase names Martina's action in the park?",
+          "explanation": "The text says that Martina rides a scooter: «Martina monta en patinete».",
+          "options": [
+            "Come una manzana",
+            "Duerme en la hierba",
+            "Monta en patinete"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which Spanish verb says what Chispas does before catching the ball?",
+          "explanation": "The text says that Chispas jumps very high: «Chispas salta muy alto».",
+          "options": [
+            "Ríe",
+            "Lanza",
+            "Salta"
+          ],
+          "answer": 2
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-09",
+      "type": "choice",
+      "prompt": "Which Spanish phrase has no verb?",
+      "explanation": "«El perro grande y marrón» has no verb telling us what the dog does. The other sentences have «lee» and «nada».",
+      "hint": "Find the phrase that does not say what anyone does.",
+      "lang": "en",
+      "options": [
+        "Nerea lee un cuento divertido.",
+        "El perro grande y marrón.",
+        "Adrián nada en la piscina."
+      ],
+      "answer": 1,
+      "contentLang": "es"
+    },
+    {
+      "id": "g2-lengua-el-verbo-accion-10",
+      "type": "choice",
+      "prompt": "Lucía helps in the school library. Which Spanish sentence clearly describes her action?",
+      "explanation": "«ordena» is the verb describing Lucía's action in the library.",
+      "hint": "Find the sentence with a verb telling us what Lucía does.",
+      "lang": "en",
+      "options": [
+        "Lucía ordena los libros en las estanterías.",
+        "Lucía biblioteca silenciosa azul.",
+        "Lucía libros estantería grande."
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:17:19.993Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:26:25.207Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "049c6a4136dbbb41f40eb79bb12f936eb35fd1a65b2b4bd49062123dcd75b249",
+      "validation": "manual-review"
+    }
+  }
+}

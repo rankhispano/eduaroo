@@ -95,12 +95,12 @@
     {
       "id": "g6-mates-cuerpos-geometricos-03",
       "type": "match",
-      "prompt": "Relaciona cada cuerpo geométrico con la descripción correcta de sus caras laterales:",
+      "prompt": "Relaciona cada cuerpo con la descripción indicada de sus caras o superficies:",
       "explanation": "Las caras laterales de los prismas rectos son rectángulos según el número de lados de la base, las de las pirámides son triángulos concurrentes en el vértice superior y el cilindro posee una superficie curva continua.",
       "lang": "es",
       "pairs": [
         {
-          "left": "Prisma pentagonal",
+          "left": "Prisma pentagonal recto",
           "right": "5 rectángulos"
         },
         {

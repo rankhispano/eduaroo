@@ -1,0 +1,235 @@
+{
+  "id": "g6-mates-porcentajes-calculo-y-aplicaciones",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "porcentajes-calculo-y-aplicaciones",
+  "temaNombre": "Percentages: Calculations and Applications",
+  "title": "Percentages in Everyday Life",
+  "summary": "Solve problems involving discounts, increases and equivalent percentages. These exercises keep Spanish decimal commas and dots for thousands: 12.000 means twelve thousand.",
+  "keyIdeas": [
+    "A percentage tells us how many parts out of 100 we take. It can be written as a fraction or decimal.",
+    "To find a percentage of a quantity, multiply the quantity by the percentage number and divide by 100.",
+    "Subtract a discount from the original price. Add an increase or surcharge to the amount it is based on."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE2",
+      "CE5"
+    ],
+    "criteria": [
+      "2.2",
+      "2.3",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD3",
+      "CD5",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Razonamiento proporcional",
+      "A. Sentido numérico › Relaciones",
+      "A. Sentido numérico › Educación financiera"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-01",
+      "type": "match",
+      "prompt": "Match each percentage to its decimal form.",
+      "explanation": "Divide by 100: 50 ÷ 100 = 0,5; 25 ÷ 100 = 0,25; 10 ÷ 100 = 0,1; and 5 ÷ 100 = 0,05.",
+      "hint": "A percentage is a fraction with denominator 100.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "50 %",
+          "right": "0,5"
+        },
+        {
+          "left": "25 %",
+          "right": "0,25"
+        },
+        {
+          "left": "10 %",
+          "right": "0,1"
+        },
+        {
+          "left": "5 %",
+          "right": "0,05"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-02",
+      "type": "true-false",
+      "prompt": "Finding 20 % of 80 € gives exactly the same result as dividing 80 by 5.",
+      "explanation": "True. 20/100 simplifies to 1/5, so 20 % of 80 € is 80 ÷ 5 = 16 €.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-03",
+      "type": "choice",
+      "prompt": "A school library has 300 books, and 40 % are adventure books. How many adventure books are there?",
+      "explanation": "(300 × 40) ÷ 100 = 12.000 ÷ 100 = 120 books.",
+      "hint": "Find 10 % of 300, then multiply it by 4.",
+      "lang": "en",
+      "options": [
+        "75 books",
+        "120 books",
+        "40 books",
+        "140 books"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-04",
+      "type": "fill-blank",
+      "prompt": "Complete this quick mental calculation rule.",
+      "explanation": "10 % = 10/100 = 1/10, so divide by 10: 450 ÷ 10 = 45 €.",
+      "hint": "Simplify 10/100 by dividing both numbers by 10.",
+      "lang": "en",
+      "sentence": "To find 10 % of 450 € mentally, divide by ___.",
+      "options": [
+        "10",
+        "100",
+        "2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-05",
+      "type": "choice",
+      "prompt": "🔍 Find the mistake! Omar buys a 60 € sweatshirt with a 15 % discount. He calculates, '15 % of 60 is 9 €, so I pay 60 + 9 = 69 €.' What went wrong?",
+      "explanation": "The discount is correctly calculated as 9 €, but it reduces the price: 60 - 9 = 51 €.",
+      "hint": "Look at Omar's final operation.",
+      "lang": "en",
+      "options": [
+        "He should subtract the discount directly from 100 rather than the price.",
+        "He should multiply 60 by 15 without dividing by 100.",
+        "He added the discount instead of subtracting it from the original price.",
+        "He calculated 15 % of 60 incorrectly; it is really 15 €."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-06",
+      "type": "order",
+      "prompt": "Put the steps for finding the final price of a 240 € bicycle with a 20 % discount in order.",
+      "explanation": "Identify the values, calculate the discount, subtract it and check that the answer makes sense.",
+      "lang": "en",
+      "items": [
+        "Identify the original price (240 €) and discount (20 %).",
+        "Calculate the discount: (240 × 20) ÷ 100 = 48 €.",
+        "Subtract it from the original price: 240 - 48 = 192 €.",
+        "Check that the final price (192 €) is below the original price."
+      ]
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-07",
+      "type": "choice",
+      "prompt": "A backpack costs 50 €. Apply a 10 % discount, then a delivery surcharge of 10 % of the discounted price. Aisha says the total will be 50 €. Is she right?",
+      "explanation": "The discount leaves 45 €. The surcharge is 10 % of 45 € = 4,50 €, giving a total of 49,50 €.",
+      "hint": "Find the discounted price first, then 10 % of that new amount.",
+      "lang": "en",
+      "options": [
+        "Yes, adding 10 % and subtracting 10 % always leaves the same amount.",
+        "No: the total is 49,50 € because the surcharge is based on 45 €, not 50 €.",
+        "No: the total is 51 € because a surcharge is always bigger than a discount.",
+        "Yes, the discount and surcharge automatically cancel out."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-08",
+      "type": "classify",
+      "prompt": "Sort each situation by whether the final amount is higher or lower than the original.",
+      "explanation": "Discounts and savings reduce the original amount. Surcharges, fare rises and added taxes increase it.",
+      "lang": "en",
+      "categories": [
+        "Increase (higher final amount)",
+        "Decrease (lower final amount)"
+      ],
+      "items": [
+        {
+          "text": "A 5 % surcharge for paying late",
+          "category": 0
+        },
+        {
+          "text": "A 30 % discount in the January sales",
+          "category": 1
+        },
+        {
+          "text": "An 8 % rise in a bus fare",
+          "category": 0
+        },
+        {
+          "text": "A 50 % discount in an end-of-season sale",
+          "category": 1
+        },
+        {
+          "text": "A promotional voucher giving 15 % off",
+          "category": 1
+        },
+        {
+          "text": "Adding a 21 % indirect tax charge",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-09",
+      "type": "choice",
+      "prompt": "In a survey of 120 Year 6 pupils, 75 % say they walk or cycle to school. How many pupils travel actively?",
+      "explanation": "75 % is 3/4 of the total: (120 ÷ 4) × 3 = 90 pupils.",
+      "hint": "75 % is 50 % plus 25 %.",
+      "lang": "en",
+      "options": [
+        "90 pupils",
+        "80 pupils",
+        "75 pupils",
+        "95 pupils"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-porcentajes-calculo-y-aplicaciones-10",
+      "type": "choice",
+      "prompt": "A children's basketball club had 80 members last year. Membership rises by 25 % this year. How many members are there now?",
+      "explanation": "25 % of 80 is 20. Add the increase: 80 + 20 = 100 members.",
+      "hint": "Find 25 % of 80 and add it to the original 80.",
+      "lang": "en",
+      "options": [
+        "95 members",
+        "105 members",
+        "85 members",
+        "100 members"
+      ],
+      "answer": 3
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:27:48.744Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:33:28.414Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "4f662f2b4f4b85d3ae5a1b76da1a5ed8c2e1f141c71709bdcad0272436c42b66",
+      "validation": "manual-review"
+    }
+  }
+}

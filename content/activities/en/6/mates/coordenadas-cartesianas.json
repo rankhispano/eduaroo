@@ -1,0 +1,219 @@
+{
+  "id": "g6-mates-coordenadas-cartesianas",
+  "cursoId": "6",
+  "asignaturaId": "mates",
+  "temaId": "coordenadas-cartesianas",
+  "temaNombre": "Cartesian Coordinates",
+  "title": "Adventures with Coordinates",
+  "summary": "Locate points, read axes and calculate journeys on a Cartesian coordinate grid.",
+  "keyIdeas": [
+    "The first number in (X, Y) gives the horizontal position. Positive values are to the right of the origin.",
+    "The second number gives the vertical position. Positive values are above the origin.",
+    "The origin is (0, 0), where the two axes cross."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 3,
+    "competencies": [
+      "CE1",
+      "CE6"
+    ],
+    "criteria": [
+      "1.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "C. Sentido espacial › Localización y sistemas de representación",
+      "C. Sentido espacial › Visualización, razonamiento y modelización geométrica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g6-mates-coordenadas-cartesianas-01",
+      "type": "choice",
+      "prompt": "Aisha maps her neighbourhood on a coordinate grid. In (4, 7), which number gives the horizontal position on the X-axis?",
+      "explanation": "In an ordered pair (X, Y), the first value gives the horizontal position, so it is 4.",
+      "hint": "Remember the order: X comes before Y.",
+      "lang": "en",
+      "options": [
+        "4",
+        "7",
+        "11",
+        "3"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-02",
+      "type": "true-false",
+      "prompt": "The origin of a Cartesian coordinate grid is (0, 0), exactly where the X-axis and Y-axis cross.",
+      "explanation": "True. The intersection of the axes is the origin, with coordinates (0, 0).",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the names used for coordinates.",
+      "explanation": "The horizontal coordinate is called the abscissa; the vertical coordinate is the ordinate.",
+      "lang": "en",
+      "sentence": "In (6, 2), the number 6 is the ___ and the number 2 is the ordinate.",
+      "options": [
+        "abscissa",
+        "height",
+        "origin"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-04",
+      "type": "match",
+      "prompt": "Match each place on the park map to its coordinates.",
+      "explanation": "Coordinates are written (X, Y), with the horizontal value first and the vertical value second.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Fountain: 3 horizontal, 5 vertical",
+          "right": "(3, 5)"
+        },
+        {
+          "left": "Swings: 5 horizontal, 3 vertical",
+          "right": "(5, 3)"
+        },
+        {
+          "left": "Ice cream kiosk: 0 horizontal, 4 vertical",
+          "right": "(0, 4)"
+        },
+        {
+          "left": "Main entrance: 0 horizontal, 0 vertical",
+          "right": "(0, 0)"
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-05",
+      "type": "choice",
+      "prompt": "Find the mistake! The library is 5 units right of the origin and 2 units up. Hugo writes (2, 5). What went wrong?",
+      "explanation": "He put the vertical value first. The correct order is (X, Y), so the coordinates are (5, 2).",
+      "hint": "Which coordinate goes first in an ordered pair?",
+      "lang": "en",
+      "options": [
+        "He swapped X and Y; the correct coordinates are (5, 2).",
+        "He added the values instead of placing them in brackets.",
+        "He counted from the library instead of the origin.",
+        "He should have written (-5, -2) because the library is right and up."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-06",
+      "type": "classify",
+      "prompt": "Sort the points by whether they lie on an axis or away from both axes.",
+      "explanation": "If Y = 0, a point is on the X-axis. If X = 0, it is on the Y-axis. The listed points with both coordinates positive are away from the axes.",
+      "lang": "en",
+      "categories": [
+        "On the X-axis (Y = 0)",
+        "On the Y-axis (X = 0)",
+        "Away from both axes"
+      ],
+      "items": [
+        {
+          "text": "(4, 0)",
+          "category": 0
+        },
+        {
+          "text": "(0, 6)",
+          "category": 1
+        },
+        {
+          "text": "(3, 5)",
+          "category": 2
+        },
+        {
+          "text": "(7, 0)",
+          "category": 0
+        },
+        {
+          "text": "(0, 2)",
+          "category": 1
+        },
+        {
+          "text": "(1, 8)",
+          "category": 2
+        }
+      ]
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-07",
+      "type": "choice",
+      "prompt": "Lucía walks straight from her home at (2, 3) to the shop at (8, 3), then vertically to the sports centre at (8, 7). How many units does she walk altogether?",
+      "explanation": "The horizontal section is 8 - 2 = 6 units. The vertical section is 7 - 3 = 4 units. The total is 10 units.",
+      "hint": "Find the distance of each section by subtraction, then add them.",
+      "lang": "en",
+      "options": [
+        "10 units",
+        "12 units",
+        "14 units",
+        "8 units"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-08",
+      "type": "order",
+      "prompt": "Start at the origin (0, 0) and go clockwise around a rectangle 5 units wide and 3 units high. Put its four vertices in order.",
+      "explanation": "Start at (0, 0), move up to (0, 3), right to (5, 3), then down to (5, 0).",
+      "lang": "en",
+      "items": [
+        "(0, 0)",
+        "(0, 3)",
+        "(5, 3)",
+        "(5, 0)"
+      ]
+    },
+    {
+      "id": "g6-mates-coordenadas-cartesianas-09",
+      "type": "choice",
+      "prompt": "Adrián draws a square with vertices at (2, 2), (6, 2) and (6, 6). What are the coordinates of its fourth vertex?",
+      "explanation": "Each side is 4 units long. The missing vertex has X = 2, aligned vertically with (2, 2), and Y = 6, aligned horizontally with (6, 6). It is (2, 6).",
+      "hint": "Opposite sides of a square are equal and parallel. Which X and Y values need pairing?",
+      "lang": "en",
+      "options": [
+        "(4, 6)",
+        "(2, 6)",
+        "(2, 4)",
+        "(6, 4)"
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.6-flash",
+    "generatedAt": "2026-10-08T11:34:56.674Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T19:31:09.524Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "1963b8cb8cdd62966046e58f96df64dae0182936b5abb4b3460bcc1c1910da7b",
+      "validation": "manual-review"
+    }
+  }
+}

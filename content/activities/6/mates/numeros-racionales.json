@@ -9,7 +9,7 @@
   "keyIdeas": [
     "Una misma cantidad se puede expresar como fracción o decimal dividiendo el numerador entre el denominador.",
     "Para comparar o sumar racionales con distinto denominador, conviene buscar un denominador común o pasarlos a formato decimal.",
-    "Entre dos números racionales siempre podemos encontrar infinitos números intermedios."
+    "Entre dos números racionales distintos podemos encontrar infinitos números racionales intermedios."
   ],
   "lomloe": {
     "area": "matematicas",
@@ -81,7 +81,7 @@
       "id": "g6-mates-numeros-racionales-03",
       "type": "classify",
       "prompt": "Clasifica estos números racionales según sean menores o mayores que la unidad (1).",
-      "explanation": "Las fracciones propias (numerador menor que denominador) y los decimales que empiezan por 0,... son menores que 1. Las fracciones impropias y los decimales con parte entera mayor o igual a 1 son mayores que la unidad.",
+      "explanation": "Con denominadores positivos, las fracciones de este ejercicio con numerador menor son menores que 1 y las de numerador mayor lo superan. En los decimales comparamos el valor completo con 1.",
       "hint": "Fíjate si el numerador es mayor que el denominador o en la parte entera del número decimal.",
       "lang": "es",
       "categories": [
@@ -194,7 +194,7 @@
       "id": "g6-mates-numeros-racionales-09",
       "type": "true-false",
       "prompt": "Entre los números decimales 0,4 y 0,5 no existe ningún otro número racional posible.",
-      "explanation": "Es falso. Entre cualquier par de racionales hay infinitos números. Por ejemplo, 0,45 o 0,41 están entre 0,4 y 0,5.",
+      "explanation": "Entre dos racionales distintos hay infinitos racionales. Por ejemplo, 0,41 y 0,45 están entre 0,4 y 0,5.",
       "hint": "Piensa en 0,40 y 0,50. ¿Hay números con dos decimales en medio?",
       "lang": "es",
       "answer": false

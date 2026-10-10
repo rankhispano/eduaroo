@@ -70,10 +70,10 @@
     {
       "id": "g4-lengua-la-obra-de-teatro-03",
       "type": "fill-blank",
-      "prompt": "Completa la frase sobre la estructura del teatro.",
-      "explanation": "Las escenas marcan las entradas y salidas de personajes dentro de un mismo acto.",
+      "prompt": "Este guion divide las escenas por entradas y salidas de personajes. Completa la frase.",
+      "explanation": "En esta forma habitual de organizar el guion, las entradas y salidas delimitan las escenas.",
       "lang": "es",
-      "sentence": "Cada vez que un personaje entra o sale del escenario, cambia la ___ de la obra.",
+      "sentence": "En este guion, cada entrada o salida de un personaje inicia una nueva ___.",
       "options": [
         "canción",
         "escena",
@@ -218,7 +218,7 @@
     {
       "id": "g4-lengua-la-obra-de-teatro-10",
       "type": "fill-blank",
-      "prompt": "Elige la acotación más adecuada para la escena de misterio que escribe Nerea.",
+      "prompt": "El detective busca una pista sin llamar la atención. Elige la acotación adecuada.",
       "explanation": "Un detective que busca pistas sin llamar la atención habla en voz baja y vigila su entorno.",
       "lang": "es",
       "sentence": "DETECTIVE: ___ ¡He encontrado la huella misteriosa detrás del cuadro!",

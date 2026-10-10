@@ -1,0 +1,233 @@
+{
+  "id": "g4-mates-fracciones-equivalentes",
+  "cursoId": "4",
+  "asignaturaId": "mates",
+  "temaId": "fracciones-equivalentes",
+  "temaNombre": "Equivalent Fractions",
+  "title": "The Mystery of Equivalent Fractions",
+  "summary": "Recognise, create and check equivalent fractions in everyday situations.",
+  "keyIdeas": [
+    "Equivalent fractions represent the same part of the same whole.",
+    "Multiplying or dividing numerator and denominator by the same non-zero number keeps the fraction's value.",
+    "Equivalent fractions have equal cross-products."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE2",
+      "CE3"
+    ],
+    "criteria": [
+      "1.1",
+      "2.3",
+      "3.1"
+    ],
+    "descriptors": [
+      "CCEC4",
+      "CCL1",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones",
+      "D. Sentido algebraico › Relaciones y funciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-mates-fracciones-equivalentes-01",
+      "type": "choice",
+      "prompt": "Lucía eats 1/2 of an empanada, and Omar eats 2/4 of an identical one. 🥟 Who eats more?",
+      "explanation": "They eat the same amount: 1/2 and 2/4 are equivalent fractions of identical wholes.",
+      "hint": "Imagine dividing Lucía's half into two equal pieces.",
+      "lang": "en",
+      "options": [
+        "Both eat the same amount.",
+        "Lucía eats more empanada.",
+        "Omar eats more empanada."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-02",
+      "type": "true-false",
+      "prompt": "Two fractions are equivalent if they represent exactly the same part of a whole.",
+      "explanation": "True. Their numbers can differ while their values are equal.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-03",
+      "type": "match",
+      "prompt": "Match each fraction with an equivalent fraction.",
+      "explanation": "In each pair, multiplying the numerator and denominator by the same number gives the other fraction.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "1/2",
+          "right": "4/8"
+        },
+        {
+          "left": "1/3",
+          "right": "2/6"
+        },
+        {
+          "left": "3/4",
+          "right": "6/8"
+        },
+        {
+          "left": "2/5",
+          "right": "4/10"
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence to form an equivalent fraction with larger terms.",
+      "explanation": "Multiply 2 × 3 = 6 and 3 × 3 = 9 to get 6/9.",
+      "hint": "Multiply both the top and bottom numbers by 3.",
+      "lang": "en",
+      "sentence": "Multiplying the numerator and denominator of 2/3 by 3 gives ___.",
+      "options": [
+        "6/3",
+        "5/6",
+        "6/9"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-05",
+      "type": "classify",
+      "prompt": "Sort these fractions by whether they equal one half.",
+      "explanation": "A fraction equals 1/2 when its numerator is half its denominator.",
+      "lang": "en",
+      "categories": [
+        "Equivalent to 1/2",
+        "Not equivalent to 1/2"
+      ],
+      "items": [
+        {
+          "text": "3/6",
+          "category": 0
+        },
+        {
+          "text": "5/10",
+          "category": 0
+        },
+        {
+          "text": "2/4",
+          "category": 0
+        },
+        {
+          "text": "2/5",
+          "category": 1
+        },
+        {
+          "text": "4/6",
+          "category": 1
+        },
+        {
+          "text": "3/8",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-06",
+      "type": "choice",
+      "prompt": "Hugo tries to find a fraction equivalent to 3/5 and writes 4/6. What is his mistake?",
+      "explanation": "Adding 1 to both terms does not keep the value here: 3/5 and 4/6 are not equivalent. Multiplying both by the same non-zero number does keep the value.",
+      "hint": "What operation did Hugo use on 3 and 5?",
+      "lang": "en",
+      "options": [
+        "He multiplied the numerator and denominator by 2.",
+        "He added 1 to the numerator and denominator instead of multiplying.",
+        "He divided the denominator by 2."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-07",
+      "type": "order",
+      "prompt": "Put the cross-product check for 2/3 and 4/6 in order.",
+      "explanation": "Calculate both cross-products and compare them. Either multiplication can be done first.",
+      "lang": "en",
+      "items": [
+        "Identify the terms of 2/3 and 4/6.",
+        "Calculate both cross-products: 2 × 6 and 3 × 4.",
+        "Compare the results: both equal 12."
+      ]
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-08",
+      "type": "choice",
+      "prompt": "Aisha and Wei paint identical murals. Aisha paints 3/4 and Wei paints 9/12. What number multiplies both terms of 3/4 to make 9/12?",
+      "explanation": "3 × 3 = 9 and 4 × 3 = 12, so both terms are multiplied by 3.",
+      "hint": "What number multiplies 3 to make 9?",
+      "lang": "en",
+      "options": [
+        "Multiply by 3.",
+        "Multiply by 2.",
+        "Multiply by 4."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-09",
+      "type": "fill-blank",
+      "prompt": "Complete the text about the school garden.",
+      "explanation": "4 ÷ 4 = 1 and 12 ÷ 4 = 3. Dividing both terms by 4 gives 1/3.",
+      "hint": "Divide the numerator and denominator by 4.",
+      "lang": "en",
+      "sentence": "A garden has 12 equal beds, and 4/12 contain lettuces. Dividing both fraction terms by 4 gives ___ of the garden.",
+      "options": [
+        "2/6",
+        "1/4",
+        "1/3"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g4-mates-fracciones-equivalentes-10",
+      "type": "choice",
+      "prompt": "Martina cuts a cake into 8 equal pieces and eats 6. Adrián cuts an identical cake into 4 equal pieces. How many must he eat to have the same amount?",
+      "explanation": "Martina eats 6/8. Dividing both terms by 2 gives 3/4, so Adrián must eat 3 pieces.",
+      "hint": "Find a fraction equivalent to 6/8 with denominator 4.",
+      "lang": "en",
+      "options": [
+        "He must eat 3 pieces.",
+        "He must eat 2 pieces.",
+        "He must eat 4 pieces."
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:15:18.902Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:53:39.800Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "f506b053c516ed4b40ba0d1bfae3c42718f7a63125af90bd0f58a7c380dbefb0",
+      "validation": "manual-review"
+    }
+  }
+}

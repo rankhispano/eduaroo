@@ -7,8 +7,8 @@
   "title": "¿Cómo nacen las nuevas plantas?",
   "summary": "Practica cómo se reproducen las plantas mediante flores, frutos y semillas.",
   "keyIdeas": [
-    "Las flores producen frutos que guardan semillas dentro.",
-    "Las semillas necesitan agua y calor para germinar.",
+    "En las plantas con flor, algunas partes de las flores forman frutos con semillas.",
+    "Para germinar, una semilla necesita agua, aire y temperatura adecuada.",
     "Los insectos y el viento ayudan a transportar el polen."
   ],
   "lomloe": {
@@ -46,8 +46,8 @@
     {
       "id": "g2-naturales-las-plantas-reproduccion-01",
       "type": "choice",
-      "prompt": "¿En qué parte de la planta se forman las semillas?",
-      "explanation": "Las flores son el órgano donde nacen los frutos y las semillas.",
+      "prompt": "¿Dónde se forman las semillas de una planta de tomate?",
+      "explanation": "En las plantas de tomate, las semillas se forman a partir de partes de las flores.",
       "hint": "Tienen pétalos de colores muy bonitos.",
       "lang": "es",
       "options": [
@@ -102,8 +102,8 @@
     {
       "id": "g2-naturales-las-plantas-reproduccion-05",
       "type": "choice",
-      "prompt": "Lucía pone una semilla sobre algodón húmedo y templado. ¿Qué pasará?",
-      "explanation": "Con humedad y calor adecuado, la semilla despierta y empieza a germinar.",
+      "prompt": "Lucía pone una semilla de judía sana en algodón húmedo, con aire y temperatura adecuada. ¿Qué puede ocurrir?",
+      "explanation": "Si la semilla está sana y tiene agua, aire y temperatura adecuada, puede germinar.",
       "hint": "El agua ayuda a que la semilla despierte.",
       "lang": "es",
       "options": [
@@ -147,7 +147,7 @@
       "type": "choice",
       "prompt": "Hugo cree que las flores solo sirven para adornar. ¿Por qué se equivoca?",
       "explanation": "Las flores son muy útiles porque producen el fruto y las semillas.",
-      "hint": "Sin flores, no habría nuevas plantas con flor.",
+      "hint": "Piensa en la función de las flores en una planta de tomate.",
       "lang": "es",
       "options": [
         "Porque sujetan la planta al suelo",
@@ -173,14 +173,14 @@
     {
       "id": "g2-naturales-las-plantas-reproduccion-09",
       "type": "choice",
-      "prompt": "Omar riega su semilla, pero Aisha olvida regar la suya. ¿Qué pasará?",
-      "explanation": "El agua es imprescindible para que las semillas puedan germinar.",
-      "hint": "Recuerda qué necesita una semilla para brotar.",
+      "prompt": "Dos semillas sanas tienen aire y temperatura adecuada. Omar humedece la suya; la de Aisha está seca. ¿Cuál puede germinar?",
+      "explanation": "Las semillas necesitan agua para germinar. En esta comparación, la semilla de Omar puede hacerlo.",
+      "hint": "Fíjate en qué semilla tiene humedad.",
       "lang": "es",
       "options": [
-        "Las dos semillas crecerán igual",
-        "Solo la semilla de Omar germinará",
-        "Solo la semilla de Aisha crecerá"
+        "Las dos, aunque una no tenga agua.",
+        "La de Omar, porque tiene agua.",
+        "La de Aisha, porque está seca."
       ],
       "answer": 1
     },
@@ -191,7 +191,7 @@
       "explanation": "Los frutos protegen las semillas de las que brotarán nuevos árboles.",
       "lang": "es",
       "title": "El secreto de la manzana",
-      "text": "Aisha pasea por el huerto escolar. En el suelo encuentra una rica manzana roja. Su maestro le enseña las pepitas que tiene dentro. Son semillas que esperan caer en la tierra. Con lluvia y sol, nacerá un nuevo manzano.",
+      "text": "Aisha pasea por el huerto escolar. Encuentra una manzana roja caída. Su maestro le enseña las pepitas de dentro. Son las semillas del manzano. Si están sanas y tienen agua, aire y temperatura adecuada, pueden germinar y formar un nuevo manzano.",
       "questions": [
         {
           "prompt": "¿Qué encontró Aisha dentro de la manzana?",
@@ -204,8 +204,8 @@
           "answer": 0
         },
         {
-          "prompt": "¿Qué nacerá de esas semillas con agua y sol?",
-          "explanation": "Cada semilla da origen a una planta de su misma especie.",
+          "prompt": "Si esas semillas germinan, ¿qué planta crecerá?",
+          "explanation": "Las semillas de un manzano pueden dar origen a nuevos manzanos.",
           "options": [
             "Una flor de rosal",
             "Una planta de trigo",

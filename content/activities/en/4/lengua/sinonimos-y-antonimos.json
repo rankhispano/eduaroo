@@ -1,0 +1,255 @@
+{
+  "id": "g4-lengua-sinonimos-y-antonimos",
+  "cursoId": "4",
+  "asignaturaId": "lengua",
+  "temaId": "sinonimos-y-antonimos",
+  "temaNombre": "Spanish Synonyms and Antonyms",
+  "title": "The Power of Words",
+  "summary": "Practise Spanish synonyms and antonyms to improve your writing and understand what you read.",
+  "keyIdeas": [
+    "Synonyms have the same or very similar meanings in a particular context.",
+    "Antonyms express opposite meanings.",
+    "Using suitable synonyms helps avoid repetition and improves writing."
+  ],
+  "lomloe": {
+    "area": "lengua-castellana",
+    "cycle": 2,
+    "competencies": [
+      "CE4",
+      "CE9"
+    ],
+    "criteria": [
+      "4.1",
+      "9.1",
+      "9.2"
+    ],
+    "descriptors": [
+      "CCL1",
+      "CCL2",
+      "CCL3",
+      "CCL5",
+      "CD1",
+      "CP2",
+      "CPSAA4",
+      "CPSAA5",
+      "STEM1",
+      "STEM2"
+    ],
+    "basicKnowledge": [
+      "B. Comunicación › Procesos",
+      "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-01",
+      "type": "true-false",
+      "prompt": "Two words are synonyms if their meanings are opposite.",
+      "explanation": "False. Words with opposite meanings are antonyms. Synonyms have the same or very similar meanings.",
+      "lang": "en",
+      "answer": false,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-02",
+      "type": "match",
+      "prompt": "Match each Spanish word with its synonym.",
+      "explanation": "These pairs have similar meanings: «veloz/rápido», «comenzar/empezar», «alegre/contento» and «conversar/hablar».",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "veloz",
+          "right": "rápido"
+        },
+        {
+          "left": "comenzar",
+          "right": "empezar"
+        },
+        {
+          "left": "alegre",
+          "right": "contento"
+        },
+        {
+          "left": "conversar",
+          "right": "hablar"
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-03",
+      "type": "choice",
+      "prompt": "At school lunch, Hugo says the soup is «muy caliente». Which Spanish word expresses the opposite temperature?",
+      "explanation": "«Fría» is the opposite of «caliente» when describing temperature.",
+      "hint": "Choose the word with the opposite meaning to «caliente».",
+      "lang": "en",
+      "options": [
+        "Fría",
+        "Sabrosa",
+        "Humeante"
+      ],
+      "answer": 0,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-04",
+      "type": "classify",
+      "prompt": "Sort these Spanish word pairs by their relationship.",
+      "explanation": "Similar meanings make a synonym pair; opposite meanings make an antonym pair.",
+      "lang": "en",
+      "categories": [
+        "Synonyms",
+        "Antonyms"
+      ],
+      "items": [
+        {
+          "text": "enorme / gigante",
+          "category": 0
+        },
+        {
+          "text": "subir / bajar",
+          "category": 1
+        },
+        {
+          "text": "limpio / sucio",
+          "category": 1
+        },
+        {
+          "text": "inteligente / listo",
+          "category": 0
+        },
+        {
+          "text": "abrir / cerrar",
+          "category": 1
+        },
+        {
+          "text": "bonito / hermoso",
+          "category": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-05",
+      "type": "reading",
+      "prompt": "Read the Spanish story about the park and answer the questions.",
+      "explanation": "Notice related and contrasting meanings to understand the characters' feelings and actions.",
+      "lang": "en",
+      "title": "El rescate del gatito",
+      "text": "Ayer por la tarde, Lucía y Martín paseaban por el parque municipal. De pronto, escucharon un maullido débil entre las ramas de un árbol frondoso. Un pequeño gato negro parecía asustado y no se atrevía a descender. Lucía buscó ayuda rápidamente y avisó a la jardinera del parque. Con una escalera alta y mucha paciencia, la mujer logró alcanzarlo. El felino, que antes temblaba de miedo, se mostró aliviado y comenzó a ronronear con calma. Los dos amigos regresaron a su casa muy contentos por haber ayudado al animal.",
+      "questions": [
+        {
+          "prompt": "Which word in the text means the same as «bajar»?",
+          "explanation": "Here, «descender» and «bajar» both mean to move from a higher place to a lower one.",
+          "options": [
+            "Descender",
+            "Alcanzar",
+            "Pasear"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which word describes the cat's initial feeling that contrasts with «aliviado» at the end?",
+          "explanation": "In this story, «asustado» contrasts with «aliviado»: the cat goes from fear to calm.",
+          "options": [
+            "Asustado",
+            "Tranquilo",
+            "Frondoso"
+          ],
+          "answer": 0
+        }
+      ],
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-06",
+      "type": "fill-blank",
+      "prompt": "Choose the Spanish word with a similar meaning to avoid repetition.",
+      "explanation": "Here, «fascinante» fits a positive description similar to «emocionante».",
+      "lang": "en",
+      "sentence": "Aisha leyó un cuento emocionante y después escribió un relato igual de ___.",
+      "options": [
+        "corto",
+        "aburrido",
+        "fascinante"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-07",
+      "type": "choice",
+      "prompt": "Nerea writes Spanish antonym pairs, but makes a mistake. Which pair is NOT a pair of antonyms?",
+      "explanation": "«Antiguo» and «viejo» can have similar meanings, so they do not form an opposite pair.",
+      "hint": "Find the pair with similar rather than opposite meanings.",
+      "lang": "en",
+      "options": [
+        "Fácil / difícil",
+        "Silencioso / ruidoso",
+        "Ancho / estrecho",
+        "Antiguo / viejo"
+      ],
+      "answer": 3,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-08",
+      "type": "fill-blank",
+      "prompt": "Complete the Spanish sentence with the suitable antonym formed using a prefix.",
+      "explanation": "«Injusto» is the opposite of «justo», formed with the prefix «in-».",
+      "lang": "en",
+      "sentence": "Tratar a una compañera peor que a los demás sin motivo es ___.",
+      "options": [
+        "correcto",
+        "descalzo",
+        "injusto"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-09",
+      "type": "choice",
+      "prompt": "Omar writes: «El examen de música fue muy duro». Which Spanish synonym best fits «duro» here?",
+      "explanation": "For a school test, «duro» means difficult, rather than physically hard or solid.",
+      "hint": "Think about the meaning of «duro» when describing a school test.",
+      "lang": "en",
+      "options": [
+        "Rígido",
+        "Sólido",
+        "Difícil"
+      ],
+      "answer": 2,
+      "contentLang": "es"
+    },
+    {
+      "id": "g4-lengua-sinonimos-y-antonimos-10",
+      "type": "order",
+      "prompt": "Put these Spanish adjectives in order from smallest to largest in meaning.",
+      "explanation": "The size scale is «diminuto», «pequeño», «grande», then «gigante».",
+      "lang": "en",
+      "items": [
+        "diminuto",
+        "pequeño",
+        "grande",
+        "gigante"
+      ],
+      "contentLang": "es"
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T13:45:19.763Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T17:26:37.011Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "29a6718bd6e311e6667051614ee7701dee7ab365c698930119b271465a94b680",
+      "validation": "manual-review"
+    }
+  }
+}

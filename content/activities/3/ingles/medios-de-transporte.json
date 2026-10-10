@@ -146,7 +146,7 @@
       "id": "g3-ingles-medios-de-transporte-06",
       "type": "fill-blank",
       "prompt": "Hugo vive muy cerca del colegio. Completa la frase:",
-      "explanation": "¡Muy bien! Decimos 'on foot' para decir 'a pie'. Con el resto de transportes usamos 'by'.",
+      "explanation": "«On foot» significa a pie. Para indicar el medio de transporte sin artículo, usamos «by bus», «by car» o «by train»; también existen expresiones como «on the bus» e «in a car».",
       "hint": "Esta expresión es una excepción especial.",
       "lang": "en",
       "sentence": "Hugo lives near school, so he goes ___ foot.",
@@ -164,7 +164,7 @@
       "explanation": "¡Gran lectura! Has identificado cómo viaja cada niño y niña al colegio.",
       "lang": "en",
       "title": "How We Go to School",
-      "text": "Every morning, four friends travel to school in different ways. Wei takes the big yellow school bus because his house is far away. Aisha loves the fresh air, so she rides her green bike with her dad. Omar lives right next to the school park, so he walks on foot every day with his sister. Today is special for Martina. She takes the fast train with her mum to visit the city museum. They all arrive on time, ready to learn and play together!",
+      "text": "Every morning, four friends travel to school in different ways. Wei takes the big yellow school bus because his house is far away. Aisha loves the fresh air, so she rides her green bike with her dad. Omar lives right next to the school park, so he walks on foot every day with his sister. Today is special for Martina. She takes the fast train with her mum to visit the city museum. The three friends arrive at school on time. Martina learns about history at the museum.",
       "questions": [
         {
           "prompt": "Who travels to school by bike?",
@@ -218,8 +218,8 @@
     {
       "id": "g3-ingles-medios-de-transporte-10",
       "type": "choice",
-      "prompt": "Which vehicle has pedals, no motor, and does not pollute the air?",
-      "explanation": "¡Excelente! La bicicleta (bicycle) se mueve con pedales, no contamina y cuida el medio ambiente.",
+      "prompt": "Which vehicle in this list has pedals and produces no exhaust fumes while you ride?",
+      "explanation": "Una bicicleta sin motor no emite gases de escape al pedalear. Fabricarla también utiliza materiales y energía.",
       "hint": "Cuidas el planeta pedaleando.",
       "lang": "en",
       "options": [

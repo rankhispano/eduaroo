@@ -1,0 +1,239 @@
+{
+  "id": "g3-mates-fracciones",
+  "cursoId": "3",
+  "asignaturaId": "mates",
+  "temaId": "fracciones",
+  "temaNombre": "Fractions",
+  "title": "Everyday adventures with fractions",
+  "summary": "Practise what fractions mean, their parts and how to use them in everyday problems.",
+  "keyIdeas": [
+    "The denominator tells us how many equal parts make the whole.",
+    "The numerator tells us how many of those parts we choose or take.",
+    "Dividing the same whole into more equal parts makes each part smaller."
+  ],
+  "lomloe": {
+    "area": "matematicas",
+    "cycle": 2,
+    "competencies": [
+      "CE1",
+      "CE5",
+      "CE6"
+    ],
+    "criteria": [
+      "1.1",
+      "5.2",
+      "6.1"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CCEC4",
+      "CCL1",
+      "CCL3",
+      "CD1",
+      "CD2",
+      "CD3",
+      "CD5",
+      "CE1",
+      "CE3",
+      "CPSAA5",
+      "STEM1",
+      "STEM2",
+      "STEM3",
+      "STEM4"
+    ],
+    "basicKnowledge": [
+      "A. Sentido numérico › Cantidad",
+      "A. Sentido numérico › Relaciones"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-mates-fracciones-01",
+      "type": "match",
+      "prompt": "Match each fraction to how we read it.",
+      "explanation": "The top number tells us how many parts. The bottom number names the parts: halves, thirds or quarters.",
+      "hint": "A 2 below means halves, and a 4 means quarters.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "1/2",
+          "right": "One half"
+        },
+        {
+          "left": "1/4",
+          "right": "One quarter"
+        },
+        {
+          "left": "3/4",
+          "right": "Three quarters"
+        },
+        {
+          "left": "2/3",
+          "right": "Two thirds"
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-fracciones-02",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct term.",
+      "explanation": "The denominator gives the number of equal parts in a whole. The numerator gives the number taken.",
+      "hint": "Think of the number naming the kind of parts.",
+      "lang": "en",
+      "sentence": "In a fraction, the bottom number is the ___ and shows how many equal parts make the whole.",
+      "options": [
+        "numerator",
+        "denominator",
+        "answer"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-mates-fracciones-03",
+      "type": "true-false",
+      "prompt": "In this part-whole model, all the parts of the object must be equal in size to represent a fraction.",
+      "explanation": "We divide the whole into equal parts to count halves, thirds or quarters.",
+      "hint": "Can unequal cake slices each be called a quarter?",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-mates-fracciones-04",
+      "type": "choice",
+      "prompt": "Martina divides an empanada, a filled pastry, into 8 equal portions. At dinner, 5 portions are eaten. What fraction is left?",
+      "explanation": "The whole empanada is 8/8. After eating 5/8, there are 8 - 5 = 3 portions left. That is 3/8.",
+      "hint": "Find how many of the 8 portions are left.",
+      "lang": "en",
+      "options": [
+        "3/5",
+        "5/8",
+        "3/8"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-fracciones-05",
+      "type": "classify",
+      "prompt": "Sort these fractions by their relationship to one whole.",
+      "explanation": "If numerator and denominator are equal, the fraction is one whole. If the numerator is smaller, the fraction is less than one whole.",
+      "hint": "Compare the top and bottom numbers.",
+      "lang": "en",
+      "categories": [
+        "Less than one whole",
+        "Equal to one whole"
+      ],
+      "items": [
+        {
+          "text": "3/5",
+          "category": 0
+        },
+        {
+          "text": "4/4",
+          "category": 1
+        },
+        {
+          "text": "1/6",
+          "category": 0
+        },
+        {
+          "text": "8/8",
+          "category": 1
+        },
+        {
+          "text": "5/7",
+          "category": 0
+        },
+        {
+          "text": "2/2",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-mates-fracciones-06",
+      "type": "choice",
+      "prompt": "Omar compares one sixth and one half of the same cake. He says 1/6 is greater because 6 is greater than 2. What is his mistake?",
+      "explanation": "Dividing the same cake into 6 equal parts makes each piece smaller than dividing it into 2 equal parts.",
+      "hint": "Imagine the size of half a cake and one sixth of the same cake.",
+      "lang": "en",
+      "options": [
+        "He should add 6 + 2 to find the bigger piece.",
+        "He makes no mistake: 1/6 is always greater than 1/2.",
+        "He forgets that more equal pieces of the same whole means smaller pieces."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-fracciones-07",
+      "type": "choice",
+      "prompt": "Aisha has 12 felt-tip pens. A quarter (1/4) are green. How many green pens does she have?",
+      "explanation": "To find 1/4 of 12, divide by 4: 12 ÷ 4 = 3 pens.",
+      "hint": "Share 12 pens into 4 equal groups.",
+      "lang": "en",
+      "options": [
+        "3 pens",
+        "4 pens",
+        "6 pens"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-mates-fracciones-08",
+      "type": "order",
+      "prompt": "Put these fractions in order from smallest to largest.",
+      "explanation": "With the same denominator, a smaller numerator means a smaller fraction.",
+      "hint": "All the parts are eighths. Compare how many are taken.",
+      "lang": "en",
+      "items": [
+        "1/8",
+        "3/8",
+        "5/8",
+        "7/8"
+      ]
+    },
+    {
+      "id": "g3-mates-fracciones-09",
+      "type": "choice",
+      "prompt": "Lucas and Nerea open a chocolate bar with 10 equal squares. Lucas eats 3/10 and Nerea eats 4/10. What fraction is left?",
+      "explanation": "Together they eat 3/10 + 4/10 = 7/10. The whole bar is 10/10, so 10/10 - 7/10 = 3/10 is left.",
+      "hint": "First add the fractions they eat.",
+      "lang": "en",
+      "options": [
+        "1/10",
+        "7/10",
+        "3/10"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-mates-fracciones-10",
+      "type": "choice",
+      "prompt": "Adrián needs 2/4 of a litre of milk for a cake. He finds a container with 1/2 litre in the fridge. Does he have enough?",
+      "explanation": "Two quarters (2/4) equals one half (1/2). Two of four equal parts make exactly half.",
+      "hint": "Draw a circle in 4 equal parts and colour 2.",
+      "lang": "en",
+      "options": [
+        "No, because 1/2 is much less than 2/4.",
+        "No, because he needs two more quarters.",
+        "Yes, because 2/4 and 1/2 are the same amount."
+      ],
+      "answer": 2
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T11:09:04.239Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T13:47:28.215Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "4827cf3addff1f7276fc6d7986b24dd38a4e0d67dc69b5e45f121d25deba1eba",
+      "validation": "manual-review"
+    }
+  }
+}

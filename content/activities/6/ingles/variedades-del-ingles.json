@@ -107,8 +107,8 @@
     {
       "id": "g6-ingles-variedades-del-ingles-05",
       "type": "classify",
-      "prompt": "Classify these everyday words into British English or American English:",
-      "explanation": "Autumn, trousers y holiday son habituales en el Reino Unido. Fall, pants y vacation son los términos más usados en Estados Unidos.",
+      "prompt": "Classify these choices by their typical association in this comparison. Some words are shared.",
+      "explanation": "Aquí comparamos usos frecuentes. Autumn, trousers y holiday se asocian al británico; fall, pants y vacation, al estadounidense. Las palabras no son exclusivas de un país.",
       "lang": "en",
       "categories": [
         "British English",
@@ -132,11 +132,11 @@
           "category": 1
         },
         {
-          "text": "holiday",
+          "text": "holiday (time off work or school)",
           "category": 0
         },
         {
-          "text": "vacation",
+          "text": "vacation (time off work or school)",
           "category": 1
         }
       ]
@@ -158,14 +158,14 @@
     {
       "id": "g6-ingles-variedades-del-ingles-07",
       "type": "fill-blank",
-      "prompt": "Complete the sentence using the common American English word for home:",
+      "prompt": "Choose the usual American word meaning a flat or piso.",
       "explanation": "En inglés americano se utiliza 'apartment' para referirse a un piso, mientras que en inglés británico dicen 'flat'.",
       "lang": "en",
       "sentence": "My pen pal lives in a modern ___ in Chicago.",
       "options": [
-        "cottage",
+        "apartment building",
         "apartment",
-        "flat"
+        "attic"
       ],
       "answer": 1
     },
@@ -173,13 +173,13 @@
       "id": "g6-ingles-variedades-del-ingles-08",
       "type": "order",
       "prompt": "Put the dialogue between Liam (USA) and Harry (UK) in the correct order:",
-      "explanation": "El diálogo comienza con el ofrecimiento de Liam, la aclaración amistosa de Harry sobre las galletas, la nueva pregunta de Liam y la respuesta final sobre los dulces.",
+      "explanation": "Los amigos aclaran biscuit/cookie y sweets/candy. El inglés británico también usa cookie; estas diferencias son tendencias de uso.",
       "lang": "en",
       "items": [
-        "Liam: 'Hi Harry! Do you want a chocolate chip cookie?'",
-        "Harry: 'Thanks, Liam! In England, we usually call them biscuits.'",
-        "Liam: 'Really? That is cool! What do you call candy?'",
-        "Harry: 'We call candy sweets. Different words for delicious treats!'"
+        "Liam: 'Hi Harry! This packet says biscuits. What does that mean?'",
+        "Harry: 'It means small sweet baked treats. We use biscuit for many of them.'",
+        "Liam: 'In my family, we call those cookies. What do you call candy?'",
+        "Harry: 'We call candy sweets. We also use cookie, especially for some kinds.'"
       ]
     },
     {

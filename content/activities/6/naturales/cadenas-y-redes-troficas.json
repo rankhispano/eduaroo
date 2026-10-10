@@ -51,7 +51,7 @@
       "hint": "Recuerda la palabra 'autótrofo' y cómo obtienen su energía.",
       "lang": "es",
       "options": [
-        "Porque fabrican su propio alimento mediante la fotosíntesis a partir de agua, sales y luz solar.",
+        "Porque fabrican materia orgánica con agua y dióxido de carbono, utilizando la energía de la luz.",
         "Porque producen verduras y frutas destinadas únicamente al consumo humano.",
         "Porque absorben animales microscópicos del suelo para alimentarse de ellos."
       ],
@@ -86,7 +86,7 @@
           "category": 1
         },
         {
-          "text": "Hongos de suelo",
+          "text": "Hongos que descomponen hojas muertas",
           "category": 2
         },
         {
@@ -94,11 +94,11 @@
           "category": 0
         },
         {
-          "text": "Saltamontes",
+          "text": "Saltamontes que come hojas",
           "category": 1
         },
         {
-          "text": "Bacterias de la hojarasca",
+          "text": "Bacterias descomponedoras de la hojarasca",
           "category": 2
         }
       ]
@@ -121,7 +121,7 @@
     {
       "id": "g6-naturales-cadenas-y-redes-troficas-05",
       "type": "match",
-      "prompt": "Une cada organismo de una laguna dulceacuícola con su función en la red trófica:",
+      "prompt": "En este modelo de cadena aparecen fitoplancton → dafnios → trucha → garza. Relaciona cada organismo con su papel en este modelo:",
       "explanation": "El fitoplancton capta la luz, el zooplancton lo consume, la trucha come zooplancton y la garza pesca a la trucha.",
       "lang": "es",
       "pairs": [
@@ -147,13 +147,13 @@
       "id": "g6-naturales-cadenas-y-redes-troficas-06",
       "type": "order",
       "prompt": "Ordena estos eslabones para formar una cadena trófica completa según el sentido del flujo de energía:",
-      "explanation": "La energía fluye desde el productor (bellota) al consumidor primario (ratón), de este al depredador (búho) y finalmente a los descomponedores.",
+      "explanation": "La encina es el productor. Las flechas muestran la transferencia al alimentarse; los descomponedores aprovechan restos de todos los niveles.",
       "lang": "es",
       "items": [
-        "Bellota de encina",
-        "Ratón de campo",
-        "Búho real",
-        "Bacterias del suelo"
+        "Encina, que produce bellotas",
+        "Ratón que come bellotas",
+        "Búho que caza al ratón",
+        "Bacterias que descomponen sus restos"
       ]
     },
     {
@@ -173,8 +173,8 @@
     {
       "id": "g6-naturales-cadenas-y-redes-troficas-08",
       "type": "choice",
-      "prompt": "En un bosque, una plaga marchita la mayoría de los arbustos que producen moras. Los lirones se alimentan casi exclusivamente de estas moras, y las lechuzas cazan principalmente lirones. ¿Qué predicción razonada ocurrirá primero?",
-      "explanation": "Al reducirse el recurso de los consumidores primarios (lirones), su número baja por hambre y, a continuación, los depredadores sufren escasez de presas.",
+      "prompt": "En un bosque, una plaga marchita la mayoría de los arbustos que producen moras. Los lirones se alimentan casi exclusivamente de estas moras, y las lechuzas cazan principalmente lirones. ¿Qué predicción razonada es más razonable que ocurra primero?",
+      "explanation": "La escasez de moras puede reducir los lirones y después afectar a las lechuzas. Es una predicción que debemos contrastar con datos.",
       "hint": "Sigue el orden de la cadena: ¿a quién afecta de forma inmediata la escasez de frutos?",
       "lang": "es",
       "options": [
@@ -188,14 +188,14 @@
       "id": "g6-naturales-cadenas-y-redes-troficas-09",
       "type": "reading",
       "prompt": "Lee este texto sobre el bosque mediterráneo y responde a las preguntas.",
-      "explanation": "El lince actúa como especie clave: su presencia mantiene el equilibrio entre las distintas poblaciones del monte mediterráneo.",
+      "explanation": "La conservación requiere atender a las relaciones ecológicas y comprobar los resultados con datos.",
       "lang": "es",
       "title": "El lince ibérico y el equilibrio del monte",
-      "text": "En el bosque mediterráneo, el lince ibérico ocupa la cima de la pirámide trófica. Este felino se alimenta principalmente de conejos de campo, que constituyen cerca del 90 % de su dieta habitual. Durante décadas, diversas enfermedades diezmaron a los conejos y la actividad humana fragmentó los montes, colocando al lince al borde de la extinción.\n\nCuando los científicos investigaron las zonas donde el lince había desaparecido, comprobaron un desajuste inesperado: aumentaron depredadores de tamaño mediano como zorros y meloncillos. Al no competir con el lince por el territorio, estos carnívoros proliferaron y comenzaron a cazar en exceso otras aves y pequeños mamíferos.\n\nCon la recuperación paulatina del lince ibérico en parques naturales como Sierra Morena y Doñana, el monte ha recuperado su balance. El lince aleja a los depredadores menores y regula las poblaciones de conejo. La protección de este gran carnívoro demuestra que cada eslabón sostiene la estabilidad de toda la comunidad biológica.",
+      "text": "El lince ibérico se alimenta principalmente de conejos. Las enfermedades de sus presas y la pérdida de hábitat fueron amenazas importantes para su supervivencia. Para conservarlo, es necesario cuidar también el monte y las poblaciones de conejo.\n\nEl lince se relaciona con otros carnívoros, como zorros y meloncillos. Su presencia puede influir en cómo utilizan el territorio y en las poblaciones de sus presas. Estas relaciones forman una red: cambiar una especie puede afectar a otras.\n\nLos programas de conservación combinan la protección del hábitat, el seguimiento de animales y la reducción de riesgos. Los efectos deben comprobarse con observaciones y datos; recuperar una especie no garantiza por sí solo que todos los problemas del ecosistema desaparezcan.",
       "questions": [
         {
           "prompt": "¿Qué animal constituye la presa fundamental del lince ibérico según el texto?",
-          "explanation": "El texto señala expresamente que los conejos de campo suponen cerca del 90 % de su dieta habitual.",
+          "explanation": "El texto identifica al conejo como su principal presa.",
           "options": [
             "La perdiz roja.",
             "El meloncillo.",
@@ -204,20 +204,20 @@
           "answer": 2
         },
         {
-          "prompt": "¿Por qué la ausencia del lince favoreció la multiplicación de zorros y meloncillos?",
-          "explanation": "Al faltar el superdepredador territorial, los carnívoros medianos encontraron vía libre para ocupar el espacio y cazar sin competencia.",
+          "prompt": "¿Por qué proteger solo al lince sería insuficiente?",
           "options": [
-            "Porque los conejos eligieron a los zorros como nuevos protectores de sus madrigueras.",
-            "Porque los zorros aprendieron a alimentarse de los restos que dejaban los linces.",
-            "Porque el lince ya no competía con ellos ni marcaba territorio para frenar su expansión."
+            "Porque necesita también presas y un hábitat adecuado",
+            "Porque puede vivir sin alimento",
+            "Porque todos los carnívoros comen únicamente plantas"
           ],
-          "answer": 2
+          "answer": 0,
+          "explanation": "La conservación debe atender al hábitat, a las presas y a las relaciones entre especies."
         },
         {
           "prompt": "¿Qué conclusión científica sobre la conservación se extrae de esta situación?",
-          "explanation": "Los grandes depredadores cumplen un papel regulador esencial; su presencia evita la sobrepoblación y el colapso del ecosistema.",
+          "explanation": "Las especies están relacionadas. Los datos permiten evaluar cómo cambian esas relaciones.",
           "options": [
-            "Proteger a los superdepredadores ayuda a mantener el equilibrio de todas las poblaciones de la red trófica.",
+            "Conservar una especie exige estudiar sus relaciones con el resto del ecosistema.",
             "Es mejor eliminar a los carnívoros para que solo vivan herbívoros en el monte.",
             "Las redes tróficas funcionan mejor cuando desaparecen las especies que comen carne."
           ],
@@ -228,8 +228,8 @@
     {
       "id": "g6-naturales-cadenas-y-redes-troficas-10",
       "type": "choice",
-      "prompt": "Lucía compara una cadena trófica lineal con una red trófica compleja. ¿Por qué una red trófica hace que el ecosistema sea mucho más estable y resistente ante imprevistos?",
-      "explanation": "En una red trófica los organismos tienen varias fuentes de alimento. Si una presa falla temporalmente, la comunidad sobrevive adaptando su dieta.",
+      "prompt": "¿Por qué contar con distintas fuentes de alimento puede ayudar a una red trófica cuando escasea una presa?",
+      "explanation": "Algunos consumidores pueden usar otras fuentes de alimento. Esto puede favorecer la resistencia de la red, aunque no garantiza que resista cualquier cambio.",
       "hint": "Piensa en qué ocurre si tienes varias opciones para merendar en lugar de una sola.",
       "lang": "es",
       "options": [

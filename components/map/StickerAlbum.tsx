@@ -2,26 +2,28 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { usePracticeStore } from '@/lib/learning/practiceStore';
-import { curriculum, getCurso } from '@/src/data/curriculum';
+import { getCurriculum, getCurso } from '@/src/data/localizedCurriculum';
 import { getPracticeSet, practiceKey } from '@/src/data/activityResources';
-import { REGIONS } from '@/src/data/regions';
+import { getRegions } from '@/src/data/regions';
 
 // Cada tema con tres estrellas desbloquea la pegatina de su región
 export default function StickerAlbum() {
     const t = useTranslations('KidsMap');
+    const locale = useLocale();
+    const regions = getRegions(locale);
     const topics = usePracticeStore((s) => s.topics);
     const profileCurso = usePracticeStore((s) => s.cursoId);
     const [picked, setPicked] = useState<string | null>(null);
     const cursoId = picked ?? profileCurso ?? '1';
-    const curso = getCurso(cursoId);
+    const curso = getCurso(cursoId, locale);
     if (!curso) return null;
 
     const rows = curso.asignaturas.map((a) => ({
         asignatura: a,
-        temas: a.temas.filter((x) => getPracticeSet(cursoId, a.id, x.id)),
+        temas: a.temas.filter((x) => getPracticeSet(cursoId, a.id, x.id, locale)),
     }));
     const total = rows.reduce((sum, r) => sum + r.temas.length, 0);
     const earned = rows.reduce((sum, r) => sum + r.temas.filter((x) => topics[practiceKey(cursoId, r.asignatura.id, x.id)]?.stars === 3).length, 0);
@@ -34,7 +36,7 @@ export default function StickerAlbum() {
             </header>
 
             <div className="flex flex-wrap items-center gap-2" role="group" aria-label={t('stickersCourse')}>
-                {curriculum.map((c) => (
+                {getCurriculum(locale).map((c) => (
                     <button
                         key={c.id}
                         type="button"
@@ -42,7 +44,7 @@ export default function StickerAlbum() {
                         aria-pressed={c.id === cursoId}
                         className={`rounded-full px-4 py-2 font-black transition ${c.id === cursoId ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900' : 'bg-white text-slate-600 hover:bg-slate-100 dark:bg-slate-900 dark:text-slate-300'}`}
                     >
-                        {c.id}º
+                        {locale === 'en' ? c.nombre : `${c.id}º`}
                     </button>
                 ))}
                 <span className="ml-auto rounded-full bg-pink-100 px-4 py-2 font-black text-pink-700 dark:bg-pink-900/40 dark:text-pink-300">
@@ -54,7 +56,7 @@ export default function StickerAlbum() {
                 temas.length ? (
                     <section key={asignatura.id} className="rounded-3xl bg-white p-5 dark:bg-slate-900">
                         <h2 className="mb-4 text-xl font-black" style={{ color: asignatura.color }}>
-                            {REGIONS[asignatura.id].region} · {asignatura.nombre}
+                            {regions[asignatura.id].region} · {asignatura.nombre}
                         </h2>
                         <ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 lg:grid-cols-8">
                             {temas.map((tema, i) => {
@@ -67,7 +69,7 @@ export default function StickerAlbum() {
                                                     className={`relative block aspect-square w-full max-w-24 overflow-hidden rounded-full border-4 bg-white shadow-lg ${i % 2 ? 'rotate-6' : '-rotate-6'}`}
                                                     style={{ borderColor: asignatura.color }}
                                                 >
-                                                    <Image src={REGIONS[asignatura.id].image} alt="" fill className="object-cover" sizes="96px" />
+                                                    <Image src={regions[asignatura.id].image} alt="" fill className="object-cover" sizes="96px" />
                                                 </span>
                                             ) : (
                                                 <span

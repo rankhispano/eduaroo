@@ -98,7 +98,7 @@
       "id": "g3-mates-decimales-decimas-04",
       "type": "classify",
       "prompt": "Clasifica estos números decimales según su valor.",
-      "explanation": "Si la parte entera es 0, el número es menor que 1. Si es 1 o más, es mayor.",
+      "explanation": "Todos los números de este ejercicio con parte entera 0 son menores que 1. Los que tienen parte entera 1 y décimas positivas, o una parte entera mayor, superan 1.",
       "lang": "es",
       "categories": [
         "Menores que 1",

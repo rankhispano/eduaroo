@@ -1,0 +1,249 @@
+{
+  "id": "g5-sociales-paisajes-de-espana-y-europa",
+  "cursoId": "5",
+  "asignaturaId": "sociales",
+  "temaId": "paisajes-de-espana-y-europa",
+  "temaNombre": "Landscapes of Spain and Europe",
+  "title": "A journey through Spain's and Europe's landscapes",
+  "summary": "Explore landforms, climates, vegetation and rivers across Spain and Europe.",
+  "keyIdeas": [
+    "Spain has varied landscapes: oceanic, Mediterranean, mountain and subtropical Canary Island landscapes.",
+    "Europe's relief combines broad central plains, high younger mountain ranges in the south and older uplands.",
+    "Climate and relief influence rivers and vegetation, while human activity also shapes landscapes."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 3,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-01",
+      "type": "true-false",
+      "prompt": "Spain's typical Mediterranean landscape has hot, dry summers, with more rain in spring and autumn.",
+      "explanation": "The Mediterranean climate typically has summer drought and warm summers, with much rainfall in autumn and spring.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-02",
+      "type": "choice",
+      "prompt": "On which archipelago is Teide, Spain's highest peak?",
+      "explanation": "Teide is a volcano on Tenerife in the Canary Islands. The islands have varied landscapes, and high summits are colder than the coast.",
+      "hint": "It is on an Atlantic island off Africa's coast.",
+      "lang": "en",
+      "options": [
+        "The Canary Islands, with their subtropical landscapes.",
+        "The Pyrenees, in a high-mountain landscape.",
+        "The Balearic Islands, in a Mediterranean landscape.",
+        "The Cantabrian Mountains, in an oceanic landscape."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about European landforms.",
+      "explanation": "The Great European Plain stretches across much of central and eastern Europe, supporting farming and land transport.",
+      "lang": "en",
+      "sentence": "The Great ___ Plain stretches broadly from near the Pyrenees towards the Ural Mountains.",
+      "options": [
+        "European",
+        "Iberian",
+        "Alpine"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-04",
+      "type": "match",
+      "prompt": "Match each Spanish drainage area to a river flowing into it.",
+      "explanation": "The Nalón is a short river flowing into the Cantabrian Sea. The long Tagus reaches the Atlantic at Lisbon. The Ebro is a major river of Spain's Mediterranean drainage area.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Rivers draining into the Cantabrian Sea",
+          "right": "River Nalón"
+        },
+        {
+          "left": "Rivers draining into the Atlantic",
+          "right": "River Tagus (Tajo)"
+        },
+        {
+          "left": "Rivers draining into the Mediterranean",
+          "right": "River Ebro"
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-05",
+      "type": "classify",
+      "prompt": "Classify these landforms as located within the Iberian Peninsula or elsewhere in Europe.",
+      "explanation": "The Montes de Toledo, Sistema Central and Sierra Morena lie in Iberia. The Alps, Urals and Carpathians lie elsewhere in Europe.",
+      "lang": "en",
+      "categories": [
+        "Iberian Peninsula",
+        "Rest of Europe"
+      ],
+      "items": [
+        {
+          "text": "Montes de Toledo",
+          "category": 0
+        },
+        {
+          "text": "Alps",
+          "category": 1
+        },
+        {
+          "text": "Sistema Central",
+          "category": 0
+        },
+        {
+          "text": "Ural Mountains",
+          "category": 1
+        },
+        {
+          "text": "Sierra Morena",
+          "category": 0
+        },
+        {
+          "text": "Carpathians",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-06",
+      "type": "choice",
+      "prompt": "Lucía and Aisha visit a coastal Galician village with green meadows, oak and chestnut woods and frequent drizzle. Which landscape is this? 🌧️",
+      "explanation": "Northern and north-western mainland Spain has oceanic landscapes with mild temperatures, frequent moisture and deciduous woodland.",
+      "hint": "Think of northern Spain's regular rainfall.",
+      "lang": "en",
+      "options": [
+        "Desert landscape, because sea waves cause erosion.",
+        "Subtropical landscape, because of sea influence and little rainfall.",
+        "Oceanic or Atlantic landscape, with plentiful rainfall and deciduous vegetation.",
+        "An inland Mediterranean landscape with extreme temperatures."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-07",
+      "type": "order",
+      "prompt": "Order the vegetation zones in the class's Alpine mountain model from base to summit.",
+      "explanation": "This is a common Alpine pattern. Actual zones depend on the mountain, climate and slope orientation.",
+      "lang": "en",
+      "items": [
+        "Deciduous oak or beech woodland",
+        "Conifer woodland with pines and firs",
+        "Alpine meadows and low shrubs",
+        "Bare rock, permanent snow and lichens"
+      ]
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-08",
+      "type": "choice",
+      "prompt": "Many Mediterranean rivers in mainland Spain, such as the Turia and Júcar, have low summer flows. What mainly explains this? ☀️",
+      "explanation": "Summer low flow results from limited rain and high temperatures in the Mediterranean climate.",
+      "hint": "Think about summer rainfall and heat.",
+      "lang": "en",
+      "options": [
+        "Constant mountain altitude prevents winter rain.",
+        "Glaciers melt early during winter.",
+        "Dams divert all river water into the Atlantic.",
+        "Summer evaporation combines with pronounced drought in the warm months."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-09",
+      "type": "reading",
+      "prompt": "Read about European landscapes and answer the questions.",
+      "explanation": "The text shows Europe's climate and vegetation contrasts and why human impacts require protection.",
+      "lang": "en",
+      "title": "Europe's natural mosaic",
+      "text": "Europe has strikingly varied landscapes. In the Scandinavian north, taiga forests of firs and pines and tundra face very cold winters. Towards central Europe, oceanic and continental landscapes include broad plains crossed by major rivers such as the Rhine and Danube, long used for trade and industry.\n\nFarther south, Mediterranean landscapes have dry summers and woodlands of holm and cork oaks. Human activities, including cities, roads and irrigated farming, have transformed many environments. National parks and biosphere reserves help protect biodiversity so future generations can enjoy this natural heritage.",
+      "questions": [
+        {
+          "prompt": "Which two rivers are named as important trade routes across central plains?",
+          "explanation": "The text names the Rhine and Danube.",
+          "options": [
+            "The Volga and Seine",
+            "The Rhine and Danube",
+            "The Tagus and Ebro"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Why are conifers common in northern forests?",
+          "explanation": "Their needle-like leaves and shapes help them tolerate winter cold and snow.",
+          "options": [
+            "Intensive farming removed every other plant species.",
+            "Northern Europe has no snow and is mild throughout the year.",
+            "These trees are adapted to very cold winters and snow."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What does the text suggest about people and European landscapes?",
+          "explanation": "Industry, farming and cities alter landscapes, making protected areas important for biodiversity.",
+          "options": [
+            "Economic activities have changed landscapes and require environmental protection.",
+            "Nature has never changed because European cities are tiny.",
+            "Navigable rivers are no longer useful because of climate change."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g5-sociales-paisajes-de-espana-y-europa-10",
+      "type": "choice",
+      "prompt": "Doñana National Park in Andalucía has wetlands used by birds migrating between Europe and Africa. Excessive groundwater extraction threatens lagoons. Which proposal best balances conservation and local wellbeing? 🌿",
+      "explanation": "Sustainability combines ecosystem protection with responsible local livelihoods through efficient water use and lawful management.",
+      "hint": "Choose wetland protection together with responsible alternatives for residents.",
+      "lang": "en",
+      "options": [
+        "Fly migrating birds to northern European wetlands each spring.",
+        "Improve water-efficient irrigation, close illegal wells and encourage sustainable crops.",
+        "Drain all wetlands to create farmland and immediate temporary jobs.",
+        "Ban all human activity throughout the autonomous community without alternatives for farmers."
+      ],
+      "answer": 1
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T16:32:09.817Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T11:13:44.905Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "3029e0ff227bb7984cf7e19751a29221d52a283eddc5ee43dedb493637de8a2e",
+      "validation": "manual-review"
+    }
+  }
+}

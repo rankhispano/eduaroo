@@ -43,8 +43,8 @@
     {
       "id": "g4-lengua-sujeto-y-predicado-01",
       "type": "true-false",
-      "prompt": "En cualquier oración con verbo, el verbo siempre forma parte del predicado.",
-      "explanation": "El verbo es la palabra principal y el núcleo del predicado, ya que indica la acción o el estado del sujeto.",
+      "prompt": "En una oración sencilla como «El perro corre», el verbo «corre» forma parte del predicado.",
+      "explanation": "En «El perro corre», el verbo «corre» es el núcleo del predicado y expresa lo que hace el sujeto.",
       "lang": "es",
       "answer": true
     },
@@ -141,8 +141,8 @@
     {
       "id": "g4-lengua-sujeto-y-predicado-06",
       "type": "order",
-      "prompt": "Ordena los pasos del truco de la concordancia para encontrar el sujeto sin equivocarte:",
-      "explanation": "El sujeto siempre concuerda con el verbo; por eso, al cambiar el verbo de número, el sujeto cambia con él obligatoriamente.",
+      "prompt": "Ordena la guía de concordancia para una oración sencilla con sujeto expreso, como «El perro corre».",
+      "explanation": "En «El perro corre», al cambiar «corre» por «corren» cambia «el perro» por «los perros». La concordancia ayuda a encontrar el sujeto en estos ejemplos.",
       "lang": "es",
       "items": [
         "Localiza el verbo principal de la oración.",

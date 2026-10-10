@@ -1,0 +1,240 @@
+{
+  "id": "g3-sociales-instituciones-locales",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "instituciones-locales",
+  "temaNombre": "Local institutions",
+  "title": "Discover your local institutions",
+  "summary": "Learn how the town council works, who belongs to it and which public services care for your municipality.",
+  "keyIdeas": [
+    "The town council governs and organises a municipality.",
+    "The municipal government includes the mayor and councillors.",
+    "Local voters elect councillors every four years in municipal elections."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5",
+      "CE9"
+    ],
+    "criteria": [
+      "9.2",
+      "5.1"
+    ],
+    "descriptors": [
+      "CC1",
+      "CC2",
+      "CC3",
+      "CC4",
+      "CCEC1",
+      "CCL5",
+      "CD1",
+      "CE1",
+      "CPSAA1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Alfabetización cívica"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-instituciones-locales-01",
+      "type": "choice",
+      "prompt": "In which building does a municipality's government work? 🏛️",
+      "explanation": "The town hall is the building where the government team works and manages municipal affairs.",
+      "hint": "Council meetings are held there.",
+      "lang": "en",
+      "options": [
+        "The railway station",
+        "The local museum",
+        "The town hall"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-02",
+      "type": "true-false",
+      "prompt": "The mayor makes every decision alone, without anyone's help.",
+      "explanation": "The mayor works as a team with councillors to govern the municipality.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-03",
+      "type": "match",
+      "prompt": "Match each municipal service to its main job.",
+      "explanation": "The council organises public services to keep the municipality clean, safe and cared for.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Local police",
+          "right": "Managing traffic and looking after safety"
+        },
+        {
+          "left": "Cleaning service",
+          "right": "Sweeping streets and emptying rubbish bins"
+        },
+        {
+          "left": "Parks and gardens service",
+          "right": "Caring for trees and green spaces"
+        },
+        {
+          "left": "Municipal library",
+          "right": "Lending books and organising reading workshops"
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-04",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about local elections.",
+      "explanation": "In Spain, ordinary municipal elections take place every four years to renew local government.",
+      "hint": "Think about the usual length of a municipal term of office.",
+      "lang": "en",
+      "sentence": "In ordinary municipal elections, councillors are elected every ___ years.",
+      "options": [
+        "ten",
+        "two",
+        "four"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-05",
+      "type": "classify",
+      "prompt": "Sort these tasks by who is responsible for them.",
+      "explanation": "The council looks after public spaces, while families take care of household tasks.",
+      "lang": "en",
+      "categories": [
+        "Council services",
+        "Responsibilities at home"
+      ],
+      "items": [
+        {
+          "text": "Repairing a street lamp",
+          "category": 0
+        },
+        {
+          "text": "Tidying toys in your bedroom",
+          "category": 1
+        },
+        {
+          "text": "Resurfacing a neighbourhood avenue",
+          "category": 0
+        },
+        {
+          "text": "Clearing and washing the dinner dishes",
+          "category": 1
+        },
+        {
+          "text": "Watering plants on a balcony",
+          "category": 1
+        },
+        {
+          "text": "Keeping the playground clean",
+          "category": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-06",
+      "type": "reading",
+      "prompt": "Read the school news story and answer the questions.",
+      "explanation": "The council chamber is where representatives debate public decisions. Taxes help pay for local improvements.",
+      "lang": "en",
+      "title": "Primary Grade 3 visits the council chamber",
+      "text": "Today, the Primary Grade 3 class visited their town hall. The mayor, Nuria, welcomed them into the council chamber. She explained that councillors meet there to debate and vote on local improvements. The pupils asked about the new playground and the cycle lane to school. Nuria explained that the municipal budget pays for these projects using taxes paid by residents. Finally, the children sat in the councillors' seats and held a pretend vote to choose a tree for their playground.",
+      "questions": [
+        {
+          "prompt": "Where are council decisions debated and voted on?",
+          "explanation": "Councillors meet in the council chamber to debate and vote.",
+          "options": [
+            "In the council chamber",
+            "In the municipal storehouse",
+            "In the clock tower"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How are municipal services and building projects paid for?",
+          "explanation": "The mayor explains that residents' taxes help fund these projects.",
+          "options": [
+            "With taxes paid by residents",
+            "With money given by tourists",
+            "With prizes from school competitions"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-07",
+      "type": "order",
+      "prompt": "Put these steps in a municipality's democratic process in order.",
+      "explanation": "First, parties present their ideas. Voters then elect councillors, who choose the mayor.",
+      "lang": "en",
+      "items": [
+        "Parties explain their proposals to residents",
+        "Voters cast their votes in ballot boxes",
+        "Councillors from the parties are elected",
+        "Councillors choose the mayor"
+      ]
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-08",
+      "type": "choice",
+      "prompt": "Omar and Lucía see a broken swing in their neighbourhood park. What should their families do? 🛝",
+      "explanation": "The council is responsible for maintaining and repairing municipal playgrounds.",
+      "hint": "Think about which institution manages public play areas.",
+      "lang": "en",
+      "options": [
+        "Report it to the council through its residents' service",
+        "Call the hospital to request an ambulance",
+        "Wait for rain to see whether it fixes itself"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-09",
+      "type": "true-false",
+      "prompt": "Registered local residents can attend public council meetings as audience members.",
+      "explanation": "Municipal council meetings are public so people can learn how decisions about their town or city are made.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-sociales-instituciones-locales-10",
+      "type": "choice",
+      "prompt": "Aisha's village wants a safe cycle lane to the school. Who should debate and approve this public project? 🚲",
+      "explanation": "The council decides on improvements to municipal streets. Full council meetings approve matters such as budgets; specific responsibilities are shared among its governing bodies.",
+      "hint": "Think about the local government.",
+      "lang": "en",
+      "options": [
+        "The mayor and councillors at a full council meeting",
+        "The headteacher and school meal supervisors",
+        "School bus drivers"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:56:00.706Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:27:29.747Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "03ecac998635ac6705a648af4f2a9e762a2b817a0e8d75438a8651766d5e9af9",
+      "validation": "manual-review"
+    }
+  }
+}

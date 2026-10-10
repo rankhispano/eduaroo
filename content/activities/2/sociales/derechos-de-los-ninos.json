@@ -146,7 +146,7 @@
       "id": "g2-sociales-derechos-de-los-ninos-08",
       "type": "fill-blank",
       "prompt": "Completa la frase sobre la protección familiar.",
-      "explanation": "La familia ofrece el cariño, la seguridad y el cuidado que todo niño necesita.",
+      "explanation": "Todos los niños merecen cariño, protección y cuidado, sea cual sea su situación familiar.",
       "lang": "es",
       "sentence": "Todos los niños tienen derecho a crecer con protección y recibir ___ en su hogar.",
       "options": [
@@ -188,14 +188,14 @@
     {
       "id": "g2-sociales-derechos-de-los-ninos-10",
       "type": "choice",
-      "prompt": "En algunos lugares del mundo hay niños que trabajan. ¿Por qué es injusto?",
-      "explanation": "El trabajo infantil está prohibido porque impide a los niños estudiar, jugar y desarrollarse.",
-      "hint": "Piensa en qué necesitan los niños para tener un buen futuro.",
+      "prompt": "Un niño tiene que trabajar tantas horas que no puede ir al colegio ni descansar. ¿Por qué se vulneran sus derechos?",
+      "explanation": "El trabajo que impide estudiar o descansar, o perjudica la salud, vulnera los derechos de la infancia.",
+      "hint": "Recuerda los derechos a aprender, descansar y estar protegido.",
       "lang": "es",
       "options": [
-        "Porque tienen derecho a educarse y no deben trabajar",
-        "Porque los niños hacen peor las tareas que los adultos",
-        "Porque los niños solo deben trabajar los fines de semana"
+        "Porque necesita educación, descanso y protección frente a la explotación.",
+        "Porque solo debería trabajar sin recibir dinero.",
+        "Porque estudiar importa solo cuando sea adulto."
       ],
       "answer": 0
     }

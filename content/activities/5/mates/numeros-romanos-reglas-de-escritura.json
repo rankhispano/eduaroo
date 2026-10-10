@@ -5,7 +5,7 @@
   "temaId": "numeros-romanos-reglas-de-escritura",
   "temaNombre": "Números romanos: reglas de escritura",
   "title": "Descifra los números romanos",
-  "summary": "Aprenderás a leer y escribir números romanos aplicando correctamente sus cuatro reglas fundamentales.",
+  "summary": "Practica las reglas convencionales actuales para leer y escribir números romanos.",
   "keyIdeas": [
     "Las letras I, X, C y M pueden repetirse un máximo de tres veces seguidas; V, L y D nunca se repiten.",
     "Una letra a la derecha de otra de igual o mayor valor suma (XV = 15); una letra a la izquierda de otra de mayor valor resta (IX = 9).",
@@ -197,7 +197,7 @@
     {
       "id": "g5-mates-numeros-romanos-reglas-de-escritura-10",
       "type": "choice",
-      "prompt": "En el museo de arqueología, Nerea observa una lápida romana con la fecha de inauguración de un acueducto: año CCLXXXIX. ¿A qué número corresponde?",
+      "prompt": "Nerea observa el número CCLXXXIX en un cartel del museo. ¿A qué número corresponde?",
       "explanation": "CC son 200, LXXX son 80 (50 + 30) e IX son 9 (10 - 1). Sumamos: 200 + 80 + 9 = 289.",
       "hint": "Descompón en centenas (CC), decenas (LXXX) y unidades (IX).",
       "lang": "es",

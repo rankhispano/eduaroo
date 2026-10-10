@@ -1,0 +1,235 @@
+{
+  "id": "g3-sociales-el-relieve-montanas-rios-costas",
+  "cursoId": "3",
+  "asignaturaId": "sociales",
+  "temaId": "el-relieve-montanas-rios-costas",
+  "temaNombre": "Landforms: mountains, rivers and coasts",
+  "title": "Landform adventures",
+  "summary": "Discover mountains, rivers and coasts as you explore the landscapes around us.",
+  "keyIdeas": [
+    "Landforms are the different shapes of Earth's surface.",
+    "A mountain has three main parts: its foot, slopes and summit or peak.",
+    "A river has a source, a course and a mouth. Its mouth can be at the sea, a lake or another river."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 2,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "C. Sociedades y territorios › Retos del mundo actual"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-01",
+      "type": "choice",
+      "prompt": "Lucía climbs to the highest part of a mountain. What is this called? ⛰️",
+      "explanation": "The summit, or peak, is the highest point of a mountain. The foot is its lowest part.",
+      "hint": "It is the very highest point.",
+      "lang": "en",
+      "options": [
+        "Foot",
+        "Slope",
+        "Summit or peak"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-02",
+      "type": "true-false",
+      "prompt": "A plain is an area of flat land without large rises.",
+      "explanation": "Plains are large areas of fairly flat land.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-03",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence about the parts of a river.",
+      "explanation": "Rivers begin at their source, often in mountain areas.",
+      "hint": "Think about where the river starts.",
+      "lang": "en",
+      "sentence": "The place where a river begins is called its ___.",
+      "options": [
+        "mouth",
+        "source",
+        "meander"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-04",
+      "type": "classify",
+      "prompt": "Sort these landforms into inland or coastal features.",
+      "explanation": "In this exercise, mountain ranges, plateaus and valleys are inland features. Beaches, capes and sea cliffs are coastal features.",
+      "lang": "en",
+      "categories": [
+        "Inland landforms",
+        "Coastal landforms"
+      ],
+      "items": [
+        {
+          "text": "Mountain range",
+          "category": 0
+        },
+        {
+          "text": "Sea cliff",
+          "category": 1
+        },
+        {
+          "text": "Plateau",
+          "category": 0
+        },
+        {
+          "text": "Beach",
+          "category": 1
+        },
+        {
+          "text": "Valley",
+          "category": 0
+        },
+        {
+          "text": "Cape",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-05",
+      "type": "match",
+      "prompt": "Match each coastal feature to its definition.",
+      "explanation": "Coastal features have different names depending on the shape of the land and sea.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Island",
+          "right": "Land surrounded by water on all sides"
+        },
+        {
+          "left": "Peninsula",
+          "right": "Land surrounded by water except for a narrow connection called an isthmus"
+        },
+        {
+          "left": "Gulf",
+          "right": "A large area of sea extending into the coast"
+        },
+        {
+          "left": "Cape",
+          "right": "A point of coastal land extending into the sea"
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-06",
+      "type": "order",
+      "prompt": "Put this river's journey in order. It starts in a mountain and flows into the sea.",
+      "explanation": "This river travels from the mountains to the sea. Others flow into lakes or other rivers, and their courses can have different features.",
+      "lang": "en",
+      "items": [
+        "Source in the mountains",
+        "Upper course with fast-flowing water",
+        "Middle course with curves called meanders",
+        "Lower course with slow-flowing water",
+        "Mouth at the sea"
+      ]
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-07",
+      "type": "choice",
+      "prompt": "Hugo and Aisha visit an area of high land with a flat top. Which landform is it? 🗺️",
+      "explanation": "A plateau is a flat area of land high above sea level.",
+      "hint": "It looks like a giant table.",
+      "lang": "en",
+      "options": [
+        "A valley",
+        "A mountain",
+        "A plateau"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-08",
+      "type": "reading",
+      "prompt": "Read about Omar's trip and answer the questions.",
+      "explanation": "Valleys lie between mountains, and rivers and their tributaries often flow through them.",
+      "lang": "en",
+      "title": "A day in the Río Verde valley",
+      "text": "Yesterday, we visited the Río Verde valley on a school trip. Our teacher explained that the valley formed between two very high mountain ranges. We walked beside the river in its middle course. The water flowed calmly, making gentle curves called meanders. In the distance, a smaller river, or tributary, joined the main river. On the bank, we found smooth, round stones shaped by flowing water over many years. It was a wonderful day!",
+      "questions": [
+        {
+          "prompt": "Where did the valley visited by Omar's group form?",
+          "explanation": "The text says that the valley formed between two very high mountain ranges.",
+          "options": [
+            "Between two very high mountain ranges",
+            "On a beach with golden sand",
+            "At the top of a sea cliff"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What is a smaller river that flows into the main river called?",
+          "explanation": "A tributary is a smaller river that flows into a larger one.",
+          "options": [
+            "Tributary",
+            "Meander",
+            "Canyon"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-09",
+      "type": "true-false",
+      "prompt": "A river's flow rate is the distance it travels from its source.",
+      "explanation": "Flow rate describes how much water passes along the river in a given time. The distance the river travels is its length.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g3-sociales-el-relieve-montanas-rios-costas-10",
+      "type": "choice",
+      "prompt": "A bay is sheltered from waves by the shape of its coast. Why might it be a good place for a harbour?",
+      "explanation": "In this bay, the coast shelters boats from waves. Water depth and other conditions must also be studied before building a harbour.",
+      "hint": "Think about the shelter provided by the coastline's curves.",
+      "lang": "en",
+      "options": [
+        "The curved inlet shelters boats from waves",
+        "The seawater there is always frozen",
+        "The waves are huge and very dangerous"
+      ],
+      "answer": 0
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T09:49:38.231Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:26:24.410Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "bac65423dfc45e5cfeafcf13423f87ba783e00a329b7bfc6a941e1091787f3b6",
+      "validation": "manual-review"
+    }
+  }
+}

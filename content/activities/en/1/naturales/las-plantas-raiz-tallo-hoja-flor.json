@@ -1,0 +1,233 @@
+{
+  "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor",
+  "cursoId": "1",
+  "asignaturaId": "naturales",
+  "temaId": "las-plantas-raiz-tallo-hoja-flor",
+  "temaNombre": "Plants: roots, stems, leaves and flowers",
+  "title": "Discovering plant parts",
+  "summary": "Learn to recognise roots, stems, leaves and flowers.",
+  "keyIdeas": [
+    "Roots hold plants in the soil and take in water.",
+    "Stems support plants and carry water.",
+    "Leaves make food using sunlight."
+  ],
+  "lomloe": {
+    "area": "conocimiento-medio",
+    "cycle": 1,
+    "competencies": [
+      "CE5"
+    ],
+    "criteria": [
+      "5.1",
+      "5.2"
+    ],
+    "descriptors": [
+      "CC4",
+      "CCEC1",
+      "CD1",
+      "CE1",
+      "STEM1",
+      "STEM2",
+      "STEM4",
+      "STEM5"
+    ],
+    "basicKnowledge": [
+      "A. Cultura científica › La vida en nuestro planeta"
+    ]
+  },
+  "activities": [
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-01",
+      "type": "choice",
+      "prompt": "Which plant part usually grows hidden underground?",
+      "explanation": "Roots usually grow underground and hold the plant in the soil.",
+      "hint": "It grows down to reach water.",
+      "lang": "en",
+      "options": [
+        "Root",
+        "Flower",
+        "Leaf"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-02",
+      "type": "match",
+      "prompt": "Match each plant part to its main job.",
+      "explanation": "Each plant part has a job that helps it live and reproduce.",
+      "lang": "en",
+      "pairs": [
+        {
+          "left": "Root",
+          "right": "Takes in water from soil"
+        },
+        {
+          "left": "Stem",
+          "right": "Supports leaves"
+        },
+        {
+          "left": "Leaf",
+          "right": "Captures sunlight"
+        },
+        {
+          "left": "Flower",
+          "right": "Produces seeds"
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-03",
+      "type": "true-false",
+      "prompt": "The stem carries water from the roots to the leaves.",
+      "explanation": "The stem carries water around the plant, a little like a drinking straw.",
+      "lang": "en",
+      "answer": true
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-04",
+      "type": "classify",
+      "prompt": "Sort plant parts and things plants need.",
+      "explanation": "Roots, stems and flowers are plant parts. Plants need water, light and air.",
+      "lang": "en",
+      "categories": [
+        "Plant parts",
+        "Things needed to live"
+      ],
+      "items": [
+        {
+          "text": "Root",
+          "category": 0
+        },
+        {
+          "text": "Stem",
+          "category": 0
+        },
+        {
+          "text": "Flower",
+          "category": 0
+        },
+        {
+          "text": "Water",
+          "category": 1
+        },
+        {
+          "text": "Sunlight",
+          "category": 1
+        },
+        {
+          "text": "Air",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-05",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the right plant part.",
+      "explanation": "Roots absorb water from the soil.",
+      "lang": "en",
+      "sentence": "The ___ absorbs water from the soil.",
+      "options": [
+        "root",
+        "flower",
+        "leaf"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-06",
+      "type": "choice",
+      "prompt": "Aisha puts a plant in a cupboard with no light. What will happen?",
+      "explanation": "Green plants need light to make food and grow well.",
+      "hint": "Leaves need light to make food.",
+      "lang": "en",
+      "options": [
+        "It will grow greener and stronger",
+        "It will grow lots of colourful flowers",
+        "It will become yellow and weak"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-07",
+      "type": "order",
+      "prompt": "Put the growth of a bean plant in order.",
+      "explanation": "When the seed germinates, a root appears first, then the stem and leaves. Flowers appear later.",
+      "lang": "en",
+      "items": [
+        "We plant a bean seed",
+        "A small root grows",
+        "The stem grows upwards",
+        "The first leaves appear"
+      ]
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-08",
+      "type": "choice",
+      "prompt": "Omar says, 'Plants drink water through their flowers.' Why is he wrong?",
+      "explanation": "Plants take water from soil through their roots, rather than through flowers.",
+      "hint": "Think about where you water a potted plant.",
+      "lang": "en",
+      "options": [
+        "They take water from the soil through their roots",
+        "They take water from the air through branches",
+        "Plants never need water"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-09",
+      "type": "true-false",
+      "prompt": "All plant leaves have the same shape.",
+      "explanation": "Leaves have many shapes: long, round or needle-shaped, like pine needles.",
+      "lang": "en",
+      "answer": false
+    },
+    {
+      "id": "g1-naturales-las-plantas-raiz-tallo-hoja-flor-10",
+      "type": "reading",
+      "prompt": "Read about Mateo's experiment and answer the questions.",
+      "explanation": "The stem carries water and nutrients to the plant's upper parts.",
+      "lang": "en",
+      "title": "The carnation experiment",
+      "text": "With an adult's help, Mateo puts a white carnation in water with red food colouring. The next day, its white petals have red patches. The water has travelled up the stem to the flower.",
+      "questions": [
+        {
+          "prompt": "Through which plant part did the coloured water travel?",
+          "explanation": "The stem carries water from the glass to the petals.",
+          "options": [
+            "The stem",
+            "The root",
+            "The seed"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which part of the carnation had red patches?",
+          "explanation": "The coloured water reached the flower and coloured its petals.",
+          "options": [
+            "The flower's petals",
+            "The plant's root",
+            "The soil in the pot"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generator": "generate-activities@1",
+    "model": "gemini-3.8-flash",
+    "generatedAt": "2026-10-08T15:31:56.361Z",
+    "reviewed": false,
+    "translation": {
+      "generator": "manual-translation@1",
+      "model": "Codex",
+      "translatedAt": "2026-10-09T12:45:45.593Z",
+      "sourceLocale": "es",
+      "targetLocale": "en",
+      "sourceHash": "08c046e36744569b8c9526f088d322bf63dc58960ead3b6bc432f1763475167a",
+      "validation": "manual-review"
+    }
+  }
+}
