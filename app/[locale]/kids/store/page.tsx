@@ -1,14 +1,11 @@
+import { staticPageMetadata } from '@/lib/seo/pages';
+import { toSiteLocale } from '@/lib/seo/site';
 import { getTranslations } from 'next-intl/server';
 import AvatarBuilder from '@/components/AvatarBuilder';
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
-    const params = await props.params;
-    const { locale } = params;
-
-    return {
-        title: 'Tienda y Avatar',
-        description: 'Personaliza tu avatar y desbloquea items con estrellas'
-    };
+    const { locale } = await props.params;
+    return staticPageMetadata('kidsStore', toSiteLocale(locale));
 }
 
 export default function StorePage() {

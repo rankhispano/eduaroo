@@ -1,7 +1,11 @@
-import type { Metadata } from 'next';
+import { staticPageMetadata } from '@/lib/seo/pages';
+import { toSiteLocale } from '@/lib/seo/site';
 import RooMascot, { type RooPose } from '@/components/mascot/RooMascot';
 
-export const metadata: Metadata = { title: 'Conoce a Roo' };
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
+    const { locale } = await props.params;
+    return staticPageMetadata('mascota', toSiteLocale(locale));
+}
 
 const POSES: { pose: RooPose; name: string; use: string }[] = [
     { pose: 'idle', name: 'En reposo', use: 'Cabeceras y espacios tranquilos' },

@@ -140,9 +140,10 @@ export default function MiMapa() {
                 <section className="flex flex-wrap items-center gap-4 rounded-3xl bg-white p-4 shadow-sm dark:bg-slate-900">
                     <Avatar mascot={mascot} wave />
                     <div className="min-w-0 flex-1">
-                        <h1 className="text-2xl font-black text-slate-900 sm:text-3xl dark:text-white">
+                        {/* El h1 de la portada está en HomeSeo (servidor): aquí es un saludo */}
+                        <h2 className="text-2xl font-black text-slate-900 sm:text-3xl dark:text-white">
                             {name ? t('hello', { name }) : t('helloNoName')}
-                        </h1>
+                        </h2>
                         <p className="font-bold text-slate-500">{curso ? curso.nombre : t('chooseCourseHint')}</p>
                     </div>
                     <div className="flex w-full flex-wrap items-center gap-2 sm:w-auto">

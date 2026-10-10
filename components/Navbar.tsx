@@ -20,7 +20,7 @@ export default function Navbar() {
             <div className="container mx-auto px-4 sm:px-6 lg:pr-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="flex-shrink-0 flex items-center">
-                        <Link href="/" className="font-bold text-2xl text-brand-blue tracking-tight">
+                        <Link href="/" className="font-bold text-2xl text-sky-700 dark:text-sky-400 tracking-tight">
                             Eduaroo 🦘
                         </Link>
                     </div>
@@ -51,6 +51,8 @@ export default function Navbar() {
                         <LanguageSelector />
                         <button
                             onClick={() => setIsOpen(!isOpen)}
+                            aria-label={isOpen ? 'Cerrar menú' : 'Abrir menú'}
+                            aria-expanded={isOpen}
                             className="ml-2 p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
                         >
                             <Menu className="w-6 h-6" />

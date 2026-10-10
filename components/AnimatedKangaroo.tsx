@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState, useRef } from 'react';
-import { usePathname } from 'next/navigation';
+import { usePathname } from '@/i18n/navigation';
 
 // Sprite sheet configuration
 // Canvas: 192x96, Grid: 3 rows x 6 columns, Cell: 32x32
@@ -195,7 +195,8 @@ export default function AnimatedKangaroo() {
                     style={{
                         width: SPRITE_WIDTH * SCALE,
                         height: SPRITE_HEIGHT * SCALE,
-                        backgroundImage: 'url(/kangaroo-sprite.png)',
+                        // Versión 768×384 (2× del tamaño mostrado) en WebP: el PNG original pesaba 469 KB
+                        backgroundImage: 'url(/kangaroo-sprite-768.webp)',
                         backgroundPosition: `${backgroundX * SCALE}px ${backgroundY * SCALE}px`,
                         backgroundSize: `${192 * SCALE}px ${96 * SCALE}px`,
                         imageRendering: 'pixelated',

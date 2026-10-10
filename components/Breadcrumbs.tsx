@@ -1,7 +1,6 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
-import { Link } from '@/i18n/navigation';
+import { Link, usePathname } from '@/i18n/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import { ChevronRight, Home } from 'lucide-react';
 import { getCurriculum, getAsignatura, getCurso } from '@/src/data/localizedCurriculum';
@@ -42,16 +41,15 @@ export default function Breadcrumbs() {
     const t = useTranslations('Navigation');
     const locale = useLocale();
 
-    // Split path into segments
-    // /es/learning/math -> ['', 'es', 'learning', 'math']
-    const segments = pathname.split('/').filter(Boolean);
-
-    // Remove locale (first segment)
-    // We assume the first segment is ALWAYS the locale due to middleware config
-    const pathSegments = segments.slice(1);
+    // usePathname de i18n/navigation devuelve la ruta lógica sin idioma: /learning/math/grade4
+    const pathSegments = pathname.split('/').filter(Boolean);
 
     // Don't show on home page
     if (pathSegments.length === 0) return null;
+
+    // Las páginas del árbol /primaria, los juegos y las legales pintan sus propias migas en el servidor
+    // (components/seo/BreadcrumbNav.tsx), con BreadcrumbList JSON-LD
+    if (/^\/(learning\/[1-6](\/|$)|games|privacy|terms)/.test(pathname)) return null;
 
     // Don't show on programming play pages (they have their own custom header)
     if (pathname.includes('/learning/programming/play')) return null;

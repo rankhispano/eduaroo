@@ -75,16 +75,17 @@ export default function TemaPath({
 
     return (
         <div className="mx-auto max-w-3xl px-4 pb-16 pt-6">
-            <header className="relative mb-6 overflow-hidden rounded-3xl p-5 text-white shadow-lg sm:p-7" style={{ backgroundColor: color }}>
+            <header className="relative mb-6 overflow-hidden rounded-3xl p-5 text-white shadow-lg sm:p-7" style={{ backgroundColor: `color-mix(in srgb, ${color} 78%, black)` }}>
                 <div className="flex items-center gap-4">
                     <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-full border-4 border-white/80 bg-white sm:h-24 sm:w-24">
                         <Image src={mascotImage} alt="" fill className="object-cover" sizes="96px" />
                     </div>
                     <div className="min-w-0 flex-1">
-                        <p className="text-sm font-extrabold text-white/85">
+                        {/* El h1 de la página es "curso · asignatura" (lo que busca quien llega); el nombre de la región es el título visual */}
+                        <h1 className="text-sm font-extrabold text-white">
                             {cursoNombre} · {asignaturaNombre}
-                        </p>
-                        <h1 className="text-3xl font-black leading-tight sm:text-4xl">{region}</h1>
+                        </h1>
+                        <p className="text-3xl font-black leading-tight sm:text-4xl">{region}</p>
                         {possible > 0 ? (
                             <div className="mt-2 max-w-xs">
                                 <p className="text-sm font-black">{t('starsProgress', { earned, possible })}</p>

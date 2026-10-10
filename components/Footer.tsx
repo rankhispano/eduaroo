@@ -1,10 +1,13 @@
 'use client';
 
 import { Link } from '@/i18n/navigation';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+import { curriculum } from '@/src/data/curriculum';
+import { paths } from '@/lib/seo/urls';
 
 export default function Footer() {
     const t = useTranslations('Footer');
+    const es = useLocale() !== 'en';
     const currentYear = new Date().getFullYear();
 
     return (
@@ -20,10 +23,21 @@ export default function Footer() {
                         </p>
                     </div>
 
-                    {/* Social icons - centered */}
-                    <div className="flex justify-center gap-4">
-                        {/* Social links can be added here */}
-                    </div>
+                    {/* Acceso a los 6 cursos desde todas las páginas (enlaces en el HTML servido) */}
+                    <nav aria-label={es ? 'Repaso por curso' : 'Revision by year'} className="md:justify-self-center">
+                        <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-300">
+                            {es ? 'Repaso por curso' : 'Revision by year'}
+                        </h2>
+                        <ul className="grid grid-cols-2 gap-x-6 gap-y-1 text-sm">
+                            {curriculum.map((curso) => (
+                                <li key={curso.id}>
+                                    <Link href={paths.curso(curso.id)} className="text-slate-300 transition-colors hover:text-emerald-400">
+                                        {es ? `Repaso de ${curso.id}º de Primaria` : `Primary ${curso.id} revision`}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </nav>
 
                     {/* Contact info - right aligned */}
                     <div className="flex flex-col md:items-end gap-2 text-sm text-slate-300">
@@ -51,13 +65,19 @@ export default function Footer() {
             {/* Bottom bar */}
             <div className="border-t border-slate-800">
                 <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-slate-500 text-sm flex items-center gap-2">
+                    <p className="text-slate-400 text-sm flex items-center gap-2">
                         © {currentYear} Archivados Network S.L. {t('rights')}
                         <span className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center text-xs">
                             🌍
                         </span>
                     </p>
-                    <div className="flex gap-6 text-sm">
+                    <div className="flex flex-wrap gap-6 text-sm">
+                        <Link href={paths.about()} className="text-slate-400 hover:text-emerald-400 transition-colors">
+                            {es ? 'Sobre Eduaroo' : 'About Eduaroo'}
+                        </Link>
+                        <Link href={paths.contact()} className="text-slate-400 hover:text-emerald-400 transition-colors">
+                            {es ? 'Contacto' : 'Contact'}
+                        </Link>
                         <Link
                             href="/privacy"
                             className="text-slate-400 hover:text-emerald-400 transition-colors"

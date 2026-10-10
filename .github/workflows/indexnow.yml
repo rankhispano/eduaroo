@@ -1,0 +1,19 @@
+name: IndexNow
+# Tras cada despliegue correcto en producción avisa a Bing/Yandex de las URLs del sitemap.
+# Requiere el secreto INDEXNOW_KEY (y la misma variable en el hosting para servir /indexnow-key.txt).
+on:
+  deployment_status:
+  workflow_dispatch:
+
+jobs:
+  indexnow:
+    if: github.event_name == 'workflow_dispatch' || (github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/seo/indexnow.mjs
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}

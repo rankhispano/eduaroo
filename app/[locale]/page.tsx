@@ -1,19 +1,25 @@
-'use client';
+import type { Metadata } from 'next';
+import { setRequestLocale } from 'next-intl/server';
+import HomeMap from '@/components/home/HomeMap';
+import HomeSeo from '@/components/home/HomeSeo';
+import { buildMetadata } from '@/lib/seo/metadata';
+import { toSiteLocale } from '@/lib/seo/site';
+import { templates } from '@/lib/seo/templates';
+import { paths } from '@/lib/seo/urls';
 
-import MiMapa from '@/components/map/MiMapa';
-import RooMascot from '@/components/mascot/RooMascot';
-import { usePracticeStore } from '@/lib/learning/practiceStore';
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+    const { locale } = await props.params;
+    const l = toSiteLocale(locale);
+    return buildMetadata({ locale: l, ...templates[l].home(), path: paths.home() });
+}
 
-// La portada es siempre "Mi mapa"; mientras se lee el progreso del navegador se muestra a Roo
-export default function HomePage() {
-    const hydrated = usePracticeStore((s) => s.hydrated);
-
-    if (!hydrated) {
-        return (
-            <div className="flex min-h-[70vh] items-center justify-center bg-linear-to-b from-sky-100 to-white dark:from-slate-950 dark:to-slate-900">
-                <RooMascot pose="wave" size={140} />
-            </div>
-        );
-    }
-    return <MiMapa />;
+export default async function HomePage(props: { params: Promise<{ locale: string }> }) {
+    const { locale } = await props.params;
+    setRequestLocale(locale);
+    return (
+        <>
+            <HomeMap />
+            <HomeSeo locale={toSiteLocale(locale)} />
+        </>
+    );
 }

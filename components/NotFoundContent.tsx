@@ -1,13 +1,21 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Link } from '@/i18n/navigation';
 import RooMascot from '@/components/mascot/RooMascot';
 import { Home } from 'lucide-react';
+import { paths } from '@/lib/seo/urls';
+
+const COURSES = [1, 2, 3, 4, 5, 6] as const;
+const COPY = {
+    es: { chooseCourse: 'O elige tu curso', course: (n: number) => `Repaso de ${n}º de Primaria` },
+    en: { chooseCourse: 'Or pick your year', course: (n: number) => `Primary ${n} revision` },
+} as const;
 
 export default function NotFoundContent() {
     const t = useTranslations('NotFound');
+    const copy = COPY[useLocale() === 'en' ? 'en' : 'es'];
 
     return (
         <div className="min-h-[80vh] bg-[#7DD3FC] flex flex-col items-center justify-center relative overflow-hidden rounded-3xl m-4">
@@ -61,8 +69,24 @@ export default function NotFoundContent() {
                         className="inline-flex items-center gap-2 px-8 py-4 bg-brand-orange text-white rounded-full font-bold text-lg shadow-lg hover:bg-orange-600 hover:scale-105 transition-all"
                     >
                         <Home className="w-5 h-5" />
-                        {t('home')}
+                        {t('button')}
                     </Link>
+
+                    <nav aria-label={copy.chooseCourse} className="mt-8">
+                        <p className="mb-3 text-base font-bold text-[#1E3A5F]">{copy.chooseCourse}</p>
+                        <ul className="flex flex-wrap justify-center gap-2">
+                            {COURSES.map((n) => (
+                                <li key={n}>
+                                    <Link
+                                        href={paths.curso(String(n))}
+                                        className="inline-block rounded-full bg-white/90 px-4 py-2 text-base font-bold text-[#1E3A5F] shadow hover:bg-white"
+                                    >
+                                        {copy.course(n)}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </nav>
                 </motion.div>
             </div>
         </div>

@@ -39,7 +39,8 @@ export default function LanguageSelector() {
                 onClick={toggleOpen}
                 disabled={isPending}
                 className="flex items-center gap-2 px-3 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-                aria-label="Select Language"
+                aria-label={`Select language: ${locale.toUpperCase()}`}
+                aria-expanded={isOpen}
             >
                 <Globe className="w-5 h-5 text-gray-600 dark:text-gray-300" />
                 <span className="font-semibold text-gray-700 dark:text-gray-200 uppercase">

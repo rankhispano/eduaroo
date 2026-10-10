@@ -1,16 +1,12 @@
+import { staticPageMetadata } from '@/lib/seo/pages';
+import { toSiteLocale } from '@/lib/seo/site';
 import { useTranslations } from 'next-intl';
 
 import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
-    const params = await props.params;
-    const { locale } = params;
-    const t = await getTranslations({ locale, namespace: 'BlogPage' });
-
-    return {
-        title: t('title'),
-        description: t('description')
-    };
+    const { locale } = await props.params;
+    return staticPageMetadata('blog', toSiteLocale(locale));
 }
 
 export default function BlogPage() {

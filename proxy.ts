@@ -1,28 +1,13 @@
-import { NextRequest } from 'next/server';
-import { NextResponse } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
 
-const intlMiddleware = createMiddleware(routing);
-
-export default function middleware(request: NextRequest) {
-    const { pathname } = request.nextUrl;
-
-    if (
-        pathname === '/' ||
-        pathname === '/politica-de-privacidad' ||
-        pathname === '/privacy-policy' ||
-        /^\/repaso(\/|$)/.test(pathname)
-    ) {
-        return NextResponse.next();
-    }
-
-    return intlMiddleware(request);
-}
+// El español no lleva prefijo (/primaria/...) y el inglés cuelga de /en. Las redirecciones de URLs antiguas
+// (con /es, /learning, /repaso...) están en next.config.ts y se aplican antes que este middleware.
+export default createMiddleware(routing);
 
 export const config = {
     // Match all pathnames except for
-    // - … if they start with `/api`, `/_next` or `/_vercel`
+    // - … if they start with `/api`, `/og` (imágenes Open Graph), `/_next` or `/_vercel`
     // - … the ones containing a dot (e.g. `favicon.ico`)
-    matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
+    matcher: ['/((?!api|og|_next|_vercel|.*\\..*).*)']
 };
