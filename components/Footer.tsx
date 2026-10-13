@@ -1,13 +1,12 @@
-'use client';
-
 import { Link } from '@/i18n/navigation';
-import { useLocale, useTranslations } from 'next-intl';
+import { getLocale, getTranslations } from 'next-intl/server';
+import ResourceDirectory from '@/components/resources/ResourceDirectory';
 import { curriculum } from '@/src/data/curriculum';
 import { paths } from '@/lib/seo/urls';
 
-export default function Footer() {
-    const t = useTranslations('Footer');
-    const es = useLocale() !== 'en';
+export default async function Footer() {
+    const t = await getTranslations('Footer');
+    const es = (await getLocale()) !== 'en';
     const currentYear = new Date().getFullYear();
 
     return (
@@ -62,6 +61,16 @@ export default function Footer() {
                 </div>
             </div>
 
+            {es && (
+                <div className="max-w-7xl mx-auto border-t border-slate-800 px-6 py-10">
+                    <div className="mb-6 flex flex-wrap gap-6 text-sm font-bold">
+                        <Link href={paths.resources()} className="text-white hover:underline">Todos los recursos gratis →</Link>
+                        <Link href={paths.compare()} className="text-white hover:underline">Comparativas de plataformas →</Link>
+                        <Link href={paths.games()} className="text-white hover:underline">Juegos educativos →</Link>
+                    </div>
+                    <ResourceDirectory compact />
+                </div>
+            )}
             {/* Bottom bar */}
             <div className="border-t border-slate-800">
                 <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">

@@ -1,6 +1,10 @@
 // Lista de páginas públicas indexables. La usan el sitemap y los tests de CI.
 // Solo entran URLs 200, canónicas e indexables (sin noindex ni parámetros).
 
+import { resourceGuides, RESOURCE_UPDATED } from '@/lib/resources/catalog';
+import { comparisons } from '@/lib/resources/comparisons';
+import { summerTopics } from '@/lib/resources/worksheets';
+import { getActivitySets } from '@/content/activities/registry';
 import { curriculum } from '@/src/data/curriculum';
 import { getActivityPages, latest } from './content';
 import { GAMES_LAST_MODIFIED, games, INFO_PAGES_LAST_MODIFIED } from './games';
@@ -47,5 +51,13 @@ export async function getIndexableRoutes(): Promise<IndexableRoute[]> {
         for (const game of games) routes.push({ path: urls.game(locale, game), lastModified: GAMES_LAST_MODIFIED });
     }
 
+    // La biblioteca nueva está escrita en español; no inventamos versiones inglesas indexables.
+    routes.push({ path: urls.resources('es'), lastModified: RESOURCE_UPDATED }, { path: urls.compare('es'), lastModified: RESOURCE_UPDATED });
+    for (const guide of resourceGuides) routes.push({ path: urls.resource('es', guide.slug), lastModified: RESOURCE_UPDATED });
+    for (const comparison of comparisons) routes.push({ path: urls.comparison('es', comparison.slug), lastModified: RESOURCE_UPDATED });
+    for (const set of getActivitySets('es')) {
+        routes.push({ path: urls.worksheet('es', set.cursoId, set.asignaturaId, set.temaId), lastModified: RESOURCE_UPDATED });
+    }
+    for (const grade of Object.keys(summerTopics)) routes.push({ path: urls.summerBook('es', grade), lastModified: RESOURCE_UPDATED });
     return routes;
 }

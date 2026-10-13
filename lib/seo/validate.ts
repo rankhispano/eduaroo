@@ -1,5 +1,11 @@
 // Validación en build de los textos SEO generados desde plantillas: longitudes y duplicados.
 // Se ejecuta desde app/sitemap.ts, así que un título repetido o fuera de rango rompe `next build`.
+import { getActivitySets } from '@/content/activities/registry';
+import { resourceGuides } from '@/lib/resources/catalog';
+import { comparisons } from '@/lib/resources/comparisons';
+import { resourcesSeo, compareSeo, summerBookSeo } from '@/lib/resources/seo';
+import { summerTopics } from '@/lib/resources/worksheets';
+import { worksheetSeo } from '@/lib/resources/topics';
 import { catalog } from './catalog';
 import { finalTitle } from './metadata';
 import { staticPages } from './pages';
@@ -37,6 +43,13 @@ export function validateGeneratedMetadata(): SeoIssue[] {
     for (const game of gameCatalog) entries.push({ path: paths.game(game.slug), text: game.es });
     if (englishIndexable) entries.push({ path: localize('en', paths.home()), text: templates.en.home() });
 
+    entries.push({ path: paths.resources(), text: resourcesSeo }, { path: paths.compare(), text: compareSeo });
+    for (const guide of resourceGuides) entries.push({ path: paths.resource(guide.slug), text: guide });
+    for (const comparison of comparisons) entries.push({ path: paths.comparison(comparison.slug), text: comparison });
+    for (const set of getActivitySets('es')) {
+        entries.push({ path: paths.worksheet(set.cursoId, set.asignaturaId, set.temaId), text: worksheetSeo(set) });
+    }
+    for (const grade of Object.keys(summerTopics)) entries.push({ path: paths.summerBook(grade), text: summerBookSeo(grade) });
     const issues: SeoIssue[] = [];
     const titles = new Map<string, string>();
     const descriptions = new Map<string, string>();

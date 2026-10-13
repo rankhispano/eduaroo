@@ -1,7 +1,7 @@
 'use client';
 
 import { Link, usePathname } from '@/i18n/navigation';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import LanguageSelector from './LanguageSelector';
 import MegaMenu from './MegaMenu';
 import { Menu } from 'lucide-react';
@@ -11,6 +11,7 @@ import { ThemeToggle } from './ThemeToggle';
 
 export default function Navbar() {
     const t = useTranslations('Navigation');
+    const es = useLocale() === 'es';
     const [isOpen, setIsOpen] = useState(false);
     const pathname = usePathname();
     const isGamesPage = pathname?.startsWith('/games');
@@ -38,6 +39,7 @@ export default function Navbar() {
                             {t('games')}
                         </Link>
 
+                        {es && <Link href="/recursos" className="text-gray-700 dark:text-gray-300 hover:text-brand-blue px-3 py-2 rounded-md transition-colors">Recursos gratis</Link>}
                         <div className="flex items-center gap-4 ml-6 border-l pl-6 border-gray-200 dark:border-gray-700">
 
                             <ThemeToggle />
@@ -65,6 +67,10 @@ export default function Navbar() {
             {isOpen && (
                 <div className="md:hidden px-4 pt-2 pb-4 space-y-1 bg-white dark:bg-black shadow-lg border-t border-gray-100 dark:border-gray-800">
                     <div className="px-3 py-2">
+                        {es && <>
+                            <Link href="/recursos" onClick={() => setIsOpen(false)} className="block px-3 py-2 font-bold">Recursos gratis</Link>
+                            <Link href="/comparar" onClick={() => setIsOpen(false)} className="block px-3 py-2 font-bold">Comparativas</Link>
+                        </>}
                         <Link
                             href="/games"
                             onClick={() => setIsOpen(false)}

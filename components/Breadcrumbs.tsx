@@ -1,5 +1,6 @@
 'use client';
 
+import { isSpanishResourcePath } from '@/lib/resources/catalog';
 import { Link, usePathname } from '@/i18n/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import { ChevronRight, Home } from 'lucide-react';
@@ -45,7 +46,7 @@ export default function Breadcrumbs() {
     const pathSegments = pathname.split('/').filter(Boolean);
 
     // Don't show on home page
-    if (pathSegments.length === 0) return null;
+    if (pathSegments.length === 0 || isSpanishResourcePath(pathname)) return null;
 
     // Las páginas del árbol /primaria, los juegos y las legales pintan sus propias migas en el servidor
     // (components/seo/BreadcrumbNav.tsx), con BreadcrumbList JSON-LD

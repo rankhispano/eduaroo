@@ -1,5 +1,7 @@
 # SEO_REPORT · Eduaroo
 
+> Actualización del 13 de octubre de 2026: la biblioteca de recursos y comparativas amplía el sitemap a 568 URLs indexables, con cero P0/P1 en el rastreo. El informe de abajo documenta la auditoría anterior de 288 URLs. Véase [recursos y comparativas](docs/recursos-seo-competencia.md).
+
 Rama `seo/technical-seo` (worktree `.claude/worktrees/seo`), un commit por fase. Estado inicial en [SEO_AUDIT.md](SEO_AUDIT.md) y `seo-audit.csv`; estado final en `seo-audit-after.csv`.
 
 ## 1. Resumen

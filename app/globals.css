@@ -58,3 +58,49 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .animate-pulse-soft { animation: none; }
 }
+
+/* Biblioteca de recursos: mantiene los colores, tipografía y tarjetas de Eduaroo. */
+.resource-page { background: #f8fafc; color: #0f172a; }
+.dark .resource-page { background: #020617; color: #f1f5f9; }
+.resource-hero { max-width: 1152px; margin: auto; padding: 56px 24px 40px; }
+.resource-hero h1 { max-width: 900px; margin: 16px 0 24px; font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 900; line-height: 1.15; }
+.resource-eyebrow { color: #075985; font-size: 14px; font-weight: 800; }
+.dark .resource-eyebrow { color: #7dd3fc; }
+.resource-lead { max-width: 850px; margin-bottom: 24px; font-size: 20px; line-height: 1.7; }
+.resource-body { display: flex; flex-direction: column; gap: 40px; max-width: 1152px; margin: auto; padding: 0 24px 64px; }
+.resource-tool { display: flex; flex-direction: column; gap: 20px; border: 1px solid #cbd5e1; border-radius: 24px; padding: 24px; background: white; }
+.dark .resource-tool { border-color: #334155; background: #0f172a; }
+.resource-label { display: flex; flex-direction: column; gap: 8px; font-size: 14px; font-weight: 700; }
+.resource-input { border: 1px solid #94a3b8; border-radius: 10px; padding: 10px 12px; background: white; color: #0f172a; font-size: 16px; font-weight: 400; min-width: 0; }
+.dark .resource-input { background: #1e293b; color: #f1f5f9; }
+.resource-button, .resource-button-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 12px; padding: 12px 18px; font-weight: 800; font-size: 16px; cursor: pointer; }
+.resource-button { background: #075985; color: white; }
+.resource-button:hover { background: #0c4a6e; }
+.resource-button-secondary { border: 1px solid #94a3b8; background: white; color: #0f172a; }
+.resource-button-secondary:hover { background: #e0f2fe; }
+.dark .resource-button-secondary { background: #1e293b; color: #f1f5f9; border-color: #64748b; }
+.resource-link { color: #075985; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.dark .resource-link { color: #7dd3fc; }
+.resource-page :focus-visible { outline: 3px solid #f97316; outline-offset: 3px; }
+.handwriting-line { height: 48px; margin-top: 12px; border-top: 1px solid #94a3b8; border-bottom: 1px solid #94a3b8; background: repeating-linear-gradient(to bottom, transparent 0, transparent 23px, #e2e8f0 24px, transparent 25px); }
+.handwriting-grid { background-image: linear-gradient(#e2e8f0 1px, transparent 1px), linear-gradient(90deg,#e2e8f0 1px,transparent 1px); background-size: 16px 16px; }
+.print-only { display: none; }
+.worksheet-topic + .worksheet-topic { margin-top: 32px; }
+.worksheet-solutions { margin-top: 40px; border-top: 2px solid #cbd5e1; padding-top: 20px; }
+@media (max-width: 640px) { .resource-hero { padding-top: 32px; } .resource-tool { padding: 18px; } }
+@media (prefers-reduced-motion: reduce) { .resource-page * { transition: none !important; transform: none !important; } }
+@media print {
+  @page { size: A4; margin: 15mm; }
+  html, body { background: white !important; color: black !important; font-size: 11pt !important; }
+  body:has(.print-sheet) *:not(:has(.print-sheet)):not(.print-sheet):not(.print-sheet *) { display: none !important; }
+  body:has(.print-sheet) *:has(.print-sheet) { display: block !important; position: static !important; min-height: 0 !important; height: auto !important; margin: 0 !important; padding: 0 !important; border: 0 !important; background: white !important; overflow: visible !important; }
+  .no-print { display: none !important; }
+  .print-sheet, .print-sheet.print-only { display: block !important; width: 100%; padding: 0 !important; border: 0 !important; background: white !important; color: #000 !important; }
+  .print-sheet .print-only { display: block !important; }
+  .print-sheet .no-print { display: none !important; }
+  .print-keep { break-inside: avoid; }
+  .worksheet-solutions, .worksheet-topic + .worksheet-topic { break-before: page; }
+  .print-sheet h2 { font-size: 20pt; } .print-sheet h3 { font-size: 16pt; }
+  .timetable-sheet table { min-width: 0 !important; } .timetable-sheet td { height: 20mm; }
+  .print-sheet a { color: black; text-decoration: none; }
+}

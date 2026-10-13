@@ -1,5 +1,6 @@
 'use client';
 
+import { isSpanishResourcePath } from '@/lib/resources/catalog';
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { useState, useTransition } from 'react';
@@ -16,7 +17,7 @@ export default function LanguageSelector() {
     const onSelectChange = (nextLocale: string) => {
         setIsOpen(false);
         startTransition(() => {
-            router.replace(pathname, { locale: nextLocale });
+            router.replace(nextLocale === 'en' && isSpanishResourcePath(pathname) ? '/' : pathname, { locale: nextLocale });
         });
     };
     /*

@@ -49,6 +49,19 @@ export default async function HomeSeo({ locale }: { locale: SiteLocale }) {
 
     return (
         <>
+            {locale === 'es' && (
+                <section className="bg-sky-50 px-5 py-10 text-slate-950 dark:bg-slate-900 dark:text-white">
+                    <div className="mx-auto max-w-6xl">
+                        <h2 className="mb-3 text-2xl font-black">Un recurso para lo que quieres practicar hoy</h2>
+                        <p className="mb-5">Herramientas, fichas con soluciones, actividades por edad y planes de repaso conectados con los temas de Eduaroo.</p>
+                        <div className="flex flex-wrap gap-4">
+                            <Link href={paths.resources()} className="resource-button">Explorar recursos gratis →</Link>
+                            <Link href={paths.resource('fichas-para-imprimir')} className="resource-button-secondary">Fichas para imprimir</Link>
+                            <Link href={paths.compare()} className="resource-button-secondary">Comparar plataformas</Link>
+                        </div>
+                    </div>
+                </section>
+            )}
             <section className="bg-slate-50 px-5 py-14 text-slate-950 dark:bg-slate-950 dark:text-white sm:px-8 lg:px-12" aria-labelledby="home-h1">
                 <div className="mx-auto max-w-6xl space-y-10">
                     <header className="space-y-5">

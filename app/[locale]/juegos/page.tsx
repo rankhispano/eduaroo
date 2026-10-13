@@ -1,3 +1,5 @@
+import ResourceCards from '@/components/resources/ResourceCards';
+import { resourceGuides } from '@/lib/resources/catalog';
 import { GamesCrumbs } from '@/components/seo/StaticCrumbs';
 import { staticPageMetadata } from '@/lib/seo/pages';
 import { toSiteLocale } from '@/lib/seo/site';
@@ -34,6 +36,12 @@ export default async function GamesPage(props: { params: Promise<{ locale: strin
                 </div>
 
                 <GamesList />
+                {locale === 'es' && <section className="mt-12 space-y-5">
+                    <h2 className="text-2xl font-black">Más juegos para practicar lo del cole</h2>
+                    <p>Elige una habilidad y practica a tu ritmo: operaciones, reloj, palabras y geografía, con ejemplos y explicaciones.</p>
+                    <ResourceCards guides={resourceGuides.filter(guide => ['tablas-de-multiplicar','sumas-y-restas','divisiones-para-ninos','aprender-a-leer-el-reloj','dictados-para-ninos','mapa-de-espana'].includes(guide.slug))}/>
+                    <Link href="/recursos" className="resource-link">Ver todas las herramientas y recursos →</Link>
+                </section>}
             </div>
         </div>
         </>
