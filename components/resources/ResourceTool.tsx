@@ -16,10 +16,13 @@ import { HandwritingTool, TimetableTool } from './PrintTools';
 import SpainMap from './SpainMap';
 import { Link } from '@/i18n/navigation';
 import { paths } from '@/lib/seo/urls';
+import MentalMathGame from './MentalMathGame';
 export default function ResourceTool({ guide }: { guide: ResourceGuide }) {
     switch (guide.tool) {
         case 'arithmetic':
-            return <ArithmeticTool slug={guide.slug} />;
+            return guide.slug === 'calculo-mental'
+                ? <MentalMathGame />
+                : <ArithmeticTool slug={guide.slug} />;
         case 'clock':
             return <ClockTool />;
         case 'fractions':

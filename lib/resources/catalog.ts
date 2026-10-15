@@ -250,10 +250,10 @@ export const resourceGuides: ResourceGuide[] = [
     {
         slug: 'calculo-mental',
         label: 'Cálculo mental',
-        title: 'Cálculo mental para niños: práctica y trucos',
+        title: 'Cálculo mental para niños: juega al reto relámpago',
         description:
-            'Practica cálculo mental gratis con sumas, restas, multiplicaciones y divisiones. Usa descomposición, dobles y compensación para explicar tu respuesta.',
-        intro: 'El cálculo mental también consiste en elegir una estrategia. Practica sin reloj, compara caminos y explica cómo has pensado la cuenta. La precisión y la comprensión ayudan a ganar soltura antes de buscar rapidez.',
+            'Juego de cálculo mental gratis de 1º a 6º de Primaria: 10 preguntas, 10 segundos por respuesta y soluciones con trucos. Elige tu curso y tus operaciones.',
+        intro: '¡Pon tu mente en marcha con el reto relámpago! Elige tu curso y las operaciones que ya conoces: tendrás 10 preguntas y 10 segundos para cada respuesta. Si fallas o se acaba el tiempo, verás la solución y un truco durante 5 segundos antes de seguir. ¡Suma aciertos y supera tu récord!',
         group: 'Matemáticas',
         icon: '⚡',
         ages: '1º–6º de Primaria',
@@ -261,9 +261,9 @@ export const resourceGuides: ResourceGuide[] = [
         match: 'suma|resta|tablas|operaciones|porcentajes',
         tool: 'arithmetic',
         steps: [
-            'Descompón los números en decenas y unidades.',
-            'Usa dobles conocidos y números cercanos a una decena.',
-            'Comprueba el resultado con una segunda estrategia.',
+            'Elige tu curso de Primaria y desmarca las operaciones que todavía no hayas aprendido.',
+            'Resuelve 10 cálculos con 10 segundos para cada uno. Escribe la respuesta o utiliza el teclado en pantalla.',
+            'Si fallas o se acaba el tiempo, observa la solución durante 5 segundos. Al terminar, repasa tus fallos sin reloj y vuelve a intentarlo.',
         ],
         example: [
             'Calcula 39 + 26 de cabeza.',
@@ -271,11 +271,19 @@ export const resourceGuides: ResourceGuide[] = [
             'Suma 40 + 26 = 66 y compensa quitando la unidad que añadiste: 66 − 1 = 65.',
         ],
         pitfall:
-            'No conviertas cada sesión en una carrera. Si una estrategia no se entiende, vuelve a dibujos o números más pequeños.',
+            'El curso es orientativo: adapta las operaciones a lo que ya se ha trabajado en clase. Si el reloj agobia, practica primero sin tiempo en el recurso de sumas y restas. Los errores son oportunidades para aprender, no penalizan con puntos negativos.',
         faq: [
             [
-                '¿Hay que responder rápido?',
-                'No. Esta práctica permite pensar sin límite de tiempo.',
+                '¿Cuánto tiempo tengo para responder?',
+                'Cada partida tiene 10 preguntas y dispones de 10 segundos por pregunta. Si fallas o se acaba el tiempo, la solución y un truco aparecen durante 5 segundos antes de pasar automáticamente al siguiente cálculo.',
+            ],
+            [
+                '¿Qué operaciones se incluyen en cada curso?',
+                'En 1º hay sumas y restas hasta 20. En 2º se añaden las tablas del 2, 5 y 10, sin divisiones. Desde 3º aparecen las cuatro operaciones, con divisiones exactas y dificultad creciente. Puedes desmarcar cualquier operación que aún no hayas aprendido.',
+            ],
+            [
+                '¿Cómo funcionan los puntos y el récord?',
+                'Cada acierto suma 100 puntos, más hasta 50 por rapidez y hasta 50 por encadenar aciertos. Los fallos no restan puntos. El récord se guarda en este navegador por curso y combinación de operaciones.',
             ],
             [
                 '¿Qué estrategia sirve para restar números próximos?',
